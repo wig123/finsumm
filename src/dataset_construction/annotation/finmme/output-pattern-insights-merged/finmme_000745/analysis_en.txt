@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Bar Chart
+- Title: Not displayed
+- X-axis: Categories are "2020, 2021, 2022, 1H23, 2023E"
+- Y-axis: Scale range 0—1200, intervals approximately 200, unit indicated by the legend as CNY mn
+- Legend: Red label "Revenue (CNY mn)"
+- Data Labels: The top of each bar is 108, 105, 370, 186, 1100, respectively.
+
+[Data Relationships]
+- Values per period: 2020=108, 2021=105, 2022=370, 1H23=186, 2023E=1100 (CNY mn)
+- Maximum Value: 2023E=1100; Minimum Value: 2021=105; Range = 995
+- Difference between 2022 and 2020 = 262; Difference between 2022 and 2021 = 265
+- Difference between 2023E and 2022 = 730; Difference between 1H23 and 2022 = 184
+- Multiplier Relationship: 2023E/2022≈2.97; 2022/2021≈3.52; 1H23/2020≈1.72
+- 1H23/2023E≈0.17
+
+[Pattern Characteristics]
+The bar heights for 2020 and 2021 are similar, followed by a significant increase in 2022. The 1H23 bar is positioned between 2021 and 2022, remaining below the full-year 2022 level. The 2023E bar is significantly higher than all previous periods, forming a single prominent peak. The overall structure rapidly expands from a dense low-level cluster to a high level.
+
+[Core Insights]
+Core Conclusion: Revenue volume expands significantly during the forecast period, with an accelerating pace.
+
+Business Implications:
+- Historical revenue base was small, allowing expansion potential to be released rapidly.
+- Higher requirements are placed on budget formulation and resource allocation.
+- The forecasted value relies more heavily on execution efficiency and implementation capability.
+
+Risk Concerns:
+- If actual 2023 revenue falls below 70% of the forecast (<770), it may lead to cash flow strain.
+- If actual 2023 revenue is only approximately double that of 1H23 (≈372), the deviation from the forecast would be excessive, impacting the credibility of business planning.

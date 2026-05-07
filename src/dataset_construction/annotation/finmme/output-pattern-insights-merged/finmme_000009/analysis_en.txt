@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Pie chart; title not displayed.
+- Unit: Percentage; numerical values annotated outside each sector (33.65%, 17.82%, 13.52%, 13.24%, 6.43%, 5.27%, 4.39%, 3.28%, 2.41%).
+- Legend Categories: Government, Military, Telecom, Energy, Tobacco, Finance, Media, Education, Transportation, Healthcare, Enterprise & others.
+- Axes: None.
+
+[Data Relationships]
+- Proportion of each category: 33.65%, 17.82%, 13.52%, 13.24%, 6.43%, 5.27%, 4.39%, 3.28%, 2.41% (corresponding to the legend order).
+- Maximum value is Government 33.65%, minimum value is Healthcare 2.41%, a difference of 31.24 percentage points.
+- Government is 15.83 percentage points higher than Military.
+- The difference between Telecom and Enterprise & others is 0.28 percentage points (13.52% vs 13.24%).
+- The total of the top three categories is 64.99%, and the total of the top four categories is 78.23%.
+- The total of the bottom four categories (Finance, Energy, Tobacco, Transportation, Healthcare) is 15.35%.
+- Government is 2.31 percentage points higher than (Military + Telecom) (33.65% vs 31.34%).
+
+[Pattern Characteristics]
+The overall distribution shows an unbalanced structure, with a single sector prominently standing out. The largest sector is slightly higher than the sum of the second and third sectors. The top categories form the main body, while the tail is composed of multiple small sectors, creating a long tail effect. The third and fourth sectors are very close in size, and the difference between the minimum and maximum is significant.
+
+[Core Insights]
+Core Conclusion: Significant reliance on Government, with the head driving the overall performance.
+
+Business Implications:
+- Structural dependence on the Government category
+- Resource allocation favors Government and Military
+- Tail categories have limited impact on the total
+
+Risk Concerns:
+- Government < 31.34%: Dominance declines, decision-making costs rise
+- Total of the bottom four categories > 15.35%: Management complexity increases, efficiency declines

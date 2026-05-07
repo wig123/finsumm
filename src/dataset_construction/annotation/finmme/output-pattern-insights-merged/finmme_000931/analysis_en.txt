@@ -1,0 +1,35 @@
+[Chart Components]
+- Chart Type: Line Chart
+- Title: Global PC shipments with segment detail
+- Y-axis: Units, Range 0–40,000,000 (Scale increment 5,000,000)
+- X-axis: Time, from Mar-18 to Sep-23, Quarterly labels (Mar/Jun/Sep/Dec)
+- Legend: Four series
+  - Desktop PC - Commercial (Red triangle)
+  - Desktop PC - Consumer (Red diamond)
+  - Portable PC - Commercial (Gray triangle)
+  - Portable PC - Consumer (Gray diamond)
+
+[Data Relationships]
+- Mar-18: Desktop-Commercial approx. 14M; Desktop-Consumer approx. 7M; Portable-Commercial approx. 16M; Portable-Consumer approx. 20M.
+- Peak/Trough Values:
+  - Portable-Consumer Peak 35M (Dec-21), Trough approx. 19M (Mar-23), Amplitude ≈ 16M.
+  - Portable-Commercial Peak ≈ 34M (Dec-20), Trough ≈ 20M (Mar-23), Amplitude ≈ 14M.
+  - Desktop-Commercial Peak ≈ 17M (Dec-19), Trough ≈ 11M (Jun-20/ Sep-23), Amplitude ≈ 6M.
+  - Desktop-Consumer Peak ≈ 9M (Sep/Dec-20), Trough ≈ 5M (Mar-20/ Mar-23), Amplitude ≈ 4M.
+- Dec-21: Portable-Consumer 35M, Portable-Commercial ≈ 33M, Desktop-Commercial ≈ 15M, Desktop-Consumer ≈ 9M; Total Portable ≈ 68M, Total Desktop ≈ 24M, Difference ≈ 44M.
+- Sep-23: Desktop-Commercial ≈ 11M; Desktop-Consumer ≈ 6M; Portable-Commercial ≈ 22–23M; Portable-Consumer ≈ 27M.
+
+[Pattern Characteristics]
+All four curves show clear seasonal fluctuations, with the amplitude of the two Portable PC series significantly greater than that of the Desktop PC series. During 2020–2021, Portable PC shipments were generally in the highest range of the entire period, followed by a noticeable decline but still remaining above the initial phase. The two Desktop PC series maintain a generally lower level and narrower fluctuation, slightly lower in the latter half of the sample period compared to the middle and earlier parts. A long-term layered structure is formed among the four lines, with Portable PCs consistently higher than Desktop PCs, and a relatively stable gap maintained between the Consumer and Commercial segments.
+
+[Core Insights]
+Core Conclusion: The PC demand structure is structurally biased towards Portable PCs, and the proportion of Desktop PCs continues to shrink.
+
+Business Implications:
+- The overall market relies more heavily on Portable PC shipment contributions.
+- The Desktop PC product line has limited ability to drive total volume growth.
+- The structure between the Commercial and Consumer segments is unlikely to change fundamentally in the short term.
+
+Risk Focus:
+- If Portable-Consumer drops below 20M, it will significantly drag down the overall PC shipment volume.
+- If Desktop-Commercial remains near the 11M low level for an extended period, it will weaken revenue related to commercial refresh cycles.

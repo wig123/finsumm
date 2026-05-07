@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Line Chart
+- Title/Legend: Red line "OIL oil production"
+- Y-axis: Unit is "(kbpd)", range approximately 45—70, scale interval approximately 5
+- X-axis: Time scale from Oct-18 to Oct-23, marked semi-annually (Apr/Oct)
+
+[Data Relationships]
+- Initial value in Oct-18 approximately 66–67 kbpd
+- Lowest point approximately 49 kbpd, located near Oct-19
+- Apr-20 approximately 61 kbpd (about 12 kbpd higher than the lowest point)
+- Oct-20 approximately 60 kbpd; Apr-21 approximately 59 kbpd
+- Apr-22 approximately 61–62 kbpd; Oct-22 approximately 63–64 kbpd
+- Apr-23 approximately 65–66 kbpd; Final value in Oct-23 approximately 67–68 kbpd
+- Difference between initial and final values approximately 1–2 kbpd
+- Total range (high-low difference) approximately 18–19 kbpd
+
+[Pattern Characteristics]
+- The series experienced a significant step-like decline near the starting point, hitting the global low, followed by a rapid rebound back to the previous range.
+- Subsequently, it fluctuated slightly around the median level for a considerable period, exhibiting short-term sawtooth variations.
+- In the latter half of the period, volatility persisted, but the center of gravity gradually shifted upward, concluding near the higher levels of the entire period.
+
+[Core Insights]
+Core Conclusion: Following a sharp contraction, production gradually recovered and slightly exceeded the initial level.
+
+Business Implications:
+- Overall supply capacity was restored and slightly enhanced following the volatility.
+- Capacity utilization appeared somewhat dispersed during the intermediate phase, with limited stability.
+- The upward shift in the production center of gravity in the later period is conducive to increasing the scale of available supply.
+
+Risk Focus:
+- If it falls below 55 kbpd again, it could trigger supply tightness and performance pressure.
+- If it remains near 60 kbpd for an extended period, it may limit the capacity to meet incremental demand.

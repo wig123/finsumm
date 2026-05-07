@@ -1,0 +1,29 @@
+【图表构成】
+- 类型：折线图
+- 标题：Property loan growth (y-y) by type
+- 横轴：季度，1Q21—4Q23
+- 纵轴：百分比，-10.0%—20.0%（标示0.0%、10.0%、-10.0%）
+- 图例：Total property loans（灰）、Mortgage loans（红）、Property developer loans（橙）、Subsidized housing developer loan（浅橙）
+
+【数据关系】
+- Mortgage：1Q21约15%（高点），4Q23约-3%（低点），区间变动约18pp。
+- Total property loans：1Q21约11%，4Q23约-2%，变动约13pp；高/低点约11%（1Q21）、-2%（4Q23）。
+- Property developer loans：1Q21约4%，3Q21约0%为低，1Q23约6%为高，高低差约6pp。
+- Subsidized housing developer loan：3Q21约-2%为低，1Q23约1%为高，区间差约3pp；1Q21约-1%，4Q23约0%。
+
+【模式特征】
+- 各序列由早期的正区间逐步向零轴收敛，Mortgage与Total在后期处于零轴下方。
+- Property developer loans先弱后强形成单次峰值后回落，形态呈“U”后再转平。
+- Subsidized housing developer loan始终低振幅围绕零轴，期间与其他序列出现多次交叉。
+
+【核心洞察】
+核心结论：按揭贡献不足，增长更多依赖开发贷
+
+业务含义：
+- 组合的主导来源从按揭转向开发
+- 总增速受按揭表现拖累
+- 补贴房开发对总量影响有限
+
+风险关注：
+- Total property loans≤0%：总量同比为负，规模下滑
+- Mortgage≤-3%：合计增速被拉低，结构失衡

@@ -1,0 +1,30 @@
+【图表构成】
+- 类型：多序列折线图
+- 标题：未见正式标题；图中含注释“Growth post GFC…”与“…followed by years of stagnation”
+- 横轴：年份，范围2004—2019
+- 纵轴：Index（base = 100），刻度约80—130
+- 图例：Seats（墨绿色粗线）、Total population（灰色细线）、Working age population（橙色虚线/点）
+
+【数据关系】
+- 2004年三序列均≈100（基期）。
+- Seats：最低≈96（2010），最高≈120（2018），2019≈112；高低差≈24。
+- Total population：98—101区间，2019≈99；高低差≈3。
+- Working age population：最高≈100（2004），2019≈88；高低差≈12。
+- 2019对比：Seats≈112、Total≈99、Working age≈88；Seats较Total+13、较Working age+24；Total较Working age+11。
+- 2018对比：Seats≈120、Total≈100、Working age≈89；Seats较Total+20、较Working age+31。
+
+【模式特征】
+- 座位序列在2004后经历先升后降，振幅显著；总人口序列整体近似水平；工作年龄人口序列呈连续下行。
+- 约2010附近三者开始明显分化，2018附近间距最宽，2019有所收敛但仍未重合。
+
+【核心洞察】
+核心结论：座位供给高于人口基数，配置效率偏低。
+
+业务含义：
+- 供给相对人口基础过量
+- 载客效率与单位收益受压
+- 扩张更需关注结构优化
+
+风险关注：
+- Seats-Total差≥20（2018）：低载率、现金流弱
+- Seats-Working差≥30（2018）：收益下滑

@@ -1,0 +1,31 @@
+【图表构成】
+- 类型：分组柱状图
+- 标题：未显示主标题
+- 横轴：城市类别（Zurich、Spain、Frankfurt、Paris）
+- 纵轴：YoY % change，范围0%—12%
+- 图例：两系列——Capacity、Consensus
+- 标注：各柱顶部显示具体百分比；图中含虚线箭头注记
+
+【数据关系】
+- Zurich：Capacity 9.3%，Consensus 5.8%，差值+3.5个百分点
+- Spain：Capacity 9.7%，Consensus 5.5%，差值+4.2个百分点
+- Frankfurt：Capacity 6.8%，Consensus 9.2%，差值−2.4个百分点
+- Paris：Capacity 3.6%，Consensus 4.5%，差值−0.9个百分点
+- Capacity范围：3.6%—9.7%，跨度6.1个百分点；Consensus范围：4.5%—9.2%，跨度4.7个百分点
+- 最大值：Spain Capacity 9.7%；最小值：Paris Capacity 3.6%
+- Consensus最高：Frankfurt 9.2%；最低：Paris 4.5%
+
+【模式特征】  
+四个城市的两组柱体在同一坐标系中呈现明显分化的高低排序，Spain和Zurich整体在上方，Paris在下方。Capacity与Consensus在各城市之间存在方向相反的成对差异：Zurich与Spain中前者更高，而Frankfurt与Paris中后者更高，且Frankfurt的差异幅度最为突出。图中用绿色和红色虚线箭头强调了这两类相反关系的成组特征。
+
+【核心洞察】  
+核心结论：各城市的自身预期与共识判断出现方向性分歧。
+
+业务含义：  
+- Zurich、Spain对自身增速判断比外部更乐观。  
+- Frankfurt、Paris更符合外部或偏向外部视角。  
+- 不同城市决策依据的一致性和协同程度存在差异。  
+
+风险关注：  
+- 若Zurich、Spain实际低于Capacity而接近Consensus，可能导致资源投入过度。  
+- 若Frankfurt、Paris实际接近Consensus高值，Capacity偏低可能造成增长机会损失。

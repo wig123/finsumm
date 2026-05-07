@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Stacked bar chart.
+- Title: Not indicated.
+- X-axis: Year scales are 1990, 1995, 2000, 2005, 2010, 2015, 2019, 2030E, 2050E.
+- Y-axis: Carbon emissions (million tonnes), range 0–1,000.
+- Legend: Cars, Heavy vehicles, Aviation, Vans, Other road transport, Inland navigation, Rail (different colors).
+- Others: Annotation circled at 2050E; annotation text on the right includes a reduction explanation of “~78%”.
+
+[Data Relationships]
+- Total emissions in 2019 are approximately 900 million tonnes.
+- 2000 and 2005 are the highest in the entire chart, totaling approximately 900–950 million tonnes (peak).
+- Total volume in 1990 is approximately 700–750 million tonnes; about 150–200 million tonnes lower than 2019.
+- Total volume in 2030E is approximately 700–750 million tonnes; about 150–200 million tonnes lower than 2019.
+- Total volume in 2050E is close to 0; a reduction of approximately 900 million tonnes compared to 2019.
+- 2019 components (estimated): Cars approximately 400–450, Heavy vehicles approximately 200–250, Aviation approximately 100, Vans approximately 100, Other road transport approximately 50, Inland navigation and Rail each approximately ≈10 (unit: million tonnes).
+- Annotation: If all categories except Heavy vehicles and Aviation are reduced to zero, these two categories still require a reduction of approximately 78% compared to 2019.
+
+[Pattern Characteristics]
+The stacked bars form a plateau between 2000–2005, then gradually contract, with 2030E and 2050E significantly positioned low. The structure is dominated by two categories; the remaining proportions are small and change smoothly, showing an overall imbalanced concentration. The endpoint is circled, and the annotation points out that even if other categories are zeroed out, an additional reduction requirement is still imposed on the two dominant categories.
+
+[Core Insights]
+Core Conclusion: The success or failure of emission reduction depends on Heavy vehicles and Aviation.
+
+Business Implications:
+- High emission concentration, requiring focused governance.
+- Zeroing out non-dominant categories still requires critical reductions from the key categories.
+- The 2030E level determines the difficulty of achieving 2050E targets.
+
+Risk Concerns:
+- If Heavy vehicles/Aviation reduction is <78%, 2050E will be difficult to approach 0.
+- If the 2030E total volume is >750 million tonnes, subsequent emission reduction pressure will increase.

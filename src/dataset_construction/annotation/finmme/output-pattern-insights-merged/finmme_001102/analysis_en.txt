@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Dual line chart (percentage).
+- Y-axis: Average discount to list price, scale range 8.0%—13.0%, marked every 0.5 percentage points.
+- X-axis: Time axis, labeled from Jan-13 to Jan-24, semi-annual scale (Jan/Jul).
+- Legend: Light orange “Average %”; Dark red “6 per. Mov. Avg. (Average %)”. The chart includes a German flag identifier.
+
+[Data Relationships]
+- Jan-13: Light orange approximately 11.8%, red line approximately 11.9%.
+- The peak value for the light orange line occurred between 2015–2016, ranging from 12.8%—13.0%; the red line peaked at approximately 12.3% (around 2016).
+- The trough value for the light orange line was in mid-2020, approximately 8.5%; the red line's lowest point was approximately 9.6% (between 2021–2022).
+- Jan-24: Light orange approximately 11.0%—11.2%, red line approximately 10.7%.
+- Magnitude: The difference between the maximum and minimum for the light orange line is approximately 4.4 percentage points; the difference for the red line is approximately 2.7 percentage points.
+- The red line was approximately 12.1% at the beginning of 2019, and approximately 10.1% at the beginning of 2021, with a difference of approximately 2.0 percentage points.
+
+[Pattern Characteristics]
+The lines generally rise first, then fall back, stabilize near the low point for a period, and then move upward again towards the central level near the end.
+The light orange line shows significant high-frequency fluctuations throughout the entire period, oscillating widely above and below the dark red moving average; the dark red line is relatively smoother, forming a single peak before slowly declining and slightly recovering in the later period.
+The light orange line shows several significant spikes around 2020, while the area around mid-2020 represents the clear trough region for the entire period.
+
+[Core Insights]
+Core Conclusion: The discount level experienced a round of increase followed by a decline, and has currently returned to the moderate range.
+
+Business Implications:
+- Negotiating room was larger in the early period, followed by a phased narrowing.
+- The magnitude of discount adjustments between 2019–2022 significantly impacted transaction pricing.
+- The discount in Jan-24 recovered from the trough, indicating increased negotiation sensitivity recently.
+
+Risk Concerns:
+- If discounts approach 13% again, it may compress the revenue rate and amplify profit volatility.
+- If discounts fall below 9%, it may weaken the appeal to price-sensitive customers and affect transaction volume.

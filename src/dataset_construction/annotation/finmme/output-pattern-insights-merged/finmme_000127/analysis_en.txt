@@ -1,0 +1,38 @@
+[Chart Components]
+- Type: Bar chart and line chart
+- Title: Untitled
+- Axes:
+  - Left Y-axis: Net Debt (Unit: INR mn)
+  - Right Y-axis: Net Debt to EBITDA Ratio
+  - X-axis: Fiscal Year (FY12 to FY26F)
+- Legend:
+  - Red bar chart represents: Net Debt (INR mn)
+  - Gray line chart represents: Net Debt to EBITDA (RHS)
+
+[Data Relationships]
+- Key Figures and Changes:
+  - Net Debt was close to zero between FY12 and FY14, increased significantly starting in FY15, peaked in FY18 at approximately 60,000 million Indian Rupees, and has gradually declined thereafter.
+  - The Net Debt to EBITDA ratio peaked in FY18, followed by a downward trend.
+
+- Extremes Comparison:
+  - Net Debt peaked in FY18.
+  - The Net Debt to EBITDA ratio reached a maximum value of nearly 4.0 in FY18.
+
+- Key Trends:
+  - Net Debt grew rapidly from FY12 to FY18, followed by a downward trend.
+  - The Net Debt to EBITDA ratio entered a declining channel after FY18, projected to fall to near-zero levels by FY26F.
+
+[Pattern Characteristics]
+The red bars were at a low level, containing small negative values, from FY12–FY14, rapidly increased starting in FY15, forming a single sharp peak in FY18; thereafter, they declined year by year, approaching the zero axis at the end. The gray line synchronized with the bar peak, then continuously converged along the right axis. In the middle section (FY20–FY23), the bars remained in a high range, and the line did not show a significant reversal.
+
+[Core Insights]
+Core Conclusion: Leverage level has significantly improved, and the debt burden tends to ease.
+
+Business Implications:
+- Decreased reliance on debt, resulting in a lighter capital structure.
+- Increased flexibility in fund deployment.
+- Reduced sensitivity of debt servicing to earnings volatility.
+
+Risk Concerns:
+- Ratio ≥ 3.0 indicates increased repayment burden.
+- Net Debt ≥ 40,000 million indicates reduced financial flexibility.

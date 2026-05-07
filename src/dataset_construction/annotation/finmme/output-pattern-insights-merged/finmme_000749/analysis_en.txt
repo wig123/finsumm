@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Pie Chart
+- Title: Not displayed
+- Axes: None
+- Legend: No separate legend; each sector is labeled with category and amount (Unit: USD bn)
+- Sector Labels: Clean Electricity Tax Credits 161; Air Pollution, Transportation, Infrastructure 40; Individual Clean Energy Incentives 37; Clean Manufacturing Tax Credits 37; Clean Fuel and Vehicle Tax Credits 36; Conservation, Forestry 35; Building Efficiency, Electrification, Transmission, Industrial 27; Other Energy and Climate 14
+
+[Data Relationships]
+- Total Amount = 387bn
+- Largest: Clean Electricity Tax Credits 161bn, accounting for approximately 41.6%
+- Second Largest: Air Pollution…40bn, a difference of 121bn from the largest, accounting for approximately 10.3%
+- Smallest: Other Energy and Climate 14bn, a difference of 147bn from the largest, accounting for approximately 3.6%
+- Equal Values: Individual Clean Energy Incentives 37bn and Clean Manufacturing Tax Credits 37bn
+- Proximate Values: Clean Fuel and Vehicle Tax Credits 36bn and Conservation, Forestry 35bn, a difference of 1bn
+- Building Efficiency…27bn; 8bn less than Conservation 35bn, and 13bn more than Other 14bn
+- Total of three “Tax Credits” items = 234bn, accounting for approximately 60.5%; Total of the top two items = 201bn, accounting for approximately 51.9%
+
+[Pattern Characteristics]
+Overall, the structure shows a single large sector occupying nearly half, with the remaining multiple small and medium sectors distributed dispersedly. Excluding the largest sector, the amounts for the remaining categories are relatively close, forming several groups of similar magnitude, with two items having identical amounts and multiple items showing only minor differences. The area of the smallest sector is significantly reduced, showing a substantial disparity compared to the largest sector.
+
+[Core Insights]
+Core Conclusion: Funding is highly concentrated in a single decarbonization instrument, while other areas exhibit a multi-point dispersed pattern.
+
+Business Implications:
+- Overall resource allocation emphasizes tax incentive instruments.
+- Direct fiscal support received by other areas is relatively limited.
+- Equal and proximate amounts indicate that several areas are considered similar in priority.
+
+Risk Concerns:
+- If the total proportion of Tax Credits exceeds 70%, it may weaken the flexibility of support for non-tax instruments.
+- If the proportion of “Other Energy and Climate” remains below 5% long-term, it may make it difficult for marginal innovation or niche projects to secure adequate funding.

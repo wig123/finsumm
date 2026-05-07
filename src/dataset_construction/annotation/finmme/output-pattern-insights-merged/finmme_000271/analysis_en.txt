@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Dual Line Chart (Y-Y%)
+- Title: Main title not displayed; includes a series annotation box on the right
+- Y-axis: -40% to 80%, percentage scale
+- X-axis: Time scale 19/01 to 24/01 (Month/Year)
+- Legend: Orange "Consumer electronics"; Purple "Automotive/industrial machinery"
+- Annotation: 23/12 shows +40.3% and +21.7% respectively
+
+[Data Relationships]
+- 23/12: Consumer electronics +40.3%, Automotive/industrial machinery +21.7%; a difference of 18.6 percentage points
+- 24/01: Consumer electronics approximately 40%, Automotive/industrial machinery approximately 20%; a difference of approximately 20 percentage points
+- 19/01: Consumer electronics approximately -20%, Automotive/industrial machinery approximately -10%; a difference of approximately 10 percentage points
+- Orange peak approximately 54% in 19/11; Purple peak approximately 66% in 21/01; peak difference approximately 12 percentage points
+- Orange trough approximately -35% in 22/12; Purple trough approximately -24% in 19/11; trough difference approximately 11 percentage points
+
+[Pattern Characteristics]
+- Both series exhibit significant high-frequency volatility overall, switching between positive and negative ranges multiple times, lacking prolonged periods of stability.
+- Consumer electronics showed deeper negative values and multiple localized spikes in the early period and around 2022, while Automotive/industrial machinery displayed higher positive volatility peaks between 2020 and 2021.
+- The direction of both lines is generally consistent most of the time, but the leading or lagging relationship alternates across different phases. The gap widens significantly at specific points, and the recent gap is at a high level.
+
+[Core Insights]
+Core Conclusion: The prosperity (or business cycle) of the two industries is not strengthening synchronously, and divergence is increasing.
+
+Business Implications:
+- The current recovery momentum in consumer electronics is significantly stronger than in automotive/industrial machinery.
+- Cyclical misalignment between industries makes the sources of overall portfolio volatility more complex.
+- Recent amplified divergence necessitates distinguishing between the two industry chains for asset allocation.
+
+Risk Concerns:
+- If consumer electronics falls below -20% again, it will significantly drag down overall portfolio returns.
+- If automotive/industrial machinery significantly retreats from around 20% toward 0, it will weaken the hedging effect of diversified allocation.

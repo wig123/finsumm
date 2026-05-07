@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Single-series line chart (connected by red dots)
+- Legend/Series Name: overall take rate (revenue/loan origination)
+- X-axis: Quarterly labels, from 1Q19, 2Q19… through 4Q23
+- Y-axis: Percentage scale, range approximately 2.5%—6.5%, major ticks include 3.0%, 3.5%, 4.0%, 4.5%, 5.0%, 5.5%, 6.0%
+- Title: No explicit main title
+
+[Data Relationships]
+- Initial value 1Q19 approximately 4.9%
+- Peak value 1Q20 approximately 6.1%
+- 2Q20 approximately 5.6%, 3Q20 approximately 5.6%
+- 4Q20 and 1Q21 both approximately 4.9%
+- 2Q21 approximately 4.5%, 4Q21 approximately 4.6%
+- 1Q22 approximately 4.43%, 2Q22 approximately 4.32%
+- 3Q22, 4Q22, 1Q23 approximately 3.7%; 2Q23 approximately 3.25%; 3Q23 approximately 3.15% (lowest); 4Q23 approximately 3.75%
+- The difference between the highest and lowest points is approximately 3.0 percentage points; the difference between the initial and final points is approximately 1.15 percentage points; the difference between 2Q20 and 4Q22 is approximately 1.9 percentage points
+
+[Pattern Characteristics]
+The overall pattern shows a single-peak structure, first rising and then continuously declining, with the peak occurring in 1Q20 and the trough in 3Q23.
+Since 1Q20, the data generally moved downward in several small steps, with brief sideways consolidation around 4Q20-1Q21 and 3Q22-1Q23.
+At the end, 4Q23 showed a moderate rebound compared to 3Q23, but this has not yet altered the overall downward trend.
+
+[Core Insights]
+Core Conclusion: The overall take rate has significantly declined from its high, with slight recent recovery.
+
+Business Implications:
+- The revenue level per unit of loan origination is significantly weaker than in earlier periods
+- Profitability is more sensitive to the scale and structure of loan origination
+- The rebound in 4Q23 may reflect the effects of pricing or structural adjustments
+
+Risk Focus:
+- If the take rate approaches the 3.15% low again, revenue elasticity will be limited, and profit margins will be pressured
+- If the rate remains below 4.0% for an extended period, reliance on a larger scale of loan origination will be necessary to compensate for the contribution per transaction

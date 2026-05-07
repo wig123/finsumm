@@ -1,0 +1,32 @@
+【图表构成】
+- 类型：垂直柱状图
+- 图例：Y‑Y Growth（红色）
+- 纵轴：百分比，范围约−25%至30%，刻度间隔约5%
+- 横轴：公司类别（Sun、Lupin、Laurus、Dr Reddy’s、Glenmark、Cipla、Zydus、Gland、Torrent Pharma、Aurobindo、Biocon、Alkem Labs、Ajanta Pharma、Alembic Pharma）
+- 网格：水平网格线；柱体为红色；无明显主标题
+
+【数据关系】
+- 最高：Sun≈24%。
+- 次高：Lupin≈23%，Laurus≈21%。
+- 中间：Dr Reddy’s≈15%，Glenmark≈12%，Cipla=10%，Zydus=5%。
+- 低正：Gland、Torrent Pharma、Aurobindo均≈3%。
+- 最低：Alembic Pharma −20%。
+- 其他负：Ajanta Pharma、Alkem Labs均−15%；Biocon −10%。
+- 高低差：约44个百分点（24%与−20%）。
+- 正值10家、负值4家。
+
+【模式特征】  
+整体呈明显的两极分化结构，一端集中在较高正区间，另一端集中在中度到深度负区间。中部在0%附近的样本相对较少，正值公司内部也形成从高到低较为平滑的梯度。Alembic Pharma在负区间中显著低于其他公司，构成最突出异常点。
+
+【核心洞察】
+
+核心结论：公司间增长表现差异显著，处于明显分层状态。
+
+业务含义：  
+- 头部公司展现更强的同比扩张能力  
+- 中游公司对整体增长贡献有限  
+- 尾部公司拖累组合整体表现与稳定性  
+
+风险关注：  
+- 低于0%的公司占比接近三成，或压低组合收益率  
+- 低于−15%的个股若权重过高，或导致明显回撤

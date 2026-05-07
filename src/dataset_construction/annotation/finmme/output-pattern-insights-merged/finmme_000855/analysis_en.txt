@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Line chart (thick red line).
+- Legend/Series Name: China Visitor Arrivals to Singapore (Person).
+- X-axis: Time (Monthly), range Jan-19 to Nov-23, labeled by month.
+- Y-axis: Number of Persons, range 0–450,000, scale interval approximately 50,000.
+- Title: No independent title observed; the series name defines the metric.
+
+[Data Relationships]
+- Jan-19 approximately 320,000; Aug-19 approximately 395,000 (peak).
+- Jan-20 approximately 330,000; Mar-20 approximately 5,000, a decrease of approximately 325,000 compared to Jan-20, and a decrease of approximately 390,000 compared to Aug-19.
+- The median point in 2021 was approximately 15,000.
+- May-23 approximately 100,000; Aug-23 approximately 230,000, an increase of approximately 130,000.
+- Nov-23 approximately 110,000, a decrease of approximately 120,000 compared to Aug-23.
+- End of 2019 (Dec-19) approximately 250,000; 2020 remained largely within the 0–10,000 range throughout the year.
+
+[Pattern Characteristics]
+In 2019, the data fluctuated within the medium-to-high range, exhibiting a single distinct peak mid-year. Following a sharp decline at the beginning of 2020, the data maintained a prolonged low plateau near zero, with only minor fluctuations. The level began to rise from the end of 2022, forming a period of rapid acceleration and a sharp peak mid-2023, before subsequently dropping back to a medium-low level, failing to return to the 2019 range.
+
+[Core Insights]
+Core Conclusion: The number of Chinese visitor arrivals to Singapore remains in the recovery phase following a precipitous contraction.
+
+Business Implications:
+- The current scale of visitor traffic still shows a significant deficit compared to 2019.
+- Tourism-related revenue and associated demand are generally below the 2019 peak period.
+- Dependence on Chinese source markets remains high, and the pace of recovery impacts overall performance.
+
+Risk Concerns:
+- Monthly figures consistently below 100,000 could lead to sustained idle capacity in related industries.
+- A renewed drop near the 2020 range of 0–10,000 would trigger cash flow and operational contraction pressure.

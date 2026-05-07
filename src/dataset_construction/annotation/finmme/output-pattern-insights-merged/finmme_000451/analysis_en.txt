@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Time series line chart, including event markers
+- Title: Kia Corp
+- Top right information: As of 04-Mar-2024; Currency=KRW
+- X-axis: Date, approximately 2021/07 to 2024/01
+- Y-axis: Price range approximately 0–140,000 KRW
+- Legend: Black line=Closing Price; Green triangle=Target Price Change; Blue dot=Recommendation Changes
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial closing price approximately 85,000 KRW (around 2021/07)
+- Final closing price approximately 120,000 KRW (before 2024/03); the difference between the two is approximately 35,000
+- Lowest closing price approximately 62,000 KRW (around 2022/Q4 to early 2023)
+- Target price changed 7 times: approximately 120k, 130k, 120k, 100k, 130k, 120k, 140k (in chronological order)
+- The difference between the latest target price of 140,000 and the corresponding closing price of approximately 120,000 is about 20,000
+- No blue dots (recommendation changes) observed in the chart
+
+[Pattern Characteristics]
+- During the sample period, the closing price initially fluctuated narrowly in the mid-to-high range, followed by a noticeable decline, forming a base at a low level, and subsequently entering a phase of sustained increase, approaching the period high.
+- The green target price markers generally remained above the closing price, with a downward adjustment occurring during the low-price phase. During other times, adjustments mostly occurred between higher levels.
+- The absence of blue dot markers indicates no visible record of recommendation rating changes throughout the entire period.
+
+[Core Insights]
+Core Conclusion: The stock price transitioned from consolidation to significant strengthening, with the gap relative to the target price narrowing.
+
+Business Implications:
+- Current valuation is significantly higher than the early period, reflecting more positive market pricing.
+- The target price remains consistently above the current price, reflecting the sell-side's continued optimism regarding future performance.
+- The lack of recommendation adjustments suggests that research opinions remained relatively consistent within the period.
+
+Risk Focus:
+- If the stock price approaches 140,000 but fails to break through effectively, profit-taking pressure may intensify.
+- If the stock price falls below the vicinity of 100,000, the deviation from the recent target price will widen, potentially leading to expectation revision and emotional volatility.

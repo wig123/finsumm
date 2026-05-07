@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Time series chart (left axis yield), with an attached color bar on the right indicating total return.
+- Top left text: Last 12m ret: -1.66%.
+- X-axis: Jan-21, Jan-22, Jan-23, Jan-24, Jan-25.
+- Left Y-axis: Yield (%), scale approximately 1 to 7.
+- Right color bar: Total Return (%), range -30 to 30.
+- Legend: Gray line "7-10Y USTs yield"; Dot "+/- 5% TR"; Diamond "+/- 10% TR".
+
+[Data Relationships]
+- Yield in Jan-21 ≈ 1%; highest point near the end of 2023 to early 2024 ≈ 5%; early 2024 approximately 4.3–4.4%.
+- High-low spread ≈ 4 percentage points.
+- Last 12 months return = -1.66%.
+- Annotated points are located at four yield levels: approximately 3%, 4%, 5%, and 6%, corresponding to two types of thresholds: ±5% (dot) and ±10% (diamond).
+- Total return color bar covers the interval [-30%, +30%].
+
+[Pattern Characteristics]
+The yield curve consistently rises from a low base, accompanied by multiple moderate drawdowns, but has not returned to earlier levels. Towards the right color bar area, the yield oscillates within a narrow range around medium-to-high levels. The corresponding total return color bar shows a continuous transition from deep red to deep blue within the yield range. The ±5% and ±10% threshold points/diamonds are regularly distributed diagonally based on yield and time, showing no sudden changes or discrete anomalies.
+
+[Core Insights]
+Core Conclusion: Within the current yield range, total return outcomes are highly dependent on the direction of interest rates.
+
+Business Implications:
+- At the current interest rate level, price sensitivity is in a higher range.
+- Every upward or downward change in future interest rates amplifies the impact on annual returns.
+- The current slightly negative 12-month return reflects that holding period results are easily eroded by adverse volatility.
+
+Risk Focus:
+- If the total return falls below -10%, it implies that price shock outweighs coupon buffer.
+- If the total return approaches -30%, it corresponds to significant nominal losses for the holder and compresses reinvestment capacity.

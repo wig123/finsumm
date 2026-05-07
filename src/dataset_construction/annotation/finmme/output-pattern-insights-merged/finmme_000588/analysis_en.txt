@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Line chart, main series is the red line.
+- Title: Not displayed.
+- Y-axis: Labeled "(KRW)", range 0—200,000, ticks at 0, 50,000, 100,000, 150,000, 200,000.
+- X-axis: Time scale, labeled 14, 16, 18, 20, 22F, 24F, 26F.
+- Legend: Not visible; multiple gray reference lines are overlaid on the chart, labeled "10.0x, 20.0x, 30.0x, 40.0x, 50.0x."
+
+[Data Relationships]
+- Initial period (14) approximately 70,000; terminal period (24F) approximately 95,000–100,000.
+- Peak approximately 155,000–160,000 (around 22); trough approximately 40,000 (around 16).
+- Around 18 approximately 110,000; around 20 approximately 60,000.
+- Around 23 approximately 90,000; around 24 a data point of approximately 115,000 appears, 24F approximately 100,000.
+- The difference between the peak and trough is approximately 115,000–120,000.
+- The terminal value is higher than the initial value by approximately 25,000–30,000.
+
+[Pattern Characteristics]
+- The red line exhibits multi-stage, wide-ranging volatility across the entire time frame, experiencing several distinct upward movements and pullbacks, ultimately closing in a range slightly above the starting point.
+- After reaching a phase low around 16, the price gradually increased, hitting a global high around 22, and subsequently retreated from the high, consolidating within the mid-to-high range.
+- The multiple gray reference lines show divergence and intersection relative to the red line, indicating that there is no stable correlation between the trajectories of different multiples and the actual trend.
+
+[Core Insights]
+Core Conclusion: The overall valuation level has risen compared to the initial period, but volatility is severe.
+
+Business Implications:
+- The valuation center has shifted upward, suggesting a neutral-to-positive long-term return.
+- Increased valuation volatility necessitates higher requirements for holding costs and position management.
+- Lack of stable anchoring with the 10–50x range, indicating the valuation band is insufficiently convergent.
+
+Risk Focus:
+- If the price approaches the 160,000+ range again, it may correspond to overvaluation, increasing pressure for a drawdown.
+- If the price falls below the low point around 40,000, it could trigger involuntary position reduction and liquidity strain.

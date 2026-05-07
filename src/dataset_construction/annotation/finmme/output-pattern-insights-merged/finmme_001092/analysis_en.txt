@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Grouped Bar Chart
+- Title: VNB Margin (%)
+- Legend: Three Companies—SBI Life (Red), HDFC Life (Gray), IPRU Life (White Outline)
+- X-axis: Time grouped by Q3 FY23, Q4 FY23, Q1 FY24, Q2 FY24, Q3 FY24
+- Y-axis: Percentage scale 0.0% to 40.0%, increments of 5.0%
+
+[Data Relationships]
+- Quarterly Values (SBI/HDFC/IPRU): Q3 FY23 27.8/25.8/33.9; Q4 FY23 31.5/29.2/32.0; Q1 FY24 28.7/26.2/30.0; Q2 FY24 28.5/26.3/28.0; Q3 FY24 27.4/26.9/22.9.
+- Company Range: SBI highest 31.5 (Q4 FY23), lowest 27.4 (Q3 FY24), range 4.1; HDFC highest 29.2 (Q4 FY23), lowest 25.8 (Q3 FY23), range 3.4; IPRU highest 33.9 (Q3 FY23), lowest 22.9 (Q3 FY24), range 11.0.
+- Quarterly Maximum-Minimum Spread: 8.1, 2.8, 3.8, 2.2, 4.5 (in chronological order).
+- Difference between Initial Period (Q3 FY23) and Final Period (Q3 FY24): SBI -0.4, HDFC +1.1, IPRU -11.0.
+
+[Pattern Characteristics]
+Overall, the three companies show relatively moderate, small-scale fluctuations within the mid-to-high level range across the quarters. The bar heights for SBI and HDFC consistently remain close, with stable ranking. IPRU was significantly higher than the other two in the early period but significantly lower in the later period, showing a greater magnitude of change across the period. The gap between the three companies narrowed initially, then slightly widened, resulting in a clear ranking reversal in Q3 FY24.
+
+[Core Insights]
+Core Conclusion: IPRU profitability shows a significant contraction, while SBI and HDFC remain relatively stable, narrowing the divergence.
+
+Business Implications:
+- IPRU has high earnings elasticity and is clearly under pressure recently.
+- SBI and HDFC have a more stable earnings structure, with controllable volatility.
+- The internal competitive landscape of the industry has shifted from IPRU leadership to near equilibrium.
+
+Risk Focus:
+- If IPRU consistently falls below 25%, its Value of New Business (VNB) contribution may significantly decline.
+- If SBI and HDFC fall below 26%, the overall earnings center of gravity may passively shift downward.

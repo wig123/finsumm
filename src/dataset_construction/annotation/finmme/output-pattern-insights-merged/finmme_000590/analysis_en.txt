@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Time series chart, including a closing price line graph and a target price step line, with annotations marked by red dots.
+- Title: Not displayed.
+- X-axis: Time, scale from 01-21 to 01-24.
+- Y-axis: Price (GBP), range GBP0.00—GBP3,500.00.
+- Legend: Closing price (cyan line), Target price (gray-blue step line).
+
+[Data Relationships]
+- Initial period (01-21) closing price approximately GBP2,300; final period (01-24) approximately GBP1,100; difference approximately GBP1,200.
+- Highest closing price approximately 01-22, nearly GBP3,000; lowest approximately 07-22 to 10-22, about GBP900–1,000; high-low range approximately GBP2,000.
+- Target price levels: approximately GBP3,000 → approximately GBP2,000 (around 04-22) → approximately GBP1,000 (around 10-22) → approximately GBP1,800 (around 07-23 to 01-24).
+- The 04-22 closing price was approximately GBP1,700, compared to the target price of approximately GBP2,000 for that period, resulting in a difference of approximately -GBP300; the 10-23 closing price was approximately GBP1,700, compared to the target price of approximately GBP1,800, resulting in a difference of approximately -GBP100.
+
+[Pattern Characteristics]
+The closing price initially trended upward in the early stage, then shifted to a multi-stage decline, followed by a prolonged period of horizontal fluctuation within the low range. The target price shows distinct step-like adjustments, moving generally from high to low and then partially rebounding. Adjustment points are often marked by red dots. The closing price remained below the target price for most periods. The gap between the two exhibited a structure of first widening, then narrowing, and then slightly widening again across different stages.
+
+[Core Insights]
+Core Conclusion: The stock price consistently trades below the target price, reflecting a persistent misalignment between expectation and reality.
+
+Business Implications:
+- Implication 1 Current valuation is difficult to fully align with pricing assumptions
+- Implication 2 There is a persistent deviation between research pricing and market feedback
+- Implication 3 Valuation assumptions became more conservative following later adjustments
+
+Risk Focus:
+- Risk Point 1 If the closing price continues to fall more than 20% below the target price, the reference value of the target price may be diminished
+- Risk Point 2 If the target price is lowered again to around GBP1,000, it may trigger further selling pressure and a decline in confidence

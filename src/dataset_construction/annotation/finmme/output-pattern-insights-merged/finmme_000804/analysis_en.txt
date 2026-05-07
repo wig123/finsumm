@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Vertical stacked bar chart (The sum of the two categories' shares is 100%)
+- Title: Market share (Originations - Value)
+- Legend: Red=Private Banks; Grey=NBFCs
+- X-axis: Period Category—FY19, FY20, FY21, FY22, FY23, 1Q24
+- Y-axis: Share percentage, scale not shown; Specific percentages are labeled within each bar segment.
+
+[Data Relationships]
+- Per period (Private Banks/NBFCs): FY19 14.4/85.6; FY20 13.6/86.4; FY21 17.8/82.2; FY22 19.5/80.5; FY23 22.7/77.3; 1Q24 19.5/80.5.
+- Gap between the two categories (percentage points): FY19 71.2; FY20 72.8; FY21 64.4; FY22 61.0; FY23 54.6; 1Q24 61.0.
+- Private Banks maximum 22.7% (FY23), minimum 13.6% (FY20), range 9.1; NBFCs maximum 86.4% (FY20), minimum 77.3% (FY23), range 9.1.
+- Change from the initial period (FY19) to the latest (1Q24): Private Banks +5.1 percentage points; NBFCs -5.1 percentage points.
+
+[Pattern Characteristics]
+- Vertically, NBFCs consistently hold the absolute majority share, while Private Banks occupy a relatively small segment.
+- After FY20, the proportion of Private Banks gradually increased period by period, and NBFCs contracted accordingly. The gap was smallest in FY23, followed by a pullback in 1Q24 compared to FY23.
+- The shares of both parties show a mirror image change across periods, with similar fluctuation ranges, indicating overall structural stability without sudden jumps.
+
+[Core Insights]
+Core Conclusion: NBFCs maintain long-term dominance, while the share of Private Banks gradually increases but remains secondary.
+
+Business Implications:
+- The market structure dominated by NBFCs has not been fundamentally altered.
+- Private Banks have enhanced their bargaining power in customer acquisition and loan origination value.
+- The pullback in 1Q24 suggests uncertainty in the growth momentum of Private Banks.
+
+Risk Focus:
+- If the Private Banks' share falls back below 15%, the returns from private channel deployment may come under pressure.
+- If the NBFCs' share returns above 85%, excessive market concentration may weaken negotiation power and product diversity.

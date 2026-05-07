@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Line chart
+- Title: Not displayed
+- X-axis: Time scale is Mar-23, Jun-23, Sep-23, Dec-23, Mar-24
+- Y-axis: Percentage, range approximately 5%–20%
+- Legend: Green solid line "SPX 1m RV"; Red dashed line "SPX 1m 102.5% IV"
+- The red dashed line is a horizontal line, positioned at approximately 11%
+
+[Data Relationships]
+- Starting Mar-23, "SPX 1m RV" is approximately 18–19%.
+- Mid-Dec-23 low is approximately 6%, about 5 percentage points lower than the red line at 11%; approximately 13 percentage points lower than the starting high point.
+- Around Sep-23, approximately 14–15%, about 3–4 percentage points higher than the red line.
+- Late Dec-23 to early Jan-24 was briefly around 9–10%, about 1–2 percentage points lower than the red line.
+- Late Mar-24 is approximately 13–14%, about 2–3 percentage points higher than the red line.
+
+[Pattern Characteristics]
+- The green line shows multiple segments of fluctuation during the sample period, generally transitioning from a higher level on the left to a moderate range, crossing the red horizontal line multiple times in between.
+- The trend formed a relatively high plateau around Sep-23, followed by a significant dip around Dec-23, and then returned to a range near or slightly above the red line.
+- No extreme spikes appeared throughout the period, but there was a single, relatively deep trough near Dec-23, which stands out compared to the preceding and succeeding ranges.
+
+[Core Insights]
+Core Conclusion: The 1-month Realized Volatility (RV) repeatedly fluctuates around the 102.5% Implied Volatility (IV) level, with periods of discount (contango) being more evident.
+
+Business Implications:
+- IV has been slightly conservative in the long term, with pricing often favoring the buyer.
+- Volatility selling strategies near Dec-23 yielded relatively outstanding returns.
+- Current RV is again higher than IV, reducing the short-term cost-effectiveness for volatility buyers.
+
+Risk Focus:
+- If RV consistently exceeds 11% by more than 3 percentage points, volatility sellers face amplified drawdowns.
+- If RV falls below 8% again and sustains that level, volatility buying strategies will incur significant time decay (theta loss).

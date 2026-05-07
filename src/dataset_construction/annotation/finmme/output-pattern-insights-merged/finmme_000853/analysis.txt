@@ -1,0 +1,31 @@
+【图表构成】
+- 类型：垂直柱状图
+- 标题：STOXX 600 Sectors: 3m change in 12m fwd EPS
+- 纵轴：刻度范围-10.0至4.0，间隔2.0，0为基线，未标注单位
+- 横轴：行业分类与总体项，包括Real Estate、Utilities、Staples Retail、Media、Const & Matls、Technology、Ind. Goods & Svcs、Financial Svcs、Banks、Insurance、F&B、Telecom、Retail、Health Care、Stoxx 600、Autos、Cons. Prod & Svcs、Travel & Leis、Basic Resources、Chemicals、Energy
+- 图例：无显式图例；多数柱为青色，“Stoxx 600”为橙色
+
+【数据关系】
+- 最高值：Real Estate，位于2.0与4.0之间
+- 次高：Utilities，亦在2.0与4.0之间
+- 多个正值在0至2.0间：Media、Const & Matls、Technology、Ind. Goods & Svcs、Financial Svcs、Banks、Insurance、F&B、Telecom、Retail
+- 接近0的负值：Health Care（0至-2.0之间）
+- “Stoxx 600”：负值，介于0与-2.0
+- 进一步为负：Autos（-2.0附近）、Cons. Prod & Svcs（-2.0至-4.0）
+- 较大负值：Travel & Leis（约-4.0）、Basic Resources（-4.0至-6.0）、Chemicals（约-6.0）
+- 最低值：Energy，位于-8.0至-10.0之间
+
+【模式特征】  
+整体呈自左向右由高到低的单峰分布结构，左侧少数行业集中在正区间，右侧多行业位于负区间。正值行业之间差异相对有限，而负值尾部拉长，个别行业明显低于其余行业。整体基准项位于略微负值区间，处于全体的中下部位置。
+
+【核心洞察】  
+核心结论：行业间盈利预期修正明显分化，整体略偏下行。  
+
+业务含义：  
+- 盈利预期支撑集中在少数防御性板块。  
+- 基准指数的盈利预期受负面板块拖累。  
+- 资源和能源相关板块对整体拖累作用突出。  
+
+风险关注：  
+- 若Energy继续低于-8，将进一步压缩整体盈利预期弹性。  
+- 若Basic Resources与Chemicals同时低于-4，将放大周期板块对指数的负向贡献。

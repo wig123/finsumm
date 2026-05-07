@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Quadrant Scatter Plot (Star Markers)
+- Title: Not displayed
+- Axes/Regions: Upper region labeled "Deficit," lower region labeled "Surplus"; left side labeled "Tightening," right side labeled "Loosening"
+- Diagonal Line: Running from bottom-left to top-right, labeled "Positive price momentum/Negative price momentum"
+- Markers and Labels: Each star corresponds to a commodity (e.g., Rhodium, Palladium, Copper, etc.), all are text-labeled.
+- Legend: Star colors are divided into dark red (Most preferred), pink (Neutral), light pink (Least preferred).
+
+[Data Relationships]
+- Located on the "Tightening" side: Palladium, Copper, Platinum, Zinc, Manganese
+- Located on the "Loosening" side: Lithium, Iron ore, Coking Coal, Thermal Coal, Aluminium, Cobalt, Gold, Nickel
+- Located in the "Deficit" half-region: Rhodium, Palladium, Copper, Platinum, Zinc, Lithium, Iron ore, Coking Coal
+- Located in the "Surplus" half-region: Nickel, Gold, Aluminium, Cobalt, Thermal Coal, Manganese
+- Preference Level: Dark red (Most preferred) Rhodium, Palladium, Copper, Platinum, Zinc; Pink (Neutral) Lithium, Iron ore, Coking Coal; Light pink (Least preferred) Nickel, Gold, Aluminium, Cobalt, Thermal Coal, Manganese
+
+[Pattern Characteristics]
+- Markers are significantly more concentrated in the "Tightening-Deficit" quadrant, and are mostly dark red, indicating that highly preferred commodities are primarily distributed in this area.
+- The distribution in the "Loosening-Surplus" direction is more scattered, with more light pink stars, and the overall color tone is noticeably lighter.
+- Rhodium is positioned above and deviates from other markers, appearing more isolated, while light pink stars like Nickel and Gold cluster in the lower "Surplus" region, forming a small concentrated group.
+
+[Core Insights]
+Core Conclusion: Preference is clearly concentrated on commodities characterized by tight supply and a deficit position.
+
+Business Implications:
+- The allocation focus is concentrated on commodities with tighter supply and demand dynamics.
+- Higher position exposure to the "Tightening-Deficit" quadrant.
+- Overall low willingness to allocate to "Surplus-Loosening" commodities.
+
+Risk Considerations:
+- If "Tightening-Deficit" commodities shift from a deficit to a surplus (crossing the horizontal axis), portfolio returns could significantly decline.
+- Failure to adjust positions promptly if "Surplus-Loosening" commodities transition from low preference to high preference, resulting in missed profit opportunities from price recovery.

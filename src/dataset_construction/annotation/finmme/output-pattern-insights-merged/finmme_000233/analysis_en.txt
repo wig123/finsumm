@@ -1,0 +1,33 @@
+[Chart Components]
+- Chart Type: Bar chart
+- Legend: EBIT margin (%)
+- Title: Not displayed separately; top legend is "EBIT margin (%)"
+- X-axis: Fiscal Year Categories—FY19, FY20, FY21, FY22F, FY23, FY24F, FY25F, FY26F
+- Y-axis: Percentage scale, range 17% to 22%
+- Specific percentage values are marked above each bar
+
+[Data Relationships]
+- FY19: 19.6%; FY20: 19.6%; FY21: 21.3%; FY22F: 18.9%; FY23: 18.2%; FY24F: 18.5%; FY25F: 18.5%; FY26F: 18.9%
+- Peak: FY21 at 21.3%; Trough: FY23 at 18.2%; the difference is 3.1 percentage points
+- Start of Period (FY19) and End of Period (FY26F): 19.6% and 18.9%, a difference of 0.7 percentage points
+- FY19 and FY20 are the same: both 19.6%
+- FY22F and FY26F are the same: both 18.9%
+- FY24F and FY25F are the same: both 18.5%
+- The difference between FY20 and FY21 is 1.7 percentage points; the difference between FY21 and FY22F is 2.4 percentage points; the difference between FY22F and FY23 is 0.7 percentage points
+
+[Pattern Characteristics]
+- Data remains relatively flat from FY19 to FY21 before showing a significant increase, with FY21 marking the highest point in the entire sequence.
+- After FY21, values are generally lower, reaching the lowest point in the sequence in FY23. Subsequent years show minor adjustments around a similar range, forming two horizontal plateaus at FY24F/FY25F and FY22F/FY26F.
+- The overall sequence has similar values at the start and end points, with a prominent peak in the middle followed by a period of lower values.
+
+[Core Insights]
+Core Conclusion: Profitability, after experiencing a phased improvement, has retreated to a level slightly below historical performance.
+
+Business Implications:
+- FY21 demonstrated a concentrated release of profitability.
+- Profitability levels subsequently entered a relatively contracted range.
+- Medium-to-long-term profitability performance tends toward stability but lacks significant improvement.
+
+Risk Focus:
+- If the EBIT margin falls below 18%, it will significantly compress the profit margin.
+- If the margin remains below 19% long-term, it may weaken capacity for reinvestment and cost absorption.

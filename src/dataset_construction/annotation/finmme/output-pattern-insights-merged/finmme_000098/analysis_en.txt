@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Infographic
+- Title: Not provided
+- Axes: No axes
+- Legend: Four sections representing different financial business areas:
+  - Retail banking
+  - Investment banking
+  - Corporate banking
+  - Insurance
+
+[Data Relationships]
+- Retail banking business includes Green mortgage, Green consumer loans, Green car lease, and Credit card.
+- Investment banking business includes Green savings, Sustainable investment, Green Funds, and Green bonds.
+- Corporate banking business includes Green project finance, Carbon finance, Green corporate Loans, and Green securitization.
+- Insurance business includes Electric car insurance, Catastrophe insurance, Green insurance, and Insurance for Renewable Energy Projects.
+
+- Each financial business area emphasizes green or sustainable product categories, reflecting the trend of promoting sustainable financial products across different financial sectors.
+
+[Pattern Characteristics]
+- The four business sections are presented as parallel quadrants, with each section containing four products, collectively centering on the green/sustainable theme.
+- Naming shows a tendency toward consistency but exceptions exist, such as Credit card, Carbon finance, Electric car insurance, Catastrophe insurance; the Insurance section has relatively fewer green designations.
+
+[Core Insights]
+Core Conclusion: Sustainable finance has formed a cross-sector product matrix.
+
+Business Implications:
+- Positioning is unified, but naming standardization needs improvement.
+- Affects integrated promotion and customer identification.
+- Conducive to portfolio sales and synergy.
+
+Risk Concerns:
+- Green designations in the Insurance section = 1/4, which may lead to thematic identification deviation.
+- Non-green designations in each section ≥ 1 item, potentially leading to communication inconsistency.

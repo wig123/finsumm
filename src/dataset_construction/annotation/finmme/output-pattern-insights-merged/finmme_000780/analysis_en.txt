@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Vertical bar chart (red bars).
+- Title: Training cost of ChatGPT models (USD).
+- X-axis: Model category, sequentially ChatGPT-2, ChatGPT-3, ChatGPT-4, ChatGPT-5.
+- Y-axis: Training cost (USD), scale from 200,000,000 to 2,000,000,000, increment 200,000,000; bottom marked as "–" (approximating zero).
+- Legend: Not displayed.
+
+[Data Relationships]
+- Cost Annotation: ChatGPT-2 is $40,000; ChatGPT-3 is $4,500,000; ChatGPT-4 is $100,000,000; ChatGPT-5 is $1,250,000,000–$2,250,000,000.
+- Increase of $4,460,000 for 3 compared to 2, approximately 112.5 times.
+- Increase of $95,500,000 for 4 compared to 3, approximately 22.22 times.
+- Increase of $1,150,000,000–$2,150,000,000 for 5 compared to 4, approximately 12.5–22.5 times.
+- Difference between 5 and 2 is $1,249,960,000–$2,249,960,000, approximately 31,250–56,250 times.
+- The upper limit of 5, $2,250,000,000, exceeds the maximum Y-axis scale of $2,000,000,000.
+
+[Pattern Characteristics]
+- The height of the bars corresponding to each model version increases sequentially, and the magnitude of the increase accelerates, forming an approximately exponential step structure.
+- The bar for ChatGPT-5 is significantly higher than previous generations, is presented as a range, and its upper end exceeds the maximum Y-axis scale, resulting in an extremely unbalanced overall structure.
+- The first three generation bars are close to the bottom of the Y-axis, visually showing relatively small differences among themselves, but forming a clear discontinuity (gap) with the latest generation.
+
+[Core Insights]
+Core Conclusion: Model iteration leads to an extreme leap in training investment and a range of uncertainty.
+
+Business Implications:
+- The driving effect of model upgrades on capital requirements is significantly enhanced.
+- The cost structure is highly concentrated in the latest generation model.
+- Budget preparation requires a focused assessment of the investment elasticity for future single-generation models.
+
+Risk Focus:
+- If the cost of a single model approaches or exceeds $2,000,000,000, it may breach existing annual budget ceilings.
+- If the cost range continues to fluctuate above $1,250,000,000, project return calculations may show significant deviations.

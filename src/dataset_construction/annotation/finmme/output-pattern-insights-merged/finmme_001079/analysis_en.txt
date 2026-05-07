@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Time series line chart
+- Title: Not displayed
+- X-axis: Time, scale from Jan 2010 to Jan 2024 (annotated annually)
+- Y-axis: Euros, range 0.0 to 2.5
+- Legend: Four series—Unleaded (solid line), Unleaded: current (horizontal dashed line), Diesel (solid line), Diesel: current (horizontal dashed line)
+
+[Data Relationships]
+- Unleaded: Jan 2010 ≈ 1.45 Euros; Jan 2024 ≈ 1.85 Euros; Change ≈ +0.40 Euros.
+- Diesel: Jan 2010 ≈ 1.35 Euros; Jan 2024 ≈ 1.85 Euros; Change ≈ +0.50 Euros.
+- The peak for both occurred in mid-2022, approximately 2.3 Euros; higher than Jan 2010 by approximately 0.8–0.95 Euros, respectively.
+- Low values appeared between 2016–2020, approximately 1.3–1.5 Euros; Peak-to-trough difference ≈ 0.8–1.0 Euros.
+- Unleaded: current ≈ 1.90 Euros; Diesel: current ≈ 1.85 Euros; The difference from the Jan 2024 solid line is approximately +0.05 Euros and ≈ 0 Euros, respectively.
+
+[Pattern Characteristics]
+The overall trajectory of the two fuel price lines shows a slight initial upward trend, followed by maintaining relatively narrow fluctuations in the middle period, before experiencing a significant elevation around 2022 and then retreating to the medium-to-high range. Prices during the 2016–2020 phase were at a relatively low plateau within the entire sample, while mid-2022 formed a singular and prominent extreme high point. The trends for unleaded and diesel are highly correlated, with only minor price differentials in specific periods. The current levels are essentially coincident with or slightly higher than the Jan 2024 position.
+
+[Core Insights]
+Core Conclusion: Unleaded and diesel prices exhibit long-term co-directional evolution, currently residing in a historically elevated range.
+
+Business Implications:
+- Limited price differential between fuel types, offering little scope for substitution.
+- The impact of fuel-related costs on overall expenses has intensified in recent years.
+- Extreme price periods necessitate more stringent requirements for budgeting and pricing strategies.
+
+Risk Focus:
+- If prices approach the high of approximately 2.3 Euros again, failure to lock in costs beforehand could significantly compress profit margins.
+- Should prices fall back to the low of approximately 1.3 Euros, existing high-priced contracts or inventory may lead to unrealized loss pressure.

@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Dual-axis time series line chart
+- Title: Not displayed
+- Legend: Red = Price; Gray = Rel SET Composite Index
+- X-axis: Time (Feb 23 to Jan 24, marked monthly)
+- Left Y-axis: Unit THB, range approximately 52.5–70 (Scale: 52.5, 55, 57.5, 60, 62.5, 65, 67.5, 70)
+- Right Y-axis: Relative index scale, range approximately 92.5–105 (Scale: 92.5, 95, 97.5, 100, 102.5, 105)
+
+[Data Relationships]
+- Price initial (Feb 23) ≈67.5 THB; final (Jan 24) ≈55 THB, difference ≈12.5 THB
+- Price highest ≈67.5 THB (near the left end of the chart); lowest ≈52.5 THB (Dec/Jan), high-low spread ≈15 THB
+- Index initial ≈100; final ≈95, difference ≈5
+- Index highest ≈105 (near Oct 23); lowest ≈92.5 (near Aug 23), high-low spread ≈12.5
+- Comparative data for the same period: Dec 23, Price ≈52.5 THB; Index ≈95
+
+[Pattern Characteristics]
+- Price and the index show a similar overall trend in the first half, but Price exhibits slightly smoother local fluctuations. Both maintain a low range in the second half.
+- Throughout the entire period, Price consistently remained within a relatively low numerical band, without sharp monthly reversals or extreme spikes.
+- Near August–October, the index briefly reached a relative high, but Price did not strengthen synchronously during the same period, resulting in a phase deviation.
+
+[Core Insights]
+Core Conclusion: The individual stock performed relatively weakly against the index throughout the year, lacking synchronous recovery.
+
+Business Implications:
+- The indicator reflects insufficient relative attractiveness of the individual stock to the market
+- Suppression of the ability to generate excess returns
+- Reflects weak correlation with the broader market, with greater stock-specific dominance
+
+Risk Focus:
+- If Price consistently remains below 55 THB, it may exacerbate unrealized losses and selling pressure for holders
+- If the index maintains above 95 and Price does not follow, it may amplify the risk of relative return underperformance

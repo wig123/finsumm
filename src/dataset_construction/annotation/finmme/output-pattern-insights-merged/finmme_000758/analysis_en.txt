@@ -1,0 +1,30 @@
+[Chart Components]
+- Overall title "ROTI Flow Chart," consisting of four parallel line charts.
+- Top Left: Title "Investors' portfolio weighting in ROTI (% of portfolio)." X-axis: Jan’18–Oct’23; Left Y-axis: 0.0%–0.3%; Right Y-axis: 0–1,800. Legend: Local Weighting, Foreign Weighting, Weight in JCI %, MSCI Weightings, Price.
+- Top Right: Title "Local and foreign investors' ownership in ROTI (% of company)." X-axis: Jan’18–Oct’23; Left Y-axis: 0–14%; Right Y-axis: 0–1,800. Legend: Local Ownership %, Foreign Ownership %, Owned by Retail %, Stock Price.
+- Bottom Left: Title "Local IS MF and PF Breakdown." X-axis: Jan’18–Oct’23; Y-axis: 0–5.0%. Legend: Local IS, Local MF, Local PF.
+- Bottom Right: Title "Foreign IS MF and PF Breakdown." X-axis: Jan’18–Oct’23; Y-axis: 0–12%. Legend: Foreign IS, Foreign MF, Foreign PF.
+
+[Data Relationships]
+- The right axes of both top charts indicate the Dec‑23 price of 1,150 (Price axis range 0–1,800).
+- Top Left: The end-of-period "Weight in JCI %" is marked at 0.02%.
+- Top Right: The end-of-period "Owned by Retail %" is marked at 0.8%.
+- Bottom Left: End-of-period Local IS is 0.5%, Local PF is 0.0%, a difference of 0.5 percentage points.
+- Bottom Right: End-of-period Foreign PF is 0.2%; 0.2 percentage points higher than Local PF in the bottom left chart.
+
+[Pattern Characteristics]
+- Across the four charts, the curves for various holdings and weightings generally show a unidirectional change from high to low, stabilizing near zero in the middle-to-later periods and remaining relatively flat.
+- There are significant differences in proportion among different investor types, with local versus foreign, and institutional versus retail, showing a structure where one party is numerically dominant over the long term.
+- Localized step-like changes occurred around 2019 and 2020, after which the curves returned to a state of slow adjustment. All curves are currently in historical low ranges at the end of the period.
+
+[Core Insights]
+Core Conclusion: ROTI is marginally allocated in both major investor portfolios and the company's equity structure.
+
+Business Implications:
+- Limited presence in institutional holdings and indices, resulting in weak influence.
+- Trading and liquidity rely more heavily on a small number of long-term funds.
+- Retail and passive funds have limited capacity to support the price.
+
+Risk Focus:
+- If the JCI weighting continues to hover around 0.02%, index funds may contract further, amplifying the impact of single transaction shocks.
+- If retail shareholding remains below 1% for an extended period, insufficient buying support during price volatility may lead to a widening of short-term price spreads.

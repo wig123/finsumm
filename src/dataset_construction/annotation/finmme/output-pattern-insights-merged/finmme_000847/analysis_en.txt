@@ -1,0 +1,36 @@
+[Chart Components]
+- Type: Time series line chart, supplemented by scatter markers (Green triangle = Target Price Change, Blue circle = Recommendation Changes).
+- Title: SEMCO.
+- Time Axis: 2021/07/01 to 2024/03/19 (Scale examples: 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01).
+- Price Axis: 0–250,000 (Currency: KRW).
+- Legend: Closing Price (Black line), Target Price Change (Green triangle), Recommendation Changes (Blue dot).
+- Notes: As of 19-Mar-2024; Currency=KRW; Source: LSEG, Nomura.
+
+[Data Relationships]
+- Initial period closing price (approx. 2021/07) ≈180,000 KRW.
+- Final period closing price (2024/03/19) ≈145,000 KRW.
+- Highest closing price for the entire period ≈200,000 KRW (approx. H2 2021).
+- Lowest closing price for the entire period ≈115,000 KRW (approx. 2022/10).
+- Difference between high and low ≈85,000 KRW.
+- Difference between final period and initial period ≈−35,000 KRW.
+- Difference compared to the highest point ≈−55,000 KRW.
+- Difference compared to the lowest point ≈+30,000 KRW.
+- Marked values for target price changes: ≈240,000 (mid-2021), ≈250,000 (late mid-2021), ≈210,000 (early 2022), ≈200,000 (mid-2022), ≈170,000 (late 2022), ≈185,000 (early 2023), ≈200,000 (mid-2023).
+- Recommendation change marker: ≈180,000 (mid-2021).
+
+[Pattern Characteristics]
+The price curve is initially at a relatively high level in the early part of the sample period, followed by a significant decline, after which it oscillates narrowly around the middle range in the mid-to-late period.
+The green target price markers generally step down gradually from high levels to medium-low levels, but saw several small upward adjustments in 2023.
+The blue recommendation change appeared only once in the early sample period, and no new recommendation markers have appeared since then.
+
+[Core Insights]
+Core Conclusion: Stock price performance is weaker than the early stage, and target price expectations have been revised downward simultaneously.
+
+Business Implications:
+- Profitability or growth expectations have cooled down compared to the early period.
+- The sell-side valuation center has shifted downward, and valuation space has been compressed.
+- Minor adjustments to the target price in 2023 reflect a slight recovery in expectations.
+
+Risk Concerns:
+- If the stock price approaches 115,000 again, it may trigger further valuation downgrades.
+- If the target price falls below 170,000 again, it may lead to reduced institutional allocation willingness.

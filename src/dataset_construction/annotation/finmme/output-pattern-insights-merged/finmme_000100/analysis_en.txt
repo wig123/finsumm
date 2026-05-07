@@ -1,0 +1,37 @@
+[Chart Components]
+- Type: Table
+- Title: Solar Company Investment and Capacity Overview
+- Axes: None
+- Legend: Company Name, Location, Operational Date, Investment Amount, Nominal Capacity, Capital Expenditure per Watt, Component Produced, Jobs per GW
+
+[Data Relationships]
+- **Key Metrics and Changes**:
+  - Total investment is $11.97 bn, total capacity is 44.3 GW, and total jobs are 17,310.
+  - The company with the largest investment is Vikram Solar ph. 2, reaching $1.25 bn, with the component being integrated.
+  - The company with the smallest investment is Hounen Solar, with an investment of $0.03 bn.
+
+- **Extremum Comparison**:
+  - The company with the highest capacity is Canadian Solar (TX), at 5.0 GW.
+  - The lowest Capital Expenditure per Watt (Capex/W) belongs to Canadian Solar (TX) and JA Solar, both at $0.03/W.
+  - The highest number of jobs per GW belongs to Mission Solar, at 1,500.
+
+- **Significant Trends**:
+  - Texas and South Carolina each have 2 projects, indicating high investment activity in these regions.
+  - Most companies set their operational date for 2024, indicating that next year is a crucial industry launch period.
+
+[Pattern Characteristics]
+- There are clear hierarchical differences among companies in investment, capacity, Capex per Watt, and job density, with a few entries ranking highly across multiple indicators.
+- Operational dates primarily fall within the same year, with a few earlier or later projects; some states show an aggregation of multiple projects.
+- Component types are diverse (integrated, module, cell, cell‑module), accompanied by outliers in capital expenditure and job density.
+
+[Core Insights]
+Core Conclusion: Capital efficiency differentiation, resources gravitate towards leading enterprises
+
+Business Implications:
+- Leading companies control more capacity and capital.
+- Low Capex/W corresponds to higher capital efficiency.
+- Many projects starting production simultaneously, requiring high resource coordination.
+
+Risk Focus:
+- Capex/W≥$0.30: Unit investment burden increases.
+- Capacity ≤1.0 GW: Insufficient economies of scale, weakening bargaining power.

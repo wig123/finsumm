@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Stacked Area Chart
+- Title: Data Center Ethernet Switch Revenue
+- X-axis: Year, ranging from 2022–2028 (Annual scale)
+- Y-axis: Revenue in Billions ($), ranging from $0–$40 (Increment of $5)
+- Layered Categories: Rest of Enterprise, Large Enterprises, Rest of Cloud, Top 5 U.S. Cloud SPs, Telco SPs, Top 3 Chinese Cloud SPs (Directly labeled within the corresponding area)
+- Notes/Source: 650 Group Ethernet Switch Data Center Forecast Q4 2023; Annotations list U.S./Chinese cloud vendor names
+
+[Data Relationships]
+- Total revenue in 2022 is approximately $22.5 (located in the $20–$25 range); total revenue in 2028 is approximately $37.5 (located in the $35–$40 range); the difference between the two is approximately $15.
+- Category comparison in 2028: Top 5 U.S. Cloud SPs have the largest revenue; Rest of Enterprise has the smallest revenue; Large Enterprises, Rest of Cloud, Telco SPs, Top 3 Chinese Cloud SPs have intermediate revenue.
+- Total revenue for all years is located in the $20–$40 range, showing a year-over-year (YoY) growth trend.
+- Revenue for all categories in 2022 and 2028 are non-zero values, showing varying degrees of growth over time.
+
+[Pattern Characteristics]
+- The stacked area continuously expands over the years, with inconsistent expansion rates across different layers.
+- The structure shows a single layer occupying a large proportion, while the remaining layers are thinner and dispersed.
+- The curve is generally smooth, without significant jumps or reversals.
+
+[Core Insights]
+Core Conclusion: Incremental growth is primarily contributed by leading cloud vendors.
+
+Business Implications:
+- Revenue is more concentrated among the leaders.
+- Performance achievement relies on this segment.
+- Marginal contribution from other segments is small.
+
+Risk Concerns:
+- Total revenue < $35, indicating deviation from the annual target.
+- Leading segment proportion > 50%, vulnerable to strategic change impact.

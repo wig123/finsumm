@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Dual Line Chart
+- Title: Not displayed
+- X-axis: Time axis, labeled from “Jan 05” to “Jan 24”, scaled by year.
+- Y-axis: Percentage axis, range 0%—8%, scales include 0%, 2%, 4%, 6%, 8%.
+- Legend: Cyan represents “Bond yields”, Orange represents “Bank lending rates”.
+
+[Data Relationships]
+- Initial Period (Jan 05): Bond yields approximately 3%, Bank lending rates approximately 4%.
+- Final Period (Jan 24): Bond yields approximately 4%, Bank lending rates approximately 6%.
+- Bond yields peak approximately 8% (near 2008–2009); Bank lending rates peak approximately 6% (near 2008).
+- Bond yields low point close to 0% (between 2020–2021); Bank lending rates low point approximately 1% (between 2021–2022).
+- Near 2008, the spread between the two is approximately 2 percentage points (approx. 8% vs. approx. 6%).
+- Near 2023–2024, the spread between the two is approximately 2 percentage points (approx. 6% vs. approx. 4%).
+- Change from initial to final period: Bond yields approximately +1 percentage point; Bank lending rates approximately +2 percentage points.
+
+[Pattern Characteristics]
+The two lines generally show a pattern of rising first, then declining, followed by maintaining a low level for a long period, and then rising again later. The volatility of Bond yields is significantly greater than that of Bank lending rates, with alternating periods of leading or lagging behavior. Clear inflection points appeared around 2008–2009 and 2020–2023. In individual years, Bond yields briefly touched extreme positions close to zero, while Bank lending rates remained at a slightly higher level and adjusted more smoothly.
+
+[Core Insights]
+Core Conclusion: Lending rates exhibit lagged follow-through and buffering relative to changes in bond yields.
+
+Business Implications:
+- Loan pricing is not an immediate response to market interest rates; transmission friction exists.
+- Bank net interest margin (NIM) periodically narrows or widens in response to market interest rates.
+- During periods of extremely low yields, the stickiness of lending rates helps stabilize earnings.
+
+Risk Focus:
+- When Bond yields remain close to 0%, if Bank lending rates are still above 1%, it may exacerbate the decline in credit demand.
+- When Bond yields rise above 6% and Bank lending rates exceed 8%, it may significantly increase financing costs and the probability of default.

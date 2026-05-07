@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Dual Line Chart
+- Label: % y‑y
+- Y-axis: 0%—30%, 5% increments
+- X-axis: Time range Jan‑14 to Jan‑24 (Labeled annually in January)
+- Legend: Red represents Retail loans, Gray represents Agri loans
+- Latest values (Right side annotation): Agri loans 20%, Retail loans 18%
+
+[Data Relationships]
+- Jan‑14: Retail approximately 13%, Agri approximately 13%.
+- Jan‑24: Retail approximately 18%, Agri approximately 20%.
+- Retail historical peak approximately 24% (near 2020), trough approximately 11% (near 2021), range difference approximately 13 percentage points.
+- Agri historical peak approximately 20% (early 2015), trough approximately 4% (near 2018), range difference approximately 16 percentage points.
+- Jan‑23: Retail approximately 22%, Agri approximately 15%, difference approximately 7 percentage points.
+- Jan‑18: Retail approximately 16%, Agri approximately 5%, difference approximately 11 percentage points.
+
+[Pattern Characteristics]
+Both series show significant overall volatility, with Agri exhibiting greater amplitude, while Retail is relatively stable. Agri showed an early spike followed by a prolonged period at a low level, then sustained upward movement, converging and crossing Retail toward the end of the period. Retail formed multiple local peaks in the mid-term, followed by a trough and subsequent recovery, with a slight decline near the end of the period.
+
+[Core Insights]
+Core Conclusion: Growth leadership has shifted from Retail to Agriculture; the structure has changed.
+
+Business Implications:
+- Growth rate structure shifts from single-core dominance toward equilibrium
+- Portfolio weights require dynamic adjustment
+- Category differentiation enhances overall resilience
+
+Risk Concerns:
+- Agri below 10%, structure becomes imbalanced again
+- Retail above 22%, widening gap leads to increased concentration

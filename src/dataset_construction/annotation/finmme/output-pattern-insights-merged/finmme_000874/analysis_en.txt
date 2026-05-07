@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Scatter Plot
+- Title: 3m Implied vs realised skew; last month
+- X-axis: Implied skew, range approximately -0.50% to 0.50%, scales include -0.50%, -0.25%, 0.00%, 0.25%, 0.50%
+- Y-axis: Realised skew, range approximately -0.50% to 0.50%, scales include -0.5%, -0.3%, -0.1%, 0.1%, 0.3%, 0.5%
+- Reference Elements: Origin crosshairs; gray dashed line y=x; blue/green dashed indicator lines
+- Legend: Higher spot (blue diamond), Lower spot (green square)
+
+[Data Relationships]
+- Maximum Realised approximately 0.45%, corresponding Implied ≈ 0.30% (blue point).
+- Minimum Realised approximately -0.40%, corresponding Implied ≈ -0.25% (green point).
+- Near Implied ≈ 0.00%, Realised is approximately -0.05% to 0.10%.
+- When Implied ≈ 0.25%, Realised is approximately 0.05% to 0.45%.
+- When Implied ≈ -0.25%, Realised is approximately -0.35% to -0.15%.
+- Relative to y=x: The point (0.30%, 0.45%) is higher than the reference value by approximately 0.15 percentage points.
+- Y-axis value span is approximately 0.85 percentage points; X-axis span is approximately 1.00 percentage point.
+
+[Pattern Characteristics]
+Overall, the scatter points show a generally positive correlation distribution near y=x, but the dispersion is asymmetric: the positive region is more dispersed, and the negative region is more concentrated. Blue points are mainly distributed in the range of slightly positive to moderately positive Implied values, with a wide Realised distribution and noticeable high points; green points are concentrated near negative Implied values, with most corresponding Realised values being negative, forming a relatively tight cluster. The two types of points show some overlap near zero Implied, but the negative value region is dominated by green points, and the high positive value region is dominated by blue points.
+
+[Core Insights]
+Core Conclusion: There are structural differences in the matching degree between implied and realized skew across different scenarios.
+
+Business Implications:
+- Under positive scenarios, the deviation between pricing results and realized results is more pronounced.
+- Under negative scenarios, the estimation results are more concentrated and consistent with the actual trend.
+- When implied skew is close to zero, there is uncertainty in directional judgment.
+
+Risk Focus:
+- Implied ≥ 0.25% and Realised is significantly higher than y=x, which may lead to a systematic underestimation of volatility for related positions.
+- Implied ≤ -0.25% but Realised is close to zero, where a deviation exceeding 0.2 percentage points may weaken hedging effectiveness.

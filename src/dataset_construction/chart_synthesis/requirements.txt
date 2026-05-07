@@ -1,0 +1,44 @@
+# Chart Synthesis Pipeline V3 依赖
+
+# LLM SDK
+openai>=1.30.0
+
+# 数据处理
+pandas>=2.3.0
+numpy>=2.2.0
+scipy>=1.16.0
+
+# 数据源
+pandas-datareader>=0.10.0
+# akshare>=1.13.0      # 已移除：性能瓶颈，且不需要其独有数据
+baostock>=0.8.8        # A股指数（无限流、稳定）
+yfinance>=0.2.40       # 港股/全球指数/外汇/商品期货
+efinance>=0.4.0        # 期货/ETF（中国市场）
+requests>=2.31.0
+httpx>=0.27.0          # 异步HTTP客户端
+
+# 绘图库
+matplotlib>=3.10.0
+seaborn>=0.13.0
+plotly>=6.3.0
+mplfinance>=0.12.10b0
+networkx>=3.5
+squarify>=0.4.4
+kaleido>=1.2.0
+
+# 技术指标
+pandas-ta>=0.4.71b0
+statsmodels>=0.14.0
+
+# 配置管理
+pyyaml>=6.0
+pydantic>=2.0.0
+
+# 工具库
+python-dateutil>=2.8.0
+pytz>=2023.3
+
+# 开发工具
+pytest>=7.4.0
+black>=23.0.0
+mypy>=1.5.0

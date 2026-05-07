@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Time series line chart, overlaid with scatter markers
+- Title: Public Bank
+- Top right information: As of 19-Feb-2024; Currency=MYR
+- Y-axis: Price (MYR), range approximately 0.0–5.5
+- X-axis: Date scale at 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01
+- Legend: Grey line "Closing Price," Green triangle "Target Price Change," Blue dot "Recommendation Changes"
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Closing price range: Approximately 3.8–4.7 MYR
+- Initial period (2021/07/01) closing price approximately 4.1 MYR; Final period (2024/01/01) approximately 4.4 MYR; Change magnitude approximately 0.3 MYR
+- Highest closing price approximately mid-2022, about 4.7 MYR; Lowest closing price approximately mid-2023, about 3.8 MYR; High-low difference approximately 0.9 MYR
+- Target price changes marked approximately 9 times, marked prices concentrated in the 5.0–5.5 MYR range
+- The spread between the target price and the closing price during the period ranges approximately 0.6–1.5 MYR
+- Blue "Recommendation Changes" markers are not displayed in the chart
+
+[Pattern Characteristics]
+- The closing price exhibits a single-cycle structure, consisting of one high point and one low point, with moderate volatility and no obvious seasonality.
+- The number of target price change markers is limited, generally located above the price curve and concentrated in distribution; Rating change markers are absent.
+
+[Core Insights]
+Core Conclusion: Target price consistently higher than market pricing, rating events absent
+
+Business Implications:
+- Persistent deviation between expectation and pricing
+- Impacts valuation communication and expectation management
+- Decisions rely more heavily on target price adjustments
+
+Risk Focus:
+- Closing price near 3.8 MYR, spread reaches 1.5 MYR, potentially triggering selling pressure
+- Closing price near 4.7 MYR, spread approximately 0.6 MYR, potential return space is constrained

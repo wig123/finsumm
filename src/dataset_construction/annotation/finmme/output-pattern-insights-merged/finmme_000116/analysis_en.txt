@@ -1,0 +1,41 @@
+[Chart Components]
+- Type: Bar Chart
+- Title: Not provided
+- Axes:
+  - Left Axis (TWh)
+  - Right Axis (Percentage %)
+- Legend:
+  - 2022 Data
+  - 2026 Data
+  - Total Demand Proportion (Right Axis, Diamond Marker)
+
+[Data Relationships]
+- Key Values and Changes:
+  - The US was approximately 220 TWh in 2022, rising to approximately 275 TWh by 2026.
+  - The EU was approximately 125 TWh in 2022, increasing to approximately 165 TWh by 2026.
+  - China was 225 TWh in 2022, significantly increasing to 300 TWh by 2026.
+  - Denmark was approximately 5 TWh in 2022, reaching 9 TWh by 2026.
+  - Ireland was approximately 6 TWh in 2022, rising to 12 TWh by 2026.
+
+- Extremum Comparison:
+  - China has the highest data point in 2026, reaching approximately 300 TWh.
+  - Denmark has the lowest data point in 2022, at approximately 5 TWh.
+
+- Key Trends:
+  - Data for all regions in 2026 is significantly higher than in 2022, indicating overall demand growth.
+  - Regarding the total demand proportion, Ireland is approximately 28% in 2026, noticeably higher than other countries.
+
+[Pattern Characteristics]
+Each region is presented with two paired bars, with the later period bar generally higher than the earlier period bar. Absolute magnitude stratification is clear: China is the highest, Denmark is the lowest; the proportion diamond marker is clearly prominent at Ireland. Structurally, there is a mismatch between volume and proportion: high-volume regions have lower proportions, while the low-volume group shows an exception with a high proportion.
+
+[Core Insights]
+Core Conclusion: Scale is concentrated in China and the US, proportion advantage is in Ireland.
+
+Business Implications:
+- Large-volume regions determine the main allocation direction.
+- Ireland carries a higher weight in the total proportion.
+- Strategies for scale versus proportion must be differentiated.
+
+Risk Focus:
+- Ireland proportion < 21% → Concentration decreases, weakening the pull on the total proportion.
+- US volume < 275 TWh → Aggregate scale decreases, main market impact expands.

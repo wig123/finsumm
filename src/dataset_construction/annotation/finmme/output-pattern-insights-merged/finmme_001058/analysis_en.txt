@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Time series line chart, including a green baseline and green shaded band, and a red comparison line.
+- Title: Not displayed.
+- X-axis: Time, ticks at Mar-23, May-23, Aug-23, Oct-23, Dec-23, Mar-24.
+- Y-axis: Numerical range approximately 1.60—1.80, ticks include 1.60, 1.65, 1.70, 1.75, 1.80.
+- Legend: Green “MarFA™ Macro”, Red “DAX / IBEX 35”.
+
+[Data Relationships]
+- Initial Period (Mar-23): Red line approx. 1.67; Green line approx. 1.66.
+- The red line peaked at approx. 1.76 (May-23, Mar-24), and troughed at approx. 1.60 (Nov-23); the difference between high and low is approx. 0.16.
+- Final Period (Mar-24): Red line approx. 1.71; Green line approx. 1.66; the difference between the two is approx. 0.05.
+- Green line central value: Mar-23 approx. 1.66, Oct-23 approx. 1.62, Mar-24 approx. 1.66; range change approx. 0.04.
+- Shaded band: Mar-24 upper/lower boundary approx. 1.77/1.63, bandwidth approx. 0.14; Oct-23 approx. 1.66/1.60, bandwidth approx. 0.06.
+- Red-Green difference examples: May-23 red line 1.76, green line approx. 1.70, difference approx. 0.06; Nov-23 red line 1.60, green line approx. 1.63, difference approx. 0.03.
+
+[Pattern Characteristics]
+The red line oscillates above and below the green line. Overall, a relatively low-level area appears in the middle section of the chart, with the initial and final sections being relatively higher. The trajectory of the green line is relatively smooth. The shaded band is noticeably wider in the initial and final sections, narrowing in the middle section, indicating phased changes in the volatility range. The red line repeatedly approaches the upper and lower boundaries within the shaded band, locally forming brief peaks and troughs.
+
+[Core Insights]
+Core Conclusion: The DAX/IBEX comparison line deviated from the baseline in the middle section but reconverged later.
+
+Business Implications:
+- Performance in the middle section was weaker relative to the baseline, with subsequent recovery.
+- The baseline volatility range widens later, increasing uncertainty for related strategies.
+- The red line repeatedly touches the range boundaries, indicating high reliance of the strategy on the baseline.
+
+Risk Focus:
+- If the red line approaches 1.60 again and lingers, it may bring phased drawdown pressure.
+- If the red line persistently stays above 1.75 and exceeds the upper boundary of the green shaded band, there may be a risk of short-term volatility excessively deviating from the baseline.

@@ -1,0 +1,26 @@
+[Chart Components]
+- Type: Grouped bar chart (each category includes 2023E gray bar, 2024E red bar)
+- Title: % change in cons. adj profit estimates since 31-Dec-2023 (current earnings season)
+- Y-axis: Percentage, range approximately -14.0% to 2.0%
+- X-axis: ASXJ, ASEAN, India, Philippines, Singapore, Taiwan, Malaysia, Indonesia, China, ASXJ ex India, HK/CH, Thailand, Hong Kong, Korea; includes “North Asia” group label
+- Legend: Gray=2023E, Red=2024E
+
+[Data Relationships]
+- 2023E: Korea -12.1% lowest; Hong Kong -4.9% second lowest; positive/zero values include Singapore 0.6%, India 0.5%, Indonesia 0.1%, Taiwan 0.0%.
+- 2024E: Korea -4.0% lowest; Hong Kong -3.9%, Thailand -3.2%, HK/CH -2.6%; positive/zero values include Singapore 0.5%, India 0.4%, Philippines 0.0%.
+- Key comparison (2024E-2023E, percentage points): Korea +8.1; Hong Kong +1.0; ASXJ +0.4; ASEAN -0.9; Philippines +1.1; Singapore -0.1; India -0.1; Taiwan -0.7; Indonesia -1.7; China -0.8; ASXJ ex India +0.5; HK/CH -0.6; Thailand -0.7.
+
+[Pattern Characteristics]
+Overall, estimates for most markets across both years are negative, with only individual markets near zero or slightly positive. In most regions, the 2024E bar height is close to the 2023E bar, indicating limited change, with only Korea showing a significant horizontal difference between the two years. The regional distribution shows some markets clustered in the minor adjustment range, while extreme values are primarily concentrated in specific North Asian markets.
+
+[Core Insights]
+Core Conclusion: Earnings expectations are generally under pressure, with significant regional divergence.
+
+Business Implications:
+- Earnings prospects for specific North Asian markets are relatively more challenged.
+- ASEAN and India-related assets show relatively greater resilience in expectations.
+- Divergence in regional earnings expectations increases the importance of allocation choices.
+
+Risk Focus:
+- Korea's 2023E is near the -12% range, potentially amplifying profit volatility and valuation pullbacks.
+- Hong Kong and Thailand's 2024E are approximately -3% to -4%, potentially dragging down overall returns for related portfolios.

@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Bar chart (red bars).
+- Legend/Title: Volume growth (%).
+- X-axis: Time categories are Dec-21, Mar-22, Jun-22, Sep-22, Dec-22, Mar-23, Jun-23, Sep-23, Dec-23.
+- Y-axis: Percentage scale, range approximately -4 to 8.
+- Data Labels: Specific values are marked at the top of each bar.
+
+[Data Relationships]
+- Values per period: Dec-21=5.5; Mar-22=4.0; Jun-22=-2.0; Sep-22=4.5; Dec-22=1.5; Mar-23=1.0; Jun-23=0.0; Sep-23=0.2; Dec-23=5.5.
+- Maximum value: 5.5 (Dec-21, Dec-23); Minimum value: -2.0 (Jun-22); Difference between high and low: 7.5 percentage points.
+- Initial period vs. Final period: 5.5 vs 5.5, difference 0.0.
+- Close to zero: Jun-23 is 0.0; Sep-23 is 0.2.
+- Within 2022: Highest 4.5 (Sep-22), Lowest -2.0 (Jun-22).
+
+[Pattern Characteristics]
+Overall, it exhibits a volatile pattern of multiple increases followed by declines, with values gradually approaching the zero axis during the middle phase. Jun-22 shows the only significant negative low point, while Dec-21 and Dec-23 form symmetrical high points at both ends. The bar heights for the first three quarters of 2023 are significantly lower than the preceding periods and year-end, distributed narrowly near the zero axis.
+
+[Core Insights]
+Core Conclusion: Volume growth rate recovered to the initial period level after experiencing a decline.
+
+Business Implications:
+- Signs of growth deceleration appeared after a period of expansion.
+- Mid-2023 contributed limitedly to overall growth.
+- High growth recovered by year-end, indicating that period assessments must consider seasonal differences.
+
+Risk Concerns:
+- If it drops below 0% again, pressure for scale contraction may increase.
+- If it remains below 1% long-term, it may impact growth targets and resource allocation decisions.

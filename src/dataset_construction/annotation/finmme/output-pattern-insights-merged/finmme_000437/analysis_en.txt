@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Line chart; no explicit title visible
+- X-axis: Year, 2016—2025F (including 2023F, 2024F, 2025F forecasts)
+- Y-axis: Percentage, range 30%—100%
+- Legend/Color Scheme: Gray=Cybersecurity GPM%; Black=Cloud & IT Infra GPM%; Orange=Basic network & IoT GPM%
+
+[Data Relationships]
+- Cybersecurity: 88% in 2016, 89% in 2017 (highest), 79% in 2024F/2025F (lowest); difference between highest and lowest is 10 percentage points
+- Cloud & IT Infra: 56% in 2016 (highest), 44% from 2021—2025F (lowest); difference is 12 percentage points
+- Basic network & IoT: 48% in 2019 (lowest), 62% in 2020 (highest), 53% in 2025F; difference is 14 percentage points
+- The three items in 2025F are 79%/44%/53% respectively; Cybersecurity is 35 percentage points higher than Cloud & IT Infra, and 26 percentage points higher than Basic network & IoT
+- 2019 was 83%/52%/48%; 2020 was 82%/49%/62%
+
+[Pattern Characteristics]
+- The three curves maintain clear stratification across the entire period, with Cybersecurity consistently in the highest range, Cloud & IT Infra in the lowest range, and Basic network & IoT in the middle, maintaining a stable distance from both.
+- Cybersecurity gradually adjusted downwards from an early high platform and leveled off in the later period; Cloud & IT Infra continuously declined slowly after the starting point and remained largely stable after 2021.
+- Basic network & IoT first retreated in the first half, then rapidly rose to form a noticeable peak, after which it fluctuated slightly around the median level and maintained a nearly horizontal trend during the forecast period.
+
+[Core Insights]
+Core Conclusion: The gross profit margin structure of the three businesses shows clear stratification; the high-GPM business leads but the overall pressure is evident.
+
+Business Implications:
+- Cybersecurity profitability remains the main source of overall profit.
+- Cloud & IT Infra's GPM level is relatively low, dragging down overall earnings quality.
+- Basic network & IoT's profitability performance relies more on periodic improvements.
+
+Risk Focus:
+- If Cybersecurity falls below 75%, the overall profit margin will be significantly lowered.
+- If Cloud & IT Infra remains below 45% for the long term, it may compress the space for sustainable investment.

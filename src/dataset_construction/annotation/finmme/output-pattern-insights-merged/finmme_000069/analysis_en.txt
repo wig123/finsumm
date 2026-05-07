@@ -1,0 +1,39 @@
+[Chart Components]
+- Type: Heatmap
+- Title: None
+- Axes: Horizontal axis represents months (Jan to Dec), vertical axis represents multiple financial indicators
+- Legend: Colors indicate performance over the past year, green represents above median ASW (new low), red represents below median ASW (new high)
+
+[Data Relationships]
+- Key Metrics and Changes:
+  - 10y Bund yield reached a high of 14 in January
+  - EUR swap 2s10s peaked at 10 in March
+  - 10y Gilt reached a high of 21 in August
+
+- Extremum Comparison:
+  - Maximum value is the 10y Gilt data for August (21)
+  - Minimum value is the GBP swap 30s50s data for October (1)
+
+- Significant Trends:
+  - GBP swap 5s10s showed a steady upward trend in Q1
+  - EUR swap 5s10s remained at a high level from May to September
+  - 10y Bund yield showed a significant decline after reaching its maximum value in August
+
+Overall, the chart reflects the volatility trends of yields and ASW for different financial products over the past year. The maximum and minimum values identify potential strategic inflection points.
+
+[Pattern Characteristics]
+- Color blocks show monthly clustering over time; multiple rows simultaneously display strong colors in August–September, while the Q1 distribution is more dispersed.
+- Indicator distribution is uneven; GBP-related rows are more active in the second half of the year, while the EUR curve shows periodic concentration in spring and early autumn.
+- Extremes are concentrated in a few instruments and months: the overall maximum is the 10y Gilt in August, and the minimum is the GBP swap 30s50s in October; the 10y Bund yield showed an inflection point around August.
+
+[Core Insights]
+Core Conclusion: Multi-instrument resonance strengthened in Q3, with the strongest signals related to UK Gilts.
+
+Business Implications:
+- Correlation rises, diversification efficiency declines
+- UK Gilts are more sensitive to the curve and yields
+- August can serve as a rebalancing reference point
+
+Risk Focus:
+- 10y Gilt ≥ 21 (August level), widening losses on UK Gilt positions
+- GBP swap 30s50s ≤ 1 (October level), exacerbating curve position misjudgment

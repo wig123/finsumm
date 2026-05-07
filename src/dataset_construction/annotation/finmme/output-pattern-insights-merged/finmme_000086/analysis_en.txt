@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Combined Line and Bar Chart
+- Title: Relationship between NB Latex Price and Export Volume
+- Axes: Left Axis (USD/kg), Right Axis (tons)
+- Legend: Red line represents NB Latex Price, Gray bars represent NB Latex Export Volume
+
+[Data Relationships]
+- Price Peak: The price peaked in early 2011, exceeding 3.50 USD/kg, and then gradually declined.
+- Price Trend: Starting in 2011, the price showed an overall downward trend, approaching 1.00 USD/kg by 2023.
+- Export Volume Change: Export volume increased significantly after 2018, peaking in early 2021, close to 80,000 tons.
+- Key Comparison: During the period of high export volume in 2021, the price was at a relatively low point.
+- Overall Relationship: Generally, price and export volume exhibit a negative correlation; when the price is higher, the export volume is lower, and vice versa.
+
+[Pattern Characteristics]
+- The price line showed a single peak in early 2011, followed by a prolonged downward trajectory, with several brief rebounds. In recent years, volatility has narrowed and remained near the low end.
+- The export volume bars were low and relatively stable before 2018. After 2018, the overall level rose and showed greater dispersion, reaching the highest point in early 2021, and subsequently maintaining a high level but with noticeable volatility.
+- The two exhibit inverse synchronization in most phases; when volume is high, the price is relatively low, and when volume is low, the price is relatively high.
+
+[Core Insights]
+Core Conclusion: Volume and price show a substitution relationship, indicating high price elasticity.
+
+Business Implications:
+- Price changes effectively drive export volume
+- Pricing decisions directly impact shipments
+- High-volume phases did not result in a synchronous increase in unit price
+
+Risk Focus:
+- Price < 1.00 USD/kg and export volume < 80,000 tons, insufficient monthly scale
+- Price > 3.50 USD/kg, export volume may experience significant contraction

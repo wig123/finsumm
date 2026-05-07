@@ -1,0 +1,35 @@
+[Chart Components]
+- Type: Time series line chart, overlaid with markers/scatter points.
+- Title: Hong Kong Exchanges and Clearing.
+- Notation in the upper right corner: As of 28-Feb-2024; Currency=HKD.
+- X-axis: Date, ticks approximately 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01.
+- Y-axis: Price (HKD), range approximately 0.00–550.00.
+- Legend: Closing Price (Grey Line), Target Price Change (Green Triangle), Recommendation Changes (Blue Dot).
+- Source: LSEG, Nomura.
+
+[Data Relationships]
+- Initial Period (approx. 2021/07): Closing price approximately 470–490 HKD.
+- Final Period (approx. 2024/01): Closing price approximately 240–250 HKD.
+- Highest closing price near the end of 2021, approximately 530–540 HKD.
+- Lowest closing price near the end of 2022, approximately 210–230 HKD.
+- Difference between the highest and lowest values is approximately 300–330 HKD.
+- Difference between the initial and final periods is approximately 220–240 HKD.
+- Recommendation change (blue dot) occurred 1 time, near the beginning of 2022, corresponding to a price of approximately 470–480 HKD.
+- Target price changes (green triangles) are distributed from the second half of 2021 to the beginning of 2024, with most corresponding prices in the range of approximately 300–500 HKD.
+
+[Pattern Characteristics]
+- The price line gradually declined from the high level near the start of the chart, accompanied by several medium-amplitude rebounds and retracements, resulting in a relatively wide overall fluctuation range.
+- Target price change markers appeared multiple times throughout the period, concentrated in the medium-to-high price range, slightly shifting downward over time, but the timing is relatively dispersed.
+- The recommendation change occurred only once early on, with no similar markers appearing afterward, contrasting with the subsequent price trend.
+
+[Core Insights]
+Core Conclusion: The stock price has weakened over the long term and is inconsistent with the pace of subsequent target price adjustments.
+
+Business Implications:
+- There is a persistent gap between market pricing and analyst expectations.
+- The pace of investment research adjustments lags behind price changes.
+- Investor reliance on subsequent target prices may decrease.
+
+Risk Focus:
+- If the price consistently remains below 300 HKD, it may exacerbate unrealized losses and redemption pressure for holders.
+- If the target price repeatedly exceeds the current price by more than 150 HKD, it may lead to a weakening of confidence in the research conclusions.

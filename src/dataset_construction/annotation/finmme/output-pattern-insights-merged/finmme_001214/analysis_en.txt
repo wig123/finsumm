@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Annual stacked bar chart
+- Title: Not displayed
+- Y-axis: Unit is KRW bn, range approximately 0—600; left scale shows 0 and 600, with horizontal grid lines
+- X-axis: Year categories are 2021, 2022, 2023P, 2024F, 2025F, 2026F
+- Legend: Three items—BH EVS (light orange), EV battery FPCB (red), Auto OLED (black)
+- Structure: Each annual bar is stacked by the three aforementioned parts, the total being the sum of the three
+
+[Data Relationships]
+- Total for each year = BH EVS + EV battery FPCB + Auto OLED; all bar heights are less than the Y-axis upper limit of 600 KRW bn
+- The magnitude order of the components within the year is consistent: BH EVS is the largest component, followed by EV battery FPCB, and Auto OLED is the smallest
+- The initial period total (2021) is the lowest in the entire chart; the final period total (2026F) is the highest in the entire chart
+- The totals for 2023P, 2024F, 2025F, and 2026F are all significantly greater than 2021 and 2022 (based on bar height comparison in the chart)
+- In all years, the height of the Auto OLED component is far smaller than the other two; the height of EV battery FPCB is smaller than BH EVS (relative size only, no specific numerical labels)
+
+[Pattern Characteristics]
+- The annual bars show a continuous increase from 2021 to 2026F. The overall height after 2023P is significantly higher than the previous two years, reaching the highest point in the entire chart in 2026F.
+- The three components maintain a fixed ranking in magnitude across all years, with BH EVS holding absolute dominance, EV battery FPCB in the middle, and Auto OLED having a minimal proportion and showing gradual change.
+- Starting from 2023P, the increase in bar height is mainly reflected in the simultaneous expansion of both the BH EVS and EV battery FPCB components, with no significant sudden drops or inverse changes observed.
+
+[Core Insights]
+Core Conclusion: Overall scale growth is dependent on the expansion of BH EVS, indicating high structural concentration.
+
+Business Implications:
+- Implication 1 Current growth is primarily driven by a single segment, resulting in limited resilience against volatility.
+- Implication 2 The proportion of EV battery FPCB is increasing; related capacity and resources must be deployed simultaneously.
+- Implication 3 Auto OLED maintains a small long-term proportion, offering limited contribution to overall performance.
+
+Risk Focus:
+- Risk Point 1 If the scale of BH EVS falls below the 2023P level, overall revenue will be significantly lower than the subsequent forecast range.
+- Risk Point 2 If EV battery FPCB fails to reach the height projected in the 2026F bar, structural diversification and growth potential will be suppressed.

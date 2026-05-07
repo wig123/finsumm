@@ -1,0 +1,61 @@
+### Qwen3-VL-8B LoRA DPO 配置
+### DPO-EXP001: 从 exp-012-ckpt640 继续 DPO 训练 (999 样本)
+### 策略: A1+B2+C1 (复用旧图 + hard-negative + 模型高分输出)
+
+### 模型配置
+model_name_or_path: /app/models/qwen3-vl-8b-instruct
+adapter_name_or_path: $DATA_ROOT/sft/outputs/exp-012/checkpoint-640
+trust_remote_code: true
+flash_attn: fa2
+
+### 数据配置
+dataset_dir: /app/data
+dataset: dpo_train_1000
+template: qwen3_vl_nothink
+cutoff_len: 4096
+overwrite_cache: true
+preprocessing_num_workers: 8
+
+### 训练阶段: DPO
+stage: dpo
+do_train: true
+pref_beta: 0.1
+pref_loss: sigmoid
+
+### 微调方式: LoRA (继承 exp-012 的 LoRA 配置)
+finetuning_type: lora
+lora_rank: 512
+lora_alpha: 1024
+lora_dropout: 0.05
+lora_target: all
+
+### 训练超参数 (针对 999 样本)
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 8
+num_train_epochs: 3
+learning_rate: 5.0e-6
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+weight_decay: 0.01
+max_grad_norm: 1.0
+
+### 精度与加速
+bf16: true
+gradient_checkpointing: true
+ddp_find_unused_parameters: false
+deepspeed: /app/configs/ds_zero2.json
+
+### 日志与保存
+logging_strategy: steps
+logging_steps: 10
+save_strategy: steps
+save_steps: 50
+save_total_limit: 5
+
+### 输出目录
+output_dir: /app/outputs/dpo-exp001
+run_name: dpo-exp001_hard_negative_999
+
+### 监控
+report_to:
+  - tensorboard

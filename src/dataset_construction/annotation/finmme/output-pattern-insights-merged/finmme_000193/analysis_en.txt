@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Combination Chart (Gray bars represent Net Debt; Red line represents Net Debt/EBITDA).
+- Legend: Net Debt (INR bn); Net Debt/EBITDA (x) (RHS).
+- X-axis: Fiscal Year FY13 to FY26F.
+- Left Y-axis: Net Debt (INR bn), scale approximately -100 to 250.
+- Right Y-axis: Net Debt/EBITDA (x), scale approximately -0.5 to 3.5.
+
+[Data Relationships]
+- Net Debt Peak: FY19 approximately 225bn; Second highest FY20 approximately 170bn; FY18 approximately 140bn.
+- Lowest: FY26F approximately -60bn; FY25F approximately -5bn.
+- Change from FY19 to FY26F approximately -285bn.
+- Other values: FY21 approximately 60bn; FY22 approximately 35–40bn; FY23 approximately 25–30bn; FY24 approximately 20–25bn.
+- Net Debt/EBITDA Peak: FY19 approximately 3.2–3.3x; FY21 approximately 0.5x; FY22 approximately 0.3–0.4x; FY24 approximately 0.2x; FY25F approximately 0 to -0.1x; FY26F approximately -0.3x.
+- Difference: FY19 vs. FY21 approximately 2.8x; FY21 vs. FY26F approximately 0.8x.
+- Negative years (Ratio): FY13 approximately -0.4x, FY17 approximately -0.6x, FY25F, FY26F.
+
+[Pattern Characteristics]
+- The bars show a single-peak structure, concentrated at high levels during FY18–FY20, subsequently approaching zero and turning negative.
+- The line chart correlates with the bars, showing continuous convergence after FY19, falling into the negative range in FY13, FY17, and FY25F–FY26F.
+- An inflection point appears near FY21, where the line crosses the zero axis from the positive range.
+
+[Core Insights]
+Core Conclusion: Leverage significantly reduced and entered the net cash position.
+
+Business Implications:
+- Decrease in debt reliance
+- Increased flexibility for capital deployment
+- Enhanced cash coverage capability
+
+Risk Focus:
+- Net Debt > 0bn: Net cash disappears, working capital constrained
+- Net Debt/EBITDA ≥ 3.0x: Financing flexibility pressured

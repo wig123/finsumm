@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Bar chart (single series).
+- Label/Legend: US sales (USD Mn), bar color is red.
+- X-axis: Quarterly categories, from 1QFY16 to 3QFY24, totaling 35 quarters.
+- Y-axis: Value axis, unit USD Mn, range 0—100.
+- Title: No separate title observed (legend serves as series description).
+
+[Data Relationships]
+- Peak value: 2QFY24≈94 USD Mn; Second highest: 3QFY23≈93 USD Mn; 1QFY21≈89 USD Mn.
+- Trough value: 4QFY16≈36 USD Mn; Second lowest: 2QFY16≈37 USD Mn.
+- FY16 beginning 1Q≈38, ending 4Q≈36, difference≈2.
+- FY23 beginning 1Q≈73, ending 4Q≈75, difference≈2.
+- FY24 three quarters: 1Q≈85, 2Q≈94, 3Q≈83; 2Q is greater than 1Q by ≈9, and greater than 3Q by ≈11.
+- FY20 four quarters: 1Q≈70, 2Q≈75, 3Q≈82, 4Q≈84; Increase from 1Q to 4Q is ≈14.
+- 1QFY21≈89 is higher than 1QFY18≈46 by ≈43.
+
+[Pattern Characteristics]
+The overall bar shape shows a step-like elevation from FY16 to FY24, with no significant decline periods in between. Within most fiscal years, the quarterly sequence is relatively smooth, with limited difference between the annual high and low points. 2Q of FY24 formed the global peak, followed by a noticeable decline in the immediate subsequent quarter, forming a localized sharp peak.
+
+[Core Insights]
+Core Conclusion: While the scale of US quarterly sales is increasing, there are signs of temporary weakening.
+
+Business Implications:
+- In the long term, the volume of US revenue continues to expand.
+- Single-quarter peaks are concentrated in FY23–FY24, increasing reliance on a high base.
+- The latest 2Q high point was immediately followed by weakening, indicating sensitivity to short-term drivers.
+
+Risk Concerns:
+- If two consecutive quarters fall below 70 Mn, it may signal difficulty in maintaining recent scale levels.
+- If future peaks fail to surpass 94 Mn, it may indicate a prolonged growth plateau.

@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Stacked bar chart (by region) superimposed with a line chart (Net change).
+- Title: Not explicitly displayed in the chart.
+- X-axis: Year, labeled as 2020, 2021, 2022, 2023, 2024, 2025, 2026, 2027.
+- Y-axis: Numerical scale approximately from -2,000 to 2,500 (including the 0 baseline and grid lines).
+- Legend: North America (Teal/Light Green), Europe (Light Blue), Other Asia (Orange), China (Dark Blue), Middle East (Purple), Africa (Pink), Net change (Gray line).
+
+[Data Relationships]
+- Net change values (approx.): 2020 is -1,500; 2021 is -1,000; 2022 is 400; 2023 is 1,300; 2024 is 1,900; 2025 is 1,200; 2026 is 500; 2027 is 250.
+- Net change high and low points: Highest approximately 1,900 (2024), lowest approximately -1,500 (2020), the difference between the two is approximately 3,400.
+- Comparison of Net change between the initial and final periods: The difference between 2020 and 2027 is approximately 1,750.
+- China's contribution in the 2026 bar is approximately 500 (positive value).
+- Europe's contribution in the 2025 bar is approximately -500 (negative value).
+- North America in the 2020 bar is approximately -1,700 (negative value).
+
+[Pattern Characteristics]
+Overall, the Net change forms a single-peak structure centered around 2024, initially situated below the zero line, then transitioning above the zero line and narrowing annually. There are significant differences in the positive and negative contributions of each region in the stacked bars across different years. Some years are dominated by a large negative value from a single region. The overall structure gradually transitions from being concentrated in negative regions to an accumulation of positive values across multiple regions. After 2024, both the bars and the line chart show a convergence characteristic from large positive values toward near-zero values, with no new extreme outliers appearing.
+
+[Core Insights]
+Core Conclusion: The regional contribution structure shifts from concentrated negative values to a brief high peak, followed by contraction.
+
+Business Implications:
+- The overall result exhibits characteristics of phased recovery and subsequent decline.
+- The degree of reliance on regional allocation changes significantly around 2024.
+- The medium-to-long-term result may return to a near break-even range.
+
+Risk Focus:
+- If Net change falls below 0 again, the overall result may transition into a loss state.
+- If a single regional contribution falls below -1,500, it could create an overwhelming drag on overall annual performance.

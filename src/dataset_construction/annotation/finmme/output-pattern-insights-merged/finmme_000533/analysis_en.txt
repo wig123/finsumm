@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Binned Bar Chart
+- Title: No explicit title observed
+- X-axis: Percentage interval labels, [0%, 25%], (25%, 50%], (50%, 75%], (75%, 100%]
+- Y-axis: Traceable to the production unit (Number), scale range 0–60
+- Legend: Not displayed
+- Data labels on top of bars: 50, 2, 2, 5
+
+[Data Relationships]
+- Quantity per interval: [0%,25%] is 50; (25%,50] is 2; (50%,75] is 2; (75%,100] is 5
+- Total: 59
+- Maximum value: 50 ([0%,25%]); Minimum value: 2 ((25%,50] and (50%,75])
+- Difference between maximum and minimum: 48; Difference between maximum and 5: 45; Difference between the two "2"s: 0
+- Proportion of each interval: 84.7%, 3.4%, 3.4%, 8.5%
+
+[Pattern Characteristics]
+The overall distribution is highly concentrated in the lowest interval. The bar corresponding to [0%,25%] is significantly higher than other intervals, and the bars for the remaining three intervals are notably short. Structurally, it shows a single dominant segment, with the rest of the distribution scattered, and the values for the two middle intervals are nearly identical. The high interval (75%,100%] is slightly higher than the middle intervals, but there is a clear step-change difference compared to the lowest interval.
+
+[Core Insights]
+Core Conclusion: The sample is extremely concentrated in the low-percentage interval, and high-percentage cases are rare.
+
+Business Implications:
+- The overall indicator level leans towards a low-end distribution.
+- High-percentage scenarios are underrepresented in the sample.
+- The lack of samples in the middle intervals makes it difficult to characterize the complete structure.
+
+Risk Concerns:
+- If the long-term proportion of [0%,25%] is >80%, decision-making may become overly reliant on low-end samples.
+- If the proportion of (75%,100%] is <10%, assessments related to high percentages may be distorted.

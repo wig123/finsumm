@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Multi-series line chart; title not displayed.
+- X-axis: Time, labeled Jan‑20, Jul‑20, Jan‑21, Jul‑21, Jan‑22, Jul‑22, Jan‑23, Jul‑23.
+- Y-axis: Percentage, range ‑100% to 100%, including the 0% baseline.
+- Legend: Europe (Red), N. America (Light Gray), China (Black), S. America (Light Orange).
+
+[Data Relationships]
+- Lowest point in early 2020: China approximately ‑80%, S. America approximately ‑60%, N. America approximately ‑40%, Europe approximately ‑30%.
+- Peak value in early 2021: N. America≈100%, S. America≈100%, China≈100%, Europe≈60%.
+- High-low span (Range): China approximately 180 percentage points; S. America approximately 160; N. America approximately 140; Europe approximately 90.
+- Mid-2022 low for China approximately ‑35%, the remaining three regions approximately ‑10% to ‑20%.
+- Local high point for China in early 2023 approximately 35%–40%.
+- End-of-period (Jul‑23) values: Europe≈0%, N. America≈0% slightly positive, China≈10%, S. America≈10%.
+
+[Pattern Characteristics]
+- All regions were in the significantly negative territory in early 2020, subsequently forming sharp peaks simultaneously in early 2021, followed by a rapid decline to fluctuate slightly around the zero axis.
+- In mid-2022, the four lines generally trended toward the negative territory, with China momentarily significantly lower than other regions; subsequently, China showed several relatively prominent local high points during 2023.
+- By mid-2023, the curves for all four regions converged near the zero axis, with differences narrowing. Only China and S. America remained slightly positive. The overall structure shifted from early extreme divergence to relative proximity in the later period.
+
+[Core Insights]
+Core Conclusion: All regions gradually returned to near-neutral levels from early severe imbalance.
+
+Business Implications:
+- The early extreme changes reflect the high instability of the environment in the respective regions.
+- The subsequent approach to the zero axis signifies that overall pressure and supporting forces are gradually offsetting each other.
+- China's slightly higher position in the later period indicates its relatively superior performance compared to other regions.
+
+Risk Focus:
+- If values approach the ‑80% to ‑60% range again, it could imply a severe contraction in local markets.
+- If a single region rises to approximately 100% while others remain near zero, it could lead to excessive concentration in global allocation.

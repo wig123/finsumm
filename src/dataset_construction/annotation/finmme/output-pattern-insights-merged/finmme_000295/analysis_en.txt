@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Vertical Bar Chart
+- Legend/Series: Red bars represent "Number of active MFI customers (mn)"
+- Annotation: Text above "3-yr CAGR: 6%"
+- X-axis: Quarterly labels Q3FY22, Q4FY22, Q1FY23, Q2FY23, Q3FY23, Q4FY23, Q1FY24, 2QFY24, 3QFY24
+- Y-axis: Value range approximately 8.0–15.0 (Unit: millions), Scale interval approximately 1.0
+
+[Data Relationships]
+- Initial Period (Q3FY22) 11.9; Final Period (3QFY24) 13.6; Difference 1.7
+- Maximum Value: 2QFY24 is 13.8; Minimum Value: Q3FY22 is 11.9; Range 1.9
+- Values per Period: Q4FY22 12.6; Q1FY23 12.7; Q2FY23 12.9; Q3FY23 13.0; Q4FY23 13.7; Q1FY24 13.7; 2QFY24 13.8; 3QFY24 13.6
+- Sequential Differences: Q3FY23→Q4FY23 +0.7; Q4FY23→Q1FY24 0; Q1FY24→2QFY24 +0.1; 2QFY24→3QFY24 -0.2
+- Chart Annotation: 3-yr CAGR is 6%
+
+[Pattern Characteristics]
+- The bars generally show a pattern of gradual ascent, without significant pullbacks in the middle, only a slight giveback at the end stage.
+- After Q3FY23, the single-period increment significantly amplified once, subsequently entering a high-level narrow fluctuation range, structurally shifting from continuous upward movement to small-range volatility near a plateau.
+- All data points are concentrated within a relatively narrow range, with no prominent outliers. Only 2QFY24 is the local peak for the entire period, and 3QFY24 is slightly below that position.
+
+[Core Insights]
+Core Conclusion: The scale of active MFI customers continues to expand, recently entering a high-level consolidation phase.
+
+Business Implications:
+- The existing customer base has expanded, and market penetration has increased.
+- Growth rate amplified after Q3FY23, reflecting a phased enhancement in customer acquisition efficiency.
+- High-level narrow fluctuations indicate improved stability in customer scale.
+
+Risk Focus:
+- If the customer count drops below 13.0mn, it may imply that incremental customers are insufficient to offset attrition/churn.
+- If the count remains in the 13.5–13.8mn range for an extended period and the CAGR falls below 6%, it may limit business expansion potential.

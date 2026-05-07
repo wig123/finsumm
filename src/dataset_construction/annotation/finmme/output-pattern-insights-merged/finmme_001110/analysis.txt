@@ -1,0 +1,31 @@
+【图表构成】
+- 图表类型：瀑布图
+- 标题：未显示
+- 纵轴：Index (base = 100)，范围0–100，等距刻度
+- 横轴类别（自左至右）：US manufacturing cost；Payroll, net of productivity differences；Facilities, construction and scale；Materials, components, tooling；Other costs；China manufacturing cost；Logistics costs；Other costs；Net landed cost in US
+- 图例：未显示
+
+【数据关系】
+- 起始值：US manufacturing cost=100
+- 调整值：Payroll=-35；Facilities=-8；Materials=-8；Other costs=-3
+- 中间结果：China manufacturing cost=48
+- 后续项：Logistics=+10；Other costs=+5
+- 终值：Net landed cost in US=63
+- 起始与终值差：-37（63-100）
+- 起始与中国制造成本差：-52（48-100）
+- 中国制造成本与终值差：+15（63-48）
+
+【模式特征】  
+整体上由一个初始基准值向下分解为多个负向项目，形成连续递减，再在中间形成一个较低的平台值。随后叠加两个正向项目，使得最终结果高于这一中间平台值但仍低于初始基准值。结构上分为“美国制造成本→中国制造成本→到岸成本”三段，前半段为多项分散贡献，后半段为少数项目集中拉高，没有明显的突发跳点。
+
+【核心洞察】  
+核心结论：转移至中国后，即使含到岸费用，总成本仍显著低于美国本地制造。
+
+业务含义：  
+- 中国端直接生产成本显著低于美国本地制造水平。  
+- 跨境运输及附加费用对整体节约有一定侵蚀。  
+- 成本节约主要来源于薪酬和固定设施等结构性差异。
+
+风险关注：  
+- 若物流相关成本较现值再增加10点，整体节约空间将明显缩窄。  
+- 如中国制造成本指数由48升至63，将完全抵消当前成本差额。

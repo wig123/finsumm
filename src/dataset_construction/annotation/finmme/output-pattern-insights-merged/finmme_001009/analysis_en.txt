@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Vertical bar chart (column chart), single series red bars.
+- Annotation: Horizontal dashed line and text "Average = 1,547".
+- Y-axis: Unit is (’000 MT), scale range approximately 1,000 to 2,000.
+- X-axis: Time scale, sample labels include Jan-20, Sep-20, May-21, Jan-22, Sep-22, May-23.
+- Legend: No independent legend or series name displayed.
+
+[Data Relationships]
+- Average Value: 1,547(’000 MT), indicated by the dashed line.
+- Peak Value: A bar in the latter half of 2023 approaches 2,000; Trough Value: A bar in early 2022 is slightly above 1,100.
+- Range (Difference between high and low): Approximately 800(’000 MT).
+- Initial Period (Jan-20) value is slightly below 1,200; Final Period (latter half of 2023) value is slightly above 1,900.
+- Most bar values are distributed between 1,400 and 1,800, fluctuating around the average line.
+
+[Pattern Characteristics]
+The bar sequence repeatedly fluctuates around the average line, with localized high and low values appearing in clusters, forming several cycles. Overall, the bar height at the end of the sample period is significantly higher than at the beginning. During this time, there are several alternating distributions of continuous low-level intervals and concentrated high-level intervals. The gap between the highest and lowest points is substantial, but the majority of observations remain clustered near the central range.
+
+[Core Insights]
+Core Conclusion: The overall level is relatively balanced but exhibits significant periodic volatility, with the final period positioned at a relative high.
+
+Business Implications:
+- Overall supply (or throughput) is relatively concentrated in the medium range.
+- Resource allocation pressure increases when values periodically deviate from the average line.
+- The high level at the end of the period may increase inventory, transportation costs, and capital tie-up.
+
+Risk Focus:
+- If the value approaches 2,000(’000 MT) and persists, excess output or capital tie-up will significantly amplify.
+- If the value drops back near 1,100(’000 MT), it may lead to limitations in fulfillment capacity and downstream supply.

@@ -1,0 +1,38 @@
+[Chart Components]
+- Chart Type: 100% Stacked Bar Chart
+- Title: Not displayed
+- X-axis: Quarterly labels, from 1Q15 to 3Q23
+- Y-axis: Proportional scale, 0%—100%, increments of 10%
+- Legend: Three categories—Raw Materials ($m, gray), WIP ($m, red), Finished goods ($m, light orange)
+- Each bar represents the sum of the proportions of the three categories for a single quarter (totaling 100%)
+
+[Data Relationships]
+- 1Q15: Raw≈47%, WIP≈14%, Finished goods≈39%
+- 1Q16: Raw≈38%, WIP≈12%, Finished goods≈50%
+- 2Q18: Raw≈50%, WIP≈10%, Finished goods≈40%
+- 1Q20: Raw≈55%, WIP≈7%, Finished goods≈38%
+- 3Q21: Raw≈66%, WIP≈8%, Finished goods≈26%
+- 4Q22: Raw≈58%, WIP≈7%, Finished goods≈35%
+- 1Q23: Raw≈52%, WIP≈7%, Finished goods≈41%
+- 3Q23: Raw≈56%, WIP≈6%, Finished goods≈38%
+- Raw proportion range approximately 38%—66%, a difference of about 28 percentage points
+- WIP proportion range approximately 6%—15%, a difference of about 9 percentage points
+- Finished goods proportion range approximately 26%—50%, a difference of about 24 percentage points
+- The sum of the proportions of the three categories in any given quarter is 100%
+
+[Pattern Characteristics]
+- The three inventory categories consistently form a stable three-tier structure across the entire period, but the relative proportions of Raw Materials and Finished Goods show a clear inverse relationship (trade-off) across different stages.
+- Raw Materials were at a moderate level early on, then remained in a relatively high range during the middle-to-later stages; WIP generally stayed within a narrow range with minor fluctuations; Finished Goods relatively contracted in the middle stage and rose again in the later stage.
+- Around 3Q21, the Raw Materials proportion reached a high point, corresponding to the Finished Goods proportion being in a low range, forming a clear structural extreme point. Subsequently, the structure slightly retreated and trended towards equilibrium.
+
+[Core Insights]
+Core Conclusion: The inventory structure shifted from being dominated by Finished Goods to being dominated by Raw Materials.
+
+Business Implications:
+- The middle-to-later period relies more on upstream input rather than downstream backlog.
+- The overall inventory turnover pace may be more driven by production planning.
+- The stable WIP proportion indicates that the production process is relatively controllable.
+
+Risk Concerns:
+- When the Raw Materials proportion approaches 66%, weakened demand will amplify losses due to price fluctuations.
+- If the Finished Goods proportion again approaches 50%, sluggish sales will increase inventory capital occupation.

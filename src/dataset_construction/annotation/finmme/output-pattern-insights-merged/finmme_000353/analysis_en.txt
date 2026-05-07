@@ -1,0 +1,33 @@
+[Chart Components]
+- Chart Type: Vertical bar chart; includes two horizontal dashed reference lines.
+- Title: Not displayed.
+- X-axis: Year, 1980–2022.
+- Y-axis: % of Total, range 0%–70%, 10% increments.
+- Legend: US share (bar), Post-WTO average (black dashed line), Current (red dashed line).
+- Specific percentages are labeled at the top of each bar.
+
+[Data Relationships]
+- 1980 was 12%; 2022 was 41%; an increase of 29 percentage points from the start to the end of the period.
+- The global peak was 68% in 1987; 27 percentage points higher than 2022, and 56 percentage points higher than 1980.
+- 2002 was 60% (2000–2004 sequentially: 59%, 58%, 60%, 59%, 58%).
+- 1990–1991 low points: 27%, 23%.
+- 2014–2019 sequentially: 45%, 49%, 48%, 45%, 46%, 50%; 2020–2022 was 43%, 42%, 41%.
+- 1994–1997 was 36%, 39%, 39%, 41%.
+- Post-WTO average line is approximately 45%; Current reference line is approximately 42% (both are between 40% and 50%).
+
+[Pattern Characteristics]
+- The overall structure exhibits multiple phases: a rapid surge initially, followed by a decline, then a period of high-level consolidation (plateau), before falling back and stabilizing in the medium-to-high range.
+- The data formed two distinct peak zones in the mid-to-late 1980s and around 2000, interspersed with several relative troughs and consolidation periods afterward.
+- Most bar values fluctuate around the two reference lines; early high points and extreme low points deviate significantly from the reference lines. The current level is slightly below the black dashed line and close to the red dashed line.
+
+[Core Insights]
+Core Conclusion: The current level is below the long-term average but above historical lows.
+
+Business Implications:
+- The advantage of the current stage relative to historical peaks has significantly narrowed.
+- Compared to the post-WTO average, bargaining power and allocation status have slightly weakened.
+- If maintained near the current level, overall influence tends toward a neutral range.
+
+Risk Concerns:
+- If it consistently falls below 40%, the dominant capability in the relevant market may be weakened.
+- If it drops back below 30%, it may impact long-term resource investment and strategic planning.

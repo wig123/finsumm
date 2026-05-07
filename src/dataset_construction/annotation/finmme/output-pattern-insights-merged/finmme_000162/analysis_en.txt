@@ -1,0 +1,35 @@
+[Chart Components]
+- Type: Line Chart
+- Title: None
+- Axes: The horizontal axis represents time (years), ranging from 1920 to 2010; the vertical axis represents percentage, ranging from 0% to 70%
+- Legend: The dark line represents “Top 10% income share,” the light line represents “Union membership”
+
+[Data Relationships]
+- Key Numerical Values and Changes:
+  - During the 1930s, “Union membership” rose significantly, reaching approximately 30%
+  - From the late 1940s to the 1950s, “Union membership” peaked at around 40%, and subsequently began to decline
+  - In the 1920s, the “Top 10% income share” was above 50%, and declined to approximately 30% during the Great Depression
+  - From the mid-1950s to the end of the 20th century, the “Top 10% income share” remained relatively stable at around 35%, then began to rise, approaching 50% by 2010
+
+- Extreme Value Comparison:
+  - The maximum value for “Union membership” appeared in the 1950s, reaching around 40%
+  - The minimum value for “Top 10% income share” appeared in the late 1940s, at approximately 30%
+
+- Important Trends:
+  - Overall, “Union membership” steadily declined after peaking in the mid-20th century
+  - The “Top 10% income share” began to rise at the end of the 20th century, gradually increasing from a relatively low 30% to nearly 50%
+
+[Pattern Characteristics]
+The two lines showed changes in opposite directions during the middle period and maintained a significant gap over the long term. The dark line dropped sharply after an early high, then remained relatively stable, and slowly lifted in the final segment. The light line rapidly rose from a low level to a mid-range high, followed by a continuous decline. Inflection points are concentrated around the 1930s, the late 1940s to 1950s, and the 1980s.
+
+[Core Insights]
+Core Conclusion: The recent period exhibits the coexistence of high income concentration and low organization rate.
+
+Business Implications:
+- Distribution structure shows strong concentration
+- Insufficient organization level affects representation
+- Resources are more dependent on high-end groups
+
+Risk Focus:
+- Top 10% share ≥ 50%, high-end proportion is excessive, exacerbating imbalance
+- Union membership ≤ 15%, insufficient organization, declining coverage

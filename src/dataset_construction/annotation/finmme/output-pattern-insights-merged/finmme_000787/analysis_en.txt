@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Waterfall Chart (Composition of Model Predicted vs. Actual Price to Book).
+- Title: Brazil: Contribution to machine learning model predicted Price to Book vs Actual.
+- X-axis: Categories are, in sequence, Base, Return on Equity, Margins, Tax + Interest, Dividends, Other, Beta + Vol, Asset Turnover, Earnings Growth, Predicted, Over/undervalued, Actual PB.
+- Y-axis: Numerical scale approximately from 0 to 3.5 (Units not labeled).
+- Legend: Not displayed; colors distinguish between light orange (Base, Predicted), red (Negative contribution or "Over/undervalued"), white (Neutral/Positive contribution), black (Actual PB).
+
+[Data Relationships]
+- Base labeled value: 2.61.
+- Predicted labeled value: 2.42.
+- Actual PB labeled value: 1.39.
+- Change from Base to Predicted: 2.42 − 2.61 = −0.19.
+- Difference between Predicted and Actual PB: 2.42 − 1.39 = 1.03.
+- Difference between Base and Actual PB: 2.61 − 1.39 = 1.22.
+
+[Pattern Characteristics]
+Overall, the Price to Book shows a moderate net decrease from Base to Predicted, composed of the sequential superposition of multiple small positive and negative bars. White bars dominate the first half, subsequently being gradually replaced by red bars, indicating a structural shift from diversified contributions across multiple items to concentrated downward pressure from a few items. Finally, a distinct single red bar exists between Predicted and Actual PB, creating a significant discrepancy between the model result and the final bar value.
+
+[Core Insights]
+Core Conclusion: Model valuation is systematically higher than the actual PB provided by the market.
+
+Business Implications:
+- The model assigns an overly optimistic valuation level to this market.
+- Valuation decisions relying on the model may result in inflated target prices.
+- The contributions of the model features are insufficient to explain the current pricing discount.
+
+Risk Concerns:
+- When Predicted exceeds Actual by approximately 1.0 or more, it may lead to over-allocation in this market.
+- If Base exceeds Actual by more than 1.2, continued use of the baseline assumptions may amplify drawdown losses.

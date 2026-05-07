@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Combination Chart (Red Bar + Black Line)
+- Legend: Red bars represent "Centre (FY12-24)," Black line represents "Centre FY23"
+- X-axis: Months (April to March)
+- Y-axis: Average m-m price change (INR/50kg bag)
+- Y-axis range is approximately -15 to 15, including the zero baseline.
+- Main title is not specified.
+
+[Data Relationships]
+- Bar (FY12-24): Peak value is in April ≈ +11; Trough value is in August ≈ -5; Range ≈ 16.
+- Line (FY23): Peak value is in October ≈ +7; Trough value is in August ≈ -12; Range ≈ 19.
+- Start/End Period: Line April = 0, March ≈ 0; Bar April ≈ +11, March ≈ +3.
+- Key Monthly Difference (Bar – Line): April ≈ +11; October ≈ -5; November ≈ +7; January ≈ +10; February ≈ +6; December ≈ 0–1.
+
+[Pattern Characteristics]
+Overall, the historical average represented by the bars remains close to zero in most months, showing minor positive and negative fluctuations, with only isolated months exhibiting notable height. The line shows significant upward and downward swings throughout the year, crossing the zero axis multiple times, with an amplitude clearly greater than the bars. The direction of movement is opposite for both in several months, with the most significant deviation occurring around August and October, while they are nearly coincident in December.
+
+[Core Insights]
+Core Conclusion: The monthly price change in FY23 significantly deviated from the historical average and exhibited greater volatility.
+
+Business Implications:
+- FY23 price behavior shows weak consistency with historical patterns.
+- Price management and forecasting are more sensitive to single-month volatility.
+- Key months require individual assessment rather than reliance on multi-year averages.
+
+Risk Focus:
+- When deviation from the historical average exceeds ±10 INR/bag (e.g., August), it may lead to severe misalignment between budget and actual costs.
+- If the deviation from the average exceeds ±5 INR/bag for two consecutive months, it may amplify errors in inventory and pricing decisions.

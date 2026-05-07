@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Time series line chart.
+- Y-axis: Eurotunnel market share (%), range 30%—60%, scale increment 5%.
+- X-axis: Time, Jan-12 to Jan-24 (labeled annually).
+- Legend: Eurotunnel (dark solid line), 2018-2019 average (gray dashed line, horizontal line), Current (red dashed line, horizontal line).
+
+[Data Relationships]
+- Position of Current red dashed line: 40%.
+- Position of 2018-2019 average gray dashed line: Approximately 45%.
+- Initial value (Jan-12): Approximately 50%.
+- Final value (Jan-24): Approximately 39%–40%.
+- Peak value: Approximately 53% (around Jan-22).
+- Trough value: Approximately 36%–37% (around Jan-23).
+- Difference between peak and trough: Approximately 16–17 percentage points.
+- Final value is approximately 5–6 percentage points lower than the 2018-2019 average.
+- Peak value is approximately 13 percentage points higher than the current line; Trough value is approximately 3–4 percentage points lower than the current line.
+
+[Pattern Characteristics]
+- In the first half of the series, the trend generally drifts slowly downward around the mid-to-high range, accompanied by localized narrow fluctuations. In the latter half, volatility significantly increases, showing multiple sharp peaks and troughs.
+- The horizontal line for the 2018–2019 period is in the upper-middle position of the entire range, while the current horizontal line is near the recent rebound following a dip in the series, approaching the lower range of the sample period.
+- A relatively prominent single peak appeared around Jan-22, followed by a noticeable trough around Jan-23, forming a distinct inflection point structure compared to adjacent time points.
+
+[Core Insights]
+Core Conclusion: Current market share is below the historical median level.
+
+Business Implications:
+- A certain degree of weakening performance relative to 2018–2019.
+- Puts pressure on the overall competitive position and negotiation leverage.
+- Although there are recent signs of recovery, the elasticity of recovery remains limited.
+
+Risk Focus:
+- If it persistently remains below 40%, it may weaken competitive capability against rivals.
+- If it approaches 36% again, it may trigger passive adjustments to the revenue and cost structure.

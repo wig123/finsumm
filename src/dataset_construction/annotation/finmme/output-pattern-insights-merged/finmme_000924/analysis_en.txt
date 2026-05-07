@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Line Chart
+- Title: Total RE tire demand index EU
+- X-axis: Quarter (Q), arranged by calendar year CY18 to CY23; starting point is CY18 4Q, ending point is CY23 3Q
+- Y-axis: Index scale approximately 60—120, with intervals of 10
+- Legend: Single series, red line "Total RE tire demand index EU"
+
+[Data Relationships]
+- Initial period (CY18 4Q) approximately 102; final period (CY23 3Q) approximately 87; difference approximately 15
+- Peak value approximately 110 occurred in CY21 4Q; trough value approximately 68 in CY20 2Q; high-low range approximately 42
+- CY20: 2Q approximately 68, 3Q approximately 96, 4Q approximately 105; 3Q difference from 2Q approximately 28, 4Q difference from 3Q approximately 9
+- CY21: 1Q approximately 95, 2Q approximately 97, 3Q approximately 96, 4Q approximately 110; intra-year extreme difference approximately 15 (110—95)
+- CY22: 1Q approximately 102, 2Q approximately 102, 3Q approximately 91, 4Q approximately 100; difference between highest and lowest approximately 11
+- CY23: 1Q approximately 92, 2Q approximately 93, 3Q approximately 87; 2Q difference from 1Q approximately 1, 3Q difference from 2Q approximately 6
+- Another relative high point: CY20 4Q approximately 105; subsequently CY21 1Q approximately 95, difference approximately 10
+
+[Pattern Characteristics]
+The curve fluctuated slightly around the 100 mark from the end of CY18 through CY19, followed by a single deep trough in CY20 2Q, and a rapid rebound forming a "V" shape structure. CY21 remained in a relatively high range overall. Post-CY22, the index stayed in a slightly lower range and gradually shifted downward. The overall pattern shows initial sharp volatility followed by relative convergence, but the high points in the latter period are sequentially declining.
+
+[Core Insights]
+Core Conclusion: The demand index has maintained a lower level after retreating from its high point.
+
+Business Implications:
+- Overall demand appears weaker compared to the CY21 phase.
+- Increased pressure on end-user sales and dealer inventory turnover.
+- Capacity utilization and pricing power may weaken concurrently.
+
+Risk Focus:
+- If the index falls below 80, inventory destocking and cash recovery may slow down significantly.
+- If the index remains below 90 for an extended period, it may trigger decisions regarding production cuts or channel reduction.

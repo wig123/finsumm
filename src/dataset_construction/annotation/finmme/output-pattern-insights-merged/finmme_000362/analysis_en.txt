@@ -1,0 +1,33 @@
+[Chart Components]
+- Chart Type: Dual-axis line chart
+- Title: Main title not displayed; includes text annotation "The decline in union membership accelerated during the mid‑1970s" and an arrow
+- X-axis: Year, range 1950–2020
+- Left Y-axis: Wages % of Gross Domestic Income, range 40%–54%
+- Right Y-axis: Union membership %, range 5%–35%
+- Legend: Dark cyan "Wage % of Gross Domestic Income", Light cyan "Union membership %"
+
+[Data Relationships]
+- 1950: Wages % of GDI ≈ 49%; Union membership proportion ≈ 32%
+- 1970: Wages % of GDI ≈ 50%; Union membership ≈ 27%
+- 1980: Wages % of GDI ≈ 47%; Union membership ≈ 20%
+- 2000: Wages % of GDI ≈ 46%; Union membership ≈ 12%
+- 2010: Wages % of GDI ≈ 43%; Union membership ≈ 11%
+- 2020: Wages % of GDI ≈ 43%; Union membership ≈ 10%
+- Difference between 1950 and 2020: Wage proportion ≈ 6 percentage points; Union membership proportion ≈ 22 percentage points
+
+[Pattern Characteristics]
+- Both series were in a relatively high range around 1950–1970, after which they showed a continuous overall downward trend. The decline in the union membership proportion was steeper and greater in magnitude.
+- During the middle and later periods, the wage proportion showed several brief rebounds and local peaks during its decline, while the trend of the union membership proportion was relatively smoother.
+- Around the mid-1970s, the downward slope of both curves significantly increased compared to the previous period, forming a noticeable inflection point characteristic. Subsequently, the gap between the union membership proportion and the wage proportion gradually widened.
+
+[Core Insights]
+Core Conclusion: As the proportion of union membership significantly declines, the proportion of wages in total income weakens synchronously.
+
+Business Implications:
+- The bargaining power of labor in overall income distribution continues to diminish.
+- The ability of labor compensation to support the macro income structure is decreasing.
+- The labor income structure is increasingly reliant on non-unionized labor market mechanisms.
+
+Risk Focus:
+- If the wage proportion of GDI remains close to or falls below 42% for an extended period, it may weaken the support of household income for the economy.
+- If the union membership proportion further approaches or falls below 8%, the coordination costs for labor-management conflicts may noticeably increase.

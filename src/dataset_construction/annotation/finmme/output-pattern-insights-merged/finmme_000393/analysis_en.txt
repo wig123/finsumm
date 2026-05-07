@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Dual Line Chart
+- Legend: Red line "Price"; Gray line "Rel Hang Seng Index"
+- Title: Not displayed
+- Y-Axis: Left axis labeled "(HKD)", used for Price; Right axis used for Relative Hang Seng Index, scale range 80–120, interval 5
+- X-Axis: Time axis, labeled from "Mar 23" to "Feb 24", displayed monthly
+
+[Data Relationships]
+- The Gray line starts (Mar 23) near 120 on the right axis; ends (Feb 24) around 85, a difference of approximately 35 points from start to end.
+- The Gray line was briefly near 90 during Jun–Jul 23, with positions momentarily falling below 90; it approached 85 again in Nov 23.
+- The Gray line was situated in the 95–100 range during Dec 23–Jan 24.
+- The Red line was near the 150 mark on the left axis during Apr–May 23.
+- The Red line was in the lower segment of the 100–125 range on the left axis during Jun–Jul 23 (approximately 110–115).
+- The Red line ends (Feb 24) near the lowest mark on the left axis, approximately 90–100 HKD.
+
+[Pattern Characteristics]
+- Both lines generally trended downward from high levels throughout the sample period, accompanied by multiple short-term fluctuations, but without a significant rebound back to the starting level.
+- The Red line generally moved in the same direction as the Gray line in the initial phase, followed by multiple instances of asynchronous highs and lows in localized areas, indicating varying degrees of periodic deviation.
+- Near the end of the sample period, both lines were at relatively low levels within their respective ranges, with the Red line operating closer to the lower boundary than in previous periods.
+
+[Core Insights]
+Core Conclusion: The asset's performance relative to the index shifted from strong to weak, with both absolute and relative performance deteriorating simultaneously in the later period.
+
+Business Implications:
+- Previous relative returns gradually disappeared, and the cost-effectiveness advantage diminished.
+- The asset performed weakly relative to the index during the later drawdown, putting pressure on excess returns.
+- The marginal attractiveness of allocating this asset in the portfolio has declined.
+
+Risk Focus:
+- If the price continues to hover near 90 HKD and the Gray line falls below 85, it could lead to significant drawdown and relative losses.
+- If the Gray line remains below 90 for an extended period and the price does not stabilize, it could amplify the negative deviation from the broader market.

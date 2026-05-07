@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Line chart
+- Title: Not displayed
+- X-axis: Year, scale from 2016 to 2025F (text slanted)
+- Y-axis: Percentage, range approximately 50% to 85%, interval of 5%
+- Legend: Red line labeled "GPM %"
+- Data labels: Specific percentages marked next to each point
+
+[Data Relationships]
+- GPM % for each year (including forecasts): 2017=79%, 2018=75%, 2019=73%, 2020=72%, 2021=70%, 2022=65%, 2023F=64%, 2024F=63%, 2025F=62%.
+- Highest value recorded: 79% in 2017; Lowest value: 62% in 2025F; The difference between high and low is 17 percentage points.
+- The difference between the initial period (2017) and the final period (2025F) is 17 percentage points; the difference between 2017 and 2022 is 14 percentage points.
+- Year-over-year difference (percentage points): 2017→2018 is 4, 2018→2019 is 2, 2019→2020 is 1, 2020→2021 is 2, 2021→2022 is 5, 2022→2023F is 1, 2023F→2024F is 1, 2024F→2025F is 1.
+
+[Pattern Characteristics]
+The line shows a continuous, unidirectional downward trend starting from 2017, with no reverse fluctuations or plateau periods observed. The magnitude of change from 2017 to 2022 is significantly greater than after 2022. The latter segment gradually flattens, showing small, incremental decreases. The overall structure is singular and continuous, with no isolated outliers or spikes.
+
+[Core Insights]
+Core Conclusion: Gross Profit Margin (GPM) has continuously weakened over several years, with no signs of future improvement.
+
+Business Implications:
+- Profit margin is being compressed, and the price-cost structure is under pressure.
+- Constraints are imposed on expense absorption and profit retention.
+- Pricing power and cost control capabilities exhibit declining characteristics.
+
+Risk Focus:
+- If the GPM falls below 60%, it may be insufficient to cover operating expenses (period costs).
+- If the trend continues at the recent slope, the GPM may approach the median level by 2027, amplifying profit volatility.

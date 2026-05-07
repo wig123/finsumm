@@ -1,0 +1,29 @@
+【图表构成】
+- 图表类型：垂直柱状图
+- 标题：未显示
+- 纵轴：标注“% change vs 2019”，范围约为-15%至15%，刻度每5%；含0%基准线
+- 横轴：类别为各国家/地区，依次为UK、Denmark、Sweden、Finland、Netherlands、Germany、Poland、Belgium、Czech、Switzerland、EU、France、Austria、Hungary、Romania、Italy、Bulgaria、Spain、Portugal、Greece、Cyprus
+- 图例：未显示
+
+【数据关系】
+- 最高值：UK 7.5%；最低值：Cyprus -8.3%；两者差15.8个百分点
+- 次高值：Denmark 6.3%，Sweden 6.1%，Finland 6.0%，Netherlands 4.3%
+- 中间值示例：Germany 3.9%，Poland 3.3%，Belgium 2.9%，Czech 2.5%，EU 1.6%，France 1.4%，Austria 1.0%，Hungary 0.2%
+- 负值序列：Romania -0.4%，Italy -1.1%，Bulgaria -1.7%，Spain -3.1%，Portugal -3.3%，Greece -3.7%
+
+【模式特征】
+- 各国家/地区数据围绕0%基准线呈单峰分布，大部分集中在小幅正值区间，仅少数落在负值区间且绝对值更大。
+- 柱体从左到右大致按数值从高到低排列，正值国家内部呈较为平滑的递减结构，负值国家之间则出现更明显的梯度差异。
+- 图中在接近0%附近有密集分布区，而在最低值附近出现明显向下延伸的单一极端值。
+
+【核心洞察】
+核心结论：地区间相对2019年的表现分化明显，正向区域更集中。
+
+业务含义：
+- 多数国家相对2019年处于温和改善区间。
+- 少数国家贡献结构性拖累，拉低整体均值。
+- 跨国资源和重点需向表现弱势地区适度倾斜。
+
+风险关注：
+- 跌破-5%的国家（如接近-8%）可能对区域整体指标形成显著负面拉动。
+- 接近0%的国家一旦转为<-1%，可能由轻微偏差演变为持续落后。

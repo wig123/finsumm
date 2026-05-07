@@ -1,0 +1,31 @@
+【图表构成】
+- 类型：热力图
+- 标题：Actual Price to Book vs machine learning model predicted (Higher = more expensive)
+- 横轴：行业类别（Health Care、Telecoms、Materials、Utilities、Financials、Energy、Industrials、Cons. Disc、Technology、Real Estate、Consumer Staples）
+- 纵轴：国家/地区（India、Kuwait、Saudi Arabia、Qatar、Czech Republic、Malaysia、Taiwan、Mexico、United Arab Emirates、Thailand、Indonesia、Philippines、South Africa、Greece、Romania、Chile、Brazil、Colombia、Egypt、Mainland China、Hungary、Türkiye）
+- 数值单位：百分比；格内直接标注；颜色为绿/红渐变
+- 其他：左侧箭头标示“More expensive / Less expensive”；无独立图例
+
+【数据关系】
+- 极值范围：-82%至196%
+- 最大：泰国Technology 196%
+- 高值：沙特Utilities 142%、沙特Health Care 134%、印度Real Estate 128%
+- 最低：印尼Technology -82%、埃及Telecoms -76%、土耳其Technology -70%
+- 中国大陆示例：Industrials -65%、Financials -45%、Energy -46%、Technology -26%
+- 印度示例：Industrials 51%、Technology 45%、Consumer Staples 69%
+- 沙特示例：Technology 71%、Consumer Staples 52%
+
+【模式特征】  
+整体上，各国家/地区与行业组合呈现明显的正负混合分布，局部区块颜色集中而非均匀散布。部分国家如泰国、沙特、印度在若干行业中呈现成片高值，而中国大陆、匈牙利、土耳其等在多数行业中为低值聚集。科技、工业、金融等行业在不同国家之间差异较大，个别单元如泰国科技形成极端高值，印尼科技、埃及电信等形成极端低值。
+
+【核心洞察】  
+核心结论：估值偏离在国家与行业层面高度分化。
+
+业务含义：  
+- 部分国家特定行业估值溢价显著，需要单独评估。  
+- 低估集中的国家行业组合蕴含配置与轮动空间。  
+- 科技、金融等方向对地区选择高度敏感。
+
+风险关注：  
+- 偏离高于+100%的组合，如泰国科技，若预期修正或情绪逆转，价格回调空间大。  
+- 低于-50%的组合，如印尼科技、中国大陆工业，若基本面继续弱化，可能陷入长期价值陷阱。

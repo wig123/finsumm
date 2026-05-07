@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Bar chart
+- Title: Not displayed
+- X-axis: Time classification, including semi-annual periods (H1/H2) from 2016 to 2021, followed by monthly nodes for 2022–2023, with the far right being “Sep’23”
+- Y-axis: Value (Unit: $bn), Range $0bn–$16bn, Scale increment $2bn
+- Legend: Not displayed
+- The far-right bar is highlighted in dark color and annotated with the value “14.2” at the top
+
+[Data Relationships]
+- Final Value (Sep’23) = 14.2bn
+- 14.2bn is 0.2bn higher than the $14bn scale mark, and 1.8bn away from the Y-axis upper limit of $16bn
+- 14.2bn is 2.2bn higher than the $12bn scale mark, and 4.2bn higher than the $10bn scale mark
+- There are 18 time classifications in the chart (from H2’16 to Sep’23)
+- Y-axis scale spacing is 2bn; all bar values are located within the $0bn–$16bn range
+
+[Pattern Characteristics]
+The series transitions smoothly from smaller values in the early period to larger values, maintaining overall continuity. The pace accelerates after H1’21, followed by a step-wise progression in the monthly nodes. The far-right bar is the highest in the entire sequence, its color is deepened, and it approaches the Y-axis upper boundary.
+
+[Core Insights]
+Core Conclusion: The scale is already at a high level, and the likelihood of short-term continuation is high.
+
+Business Implications:
+- Reflects the elevation of the scale level and increased concentration
+- Places demands on allocation pace and capacity management
+- Short-term target achievement has greater flexibility
+
+Risk Focus:
+- Below $12bn, the scale drops a tier, and allocation completion decreases
+- Approaching $16bn, hitting the upper limit, subsequent headroom is constrained

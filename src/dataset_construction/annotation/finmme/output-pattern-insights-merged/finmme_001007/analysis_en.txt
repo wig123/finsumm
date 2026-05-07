@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Dual-Axis Combination Chart (Red Bar + Black Line)
+- Title: Corporate Stamina (Mos Coverage) x Loan Growth
+- X-axis: Quarterly Time, Range 1Q04—3Q23
+- Left Y-axis: 0.0—3.5 (Months Coverage, Mos Coverage)
+- Right Y-axis: -10.0%—40.0% (Loan % YoY)
+- Legend: Red Bar "Total Non-Finc", Black Line "Loan % YoY (RHS)"
+
+[Data Relationships]
+- Red bar range approximately 1.3—3.1 (Left Axis). Lowest approximately 1Q10≈1.3; Highest approximately mid-2021≈3.1; End period 3Q23≈2.5.
+- Black line range approximately -3%—33% (Right Axis). Highest approximately mid-2008≈33%; Lowest approximately early 2021≈-3%; Initial period 1Q04≈25%; End period 3Q23≈10%.
+- Axis mapping relationship: Left axis 1.0 corresponds to Right axis 10%, 2.0 corresponds to 20%.
+- High-low spread: Red bar maximum—minimum≈1.8; Black line maximum—minimum≈36 percentage points.
+
+[Pattern Characteristics]
+- The red bar generally fluctuates narrowly around the median level, showing no extreme contraction across cycles. A relatively elevated plateau interval appeared only around 2021, followed by a slight decline, but remaining above historical lows.
+- The black line exhibits several distinct high-low cyclical intervals: After oscillating at a high level in the early stage, a round of deep weakening occurred around 2010, followed by a recovery to a medium-high level; after 2014, it gradually declined, forming the lowest point of the entire sample in 2021, and subsequently recovered from the low point to a moderate level.
+- The two series show different combinations of inverse and synchronous movements in certain phases: For example, during 2020—2021, when the bar maintained a relatively high level, the line was in the bottom range of the entire period; whereas during the early high-growth phase, the bar was mostly at the sample's moderate or lower level.
+
+[Core Insights]
+Core Conclusion: There is a phased mismatch and rebalancing between loan growth rate and corporate coverage level.
+
+Business Implications:
+- Early loan expansion relied more on external demand rather than coverage level support.
+- The rise in coverage during 2020—2021 did not synchronously drive credit expansion.
+- The current combination is in a moderate range, with limited room for maneuver.
+
+Risk Focus:
+- If coverage drops below 1.5 and loan growth remains below 5%, it may lead to asset returns insufficient to cover costs.
+- If loan growth rises again above 25% while coverage remains around 2.0, it may increase the concentration of credit exposure.

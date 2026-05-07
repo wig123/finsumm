@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Stacked Bar Chart
+- Title: Not labeled
+- X-axis: Time/Fiscal Year Periods, including FY21, FY22, FY23, 1QFY24, 2QFY24, 3QFY24
+- Y-axis: Proportion (0%—100%, 10% increments)
+- Legend: Truck & Bus (Red), Pass car (Gray), LCV (White outline), Agri (Pink), Others (Blue)
+
+[Data Relationships]
+- FY21: Truck & Bus 60%, Pass car 17%, LCV 7%, Agri 7%, Others 8%
+- FY22: 58%, 21%, 7%, 10%, 4%
+- FY23: 57%, 23%, 8%, 5%, 7%
+- 1QFY24: 56%, 22%, 8%, 6%, 7%
+- 2QFY24: 56%, 23%, 8%, 5%, 8%
+- 3QFY24: 56%, 22%, 8%, 5%, 8%
+- Proportion range for each category: Truck & Bus 56%—60% (4 pct difference); Pass car 17%—23% (6 pct difference); LCV 7%—8% (1 pct difference); Agri 5%—10% (5 pct difference); Others 4%—8% (4 pct difference)
+- Maximum/Minimum Periods: Truck & Bus maximum FY21 (60%), minimum FY24 quarters (56%); Pass car maximum FY23/2QFY24 (23%), minimum FY21 (17%); Agri maximum FY22 (10%), minimum FY23/2QFY24/3QFY24 (5%); Others minimum FY22 (4%), maximum multiple periods (8%)
+
+[Pattern Characteristics]
+The structure in each period consists of a single large block and several small blocks, with limited overall structural change between different fiscal years and quarters. Truck & Bus consistently accounts for more than half, followed by Pass car. The remaining three categories have smaller proportions and their combined total remains within a narrow range. Agri showed a relative high point in FY22. Others maintained a higher level after hitting a low point between FY21 and FY22, while LCV remained largely stable across all periods.
+
+[Core Insights]
+Core Conclusion: The structure is consistently dominated by Truck & Bus, with an increasing proportion of Passenger Cars (Pass car).
+
+Business Implications:
+- Revenue sources are highly concentrated in Truck & Bus.
+- Increased weighting of Pass car, indicating a slight shift towards structural diversification.
+- Limited change in minor categories, resulting in limited impact on the overall structure.
+
+Risk Focus:
+- If the proportion of Truck & Bus remains consistently above 55% and weakens, overall volatility will be amplified.
+- When the combined total of Others and Agri falls below 10%, diversification buffer capacity significantly decreases.

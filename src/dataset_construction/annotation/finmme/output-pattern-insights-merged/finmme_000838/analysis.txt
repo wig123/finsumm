@@ -1,0 +1,30 @@
+【图表构成】
+- 类型：分组列表表格
+- 字段：Market、HSBC view、FTSE benchmark weight (%)、HSBC weight (%)
+- 分组：FTSE Russell EM EMEA、FTSE Russell EM Asia、FTSE Russell EM LatAm，末行“FTSE Russell EM”总计
+- 单位：百分比
+- 坐标轴：无坐标轴
+- 图例：无；HSBC view列含neutral/overweight/underweight标签
+
+【数据关系】
+- 总计：FTSE与HSBC均为100.0%。
+- 区域：EMEA 14.4 vs 16.7（+2.3）；Asia 75.1 vs 70.7（-4.4）；LatAm 10.5 vs 12.6（+2.1）。
+- FTSE最高权重：Mainland China 28.4、India 21.8、Taiwan 18.1；HSBC最高：Mainland China 28.4、India 24.2、Taiwan 10.0。
+- 最大差值（HSBC-FTSE）：Taiwan -8.1；India +2.4；Türkiye +1.2；Brazil +1.2；Indonesia +1.1；Thailand +0.9。
+- 其他差值：Saudi Arabia +0.4、Greece +0.7、Romania +0.4、South Africa -0.5、Malaysia -0.5、Kuwait -0.6。
+- 零差：Mainland China、Pakistan、Czech Republic、Iceland、Qatar。
+
+【模式特征】  
+区域层面上，HSBC 相比基准在EMEA和LatAm的配置比例更高，在Asia的配置比例更低。个别国家与基准权重差异较大，尤其是台湾明显低配，印度明显高配，其余多数国家差值相对温和。HSBC view 标签与权重差值大致方向一致，但存在少数接近零差或小幅反向的情况。  
+
+【核心洞察】  
+核心结论：组合在区域与国家层面呈现集中化主动偏离。  
+
+业务含义：  
+- 区域配置更依赖EMEA和LatAm表现  
+- 对台湾、印度等少数市场依赖度更高  
+- 组合相对基准的跟踪误差可能上升  
+
+风险关注：  
+- 台湾低配超-8%时，如其大涨将造成显著跑输  
+- 印度高配超+2%时，如其回调将放大回撤

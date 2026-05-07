@@ -1,0 +1,35 @@
+[Chart Components]
+- Type: Stacked Bar Chart
+- Title: None
+- Axes: The vertical axis represents percentage (0% to 100%), the horizontal axis represents time periods (Till Dec-22, Till Mar-23, Till Jun-23, Till Sep-23, Till Dec-23)
+- Legend: Includes five data categories: Auto ICE (PV+CV), Auto ICE (2W), Tech Agnostic, xEV, Non auto
+
+[Data Relationships]
+- Key Figures and Changes:
+  - Till Jun-23, Auto ICE (PV+CV) reached 35%.
+  - Till Mar-23, Auto ICE (PV+CV) was 28%.
+
+- Extremum Comparison:
+  - Non auto reached 26% Till Mar-23.
+  - Tech Agnostic was 13% in both Till Mar-23 and Till Sep-23.
+
+- Key Trends:
+  - Auto ICE (PV+CV) increased from 30% Till Dec-22 to 35% Till Jun-23, subsequently decreasing to 32% Till Dec-23.
+  - Non auto decreased from 26% Till Mar-23 to 23% Till Dec-23.
+
+[Pattern Characteristics]
+- Each period features a multi-category stacked structure; the red segment is consistently the largest, with its proportion rhythm initially expanding and then converging.
+- The gray segment contracted in the early and middle stages, followed by a late-stage replenishment; the white segment showed minor fluctuations; the pink segment remained approximately flat; the black segment was at a relatively high level during the second period.
+- The top "Global" label showed a phased increase followed by a decline.
+
+[Core Insights]
+Core Conclusion: Structure is concentrated in Auto ICE (PV+CV), xEV contribution is predictable, and non-auto impact is limited.
+
+Business Implications:
+- Portfolio has high reliance on traditional powertrains (ICE)
+- The predictability (plan-ability) of xEV contribution is strong
+- Non-auto activities interfere with the main line of business
+
+Risk Focus:
+- Non auto ≥ 26%: Main line of business is diluted, returns are unstable
+- Auto ICE (PV+CV) ≤ 28%: Core contribution is insufficient, scale is pressured

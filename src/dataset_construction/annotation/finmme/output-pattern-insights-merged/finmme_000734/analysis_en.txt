@@ -1,0 +1,35 @@
+[Chart Components]
+- Type: Line Chart
+- Title: EU-China trade (€ billion)
+- X-axis: Year, 2002—2021 (Annual scale)
+- Y-axis: Amount (Billion Euros), scale approximately from -300 to 600, intervals of 100; Zero line indicated
+- Series and Color: Red “Imports from China to EU”, Blue “Exports from EU to China”, Grey “EU-China trade balance”
+- Legend located at the bottom, series labels annotated on the right side of the chart; EU and China flag icons included in the upper left.
+
+[Data Relationships]
+- 2002: Imports approximately 80–90; Exports approximately 50; Balance approximately -30 to -40
+- 2011: Imports approximately 260–270; Exports approximately 150; Balance approximately -110 to -120
+- 2015: Imports approximately 310; Exports approximately 170; Balance approximately -140
+- 2019: Imports approximately 380; Exports approximately 220; Balance approximately -160
+- 2020: Imports approximately 400; Exports approximately 230; Balance approximately -170
+- 2021: Imports approximately 480–490; Exports approximately 240–250; Balance approximately -230 to -240
+- 2002→2021 Change: Imports increased by approximately 400; Exports increased by approximately 190–200; Balance decreased by approximately 200
+- Imports/Exports ratio during the period: 2002 approximately 1.6–1.8; 2011 approximately 1.75; 2021 approximately 1.95–2.0
+- Balance ≈ Exports − Imports, consistent with the difference between the two for all years.
+
+[Pattern Characteristics]
+- The red import curve shows an overall upward trend, forming a brief plateau/pullback between 2008—2009, followed by periods of noticeable accelerated ascent in 2014—2015 and 2020—2021.
+- The blue export curve also shows a continuous rise, but the slope is relatively moderate. The curve consistently remains below the import curve, and the vertical distance between the two widens in the later period.
+- The grey balance curve remains below the zero line throughout the period, gradually extending downward in the early years, slightly narrowing around 2013, then shifting downward again, reaching the position closest to the bottom of the Y-axis in 2021.
+
+[Core Insights]
+Core Conclusion: While the EU-China trade volume expands, the EU's trade deficit with China significantly widens.
+
+Business Implications:
+- The flow of goods is highly skewed towards the China-to-EU side.
+- The EU's trade structure with China shows a marked increase in import dependency.
+- Pricing, bargaining power, and trade negotiation positions are increasingly influenced by the import side.
+
+Risk Concerns:
+- When the deficit breaks through the vicinity of -€200 billion, the pressure of trade imbalance for the EU with China significantly increases.
+- If the Imports/Exports ratio consistently approaches or exceeds 2.0, the EU's reliance on a single partner deepens, potentially amplifying the impact of policy or supply volatility shocks.

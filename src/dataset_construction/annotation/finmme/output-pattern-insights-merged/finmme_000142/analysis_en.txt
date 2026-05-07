@@ -1,0 +1,40 @@
+[Chart Components]
+- Type: Line Chart
+- Title: None (Title not displayed at the top of the chart)
+- Axes:
+  - Left Y-axis (LHS): Unit of measurement is million kilograms (mn kg), scale range approximately 0.0—2.0
+  - Right Y-axis (RHS): Unit of measurement is billion units (bn unit), scale range approximately 0—400
+  - X-axis: Time axis, marked quarterly, from 1Q19 to 1Q23
+- Legend:
+  - Black line represents Korea (Left Y-axis)
+  - Gray line represents Japan (Left Y-axis)
+  - Red line represents SEMCO (Right Y-axis)
+
+[Data Relationships]
+- Key Metrics and Changes:
+  - During 1Q21, both Korea and Japan reached local peaks, with Korea at approximately 1.8 million kg and Japan at approximately 1.4 million kg.
+  - SEMCO reached its highest point in 1Q21, approximately 360 billion units.
+
+- Extremum Comparison:
+  - After peaking in 1Q21, Korea slightly declined and fluctuated, stabilizing around 1.6 million kg by 1Q23.
+  - Japan slowly declined after the 1Q21 peak, reaching approximately 1.2 million kg by 1Q23, showing a smoother trend.
+  - SEMCO sharply declined after the 1Q21 peak, reaching its lowest point by 1Q23, approximately 180 billion units.
+
+- Significant Trends:
+  - Korea and Japan generally exhibit similar fluctuation patterns, but Korea shows greater volatility.
+  - SEMCO shows a clear downward trend, with a significant decline particularly after 1Q21.
+
+[Pattern Characteristics]
+The three lines jointly formed a peak around 1Q21, after which their trajectories clearly diverged. Korea and Japan maintained similar timing, but Korea showed greater amplitude and multiple local highs and lows. SEMCO experienced a unidirectional decline after the peak, reaching the lowest point of the entire period near 1Q23, with overall volatility exceeding the other two.
+
+[Core Insights]
+Core Conclusion: SEMCO shows weak synchronization with regional indicators; the corporate sector is more sensitive.
+
+Business Implications:
+- Regional indicators are difficult to use for direct guidance of SEMCO.
+- Insufficient stability in the corporate sector requires separate monitoring.
+- Asset allocation needs to differentiate between corporate and regional dimensions.
+
+Risk Focus:
+- SEMCO below 180 bn unit: Deepening decoupling from regional indicators.
+- Japan below 1.0 mn kg: Failure of the regional comparison benchmark.

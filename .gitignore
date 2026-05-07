@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+venv/
+
+# Node
+node_modules/
+*.log
+npm-debug.log*
+
+# Editors / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Secrets
+.env
+.env.local
+*.pem
+*.key
+
+# Training artifacts
+outputs/
+checkpoints/
+wandb/
+wandb_logs/
+runs/
+*.ckpt
+*.bin
+*.safetensors
+
+# Generated chart outputs
+production_*/
+prog_*/
+batch_output/
+chart_synthesis/output/
+
+# Annotation runtime
+*.db
+*.sqlite
+public/uploads/
+
+# Large data (only keep README pointers)
+data/images/
+data/charts_full/
+*.parquet

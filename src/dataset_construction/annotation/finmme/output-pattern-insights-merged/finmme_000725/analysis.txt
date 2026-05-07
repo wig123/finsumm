@@ -1,0 +1,34 @@
+【图表构成】
+- 类型：分组柱状图（每个货币对包含3个柱）。
+- 标题：上方“Implied vol rich”，下方“Implied vol cheap”。
+- 横轴：7个类别——EURJPY、AUDJPY、GBPJPY、EURCHF、EURGBP、EURAUD、AUDNZD。
+- 纵轴：数值轴，范围约为-3至4，0为基线。
+- 图例：深绿“Implied-realised”、中绿“-1w”、浅绿“-1m”。
+
+【数据关系】
+- 全部柱中最高约为AUDJPY“-1m”≈2.7；其次GBPJPY“Implied-realised”≈2.4。
+- 最低为EURCHF“Implied-realised”≈-0.2；AUDNZD“Implied-realised”≈-0.2。
+- EURJPY：约1.3、1.6、1.7；“-1m”较“Implied-realised”≈+0.4。
+- AUDJPY：约2.3、2.5、2.7；“-1m”较“Implied-realised”≈+0.4。
+- GBPJPY：约2.4、1.9、2.0；该组最大最小差≈0.5。
+- EURCHF：约-0.2、0.3、0.5；浅绿较深绿增≈0.7。
+- EURGBP：约0.2、0.8、1.2；“-1m”较“Implied-realised”增≈1.0。
+- EURAUD：约0.6、0.9、1.8；“-1m”较“Implied-realised”增≈1.2。
+- AUDNZD：约-0.2、0.2、0.4；组内范围≈0.6。
+
+【模式特征】
+- 所有货币对中，AUDJPY与GBPJPY整体处在图中较高区间，EURCHF与AUDNZD接近基线附近，EURGBP和EURAUD处于中等偏上位置。  
+- 大多数货币对三根柱呈由深到浅依次抬高的结构，仅GBPJPY在最近水平略低于“Implied-realised”。  
+- 组内差异最明显的是EURAUD和EURGBP，而GBPJPY的三根柱间距相对较小，整体结构较为紧凑。
+
+【核心洞察】
+核心结论：主要货币对隐含波动整体处于偏高水平，且近期抬升明显。
+
+业务含义：
+- 对JPY相关货币对的波动预期最突出。  
+- EUR系交叉汇率的定价敏感度正在增强。  
+- GBPJPY相对平稳，短期调整空间有限。
+
+风险关注：
+- AUDJPY 1个月值靠近2.7，如继续上行或加大保证金与头寸成本。  
+- EURAUD 1个月值约1.8附近，如突破2可能推高相关期权组合损益波动。

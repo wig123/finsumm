@@ -1,0 +1,67 @@
+### Qwen3-VL-8B LoRA DPO 配置 (AutoDL 5×4090)
+### DPO-EXP003: 1 Epoch 早停实验
+### 目标: 验证减少训练轮数是否能避免过拟合，保持泛化能力
+### 基于 EXP-002 配置，仅修改 epoch 数
+
+### 模型配置
+model_name_or_path: <REMOTE_DATA_ROOT>/models/qwen3-vl-8b-instruct
+adapter_name_or_path: <REMOTE_DATA_ROOT>/qwen3vl-dpo/checkpoint
+trust_remote_code: true
+flash_attn: fa2
+
+### 数据配置 (与 EXP-002 相同)
+dataset_dir: <REMOTE_DATA_ROOT>/qwen3vl-dpo/data
+dataset: dpo_train_1700
+eval_dataset: dpo_val_299
+template: qwen3_vl_nothink
+cutoff_len: 2048
+overwrite_cache: true
+preprocessing_num_workers: 8
+
+### 训练阶段: DPO
+stage: dpo
+do_train: true
+do_eval: true
+pref_beta: 0.1
+pref_loss: sigmoid
+
+### 微调方式: LoRA (继承 exp-012 的 LoRA 配置)
+finetuning_type: lora
+lora_rank: 16
+lora_alpha: 32
+lora_dropout: 0.05
+lora_target: all
+
+### 训练超参数 - 核心变更: 1 epoch
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 4
+num_train_epochs: 1           # 从 3 改为 1
+learning_rate: 5.0e-6
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+weight_decay: 0.01
+max_grad_norm: 1.0
+
+### 精度与加速
+bf16: true
+gradient_checkpointing: true
+ddp_find_unused_parameters: false
+deepspeed: <REMOTE_DATA_ROOT>/qwen3vl-dpo/configs/ds_zero3.json
+
+### 日志与保存 (调整为适合 1 epoch)
+logging_strategy: steps
+logging_steps: 5
+save_strategy: steps
+save_steps: 42                # ~85/2，保存中间和最终
+eval_strategy: steps
+eval_steps: 42
+save_total_limit: 3
+
+### 输出目录
+output_dir: <REMOTE_DATA_ROOT>/qwen3vl-dpo/outputs/dpo-exp003
+run_name: dpo-exp003_1epoch
+
+### 监控 - 添加 wandb (通过环境变量配置: WANDB_PROJECT, WANDB_NAME)
+report_to:
+  - tensorboard
+  - wandb

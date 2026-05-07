@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Line Chart
+- Title: Not displayed
+- X-axis: Time, labeled from Nov-17, Apr-18, Sep-18, Feb-19, Jul-19, Dec-19, May-20, Oct-20, Mar-21, Aug-21, Jan-22, Jun-22, Nov-22, Apr-23, Sep-23 to Feb-24
+- Y-axis: PE value range 24–48 (Scale displayed in increments of 1 or 2)
+- Legend: Red "PE"; Gray horizontal line "Average"; Black horizontal line "+1SD"; Light orange horizontal line "-1SD"
+- Reference Line Positions: Average≈35; +1SD≈40; -1SD≈30
+
+[Data Relationships]
+- Average=35; +1SD=40; -1SD=30; the distance from the Average is 5 for both.
+- Initial value (Nov-17) ≈ 42 (Above +1SD)
+- Final value (Feb-24) ≈ 34 (Below Average, Above -1SD)
+- Peak value (overall chart) ≈ 47 (Around Jun-21), ≈ 12 higher than Average, ≈ 7 higher than +1SD
+- Trough value (overall chart) ≈ 26 (Between Dec-19 and May-20; also close around Mar-23), ≈ 9 lower than Average, ≈ 4 lower than -1SD
+- High-low difference ≈ 21; Change from initial to final period ≈ -8
+
+[Pattern Characteristics]
+Throughout the period, the curve fluctuated significantly around the average line, crossing the ±1SD range multiple times. The first half repeatedly moved above and below the mean, briefly touching the lower bound of the range before quickly returning above the mean; the middle section formed a clear peak above and then gradually declined. The latter half approached or slightly dipped below the -1SD level in several places. The tail end returned to the area between the average line and -1SD, without touching extreme highs or lows again.
+
+[Core Insights]
+Core Conclusion: Valuation has retreated from an elevated range to slightly below the long-term mean.
+
+Business Implications:
+- Current valuation shows a slight discount relative to the historical central tendency.
+- The extremely high valuation phase in the middle section may compress future return potential.
+- The tail end hovering near the mean suggests pricing is moving toward greater equilibrium.
+
+Risk Focus:
+- If the value approaches 47 or above again, it could correspond to a significant amplification of drawdown pressure.
+- If the value breaks below 26 and sustains that level, it could trigger worsening sentiment and liquidity contraction.

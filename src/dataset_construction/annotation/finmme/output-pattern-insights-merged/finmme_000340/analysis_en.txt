@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Time-series line chart, including event markers
+- Title: Longfor Group Holdings
+- Top Right Note: As of 26-Feb-2024; Currency = HKD
+- X-axis: Date, Range 2021/07/01—2024/01/01
+- Y-axis: Price, 0—60 HKD
+- Legend: Closing Price (Black Line), Target Price Change (Green Triangle), Recommendation Changes (Blue Dot)
+- Source: LSEG, Nomura; Approximately 4 green triangles are visible in the chart, no blue dots are visible.
+
+[Data Relationships]
+- Initial Closing Price ≈ 50 HKD (2021/07).
+- Final Closing Price ≈ 10 HKD (2024/01-02).
+- Highest Closing Price ≈ 52 HKD (2021/07), Lowest ≈ 10–12 HKD (approx. 2022/11); High-low difference ≈ 40 HKD.
+- Change from start to end of period ≈ -40 HKD, approximately -80% (based on the initial value).
+- Target Price changes (Green Triangle) 4 times: 2021/07≈58, 2022/01≈48, 2022/07≈40, 2023/07≈35 HKD.
+
+[Pattern Characteristics]
+- The price line generally shows a unilateral decline, accompanied by several medium-sized rebounds and retracements.
+- The trend saw a sharp drop followed by a brief recovery around the end of 2022, but the overall downward structure remained unchanged.
+- The four target price change points generally moved progressively lower over time and consistently remained above the corresponding price level at that time; no recommendation change markers were visible in the chart.
+
+[Core Insights]
+- Core Conclusion: The stock price's long-term performance is significantly weaker than brokerage target expectations.
+
+Business Implications:
+- Market transaction levels consistently fall below previous valuation judgments.
+- The pace of research pricing adjustments is slower than the price changes.
+- Investor confidence in future expectations has only seen limited recovery.
+
+Risk Focus:
+- If the stock price approaches 10 HKD again, it may trigger further selling pressure.
+- If the target price is lowered to near or below the current price, it could trigger concentrated portfolio adjustments by institutions.

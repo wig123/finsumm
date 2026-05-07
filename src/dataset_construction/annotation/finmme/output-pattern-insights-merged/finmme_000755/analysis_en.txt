@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Combination chart (gray bars, gray horizontal line, red triangle markers).
+- Title: Not displayed.
+- X-axis: Fiscal Year classification (FY19, FY20, FY21, FY22).
+- Left Y-axis: Scale 0–50, corresponding to “# total users”.
+- Right Y-axis: Scale 20%–60%, corresponding to “% Top 10 players” and “% Pop Mart”.
+- Legend: # total users (gray bar); % Top 10 players (horizontal line, labeled 50.4%); % Pop Mart (red triangle).
+
+[Data Relationships]
+- % Pop Mart: 58.0% in FY19, 56.5% in FY21, 50.7% in FY22.
+- Difference compared to 50.4% of % Top 10 players: 7.6 percentage points higher in FY19, 6.1 percentage points higher in FY21, 0.3 percentage points higher in FY22.
+- Percentage difference between different years: 7.3 percentage points difference between FY19 and FY22; 5.8 percentage points difference between FY21 and FY22.
+- Relative position of # total users bar values: FY22 is highest, FY19 is lowest; FY20 ≈ 20 (near the 20 mark), FY21 ≈ 27–30 (between the 20 and 30 marks), FY22 ≈ 35 (between the 30 and 40 marks), FY19 ≈ 8–10 (near the 10 mark).
+- Difference between high and low points: The bar height difference between FY22 and FY19 is approximately 25–27 scale units.
+
+[Pattern Characteristics]
+- User count shows a unidirectional change structure with year-over-year increases, and annual growth rates are generally balanced, with no significant decline.
+- The proportion value corresponding to the red triangle is generally above the horizontal line, narrowing stepwise across the time series, with the gap to the horizontal line decreasing annually.
+- No sudden jumps or inverse fluctuations appeared in the series; the change path is relatively smooth, and the interval between the two proportion lines in FY22 is close to the minimum value.
+
+[Core Insights]
+
+Core Conclusion: While the user base expands, the concentration among top players is clearly converging.
+
+Business Implications:
+- The attractiveness of the leading brand to new users remains in a high range.
+- The proportion advantage of the leading brand within the top cohort is gradually being diluted.
+- The competitive landscape relies more on the overall top combination rather than a single brand.
+
+Risk Focus:
+- If % Pop Mart drops below 50.4%, it may lose its perceived leadership position within the top cohort.
+- If # total users increases above 40 but % Pop Mart continues to decline, it may weaken the single brand's bargaining and premium pricing power.

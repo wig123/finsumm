@@ -1,0 +1,39 @@
+[Chart Components]
+- Type: Line Chart
+- Title: CelcomDigi
+- Axes:
+  - X-axis: Time (From July 2021 to January 2024)
+  - Y-axis: Price (Range from 0 to 5 MYR)
+- Legend:
+  - Black Line: Closing Price
+  - Green Arrow: Target Price Change
+  - Blue Dot: Recommendation Changes
+
+[Data Relationships]
+- Key Figures and Changes:
+  - Starting in July 2021, the price was close to 4.5 MYR, followed by a downward trend.
+  - The lowest point in early 2022 was close to 3.5 MYR.
+  - Starting from mid-2022, the price gradually recovered, reaching close to 4.5 MYR multiple times between July 2023 and December 2023.
+
+- Extremum Comparison:
+  - The lowest point was approximately 3.5 MYR in January 2022.
+  - Multiple high points in 2023 were close to 4.5 MYR.
+
+- Significant Trends:
+  - The overall trend shows that after the price hit its lowest point in early 2022, it gradually recovered to a higher level.
+  - Since 2023, price volatility has been low, maintaining near high levels.
+
+[Pattern Characteristics]
+The price line initially stayed in a higher range before dipping, forming a trough in early 2022, and subsequently returning to the previous range. During the 2023 period, the amplitude narrowed, trading around the high level with multiple peaks observed. Green arrows are distributed across multiple time points, becoming denser in the mid-to-late period of 2023; blue dots are few and scattered.
+
+[Core Insights]
+Core Conclusion: The price is situated in a relatively high range, and target price adjustments mostly occurred in the mid-to-late period of 2023.
+
+Business Implications:
+- Reflects market expectation convergence and improved stability
+- Increased tendency to hold for asset allocation
+- Improved alignment between target price and market pricing
+
+Risk Focus:
+- Closing price falling below 3.5 MYR may trigger stop-loss and portfolio rotation
+- Long-term stagnation below 4.5 MYR limits return potential

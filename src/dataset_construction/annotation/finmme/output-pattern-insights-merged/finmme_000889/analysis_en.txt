@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Line chart; no explicit title visible.
+- X-axis: Time, scale from Dec-04 to Sep-23.
+- Y-axis: Value, range -0.4 to 1.0, scale approximately every 0.2.
+- Legend: Green "5s10s (actual)", Light Blue "5s10s (fitted with projection)", Red "Forwards".
+
+[Data Relationships]
+- Dec-04: actual≈0.6; fitted≈0.6.
+- Peak Value: actual≈0.9 (approx. Apr-13 to May-15); fitted≈0.85 (approx. Apr-13).
+- Trough Value: actual≈-0.3 (near Sep-23); fitted≈-0.2 (near 2023).
+- Full Period Range: actual approx. 1.2 (0.9-(-0.3)); fitted approx. 1.05 (0.85-(-0.2)).
+- Mid-2017: Both≈0.5, difference <0.05.
+- End of 2021 to 2022: Both approx. 0.3–0.5, difference approx. 0.1.
+- Sep-23 Endpoint: actual and fitted are both close to 0; the red line Forwards is also approx. 0–0.1 at the same point.
+
+[Pattern Characteristics]
+The two curves (actual and fitted values) follow similar trends for most of the period, but the fitted values are generally slightly smoother at peaks and troughs, and the extreme values are slightly more contained. Values in the middle-to-early period mainly remained above positive territory, accompanied by multiple medium-amplitude fluctuations, gradually extending towards the near-zero and negative regions in the later period. Near the endpoint, the actual value, fitted value, and the forward line show short-term convergence near zero, with the forward line providing only a short extended path.
+
+[Core Insights]
+Core Conclusion: The current level is approaching historical lows, and the three curves show consistent short-term expectations.
+
+Business Implications:
+- A significant retreat from the historical central tendency, reflecting a rebalancing of the valuation structure.
+- High correlation between fitted and actual values enhances the reference value of the model for guiding allocation.
+- The forward line approaching zero indicates limited future upside and increased sensitivity.
+
+Risk Focus:
+- If the actual value persistently drops below -0.2, it may correspond to an amplified deviation in portfolio duration and curve positioning.
+- If the value rises back above 0.6 without synchronization between the forward and fitted lines, it could lead to a disconnect between pricing and expectations.

@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Financial calculation table (no axes)
+- Title: Not specified
+- Structure: Item names and corresponding values, some rows highlighted with a yellow background
+- Legend: None
+- Unit: Not specified
+
+[Data Relationships]
+- 2026 ex-AWS EBITDA 68,040; EV/EBITDA 12; EV 789,265; Discount rate 10%.
+- Present EV 654,881; Difference from EV 134,384.
+- EV one year later 720,369; Difference from Present EV 65,488.
+- AWS DCF EV one year later 889,290.
+- Total EV one year later 1,609,658; Sum of the above two items is approximately 1,609,659, difference of 1.
+- Net debt one year later 4,860; Market Cap one year later 1,604,798; 1,609,658 - 4,860 = 1,604,798.
+- Shares one year later 10,723; Per share price 150; 1,604,798 / 10,723 ≈ 149.7.
+
+[Pattern Characteristics]
+- The table starts with "2026 ex-AWS EBITDA" and forms a top-down, step-by-step derivation structure from a single profitability metric to Enterprise Value (EV), Equity Value, and finally to the per-share price, with key nodes highlighted in yellow.
+- The numerical calculation follows a linear chain: EV is derived from EBITDA and the multiple, connected to the value one year later via discounting, then combined with another portion of DCF value to form the Total EV. Finally, Net Debt is subtracted to obtain the Market Cap, which is divided by the shares outstanding to yield the per-share price.
+- The differences between intermediate steps are consistent and convergent. The final Total EV and the sum of the two component values have only a rounding error of 1, indicating that the overall calculation process is internally consistent with no abrupt jumps.
+
+[Core Insights]
+Core Conclusion: The table constructs a complete valuation chain from segment valuation to target share price.
+
+Business Implications:
+- The current valuation logic highly depends on the EBITDA and multiple assumptions.
+- The target Market Cap and per-share price are directly determined by the Total EV one year later.
+- The size of the Net Debt has a limited but non-negligible impact on Equity Value.
+
+Risk Concerns:
+- If the 2026 ex-AWS EBITDA is lower than 68,040, the EV derived using the 12x valuation multiple will decrease, compressing the subsequent Equity Value.
+- If the discount rate is higher than 10%, the value difference between Present EV and EV one year later will widen, potentially making it difficult for the current price to match the target level of 150.

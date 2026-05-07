@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Parallel column infographic (5 columns).
+- Title: No overall title observed; column titles are "Video Compression Network," "Spacetime Latent Patches," "Transformer + Diffusion model," "Language understanding," and "Emerging Simulation Capabilities," respectively.
+- Axes: No axes or scales.
+- Legend: None.
+- Other: Each column is a light blue box containing bulleted text descriptions.
+
+[Data Relationships]
+- Total number of columns: 5; corresponding to the five themes listed above, from left to right.
+- The number of bullet points in each column is: 2, 2, 2, 2, and 1, respectively; totaling 9 key points.
+- The term "Sora" appears 5 times, distributed as follows: Column 1 (1 time), Column 3 (2 times), Column 4 (1 time), Column 5 (1 time) (Column 2: 0 times).
+- Numerical and coordinate information is not provided; the chart only contains textual key points, making it impossible to calculate the difference or magnitude between high and low points.
+
+[Pattern Characteristics]
+The five parallel sections are arranged linearly, with the number of items slightly decreasing from left to right, concluding in the final column with a single key point. The mention of the same noun is more concentrated in the middle three columns, forming a textual focus area, while the second column completely omits the noun, creating a significant divergence. The overall structure demonstrates a hierarchical arrangement of information, progressing from foundational to advanced, and condensing from multi-point descriptions to an abstract summary.
+
+[Core Insights]
+Core Conclusion: The information explains the complete technical pipeline of a single system, broken down by module.
+
+Business Implications:
+- Multiple modules collectively point to the same system, indicating a highly integrated solution.
+- The descriptions in the central modules are denser, suggesting they carry higher weight in the overall capability.
+- Only one key point at the end reflects that the outcome layer content is highly summarized.
+
+Risk Focus:
+- Over-reliance on the single system mentioned 5 times; a decline in its performance would impact all 5 modules.
+- Insufficient attention paid to the module where the system name does not appear, potentially leading to a capability gap in that segment.

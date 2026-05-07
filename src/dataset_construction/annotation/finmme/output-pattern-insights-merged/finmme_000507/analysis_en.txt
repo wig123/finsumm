@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Line Chart
+- Title: Loan-to-Deposit Ratio (LDR)
+- X-axis: Time marked by quarters, from 3Q15 to 1Q24
+- Y-axis: Numerical scale approximately 76–90
+- Legend: Red line represents LDR
+
+[Data Relationships]
+- Initial Period (3Q15) approximately 81
+- Final Period (1Q24) approximately 87.7
+- Peak: Approximately 87.7 (1Q24); Trough: Approximately 80.6 (near 3Q17); Range difference approximately 7.1
+- 3Q19 approximately 82, 1Q20 approximately 84.7, difference approximately 2.7
+- 1Q23 approximately 86.0, 3Q23 approximately 86.5, difference approximately 0.5
+- 1Q22 approximately 85.0, 3Q22 approximately 85.4, difference approximately 0.4
+
+[Pattern Characteristics]
+- The overall trend shows a slow upward trajectory, oscillating slightly within a narrow range in the early stages, and gradually rising toward the upper boundary of the range in the middle and later stages.
+- A relatively steep upward shift occurred between 3Q19 and 1Q20, followed by minor fluctuations around a higher level, reaching the highest point of the entire period in 1Q24.
+- No sharp spikes were observed throughout the period; volatility is continuous and the rhythm is relatively smooth, with only slightly noticeable short-term pullbacks and subsequent recoveries in specific quarters.
+
+[Core Insights]
+Core Conclusion: LDR has continuously risen over the years, indicating fund utilization is trending toward a high range.
+
+Business Implications:
+- Reflects that credit extension is stronger than the pace of deposit accumulation.
+- Continuously pressures the liquidity buffer space.
+- The asset side's reliance on the liability side is increasing.
+
+Risk Focus:
+- If the LDR continues to approach 90 or above, it may weaken the buffer space and amplify liquidity shocks.
+- If deposit volatility occurs while the LDR is above 87, it could lead to passive balance sheet contraction and rising funding costs.

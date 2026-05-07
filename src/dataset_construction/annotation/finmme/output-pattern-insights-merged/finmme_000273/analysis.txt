@@ -1,0 +1,35 @@
+【图表构成】
+- 类型：100%堆叠柱状图；标题未显示。
+- X轴：FY21、FY22、FY23、1QFY24、1HFY24、9MFY24。
+- Y轴：比例0%–100%，10%刻度。
+- 图例：Replacement（红）、OEM（灰）、Export（白框黑边）。
+
+【数据关系】
+- FY21：Replacement 72%、OEM 19%、Export 9%。
+- FY22：63%、22%、16%。
+- FY23：59%、26%、15%。
+- 1QFY24：64%、25%、11%。
+- 1HFY24：63%、25%、12%。
+- 9MFY24：63%、25%、12%。
+- Replacement峰值72%(FY21)，谷值59%(FY23)；FY21→9MFY24变动-9百分点。
+- OEM峰值26%(FY23)，谷值19%(FY21)；FY21→9MFY24+6百分点。
+- Export峰值16%(FY22)，谷值9%(FY21)；FY21→9MFY24+3百分点。
+- FY23→1QFY24：Replacement+5、OEM-1、Export-4百分点。
+- 同期Replacement与OEM差：FY21 53、FY22 41、FY23 33、1QFY24 39、1HFY24/9MFY24 38百分点。
+
+【模式特征】
+- 各期间均由Replacement占据最大比例，OEM次之，Export最小，结构始终呈单一主导型。  
+- Replacement在FY21后先收缩再小幅回升，OEM和Export在FY22–FY23阶段同步抬升，随后OEM保持稳定、Export略有回落并趋于平稳。  
+- Replacement与OEM之间的比例差距整体收窄后略有扩大，但始终维持在较高水平，未出现结构性的剧烈跳变。
+
+【核心洞察】
+核心结论：收入结构由高度依赖Replacement，向更均衡的多元结构缓慢演变。
+
+业务含义：
+- OEM与Export比重抬升，客户结构更分散。
+- Replacement主导格局未改，对单一细分仍有依赖。
+- FY23后结构调整放缓，短期内难现大幅再平衡。
+
+风险关注：
+- 若Replacement占比再次高于70%，整体对该渠道依赖度过高。
+- 若Export长期低于10%，外部市场开拓动力和弹性受限。

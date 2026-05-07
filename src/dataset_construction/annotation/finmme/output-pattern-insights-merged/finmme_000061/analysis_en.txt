@@ -1,0 +1,34 @@
+[Chart Components]
+- Type: Time series line chart, including scatter plot with event markers
+- Title: Kossan Rubber
+- Top Right Information: As of 22-Feb-2024; Currency = MYR
+- X-axis: Date range approximately 2021/07/01 to 2024/01/01, tick marks labeled 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01
+- Y-axis: Price (MYR), range approximately 0.00 to 4.50
+- Legend: Gray line represents Closing Price; Green triangle represents Target Price Change; Blue circle represents Recommendation Changes
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial period (around 2021/07) closing price was approximately 4.0 MYR
+- Highest closing price was close to 4.5 MYR, occurring in the second half of 2021
+- Lowest closing price was approximately 1.0 MYR, occurring in the second half of 2022
+- Final period (2024/02) closing price was approximately 2.1 MYR
+- The difference between the highest and lowest closing price was approximately 3.5 MYR
+- The difference between the final and initial closing price was approximately −1.9 MYR (absolute difference)
+- The difference between the final and highest closing price was approximately −2.4 MYR; the difference between the final and lowest closing price was approximately +1.1 MYR
+- Closing price around 2023/01 was approximately 1.0–1.1 MYR; around 2023/07 was approximately 1.3–1.4 MYR; around 2024/01 was approximately 2.0 MYR
+- Blue circle markers appeared in mid-2022, with the price around 1.2 MYR
+
+[Pattern Characteristics]
+The overall trend first experienced rapid unidirectional movement, followed by the formation of a long platform in the lower range, with a slow upward lift in the final segment. The structure transitioned from being dominated by a single factor to being relatively dispersed, showing strong continuity and gradually converging volatility. Event markers are denser in the early-to-middle segment; blue dots are near local lows, while triangles are distributed at high points and the middle segment.
+
+[Core Insights]
+Core Conclusion: Valuation has exited the extremely low range but remains below the peak segment
+
+Business Implications:
+- The historical range indicates high valuation sensitivity
+- Strong synchronization between sell-side opinion adjustments and price points
+- The current level corresponds to the mid-range price band
+
+Risk Focus:
+- If the closing price falls below 1.3 MYR, or touches 1.0–1.1, holding losses will expand
+- Near the high of 4.5 MYR, short-term gains are easily reversed, increasing the risk of chasing the price

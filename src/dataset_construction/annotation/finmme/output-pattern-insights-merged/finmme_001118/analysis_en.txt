@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Line Chart
+- Title: Unsecured retail loans (% y-y)
+- X-axis: Time, marked from Jan-14 to Jan-24 (with "Jan" tick marks displayed annually)
+- Y-axis: Percentage, range 0%–40%, increments of 5%
+- Legend: Red line, label consistent with the title; end point marked "22%"
+
+[Data Relationships]
+- Initial Period (Jan-14) approximately 14%
+- Final Period (Jan-24) is 22%, approximately 8 percentage points higher than the initial period
+- Global peak approximately 35% (around 2018), approximately 13 percentage points higher than the final period
+- Global trough approximately 3%–4% (around 2021), approximately 31–32 percentage points lower than the peak
+- Peak around 2020 approximately 29%, approximately 6 percentage points lower than the 2018 peak
+- Peak around 2023 approximately 29%–30%, approximately 7–8 percentage points higher than the final period
+- Low point around 2019 approximately 12%–13%, approximately 9–10 percentage points lower than the final period
+- The 2021 trough is approximately 10–11 percentage points lower than the initial period
+
+[Pattern Characteristics]
+The curve generally exhibits a volatile pattern of initial ascent, subsequent decline, and then recovery, featuring multiple distinct cycles of peaks and troughs. The middle section formed a single dominant peak around 2018, followed by a rapid drop leading to a deep trough around 2021. The final section rises from the low point and then slightly retreats, generally remaining in the medium-to-high range, without extreme values indicative of a sudden event.
+
+[Core Insights]
+Core Conclusion: The current growth rate is at a historically medium-to-high level but remains below previous extreme values.
+
+Business Implications:
+- Historically, more aggressive expansion phases have occurred
+- The current pace is more restrained compared to peak periods
+- If the upward trend continues, a high-level expansion scenario might be repeated
+
+Risk Focus:
+- If the rate approaches or exceeds 35% again, it could amplify asset quality concerns and regulatory pressure
+- If the rate falls back near 5%, it could lead to slower revenue growth and sluggish scale expansion

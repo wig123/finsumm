@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Multi-country comparative line chart
+- Axes: The vertical axis is “% of GDP,” scaled from -10% to 60%; the horizontal axis is the year, ranging approximately from 1995–2022, with tick marks indicating 1995, 2000, 2005, 2010, 2015, 2020.
+- Legend: Countries include China, Australia, Italy, US, South Korea, Canada, France, UK, Germany, Japan; different colors/line types correspond to each country.
+- Title: No explicit title is displayed in the chart.
+
+[Data Relationships]
+- China: Approximately 35% in 1995; peak near 2009–2011 at approximately 55%; approximately 48–50% in 2022.
+- UK: Approximately 30% in 1995; approximately 25% in 2010; approximately 30% in 2020; approximately 28–30% in 2022.
+- Germany (Solid orange line): Approximately 9% in 1995; approximately 12% in 2010; approximately 15% in 2020; approximately 14% in 2022.
+- Japan (Dashed orange line): Approximately 5% in 1995; approximately 10% in 2010; approximately 15% in 2020; approximately 13% in 2022.
+- France, Canada, South Korea, Italy, US: Mostly within the 0–15 range, with some years near or slightly below 0.
+- Near 2010, the difference between China and the UK was approximately 25–30 percentage points; the difference with Germany was approximately 40 percentage points.
+- Country comparison in 2020: China was approximately 48–50%, higher than the UK (approx. 30%), Germany (approx. 15%), and Japan (approx. 15%); the rest were mostly in the 0–10 range.
+
+[Pattern Characteristics]
+The data for various countries exhibits a clear layered structure: China consistently maintains the highest level, forming a high plateau around 2000–2010, while the remaining countries are generally clustered within the narrow 0–15% range. The UK, Germany, and Japan show a slow upward trend in the middle range. France, Canada, South Korea, Italy, and the US fluctuate around levels close to 0 in most years, briefly dipping into negative values in isolated years. The time series is generally continuous with no sharp jumps observed. Only minor morphological changes in the curves of some countries occurred around 2008–2010 and 2020.
+
+[Core Insights]
+Core Conclusion: In a global comparison, China's indicator has clearly remained in the top tier over the long term.
+
+Business Implications:
+- China has a high proportion in the relevant economic activity, demonstrating a significant scale advantage.
+- The UK, Germany, and Japan are at a medium level, reflecting structural differences between regions.
+- Most developed economies are concentrated in the low range, indicating that this indicator has limited weight in their overall economy.
+
+Risk Focus:
+- If China's value approaches or exceeds 55% again, it could intensify reliance on a single structure and increase exposure to volatility.
+- If most countries fall to 0% or below, it may signify a weakening contribution of the relevant activity to the overall economy and potentially drag down growth.

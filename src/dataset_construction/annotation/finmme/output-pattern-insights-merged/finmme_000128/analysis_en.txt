@@ -1,0 +1,35 @@
+[Chart Components]
+- Type: Line chart
+- Title: None (The chart defaults to logistics share trend)
+- Axes: Y-axis is “Share of total (%)”, ranging from 0% to 40%; X-axis is Time, scaled from Jan 04 to Jan 24
+- Legend: Container (Dark line), Air (Light line)
+
+[Data Relationships]
+- **Key Figures and Changes:**
+  - Container rose during the period Jan 04 to Jan 09, increasing from approximately 27% to 35%.
+  - Air steadily increased during the period Jan 04 to Jan 12, increasing from approximately 15% to 24%.
+
+- **Extremum Comparison:**
+  - Container reached high points twice in Jan 14 and Jan 20, approaching a 40% share.
+  - Air peaked in Jan 21, at approximately 31%.
+
+- **Significant Trends:**
+  - Container declined significantly after Jan 20, dropping to approximately 28% by Jan 23.
+  - Air showed a downward trend after Jan 21, but maintained a level of approximately 25% in Jan 23.
+  - Both transportation methods declined alternately after 2020, with the decline in Container being more pronounced after Jan 21.
+
+[Pattern Characteristics]
+- The two curves generally show a structure of rising first, stabilizing, and then falling back; Container showed two local peaks in the middle segment, and Air formed a single peak around Jan 21.
+- In the later segment, both declined simultaneously; the gap visibly narrowed but did not intersect; changes were primarily continuous, with inflection points concentrated around Jan 20-21.
+
+[Core Insights]
+Core Conclusion: Container's lead narrowed, share is more dispersed
+
+Business Implications:
+- Indicates a decrease in share concentration, weights tend toward equilibrium
+- For allocation decisions: Need to reduce reliance on Container
+- Air temporarily absorbed more allocation space
+
+Risk Focus:
+- Container below 28%: Gap with Air ≤ 3pp, leading position is under pressure
+- Air below 25%: Falling below Jan 23 level, subordinate status is solidified

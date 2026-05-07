@@ -1,0 +1,33 @@
+【图表构成】
+- 类型：堆叠柱状图
+- 标题：未显示
+- 纵轴：mmscmd（百万标方/日），范围约0–40，带网格线与40刻度
+- 横轴：时间，Oct-18 至 Oct-23，刻度为 Apr/Oct 半年度
+- 图例：两类—Others（灰色）、Eastern offshore（红色）
+
+【数据关系】
+- Oct-18：总量约14–15 mmscmd；Others约10–11；Eastern offshore约3–4。
+- Apr-20附近：总量约8；Others约6–7；Eastern offshore约1–2（相对最低）。
+- Apr-21：总量约23–24。
+- Oct-21：总量约30–31；Others约10；Eastern offshore约20–21。
+- Oct-22：总量约31–32。
+- Apr-23：总量约35–36。
+- Oct-23：总量为40（最高）；Others约9–10；Eastern offshore约30–31。
+- 最高40与低位约8的差值约32 mmscmd。
+
+【模式特征】
+- 总量在前期先缓慢回落，在Apr-20附近出现明显低点后，随后持续走高，并在Oct-23达到高位。
+- Others整体较为平稳，中段略有回落后保持在相近区间；Eastern offshore在Apr-20前占比较小，之后逐步占据柱体主要部分。
+- Apr-20附近为全段最低窗口，Apr-21前后以及Apr-23至Oct-23阶段总量与Eastern offshore部分都有明显台阶式抬升。
+
+【核心洞察】
+核心结论：供给结构由多元向以Eastern offshore为主集中。
+
+业务含义：
+- 总供给能力显著扩张，来源更加集中。
+- 对Eastern offshore生产稳定性依赖度明显加深。
+- Others增量有限，调节与替代空间受限。
+
+风险关注：
+- 若Eastern offshore低于20 mmscmd，总量可能跌回约30以下。
+- 如Others降至8 mmscmd以下，总量抗冲击能力将明显减弱。

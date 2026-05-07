@@ -1,0 +1,30 @@
+【图表构成】
+- 类型：垂直条形图（负值向下）。
+- 标题：未显示。
+- 纵轴：% change，范围约从0%至-45%。
+- 横轴：9个公司；前两项标注“Container Ports”，其余标注“Shipping”，依次为ICTSI、China Merchant Port、Wan Hai、Evergreen、Yang Ming、HMM、Mitsui、Nippon Yusen、COSCO。
+- 图例：未显示。
+
+【数据关系】
+- 数值：ICTSI -8%；China Merchant Port -28%；Wan Hai -15%；Evergreen -22%；Yang Ming -23%；HMM -26%；Mitsui -36%；Nippon Yusen -37%；COSCO -40%。
+- 极值：COSCO -40%与ICTSI -8%，差32个百分点。
+- 组内差：Container Ports内部差20个百分点（-8% vs -28%）；Shipping内极差25个百分点（COSCO -40% vs Wan Hai -15%）。
+- 相邻差：Wan Hai/Evergreen 7；Evergreen/Yang Ming 1；Yang Ming/HMM 3；HMM/Mitsui 10；Mitsui/Nippon Yusen 1；Nippon Yusen/COSCO 3（百分点）。
+- 其他对比：Mitsui -36%比China Merchant Port -28%低8个百分点。
+
+【模式特征】
+- 所有公司均处于同一方向的负向区间，但幅度从轻微到较大呈阶梯式分布，整体较为分散。  
+- “Container Ports”内部一高一低，差异明显；“Shipping”内部则从Wan Hai到COSCO大致按深度递增，中间局部相邻公司之间变化较小。  
+- COSCO、Nippon Yusen与Mitsui三者形成明显的最深一组，与ICTSI等浅幅公司之间存在清晰分层。
+
+【核心洞察】
+核心结论：港口与航运公司表现分化，且部分航运公司承压更大。
+
+业务含义：
+- 港口板块总体抗压程度强于航运。  
+- 航运板块内部公司表现差距拉大。  
+- 跌幅最深公司或拉低板块整体估值与信心。
+
+风险关注：
+- 单家公司跌幅接近或超过-40%，或触发再融资与评级压力。  
+- 航运板块若整体跌幅持续低于-25%，可能影响资本投入与运力规划。

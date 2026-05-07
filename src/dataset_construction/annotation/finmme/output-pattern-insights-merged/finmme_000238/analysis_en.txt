@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Time series line chart, including a pink ±2 standard deviation confidence band.
+- Title: None; Legend includes "CTA 20d beta to USD" and "+/- 2 standard deviation confidence".
+- X-axis: Time scale Jan-21, Jul-21, Jan-22, Jul-22, Jan-23, Jul-23, Jan-24.
+- Y-axis: Numerical scale labeled -1, 0, 1, 2; y=0 serves as the dashed baseline.
+- A diamond marker is present at the endpoint.
+
+[Data Relationships]
+- Jan-21 value is approximately -0.9.
+- Jan-22 neighboring peak value is approximately 1.8–2.
+- Jul-21 neighboring trough value is approximately -1.2.
+- Early 2023 briefly reached approximately 1.5.
+- Mid-2023 lowest point was approximately -0.6.
+- Jan-24 terminal value is approximately 0.05.
+- The overall range (peak-to-trough difference) is approximately 3.2 (≈ peak 2 and trough -1.2).
+
+[Pattern Characteristics]
+- The series oscillates around the 0-axis. In 2021, it initially lingered in the negative region, subsequently reaching a clear peak around 2022, then switching between positive and negative ranges, finally converging near 0 at the end of the period.
+- The pink confidence band remains generally continuous, but its width significantly expanded during periods such as early 2022 and early 2023, indicating a phase of volatility range expansion. The range narrowed relatively during other periods.
+- At individual points in time, the solid line touched or approached the edge of the confidence band, especially near local peaks and troughs, forming brief, extreme deviations.
+
+[Core Insights]
+Core Conclusion: The CTA's short-term directional exposure to USD exhibits phase-based switching and has returned to near neutral.
+
+Business Implications:
+- Indicates that the CTA's exposure to USD is not long-term unidirectional.
+- The portfolio's currency sensitivity varies significantly across different phases.
+- Current reliance on USD has significantly weakened compared to the 2022 peak.
+
+Risk Concerns:
+- If the beta approaches 2 or -1.2 again, it may amplify the portfolio's profit and loss amplitude (volatility) relative to USD fluctuations.
+- If the confidence band width approaches the level seen in early 2022, it could lead to a significant increase in short-term drawdowns and performance volatility.

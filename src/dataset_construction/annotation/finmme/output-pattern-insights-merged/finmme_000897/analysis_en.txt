@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Single time series line chart
+- Title: Not specified
+- X-axis: Date, range approximately 9/25/2005 to 9/25/2023, annual scale, displayed diagonally
+- Y-axis: Percentage, range 0.0% to 120.0%, major tick marks every 20%
+- Legend: Bottom left, red line labeled "BETA"
+- Line Color and Style: Solid red line
+
+[Data Relationships]
+- Initial Value: 9/25/2005 approximately 75%
+- Peak Value: Approximately 106% (around 2007)
+- Trough Value: Approximately 28% (around 2019)
+- Final Value: 9/25/2023 approximately 37%
+- Difference between Peak and Trough: Approximately 78 percentage points
+- Difference between Initial and Final Value: Approximately 38 percentage points
+- 2017 approximately 65%, 2018 approximately 35%, difference approximately 30 percentage points
+- 2020 approximately 30%, 2021 approximately 69%, difference approximately 39 percentage points
+
+[Pattern Characteristics]
+The time series showed a significant surge and retreat early on within a short period, followed by multiple periods of wide-ranging fluctuation within the medium-to-high level band. The center of volatility gradually shifted downward around 2015, with several distinct step-like downward shifts occurring around 2018–2020 and 2022. The overall final segment remains within a relatively low and narrow range, with no clear reversal observed.
+
+[Core Insights]
+Core Conclusion: Long-term correlation of BETA has weakened, currently residing in a relatively low range.
+
+Business Implications:
+- Decreased linkage with the benchmark, resulting in reduced price synchronization.
+- Reduced transmission effect on overall portfolio volatility.
+- Lower dependence of the asset on systematic changes.
+
+Risk Focus:
+- If BETA persistently remains below 40%, it may lead to greater deviation relative to the benchmark.
+- If it rises back above 80%, the portfolio will be more sensitive to benchmark volatility, leading to amplified drawdowns.

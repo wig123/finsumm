@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Vertical Bar Chart
+- Title: Not displayed
+- X-axis: Year; 2017, 2018, 2019, 2020, 2021
+- Y-axis: Numerical scale 0—140, scale interval approximately 20
+- Legend: 1 series, red, label is "Number..." (truncated)
+- Data Labels: Specific values annotated at the top of each bar (1, 20, 30, 75, 119)
+
+[Data Relationships]
+- Annual Values: 2017 is 1; 2018 is 20; 2019 is 30; 2020 is 75; 2021 is 119.
+- Maximum value 119 (2021), minimum value 1 (2017), range 118.
+- Increment from the beginning of the period (2017) to the end of the period (2021) is 118, multiple is approximately 119 times.
+- Adjacent annual difference: 2018 compared to 2017 +19; 2019 compared to 2018 +10; 2020 compared to 2019 +45; 2021 compared to 2020 +44.
+- 2021 comparison with other years: Higher than 2018 by 99; higher than 2019 by 89; higher than 2020 by 44.
+- Median is 30; average value is approximately 49.
+
+[Pattern Characteristics]
+The bars show a unidirectional increase over the years, and the height of the later bars is significantly higher than the earlier ones, with the overall distribution skewed towards the later years.
+The increment during the 2018–2019 phase is relatively similar, but starting in 2020, the bar height increases dramatically, and 2021 continues to maintain a similar incremental range.
+The overall structure exhibits a clear characteristic of concentration in the later period; earlier values are relatively close to the lower end of the scale, with no significant decline observed.
+
+[Core Insights]
+Core Conclusion: This indicator shows a trend of continuous expansion and rapid accumulation in the later period.
+
+Business Implications:
+- Reflects a substantial expansion of the relevant business scale in the short term.
+- Puts higher demands on resource allocation and capacity matching.
+- Shows a marked increase in the reliance of business results on the most recent two years.
+
+Risk Concerns:
+- If the value continues to approach or exceed 120 after 2021, it may lead to a concentrated outbreak of resource or capital pressure.
+- If the value declines in the future to near the average value of 49, it may trigger performance revision and expectation gap risk.

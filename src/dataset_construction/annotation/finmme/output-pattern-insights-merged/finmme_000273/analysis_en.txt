@@ -1,0 +1,35 @@
+[Chart Components]
+- Type: 100% Stacked Bar Chart; Title not displayed.
+- X-axis: FY21, FY22, FY23, 1QFY24, 1HFY24, 9MFY24.
+- Y-axis: Proportion 0%–100%, 10% increments.
+- Legend: Replacement (Red), OEM (Gray), Export (White box black border).
+
+[Data Relationships]
+- FY21: Replacement 72%, OEM 19%, Export 9%.
+- FY22: 63%, 22%, 16%.
+- FY23: 59%, 26%, 15%.
+- 1QFY24: 64%, 25%, 11%.
+- 1HFY24: 63%, 25%, 12%.
+- 9MFY24: 63%, 25%, 12%.
+- Replacement peak 72% (FY21), trough 59% (FY23); FY21→9MFY24 change -9 percentage points.
+- OEM peak 26% (FY23), trough 19% (FY21); FY21→9MFY24 +6 percentage points.
+- Export peak 16% (FY22), trough 9% (FY21); FY21→9MFY24 +3 percentage points.
+- FY23→1QFY24: Replacement +5, OEM -1, Export -4 percentage points.
+- Difference between Replacement and OEM during the period: FY21 53, FY22 41, FY23 33, 1QFY24 39, 1HFY24/9MFY24 38 percentage points.
+
+[Pattern Characteristics]
+- In all periods, Replacement occupies the largest proportion, followed by OEM, and Export is the smallest. The structure consistently exhibits a single dominant type.
+- Replacement first contracted after FY21 and then slightly rebounded. OEM and Export simultaneously increased during the FY22–FY23 period. Subsequently, OEM remained stable, while Export slightly declined and stabilized.
+- The proportional gap between Replacement and OEM generally narrowed before slightly widening, but it consistently remains at a high level, without any drastic structural shifts.
+
+[Core Insights]
+Core Conclusion: The revenue structure is slowly evolving from high dependence on Replacement towards a more balanced, diversified structure.
+
+Business Implications:
+- The proportion of OEM and Export is rising, leading to a more diversified customer structure.
+- The Replacement-dominant structure remains unchanged, indicating continued reliance on a single segment.
+- Structural adjustment has slowed down after FY23, making significant rebalancing unlikely in the short term.
+
+Risk Focus:
+- If the Replacement proportion exceeds 70% again, overall dependence on this channel will be excessively high.
+- If Export remains below 10% for an extended period, the momentum and flexibility for external market expansion will be limited.

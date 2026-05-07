@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Combination chart (Red bars represent Net Debt; Black line represents Net Debt/Equity)
+- Title: No explicit main title visible; Unit marked in the upper left corner (KRW bn)
+- X-axis: Years 2019, 2020, 2021, 2022, 2023
+- Left Y-axis: KRW bn, range approximately 0 to 4,000
+- Right Y-axis: Percentage, range 0% to 160%
+- Legend: Net Debt (Red) and Net Debt/Equity (Black)
+
+[Data Relationships]
+- Net Debt (KRW bn): 2019≈2,000; 2020≈2,100; 2021≈2,300; 2022≈2,850; 2023≈3,350
+- Change 2019→2023≈+1,350; 2021→2023≈+1,050; 2022→2023≈+500
+- Net Debt/Equity (%): 2019≈110%; 2020≈115%; 2021≈115%; 2022≈125%; 2023≈140%
+- Ratio change 2019→2023≈+30 percentage points; 2021→2023≈+25 percentage points; Difference between 2020 and 2021≈0–1 percentage point
+- Peak Value: 2023 Net Debt≈3,350 (KRW bn), Ratio≈140%
+
+[Pattern Characteristics]
+- The bar values show a unidirectional increase over five years, with the growth rate in the last two years significantly exceeding the earlier period, indicating a structure dominated by continuous leverage accumulation.
+- The line remains nearly flat in the first half of the period, but the slope increases significantly after 2021, consistent with the upward trend of the bars.
+- 2023 simultaneously shows the highest bar value and the highest ratio, forming the common peak point for this series, with no significant decline or sudden jump in between.
+
+[Core Insights]
+Core Conclusion: The company's leverage level has clearly risen and intensified over the past two years.
+
+Business Implications:
+- Increased reliance of the capital structure on external funding.
+- Rising impact of financial expenses and debt service pressure on the income statement.
+- Refinancing and equity replenishment capacity will receive greater scrutiny.
+
+Risk Focus:
+- When Net Debt/Equity approaches or exceeds 150%, it may trigger an increase in financing costs and tightening of credit facilities.
+- If Net Debt continues to exceed 3,500bn, cash flow volatility could lead to a reactive refinancing situation.

@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Time series line chart, including event markers
+- Title: JD Logistics
+- X-axis: Date, range from 2021/07/01—2024/01/01
+- Y-axis: Price (HKD), scale approximately 0—45
+- Legend: Closing Price (Black line); Target Price Change (Green triangle); Recommendation Changes (Blue dot)
+- Notes: As of 25-Jan-2024; Currency=HKD; Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial closing price approximately 42–45 HKD (2021/07)
+- Peak value approximately 46 HKD (around 2021/07)
+- Final closing price approximately 9–10 HKD (2024/01)
+- Difference between maximum and minimum approximately 37 HKD
+- A recommendation rating change (blue dot) occurred once in 2021/08, corresponding to a price of approximately 27–30 HKD
+- Examples of target price changes (green triangle): 2021/09 approximately 35, 2022/01 approximately 38, 2022/07 approximately 16, 2023/03 approximately 18, 2023/09 approximately 15
+
+[Pattern Characteristics]
+The overall trend exhibits a unilateral decline, extending from a high level to a low level, interspersed with several phases of minor rebounds and consolidation periods. Target price change points are distributed throughout the entire period, often occurring after the price has already experienced a significant decline. Recommendation rating changes occurred only once in the early period, corresponding to price fluctuations concentrated in the high-to-mid range at that time.
+
+[Core Insights]
+Core Conclusion: There is a significant misalignment between the pace of stock price movement and target price adjustments.
+
+Business Implications:
+- The speed of market price decline is faster than subsequent valuation adjustments.
+- The research side's response to price changes is relatively lagged.
+- Investment decisions may rely more on market trends than on target price signals.
+
+Risk Focus:
+- The stock price is approaching the previous low of approximately 9–10 HKD; setting a new low could exacerbate investment losses.
+- If the target price continues to be maintained significantly above the current price level, it may mislead position management and holding period judgment.

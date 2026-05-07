@@ -1,0 +1,30 @@
+【图表构成】
+- 类型：财务数据表；标题：Galp
+- 列：4Q22、3Q23、4Q23E、Actual、CONS*、YoY(%)、QoQ(%)
+- 行项目：Working interest production(kboe/d)；Clean PnL(EURmn)分部—Upstream、Industrial & Energy Management、Commercial、Renewables & New Businesses；Adjusted EBITDA；Income tax；Adjusted Net Income；Galp OCF(pre-WC)；Gross Capex(inc. exploration)；Net Debt(exc. leases)；Net debt(inc. leases)/Net debt & Equity
+- 单位：产量kboe/d；多数科目EURmn；最后一行为百分比
+
+【数据关系】
+- 产量4Q23E 122；vs CONS 128 -6；vs 4Q22 -8，vs 3Q23 -3。
+- Clean PnL(4Q23E)：Upstream 658、I&EM 115、Commercial 70、Renewables 28；vs CONS差：+8、+12、-7、+3；高658、低28。
+- Adj EBITDA 870；vs 4Q22 -81，vs 3Q23 -187；vs CONS 854 +16。
+- Adj Net Income 206；vs 4Q22 -68，vs 3Q23 -4；vs CONS 228 -22。
+- Capex 402；vs 4Q22 +60，vs 3Q23 +109。
+- 净债务865；vs 4Q22 -690，vs 3Q23 -345；净债/净债与股权29% vs 36%(-7pp)/32%(-3pp)。
+
+【模式特征】
+- 各分部盈利呈现分化结构：Upstream体量最大，其次是Industrial & Energy Management，Commercial和Renewables规模明显更小。  
+- 同一项目中，部分指标相较共识略有正向偏离（如Upstream、Adj EBITDA），而产量和Adj Net Income则低于共识；同比、环比列中正负变动交织，呈非单向的混合变化形态。  
+- 现金流与Capex呈相反方向变化，Capex处于本表中相对高位，同时净债务与杠杆率处于本期三列中的最低水平。
+
+【核心洞察】
+核心结论：盈利结构依赖上游，整体盈利与现金流承压但杠杆下降。
+
+业务含义：
+- 上游贡献主导，盈利来源集中度较高。
+- 整体利润弱于共识，收益弹性受限。
+- 在投入放大的同时，资产负债强度有所缓和。
+
+风险关注：
+- Adj Net Income若继续低于CONS 228mn，可能削弱股东回报预期。
+- Net debt/Net debt & Equity若重新升至32%以上，将压缩未来投资与分配空间。

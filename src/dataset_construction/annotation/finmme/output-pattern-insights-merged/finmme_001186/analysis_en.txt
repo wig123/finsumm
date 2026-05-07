@@ -1,0 +1,26 @@
+[Chart Components]
+- Chart Type: Stacked bar chart.
+- Title: Market share (Originations - Value).
+- Legend: PSBs (Red), Private Banks (Gray), HFCs (White border), Others (Light orange).
+- X-axis: FY20, FY21, FY22, FY23, 1Q24.
+- Y-axis: No visible scale or labels, composed of the percentage proportion of each category, totaling 100% in each period.
+
+[Data Relationships]
+- Market share for each period (PSBs/Private/HFCs/Others): FY20 40.3/33.7/21.7/4.3; FY21 38.2/37.9/19.8/4.1; FY22 36.3/40.4/19.1/4.2; FY23 39.0/35.6/20.2/5.2; 1Q24 40.4/36.9/16.7/6.0.
+- Category extremes and range: PSBs 36.3–40.4 (Difference 4.1); Private Banks 33.7–40.4 (Difference 6.7); HFCs 16.7–21.7 (Difference 5.0); Others 4.1–6.0 (Difference 1.9).
+- Key comparison: In FY20, PSBs were 6.6 higher than Private; in FY22, Private were 4.1 higher than PSBs; in 1Q24, PSBs were 3.5 higher than Private (Unit: percentage points).
+
+[Pattern Characteristics]
+The overall structure across all years shows PSBs and Private Banks occupying the major portion, followed by HFCs, with Others having the smallest proportion. PSBs and Private Banks exhibit alternating dominance across the periods, but their combined proportion remains within a similar range. HFCs show a noticeable contraction in the final period, while Others relatively expanded in the last two periods.
+
+[Core Insights]
+Core Conclusion: The market is dominated by two major banking groups, and the space for non-banking financial institutions (NBFIs) is being compressed.
+
+Business Implications:
+- PSBs and Private Banks collectively constitute the primary source of originations.
+- HFCs' negotiation power and customer acquisition capabilities may be squeezed.
+- The presence of Others is increasing, leading to a more fragmented structure.
+
+Risk Focus:
+- HFCs' market share consistently below 17% may weaken their business sustainability.
+- If the proportion of Others consistently exceeds 6%, it may increase the difficulty of management and coordination among participating entities.

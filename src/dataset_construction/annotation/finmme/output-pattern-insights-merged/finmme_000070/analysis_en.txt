@@ -1,0 +1,39 @@
+[Chart Components]
+- Type: Bar chart and line graph
+- Title: Disbursements (INR bn)
+- Axes: The left axis represents Disbursement Amount (Unit: INR bn), the right axis represents Year-over-Year growth percentage (%)
+- Legend: The red bar chart represents VF, the black line graph represents y-y growth (%)
+
+[Data Relationships]
+- Key Figures and Changes:
+  - The Disbursement Amount in FY19 was 248, with a growth rate of 21%
+  - The Disbursement Amount in FY20 was 234, with a growth rate of -6%
+  - The Disbursement Amount in FY21 was 202, with a growth rate of -13%
+  - The Disbursement Amount in FY22 was 254, with a growth rate of 26%
+  - The Disbursement Amount in FY23 was 397, with a growth rate of 56%
+  - The Disbursement Amount in 9MFY24 was 354, with a growth rate of 29%
+
+- Extremum Comparison:
+  - The Disbursement Amount (397) and Growth Rate (56%) in FY23 are the maximum values.
+  - The Disbursement Amount (202) and Growth Rate (-13%) in FY21 are the minimum values.
+
+- Significant Trends:
+  - From FY19 to FY21, the Disbursement Amount and Growth Rate continuously declined.
+  - Recovery began in FY22, with the Disbursement Amount and Growth Rate rapidly rebounding to the FY23 peak.
+  - The Disbursement Amount and Growth Rate in 9MFY24 slightly decreased but remain at a relatively high level.
+
+[Pattern Characteristics]
+- The bar and line graphs contracted in the same direction from FY19-FY21, expanded in the same direction after FY22, and showed a single peak in FY23; 9MFY24 is below the peak but remains in a strong range.
+- Overall, it is a combination of a single peak and a U-shape, with volume and growth rate moving in the same direction; FY20-21 was in the negative range, and FY23 was the highest point in the entire period.
+
+[Core Insights]
+Core Conclusion: Disbursement scale is in a high percentile, and growth is maintained at a medium-to-high level.
+
+Business Implications:
+- Scale has become the main driver of growth.
+- Achievement rate of annual volume targets has improved.
+- The test of funding and channel capacity is increasing.
+
+Risk Focus:
+- If the growth rate falls below 0%, a YoY contraction will occur, shrinking the scale.
+- Disbursements below 202 (FY21) would approach historical lows, restricting the pace of business expansion.

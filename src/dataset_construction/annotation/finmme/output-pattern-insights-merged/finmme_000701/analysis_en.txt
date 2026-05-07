@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Grouped Bar Chart
+- Title: Quarterly Treasury net supply net of change in Treasury cash balance as % of FY total
+- X-axis: Quarterly Classification (Oct–Dec, Jan–Mar, Apr–Jun, Jul–Sep)
+- Y-axis: Net supply net of change in TGA as % of FY total; Range approximately -30% to 70%
+- Legend: Fiscal year 2015 to 2023 (Different colors)
+- Source: Bloomberg, BNP Paribas
+
+[Data Relationships]
+- Maximum Value: Apr–Jun 2020, approximately 65%
+- Minimum Value: Apr–Jun 2017, approximately -25%
+- Apr–Jun cross-year range approximately -25% to 65%, a difference of about 90 percentage points
+- Oct–Dec annual values approximately 15%–30%, highest approximately 30% (2018/2023)
+- Jan–Mar annual values approximately 20%–40%, high values approximately 40% (2017), approximately 35% (2018)
+- Jul–Sep annual values approximately -5%–30%, highest approximately 30% (2023)
+- Negative values observed: Apr–Jun (2016 approximately -10%, 2017 approximately -25%, 2019 approximately -10%, 2022 approximately -10%); Jul–Sep (2017 approximately -5%)
+
+[Pattern Characteristics]
+- The bar heights for Oct–Dec and Jan–Mar intervals are relatively concentrated across years, showing a generally convergent distribution, whereas Apr–Jun and Jul–Sep show greater variance between different years.
+- The Apr–Jun interval exhibits both significant positive values and noticeable negative values, making it the most dispersed quarter of the year; Jul–Sep, although less volatile, still shows individual years slightly below zero.
+- In individual years, the Apr–Jun interval forms prominent extreme bars, contrasting sharply with other years in the same quarter, while some years show changes in opposite directions between adjacent quarters.
+
+[Core Insights]
+Core Conclusion: The allocation of annual supply is most unstable in the second quarter, having the greatest impact on the full-year pace.
+
+Business Implications:
+- Q1 and Q2 combined determine the majority of the full-year supply distribution structure.
+- The uncertainty in Q2 increases the difficulty of executing the annual financing plan.
+- The second half of the year passively accommodates and corrects the pace set by the first half.
+
+Risk Focus:
+- When Apr–Jun is below -10%, supply may need to be concentrated and increased in other quarters, raising short-term financing pressure.
+- When Apr–Jun is above 60%, it may lead to limited available space in the second half, constraining subsequent adjustment flexibility.

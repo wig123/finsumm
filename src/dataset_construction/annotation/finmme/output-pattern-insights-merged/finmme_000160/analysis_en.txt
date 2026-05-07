@@ -1,0 +1,36 @@
+[Chart Components]
+- Type: Line Chart
+- Title: Untitled
+- X-axis: Year Range 2012—2023
+- Y-axis: Eurotunnel Share Percentage
+- Legend: Winter, Spring, Autumn, Summer
+
+[Data Relationships]
+- Key Values and Changes:
+  - In 2020, seasonal shares grew significantly, with Winter and Spring peaking, exceeding 80%.
+  - Autumn rose significantly between 2019 and 2021, approaching 80%.
+  
+- Extremum Comparison:
+  - Winter and Spring reached their highest point in 2020, with a share of approximately 85%.
+  - In 2023, seasonal shares retreated somewhat, but the Winter share remained above 70%.
+
+- Key Trends:
+  - Since 2012, Winter and Spring have shown a gradual upward trend, with a notable increase between 2019 and 2020.
+  - Autumn and Summer shares showed greater volatility; Autumn increased significantly after 2019.
+
+[Pattern Characteristics]
+- All four seasonal curves exhibited a synchronous uplift between 2019 and 2020, with Winter and Spring reaching their respective peaks; Autumn and Summer also experienced short-term surges.
+- During the 2012—2018 period, Winter and Spring trended slowly upward and were relatively more stable; Autumn and Summer showed greater fluctuation.
+- The overall trend from 2021—2023 was a retreat from high levels, with Winter maintaining a relatively leading position.
+
+[Core Insights]
+Core Conclusion: The share structure is dominated by Winter and Spring; 2020 is considered a one-off anomaly.
+
+Business Implications:
+- Peak seasons are concentrated in Winter and Spring
+- Autumn and Summer show high sensitivity, leading to unstable forecasts
+- Normal state assessment should reference 2021—2023
+
+Risk Focus:
+- Winter <70% → Decline in Winter/Spring dominance
+- Any season >80% → Easy to overestimate the normal state, leading to forecast deviation

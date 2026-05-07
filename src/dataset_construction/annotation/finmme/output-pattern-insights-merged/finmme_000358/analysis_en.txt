@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Economic Event Calendar (Table)
+- Column Names: Date, Time (GMT/Local), Country/region, Description, Previous, Forecast
+- Date and Time Examples: 03-Apr-24 (GMT 13:00/Local 06:00); 04-Apr-24 (GMT 13:00, 16:00/Local 09:00); 05-Apr-24 (GMT 12:00/Local 08:00)
+- Notes Section: Includes "Local time…" explanation and "Key" (a,f,p,r,s,t)
+
+[Data Relationships]
+- Poland NBP Policy Rate: Previous 5.75%, Forecast 5.75%, Difference 0.00 pp
+- Brazil Foreign Direct Investment (FDI): Previous USD 8.7bn, Forecast USD 6.5bn, Difference USD 2.2bn
+- Brazil FGV IGP-DI (Mar MoM): Previous -0.41%, Forecast -0.48%, Change -0.07 pp
+- Brazil FGV IGP-DI (Mar YoY): Previous -4.04%, Forecast -4.18%, Change -0.14 pp
+- Two Mexico records (Investment, Policy Minutes) do not provide Previous/Forecast values.
+- 04-Apr-24 includes two events (GMT 13:00, 16:00); 05-Apr-24 includes two events both at GMT 12:00 (Local 08:00).
+
+[Pattern Characteristics]
+- Events are concentrated in Mexico, Poland, and Brazil over three days. The time distribution shows multiple scheduled release times within the same day, and some countries have multiple data releases occurring in the same time slot.
+- Among the indicators with provided forecasts, the Polish interest rate is expected to remain flat, Brazil's FDI is expected to see a significant decrease, and the forecasts for both Brazilian inflation indices show a slight further decline compared to previous values.
+- Some Mexican indicators lack previous and forecast values, resulting in gaps in the overall information completeness of the table.
+
+[Core Insights]
+Core Conclusion: Market focus is concentrated on Latin American capital flows and price index changes.
+
+Business Implications:
+- The expected decline in Brazil's FDI indicates weakening momentum in cross-border capital.
+- Lower inflation expectations influence the assessment of the local interest rate outlook.
+- The expectation of a flat Polish interest rate emphasizes temporary stability in the monetary environment.
+
+Risk Focus:
+- If Brazil's FDI falls below USD 6.5bn, it may put pressure on the local currency and assets.
+- If IGP-DI YoY is higher than -4.04%, it may disrupt the current expectation of price moderation.

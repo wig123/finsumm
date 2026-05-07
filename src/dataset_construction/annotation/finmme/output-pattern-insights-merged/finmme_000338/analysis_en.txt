@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Grouped Bar Chart
+- Title: Impact on NII / assets (bps, FY26F)
+- X-axis: Institution Categories—LIC HF, BAF, CIFC, MMFS, SHFL, SBIC, CREDAG
+- Y-axis: bps, scale approximately -60 to 60, 0 as baseline
+- Legend: Red = 50bp rate cut; Gray = 75bp rate cut; Beige = 100bp rate cut
+
+[Data Relationships]
+- LIC HF: -31/-44/-56; BAF: -5/-7/-8
+- CIFC: 8/11/16; MMFS: 16/22/29
+- SHFL: 17/25/34; SBIC: 22/32/44; CREDAG: 27/39/52
+- Maximum Value: 52 (CREDAG, 100bp); Minimum Value: -56 (LIC HF, 100bp)
+- Difference between 100bp and 50bp scenarios: LIC HF -25; BAF -3; CIFC +8; MMFS +13; SHFL +17; SBIC +22; CREDAG +25
+- Maximum-Minimum difference in the same scenario: 50bp is 27-(-31)=58; 75bp is 39-(-44)=83; 100bp is 52-(-56)=108
+
+[Pattern Characteristics]
+The bar heights for each institution under the same scenario show significant differences, presenting a distribution pattern ranging from negative to positive values. Except for BAF and LIC HF, the remaining institutions maintain changes in the same direction across all three scenarios, and the greater the scenario intensity, the larger the absolute magnitude of change. The dispersion among institutions gradually increases across different scenarios, with the 100bp scenario showing the widest distribution.
+
+[Core Insights]
+Core Conclusion: The benefits and impacts of interest rate reductions vary significantly across different institutions.
+
+Business Implications:
+- The profitability structure of some institutions shows a high dependency on interest rates.
+- Significant differences exist between asset-side pricing and liability-side structure.
+- There is room for inter-institutional earnings reallocation at the portfolio level.
+
+Risk Focus:
+- When the rate cut reaches 100bp, LIC HF drops to -56bp, potentially dragging down overall earnings.
+- When the rate cut reaches 100bp, CREDAG rises to 52bp; concentrated exposure may amplify profit volatility.

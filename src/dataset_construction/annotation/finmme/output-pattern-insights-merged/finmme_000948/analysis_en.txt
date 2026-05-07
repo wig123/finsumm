@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Time series line chart, main line is "Closing Price"; includes event markers: Green triangle for "Target Price Change," Blue circle for "Recommendation Changes."
+- Title: SCG Packaging; noted in the upper right corner "As of 23-Jan-2024; Currency = THB."
+- X-axis: Date, ticks include 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01.
+- Y-axis: Price (THB), range approximately 0–75.
+- Legend and Source: LSEG, Nomura.
+
+[Data Relationships]
+- Closing price at the left starting point is approximately 45 THB; closing price at the right end (2024/01) is approximately 35 THB.
+- Highest closing price is approximately 72 THB (near mid-2021); lowest is approximately 33 THB (near late 2023 to 2024/01).
+- The difference between high and low is approximately 72−33＝39 THB.
+- Closing price near 2021/07 is approximately 65 THB; 2023/07 is approximately 42 THB; the difference between the two is approximately 23 THB.
+- There are a total of 7 Target Price Change markers; and 1 Recommendation Change marker.
+- The closing price at the location of the blue circle is approximately 64 THB.
+
+[Pattern Characteristics]
+The closing price initially expanded to the upper boundary of the range during the early sample period, then generally experienced a slow decline around the mid-to-high level, eventually approaching the lower boundary of the range. The price formed a clear peak near mid-2021, after which subsequent highs progressively lowered, and range bound volatility narrowed. Target price change markers are mostly concentrated when the price is in the relatively high and middle plateau stages, while the single recommendation change occurred in the middle of the early upward trend.
+
+[Core Insights]
+Core Conclusion: The stock price has retreated from high levels and is currently situated in the lower part of the range.
+
+Business Implications:
+- The overall valuation level has significantly contracted compared to the peak phase.
+- Institutional view adjustments often occur in price ranges where there is relative support.
+- The gap between the current price level and historical highs has widened, indicating a more conservative sentiment.
+
+Risk Focus:
+- If the low of 33 THB is breached, it may trigger further sell-offs and stop-loss orders.
+- If the rebound meets resistance near 45 THB, it may limit short-term upside potential.

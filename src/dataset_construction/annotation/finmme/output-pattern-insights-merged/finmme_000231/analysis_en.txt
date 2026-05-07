@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Bar chart; no explicit title visible.
+- X-axis: 9 category labels—China official price, China dept store, China online flagship, China DFS, China online Shopping festival, K-DFS resellers (G-brands), K-DFS resellers (K-brands), Korea department store, K-DFS.
+- Y-axis: Numerical scale 0–100.
+- Legend: Not displayed; bars are red; specific values are marked at the top of each bar.
+
+[Data Relationships]
+- Values for each category are sequentially: 100, 95, 95, 68, 62, 61, 56, 83, 70.
+- Highest value: China official price=100; Lowest value: K-DFS resellers (K-brands)=56; Range=44.
+- China dept store and China online flagship are both 95.
+- Korea department store=83, a difference of 13 from K-DFS=70.
+- China DFS=68, a difference of 6 from China online Shopping festival=62; a difference of 2 from K-DFS=70.
+- Difference from 100: 95 difference 5; 68 difference 32; 62 difference 38; 61 difference 39; 56 difference 44; 83 difference 17; 70 difference 30.
+- Mean of the 5 "China" items=84; Mean of the 4 "K" items=67.5.
+
+[Pattern Characteristics]
+- The bars exhibit a unimodal distribution within the 0–100 range, with concentrations at two levels: above 80 and near 60–70, with no gaps in between.
+- The first three values are significantly higher than the remaining categories. The subsequent bars are generally dispersed, with only one item approaching the lower limit.
+- The five items labeled "China" are relatively close in overall level and skewed higher. The four items labeled "K" are generally in the lower range, with only one item approaching the higher level.
+
+[Core Insights]
+Core Conclusion: The overall pricing level of China-related channels is significantly higher than that of Korea-related channels.
+
+Business Implications:
+- Chinese channels have a higher overall positioning, with the price band concentrated at the upper end.
+- Korean channels show a more pronounced potential for price concessions.
+- Internal price differential hierarchy exists between Korean distribution and resellers/Daigou.
+
+Risk Focus:
+- When the lowest Korean price is ≤56 and the difference from the China official price is ≥40, this may amplify the price spread, leading to cross-regional arbitrage and channel conflict.
+- When Korea department store is ≤70 and approaches K-DFS=70, this may weaken the price separation between department stores and duty-free channels.

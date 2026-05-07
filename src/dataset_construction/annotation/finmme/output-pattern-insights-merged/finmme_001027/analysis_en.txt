@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Bar chart on the left, titled "FCF development (EURbn)"; table on the right with column names "Segment," "Key drivers FCF," and "Trend."
+- X-axis labels: FY21, FY21 normalised (Footnote 1), FY25E, FY30E; Y-axis has no tick marks, values are annotated above some bars.
+- Colors: FY21 and FY21 normalised are orange/grey; FY25E and FY30E are blue.
+- Annotation: Oval marking "Mid single-digit" points to FY25E and FY30E.
+- Total 6 Segments: Netherlands Life, Netherlands Non-life, Insurance Europe, Japan Life, Banking, Other.
+
+[Data Relationships]
+- FY21 value is 1.5 EURbn.
+- FY21 normalised value is 1.2 EURbn.
+- The difference between the two is 0.3 EURbn.
+- FY25E and FY30E do not have specific values, only annotated as "Mid single-digit."
+- Total 6 Segment categories.
+- Number of key points per sub-segment: NL Life 1, NL Non-life 1, Insurance Europe 2, Japan Life 2, Banking 2, Other 1.
+- Japan Life includes a ratio of "5/6 based on local GAAP profit."
+
+[Pattern Characteristics]
+In the bar chart, there is a one-time downward adjustment from FY21 to FY21 normalised, followed by a higher range in the FY25E and FY30E phases, which are roughly similar. The trend arrows corresponding to each Segment in the table are mostly pointing up-right, with a few horizontal or down-right, indicating a structure dominated by an upward trend, with individual components showing weakness. Japan Life's cash flow measurement uses a proportion of local GAAP profit (5/6), representing a unique rule among the sub-segments.
+
+[Core Insights]
+Core Conclusion: The overall FCF plan targets a higher long-term level compared to the FY21 normalised value.
+
+Business Implications:
+- Most business lines are expected to contribute positively to future cash flow.
+- Individual segments may potentially drag down overall Free Cash Flow performance.
+- Japan Life is relatively sensitive to accounting standards, affecting the scale of distributable cash.
+
+Risk Focus:
+- If actual FCF falls below the FY21 normalised value of 1.2, the achievement of medium-to-long-term targets will be hindered.
+- If any Segment shifts from an upward to a downward trend, the attainability of the "mid single-digit" range will be weakened.

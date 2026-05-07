@@ -1,0 +1,28 @@
+【图表构成】
+- 类型：柱状图；标题：未显示。
+- X轴：7类——Industry specific、Customer Experience、Finance & accounting、Research & analytics、Technology services、Legal services、HRO。
+- Y轴：定性刻度，标注为 Low、Med、High。
+- 图例：Potential impact（红色）。
+
+【数据关系】
+- 等级对应：Industry specific=Med；Customer Experience=High；Finance & accounting=Med；Research & analytics=Low；Technology services=Med；Legal services=High；HRO=Med。
+- 峰值类别：Customer Experience、Legal services（High）。
+- 谷值类别：Research & analytics（Low）。
+- 计数：High 2项；Med 4项；Low 1项。
+- 仅提供等级，无具体数值刻度。
+
+【模式特征】
+- 各类别以三档等级的离散分布呈现，多数处于中档，少量为最高档，极少为最低档。
+- 结构为分段而非连续刻度，整体以中档为主，辅以个别高位与低位的对比，类别间差异体现在档位切换。
+
+【核心洞察】
+核心结论：资源应优先投向High，Med作为稳定底盘。
+
+业务含义：
+- 反映影响力层级分明，需分级管理。
+- High适合优先投入与资源倾斜。
+- Med可承担规模化推进，Low以监测为主。
+
+风险关注：
+- High降至Med/Low，潜在影响下调，关键目标难达。
+- 维持=Low时仍新增投入，潜在影响有限，产出不及预期。

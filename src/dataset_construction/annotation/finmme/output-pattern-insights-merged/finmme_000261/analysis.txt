@@ -1,0 +1,26 @@
+【图表构成】
+- 左侧为堆叠面积图叠加折线图，标题“The unusually high degree of central bank policy cycle synchronisation should continue”。x轴时间为2006–2024（2023后标注“BNPP forecasts”预测段），y轴为“Number of CBs cutting/hiking”，范围约-12.5至10.0。图例含5项：Net position、EM cut、DM cut、EM hike、DM hike。
+- 右侧为分组柱状/标记图，标题“We expect rates to remain in restrictive territory…”。x轴为15个经济体：Brazil、Chile、Colombia、Czech Rep.、Hungary、S. Africa、India、Indonesia、Korea、Taiwan、Thailand、UK、US、Eurozone、China；y轴为“%”，范围0–14。图例含4项：Cumulative cutting cycle、Cuts delivered so far、End‑2024 policy rate (BNPP forecast)、Nominal neutral rate。
+
+【数据关系】
+- 左图时间跨度18年（2006–2024）。
+- 左图数值范围为22.5（-12.5至10.0）。
+- 左图包含5个数据系列；右图包含4个数据系列。
+- 右图类别数量为15个经济体。
+- 右图数值范围为14个百分点（0–14%）。
+- 右图每个经济体均给出四项数值，可逐一对比“累计降息”“已实施降息”“2024年末政策利率预测”“名义中性利率”。
+
+【模式特征】  
+左侧图中，净值曲线围绕零线呈现多轮明显上行与下行阶段，波段宽度较大且在近期预测段出现单向极端延伸。堆叠面积显示各分项在不同阶段占比变化明显，但多数时期同向集中，反向分量相对较小。右侧图中，各经济体的四项利率相关值在纵向上形成高低不一的区间，有的群组内部差距较大，有的则较为紧凑，个别经济体的预测利率或中性利率与其余值明显偏离。  
+
+【核心洞察】  
+核心结论：主要经济体货币政策调整方向高度一致，且整体立场偏紧。  
+
+业务含义：  
+- 全球利率环境对各国金融条件的影响更趋一致  
+- 多数经济体政策利率仍高于估计中性水平  
+- 未来放松节奏更可能呈现缓步而非大幅调整  
+
+风险关注：  
+- 若净值接近左图下限约‑12附近，可能引发全球性宽松带来的资产价格波动放大  
+- 若某国2024年末政策利率长期高出其中性利率约2个百分点以上，可能加大当地增长和融资成本压力

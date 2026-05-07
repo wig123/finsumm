@@ -1,0 +1,27 @@
+【图表构成】
+- 页面含3幅图。
+1) 折线图，标题“Higher immigration means labor force growth might be substantially higher than previously estimated”。纵轴“(%y/y)”约-2.0至2.0；横轴2014–2025。图例：Labor force growth（绿实线）、CBO projection Jul 2023（橙虚线）、CBO projection Feb 2024（红虚线）。
+2) 堆叠柱+折线图，标题“Capex trend looks solid…”。纵轴“(pp)”约-15至25；横轴2008–2024。图例：Business fixed investment (% y/y)（黑折线）；Equipment ex-information processing、Information processing equipment & IP、Oil-related structures、Non‑oil‑related structures（彩色柱）。
+3) 折线图，标题“Wage growth is likely to slow in 2024…”。纵轴“(%y/y)”约1.0–5.0；横轴2004–2025。图例：Employment cost index, wages and salaries（绿实线）；Implied by job openings rate（绿虚线）；Implied by job quits rate（点虚线）。
+
+【数据关系】
+- 劳动力增长绿线：2020低点约-1.5%，2022高点约2.0%，2025约1.0%。CBO Jul23投影2023≈1.0%，至2025≈0%；Feb24投影2023≈1.7%，至2025≈0.8%。
+- 资本开支黑线：2009≈-10%，2020≈-10%，2011–2012及2021≈10%。柱体合计：2020约-10pp，2021约+10pp，2024约0–5pp；黑线2024≈5%。
+- 工资：ECI 2022峰≈5.0%，2009–2010谷≈1.5%，2024≈4%；“openings”2024≈3%；“quits”2024≈2.7%；2025三线均约3%。
+
+【模式特征】  
+1）劳动力增长实际曲线在2020年前后出现明显下探后迅速上冲，随后逐步回落，而两条投影曲线自2023年起整体位于实际曲线附近但略显平滑、斜率更温和。三条曲线在2025年前后收敛，呈现从分歧走向贴近的结构。  
+2）资本开支增速在样本期内多次由负转正，形成几轮明显高低波段，2020年出现较深谷值，之后恢复至中等偏上的正区间。堆叠柱显示各子项贡献有阶段性主导，整体由少数单项驱动逐渐转向多项共同贡献且波动幅度缩窄。  
+3）工资增速在金融危机后长期处于较低区间，2022年前后形成一个突出峰值，此后三条工资相关曲线均由高位向下并在2025年附近趋于汇合，其中由职位空缺和离职率推导的两条曲线先行下行并领先于实际指标收敛。
+
+【核心洞察】  
+核心结论：劳动力供给改善下，投资延续扩张，而薪酬涨幅正回归中枢。  
+
+业务含义：  
+- 劳动力供给预期上修，缓解用工紧张压力。  
+- 资本开支持续在正区间，有助维持产能扩张。  
+- 工资指标与先行信号收敛，薪酬进入更稳态区间。  
+
+风险关注：  
+- 若劳动力增速再度接近0或转负，可能重新推升用工成本。  
+- 若资本开支增速跌入-5%以下，或拖累产能与增长前景。

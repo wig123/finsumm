@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Stacked Bar Chart
+- Title: Not displayed
+- X-axis: Year, 2011–2023 (Annual scale)
+- Y-axis: RoRo units (1000), Range 0–400, includes gridlines
+- Legend: Two series—EU (Light color), Great Britain (Dark color)
+
+[Data Relationships]
+- The peak total volume occurred in 2020, approximately 350 thousand.
+- The low point of the total volume was around 2011–2012, approximately 180–190 thousand.
+- The initial total volume (2011) was approximately 180 thousand; the final total volume (2023) was approximately 290–300 thousand; the difference between the two is about 110–120 thousand.
+- Great Britain is greater than EU in all years; taking 2023 as an example: GB is approximately 200–210 thousand, EU is approximately 80–90 thousand, a difference of about 110–120 thousand.
+- The total volume in 2021 was approximately 230–240 thousand, which is lower than the 2015–2019 annual range of approximately 250–300 thousand.
+
+[Pattern Characteristics]
+Overall, there is a moderate increment from the beginning to the end of the period, interspersed with slight annual retractions and subsequent recoveries. In the two-part stacked structure, the dark section consistently accounts for the major proportion in all years. The light section is relatively smaller and shows slight signs of contraction in the later period. The bar height in 2020 is the most prominent among all years, while 2021 forms a noticeable retraction trough, after which it recovers back to the medium-to-high level range.
+
+[Core Insights]
+Core Conclusion: Overall transport scale is expanding, but the structure is highly dependent on a single source.
+
+Business Implications:
+- Overall demand or business volume shows a continuous expansion trend.
+- High degree of reliance on the market source represented by the dark series.
+- Demonstrates certain environmental sensitivity and recovery capability around 2021.
+
+Risk Focus:
+- If the dark series falls below 150 thousand, the overall scale may drop below the 2015–2019 level.
+- If the total volume falls below 230 thousand, it may affect capacity planning and fixed cost amortization.

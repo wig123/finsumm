@@ -1,0 +1,32 @@
+【图表构成】
+- 类型：百分比堆叠柱状图
+- 标题：未显示
+- 横轴：时间维度，FY22、FY23、9MFY24
+- 纵轴：百分比刻度，0%—90%，每10%一格
+- 图例：Connecting rods（红）、Rocker arms（灰）、Crank shaft assembly（白）、Gear shift dorks（浅粉）、Others（黑）
+
+【数据关系】
+- FY22：39%/18%/16%/5%/5%，合计83%。
+- FY23：34%/16%/18%/5%/5%，合计78%。
+- 9MFY24：35%/15%/16%/5%/5%，合计76%。
+- Connecting rods：FY22–FY23差5个百分点；FY22–9MFY24差4个百分点。
+- Rocker arms：FY22–FY23差2个百分点；FY22–9MFY24差3个百分点。
+- Crank shaft assembly：FY23–FY22差2个百分点；FY23–9MFY24差2个百分点。
+- Gear shift dorks与Others各期均为5%，差0。
+
+【模式特征】
+- 三个年度整体占比总和逐期收窄，柱体高度略有降低，未达到100%。  
+- Connecting rods占比始终为最大块，但在FY23出现一段明显回落，9MFY24略有修复。  
+- Rocker arms与Crank shaft assembly在中段互有消长，Gear shift dorks和Others在顶部保持稳定、结构不变。
+
+【核心洞察】
+核心结论：产品结构由高集中度缓慢向分散化过渡。
+
+业务含义：
+- 头部品类的贡献度边际下降。
+- 中腰部品类对整体的依赖度提升。
+- 固定占比品类提供了结构稳定锚点。
+
+风险关注：
+- 若Connecting rods占比跌破30%，整体盈利结构可能被削弱。
+- 若合计占比低于70%，其余未列示部分的波动可能放大业绩不确定性。

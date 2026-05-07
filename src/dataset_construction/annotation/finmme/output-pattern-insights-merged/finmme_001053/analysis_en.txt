@@ -1,0 +1,33 @@
+[Chart Components]
+- Chart Type: Dual-axis combination chart (Red bars = Net order book, Black line = EV proportion thereof, Right Axis).
+- Title: Not displayed.
+- X-axis: Quarterly categories, 1QFY22 to 3QFY24.
+- Left Y-axis: Value range approximately 120–260 (INR bn).
+- Right Y-axis: Percentage range 0%–90%.
+- Legend: Net order book (INR bn); - of which % EV (RHS).
+
+[Data Relationships]
+- Net order book minimum value approximately 135 (2QFY22), maximum value approximately 240 (3QFY24), range approximately 105.
+- 1QFY22 approximately 140, 3QFY24 approximately 240, change approximately +100.
+- 3QFY22 approximately 175, 4QFY22 approximately 185, difference approximately 10.
+- 1QFY23 approximately 205, and 2QFY23 approximately 205, essentially equivalent (difference ≈ 0–2).
+- 3QFY23 approximately 238, 4QFY23 approximately 215, difference approximately 23.
+- 1QFY24 approximately 215, 2QFY24 approximately 220, difference approximately 5.
+- EV proportion minimum approximately 52% (near 1QFY22), maximum approximately 80% (3QFY24), range approximately 28 percentage points.
+- EV proportion 3QFY23 approximately 72%, 4QFY23 approximately 76%, difference approximately 4 percentage points.
+
+[Pattern Characteristics]
+The net order book generally shows a stepped increase, accompanied by minor quarterly pullbacks or consolidation periods, with limited volatility. The EV proportion curve generally shows a unidirectional increase from left to right, only exhibiting a slight dip early on before continuing its upward trend. The trends of the two series are consistent across the timeline, showing no significant divergence or sharp anomalies.
+
+[Core Insights]
+
+Core Conclusion: Order size and EV proportion strengthen simultaneously, with the structure continuously concentrating towards EV.
+
+Business Implications:
+- Indicates the continuously increasing weight of EV-related orders within the total order book.
+- Order size expands while structural concentration intensifies.
+- Will result in a more pronounced EV bias in the subsequent revenue structure.
+
+Risk Focus:
+- If the net order book falls back below 200, overall scale growth momentum may come under pressure.
+- If the EV proportion exceeds 80%, revenue sources from non-EV business may be further compressed.

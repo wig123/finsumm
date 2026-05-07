@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Bar Chart
+- Title: None
+- Axes:
+  - Vertical Axis: Tonnes, range from 0 to 70,000, interval of 10,000
+  - Horizontal Axis: Year (2024E, 2025E, 2028E)
+- Legend: None
+
+[Data Relationships]
+- The value for 2024E is 13,000 tonnes
+- The value for 2025E is 26,000 tonnes, an increase of 13,000 tonnes compared to 2024E, representing a growth rate of 100%
+- The value for 2028E is 60,000 tonnes, an increase of 34,000 tonnes compared to 2025E, representing a growth rate of approximately 130.8%
+- The data shows a continuous upward trend, with 2028E reaching the maximum value
+
+[Pattern Characteristics]
+- A single series of three-period bars, showing a step-like change, with larger increments in the later period.
+- Structurally unbalanced, with the final period value having a prominent proportion; the time points show uneven intervals of 1 year and 3 years.
+- No retracement observed, forming a significant high point in the final period.
+
+[Core Insights]
+Core Conclusion: The long-term scale target is high, and resources must be allocated around 2028.
+
+Business Implications:
+- Target setting leans toward high long-term scale
+- Resources, capacity, and processes should be planned according to the long-term peak value
+- Mid-term achievement will determine the execution pressure in the later period
+
+Risk Concerns:
+- If 2025E is below 26,000 tonnes, the gap with the 2028E target will widen
+- If 2028E does not reach 60,000 tonnes, the overall scale target cannot be achieved

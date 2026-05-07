@@ -1,0 +1,32 @@
+【图表构成】
+- 类型：数据表
+- 标题：未显示
+- 行数：10
+- 列：ASSET ID、LATITUDE、LONGITUDE、COUNTRY、CITY、ZIP-CODE、ISSUER ID、ISSUER NAME、ISSUER MAPPING ACCURACY、AFFILIATION TYPE、ACTIVITY_AT_ASSET、SOURCES、QUALITY
+- 图例：无
+- 单位/时间轴：未标注；数据来源在“SOURCES”列（US EPA、E-PRTR、MSCI Manual）
+
+【数据关系】
+- 发行人：Volkswagen 5，COCA‑COLA 5。
+- Accuracy范围0.73–1.00；1.00共8。
+- Affiliation：Operator 9，Owner 1（行9）。
+- Quality最小2.45（德国Osnabrück），最大5.00（德国Oberhausen），差2.55。
+- Activity：Office 4；Manufacturing 2；Retail、Production、Industrial、Industrial Terminal & Distribution Center各1。
+- 国家：德国2；美国、墨西哥、西班牙、中国、新加坡、印度、澳大利亚、比利时各1。
+
+【模式特征】
+- 记录在两家发行人间等量分布，地域覆盖多国，并出现轻微的国家层面聚集。
+- 映射精度多数贴近上限，少数偏低；隶属类型以同一类别为主，存在例外。
+- 活动类型呈多类别分布；质量评分差异明显，极端高低值出现在同一国家。
+
+【核心洞察】
+核心结论：覆盖面广且映射可信，少数低质与低精度需谨慎。
+
+业务含义：
+- 归属关系判定总体可采信
+- 以运营关系为主，利于口径统一
+- 场景多样，需分类管理与比较
+
+风险关注：
+- Accuracy≤0.85：易发生归属错配，影响汇总结果
+- Quality≤3.2：用于评估时结论不稳，需人工复核

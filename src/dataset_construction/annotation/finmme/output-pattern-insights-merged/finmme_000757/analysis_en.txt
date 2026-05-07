@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Dual-line time series chart
+- Title: Not displayed
+- X-axis: Month, range Aug-21 to Feb-24
+- Y-axis: % ASP, range 14%–24%, scale approximately every 2%
+- Legend: Red dashed line "3m rolling avg (% ASP)", Red solid line "Commodity cost (% ASP)"
+
+[Data Relationships]
+- Aug-21: Both lines are ≈20%.
+- Apr-22 Peak: Commodity cost≈23%; 3m avg≈22.5%, difference ≈0.5 percentage points.
+- Jun-23 Trough: Commodity cost≈16.1%; 3m avg≈16.3%, difference ≈0.2 percentage points.
+- Oct-22: Both are ≈17.0%.
+- Feb-24 End Period: Commodity cost≈17.0%; 3m avg≈16.8%, difference ≈0.2 percentage points.
+- Apr-22 Peak to Jun-23 Trough: Commodity cost magnitude ≈6.9 percentage points; 3m avg ≈6.2 percentage points.
+- Aug-21 to Feb-24: Commodity cost difference ≈-3.0 percentage points; 3m avg difference ≈-3.2 percentage points.
+
+[Pattern Characteristics]
+The two curves generally exhibit a single-peak structure, first rising, then sharply declining, and subsequently fluctuating slightly within a lower range. The magnitude of change from the peak to the trough is significantly greater than the post-trough phase.
+The solid line and the dashed line remain closely aligned throughout the entire period, showing only slight deviations near local extreme values, and the direction of deviation is not fixed.
+Except for the single high point early on and the mid-term low point, the fluctuation magnitude in other periods is relatively moderate, with no new extreme values appearing.
+
+[Core Insights]
+Core Conclusion: The proportion of commodity costs remains in a lower range after undergoing a significant decline.
+
+Business Implications:
+- The cost proportion has retreated from a high level, indicating a significant alleviation of price-cost pressure.
+- The rolling average is close to the monthly value, suggesting that short-term fluctuations have limited impact on the overall trend.
+- In the mid-to-late period, the trend hovers around 17%, indicating a more stable cost structure.
+
+Risk Focus:
+- If the cost approaches 23% or higher again, it could significantly compress the gross margin space.
+- If the cost drops below 16%, it may imply pricing pressure and necessitate an assessment of sustainability.

@@ -1,0 +1,28 @@
+【图表构成】
+- 总标题“ROTI Flow Chart”，由四个并列折线图组成。
+- 左上：标题“Investors' portfolio weighting in ROTI (% of portfolio)”。x轴：Jan’18–Oct’23；左y轴：0.0%–0.3%；右y轴：0–1,800。图例：Local Weighting、Foreign Weighting、Weight in JCI %、MSCI Weightings、Price。
+- 右上：标题“Local and foreign investors' ownership in ROTI (% of company)”。x轴：Jan’18–Oct’23；左y轴：0–14%；右y轴：0–1,800。图例：Local Ownership %、Foreign Ownership %、Owned by Retail %、Stock Price。
+- 左下：标题“Local IS MF and PF Breakdown”。x轴：Jan’18–Oct’23；y轴：0–5.0%。图例：Local IS、Local MF、Local PF。
+- 右下：标题“Foreign IS MF and PF Breakdown”。x轴：Jan’18–Oct’23；y轴：0–12%。图例：Foreign IS、Foreign MF、Foreign PF。
+
+【数据关系】
+- 两上图右轴均标注Dec‑23价格1,150（价格轴范围0–1,800）。
+- 左上：期末“Weight in JCI %”标注0.02%。
+- 右上：期末“Owned by Retail %”标注0.8%。
+- 左下：期末Local IS为0.5%，Local PF为0.0%，两者差0.5个百分点。
+- 右下：期末Foreign PF为0.2%；比左下Local PF高0.2个百分点。
+
+【模式特征】  
+四张图中，各类持仓与权重曲线整体呈由高到低的单向变化，中后段趋于接近零附近并保持相对平缓。不同投资者类型之间存在明显的占比差异，本地与海外、机构与零售在数值上呈现出一方长期占优的结构。局部在2019年前后及2020年前后出现台阶式变动，之后再度回到缓慢调整状态，末期各类曲线均处于历史低位区间。
+
+【核心洞察】  
+核心结论：ROTI在主要投资者组合和公司股权结构中均处于边缘配置。
+
+业务含义：  
+- 机构与指数中的存在感有限，话语权较弱。  
+- 交易与流动性更多依赖少数长期资金。  
+- 零售和被动资金对价格的支撑能力有限。
+
+风险关注：  
+- 若JCI权重持续维持在0.02%附近，指数资金可能进一步收缩，放大单笔交易冲击。  
+- 若零售持股长期低于1%，遇到价格波动时承接盘不足，可能导致短期价差扩大。

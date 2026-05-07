@@ -1,0 +1,38 @@
+[Chart Components]
+- Type: Combination Chart (Bar Chart and Line Chart)
+- Title: Untitled
+- Axes:
+  - Left Y-axis: Value, range from 0 to 18000
+  - Right Y-axis: Percentage, range from 0% to 30%
+  - X-axis: Time, range from September 2022 to January 2024
+- Legend:
+  - Red bar chart represents "Ryaltris"
+  - Black line chart represents "% of Dymista (including generic)"
+
+[Data Relationships]
+- Key Values and Changes:
+  - The value of "Ryaltris" increased month-over-month starting from September 2022, reaching a peak of approximately 16000 in October 2023, then slightly declining between November 2023 and January 2024, remaining above 15000.
+  - "% of Dymista (including generic)" showed an upward trend from September 2022 to October 2023, reaching nearly 30% in October, followed by a slight decline and stabilization.
+
+- Extremum Comparison:
+  - "Ryaltris" peaked at approximately 16000 in October 2023.
+  - "% of Dymista (including generic)" reached its highest percentage, nearly 30%, in October 2023.
+
+- Key Trends:
+  - Overall, both datasets showed a significant upward trend from September 2022 to October 2023.
+  - After October 2023, both datasets experienced a minor decline and stabilized.
+
+[Pattern Characteristics]
+The red bars gradually rose from a low level, peaking in October 2023, then slightly retreated and maintained a high level. The black line trend was largely synchronized with the bars, showing a common peak in October, after which volatility converged and flattened. The overall structure is continuous with no significant outliers, indicating strong correlation between the two series.
+
+[Core Insights]
+Core Conclusion: Scale and relative proportion are at a high level.
+
+Business Implications:
+- Relative proportion indicates strong concentration.
+- Scale and proportion are closely linked, showing high dependency.
+- Resource allocation is more effective when focused on maintaining the current range.
+
+Risk Concerns:
+- Ryaltris below 15000: Insufficient achievement volume, market share pressure.
+- Percentage below 25%: Relative position weakens.

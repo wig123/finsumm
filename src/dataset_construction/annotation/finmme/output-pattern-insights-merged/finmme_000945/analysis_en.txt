@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Time series line chart (with symbol markers)
+- Title: JD.com
+- Time Annotation: As of 07-Mar-2024; Currency = HKD
+- X-axis: Date, range approximately 2021/07/01—2024/03/07, scale examples: 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01
+- Y-axis: Price, 0—475 HKD, equidistant scale (approximately every 25 HKD)
+- Legend: Grey line = Closing Price; Green triangle = Target Price Change; Blue dot = Recommendation Changes
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial closing price (2021/07) ≈ 330 HKD; Final (2024/03) ≈ 90 HKD; Difference ≈ 240 HKD.
+- Maximum closing price ≈ 340 HKD; Minimum ≈ 90 HKD; High-low difference ≈ 250 HKD.
+- Closing price 2022/01 ≈ 300 HKD; 2022/07 ≈ 200 HKD; Difference ≈ 100 HKD.
+- Closing price 2023/01 ≈ 230 HKD; 2023/12 ≈ 110 HKD; Difference ≈ 120 HKD.
+- Target price change marker highest approximately ≈ 450 HKD (around late 2021); Lower group approximately ≈ 160–180 HKD (H2 2023).
+
+[Pattern Characteristics]
+- The closing price generally shows a unilateral downward trend, interspersed with multiple medium-amplitude rebounds and consolidation ranges, without forming prolonged sideways trading.
+- Target price change markers were initially concentrated during the higher price phase with generally high values, then gradually shifted to a lower range and moved downward overall.
+- The number of blue recommendation change points is limited, mostly distributed near phase-specific trend changes, with a relatively sparse time distribution.
+
+[Core Insights]
+Core Conclusion: Stock price continues to weaken, aligning with synchronized downward adjustments in sell-side expectations.
+
+Business Implications:
+- Market acceptance of the company's valuation has significantly decreased.
+- Sell-side pricing anchors have shifted downward from the high range, narrowing the scope for optimism.
+- Research perspectives on the company's outlook are becoming more cautious and concentrated.
+
+Risk Focus:
+- If the stock price remains consistently below 100 HKD, it may exacerbate investor confidence erosion.
+- If target prices are concentrated at ≤ 180 HKD, the scope for further upward revision of expectations is limited.

@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Time series line chart
+- Title: Not displayed
+- Series: Red line "P/E"; Black line "P/E 5 year avg" (Horizontal reference line)
+- X-axis: Time, labeled from Feb‑14 to Feb‑24, marked annually
+- Y-axis: Value range 0–50, scale interval 10
+- Legend: Displays two series; the black line is marked with "20"
+
+[Data Relationships]
+- The 5-year average is 20 (Black horizontal line).
+- Feb‑14 P/E is approximately 18, 2 lower than the average.
+- Feb‑24 P/E is approximately 14, 6 lower than the average.
+- The peak of the entire period is approximately 33 (around Feb‑21), 13 higher than the average.
+- The trough is approximately 12 (around 2020 and 2023), 8 lower than the average.
+- The difference between the peak and the trough is approximately 21.
+
+[Pattern Characteristics]
+- The overall pattern initially fluctuated narrowly around the horizontal reference line, followed by a period of significant elevation from late 2020 to around 2021, after which it fell back and remained consistently below the reference line.
+- The trend formed a relatively concentrated peak zone near the highest point, and two distinct low-level regions around 2020 and 2023.
+- The range of the entire period is wide, but the latter half shows a relatively compressed distribution in the lower range, failing to approach the previous peak again.
+
+[Core Insights]
+Core Conclusion: Current valuation has consistently remained below the 5-year average range.
+
+Business Implications:
+- The current valuation level is relatively low compared to the historical median.
+- The downward shift of the valuation median may suppress the pricing power for earnings.
+- Historical peaks are difficult to replicate, requiring a downward adjustment of return expectations.
+
+Risk Focus:
+- If the P/E consistently falls below 12, it may correspond to valuation repricing and amplified drawdown pressure.
+- If the P/E repeatedly meets resistance near 20, it may limit the upside potential resulting from valuation recovery.

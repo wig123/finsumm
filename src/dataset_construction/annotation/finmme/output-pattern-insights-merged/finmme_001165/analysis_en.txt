@@ -1,0 +1,25 @@
+[Chart Components]
+- Type: Line chart. The legend includes three series: Ultratech EV/EBITDA (Red), 3-years average (Gray), 5-years average (Black).
+- X-axis: Time, ranging from Jan-14 to Jan-24.
+- Y-axis: EV/EBITDA (unit x), scale range approximately 4 to 22.
+
+[Data Relationships]
+- The Red line was approximately 10x in Jan-14; approximately 19x in Jan-24; the difference between the two ends is approximately 9x.
+- The peak value for the entire period was approximately 19x (near 2017 and early 2024), the trough value was approximately 10x (early 2020); the high-low difference is approximately 9x.
+- Early 2024: Red line approximately 19x; 3-year average approximately 16x; 5-year average approximately 15x; higher by approximately 3x and 4x, respectively.
+- Early 2020: Red line approximately 10x; 3-year average approximately 15–16x; 5-year average approximately 15x; lower by approximately 5–6x and 5x, respectively.
+
+[Pattern Characteristics]
+The Red line oscillates widely around the medium-to-high range throughout the period, accompanied by multiple distinct peaks and pullbacks, with the overall range showing a relative upward shift. The Gray and Black moving averages are relatively smooth, with the Black line being more stable. The Gray line is more sensitive to the short-term fluctuations of the Red line, showing a significant divergence from the Red line around 2020. In early 2024, the Red line is near historical highs and significantly above both moving averages.
+
+[Core Insights]
+Core Conclusion: The current valuation level is significantly higher than the historical central tendency.
+
+Business Implications:
+- Valuation is in an elevated state relative to its own historical range.
+- The margin of safety, benchmarked against the historical average, has been compressed.
+- Subsequent valuation adjustments will be more sensitive to earnings volatility.
+
+Risk Focus:
+- If EV/EBITDA continues to exceed the 3-year average by approximately 3x, a valuation pullback may drag down returns.
+- A drop below the 5-year average of approximately 15x may trigger sentiment shifts and position adjustments.

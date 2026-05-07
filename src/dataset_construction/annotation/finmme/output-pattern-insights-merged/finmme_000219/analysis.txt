@@ -1,0 +1,32 @@
+【图表构成】
+- 类型：折线图
+- 标题：未显示
+- 横轴：时间，标注 Jan-10 至 Jan-24（每年一月）
+- 纵轴：% of Total，范围 0%—90%
+- 图例（右侧）：Short Straits (inc. Eurotunnel) 深青实线；Western Channel 浅青实线；North Sea 橙色虚线
+
+【数据关系】
+- Jan-10：Short Straits≈80%，Western Channel≈12%，North Sea≈6%
+- Jan-21：Short Straits≈88%（峰值），Western Channel≈10%，North Sea≈6%
+- Jan-22：Short Straits≈76%，Western Channel≈7%，North Sea≈10%
+- Jan-24：Short Straits≈77%，Western Channel≈12%，North Sea≈8%
+- Jan-24差异：Short Straits比Western Channel高≈65个百分点；比North Sea高≈69个百分点
+- Western Channel与North Sea：Jan-22差≈3个百分点；Jan-24差≈4个百分点
+- Short Straits低点≈75%（2022附近）
+
+【模式特征】
+- 三条线路中，Short Straits始终远高于另外两条线路，整体呈单一主导结构，Western Channel和North Sea处于低位窄幅区间。
+- Short Straits在Jan-10至Jan-20小幅下行后，在Jan-21形成明显高点，随后在Jan-22附近出现一段较为明显的回落区间，此后略有回升并保持平稳。
+- Western Channel整体略有缓慢下移，在Jan-22附近有短暂收缩后恢复；North Sea在长时间接近水平后，于Jan-22出现相对明显的抬升，并在Jan-24保持在略高水平。
+
+【核心洞察】
+核心结论：客运或货运总量高度依赖Short Straits通道。
+
+业务含义：
+- 整体通道结构呈高度集中，替代空间有限。
+- Western Channel与North Sea承担的分流和冗余能力较弱。
+- Jan-22附近的份额调整反映出一定的通道再分配迹象。
+
+风险关注：
+- 若Short Straits占比再上升至90%以上，其他通道缓冲能力不足，易放大单点故障影响。
+- 若Short Straits占比跌破70%，将被迫将大量流量短期转移至容量较小通道，可能造成拥塞与服务不稳定。

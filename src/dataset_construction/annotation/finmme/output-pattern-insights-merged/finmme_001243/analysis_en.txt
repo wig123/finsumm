@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Column chart + line chart combination. Gray columns represent "Overseas revenue," red line represents "% total revenue."
+- Title: Not displayed.
+- X-axis: Semi-annual categories: 1H19, 2H19, 1H20, 2H20, 1H21, 2H21, 1H22, 2H22, 1H23.
+- Left Y-axis: Numerical scale 0–800 (approximately 200 per tick mark).
+- Right Y-axis: Percentage scale 0.0%–16.0% (approximately 4.0% per tick mark).
+- Legend: Located at the top, containing two items (gray, red).
+
+[Data Relationships]
+- Overseas Revenue (1H19→1H23): 7, 20, 21, 54, 60, 124, 157, 297, 376.
+- Proportion (1H19→1H23): 1.2%, 1.8%, 2.5%, 3.2%, 4.2%, 4.6%, 6.6%, 13.2%, 13.4%.
+- Peak/Trough: Maximum Overseas Revenue 376 (1H23), minimum 7 (1H19), difference 369; Maximum Proportion 13.4% (1H23), minimum 1.2% (1H19), difference 12.2 percentage points.
+- Key Comparison: 2H22 revenue of 297 increased by 140 compared to 1H22's 157; 1H23 increased by 79 compared to 2H22. Proportion in 2H22 was 13.2%, an increase of 6.6 percentage points compared to 1H22's 6.6%; 1H23 increased by 0.2 percentage points compared to 2H22.
+- Mid-period Comparison: 2H21 revenue of 124 increased by 64 compared to 1H21's 60; 1H21 increased by 6 compared to 2H20's 54; 2H20 increased by 33 compared to 1H20.
+
+[Pattern Characteristics]
+Overseas revenue column values generally show a period-by-period increase. Early growth was relatively moderate, but the incremental increase per period significantly amplified after 2H21. The proportion line chart shows a relatively gentle upward slope in the first half, with the curve's steepness significantly increasing around 2H22, followed by a slight moderation at high levels. The columns and the line chart showed a temporary convergence at relatively high levels starting in 2H22, with no subsequent decline or discontinuity observed.
+
+[Core Insights]
+Core Conclusion: The contribution of overseas business is shifting from marginal to a critical support factor.
+
+Business Implications:
+- Revenue volume continues to expand, with a notable increase in contribution.
+- The overseas component's influence on total revenue is strengthening structurally.
+- Recent growth is concentrated after 2H21, indicating a more centralized pace.
+
+Risk Concerns:
+- If the proportion falls back below 6.6%, it indicates a weakening support for total revenue.
+- If the incremental increase in overseas revenue per period falls below the previous high of 140, it may signal a deceleration in expansion momentum.

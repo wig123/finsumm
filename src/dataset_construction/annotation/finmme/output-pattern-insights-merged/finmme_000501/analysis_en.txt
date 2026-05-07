@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Percentage stacked bar chart.
+- Title: No explicit title is displayed in the chart.
+- X-axis: Time scale is quarterly, sequentially listed as 1QFY22, 2QFY22, 3QFY22, 4QFY22, 1QFY23, 2QFY23, 3QFY23, 4QFY23, 1QFY24, 2QFY24.
+- Y-axis: Scale is proportional, 0%—100%, marked in 10% increments.
+- Legend and Color Scheme: Red Smartphone/mobile devices; Gray Optical communications; Black border White Automotive; Light orange Industrial; Pink Generic.
+
+[Data Relationships]
+- Smartphone/mobile devices proportion: 65, 65, 62, 59, 63, 65, 56, 62, 64, 64; Maximum 65 (1QFY22/2QFY22/2QFY23), Minimum 56 (3QFY23); Initial period 65 and final period 64 show a difference of 1 percentage point.
+- Optical communications: 12, 12, 12, 17, 12, 12, 12, 20, 19, 15; Maximum 20 (4QFY23), Minimum 12; Range amplitude 8 percentage points.
+- Automotive: 11, 11, 11, 11, 12, 12, 10, 11, 6, 10; Maximum 12 (1QFY23/2QFY23), Minimum 6 (1QFY24); Initial period 11 and final period 10 show a difference of 1 percentage point.
+- Industrial: Mostly 7, only 2QFY24 is 5; Maximum 7, Minimum 5.
+- Generic: 5, 5, 8, 6, 6, 6, 6, 6, 6, 6; Maximum 8 (3QFY22), Initial period 5, Final period 6.
+
+[Pattern Characteristics]
+- The structure in each quarter is composed of one major segment combined with several minor segments; the overall composition shows minor adjustments within the period but remains relatively stable.
+- Smartphone/mobile devices consistently constitute the largest portion, narrowing temporarily before returning to near the initial period level; Optical communications showed a significant increase in specific quarters, contributing the most change to the overall structure.
+- The proportions of the other three categories are generally stable, with only Automotive showing a clear low point in 1QFY24, and Industrial slightly contracting towards the end of the period.
+
+[Core Insights]
+Core Conclusion: The revenue structure is highly dependent on mobile devices, and fluctuations in optical communications have the greatest impact on the structure.
+
+Business Implications:
+- The overall structure exhibits high concentration, limiting resilience against volatility in a single sector.
+- When the proportion of optical communications increases, it helps mitigate the reliance on mobile devices.
+- Automotive and Industrial contributions are limited, making it difficult for them to significantly alter the structure.
+
+Risk Focus:
+- If the Smartphone proportion consistently exceeds 60%, changes in this single market may significantly amplify performance volatility.
+- If Automotive remains below 10% for an extended period, emerging applications will struggle to provide effective diversification.

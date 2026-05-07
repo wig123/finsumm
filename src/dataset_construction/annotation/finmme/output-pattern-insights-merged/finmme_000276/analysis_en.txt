@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Annual Bar Chart
+- Title: Gross margin (%) - Siemens
+- X-axis: FY94–FY23 (by fiscal year)
+- Y-axis: 0%–50%, 10% increments
+- Legend: Blue square "Gross margin (%) - Siemens"
+- Others: Three background segments (FY94–03, FY04–14, FY15–23), with a horizontal line within each segment indicating the segment average
+
+[Data Relationships]
+- Initial period FY94 approximately 38%, final period FY23 approximately 31%, a difference of about 7 percentage points
+- Global peak FY96 approximately 41%, trough FY07/08 approximately 19%, a difference of about 22 percentage points
+- Segment averages: Segment 1 approximately 35%, Segment 2 approximately 24–25%, Segment 3 approximately 33%; the difference between Segment 1 and Segment 2 is about 10–11 percentage points, and the difference between Segment 3 and Segment 2 is about 8–9 percentage points
+- Segment 2 range approximately 19%–30% (a difference of about 11 percentage points); Segment 3 range approximately 31%–35% (a difference of about 4 percentage points)
+- Segment 3 peak FY20 approximately 35%, lower values in FY21/23 approximately 31%–32%
+
+[Pattern Characteristics]
+Overall, the sequence transitions from a high level in the initial segment to a low position in the middle segment, and then returns to a medium-high level in the final segment, exhibiting a clear three-stage structure. The bars in the middle segment show greater fluctuation within the low range, while the final segment distributes around the segment average within a higher range, with volatility significantly narrowing. The global peak occurred in the early years, the trough was concentrated in the middle of the second segment. Although the final segment did not reach a new high, it did not revisit the low levels of the middle segment.
+
+[Core Insights]
+Core Conclusion: Gross margin experienced a significant step-down before recovering to a medium-high level.
+
+Business Implications:
+- Strong profit margin capacity existed in the early period, which was subsequently compressed temporarily.
+- The middle segment showed high earnings elasticity, making it more sensitive to costs and pricing.
+- In recent years, the earnings structure has been relatively contained, making volatility easier to manage.
+
+Risk Focus:
+- If the margin approaches 20% again, the profit buffer will weaken, putting pressure on short-term earnings.
+- If the margin falls below 25% and persists for several years, adjustments to the product structure and cost strategy may be required.

@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Line chart
+- Title: Household loan growth (y-y) breakdown by type
+- X-axis: Quarter, 1Q21 to 4Q23
+- Y-axis: YoY Growth Rate (Percentage), range -10.0% to 30.0%
+- Legend: Grey is Total domestic household loans; Red is Personal business loans; Orange is Non-mortgage consumer loan; Beige is Mortgage loans
+
+[Data Relationships]
+- Approximate values in 1Q21: Personal business loans 24–25%, Total 16%, Non-mortgage consumer loan 13%, Mortgage loans 14%.
+- Approximate values in 4Q23: Personal business loans 17%, Total 6%, Non-mortgage consumer loan 14–15%, Mortgage loans -2%.
+- Personal business loans were the highest among the four categories in all quarters; taking 4Q23 as an example: 17% is higher than 14–15%, 6%, and -2%.
+- Mortgage loan peak was approximately 14% (1Q21), trough was approximately -2% (4Q23), a range of about 16 percentage points.
+- Non-mortgage consumer loan trough was approximately 4–5% (4Q22), peak was approximately 14–15% (4Q23), a range of about 10 percentage points.
+- Total peak was approximately 16% (1Q21), trough was approximately 5% (4Q22); the difference between Personal business loans and Total in 1Q23 was about 13 percentage points; the difference between Non-mortgage consumer loan and Mortgage loans in 2Q23 was about 12.5 percentage points.
+
+[Pattern Characteristics]
+- The four curves mostly trended downward synchronously during the first half of the sample period, after which they diverged: Personal business loans and Non-mortgage consumer loans rebounded, the Total stabilized, and Mortgage loans continued to weaken, entering negative territory.
+- Personal business loans consistently remained above all other types, with relatively contained volatility; Non-mortgage consumer loans and Mortgage loans showed a clear crossover around 2022, after which their trends moved in opposite directions, and the gap between these two and the Total gradually widened in 2023.
+- Structurally, the initial configuration of relatively close curves evolved into a stratified pattern consisting of high-level Personal business loans, mid-level Non-mortgage consumer loans, low-level Mortgage loans, and the Total positioned in the middle.
+
+[Core Insights]
+Core Conclusion: The household credit structure has shifted from being mortgage-dominated to being driven by business and consumer loans.
+
+Business Implications:
+- Total growth rate relies more heavily on the contribution of business loans and non-mortgage consumer loans.
+- The driving effect of housing-related assets on overall credit expansion has weakened.
+- The financing usage of the personal sector is concentrating towards business turnover and short-term consumption.
+
+Risk Concerns:
+- If mortgage loans remain below 0% for an extended period, it may suppress the quality of housing-related collateral assets and incremental business volume.
+- If Personal business loans consistently remain above 15% while the Total hovers around 5–7%, it will increase the credit portfolio's concentrated exposure to a single purpose.

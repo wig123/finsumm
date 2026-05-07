@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Dual Line Chart
+- Title: Not displayed
+- Y-axis: Labeled "Average age," scale maximum up to 60 (Equidistant grid, estimated 5-year intervals)
+- X-axis: Time, 2000–2022, labels marked at approximately 2-year intervals
+- Legend: Two series, dark color is "UK," light color is "Overseas"
+
+[Data Relationships]
+- UK Key Data Points: 2000 ≈ 50; 2020 peak ≈ 58; 2022 ≈ 53; low point in the early period ≈ 49–50.
+- Overseas Key Data Points: 2000 ≈ 41; 2018 peak ≈ 47; 2022 ≈ 41 (near the low point).
+- Initial Comparison (2000): UK ≈ 50 vs Overseas ≈ 41, difference ≈ 9.
+- Peak Comparison: UK ≈ 58 (2020) vs Overseas ≈ 47 (2018), difference ≈ 11.
+- Final Comparison (2022): UK ≈ 53 vs Overseas ≈ 41, difference ≈ 12.
+- The numerical difference between the two series throughout the period ranges approximately from 5 to 12 years.
+
+[Pattern Characteristics]
+- Both curves generally show a slow upward trend superimposed with several short-term fluctuations, followed by a noticeable decline after reaching their respective high points in the later period.
+- The UK curve remains at a consistently higher level; the gap between the two curves initially narrows slightly, then gradually widens, and they never intersect.
+- The UK series shows a single prominent peak near 2020, while the Overseas series also exhibits a relatively noticeable local high around 2018, after which both returned to their respective lower ranges.
+
+[Core Insights]
+Core Conclusion: The average age gap between domestic and overseas groups continues to widen.
+
+Business Implications:
+- The domestic group structure leans more towards the older demographic.
+- The overseas group composition is relatively younger.
+- The overall customer base is evolving towards an aging trend.
+
+Risk Focus:
+- If the UK average approaches 60 again, it may increase pressure on services and costs related to the elderly demographic.
+- If the age difference between the two groups consistently exceeds 12 years, it may make product offerings and communication challenging to satisfy the needs of diverse customer segments simultaneously.

@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Vertical Bar Chart
+- Legend/Series Name: Revenue growth (%)
+- X-axis: Time Points (Dec-21, Mar-22, Jun-22, Sep-22, Dec-22, Mar-23, Jun-23, Sep-23, Dec-23)
+- Y-axis: Scale Range 0–12 (Unit: %)
+
+[Data Relationships]
+- Initial period Dec-21 was 3.9%; final period Dec-23 was 8.1%; the final period increased by +4.2 percentage points compared to the initial period.
+- Maximum value 10.6% (Jun-23); minimum value 0.9% (Dec-22); range difference 9.7 percentage points.
+- 2022 Values: Mar-22 1.4%, Jun-22 2.6%, Sep-22 2.6%, Dec-22 0.9%.
+- 2023 Values: Mar-23 3.8%, Jun-23 10.6%, Sep-23 6.0%, Dec-23 8.1%.
+- Jun-23 is 4.6 percentage points higher than Sep-23; Sep-23 is 2.2 percentage points higher than Mar-23.
+- Jun-22 and Sep-22 are identical, both at 2.6%.
+
+[Pattern Characteristics]
+- The overall trend shows a decline followed by a rebound. The first half fluctuated narrowly around a low range, while the second half remained at a relatively high level and featured a single peak.
+- The lowest point of the entire period was reached at the end of 2022, followed by a rapid increase in 2023, forming a single high bar in the middle, then slightly retreating but remaining above the previous range.
+- During the period, Jun-22 and Sep-22 formed a horizontal plateau, while Jun-23 was significantly higher than adjacent time points, constituting a prominent local extreme value.
+
+[Core Insights]
+Core Conclusion: Revenue growth significantly recovered and raised the platform level in 2023 after experiencing a slump.
+
+Business Implications:
+- 2022 indicated a clear limitation in profit expansion capability.
+- Revenue momentum strengthened starting in 2023, providing room for increased profit elasticity.
+- The new elevated growth rate provides a higher benchmark for subsequent budgets and targets.
+
+Risk Concerns:
+- If the growth rate falls back below 3%, profit growth may be insufficient to cover fixed costs.
+- If the level near 10% is unsustainable and merely a short-term spike, it will undermine market confidence in the quality of growth.

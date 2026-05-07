@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Dual-series line chart
+- Title: Not displayed
+- Legend: BSK (days) (Dark Green); BHK (days) (Light Gray)
+- X-axis: Time, Jan-18 to Oct-23 (Monthly annotation)
+- Y-axis: Days, Range approximately 30–80
+
+[Data Relationships]
+- Jan-18: BSK ≈ 31 days; BHK ≈ 40 days; Difference ≈ 9 days
+- BHK Peak ≈ 70 days (Mid-2018); Lowest ≈ 35 days (Mid-2020); Secondary peak in Spring 2023 ≈ 60 days; Oct-23 ≈ 36 days
+- BSK Peak ≈ 45 days (Early 2021 / Mid-2023); Lowest ≈ 30 days (Around 2020); Oct-23 ≈ 35 days
+- Mid-2018 saw the largest gap: BHK ≈ 70 vs BSK ≈ 35, Difference ≈ 35 days
+- Spring 2023: BHK ≈ 60 vs BSK ≈ 45, Difference ≈ 15 days
+- Oct-23: The two are close, Difference ≈ 1–2 days
+- Mid-2021: Both ≈ 40 days
+
+[Pattern Characteristics]
+- Both series maintain co-directional movement throughout the period, but BHK maintains a generally higher level, exhibits greater volatility, and has more pronounced local highs and lows.
+- BHK showed a single dominant high-level range in mid-2018, subsequently converging; BSK generally stayed closer to the middle range, with a relatively smoother structure.
+- The distance between the two clearly widened in mid-2018 and Spring 2023, while showing significant convergence in mid-2021 and the late stages of 2023.
+
+[Core Insights]
+Core Conclusion: The duration difference between the two projects periodically widened before converging again.
+
+Business Implications:
+- Early BHK process load was significantly higher than BSK.
+- The execution efficiency of the two projects has recently converged.
+- The narrowing of the difference in the middle period reflects strengthened collaborative management.
+
+Risk Focus:
+- When BHK > 60 days, it is more likely to cause resource scheduling constraints compared to BSK.
+- When the difference between the two exceeds 20 days, it may lead to inconsistent customer experience.

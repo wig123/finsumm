@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Dual Bar Chart
+- Title: Not displayed
+- X-axis: Categories are "2022," "2023e"
+- Y-axis: Numerical scale approximately 500 to 950
+- Legend: Light green bar represents "Comparable sales margin (inc-BTC)"; Dark horizontal short line represents "Upper range – Lower Range" (Upper/Lower Range Markers)
+
+[Data Relationships]
+- 2022 Bar peak is approximately 800; 2023e Bar peak is approximately 870–890
+- 2022 Range markers: Lower bound approximately 700, Upper bound approximately 780, Range width approximately 80
+- 2023e Range markers: Lower bound approximately 805, Upper bound approximately 905, Range width approximately 100
+- 2023e bar value is higher than 2022 by approximately 70–90
+- 2022 bar value relative to its range: Approximately 20 from the upper bound, approximately 100 from the lower bound
+- 2023e bar value relative to its range: Approximately −15 to +15 from the upper bound, approximately 65–85 from the lower bound
+
+[Pattern Characteristics]
+The height of the bars in both periods shows an increase from 2022 to 2023e, and the second period's bar is closer to the upper limit of its corresponding range. While the upper and lower range markers shift upward overall, the range width for 2023e is slightly larger than 2022, indicating an expansion of the uncertainty interval. In the two periods, the 2022 bar value leans toward the lower side of the range, while the 2023e bar value is situated near the middle-to-upper part of the range.
+
+[Core Insights]
+Core Conclusion: The profit margin level is expected to increase in 2023e, and the target range is more aggressive.
+
+Business Implications:
+- Reflects stronger profitability expectations than the previous year
+- The setting of the profit margin target leans toward an aggressive range
+- The outcome demands higher requirements for performance realization and expectation management
+
+Risk Focus:
+- If the 2023e actual value falls below 805, it will drop into the lower side of the range, affecting market confidence
+- If the 2023e actual value is lower than 800 (the 2022 value), it will constitute a year-over-year (YoY) decline, weakening the credibility of the earnings forecast

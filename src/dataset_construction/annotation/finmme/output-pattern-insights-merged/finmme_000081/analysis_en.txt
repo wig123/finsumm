@@ -1,0 +1,42 @@
+[Chart Components]
+- Type: Line Chart
+- Title: No apparent title
+- Axes:
+  - Y-axis: Percentage (%), Range from -40% to 60%
+  - X-axis: Time, Labeled from 1Q19 to 3Q23
+- Legend:
+  - Red line represents SEMCO MLCC YoY
+  - Black line represents Murata capacitor YoY
+
+[Data Relationships]
+- **Key Figures and Changes:**
+  - In 1Q19, both series declined from nearly 20%, with SEMCO experiencing a sharper drop.
+  - In 3Q20, SEMCO reached a trough, close to -30%, while Murata was around -10%.
+  - In 1Q21, both reached a peak; SEMCO slightly above 40%, Murata close to 40%.
+  - From 3Q21 to 3Q22, both saw a significant decline; SEMCO dropped to nearly -30%, and Murata slightly above -20%.
+  - In 3Q23, both rebounded to positive values, with SEMCO higher than Murata.
+
+- **Extremum Comparison:**
+  - SEMCO reached its highest point around 45% in 1Q21, and its lowest point near -30% in 3Q20 and 1Q23.
+  - Murata reached its highest point around 40% in 1Q21, and its lowest point around -20% in 3Q22.
+
+- **Key Trends:**
+  - Both exhibited similar trends throughout the observation period: an initial decline, a mid-period rebound, a subsequent decline, and a final recovery.
+  - SEMCO's volatility is generally greater than Murata's.
+
+[Pattern Characteristics]
+- The two lines generally move in the same direction, showing a cyclical pattern of starting weak, strengthening, weakening again, and finally returning to the positive range, crossing the 0% central axis multiple times.
+- Key turning points are concentrated around 3Q20, 1Q21, and 1Q23, where the synchronization between the two is high.
+- Structurally, SEMCO has a larger amplitude, shows clearer deviation at the extremes, and is higher than Murata as of 3Q23.
+
+[Core Insights]
+Core Conclusion: Growth drivers converge, and SEMCO exhibits greater elasticity.
+
+Business Implications:
+- High synchronization indicates that common drivers are dominant.
+- SEMCO is more sensitive, with greater leverage for gains and losses.
+- Currently, SEMCO is relatively leading and can serve as a reference for relative allocation.
+
+Risk Concerns:
+- Any indicator falling below 0%: YoY growth turns negative, dragging down the overall growth rate.
+- SEMCO below -30% or Murata below -20%: Negative growth expands, and the recovery cycle lengthens.

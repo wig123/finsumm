@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Dual-axis line chart; Two series: Red "Price," Gray "Rel CSI 300"
+- Left Y-axis: Labeled (HKD), scale approximately 60–120, corresponding to Price
+- Right Y-axis: Scale approximately 70–120, corresponding to Rel CSI 300
+- X-axis: Monthly timeline, from Mar 23 to Feb 24
+- Legend: Displays the names of the two series at the top; No explicit main title observed
+
+[Data Relationships]
+- Price: Initial period Mar 23 approximately 95 HKD; Final period Feb 24 approximately 70–75 HKD; Change approximately 20–25 HKD
+- Price: Peak approximately 115 HKD (Oct–Nov 23); Trough approximately 65–70 HKD (Feb 24); Range magnitude approximately 45–50 HKD
+- Rel CSI 300: Initial period approximately 88–90; Final period approximately 75–80; Peak approximately 112–115 (Oct–Nov 23); Trough approximately 75–80 (Feb 24); Range magnitude approximately 35–40
+- Contemporaneous comparison: Apr 23, Price approx. 110 vs Rel approx. 85–90, difference approx. 20–25; Dec 23, Price approx. 100 vs Rel approx. 95–100, difference approx. 0–5; Feb 24, Price approx. 70 vs Rel approx. 75–80, difference approx. 5–10; Mar 23, Price approx. 95 vs Rel approx. 88–90, difference approx. 5–7
+- Oct–Nov 23, both were in the approximately 105–115 range
+
+[Pattern Characteristics]
+Both lines fluctuated around their respective central ranges between Mar–Sep 23, with local peaks and troughs largely synchronized. During the Oct–Nov 23 period, the trends of both were highly correlated and situated in the high-level region of the entire segment. Subsequently, Price and Rel CSI 300 moved downward together, rapidly approaching their respective lower bounds in Jan–Feb 24, with Price slightly falling below Rel CSI 300 in the final segment.
+
+[Core Insights]
+Core Conclusion: The stock's temporary advantage relative to the benchmark gradually disappeared and inverted.
+
+Business Implications:
+- Early relative returns existed, but sustainability was insufficient
+- The relative contribution of this security in the portfolio is decreasing
+- Later performance relies more heavily on changes in the overall market environment
+
+Risk Focus:
+- When Price is below 70 and Rel is above 80, it may drag down excess returns
+- If Price remains below Rel by more than 5 points for an extended period, it may amplify the opportunity cost of holding the position

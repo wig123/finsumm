@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Multi-panel red bar chart; Group titles are “Key Equity Benchmarks,” “Key MSCI Equity Indices, US$,” “Styles,” “Commods,” “Currencies.”
+- Y-axis: Numerical scale approximately -3.0 to 4.0, with 0 as the baseline; Negative values are indicated in parentheses.
+- X-axis: Classification by index/style/commodity/currency name.
+- Values: Specific values are annotated next to each bar.
+- Legend: No separate legend, uniformly red color.
+
+[Data Relationships]
+- Equity: Nikkei 2.1 highest; SET -2.2 lowest; Difference 4.3. Topix 1.8; CSI300 1.4; S&P500 1.0; KOSPI -1.0.
+- MSCI: MSCI JP$ 2.3 highest; MSCI HK$ -2.3 lowest; Difference 4.6. USA$ 1.0; DM$ 0.9; Europe ex UK 0.3; China -0.7; ASEAN -1.9.
+- Styles: SPX Pure Growth 3.4 highest; ASEAN Value -1.3 lowest; Difference 4.7. SPX Growth 1.6; SPX Value -0.3.
+- Commods: Aluminum 2.3, Nickel 2.3 tied for highest; Copper -0.9 lowest; Difference 3.2. Gold 2.0; Brent 0.5.
+- Currencies: MYR 0.7 highest; IDR -0.7 lowest; Difference 1.4. THB 0.4; JPY 0.3; EM Curr 0.2; INR 0.0; DXY/TWD/PHP -0.2.
+
+[Pattern Characteristics]
+The bar distribution within each panel shows significant high-low differentiation. Within the same asset class, there are both positive and negative values, with a few items approaching the extreme values at both ends. Within the Equity and MSCI Index panels, positive values are concentrated in a few markets, while the rest are mostly near or below zero. The Styles and Commodities panels also show that single or a few specific items account for high values. The overall distribution of the Currencies panel is more convergent, with the vast majority close to the zero axis, and only individual items slightly positive or negative, with no extreme outliers.
+
+[Core Insights]
+Core Conclusion: Asset performance is highly differentiated, with equity and style disparities being the most prominent.
+
+Business Implications:
+- Significant difference in returns among equity markets, indicating notable regional rotation.
+- Divergence between growth and value styles, impacting portfolio style exposure.
+- Commodity support is relatively concentrated, and currency contribution is generally limited.
+
+Risk Focus:
+- If the difference between the lowest and highest equity continues to exceed 4.0, it may amplify the volatility of the portfolio's relative performance.
+- If the style range difference exceeds 4.5 and is not adjusted promptly, it may lead to the portfolio deviating from its predetermined style objectives.

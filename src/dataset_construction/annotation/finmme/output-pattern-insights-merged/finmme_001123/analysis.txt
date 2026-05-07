@@ -1,0 +1,29 @@
+【图表构成】
+- 类型：柱状图
+- 标题：FY25 P/E
+- 横轴：公司名称标签（Towngas、China Gas、Italgas Spa、Chesapeake、Shenzhen Gas、PG&E Corp、Tokyo/Osaka Gas、Snam Spa、Spire Inc、Indraprastha Gas、Naturgy、Sempra、One Gas、Toho Gas、Enagas、CMS、Atmos、Mahanagar Gas、Southwest Gas、HK&C Gas、Nippon Gas、Gujarat Gas等）
+- 纵轴：P/E倍数，刻度范围0–30
+- 颜色：多数为红色柱，三根黑色柱（Indraprastha Gas、Mahanagar Gas、Gujarat Gas）；这三根上方分别标注13.6、16.8、27.1
+- 图例：未显示
+
+【数据关系】
+- 峰值：Gujarat Gas 27.1。
+- 黑色三家公司：Indraprastha Gas 13.6；Mahanagar Gas 16.8；Gujarat Gas 27.1。
+- 差值：Gujarat–Mahanagar 10.3；Gujarat–Indraprastha 13.5；Mahanagar–Indraprastha 3.2。
+- 比例：Gujarat/Indraprastha≈1.99；Gujarat/Mahanagar≈1.61；Mahanagar/Indraprastha≈1.24。
+- 其余红色公司柱值均低于约20，与Gujarat的27.1差距至少约7.1。
+
+【模式特征】  
+整体分布在单一范围内逐级递增，形成从左到右大致由低到高的排列结构。绝大多数样本集中在中等区间，三家黑色公司分别落在中高和极高位置，其中Gujarat Gas形成明显突出的最高点。除该极端值外，其余样本之间高度差相对平滑，无明显断层。
+
+【核心洞察】  
+核心结论：Gujarat估值显著高于同组，其余公司估值相对集中。  
+
+业务含义：  
+- 整体估值层级接近，板块内差异有限  
+- 黑色三家公司在估值上处于相对靠前位置  
+- Gujarat相对同业具备显著溢价定价特征  
+
+风险关注：  
+- Gujarat若从27倍回落至20倍，估值压缩空间较大  
+- Indraprastha与Mahanagar若跌破10倍，将低于当前样本大多数公司水平

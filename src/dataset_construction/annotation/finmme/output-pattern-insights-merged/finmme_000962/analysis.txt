@@ -1,0 +1,25 @@
+【图表构成】
+- 类型：金融数据表格；无坐标轴与图例
+- 列：BMW、Mercedes、VW、Porsche、Stellantis、Renault、Volvo、Ferrari、Tesla
+- 分区与标题：US to Europe（k Units、USDbn）、ASP；Pure Tariff impact (if raised from 10% to..)、Or volume impact (if tariff lowered to..)、Blended impact (if tariff raised from 2.5% to..)
+- 度量与单位：k Units（千辆）、USDbn（十亿美元）、USDm（百万美元）、%PBT（利润前税占比）
+
+【数据关系】
+- 基准k Units/USDbn：BMW 109/7.2；Mercedes 53/4.3；Stellantis 7/0.2；Volvo 18/1.3；Tesla 4/0.3；VW、Porsche、Renault、Ferrari为0。ASP：Mercedes 81,459最高，Stellantis 34,787最低；Tesla 80,424；Volvo 73,718；BMW 66,254。
+- 纯关税25%：BMW -1,085(-7.2%)；Mercedes -641(-3.8%)；Volvo -201(-6.4%)；Stellantis -37(-0.2%)；Tesla -43(-0.4%)。
+- 混合15%：BMW -497(-3.3%)；Mercedes -294(-1.9%)；Volvo -92(-2.9%)；Stellantis -25(-0.1%)；Tesla -19(-0.2%)。
+
+【模式特征】  
+整体上，各公司在“纯关税”“降关税放量”“混合方案”三类情景下，金额与%PBT的变动方向一致，且随关税或降税幅度加大而单调放大。BMW、Mercedes、Volvo在各情景下的绝对值和%PBT变动显著高于Stellantis与Tesla，呈现明显梯度。VW、Porsche、Renault、Ferrari在所有情景下均为NM，形成一组稳定的零影响样本。
+
+【核心洞察】  
+核心结论：关税调整对少数高价高基数厂商盈利敏感度最大。  
+
+业务含义：  
+- 盈利结构对跨区贸易依赖度差异明显  
+- BMW、Mercedes、Volvo的利润对关税政策更敏感  
+- 低基数或无出口厂商几乎不受当前情景影响  
+
+风险关注：  
+- 纯关税25%下，BMW -7.2%PBT或显著侵蚀整体利润  
+- 混合20%下，Mercedes -2.6%PBT或削弱中期盈利弹性

@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Line chart; no overall title.
+- X-axis: Time, labeled 2005, 2010, 2015, 2020, 2025.
+- Left Y-axis (lhs): Scale approximately 2–8, unit is percentage; series include
+  1) Green: Atlanta Fed median wage growth (3mma)
+  2) Cyan: US core services CPI (% y/y)
+- Right Y-axis (rhs): Scale approximately 0.5–3.5, unit is ratio; series is navy blue "Openings to unemployment rate (ratio)*", the final segment is a dashed line.
+- Legend is located top left; includes two vertical gray shaded bands.
+
+[Data Relationships]
+- Green line: High point around 7 in 2021–2022; low point around 2 in 2009–2010; approximately 5 in 2025; approximately 5 at the beginning of the period (2005).
+- Cyan line: Low point around 1 in 2009–2010; high point around 7 near 2023; approximately 4.5 in 2025; approximately 3 at the beginning of the period.
+- Blue line: High point around 2 near 2022; low point around 0.5–0.7 in 2009–2010; approximately 2 in 2025 (dashed line); approximately 0.6 at the beginning of the period.
+- Near 2023, both series on the left axis are close to 7; the difference between the high point of the left axis and the high point of the right axis is approximately 5 units.
+
+[Pattern Characteristics]
+- All three lines were jointly at a relatively low level near 2009–2010, subsequently rising from the low point, forming a synchronous high plateau or peak range around 2021–2023.
+- The green line and the cyan line show similar trends and levels over most time periods, especially aligning closely near 2023, after which the magnitude of the cyan line's decline is slightly greater than that of the green line.
+- The blue line was generally in a lower range in the early period, rising more steeply after 2015, showing a distinct spike around 2020, and subsequently maintaining a medium-high level in dashed line form.
+
+[Core Insights]
+Core Conclusion: Wages, core services inflation, and job market tightness are highly synchronized, and remain at elevated levels recently.
+
+Business Implications:
+- Indicates a tight linkage between labor costs and service prices.
+- Job market tightness has a strong transmission effect on compensation and service pricing.
+- Current pressures on compensation and service prices have not been fully alleviated.
+
+Risk Focus:
+- If the green line remains above 6 long-term, it may push up corporate labor costs and compress profit margins.
+- If the cyan line remains above 5, it may increase the difficulty of adjusting overall price levels.

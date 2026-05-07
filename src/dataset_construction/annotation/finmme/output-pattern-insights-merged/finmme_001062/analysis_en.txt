@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Time Series Line Chart
+- Legend: Red line "1-yr fw P/BV", Gray line "Mean", Black dashed lines "Mean+1SD" "Mean-1SD"
+- Y-axis: 0–3.0
+- X-axis: Jan-14 to Jan-24 (Semi-annual scale)
+- Reference Line Values: Mean≈1.50; Mean+1SD≈1.95; Mean-1SD≈1.05
+
+[Data Relationships]
+- Start (Jan-14) ≈1.95
+- Peak (Early 2015) ≈2.60, higher than Mean by ≈1.10
+- Secondary Peak (Mid-2018) ≈2.20
+- Trough (Mid-2020) ≈0.55, lower than Mean by ≈0.95
+- Low (Mid-2022) ≈1.00, close to Mean-1SD
+- End of Period (Jan-24) ≈1.55, higher than Mean by ≈0.05
+- Range Difference (High-Low) ≈2.60−0.55=2.05
+- Standard Deviation Estimate ≈1.95−1.50=0.45
+
+[Pattern Characteristics]
+The red line in 2014–2015 was mainly distributed above the mean and repeatedly touched the vicinity of Mean+1SD, after which the high points gradually decreased. After 2018, it generally operated around the area from below the mean down to Mean-1SD. In 2020, an extreme low value appeared, clearly deviating downward from Mean-1SD. Starting in 2021, it gradually returned to narrow fluctuations around the mean, ending the period slightly above the mean but still below previous historical highs.
+
+[Core Insights]
+Core Conclusion: Current valuation is slightly above the long-term central tendency but significantly below historical highs.
+
+Business Implications:
+- Compared to earlier periods, the valuation premium has clearly converged.
+- The valuation center of gravity has shifted downward, enhancing the cost-effectiveness of allocation.
+- The current level represents a neutral to slightly above-neutral valuation range.
+
+Risk Concerns:
+- If it approaches 2.60 again, high-level pullback pressure may significantly increase.
+- If it falls below 0.55, it may be accompanied by a sharp deterioration in sentiment and a substantial discount.

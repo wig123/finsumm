@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Horizontal Bar Chart
+- Legend/Title: Untitled, Legend is "Base" and "Max local"
+- X-axis: Tax Rate (%), Range from 0% to 12%
+- Y-axis: List of State Names from Oregon to Louisiana
+- Legend Colors: Dark color represents "Base," Light color represents "Max local"
+
+[Data Relationships]
+- The state with the highest tax rate is Louisiana, with a tax rate around 12%
+- Oregon has the lowest tax rate, nearly 0%
+- The tax rates for most states are between 4% and 8%
+- In many states, the "Max local" is significantly higher than the "Base" tax rate
+- The overall trend shows that higher local tax rates significantly increase the total tax rate in some states
+
+[Pattern Characteristics]
+The chart is sorted by total tax rate from low to high. Bar lengths in the middle segment are similar, while only a few states at the top form a long tail. Each state's bar is composed of the Base and Max local segments, showing significant differences in proportion; some are almost entirely the base segment, while there are also instances where only the local segment is visible. Extreme values are clear: Louisiana is at the very top, and Oregon is close to zero.
+
+[Core Insights]
+Core Conclusion: Local surcharges dominate the differences in tax burden among states
+
+Business Implications:
+- Cross-state pricing and profit calculation require separate listing of local components
+- 4%–8% can serve as the median reference band
+- High-ranking states require stronger cost transfer arrangements
+
+Risk Concerns:
+- Total Tax Rate ≥ 10%: If prices are not adjusted, profit will be passively compressed
+- Total Tax Rate > 8% still estimated using 4%–8%: Understated budget, profit deviation

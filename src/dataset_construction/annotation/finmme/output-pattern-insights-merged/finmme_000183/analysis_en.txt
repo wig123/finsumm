@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Pie chart.
+- Title: Not displayed.
+- Axes: None.
+- Labels: Names and proportions are directly labeled on each sector (Trend Micro, Trellix, Sophos, Palo Alto Networks, Check Point, Lacework, CrowdStrike, Others).
+- Legend: No independent legend; sectors are distinguished by different colors.
+
+[Data Relationships]
+- Proportion: Others 49%; Trend Micro 18%; Trellix 6%; Sophos 6%; Palo Alto Networks 6%; Check Point 5%; Lacework 5%; CrowdStrike 5%.
+- Total sum is 100%; Non-Others aggregate to 51%.
+- Maximum value is Others 49%; Minimum value is the 5% categories (Check Point, Lacework, CrowdStrike).
+- Numerical relationship: 49% > 18% > 6% group > 5% group.
+- Difference: Others is 31 percentage points higher than Trend Micro; 43 percentage points higher than the 6% categories; 44 percentage points higher than the 5% categories.
+- Trend Micro is 12 percentage points higher than the 6% categories, and 13 percentage points higher than the 5% categories.
+- The difference between the 6% group and the 5% group is 1 percentage point.
+
+[Pattern Characteristics]
+- The sectors exhibit a stepped distribution of size: one segment is close to half, followed by a single medium sector, and the rest are several smaller sectors.
+- The small sectors can be divided into two groups of similar size categories, which are relatively balanced within the group but show slight differences between groups.
+- The overall structure is characterized by a high proportion for a single category, with others being diverse and dispersed; no sudden abnormal spikes are observed.
+
+[Core Insights]
+Core Conclusion: Supply is fragmented, the long tail carries high weight, and top-tier concentration is limited
+
+Business Implications:
+- Brand influence is diluted, making rapid scaling difficult.
+- Resource allocation must cover multiple vendors to achieve broad market reach.
+- Second-tier rankings are sensitive, requiring flexible strategies.
+
+Risk Focus:
+- Others ≥ 49%, return on investment for a single vendor may decline.
+- Share fluctuation ≥ 1 percentage point could lead to a ranking swap between the 6% and 5% groups.

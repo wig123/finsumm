@@ -1,0 +1,1618 @@
+# 全面测试配置 - 1000张图表 (时间序列优先)
+# 覆盖所有主题、图表类型、语言、视觉风格的组合
+# 用法: python scripts/run_batch.py --config batch_configs/comprehensive_1000.yaml
+#
+# 图表类型分布 (时间序列优先 75%):
+#   ⏱️ 时间序列图表: 750张 (75%)
+#      - line/area/line_band_overlay: 255张
+#      - candlestick/candlestick_volume/ohlc: 240张
+#      - bollinger_bands/ichimoku/renko/point_figure: 165张
+#      - bar_line_overlay/volume_profile/fan_chart: 90张
+#   📊 其他图表: 250张 (25%)
+#      - bar/histogram/scatter/heatmap/box: 135张
+#      - pie/bubble/waterfall/treemap: 55张
+#      - contour/radar/sankey/node: 60张
+#
+# 语言分布: 中文/英文 各约50%
+# 视觉风格: 8种风格均衡覆盖
+# 主题分布: 金融时序主题优先
+
+batch_name: comprehensive_1000
+output_base_dir: ./batch_output
+execution: {parallel: true, max_workers: 5, use_process_pool: false, use_async: true}
+charts:
+- {chart_type: bar, language: zh-CN, theme: fixed_income, library: plotly, visual_style: colorful}
+- {chart_type: bollinger_bands, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: pie, language: zh-CN, theme: esg_sustainable, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: waterfall, language: en-US, theme: banking_credit, library: matplotlib,
+  visual_style: default}
+- {chart_type: line, language: en-US, theme: fx_trade, library: altair, visual_style: newspaper}
+- {chart_type: ohlc, language: en-US, theme: digital_assets, library: plotly, visual_style: retro}
+- {chart_type: line, language: en-US, theme: inflation, library: matplotlib, visual_style: minimal}
+- {chart_type: bar, language: zh-CN, theme: macro_policy, library: matplotlib, visual_style: default}
+- {chart_type: candlestick, language: en-US, theme: derivatives, library: plotly,
+  visual_style: newspaper}
+- {chart_type: bollinger_bands, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: area, language: en-US, theme: digital_assets, library: altair, visual_style: gradient}
+- {chart_type: histogram, language: en-US, theme: esg_sustainable, library: seaborn,
+  visual_style: minimal}
+- {chart_type: candlestick_volume, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: gradient}
+- {chart_type: point_figure, language: en-US, theme: equity_markets, library: mplfinance,
+  visual_style: default}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: derivatives, library: plotly,
+  visual_style: minimal}
+- {chart_type: bollinger_bands, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: default}
+- {chart_type: bar, language: zh-CN, theme: banking_credit, library: seaborn, visual_style: dark_professional}
+- {chart_type: line, language: en-US, theme: inflation, library: bokeh, visual_style: monochrome}
+- {chart_type: volume_profile, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: minimal}
+- {chart_type: candlestick, language: en-US, theme: commodities, library: plotly,
+  visual_style: minimal}
+- {chart_type: ohlc, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: histogram, language: zh-CN, theme: macro_policy, library: matplotlib,
+  visual_style: default}
+- {chart_type: candlestick, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: colorful}
+- {chart_type: ohlc, language: en-US, theme: fx_trade, library: plotly, visual_style: colorful}
+- {chart_type: point_figure, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: ohlc, language: zh-CN, theme: commodities, library: mplfinance, visual_style: newspaper}
+- {chart_type: point_figure, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: default}
+- {chart_type: ichimoku_cloud, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: default}
+- {chart_type: candlestick_volume, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: bar, language: zh-CN, theme: macro_policy, library: plotly, visual_style: minimal}
+- {chart_type: candlestick_indicator, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: default}
+- {chart_type: density, language: zh-CN, theme: macro_policy, library: seaborn, visual_style: default}
+- {chart_type: histogram, language: en-US, theme: commodities, library: seaborn, visual_style: default}
+- {chart_type: bollinger_bands, language: en-US, theme: commodities, library: plotly,
+  visual_style: default}
+- {chart_type: waterfall, language: en-US, theme: asset_management, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: candlestick_volume, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: renko, language: en-US, theme: commodities, library: mplfinance, visual_style: dark_professional}
+- {chart_type: volume_profile, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: default}
+- {chart_type: line, language: en-US, theme: banking_credit, library: altair, visual_style: monochrome}
+- {chart_type: candlestick_volume, language: en-US, theme: commodities, library: plotly,
+  visual_style: default}
+- {chart_type: line, language: zh-CN, theme: equity_markets, library: seaborn, visual_style: gradient}
+- {chart_type: candlestick, language: en-US, theme: derivatives, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: bar, language: zh-CN, theme: inflation, library: seaborn, visual_style: minimal}
+- {chart_type: area, language: zh-CN, theme: macro_policy, library: matplotlib, visual_style: gradient}
+- {chart_type: ohlc, language: zh-CN, theme: commodities, library: mplfinance, visual_style: colorful}
+- {chart_type: bar, language: en-US, theme: esg_sustainable, library: matplotlib,
+  visual_style: newspaper}
+- {chart_type: area, language: en-US, theme: inflation, library: seaborn, visual_style: monochrome}
+- {chart_type: area, language: en-US, theme: inflation, library: seaborn, visual_style: colorful}
+- {chart_type: fan_chart, language: en-US, theme: inflation, library: plotly, visual_style: default}
+- {chart_type: line, language: en-US, theme: banking_credit, library: altair, visual_style: monochrome}
+- {chart_type: candlestick_volume, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: errorbar, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: default}
+- {chart_type: line, language: zh-CN, theme: commodities, library: altair, visual_style: minimal}
+- {chart_type: area, language: zh-CN, theme: fixed_income, library: matplotlib, visual_style: default}
+- {chart_type: candlestick_volume, language: en-US, theme: derivatives, library: plotly,
+  visual_style: gradient}
+- {chart_type: renko, language: zh-CN, theme: derivatives, library: mplfinance, visual_style: default}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: commodities, library: plotly,
+  visual_style: default}
+- {chart_type: bar, language: en-US, theme: real_estate, library: seaborn, visual_style: dark_professional}
+- {chart_type: line_band_overlay, language: zh-CN, theme: fixed_income, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: renko, language: en-US, theme: commodities, library: mplfinance, visual_style: default}
+- {chart_type: ichimoku_cloud, language: en-US, theme: commodities, library: plotly,
+  visual_style: colorful}
+- {chart_type: candlestick, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: retro}
+- {chart_type: candlestick_indicator, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: candlestick_volume, language: en-US, theme: commodities, library: plotly,
+  visual_style: colorful}
+- {chart_type: candlestick_volume, language: en-US, theme: derivatives, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: box, language: zh-CN, theme: corporate_finance, library: plotly, visual_style: dark_professional}
+- {chart_type: candlestick, language: en-US, theme: derivatives, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: line, language: zh-CN, theme: fixed_income, library: seaborn, visual_style: minimal}
+- {chart_type: area, language: en-US, theme: banking_credit, library: seaborn, visual_style: dark_professional}
+- {chart_type: line, language: en-US, theme: inflation, library: seaborn, visual_style: default}
+- {chart_type: line, language: zh-CN, theme: growth_employment, library: altair, visual_style: newspaper}
+- {chart_type: candlestick, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: newspaper}
+- {chart_type: ohlc, language: en-US, theme: digital_assets, library: plotly, visual_style: monochrome}
+- {chart_type: line_band_overlay, language: zh-CN, theme: commodities, library: matplotlib,
+  visual_style: retro}
+- {chart_type: bollinger_bands, language: en-US, theme: commodities, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: pie, language: en-US, theme: ma_ipos, library: plotly, visual_style: dark_professional}
+- {chart_type: bar_line_overlay, language: en-US, theme: banking_credit, library: matplotlib,
+  visual_style: monochrome}
+- {chart_type: pie, language: zh-CN, theme: fiscal_policy, library: matplotlib, visual_style: default}
+- {chart_type: line, language: zh-CN, theme: fixed_income, library: seaborn, visual_style: dark_professional}
+- {chart_type: bubble, language: en-US, theme: ma_ipos, library: plotly, visual_style: dark_professional}
+- {chart_type: histogram, language: zh-CN, theme: inflation, library: plotly, visual_style: default}
+- {chart_type: bollinger_bands, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: area, language: zh-CN, theme: fixed_income, library: matplotlib, visual_style: monochrome}
+- {chart_type: heatmap, language: zh-CN, theme: derivatives, library: plotly, visual_style: default}
+- {chart_type: area, language: en-US, theme: fiscal_policy, library: altair, visual_style: dark_professional}
+- {chart_type: bar, language: en-US, theme: ma_ipos, library: matplotlib, visual_style: dark_professional}
+- {chart_type: bubble, language: en-US, theme: asset_management, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: candlestick, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: newspaper}
+- {chart_type: bollinger_bands, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: retro}
+- {chart_type: line, language: zh-CN, theme: macro_policy, library: bokeh, visual_style: colorful}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: derivatives, library: plotly,
+  visual_style: newspaper}
+- {chart_type: line_band_overlay, language: en-US, theme: banking_credit, library: plotly,
+  visual_style: default}
+- {chart_type: candlestick_volume, language: en-US, theme: derivatives, library: plotly,
+  visual_style: default}
+- {chart_type: bollinger_bands, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: newspaper}
+- {chart_type: line, language: zh-CN, theme: derivatives, library: bokeh, visual_style: newspaper}
+- {chart_type: waterfall, language: en-US, theme: payments_fintech, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: candlestick_volume, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: retro}
+- {chart_type: renko, language: zh-CN, theme: fx_trade, library: mplfinance, visual_style: minimal}
+- {chart_type: candlestick, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: retro}
+- {chart_type: heatmap, language: zh-CN, theme: derivatives, library: plotly, visual_style: dark_professional}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: equity_markets, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: candlestick, language: en-US, theme: fx_trade, library: plotly, visual_style: colorful}
+- {chart_type: treemap, language: en-US, theme: asset_management, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: density, language: zh-CN, theme: fx_trade, library: seaborn, visual_style: default}
+- {chart_type: renko, language: en-US, theme: commodities, library: mplfinance, visual_style: minimal}
+- {chart_type: contour, language: en-US, theme: commodities, library: plotly, visual_style: dark_professional}
+- {chart_type: treemap, language: zh-CN, theme: insurance, library: plotly, visual_style: default}
+- {chart_type: volume_profile, language: zh-CN, theme: commodities, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: candlestick, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: newspaper}
+- {chart_type: bollinger_bands, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: newspaper}
+- {chart_type: histogram, language: en-US, theme: risk_regulation, library: plotly,
+  visual_style: minimal}
+- {chart_type: line_band_overlay, language: zh-CN, theme: macro_policy, library: matplotlib,
+  visual_style: colorful}
+- {chart_type: candlestick_volume, language: en-US, theme: commodities, library: plotly,
+  visual_style: minimal}
+- {chart_type: line, language: zh-CN, theme: fixed_income, library: altair, visual_style: colorful}
+- {chart_type: candlestick_volume, language: en-US, theme: derivatives, library: plotly,
+  visual_style: minimal}
+- {chart_type: scatter, language: zh-CN, theme: fx_trade, library: seaborn, visual_style: default}
+- {chart_type: candlestick, language: en-US, theme: commodities, library: plotly,
+  visual_style: gradient}
+- {chart_type: ichimoku_cloud, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: line_band_overlay, language: zh-CN, theme: macro_policy, library: matplotlib,
+  visual_style: newspaper}
+- {chart_type: area, language: zh-CN, theme: macro_policy, library: matplotlib, visual_style: colorful}
+- {chart_type: bollinger_bands, language: en-US, theme: commodities, library: plotly,
+  visual_style: minimal}
+- {chart_type: candlestick_volume, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: gradient}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: macro_policy, library: plotly,
+  visual_style: default}
+- {chart_type: area, language: en-US, theme: inflation, library: seaborn, visual_style: dark_professional}
+- {chart_type: renko, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: default}
+- {chart_type: candlestick, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: default}
+- {chart_type: scatter, language: zh-CN, theme: derivatives, library: plotly, visual_style: dark_professional}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: commodities, library: plotly,
+  visual_style: retro}
+- {chart_type: heatmap_scatter, language: zh-CN, theme: banking_credit, library: seaborn,
+  visual_style: default}
+- {chart_type: bollinger_bands, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: heatmap, language: zh-CN, theme: equity_markets, library: seaborn,
+  visual_style: colorful}
+- {chart_type: scatter, language: en-US, theme: fiscal_policy, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: box, language: zh-CN, theme: asset_management, library: seaborn, visual_style: dark_professional}
+- {chart_type: candlestick_volume, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: default}
+- {chart_type: renko, language: en-US, theme: derivatives, library: mplfinance, visual_style: dark_professional}
+- {chart_type: bar, language: zh-CN, theme: accounting_reporting, library: plotly,
+  visual_style: newspaper}
+- {chart_type: area, language: en-US, theme: fiscal_policy, library: altair, visual_style: gradient}
+- {chart_type: line, language: zh-CN, theme: commodities, library: seaborn, visual_style: default}
+- {chart_type: candlestick_volume, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: default}
+- {chart_type: histogram, language: en-US, theme: digital_assets, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: bubble, language: zh-CN, theme: esg_sustainable, library: matplotlib,
+  visual_style: default}
+- {chart_type: waterfall, language: en-US, theme: payments_fintech, library: matplotlib,
+  visual_style: default}
+- {chart_type: density, language: zh-CN, theme: inflation, library: seaborn, visual_style: default}
+- {chart_type: candlestick, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: volume_profile, language: zh-CN, theme: fx_trade, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: candlestick_volume, language: en-US, theme: commodities, library: plotly,
+  visual_style: retro}
+- {chart_type: ohlc, language: en-US, theme: digital_assets, library: plotly, visual_style: minimal}
+- {chart_type: candlestick_volume, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: newspaper}
+- {chart_type: candlestick, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: gradient}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: equity_markets, library: plotly,
+  visual_style: minimal}
+- {chart_type: fan_chart, language: zh-CN, theme: fixed_income, library: matplotlib,
+  visual_style: default}
+- {chart_type: waterfall, language: zh-CN, theme: fiscal_policy, library: plotly,
+  visual_style: default}
+- {chart_type: ohlc, language: en-US, theme: commodities, library: plotly, visual_style: minimal}
+- {chart_type: bollinger_bands, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: colorful}
+- {chart_type: candlestick_indicator, language: en-US, theme: commodities, library: plotly,
+  visual_style: default}
+- {chart_type: ohlc, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: monochrome}
+- {chart_type: area, language: zh-CN, theme: derivatives, library: plotly, visual_style: default}
+- {chart_type: candlestick, language: en-US, theme: commodities, library: plotly,
+  visual_style: default}
+- {chart_type: bar_line_overlay, language: en-US, theme: fx_trade, library: matplotlib,
+  visual_style: newspaper}
+- {chart_type: fan_chart, language: zh-CN, theme: macro_policy, library: matplotlib,
+  visual_style: default}
+- {chart_type: ichimoku_cloud, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: colorful}
+- {chart_type: area, language: zh-CN, theme: equity_markets, library: matplotlib,
+  visual_style: newspaper}
+- {chart_type: point_figure, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: default}
+- {chart_type: candlestick_volume, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: newspaper}
+- {chart_type: radar, language: en-US, theme: asset_management, library: matplotlib,
+  visual_style: default}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: fixed_income, library: plotly,
+  visual_style: colorful}
+- {chart_type: candlestick_volume, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: default}
+- {chart_type: scatter, language: en-US, theme: fiscal_policy, library: seaborn, visual_style: default}
+- {chart_type: candlestick_volume, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: retro}
+- {chart_type: line, language: zh-CN, theme: equity_markets, library: plotly, visual_style: colorful}
+- {chart_type: waterfall, language: zh-CN, theme: esg_sustainable, library: plotly,
+  visual_style: default}
+- {chart_type: ohlc, language: en-US, theme: derivatives, library: plotly, visual_style: monochrome}
+- {chart_type: ohlc, language: en-US, theme: commodities, library: plotly, visual_style: dark_professional}
+- {chart_type: line_band_overlay, language: zh-CN, theme: derivatives, library: matplotlib,
+  visual_style: retro}
+- {chart_type: candlestick_indicator, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: minimal}
+- {chart_type: bar, language: en-US, theme: esg_sustainable, library: seaborn, visual_style: minimal}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: derivatives, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: area, language: zh-CN, theme: fixed_income, library: matplotlib, visual_style: default}
+- {chart_type: candlestick_indicator, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: default}
+- {chart_type: waterfall_line, language: en-US, theme: asset_management, library: matplotlib,
+  visual_style: default}
+- {chart_type: candlestick, language: en-US, theme: fx_trade, library: plotly, visual_style: minimal}
+- {chart_type: candlestick, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: monochrome}
+- {chart_type: area, language: en-US, theme: digital_assets, library: altair, visual_style: dark_professional}
+- {chart_type: line, language: zh-CN, theme: fixed_income, library: altair, visual_style: colorful}
+- {chart_type: candlestick, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: ohlc, language: en-US, theme: equity_markets, library: plotly, visual_style: newspaper}
+- {chart_type: sankey, language: en-US, theme: payments_fintech, library: plotly,
+  visual_style: default}
+- {chart_type: heatmap, language: zh-CN, theme: banking_credit, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: pie, language: en-US, theme: banking_credit, library: plotly, visual_style: default}
+- {chart_type: candlestick_volume, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: area, language: en-US, theme: banking_credit, library: seaborn, visual_style: monochrome}
+- {chart_type: line, language: zh-CN, theme: growth_employment, library: seaborn,
+  visual_style: colorful}
+- {chart_type: candlestick, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: bollinger_bands, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: default}
+- {chart_type: ohlc, language: zh-CN, theme: derivatives, library: mplfinance, visual_style: newspaper}
+- {chart_type: point_figure, language: en-US, theme: fx_trade, library: mplfinance,
+  visual_style: default}
+- {chart_type: bar_line_overlay, language: en-US, theme: inflation, library: matplotlib,
+  visual_style: newspaper}
+- {chart_type: line, language: zh-CN, theme: growth_employment, library: matplotlib,
+  visual_style: monochrome}
+- {chart_type: line_band_overlay, language: zh-CN, theme: commodities, library: matplotlib,
+  visual_style: default}
+- {chart_type: candlestick_volume, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: box, language: zh-CN, theme: accounting_reporting, library: seaborn,
+  visual_style: minimal}
+- {chart_type: area, language: zh-CN, theme: macro_policy, library: matplotlib, visual_style: monochrome}
+- {chart_type: area, language: zh-CN, theme: derivatives, library: plotly, visual_style: minimal}
+- {chart_type: candlestick_volume, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: default}
+- {chart_type: errorbar, language: en-US, theme: fiscal_policy, library: plotly, visual_style: default}
+- {chart_type: area, language: en-US, theme: digital_assets, library: altair, visual_style: minimal}
+- {chart_type: radar, language: en-US, theme: banking_credit, library: matplotlib,
+  visual_style: default}
+- {chart_type: line, language: en-US, theme: real_estate, library: bokeh, visual_style: dark_professional}
+- {chart_type: bar, language: en-US, theme: equity_markets, library: seaborn, visual_style: colorful}
+- {chart_type: candlestick, language: en-US, theme: fx_trade, library: plotly, visual_style: retro}
+- {chart_type: gantt, language: zh-CN, theme: corporate_finance, library: plotly,
+  visual_style: default}
+- {chart_type: bollinger_bands, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: bar, language: zh-CN, theme: fx_trade, library: matplotlib, visual_style: colorful}
+- {chart_type: line_band_overlay, language: zh-CN, theme: growth_employment, library: matplotlib,
+  visual_style: colorful}
+- {chart_type: point_figure, language: en-US, theme: equity_markets, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: histogram, language: zh-CN, theme: banking_credit, library: seaborn,
+  visual_style: dark_professional}
+- {chart_type: ichimoku_cloud, language: en-US, theme: commodities, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: bollinger_bands, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: heatmap, language: zh-CN, theme: equity_markets, library: seaborn,
+  visual_style: default}
+- {chart_type: ohlc, language: zh-CN, theme: derivatives, library: mplfinance, visual_style: monochrome}
+- {chart_type: line, language: en-US, theme: digital_assets, library: bokeh, visual_style: monochrome}
+- {chart_type: ohlc, language: en-US, theme: fx_trade, library: plotly, visual_style: newspaper}
+- {chart_type: area, language: en-US, theme: real_estate, library: altair, visual_style: minimal}
+- {chart_type: line, language: en-US, theme: banking_credit, library: bokeh, visual_style: colorful}
+- {chart_type: bubble, language: zh-CN, theme: esg_sustainable, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: line, language: en-US, theme: inflation, library: seaborn, visual_style: gradient}
+- {chart_type: renko, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: line, language: en-US, theme: inflation, library: seaborn, visual_style: gradient}
+- {chart_type: box, language: zh-CN, theme: fixed_income, library: seaborn, visual_style: default}
+- {chart_type: ichimoku_cloud, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: line, language: en-US, theme: banking_credit, library: matplotlib,
+  visual_style: default}
+- {chart_type: waterfall, language: en-US, theme: ma_ipos, library: matplotlib, visual_style: dark_professional}
+- {chart_type: candlestick_indicator, language: en-US, theme: derivatives, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: candlestick_volume, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: volume_profile, language: zh-CN, theme: derivatives, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: area, language: zh-CN, theme: equity_markets, library: matplotlib,
+  visual_style: default}
+- {chart_type: bar, language: zh-CN, theme: inflation, library: plotly, visual_style: default}
+- {chart_type: point_figure, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: ichimoku_cloud, language: en-US, theme: commodities, library: plotly,
+  visual_style: minimal}
+- {chart_type: line, language: en-US, theme: banking_credit, library: plotly, visual_style: minimal}
+- {chart_type: fan_chart, language: zh-CN, theme: growth_employment, library: matplotlib,
+  visual_style: default}
+- {chart_type: bubble, language: zh-CN, theme: fiscal_policy, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: bollinger_bands, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: ichimoku_cloud, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: minimal}
+- {chart_type: area, language: en-US, theme: inflation, library: seaborn, visual_style: dark_professional}
+- {chart_type: area, language: zh-CN, theme: commodities, library: plotly, visual_style: default}
+- {chart_type: line, language: zh-CN, theme: fixed_income, library: bokeh, visual_style: default}
+- {chart_type: ohlc, language: en-US, theme: digital_assets, library: plotly, visual_style: default}
+- {chart_type: line, language: zh-CN, theme: equity_markets, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: line_band_overlay, language: zh-CN, theme: equity_markets, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: line, language: zh-CN, theme: fixed_income, library: bokeh, visual_style: default}
+- {chart_type: candlestick_volume, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: gradient}
+- {chart_type: candlestick, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: retro}
+- {chart_type: candlestick, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: area, language: en-US, theme: real_estate, library: altair, visual_style: default}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: fixed_income, library: plotly,
+  visual_style: default}
+- {chart_type: candlestick, language: en-US, theme: fx_trade, library: plotly, visual_style: default}
+- {chart_type: candlestick_indicator, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: minimal}
+- {chart_type: histogram, language: zh-CN, theme: macro_policy, library: plotly, visual_style: minimal}
+- {chart_type: line_band_overlay, language: en-US, theme: fiscal_policy, library: plotly,
+  visual_style: colorful}
+- {chart_type: histogram, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: default}
+- {chart_type: bar_line_overlay, language: en-US, theme: fx_trade, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: histogram, language: zh-CN, theme: corporate_finance, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: ohlc, language: zh-CN, theme: fx_trade, library: mplfinance, visual_style: retro}
+- {chart_type: candlestick_volume, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: default}
+- {chart_type: scatter, language: en-US, theme: growth_employment, library: plotly,
+  visual_style: minimal}
+- {chart_type: line_band_overlay, language: en-US, theme: real_estate, library: plotly,
+  visual_style: colorful}
+- {chart_type: point_figure, language: en-US, theme: fx_trade, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: contour, language: en-US, theme: fx_trade, library: plotly, visual_style: default}
+- {chart_type: ichimoku_cloud, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: newspaper}
+- {chart_type: candlestick, language: en-US, theme: fx_trade, library: plotly, visual_style: minimal}
+- {chart_type: area, language: zh-CN, theme: fixed_income, library: matplotlib, visual_style: dark_professional}
+- {chart_type: line, language: en-US, theme: inflation, library: altair, visual_style: dark_professional}
+- {chart_type: candlestick_volume, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: line_band_overlay, language: zh-CN, theme: derivatives, library: matplotlib,
+  visual_style: newspaper}
+- {chart_type: line, language: zh-CN, theme: macro_policy, library: bokeh, visual_style: minimal}
+- {chart_type: bollinger_bands, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: newspaper}
+- {chart_type: area, language: en-US, theme: digital_assets, library: altair, visual_style: retro}
+- {chart_type: candlestick, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: newspaper}
+- {chart_type: ohlc, language: en-US, theme: equity_markets, library: plotly, visual_style: retro}
+- {chart_type: candlestick, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: bar_line_overlay, language: en-US, theme: digital_assets, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: candlestick, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: gradient}
+- {chart_type: ohlc, language: zh-CN, theme: derivatives, library: mplfinance, visual_style: dark_professional}
+- {chart_type: line_band_overlay, language: zh-CN, theme: equity_markets, library: matplotlib,
+  visual_style: retro}
+- {chart_type: heatmap, language: zh-CN, theme: equity_markets, library: seaborn,
+  visual_style: default}
+- {chart_type: candlestick, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: ohlc, language: en-US, theme: equity_markets, library: plotly, visual_style: dark_professional}
+- {chart_type: bubble, language: en-US, theme: asset_management, library: plotly,
+  visual_style: default}
+- {chart_type: bar, language: en-US, theme: insurance, library: plotly, visual_style: dark_professional}
+- {chart_type: bollinger_bands, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: monochrome}
+- {chart_type: area, language: en-US, theme: real_estate, library: altair, visual_style: monochrome}
+- {chart_type: ichimoku_cloud, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: default}
+- {chart_type: point_figure, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: candlestick_volume, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: default}
+- {chart_type: heatmap, language: en-US, theme: commodities, library: seaborn, visual_style: default}
+- {chart_type: line, language: zh-CN, theme: derivatives, library: matplotlib, visual_style: dark_professional}
+- {chart_type: area, language: zh-CN, theme: growth_employment, library: plotly, visual_style: dark_professional}
+- {chart_type: candlestick_volume, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: default}
+- {chart_type: bollinger_bands, language: en-US, theme: derivatives, library: plotly,
+  visual_style: newspaper}
+- {chart_type: line, language: en-US, theme: real_estate, library: seaborn, visual_style: colorful}
+- {chart_type: ichimoku_cloud, language: en-US, theme: derivatives, library: plotly,
+  visual_style: colorful}
+- {chart_type: candlestick_volume, language: en-US, theme: derivatives, library: plotly,
+  visual_style: monochrome}
+- {chart_type: candlestick, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: ohlc, language: zh-CN, theme: derivatives, library: mplfinance, visual_style: default}
+- {chart_type: bar, language: en-US, theme: fiscal_policy, library: matplotlib, visual_style: minimal}
+- {chart_type: candlestick_volume, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: minimal}
+- {chart_type: volume_profile, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: default}
+- {chart_type: candlestick_volume, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: retro}
+- {chart_type: line, language: zh-CN, theme: commodities, library: altair, visual_style: dark_professional}
+- {chart_type: bollinger_bands, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: retro}
+- {chart_type: ichimoku_cloud, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: colorful}
+- {chart_type: bollinger_bands, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: monochrome}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: growth_employment, library: plotly,
+  visual_style: monochrome}
+- {chart_type: line, language: en-US, theme: banking_credit, library: seaborn, visual_style: retro}
+- {chart_type: pie, language: zh-CN, theme: corporate_finance, library: matplotlib,
+  visual_style: default}
+- {chart_type: candlestick_indicator, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: default}
+- {chart_type: heatmap, language: zh-CN, theme: equity_markets, library: seaborn,
+  visual_style: minimal}
+- {chart_type: area, language: zh-CN, theme: growth_employment, library: plotly, visual_style: dark_professional}
+- {chart_type: candlestick_volume, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: ohlc, language: zh-CN, theme: commodities, library: mplfinance, visual_style: minimal}
+- {chart_type: treemap, language: zh-CN, theme: esg_sustainable, library: plotly,
+  visual_style: default}
+- {chart_type: histogram, language: en-US, theme: growth_employment, library: plotly,
+  visual_style: minimal}
+- {chart_type: area, language: en-US, theme: fiscal_policy, library: altair, visual_style: dark_professional}
+- {chart_type: point_figure, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: candlestick, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: default}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: macro_policy, library: plotly,
+  visual_style: monochrome}
+- {chart_type: ohlc, language: en-US, theme: fx_trade, library: plotly, visual_style: minimal}
+- {chart_type: box, language: zh-CN, theme: derivatives, library: plotly, visual_style: dark_professional}
+- {chart_type: candlestick, language: en-US, theme: commodities, library: plotly,
+  visual_style: default}
+- {chart_type: area, language: en-US, theme: inflation, library: seaborn, visual_style: default}
+- {chart_type: area, language: en-US, theme: real_estate, library: altair, visual_style: default}
+- {chart_type: scatter, language: zh-CN, theme: inflation, library: plotly, visual_style: default}
+- {chart_type: candlestick_volume, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: retro}
+- {chart_type: waterfall, language: zh-CN, theme: corporate_finance, library: plotly,
+  visual_style: default}
+- {chart_type: waterfall_line, language: en-US, theme: ma_ipos, library: matplotlib,
+  visual_style: default}
+- {chart_type: candlestick_volume, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: gradient}
+- {chart_type: renko, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: candlestick, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: default}
+- {chart_type: candlestick, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: gradient}
+- {chart_type: candlestick_volume, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: monochrome}
+- {chart_type: area, language: en-US, theme: inflation, library: seaborn, visual_style: newspaper}
+- {chart_type: candlestick, language: en-US, theme: derivatives, library: plotly,
+  visual_style: monochrome}
+- {chart_type: candlestick, language: en-US, theme: commodities, library: plotly,
+  visual_style: colorful}
+- {chart_type: candlestick_indicator, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: candlestick_indicator, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: default}
+- {chart_type: candlestick, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: newspaper}
+- {chart_type: line, language: zh-CN, theme: equity_markets, library: altair, visual_style: default}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: commodities, library: plotly,
+  visual_style: minimal}
+- {chart_type: scatter, language: zh-CN, theme: accounting_reporting, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: treemap, language: en-US, theme: payments_fintech, library: plotly,
+  visual_style: default}
+- {chart_type: bar_line_overlay, language: en-US, theme: real_estate, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: volume_profile, language: zh-CN, theme: derivatives, library: matplotlib,
+  visual_style: default}
+- {chart_type: line_band_overlay, language: zh-CN, theme: equity_markets, library: matplotlib,
+  visual_style: newspaper}
+- {chart_type: candlestick, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: line, language: zh-CN, theme: commodities, library: matplotlib, visual_style: colorful}
+- {chart_type: scatter, language: zh-CN, theme: macro_policy, library: plotly, visual_style: minimal}
+- {chart_type: heatmap, language: zh-CN, theme: banking_credit, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: line, language: zh-CN, theme: commodities, library: bokeh, visual_style: monochrome}
+- {chart_type: candlestick_indicator, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: colorful}
+- {chart_type: density, language: en-US, theme: growth_employment, library: matplotlib,
+  visual_style: default}
+- {chart_type: candlestick_volume, language: en-US, theme: commodities, library: plotly,
+  visual_style: monochrome}
+- {chart_type: candlestick_volume, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: colorful}
+- {chart_type: line, language: zh-CN, theme: fixed_income, library: bokeh, visual_style: gradient}
+- {chart_type: ohlc, language: en-US, theme: commodities, library: plotly, visual_style: monochrome}
+- {chart_type: histogram, language: zh-CN, theme: asset_management, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: bubble, language: zh-CN, theme: corporate_finance, library: matplotlib,
+  visual_style: default}
+- {chart_type: candlestick_volume, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: heatmap_scatter, language: zh-CN, theme: equity_markets, library: seaborn,
+  visual_style: default}
+- {chart_type: bar_line_overlay, language: en-US, theme: real_estate, library: matplotlib,
+  visual_style: retro}
+- {chart_type: candlestick, language: en-US, theme: derivatives, library: plotly,
+  visual_style: newspaper}
+- {chart_type: box, language: en-US, theme: real_estate, library: matplotlib, visual_style: dark_professional}
+- {chart_type: line_band_overlay, language: en-US, theme: real_estate, library: plotly,
+  visual_style: default}
+- {chart_type: waterfall, language: en-US, theme: ma_ipos, library: matplotlib, visual_style: default}
+- {chart_type: line, language: en-US, theme: inflation, library: plotly, visual_style: newspaper}
+- {chart_type: heatmap, language: zh-CN, theme: derivatives, library: plotly, visual_style: minimal}
+- {chart_type: pie, language: en-US, theme: payments_fintech, library: plotly, visual_style: dark_professional}
+- {chart_type: area, language: zh-CN, theme: macro_policy, library: matplotlib, visual_style: default}
+- {chart_type: line, language: en-US, theme: digital_assets, library: altair, visual_style: minimal}
+- {chart_type: scatter, language: zh-CN, theme: fx_trade, library: matplotlib, visual_style: colorful}
+- {chart_type: sankey, language: zh-CN, theme: corporate_finance, library: plotly,
+  visual_style: default}
+- {chart_type: line, language: en-US, theme: banking_credit, library: seaborn, visual_style: newspaper}
+- {chart_type: line, language: en-US, theme: real_estate, library: matplotlib, visual_style: monochrome}
+- {chart_type: candlestick_volume, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: contour, language: zh-CN, theme: equity_markets, library: matplotlib,
+  visual_style: default}
+- {chart_type: line, language: zh-CN, theme: macro_policy, library: matplotlib, visual_style: gradient}
+- {chart_type: candlestick_volume, language: en-US, theme: derivatives, library: plotly,
+  visual_style: colorful}
+- {chart_type: line, language: en-US, theme: digital_assets, library: plotly, visual_style: retro}
+- {chart_type: area, language: zh-CN, theme: derivatives, library: plotly, visual_style: retro}
+- {chart_type: candlestick, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: gradient}
+- {chart_type: candlestick, language: en-US, theme: derivatives, library: plotly,
+  visual_style: default}
+- {chart_type: box, language: en-US, theme: ma_ipos, library: seaborn, visual_style: dark_professional}
+- {chart_type: candlestick, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: area, language: zh-CN, theme: equity_markets, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: line, language: en-US, theme: real_estate, library: altair, visual_style: retro}
+- {chart_type: bollinger_bands, language: en-US, theme: derivatives, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: line, language: zh-CN, theme: growth_employment, library: seaborn,
+  visual_style: minimal}
+- {chart_type: candlestick_volume, language: en-US, theme: commodities, library: plotly,
+  visual_style: minimal}
+- {chart_type: bollinger_bands, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: newspaper}
+- {chart_type: node, language: zh-CN, theme: corporate_finance, library: plotly, visual_style: default}
+- {chart_type: heatmap, language: en-US, theme: fixed_income, library: plotly, visual_style: dark_professional}
+- {chart_type: candlestick, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: candlestick_volume, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: monochrome}
+- {chart_type: line_band_overlay, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: minimal}
+- {chart_type: node, language: en-US, theme: ma_ipos, library: plotly, visual_style: default}
+- {chart_type: area, language: en-US, theme: fiscal_policy, library: altair, visual_style: newspaper}
+- {chart_type: candlestick, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: renko, language: en-US, theme: equity_markets, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: waterfall, language: en-US, theme: asset_management, library: matplotlib,
+  visual_style: default}
+- {chart_type: ohlc, language: zh-CN, theme: fx_trade, library: mplfinance, visual_style: newspaper}
+- {chart_type: ohlc, language: en-US, theme: fx_trade, library: plotly, visual_style: default}
+- {chart_type: line, language: en-US, theme: digital_assets, library: plotly, visual_style: retro}
+- {chart_type: heatmap, language: zh-CN, theme: banking_credit, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: area, language: zh-CN, theme: commodities, library: plotly, visual_style: colorful}
+- {chart_type: ohlc, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: candlestick, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: colorful}
+- {chart_type: line_band_overlay, language: zh-CN, theme: growth_employment, library: matplotlib,
+  visual_style: default}
+- {chart_type: area, language: en-US, theme: banking_credit, library: seaborn, visual_style: colorful}
+- {chart_type: renko, language: zh-CN, theme: fx_trade, library: mplfinance, visual_style: default}
+- {chart_type: bar, language: en-US, theme: commodities, library: seaborn, visual_style: default}
+- {chart_type: node, language: en-US, theme: asset_management, library: plotly, visual_style: default}
+- {chart_type: candlestick_volume, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: histogram, language: en-US, theme: insurance, library: plotly, visual_style: dark_professional}
+- {chart_type: candlestick_indicator, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: histogram, language: zh-CN, theme: payments_fintech, library: seaborn,
+  visual_style: minimal}
+- {chart_type: bollinger_bands, language: en-US, theme: commodities, library: plotly,
+  visual_style: retro}
+- {chart_type: bollinger_bands, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: volume_profile, language: zh-CN, theme: fx_trade, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: ichimoku_cloud, language: en-US, theme: derivatives, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: bollinger_bands, language: en-US, theme: derivatives, library: plotly,
+  visual_style: monochrome}
+- {chart_type: candlestick_volume, language: en-US, theme: commodities, library: plotly,
+  visual_style: default}
+- {chart_type: line_band_overlay, language: en-US, theme: inflation, library: plotly,
+  visual_style: default}
+- {chart_type: pie, language: en-US, theme: ma_ipos, library: plotly, visual_style: default}
+- {chart_type: point_figure, language: en-US, theme: commodities, library: mplfinance,
+  visual_style: default}
+- {chart_type: bar_line_overlay, language: en-US, theme: fiscal_policy, library: matplotlib,
+  visual_style: monochrome}
+- {chart_type: bollinger_bands, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: newspaper}
+- {chart_type: candlestick, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: default}
+- {chart_type: area, language: zh-CN, theme: fixed_income, library: matplotlib, visual_style: colorful}
+- {chart_type: heatmap, language: zh-CN, theme: equity_markets, library: seaborn,
+  visual_style: dark_professional}
+- {chart_type: line, language: en-US, theme: fiscal_policy, library: altair, visual_style: gradient}
+- {chart_type: candlestick_volume, language: en-US, theme: derivatives, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: candlestick, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: bollinger_bands, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: fan_chart, language: zh-CN, theme: equity_markets, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: ohlc, language: en-US, theme: fx_trade, library: plotly, visual_style: retro}
+- {chart_type: bollinger_bands, language: en-US, theme: derivatives, library: plotly,
+  visual_style: colorful}
+- {chart_type: pie, language: zh-CN, theme: corporate_finance, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: contour, language: zh-CN, theme: derivatives, library: matplotlib,
+  visual_style: default}
+- {chart_type: area, language: en-US, theme: inflation, library: seaborn, visual_style: gradient}
+- {chart_type: bar_line_overlay, language: en-US, theme: inflation, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: candlestick, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: candlestick_volume, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: bubble, language: en-US, theme: ma_ipos, library: plotly, visual_style: default}
+- {chart_type: candlestick_volume, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: ichimoku_cloud, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: candlestick, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: commodities, library: plotly,
+  visual_style: colorful}
+- {chart_type: candlestick, language: en-US, theme: commodities, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: bar, language: zh-CN, theme: asset_management, library: plotly, visual_style: newspaper}
+- {chart_type: treemap, language: en-US, theme: banking_credit, library: plotly, visual_style: default}
+- {chart_type: bollinger_bands, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: newspaper}
+- {chart_type: line, language: zh-CN, theme: derivatives, library: plotly, visual_style: minimal}
+- {chart_type: bollinger_bands, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: retro}
+- {chart_type: line, language: en-US, theme: inflation, library: plotly, visual_style: newspaper}
+- {chart_type: candlestick, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: retro}
+- {chart_type: ohlc, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: area, language: zh-CN, theme: macro_policy, library: matplotlib, visual_style: dark_professional}
+- {chart_type: bar_line_overlay, language: en-US, theme: digital_assets, library: matplotlib,
+  visual_style: retro}
+- {chart_type: candlestick, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: default}
+- {chart_type: candlestick, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: monochrome}
+- {chart_type: sankey, language: en-US, theme: ma_ipos, library: plotly, visual_style: default}
+- {chart_type: area, language: en-US, theme: digital_assets, library: altair, visual_style: newspaper}
+- {chart_type: candlestick_volume, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: retro}
+- {chart_type: bollinger_bands, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: retro}
+- {chart_type: area, language: en-US, theme: fiscal_policy, library: altair, visual_style: monochrome}
+- {chart_type: volume_profile, language: en-US, theme: commodities, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: histogram, language: en-US, theme: growth_employment, library: matplotlib,
+  visual_style: default}
+- {chart_type: scatter, language: en-US, theme: growth_employment, library: matplotlib,
+  visual_style: default}
+- {chart_type: bar, language: zh-CN, theme: derivatives, library: seaborn, visual_style: colorful}
+- {chart_type: bar, language: zh-CN, theme: fixed_income, library: matplotlib, visual_style: default}
+- {chart_type: candlestick, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: retro}
+- {chart_type: line, language: en-US, theme: real_estate, library: seaborn, visual_style: colorful}
+- {chart_type: waterfall, language: zh-CN, theme: fiscal_policy, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: ohlc, language: en-US, theme: derivatives, library: plotly, visual_style: dark_professional}
+- {chart_type: candlestick_indicator, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: line, language: zh-CN, theme: growth_employment, library: bokeh, visual_style: dark_professional}
+- {chart_type: ohlc, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: retro}
+- {chart_type: gantt, language: en-US, theme: asset_management, library: plotly, visual_style: default}
+- {chart_type: box, language: en-US, theme: growth_employment, library: seaborn, visual_style: default}
+- {chart_type: candlestick_volume, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: bar_line_overlay, language: en-US, theme: digital_assets, library: matplotlib,
+  visual_style: newspaper}
+- {chart_type: bollinger_bands, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: default}
+- {chart_type: candlestick, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: default}
+- {chart_type: candlestick, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: area, language: zh-CN, theme: commodities, library: plotly, visual_style: monochrome}
+- {chart_type: ichimoku_cloud, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: candlestick_volume, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: retro}
+- {chart_type: bollinger_bands, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: default}
+- {chart_type: line, language: en-US, theme: digital_assets, library: matplotlib,
+  visual_style: newspaper}
+- {chart_type: ohlc, language: zh-CN, theme: fx_trade, library: mplfinance, visual_style: default}
+- {chart_type: waterfall, language: zh-CN, theme: insurance, library: plotly, visual_style: dark_professional}
+- {chart_type: candlestick_indicator, language: en-US, theme: derivatives, library: plotly,
+  visual_style: colorful}
+- {chart_type: candlestick_indicator, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: default}
+- {chart_type: line, language: zh-CN, theme: growth_employment, library: altair, visual_style: newspaper}
+- {chart_type: candlestick, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: line, language: zh-CN, theme: macro_policy, library: plotly, visual_style: dark_professional}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: macro_policy, library: plotly,
+  visual_style: colorful}
+- {chart_type: line, language: zh-CN, theme: equity_markets, library: seaborn, visual_style: monochrome}
+- {chart_type: ohlc, language: zh-CN, theme: commodities, library: mplfinance, visual_style: default}
+- {chart_type: candlestick_volume, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: monochrome}
+- {chart_type: scatter, language: zh-CN, theme: macro_policy, library: matplotlib,
+  visual_style: default}
+- {chart_type: candlestick, language: en-US, theme: fx_trade, library: plotly, visual_style: gradient}
+- {chart_type: candlestick_volume, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: default}
+- {chart_type: ohlc, language: en-US, theme: commodities, library: plotly, visual_style: colorful}
+- {chart_type: area, language: en-US, theme: real_estate, library: altair, visual_style: dark_professional}
+- {chart_type: line_band_overlay, language: zh-CN, theme: derivatives, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: ohlc, language: en-US, theme: commodities, library: plotly, visual_style: retro}
+- {chart_type: line, language: en-US, theme: fiscal_policy, library: bokeh, visual_style: newspaper}
+- {chart_type: candlestick_volume, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: newspaper}
+- {chart_type: line, language: zh-CN, theme: growth_employment, library: matplotlib,
+  visual_style: retro}
+- {chart_type: scatter, language: en-US, theme: risk_regulation, library: plotly,
+  visual_style: minimal}
+- {chart_type: histogram, language: zh-CN, theme: inflation, library: seaborn, visual_style: minimal}
+- {chart_type: errorbar, language: zh-CN, theme: inflation, library: matplotlib, visual_style: default}
+- {chart_type: candlestick_volume, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: default}
+- {chart_type: candlestick, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: minimal}
+- {chart_type: area, language: zh-CN, theme: derivatives, library: plotly, visual_style: gradient}
+- {chart_type: gantt, language: zh-CN, theme: esg_sustainable, library: plotly, visual_style: default}
+- {chart_type: candlestick_volume, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: default}
+- {chart_type: area, language: zh-CN, theme: equity_markets, library: matplotlib,
+  visual_style: gradient}
+- {chart_type: bubble, language: zh-CN, theme: insurance, library: matplotlib, visual_style: default}
+- {chart_type: heatmap, language: en-US, theme: commodities, library: seaborn, visual_style: minimal}
+- {chart_type: candlestick_indicator, language: en-US, theme: derivatives, library: plotly,
+  visual_style: minimal}
+- {chart_type: fan_chart, language: en-US, theme: banking_credit, library: plotly,
+  visual_style: default}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: fixed_income, library: plotly,
+  visual_style: retro}
+- {chart_type: line, language: en-US, theme: fx_trade, library: matplotlib, visual_style: retro}
+- {chart_type: waterfall, language: zh-CN, theme: insurance, library: plotly, visual_style: default}
+- {chart_type: candlestick_indicator, language: en-US, theme: commodities, library: plotly,
+  visual_style: minimal}
+- {chart_type: candlestick_volume, language: en-US, theme: commodities, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: point_figure, language: en-US, theme: derivatives, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: bubble, language: en-US, theme: payments_fintech, library: plotly,
+  visual_style: default}
+- {chart_type: candlestick, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: gradient}
+- {chart_type: line, language: zh-CN, theme: commodities, library: plotly, visual_style: retro}
+- {chart_type: area, language: en-US, theme: banking_credit, library: seaborn, visual_style: default}
+- {chart_type: ohlc, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: default}
+- {chart_type: area, language: zh-CN, theme: growth_employment, library: plotly, visual_style: colorful}
+- {chart_type: renko, language: en-US, theme: digital_assets, library: mplfinance,
+  visual_style: default}
+- {chart_type: line, language: zh-CN, theme: macro_policy, library: seaborn, visual_style: newspaper}
+- {chart_type: area, language: en-US, theme: fiscal_policy, library: altair, visual_style: colorful}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: fixed_income, library: plotly,
+  visual_style: minimal}
+- {chart_type: errorbar, language: zh-CN, theme: macro_policy, library: matplotlib,
+  visual_style: default}
+- {chart_type: renko, language: zh-CN, theme: commodities, library: mplfinance, visual_style: minimal}
+- {chart_type: candlestick_volume, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: ohlc, language: zh-CN, theme: fx_trade, library: mplfinance, visual_style: dark_professional}
+- {chart_type: bar, language: en-US, theme: ma_ipos, library: plotly, visual_style: newspaper}
+- {chart_type: candlestick, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: area, language: zh-CN, theme: equity_markets, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: candlestick, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: histogram, language: en-US, theme: real_estate, library: seaborn, visual_style: dark_professional}
+- {chart_type: line, language: en-US, theme: fx_trade, library: matplotlib, visual_style: retro}
+- {chart_type: candlestick, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: candlestick_indicator, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: heatmap_scatter, language: en-US, theme: commodities, library: matplotlib,
+  visual_style: default}
+- {chart_type: line, language: zh-CN, theme: fixed_income, library: plotly, visual_style: monochrome}
+- {chart_type: scatter, language: zh-CN, theme: fixed_income, library: matplotlib,
+  visual_style: default}
+- {chart_type: bar, language: en-US, theme: digital_assets, library: plotly, visual_style: colorful}
+- {chart_type: sankey, language: en-US, theme: asset_management, library: plotly,
+  visual_style: default}
+- {chart_type: renko, language: zh-CN, theme: derivatives, library: mplfinance, visual_style: dark_professional}
+- {chart_type: line_band_overlay, language: en-US, theme: fiscal_policy, library: plotly,
+  visual_style: default}
+- {chart_type: candlestick, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: newspaper}
+- {chart_type: line_band_overlay, language: zh-CN, theme: derivatives, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: candlestick, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: newspaper}
+- {chart_type: candlestick, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: minimal}
+- {chart_type: contour, language: en-US, theme: commodities, library: plotly, visual_style: default}
+- {chart_type: scatter, language: en-US, theme: equity_markets, library: plotly, visual_style: default}
+- {chart_type: line, language: en-US, theme: inflation, library: bokeh, visual_style: retro}
+- {chart_type: line, language: zh-CN, theme: derivatives, library: altair, visual_style: monochrome}
+- {chart_type: density, language: en-US, theme: fiscal_policy, library: matplotlib,
+  visual_style: default}
+- {chart_type: area, language: zh-CN, theme: macro_policy, library: matplotlib, visual_style: dark_professional}
+- {chart_type: line, language: zh-CN, theme: derivatives, library: seaborn, visual_style: retro}
+- {chart_type: candlestick, language: en-US, theme: commodities, library: plotly,
+  visual_style: monochrome}
+- {chart_type: radar, language: zh-CN, theme: insurance, library: plotly, visual_style: default}
+- {chart_type: line, language: zh-CN, theme: equity_markets, library: altair, visual_style: dark_professional}
+- {chart_type: scatter, language: en-US, theme: commodities, library: seaborn, visual_style: default}
+- {chart_type: candlestick, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: monochrome}
+- {chart_type: ichimoku_cloud, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: default}
+- {chart_type: fan_chart, language: en-US, theme: fiscal_policy, library: plotly,
+  visual_style: default}
+- {chart_type: candlestick_indicator, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: default}
+- {chart_type: candlestick, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: newspaper}
+- {chart_type: candlestick_volume, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: minimal}
+- {chart_type: pie, language: zh-CN, theme: insurance, library: matplotlib, visual_style: default}
+- {chart_type: point_figure, language: en-US, theme: derivatives, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: candlestick_volume, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: default}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: fixed_income, library: plotly,
+  visual_style: monochrome}
+- {chart_type: point_figure, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: bollinger_bands, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: minimal}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: growth_employment, library: plotly,
+  visual_style: default}
+- {chart_type: ichimoku_cloud, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: default}
+- {chart_type: line, language: en-US, theme: fiscal_policy, library: matplotlib, visual_style: dark_professional}
+- {chart_type: line, language: zh-CN, theme: commodities, library: plotly, visual_style: newspaper}
+- {chart_type: ichimoku_cloud, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: heatmap, language: en-US, theme: fixed_income, library: plotly, visual_style: minimal}
+- {chart_type: line, language: en-US, theme: fx_trade, library: bokeh, visual_style: dark_professional}
+- {chart_type: line, language: zh-CN, theme: growth_employment, library: bokeh, visual_style: dark_professional}
+- {chart_type: contour, language: en-US, theme: fx_trade, library: plotly, visual_style: default}
+- {chart_type: ohlc, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: candlestick, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: monochrome}
+- {chart_type: area, language: en-US, theme: fx_trade, library: seaborn, visual_style: dark_professional}
+- {chart_type: heatmap, language: en-US, theme: fx_trade, library: matplotlib, visual_style: minimal}
+- {chart_type: box, language: en-US, theme: esg_sustainable, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: line_band_overlay, language: en-US, theme: fiscal_policy, library: plotly,
+  visual_style: newspaper}
+- {chart_type: candlestick_indicator, language: en-US, theme: commodities, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: line_band_overlay, language: zh-CN, theme: fixed_income, library: matplotlib,
+  visual_style: default}
+- {chart_type: candlestick, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: box, language: en-US, theme: equity_markets, library: plotly, visual_style: default}
+- {chart_type: bollinger_bands, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: retro}
+- {chart_type: ichimoku_cloud, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: heatmap, language: en-US, theme: fixed_income, library: plotly, visual_style: default}
+- {chart_type: radar, language: zh-CN, theme: corporate_finance, library: plotly,
+  visual_style: default}
+- {chart_type: line, language: en-US, theme: digital_assets, library: altair, visual_style: minimal}
+- {chart_type: line, language: zh-CN, theme: fixed_income, library: matplotlib, visual_style: retro}
+- {chart_type: renko, language: en-US, theme: digital_assets, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: renko, language: en-US, theme: fx_trade, library: mplfinance, visual_style: default}
+- {chart_type: heatmap, language: en-US, theme: fx_trade, library: matplotlib, visual_style: dark_professional}
+- {chart_type: ichimoku_cloud, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: newspaper}
+- {chart_type: line, language: zh-CN, theme: growth_employment, library: plotly, visual_style: gradient}
+- {chart_type: candlestick_volume, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: gradient}
+- {chart_type: line_band_overlay, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: newspaper}
+- {chart_type: volume_profile, language: zh-CN, theme: digital_assets, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: renko, language: zh-CN, theme: derivatives, library: mplfinance, visual_style: colorful}
+- {chart_type: bar, language: zh-CN, theme: payments_fintech, library: seaborn, visual_style: minimal}
+- {chart_type: area, language: en-US, theme: banking_credit, library: seaborn, visual_style: default}
+- {chart_type: line, language: zh-CN, theme: derivatives, library: plotly, visual_style: minimal}
+- {chart_type: bollinger_bands, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: colorful}
+- {chart_type: box, language: en-US, theme: insurance, library: plotly, visual_style: dark_professional}
+- {chart_type: histogram, language: en-US, theme: ma_ipos, library: matplotlib, visual_style: dark_professional}
+- {chart_type: bar, language: en-US, theme: real_estate, library: matplotlib, visual_style: newspaper}
+- {chart_type: bollinger_bands, language: en-US, theme: derivatives, library: plotly,
+  visual_style: minimal}
+- {chart_type: ohlc, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: monochrome}
+- {chart_type: heatmap, language: en-US, theme: fx_trade, library: matplotlib, visual_style: default}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: macro_policy, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: line, language: zh-CN, theme: derivatives, library: altair, visual_style: gradient}
+- {chart_type: candlestick, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: default}
+- {chart_type: bar_line_overlay, language: en-US, theme: real_estate, library: matplotlib,
+  visual_style: colorful}
+- {chart_type: ichimoku_cloud, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: default}
+- {chart_type: renko, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: scatter, language: zh-CN, theme: inflation, library: seaborn, visual_style: minimal}
+- {chart_type: line_band_overlay, language: en-US, theme: banking_credit, library: plotly,
+  visual_style: minimal}
+- {chart_type: candlestick, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: monochrome}
+- {chart_type: volume_profile, language: en-US, theme: commodities, library: plotly,
+  visual_style: default}
+- {chart_type: area, language: en-US, theme: fx_trade, library: seaborn, visual_style: newspaper}
+- {chart_type: bollinger_bands, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: default}
+- {chart_type: ichimoku_cloud, language: en-US, theme: derivatives, library: plotly,
+  visual_style: minimal}
+- {chart_type: pie, language: zh-CN, theme: insurance, library: matplotlib, visual_style: dark_professional}
+- {chart_type: candlestick, language: en-US, theme: fx_trade, library: plotly, visual_style: newspaper}
+- {chart_type: ohlc, language: en-US, theme: equity_markets, library: plotly, visual_style: colorful}
+- {chart_type: node, language: zh-CN, theme: insurance, library: plotly, visual_style: default}
+- {chart_type: candlestick_volume, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: retro}
+- {chart_type: line, language: zh-CN, theme: growth_employment, library: plotly, visual_style: default}
+- {chart_type: pie, language: en-US, theme: asset_management, library: plotly, visual_style: default}
+- {chart_type: area, language: en-US, theme: real_estate, library: altair, visual_style: retro}
+- {chart_type: volume_profile, language: zh-CN, theme: equity_markets, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: box, language: zh-CN, theme: fx_trade, library: matplotlib, visual_style: default}
+- {chart_type: line_band_overlay, language: en-US, theme: inflation, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: ohlc, language: zh-CN, theme: fx_trade, library: mplfinance, visual_style: monochrome}
+- {chart_type: volume_profile, language: zh-CN, theme: equity_markets, library: matplotlib,
+  visual_style: default}
+- {chart_type: bar, language: en-US, theme: fiscal_policy, library: seaborn, visual_style: default}
+- {chart_type: area, language: en-US, theme: fx_trade, library: seaborn, visual_style: retro}
+- {chart_type: line_band_overlay, language: en-US, theme: inflation, library: plotly,
+  visual_style: newspaper}
+- {chart_type: sankey, language: zh-CN, theme: insurance, library: plotly, visual_style: default}
+- {chart_type: line, language: en-US, theme: fiscal_policy, library: matplotlib, visual_style: dark_professional}
+- {chart_type: ichimoku_cloud, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: default}
+- {chart_type: bar_line_overlay, language: en-US, theme: real_estate, library: matplotlib,
+  visual_style: default}
+- {chart_type: line, language: en-US, theme: fiscal_policy, library: seaborn, visual_style: monochrome}
+- {chart_type: node, language: en-US, theme: payments_fintech, library: plotly, visual_style: default}
+- {chart_type: ichimoku_cloud, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: ohlc, language: en-US, theme: digital_assets, library: plotly, visual_style: dark_professional}
+- {chart_type: line, language: en-US, theme: banking_credit, library: plotly, visual_style: dark_professional}
+- {chart_type: candlestick, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: default}
+- {chart_type: bubble, language: zh-CN, theme: insurance, library: matplotlib, visual_style: dark_professional}
+- {chart_type: volume_profile, language: zh-CN, theme: fx_trade, library: matplotlib,
+  visual_style: default}
+- {chart_type: area, language: zh-CN, theme: growth_employment, library: plotly, visual_style: gradient}
+- {chart_type: scatter, language: zh-CN, theme: corporate_finance, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: area, language: zh-CN, theme: commodities, library: plotly, visual_style: minimal}
+- {chart_type: errorbar, language: zh-CN, theme: fixed_income, library: matplotlib,
+  visual_style: default}
+- {chart_type: histogram, language: zh-CN, theme: fx_trade, library: matplotlib, visual_style: colorful}
+- {chart_type: bar_line_overlay, language: en-US, theme: fx_trade, library: matplotlib,
+  visual_style: retro}
+- {chart_type: waterfall, language: zh-CN, theme: corporate_finance, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: line_band_overlay, language: en-US, theme: inflation, library: plotly,
+  visual_style: monochrome}
+- {chart_type: line, language: en-US, theme: fiscal_policy, library: seaborn, visual_style: retro}
+- {chart_type: candlestick, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: candlestick_volume, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: gradient}
+- {chart_type: line, language: zh-CN, theme: growth_employment, library: plotly, visual_style: gradient}
+- {chart_type: line, language: zh-CN, theme: fixed_income, library: matplotlib, visual_style: newspaper}
+- {chart_type: bar_line_overlay, language: en-US, theme: inflation, library: matplotlib,
+  visual_style: default}
+- {chart_type: bar_line_overlay, language: en-US, theme: fx_trade, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: bar_line_overlay, language: en-US, theme: banking_credit, library: matplotlib,
+  visual_style: colorful}
+- {chart_type: line, language: en-US, theme: real_estate, library: matplotlib, visual_style: monochrome}
+- {chart_type: ohlc, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: newspaper}
+- {chart_type: candlestick_volume, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: default}
+- {chart_type: bar, language: en-US, theme: equity_markets, library: plotly, visual_style: default}
+- {chart_type: candlestick_volume, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: default}
+- {chart_type: ohlc, language: en-US, theme: commodities, library: plotly, visual_style: default}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: growth_employment, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: heatmap_scatter, language: en-US, theme: fx_trade, library: matplotlib,
+  visual_style: default}
+- {chart_type: line, language: zh-CN, theme: macro_policy, library: seaborn, visual_style: newspaper}
+- {chart_type: area, language: en-US, theme: fx_trade, library: seaborn, visual_style: default}
+- {chart_type: candlestick_volume, language: en-US, theme: commodities, library: plotly,
+  visual_style: gradient}
+- {chart_type: bar_line_overlay, language: en-US, theme: inflation, library: matplotlib,
+  visual_style: monochrome}
+- {chart_type: line_band_overlay, language: en-US, theme: real_estate, library: plotly,
+  visual_style: retro}
+- {chart_type: ohlc, language: zh-CN, theme: derivatives, library: mplfinance, visual_style: retro}
+- {chart_type: renko, language: en-US, theme: equity_markets, library: mplfinance,
+  visual_style: default}
+- {chart_type: ichimoku_cloud, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: newspaper}
+- {chart_type: area, language: zh-CN, theme: derivatives, library: plotly, visual_style: dark_professional}
+- {chart_type: bar, language: en-US, theme: growth_employment, library: matplotlib,
+  visual_style: default}
+- {chart_type: line_band_overlay, language: zh-CN, theme: growth_employment, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: bar, language: en-US, theme: risk_regulation, library: plotly, visual_style: minimal}
+- {chart_type: bar_line_overlay, language: en-US, theme: inflation, library: matplotlib,
+  visual_style: colorful}
+- {chart_type: candlestick, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: line_band_overlay, language: zh-CN, theme: growth_employment, library: matplotlib,
+  visual_style: newspaper}
+- {chart_type: bollinger_bands, language: en-US, theme: commodities, library: plotly,
+  visual_style: colorful}
+- {chart_type: volume_profile, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: candlestick, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: minimal}
+- {chart_type: box, language: en-US, theme: commodities, library: matplotlib, visual_style: default}
+- {chart_type: line, language: en-US, theme: fx_trade, library: bokeh, visual_style: default}
+- {chart_type: box, language: en-US, theme: digital_assets, library: seaborn, visual_style: dark_professional}
+- {chart_type: line, language: zh-CN, theme: macro_policy, library: matplotlib, visual_style: gradient}
+- {chart_type: candlestick_indicator, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: volume_profile, language: en-US, theme: derivatives, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: line, language: zh-CN, theme: macro_policy, library: plotly, visual_style: dark_professional}
+- {chart_type: line, language: en-US, theme: real_estate, library: plotly, visual_style: default}
+- {chart_type: errorbar, language: en-US, theme: commodities, library: plotly, visual_style: default}
+- {chart_type: volume_profile, language: en-US, theme: derivatives, library: plotly,
+  visual_style: minimal}
+- {chart_type: line_band_overlay, language: zh-CN, theme: commodities, library: matplotlib,
+  visual_style: colorful}
+- {chart_type: ichimoku_cloud, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: minimal}
+- {chart_type: renko, language: en-US, theme: fx_trade, library: mplfinance, visual_style: minimal}
+- {chart_type: line, language: en-US, theme: fx_trade, library: seaborn, visual_style: minimal}
+- {chart_type: candlestick, language: en-US, theme: commodities, library: plotly,
+  visual_style: colorful}
+- {chart_type: scatter, language: zh-CN, theme: asset_management, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: line_band_overlay, language: en-US, theme: inflation, library: plotly,
+  visual_style: colorful}
+- {chart_type: line_band_overlay, language: zh-CN, theme: macro_policy, library: matplotlib,
+  visual_style: monochrome}
+- {chart_type: line, language: en-US, theme: fiscal_policy, library: altair, visual_style: gradient}
+- {chart_type: ohlc, language: zh-CN, theme: fx_trade, library: mplfinance, visual_style: minimal}
+- {chart_type: bollinger_bands, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: newspaper}
+- {chart_type: ohlc, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: scatter, language: zh-CN, theme: payments_fintech, library: seaborn,
+  visual_style: minimal}
+- {chart_type: radar, language: en-US, theme: ma_ipos, library: matplotlib, visual_style: default}
+- {chart_type: bar_line_overlay, language: en-US, theme: fiscal_policy, library: matplotlib,
+  visual_style: colorful}
+- {chart_type: heatmap, language: zh-CN, theme: banking_credit, library: matplotlib,
+  visual_style: default}
+- {chart_type: candlestick, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: default}
+- {chart_type: volume_profile, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: line_band_overlay, language: zh-CN, theme: macro_policy, library: matplotlib,
+  visual_style: default}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: derivatives, library: plotly,
+  visual_style: retro}
+- {chart_type: treemap, language: zh-CN, theme: corporate_finance, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: bar, language: zh-CN, theme: corporate_finance, library: seaborn, visual_style: newspaper}
+- {chart_type: box, language: en-US, theme: fiscal_policy, library: matplotlib, visual_style: default}
+- {chart_type: candlestick_volume, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: point_figure, language: en-US, theme: commodities, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: bollinger_bands, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: retro}
+- {chart_type: heatmap, language: en-US, theme: commodities, library: seaborn, visual_style: dark_professional}
+- {chart_type: area, language: zh-CN, theme: equity_markets, library: matplotlib,
+  visual_style: retro}
+- {chart_type: ichimoku_cloud, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: ohlc, language: zh-CN, theme: commodities, library: mplfinance, visual_style: retro}
+- {chart_type: bar_line_overlay, language: en-US, theme: fiscal_policy, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: area, language: zh-CN, theme: commodities, library: plotly, visual_style: default}
+- {chart_type: area, language: en-US, theme: fiscal_policy, library: altair, visual_style: default}
+- {chart_type: bollinger_bands, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: monochrome}
+- {chart_type: line, language: zh-CN, theme: derivatives, library: matplotlib, visual_style: default}
+- {chart_type: bollinger_bands, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: default}
+- {chart_type: fan_chart, language: en-US, theme: fx_trade, library: plotly, visual_style: dark_professional}
+- {chart_type: line, language: en-US, theme: fiscal_policy, library: plotly, visual_style: minimal}
+- {chart_type: treemap, language: en-US, theme: ma_ipos, library: plotly, visual_style: default}
+- {chart_type: box, language: zh-CN, theme: macro_policy, library: seaborn, visual_style: default}
+- {chart_type: line_band_overlay, language: en-US, theme: banking_credit, library: plotly,
+  visual_style: retro}
+- {chart_type: line, language: en-US, theme: digital_assets, library: bokeh, visual_style: gradient}
+- {chart_type: line_band_overlay, language: zh-CN, theme: fixed_income, library: matplotlib,
+  visual_style: retro}
+- {chart_type: candlestick, language: en-US, theme: derivatives, library: plotly,
+  visual_style: gradient}
+- {chart_type: candlestick_volume, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: histogram, language: zh-CN, theme: accounting_reporting, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: line, language: en-US, theme: real_estate, library: bokeh, visual_style: minimal}
+- {chart_type: bollinger_bands, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: default}
+- {chart_type: candlestick, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: point_figure, language: en-US, theme: digital_assets, library: mplfinance,
+  visual_style: default}
+- {chart_type: line, language: zh-CN, theme: macro_policy, library: matplotlib, visual_style: default}
+- {chart_type: bollinger_bands, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: monochrome}
+- {chart_type: ichimoku_cloud, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: default}
+- {chart_type: area, language: zh-CN, theme: fixed_income, library: matplotlib, visual_style: retro}
+- {chart_type: histogram, language: zh-CN, theme: derivatives, library: plotly, visual_style: dark_professional}
+- {chart_type: candlestick_volume, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: colorful}
+- {chart_type: scatter, language: en-US, theme: esg_sustainable, library: seaborn,
+  visual_style: minimal}
+- {chart_type: radar, language: en-US, theme: payments_fintech, library: matplotlib,
+  visual_style: default}
+- {chart_type: pie, language: en-US, theme: asset_management, library: plotly, visual_style: dark_professional}
+- {chart_type: histogram, language: zh-CN, theme: fixed_income, library: matplotlib,
+  visual_style: default}
+- {chart_type: gantt, language: zh-CN, theme: insurance, library: plotly, visual_style: default}
+- {chart_type: candlestick, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: monochrome}
+- {chart_type: candlestick_indicator, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: line, language: zh-CN, theme: macro_policy, library: altair, visual_style: retro}
+- {chart_type: bollinger_bands, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: area, language: en-US, theme: fx_trade, library: seaborn, visual_style: gradient}
+- {chart_type: bar, language: zh-CN, theme: banking_credit, library: matplotlib, visual_style: colorful}
+- {chart_type: bollinger_bands, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: minimal}
+- {chart_type: treemap, language: zh-CN, theme: corporate_finance, library: plotly,
+  visual_style: default}
+- {chart_type: volume_profile, language: en-US, theme: commodities, library: plotly,
+  visual_style: minimal}
+- {chart_type: volume_profile, language: zh-CN, theme: derivatives, library: matplotlib,
+  visual_style: colorful}
+- {chart_type: line, language: en-US, theme: fiscal_policy, library: altair, visual_style: default}
+- {chart_type: bubble, language: zh-CN, theme: corporate_finance, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: area, language: zh-CN, theme: macro_policy, library: matplotlib, visual_style: newspaper}
+- {chart_type: ohlc, language: en-US, theme: equity_markets, library: plotly, visual_style: default}
+- {chart_type: treemap, language: en-US, theme: asset_management, library: plotly,
+  visual_style: default}
+- {chart_type: gantt, language: en-US, theme: ma_ipos, library: plotly, visual_style: default}
+- {chart_type: contour, language: en-US, theme: fixed_income, library: plotly, visual_style: default}
+- {chart_type: candlestick_indicator, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: bar, language: en-US, theme: risk_regulation, library: seaborn, visual_style: newspaper}
+- {chart_type: pie, language: zh-CN, theme: fiscal_policy, library: matplotlib, visual_style: dark_professional}
+- {chart_type: bar, language: zh-CN, theme: accounting_reporting, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: treemap, language: zh-CN, theme: fiscal_policy, library: plotly, visual_style: default}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: growth_employment, library: plotly,
+  visual_style: newspaper}
+- {chart_type: line, language: en-US, theme: fx_trade, library: plotly, visual_style: monochrome}
+- {chart_type: volume_profile, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: minimal}
+- {chart_type: scatter, language: en-US, theme: ma_ipos, library: matplotlib, visual_style: dark_professional}
+- {chart_type: line, language: en-US, theme: digital_assets, library: seaborn, visual_style: dark_professional}
+- {chart_type: ichimoku_cloud, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: candlestick, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: default}
+- {chart_type: bollinger_bands, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: retro}
+- {chart_type: ohlc, language: en-US, theme: derivatives, library: plotly, visual_style: newspaper}
+- {chart_type: errorbar, language: en-US, theme: growth_employment, library: plotly,
+  visual_style: default}
+- {chart_type: candlestick_volume, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: newspaper}
+- {chart_type: candlestick_volume, language: en-US, theme: derivatives, library: plotly,
+  visual_style: newspaper}
+- {chart_type: line, language: en-US, theme: banking_credit, library: matplotlib,
+  visual_style: default}
+- {chart_type: point_figure, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: default}
+- {chart_type: contour, language: zh-CN, theme: equity_markets, library: matplotlib,
+  visual_style: default}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: macro_policy, library: plotly,
+  visual_style: newspaper}
+- {chart_type: histogram, language: en-US, theme: fiscal_policy, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: contour, language: zh-CN, theme: derivatives, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: candlestick_indicator, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: area, language: en-US, theme: real_estate, library: altair, visual_style: colorful}
+- {chart_type: line, language: zh-CN, theme: fixed_income, library: plotly, visual_style: monochrome}
+- {chart_type: line, language: zh-CN, theme: macro_policy, library: altair, visual_style: monochrome}
+- {chart_type: bar, language: en-US, theme: growth_employment, library: plotly, visual_style: minimal}
+- {chart_type: line, language: en-US, theme: fx_trade, library: altair, visual_style: colorful}
+- {chart_type: bollinger_bands, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: bollinger_bands, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: area, language: zh-CN, theme: fixed_income, library: matplotlib, visual_style: minimal}
+- {chart_type: box, language: zh-CN, theme: payments_fintech, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: waterfall, language: zh-CN, theme: esg_sustainable, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: candlestick_volume, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: monochrome}
+- {chart_type: renko, language: zh-CN, theme: fx_trade, library: mplfinance, visual_style: dark_professional}
+- {chart_type: candlestick_volume, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: minimal}
+- {chart_type: renko, language: en-US, theme: digital_assets, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: bar, language: zh-CN, theme: corporate_finance, library: plotly, visual_style: dark_professional}
+- {chart_type: candlestick, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: ichimoku_cloud, language: en-US, theme: commodities, library: plotly,
+  visual_style: default}
+- {chart_type: radar, language: zh-CN, theme: fiscal_policy, library: plotly, visual_style: default}
+- {chart_type: bar, language: zh-CN, theme: asset_management, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: line_band_overlay, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: retro}
+- {chart_type: waterfall_line, language: zh-CN, theme: esg_sustainable, library: plotly,
+  visual_style: default}
+- {chart_type: candlestick, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: area, language: en-US, theme: fx_trade, library: seaborn, visual_style: minimal}
+- {chart_type: ohlc, language: en-US, theme: derivatives, library: plotly, visual_style: colorful}
+- {chart_type: candlestick_indicator, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: candlestick_volume, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: monochrome}
+- {chart_type: bollinger_bands, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: bar_line_overlay, language: en-US, theme: digital_assets, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: line_band_overlay, language: zh-CN, theme: macro_policy, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: candlestick, language: en-US, theme: fx_trade, library: plotly, visual_style: default}
+- {chart_type: volume_profile, language: zh-CN, theme: equity_markets, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: ichimoku_cloud, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: line_band_overlay, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: line, language: en-US, theme: real_estate, library: plotly, visual_style: default}
+- {chart_type: candlestick, language: en-US, theme: derivatives, library: plotly,
+  visual_style: minimal}
+- {chart_type: candlestick_volume, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: monochrome}
+- {chart_type: candlestick, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: default}
+- {chart_type: scatter, language: en-US, theme: digital_assets, library: matplotlib,
+  visual_style: dark_professional}
+- {chart_type: sankey, language: zh-CN, theme: fiscal_policy, library: plotly, visual_style: default}
+- {chart_type: heatmap, language: en-US, theme: fx_trade, library: matplotlib, visual_style: default}
+- {chart_type: line_band_overlay, language: en-US, theme: banking_credit, library: plotly,
+  visual_style: colorful}
+- {chart_type: line, language: en-US, theme: fx_trade, library: plotly, visual_style: gradient}
+- {chart_type: histogram, language: zh-CN, theme: fx_trade, library: seaborn, visual_style: default}
+- {chart_type: bar, language: zh-CN, theme: payments_fintech, library: matplotlib,
+  visual_style: newspaper}
+- {chart_type: heatmap, language: en-US, theme: fixed_income, library: plotly, visual_style: minimal}
+- {chart_type: candlestick, language: en-US, theme: fx_trade, library: plotly, visual_style: dark_professional}
+- {chart_type: bar_line_overlay, language: en-US, theme: banking_credit, library: matplotlib,
+  visual_style: retro}
+- {chart_type: line_band_overlay, language: en-US, theme: real_estate, library: plotly,
+  visual_style: minimal}
+- {chart_type: ichimoku_cloud, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: equity_markets, library: plotly,
+  visual_style: retro}
+- {chart_type: candlestick_indicator, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: colorful}
+- {chart_type: candlestick, language: en-US, theme: commodities, library: plotly,
+  visual_style: minimal}
+- {chart_type: candlestick_volume, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: newspaper}
+- {chart_type: ohlc, language: en-US, theme: digital_assets, library: plotly, visual_style: newspaper}
+- {chart_type: area, language: zh-CN, theme: commodities, library: plotly, visual_style: retro}
+- {chart_type: waterfall_line, language: zh-CN, theme: insurance, library: plotly,
+  visual_style: default}
+- {chart_type: fan_chart, language: zh-CN, theme: commodities, library: matplotlib,
+  visual_style: default}
+- {chart_type: bollinger_bands, language: en-US, theme: commodities, library: plotly,
+  visual_style: monochrome}
+- {chart_type: area, language: zh-CN, theme: growth_employment, library: plotly, visual_style: monochrome}
+- {chart_type: bubble, language: en-US, theme: banking_credit, library: plotly, visual_style: default}
+- {chart_type: point_figure, language: en-US, theme: digital_assets, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: line, language: en-US, theme: inflation, library: altair, visual_style: dark_professional}
+- {chart_type: bar_line_overlay, language: en-US, theme: fiscal_policy, library: matplotlib,
+  visual_style: default}
+- {chart_type: bar_line_overlay, language: en-US, theme: fiscal_policy, library: matplotlib,
+  visual_style: newspaper}
+- {chart_type: radar, language: zh-CN, theme: esg_sustainable, library: plotly, visual_style: default}
+- {chart_type: candlestick, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: growth_employment, library: plotly,
+  visual_style: colorful}
+- {chart_type: line_band_overlay, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: candlestick_volume, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: candlestick_volume, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: area, language: en-US, theme: banking_credit, library: seaborn, visual_style: retro}
+- {chart_type: candlestick_volume, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: heatmap, language: zh-CN, theme: derivatives, library: plotly, visual_style: dark_professional}
+- {chart_type: candlestick_indicator, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: ohlc, language: zh-CN, theme: derivatives, library: mplfinance, visual_style: colorful}
+- {chart_type: contour, language: zh-CN, theme: banking_credit, library: matplotlib,
+  visual_style: default}
+- {chart_type: heatmap_scatter, language: zh-CN, theme: derivatives, library: seaborn,
+  visual_style: default}
+- {chart_type: line, language: en-US, theme: real_estate, library: altair, visual_style: newspaper}
+- {chart_type: pie, language: zh-CN, theme: esg_sustainable, library: matplotlib,
+  visual_style: default}
+- {chart_type: sankey, language: zh-CN, theme: esg_sustainable, library: plotly, visual_style: default}
+- {chart_type: box, language: zh-CN, theme: banking_credit, library: matplotlib, visual_style: dark_professional}
+- {chart_type: line, language: en-US, theme: fx_trade, library: seaborn, visual_style: minimal}
+- {chart_type: candlestick, language: en-US, theme: commodities, library: plotly,
+  visual_style: retro}
+- {chart_type: histogram, language: en-US, theme: fiscal_policy, library: seaborn,
+  visual_style: default}
+- {chart_type: line_band_overlay, language: zh-CN, theme: fixed_income, library: matplotlib,
+  visual_style: colorful}
+- {chart_type: bar_line_overlay, language: en-US, theme: banking_credit, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: line, language: zh-CN, theme: derivatives, library: seaborn, visual_style: retro}
+- {chart_type: line, language: en-US, theme: digital_assets, library: seaborn, visual_style: default}
+- {chart_type: volume_profile, language: zh-CN, theme: commodities, library: matplotlib,
+  visual_style: default}
+- {chart_type: area, language: en-US, theme: digital_assets, library: altair, visual_style: default}
+- {chart_type: renko, language: zh-CN, theme: commodities, library: mplfinance, visual_style: default}
+- {chart_type: candlestick_volume, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: box, language: en-US, theme: risk_regulation, library: plotly, visual_style: minimal}
+- {chart_type: bubble, language: zh-CN, theme: fiscal_policy, library: matplotlib,
+  visual_style: default}
+- {chart_type: candlestick_indicator, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: default}
+- {chart_type: candlestick_indicator, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: heatmap, language: en-US, theme: commodities, library: seaborn, visual_style: dark_professional}
+- {chart_type: candlestick, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: retro}
+- {chart_type: ichimoku_cloud, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: line, language: zh-CN, theme: equity_markets, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: candlestick_volume, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: newspaper}
+- {chart_type: area, language: zh-CN, theme: growth_employment, library: plotly, visual_style: default}
+- {chart_type: bollinger_bands, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: monochrome}
+- {chart_type: ohlc, language: zh-CN, theme: equity_markets, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: fan_chart, language: en-US, theme: real_estate, library: plotly, visual_style: default}
+- {chart_type: line, language: zh-CN, theme: equity_markets, library: bokeh, visual_style: retro}
+- {chart_type: scatter, language: en-US, theme: insurance, library: plotly, visual_style: dark_professional}
+- {chart_type: candlestick, language: en-US, theme: equity_markets, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: point_figure, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: candlestick, language: en-US, theme: fx_trade, library: plotly, visual_style: newspaper}
+- {chart_type: box, language: zh-CN, theme: inflation, library: plotly, visual_style: default}
+- {chart_type: candlestick_volume, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: line, language: en-US, theme: fiscal_policy, library: bokeh, visual_style: newspaper}
+- {chart_type: candlestick_volume, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: newspaper}
+- {chart_type: line, language: zh-CN, theme: derivatives, library: bokeh, visual_style: colorful}
+- {chart_type: waterfall_line, language: zh-CN, theme: corporate_finance, library: plotly,
+  visual_style: default}
+- {chart_type: candlestick, language: en-US, theme: derivatives, library: plotly,
+  visual_style: colorful}
+- {chart_type: bar, language: en-US, theme: insurance, library: seaborn, visual_style: colorful}
+- {chart_type: line_band_overlay, language: en-US, theme: fiscal_policy, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: area, language: zh-CN, theme: derivatives, library: plotly, visual_style: newspaper}
+- {chart_type: errorbar, language: zh-CN, theme: fx_trade, library: matplotlib, visual_style: default}
+- {chart_type: candlestick, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: colorful}
+- {chart_type: sankey, language: en-US, theme: banking_credit, library: plotly, visual_style: default}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: commodities, library: plotly,
+  visual_style: monochrome}
+- {chart_type: area, language: zh-CN, theme: growth_employment, library: plotly, visual_style: newspaper}
+- {chart_type: scatter, language: zh-CN, theme: banking_credit, library: seaborn,
+  visual_style: dark_professional}
+- {chart_type: bar, language: en-US, theme: commodities, library: matplotlib, visual_style: colorful}
+- {chart_type: line, language: zh-CN, theme: commodities, library: seaborn, visual_style: default}
+- {chart_type: pie, language: en-US, theme: payments_fintech, library: plotly, visual_style: default}
+- {chart_type: scatter, language: en-US, theme: real_estate, library: seaborn, visual_style: dark_professional}
+- {chart_type: candlestick, language: en-US, theme: derivatives, library: plotly,
+  visual_style: colorful}
+- {chart_type: renko, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: ohlc, language: en-US, theme: derivatives, library: plotly, visual_style: minimal}
+- {chart_type: line_band_overlay, language: zh-CN, theme: equity_markets, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: candlestick_volume, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: node, language: zh-CN, theme: esg_sustainable, library: plotly, visual_style: default}
+- {chart_type: volume_profile, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: default}
+- {chart_type: bar_line_overlay, language: en-US, theme: banking_credit, library: matplotlib,
+  visual_style: default}
+- {chart_type: volume_profile, language: zh-CN, theme: digital_assets, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: area, language: zh-CN, theme: commodities, library: plotly, visual_style: dark_professional}
+- {chart_type: ichimoku_cloud, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: line, language: en-US, theme: fiscal_policy, library: plotly, visual_style: colorful}
+- {chart_type: point_figure, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: default}
+- {chart_type: bollinger_bands, language: zh-CN, theme: fx_trade, library: mplfinance,
+  visual_style: minimal}
+- {chart_type: line_band_overlay, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: newspaper}
+- {chart_type: line_band_overlay, language: zh-CN, theme: commodities, library: matplotlib,
+  visual_style: minimal}
+- {chart_type: line, language: en-US, theme: digital_assets, library: matplotlib,
+  visual_style: colorful}
+- {chart_type: line, language: zh-CN, theme: commodities, library: matplotlib, visual_style: colorful}
+- {chart_type: line, language: zh-CN, theme: equity_markets, library: plotly, visual_style: newspaper}
+- {chart_type: candlestick_volume, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: renko, language: en-US, theme: derivatives, library: mplfinance, visual_style: minimal}
+- {chart_type: line, language: en-US, theme: banking_credit, library: bokeh, visual_style: colorful}
+- {chart_type: ichimoku_cloud, language: zh-CN, theme: digital_assets, library: mplfinance,
+  visual_style: dark_professional}
+- {chart_type: bubble, language: en-US, theme: payments_fintech, library: plotly,
+  visual_style: dark_professional}
+- {chart_type: bar, language: zh-CN, theme: derivatives, library: plotly, visual_style: dark_professional}
+- {chart_type: bar_line_overlay, language: zh-CN, theme: equity_markets, library: plotly,
+  visual_style: newspaper}
+- {chart_type: line, language: zh-CN, theme: equity_markets, library: bokeh, visual_style: retro}
+- {chart_type: bar, language: zh-CN, theme: fx_trade, library: seaborn, visual_style: default}
+- {chart_type: area, language: en-US, theme: banking_credit, library: seaborn, visual_style: minimal}
+- {chart_type: line_band_overlay, language: en-US, theme: digital_assets, library: plotly,
+  visual_style: minimal}
+- {chart_type: line_band_overlay, language: en-US, theme: fx_trade, library: plotly,
+  visual_style: retro}
+- {chart_type: candlestick, language: zh-CN, theme: commodities, library: mplfinance,
+  visual_style: colorful}
+- {chart_type: bar, language: en-US, theme: digital_assets, library: matplotlib, visual_style: dark_professional}
+- {chart_type: line, language: en-US, theme: inflation, library: matplotlib, visual_style: colorful}
+- {chart_type: line, language: zh-CN, theme: commodities, library: bokeh, visual_style: monochrome}
+- {chart_type: candlestick_indicator, language: zh-CN, theme: derivatives, library: mplfinance,
+  visual_style: colorful}

@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Grouped Bar Chart
+- Title: Loan-to-CASA %
+- Colors/Legend: Blue=Jun-22, Red=Jan-24
+- X-axis: Categories are BCA, Mandiri, BNI, BRI, Major total
+- Y-axis: Percentage scale, range approximately 0–160
+- Data Labels: Specific values marked at the top of each bar
+
+[Data Relationships]
+- BCA: Jun-22 was 81; Jan-24 was 87; Difference +6
+- Mandiri: 122 vs 118; Difference -4
+- BNI: 132 vs 127; Difference -5
+- BRI: 136 vs 135; Difference -1
+- Major total: 115 vs 116; Difference +1
+- Jun-22 highest 136 (BRI), lowest 81 (BCA); Range 55
+- Jan-24 highest 135 (BRI), lowest 87 (BCA); Range 48
+- Compared to Major total: In Jun-22, BRI was higher by 21, BCA lower by 34; In Jan-24, BRI was higher by 19, BCA lower by 29
+
+[Pattern Characteristics]
+Both periods show a hierarchical ranking: BRI highest, followed by BNI, Mandiri, Major total, and BCA lowest; the order remains unchanged. Compared to the previous period, the distribution among categories is more concentrated, and the distance between extreme values has narrowed. The direction of change shows divergence: only BCA and the overall total are higher than the previous period, while the other three are slightly lower, all by small margins.
+
+[Core Insights]
+Core Conclusion: Comparability has improved, but the structure is still dominated by extreme values.
+
+Business Implications:
+- Reflects strong concentration and persistent stratification
+- Industry benchmarks offer greater reference value
+- Overall impact is limited, and strategic adjustments are minor
+
+Risk Concerns:
+- BRI is higher than Major total by ≥19, potentially leading to structural deviation and distorted peer comparison
+- BCA is lower than Major total by ≥29, potentially dragging down the overall level and weakening equilibrium

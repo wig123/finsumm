@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Closing price time series line chart, including event markers (Green triangle = Target Price Change, Blue circle = Rating Change).
+- Title: Shree Cement.
+- Coordinates: X-axis dates approximately 2021/07—2024/01; Y-axis price (INR) 0—35,000.
+- Notes: As of 22‑Jan‑2024; Source: LSEG, Nomura; Legend as above.
+
+[Data Relationships]
+- Initial period (2021/07) closing price approximately 25,000; Final period (2024/01) approximately 27,500.
+- Highest closing price approximately 31,000 (Mid-2021); Lowest approximately 18,500 (Mid-2022); Difference approximately 12,500.
+- Rating changes 4 times: approximately 31,000, 24,000, 24,000, 24,500.
+- Target price changes 5 times: approximately 24,500, 23,500, 20,500, 29,500, 34,000.
+
+[Pattern Characteristics]
+- The starting point is in a relatively high range, followed by a decline, forming a clear low point in the middle period; the latter segment gradually returns to the middle-to-upper part of the range.
+- The overall structure is wide-range oscillation, forming a V-shape in the middle period; the latter half is primarily characterized by range trading (box structure), with occasional upward probes.
+- Event markers are unevenly distributed: Rating changes lean towards mid-range prices, while target price changes are denser in the middle and final periods, with higher positions later on.
+
+[Core Insights]
+Core Conclusion: Periodical returns are limited, and research actions are more concentrated at critical price levels.
+
+Business Implications:
+- Overall return is narrow, with limited alpha potential
+- Rating changes are frequently observed between 24,000—24,500
+- 29,500 and 34,000 constitute valuation benchmarks
+
+Risk Focus:
+- Touching 24,000—24,500 may trigger renewed rating adjustments, leading to frequent decision-making
+- Approaching 20,500 may result in further target price adjustments, potentially causing valuation pressure

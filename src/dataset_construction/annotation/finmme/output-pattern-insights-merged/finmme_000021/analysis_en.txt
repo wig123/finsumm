@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Line Chart
+- Title: Untitled
+- X-axis: Days from Election Day, ranging from -100 to 100
+- Y-axis: Basis Points (bp), ranging from -20 to 40
+- Legend: Blue line represents "2", Green line represents "10"
+
+[Data Relationships]
+- Around Election Day (x=0), both the blue and green lines fluctuate near 0 basis points, with small amplitude changes.
+- Post-election (approximately x=5 to x=10), the green line rises significantly, approaching 30 basis points, forming a notable peak.
+- The blue line gradually rises between x=60 and x=100, showing a particularly significant increase between x=90 and x=100, approaching 40 basis points.
+- The two lines remain close in the days surrounding Election Day (x=0), but gradually diverge after x=10, creating a clear gap.
+- Key changes include a period of relative stability pre-election (around x=-60), volatility around Election Day, and a significant rapid increase post-election (x=90 to x=100).
+
+[Pattern Characteristics]
+The two lines operate within a narrow range around the central axis before and after the election, remaining relatively stable overall. Shortly after the election, the green line shows a significant peak; in the latter half, the blue line continues to rise, forming a local peak at the end, and the distance between the two lines gradually widens. The interval structure transitions from approximate co-movement to significant misalignment, accompanied by several short-term jump segments.
+
+[Core Insights]
+Core Conclusion: The impact of the event is concentrated in specific windows, and sensitivity varies across different maturities.
+
+Business Implications:
+- Limited price disturbance near Election Day
+- "10" responds earlier, "2" manifests later
+- Reduced maturity correlation, requiring segmented management
+
+Risk Focus:
+- Green line ≥ 30bp: Significant maturity spread, increasing risk of allocation decision bias
+- Blue line ≥ 40bp: Short-end exposure expands, increasing pressure for position rebalancing

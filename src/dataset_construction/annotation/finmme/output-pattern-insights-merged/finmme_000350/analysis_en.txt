@@ -1,0 +1,31 @@
+**[Chart Components]**
+- Chart Type: Dual Line Chart
+- Title: Services less rent of shelter
+- Y-axis: Percentage (%), dashed baseline at 0, range approximately -0.5 to 5
+- X-axis: Timeline, 2018 to 2024 (Annual scale)
+- Legend: Light orange for "3m/3m", Dark red for "6m/6m"
+
+**[Data Relationships]**
+- Early 2018: 3m/3m approximately 0.5%, 6m/6m approximately 0.8%.
+- End of 2020: 3m/3m lowest point approximately -0.5%; 6m/6m low point approximately 0.3%.
+- End of 2022: 3m/3m peak approximately 2.7%; Early 2023: 6m/6m peak approximately 4.8%, the difference between the two is approximately 2.1 percentage points.
+- End of 2023: 3m/3m approximately 0.8%; 6m/6m approximately 1.3%.
+- Early 2024: 3m/3m approximately 1.2%; 6m/6m approximately 2.4%.
+- 6m/6m peak-to-trough difference approximately 4.5 percentage points; 3m/3m peak-to-trough difference approximately 3.2 percentage points.
+
+**[Pattern Characteristics]**
+- From 2018 to 2020, the two curves fluctuated slightly around lower levels, with 3m/3m showing an extreme low point at the end of 2020, clearly crossing below the zero axis.
+- Starting in 2021, both curves generally trended upward, forming a single major peak in 2022-2023, where the 6m/6m peak was significantly higher than the 3m/3m peak, followed by a synchronized decline.
+- Since the end of 2023, both curves have again risen in the same direction within the lower range. 6m/6m consistently remains above 3m/3m, and the overall structure is continuous without sudden spikes.
+
+**[Core Insights]**
+Core Conclusion: The cyclical pressure on services prices (excluding rent) significantly amplified and then retreated, but has recently intensified again.
+
+Business Implications:
+- The high points in 2022-2023 indicate a significant phase of price elevation for this component.
+- 6m/6m consistently being higher than 3m/3m reflects a more pronounced cumulative increase over the medium term.
+- The renewed strengthening after the end of 2023 may undermine the previous trend of moderation.
+
+Risk Focus:
+- If 6m/6m approaches 4.8% again, it could lead to pressure on overall services inflation.
+- If 3m/3m returns above 2.7%, short-term upward price momentum may strengthen again.

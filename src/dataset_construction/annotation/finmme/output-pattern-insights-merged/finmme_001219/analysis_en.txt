@@ -1,0 +1,35 @@
+[Chart Components]
+- Chart Type: 100% Stacked Bar Chart
+- Title: Not displayed
+- X-axis (Categories): FY22, FY23, 1QFY24, 2QFY24, 3QFY24
+- Y-axis (Proportion): 0%—100%, scaled in 10% increments
+- Legend (Series): 2W (Red), 4W (Gray), CV (White center with black border), OR (Light Orange), 3W (Black)
+
+[Data Relationships]
+- FY22: 2W 47%; 4W 53%; Top marked 0% (Other segments not displayed or are 0%)
+- FY23: 2W 45%; 4W 55%; Top marked 0%
+- 1QFY24: 2W 44%; 4W 48%; OR 5%; 3W 2%
+- 2QFY24: 2W 42%; 4W 50%; OR 5%; 3W 2%
+- 3QFY24: 2W 43%; 4W 49%; OR 5%; 3W 2%
+- FY22→FY23: 2W decreased by 2 percentage points; 4W increased by 2 percentage points
+- FY22→1QFY24: 2W decreased by 3 percentage points; 4W decreased by 5 percentage points
+- FY22→2QFY24: 2W decreased by 5 percentage points; 4W decreased by 3 percentage points
+- FY22→3QFY24: 2W decreased by 4 percentage points; 4W decreased by 4 percentage points
+- OR and 3W were 0% in FY22 and FY23, and have been 5% and 2% respectively in each quarter starting from FY24
+
+[Pattern Characteristics]
+- The total proportion remains constant at 100% across all periods. The structure is composed of a few segments, with 2W and 4W consistently accounting for the major proportion, and CV remaining 0 throughout.
+- During FY22 to FY23, only a minor proportional adjustment occurred between 2W and 4W; starting from 1QFY24, two new small-proportion segments, OR and 3W, emerged. Subsequently, the internal segment proportions have remained largely stable across periods.
+- Following the introduction of OR and 3W, the proportions of 2W and 4W slightly contracted compared to the previous phase, but no drastic fluctuations or extreme values appeared between the segments.
+
+[Core Insights]
+Core Conclusion: Starting in FY24, the product structure shifted from a dual-single dimension to a diversified combination.
+
+Business Implications:
+- 2W and 4W no longer completely monopolize the overall structure.
+- The sustained presence of OR and 3W reflects a fixed configuration of new categories.
+- The overall composition maintains a relatively stable structure despite the adjustments.
+
+Risk Focus:
+- If the 2W proportion falls below 40%, it may weaken the support provided by the current primary composition.
+- If the combined proportion of OR and 3W exceeds 20%, it could lead to a significant compression of the allocation space for the original 2W and 4W segments.

@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Dual-axis stacked bar chart + line
+- Title: Not specified
+- Categories: Years 2024–2028
+- Left Axis: KRW bn, Range 0–1,400, Scale approximately 200
+- Right Axis: % of total debt, Range 0%–35%, Scale approximately 5%
+- Legend: Bank Loan (Red), Bond (White outline), Syndicate (Gray), % of total debt (Black line)
+
+[Data Relationships]
+- Total Amount: 2024≈650, 2025≈1,300, 2026≈700, 2027≈250, 2028≈500 (KRW bn)
+- 2025 Breakdown: Bank Loan≈560, Syndicate≈550, Bond≈200; Total≈1,300
+- 2024 Breakdown: Bank Loan≈500, Bond≈150
+- 2027 Breakdown: Bank Loan≈130, Bond≈100
+- 2028 Breakdown: Bank Loan≈250, Bond≈250
+- Line (%): 2024≈15%, 2025≈33%, 2026≈15%, 2027≈6%, 2028≈12%
+- Total Difference: 2025 is greater than 2024 by ≈650; 2027 is less than 2025 by ≈1,050
+
+[Pattern Characteristics]
+- The total scale forms a single peak in the middle year, with the preceding and succeeding years being relatively close. This is followed by a significant low point before a slight recovery, presenting an overall irregular fluctuating structure.
+- Structurally, bank loans constitute the major portion in all years. Bonds are distributed across all years, while a large volume of syndicate loans appears only additionally in the peak year.
+- The line graph corresponds to the highest proportion in the peak year, subsequently declining continuously to a trough, and then recovering in the final year. The direction of change in the line graph generally aligns with the total amount of the bar chart.
+
+[Core Insights]
+Core Conclusion: A concentrated maturity peak occurs in 2025, followed by a rapid easing of subsequent repayment pressure.
+
+Business Implications:
+- The debt maturity structure exhibits a clear single-peak concentration pattern.
+- Funding arrangements for 2025 are most critical for overall debt management.
+- Reliance on bank and syndicated financing is particularly prominent in 2025.
+
+Risk Focus:
+- If the refinancing of approximately 1,300 KRW bn in 2025 is unsuccessful, it will impact about 33% of the total debt.
+- With only approximately 250 KRW bn in 2027, insufficient new financing could weaken the necessary liquidity buffer.

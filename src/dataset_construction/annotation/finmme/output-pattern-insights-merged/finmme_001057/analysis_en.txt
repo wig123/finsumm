@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Line chart
+- Title: 1-Year MCLR (%)
+- Legend: Overall (Red), Public (Light Gray), Private (Black)
+- X-axis: Time, Jan-16 to Jan-24, marked by month (Jan, May, Sep, etc.)
+- Y-axis: Percentage, range approximately 7.0—10.0, scale interval 0.5
+- Annotated values on chart: 7.25, 7.35, 8.22, 8.60, 8.65, 9.50
+
+[Data Relationships]
+- Jan-24: Private 9.50%, Public 8.65%, Overall 8.60%.
+- Concurrent Comparison: Private is 0.85 percentage points higher than Public; 0.90 percentage points higher than Overall; Public is 0.05 percentage points higher than Overall.
+- Annotated Low Points: Overall 7.25% (approx. May-22), Public 7.35% (approx. 2021-22), Private 8.22% (approx. 2022).
+- Magnitude of change from respective annotated low points to Jan-24: Overall +1.35pct; Public +1.30pct; Private +1.28pct.
+
+[Pattern Characteristics]
+The three curves generally moved in the same direction between 2016 and 2020, first slowly declining, then rising, falling back again, and subsequently rising continuously from the low point in 2022. Private remained significantly higher than the other two lines throughout the period, maintaining a relatively wide gap between 2018 and 2021. Public and Overall show high proximity, diverging only slightly at the end. All series formed local troughs in 2021-2022, after which they unilaterally increased towards the end of the chart. The gap at the end is one of the largest stages within the entire sample period.
+
+[Core Insights]
+Core Conclusion: Private pricing has remained high over the long term, and the gap with Public/Overall has recently widened.
+
+Business Implications:
+- Structural differences exist in the cost of funds among different bank types.
+- The central tendency of financing prices has generally risen recently, suppressing interest-sensitive demand.
+- Public and Overall are highly correlated and can serve as a proxy for the market average.
+
+Risk Focus:
+- If the 1-Year MCLR rises by another 0.5pct, it may compress the interest margin (spread) and increase the probability of default.
+- If the gap between Private and Public remains ≥0.8pct, it may lead to customers migrating to lower-cost banks.

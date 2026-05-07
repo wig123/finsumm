@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Line chart; no main title observed.
+- Legend: Red "Ultratech EV/EBITDA (x)", Gray "3-years average (x)", Black "5-years average (x)".
+- X-axis: Time, labeled range Jan-14 to Jan-24.
+- Y-axis: Multiples (x), range approximately 4 to 22, scale interval 2.
+
+[Data Relationships]
+- The red line started at approximately 10x (Jan-14), ending at approximately 19.5x (Jan-24).
+- The peak for the entire period was approximately 19.5x (near Jan-24), the trough was approximately 10x (near Jan-20), a difference of approximately 9.5x.
+- Near Jan-17, the red line was approximately 19x; the corresponding 3-year average was approximately 14x; a difference of approximately 5x.
+- Near Jan-19, the red line was approximately 16x; the 3-year average was approximately 16x; the 5-year average was approximately 15.5x.
+- In Jan-20, the red line was approximately 10x; the 5-year average was approximately 15x; a difference of approximately 5x.
+- In Jan-24, the 3-year average was approximately 16x and the 5-year average was approximately 15.5x; the red line was higher by approximately 3.5x and 4.0x, respectively.
+
+[Pattern Characteristics]
+The red line generally shows a step-like upward trend accompanied by significant short-term volatility, with several spikes and sharp drops occurring in between. The gray 3-year average line first rose in the middle of the sample period, then slightly retreated, and subsequently rose again; the black 5-year average line is relatively smoother, only rising slowly. The red line significantly deviated from the two average lines multiple times, notably falling significantly below the average near Jan-20, while being significantly above the average near Jan-17 and Jan-24.
+
+[Core Insights]
+Core Conclusion: The current valuation level is significantly higher than its historical central tendency.
+
+Business Implications:
+- The valuation central tendency has risen in recent years, shifting the pricing focus upward.
+- The current valuation is positioned high relative to the 3-year and 5-year historical ranges.
+- When valuations revert to the historical range in the future, the scope for valuation volatility increases.
+
+Risk Focus:
+- If the EV/EBITDA falls back to approximately 15x, representing a retraction of approximately 4x from the Jan-24 level, it could lead to a significant price drawdown.
+- If it drops again to the low level near 10x, implying a contraction of approximately 5x relative to the 5-year average, it may trigger sentiment and liquidity pressure.

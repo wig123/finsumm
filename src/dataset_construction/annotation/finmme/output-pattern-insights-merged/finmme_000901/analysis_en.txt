@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Bar chart
+- Title: Duration of funding gap (days)
+- X-axis: Year, scale markers are 1975, 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020
+- Y-axis: Days, range 0–40, scale interval approximately 5 days
+- Legend: None
+- Annotations: 1978: 17 days; 1996: 21 days; 2013: 16 days; 2019: 34 days (accompanied by arrows/text descriptions)
+
+[Data Relationships]
+- 2019: 34 days
+- Compared to 21 days in 1996, 2019 had 13 more days
+- Compared to 17 days in 1978, 2019 had 17 more days
+- Compared to 16 days in 2013, 2019 had 18 more days
+- 21 days in 1996 was 4 days more than 17 days in 1978
+- 17 days in 1978 was 1 day more than 16 days in 2013
+- 34 days in 2019 is 6 days short of the Y-axis upper limit of 40 days
+
+[Pattern Characteristics]
+The bar chart shows a sporadic distribution over the timeline, with only a few years having bars significantly higher than others. The four years 1978, 1996, 2013, and 2019 form multiple discrete high points in the overall sequence, with the bar height in 2019 far exceeding the remaining years, approaching the upper boundary of the vertical axis. Most years show bars close to zero, forming a structure of "low-value normalcy + intermittent high-value spikes."
+
+[Core Insights]
+Core Conclusion: The duration of the funding gap exhibits a characteristic of extreme prolongation in a few select years.
+
+Business Implications:
+- The overall pattern is dominated by short-term gaps, with occasional extreme situations.
+- Extreme years significantly impact average capital utilization and liquidity arrangements.
+- It is necessary to identify the triggering factors that lead to the prolonged gap in specific years.
+
+Risk Focus:
+- When the gap duration approaches the 40-day upper limit (e.g., ≥34 days), it may lead to a concentrated amplification of short-term financing pressure.
+- If years with durations in the ≥20 day range reappear in the future, it could push up long-term funding costs and preparedness requirements.

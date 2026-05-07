@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Line chart (four time series).
+- Title: Not displayed.
+- X-axis: Date, ranging from 2023/6/3—2024/3/3, marked monthly.
+- Y-axis: Numerical scale 0—20,000,000, intervals approximately 2,000,000; units not specified.
+- Legend: Red "ChatGPT," Light Gray "Bing: Chat with AI & GPT-4," Black "Character AI: AI-Powered Chat," Pale Orange "Poe – Fast AI Chat."
+
+[Data Relationships]
+- Initial Period (2023/6/3): ChatGPT≈1.3M; Bing≈2.5M; Character AI≈1.0M; Poe≈0.2M.
+- Final Period (2024/3/3): ChatGPT≈17.3M; Bing≈5.3M; Character AI≈4.5M; Poe≈0.5M.
+- Difference between Final and Initial Period: ChatGPT≈+16.0M; Bing≈+2.8M; Character AI≈+3.5M; Poe≈+0.3M.
+- Peak Value (near early 2024): ChatGPT≈17.8M; Bing≈5.5M; Character AI≈4.6M; Poe≈0.6M.
+- Final Period Gap: ChatGPT vs. Bing≈+12.0M; vs. Character AI≈+12.8M; Bing vs. Character AI≈+0.8M.
+
+[Pattern Characteristics]
+- The four series collectively exhibit a continuous upward unilateral structure, where the slope of the red curve is consistently and significantly greater than the other three, forming a distinct high-level tier in the middle-to-late stages.
+- Each series shows localized, regular sawtooth fluctuations, but without significant gaps or sharp reversals. The gray and black curves generally maintain a parallel arrangement in the middle-to-late stages.
+- The orange curve consistently stays close to the zero axis with minimal volatility; the red curve showed a phased morphological change near August 2023, where its slope significantly steepened.
+
+[Core Insights]
+Core Conclusion: A single product leads in scale and is widening the magnitude gap with its peers.
+
+Business Implications:
+- Head structure is concentrated, with user resources highly aggregated toward one party.
+- The second and third ranked products are similar in scale, with competition focusing more on existing market share (stock competition).
+- Tail products have limited magnitude, resulting in minimal impact on the overall landscape.
+
+Risk Focus:
+- If the leader's scale declines by more than 2M, it may trigger a market share decrease and valuation repricing.
+- If the second-ranked product surpasses 6M and sustains this level, it may intensify customer acquisition costs and marketing pressure among the top players.

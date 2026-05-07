@@ -1,0 +1,28 @@
+【图表构成】
+- 图表类型：水平堆叠条形图。
+- 标题：Satisfaction with different attributes of a gas boiler。
+- 横轴：百分比刻度，范围0%—100%，每10%一格。
+- 纵轴：9个属性类别（Hot water heating、Safety、Reliability、Noise、Ease of use and control、Space heating、Maintenance costs、Energy efficiency、Running costs）。
+- 图例：6类响应及颜色标识——Very satisfied、Fairly satisfied、Not very satisfied、Not at all satisfied、Don't know、Not applicable。
+- 其他元素：Space heating所在条形被黑色矩形框强调；各条均无具体数值标签。
+
+【数据关系】
+- 总满意度（Very+Fairly）约：热水加热≈90%，安全≈85%，可靠性≈85%，噪音≈80%，易用与控制≈75%，空间采暖≈80%，维护成本≈55%，能效≈50%，运行成本≈50%。
+- “Very satisfied”占比约：热水加热≈60%，安全≈55%～60%，可靠性≈50%，噪音≈50%，易用与控制≈40%，空间采暖≈35%，维护成本≈20%，能效≈20%，运行成本≈10%。
+- 不满意（Not very+Not at all）占比约：运行成本≈30%，能效≈30%，维护成本≈30%；热水加热≈8%—10%。
+- “Don't know”与“Not applicable”合计在能效、运行成本各≈20%，其余多数类别合计≤10%。
+
+【模式特征】  
+各属性在整体正向回应上呈现由高到低的梯度分布，热水加热、安全、可靠性位于顶部，维护成本、能效和运行成本处于底部。高分组属性的“Very satisfied”占比明显更大，负向回应和中立选项较少，而成本和能效相关属性中负向回应和“Don't know/Not applicable”所占比例更高。被黑框标出的空间采暖位于中间层级，其正向与负向回应在各属性中居于中等水平。
+
+【核心洞察】  
+核心结论：功能体验强于成本与能效感知。
+
+业务含义：  
+- 使用功能表现对整体评价贡献更大。  
+- 成本与能效相关感受拖累综合口碑。  
+- 空间采暖仍有进一步优化与宣传空间。
+
+风险关注：  
+- 若运行成本不满意维持在≈30%，可能抑制后续购买或推荐。  
+- 若能效不满意和不清楚合计超≈50%，可能削弱节能卖点吸引力。

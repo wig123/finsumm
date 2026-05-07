@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Dual Line Chart
+- Annotation: (2016=100) Index Base Period
+- X-axis: Quarterly scale, range 1Q16—1Q26F (including "F" forecast periods such as 1Q24F, 1Q25F, 1Q26F)
+- Y-axis: Numerical scale approximately 20—120
+- Legend: Two series—Black for LCD, Red for OLED
+- Title: No explicit title observed
+
+[Data Relationships]
+- Initial Period 1Q16: LCD≈100, OLED≈100
+- Final Period 1Q26F: LCD≈93, OLED≈41; Difference≈52
+- LCD Range High/Low: Highest≈100 (1Q16), Lowest≈62 (1Q20); Magnitude of Change≈38
+- OLED Range High/Low: Highest≈100 (1Q16), Lowest≈35 (approx. 1Q23); Magnitude of Change≈65
+- Key Point Comparison: 1Q24F, LCD≈80, OLED≈37; Difference≈43
+- 1Q20: LCD≈63, OLED≈52; Difference≈11
+
+[Pattern Characteristics]
+- The two curves coincide at the starting point, then their overall trends diverge. The OLED series declines more significantly relative to LCD and remains in a lower range during the middle and later stages.
+- LCD shows multiple noticeable upward and downward fluctuations in the middle segment and exhibits a relatively smooth upward movement during the forecast period; OLED, starting from the middle segment, slowly climbs near the low point, with smaller volatility.
+- The gap between the two curves is small in the early period, gradually widens in the middle and later periods, and remains at a high level with little change during the forecast period.
+
+[Core Insights]
+Core Conclusion: The LCD and OLED indices show long-term divergence, with OLED positioned in a clear disadvantageous range.
+
+Business Implications:
+- OLED performance relative to LCD continues to weaken, indicating insufficient competitiveness.
+- The widening index gap strengthens the motivation for allocation to tilt towards LCD.
+- The gap remains high during the forecast period, making a short-term reversal of the structure difficult.
+
+Risk Focus:
+- When the OLED index approaches 40 and remains more than 50 points below LCD for a long period, it may lead to further pressure on the valuation of related assets.
+- If the LCD index recovers above 90 while OLED remains below 45, excessive concentration of LCD in the portfolio might amplify structural volatility.

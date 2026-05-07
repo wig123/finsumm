@@ -1,0 +1,27 @@
+[Chart Components]
+- Chart Type: Time series chart, containing one line chart (Closing price) and one step line chart (Target price); the chart includes annotations with red dots, but their meaning is not explained in the legend.
+- Title: Not displayed.
+- X-axis: Time, range 03-21 to 03-24, tick marks labeled 03-21, 06-21, 09-21, 12-21, 03-22, 06-22, 09-22, 12-22, 03-23, 06-23, 09-23, 12-23, 03-24.
+- Y-axis: Price (SEK), range SEK0–SEK160, tick interval approximately SEK20.
+- Legend: Closing price, Target price.
+
+[Data Relationships]
+- Initial period (03-21) closing price ≈ SEK100; final period (03-24) ≈ SEK95.
+- Maximum closing price ≈ SEK125 (around 03-22), minimum ≈ SEK90 (around 09-23), high-low difference ≈ SEK35.
+- Highest target price segment ≈ SEK125 (mid-2021 to mid-2022), lowest segment ≈ SEK95 (late 2023 to early 2024), range ≈ SEK30.
+- 03-23: Target price ≈ SEK110, closing price ≈ SEK110, difference ≈ 0; 09-23: Target price ≈ SEK100, closing price ≈ SEK90, difference ≈ SEK10; 12-23: Both ≈ SEK95, difference ≈ 0.
+
+[Pattern Characteristics]
+Overall, the closing price fluctuates around a level slightly below the midpoint, with the final period level being close to the initial period level. The target price shows a step-wise downward trend, remaining flat for a period after each adjustment. For most of the period, the closing price deviates slightly around the target price. There are individual segments with relatively significant negative deviation. Furthermore, the degree of convergence has periodically strengthened after 2023.
+
+[Core Insights]
+Core Conclusion: The target price gradually converges with the closing price after multiple downward revisions.
+
+Business Implications:
+- The pace of target price updates lags behind market movements.
+- Later pricing expectations tend to be cautious and closer to transaction levels.
+- The expected range narrows, limiting price elasticity.
+
+Risk Focus:
+- If the closing price consistently falls below the target price by more than SEK10, it may trigger a revision of financial expectations.
+- If the target price drops below SEK95 and remains unadjusted for a long time, it may suppress the potential for valuation re-rating.

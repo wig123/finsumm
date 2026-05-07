@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Combination Chart (Red bars = % Q-o-Q, Grey line = % Y-o-Y)
+- Top-left annotation: “(8Gb eq, US cents)”
+- X-axis: Time, 2012 to 2025F (including 2023F, 2024F, 2025F as forecasts)
+- Y-axis: Percentage scale, range approximately -60% to +20%, scale interval 10%
+- Legend: Red “% Q-o-Q”, Grey “% Y-o-Y”
+- Other annotations: Multiple dashed boxes and text descriptions (inventory write-off, reversal, thanks to successful 128L transition, etc.)
+
+[Data Relationships]
+- Y-o-Y lowest point: Approximately -60% in 2019; highest point: Approximately +15% (near 2018 and 2022), total range difference approximately 75 percentage points.
+- Q-o-Q lowest bar: Approximately -35% in 2019; highest bar: Approximately +15% in 2022, total range difference approximately 50 percentage points.
+- During the 2017–2018 period, Q-o-Q fluctuated near the range from positive values to negative values, with a magnitude of approximately 20 percentage points (based on bar height reading).
+- Within the dashed box area of 2020–2021, Q-o-Q was mostly negative, with a single negative magnitude of approximately -20%; the Y-o-Y range was approximately -10% to -20%.
+
+[Pattern Characteristics]
+The grey Y-o-Y curve generally exhibits significant up and down volatility, reaching a distinct trough around 2019, and forming relative peaks near 2018 and 2022. The red Q-o-Q bars are mostly distributed within a narrow range around the zero line, but several prominent single-quarter extreme bars appeared near 2019, 2021, and 2023. Both series simultaneously showed concentrated low-value ranges around 2019 and 2021, while a concentrated segment of relatively high values appeared simultaneously near 2022.
+
+[Core Insights]
+Core Conclusion: Profitability changes are highly dependent on concentrated shocks and rebounds in specific years.
+
+Business Implications:
+- Profit performance is dominated by a few annual extreme events.
+- Short-term profit stability is highly sensitive to single-quarter fluctuations.
+- Year-over-Year improvement is often accompanied by simultaneous Quarter-over-Quarter recovery.
+
+Risk Concerns:
+- If Y-o-Y approaches -60% again, it may trigger large-scale impairment and a sharp drop in profits.
+- If Q-o-Q drops below -30% in a single quarter, it could lead to budget variances and a sudden increase in cash flow pressure.

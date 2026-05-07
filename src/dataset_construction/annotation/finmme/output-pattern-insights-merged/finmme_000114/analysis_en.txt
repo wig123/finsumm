@@ -1,0 +1,41 @@
+[Chart Components]
+- Type: Combined Line Chart
+- Title: None
+- Axes:
+  - Left Vertical Axis: Auto connector content value per vehicle (USD)
+  - Right Vertical Axis: Global NEV penetration (%)
+  - Horizontal Axis: Year (2015-2023)
+- Legend:
+  - Red Line: Auto connector content value per vehicle (USD)
+  - Gray Line: Global NEV penetration
+
+[Data Relationships]
+
+- **Key Figures and Changes**
+  - From 2015 to 2023, the auto connector content value per vehicle (red line) continuously increased, rising from approximately $80 to approximately $240.
+  - Global NEV penetration (gray line) rose rapidly after 2019, increasing from approximately 2% to approximately 16%.
+
+- **Extremum Comparison**
+  - In 2023, the auto connector content value per vehicle reached approximately $240, the peak for this data series.
+  - In the same year, global NEV penetration reached its highest value of approximately 16%.
+
+- **Significant Trends**
+  - Since 2015, the content value per vehicle for auto connectors has shown a steady upward trend, with acceleration noted particularly between 2021 and 2023.
+  - The growth in global NEV penetration after 2019 was particularly significant, with landmark growth occurring between 2020 and 2023.
+
+[Pattern Characteristics]
+- Both series exhibit a monotonically increasing pattern; the red line shows a relatively uniform slope, while the gray line's slope significantly increases in the later period.
+- The red line plateaued between 2018 and 2019 before rising again; the gray line was slow before 2019, entering a steep segment after 2020.
+- Both series simultaneously reached their respective peak points at the end, with no signs of reversal observed.
+
+[Core Insights]
+Core Conclusion: Connector content value per vehicle shows high dependence on NEV penetration
+
+Business Implications:
+- Revenue dependence on penetration strengthens
+- Rising content value per vehicle drives revenue
+- Capacity allocation must be adjusted according to penetration
+
+Risk Focus:
+- Penetration rate ≤12% (below 2022 levels), narrowing revenue increment
+- Content value per vehicle <$200, weakening economies of scale

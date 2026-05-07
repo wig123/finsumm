@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Dual-axis line chart
+- Legend: Red curve represents "GNPA (%)", Gray curve represents "NNPA (%)–RHS"
+- X-axis: Quarterly indicators, including 4Q FY22, 1Q FY23, 2Q FY23, 3Q FY23, 4Q FY23, 1Q FY24, 2Q FY24, 3Q FY24
+- Left Y-axis (GNPA): Scale range from 2.1% to 2.7%
+- Right Y-axis (NNPA): Scale range from 0.76% to 1.01%
+- All data points are labeled with percentages; the chart does not provide an independent title
+
+[Data Relationships]
+- Change from start to end of period: GNPA rose from 2.22% (4Q FY22) to 2.64% (3Q FY24), an increase of 0.42 percentage points; NNPA rose from 0.78% to 0.96%, an increase of 0.18 percentage points
+- High and Low Points: GNPA low point was 2.14% (2Q FY23), high point was 2.64% (3Q FY24), a fluctuation range of 0.50 percentage points; NNPA low point was 0.78% (4Q FY22 and 2Q FY23), high point was 0.96% (3Q FY24), a fluctuation range of 0.18 percentage points
+- Data at Key Time Points: In 4Q FY23, GNPA was 2.35% and NNPA was 0.87%; in 1Q FY24, they were 2.41% and 0.89%, respectively; in 2Q FY24, they were 2.43% and 0.89%, respectively
+- Difference between the two indicators: 1.44 percentage points in 4Q FY22; 1.54 percentage points in 2Q FY24; 1.68 percentage points in 3Q FY24
+- Ratio: In 3Q FY24, the ratio of GNPA to NNPA was approximately 2.75
+
+[Pattern Characteristics]
+- The two curves formed a common low point in 2Q FY23, after which they generally moved in the same direction, showing a sharp acceleration at the 3Q FY24 endpoint.
+- GNPA remained higher than NNPA throughout the period; the gap was narrower in the early stages, gradually widened in the middle and later stages, and was most pronounced at the end of the period.
+- During the 1Q–2Q FY24 phase, NNPA was approximately flat while GNPA slightly increased, followed by both indicators surging simultaneously.
+
+[Core Insights]
+Core Conclusion: Non-performing exposure expanded, net item buffer weakened
+
+Business Implications:
+- Increased risk exposure
+- Weakening cleanup efficiency
+- Pricing and credit granting tend to be more prudent
+
+Risk Focus:
+- GNPA>2.7%: Increase in provisioning and capital consumption
+- NNPA≥1.0%: Constrained profit margin

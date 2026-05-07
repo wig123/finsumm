@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Time series line chart (including step line and circular markers)
+- Title: Not displayed
+- X-axis: Time, scale from 01-21 to 01-24 (01/04/07/10-YY)
+- Y-axis: Price (INR), range INR0–INR1,000, scale interval INR200
+- Legend: Closing price (Dark green line); Target price (Grey step line)
+- Others: Several red circular markers distributed at the nodes of the step line
+
+[Data Relationships]
+- Initial closing price approximately INR600; final closing price approximately INR900.
+- The closing price range is roughly INR600–INR900.
+- The initial target price was between INR600–800; it was INR800 in 07-21; approximately INR900 in 01-23; subsequently approaching INR1,000; and finally INR1,000.
+- Magnitude of target price increase: Initial→07-21 approximately +100 to +200; 07-21→01-23 approximately +100; 01-23→Final approximately +100.
+- The difference between the closing price and the target price in the final stage is approximately INR100 (Closing price ≈ INR900, Target price = INR1,000).
+
+[Pattern Characteristics]
+The closing price fluctuates around a gradually escalating step line throughout the entire period, with frequent short-term ups and downs but a relatively contained range. The target price exhibits a clear segmented structure, maintaining a horizontal extension at the new level after each adjustment. The red circular markers are concentrated at these step inflection points. Overall, the closing price is mostly situated below the step line, and the gap between the two has slightly widened in the final segment compared to earlier periods.
+
+[Core Insights]
+Core Conclusion: The target price has been raised multiple times, but the actual price has not yet fully met expectations.
+
+Business Implications:
+- Reflects the continuous elevation of the market's expected pricing level.
+- The actual price exhibits a certain lag in following the expectation.
+- Against the backdrop of a rising valuation center, the pace of price realization is relatively slow.
+
+Risk Concerns:
+- If the closing price remains consistently below the target price by approximately INR100, it may lead to an amplification of the expectation gap.
+- If the subsequent target price continues to maintain INR1,000 while the closing price remains near INR900, it may weaken confidence in future gains.

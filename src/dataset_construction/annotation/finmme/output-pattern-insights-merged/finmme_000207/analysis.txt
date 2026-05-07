@@ -1,0 +1,29 @@
+【图表构成】
+- 图表类型：分组柱状图
+- 标题：% change in cons. adj profit estimates since 31-Dec-2023 (current earnings season)
+- 横轴：地区/市场类别—ASXJ、ASEAN、North Asia、India、Singapore、Philippines、Malaysia、Indonesia、Taiwan、ASXJ ex India、China、HK/CH、Thailand、Korea、Hong Kong
+- 纵轴：百分比，范围 -8.0% 至 2.0%
+- 图例：灰色为2023E，红色为2024E
+- 数值标注：各柱旁标注具体百分比
+
+【数据关系】
+- 2023E最高：Singapore +1.2%；其次：Indonesia +0.7、ASEAN +0.6。最低：Korea -7.2；其后：Thailand -3.0、HK/CH -2.4、North Asia/China -2.2。
+- 2024E最高：India/Taiwan/Singapore +0.4；Philippines +0.3；Malaysia 0.0。最低：Hong Kong -3.6、Korea -3.3；其后：ASXJ/ASXJ ex India -1.8、North Asia -2.2。
+- 关键对比：ASEAN +0.6 vs -0.4（差-1.0）；Philippines -0.8 vs +0.3（+1.1）；Indonesia +0.7 vs -0.4（-1.1）；Korea -7.2 vs -3.3（+3.9）；Hong Kong -1.8 vs -3.6（-1.8）；India +0.4 vs +0.4（0）；Malaysia 0.0 vs 0.0（0）。
+
+【模式特征】
+- 两组柱围绕零轴分布，2023E更分散且包含极端低点，2024E更集中于轻度负区间，仅少数为正。
+- 结构呈多元分散：部分地区两年同向（如新加坡、印度、马来西亚），部分出现符号反转（如东盟、印尼、菲律宾）。
+- 异常点在于韩国在2023E处于最低，而2024E最低转为香港；这两者的年间差值最为突出。
+
+【核心洞察】
+核心结论：盈利预期下修占主导且区域分化明显
+
+业务含义：
+- 多数市场预期被下调
+- 区域配置受差异约束
+- 符号反转提示持续性不足
+
+风险关注：
+- 2024E≤-3.0%可能触发持续下修
+- 年间差值≥1.0pct易导致判断偏差

@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Grouped bar chart, with each bar displaying the percentage and annotated value.
+- Title: No explicit title observed.
+- X-axis: 4 categories—WB, Assam, Rest of India, Overall microloans; each category covers 9 quarters (Q3FY22 to Q3FY24).
+- Y-axis: Percentage scale, ranging from 0% to 25%, marked every 5%.
+- Legend: Quarterly sequence—Q3FY22, Q4FY22, Q1FY23, Q2FY23, Q3FY23, Q4FY23, Q1FY24, Q2FY24, Q3FY24.
+
+[Data Relationships]
+- Overall maximum value: Assam Q1FY23 at 22%; second highest is Assam Q2FY23 at 19%.
+- Overall minimum value: Assam Q1FY24/Q2FY24/Q3FY24 are all 1%; WB Q3FY24 is 1%.
+- WB: Peak Q2FY23 at 10%, Trough Q3FY24 at 1%, a difference of 9 percentage points; Initial period Q3FY22 at 7%, Final period Q3FY24 at 1%, a difference of 6 percentage points.
+- Assam: Peak 22% (Q1FY23), Trough 1% (Q1FY24—Q3FY24), a difference of 21 percentage points; Initial period 9% (Q3FY22), Final period 1% (Q3FY24), a difference of 8 percentage points.
+- Rest of India: Peak 6% (Q2FY23), Trough 2% (Q4FY22), a difference of 4 percentage points.
+- Overall microloans: Highest 8% (Q1FY23, Q2FY23), Lowest 2% (Q2FY24, Q3FY24), a difference of 6 percentage points.
+- Peer comparison: Q1FY23 values were WB 9%, Assam 22%, Rest of India 5%, Overall 8%; Assam was 14 percentage points higher than Overall, 13 percentage points higher than WB, and 17 percentage points higher than Rest of India.
+- Q3FY24 values were WB 1%, Assam 1%, Rest of India 3%, Overall 2%.
+
+[Pattern Characteristics]
+Each region formed a distinct high point in the early to mid-FY23 period, subsequently remaining in a relatively low range across the three quarters of FY24. Assam was significantly higher than other regions in H1 FY23 and exhibited the largest volatility, subsequently narrowing rapidly and approaching the WB level. Rest of India showed minimal overall change, with a relatively flat curve, while the trajectory of Overall microloans was generally positioned midway among the regions, narrowing to a low level in the later period.
+
+[Core Insights]
+Core Conclusion: Assam showed prominent early stress, but recent indicators across all regions have converged to low levels.
+
+Business Implications:
+- Assam was previously the most sensitive region in the overall portfolio.
+- Current portfolio exhibits reduced regional disparity, facilitating centralized management.
+- The overall decline in indicators suggests a more uniform distribution of asset quality.
+
+Risk Focus:
+- If Assam approaches 15% or higher again, the overall portfolio will be elevated by a single region.
+- If Overall microloans rise above 8% again, it may compress returns and capital buffers.

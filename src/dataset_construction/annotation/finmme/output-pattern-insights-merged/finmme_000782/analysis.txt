@@ -1,0 +1,31 @@
+【图表构成】
+- 图表类型：财务数据表（双列对比）。
+- 标题：SELECTED SALES DATA；表头：Year Ended December 31, 2023 与 2022。
+- 列：2023、2022。
+- 行项目：Average Sale；Comparable Store Net Sales Decrease；Transaction Count Decrease；Average Retail Price per Unit Sold Increase；Number of Stores Open, end of period；Number of Stores Opened (Closed) in Period, net；Number of Stores Relocated in Period。
+- 附注标记：1、2、3、4、5。
+- 无坐标轴与图例。
+
+【数据关系】
+- Average Sale：2023为$1,809；2022为$1,806；差额+$3。
+- Comparable Store Net Sales Decrease：2023为19.6%；2022为5.8%；差值-13.8个百分点。
+- Transaction Count Decrease：2023为19.8%；2022为21.1%；差值+1.3个百分点。
+- Average Retail Price per Unit Sold Increase：2023为2.5%；2022为11.9%；差值-9.4个百分点。
+- Number of Stores Open, end of period：2023为437；2022为442；差额-5。
+- Number of Stores Opened (Closed) in Period, net：2023为-5；2022为18；差额-23。
+- Number of Stores Relocated in Period：2023为0；2022为4；差额-4。
+
+【模式特征】  
+各指标在两年间呈现方向不一致的变化：客单价基本持平，而同店销售降幅显著扩大，交易次数降幅略有收窄，单价增幅明显收窄。门店数量相关指标整体由扩张转为收缩，开店和搬迁活动明显减少，期末门店数略有下降。
+
+【核心洞察】  
+核心结论：门店网络由扩张转为收缩，销售动能明显减弱。  
+
+业务含义：  
+- 同店经营表现承压，收入基础受削弱  
+- 门店布局调整放缓，网点覆盖趋于收紧  
+- 增长主要依赖存量门店效率而非规模扩张  
+
+风险关注：  
+- 若Comparable Store Net Sales Decrease持续高于10%，或导致营业收入明显下滑  
+- 若Number of Stores Open, end of period继续低于430，可能削弱市场覆盖与议价能力

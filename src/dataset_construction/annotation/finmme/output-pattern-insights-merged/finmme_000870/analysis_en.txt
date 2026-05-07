@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Line chart; No main title; Annotated "Average 27%" on the right, with a black dashed line indicating the average.
+- X-axis: Time scale, from Jan‑20 to Jan‑24.
+- Y-axis: Percentage scale, ranging from ‑20% to 70%.
+- Line: Solid red line; No legend or series name.
+
+[Data Relationships]
+- Average Value: 27% (dashed line).
+- Jan‑20 approximately 17%; Jan‑24 approximately 17‑18%.
+- Peak value occurred mid-2022, approximately 58‑60%, 31‑33 percentage points above the average.
+- Trough value occurred early 2022, approximately ‑13% to ‑15%, 40‑42 percentage points below the average.
+- Mid-2021 approximately 45%, about 18 percentage points above the average.
+- Early 2023 approximately 10%, about 17 percentage points below the average.
+
+[Pattern Characteristics]
+The red line exhibits significant high-amplitude fluctuations around the 27% horizontal line throughout the period, featuring both high-level concentration segments and low-level concentration segments. An extreme downward deviation occurred in early 2022, followed by a distinct peak forming mid-2022. Subsequently, the overall movement oscillated around the average line, mostly remaining below the average towards the end of the period. The overall pattern lacks a stable unidirectional trend, instead showing multiple sharp reversals.
+
+[Core Insights]
+Core Conclusion: This indicator exhibits long-term high-amplitude volatility around 27%, with significant fluctuation levels.
+
+Business Implications:
+- The indicator lacks sustainability, with high and low ranges alternating.
+- Decision-making should not rely on single-period results; interval performance must be observed.
+- Significant phase differences exist before and after 2022; allocation and evaluation should be handled segmentally.
+
+Risk Focus:
+- When falling below the 0% range (lowest point in the chart approximately ‑15%), failure to adjust promptly may lead to amplified temporary losses.
+- When exceeding the 50% range (approaching 60% in the chart), misjudging this as the norm may result in expectation gaps and decision errors during subsequent pullbacks.

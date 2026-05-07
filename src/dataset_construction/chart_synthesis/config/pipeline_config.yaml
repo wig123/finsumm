@@ -1,0 +1,95 @@
+# Pipeline总体配置
+
+# 输出目录
+output:
+  base_dir: "./output"
+  archive_dir: "./output/archive"
+
+# 文件结构
+file_structure:
+  artifacts:
+    - chart.png
+    - code.py
+  data:
+    - raw.csv
+    - llm_payload.json
+  prompts:
+    - planner_input.json
+    - planner_output.json
+    - coder_input.json
+    - coder_output.json
+  logs:
+    - chart_planning.log
+    - dataspec_compilation.log
+    - data_fetching.log
+    - code_execution.log
+    - retry_history.json
+
+# 代码执行配置
+code_execution:
+  timeout: 30  # 秒
+  allowed_imports:
+    - matplotlib
+    - matplotlib.pyplot
+    - pandas
+    - numpy
+    - mplfinance
+    - plotly
+    - plotly.graph_objects
+    - plotly.express
+    - seaborn
+    - networkx
+  sandbox: true
+
+# 语言配置
+language:
+  zh-CN:
+    fonts:
+      - "Arial Unicode MS"
+      - "SimHei"
+      - "STHeiti"
+  en-US:
+    fonts:
+      - "DejaVu Sans"
+      - "Arial"
+
+# LLM Payload策略
+llm_payload_policy:
+  time_series:
+    max_points_raw: 200
+    max_horizon_raw: "30D"
+    repr_method: "ts_profile_v1"
+    include_recent_raw: "30D"
+  cross_sectional:
+    max_items_raw: 500
+    repr_method: null
+
+# 批量生成配置
+batch_generation:
+  default_workers: 4
+  use_process_pool: false
+  strategies:
+    balanced:
+      description: "均衡分布,按权重采样"
+      tier_weights:
+        tier1: 0.6
+        tier2: 0.25
+        tier3: 0.1
+        tier4: 0.05
+    tier1_only:
+      description: "仅生成Tier 1核心图表"
+    cross_sectional_only:
+      description: "仅生成横截面图表"
+      chart_types:
+        - bar
+        - pie
+        - heatmap
+        - treemap
+        - radar
+
+# 日志配置
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  console: true
+  file: true

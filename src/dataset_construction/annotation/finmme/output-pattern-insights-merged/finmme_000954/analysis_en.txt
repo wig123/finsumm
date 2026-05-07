@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Grouped bar chart (white with black outline represents the cumulative cutting cycle), overlaid with red rectangles, yellow/orange horizontal lines, and green diamond markers.
+- Title: Not labeled.
+- Y-axis: Percentage (approx. 0–14, scale interval ≈ 2).
+- X-axis: Countries/Regions: Brazil, Chile, Colombia, Mexico, Czech Rep., Hungary, Poland, South Africa, India, Indonesia, South Korea, Thailand, US, UK, Eurozone.
+- Legend: Cumulative cutting cycle*, Cuts delivered so far, End-2023, End-2024, Nominal neutral rate**.
+
+[Data Relationships]
+- Cumulative Cutting Cycle: Highest approx. 14% (Brazil/Hungary/Colombia), lowest approx. 3–4% (US/UK/Eurozone). Others: Mexico ≈ 10–11%, Chile ≈ 11–12%, South Africa ≈ 7–8%, Poland/Czech ≈ 6–7%, India/Indonesia ≈ 5–6%, Korea ≈ 3–4%, Thailand ≈ 2–3%.
+- Difference between End‑2023 and End‑2024: Brazil ≈ 3pp; Chile/Hungary/Mexico ≈ 2pp; Poland/Czech/South Africa/US/UK/EZ ≈ 1pp; India/Indonesia/Korea/Thailand ≈ 0.5pp.
+- Nominal Neutral Rate (Green Diamond): ≈ 6% (Colombia/South Africa/India/Mexico), ≈ 4–5% (Brazil/Chile/Indonesia/Poland), ≈ 3% (Czech/Hungary/Korea), ≈ 2% (Thailand/US/UK/Eurozone).
+
+[Pattern Characteristics]
+- The cumulative rate cutting ranges across economies exhibit clear stratification, decreasing sequentially from high double digits to low single digits. Brazil, Chile, Hungary, Colombia, and Mexico are at the upper end, while the US, UK, and Eurozone are at the lower end.
+- The various horizontal lines form an orderly top-down arrangement within each economy. End‑2023 is generally higher than End‑2024, and both are situated above the Nominal Neutral Rate, maintaining a certain vertical spacing.
+- The position of the green diamond relative to its respective range varies by country. Some are in the middle of the range, while others are near the lower boundary, indicating structural differences between economies, but no extreme points significantly deviating from the overall magnitude have appeared.
+
+[Core Insights]
+Core Conclusion: There are significant differences in the buffer between countries' future rate cutting potential and their neutral rates.
+
+Business Implications:
+- Economies with high cumulative space have greater flexibility in adjusting monetary conditions.
+- Countries where End‑2024 remains above the neutral rate face less subsequent tightening pressure.
+- Economies where the neutral rate is close to the expected rate have more constrained policy latitude.
+
+Risk Focus:
+- If the actual policy rate continues to be lowered when it is less than 0.5pp away from the Nominal Neutral Rate, the effectiveness of monetary policy may be weakened.
+- If the cumulative rate cut approaches the upper limit shown in the chart (approx. 14%) but still does not reach the vicinity of the neutral rate, it may lead to an imbalance in interest rate pricing.

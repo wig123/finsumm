@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Bar/Histogram
+- Title: Not displayed
+- x-axis: Numerical scale from 0.810 to 0.940, step size approximately 0.005; Axis name not labeled.
+- y-axis: 0 to 2.5, unit in USD bn
+- Legend: Dark green represents "Equivalent 1-day notional (USD bn)", Light green represents "Current spot"
+
+[Data Relationships]
+- The highest bar is located at approximately 0.865, with a height between 2.0–2.5, approximately 2.2.
+- The second highest bar is at approximately 0.875, with a height between 2.0–2.5, approximately 2.1.
+- The light green "Current spot" falls within the 0.875–0.880 range, corresponding to a bar height of approximately 1.6.
+- Bar heights near 0.860 and 0.870 are approximately 1.3–1.5.
+- Near 0.890, approximately 1.1; 0.895, approximately 0.7; 0.900–0.905, approximately 0.5–0.7.
+- Bar heights at both ends (approximately 0.810 and 0.940) are below 0.2.
+- The difference between the highest and lowest bar heights is approximately ≥2.0.
+
+[Pattern Characteristics]
+The overall distribution across the 0.810–0.940 range exhibits a single-peak structure, with significant concentration in the center and marked contraction at both ends. The bars near 0.865–0.880 are the most prominent, with height changes in adjacent intervals being relatively smooth, gradually diminishing towards the sides. The light green "Current spot" is located close to the main peak but slightly to the right, with little difference in height compared to surrounding bars.
+
+[Core Insights]
+Core Conclusion: Notional volume is highly concentrated in the 0.865–0.880 range, and the current spot price is close to this concentration zone.
+
+Business Implications:
+- The concentration of notional exposure reflects a high dependency on this price range.
+- The current price being near the concentration zone makes the overall position more sensitive to changes.
+- The smaller notional volume in the marginal zones limits the tolerance for extreme price movements.
+
+Risk Focus:
+- If the price falls below 0.860, the highly concentrated exposure could amplify P&L volatility.
+- If the price breaks above 0.890, insufficient notional volume outside the concentration zone may trigger reallocation pressure.

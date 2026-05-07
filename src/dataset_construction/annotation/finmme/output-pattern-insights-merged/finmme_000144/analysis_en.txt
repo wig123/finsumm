@@ -1,0 +1,35 @@
+[Chart Components]
+- Type: Combined Bar and Line Chart
+- Title: No displayed title
+- Axes: The vertical axis represents the numerical range (from -10 to 30), the horizontal axis represents the years (FY16 to CY23)
+- Legend: Includes Volume (Red Bar), Price (Gray Bar), New product (Black Outlined Bar), Total (Light Orange Line)
+
+[Data Relationships]
+- Key figures and changes:
+  - Total reached its peak in CY21, approximately 25.
+  - Total was at its lowest point in FY18, close to 0.
+
+- Extremum comparison:
+  - Total in CY21 was significantly higher than other years, reaching its apex.
+
+- Significant trends:
+  - From FY16 to FY17, Total showed an upward trend.
+  - From FY18 to CY21, the overall trend exhibited fluctuations, peaking in CY21.
+  - After CY21, the overall trend declined, with CY22 and CY23 maintaining a stable level of approximately 10.
+
+The above data reflects the significant volatility and key inflection points of Total.
+
+[Pattern Characteristics]
+The line chart shows multi-stage fluctuations from FY16 to CY23, with a single sharp peak in CY21 and a trough in FY18. Stacked bar components show clear differences; the red component dominates in CY21; the red component in FY21 is negative, forming a reverse stack. The line levels for CY22 and CY23 are close, indicating a relatively balanced and continuous structure.
+
+[Core Insights]
+Core Conclusion: Total is dominated by Volume, resulting in a concentrated contribution structure.
+
+Business Implications:
+- High dependence of results on Volume
+- Large disparity in component weights, leading to high sensitivity
+- Stable segments facilitate target setting
+
+Risk Focus:
+- Total≤0: Overall results turn negative, pressuring annual targets
+- Volume<0: Drags down Total, making it difficult to maintain the ≥10 level

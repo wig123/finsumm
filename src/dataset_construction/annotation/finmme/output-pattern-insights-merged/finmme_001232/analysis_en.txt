@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Combination Chart (Bar + Line)
+- Title: No explicit title observed
+- Legend: Red bar represents "Japan MD Sales," Black line represents "% of total MD sales"
+- X-axis: Year—2018, 2019, 2020, 2021, 2022, 2023
+- Left Y-axis: Value (KRW bn), Range approximately 0–70
+- Right Y-axis: Proportion (%), Range 0%–90%
+
+[Data Relationships]
+- Bar (KRW bn): 2018≈8; 2019≈16; 2020≈10; 2021≈5; 2022≈21–22; 2023≈61–62
+- Peak/Trough: 2023≈61–62 highest; 2021≈5 lowest; High-low difference ≈ 56–57. Increment from 2018→2023 ≈ 53–54
+- Proportion (%): 2018≈41; 2019≈61; 2020≈48; 2021≈37; 2022≈35; 2023≈42
+- Peak/Trough: 2019≈61 highest; 2022≈35 lowest; Span ≈ 26 percentage points. Change from 2018→2023 ≈ +1 percentage point
+- Year-over-Year Comparison: 2023 value is greater than 2022 by ≈40; 2023 proportion is greater than 2022 by ≈7 percentage points
+
+[Pattern Characteristics]
+The bar chart first rose then declined between 2018–2021, slightly expanded in 2022, and showed a significant single-year expansion in 2023. The line chart rose between 2018–2019, then declined year-over-year, reaching its lowest point in 2022, with a certain rebound in 2023. The years of extreme values for the amount and the proportion are inconsistent, forming a structural combination in 2023 of "high value, moderate proportion."
+
+[Core Insights]
+Core Conclusion: Japan MD sales scale rapidly expanded, but the overall weighting only experienced partial recovery.
+
+Business Implications:
+- The reliance of total MD revenue on the Japanese market did not expand synchronously.
+- Within the overall portfolio, Japan still leans toward scale contribution rather than proportion dominance.
+- The short-term growth appears more like a phase of volume surge rather than sustained dominance.
+
+Risk Focus:
+- If the proportion falls below 35% again, the volume surge in Japanese sales will have limited contribution to the overall performance.
+- If the value retreats below 20, the current scale support effect will be weakened.

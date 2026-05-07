@@ -1,0 +1,35 @@
+**[Chart Components]**
+- Type: Parallel horizontal bar chart; Left chart title "US change in z-score vs previous week", Right chart title "Eurozone change in z-score vs previous week"
+- X-axis: The scale for both charts is the change in z-score, ranging approximately from -3 to +3 (including -3, -2, -1, 0, 1, 2, 3)
+- Y-axis: US includes PPI Final Demand Less Food &…, PPI Final Demand, Existing Home Sales, Markit Manufacturing PMI, Continuing Claims, UoM Consumer Sentiment Index, Markit Services PMI, Building Permits, Leading Index, Housing Starts; Eurozone includes FR Manufacturing PMI, EZ Consumer confidence, FR HICP, FR INSEE manufacturing confidence, EZ Services PMI, DE Services PMI, IT HICP, EZ HICP final, EZ Manufacturing PMI, DE Manufacturing PMI
+- Legend: Two series—Change in DSI (light green), Change in ESI (blue)
+- Data Source: BNP Paribas, Macrobond, Bloomberg
+
+**[Data Relationships]**
+- US PPI excluding Food and Energy: DSI≈+2.8, ESI≈+2.2
+- US PPI Headline: DSI≈+2.2, ESI≈+1.8
+- US Leading Index: DSI≈-1.6, ESI≈-0.5
+- US Building Permits: DSI≈-0.7, ESI≈-0.2
+- US Housing Starts: ESI≈+1.0, DSI≈near 0
+- EZ FR Manufacturing PMI: DSI≈+2.8, ESI≈+2.0
+- EZ DE Manufacturing PMI: DSI≈-2.3, ESI≈-1.2
+- EZ Consumer Confidence: ESI≈+1.8, DSI≈+0.5
+- EZ FR HICP: ESI≈+1.4, DSI≈+0.8
+- EZ Manufacturing PMI (EZ): DSI≈-0.7, ESI≈-0.1
+
+**[Pattern Characteristics]**
+- In both charts, the two bars for most indicators are similar in length and direction, with significant divergence appearing only in a few items.
+- The US indicators are concentrated in the positive range for price-related metrics, and mostly in the negative range for leading and real estate-related indicators; the Eurozone shows extreme positive values for the French Manufacturing PMI, while the German Manufacturing PMI shows extreme negative values.
+- The z-score change for individual indicators approaches ±3, forming prominent "long bars," which contrasts sharply with the relatively neutral remaining indicators.
+
+**[Core Insights]**
+Core Conclusion: A clear divergence has emerged between price expectations and real activity signals, with prominent inter-regional differences.
+
+Business Implications:
+- US price-related expectations are rising, while forward-looking and real estate indicators show weaker performance.
+- Intra-Eurozone business sentiment shows strong inconsistency between France and Germany.
+- The influence of sentiment and price-related indicators on overall assessment is amplifying.
+
+Risk Focus:
+- If the change in the US PPI excluding Food and Energy z-score consistently remains above +2, it may compress corporate profit margins.
+- If the change in the German Manufacturing PMI related z-score continues to fall below -2, it may drag down the overall Eurozone business sentiment assessment.

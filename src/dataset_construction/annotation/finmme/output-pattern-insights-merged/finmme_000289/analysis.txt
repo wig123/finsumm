@@ -1,0 +1,32 @@
+【图表构成】
+- 类型：垂直柱状图，红色柱。
+- 图例/标题：顶部“Staff costs (% of sales)”。
+- X轴：公司类别，含EPL、Jubilant Foodworks、Page Industries、Bata India、United Spirits、Emami、Bajaj Consumer、Dabur、Nestle、Tata Consumer、Akzo Nobel、Colgate、Marico、Godrej Consumer、Indigo Paints、Berger Paints、Asian Paints、Kansai Nerolac、ITC、Britannia、Hindustan Unilever、Titan、Avenue Supermarts。
+- Y轴：百分比刻度，约0–25。
+
+【数据关系】
+- 最高：EPL 19.9%；最低：Avenue Supermarts 1.5%；跨度18.4个百分点。
+- 次高：Jubilant Foodworks 18.7（比最高低1.2）；第三：Page Industries 15.9（比次高低2.8）。
+- 10%附近：Bata India 11.4；United Spirits 11.0；Emami 10.2；Bajaj Consumer 10.1。
+- 9%区间：Dabur 9.5；Nestlé 9.1（差0.4）。
+- 8%区间：Tata Consumer 8.3；Akzo Nobel 8.0；Colgate 7.9；Marico 7.8。
+- Godrej Consumer 7.5；Indigo Paints 7.4（差0.1）。
+- 相同值：Berger Paints与Asian Paints均6.3；Kansai Nerolac与ITC均5.8。
+- 较低：Britannia 4.7；Hindustan Unilever 4.3；Titan 3.0；Avenue Supermarts 1.5。
+
+【模式特征】
+- 各公司按数值从高到低排列，形成由左至右逐步递减的单峰结构，整体变化相对平滑，仅在前端和尾端有较大落差。  
+- 中段公司数值集中在中等区间，分布较为密集，部分公司出现成对相同值。  
+- 最高和最低公司与大部分样本之间存在明显间隔，尾部数家公司与中枢区间形成清晰分层。
+
+【核心洞察】
+核心结论：各公司人员成本占比差异显著，呈明显梯度分层。
+
+业务含义：
+- 头部高占比公司对销售高度依赖人力投入。
+- 中段公司在费用结构上更接近行业中枢水平。
+- 尾部公司具备相对更轻的人力费用结构空间。
+
+风险关注：
+- 若人员成本占比持续高于15%，或压缩利润弹性。
+- 若长期低于5%，可能影响服务质量与增长支撑。

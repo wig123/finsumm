@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Vertical bar chart (single series)
+- Title: Not displayed
+- X-axis: Year classification, 2019 to 2036
+- Y-axis: Unit is EUR billion, range from 0 to approximately -1.2, scale interval approximately 0.2, includes grid lines
+- Legend: Not displayed; Bar color is dark green
+
+[Data Relationships]
+- Highest value: 2019, close to 0
+- Lowest value: 2036, between -1.1 and -1.2
+- Difference between initial and final period: approximately 1.1–1.2
+- Key points: 2030 approximately -0.6, 2033 approximately -0.9, 2035 approximately -1.05
+- Adjacent difference: 2036 is lower than 2035 by approximately 0.1–0.15
+- Phase difference: 2025 approximately -0.35, 2028 approximately -0.45, 2030 approximately -0.6; the difference between 2025 and 2030 is approximately 0.25
+- Early period: 2020 approximately -0.1 to -0.2, 2021 approximately -0.2
+
+[Pattern Characteristics]
+The bar values for each year extend downward annually starting from 2019, showing an overall unidirectional, approximately linear decreasing structure. The decline in early years is smaller, the annual spacing gradually widens in the middle and later segments, and the difference in bar length is more pronounced in the final years. No years showed reversal or stabilization, with the deepest position forming near 2035 and 2036 at the end of the period.
+
+[Core Insights]
+Core Conclusion: This sequence demonstrates a continuous and accelerating accumulation of financial pressure.
+
+Business Implications:
+- The long-term funding gap shows signs of expansion, requiring proactive planning.
+- Constraints are imposed on future annual budgets and cash flow arrangements.
+- Later years face heavier pressure, potentially crowding out other resource allocations.
+
+Risk Focus:
+- When the annual amount approaches -0.6, a structural funding strain may occur if no hedging measures are in place.
+- If the value persistently remains below -1.0 and continues until 2036, it may trigger a significant rise in solvency or refinancing pressure.

@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Line chart; Color: Green.
+- Title: Not displayed.
+- Y-axis: Labeled "Bid-to-cover," range approximately 2.50—3.30, scale interval approximately 0.10, with horizontal grid lines.
+- X-axis: Time scale, from Aug-23 to Jan-24, labeled monthly.
+- Legend: Not displayed.
+
+[Data Relationships]
+- Initial period (Aug-23 start) approximately 2.80; Final period (Jan-24 end) approximately 2.80.
+- Global high point approximately 3.22 (late Dec-23, above 3.20).
+- Global low point approximately 2.56 (early Nov-23, slightly above 2.55).
+- High-low difference approximately 0.66 (3.22−2.56).
+- High point in Sep-23 approximately 3.16; Low point in mid-Nov-23 approximately 2.70.
+- Mid-high level in Dec-23 approximately 3.10; High point within Jan-24 approximately 3.20, low point approximately 2.91.
+
+[Pattern Characteristics]
+- Overall, the pattern fluctuates repeatedly around the 2.8—3.1 range, with the starting and ending levels being roughly similar, lacking a unilateral trend, but showing multiple significant fluctuations in between.
+- Fluctuations from Oct-23 to early Nov-23 were relatively low, followed by a brief sharp surge in mid-to-late Nov-23. Subsequently, Dec-23 to Jan-24 showed overall oscillation within a higher range.
+- A significant low value appeared in early Nov-23 across the entire period, while a relatively prominent high value appeared near late Dec-23, forming local extremes compared to surrounding data points.
+
+[Core Insights]
+Core Conclusion: Demand intensity contracted first, then recovered in the short term, with the overall level remaining roughly flat.
+
+Business Implications:
+- Auction interest exhibited phased differences during the period, requiring dynamic assessment.
+- The weakening in the middle segment may correspond to a temporary decline in allocation willingness.
+- The recovery in the later segment indicates that demand still maintains certain support within the high range.
+
+Risk Focus:
+- If the Bid-to-cover ratio persistently falls below 2.60, it may lead to unfavorable issuance results and increased pricing pressure.
+- If the ratio remains above 3.20 for an extended period, it may suggest tight supply, potentially driving up future issuance costs and volatility.

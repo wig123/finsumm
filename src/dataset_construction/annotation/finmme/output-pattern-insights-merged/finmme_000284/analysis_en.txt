@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Dual Line Time Series Chart
+- Title: Not displayed; Y-axis unit labeled as (CNYk/tonne)
+- X-axis: Time scale, range Jan-19 to Jan-24 (Monthly/Quarterly labeling)
+- Y-axis: Numerical scale 0–700 (Tick marks every 100)
+- Legend: carbonate (red), hydroxide (gray)
+
+[Data Relationships]
+- Jan-19: carbonate≈80; hydroxide≈100
+- Near Oct-20 lowest point: carbonate≈40; hydroxide≈45
+- Jul-21: Both≈90–100
+- Apr-22: Both≈480; difference<20
+- Jan-23 Peak: carbonate≈590; hydroxide≈560; difference≈30
+- Apr-23: carbonate≈160; hydroxide≈210; difference≈50
+- Jul-23: Both≈310; difference<10
+- Jan-24: carbonate≈90; hydroxide≈100
+- Full period high-low range: carbonate≈550; hydroxide≈515
+- Jan-23 increase compared to Jan-19: carbonate≈510; hydroxide≈460
+
+[Pattern Characteristics]
+After the two series gradually declined from Jan-19 to Oct-20, they began to rise rapidly around mid-2021, forming a high-level plateau and a single primary peak between 2022 and early 2023. Subsequently, both lines sharply retreated starting from Jan-23, with a noticeable mid-cycle rebound occurring in mid-2023, eventually returning to near their starting levels by Jan-24. Overall, the trends of carbonate and hydroxide are highly synchronized, with price spread expansion and convergence only occurring to a certain extent during the high-level and retracement phases.
+
+[Core Insights]
+Core Conclusion: The prices of both products experienced a complete cycle of sharp upward movement and subsequent retracement.
+
+Business Implications:
+- High price elasticity, leading to high exposure to profitability and cost fluctuations.
+- Early 2022–2023 was the most sensitive range for profit margins and procurement costs.
+- Current prices have returned to low levels, indicating limited sustainability of historical highs.
+
+Risk Focus:
+- When prices approach or exceed 500 CNYk/tonne, insufficient hedging/price locking may lead to inventory write-downs during the subsequent downturn.
+- Continued large-scale capacity expansion when prices drop below 100 CNYk/tonne may result in cash flow pressure and prolonged investment recovery periods.

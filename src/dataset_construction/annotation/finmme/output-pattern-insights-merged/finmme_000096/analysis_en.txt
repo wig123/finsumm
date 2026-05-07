@@ -1,0 +1,38 @@
+[Chart Components]
+- Type: Line Chart
+- Title: Not provided
+- Axes:
+  - Horizontal Axis: Time (from 2000 to 2023)
+  - Vertical Axis: Percentage Change (%q/q, saar), range from -40 to 60
+- Legend:
+  - Green Line: Real Private Domestic Investment, Fixed Investment, Nonresidential, Equipment
+  - Blue Line: Non-defense Capital Goods Excluding Aircraft
+
+[Data Relationships]
+- Key Metrics and Changes:
+  - During the 2008 Financial Crisis (gray shaded area in the chart), both lines showed a significant decline, reaching their lowest points.
+  - Near 2010, both quickly rebounded and reached relative peaks, indicating a recovery trend.
+  - In 2020, the impact of the pandemic caused the green line to fluctuate sharply, dropping to a low point before rapidly recovering.
+
+- Extremum Comparison:
+  - The green line reached its lowest point in 2020, subsequently recovering to near its 2010 peak.
+  - The blue line showed less volatility during the similar period but also displayed a synchronous trend.
+
+- Key Trends:
+  - Overall, the two lines maintained similar volatility trends between 2000 and 2023.
+  - Major economic events (such as the 2008 Financial Crisis and the 2020 pandemic) had a significant impact on investment.
+
+[Pattern Characteristics]
+Both lines generally fluctuate around the zero line, showing relatively consistent trajectories. The green line exhibits greater amplitude and faster changes, while the blue line is relatively stable. During the gray shaded period, both experienced deep troughs followed by rapid pullbacks. In 2020, the green line showed a single extreme jump/shift.
+
+[Core Insights]
+Core Conclusion: Equipment investment is more sensitive to the short-term environment; the capital goods indicator can serve as a reference.
+
+Business Implications:
+- The blue line can serve as an alternative reference for equipment investment.
+- Budgeting and procurement are more sensitive to short-cycle disturbances.
+- Planning and execution flexibility must be strengthened during periods of shock.
+
+Risk Focus:
+- Either indicator falls below 0%q/q, saar, or current quarter capital expenditure is reduced.
+- The green line falls below -20%q/q, saar, potentially triggering a rapid downward adjustment in equipment procurement.

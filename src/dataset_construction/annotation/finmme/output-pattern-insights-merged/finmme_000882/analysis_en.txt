@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Multi-series line chart (with markers)
+- Title: Data center segment sales
+- Y-axis: Quarterly Revs ($mm), range approximately 0–16,000, scale increment 2,000
+- X-axis: Quarterly timeline, Mar-14 to Dec-23
+- Legend: Intel (gray diamond), AMD (red square), Nvidia (black triangle)
+
+[Data Relationships]
+- Dec-23: Intel≈4,000; AMD≈1,600; Nvidia≈14,500.
+- Peak Values: Nvidia≈14,500 (Dec-23); Intel≈6,500 (approx. 2021); AMD≈1,700 (approx. Sep-22).
+- Initial Values (Mar-14): Intel≈2,800–3,000; AMD≈≈200; Nvidia≈300–400.
+- Nvidia in Jun-23≈10,000; the difference compared to Mar-23≈4,000 is ≈6,000.
+- Dec-23 Comparative Analysis: Nvidia-Intel≈10,500; Nvidia-AMD≈12,900; Intel-AMD≈2,400.
+
+[Pattern Characteristics]
+All three curves were at low levels in the early period. Intel maintained the highest position for most of the period with a relatively smooth trend, experiencing a slow decline in the middle section. The AMD curve stays close to the X-axis, showing slight increments, and consistently remains at the lowest level overall. Nvidia was close to AMD in the early stages with moderate changes, then gradually rose, and showed a significantly steep acceleration in the final year, resulting in its endpoint being far higher than the other two curves, creating a structural single high point and significant divergence.
+
+[Core Insights]
+Core Conclusion: The data center revenue landscape has shifted from Intel dominance to high concentration by Nvidia.
+
+Business Implications:
+- Nvidia has become the primary source of data center revenue.
+- Intel's revenue has relatively weakened, limiting its bargaining power and investment capacity.
+- AMD has limited influence in this sector, with minor marginal contribution.
+
+Risk Concerns:
+- If Nvidia revenue declines by more than 30% from 14,500, overall growth may decelerate significantly.
+- If Intel stabilizes below 4,000, the competitive landscape may remain imbalanced in the long term.

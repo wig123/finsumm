@@ -1,0 +1,38 @@
+# 前端库快速渲染测试 - 使用简单数据主题
+batch_name: frontend_quick_test
+
+output_base_dir: ./batch_output
+
+execution:
+  parallel: false
+  max_workers: 1
+  use_async: false
+
+charts:
+  # ECharts 测试 (已验证成功)
+  - chart_type: line
+    language: zh-CN
+    theme: macro_policy
+    library: echarts
+    is_frontend: true
+
+  # Highcharts 测试
+  - chart_type: line
+    language: en-US
+    theme: macro_policy
+    library: highcharts
+    is_frontend: true
+
+  # Chart.js 测试
+  - chart_type: line
+    language: zh-CN
+    theme: macro_policy
+    library: chartjs
+    is_frontend: true
+
+  # Plotly.js 测试
+  - chart_type: line
+    language: en-US
+    theme: macro_policy
+    library: plotlyjs
+    is_frontend: true

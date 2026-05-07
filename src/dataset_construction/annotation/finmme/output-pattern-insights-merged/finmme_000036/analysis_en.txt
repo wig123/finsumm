@@ -1,0 +1,26 @@
+[Chart Components]
+- Type: Dual parallel charts; the left is a grouped bar chart (a.Share), and the right is a bar-line combination chart (b.Growth).
+- Overall Title: Chart VI.10: Vehicle Loans – NBFCs vis-à-vis SCBs.
+- Chart a: The x-axis indicates time points Mar-20, Mar-21, Mar-22, Mar-23; the y-axis title is "Share in total vehicle loans (in per cent)," with a scale range of 0–70, intervals approximately 10. The legend includes NBFCs (orange bar) and SCBs (yellow bar).
+- Chart b: The x-axis is consistent with Chart a; the y-axis title is "YoY growth (in per cent)," with a scale range of -10 to 30, intervals approximately 10. The legend includes NBFC Vehicle Loans (orange bar), SCB Vehicle Loans (yellow bar), Passenger Vehicle sales (green line), and Two-wheeler vehicles (brown line).
+- Note: Data are provisional; sources include RBI and SIAM, among others.
+
+[Data Relationships]
+- In Chart a, Mar-23 data: NBFCs' proportion is 43.5%; SCBs' proportion is 59.5%; the difference between the two is 16.0 percentage points.
+
+[Pattern Characteristics]
+- In Chart a, the yellow bar is consistently higher than the orange bar, showing a structure of single dominance in market share, with the gap widening in the final period.
+- In Chart b, both types of loan bars are predominantly positive, with yellow higher than orange, and the overall curve set progresses from low to high.
+- The green line is higher than the brown line; the brown line crosses from negative to positive values, with the inflection point near Mar-22.
+
+[Core Insights]
+Core Conclusion: SCBs dominate vehicle loans; there is a strong linkage between credit and passenger vehicle sales.
+
+Business Implications:
+- Market share structure is concentrated in SCBs
+- Credit expansion is sensitive to passenger vehicle sales
+- Two-wheelers have a weaker impact on loans
+
+Risk Focus:
+- Loan YoY < 0, potentially leading to market share contraction
+- Market share difference ≥ 16 percentage points, NBFC proportion continues to decline.

@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Grouped Bar Chart
+- Title: Not displayed
+- X-axis: Currency Pair Categories (e.g., USDCNH, USDKRW, USDTWD, USDINR, USDBRL, USDMXN, USDZAR, USDILS, EURPLN, EURCZK, EURHUF, etc.)
+- Y-axis: Values approximately 0.9–1.5, scale interval 0.1, labeled as “1y/3m curve steepness”
+- Legend: 3 series—Dark Green: 1y/3m curve steepness; Medium Green: -1w; Light Green: -1m
+
+[Data Relationships]
+- Highest current value: USDINR (1.4–1.5); Second highest: USDCNH (1.4–1.5, lower than USDINR).
+- Lowest current values: EURCZK and USDILS (both at 0.95–1.0).
+- Overall range of current values is approximately 0.95–1.5, with a maximum-minimum difference of about 0.5.
+- USDCNH: Current 1.4–1.5; -1w 1.3–1.4; -1m 1.2–1.3.
+- USDINR: Current 1.4–1.5; -1w 1.3–1.4; -1m 1.2–1.3.
+- USDBRL, USDMXN, USDZAR: All three time points are within 1.0–1.2 and are close to each other.
+- EURPLN, EURHUF: Current approximately 1.0–1.1; -1w and -1m are also within 1.0–1.1.
+
+[Pattern Characteristics]
+For most currency pairs, the three bars are relatively tightly clustered along the Y-axis, generally distributed within a limited range, with only USDCNH and USDINR significantly higher than other varieties. USDBRL, USDMXN, USDZAR, and some European currencies show similar bar heights across the three time points, indicating a relatively smooth structure. The bars near USDILS and EURCZK are close to the lower boundary of the chart, forming a low-level cluster, creating a clear stratification compared to the high-level currency pairs.
+
+[Core Insights]
+Core Conclusion: Curve steepness is concentrated and higher in a few currency pairs, while the rest are relatively convergent.
+
+Business Implications:
+- The term structure characteristics of USDCNH and USDINR are more prominent.
+- The term structure differences for some Latin American and European currencies are limited.
+- Overall cross-variety term structure divergence is limited but high/low stratification exists.
+
+Risk Focus:
+- If the USDCNH or USDINR indicators consistently exceed 1.5, it may amplify the curve risk exposure of related positions.
+- If EURCZK or USDILS remains below 0.95 for an extended period, it may weaken the potential return space for curve strategies implemented in these currencies.

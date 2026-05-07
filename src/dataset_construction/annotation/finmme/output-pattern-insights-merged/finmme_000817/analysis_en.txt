@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Time series line chart (Closing price), step line (Target price), overlaid with red scatter points.
+- Title: Not displayed.
+- X-axis: Date, range approximately 01-21 to 01-24, ticks include 01-21, 04-21, 07-21, 10-21…10-23, 01-24.
+- Y-axis: Price (USD), 0–140, interval 20.
+- Legend: Closing price (Cyan), Target price (Gray-blue); Red dots are not labeled in the legend.
+
+[Data Relationships]
+- The closing price started at approximately USD110 (01-21) and ended at approximately USD118 (01-24); the lowest point was about USD85 (04-22), and the highest was about USD120 (10-23).
+- Target price steps (USD): Approximately 110 (early 01-21), 95 (10-21), 80 (04-22), 100 (01-23), 120 (03-23), 130 (07-23), 135 (10-23 until the end).
+- Difference at specified points: 03-23 Target 120, Closing ≈105, Difference ≈15; 07-23 Target 130, Closing ≈112, Difference ≈18; 10-23 Target 135, Closing ≈115, Difference ≈20.
+- The range of the red scatter points is approximately USD95–135.
+
+[Pattern Characteristics]
+- The closing price exhibits a sideways trend with multiple fluctuations over the entire period, experiencing a noticeable dip in the middle before returning to near previous high levels.
+- The target price shows multiple step-like adjustments, first decreasing step-by-step, then continuously adjusting upward from the low point to the highest range at the end of the chart, structurally concentrated on several platforms.
+- The red scatter points are locally densely distributed, with prices mostly located near or above the closing price; individual points are significantly higher than the current closing price and target price.
+
+[Core Insights]
+Core Conclusion: The target price has been revised upward multiple times in stages, but it has not yet been fully realized.
+
+Business Implications:
+- Pricing expectations are generally optimistic, exceeding actual transaction levels.
+- The valuation range is rising, demanding higher expectations for future returns.
+- Areas of high concentration of red dots may represent valuation segments with significant divergence.
+
+Risk Concerns:
+- If the target price is ≥135 and the closing price consistently remains ≤120, it may lead to unmet expectations and emotional volatility.
+- If the red scatter points are consistently above 135 without corresponding support from the closing price, it may indicate pressure from overly optimistic pricing.

@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Table
+- Title: Not displayed
+- Columns: Company, Rating, TP (Old, New), Change(%)
+- Axes: None
+- Legend: None
+
+[Data Relationships]
+- Total 9 companies; BUY 5, REDUCE 3; LICHF rating not displayed.
+- Maximum New TP 7,200 (BAF), minimum 240 (MMFS), range 6,960.
+- Only SHFL is positive: 2,700→2,900, +200 (7%).
+- Zero change: Cholamandalam, MMFS (Old=New).
+- Largest negative change: CREDAG 1,990→1,550, -440 (-22%); followed by BAF 8,800→7,200, -1,600 (-18%).
+- Others: BAJAJINSERV 1,900→1,850, -50 (-3%); SBICARDS 650→640, -10 (-1%); LICHF 740→720, -20 (-3%); FIVESTAR 900→880, -20 (-2%).
+
+[Pattern Characteristics]
+- The new target prices (TPs) for the vast majority of companies show a downward revision compared to old values; only one company saw an upward revision, and a few remained unchanged, presenting an overall unidirectional adjustment structure.
+- Both BUY and REDUCE ratings include instances of downward revisions and unchanged TPs; there is no one-to-one correlation between a specific rating and the direction of the adjustment.
+- The magnitude of TP adjustments varies significantly among individual stocks, with certain companies experiencing noticeably larger downward revisions, while a few companies show minimal or zero change.
+
+[Core Insights]
+Core Conclusion: The overall TP adjustment reflects a more conservative pricing approach.
+
+Business Implications:
+- Valuation expectations for most companies are compressed, narrowing the scope for optimism.
+- Internal divergence within BUY-rated stocks, increasing the difficulty of stock selection.
+- Individual stocks with significant downward revisions may become a source of portfolio drag.
+
+Risk Focus:
+- When a single stock's target price is revised down by more than -20%, it may significantly lower portfolio return expectations.
+- If subsequent downward revisions for more stocks approach -15%, it may trigger a passive reduction in overall allocation proportion.

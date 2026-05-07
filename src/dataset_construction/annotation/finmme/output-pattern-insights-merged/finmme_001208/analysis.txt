@@ -1,0 +1,31 @@
+【图表构成】
+- 图表类型：评分排行榜表格；显示1–20/350（Ordered best to worst）
+- 评估年份：2023
+- 列项：Company name、Assessed for、Total score、Overall approach、Commodity score、Policy Strength、Implementation and reporting、Associated human rights abuses
+- 行示例：Schroders、Rabobank、BNP Paribas、Deutsche Bank、Standard Chartered
+- 记分方式：总分为百分比；各分项为“得分/满分”
+- 坐标轴：无；含简要进度条与图例提示
+
+【数据关系】
+- 总分：Schroders 58.5%，Rabobank 54.7%，BNP Paribas 51.3%，Deutsche Bank 45.5%，Standard Chartered 45.2%；最高与最低差13.3pct
+- 与最高值差：各公司较58.5%分别低3.8、7.2、13.0、13.3pct
+- Overall approach：最高5/6（Schroders），最低2/6（Standard），差3
+- Commodity score：最高30/44（Rabobank），最低17/44（Standard），差13
+- Policy Strength：最高15/21（Rabobank、BNP），最低11/21（Standard），差4
+- Implementation and reporting：最高35/50（Schroders），最低22/50（Rabobank、Deutsche），差13
+- Associated human rights abuses：最高14/23（Rabobank），最低5/23（Standard），差9
+
+【模式特征】  
+各公司总分整体处于中等区间，头尾差距有限，呈相对收敛的排名分布。分项中，Commodity score、Implementation and reporting、Associated human rights abuses的公司间差异更大，而Overall approach、Policy Strength相对接近。单一公司在不同分项上呈现“强弱错位”，并不存在所有维度同时领先的对象。
+
+【核心洞察】  
+核心结论：各机构在细分维度上表现分化，总体水平接近但结构不均衡。  
+
+业务含义：  
+- 总分差距有限，难以仅凭综合分区分头部。  
+- 细分维度成为机构间真正的竞争差异来源。  
+- 缺乏全维度领先者，行业基准仍由多家共同塑造。  
+
+风险关注：  
+- 在Commodity score接近17/44时，相关业务能力被视为明显短板。  
+- Associated human rights abuses接近5/23时，声誉与合规压力显著上升。

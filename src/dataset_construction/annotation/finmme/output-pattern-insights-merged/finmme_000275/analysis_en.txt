@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Stacked Bar Chart
+- Title: No explicit title displayed; includes explanatory text in the bottom right corner
+- X-axis: Year (1990, 1995, 2000, 2005, 2010, 2015, 2019, 2030E, 2050E)
+- Y-axis: Carbon emissions (million tonnes), range 0–1,000
+- Legend: 7 categories—Cars, Heavy vehicles, Aviation, Vans, Other road transport, Inland navigation, Rail (corresponding colors)
+
+[Data Relationships]
+- Initial total volume in 1990 is approximately 700 million tonnes; the final total volume in 2050E is close to 0 million tonnes.
+- The peak total volume occurs in the 2000–2010 range, with the bar top slightly below 1,000 million tonnes.
+- The 2019 total volume is approximately 900 million tonnes; about 200 million tonnes higher than 1990.
+- The 2030E total volume is approximately 700–750 million tonnes, lower than 2019.
+- The annotation indicates: Even if other categories are zero, "Heavy vehicles + Aviation" requires a reduction of approximately 78% relative to 2019.
+
+[Pattern Characteristics]
+- The total volume across all years initially rises and then falls, forming a relatively flat high plateau between 2000 and 2010, followed by a clear step-wise contraction in 2030E and 2050E.
+- Constituent categories show a diversified distribution during the historical phase, with Cars and Heavy vehicles accounting for a relatively large proportion. By 2050E, emissions are almost entirely contracted to near-zero levels, aside from minor residuals.
+- The annotation emphasizes that under the assumption that other categories are eliminated (cleared to zero), Heavy vehicles and Aviation constitute the primary source of the remaining volume and require substantial compression.
+
+[Core Insights]
+Core Conclusion: The success of future emission reduction efforts is highly dependent on the Heavy vehicles and Aviation segments.
+
+Business Implications:
+- The overall emission reduction target imposes high-pressure requirements on transportation-related sectors.
+- Heavy vehicles and Aviation become the critical focus for reduction efficiency and resource allocation.
+- Other categories offer limited scope and cannot independently support the achievement of the overall target.
+
+Risk Concerns:
+- If the reduction in Heavy + Aviation is less than 78% (relative to 2019), the overall total volume will be significantly higher than the 2050E target.
+- If the 2030E total volume remains close to 900 million tonnes, subsequent phases will require undertaking steeper emission reduction tasks, significantly increasing implementation difficulty.

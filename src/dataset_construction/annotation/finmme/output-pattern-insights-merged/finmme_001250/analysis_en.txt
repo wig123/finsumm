@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Combination chart (Bar + Line), Dual Y-axis
+- Title: No explicit title observed
+- X-axis: Fiscal Year FY18–FY23
+- Left Y-axis: SI Revenue (INR bn), Range 0–80
+- Right Y-axis: EBITDA margin (%), Range 0%–14%
+- Legend: Red Bar = SI Revenue; Black Line = EBITDA margin
+
+[Data Relationships]
+- SI Revenue (INR bn): FY18≈38, FY19≈37, FY20≈27, FY21≈47, FY22≈59, FY23≈71.
+- Highest FY23≈71, Lowest FY20≈27, Difference≈44; FY18→FY23 Change≈+33.
+- FY21 compared to FY20 +≈20; FY22 compared to FY21 +≈12.
+- EBITDA margin (%): FY18≈5.5, FY19≈6.5, FY20≈4.0, FY21≈9.0, FY22≈9.5, FY23≈13.
+- Highest FY23≈13, Lowest FY20≈4, Difference≈9 percentage points; FY23 compared to FY22 +≈3.5 percentage points.
+
+[Pattern Characteristics]
+- Bar values first fluctuated slightly between FY18–FY20 before showing a significant decline, subsequently rising continuously from FY21–FY23 and setting a phase high.
+- The line first rose between FY18–FY19, formed a low point in FY20, and then continued to climb starting from FY21, reaching the highest level across the entire period in FY23.
+- The bar and line generally follow the same direction, but during the FY19–FY20 phase, both were simultaneously in a localized low range. After FY21, they were synchronously in a higher range, with no abrupt outliers observed.
+
+[Core Insights]
+Core Conclusion: Revenue and profitability simultaneously improved after bottoming out in FY20, reaching high levels in FY23.
+
+Business Implications:
+- Operational performance showed a phase-based divergence around FY20.
+- Revenue expansion and enhanced profitability were mutually reinforcing after FY21.
+- Current profitability is at the peak of the observation period, possessing a certain degree of resilience.
+
+Risk Focus:
+- If revenue falls back to levels near FY20, profitability may again approach the 4% low.
+- If profitability drops below 6%, approaching the FY18–FY19 range, it would undermine the foundation of the current FY23 achievement of approximately 13%.

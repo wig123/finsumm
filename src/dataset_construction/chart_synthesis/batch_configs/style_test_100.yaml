@@ -1,0 +1,139 @@
+# 视觉风格测试配置 - 100张图表
+# 测试新增的8种视觉风格 + style_notes.yaml
+# 用法: python scripts/run_batch.py --config batch_configs/style_test_100.yaml
+
+batch_name: "style_test_100"
+output_base_dir: "./batch_output"
+
+# 执行配置
+execution:
+  parallel: true
+  max_workers: 5
+  use_process_pool: false
+  use_async: true
+
+# 图表列表 (100张)
+# 每种风格约12-13张，覆盖不同图表类型和主题
+charts:
+  # === trading 风格 (12张) - 交易终端/技术分析 ===
+  - {chart_type: candlestick, language: zh-CN, theme: equity_markets, library: mplfinance, visual_style: trading}
+  - {chart_type: candlestick, language: en-US, theme: fx_trade, library: plotly, visual_style: trading}
+  - {chart_type: candlestick_volume, language: zh-CN, theme: commodities, library: mplfinance, visual_style: trading}
+  - {chart_type: ohlc, language: en-US, theme: equity_markets, library: plotly, visual_style: trading}
+  - {chart_type: bollinger_bands, language: zh-CN, theme: digital_assets, library: mplfinance, visual_style: trading}
+  - {chart_type: ichimoku_cloud, language: en-US, theme: fx_trade, library: plotly, visual_style: trading}
+  - {chart_type: line, language: zh-CN, theme: equity_markets, library: matplotlib, visual_style: trading}
+  - {chart_type: renko, language: en-US, theme: commodities, library: mplfinance, visual_style: trading}
+  - {chart_type: volume_profile, language: zh-CN, theme: equity_markets, library: plotly, visual_style: trading}
+  - {chart_type: market_depth, language: en-US, theme: digital_assets, library: plotly, visual_style: trading}
+  - {chart_type: candlestick_indicator, language: zh-CN, theme: equity_markets, library: mplfinance, visual_style: trading}
+  - {chart_type: area, language: en-US, theme: commodities, library: plotly, visual_style: trading}
+
+  # === quant 风格 (12张) - 量化/学术 ===
+  - {chart_type: line, language: en-US, theme: macro_policy, library: matplotlib, visual_style: quant}
+  - {chart_type: scatter, language: zh-CN, theme: inflation, library: seaborn, visual_style: quant}
+  - {chart_type: histogram, language: en-US, theme: equity_markets, library: matplotlib, visual_style: quant}
+  - {chart_type: box, language: zh-CN, theme: growth_employment, library: seaborn, visual_style: quant}
+  - {chart_type: density, language: en-US, theme: derivatives, library: seaborn, visual_style: quant}
+  - {chart_type: errorbar, language: zh-CN, theme: inflation, library: matplotlib, visual_style: quant}
+  - {chart_type: heatmap, language: en-US, theme: fx_trade, library: seaborn, visual_style: quant}
+  - {chart_type: contour, language: zh-CN, theme: derivatives, library: matplotlib, visual_style: quant}
+  - {chart_type: line_band_overlay, language: en-US, theme: macro_policy, library: matplotlib, visual_style: quant}
+  - {chart_type: fan_chart, language: zh-CN, theme: inflation, library: matplotlib, visual_style: quant}
+  - {chart_type: scatter, language: en-US, theme: corporate_finance, library: matplotlib, visual_style: quant}
+  - {chart_type: heatmap_scatter, language: zh-CN, theme: equity_markets, library: seaborn, visual_style: quant}
+
+  # === macro 风格 (12张) - 宏观/国际组织 ===
+  - {chart_type: bar, language: en-US, theme: inflation, library: matplotlib, visual_style: macro}
+  - {chart_type: line, language: zh-CN, theme: growth_employment, library: matplotlib, visual_style: macro}
+  - {chart_type: bar, language: en-US, theme: fiscal_policy, library: plotly, visual_style: macro}
+  - {chart_type: line, language: zh-CN, theme: macro_policy, library: plotly, visual_style: macro}
+  - {chart_type: area, language: en-US, theme: fixed_income, library: matplotlib, visual_style: macro}
+  - {chart_type: bar_line_overlay, language: zh-CN, theme: banking_credit, library: plotly, visual_style: macro}
+  - {chart_type: scatter, language: en-US, theme: growth_employment, library: matplotlib, visual_style: macro}
+  - {chart_type: heatmap, language: zh-CN, theme: commodities, library: seaborn, visual_style: macro}
+  - {chart_type: line, language: en-US, theme: inflation, library: altair, visual_style: macro}
+  - {chart_type: bar, language: zh-CN, theme: real_estate, library: matplotlib, visual_style: macro}
+  - {chart_type: fan_chart, language: en-US, theme: macro_policy, library: plotly, visual_style: macro}
+  - {chart_type: line, language: zh-CN, theme: commodities, library: seaborn, visual_style: macro}
+
+  # === news 风格 (12张) - 新闻财经/媒体 ===
+  - {chart_type: line, language: en-US, theme: inflation, library: matplotlib, visual_style: news}
+  - {chart_type: bar, language: zh-CN, theme: growth_employment, library: matplotlib, visual_style: news}
+  - {chart_type: area, language: en-US, theme: equity_markets, library: plotly, visual_style: news}
+  - {chart_type: line, language: zh-CN, theme: real_estate, library: plotly, visual_style: news}
+  - {chart_type: bar, language: en-US, theme: commodities, library: matplotlib, visual_style: news}
+  - {chart_type: pie, language: zh-CN, theme: esg_sustainable, library: matplotlib, visual_style: news}
+  - {chart_type: bar_line_overlay, language: en-US, theme: macro_policy, library: plotly, visual_style: news}
+  - {chart_type: line, language: zh-CN, theme: digital_assets, library: matplotlib, visual_style: news}
+  - {chart_type: bar, language: en-US, theme: banking_credit, library: plotly, visual_style: news}
+  - {chart_type: area, language: zh-CN, theme: fx_trade, library: matplotlib, visual_style: news}
+  - {chart_type: scatter, language: en-US, theme: inflation, library: matplotlib, visual_style: news}
+  - {chart_type: line, language: zh-CN, theme: corporate_finance, library: plotly, visual_style: news}
+
+  # === corporate 风格 (13张) - 企业财报/FP&A ===
+  - {chart_type: bar, language: zh-CN, theme: corporate_finance, library: matplotlib, visual_style: corporate}
+  - {chart_type: waterfall, language: en-US, theme: fiscal_policy, library: plotly, visual_style: corporate}
+  - {chart_type: pie, language: zh-CN, theme: asset_management, library: matplotlib, visual_style: corporate}
+  - {chart_type: bar, language: en-US, theme: insurance, library: plotly, visual_style: corporate}
+  - {chart_type: waterfall, language: zh-CN, theme: corporate_finance, library: plotly, visual_style: corporate}
+  - {chart_type: bar_line_overlay, language: en-US, theme: banking_credit, library: matplotlib, visual_style: corporate}
+  - {chart_type: treemap, language: zh-CN, theme: equity_markets, library: plotly, visual_style: corporate}
+  - {chart_type: bar, language: en-US, theme: real_estate, library: matplotlib, visual_style: corporate}
+  - {chart_type: waterfall_line, language: zh-CN, theme: fiscal_policy, library: plotly, visual_style: corporate}
+  - {chart_type: pie, language: en-US, theme: corporate_finance, library: plotly, visual_style: corporate}
+  - {chart_type: bar, language: zh-CN, theme: banking_credit, library: matplotlib, visual_style: corporate}
+  - {chart_type: line, language: en-US, theme: asset_management, library: plotly, visual_style: corporate}
+  - {chart_type: area, language: zh-CN, theme: insurance, library: matplotlib, visual_style: corporate}
+
+  # === fintech 风格 (13张) - 消费者金融/App ===
+  - {chart_type: line, language: zh-CN, theme: payments_fintech, library: plotly, visual_style: fintech}
+  - {chart_type: area, language: en-US, theme: digital_assets, library: plotly, visual_style: fintech}
+  - {chart_type: pie, language: zh-CN, theme: asset_management, library: plotly, visual_style: fintech}
+  - {chart_type: bar, language: en-US, theme: banking_credit, library: plotly, visual_style: fintech}
+  - {chart_type: line, language: zh-CN, theme: equity_markets, library: plotly, visual_style: fintech}
+  - {chart_type: area, language: en-US, theme: payments_fintech, library: plotly, visual_style: fintech}
+  - {chart_type: bar, language: zh-CN, theme: digital_assets, library: plotly, visual_style: fintech}
+  - {chart_type: pie, language: en-US, theme: insurance, library: plotly, visual_style: fintech}
+  - {chart_type: line, language: zh-CN, theme: fx_trade, library: plotly, visual_style: fintech}
+  - {chart_type: radar, language: en-US, theme: esg_sustainable, library: plotly, visual_style: fintech}
+  - {chart_type: bar, language: zh-CN, theme: payments_fintech, library: plotly, visual_style: fintech}
+  - {chart_type: area, language: en-US, theme: equity_markets, library: plotly, visual_style: fintech}
+  - {chart_type: line, language: zh-CN, theme: insurance, library: plotly, visual_style: fintech}
+
+  # === regulator 风格 (13张) - 监管/央行 ===
+  - {chart_type: line, language: zh-CN, theme: macro_policy, library: matplotlib, visual_style: regulator}
+  - {chart_type: bar, language: en-US, theme: banking_credit, library: matplotlib, visual_style: regulator}
+  - {chart_type: line, language: zh-CN, theme: fixed_income, library: matplotlib, visual_style: regulator}
+  - {chart_type: area, language: en-US, theme: inflation, library: matplotlib, visual_style: regulator}
+  - {chart_type: bar, language: zh-CN, theme: fiscal_policy, library: matplotlib, visual_style: regulator}
+  - {chart_type: line, language: en-US, theme: growth_employment, library: matplotlib, visual_style: regulator}
+  - {chart_type: heatmap, language: zh-CN, theme: derivatives, library: seaborn, visual_style: regulator}
+  - {chart_type: bar, language: en-US, theme: insurance, library: matplotlib, visual_style: regulator}
+  - {chart_type: line, language: zh-CN, theme: banking_credit, library: matplotlib, visual_style: regulator}
+  - {chart_type: scatter, language: en-US, theme: macro_policy, library: matplotlib, visual_style: regulator}
+  - {chart_type: bar, language: zh-CN, theme: real_estate, library: matplotlib, visual_style: regulator}
+  - {chart_type: line, language: en-US, theme: fixed_income, library: matplotlib, visual_style: regulator}
+  - {chart_type: errorbar, language: zh-CN, theme: growth_employment, library: matplotlib, visual_style: regulator}
+
+  # === research 风格 (13张) - 机构研究报告 ===
+  - {chart_type: line, language: zh-CN, theme: equity_markets, library: matplotlib, visual_style: research}
+  - {chart_type: bar, language: en-US, theme: commodities, library: matplotlib, visual_style: research}
+  - {chart_type: candlestick, language: zh-CN, theme: equity_markets, library: mplfinance, visual_style: research}
+  - {chart_type: line, language: en-US, theme: macro_policy, library: matplotlib, visual_style: research}
+  - {chart_type: bar, language: zh-CN, theme: corporate_finance, library: matplotlib, visual_style: research}
+  - {chart_type: area, language: en-US, theme: fixed_income, library: matplotlib, visual_style: research}
+  - {chart_type: scatter, language: zh-CN, theme: inflation, library: matplotlib, visual_style: research}
+  - {chart_type: line, language: en-US, theme: fx_trade, library: matplotlib, visual_style: research}
+  - {chart_type: bar, language: zh-CN, theme: real_estate, library: matplotlib, visual_style: research}
+  - {chart_type: histogram, language: en-US, theme: derivatives, library: matplotlib, visual_style: research}
+  - {chart_type: line, language: zh-CN, theme: commodities, library: matplotlib, visual_style: research}
+  - {chart_type: bar_line_overlay, language: en-US, theme: banking_credit, library: matplotlib, visual_style: research}
+  - {chart_type: box, language: zh-CN, theme: equity_markets, library: matplotlib, visual_style: research}
+
+# 覆盖统计:
+# - 视觉风格: 8种 (trading, quant, macro, news, corporate, fintech, regulator, research)
+# - 图表类型: 多种核心类型
+# - 主题: 均衡分布
+# - 语言: 中文/英文 各50张
+# - 库: matplotlib, seaborn, plotly, mplfinance, altair (根据风格适配)

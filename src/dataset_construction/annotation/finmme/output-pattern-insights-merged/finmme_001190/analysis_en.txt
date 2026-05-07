@@ -1,0 +1,35 @@
+[Chart Components]
+- Chart Type: Matrix Heatmap (Numerical values + Color fill).
+- Titles: Left is "ATM volatility," Right is "25d Risk Reversal vs 1 year average."
+- Column Labels: Time dimensions include 1M, 3M, 6M, 1Y, 2Y.
+- Row Labels: Currency/Asset pairs (e.g., EURUSD, USDJPY, GBPUSD, AUDUSD, NZDUSD, USDCAD, XAUUSD; and EURJPY, AUDJPY, GBPJPY, EURAUD, AUDNZD; and USDCNH, USDKRW, USDTWD, USDMXN, USDZAR, EURPLN, EURCZK, EURHUF, etc.).
+- Legend/Style: Cells display the magnitude of values using red/blue color scales; Matrices are partitioned by green borders; No axis ranges, small numerical values are displayed directly within the cells.
+
+[Data Relationships]
+- ATM (1M) Extremes: NZDUSD = 0.58 is the highest; USDTWD = -0.76 is the lowest.
+- ATM (XAUUSD): 1M = 0.38; 2Y = 0.10, difference = 0.28.
+- ATM (USDBRL): 1Y = -0.70; 2Y = -0.69.
+- ATM (USDCNH): 1M = -0.10; 2Y = 0.18, difference = 0.28.
+- ATM (GBPJPY): 1M = -0.58; 6M = -0.31, difference = 0.27.
+- ATM (EURCZK): 1M = 0.23; 2Y = 0.05, difference = 0.18.
+- Overall Highest Risk Reversal: AUDJPY (6M) = 0.28.
+- Risk Reversal (NZDUSD): 1M = 0.25; 3M = 0.27; 6M = 0.27.
+- Lowest Risk Reversal: USDMXN (1M) = -0.28; XAUUSD (2Y) = -0.15.
+- Risk Reversal (EURAUD): 1M = -0.09; 3M = -0.12; 6M = -0.13; 1Y = -0.12; 2Y = -0.13.
+
+[Pattern Characteristics]
+- In the ATM volatility matrix, the short end (1M) generally shows more pronounced deviation, with localized deep red/black blocks appearing, while the 2Y tenor mostly concentrates in lighter colored areas. Only a few currency pairs maintain significant deviation at the long end.
+- The overall color scale of the Risk Reversal matrix is relatively moderate. Only a few currency pairs show prominent blue or red bands at single or limited tenors. Some currency pairs maintain a unidirectional but limited color block distribution across all tenors.
+- The color block distribution across different currency pairs varies significantly between the ATM and Risk Reversal matrices, manifesting as both localized extreme cells and rows that are relatively uniform across tenors.
+
+[Core Insights]
+Core Conclusion: Short-end volatility and directional preference are significantly divergent in certain currency pairs.
+
+Business Implications:
+- Short-end contracts are more sensitive to recent information, while long-end pricing is relatively convergent.
+- Directional positioning for individual currency pairs is concentrated in a few tenors.
+- Allocation effectiveness across different assets and tenors varies significantly.
+
+Risk Concerns:
+- ATM deviation points with absolute values ≥ 0.7, if unhedged, may amplify position market value fluctuations.
+- Tenors where the absolute value of Risk Reversal is ≥ 0.25, if the trading direction is opposite, may cause significant P&L deviation on the options side.

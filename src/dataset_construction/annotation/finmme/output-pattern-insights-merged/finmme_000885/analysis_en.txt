@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Dual Line Chart
+- Title: EU (ex UK) BEV & PHEV Mix trends
+- X-axis: Time (Monthly), Range Jan-21 to Jan-24, with major monthly points marked
+- Y-axis: Proportion (Percentage), Range 0%–30%, Scale interval 5%
+- Legend: BEV Mix (Cyan), PHEV Mix (Slate Blue)
+
+[Data Relationships]
+- Initial Period (Jan-21): BEV approximately 7%, PHEV approximately 21%, difference approximately 14pp
+- Final Period (Jan-24): BEV approximately 19%, PHEV approximately 27%, difference approximately 8pp
+- BEV Peak approximately 22% (October 2023), Trough approximately 7% (January 2021), Peak-Trough difference approximately 15pp
+- PHEV Peak approximately 27% (January 2024), Trough approximately 15% (May 2022), Peak-Trough difference approximately 12pp
+- May 2022: BEV approximately 13%, PHEV approximately 15%, difference approximately 2pp
+- October 2023: BEV approximately 22%, PHEV approximately 20%, difference approximately 2pp
+- September 2023: BEV approximately 18%, PHEV approximately 19%, difference approximately 1pp
+
+[Pattern Characteristics]
+Both curves exhibit significant overall volatility, with multiple instances of synchronous highs and lows, though of different magnitudes. The PHEV curve consistently remains in a higher range, showing several sharp peaks and subsequent pullbacks in 2021 and mid-2022. The BEV curve shows a clear low point in the middle segment before gradually rising. The gap between the two is generally narrowing, briefly approaching or nearly converging at certain time points.
+
+[Core Insights]
+Core Conclusion: PHEV proportion maintains the lead, but BEV proportion is gradually catching up.
+
+Business Implications:
+- The importance of electrified vehicles in the structure is increasing.
+- PHEV's dominance over the overall sales structure remains evident.
+- The gap between BEV and PHEV proportions is narrowing, leading to a more balanced structure.
+
+Risk Concerns:
+- If the BEV proportion remains below 15% for an extended period, it may weaken the effectiveness of the pure electric product strategy.
+- If the PHEV proportion surges back up towards 30%, it might suppress the potential for further structural improvement in BEV.

@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Combination chart (Bar + Gray Area/Stacked Bar + Line).
+- Title: Not displayed.
+- X-axis: Time, labeled from Jan-14 to Jan-24 (Annual scale).
+- Left Y-axis (LHS): Scale approximately 0–800.
+- Right Y-axis (RHS): Scale 1,000, 3,000, 5,000, 7,000, 9,000, 10,000.
+- Legend: New well production (Bar, LHS); Legacy decline (Gray, LHS); DPR-7 production (Black line, RHS).
+
+[Data Relationships]
+- DPR-7 production: Initial period (Jan-14) approximately 4,500; Final period (Jan-24) approximately 10,000; Difference between initial and final periods approximately 5,500.
+- DPR-7 production: Peak value approximately 10,000 (near Jan-24); Trough value near 0 around early 2021; Peak-to-trough difference approximately 10,000.
+- New well production: Peak value approximately 800 (around early 2021); Trough value near 0 (mid-2020); Peak-to-trough difference approximately 800.
+- New well production: Initial period approximately 350 (Jan-14); Final period approximately 700 (Jan-24); Difference between the two points approximately 350.
+- Legacy decline: Value range approximately 300–700; Peak approximately 700 (around 2019–2020); Trough approximately 300 (mid-2020); Peak-to-trough difference approximately 400.
+
+[Pattern Characteristics]
+Overall, New well production and Legacy decline exhibit similar bar height structures during most periods, with a relatively limited difference between the two, showing only a brief, extreme deviation around early 2021. The DPR-7 production line shows a distinct trough around early 2021, remaining generally smooth and continuous otherwise. The chart displays an extreme spike and a line discontinuity around early 2021, constituting a significant outlier, distinctly different from the pattern observed in preceding and subsequent years.
+
+[Core Insights]
+Core Conclusion: Overall production is primarily driven by the balance between legacy decline and new well deployment.
+
+Business Implications:
+- In the long term, total production relies on continuous investment in new wells.
+- Legacy decline exerts significant pressure on maintaining overall production levels.
+- Extreme anomaly periods reflect short-term imbalances in the production structure.
+
+Risk Focus:
+- If New well production consistently falls below the central value of Legacy decline (approximately 500), DPR-7 production may continue to decline.
+- If DPR-7 production again approaches the charted trough value of approximately 0, it could lead to temporary constraints on overall supply capacity.

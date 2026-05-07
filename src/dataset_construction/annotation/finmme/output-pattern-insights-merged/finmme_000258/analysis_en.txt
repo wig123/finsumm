@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Time Series Line Chart
+- Title: Singapore Airlines
+- Top Right Annotation: As of 25-Jan-2024; Currency = SGD
+- X-axis: Date, tick marks labeled 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01 (Range approximately 2021/01–2024/01)
+- Y-axis: Price (SGD), range approximately 0–9.0
+- Legend: Closing Price (Black line); Target Price Change (Green triangle); Recommendation Changes (Blue dot)
+- Source: LSEG, Nomura (Bottom Right)
+
+[Data Relationships]
+- Initial closing price approximately 5.0 SGD (H1 2021), final price approximately 6.6 SGD (2024/01).
+- Highest closing price for the entire period approximately 9.0 SGD (approximately 2023/07), lowest approximately 4.6 SGD (approximately 2021/05), a difference of approximately 4.4 SGD.
+- The peak is approximately 4.0 SGD higher than the initial price, and approximately 2.4 SGD higher than the final price.
+- Recommendation Changes (Blue dots): approximately 2021/05 (Closing Price ≈ 4.8 SGD), approximately 2022/07 (Closing Price ≈ 5.2 SGD).
+- Target Price Change (Green triangles) mainly appeared around 2021/05 (≈ 4.7), 2022/07 (≈ 6.3 and ≈ 6.7), 2023/02 (≈ 6.9), 2023/05 (≈ 7.4), 2023/07 (≈ 9.0).
+
+[Pattern Characteristics]
+- The closing price showed relatively narrow fluctuations in the early period, subsequently rising significantly from late 2022 to mid-2023, forming a single peak in mid-2023, and then retreating but maintaining a higher range.
+- Target price changes frequently occurred when the closing price had already moved up or was at a local high, and the target price markers gradually aligned towards higher price levels between 2022 and mid-2023.
+- The number of recommendation change points is relatively small, concentrated around mid-2021 and mid-2022, temporally close to some target price changes but not entirely overlapping.
+
+[Core Insights]
+Core Conclusion: The stock price valuation level generally rose and stabilized at a high level in the middle-to-later period.
+
+Business Implications:
+- The overall valuation range has increased, and the market pricing center of gravity has shifted upward.
+- Sell-side target prices were repeatedly raised, reflecting a synchronous increase in research expectations.
+- Limited rating changes indicate a relatively slow pace of opinion adjustment.
+
+Risk Concerns:
+- If the stock price approaches 9.0 SGD again without new target price support, it may lead to profit-taking pressure.
+- If the stock price falls below 5.0 SGD while target prices remain concentrated in a higher range, it may amplify the expectation gap and volatility.

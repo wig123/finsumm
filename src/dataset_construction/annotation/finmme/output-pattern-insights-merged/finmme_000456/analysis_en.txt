@@ -1,0 +1,33 @@
+[Chart Components]
+- Chart Type: Dual-axis combination chart (Red bars represent quarterly sequential growth, Black line represents Year-over-Year growth).
+- Title: Not displayed.
+- X-axis: Quarterly scale, from 1Q06 to 1Q25F.
+- Left Y-axis (LHS): %y‑y, Range: -80% to 80%.
+- Right Y-axis (RHS): %q‑q, Range: -40% to 40%.
+- Legend: Red “% q‑q (RHS)”, Black “% y‑y (LHS)”.
+- Zero Axis: 0% is marked on both Y-axes.
+
+[Data Relationships]
+- %y‑y Peak ≈ 65% (1Q18), Secondary Peak ≈ 55% (1Q10).
+- %y‑y Trough ≈ -70% (1Q08), Secondary Trough ≈ -30% (1Q23).
+- 1Q24F %y‑y ≈ 30%, 1Q25F ≈ -5% to -10%.
+- %q‑q Maximum Positive Value ≈ 35% (near 1Q09, 1Q18, 1Q24F).
+- %q‑q Maximum Negative Value ≈ -35% (near 1Q08, 1Q19, 1Q23).
+- Range (High-Low Spread): %y‑y approximately 135 percentage points; %q‑q approximately 70 percentage points.
+
+[Pattern Characteristics]
+- Both series exhibit significant periodic volatility, with frequent switching between positive and negative territories, showing no long-term unidirectional trend, and maintaining a relatively wide overall fluctuation range.
+- At several points in time, the quarterly rate of change shows extreme amplification, followed by a significant shift in the same direction for the annual rate of change in adjacent quarters, indicating a certain rhythmic linkage.
+- Several clusters of extreme values are visible throughout the entire sample period, and towards the end of the sample, there is a rapid transition from a significantly high level towards the zero line and then into slightly negative territory.
+
+[Core Insights]
+Core Conclusion: This indicator is characterized by high volatility and strong pro-cyclical characteristics over the long term.
+
+Business Implications:
+- Annual performance is highly sensitive to short-term changes and lacks a stable range.
+- Extreme quarterly performance is rapidly amplified to the annual level.
+- Forecasts suggest that after short-term optimism, the annual level may decline again.
+
+Risk Focus:
+- If %q‑q falls below ‑30% and persists, a recurrence of %y‑y dropping near ‑30% could trigger a deviation from the full-year target.
+- If %y‑y declines from approximately 30% to below 0%, it may trigger concentrated adjustments to allocation, budgeting, and guidance.

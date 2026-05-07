@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Line Chart
+- Title: Not displayed
+- X-axis: Time, labeled Jan-10 to Jan-24 (January annually)
+- Y-axis: % of Total, range 0%—90%
+- Legend (Right side): Short Straits (inc. Eurotunnel) Dark Cyan Solid Line; Western Channel Light Cyan Solid Line; North Sea Orange Dashed Line
+
+[Data Relationships]
+- Jan-10: Short Straits≈80%, Western Channel≈12%, North Sea≈6%
+- Jan-21: Short Straits≈88% (Peak), Western Channel≈10%, North Sea≈6%
+- Jan-22: Short Straits≈76%, Western Channel≈7%, North Sea≈10%
+- Jan-24: Short Straits≈77%, Western Channel≈12%, North Sea≈8%
+- Jan-24 Difference: Short Straits is higher than Western Channel by ≈65 percentage points; higher than North Sea by ≈69 percentage points
+- Western Channel and North Sea: Jan-22 difference ≈3 percentage points; Jan-24 difference ≈4 percentage points
+- Short Straits Low Point ≈75% (Near 2022)
+
+[Pattern Characteristics]
+- Among the three routes, Short Straits consistently remains far above the other two, presenting an overall single-dominant structure, while Western Channel and North Sea are situated in a low, narrow range.
+- After a slight decline from Jan-10 to Jan-20, Short Straits formed a clear high point in Jan-21, followed by a relatively noticeable pullback period around Jan-22, after which it slightly rebounded and stabilized.
+- Western Channel generally showed a slow, slight downward trend, recovering after a brief contraction near Jan-22; North Sea, after remaining near horizontal for a long period, experienced a relatively clear uplift in Jan-22 and maintained a slightly higher level in Jan-24.
+
+[Core Insights]
+Core Conclusion: Total passenger or freight volume is highly dependent on the Short Straits corridor.
+
+Business Implications:
+- The overall corridor structure shows high concentration, with limited substitution capacity.
+- The diversion and redundancy capacity provided by Western Channel and North Sea is weak.
+- The share adjustment near Jan-22 reflects certain signs of corridor reallocation.
+
+Risk Focus:
+- If the Short Straits proportion rises above 90% again, insufficient buffering capacity in other corridors could easily amplify the impact of a single point of failure.
+- If the Short Straits proportion falls below 70%, a large volume of traffic would be forced to temporarily shift to lower-capacity corridors, potentially causing congestion and service instability.

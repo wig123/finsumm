@@ -1,0 +1,662 @@
+themes:
+  macro_policy:
+    id: FT01
+    label: 货币政策与央行
+    label_en: Monetary Policy & Central Banking
+    iptc:
+    - monetary policy
+    - central bank
+    description: 政策利率、量化宽松/紧缩、央行资产负债表、前瞻性指引
+    subtopics:
+    - policy rate
+    - QE/QT
+    - balance sheet
+    - forward guidance
+    preferred_indicators:
+    - macro.interest.rate.fed.funds
+    - macro.interest.rate.10y.treasury
+    indicator_prefixes:
+    - macro.interest
+    - macro.money
+    - bond.treasury
+    typical_data_sources:
+    - FRED
+    - Synthetic
+    weight: 0.08
+  fiscal_policy:
+    id: FT02
+    label: 财政政策与主权金融
+    label_en: Fiscal Policy & Sovereign Finance
+    iptc:
+    - public finance
+    - government budget
+    - public debt
+    description: 预算平衡、主权债券发行、财政刺激、政府支出
+    subtopics:
+    - budget balance
+    - sovereign issuance
+    - fiscal stimulus
+    preferred_indicators:
+    - macro.gdp.real
+    - macro.gdp.nominal
+    - bond.treasury.10y
+    - bond.treasury.30y
+    indicator_prefixes:
+    # ✅ 修复：移除不存在的 china.macro.* 前缀
+    - macro.gdp
+    - bond.treasury
+    - international.worldbank
+    - international.imf
+    typical_data_sources:
+    - FRED
+    weight: 0.07
+  inflation:
+    id: FT03
+    label: 通胀与价格指数
+    label_en: Inflation & Price Indices
+    iptc:
+    - inflation
+    - consumer price
+    - producer price
+    description: CPI、PPI、核心通胀、通胀预期
+    subtopics:
+    - CPI
+    - PPI
+    - core inflation
+    - inflation expectations
+    preferred_indicators:
+    - macro.inflation.cpi.headline
+    - macro.inflation.cpi.core
+    - macro.inflation.pce.headline
+    - macro.inflation.pce.core
+    - macro.inflation.ppi
+    indicator_prefixes:
+    # ✅ 修复：移除不存在的 china.macro.* 前缀
+    - macro.inflation
+    - commodity.food
+    - commodity.agricultural
+    - international.imf
+    typical_data_sources:
+    - FRED
+    weight: 0.1
+  growth_employment:
+    id: FT04
+    label: 增长、就业与生产力
+    label_en: Growth, Employment & Productivity
+    iptc:
+    - economic growth
+    - employment
+    - productivity
+    description: GDP、失业率、PMI/ISM、产出缺口
+    subtopics:
+    - GDP
+    - unemployment
+    - PMI/ISM
+    - output gap
+    preferred_indicators:
+    - macro.gdp.real
+    - macro.unemployment.rate
+    - macro.employment.nonfarm
+    - macro.industrial.production
+    indicator_prefixes:
+    # ✅ 修复：移除不存在的 china.macro.* 前缀
+    - macro.gdp
+    - macro.unemployment
+    - macro.employment
+    - macro.industrial
+    - macro.capacity
+    - macro.manufacturing
+    - macro.leading
+    - macro.coincident
+    - china.stats
+    - international.imf
+    - international.worldbank
+    typical_data_sources:
+    - FRED
+    weight: 0.08
+  fx_trade:
+    id: FT05
+    label: 外汇与国际贸易
+    label_en: FX & International Trade
+    iptc:
+    - foreign exchange
+    - trade
+    - balance of payments
+    description: 汇率、经常账户、贸易差额
+    subtopics:
+    - exchange rates
+    - current account
+    - trade balance
+    preferred_indicators:
+    - fx.eurusd.ohlcv
+    - fx.usdjpy.ohlcv
+    - fx.gbpusd.ohlcv
+    - fx.audusd.ohlcv
+    - fx.usdcnh.ohlcv
+    - fx.usdcad.ohlcv
+    - fx.usdchf.ohlcv
+    indicator_prefixes:
+    - fx.
+    typical_data_sources:
+    - yfinance
+    weight: 0.06
+  equity_markets:
+    id: FT06
+    label: 权益市场
+    label_en: Equity Markets
+    iptc:
+    - stock market
+    - equity
+    iso_10962:
+    - E* Shares
+    - C* Collective investment vehicles (equity)
+    description: 指数、行业板块、估值、股息
+    subtopics:
+    - indices
+    - sectors
+    - valuation
+    - dividends
+    preferred_indicators:
+    - market.index.sp500
+    - market.index.nasdaq100
+    - market.index.djia
+    - market.index.wilshire5000
+    - index.global.ftse.ohlcv
+    - index.global.dax.ohlcv
+    - index.global.n225.ohlcv
+    - index.global.spx.ohlcv
+    - index.global.ixic.ohlcv
+    - index.sh000001.ohlcv
+    - index.sz399001.ohlcv
+    - index.sh000300.ohlcv
+    - index.sz399006.ohlcv
+    - index.hsi.ohlcv
+    - index.hstech.ohlcv
+    indicator_prefixes:
+    # ✅ 修复：移除不存在的前缀（market.stock/market.sw/flow.*/reference.）
+    - index.
+    - market.index
+    - market.volatility
+    typical_data_sources:
+    - FRED
+    - yfinance
+    - baostock
+    weight: 0.1
+  fixed_income:
+    id: FT07
+    label: 固定收益与货币市场
+    label_en: Fixed Income & Money Markets
+    iptc:
+    - bond market
+    - interest rates
+    iso_10962:
+    - D* Debt instruments
+    - L* Money market
+    description: 主权债、投资级债、高收益债、收益率曲线
+    subtopics:
+    - sovereign
+    - investment-grade
+    - high yield
+    - yield curve
+    preferred_indicators:
+    - macro.interest.rate.10y.treasury
+    - macro.interest.rate.fed.funds
+    - bond.treasury.2y
+    - bond.treasury.10y
+    - bond.treasury.yield.spread.10y2y
+    - bond.credit.spread.high.yield
+    indicator_prefixes:
+    # ✅ 修复：移除不存在的 market.bond 前缀
+    - bond.
+    - macro.interest
+    - risk.financial
+    typical_data_sources:
+    - FRED
+    weight: 0.08
+  commodities:
+    id: FT08
+    label: 大宗商品与能源市场
+    label_en: Commodities & Energy Markets
+    iptc:
+    - commodities
+    - energy
+    iso_10962:
+    - T* Commodities (derivatives underlyings)
+    description: 石油天然气、电力、金属、农产品
+    subtopics:
+    - oil & gas
+    - power
+    - metals
+    - agriculture
+    preferred_indicators:
+    - commodity.oil.wti.ohlcv
+    - commodity.oil.brent.ohlcv
+    - commodity.gold.ohlcv
+    - commodity.silver.ohlcv
+    - commodity.copper.ohlcv
+    - commodity.corn.ohlcv
+    - commodity.wheat.ohlcv
+    - commodity.coffee.ohlcv
+    - commodity.oil.wti
+    - commodity.gas.price
+    - commodity.gas.natural
+    - commodity.chicken.price
+    - commodity.beef.price
+    - commodity.metal.index
+    - commodity.lumber.index
+    - commodity.steel.index
+    indicator_prefixes:
+    # ✅ 修复：移除 futures. 前缀（efinance 不稳定）
+    - commodity.
+    - international.fao
+    typical_data_sources:
+    - FRED
+    - yfinance
+    weight: 0.08
+  derivatives:
+    id: FT09
+    label: 衍生品与结构化产品
+    label_en: Derivatives & Structured Products
+    iptc:
+    - derivatives
+    iso_10962:
+    - O* Options
+    - F* Forwards/Futures
+    - K* Strategies
+    description: 期权、期货、互换、波动率
+    subtopics:
+    - options
+    - futures
+    - swaps
+    - volatility
+    preferred_indicators:
+    # ✅ 修复：使用 yfinance 商品期货（移除 efinance 的 futures.* 指标）
+    - market.volatility.vix
+    - market.volatility.vix.3month
+    - market.volatility.nasdaq100
+    - market.volatility.djia
+    - commodity.gold.ohlcv
+    - commodity.silver.ohlcv
+    - commodity.oil.wti.ohlcv
+    - commodity.oil.brent.ohlcv
+    - commodity.copper.ohlcv
+    - commodity.corn.ohlcv
+    - index.global.spx.ohlcv
+    indicator_prefixes:
+    # ✅ 修复：移除 futures. 前缀（efinance 不稳定），改用 yfinance 商品
+    - market.volatility
+    - commodity.
+    - index.global
+    typical_data_sources:
+    - FRED
+    - yfinance
+    weight: 0.03
+  digital_assets:
+    id: FT10
+    label: 数字资产与区块链
+    label_en: Digital Assets & Blockchain
+    iptc:
+    - cryptocurrency
+    - blockchain
+    description: 比特币/以太坊、稳定币、代币化、DeFi
+    subtopics:
+    - bitcoin/ether
+    - stablecoins
+    - tokenization
+    - DeFi
+    preferred_indicators:
+    - market.volatility.vix
+    - market.volatility.nasdaq100
+    - market.index.nasdaq100
+    - index.global.ixic.ohlcv
+    - index.global.spx.ohlcv
+    - index.global.dax.ohlcv
+    - index.global.n225.ohlcv
+    - index.hsi.ohlcv
+    - index.hstech.ohlcv
+    indicator_prefixes:
+    # ✅ 修复：添加实际存在的前缀
+    - market.volatility
+    - market.index
+    - index.global
+    - index.hsi
+    - index.hstech
+    - index.sh
+    - index.sz
+    typical_data_sources:
+    - yfinance
+    - FRED
+    weight: 0.04
+  banking_credit:
+    id: FT11
+    label: 银行、信贷与借贷
+    label_en: Banking, Lending & Credit
+    iptc:
+    - banking
+    - credit
+    - lending
+    description: 存款、净息差、信贷增长、消费信贷、中小企业贷款
+    subtopics:
+    - deposits
+    - NIM
+    - credit growth
+    - consumer credit
+    - SME
+    preferred_indicators:
+    - macro.money.m1
+    - macro.money.m2
+    - macro.money.velocity
+    - macro.interest.rate.fed.funds
+    - macro.interest.rate.prime
+    - bond.credit.spread.aaa
+    - bond.credit.spread.baa
+    - bond.credit.spread.high.yield
+    indicator_prefixes:
+    # ✅ 修复：移除不存在的前缀（flow.margin/china.macro.money/china.macro.shrzgm）
+    - macro.money
+    - macro.interest
+    - bond.credit
+    - risk.
+    typical_data_sources:
+    - FRED
+    weight: 0.06
+  insurance:
+    id: FT12
+    label: 保险与精算
+    label_en: Insurance & Actuarial
+    iptc:
+    - insurance
+    description: 保费、赔付率、再保险、巨灾风险
+    subtopics:
+    - premiums
+    - loss ratios
+    - reinsurance
+    - cat risk
+    preferred_indicators:
+    - macro.consumer.sentiment
+    - macro.personal.consumption
+    - macro.retail.sales
+    - market.volatility.vix
+    - risk.financial.conditions
+    - risk.financial.stress.kc
+    - market.index.sp500
+    indicator_prefixes:
+    # ✅ 增强：添加更多有效前缀
+    - macro.consumer
+    - macro.personal
+    - macro.retail
+    - market.volatility
+    - risk.
+    - market.index
+    typical_data_sources:
+    - FRED
+    weight: 0.03
+  asset_management:
+    id: FT13
+    label: 资产管理与投资基金
+    label_en: Asset Management & Investment Funds
+    iptc:
+    - funds
+    - asset management
+    - pensions
+    iso_10962:
+    - C* Collective investment vehicles
+    description: 共同基金、ETF、资金流、委托管理、资产负债匹配
+    subtopics:
+    - mutual funds
+    - ETFs
+    - flows
+    - mandates
+    - ALM
+    preferred_indicators:
+    - fund.etf.sh510050.ohlcv
+    - fund.etf.sh510300.ohlcv
+    - fund.etf.sh510500.ohlcv
+    - fund.etf.sz159915.ohlcv
+    - market.index.sp500
+    - index.sh000300.ohlcv
+    - index.hsi.ohlcv
+    - index.global.spx.ohlcv
+    indicator_prefixes:
+    # ✅ 修复：移除不存在的 market.fund，添加有效前缀
+    - fund.
+    - market.index
+    - index.sh
+    - index.hsi
+    - index.global
+    typical_data_sources:
+    - efinance
+    - baostock
+    - FRED
+    weight: 0.05
+  real_estate:
+    id: FT14
+    label: 房地产与REITs
+    label_en: Real Estate & REITs
+    iptc:
+    - real estate
+    description: 住宅、商业地产、REITs、资本化率
+    subtopics:
+    - residential
+    - commercial
+    - REITs
+    - cap rates
+    preferred_indicators:
+    - realestate.house.price.index
+    - macro.housing.starts
+    - macro.housing.permits
+    - macro.housing.sales.new
+    - macro.interest.rate.10y.treasury
+    indicator_prefixes:
+    # ✅ 修复：移除不存在的 china.realestate 前缀
+    - realestate.
+    - macro.housing
+    - macro.interest
+    typical_data_sources:
+    - FRED
+    weight: 0.04
+  corporate_finance:
+    id: FT15
+    label: 企业财务与盈利
+    label_en: Corporate Finance & Earnings
+    iptc:
+    - corporate finance
+    - company results
+    xbrl_ifrs:
+    - Revenue
+    - EBITDA
+    - ProfitLoss
+    - Cash flows
+    description: 资本结构、业绩指引、股票回购、股息
+    subtopics:
+    - capital structure
+    - guidance
+    - buybacks
+    - dividends
+    preferred_indicators:
+    - macro.gdp.real
+    - macro.gdp.nominal
+    - macro.industrial.production
+    - macro.capacity.utilization
+    - macro.manufacturing.orders
+    - market.index.sp500
+    - market.index.wilshire5000
+    - index.global.spx.ohlcv
+    - index.global.dji.ohlcv
+    indicator_prefixes:
+    # ✅ 修复：使用实际存在的前缀（原 market.stock/alternative.research 不存在）
+    - macro.gdp
+    - macro.industrial
+    - macro.capacity
+    - macro.manufacturing
+    - market.index
+    - index.global
+    typical_data_sources:
+    - FRED
+    - yfinance
+    weight: 0.04
+  ma_ipos:
+    id: FT16
+    label: 并购、IPO与公司行动
+    label_en: M&A, IPOs & Corporate Actions
+    iptc:
+    - mergers & acquisitions
+    - initial public offering
+    - corporate actions
+    iso_20022_caev:
+    - DVCA
+    - SPLF
+    - RHTS
+    - BONU
+    - MRGR
+    description: 交易、分拆、要约收购、配股
+    subtopics:
+    - deals
+    - spin-offs
+    - tender offers
+    - rights issues
+    preferred_indicators:
+    - market.index.sp500
+    - market.index.nasdaq100
+    - market.volatility.vix
+    - bond.credit.spread.high.yield
+    - macro.money.m2
+    - index.global.spx.ohlcv
+    - index.global.ixic.ohlcv
+    indicator_prefixes:
+    # ✅ 修复：使用实际存在的前缀（原 market.stock/reference. 不存在）
+    - market.index
+    - market.volatility
+    - bond.credit
+    - macro.money
+    - index.global
+    typical_data_sources:
+    - FRED
+    - yfinance
+    weight: 0.03
+  payments_fintech:
+    id: FT17
+    label: 支付、金融科技与市场基础设施
+    label_en: Payments, Fintech & Market Infrastructure
+    iptc:
+    - payments
+    - financial technology
+    - market infrastructure
+    description: 银行卡、实时支付、开放银行、交易所/中央对手方
+    subtopics:
+    - cards
+    - real-time payments
+    - open banking
+    - exchanges/CCPs
+    preferred_indicators:
+    - macro.retail.sales
+    - macro.personal.consumption
+    - macro.consumer.sentiment
+    - market.index.nasdaq100
+    - index.global.ixic.ohlcv
+    - index.global.spx.ohlcv
+    indicator_prefixes:
+    # ✅ 修复：使用实际存在的前缀（原 china.macro.retail/alternative.market_congestion 不存在）
+    - macro.retail
+    - macro.personal
+    - macro.consumer
+    - market.index
+    - index.global
+    typical_data_sources:
+    - FRED
+    - yfinance
+    weight: 0.03
+  risk_regulation:
+    id: FT18
+    label: 风险、监管与金融稳定
+    label_en: Risk, Regulation & Financial Stability
+    iptc:
+    - financial regulation
+    - compliance
+    - systemic risk
+    description: 巴塞尔协议、压力测试、资本与流动性、清算机制
+    subtopics:
+    - Basel/CRR
+    - stress tests
+    - capital & liquidity
+    - resolution
+    preferred_indicators:
+    - risk.financial.conditions
+    - risk.financial.conditions.adj
+    - risk.financial.stress.kc
+    - market.volatility.vix
+    - market.volatility.nasdaq100
+    - bond.credit.spread.high.yield
+    indicator_prefixes:
+    - risk.
+    - market.volatility
+    typical_data_sources:
+    - FRED
+    weight: 0.02
+  accounting_reporting:
+    id: FT19
+    label: 会计、审计与报告
+    label_en: Accounting, Audit & Reporting
+    iptc:
+    - accounting
+    - audit
+    - financial reporting
+    xbrl_ifrs:
+    - IFRS taxonomy concepts
+    description: 收入确认、减值、公允价值、管理层讨论与分析
+    subtopics:
+    - revenue recognition
+    - impairment
+    - fair value
+    - MD&A
+    preferred_indicators:
+    - macro.gdp.real
+    - macro.gdp.nominal
+    - market.index.sp500
+    - market.index.wilshire5000
+    - macro.industrial.production
+    - macro.capacity.utilization
+    - index.global.spx.ohlcv
+    indicator_prefixes:
+    # ✅ 修复：使用实际存在的前缀（原 market.stock/alternative.research 不存在）
+    - macro.gdp
+    - macro.industrial
+    - macro.capacity
+    - market.index
+    - index.global
+    typical_data_sources:
+    - FRED
+    - yfinance
+    weight: 0.02
+  esg_sustainable:
+    id: FT20
+    label: ESG与可持续金融
+    label_en: ESG & Sustainable Finance
+    iptc:
+    - sustainable finance
+    - environmental policy
+    - governance
+    description: 绿色债券、分类法对齐、气候风险、尽责管理
+    subtopics:
+    - green bonds
+    - taxonomy alignment
+    - climate risk
+    - stewardship
+    preferred_indicators:
+    # ✅ 修复：添加可用指标（能源/商品相关 - ESG常关注）
+    - commodity.oil.wti
+    - commodity.gas.natural
+    - commodity.oil.wti.ohlcv
+    - commodity.gold.ohlcv
+    - market.index.sp500
+    - index.global.spx.ohlcv
+    indicator_prefixes:
+    # ✅ 修复：添加实际存在的前缀（原为空）
+    - commodity.
+    - market.index
+    - index.global
+    - macro.gdp
+    typical_data_sources:
+    - FRED
+    - yfinance
+    weight: 0.05

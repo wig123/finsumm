@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Dual-axis combination chart; the gray bars represent "SEC Inventory weeks (RHS)" using the right-hand axis (RHS); the red line represents "SEC Production growth," and the black line represents "SEC Shipment growth" using the left-hand axis (LHS).
+- X-axis: Quarterly time points, from 1Q15 to 3Q25F.
+- Left Y-axis: Percentage scale, ranging approximately from -40% to 80%.
+- Right Y-axis: Weeks scale, ranging approximately from -16 to 32.
+- Legend: SEC Inventory weeks (RHS), SEC Production growth, SEC Shipment growth.
+
+[Data Relationships]
+- 1Q15: Red line approximately 52%, black line approximately 55%, inventory approximately 22 weeks.
+- Red line peak: 3Q16 approximately 72%; Black line peak: 1Q20 approximately 66%.
+- Red line trough: 1Q24F approximately -25%; Black line trough: 1Q23 approximately -5%.
+- 3Q25F: Red line approximately 20%, black line approximately 25%, inventory approximately 4 weeks.
+- Inventory maximum: 3Q23 approximately 30–32 weeks; minimum: 3Q21 approximately 0–4 weeks.
+- Gap examples: 3Q16 red line is higher than black line by approximately 12 percentage points; 1Q25F red line is higher than black line by approximately 48 percentage points; 1Q23 red line is higher than black line by approximately 15 percentage points.
+
+[Pattern Characteristics]
+The red and black lines exhibit overall multi-cycle alternating fluctuation patterns, with high and low growth ranges appearing sequentially across various stages, and the gap between the two lines varying significantly. The gray bar representing inventory weeks was at a moderate level in the early period, rose significantly in the middle period forming a single peak, and then rapidly declined to near its low point. The overall structure is dominated by a single high point. Near the inventory peak, the red and black lines are often in a weak state or showing inconsistent directions.
+
+[Core Insights]
+Core Conclusion: The alignment between production capacity, shipment pace, and inventory digestion shows significant volatility.
+
+Business Implications:
+- Inventory exhibits concentrated accumulation and rapid destocking across different phases.
+- Capacity configuration demonstrates a clear lag relative to end-market demand.
+- Supply-demand alignment is expected to improve during the forecast period compared to historical stages.
+
+Risk Focus:
+- When inventory weeks approach 30 weeks again, capital tie-up and pricing pressure may emerge.
+- When production growth rate exceeds shipments by more than 40 percentage points, it may lead to renewed inventory accumulation.

@@ -1,0 +1,26 @@
+[Chart Components]
+- Type: Bar chart (or Column chart), single series (red).
+- Title/Legend: Gross margin (%)
+- X-axis: Fiscal year categories FY17, FY18, FY19, FY20, FY21, FY22, FY23, FY24F, FY25F, FY26F.
+- Y-axis: Percentage scale 34.0–44.0, approximately 2.0 per tick mark; numerical labels displayed at the top of each bar.
+
+[Data Relationships]
+- Values: FY17 38.3; FY18 38.4; FY19 40.6; FY20 40.3; FY21 41.9; FY22 38.0; FY23 41.2; FY24F 42.7; FY25F 42.9; FY26F 43.1.
+- Highest 43.1 (FY26F), lowest 38.0 (FY22), range 5.1.
+- Initial period 38.3 (FY17), final period 43.1 (FY26F), difference 4.8.
+- Adjacent difference (or Period-over-Period difference): FY21/22 difference 3.9; FY22/23 difference 3.2; FY23/24F difference 1.5; FY20/21 difference 1.6; FY19/20 difference 0.3; FY24F/25F difference 0.2; FY25F/26F difference 0.2.
+
+[Pattern Characteristics]
+Overall, the annual values fluctuate slightly around the mid-to-high range, exhibiting a gradual upward trend from left to right. FY22 forms a clear trough (or low point), with significant differences in bar height between adjacent years surrounding this point. After FY24F, the changes in bar height tend to converge and smooth out.
+
+[Core Insights]
+Core Conclusion: Gross margin has generally improved after a brief decline, stabilizing and trending upward during the forecast period.
+
+Business Implications:
+- Profit margin (or Profitability space) has expanded relative to the initial period.
+- The overall cost and pricing structure is more favorable to the profit margin.
+- The expectation for profitability during the forecast period is relatively optimistic and stable.
+
+Risk Concerns:
+- If the rate falls below 38.0% again, it will return to the historical low range, compressing the profit margin.
+- If the rate remains below 41.0% for an extended period, it may be difficult to support the current forecast targets for profitability improvement.

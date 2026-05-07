@@ -1,0 +1,39 @@
+[Chart Components]
+- Type: Line chart
+- Title: Mobileye, NVDA & QCOM automotive chip revenue
+- Axes:
+  - X-axis: Time (Quarterly), from Mar-16 to Dec-23
+  - Y-axis: Quarterly Revenue (Millions of USD), range from 0 to 650
+- Legend:
+  - Mobileye (Intel): Gray line and green diamond
+  - NVDA: Black line and black triangle
+  - QCOM: Blue line and blue square
+
+[Data Relationships]
+- Key Metrics and Changes:
+  - Mobileye's revenue grew steadily starting in 2016, reaching a peak of approximately 650 million USD in 2023.
+  - NVDA's revenue was relatively stable, starting at approximately 100 million USD and growing to about 250 million USD in 2023.
+  - QCOM rose rapidly after 2021, reaching approximately 600 million USD in 2023.
+
+- Extremum Comparison:
+  - Mobileye's revenue was the highest in 2023, exceeding 650 million USD, higher than both QCOM and NVDA.
+  - NVDA's revenue consistently remained the lowest.
+
+- Significant Trends:
+  - Mobileye and QCOM showed significant growth trends throughout the period, especially in the later stages.
+  - NVDA's growth was relatively slow and stable.
+
+[Pattern Characteristics]
+The overall structure is a continuous time series. In the later period, the hierarchical differences among the three series are clear, presenting a diversified and dispersed structure. Mobileye and QCOM experienced steep acceleration in the latter half and remained in a higher range, while NVDA maintained a narrower platform. Inflection points exist: Mobileye briefly declined in 2020, QCOM saw a step-change leap starting in 2021, and NVDA experienced a single surge followed by a decline in 2022.
+
+[Core Insights]
+Core Conclusion: Automotive chip revenue forms a duopoly structure (two strong players), with NVDA ranking last.
+
+Business Implications:
+- Revenue concentration increased toward Mobileye and QCOM
+- NVDA's automotive segment contribution is relatively low
+- Potential for changes in the leading position
+
+Risk Concerns:
+- QCOM quarterly revenue dropping below 450mm, making the leading position vulnerable
+- NVDA remaining below 200mm long-term, making ranking improvement difficult

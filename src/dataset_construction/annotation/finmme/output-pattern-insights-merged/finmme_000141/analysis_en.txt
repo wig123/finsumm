@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Line Chart
+- Title: None
+- X-axis: Year Range 2021—2030+
+- Y-axis: Value Range 400—900
+- Legend: The three lines represent Market implied, Consensus, and BNPPE, respectively
+
+[Data Relationships]
+- In 2022, the values for Market implied and BNPPE were close to 900, reaching their peak.
+- Starting in 2023, Market implied and Consensus declined significantly.
+- Market implied reached its lowest point in 2024, approximately 500, and remained stable thereafter.
+- The Consensus line showed a downward trend after 2025, with slight fluctuations between 2026 and 2028.
+- BNPPE began a slight decline starting in 2023, followed by a slow decrease, showing a relatively stable trend.
+- Overall, Market implied stabilized after 2024, while Consensus and BNPPE continued to decline.
+
+[Pattern Characteristics]
+- The three lines simultaneously rose to high levels between 2021—2022, after which their trajectories diverged (stratified).
+- Market implied experienced a steep drop in 2023—2024, then transitioned to a near-horizontal level, showing almost no fluctuation in the later period.
+- Consensus showed slow fluctuations later on and formed a step-like change in 2028; BNPPE generally moved downward continuously and smoothly.
+
+[Core Insights]
+Core Conclusion: Market pricing and analytical standards are inconsistent over the long term.
+
+Business Implications:
+- Significant divergence in expectations leads to increased communication costs.
+- Decisions should be benchmarked against market implied values.
+- Mid-to-long-term projections require reserving a conservative buffer.
+
+Risk Focus:
+- Market implied ≤ 500 may trigger valuation downgrades and allocation reductions.
+- Consensus ≤ 600 may lead to budget revisions and tight cash flow.

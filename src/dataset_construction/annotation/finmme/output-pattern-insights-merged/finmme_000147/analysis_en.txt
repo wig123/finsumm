@@ -1,0 +1,36 @@
+[Chart Components]
+- Type: Bar Chart
+- Title: Cement Capacity (MT)
+- Axes: The Y-axis represents Capacity (MT), ranging from 0 to 200; the X-axis represents Fiscal Year (FY), labeled as FY23, FY24F, FY25F, FY26F, FY27F
+- Legend: Cement Capacity (MT)
+
+[Data Relationships]
+- Fiscal Year Capacity Data:
+  - FY23: 129 MT
+  - FY24F: 134 MT
+  - FY25F: 157 MT
+  - FY26F: 157 MT
+  - FY27F: 179 MT
+
+- Extremum Comparison:
+  - The maximum value occurs in FY27F, at 179 MT
+  - The minimum value occurs in FY23, at 129 MT
+
+- Key Trends:
+  - From FY23 to FY27F, cement capacity shows an overall upward trend, with a Compound Annual Growth Rate (CAGR) of approximately 9%
+  - Capacity in FY25F and FY26F remains flat, both at 157 MT
+
+[Pattern Characteristics]
+The bar heights show a step-wise increase from front to back, with a two-year horizontal plateau appearing in the middle. The overall structure is continuous, without obvious spikes, and the final bar is the highest.
+
+[Core Insights]
+Core Conclusion: Capacity planning targets a higher scale in FY27F, with a buffer set in the medium term.
+
+Business Implications:
+- The upper limit of future available output is raised
+- The two-year medium-term target is consistent, facilitating progress management
+- The 9% compound annual growth rate reflects the pace of capacity expansion
+
+Risk Concerns:
+- FY25F/26F < 157 MT, leading to delays in subsequent expansion progress
+- FY27F < 179 MT, meaning the failure of the plan restricts the supply ceiling

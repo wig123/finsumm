@@ -1,0 +1,37 @@
+[Chart Components]
+- Chart Type: Waterfall Chart (Segmented Column)
+- Title: Not displayed
+- X-axis: Category labels are "Singapore Expansion," "Rotterdam Optionality," "2024," "Rotterdam Expansion," "2026"
+- Y-axis: Value range approximately 0 to 3.5
+- Colors: Two column segments (dark cyan and light cyan); Legend not provided
+
+[Data Relationships]
+- Singapore Expansion: 1
+- Rotterdam Optionality: 0.5
+- 2024: 1.5
+- Rotterdam Expansion: 1.2
+- 2026: 2.7
+- Maximum value 2.7 (2026), minimum value 0.5 (Rotterdam Optionality), range 2.2
+- Difference between 2026 and 2024 is 1.2
+- Difference between 2024 and Singapore Expansion is 0.5
+- Difference between Rotterdam Expansion and 2024 is 0.3
+- Difference between 2026 and Rotterdam Expansion is 1.5
+- Difference between 2026 and Singapore Expansion is 1.7
+- Difference between 2024 and Rotterdam Optionality is 1.0
+
+[Pattern Characteristics]
+- Each column segment is sequentially connected on the X-axis, forming a stepped structure, showing a progressive cumulative pattern from left to right, with no decline segments observed.
+- Dark cyan segments primarily serve as phase starting points or results, while light cyan segments act as intermediate increments, structurally demonstrating continuous superposition in a single direction.
+- The size of the increments between adjacent segments is uneven, especially the interval before and after the final segment is relatively larger, creating noticeable hierarchical differences.
+
+[Core Insights]
+Core Conclusion: The overall effect is gradually accumulated from the preceding phases, resulting in significant amplification in the final phase.
+
+Business Implications:
+- The result is highly dependent on the continuous contribution of multiple phases.
+- The amplification effect of the intermediate phases on the final volume varies significantly.
+- The final phase accounts for a higher proportion of the ultimate result, making its impact more decisive.
+
+Risk Focus:
+- If 2026 is below 2.0, the overall return on accumulated prior investment will be significantly constrained.
+- If Rotterdam Expansion is below 1.0, the final outcome will struggle to maintain parity with the current difference level.

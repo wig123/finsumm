@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Vertical Bar Chart
+- Legend/Title: EBITDA growth (%) (Red bars)
+- X-axis: Time Category Labels—Dec-21, Mar-22, Jun-22, Sep-22, Dec-22, Mar-23, Jun-23, Sep-23, Dec-23
+- Y-axis: Percentage scale, approximately -60 to 80, intervals of 20; with horizontal grid lines
+- Specific values labeled at the top of each bar
+
+[Data Relationships]
+- Initial period (Dec-21) is -13.7; final period (Dec-23) is 27.6; the difference between the two is 41.3
+- Maximum value 70.3 (Jun-22); minimum value -13.7 (Dec-21); range 84.0
+- Mean of the four points in 2022 is 30.0; mean of the four points in 2023 is 32.6; overall mean of the nine time points is approximately 26.3
+- Key time point values: Dec-22 is 4.5; Mar-23 is 29.2; Jun-23 is 33.7; Sep-23 is 39.8
+- Positive values appeared 8 times; negative value 1 time (Dec-21)
+
+[Pattern Characteristics]
+In terms of overall shape, the data transitions from a single negative value in the initial period into a sustained positive range, featuring a distinct high peak in the middle, followed by fluctuations around the mid-to-high range. The span between the high and low points was larger in 2022, while 2023 saw distribution within a relatively constrained range. The bars remained in the same quadrant during the latter half, with no further extreme negative values appearing.
+
+[Core Insights]
+Core Conclusion: EBITDA growth rate has transitioned from a recovery phase into a relatively stable, elevated range.
+
+Business Implications:
+- Profit expansion dominates, and the loss period has been absorbed.
+- Operating results show reduced reliance on sporadic shocks.
+- The current profitability rhythm is more conducive to medium-term planning and budgeting.
+
+Risk Concerns:
+- A drop back to near or below 0% could trigger profit decline and cost inversion pressure.
+- If the quarterly rate exceeds the high point near 70%, it may indicate questionable sustainability and replicability of performance.

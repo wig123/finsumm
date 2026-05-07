@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Dual-axis time series line chart
+- Legend: Red "Price," Gray "Rel KOSPI 200"
+- Left Y-axis: Unit KRW, scale approximately 70,000 to 140,000 (increments of 10,000)
+- Right Y-axis: Scale approximately 90 to 160 (increments of 10)
+- X-axis: Time from Mar 23 to Feb 24, marked monthly
+
+[Data Relationships]
+- Price: Mar 23 approximately 80,000; Apr 23 low point approximately 72,000; Jan 24 high point close to 140,000; Feb 24 approximately 125,000
+- Price range (High-Low difference): Approximately 140,000−72,000=68,000
+- Dec 23 approximately 100,000, rising to Jan 24 approximately 140,000, an increase of approximately 40,000
+- Oct 23 approximately 90,000; Nov 23 approximately 95,000; Sep 23 approximately 82,000
+- Rel KOSPI 200: Mar 23 approximately 100; Apr 23 low point approximately 93; Jan 24 high point approximately 155–160; Feb 24 approximately 132–135
+- Rel KOSPI 200 range (High-Low difference): Approximately 160−93=67
+- Start vs. End Period: Price approximately 80,000 vs. approximately 125,000, difference approximately 45,000; Rel KOSPI 200 approximately 100 vs. approximately 133, difference approximately 33
+
+[Pattern Characteristics]
+- Price fluctuated multiple times within a relatively narrow range during the first half, followed by a significant uplift near year-end, forming a period of wide-range oscillation near the high, before slightly pulling back.
+- The overall trend of Rel KOSPI 200 largely aligns with Price. The direction of both is consistent for most periods, with only minor local deviations; the timing of peaks and troughs is essentially synchronized.
+- There are no isolated single-day spikes throughout the entire period; instead, there is an alternating transition between phase platforms and continuous waves, with the high-level range accompanied by more pronounced upward and downward swings.
+
+[Core Insights]
+Core Conclusion: The underlying asset demonstrates a sustained strengthening relative to the KOSPI 200 index.
+
+Business Implications:
+- Performance is stronger relative to the index, highlighting significant alpha generation characteristics.
+- An upward adjustment of the asset's relative weighting may enhance portfolio return elasticity.
+- Increased volatility in the latter period makes holding duration and position management more critical.
+
+Risk Focus:
+- Price falling below 100,000 and Rel KOSPI 200 retreating below 120 could lead to a significant narrowing of the relative return advantage.
+- Price failing to decisively break 140,000 combined with Rel KOSPI 200 falling below 130 could trigger profit-taking and amplified volatility.

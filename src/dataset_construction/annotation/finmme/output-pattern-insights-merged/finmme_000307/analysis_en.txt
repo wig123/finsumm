@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Grouped Bar Chart
+- Title: Not displayed
+- X-axis: FY16, FY17, FY18, FY19, FY20, FY21, CY21, CY22, CY23
+- Y-axis: Scale approximately -3.0 to 7.0, step size approximately 1.0, unit not specified
+- Legend: Red=ALKEM, Gray=IPM
+
+[Data Relationships]
+- Initial Period FY16: ALKEM ≈ 5.5, IPM ≈ 4.5, Difference ≈ 1.0
+- Lowest Point FY18: ALKEM ≈ -1.7, IPM ≈ -0.7, Difference ≈ 1.0
+- Highest Point FY20: ALKEM ≈ 6.1, IPM ≈ 5.4, Difference ≈ 0.7
+- FY21/CY21: 4.0 vs 4.8; 5.2 vs 5.0
+- CY22: 4.3 vs 5.3
+- Final Period CY23: 4.7 vs 4.3, Difference ≈ 0.4
+- Range: ALKEM ≈ -1.7 to 6.1; IPM ≈ -0.7 to 5.4
+
+[Pattern Characteristics]
+The direction of the two data sets is consistent in most years, showing an overall pattern of a sharp decline followed by a rebound and maintenance within a relatively high range. FY18 formed a clear common trough. Thereafter, values remained positive. The gap between ALKEM and IPM generally narrowed, but there were instances of alternating leadership in some years. ALKEM exhibited greater volatility during extreme value periods, while the IPM curve was relatively more constrained.
+
+[Core Insights]
+Core Conclusion: ALKEM's performance relative to IPM has shifted from a significant lead to near parity.
+
+Business Implications:
+- ALKEM's advantage relative to the benchmark is gradually narrowing.
+- Industry-level benchmarks impose stronger constraints on ALKEM.
+- The competitive landscape in the later period is closer to a state of homogenization.
+
+Risk Focus:
+- If ALKEM falls below 0 again while IPM remains positive, a relative decline in ranking may occur.
+- If the difference between the two remains below 0.3 for an extended period, ALKEM's potential for excess returns may be significantly limited.

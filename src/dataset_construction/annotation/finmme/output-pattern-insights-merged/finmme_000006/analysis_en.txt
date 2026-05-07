@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Combination Chart (Stacked Bar Chart + Line Chart).
+- Title: No explicit title observed.
+- X-axis: Fiscal Year Categories—FY19, FY20, FY21, FY22, FY23, FY24F, FY25F, FY26E (including forecast/estimate markers F, E).
+- Left Y-axis (LHS): Amount (INR Mn), Range 0–16,000, Scale Interval 2,000.
+- Right Y-axis (RHS): Overheads as a % of sales, Range 12.0%–22.0%, Scale Interval 2.0%.
+- Legend: Red = Employee cost (INR Mn, LHS); Gray = Rental cost (INR Mn, LHS); Hollow White = Other expenses (INR Mn, LHS); Black Line = Overheads as a % of sales (RHS).
+
+[Data Relationships]
+- Overheads as a % of sales values for each year: FY19 16.5%, FY20 15.5%, FY21 17.1%, FY22 17.2%, FY23 20.0%, FY24F 19.3%, FY25F 18.9%, FY26E 19.0%.
+- Highest Value: 20.0% (FY23); Lowest Value: 15.5% (FY20); Range Difference: 4.5 percentage points.
+- Change from start to end period: 19.0% − 16.5% = +2.5 percentage points (FY19→FY26E).
+- Forecast interval difference: FY24F→FY25F −0.4 percentage points; FY25F→FY26E +0.1 percentage points; FY23→FY26E −1.0 percentage points.
+
+[Pattern Characteristics]
+- The total volume of the stacked bars increases with the fiscal year, with the red portion being dominant. The proportion of gray and white gradually expands, indicating a relatively unbalanced but continuous structure. The line chart initially dips, then rises, showing a prominent peak in the middle section, and subsequently moves within a similar range. FY23 marks a clear inflection point, and the bars in the forecast segment continue to enlarge.
+
+[Core Insights]
+Core Conclusion: Period expense ratio is at a high level, with the budget benchmarked at approximately 19%.
+
+Business Implications:
+- Weak expense efficiency, limited room for sales conversion.
+- Dominated by employee costs, limited cost flexibility.
+- Forecast management uses 19% for calculation and assessment.
+
+Risk Concerns:
+- Expense ratio ≥ 20.0%, profit margin narrows, requiring expenditure control.
+- Falling outside the 18.9%–19.3% range, increasing deviation between budget and performance assumptions.

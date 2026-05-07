@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Informational table, without axes or legends.
+- Column headers: Metric no., Driver of nature change, Indicator, Metric, Connection to GBF targets.
+- Rows: Two metrics, C2.3 and C2.4.
+- Each row includes the metric name, measurement description, and connection information to GBF targets.
+
+[Data Relationships]
+- C2.3: Indicator is Plastic pollution; measurement is the total weight of the plastic footprint (tons), broken down by raw material composition.
+- C2.3 provides 4 percentage attributes for plastic packaging: Reusable, Compostable, Technically recyclable, Actually and scalably recyclable (4 categories in total).
+- C2.4: Indicator is Non‑GHG air pollutants; measurement is the weight of non-greenhouse gas air pollutants (tons), categorized by type.
+- C2.4 types total 5 categories: Particulate matter (PM2.5/PM10), Nitrogen oxides (NO2, NO, NO3), Volatile organic compounds (VOC or NMVOC), Sulfur oxides (SO2, SO, SO3, SOx), Ammonia (NH3).
+- The GBF connection for both metrics is Target 7 and Target 11 (B.1).
+
+[Pattern Characteristics]
+The table presents two measurements in parallel: one focusing on the quantity and attributes of plastic, and the other focusing on the types of non-GHG air pollutants. Each measurement is further subdivided into multiple subcategories or percentage breakdowns, structurally presenting a hierarchy of "one main metric - multiple sub-items." Both measurements point to the same combination of targets in the GBF target column, demonstrating uniformity and symmetry in the connection relationship.
+
+[Core Insights]
+Core Conclusion: Plastic and non-GHG emissions are jointly regarded as key pollution management indicators.
+
+Business Implications:
+- Environmental performance assessment must simultaneously cover solid and air emission dimensions.
+- Plastic packaging attributes directly affect resource circulation and disposal pressure.
+- Segmentation by specific pollutant type facilitates the setting of differentiated management strategies.
+
+Risk Focus:
+- If the proportion of recyclable/compostable plastic is below 50%, disposal and compliance costs may rise significantly.
+- If the tonnage of a single air pollutant type is significantly higher than other types, it may trigger limit constraints and regulatory penalties for that type of emission.

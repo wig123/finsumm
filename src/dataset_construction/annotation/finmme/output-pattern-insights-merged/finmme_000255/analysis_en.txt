@@ -1,0 +1,26 @@
+[Chart Components]
+- Type: Dual Line Chart.
+- Title: Pan-Europe (ex Russia) LV Production Forecasts — BNPPE VS. S&P.
+- X-axis: Years 2017—2027E (including 2024E, 2025E, 2026E, 2027E as forecasts).
+- Y-axis: GLVP, m units; Scale approximately 14.0—22.0.
+- Legend: BNPP Exane (Dark Green) and S&P Global (Jan’24, Gray).
+
+[Data Relationships]
+- BNPP (m units): 2017≈20.8; 2021≈14.5; 2023≈17.3; 2027E≈19.0. Difference between 2017 and 2021 ≈ 6.3; Difference between 2023 and 2027E ≈ 1.7.
+- S&P: 2023≈17.3; 2024E≈16.8; 2025E≈16.8; 2026E≈16.9; 2027E≈17.0. Maximum ≈ 17.3, Minimum ≈ 16.8, Difference ≈ 0.5.
+- Period Comparison (BNPP−S&P): 2023=0; 2024E≈+0.8; 2025E≈+1.6; 2026E≈+1.9; 2027E≈+2.0.
+
+[Pattern Characteristics]
+The BNPP curve first dropped significantly, then reversed upward, showing a large overall amplitude, forming a "V" shape and continuing to extend upward during the forecast period. The S&P curve rose after reaching a historical low, intersecting with BNPP, and subsequently remained within a narrow range of variation. After the two curves converged in 2023, they began to gradually diverge. The BNPP forecast value is consistently higher than S&P, with the spread steadily widening and no clear inflection point.
+
+[Core Insights]
+Core Conclusion: BNPP is significantly more optimistic about the medium-to-long-term production outlook than S&P.
+
+Business Implications:
+- BNPP anticipates greater capacity utilization and sales potential.
+- S&P reflects a more restrained pace of industry expansion.
+- The divergence between institutions is concentrated in the incremental growth assessment post-2024E.
+
+Risk Concerns:
+- If actual production falls below the BNPP 2025E forecast by approximately 1.6m units, this may indicate overly optimistic earnings and valuation assumptions.
+- If industry production remains close to the S&P 16.8–17.0m range long-term, capital expenditures or inventory configured according to the BNPP scenario may result in over-investment.

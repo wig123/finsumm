@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Stacked bar chart; Title: "Denser network with ~30% fewer towers…."
+- X-axis categories: dtac, TRUE, True+dtac, Single Grid.
+- Y-axis is unscaled; the total value is displayed at the top of the bar, and segmented values are displayed within the bar.
+- Colors: Blue and Red series; a "-30%" annotation points to the comparison between True+dtac and Single Grid.
+
+[Data Relationships]
+- Total values: dtac=24; TRUE=35; True+dtac=59; Single Grid=42.
+- True+dtac → Single Grid: A reduction of 17 (59→42), a decrease of approximately 28.8%; the chart annotation is "-30%".
+- Segments: True+dtac Blue 24, Red 35; Single Grid Blue 12, Red 30.
+- Segment changes: Blue -12 (24→12, approximately -50%); Red -5 (35→30, approximately -14.3%).
+- Other comparisons: TRUE is higher than dtac by 11; True+dtac is higher than them by 35 and 24, respectively; Single Grid is higher than them by 18 and 7, respectively.
+
+[Pattern Characteristics]
+- Each bar consists of two parts. True+dtac has the highest total height among the four categories, followed by Single Grid, with dtac being the lowest.
+- Compared to True+dtac, the total height of Single Grid is reduced, and the contraction magnitude of the blue segment is significantly greater than that of the red segment.
+- TRUE and dtac are composed of only a single color, respectively, while True+dtac and Single Grid exhibit a dual-color stacked structure.
+
+[Core Insights]
+Core Conclusion: The Single Grid significantly compresses the blue scale while maintaining the red scale.
+
+Business Implications:
+- The transition from True+dtac to Single Grid enhances resource concentration.
+- Given that the red segment remains close (to its original value), the blue segment occupancy is significantly compressed.
+- The overall structure relies more heavily on the red segment for support.
+
+Risk Focus:
+- If the total value approaches 60 again, the current compression effect may be weakened.
+- If the blue segment recovers to above 20, the integration efficiency of the Single Grid will significantly decline.

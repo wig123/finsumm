@@ -1,0 +1,34 @@
+[Chart Components]
+- Type: Combination Chart (Red bars represent Revenue, Black line represents OPM).
+- Legend: Revenue (LHS), OPM (RHS).
+- Left Axis: Unit KRW bn, scale upper limit approximately 1,000.
+- Right Axis: Unit %, scale approximately from -10% to 15% (-5%, -10% marked in red).
+- Horizontal Axis: Quarterly time series, labeled 1Q20, 1Q21, 1Q22, 1Q23, 1Q24F, 1Q25F, 1Q26F (F denotes Forecast).
+
+[Data Relationships]
+- 1Q20 Revenue approximately 150; OPM for the same period approximately 5%.
+- Minimum Revenue approximately 100 (2Q20), maximum approximately 650 (around 1Q26F), range span approximately 550.
+- 1Q21 Revenue approximately 140; OPM for this period approximately -10% (the lowest point on the line).
+- 3Q22–4Q22 Revenue approximately 470–500; OPM approximately 9–10%.
+- 4Q23 Revenue approximately 510; OPM around 5%.
+- 1Q24F Revenue approximately 520; OPM approximately 0–1%.
+- Revenue near 1Q25F approximately 590; OPM approximately 10–11%.
+- Last quarter (near 1Q26F) Revenue approximately 520; OPM approximately 5%.
+- Maximum OPM approximately 11–12%, minimum approximately -10%, range approximately 21–22 percentage points.
+
+[Pattern Characteristics]
+- Overall, the Revenue bars move from early low levels towards the medium-to-high range, exhibiting multiple significant fluctuations during the period, not showing a monotonic trend.
+- The OPM line shows significant vertical oscillation throughout the entire period, crossing the 0-axis multiple times, featuring one distinct deep negative trough and several positive peaks.
+- At several points in time, Revenue is at a relatively high level while OPM is in the medium-to-low position, contrasting with periods where high Revenue and high profitability are broadly synchronized.
+
+[Core Insights]
+Core Conclusion: While the volume of Revenue increases, profitability exhibits significant instability.
+
+Business Implications:
+- Implication 1 Revenue expansion does not synchronously lead to stable profit margins.
+- Implication 2 Profit margins are relatively sensitive to changes in Revenue.
+- Implication 3 Profitability quality has room for fluctuation during the future forecast period.
+
+Risk Focus:
+- Risk Point 1 When OPM approaches or falls below 0%, even if Revenue is maintained above 500, profit contribution may contract rapidly.
+- Risk Point 2 Should OPM touch the vicinity of -10% again, operating results will be significantly eroded regardless of the Revenue level.

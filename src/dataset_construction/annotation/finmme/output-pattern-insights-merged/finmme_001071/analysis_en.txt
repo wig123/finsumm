@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Stacked bar chart (percentage).
+- Title: Not displayed.
+- X-axis: FY22, FY23, 9MFY24.
+- Y-axis: 0%—90%, scale interval approximately 10%.
+- Legend and Colors: Connecting rods (Red), Rocker arms (Grey), Crank shaft assembly (White outline), Gear shift dorks (Light Pink), Others (Black).
+
+[Data Relationships]
+- FY22: 39%, 18%, 16%, 5%, 5; Total 83%.
+- FY23: 34%, 16%, 18%, 5%, 5; Total 78%; Difference vs. FY22: -5pp, -2pp, +2pp, 0, 0.
+- 9MFY24: 35%, 15%, 16%, 5%, 5; Total 76%; Difference vs. FY23: +1pp, -1pp, -2pp, 0, 0.
+- Comparison FY22 vs. 9MFY24: Connecting rods -4pp; Rocker arms -3pp; Crank shaft assembly 0; Gear shift dorks 0; Others 0.
+
+[Pattern Characteristics]
+Overall, the total proportion of the bars in each fiscal year has slightly contracted, consistently remaining below the upper limit of the Y-axis, with components maintaining a fixed stacking order. Structurally, Connecting rods is the most significant component, followed by Rocker arms and Crank shaft assembly. Gear shift dorks and Others maintain the same proportion and are positioned at the top. Across the three periods, only the proportions of the top two major components show moderate adjustments; the remaining three components are essentially stable, with no significant jumps or extreme outliers.
+
+[Core Insights]
+Core Conclusion: The product structure is dominated by a single major category, with concentration slightly easing.
+
+Business Implications:
+- The primary source of revenue remains highly concentrated in Connecting rods.
+- Rocker arms and Crank shaft assembly provide a limited diversification effect.
+- The overall coverage (total proportion) in 9MFY24 has slightly narrowed compared to FY22.
+
+Risk Focus:
+- If the proportion of Connecting rods rises back above 40%, concentration will increase, and resilience to shocks will decrease.
+- If the combined proportion of the non-top three categories falls below 70%, it may imply resource dispersion and increased management complexity.

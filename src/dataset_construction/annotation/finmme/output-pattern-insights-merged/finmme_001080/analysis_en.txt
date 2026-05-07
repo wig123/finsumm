@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Bar chart + Line chart (Dual Y-axis)
+- Title: Not labeled
+- X-axis: Quarter, 1QFY20 to 3QFY24 (Total 19 periods)
+- Left Y-axis: Sales (INR mn), Range approximately 0–200,000, Major tick interval approximately 20,000
+- Right Y-axis: Y-Y growth (RHS), Range 0–0.16
+- Legend: Red bar is "Sales (INR mn)", Grey line is "Y-Y growth (RHS)"
+
+[Data Relationships]
+- Initial sales: 1QFY20 approximately 120,000; Final sales: 3QFY24 approximately 187,000–190,000; The difference is approximately 67,000–70,000.
+- Sales peak: 3QFY24 approximately 190,000; Trough/Minimum value: 1QFY20 approximately 120,000; High-low difference approximately 70,000.
+- Sales for the first three quarters of FY24: 1Q approximately 178,000; 2Q approximately 185,000; 3Q approximately 188,000–190,000.
+- YoY growth rate peak approximately 0.15, occurring near 3QFY21 and 1QFY23; Trough value approximately 0.05, in 3QFY23.
+- Final YoY growth: 3QFY24 approximately 0.10; lower than 2QFY24's approximately 0.145 by about 0.045.
+
+[Pattern Characteristics]
+Overall, the red bars show a continuous upward trend from 1QFY20 to 3QFY24, with no significant decline during the period, only slight plateauing in certain quarters. The grey line exhibits clear alternation between peaks and troughs throughout the entire period, with multiple high and low points separated by 1–3 quarters. The change in the sales bars is relatively smooth, while the YoY line formed local peaks near 3QFY21 and 1QFY23, a significant trough in 3QFY23, and subsequently rebounded before declining again.
+
+[Core Insights]
+Core Conclusion: Scale continues to expand, but the growth rate exhibits alternating phases of contraction and recovery.
+
+Business Implications:
+- Revenue volume gradually expanded during the sample period.
+- Growth momentum shows periodic shifts between strength and weakness, indicating an uneven pace.
+- Expansion has continued in recent quarters, but the marginal momentum is slowing down.
+
+Risk Concerns:
+- If YoY growth falls below approximately 0.05, it could lead to only weak revenue growth or even stagnation.
+- If YoY growth struggles to return to the high level near 0.15, long-term compound growth expectations may need to be revised downward.

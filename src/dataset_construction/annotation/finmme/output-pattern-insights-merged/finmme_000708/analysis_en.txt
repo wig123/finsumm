@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Heatmap
+- Title: Not displayed
+- X-axis: Date, scale from Jul-05 to Nov-23 (Jul-05, Oct-06, Feb-08, Jun-09, Sep-10, Jan-12, May-13, Sep-14, Dec-15, Apr-17, Aug-18, Dec-19, Mar-21, Jul-22, Nov-23)
+- Y-axis: Asset (no specific scale)
+- Right legend: Percentile Rank of Realized Vol; Color scale 0–100, Blue→Cyan→Yellow→Red
+
+[Data Relationships]
+- Color scale range 0–100, maximum and minimum difference of 100 percentage points
+- Red blocks appear near Jun-09, Sep-10, May-13, Apr-17, Dec-19, Mar-21, Jul-22, corresponding to ≈80–100
+- Dark blue blocks are seen near Jul-05, Oct-06, Feb-08, Jan-12, Sep-14, Dec-15, Aug-18, Nov-23, corresponding to ≈0–20
+- Value differences of 0–100 can simultaneously occur between different assets on the same date
+
+[Pattern Characteristics]
+The colors in the chart exhibit multiple alternating band structures along the time axis, moving from cool colors to warm colors and back to cool colors, showing distinct phasing. Boundaries between adjacent phases are relatively clear, and during most periods, a stratified gradient from cool to warm is presented vertically from bottom to top. Narrow "spikes" of extreme cool or warm colors appear at individual time points, contrasting with the surrounding areas.
+
+[Core Insights]
+Core Conclusion: The realized volatility of different assets is in a state of distinct phasing and high disparity.
+
+Business Implications:
+- Significant differences in volatility level distribution among assets, allowing for substantial stratified allocation space.
+- Overall portfolio volatility is more dependent on asset selection and weight management.
+- Phase transitions may amplify the impact of holding structure on outcomes.
+
+Risk Focus:
+- When the percentile rank of a large number of assets is ≥80, overall portfolio volatility may significantly increase.
+- When the percentile rank of key holdings jumps from ≤20 to ≥60, existing risk assumptions may become invalid.

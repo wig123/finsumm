@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Grouped List Table
+- Fields: Market, HSBC view, FTSE benchmark weight (%), HSBC weight (%)
+- Grouping: FTSE Russell EM EMEA, FTSE Russell EM Asia, FTSE Russell EM LatAm, with the final row being the "FTSE Russell EM" total.
+- Unit: Percentage
+- Axes: None
+- Legend: None; the HSBC view column contains neutral/overweight/underweight labels.
+
+[Data Relationships]
+- Total: Both FTSE and HSBC are 100.0%.
+- Regions: EMEA 14.4 vs 16.7 (+2.3); Asia 75.1 vs 70.7 (-4.4); LatAm 10.5 vs 12.6 (+2.1).
+- Highest FTSE Weights: Mainland China 28.4, India 21.8, Taiwan 18.1; Highest HSBC Weights: Mainland China 28.4, India 24.2, Taiwan 10.0.
+- Largest Differences (HSBC-FTSE): Taiwan -8.1; India +2.4; Türkiye +1.2; Brazil +1.2; Indonesia +1.1; Thailand +0.9.
+- Other Differences: Saudi Arabia +0.4, Greece +0.7, Romania +0.4, South Africa -0.5, Malaysia -0.5, Kuwait -0.6.
+- Zero Difference: Mainland China, Pakistan, Czech Republic, Iceland, Qatar.
+
+[Pattern Characteristics]
+At the regional level, HSBC has a higher allocation proportion in EMEA and LatAm compared to the benchmark, and a lower allocation proportion in Asia. Individual countries show significant differences from the benchmark weight, especially Taiwan being clearly underweight and India clearly overweight, while the differences for most other countries are relatively moderate. The HSBC view labels are generally consistent with the direction of the weight differences, but there are a few cases near zero difference or slightly inverse.
+
+[Core Insights]
+Core Conclusion: The portfolio exhibits concentrated active deviation at the regional and country levels.
+
+Business Implications:
+- Regional allocation relies more heavily on the performance of EMEA and LatAm.
+- Higher dependence on a few markets such as Taiwan and India.
+- Tracking error of the portfolio relative to the benchmark may increase.
+
+Risk Focus:
+- When Taiwan is underweight by more than -8%, a significant rally there will cause substantial underperformance.
+- When India is overweight by more than +2%, a correction there will amplify drawdowns.

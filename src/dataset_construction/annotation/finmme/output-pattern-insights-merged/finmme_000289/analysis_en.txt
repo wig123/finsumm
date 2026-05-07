@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Vertical bar chart, red bars.
+- Legend/Title: Top "Staff costs (% of sales)".
+- X-axis: Company categories, including EPL, Jubilant Foodworks, Page Industries, Bata India, United Spirits, Emami, Bajaj Consumer, Dabur, Nestle, Tata Consumer, Akzo Nobel, Colgate, Marico, Godrej Consumer, Indigo Paints, Berger Paints, Asian Paints, Kansai Nerolac, ITC, Britannia, Hindustan Unilever, Titan, Avenue Supermarts.
+- Y-axis: Percentage scale, approximately 0–25.
+
+[Data Relationships]
+- Highest: EPL 19.9%; Lowest: Avenue Supermarts 1.5%; Range of 18.4 percentage points.
+- Second Highest: Jubilant Foodworks 18.7 (1.2 lower than the highest); Third: Page Industries 15.9 (2.8 lower than the second highest).
+- Near 10%: Bata India 11.4; United Spirits 11.0; Emami 10.2; Bajaj Consumer 10.1.
+- 9% Range: Dabur 9.5; Nestlé 9.1 (difference of 0.4).
+- 8% Range: Tata Consumer 8.3; Akzo Nobel 8.0; Colgate 7.9; Marico 7.8.
+- Godrej Consumer 7.5; Indigo Paints 7.4 (difference of 0.1).
+- Identical Values: Berger Paints and Asian Paints both 6.3; Kansai Nerolac and ITC both 5.8.
+- Lower Values: Britannia 4.7; Hindustan Unilever 4.3; Titan 3.0; Avenue Supermarts 1.5.
+
+[Pattern Characteristics]
+- Companies are arranged in descending order by value, forming a single-peak structure that gradually decreases from left to right. The overall change is relatively smooth, with significant drops only at the beginning and the end.
+- Mid-range companies' values are concentrated in the intermediate range, showing a denser distribution, with some companies exhibiting paired identical values.
+- There is a clear gap between the highest and lowest companies and the majority of the sample. The few companies at the tail end form a distinct stratification relative to the central range.
+
+[Core Insights]
+Core Conclusion: The proportion of staff costs among companies varies significantly, showing clear gradient stratification.
+
+Business Implications:
+- Leading companies with high proportions are highly dependent on human capital investment relative to sales.
+- Mid-range companies' cost structures are closer to the industry median/central level.
+- Companies at the tail end possess a relatively lighter human resource cost structure capacity.
+
+Risk Focus:
+- If the proportion of staff costs consistently exceeds 15%, it may compress profit elasticity.
+- If the proportion remains below 5% for an extended period, it may affect service quality and growth support.

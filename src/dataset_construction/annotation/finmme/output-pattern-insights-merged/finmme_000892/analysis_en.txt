@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Bar chart (Stacked column for FY24).
+- Title/Theme: ROW sales; Legend includes 5 items—Red "ROW sales (base) (INR mn)", Orange "ROW sales (Cenexi) (INR mn)", Gray/Yellow/Blue represent the FY21/FY22/FY23 average lines, respectively.
+- X-axis: Quarterly labels, from 1QFY21 to 3QFY24, totaling 15 data points.
+- Y-axis: Value unit INR mn, range approximately 0–3500, interval 500.
+- Others: The three horizontal average lines for FY21, FY22, and FY23 are located near approximately 1400, 2150, and 1700, respectively.
+
+[Data Relationships]
+- Base peak: 2QFY22 approximately 2300; Lowest: 1QFY23 approximately 1000; Difference approximately 1300.
+- FY24 stacked total value: 1Q approximately 2900 (Base ≈1600, Cenexi ≈1300), 2Q approximately 2650 (≈1750 + ≈900), 3Q approximately 2800 (≈1550 + ≈1250).
+- FY21 quarterly base values approximately: 1500, 1400, 1100, 1450; FY22 approximately: 2200, 2300, 2050, 1900; FY23 approximately: 1000, 2250, 1950, 1700.
+- Average lines: FY21 ≈1400, FY22 ≈2150, FY23 ≈1700.
+- Difference between FY24 total value and FY23 average line: 1Q approximately +1200, 2Q approximately +950, 3Q approximately +1100.
+
+[Pattern Characteristics]
+- The quarterly base columns exhibit multiple surges and retreats across the three fiscal years, with the overall level of FY22 being higher than FY21 and FY23.
+- In FY24, the overall height of the stacked columns formed by the base and Cenexi is significantly higher than the average lines of the previous three years, and the total values across the three quarters are relatively close. 1QFY23 is a clear low point, while 2QFY22, 3QFY23, and all quarters of FY24 form several high-level ranges.
+
+[Core Insights]
+Core Conclusion: Following the integration of Cenexi in FY24, the overall sales scale has significantly expanded and remains at a high level.
+
+Business Implications:
+- Current sales levels have exceeded the historical conventional range.
+- Cenexi's contribution to total sales has significantly increased.
+- The base business and the newly added component jointly raise the scale benchmark.
+
+Risk Concerns:
+- If the FY24 total value falls back near the FY23 average line ≈1700, the current incremental space will be significantly compressed.
+- If Cenexi's contribution drops below ≈900, it will weaken FY24's scale advantage relative to FY22.

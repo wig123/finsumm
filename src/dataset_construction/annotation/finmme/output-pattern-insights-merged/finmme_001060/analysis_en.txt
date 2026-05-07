@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Stacked Bar Chart
+- Title: Not specified
+- X-axis: Company Categories (BP, Eni, Equinor, Galp, OMV, Repsol, Shell, Total, CVX, XOM)
+- Y-axis: Yield (Percentage), Range 0%–18%, Scale approximately every 2%
+- Legend: Base Div Yield (Dark Green), Special Div Yield (Orange), Buyback Yield (Light Blue)
+
+[Data Relationships]
+- Total Yield (Approximate): Equinor 16%; Repsol 12%; Shell, Total, BP 10%; Eni, CVX approx. 9–10%; OMV 9%; Galp, XOM 8%.
+- Equinor Breakdown: Base ≈4.5%, Special ≈6%, Buyback ≈5.5%, Total 16%.
+- Repsol: Base ≈6.5%, Buyback ≈5.5%, Total 12%.
+- Shell: Base ≈4.5%, Buyback ≈5.5%, Total 10%.
+- OMV: Base ≈7.5%, Special ≈1.5%, Total ≈9% (Buyback ≈0–0.5%).
+- Difference between high and low: Equinor 16% is higher than Galp/XOM 8% by ≈8 percentage points.
+- Companies showing Special Dividends only: Equinor, OMV.
+
+[Pattern Characteristics]
+Overall, the total yield of each company is distributed within the middle range, with a relatively clear hierarchical difference between the highest and lowest values. The total yield of some companies consists of three components, but most are dominated by only two or a single item, showing significant structural differences. Only a few companies show the orange block, and its proportion in the overall bar is limited, indicating a certain uniqueness in their composition.
+
+[Core Insights]
+Core Conclusion: Shareholder return structures vary significantly across different companies, with differing levels of concentration.
+
+Business Implications:
+- Companies with high total yields are more attractive in terms of shareholder returns.
+- Companies primarily relying on buybacks have a more direct impact on per-share metrics.
+- Companies showing special dividends rely more on one-time distribution methods.
+
+Risk Focus:
+- When the total yield approaches the 8% lower limit, if buybacks contract, the overall competitiveness of returns weakens.
+- When the proportion of special dividends exceeds 30% of the total yield, the uncertainty regarding the sustainability of future returns increases.

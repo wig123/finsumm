@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Multi-series Line Chart
+- Title: FY2024 EPS Indexed
+- X-axis: Date, ranging from 4-Jan-23 to 28-Feb-24, marked at multiple time points.
+- Y-axis: Index Value, range approximately 80–115.
+- Legend: Indo (Red Solid Line), Malay (Light Gray Solid Line), Phils (Black Solid Line), Sing (Red Dashed Line), Thai (Black Dotted Line), ASEAN USD (Blue Solid Line).
+
+[Data Relationships]
+- Initial Period (2023-01-04): All series were approximately ≈100.
+- Final Period (2024-02-28): Phils≈110, Indo≈106, Sing≈98, ASEAN USD≈95, Malay≈92, Thai≈82.
+- Change Relative to Initial Period: Phils+≈10, Indo+≈6, Sing−≈2, ASEAN USD−≈5, Malay−≈8, Thai−≈18.
+- Extremes and Timing: ASEAN USD peak ≈107 (mid-April 2023); Phils peak ≈111 (early January 2024); Thai trough ≈82 (end of period); Sing peak ≈105 (approx. October 2023); Malay peak ≈99 (early stage); Indo peak ≈106 (near the end of the period).
+
+[Pattern Characteristics]
+- All series were relatively close in the initial stage, subsequently widening the gap, forming three trend groups: upward shift, neutral, and downward shift.
+- Phils and Indo were located in the upper range during the latter half, showing relatively consistent trends; Sing, ASEAN USD, and Malay mostly fluctuated slightly in the middle range; Thai continuously trended downward after the mid-stage and remained stably at the bottom.
+- Although the lines experienced brief rebounds or pullbacks mid-way, the relative ranking structure remained unchanged. The later stage divergence pattern is relatively stable, with no sudden sharp spikes.
+
+[Core Insights]
+Core Conclusion: Regional EPS expectations show significant divergence, with the Philippines and Indonesia relatively outperforming.
+
+Business Implications:
+- Earnings expectations for the Philippines and Indonesia are relatively more supported.
+- Weakening expectations for Thailand may drag down overall regional performance.
+- Sing, Malay, and ASEAN USD are generally in a moderate adjustment range.
+
+Risk Concerns:
+- The Thai index is approaching 80. Further downside movement may trigger renewed regional valuation compression.
+- ASEAN USD remaining below 95 will amplify drawdown pressure on products with regional exposure.

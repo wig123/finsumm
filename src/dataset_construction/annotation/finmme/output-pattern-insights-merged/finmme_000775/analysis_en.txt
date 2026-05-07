@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Stacked Column Chart
+- Title: Loan loss coverage (including overlays)
+- Legend: Gray=Overlays coverage; Red=Loan loss reserves (ex overlays) coverage
+- X-axis: Quarter, from 4Q20 to 3Q24
+- Y-axis: Percentage scale, range -10% to 130%
+
+[Data Relationships]
+- Peak: 4Q21 total coverage 128.8%; ex-overlays 86.7%, overlays 42.1%.
+- Trough: 4Q20 total coverage 68.4%; ex-overlays 59.4%, overlays 9.0%.
+- Latest: 3Q24 total coverage 102.0%; ex-overlays 74.9%, overlays 27.1%.
+- 4Q23 total coverage 96.8%, comprising 73.8% + 24.3%; 3Q23 104.6%, comprising 80.3% + 24.6%.
+- 1Q24 total coverage 87.4%; overlays 16.9%, implying ex-overlays 70.5%.
+- Comparison: 4Q21 total coverage was 60.4 pct higher than 4Q20; 3Q24 was 14.6 pct higher than 1Q24; 3Q24 was 5.2 pct higher than 4Q23.
+
+[Pattern Characteristics]
+- The total coverage level initially rose in phases starting from 4Q20, peaking around 4Q21. Subsequently, it generally fluctuated slightly within a high range, showing signs of a slight rebound in recent quarters.
+- The red component consistently accounts for the major proportion in all periods. The gray component accounted for a smaller proportion early on, then expanded significantly during the high-level phase, contracted somewhat in the middle period, and has recently expanded again.
+- In isolated quarters, such as 1Q24, total coverage formed a noticeable low point relative to the preceding and succeeding quarters, reflecting a pattern of temporary structural contraction followed by a renewed increase.
+
+[Core Insights]
+Core Conclusion: Coverage levels have strengthened again after a high-level retreat, with the structure still dominated by conventional reserves.
+
+Business Implications:
+- Overall impairment buffering capacity remains within a high range.
+- The capacity to absorb potential losses in the credit portfolio is relatively sufficient.
+- Management has reinforced forward-looking provisioning after a phased contraction.
+
+Risk Concerns:
+- If total coverage consistently falls below 90%, profit volatility may amplify when future losses deviate from expectations.
+- If the proportion of overlays consistently exceeds 30%, it may reflect an over-reliance on loss scenario assumptions.

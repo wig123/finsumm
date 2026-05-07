@@ -1,0 +1,30 @@
+【图表构成】
+- 图表类型：双轴散点图（PEAK Matrix）。
+- 标题：Everest Group Capital Markets Operations – Services PEAK Matrix Assessment 2023。
+- 纵轴：Market impact（Measures impact created in the market），范围Low–High。
+- 横轴：Vision & capability（Measures ability to deliver services successfully），范围Low–High。
+- 分区与辅助线：背景分为Aspirants（左下）、Major Contenders（中部）、Leaders（右侧/右上），有虚线分隔。
+- 图例：Leaders（深蓝圆点）、Major Contenders（橙色圆点）、Aspirants（白色圆点）、Star Performers（橙色星形）。
+- 主要标注对象示例：Cognizant、TCS、Infosys、Wipro、Accenture、Genpact、Broadridge、HCLTech、Intertrust Group、Avaloq、eClerx、DXC Technology、Capgemini、FIS、Mphasis、Atos、EXL、WNS、Delta Capita、Hexaware、Coforge BPS、Exela Technologies、Tech Mahindra。
+
+【数据关系】
+- Leaders区内：Cognizant处于市场影响与能力双高的最靠近右上角位置；TCS次之；Genpact在该区市场影响最低。
+- Leaders区内横向位置：Infosys、Accenture、Wipro位于右侧高能力区，但市场影响低于Cognizant、TCS。
+- Major Contenders：Broadridge在该区最靠近右上角；HCLTech与Avaloq处于较高位置；Intertrust Group靠近中低位。
+- Aspirants：Hexaware在该区市场影响相对较高；Tech Mahindra最接近左下角；Coforge BPS、Exela Technologies居中偏低。
+- 星标公司：Broadridge、HCLTech、Intertrust Group为Star Performers，均位于Major Contenders范围。
+
+【模式特征】  
+整体分布呈现从左下向右上逐级递进的阶梯结构，三大分区内点位相对集中、边界过渡平滑。Leaders区内多数点聚集在高能力、高影响的狭窄带上，仅少数在该带的下缘。Major Contenders区内部横向跨度较大，部分点靠近Leaders分界线且被星标突出，而Aspirants整体集中在低能力与低至中等影响的区域，靠近左下角位置的点最为边缘。
+
+【核心洞察】  
+核心结论：领先厂商高度集中，追赶者梯队分化明显。  
+
+业务含义：  
+- 说明头部供应商在能力与市场存在感上形成集聚。  
+- 中部厂商中少数具备向头部区迁移的条件。  
+- 低位厂商整体处于被动位置，提升空间集中在服务成效。  
+
+风险关注：  
+- 若长期停留在Aspirants或Major Contenders中下部区间，可能被高位厂商持续分流机会。  
+- 若仅接近Leaders边界但未进入右侧高位区，可能在竞争中处于夹层、议价和获客均受压。

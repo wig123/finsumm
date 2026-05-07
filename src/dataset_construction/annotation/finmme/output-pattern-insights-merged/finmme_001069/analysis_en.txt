@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Scatter Plot
+- Title: No explicit main title; includes textual annotations for partitioning.
+- Axes: x-axis "Beta of relative returns (vs EM ex China) to FTSE China conditional on China is down," range approximately -0.5 to 0.3; y-axis "Beta … up," range approximately -0.4 to 0.3; zero axis horizontal/vertical lines are marked.
+- Markers: Each point is labeled with a country name; the four elliptical partition texts in the chart are "Highly geared to China," "Asymmetric risks to China," "Low sensitivity to China," "Defensive to China"; No legend.
+
+[Data Relationships]
+- Upper Right: Taiwan (x≈0.29, y≈0.22), South Korea (≈0.19, ≈0.10), Turkey (≈0.02, ≈0.22), Egypt (≈0.07, ≈0.10)
+- Lower Right: Brazil (≈0.22, ≈-0.22), Pakistan (≈0.15, ≈-0.10), South Africa (≈0.22, ≈0 to -0.02)
+- Lowest y: Colombia (y≈-0.33, x≈-0.21); Highest y: Turkey (≈0.22)
+- Smallest x: Hungary (x≈-0.39, y≈0); Largest x: Taiwan (≈0.29)
+- Near the Origin: Malaysia (≈-0.05, ≈0.03), UAE/Qatar/Chile/Philippines (≈-0.10 to -0.05, ≈-0.12 to 0)
+- Lower Left: Greece, Kuwait, Czech Republic, Indonesia, Saudi Arabia, etc. (x≈-0.30 to -0.15, y≈-0.23 to -0.08)
+
+[Pattern Characteristics]
+The scatter points are roughly divided into four quadrants around the origin, showing a multi-cluster distribution rather than a single linear structure. Points in the upper-right quadrant are relatively concentrated among a few countries, while the lower-right and lower-left quadrants show a more dispersed distribution. The upper-left quadrant has more points closer to the origin. Taiwan, South Korea, Brazil, Colombia, Hungary, etc., are positioned further away from the overall cluster along their respective axes, forming distinct outliers or boundary points.
+
+[Core Insights]
+Core Conclusion: The direction and symmetry of countries' exposure to China's market performance vary significantly.
+
+Business Implications:
+- Taiwan, South Korea, etc., are more dependent on Chinese price movements.
+- Brazil, Pakistan, etc., pose a greater drag on portfolios when China is declining.
+- Countries near the origin can be used to neutralize the overall sensitivity to China.
+
+Risk Focus:
+- When allocations are concentrated in countries where x>0.2 or y>0.2, unilateral movements in China will amplify portfolio volatility.
+- When the proportion of countries where x>0.15 and y<0 is too high, a decline in China may amplify relative drawdowns.

@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Line chart
+- Title: Main title not displayed
+- X-axis: Time, Sep-17 to Dec-23, marked approximately by quarter
+- Y-axis: Sales (USD mn), range 40–120, scale interval 10
+- Legend: Red line—“T3M sales (USD mn)”
+- Other: Horizontal grid lines facilitate reading
+
+[Data Relationships]
+- Initial period (Sep-17) ≈56; Final period (Dec-23) ≈96
+- All-time high ≈107 (approx. Sep-21); All-time low ≈48 (Jun-18); High-low difference ≈59
+- High point between Sep-19 and Dec-19 in 2019 ≈103
+- Low point in 2020 ≈75 (Jun-20)
+- Low level in 2022 ≈86 (Sep-22)
+- High point between Sep-23 and Dec-23 in 2023 ≈101
+- Final period is higher than initial period by ≈40
+
+[Pattern Characteristics]
+The overall curve shows a stepped upward trend from left to right, accompanied by multiple medium-amplitude fluctuations. After the global low appeared in mid-2018, a global high formed around Q3 2021, interspersed with several short-term pullbacks and subsequent recoveries. In the latter half of 2022, the price oscillated narrowly around a higher range, concluding 2023 slightly below the local high for the year.
+
+[Core Insights]
+Core Conclusion: Sales have entered a phase of sustained volatility within a high range after an initial climb.
+
+Business Implications:
+- The overall revenue scale has expanded significantly compared to the initial period.
+- Recent revenue levels remain relatively stable within the high range.
+- After periodic pullbacks, recovery typically reaches near previous peak levels.
+
+Risk Focus:
+- A drop below 80 would signify the breakdown of the relative high range, requiring an assessment of demand changes.
+- Sustained performance below 90 for more than one quarter could impact budget execution and cost amortization schedules.

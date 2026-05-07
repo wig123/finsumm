@@ -1,0 +1,34 @@
+[Chart Components]
+- Type: Line chart; gray vertical bars represent "Recession" shading.
+- Title: Crude Oil BFO M1 Europe FOB $/BBL.
+- X-axis: Years 1970—1984 (annual scale).
+- Y-axis: Price, unit $/BBL, range approximately 0—45 (5 unit intervals).
+- Legend: Gray square "Recession," Cyan line "Crude Oil Price."
+
+[Data Relationships]
+- Approximately 2 $/BBL in 1970 (initial period).
+- Local peak near 1973-1974 approximately 12–14 $/BBL; approximately 10–12 after 1974.
+- Approximately 15 in 1978; approximately 25 in 1979.
+- Highest range in 1980–1981 approximately 40–42 $/BBL (global peak).
+- Approximately 28 $/BBL in 1984 (final period).
+- The difference between the maximum (approx. 41) and the initial period (approx. 2) is about 39; the difference between the maximum and the final period (28) is about 13.
+- The difference between 1979 and 1978 is about 10; the difference between the 1974 peak and 1970 is about 10–12.
+- Shaded areas: Price approximately 10–14 in 1974–1975; approximately 30–42 in 1980–1982.
+
+[Pattern Characteristics]
+- Price maintained a low, narrow range in the early period, followed by two phased, step-like increases, and subsequently retreated slightly after forming a global high plateau in the second phase.
+- Prices within the "Recession" shaded areas are mostly at local highs or relatively high levels following an ascent, while non-shaded areas are typically early lows or adjustment ranges following a high.
+- Distinct local and global peak ranges formed near 1973–1974 and 1979–1981, during which price volatility was relatively concentrated and the magnitude was far greater than in other years.
+
+[Core Insights]
+
+Core Conclusion: The center of gravity for crude oil prices shifted significantly upward and remained high during the sample period.
+
+Business Implications:
+- The energy cost structure experienced a significant elevation and repricing.
+- The sensitivity of profitability in related industries to oil prices significantly increased.
+- Periods of macroeconomic volatility exhibit synchronous characteristics with high oil price ranges.
+
+Risk Focus:
+- When prices approach 40 $/BBL, cost-side pressure may significantly compress profit margins.
+- Prices sustained above 30 $/BBL for several years may induce demand contraction and operational volatility.

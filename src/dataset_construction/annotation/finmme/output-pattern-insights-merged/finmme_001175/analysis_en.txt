@@ -1,0 +1,29 @@
+[Chart Components]
+- The page contains three charts.
+- Top Left: Horizontal stacked bar chart, titled Latest projections and current composition of the European Parliament election; two bars are labeled “Latest projections” and “Current composition”; x-axis marked 0%/50%/100%; legend includes Left, RE, EPP, S&D, ECR, Greens/EFA, ID, Non‑inscrits, New unaffiliated.
+- Top Right: UK Public Sector Net Debt (excluding BoE, % of GDP) line chart; x-axis 2015‑16 to 2028‑29 (dashed line represents OBR forecast); y-axis 60–95.
+- Bottom Left: German political party voting intention line chart; x-axis 2020–2024; y-axis “% of valid voters” 0–40; legend includes Union, FDP, Greens, Left, SPD, AfD; annotated “28 Sep 2021: Federal election”.
+
+[Data Relationships]
+- Latest German 2024 poll: AfD 30%; Union 19%; SPD 15%; Greens 13.5%; Left 4%; FDP 3.3%.
+- AfD is 11 percentage points higher than Union, and 15 percentage points higher than SPD.
+- The three ruling parties (SPD+Greens+FDP) total 31.8%.
+- Union+SPD total 34%.
+- Greens are 10.2 percentage points higher than FDP, and SPD is 11 percentage points higher than Left.
+
+[Pattern Characteristics]
+- In the European Parliament chart, there is a noticeable redistribution of proportions across multiple parties between the two compositions; the proportion of new and unaffiliated groups has increased, the space occupied by traditional centrist blocs has been compressed, and the overall structure is more fragmented.
+- The UK public sector net debt line initially declined slowly during the sample period before rebounding, forming a relatively high plateau in the middle-to-later stages, with a narrow range of change in the forecast period.
+- In the German voting intention, the AfD curve has continuously risen since 2022 and is the highest at the latest point; SPD and Greens have generally weakened since the 2021 election; FDP remains in the lower range long-term, and the gap between the major political parties has significantly widened recently.
+
+[Core Insights]
+Core Conclusion: Political fragmentation is intensifying in major European countries, and traditional centrist forces are relatively weakened.
+
+Business Implications:
+- Difficulty in transnational legislative coordination increases, leading to less unified policy direction.
+- Fiscal and regulatory expectations are more dependent on the political landscape of individual nations.
+- The German domestic agenda is more influenced by the agenda setting of anti-establishment forces.
+
+Risk Focus:
+- If AfD maintains around 30% long-term, the space for mainstream parties to form a government or cooperate will significantly narrow.
+- If the UK net debt proportion remains near 90%, adjustment space will be limited when new expenditures arise in the future, easily triggering an austerity bias.

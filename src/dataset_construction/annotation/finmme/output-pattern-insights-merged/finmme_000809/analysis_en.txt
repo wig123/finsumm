@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Categorized panel, without axes or legend.
+- Top filters: Sector=Consumer Staples; Sub‑industry=Agricultural Products; Production process=Large‑scale livestock (beef and da…).
+- Tabs: Dependencies (Current), Impacts; Partitions: Ecosystem services (Current), Assets.
+- List groupings (including the "+ SHOW ALL" button): Direct Physical Input, Enables Production Process, Mitigates Direct Impacts, Protection from Disruption.
+- Top right display: Showing – 19.
+
+[Data Relationships]
+- Group counts: Direct Physical Input=4; Enables Production Process=5; Mitigates Direct Impacts=4; Protection from Disruption=6.
+- Total: 4+5+4+6=19, consistent with "Showing – 19".
+- Maximum value: Protection from Disruption=6; Minimum values: Direct Physical Input, Mitigates Direct Impacts=4.
+- Difference from maximum value: 6-5=1; 6-4=2.
+
+[Pattern Characteristics]
+The distribution of item counts across the groups is relatively close, with limited variance between the maximum and minimum groups. All four groups contain entries; there is no empty group or a single group that is significantly prominent. The overall structure is slightly unbalanced but relatively dispersed.
+
+[Core Insights]
+Core Conclusion: Dependence on various ecosystem services is relatively dispersed, with no single dominant area.
+
+Business Implications:
+- Business dependency sources are diversified, and the structure is relatively balanced.
+- The importance gap between various segments is limited, requiring integrated management.
+- Resource or risk assessments should cover all four categories of elements.
+
+Risk Focus:
+- If the number of entries in any group increases to ≥8, it may indicate excessive concentration of dependency or issues in that segment.
+- If the number of entries in a group decreases to ≤1, it may lead to that segment being neglected or insufficiently evaluated.

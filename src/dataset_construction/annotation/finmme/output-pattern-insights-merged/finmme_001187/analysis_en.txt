@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Pie chart
+- Title: Not displayed
+- Axes: No axes
+- Legend: No separate legend; brands and percentages are directly labeled on each sector (BYD, FAW‑VW, Chery, Geely, Changan, SAIC‑VW, GWM, SAIC‑GM, SAIC, GAC‑Toyota)
+
+[Data Relationships]
+- BYD is 12% (highest)
+- FAW‑VW, Chery, and Geely are 7% each
+- Changan is 6%
+- SAIC‑VW is 5%
+- GWM, SAIC‑GM, SAIC, and GAC‑Toyota are 4% each (lowest)
+- The difference between the highest and lowest is 8 percentage points
+- BYD is 5 percentage points higher than the 7% group, 6 percentage points higher than the 6% group, 7 percentage points higher than the 5% group, and 8 percentage points higher than the 4% group
+- The difference between 7% and 6% is 1 percentage point; the difference between 7% and 5% is 2 percentage points; the difference between 6% and 5% is 1 percentage point; the difference between 5% and 4% is 1 percentage point
+
+[Pattern Characteristics]
+The overall structure shows a single brand's proportion significantly higher than the others, with the remaining brands distributed across medium and smaller ranges. The medium range consists of three brands with identical proportions, while the lower range has four brands with consistent values. Excluding the highest value, the grade gap between other tiers is small, the stratification is fine, and there are no extreme outliers.
+
+[Core Insights]
+Core Conclusion: The market is led by a single brand, with multiple brands having similar scale and competing at nearly the same level.
+
+Business Implications:
+- The leading brand holds a clear volume leadership position
+- The gap among second-tier brands is limited, leading to concentrated competition
+- Multiple brands at the lower end have similar market shares, indicating strong substitutability
+
+Risk Concerns:
+- If the leading brand's proportion consistently exceeds 10%, the negotiation power and channel space for other brands may be compressed
+- If lower-tier brands remain consistently around 4%, they may face insufficient resource investment and pressure to exit

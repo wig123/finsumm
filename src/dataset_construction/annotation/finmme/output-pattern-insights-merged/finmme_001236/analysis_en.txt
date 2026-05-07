@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: 100% Stacked Bar Chart (Monthly)
+- Title: Not displayed
+- X-axis: Time (Monthly), from Jul-21 to Nov-23, with tick marks approximately every two months.
+- Y-axis: Percentage scale 0%–100%, with increments of 10%.
+- Legend: NCM/NCA (Red), LFP (Gray), Others (Black border)
+- Each bar is composed of three segments stacked to 100%.
+
+[Data Relationships]
+- Initial period Jul-21: NCM/NCA ≈48%; Final period Nov-23: ≈35%; Difference ≈13 percentage points.
+- Peak value: ≈48% (Jul-21); Trough value: ≈30% (Mar-23); Peak-to-trough difference ≈18 percentage points.
+- Mid-2022: May-22 ≈45% vs Sep-22 ≈38%, Difference ≈7 percentage points.
+- Late 2022 and Early 2023: Nov-22 ≈35% vs Jan-23 ≈32%, Difference ≈3 percentage points.
+- H2 2023: Sep-23 ≈31% vs Nov-23 ≈35%, Difference ≈4 percentage points.
+- Others is approximately 1% (thin strip at the top of each monthly bar); Accordingly, LFP ≈100% - NCM/NCA - minor Others: Jul-21 ≈51%, Mar-23 ≈69%, Nov-23 ≈64%.
+
+[Pattern Characteristics]
+Overall, the red segment showed a stepped decline during the sample period followed by a slight rebound. The gray segment changed inversely, with both consistently forming the major proportion each month. During the middle phase (approximately mid-2022 to early 2023), the red segment was in a relatively low range, slightly higher at both ends, forming a "High–Low–Slight Rebound" structure. The black-bordered "Others" segment consistently forms an extremely thin layer at the top, showing almost no change over time.
+
+[Core Insights]
+Core Conclusion: The structure is highly dominated by two categories, and the proportion of NCM/NCA tends to contract.
+
+Business Implications:
+- The relative importance of NCM/NCA compared to LFP has decreased.
+- The overall structure's reliance on LFP is increasing.
+- There are signs of a certain short-term recovery in the NCM/NCA proportion.
+
+Risk Concerns:
+- If NCM/NCA remains below 30% long-term, it may weaken bargaining power and influence in this segment.
+- If the LFP proportion consistently exceeds 70%, it may lead to excessive structural concentration and reduced resilience to shocks.

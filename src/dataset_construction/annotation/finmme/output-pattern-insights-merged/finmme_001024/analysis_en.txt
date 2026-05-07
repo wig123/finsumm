@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Quarterly stacked bar chart (percentage).
+- Title: TSMC revenue split by technology.
+- X-axis: Quarterly sequence, labeled from "Q1 01" to "Q1 23", each bar represents one quarter.
+- Y-axis: Percentage scale 0%—100%, approximately 10% increments.
+- Legend: Lists 14 technology nodes and colors on the right: 0.50um+, 0.25um+, 0.15/0.18um, 0.11/0.13um, 90nm, 65nm, 40nm, 28nm, 20nm, 16/20nm, 10nm, 7nm, 5nm, 3nm.
+
+[Data Relationships]
+- The quarterly stacked total = 100% (Y-axis percentage).
+- Time range: Q1 01 to Q1 23.
+- Total number of technology categories: 14.
+- Older nodes (0.50um+, 0.25um+, 0.15/0.18um, 0.11/0.13um) are present in the early quarters on the left, but are barely visible in Q1 23.
+- Order of first appearance (observed from left to right): 28nm→20nm→16/20nm→10nm→7nm→5nm→3nm.
+- 10nm first appeared around Q1 15; 7nm appeared after approximately Q1 18; 5nm appeared after Q1 20; 3nm only appeared in Q1 23.
+
+[Pattern Characteristics]
+Overall, the chart shows a continuous replacement of technology nodes from old to new. Larger dimension nodes occupied the main proportion early on, subsequently being replaced batch by batch by smaller dimension nodes. Structurally, multiple technologies coexist, but the dominant segments show a clear "relay-style" transition along the timeline. New nodes initially account for a small proportion, then expand and compress the space occupied by older nodes over several quarters. Towards the right end, the latest generations of technology nodes collectively occupy more than half of the area, while the earliest generations are reduced to extremely thin strips or have disappeared entirely.
+
+[Core Insights]
+Core Conclusion: The revenue structure is highly concentrated towards advanced processes and continues to iterate and upgrade.
+
+Business Implications:
+- The reliance of revenue sources on a few high-end processes has significantly increased.
+- Mass production and customer structure rely more heavily on high-performance application demands.
+- The bargaining power and influence of mature processes in overall revenue have declined.
+
+Risk Focus:
+- If the revenue proportion (占比) of a single advanced node is ＞50%, fluctuations in technology or yield will significantly impact total revenue.
+- If the combined proportion (合计占比) of the 3 newest nodes is ＞70%, a decline in corresponding downstream end-user demand will amplify performance volatility.

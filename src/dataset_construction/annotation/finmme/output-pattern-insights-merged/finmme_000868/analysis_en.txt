@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Grouped Bar Chart
+- Title: EBITDA (INR mn)
+- X-axis: Fiscal Years labeled FY18, FY19, FY20, FY21, FY22, FY23
+- Y-axis: Scale range approximately 0—70, unit is INR mn
+- Legend: Asian Paints (Red), Berger Paints (Gray), Kansai Nerolac (Black Outline), Akzo Nobel (Light Orange), Indigo Paints (Black)
+- Numerical labels are present on top of each bar
+
+[Data Relationships]
+- FY18: Asian 32, Berger 8, Kansai 8, Akzo 3, Indigo 0.
+- FY23: Asian 63, Berger 15, Kansai 8, Akzo 5, Indigo 2.
+- FY23 maximum is Asian 63, minimum is Indigo 2, difference is 61.
+- FY18→FY23 Change: Asian +31, Berger +7, Kansai 0, Akzo +2, Indigo +2.
+- FY23 Comparison: Asian relative to Berger +48, relative to Kansai +55, relative to Akzo +58, relative to Indigo +61.
+
+[Pattern Characteristics]
+Overall, Asian's bars are significantly higher than those of other companies in all fiscal years and maintained a continuous upward trend during the period. Berger is in the second tier, with moderate values and increasing year-over-year; Kansai basically maintains a relatively stable range. Akzo and Indigo are at lower levels; the former moves up slowly, and the latter gradually rises from near zero. The overall structure exhibits a clear high-low stratification pattern.
+
+[Core Insights]
+Core Conclusion: EBITDA is highly concentrated in Asian, and the industry structure shows clear stratification.
+
+Business Implications:
+- Asian holds an absolute dominant position in terms of profitability scale
+- Berger possesses secondary competitiveness, but the gap with the market leader is significant
+- Kansai, Akzo, and Indigo contribute limitedly to overall profitability
+
+Risk Focus:
+- If Asian's EBITDA falls below 40, the overall industry profitability level will significantly decline
+- If Berger's EBITDA remains below 15, it will be difficult to narrow the gap with the market leader

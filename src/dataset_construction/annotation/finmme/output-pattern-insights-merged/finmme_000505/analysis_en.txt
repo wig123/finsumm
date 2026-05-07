@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Dual-axis line chart
+- Title: No explicit title displayed
+- X-axis: Time, range 2010–2024
+- Left Y-axis: 85–110 (NFIB, light blue), scale interval approximately 2.5
+- Right Y-axis: 40–65 (ISM, green), scale interval approximately 2.5
+- Legend: NFIB (lhs), ISM (rhs)
+- Annotations: Black vertical line near 2016 "Trump win"; Gray vertical band near 2020
+
+[Data Relationships]
+- 2010 values: NFIB approximately 90; ISM approximately 59
+- At the 2016 annotation: NFIB approximately 95; ISM approximately 52
+- NFIB peak approximately 108 (2018), trough approximately 88 (2010–2012), range magnitude approximately 20
+- ISM peak approximately 63–64 (2021), trough approximately 40 (2020), range magnitude approximately 23–24
+- End-of-2024 values: NFIB approximately 95; ISM approximately 49–50
+- 2017–2019 data points: NFIB mostly in the 102–108 range; ISM mostly in the 55–60 range
+
+[Pattern Characteristics]
+- The two curves oscillated narrowly around their respective central points between 2010 and 2016, with frequent local fluctuations, and a relatively gentle overall structure.
+- Following the 2016 annotation, the two curves rose sequentially, both remaining near the upper boundary of their respective ranges during 2017–2019, followed by a simultaneous sharp drop and rapid rebound near the 2020 gray vertical band.
+- After 2021, both curves retreated from relatively high levels, settling in the lower-middle part of their respective historical ranges by the end of 2024. The relative positioning of NFIB and ISM did not show a long-term significant cross-divergence, only brief disagreements in localized phases.
+
+[Core Insights]
+Core Conclusion: Both indicators experienced a boom followed by a retreat, and are currently at relatively weak levels.
+
+Business Implications:
+- The 2017–2019 phase reflects synchronously strong business and manufacturing sector prosperity.
+- The sharp decline in 2020 indicates high vulnerability to shocks.
+- The synchronous decline after 2021 suggests that the expansion of prosperity is unsustainable.
+
+Risk Focus:
+- If NFIB falls below 90, it may correspond to a significant deterioration in business expectations, leading to a contraction in investment and hiring plans.
+- If ISM consistently remains below 45, it may indicate an intensification of manufacturing activity contraction, resulting in reduced employment and orders.

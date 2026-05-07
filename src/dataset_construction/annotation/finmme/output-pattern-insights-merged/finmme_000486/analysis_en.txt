@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Line chart; title not displayed
+- X-axis: Months, Jan-22 to Dec-23
+- Y-axis: Percentage scale, range 0%–9%, 1% increments
+- Legend: 7 lines—GAC Aion, Geely, Li Auto, NIO, Leapmotor, Xpeng, Seres
+
+[Data Relationships]
+- Global maximum approximately 8.0% (Geely, Oct-23); second highest approximately 7.8% (GAC Aion, Apr–May 2023)
+- Global minimum approximately 0.3% (Seres, Jan-22)
+- Initial period (Jan-22): GAC Aion≈4.5%, Geely≈5.0%, Li Auto≈2.2%, NIO≈2.6%, Leapmotor≈2.2%, Xpeng≈3.5%, Seres≈0.3%
+- Final period (Dec-23): GAC Aion≈4.7%, Geely≈6.3%, Li Auto≈5.3%, NIO≈1.9%, Leapmotor≈2.0%, Xpeng≈2.1%, Seres≈3.1%
+- Key differences/changes: GAC Aion Jan-23→Apr-23 increased by approximately +5.2pct; Geely Oct-23 was approximately +2.7pct higher than GAC Aion Oct-23; Seres Nov-23→Dec-23 increased by approximately +0.7pct
+
+[Pattern Characteristics]
+- The curves of various brands generally show multiple divergent trajectories, with clear local peaks and troughs, operating overall within the range of approximately 0%–8%, without extreme discontinuities or missing points.
+- Geely and GAC Aion have long been in the higher value range, alternating in relative leading positions in different months; Li Auto and Seres showed value increases in the latter period, indicating significant structural changes compared to the earlier period.
+- NIO, Leapmotor, and Xpeng mostly fluctuated narrowly around the mid-to-low range, showing brief spikes only in individual months; Seres was at the lowest level in the early part of the sample, approaching the middle level by the end, exhibiting a characteristic uplift in the later period.
+
+[Core Insights]
+Core Conclusion: The competitive landscape among leading players is still evolving, with mid-tier brands showing noticeable catch-up in the later stages.
+
+Business Implications:
+- The advantages of leading brands are not stable, and there is room for adjustment in competitive rankings.
+- Li Auto and Seres improved performance in the later stages, indicating enhanced market penetration capability.
+- NIO, Xpeng, and Leapmotor performance is relatively neutral, with limited short-term contribution elasticity.
+
+Risk Concerns:
+- If Geely's value falls below 5%, a decrease in top-end concentration may weaken economies of scale synergy.
+- If NIO remains below 2% for an extended period, brand mindshare and return on channel investment may come under pressure.

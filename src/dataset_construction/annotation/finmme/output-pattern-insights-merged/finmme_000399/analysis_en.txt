@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Stacked Bar Chart
+- Title: Not displayed
+- Horizontal Axis: 5 categories—SEPARATION, FEED & BIOFUEL, PUMPS, CLEAN AIR TECHNOLOGIES, GREEN HYDROGEN
+- Vertical Axis: Percentage scale 0%–100%, marked every 10%
+- Legend: Not visible; bars are multi-color stacked internally
+- Numerical labels at the base of each bar: 8%, 14%, 4%, 5%, 5%
+
+[Data Relationships]
+- Values for each category: FEED & BIOFUEL 14%; SEPARATION 8%; PUMPS 4%; CLEAN AIR TECHNOLOGIES 5%; GREEN HYDROGEN 5%
+- Maximum 14%, minimum 4%, difference of 10 percentage points
+- Compared to SEPARATION: FEED & BIOFUEL is higher by 6 percentage points; PUMPS is lower by 4 percentage points; CLEAN AIR TECHNOLOGIES is lower by 3 percentage points; GREEN HYDROGEN is lower by 3 percentage points
+- Two categories tied at 5%: CLEAN AIR TECHNOLOGIES, GREEN HYDROGEN
+- Ranking: 14% > 8% > 5% = 5% > 4%
+
+[Pattern Characteristics]
+- There are significant differences in the bar heights across the five categories, with FEED & BIOFUEL being the highest, PUMPS the lowest, and the remaining three categories at intermediate levels.
+- Each bar is composed of multiple color segments internally. The height of the color blocks in the upper section is similar across most categories, while the height differences in the lower color blocks are more pronounced.
+- While CLEAN AIR TECHNOLOGIES and GREEN HYDROGEN have similar total heights, the arrangement structure of their internal color blocks is also relatively similar.
+
+[Core Insights]
+Core Conclusion: The current allocation shows a moderate concentration pattern focused on FEED & BIOFUEL.
+
+Business Implications:
+- Overall resources are more heavily weighted toward the FEED & BIOFUEL segment.
+- SEPARATION holds a secondary position of importance, still allowing room for adjustment.
+- The weighting of PUMPS and the two 5% segments is relatively marginalized.
+
+Risk Concerns:
+- If the proportion of FEED & BIOFUEL rises to ≥20%, it may lead to excessive structural concentration.
+- If the proportion of PUMPS or any segment falls to ≤2%, it may weaken its business presence and synergistic value.

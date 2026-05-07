@@ -1,0 +1,28 @@
+【图表构成】
+- 类型：矩阵表格
+- 标题：Opensignal Global Awards 2024 – Group I
+- 副标题：The Global Winners and Leaders
+- 列：Global Winner 2024、Global Leader 2024（徽章）
+- 行：7项指标—Games Experience、Voice App Experience、Download Speed Experience、Upload Speed Experience、Time on 4G/5G*、Consistent Quality、Video Experience
+- 轴：无坐标轴
+- 其他：每行配图标；“*”仅在Time on 4G/5G出现
+
+【数据关系】
+- 共7个指标。Global Winner：Rakuten Japan获2项（游戏、语音应用）；Telenor Norway获4项（下载、上传、稳定质量、视频）；Telia Norway获1项（上传）；Jio India获1项（4G/5G时长）。
+- Global Leader数量：Games 8家；Voice 4家；Download 4家；Upload 5家；Time on 4G/5G 4家；Consistent Quality 5家；Video 4家。
+- Global Leader出现次数：DNA Finland 5次；ice Norway 4次；Telia Finland 4次；Telia Norway 3次；Telia Sweden 3次；au Japan 3次；Telenor Norway 2次；NTT docomo Japan 2次；其余1次。
+
+【模式特征】  
+各指标在Global Winner列呈高度集中，少数运营商在多项指标上重复出现，而大部分只在单项中出现。Global Leader列在各指标下分布更分散，但在DNA Finland、ice Norway、Telia系运营商上出现明显聚集，形成多次重复。整体结构为“少数高频+多数低频”，且在上传、稳定质量、视频等行中多家运营商共同出现，没有明显空白行或断层。
+
+【核心洞察】  
+核心结论：少数运营商在多项网络体验指标上形成明显领先格局。  
+
+业务含义：  
+- 整体竞争呈头部集中，多家仅在局部具备优势  
+- 多项上榜者在品牌与溢价空间上更具议价能力  
+- 高频上榜的北欧与日本运营商体现跨指标的一致表现  
+
+风险关注：  
+- 若Global Winner集中于3家以内，其他运营商差距易被放大  
+- 若某运营商仅在1个指标列名，一旦该项表现下滑，将失去全部曝光

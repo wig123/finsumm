@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Percentage Stacked Bar Chart
+- Title: Not displayed
+- X-axis: Quarterly labels, sequentially 3Q21, 4Q21, 1Q22, 2Q22, 3Q22, 4Q22, 1Q23, 2Q23, 3Q23, 4Q23
+- Y-axis: Percentage scale 0%—100%, with 20% as the major tick mark
+- Legend and Colors: Serial products of DisplayPort (Red), High-speed interfacing chips (Gray), Source Driver (Light Beige), Serial products of TrueTouch (Light Pink)
+- Units and Total: Each bar represents a proportion, single bar totals 100%
+
+[Data Relationships]
+- The sum of the proportions of the four categories each quarter = 100%.
+- 4Q22: DisplayPort approximately 52% (highest for this category); High-speed approximately 33%; Source Driver approximately 14–15% (lowest for this category); TrueTouch approximately 3–4%.
+- 4Q23: High-speed approximately 44% (highest for this category); DisplayPort approximately 35%; Source Driver approximately 18–19%; TrueTouch approximately 3%.
+- 4Q21: Source Driver approximately 30% (highest for this category); DisplayPort approximately 39%; High-speed approximately 26%; TrueTouch approximately 4–5%.
+- 1Q23: DisplayPort and High-speed are both approximately 40%; Source Driver approximately 18–19%; TrueTouch approximately 3%.
+
+[Pattern Characteristics]
+Across all quarters, the proportions of DisplayPort and High-speed consistently constitute the major components, while TrueTouch consistently remains in the smallest proportion range. DisplayPort was once in the dominant range during the early-to-middle part of the sample period, followed by High-speed having a larger proportion in the later quarters. The two categories reached a phase of similar proportions around 1Q23. Source Driver generally remains in the middle range, first contracting and then slightly rebounding. The structure did not exhibit sudden shifts.
+
+[Core Insights]
+Core Conclusion: The product structure is gradually shifting from a single concentration to a dual core, and subsequently leaning towards High-speed.
+
+Business Implications:
+- High-speed's status has risen, and structural dependency has increased.
+- DisplayPort's relative weight has declined; pricing power and investment require re-evaluation.
+- The proportion of mid-range Source Driver has rebounded, enhancing portfolio flexibility.
+
+Risk Concerns:
+- If the High-speed proportion consistently exceeds 45%, the portfolio is overly concentrated, reducing resilience to volatility.
+- If the DisplayPort proportion drops below 30% again, existing channels and capacity utilization may be insufficient.

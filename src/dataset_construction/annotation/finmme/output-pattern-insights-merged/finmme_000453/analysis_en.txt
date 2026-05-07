@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Combination chart (Red bar chart represents "Revenue (in USDmn)", black line represents "y-y growth"). Legend at the top, no separate title observed.
+- Left Y-axis: 0–25,000 (USDmn), scale includes 0, 5,000, 10,000, 15,000, 25,000; corresponds to the bars.
+- Right Y-axis: -2%–12%, corresponds to the line.
+- X-axis: Calendar Year categories, ticks show CY18, CY20, CY22, CY24F, CY26F; percentage values are annotated at each point on the line.
+
+[Data Relationships]
+- The starting point of y-y growth (CY18) is 8.9%, and the end point (CY26F) is 8.8%, a difference of -0.1 percentage points.
+- Maximum value is 11.1% (located between CY20 and CY22), minimum value is -0.8% (near CY20), range is 11.9 percentage points.
+- Other annotated values: 4.1% (between CY18 and CY20), 5.0% (near CY22), -0.4% (between CY22 and CY24F), 0.6% (CY24F), 8.5% (CY25F).
+- CY25F and CY26F are 8.5% and 8.8% respectively, a difference of 0.3 percentage points.
+
+[Pattern Characteristics]
+- The bar chart generally shows a progression from a moderate level to a higher level over the timeline, with slight stagnation in the middle years but no significant downward truncation.
+- The line exhibits a sawtooth trajectory during the sample period, characterized by a deep dip followed by a quick rebound. The amplitude is larger in the initial segment, gradually narrowing around the medium-to-high level in the later segment.
+- The lowest point of the line appears adjacent to the subsequent highest point, forming a distinct "V" shape structure, with no negative values appearing thereafter.
+
+[Core Insights]
+Core Conclusion: Revenue volume steadily increases, and the growth rate gradually returns to the medium-to-high speed range after experiencing severe volatility.
+
+Business Implications:
+- Expansion of revenue scale, with improved alignment with growth efficiency.
+- Growth rate shifts from unstable to relatively predictable, which is favorable for planning medium-term objectives.
+- Early volatility indicates the business is relatively sensitive to environmental changes.
+
+Risk Concerns:
+- If the growth rate falls below 0% again, the incremental revenue may be insufficient to cover fixed costs.
+- If the growth rate consistently remains below 4%, medium-to-long-term revenue scale targets may be difficult to achieve.

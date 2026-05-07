@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Grouped Bar Chart (including positive and negative percentages).
+- Title: % change in cons. Adj profit ests during ongoing earnings season (post 31-Dec-2023).
+- X-axis: Categories are ASXJ, Utils., Healthcare, Comm Svcs., IT, Industrials, Energy, Financials, Cons Staples, Cons Disc., Real Estate, Materials.
+- Y-axis: Percentage scale, ranging approximately from -17.0% to 9.0%.
+- Legend: Gray represents “2023E,” Red represents “2024E.”
+
+[Data Relationships]
+- ASXJ: 2023E -2.4%, 2024E -2.0%, Difference +0.4pp.
+- 2024E (Red): Utilities 8.1%; Healthcare 0.3%; Communications 0.2%; IT 0.1%; Industrials -0.5%; Energy -1.3%; Financials -1.7%; Consumer Staples -3.5%; Consumer Discretionary -4.2%; Real Estate -7.1%; Materials -15.5%. Highest 8.1%, Lowest -15.5%.
+- 2023E (Gray): Utilities 2.3%; Healthcare 0.0%; Communications -0.7%; IT 3.8%; Industrials -12.4%; Energy 1.0%; Financials -1.8%; Consumer Staples 2.8%; Consumer Discretionary -1.7%; Real Estate -14.8%. Highest 3.8%, Lowest -14.8%.
+- 2024E-2023E Difference (pp): Utilities +5.8; Healthcare +0.3; Communications +0.9; IT -3.7; Industrials +11.9; Energy -2.3; Financials +0.1; Consumer Staples -6.3; Consumer Discretionary -2.5; Real Estate +7.7; ASXJ +0.4.
+- Range (Span): 2024E span 23.6pp; 2023E span 18.6pp.
+
+[Pattern Characteristics]
+- The bar distribution across sectors spans both positive and negative sides, and the dispersion of 2024E estimates among sectors is significantly greater than that of 2023E.
+- For most sectors, the bars for both years share the same direction but show significant differences in magnitude; only a few sectors shifted from negative to positive or positive to negative.
+- Industrials, Utilities, and Real Estate show relatively prominent changes in bar magnitude between the two years, while Materials remains in the lowest position in both years.
+
+[Core Insights]
+Core Conclusion: Earnings expectations are increasingly polarized across sectors, indicating clear structural adjustments.
+
+Business Implications:
+- The overall earnings outlook relies more heavily on support from a few sectors with upward revisions.
+- Sector allocation requires attention to the differences in expected elasticity (sensitivity) among industries.
+- Concentrated exposure to a single sector will amplify returns and volatility.
+
+Risk Concerns:
+- If Materials remains below -10%, it could significantly drag down total portfolio earnings.
+- If sectors with high expectations fall below 0%, it could trigger a rapid downward revision of overall earnings expectations.

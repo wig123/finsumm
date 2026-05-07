@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Dual Line Chart
+- Y-axis: Index (base = 100), range approximately 85–130, includes red dashed baseline of 100.
+- X-axis: Time scale Jan-14 to Jan-24 (monthly).
+- Legend: Dark line "Tariff-impacted," Light line "Overall goods ex-food."
+- Reference Marker: Jan-18 vertical dashed line.
+
+[Data Relationships]
+- Jan-14: Tariff-impacted ≈ 107; Overall goods ex-food ≈ 109.
+- Jan-18: Tariff-impacted ≈ 100; Overall goods ex-food ≈ 98; Difference ≈ 2.
+- Tariff-impacted minimum ≈ 98 (2017–2018), maximum ≈ 124 (2023); Range ≈ 26.
+- Overall goods ex-food minimum ≈ 92 (2021), maximum ≈ 116 (2023); Range ≈ 24.
+- Jan-21 to Jan-23: Tariff-impacted ≈ 108 → ≈ 123, increase ≈ 15; Overall goods ex-food ≈ 92 → ≈ 114, increase ≈ 22.
+- Jan-24: Tariff-impacted ≈ 122; Overall goods ex-food ≈ 113; Difference ≈ 9.
+
+[Pattern Characteristics]
+The two indices generally tracked closely from Jan-14 to around Jan-18, fluctuating slightly above and below the baseline. After Jan-18, the light line visibly weakened first and broke below its previous range, while the dark line remained relatively stable before gradually rising. Starting from Jan-21, both lines moved upward synchronously but with different slopes. The dark line was significantly higher than the light line around 2023, and the gap between the two in Jan-24 is at a relatively high level, though slightly below the peak.
+
+[Core Insights]
+
+Core Conclusion: Prices of tariff-impacted goods exhibit stronger relative upward momentum and stickiness.
+
+Business Implications:
+- Price pressure is more pronounced for tariff-impacted goods relative to non-tariff goods.
+- Tariff-impacted goods contribute more significantly to overall goods inflation.
+- During periods of price decline, tariff-impacted goods show weaker adjustment elasticity.
+
+Risk Focus:
+- When the Tariff-impacted index > 120 and the gap with the other index is ≥ 8, this may lead to concentrated structural price pressure.
+- If the Overall goods ex-food index again approaches or falls below 95, while Tariff-impacted remains > 115, this could intensify the divergence in the price system, leading to a crowding-out effect on demand for related categories.

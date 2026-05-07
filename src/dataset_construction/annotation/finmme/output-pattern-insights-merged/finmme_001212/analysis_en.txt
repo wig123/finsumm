@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Single-series line chart (thick red line).
+- Legend/Title: Op. Cost/ Operating Income.
+- X-axis: Quarterly timeline, from 1Q15 to 3Q23, labeled with 1Q and 3Q sequences.
+- Y-axis: Numerical scale 20—45 (intervals of approximately 5); units not labeled.
+- Others: No secondary axis, no obvious data labels.
+
+[Data Relationships]
+- Initial period (1Q15) approximately 31; final period (3Q23) approximately 34, the difference between the two is approximately 3.
+- The highest point across the entire range is 1Q20, approximately 41; the lowest point is 3Q22, approximately 29; the range (max-min) is approximately 12.
+- 1Q20 approximately 41 and 3Q20 approximately 31, the difference is approximately 10.
+- 1Q18 approximately 29 and 3Q18 approximately 33, the difference is approximately 4.
+- 1Q23 approximately 33 and 3Q23 approximately 34, the difference is approximately 1.
+
+[Pattern Characteristics]
+Overall, the series fluctuates within the range of 30—35, with initial and final period levels being similar, interspersed with multiple short-term volatility events. A single sharp peak occurred in 1Q20, followed by a rapid decline, forming a phase low point around 3Q22. The series shows no obvious cyclicality, and local high and low points are relatively scattered.
+
+[Core Insights]
+Core Conclusion: The cost proportion has long remained in the medium-to-high range, showing no structural improvement.
+
+Business Implications:
+- Cost efficiency has not significantly optimized, and resource pressure persists.
+- Profit margin is highly dependent on expense control.
+- Periodic abnormal fluctuations may disrupt earnings stability.
+
+Risk Focus:
+- If the indicator consistently remains above 40, it may significantly compress operating profit.
+- If it drops below 30 again and is difficult to recover, it may reflect pressure on the revenue side and a weakening of economies of scale.

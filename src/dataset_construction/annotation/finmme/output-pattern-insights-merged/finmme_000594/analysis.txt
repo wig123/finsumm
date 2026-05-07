@@ -1,0 +1,30 @@
+【图表构成】
+- 类型：信息图（分类面板）
+- 标题：eClerx Financial Markets
+- 副标题：Transitioning, managing & transforming complex processes
+- 无坐标轴、无刻度、无图例
+- 含7个模块卡片：Trade Support、Client Lifecycle、Reference Data、Asset Servicing、Settlements & Clearing、Analytics、Remediation Engagement/Project Work
+
+【数据关系】
+- 总模块数：7
+- 布局：上排3个（Trade Support、Client Lifecycle、Reference Data），中排3个（Asset Servicing、Settlements & Clearing、Analytics），下排1个（Remediation Engagement/Project Work）
+- 所有模块为并列分类，未展示任何数值或时间尺度
+- 每模块仅提供文字说明，未给出可计算的量化指标
+
+【模式特征】
+- 图表将7个功能模块以同等视觉权重的矩形卡片并列呈现，上下分三排排列，中间排与上排结构一致，下排仅保留一个独立模块。  
+- 每个模块采用统一的版式：左侧为图标和模块名称，右侧为简要文字说明，整体为离散分类结构，不体现任何顺序、强弱或量化差异。  
+- 标题与副标题集中在顶部，作为对下方所有模块的总括性说明，各模块之间无连线、无层级箭头，也未标示任何时间或数值变化。
+
+【核心洞察】
+
+核心结论：图表展示的是一组等权重的业务能力构成，而非绩效结果。
+
+业务含义：
+- 当前信息更适合用于说明服务范围而非比较表现。
+- 无法直接评估各模块对收入、成本或效率的贡献。
+- 若需决策支持，还需补充规模、质量、收益等量化数据。
+
+风险关注：
+- 在缺乏任何数值前提下，以7个模块数量或名称做资源配置判断，可能导致投入与实际价值错配。
+- 若将并列布局理解为重要性相同，在设定KPI或优先级时可能忽视对关键环节的差异化管理。

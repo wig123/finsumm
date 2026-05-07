@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Dual line chart (two time series)
+- Legend: US IP % y/y (Light Cyan), MX IP % y/y (Dark Green)
+- X-axis: Year, range 2003–2023
+- Y-axis: Annual Year-over-Year percentage, range -20% to 10%, including the 0% baseline
+- Title: No main title observed
+
+[Data Relationships]
+- Initial period (2003): Both are close to 0%.
+- Trough near 2009: US ≈ -12%, MX ≈ -15%, difference ≈ 3 percentage points.
+- Peak near 2010: US ≈ +8%, MX ≈ +6%, difference ≈ 2 percentage points.
+- 2020 Trough: US ≈ -9%, MX ≈ -20% (or lower), difference ≥ 11 percentage points.
+- 2021 Peak: US reached ≈ +10%, MX ≈ +6%, difference ≈ 4 percentage points.
+- Final period (2023): US ≈ +2% to +3%, MX ≈ +3% to +4%.
+
+[Pattern Characteristics]
+The two time series generally exhibit consistent direction and similar volatility rhythm, frequently crossing above and below the 0% line, except for a few individual years. Significant synchronous deviation ranges appeared around 2008–2010 and 2020, but the extreme deviation magnitude of the dark green line in 2020 was noticeably larger. During the 2010–2019 phase, the two lines diverged briefly multiple times before reconverging, and they approached each other again at the end of 2023.
+
+[Core Insights]
+Core Conclusion: The industrial growth rates (YoY) of the two countries exhibit high correlation, but the disparity significantly widened in 2020.
+
+Business Implications:
+- The industrial cycles of the two countries are highly linked, easily leading to synchronized volatility.
+- Mexican industry showed weaker hedging or diversification capabilities around 2020.
+- Recent values are approaching each other again, indicating a temporary convergence pattern.
+
+Risk Focus:
+- When the difference between the two is ≥ 10 percentage points, cross-country capacity and supply chain mismatch pressure significantly increases.
+- When either country falls into the ≤ -10% range, downstream orders and cash flow come under pressure, and the probability of default rises.

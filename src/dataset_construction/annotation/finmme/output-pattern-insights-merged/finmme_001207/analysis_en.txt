@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Line chart
+- Legend: The red line represents "BEst P/E Ratio"; the gray horizontal reference lines include "Average: 27x," "+1 SD: 34x," and "-1 SD: 20x."
+- Title: No explicit title observed
+- X-axis: Time, ranging from Feb-19 to Feb-24, labeled annually in February
+- Y-axis: Numerical range 10–50 (Unit: x), major tick marks every 10
+
+[Data Relationships]
+- Initial period (Feb-19) ≈ 22x; Final period (Feb-24) ≈ 35x; Change ≈ +13x
+- Peak ≈ 49x (around mid-to-late 2020); Trough ≈ 13x (around early 2023); Range ≈ 36x
+- Reference Lines: Mean 27x; +1SD 34x; -1SD 20x
+- The final period is higher than the mean by ≈ 8x; higher than +1SD by ≈ 1x
+- The peak is higher than the mean by ≈ 22x, higher than +1SD by ≈ 15x; The trough is lower than the mean by ≈ 14x, lower than -1SD by ≈ 7x
+
+[Pattern Characteristics]
+The overall trend shows multiple rounds of significant volatility, repeatedly crossing above and below the mean, and frequently touching or breaking the ±1SD range. A single prominent high point appeared in mid-to-late 2020, and a single prominent low point appeared in early 2023. In the latter half, after experiencing an extremely low position, it rapidly ascended, finally settling in the upper segment between the mean and +1SD, without re-establishing previous extreme values.
+
+[Core Insights]
+Core Conclusion: Valuation repeatedly stretches around the mean, currently residing in a relatively high range.
+
+Business Implications:
+- The overall valuation level has long fluctuated around a reasonable central equilibrium.
+- Multiple deviations from the central equilibrium reflect the high sensitivity of valuation to sentiment and expectations.
+- The current position is sensitive to both further upside potential and downside correction space.
+
+Risk Focus:
+- If it approaches or breaks 49x again, it may trigger significant correction pressure.
+- If it falls below the low near 13x, it may correspond to an extreme reversal of sentiment and a valuation sell-off.

@@ -1,0 +1,37 @@
+[Chart Components]
+- Type: Line Chart
+- Title: Not provided
+- Axes: Y-axis is "Forward P/E" (Forward Price-to-Earnings Ratio), ranging from 10 to 80; X-axis is the timeline, spanning from March 2020 (Mar-20) to December 2023 (Dec-23)
+- Legend:
+  - Red solid line represents "Forward P/E"
+  - Black dashed line represents "+1SD=46.2"
+  - Gray dashed line represents "Mean=36.0"
+  - Light orange dashed line represents "-1SD=25.7"
+
+[Data Relationships]
+- Initial value (March 2020): approximately 20
+- Peak value (Mid-2021): exceeding 70
+- Final value (December 2023): between approximately 20 and 30
+- Magnitude of change from initial to peak: +50 or more (70−20)
+- Magnitude of change from peak to final: −40 or more (70−30)
+- Time span: March 2020 to December 2023, approximately 3 years and 9 months in total
+- Key Trends:
+  - From March 2020 to September 2021, the Forward P/E showed a significant upward trend, increasing from approximately 20 to over 70.
+  - A continuous decline began in late 2021, stabilizing between approximately 20 and 30 by the end of 2023.
+
+[Pattern Characteristics]
+- The red line first moved upward from near the -1SD level, sequentially crossing the Mean and +1SD, resulting in a single, steep, extreme peak in mid-2021.
+- Subsequently, it remained below the Mean for an extended period, gradually approaching the -1SD level, with the fluctuation range noticeably narrowing.
+- Multiple crossings occurred relative to the Mean and ±1SD; the peak exhibited a prominent abnormal jump and subsequent sharp decline.
+
+[Core Insights]
+Core Conclusion: Valuation has shifted from a high premium to near the low percentile.
+
+Business Implications:
+- The premium phase has concluded
+- Being below the mean, the allocation cost is more controllable
+- Potential returns are constrained by the mean level
+
+Risk Focus:
+- Breaking above 46.2 (+1SD) may trigger a valuation correction and short-term losses.
+- Falling below 25.7 (-1SD) may lead to continued de-rating (devaluation), amplifying losses.

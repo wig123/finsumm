@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Dual-axis line chart (two time series).
+- Title: Not displayed.
+- Legend: US CPI y/y% (cyan, left axis); PMI Composite Output Prices (orange, right axis, leading by 5 months).
+- X-axis: Time, ranging from Feb-14 to Feb-24, marking key nodes (e.g., Feb, Jun, Oct).
+- Left Y-axis: US CPI y/y%, scale approximately -1.0 to 11.0.
+- Right Y-axis: PMI Composite Output Prices, scale approximately 50.0 to 80.0.
+
+[Data Relationships]
+- US CPI peak approximately 9.0% (mid-2022), trough approximately 0% (mid-2020); the difference between peak and trough is about 9 percentage points.
+- US CPI in February 2024 is approximately 3.1%, about 5.9 percentage points lower than the peak.
+- PMI Output Prices peak approximately 76 (mid-2022), trough approximately 47 (mid-2020); the difference between peak and trough is about 29 points.
+- PMI in February 2024 is approximately 52, about 24 points lower than the peak.
+- In mid-2022, both indicators simultaneously reached their respective highs: CPI approximately 9%, PMI approximately 76.
+
+[Pattern Characteristics]
+- The two time series generally move in the same direction most of the time. After 2020, both experienced a rapid surge, reaching a common high around mid-2022, followed by a synchronized decline.
+- The PMI curve is generally more volatile (saw-toothed) with greater short-term fluctuations, and showed a distinct brief dip in 2020.
+- Both curves are located in the middle-to-low range of their respective intervals at the end of the sample period, without new extreme values emerging.
+
+[Core Insights]
+Core Conclusion: PMI exhibits a certain leading indicator characteristic for CPI, and currently both are in a cooling phase.
+
+Business Implications:
+- Price pressure has significantly eased compared to previous highs.
+- Medium-to-short-term inflation expectations are constrained by corporate pricing behavior.
+- Changes in PMI serve as an important reference for subsequent inflation assessment.
+
+Risk Focus:
+- If PMI approaches 75 or above again, inflation may re-approach previous highs in the following months.
+- If PMI falls below 50 and persists, most companies may weaken their pricing power and suppress profits.

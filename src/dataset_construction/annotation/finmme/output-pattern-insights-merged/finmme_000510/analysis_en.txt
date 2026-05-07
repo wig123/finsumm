@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Stacked Bar Chart
+- Title: Not displayed
+- X-axis: Time, Jan-04 to Jan-24 (labeled annually, each period is a thin bar)
+- Y-axis: Share of total (%), range 0%—70%, grid lines approximately every 10%
+- Legend: China (dark color), Other Asia (light color)
+
+[Data Relationships]
+- The aggregate of the two series (China + Other Asia) generally falls within the range of approximately 50%—65%.
+- Jan-04: China ≈ 28%, Other Asia ≈ 22%, Aggregate ≈ 50%.
+- Jan-09: China ≈ 36%, Other Asia ≈ 23%, Aggregate ≈ 59%.
+- Jan-13: China ≈ 37%, Other Asia ≈ 24%, Aggregate ≈ 61%.
+- Jan-18: China ≈ 36%, Other Asia ≈ 26%, Aggregate ≈ 62%.
+- Jan-21: China ≈ 33%, Other Asia ≈ 30%, Aggregate ≈ 63%; Other Asia is higher by ≈ 3 percentage points.
+- Jan-24: China ≈ 31%, Other Asia ≈ 33%, Aggregate ≈ 64%; Other Asia is higher by ≈ 2 percentage points.
+
+[Pattern Characteristics]
+- The overall stacked height fluctuates narrowly in the medium-to-high range, slightly lower in the early period, followed by minor fluctuations within a relatively stable range.
+- China was the larger component of the two in the early period, nearly level in the middle period, and gradually surpassed by Other Asia in the later period, with a small difference.
+- Both regions maintain continuous distribution across all years, with a clear shift in the primary/secondary relationship of their component proportions only appearing after Jan-21.
+
+[Core Insights]
+Core Conclusion: The internal regional structure shifts from being China-centric to relatively balanced and slightly skewed towards Other Asia.
+
+Business Implications:
+- The aggregate proportion of the overall region remains stable at a high level, indicating significant concentration.
+- China is no longer the sole dominant factor; internal regional dependency is more diversified.
+- The proportion of Other Asia increases, leading to changes in the bargaining power/weighting between regions.
+
+Risk Focus:
+- If China's share falls below 30%, it could weaken the bargaining power and control of the current allocation.
+- If Other Asia consistently exceeds 35%, it may lead to over-concentration in that sub-region.

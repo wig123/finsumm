@@ -1,0 +1,35 @@
+[Chart Components]
+- Type: Combined Bar and Line Chart
+- Title: No prominent title
+- Axes: Left Y-axis represents quantity (unit not specified, assumed to be millions), Right Y-axis represents percentage; X-axis represents Fiscal Year (FY17 to FY22)
+- Legend: # male (red bar), # net additions (gray bar), % penetration (gray line), % total users (brown triangle)
+
+[Data Relationships]
+- Key Metrics and Changes:
+  - From FY17 to FY19, # male and # net additions remained at low levels, approximately between 0.1 and 0.3.
+  - Starting from FY20, # male and # net additions grew significantly, reaching 3.0 and 2.8, respectively, by FY22.
+  - % penetration began to increase in FY20, climbing from 1.0% to 16.6% by FY22.
+
+- Extremum Comparison:
+  - % total users reached its peak at 28% in FY22.
+  - In FY22, # male reached its highest value of 7.3.
+
+- Significant Trends:
+  - Since FY20, # male and # net additions have increased significantly.
+  - % penetration showed a significant growth trend in FY21 and FY22, increasing from 10.3% to 16.6%.
+  - % total users maintained a stable growth trend, with particularly notable growth between FY21 and FY22.
+
+[Pattern Characteristics]
+The series remained at a low level with gradual changes from FY17–FY19. A common inflection point appeared in FY20, after which the bars significantly enlarged; subsequently, the gray bar nearly stagnated while the red bar continued to widen the gap. The penetration curve shows accelerating upward movement, and % total users exhibits a step-like increase, primarily forming steps in FY20 and FY22. Multiple series move in the same direction but with different slopes; FY20 is the critical turning point.
+
+[Core Insights]
+Core Conclusion: Momentum is driven by the scale and penetration of the male segment, while new additions momentum is slowing down.
+
+Business Implications:
+- Conversion efficiency strengthens, coverage expands
+- Expansion relies more heavily on the male demographic
+- User proportion improves but the pace is unstable
+
+Risk Focus:
+- When % penetration ≤ 10%, conversion weakens, hindering subsequent volume growth.
+- When # net additions ≤ 2.8, scale expansion is constrained, making targets difficult to achieve.

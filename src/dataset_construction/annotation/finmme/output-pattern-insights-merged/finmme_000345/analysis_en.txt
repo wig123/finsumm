@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Stacked bar chart categorized by mode of transport
+- Annotation/Title Element: Includes the text annotation "The reduction in emissions targeted for the Transport stands at -16% vs. 2019"
+- X-axis: Year/Scenario—1990, 1995, 2000, 2005, 2010, 2015, 2019, 2030E
+- Y-axis: Carbon emissions (million tonnes), Range 0–1,000, Major scale interval 200
+- Legend: Cars, Heavy vehicles, Aviation, Vans, Other road transport, Inland navigation, Rail
+
+[Data Relationships]
+- 2019 to 2030E target change: -16% (Explicitly shown in the chart)
+- Total volume in 1990 is approximately 700 million tonnes (located between the 600–800 scale marks)
+- Total volume in 2005 is close to 900 million tonnes (located between 800–1,000, representing the peak)
+- Total volume in 2010 is also close to 900 million tonnes (located between 800–1,000)
+- Total volume in 2019 is between 800–900 million tonnes
+- Total volume in 2030E is between 600–800 million tonnes (corresponding to the -16% target relative to 2019)
+
+[Pattern Characteristics]
+- The total volume across all years gradually increased from 1990 to 2005, forming a high plateau around 2005–2010, followed by a slight decline, with 2030E significantly lower than recent years.
+- Among the sub-categories, Cars account for the largest proportion in all years; Heavy vehicles, Vans, and Aviation are of medium size; Rail and Inland navigation account for a smaller proportion. The overall structure is dominated by a few major items.
+- In the 2030E bar, the height of each sub-category has contracted compared to 2019. The overall structure largely maintains the original proportions, with a noticeable narrowing only at the total volume level.
+
+[Core Insights]
+Core Conclusion: The transport sector is dominated by road travel, and emission reduction targets are focused on compressing existing high-proportion segments.
+
+Business Implications:
+- The current structure reflects a high dependency on road scenarios.
+- The emission reduction pathway will primarily impact Cars and Heavy vehicles.
+- Whether the 2030E target is achieved will directly determine the overall pace of emission reduction.
+
+Risk Concerns:
+- If 2030E fails to achieve the 16% reduction compared to 2019, it will undermine the credibility of the established emission reduction commitment.
+- If the proportion of Cars remains high over the long term, even if the total volume approaches 600–800 million tonnes, it may constrain the optimization space for other modes.

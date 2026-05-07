@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Dual Line Chart
+- Title: Not displayed
+- Y-axis: Labeled "USD/t", range 0–3,000, scale interval approximately 500
+- X-axis: Time scale from Jan-21 to Jan-24, marking Jan/Jul semi-annual nodes
+- Legend: Red is "Natural rubber", Gray is "Synthetic rubber"
+
+[Data Relationships]
+- Jan-21: Natural rubber ≈ 1,400 USD/t; Synthetic rubber ≈ 2,400 USD/t; Difference ≈ 1,000
+- Jan-24: Natural rubber ≈ 1,150; Synthetic rubber ≈ 750; Difference ≈ 400
+- Natural rubber price range approximately 1,000–1,650, fluctuation magnitude ≈ 650
+- Synthetic rubber price range approximately 650–2,400, fluctuation magnitude ≈ 1,750
+- Natural rubber low point: Near Jan-23 ≈ 1,000; High point: Mid-2022 ≈ 1,600
+- Synthetic rubber low point: Near Jul-23 ≈ 700; High point: Jan-21 ≈ 2,400
+- The two lines converged around Jan-22, convergence price ≈ 1,300
+
+[Pattern Characteristics]
+- Synthetic rubber prices started in a significantly higher range, subsequently showed a step-wise decline, and continued downward after converging with natural rubber prices around Jan-22, exhibiting substantial volatility.
+- Natural rubber prices generally fluctuated within a median range, showing frequent short-term swings, oscillating around a relatively stable level.
+- The two price lines crossed around Jan-22. Subsequently, synthetic rubber remained below natural rubber for an extended period. The overall price spread between the two narrowed, but experienced multiple expansions and contractions intermittently.
+
+[Core Insights]
+Core Conclusion: Natural rubber prices maintain relative stability, while synthetic rubber prices experienced a greater magnitude of repricing.
+
+Business Implications:
+- Synthetic rubber is more sensitive to market changes and exhibits higher price elasticity.
+- Natural rubber provides a more predictable pricing basis for cost budgeting.
+- The narrowing of the price spread reduces the allocation space based on the spread.
+
+Risk Focus:
+- If synthetic rubber falls below 700 USD/t, inventory impairment losses may be amplified.
+- Should the price spread between the two widen again to above 1,000 USD/t, the procurement structure may face significant imbalance.

@@ -1,0 +1,33 @@
+【图表构成】
+- 图表类型：公司名单式表格，配合单元格内水平条形评分。
+- 标题：未见整体标题。
+- 列字段：Company、Ticker、Sector、E、S、G、Overall score。
+- 坐标轴：无坐标轴；各评分以0–5分的数值直接标注。
+- 图例：未见图例；表头为红色，评分条为绿色。
+
+【数据关系】
+- Overall score范围2.5–4.5；最高4.5（D&O Green Tech），最低2.5（JHM Consolidation）；差值2.0。
+- E范围2.0–4.8；最高4.8（Bursa Malaysia），最低2.0（Genting）。
+- S范围2.5–4.8；最高4.8（Bursa Malaysia），最低2.5（JHM Consolidation）。
+- G范围2.0–4.5；最高4.5（Bursa Malaysia、QL Resources），最低2.0（Genting）。
+- QL Resources：E=4.0、S=4.0、G=4.5、Overall=4.2。
+- Kuala Lumpur Kepong：E=4.0、S=3.0、G=3.0、Overall=3.2；与QL Resources总体差1.0。
+- Petronas Chemicals与Tenaga Nasional：E=3.0、S=3.5、G=4.2、Overall=3.6（一致）。
+- JHM Consolidation：E/S/G均2.5、Overall=2.5；与D&O Green Tech总体差2.0。
+
+【模式特征】
+- 各公司在E、S、G三列的条形长度多处于中高区间，Overall score在表格中呈现为略向右偏的分布，仅少数公司显著靠左。  
+- 不同公司在E、S、G三项中的条形长度组合差异较大，有的三项相对均衡，有的在单一或两项上明显长短不一。  
+- 表中存在几家公司在所有维度上条形均较短，也有个别公司在所有维度上条形均相对突出，与大部分样本形成明显对比。
+
+【核心洞察】
+核心结论：样本公司整体ESG表现偏中上，但分化明显。  
+
+业务含义：  
+- 大部分公司已形成一定ESG基础，但领先者不多。  
+- 单维度与综合得分差异，反映治理和环境管理的重要筛选作用。  
+- 尾部公司拉低组合同质性，提高了筛选与分层管理需求。  
+
+风险关注：  
+- Overall score低于3.0的公司，如2.5水平，可能拖累组合ESG评级。  
+- 单项E或G低于2.5时，可能在事件冲击下放大声誉与合规后果。

@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Combination of line and step lines, overlaid with red circular markers
+- Title: Not displayed
+- X-axis: Time, scale from "09-20" to "09-23," marked by quarterly nodes (12-20, 03-21, …, 06-23, 09-23)
+- Y-axis: Price (EUR), scale marked at EUR60.00, EUR65.00, EUR70.00, EUR75.00, EUR80.00, EUR85.00
+- Legend: Cyan line "Closing price," Blue step line "Target price"
+
+[Data Relationships]
+- Closing price on 09-20 ≈ between EUR60 and EUR65, close to EUR60; Target price for the same period ≈ EUR60
+- Closing price on 09-23 ≈ EUR83; End-of-period target price ≈ EUR85; Difference between the two ≈ EUR2
+- Full-period closing price range ≈ EUR60–EUR83; Difference between start and end of period ≈ EUR23
+- Target price range ≈ EUR60–EUR85; Difference between start and end of period ≈ EUR25
+- Closing price level near 12-21 to 03-22 ≈ EUR70–EUR72; Target price step for this segment ≈ EUR74
+- Values of the red markers are distributed in the range ≈ EUR60–EUR85, similar to the level of the step line
+
+[Pattern Characteristics]
+- The closing price is a continuous curve, generally showing segmented increases, with a brief pullback and sideways consolidation in the middle segment.
+- The target price has a segmented horizontal structure, moving upward intermittently, with uneven platform lengths.
+- The red markers are close in height to the step line, mostly located above the closing price line, and the distance between the two lines narrows toward the end of the period.
+
+[Core Insights]
+Core Conclusion: The target price is consistently higher than the closing price, converging more closely toward the end of the period.
+
+Business Implications:
+- Valuation expectations are higher than transaction levels
+- Affects the pace of buying and position control
+- Target adjustments show a phased rhythm
+
+Risk Concerns:
+- Closing price drops below EUR65, exacerbating the disconnect between expectation and transaction price
+- Closing price is below EUR80 and struggles to approach it, requiring a larger displacement to reach the target

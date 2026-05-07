@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Vertical Bar Chart (or Column Chart)
+- Annotation/Title: Left annotation "ERA II (2011–2015)" marked by a dashed box indicating the segment.
+- Y-axis: Over-/ (under) performance (%), scale approximately from +2% to −16%.
+- X-axis: Year categories, 2011–2023, and 2024E, 2025E, 2026E.
+- Legend: No separate legend; numerical labels on top of bars (e.g., 0.3%, −0.1%, −7.4%, −3.5%, N/A, 0.0%, −0.1%, 0.1%).
+
+[Data Relationships]
+- 2019 was the lowest value, −15%.
+- 2020 was −7.4%, 7.6 percentage points higher than 2019.
+- 2021 was −3.5%, 3.9 percentage points higher than 2020.
+- 2016 was +0.3%, 2018 was −0.1%, a difference of 0.4 percentage points.
+- 2024E was 0.0%, 2025E was −0.1%, 2026E was +0.1%.
+- 2011–2015 were all negative values, approximately in the range of −2% to −4%.
+- 2022 and 2023 are marked as N/A.
+- The highest non-negative value for the entire period was +0.3% in 2016.
+
+[Pattern Characteristics]
+Overall, the values for most years are below zero, only slightly exceeding zero in isolated years. 2011–2015 is marked by a dashed box, forming a continuous negative range concentrated in a similar band. Subsequently, the value briefly turned slightly positive in 2016, and a single significant low point occurred in 2019. 2020–2021 gradually narrowed from an extremely low position toward near zero. Data is missing for 2022–2023, and the estimated values for 2024E–2026E are tightly clustered around zero, showing a narrow distribution.
+
+[Core Insights]
+Core Conclusion: Long-term performance mostly shows slight underperformance, deviating from the target range, with only a few years approaching parity.
+
+Business Implications:
+- Overall return levels failed to meet target returns most of the time.
+- There was a phased recovery after 2019, and pressure has eased.
+- Expectations for the next three years are closer to the target, and volatility tolerance is reduced.
+
+Risk Focus:
+- If performance drops below −7.4% again, it may repeat the significant performance gap seen near 2019.
+- If any year in the forecast period falls below −0.1%, it will deviate from the current planning assumption of near-zero returns.

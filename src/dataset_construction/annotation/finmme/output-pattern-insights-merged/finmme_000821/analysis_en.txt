@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Financial Comparison Table
+- Label: Header "USDm"
+- Column Structure: Metric Name; "2024 Guidance"; "BNPP EXANE"; "Average Cons.**"; "Guidance vs. Cons."
+- Row Items: LVP YoY%; Revenue and breakdown (% growth, o/w % organic, o/w % FX); EBIT and % margin; OCF and % of sales; Capex and % of sales; FCF and % of sales
+- Units and Format: Amounts in USDm; Percentages in %; Negative values indicated by parentheses
+- Notes: *LVP refers to ≤3.5t vehicles; **Average Cons. is the average of Company, Infront, and VA Consensus.
+
+[Data Relationships]
+- LVP YoY: Guidance (1.0%); BNPP 3.0%; Consensus (0.8%); Guidance is (0.2) percentage points lower than Consensus.
+- Revenue: Guidance 10,999; BNPP 11,218; Consensus 10,981; Guidance is 18 (+0.2%) higher than Consensus; BNPP is 219 higher than Guidance.
+- Revenue Growth: Guidance 5.0%; Consensus 5.1%; difference (0.1) percentage points. Organic: Guidance 5.1%, Consensus 4.8%, difference +0.3 percentage points. FX: Guidance (0.1%), Consensus 0.3%, difference (0.4) percentage points.
+- EBIT: Guidance 1,155; Consensus 1,172; difference -17 (-1.4%); EBIT margin: Guidance 10.5%, Consensus 10.7%, difference (0.2) percentage points.
+- OCF: Guidance 1,200; Consensus 1,176; difference +24 (+2.1%); OCF proportion: Guidance 10.9%, Consensus 10.7%, difference +0.2 percentage points.
+- Capex: Guidance (605); Consensus (618); difference +13 (+2.2%); Proportion: Guidance 5.5%, Consensus 5.6%, difference (0.1) percentage points.
+- FCF: Guidance 595; Consensus 557; difference +38 (+6.8%); Proportion: Guidance 5.4%, Consensus 5.1%, difference +0.3 percentage points.
+
+[Pattern Characteristics]
+Overall, the differences between Guidance and Consensus in revenue, profit, and cash flow levels are generally small, with most metrics concentrated within single-digit percentages. In cash flow and FCF-related metrics, Guidance is generally slightly higher than Consensus, while LVP growth and EBIT levels are slightly lower. The BNPP valuation is generally higher than Guidance across multiple metrics, including revenue, profitability, and cash flow, forming an increasing hierarchical structure from Consensus, Guidance, to BNPP.
+
+[Core Insights]
+Core Conclusion: Company guidance is generally close to market expectations, with a slight upward revision tendency for cash flow and FCF.
+
+Business Implications:
+- Limited gap in revenue and profit expectations, indicating minor market divergence.
+- Operating cash flow (OCF) and FCF expectations are relatively better, highlighting an emphasis on cash generation capability.
+- Expectations for LVP and EBIT are slightly conservative; earnings elasticity relies more on efficiency and cash management.
+
+Risk Concerns:
+- If the EBIT margin falls below 10.5%, it may result in EBIT being lower than the Consensus level.
+- If the FCF proportion falls below 5.1%, it will erode the cash flow advantage relative to Consensus.

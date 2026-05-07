@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Time series chart, containing two lines: Closing price (cyan polyline) and Target price (gray-blue step line); scatter points are red dots.
+- Title: Not displayed.
+- X-axis: Time, from 01-21 to 01-24, scales marked approximately quarterly (04, 07, 10).
+- Y-axis: Price unit USD, range approximately 0–900, scale interval 100.
+- Legend: Displays "Closing price" "Target price".
+
+[Data Relationships]
+- Initial closing price approximately USD650 (01-21); final closing price approximately USD850 (01-24); difference approximately USD200.
+- Closing price peak approximately USD880 (near 01-24); trough approximately USD560 (around 10-22); range approximately USD320.
+- Target price step levels are roughly in sequence: approximately USD700, USD740, USD700, USD660, USD620, USD590, USD610, USD620; remaining approximately USD620 in the final period.
+- Difference between the two at representative time points: At 10-22, closing price approximately USD560, target price approximately USD580, difference approximately USD20; At 07-23, closing price approximately USD700, target price approximately USD620, difference approximately USD80; At 01-24, closing price approximately USD850, target price approximately USD620, difference approximately USD230.
+
+[Pattern Characteristics]
+The closing price exhibits a pattern of initial decline followed by a rise over the entire period, with multiple moderate fluctuations occurring in between. The target price was adjusted downwards multiple times in a step-like manner, remaining in a relatively stable range during the later period. The two were relatively close in the early to middle stages, gradually diverging in the later period, with the gap significantly widening towards the end.
+
+[Core Insights]
+Core Conclusion: The stock price trend is gradually decoupling from the target price assessment, with significant deviation in the later period.
+
+Business Implications:
+- Increasing divergence between mid-to-late stage valuation reference and market pricing.
+- Weakening constraint of research pricing on actual trading decisions.
+- Valuation assumptions in the later stage may lag behind the pace of market changes.
+
+Risk Focus:
+- When the closing price exceeds the target price by over USD200, continuing to chase the high may amplify drawdown losses.
+- If the target price remains near USD620 long-term while the stock price maintains a high level, the credibility of the valuation model may be undermined.

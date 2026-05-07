@@ -1,0 +1,30 @@
+【图表构成】
+- 类型：多序列折线图
+- 标题：FY24 EPS US$ (Indexed =100)
+- 横轴：日期，范围为 04-Jan-23 至 28-Feb-24，标注具体日期刻度
+- 纵轴：指数数值，刻度范围约 70–105
+- 图例：AeJ（红实线）、Semi/Eqpt（黑点线）、Tech HW/Eqpmt（黑虚线）、Soft/Srvcs（蓝虚线）
+- 说明：指数以100为基准
+
+【数据关系】
+- 期初(04-Jan-23)：AeJ≈100；Soft/Srvcs≈100；Semi/Eqpt≈99；Tech HW/Eqpmt≈98
+- 最高：Soft/Srvcs≈103（1月）；AeJ≈101（1月）；Semi/Eqpt≈99（1月）；Tech HW/Eqpmt≈99（1月）
+- 最低：Tech HW/Eqpmt≈78（10–11月）；Semi/Eqpt≈79（10–11月）；AeJ≈86（2月）；Soft/Srvcs≈88（2月）
+- 期末(28-Feb-24)：AeJ≈86；Soft/Srvcs≈88；Semi/Eqpt≈83；Tech HW/Eqpmt≈78
+- 期初至期末变动：AeJ约-14；Soft/Srvcs约-12；Semi/Eqpt约-16；Tech HW/Eqpmt约-20
+- 期末差异：Soft/Srvcs比AeJ高≈2；比Semi/Eqpt高≈5；比Tech HW/Eqpmt高≈10；AeJ比Semi/Eqpt高≈3
+
+【模式特征】  
+四条序列在年初均接近基准值，随后整体呈单向下行，缺乏明显周期性。Soft/Srvcs 始终位于最上方，Tech HW/Eqpmt 长期处于最下方，期间相对排序基本稳定，仅在局部时点略有收敛或拉开。10–11 月附近 Tech HW/Eqpmt 与 Semi/Eqpt 出现更深一段下探，而 Soft/Srvcs 与 AeJ 在同期仅温和回落，形成分化结构。
+
+【核心洞察】  
+核心结论：各板块EPS预期整体下修，软件相对抗跌。
+
+业务含义：  
+- 整体盈利预期走弱，估值支撑减弱。  
+- 软件板块相对收益弹性更强。  
+- 硬件与半导体对负面信息更敏感。
+
+风险关注：  
+- 当Tech HW/Eqpmt指数持续低于80，可能引发进一步减持与估值压缩。  
+- 若AeJ指数跌破85并维持，将拖累区域整体收益预期与资金流向。

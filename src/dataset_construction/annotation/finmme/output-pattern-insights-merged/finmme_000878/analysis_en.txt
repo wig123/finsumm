@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Waterfall Chart
+- Title: Not displayed
+- X-axis: Categories are "Singapore Expansion," "Rotterdam Optionality," "2024," "Rotterdam Expansion," "2026"
+- Y-axis: Value axis, range approximately 0–3.5
+- Legend: Not displayed
+- Annotations: Values annotated above the bars or steps are 1, 0.5, 1.5, 1.2, 2.7, respectively
+
+[Data Relationships]
+- Value of "Singapore Expansion" = 1
+- Increment of "Rotterdam Optionality" = 0.5, raising the level from 1 to 1.5
+- Value of "2024" = 1.5
+- Increment of "Rotterdam Expansion" = 1.2, raising the level from 1.5 to 2.7
+- Value of "2026" = 2.7
+- Total change from start point to end point = 2.7 − 1 = +1.7
+- Proportion of the two increments: 0.5/1.7 ≈ 29.4%; 1.2/1.7 ≈ 70.6%
+- Difference between 2024 and 2026 = 2.7 − 1.5 = 1.2
+
+[Pattern Characteristics]
+The overall structure shows a unidirectional increasing trend, reaching the final value by progressively adding two positive increments to the initial level, with no intermediate decline. The latter of the two increments contributes more significantly, resulting in the step height in the second half being noticeably higher than in the first half. The connection between the bars is continuous, showing no abnormal jumps or reverse changes.
+
+[Core Insights]
+Core Conclusion: The final value is primarily amplified by the contribution of a single, later-stage project.
+
+Business Implications:
+- Achievement of the overall target is highly dependent on the contribution of a few projects.
+- Later-stage projects are more critical to medium-to-long-term performance.
+- If later implementation falls short of expectations, the final level will significantly deviate from the target.
+
+Risk Focus:
+- If the contribution of "Rotterdam Expansion" is less than 1.0, the 2026 level will be significantly lower than the current forecast.
+- If the sum of the two increments is less than 1.7, the magnitude of the increase from 1 to 2.7 cannot be maintained.

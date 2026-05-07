@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Line chart (red line), with gray dashed lines on the right indicating forecasted values.
+- Title: Not displayed.
+- X-axis: Fiscal year classification, FY10–FY26F.
+- Y-axis: Percentage scale, range 0%–16%, marked 0%, 2%…16%.
+- Legend: Not displayed; numerical values are marked next to each node (some are forecasted values).
+
+[Data Relationships]
+- Starting point: FY10 was 9.3%; Lowest: FY11 was 4.5%; Peak: FY16 was 14.1%.
+- FY21 was 12.9%; FY22 was 7.6%; FY23 was 8.6%; FY24 was 12.9%.
+- Forecast: FY24F 13.5%, FY25F 12.9%, FY26F 12.8%.
+- Difference between highest and lowest: 9.6 percentage points (14.1% and 4.5%).
+- Difference between FY23 and FY24: 4.3 percentage points (8.6% and 12.9%).
+- Difference between FY21 and FY22: 5.3 percentage points.
+- Difference between FY14 and FY15: 0.1 percentage point; Difference between FY18 and FY19: 0.7 percentage point.
+
+[Pattern Characteristics]
+- The overall trajectory shows multiple large fluctuations, forming a sawtooth structure with alternating peaks and troughs.
+- The magnitude of change between some adjacent years is significant, while there are also periods with minimal change, reflecting uneven volatility.
+- The latter forecast period is relatively concentrated within a narrower percentage range, contrasting with the more drastic annual changes observed in historical data.
+
+[Core Insights]
+Core Conclusion: After experiencing multiple rounds of significant volatility, this indicator is expected to remain within a relatively stable range.
+
+Business Implications:
+- Historical performance shows that the stability of this indicator is moderate, making it susceptible to external factors.
+- The narrowing of the medium-term forecast range helps improve planning predictability.
+- The sustained presence in the high range provides a foundation for maintaining current operational levels.
+
+Risk Concerns:
+- If the future value falls below 7.6%, it may lead to failure in achieving profitability targets or budgets.
+- If the value exceeds 14.1% and then declines too rapidly, it may lead to pressure from cost imbalances or resource allocation misalignment.

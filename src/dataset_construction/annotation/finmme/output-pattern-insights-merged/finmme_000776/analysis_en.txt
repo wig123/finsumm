@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Line Chart
+- Title: MONTHLY PENETRATION BY POWERTRAIN (% of LV market)
+- X-axis: Time, from Nov-18 to Feb-24, marked monthly (Nov, Feb, May, Aug nodes)
+- Y-axis: Percentage, range 0%—30%
+- Legend: BEV Mix (Dark Blue), PHEV Mix (Red), HEV Mix (Light Blue)
+- Other Elements: EU flag icon displayed in the upper left
+
+[Data Relationships]
+- Nov-18: BEV approximately 2%, PHEV approximately 1%, HEV approximately 4–5%.
+- Feb-24: HEV approximately 28%, BEV approximately 12–13%, PHEV approximately 6–7%.
+- BEV Peak: Approximately 27–28% (around Feb-23); the end period is approximately 14–16 percentage points lower than the peak.
+- HEV Peak: Approximately 28% (Feb-24); an increase of approximately 23–24 percentage points compared to the initial period.
+- PHEV Peak: Approximately 13% (near Nov-22 to Jan-23); the end period is approximately 6–7 percentage points lower than the peak.
+- Feb-24 Gap: HEV is approximately 15–16 percentage points higher than BEV, and 21–22 percentage points higher than PHEV; BEV is approximately 5–6 percentage points higher than PHEV.
+
+[Pattern Characteristics]
+The three curves generally evolve from low to high levels, but at different paces: The HEV line is relatively smooth, rising in a step-like manner, operating near the high level in the later stage; BEV shows frequent, large-amplitude fluctuations in the middle-to-late stage, peaking significantly near the high level before retreating; PHEV forms a medium-height plateau in the middle stage, then maintains a lower and relatively narrower range subsequently. The three were close together in the early stages but diverged significantly in the high-level region later, with only HEV remaining in the highest range.
+
+[Core Insights]
+Core Conclusion: The divergence among the three powertrain routes is intensifying, with HEV holding a clear relative advantage.
+
+Business Implications:
+- HEV's dominant position in the overall structure has been established.
+- The temporary retreat of BEV has weakened the concentration of electrification.
+- PHEV's long-term proportion is low, resulting in limited marginal contribution.
+
+Risk Concerns:
+- If the BEV proportion remains below 15% long-term, it may weaken the incentive for investment in pure electric products.
+- If the PHEV proportion consistently stays below 8%, related production capacity and channel utilization may decline.

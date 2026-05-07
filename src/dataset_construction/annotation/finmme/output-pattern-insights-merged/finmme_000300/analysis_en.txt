@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Line chart (3 time series)
+- Title: Not displayed
+- X-axis: Year, scale labeled 1990, 1993, 1996, 1999, 2002, 2005, 2008, 2011, 2014, 2017, 2020
+- Left Y-axis (LHS): Range approximately -2 to 16, used for the red line “Cash+Deposit/Overall Asset” and the black line “Net profit/Equity”
+- Right Y-axis (RHS): Range approximately -1 to 9, used for the gray line “Debt/Equity”
+- Legend: Red line (LHS), Gray line (RHS), Black line (LHS)
+
+[Data Relationships]
+- Red Line (Cash+Deposit/Overall Asset): Approximately 14 in 1990; low point near 1997 at approximately 9.8; approximately 14.1 at the end of 2021; the difference from the low point to the end period is approximately 4.3.
+- Black Line (Net profit/Equity): Approximately 14 in 1990; negative in 1998 and 2002, lowest at approximately -0.5; high point in 2016 at approximately 15; approximately 15.8 at the end period; the difference from the lowest point to the end period is approximately 16.3.
+- Gray Line (RHS, Debt/Equity): Approximately 1.6 in 1990; low point in 2018 at approximately 1.0; approximately 1.1–1.2 in 2020–2021; the difference between the initial period and the low point is approximately 0.6; the difference between the initial period and the end period is approximately 0.4.
+
+[Pattern Characteristics]
+The red line generally shows an arc trajectory, first slowly declining and then gradually rising, with relatively small and continuous fluctuations in the middle. The black line swings sharply up and down in the first half, crossing the zero axis multiple times. In the second half, it fluctuates significantly within a higher range, with distinct local peaks and troughs. The gray line slowly declines from the initial period, flattening out in the later stages. Its overall fluctuation range is the smallest, with no noticeable jumps.
+
+[Core Insights]
+Core Conclusion: Earnings performance is highly volatile, while the cash and leverage structure remains relatively stable.
+
+Business Implications:
+- Net profit is relatively sensitive to external or internal environmental changes.
+- The level of cash retention provides a certain buffer against volatility.
+- Leverage dependence is limited, and room for capital structure adjustment exists.
+
+Risk Focus:
+- When the black line (Return on Equity) approaches or falls below 0, negative return on equity may occur.
+- If the gray line (Debt/Equity) rises above 2 again, it could significantly increase financial expenditure and repayment pressure.

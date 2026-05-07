@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Dual-axis combination chart (Bar: Sales; Line: % growth organic)
+- Title: Not displayed
+- X-axis: Year categories—2022, 2023, 2024E, 2025E, 2026E, 2027E
+- Left Y-axis: Sales, range 0–1,800, scale approximately every 200
+- Right Y-axis: % growth (organic), range 0%–9%, ticks 1%, 3%, 5%, 7%, 9%
+- Legend: Sales; % growth (organic)
+
+[Data Relationships]
+- % Growth Values: 2022=7.5%; 2023=8.2%; 2024E=4.8%; 2025E=8.4%; 2026E=6.7%; 2027E=6.8%.
+- Highest and Lowest: 8.4% (2025E) and 4.8% (2024E), a difference of 3.6 percentage points.
+- Sequential Difference: 22–23=+0.7pp; 23–24E=−3.4pp; 24E–25E=+3.6pp; 25E–26E=−1.7pp; 26E–27E=+0.1pp.
+- Relative Sales Levels: 2027E highest; 2022 lowest; 2025E higher than 2026E; 2023 higher than 2024E.
+
+[Pattern Characteristics]
+The % growth line shows a volatile pattern: initially rising, followed by a significant decline, then rising again, slightly pulling back, and subsequently flattening. The Sales bars generally increase progressively over the years, with minor fluctuations in the middle years but no significant jumps. The two series do not exhibit synchronized peaks and troughs across the years; 2027E shows a combination of moderate growth rate and the highest sales volume.
+
+[Core Insights]
+Core Conclusion: Sales volume is steadily expanding, but the pace of organic growth is uneven.
+
+Business Implications:
+- Revenue scale expansion is not fully synchronized with organic momentum.
+- The mid-term period of growth pressure may reduce overall earnings elasticity.
+- Maintaining moderate growth on a high base in later periods requires greater sustained expansion effort.
+
+Risk Focus:
+- If % growth falls below 4.8% again, the marginal contribution may significantly weaken despite high sales volume.
+- If Sales fail to consistently exceed the 2025E level, long-term growth expectations may be revised downward.

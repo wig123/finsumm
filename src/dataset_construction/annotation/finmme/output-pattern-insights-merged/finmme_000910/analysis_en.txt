@@ -1,0 +1,27 @@
+[Chart Components]
+- Chart Type: Grouped Bar Chart (Vertical).
+- Title: Impact on RoA (bps, FY26F).
+- X-axis: Company Categories—LIC HF, BAF, CIFC, MMFS, SHFL, SBIC, CREDAG.
+- Y-axis: RoA Impact (Basis Points, bps), range approximately -60 to 60.
+- Legend: Three Scenarios—50bp rate cut (Red), 75bp rate cut (Gray), 100bp rate cut (Beige).
+
+[Data Relationships]
+- 50bp: Values range from -23 (LIC HF) to 20 (CREDAG), a difference of 43; the others are -4 (BAF), 6 (CIFC), 12 (MMFS), 13 (SHFL), 16 (SBIC).
+- 75bp: -33 (LIC HF) to 29 (CREDAG), a difference of 62; -5 (BAF), 8 (CIFC), 16 (MMFS), 19 (SHFL), 24 (SBIC).
+- 100bp: -42 (LIC HF) to 39 (CREDAG), a difference of 81; -6 (BAF), 12 (CIFC), 22 (MMFS), 25 (SHFL), 33 (SBIC).
+- 100bp relative to 50bp increment: -19, -2, +6, +10, +12, +17, +19 (corresponding to the companies in the order listed above).
+
+[Pattern Characteristics]
+The bars for each company across the three scenarios generally show a gradual increase from left to right, with only LIC HF consistently remaining low and below the zero line. Except for LIC HF, the bar height for all companies increases stepwise as the magnitude of the rate cut increases across the three scenarios, showing a stable monotonic structure. The difference in bar height among different companies is significant; the group CREDAG and SBIC is noticeably higher than the middle companies, while LIC HF forms a distinct outlier at the other end.
+
+[Core Insights]
+Core Conclusion: The sensitivity of profitability to interest rate changes varies significantly among companies.
+
+Business Implications:
+- The profitability of some companies is highly dependent on interest rate adjustments.
+- There is clear divergence in asset structure and liability cost management capabilities.
+- Marginal interest rate changes will amplify the gap between top-tier and bottom-tier performers.
+
+Risk Focus:
+- Companies with RoA ≤ 0 in the 100bp scenario may experience a significant decline in profit.
+- Companies where RoA improvement is <10bps in the 50bp scenario may struggle to fully benefit from the easing environment.

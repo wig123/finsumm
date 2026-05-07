@@ -1,0 +1,36 @@
+【图表构成】
+- 类型：表格
+- 标题：无标题
+- 坐标轴：无坐标轴
+- 图例：包含“Market”、“HSBC view”、“FTSE benchmark weight (%)”、“HSBC weight (%)”
+
+【数据关系】
+- **关键数值和变化**
+  - FTSE Russell EM Asia 的总权重最大，分别为 75.1% (FTSE benchmark) 和 70.7% (HSBC)。
+  - Mainland China 在亚洲区域市场中权重最大，28.4%（FTSE benchmark）和 28.4%（HSBC）。
+  - Latin America 中 Brazil 占比最大，6.5%（FTSE benchmark）和 7.7%（HSBC）。
+
+- **极值对比**
+  - FTSE benchmark 中，Mainland China 在各个市场中权重最高为 28.4%。
+  - HSBC 权重中，Brazil 相对于其 FTSE benchmark 的 6.5%，显著增加至 7.7%。
+
+- **重要趋势**
+  - HSBC 对于 FTSE Russell EM EMEA 的“overweight”观点使其权重略高于 FTSE benchmark（16.7% 对 14.4%）。
+  - 相较于 FTSE benchmark，HSBC 在 Latin America 和 EMEA 区域均为“overweight”，亚洲区域为“underweight”。
+
+【模式特征】
+- 区域分布高度集中于亚洲，其余两大区域占比明显更小，整体呈不均衡结构。
+- 相较基准，HSBC在EMEA与拉美做增配、在亚洲做减配；亚洲内部再分配显著，印度与台湾的相对权重差异突出。
+- 存在与基准几乎一致的个体（如中国大陆），也有极小或为零的市场（如巴基斯坦）；巴西、土耳其等呈相对明显变化。
+
+【核心洞察】
+核心结论：区域配置与基准出现系统差异，重心转向EMEA与拉美。
+
+业务含义：
+- 降低对亚洲的单一区域依赖
+- 与FTSE构成的一致性下降
+- 亚洲内部国家暴露被重塑
+
+风险关注：
+- 亚洲<70.7%，与基准75.1%差距扩大
+- 台湾≤10.0%、印度≥24.2%，与18.1%/21.8%差距加大

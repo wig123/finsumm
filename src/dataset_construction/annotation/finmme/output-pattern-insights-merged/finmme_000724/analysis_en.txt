@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Dual line chart, including dashed trend lines of the same color
+- Title: EM retail sales vs trend (3mma, Index: 2015=100)
+- X-axis: Time (Monthly), Range Jan-15 to Mar-23
+- Y-axis: Index, Range 100–150, Scale interval 5
+- Legend: Red for "Food & Bev," Grey for "Total"
+
+[Data Relationships]
+- Jan-15: Both series are approximately 100
+- Mar-23: Food & Bev ≈ 145; Total ≈ 135; Difference ≈ 10
+- Mid-2018: Food & Bev ≈ 116; Total ≈ 113; Difference ≈ 3
+- Mid-2020 Lowest Point: Food & Bev ≈ 110; Total ≈ 107
+- Change from start to end of period: Food & Bev ≈ +45; Total ≈ +35
+- Mar-23 Actual vs. Trend Line: Food & Bev is above the red dashed line by ≈ 5; Total is above the grey dashed line by ≈ 2
+
+[Pattern Characteristics]
+Both series show a continuous upward trend from the starting point, with Food & Bev consistently positioned above Total, and the gap between the two gradually widening over time. Food & Bev is relatively more volatile, showing multiple sharp spikes and pullbacks after 2019, while Total exhibits smoother changes. Both series simultaneously formed a noticeable low point in mid-2020, after which both returned to and maintained levels above their respective trend lines. Food & Bev shows a greater deviation from its trend line.
+
+[Core Insights]
+Core Conclusion: Food and beverage retail achieved stronger incremental expansion relative to overall retail.
+
+Business Implications:
+- The contribution of food and beverage to the retail structure continues to increase.
+- Overall retail performance exhibits higher reliance on the food and beverage category.
+- Following the pandemic shock, the recovery and amplification effect in food and beverage are more pronounced.
+
+Risk Concerns:
+- If Food & Bev deviates from the trend line by more than +5 points and subsequently pulls back, it may trigger a slowdown in overall retail growth.
+- If Total falls more than 2 points below its own trend line, it may signify a temporary impediment to the pace of retail expansion.

@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Line Chart
+- Legend/Title: India's dependency ratio (%)
+- X-axis: Year range 1960—2022, marked in approximately 2-year increments
+- Y-axis: Percentage scale 0.0—90.0, with horizontal grid lines every 10 units
+- Annotations: "78.0" at 1960, "47.0" at 2022
+- Color: Red curve
+
+[Data Relationships]
+- Initial Value (1960): 78.0%
+- Final Value (2022): 47.0%
+- Magnitude of Change between Initial and Final Period: −31.0 percentage points (47.0−78.0)
+- Ratio of Final Value to Initial Value: 47.0/78.0≈0.60
+- Time Span: 1960—2022, a total of 62 years
+- Value Range of Annotated Points: 47.0%—78.0%, all within the Y-axis range of 0.0—90.0
+
+[Pattern Characteristics]
+After a brief rise near the starting point, the curve generally shows a continuous, smooth, unidirectional trend. Balanced structure, no significant jumps; the slope increases after roughly the midpoint, slightly leveling off toward the end. Extremes are distributed as higher in the early period and lower at the end, with no sudden anomalies observed.
+
+[Core Insights]
+Core Conclusion: Lower dependency burden, increased proportion of the labor force.
+
+Business Implications:
+- The low dependency ratio leads to resource liberation.
+- Enhances capital investment efficiency and output capacity.
+- Supports more aggressive growth-oriented allocation.
+
+Risk Focus:
+- When the ratio is ≥60%, household and public budget pressure increases, and investment is compressed.
+- When the ratio is ≥78%, per capita disposable resources are diluted, and growth plans are constrained.

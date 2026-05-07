@@ -1,0 +1,26 @@
+[Chart Components]
+- Type: Single-series column chart
+- Legend/Title: EBITDA growth (%), red
+- X-axis: Time categories, Dec-21 to Dec-23, totaling 9 periods (Dec-21, Mar-22, Jun-22, Sep-22, Dec-22, Mar-23, Jun-23, Sep-23, Dec-23)
+- Y-axis: Percentage scale, range approximately -40 to 60
+
+[Data Relationships]
+- Initial value: Dec-21 was -11.7; Final value: Dec-23 was 0.4; Difference 12.1
+- Maximum value: 51.5 (Dec-22); Minimum value: -11.7 (Dec-21); Range 63.2
+- 2022 four periods: 8.8, -9.6, 23.4, 51.5; 2023 four periods: 45.7, 37.6, 22.6, 0.4
+- Key sequential difference: Sep-22→Dec-22 +28.1; Sep-23→Dec-23 -22.2
+
+[Pattern Characteristics]
+The overall sequence moves from the negative region to the positive region, forming a single-peak structure that first rises and then falls. The most prominent high point appeared near the end of 2022, after which the values in subsequent periods gradually narrowed and approached the zero axis. There are two adjacent intervals in the sequence with large fluctuations, located between Q3 and Q4 of 2022, and between Q3 and Q4 of 2023, respectively.
+
+[Core Insights]
+Core Conclusion: EBITDA growth significantly contracted after briefly amplifying at a high level, indicating weakening momentum.
+
+Business Implications:
+- The profit expansion phase was concentrated from the end of 2022 to mid-2023.
+- Growth contribution diminished in later periods, and sustainability performance was moderate.
+- The weighting of high-growth assumptions should be reduced for future performance forecasts.
+
+Risk Focus:
+- If EBITDA growth falls below 0% again, expansion may turn into profit erosion.
+- If it remains below 10% for two consecutive quarters, it may weaken valuation and financing attractiveness.

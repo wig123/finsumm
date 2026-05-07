@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Percentage stacked bar chart.
+- Title: Figure 67: Distribution of the EU passenger car stock per type of drivetrain.
+- X-axis: Categories are Year/Scenario; including 2015, 2030, 2040 (S1, S2, S3, LITE), 2050 (S1, S2, S3, LITE).
+- Y-axis: 0%—100%, with 10% increments.
+- Legend: Fuel cell, Electric, Plug-in hybrid, ICE gaseous, Gasoline ICE, Diesel ICE.
+
+[Data Relationships]
+- 2015: Diesel ICE≈55%, Gasoline ICE≈40%, ICE gaseous≈3%, Plug-in hybrid≈1%, Electric≈1%, Fuel cell≈0%.
+- 2030: Diesel≈35%, Gasoline≈35%, Electric≈25%, Plug-in hybrid≈4%, ICE gaseous≈1%, Fuel cell≈0%.
+- 2040 (S1/S2/S3/LITE): Electric approximately 60–75%; Diesel + Gasoline total approximately 23–33%; Plug-in hybrid approximately 3–5%; Fuel cell approximately 1–2%; ICE gaseous approximately 1–2%.
+- 2050 (S1/S2/S3/LITE): Electric approximately 80–92%; Diesel + Gasoline total approximately 2–13%; Plug-in hybrid approximately 2–4%; Fuel cell approximately 2–3%; ICE gaseous≈0%.
+- Magnitude of Change (2015→2050 S3): Electric increased by approximately 91 percentage points; Diesel + Gasoline total decreased by approximately 93 percentage points.
+
+[Pattern Characteristics]
+- In all years/scenarios, the drivetrain types maintain full allocation within the total, with the composition evolving from a few dominant types to a coexistence of old and new drivetrains, and finally to the dominance of a single new drivetrain type.
+- Traditional fossil fuel types gradually shrink their proportion over the timeline, while new electric drive types expand correspondingly. Plug-in hybrids, gaseous fuels, and fuel cells consistently occupy only small, narrow band proportions.
+- Across the 2040 and 2050 scenarios, the differences between scenarios are mainly reflected in the varying breadth of the proportions of electric drive and traditional fossil fuel types. Other types show limited variation between scenarios, and overall, there are no abrupt discontinuities.
+
+[Core Insights]
+Core Conclusion: The fleet drivetrain structure will be highly concentrated in electric drive, with traditional fossil fuels becoming significantly marginalized.
+
+Business Implications:
+- Overall profitability and cost structure will become more reliant on electric drive-related businesses.
+- Production capacity and supply chain bargaining power related to internal combustion engine vehicles will significantly decrease.
+- High dependence on the electric drive technology roadmap is evident across multiple scenarios.
+
+Risk Focus:
+- If the proportion of electric drive exceeds 80% while charging infrastructure is insufficient, it may lead to user-side congestion and service imbalance.
+- If the proportion of traditional fossil fuels falls below 5% while high fixed costs are maintained, asset idleness and rising unit costs may occur.

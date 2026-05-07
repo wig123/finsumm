@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Four parallel combination charts (red bar + blue line).
+- Titles: BBNI - Monthly PPOP IDRbn; BMRI - Monthly PPOP IDRbn; BBRI - Monthly PPOP IDRbn; BBCA - Monthly PPOP IDRbn.
+- X-axis: Month, Jan‑19 to Jan‑24.
+- Y-axis Range: BBNI 0–4,000; BMRI 0–8,000; BBRI 0–10,000; BBCA 0–7,000 (Unit: IDRbn).
+- Legend: Red bar is "Monthly PPOP IDRbn" (BMRI legend text is "Monthly profit IDRbn"); Blue line is "12MMA Monthly PPOP".
+
+[Data Relationships]
+- BBNI: Jan‑19≈2,000; Jan‑24≈3,500; Peak≈3,500 (Jan‑24); 12MMA Start≈2,100, End≈2,900, Difference≈800.
+- BMRI: Jan‑19≈3,500; Jan‑24≈6,800–7,000; Peak≈7,000 (Jan‑24); 12MMA Start≈3,600, End≈5,700, Difference≈2,100.
+- BBRI: Jan‑19≈5,000; Jan‑24≈8,000; Peak≈9,000 (approx. Nov‑22); 12MMA Start≈5,000, End≈7,000, Difference≈2,000.
+- BBCA: Jan‑19≈2,800; Jan‑24≈5,800–6,000; Peak≈6,000 (approx. Dec‑23); 12MMA Start≈3,000, End≈5,300, Difference≈2,300.
+
+[Pattern Characteristics]
+- The monthly red bars for the four banks generally showed a continuous upward trend during the sample period, accompanied by short-term fluctuations of varying degrees.
+- The blue 12MMA curves all show a smooth, unilateral upward trajectory, with the slope of the curves for BMRI, BBRI, and BBCA being significantly steeper than that of BBNI.
+- BBRI experienced a noticeable decline and plateau around 2020 before rising again. BMRI and BBCA showed a steeper final upward segment at the end of the sample period. The single monthly bar for BMRI showed an extreme high value at the end, standing out from the surrounding data points.
+
+[Core Insights]
+Core Conclusion: PPOP increased for all four banks, but growth rate and stability differences are significant.
+
+Business Implications:
+- BBNI's increase is limited, and scale expansion is relatively moderate.
+- BMRI, BBRI, and BBCA have greater potential to contribute to overall profit.
+- BBRI previously experienced a period of weakness, with recovery relying on later volume increase.
+
+Risk Focus:
+- If BMRI's monthly PPOP drops back by ≥30% compared to the average, it may amplify profit volatility.
+- If BBRI falls below the 12MMA level of approximately 7,000 again, it may drag down overall earnings performance.

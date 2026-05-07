@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Dual-axis Scatter Plot (PEAK Matrix).
+- Title: Everest Group Capital Markets Operations – Services PEAK Matrix Assessment 2023.
+- Y-axis: Market impact (Measures impact created in the market), Range Low–High.
+- X-axis: Vision & capability (Measures ability to deliver services successfully), Range Low–High.
+- Segmentation and Guidelines: The background is divided into Aspirants (bottom left), Major Contenders (center), Leaders (right side/top right), separated by dashed lines.
+- Legend: Leaders (dark blue circles), Major Contenders (orange circles), Aspirants (white circles), Star Performers (orange stars).
+- Key Labeled Entities Examples: Cognizant, TCS, Infosys, Wipro, Accenture, Genpact, Broadridge, HCLTech, Intertrust Group, Avaloq, eClerx, DXC Technology, Capgemini, FIS, Mphasis, Atos, EXL, WNS, Delta Capita, Hexaware, Coforge BPS, Exela Technologies, Tech Mahindra.
+
+[Data Relationships]
+- Within the Leaders quadrant: Cognizant is positioned closest to the top right corner, indicating high market impact and capability; TCS is second; Genpact has the lowest market impact in this quadrant.
+- Horizontal position within the Leaders quadrant: Infosys, Accenture, and Wipro are located in the high-capability area on the right, but their market impact is lower than Cognizant and TCS.
+- Major Contenders: Broadridge is closest to the top right corner in this quadrant; HCLTech and Avaloq are in higher positions; Intertrust Group is near the mid-to-low position.
+- Aspirants: Hexaware has a relatively high market impact in this quadrant; Tech Mahindra is closest to the bottom left corner; Coforge BPS and Exela Technologies are centered towards the lower end.
+- Star Performers: Broadridge, HCLTech, and Intertrust Group are Star Performers, all located within the Major Contenders segment.
+
+[Pattern Characteristics]
+The overall distribution presents a step-like structure progressing gradually from the bottom left to the top right. Points within the three major segments are relatively concentrated, and boundary transitions are smooth. Most points in the Leaders quadrant are clustered in a narrow band of high capability and high impact, with only a few points on the lower edge of this band. The Major Contenders quadrant has a large internal horizontal span, with some points near the Leaders boundary and highlighted as Star Performers. The Aspirants are generally concentrated in the area of low capability and low-to-medium impact, with points near the bottom-left corner being the most peripheral.
+
+[Core Insights]
+Core Conclusion: Leading vendors are highly concentrated, and the tiers of challengers show significant differentiation.
+
+Business Implications:
+- Indicates that top-tier suppliers are forming clusters in terms of capability and market presence.
+- A few mid-tier vendors possess the conditions necessary to migrate toward the top-tier quadrant.
+- Lower-tier vendors are generally in a passive position, with room for improvement focused on service effectiveness.
+
+Risk Concerns:
+- Prolonged stagnation in the lower-to-middle segments of Aspirants or Major Contenders may result in continuous diversion of opportunities by higher-positioned vendors.
+- If a vendor only approaches the Leaders boundary but fails to enter the high-position area on the right, they may be squeezed in competition, facing pressure on both negotiation power and client acquisition.

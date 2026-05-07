@@ -1,0 +1,60 @@
+### Qwen3-VL-8B LoRA DPO 配置
+### DPO-001: 从 exp-012-ckpt640 继续 DPO 训练 (100 样本测试)
+
+### 模型配置
+model_name_or_path: /app/models/qwen3-vl-8b-instruct
+adapter_name_or_path: /app/outputs/exp-012/checkpoint-640
+trust_remote_code: true
+flash_attn: fa2
+
+### 数据配置
+dataset: dpo_train_100
+template: qwen3_vl_nothink
+cutoff_len: 4096
+overwrite_cache: true
+preprocessing_num_workers: 8
+
+### 训练阶段: DPO
+stage: dpo
+do_train: true
+pref_beta: 0.1
+pref_loss: sigmoid
+
+### 微调方式: LoRA (继承 exp-012 的 LoRA 配置)
+finetuning_type: lora
+lora_rank: 512
+lora_alpha: 1024
+lora_dropout: 0.05
+lora_target: all
+
+### 训练超参数 (针对 100 样本调整)
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 4
+num_train_epochs: 3
+learning_rate: 5.0e-5
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+weight_decay: 0.01
+max_grad_norm: 1.0
+
+### 精度与加速
+bf16: true
+gradient_checkpointing: true
+ddp_find_unused_parameters: false
+deepspeed: /app/configs/ds_zero2.json
+
+### 日志与保存
+logging_strategy: steps
+logging_steps: 5
+save_strategy: steps
+save_steps: 25
+save_total_limit: 3
+
+### 输出目录
+output_dir: /app/outputs/dpo-001
+run_name: dpo-001_test100
+
+### 监控
+report_to:
+  - tensorboard
+  - wandb

@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Grouped Bar Chart
+- Title: PAR 90+
+- X-axis: Categories include Personal loans, Consumer durables, Credit cards, Home loans, Auto loans
+- Y-axis: Percentage scale, range approximately 0.0%—14.0%
+- Legend: FY22 (Red), 1Q23 (Gray), 1Q24 (White outline); Numerical labels attached to each bar
+
+[Data Relationships]
+- Personal loans: 4.0% (FY22), 4.0% (1Q23), 4.4% (1Q24); 1Q24—FY22 = +0.4pp
+- Consumer durables: 3.4%, 3.3%, 3.8%; 1Q24—1Q23 = +0.5pp
+- Credit cards: 13.1%, 12.7%, 12.5%; 1Q24—FY22 = −0.6pp, 1Q24—1Q23 = −0.2pp
+- Home loans: 2.4% (1Q23), 2.5% (1Q24); Difference = +0.1pp
+- Auto loans: 4.0%, 3.9%, 3.1%; 1Q24—FY22 = −0.9pp
+- Period comparison: 1Q24 highest 12.5% (Credit cards), lowest 2.5% (Home loans), difference 10.0pp; 1Q23 difference 10.3pp (12.7% vs 2.4%); FY22 difference 9.7pp (13.1% vs 3.4%)
+
+[Pattern Characteristics]
+The overall magnitude of change across the three periods is limited for all products, with most showing slight increases or decreases. Credit cards are significantly higher than other products in all periods, while Home loans consistently remain at the lowest level. The overall hierarchical structure has not reversed. The spacing between the three bars within each product category is small. Only Auto loans show a relatively consistent period-over-period decline, while Personal loans and Consumer durables loans show a slight upward trend.
+
+[Core Insights]
+Core Conclusion: Credit card delinquency levels are significantly higher than other loans, indicating clear structural differentiation.
+
+Business Implications:
+- The overall delinquency landscape is relatively stable, with no severe deterioration observed.
+- Credit card assets have the greatest impact on overall risk exposure.
+- Moderate attention should be paid to the upward pressure on delinquency for Personal loans and Consumer durables loans.
+
+Risk Focus:
+- Credit cards remaining above 10% may significantly increase portfolio provisions and losses.
+- If Personal loans and Consumer durables loans exceed 5%, this will elevate the overall non-performing level of the retail portfolio.

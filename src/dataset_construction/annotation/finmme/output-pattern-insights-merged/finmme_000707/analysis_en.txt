@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Multi-series line chart
+- Title: Not displayed; Y-axis label is "Eurotunnel share (%)"
+- X-axis: Year, range 2012–2023 (Annual scale)
+- Y-axis: Percentage, range 30%–90% (10% increments)
+- Legend (Right side): Winter (Dark cyan solid line), Spring (Light blue solid line), Autumn (Orange dashed line), Summer (Dark blue solid line)
+
+[Data Relationships]
+- Peak values per season: Spring 2021≈80%; Summer 2021≈78%; Winter 2021≈77%; Autumn 2020≈73–74%.
+- 2023 values: Winter≈65%; Spring≈58%; Summer≈62%; Autumn≈56%; Difference between highest and lowest ≈9 percentage points.
+- 2012 initial period: Winter≈55%; Spring≈47%; Summer≈53%; Autumn≈50%; Change by 2023 is approximately +10pp, +11pp, +9pp, and +6pp, respectively.
+- 2019→2021 change: Spring≈55→≈80 (+25pp); Summer≈52→≈78 (+26pp); Winter≈60→≈77 (+17pp); Autumn 2019→2020≈55→≈73 (+18pp).
+- 2021 inter-seasonal comparison: Highest Spring≈80%, Lowest Autumn≈65%, Difference≈15pp.
+
+[Pattern Characteristics]
+The seasonal curves generally showed a slow upward trend from 2012–2018, followed by a concentrated and steep surge between 2019–2021 before pulling back. All seasons reached their respective phase highs in 2021, and the overall level through 2023 remains higher than the 2012 starting point. The four curves were relatively close in most years, but the inter-seasonal gap widened significantly in 2020–2021, and subsequently converged again.
+
+[Core Insights]
+Core Conclusion: 2021 marked a clear peak followed by a decline, and the current level remains within a historically high range.
+
+Business Implications:
+- The overall proportion has seen a substantial increase compared to 2012.
+- Performance differs significantly before and after 2021, testing strategic stability.
+- Inter-seasonal differences are amplified during high-level phases, requiring refined management.
+
+Risk Concerns:
+- Should any season approach 80% again, especially if accompanied by an inter-seasonal difference >15pp, it could lead to structural imbalance and resource misallocation.
+- Should all seasons simultaneously fall back to levels near 2012, it could weaken overall market position and bargaining power.

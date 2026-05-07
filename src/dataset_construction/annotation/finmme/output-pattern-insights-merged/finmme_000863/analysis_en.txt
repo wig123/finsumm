@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Vertical Bar Chart
+- Legend: Core CPI 3m annual (SA - NSA gap)
+- X-axis: Time, marked monthly, from Jan 22 to Feb 24
+- Y-axis: Value range approximately -4.0 to 4.0, zero axis located at the center line
+- Each bar is labeled with the corresponding value; only one data series
+
+[Data Relationships]
+- Starting Value: Jan 22 was 2.0; Ending Value: Feb 24 was 1.8; Difference is -0.2
+- Highest Value: 3.4 (Dec 22); Lowest Value: -2.9 (Mar 22, Apr 23); Range 6.3
+- 2022: Feb -0.1, Mar -2.9, Apr -2.3, May -2.5, Jun -1.9, Jul -1.3, Aug 0.0, Sep 1.2, Oct 2.6, Nov 3.4, Dec 1.8
+- 2023: Jan 1.8, Feb 1.6, Mar -0.4, Apr -2.9, May -2.0, Jun -1.9, Jul -0.1, Aug 0.8, Sep 1.2, Oct 2.4, Nov 3.2
+- 2024: Feb 1.8
+
+[Pattern Characteristics]
+- The data is clearly distributed above and below the zero axis, showing repeated switching from positive values to significantly negative values, and then back to positive values, oscillating around the center line with large amplitude.
+- The first half of 2022 and the first half of 2023 formed two consecutive low-level periods, while the fourth quarter of 2022 and the fourth quarter of 2023 were concentrated in high-level periods, showing a segmented block structure.
+- The lows in Mar 22 and Apr 23, and the highs in Dec 22 and Nov 23 are relatively prominent, forming clear local extreme points compared to preceding and succeeding months.
+
+[Core Insights]
+Core Conclusion: The difference between Seasonally Adjusted (SA) and Non-Seasonally Adjusted (NSA) Core CPI shows clear periodic fluctuations.
+
+Business Implications:
+- Seasonal adjustment methods introduce deviations in opposite directions during different phases.
+- Inflation assessment, if based solely on a single metric, is prone to judgment errors.
+- The range of high and low differences can be used to identify periods of strong or weak seasonal factors.
+
+Risk Focus:
+- When the difference is below -2.0, ignoring the adjustment method may lead to an overestimation of the degree of inflation deceleration.
+- When the difference is above +3.0, directly extrapolating the trend may lead to a misjudgment of inflation persistence.

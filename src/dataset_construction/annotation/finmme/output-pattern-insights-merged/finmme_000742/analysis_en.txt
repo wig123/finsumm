@@ -1,0 +1,38 @@
+[Chart Components]
+- Chart Type: Line chart
+- Title: Not displayed
+- X-axis: Year, range approximately 1800—2020+, scale examples are 1800, 1850, 1900, 1950, 2000
+- Y-axis: (% of GDP), range 0—120
+- Legend: Solid green line “Debt-to-GDP (CBO)”; Dashed green line “(as of Feb 2020)”
+- Chart Annotations: American Civil War, First world war, Great Depression, Second world war, Financial crisis, Covid recession
+
+[Data Relationships]
+- Lowest point: Approximately near 1900 ≈ 0–5%
+- Civil War: ≈ 30%
+- WWI: ≈ 30–35%
+- Great Depression: ≈ 45%
+- WWII Peak: Slightly above 100% (≈ 105%)
+- Near 1950: ≈ 50%
+- 1970s Low: ≈ 25–30%
+- 2008 Financial Crisis: ≈ 60–70%
+- 2019/2020 Solid Line: ≈ 80%
+- Post-2020 Dashed Line: ≈ 100–110%
+- Difference between highest and lowest: ≈ 100 percentage points
+- Increment from 2008 to 2020: ≈ 10–20 percentage points
+
+[Pattern Characteristics]
+- Over the long term, the overall curve exhibits an alternating structure of multiple phased high and low plateaus. The lowest ranges appeared near the early 19th century, after the mid-20th century, and around the 1970s.
+- The curve forms steep peaks or step-like increases near several annotated events, often followed by a prolonged, gradual decline or maintenance within the medium-to-high range.
+- The curve has been relatively concentrated in the higher range over the past two decades, with an upward-extending projected dashed line appearing at the end, approaching the historical peak level band.
+
+[Core Insights]
+Core Conclusion: Current and projected debt levels are approaching historical extreme ranges.
+
+Business Implications:
+- Fiscal leverage is in a state of high utilization.
+- Budgetary flexibility is more sensitive to interest rate changes.
+- Future growth relies increasingly on sustained financing.
+
+Risk Focus:
+- When Debt/GDP consistently exceeds 80%, interest expenditures may significantly crowd out space for other fiscal spending.
+- If Debt/GDP remains in the 100–110% range for too long, refinancing costs may amplify rapidly during an economic downturn.

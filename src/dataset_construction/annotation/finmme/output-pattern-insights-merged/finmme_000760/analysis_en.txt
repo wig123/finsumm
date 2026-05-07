@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Dual-axis time series line chart; no explicit main title
+- X-axis: Time, Jan-09 to Jul-25 (scaled by year/month)
+- Left Y-axis (LHS): 0–6,000 (Unit: USD mn, scale approximately 1,000)
+- Right Y-axis (RHS): -500–2,500 (Unit: TWD mn, scale approximately 500)
+- Legend/Line Color: Red line = Total Mkt Cap (USD mn) - LHS; Gray line = Total Quarterly Op Profit (TWD mn) - RHS
+
+[Data Relationships]
+- Jan-09: Red line approximately 100 (LHS); Gray line approximately 900 (RHS)
+- Red line maximum: approximately 5,000 (Nov-21); Minimum: approximately 100 near the starting point; Range approximately 4,900
+- Gray line maximum: approximately 2,300 (Mar-18); Minimum: approximately -400 (mid-2020); Range approximately 2,700
+- Jul-25: Red line approximately 4,100 (LHS); Gray line approximately 1,600 (RHS)
+- Nov-21 corresponding values: Red line approximately 5,000 (LHS), Gray line approximately 1,900 (RHS)
+
+[Pattern Characteristics]
+The red and gray lines generally exhibit a phased structure of multiple large fluctuations, often synchronizing roughly near local peaks and troughs. The gray line has a larger amplitude, showing multiple deep pullbacks from positive to negative territory, while the red line only shows smaller magnitude dips during the same periods. Around 2020, the gray line showed extreme values, clearly crossing below the zero axis. Subsequently, both lines continued to fluctuate but trended upward overall, reaching relatively high levels by the end of the period, though not setting historical peaks.
+
+[Core Insights]
+Core Conclusion: Market capitalization exhibits a significantly sensitive but not entirely symmetrical reaction to changes in profitability.
+
+Business Implications:
+- There is a strong correlation between valuation and earnings performance.
+- The impact of earnings decline on valuation is smaller than the magnitude of the subsequent rise during earnings recovery.
+- The terminal level indicates that both valuation and earnings are in a relatively high phase.
+
+Risk Concerns:
+- If quarterly earnings fall below 0 TWD mn again, market capitalization may repeat the significant pullback seen around 2020.
+- When market capitalization exceeds 4,500 USD mn and earnings are below 1,000 TWD mn, there may be pressure due to decreased alignment between valuation and profitability.

@@ -1,0 +1,28 @@
+**[Chart Components]**
+- Type: Pie chart
+- Title: FY23 East Cement capacity share (%)
+- Axes: No axes
+- Labels: Slices are directly labeled with category and percentage (Unit: %), including UltraTech, Dalmia Bharat, Nuvoco, Shree, Ambuja, Others
+- Legend: Not displayed separately
+
+**[Data Relationships]**
+- Share: Others 33%; UltraTech 20%; Dalmia Bharat 17%; Nuvoco 15%; Shree 10%; Ambuja 5%.
+- Maximum value 33% (Others), minimum value 5% (Ambuja), a difference of 28 percentage points.
+- UltraTech and Dalmia Bharat differ by 3 percentage points; Dalmia Bharat and Nuvoco differ by 2 percentage points; Nuvoco and Shree differ by 5 percentage points; Shree and Ambuja differ by 5 percentage points.
+- The five named companies total 67%, Others is 33%; UltraTech + Dalmia Bharat = 37%; adding Nuvoco totals 52%.
+- All categories total 100%.
+
+**[Pattern Characteristics]**
+The overall composition shows a distribution among multiple entities, where the largest single slice is clearly greater than the others, but does not constitute absolute dominance. The slice areas of the five named companies decrease sequentially, and the difference in area among the latter four is relatively smooth. The overall structure forms a pattern where a large segment (Others) coexists with multiple small and medium segments (the named companies).
+
+**[Core Insights]**
+Core Conclusion: Capacity is concentrated in a few leading players coexisting with a large number of small and medium-sized manufacturers.
+
+Business Implications:
+- Leading enterprises possess certain regional influence.
+- The combined volume of small and medium-sized manufacturers has a substantial effect on regional supply.
+- The combined proportion of the top three players provides greater leverage regarding pricing and operational decisions.
+
+Risk Concerns:
+- If the share of a single enterprise rises above 40%, bargaining power may shift significantly.
+- If the total share of Others falls below 20%, the number of regional competitive entities may significantly decrease.

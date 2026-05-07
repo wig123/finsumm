@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Dual Line Chart
+- Title: No separate title displayed; Y-axis labeled “% of China GDP”
+- Axes: X-axis covers years 1980–2020; Y-axis range 0%–35%, scale approximately every 5%
+- Legend: Exports (Dark Cyan), Imports (Light Cyan)
+
+[Data Relationships]
+- 1980: Exports approximately 5%, Imports approximately 4%, difference approximately 1 percentage point.
+- Key Export Points: 2007 approximately 33%; 2010 approximately 24%; 2016 approximately 17%; 2020 approximately 18%; Change from 2007→2020 approximately -15 percentage points.
+- Key Import Points: 2008 approximately 22%; 2010 approximately 15%; 2015 approximately 12%; 2020 approximately 10%; Change from 2008→2020 approximately -12 percentage points.
+- Peak Comparison: Exports 33% vs Imports 22%, difference approximately 11 percentage points.
+- Period Comparison: 2010 difference approximately 9 percentage points (24% vs 15%); 2020 difference approximately 8 percentage points (18% vs 10%).
+
+[Pattern Characteristics]
+- The two curves started close together in the 1980s, then rose synchronously around 2000, forming distinct peaks around 2007–2008, followed by an overall decline from a high level.
+- The export curve remains mostly higher than the import curve throughout the period, with the largest gap near the peak, after which the difference narrows but a significant interval is maintained.
+- The two curves show periods of non-uniform directionality in certain segments, such as when exports peaked and declined, imports briefly maintained a relatively higher position in adjacent years.
+
+[Core Insights]
+Core Conclusion: Exports are relatively more prominent, and the overall importance of imports and exports has declined.
+
+Business Implications:
+- Foreign sales account for a larger proportion of the economic structure.
+- Indicators related to external demand have a stronger impact on overall performance.
+- The degree of external dependence has weakened in recent years compared to the peak period.
+
+Risk Concerns:
+- If the export proportion approaches 30% again, volatility in single external demand sources could easily amplify economic fluctuations.
+- If the import proportion falls below 10%, it may correspond to weakness in domestic demand or input-related activities.

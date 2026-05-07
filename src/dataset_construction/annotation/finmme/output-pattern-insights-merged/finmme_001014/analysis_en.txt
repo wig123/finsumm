@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Grouped Bar Chart
+- Title: Not specified
+- Legend: Red=3QFY20, Gray=2QFY22, Hollow=3QFY24
+- X-axis: Company Category (BAF, SBI Cards, Chola, SHFL, MMFS, CREDAG, LIC HF, Five Star, Aavas)
+- Y-axis: Percentage, values labeled on top of bars, scale range not displayed
+
+[Data Relationships]
+- 3QFY20: Maximum SHFL 5.3%, Minimum Aavas 0.3%.
+- 2QFY22: Maximum MMFS 10.1%, Minimum Aavas 0.8%.
+- 3QFY24: Maximum SHFL 6.2%, Minimum Aavas 0.6%.
+- Difference 2QFY22→3QFY24 (percentage points): MMFS -6.3, CREDAG -4.1, Chola -2.1, SBI Cards -1.5; LIC HF +0.2.
+- Comparison of 3QFY20 and 3QFY24 (percentage points): BAF -0.3, SHFL +0.9, LIC HF +1.3, Aavas +0.3.
+
+[Pattern Characteristics]
+Overall, companies were at a relative high point within the sample period in 2QFY22, while 3QFY24 levels are mostly lower than or close to 2QFY22. MMFS and CREDAG were relatively prominent in 2QFY22, and their subsequent magnitude of decline was the most significant among all companies. Aavas remained in the lowest range across all three time points, with the narrowest range of change. SHFL consistently stayed in the higher range across the three time points and showed a slight increase.
+
+[Core Insights]
+Core Conclusion: 2QFY22 was a periodic high point for most companies; subsequently, overall pressure eased, but divergence increased.
+
+Business Implications:
+- MMFS and CREDAG experienced significantly elevated periodic pressure in 2QFY22.
+- 3QFY24 values declined, indicating a general moderation in the level of constraint.
+- The medium-to-long-term stress levels for SHFL and LIC HF are relatively more stable.
+
+Risk Focus:
+- If MMFS approaches or exceeds the 10% level again, it could significantly erode profit margins.
+- If CREDAG rises above 6% again, it may trigger pressure for asset quality and pricing adjustments.

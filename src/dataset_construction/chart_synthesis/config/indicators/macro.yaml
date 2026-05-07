@@ -1,0 +1,161 @@
+macro_policy:
+  ts_indicators:
+  - indicator: macro.interest.rate.fed.funds
+    data_source: FRED
+    description_zh: 联邦基金有效利率
+    description_en: Federal Funds Effective Rate
+  - indicator: macro.money.m2
+    data_source: FRED
+    description_zh: M2货币供应量
+    description_en: M2 Money Stock
+  - indicator: macro.money.m1
+    data_source: FRED
+    description_zh: M1货币供应量
+    description_en: M1 Money Stock
+  - indicator: macro.money.velocity
+    data_source: FRED
+    description_zh: M2货币流通速度
+    description_en: Velocity of M2 Money Stock
+  - indicator: macro.gdp.real
+    data_source: FRED
+    description_zh: 美国实际GDP
+    description_en: U.S. Real GDP
+  - indicator: macro.gdp.nominal
+    data_source: FRED
+    description_zh: 美国名义GDP
+    description_en: U.S. Nominal GDP
+  - indicator: macro.leading.indicator
+    data_source: FRED
+    description_zh: OECD领先指标
+    description_en: OECD Leading Indicator
+  synthetic_shapes:
+  - CS_1D
+  - CS_ND
+fiscal_policy:
+  ts_indicators:
+  - indicator: macro.gdp.nominal
+    data_source: FRED
+    description_zh: 名义GDP
+    description_en: Nominal GDP
+  - indicator: macro.gdp.real
+    data_source: FRED
+    description_zh: 实际GDP
+    description_en: Real GDP
+  - indicator: macro.interest.rate.10y.treasury
+    data_source: FRED
+    description_zh: 10年期国债收益率
+    description_en: 10-Year Treasury Yield
+  synthetic_shapes:
+  - CS_1D
+  - CS_ND
+inflation:
+  ts_indicators:
+  - indicator: macro.inflation.cpi.headline
+    data_source: FRED
+    description_zh: 美国CPI通胀率
+    description_en: U.S. Consumer Price Index
+  - indicator: macro.inflation.cpi.core
+    data_source: FRED
+    description_zh: 核心CPI（剔除食品能源）
+    description_en: Core CPI (excluding Food & Energy)
+  - indicator: macro.inflation.pce.headline
+    data_source: FRED
+    description_zh: PCE物价指数
+    description_en: PCE Price Index
+  - indicator: macro.inflation.pce.core
+    data_source: FRED
+    description_zh: 核心PCE物价指数
+    description_en: Core PCE Price Index
+  - indicator: macro.inflation.ppi
+    data_source: FRED
+    description_zh: 生产者价格指数
+    description_en: Producer Price Index
+  synthetic_shapes:
+  - CS_1D
+  - CS_ND
+
+# 就业与经济增长主题
+growth_employment:
+  ts_indicators:
+  - indicator: macro.unemployment.rate
+    data_source: FRED
+    description_zh: 美国失业率
+    description_en: U.S. Unemployment Rate (UNRATE)
+  - indicator: macro.employment.nonfarm
+    data_source: FRED
+    description_zh: 非农就业人数
+    description_en: Total Nonfarm Payrolls (PAYEMS)
+  - indicator: macro.employment.claims.initial
+    data_source: FRED
+    description_zh: 初次申请失业救济人数
+    description_en: Initial Jobless Claims (ICSA)
+  - indicator: macro.employment.participation
+    data_source: FRED
+    description_zh: 劳动参与率
+    description_en: Labor Force Participation Rate
+  - indicator: macro.employment.hourly.earnings
+    data_source: FRED
+    description_zh: 平均时薪增速
+    description_en: Average Hourly Earnings
+  - indicator: macro.gdp.real
+    data_source: FRED
+    description_zh: 实际GDP增速
+    description_en: Real GDP Growth Rate
+  - indicator: macro.industrial.production
+    data_source: FRED
+    description_zh: 工业生产指数
+    description_en: Industrial Production Index
+  - indicator: macro.retail.sales
+    data_source: FRED
+    description_zh: 零售销售额
+    description_en: Retail Sales
+  synthetic_shapes:
+  - CS_1D
+  - CS_ND
+  synthetic_examples:
+  - 各行业就业增长对比
+  - 区域失业率分布
+
+# 衍生品与波动率主题
+derivatives:
+  ts_indicators:
+  - indicator: market.volatility.vix
+    data_source: FRED
+    description_zh: VIX波动率指数
+    description_en: CBOE Volatility Index (VIX)
+  - indicator: market.volatility.vix.3month
+    data_source: FRED
+    description_zh: VIX 3个月期货指数
+    description_en: VIX 3-Month Futures Index
+  - indicator: market.volatility.nasdaq100
+    data_source: FRED
+    description_zh: 纳斯达克100波动率指数
+    description_en: NASDAQ 100 Volatility Index
+  - indicator: market.volatility.djia
+    data_source: FRED
+    description_zh: 道琼斯波动率指数
+    description_en: DJIA Volatility Index
+  - indicator: market.volatility.move
+    data_source: FRED
+    description_zh: MOVE债券波动率指数
+    description_en: MOVE Bond Volatility Index
+  matrix_indicators:
+  - indicator: vol.surface.spx
+    data_source: Synthetic
+    description_zh: 标普500期权波动率曲面
+    description_en: S&P 500 Options Volatility Surface
+  - indicator: correlation.matrix.asset
+    data_source: Synthetic
+    description_zh: 资产类别相关性矩阵
+    description_en: Asset Class Correlation Matrix
+  - indicator: greeks.surface.delta.gamma
+    data_source: Synthetic
+    description_zh: 期权希腊字母曲面
+    description_en: Options Greeks Surface (Delta-Gamma)
+  synthetic_shapes:
+  - CS_ND
+  - MATRIX
+  synthetic_examples:
+  - 跨期限波动率曲面
+  - 各资产类别相关性热力图
+  - 期权策略收益分布

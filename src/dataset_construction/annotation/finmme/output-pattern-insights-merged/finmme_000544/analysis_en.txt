@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Grouped Bar Chart; Title: BVPS CAGR
+- X-axis: FY13-9M24, FY13-20, FY20-22 (During covid), FY23, 9MFY24 (After covid)
+- Y-axis: Percentage Scale, approximately -20% to 50%
+- Legend: BAF (Red), CIFC (Gray), LICHF (White Border), SHFL (Light Orange), MMFS (Black)
+- Bar Order per Group: BAF, CIFC, LICHF, SHFL, MMFS
+
+[Data Relationships]
+- FY13-9M24: 29%, 21%, 14%, 13%, 5%; Highest 29%, Lowest 5%, Difference 24pct
+- FY13-20: 32%, 20%, 16%, 14%, 12; Highest 32%, Lowest 12%, Difference 20pct
+- FY20-22: 15%, 20%, 12%, 10%, -17; Highest 20%, Lowest -17%, Difference 37pct
+- FY23: 24%, 22%, 10%, 20%, 9; Highest 24%, Lowest 9%, Difference 15pct
+- 9MFY24: 40%, 34%, 17%, 11%, 7; Highest 40%, Lowest 7%, Difference 33pct; Difference vs. FY23: +16, +12, +7, -9, -2pct
+
+[Pattern Characteristics]
+- The bar heights for different companies vary significantly across all periods. The internal dispersion is greatest in the FY20-22 group, followed by 9MFY24, with other periods showing relative convergence.
+- BAF and CIFC consistently occupy the higher positions within their respective groups across all periods, while MMFS generally remains in the lower range, registering the only negative value in FY20-22.
+- From FY20-22 to FY23, and then to 9MFY24, the direction of change in bar height between adjacent periods is inconsistent for most companies. A few companies (such as SHFL, MMFS) experienced a decline after FY23.
+
+[Core Insights]
+Core Conclusion: Differentiation intensified during the pandemic period, after which the leaders established an absolute lead.
+
+Business Implications:
+- During the pandemic, the pace of expansion for certain institutions showed a clear divergence from peers.
+- In the post-pandemic phase, leading players have gained an advantage in book value accumulation.
+- Lagging institutions are more dependent on industry prosperity for value creation.
+
+Risk Focus:
+- If MMFS remains below 5% long-term or repeats the negative value seen in FY20-22, it could weaken capital buffers.
+- If BAF or CIFC consistently exceeds 35%, the widening gap with peers may trigger competitive pressure.

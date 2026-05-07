@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Pie chart
+- Title: Not displayed
+- Axes: None
+- Legend: LHP (Red), MHP (Light Pink), HD (Black), HHP (Gray), Others (White)
+- Annotations: Percentages displayed on sectors; 48%, 12%, 12%, 4% are labeled; another black sector does not display a percentage
+
+[Data Relationships]
+- Proportions: LHP 4%, MHP 48%, HHP 12%, Others 12%, HD 24% (calculated from total 100% minus labeled 76%)
+- MHP is 24 percentage points higher than HD, and is 2 times HD
+- MHP is 44 percentage points higher than LHP, and is 12 times LHP
+- HHP and Others are the same (both 12%)
+- HD is 20 percentage points higher than LHP, and is 6 times LHP
+- The difference between MHP and HHP, and MHP and Others, is 36 percentage points, respectively
+
+[Pattern Characteristics]
+The overall structure shows a clear imbalance where a single dominant entity's proportion is significantly higher than other categories, followed by a medium-sized segment, with the remaining segments being noticeably smaller. There is no continuous gradient between the sectors; instead, they exhibit a tiered, hierarchical structure consisting of a dominant block, a secondary block, and several small blocks. HHP and Others have the same area, while LHP has the smallest area, creating a contrast between one extremely small end and one extremely large end.
+
+[Core Insights]
+Core Conclusion: The structure is highly concentrated in MHP, with HD positioned at a medium volume level.
+
+Business Implications:
+- The current structure is dominated by a single category, indicating high distribution concentration.
+- HD is at a secondary scale level, having a significant but non-dominant impact on the overall result.
+- LHP has a small proportion; its related business weight and influence are limited.
+
+Risk Concerns:
+- When MHP proportion is ≥50%, volatility in this category will significantly affect the overall result.
+- When LHP proportion is ≤5%, related resources and investment may be marginalized in the long term.

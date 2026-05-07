@@ -1,0 +1,35 @@
+[Chart Components]
+- Type: Combination of Stacked Bar Chart and Line Chart
+- Title: None
+- Axes: The vertical axis represents a numerical range from -2000 to 2500, the horizontal axis represents years from 2020 to 2027, marked annually.
+- Legend: Includes North America, Europe, Other Asia, China, Middle East, Africa, Net change
+
+[Data Relationships]
+- Key Values and Changes:
+  - Net change in 2020 was approximately -1000
+  - Net change peaked in 2024, approximately 2000
+  - Net change in 2027 was approximately -500
+
+- Extremum Comparison:
+  - The peak of net change was in 2024, approximately 2000
+  - The trough (lowest point) of net change was in 2020, approximately -1000
+
+- Significant Trends:
+  - Starting from 2020, net change gradually increased, peaking in 2024
+  - From 2024 to 2027, net change gradually declined
+  - The contribution of various regions changed significantly over the years, with growth in the Middle East and Africa being particularly prominent
+
+[Pattern Characteristics]
+The line chart shows a single-peak trajectory, starting in the negative zone, crossing the zero line to a high point in the middle, and returning to a low point at the end. The stacked bar structure is imbalanced; during the positive phase, the Middle East and Africa account for a higher proportion, while North America accounted for a larger negative proportion in the early stages. The inflection point occurs after the mid-term high, after which the height of the bars significantly shrinks.
+
+[Core Insights]
+Core Conclusion: The contribution structure is centralized, and the sustainability of the net change is insufficient.
+
+Business Implications:
+- High dependence on the Middle East and Africa
+- Structural stability is weak, affecting planning certainty
+- Need to increase participation from other regions
+
+Risk Focus:
+- Net change ≤ 0; overall result is negative, cumulative progress is reversed
+- Net change ≤ -500; negative expansion, annual contribution is difficult to offset

@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Single-series line chart, thick red line.
+- Legend: ROE (annualized).
+- X-axis: Quarterly timeline, from 1Q15 to 3Q23; ticks displayed as 1Q/3Q.
+- Y-axis: Numerical scale 0–14 (unit not specified).
+- No separate main title observed; no other legends or annotations.
+
+[Data Relationships]
+- Initial value (1Q15) ≈12.5; final value (3Q23) ≈10.2.
+- Peak value was in 3Q15, ≈13; second highest was in 1Q19, ≈12.5.
+- Trough value was in 1Q20, ≈4.7; peak-to-trough difference ≈8.3 (13–4.7).
+- 3Q16 ≈7.3, compared to 1Q16 ≈10.5, difference ≈3.2.
+- 3Q17 ≈11.7, compared to 1Q17 ≈10.5, difference ≈1.2.
+- 1Q21 ≈11.3, compared to 3Q21 ≈8.0, difference ≈3.3.
+- 1Q22 ≈9.7, compared to 3Q22 ≈10.2, difference ≈0.5.
+- 1Q23 ≈10.6, compared to 3Q23 ≈10.2, difference ≈0.4.
+
+[Pattern Characteristics]
+- The series started in a high range, followed by a sharp decline, and subsequently fluctuated around medium-to-high levels without exhibiting unidirectional extension.
+- In most years, there was a certain degree of inter-quarter difference between the first and third quarters; differences were significant in isolated years, but the differences tended to narrow in the later period.
+- Throughout the entire sample period, only one low value significantly deviated from the overall range occurred around 1Q20; the remaining data points were concentrated within the medium-to-high range, showing relatively continuous distribution.
+
+[Core Insights]
+Core Conclusion: ROE has maintained medium-to-high levels over the long term, with the central tendency slightly declining and volatility converging.
+
+Business Implications:
+- Overall profitability remains within a relatively acceptable range.
+- The extreme decline in 1Q20 exposed the elasticity and vulnerability of earnings.
+- The narrowing of quarterly differences in the later period reflects a trend toward more balanced earnings performance.
+
+Risk Focus:
+- Should ROE fall below 5 again, a significant temporary contraction in earnings may occur.
+- Sustained performance below 8 may lead to a long-term weakening of the return on capital level.

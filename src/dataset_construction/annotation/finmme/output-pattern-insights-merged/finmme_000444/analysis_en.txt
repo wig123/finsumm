@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Dual-axis line chart
+- Legend: Red "Price," Gray "Rel KOSPI 200"
+- X-axis: Time, labeled from Feb 23 to Jan 24
+- Left Y-axis: Unit KRW, scale approximately 675,000 to 825,000
+- Right Y-axis: Scale 80 to 100
+- Title: Not displayed
+
+[Data Relationships]
+- Price in Feb 23 approximately ≥800,000 KRW; Jan 24 approximately 750,000–770,000 KRW
+- Price peak >800,000 KRW; trough approximately 700,000 KRW; range (high-low difference) ≥100,000 KRW
+- Rel KOSPI 200 in Feb 23 approximately 98–100; Oct–Nov 23 approximately 82–85; range (high-low difference) approximately 15–18 points
+- In Jan 24, Rel KOSPI 200 is approximately 90–95
+- Around Sep 23: Price approximately 750,000 KRW; Rel KOSPI 200 approximately 85
+
+[Pattern Characteristics]
+- Price generally exhibits wide fluctuations, concentrated in a higher range in the initial period, gradually declining in the middle period, forming a local low near Oct 23, and then rising again toward Jan 24.
+- Rel KOSPI 200 generally moves in the same direction as Price, but the deviation widens around Jun–Sep 23, after which the synchronization strengthens during the Oct–Dec 23 period.
+- Both curves show a clear extreme point near Oct 23, followed by a relatively rapid reversal before Jan 24.
+
+[Core Insights]
+Core Conclusion: The individual stock's performance relative to the index showed initial weakness followed by signs of recovery within the year.
+
+Business Implications:
+- A clear period of decline in medium-term relative returns occurred.
+- Portfolio allocation efficiency relative to the benchmark was low during Jun–Sep 23.
+- The relative level recovered in Jan 24, which is favorable for presenting interim performance.
+
+Risk Focus:
+- If Rel KOSPI 200 falls below 85 again, it could drag down the relative return ranking.
+- If Price approaches 700,000 KRW, the downside potential expands, potentially triggering stop-loss and redemption pressure.

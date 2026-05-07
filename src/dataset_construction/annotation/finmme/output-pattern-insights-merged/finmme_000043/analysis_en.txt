@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Single-series line chart
+- Legend/Title: Total loans applied (3MMA)
+- Y-axis: Unit is "MYR bn", range from 0 to 160, scale interval is 20
+- X-axis: Time (Monthly), range from January 2021 to January 2024, tick marks labeled as Jan-21, Mar-21, etc.
+- Line Color: Red
+
+[Data Relationships]
+- Initial value (Jan 2021) is approximately 70; final value (Jan 2024) is approximately 118; the difference is approximately 48
+- Peak value for the entire period (Nov 2023) is approximately 138; trough value for the entire period (Mar 2021) is approximately 66; the range is approximately 72
+- The value in Sep 2022 is approximately 128, compared to the value in Jan 2023 of approximately 94, the difference is approximately 34
+- The value in May 2021 is approximately 86, compared to the value in Jul 2021 of approximately 74, the difference is approximately 12
+- The value in Jan 2022 is approximately 108, compared to the value in Mar 2022 of approximately 94, the difference is approximately 14
+- The value in May 2022 is approximately 112, compared to the value in Nov 2022 of approximately 110, the difference is approximately 2
+- The value in May 2023 is approximately 116, compared to the value in Jul 2023 of approximately 112, the difference is approximately 4
+- The value in Sep 2023 is approximately 120, compared to the value in Jan 2024 of approximately 118, the difference is approximately 2
+
+[Pattern Characteristics]
+The series progresses with a single dominant structure, showing step-like fluctuations accompanied by multiple moderate adjustments. The amplitude of fluctuation was more pronounced from mid-2022 to early 2023, followed by relatively balanced changes maintained within a higher range. Significant inflection points are located near the trough in March 2021 and the peak in November 2023, after which a phased decline occurred.
+
+[Core Insights]
+Core Conclusion: The scale of loan applications is at a high level, requiring matching operational capacity.
+
+Business Implications:
+- Large volume of applications, resulting in more sufficient potential conversions.
+- Approval and disbursement capacity requires expansion.
+- Pricing and quota strategies place greater emphasis on selection/screening.
+
+Risk Concerns:
+- When the value falls below 94 (Jan 2023), the current period's disbursement volume may be restricted.
+- When the value exceeds 138 (Nov 2023), approval pressure increases.

@@ -1,0 +1,39 @@
+[Chart Components]
+- Type: Data Table
+- Title: BNP Paribas Terminal Policy Rate Forecast (%)
+- Axes: No axes; rows and columns identify different countries and time periods.
+- Legend: Interest rate forecasts for Year End and Quarter End.
+
+[Data Relationships]
+- **Key Figures and Changes:**
+  - US interest rate was 4.50% at the end of 2023, increasing to 5.00% in 2024.
+  - Eurozone interest rate was 3.00% at the end of 2023, remaining unchanged in 2024.
+  - China's interest rate was 2.25% at the end of 2023, rising to 2.50% by Q3 2023.
+  - Japan's interest rate was 0.25% at the end of 2023, standing at -0.10% in Q3 and Q4 2023.
+  - UK interest rate was 4.25% at the end of 2023, rising to 5.25% by Q4 2023.
+
+- **Extreme Value Comparison:**
+  - From Q2 2023 to Q4 2023, the interest rates for the US and UK were the highest (5.50%).
+  - Japan had the lowest interest rate in Q3 and Q4 2023 (-0.10%).
+
+- **Significant Trends:**
+  - US interest rates gradually rose in 2023 and maintained a high level in 2024.
+  - China's interest rates saw a slight increase in Q2 and Q3 2023, followed by stabilization.
+  - UK interest rates continued to rise throughout 2023, with a slight decrease projected for 2024.
+
+[Pattern Characteristics]
+- Multiple independent series are formed by country, quarter, and year-end, showing clear stratification of values and cross-country disparities.
+- The US and UK are in the high range of the table; China stabilized after minor adjustments in the medium term; the Eurozone's year-end and quarterly values are relatively close.
+- Japan exhibited special values below zero in the later period, constituting a significant outlier for the entire table.
+
+[Core Insights]
+Core Conclusion: Interest rate paces are asynchronous across markets, requiring country-specific strategy formulation.
+
+Business Implications:
+- Financing and return benchmarks show country-specific differences.
+- Holdings and duration of interest-rate-sensitive assets require segmented management.
+- Discrepancies between annual and quarterly forecasts highlight the importance of market timing.
+
+Risk Focus:
+- US rate of 5.50% through Q1 2024 suggests rising interest expenses and pressure on profits.
+- The coexistence of Japan's -0.10% (through Q4 2023) and the US rate of 5.50% leads to imbalance in cross-country portfolio returns.

@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Bar Chart (Monthly).
+- Title: Not displayed; the chart includes the annotation "Average = 259".
+- Y-axis: Unit "('000 MT)", range 0–600.
+- X-axis: Time axis, labeled points include Jan-20, Sep-20, May-21, Jan-22, Sep-22, May-23 (Monthly frequency).
+- Legend: None; Red bars; A black dashed line represents the average level.
+
+[Data Relationships]
+- Average Value = 259 ('000 MT).
+- The highest month occurred in the second half of 2020, approximately 500–550, exceeding the average by 241–291.
+- The second highest occurred in the second half of 2022, approximately 450–500, exceeding the average by 191–241.
+- The lowest occurred in early 2020, <50, falling below the average by ≥209.
+- Initial period (Jan-20) <50; Final period (far right) approximately 400–430, the difference between the two is ≥350.
+- Range (Max-Min) ≥450.
+- The average value accounts for approximately 43% of the Y-axis upper limit of 600.
+
+[Pattern Characteristics]
+- Overall, early values were at extremely low levels, followed by a rapid increase in the second half of 2020, forming a high-level range, and subsequently showing irregular fluctuations within the medium-to-high range.
+- Monthly bars are distributed alternately above and below the average dashed line; months above the average appear scattered throughout the period, but are noticeably more concentrated in the second half of 2020 and the second half of 2022.
+- The chart shows multiple peaks and troughs; the span between the highest and lowest values covers a significant portion of the overall Y-axis range, indicating substantial dispersion.
+
+[Core Insights]
+Core Conclusion: Significant volume volatility during the sample period, with a noticeable elevation in the overall level during the later stages.
+
+Business Implications:
+- Indicates that the business scale experienced significant expansion within a short period.
+- Maintaining the medium-to-high range in the later period increases demands on capacity and resource utilization.
+- The matching degree between demand and supply may be periodically unbalanced.
+
+Risk Focus:
+- If a single month approaches 600 and persists for two consecutive months or more, it may lead to coexisting supply constraints and inventory buildup.
+- If a single month drops below 100, a decrease of approximately 150 or more compared to the average, it could lead to a significant decline in revenue and pressure on cost dilution.

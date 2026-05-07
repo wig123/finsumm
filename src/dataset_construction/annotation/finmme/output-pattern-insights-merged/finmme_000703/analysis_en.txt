@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Combination chart (Red bar chart by category + Black square scatter plot).
+- Title: Main title not displayed; legend labels are "1W" (Red bars) and "YTD (rhs)" (Black squares).
+- x-axis: Numerous country/sector category labels, such as "CH Autos/Comps," "KR SoftwareSvcs," etc.
+- Left y-axis (1W): Scale approximately -12 to +12.
+- Right y-axis (YTD): Scale approximately -35 to +35.
+
+[Data Relationships]
+- 1W Peak: +11 (Category 1: CH Autos/Comps).
+- Second highest: +7 (Category 2).
+- Followed sequentially by: +5 (Category 3), +4 (Category 4), +3, +3 (Categories 5-6).
+- Positive values also appear at +2, +1, with multiple categories marked as 0.
+- Negative values range from -1 down to -5; Minimum value is -5 (Last category: KR SoftwareSvcs).
+- 1W maximum to minimum spread: 16.
+- YTD is represented by black squares; specific values are not labeled, the right axis provides a range of -35 to +35.
+
+[Pattern Characteristics]
+- The 1W bar values for each category transition gradually from significantly positive values on the left to near zero, and then extend into moderately negative values, exhibiting a single-peak structure converging towards both ends. The overall distribution is relatively continuous, with significant gaps only between the few categories at the extremes and the middle section.
+- The vertical distribution range of the YTD black squares is far greater than that of the 1W bars, featuring high points near the top of the right axis and low points near the bottom. Horizontally, the sorting does not perfectly align with the 1W values, and in localized areas, points appear opposite to the direction of their corresponding bars.
+- Some categories near the extremes simultaneously show extreme 1W values and significantly outlying YTD data points, while the 1W values for the large number of categories in the middle are concentrated near zero, yet their corresponding YTD points still show considerable dispersion.
+
+[Core Insights]
+Core Conclusion: Short-term performance and Year-to-Date results show significant divergence, with structural adjustments concentrated in a few sectors.
+
+Business Implications:
+- Return contribution is highly concentrated; portfolio allocation results depend on a few directions.
+- If most portfolio weights are evenly distributed, the overall uplift will be limited.
+- Some sectors exhibit temporary reversals, making them sensitive to performance evaluation metrics.
+
+Risk Focus:
+- If sectors where 1W≤-3 and YTD≤-10 continue this trend, they may drag down the portfolio's annual return.
+- If sectors where 1W≥+7 but YTD≤0 experience a pullback, short-term additions (scaling up) risk amplifying profit givebacks (profit erosion).

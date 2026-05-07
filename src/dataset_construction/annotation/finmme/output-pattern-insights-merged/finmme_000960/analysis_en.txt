@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Grouped Bar Chart; No title observed
+- X-axis: Categories are PSB, Private Banks, NBFCs
+- Y-axis: Percentage scale, range 0.0%—6.0%, marked every 1.0%
+- Legend: 4Q20 (Red), 4Q21 (Gray), 4Q22 (White), 4Q23 (Black), 2Q24 (Light Orange)
+- Specific percentage data labels are attached to each bar
+
+[Data Relationships]
+- PSB: 4Q20=5.3%, 4Q21=4.6%, 4Q22=3.7%, 4Q23=3.0%, 2Q24=3.2%; Maximum 5.3%, Minimum 3.0%, range difference 2.3 percentage points.
+- Private Banks: 2.0%, 2.3%, 1.6%, 1.4%, 1.5%; Maximum 2.3%, Minimum 1.4%, range difference 0.9 percentage points.
+- NBFCs: 5.3%, 5.7%, 5.7%, 4.0%, 2.9%; Maximum 5.7%, Minimum 2.9%, range difference 2.8 percentage points.
+- 4Q20 Cross-category: PSB=5.3%, NBFCs=5.3%, Private=2.0%; Difference with Private is 3.3 percentage points.
+- 4Q22 Cross-category: NBFCs=5.7%, PSB=3.7%, Private=1.6%; Differences are 2.0, 2.1, 4.1 percentage points, respectively.
+- 2Q24 Cross-category: PSB=3.2%, NBFCs=2.9%, Private=1.5%; Differences are PSB-Private=1.7, NBFCs-Private=1.4, PSB-NBFCs=0.3 percentage points.
+
+[Pattern Characteristics]
+- The values for the three types of institutions show an overall narrowing trend across periods. PSB and NBFCs were relatively high in the initial periods, while Private Banks consistently remained in the lower range with smaller fluctuations.
+- NBFCs show the largest gap between the high and low points during the sample period, followed by PSB, with Private Banks being the most concentrated.
+- In cross-period comparisons, PSB and NBFCs levels were close early on. Later, the gap between the three significantly narrowed, converging toward the mid-to-low level range.
+
+[Core Insights]
+Core Conclusion: NBFC and PSB metrics show more significant improvement, while Private Banks maintain a relatively stable low level.
+
+Business Implications:
+- The speed of quality restoration for NBFCs and PSB is faster than for Private Banks.
+- Private Banks exhibit a more stable state and a narrower range for this metric.
+- The gap among the three types of institutions significantly narrowed in the latest period, leading to a more balanced structure.
+
+Risk Concerns:
+- If NBFCs rise above 4.0% again, they may return to a historically higher stress range.
+- If PSB approaches 4.6% or higher again, it may undermine the effectiveness of previous restoration efforts.

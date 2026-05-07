@@ -1,0 +1,41 @@
+[Chart Components]
+- Type: Line Chart
+- Title: No explicit title
+- Axes:
+  - X-axis: Year range 2008—2024, marked by annual increments
+  - Y-axis: Price (USD/MT), range 0—350, horizontal grid lines marked every 50
+- Legend:
+  - Red line represents China Zinc Concentrate T/C
+  - Gray line represents Benchmark Zinc T/C
+
+[Data Relationships]
+- Key Values and Changes:
+  - In 2008, China Zinc Concentrate T/C was approximately 300 USD/MT, followed by a rapid decline.
+  - Reached a peak of approximately 300 USD/MT in 2016.
+  - Fell to a trough of approximately 50 USD/MT in 2020.
+
+- Extremum Comparison:
+  - 2016 and 2023 were high points for China Zinc Concentrate T/C, both exceeding the Benchmark Zinc T/C.
+  - 2020 was a clear low point.
+
+- Key Trends:
+  - China Zinc Concentrate T/C generally shows a volatile downward trend starting from 2008.
+  - Benchmark Zinc T/C remained largely stable from 2008 to 2016, followed by volatile changes.
+  - China Zinc Concentrate T/C showed two significant increases in 2016 and 2023, surpassing the Benchmark Zinc T/C.
+
+[Pattern Characteristics]
+- The red line exhibits significant peak-trough cycles, with a general downward bias and high volatility.
+- The gray line shows a step-like structure, relatively stable in the early period, with several step changes occurring in the middle and later periods.
+- The red line formed prominent highs in 2016 and 2023, crossing above the gray line, and showed a clear low in 2020.
+
+[Core Insights]
+Core Conclusion: (Low coupling between China T/C and the benchmark)
+
+Business Implications:
+- Implication 1 (Insufficient indicator stability, requiring period-by-period assessment)
+- Implication 2 (Limited effectiveness of benchmarking against the standard)
+- Implication 3 (Abnormal level phases increase pricing uncertainty)
+
+Risk Focus:
+- Risk Point 1 (Below 50 USD/MT: Widening gap with the benchmark, leading to benchmarking deviation)
+- Risk Point 2 (Above 300 USD/MT: Located in the extreme value zone, potentially triggering pricing adjustment pressure)

@@ -1,0 +1,36 @@
+[Chart Components]
+- Type: Scatter Plot
+- Title: 3m Implied vs realised skew; last month
+- Axes:
+  - X-axis: Implied skew (Range: -0.3% to 0.3%)
+  - Y-axis: Realised skew (Range: -0.6% to 0.4%)
+- Legend:
+  - Blue Diamond: Higher spot
+  - Green Square: Lower spot
+
+[Data Relationships]
+- Key Trends:
+  - Most blue "Higher spot" data points are at lower levels on the chart, showing an overall negative correlation trend.
+  - Green "Lower spot" data points are distributed higher, showing an overall positive correlation trend.
+- Extremum Comparison:
+  - "Higher spot" reaches a minimum Realised skew of -0.2%.
+  - "Lower spot" reaches a maximum Implied skew of approximately 0.3%.
+- Key Contrast:
+  - The two types of data points exhibit opposing distribution trends, indicating different levels of correlation.
+
+[Pattern Characteristics]
+- The two groups of points form distinct clusters: the blue points are mostly located in the lower-left area, and the green points are mostly located in the upper-right area, forming an overall separated structure.
+- The two group regression lines run in opposite directions, converging near the coordinate origin.
+- The blue group shows greater vertical dispersion, with a few outliers far from the cluster.
+
+[Core Insights]
+Core Conclusion: The relationship between implied and realized skew diverges under different spot conditions.
+
+Business Implications:
+- The relationship must be assessed separately based on the spot status.
+- Unified regression may underestimate inter-group differences.
+- Model parameters should be adjusted according to the spot status.
+
+Risk Focus:
+- Implied skew ≥ 0.3% (low spot extremum), extrapolation judgments are prone to distortion.
+- Realised skew ≤ -0.2% (high spot extremum), mixed modeling error is amplified.

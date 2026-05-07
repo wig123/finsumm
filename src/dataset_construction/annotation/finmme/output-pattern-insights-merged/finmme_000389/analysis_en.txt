@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Dual-axis line chart.
+- Legend: Red line "DRAM ASP y-y"; Grey line "SEC share price (RHS)".
+- X-axis: Time, Jan-06 to Oct-08, marked by month/year.
+- Left Y-axis: Percentage, range approximately -80% to 60%, including the 0% baseline.
+- Right Y-axis: Share price, range approximately 8,000 to 16,000, the grey line uses the right axis scale.
+
+[Data Relationships]
+- DRAM ASP YoY: Approx. -20% in Jan-06; peak approx. 40% near Jan-07; trough approx. -60% near Jan-08; approx. -30% in Oct-08.
+- DRAM ASP YoY range: Approximately 100 percentage points (40% and -60%).
+- SEC Share Price: Approx. 14,000 in Jan-06; trough approx. 9,000 near Jan-08; peak approx. 15,000 near Apr-May 08; approx. 9,000 in Oct-08.
+- SEC Share Price range: Approximately 6,000 (15,000−9,000).
+- Key corresponding points: Share price approx. 11,000 when ASP≈40% in Jan-07; ASP approx. -10% when share price≈15,000 in Apr-May 08.
+
+[Pattern Characteristics]
+- The red line first gradually rises from the negative range to a high point in the positive range, then remains in a deeply negative range for a long period, slightly narrowing towards the end but still negative. There is one significant peak and one deep trough during this period.
+- The grey line forms multiple moderate fluctuation bands during the sample period, repeatedly changing within a relatively wide price range, and rapidly retreats to near the lower boundary of the range after reaching a higher peak later in the period.
+- The two curves show synchronous or inverse movements in different directions across multiple phases. The timing of peaks and troughs does not completely coincide in localized intervals.
+
+[Core Insights]
+Core Conclusion: The degree to which the share price tracks DRAM price performance is limited, and the timing is inconsistent.
+
+Business Implications:
+- Share price valuation logic does not rely entirely on the price of a single product.
+- Factors beyond earnings expectations carry significant weight in the share price.
+- Short-term product price signals offer limited guidance for share price analysis.
+
+Risk Focus:
+- When DRAM ASP YoY falls below approximately -60%, if the share price remains above 14,000, there may be a misalignment between valuation and fundamentals.
+- When the share price retreats to near 9,000 and ASP remains in the negative range, continued weakness may amplify market sentiment and earnings volatility.

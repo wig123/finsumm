@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Time series line chart
+- Theme/Title: Ramco EV/EBITDA (x) and ±1/±2 Standard Deviation Level Lines
+- Axes: X-axis is time, range Feb-19 to Feb-24; Y-axis is EV/EBITDA multiple, range approximately 6–18
+- Legend: Red line is Ramco EV/EBITDA; Gray line is +2 standard deviations; Black line is +1 standard deviation; Light orange is -1 standard deviation; Black dashed line is -2 standard deviations
+
+[Data Relationships]
+- The -2 standard deviation level line is explicitly marked as 10x.
+- The -1 standard deviation line is approximately 12x; the +1 standard deviation line is approximately 15x; the +2 standard deviation line is approximately 17x.
+- Standard deviation line spacing: (-2→-1)≈2x, (-1→+1)≈3x, (+1→+2)≈2x.
+- The time axis covers Feb-19 to Feb-24; data generally falls between approximately 10x and 17x within this range.
+- A low point occurred near the beginning of 2020, falling below 10x.
+
+[Pattern Characteristics]
+- The red line fluctuates around the +1 standard deviation line most of the time, generally remaining above the -1 standard deviation line, only approaching this level during isolated periods.
+- A significant downward deviation occurred at the beginning of 2020, briefly falling below the -2 standard deviation line. Subsequently, it oscillated between the -1 standard deviation line and the +2 standard deviation line, approaching but not breaking the +2 standard deviation line multiple times.
+- The entire data segment did not show prolonged proximity to either extreme standard deviation level, exhibiting multiple medium-amplitude fluctuations.
+
+[Core Insights]
+Core Conclusion: Valuation is mostly in the historical medium-to-high range, with extreme lows being rare.
+
+Business Implications:
+- The overall valuation level deviates relatively little from the historical mean.
+- Medium-to-long-term pricing reflects normal conditions rather than non-routine events.
+- The time window during which extreme sentiment dominates pricing is relatively brief.
+
+Risk Focus:
+- If it falls below 10x again, it may correspond to sharp sentiment contraction and drawdown pressure.
+- If it continues to rise while near 17x, it may bring subsequent adjustment risk related to mean reversion.

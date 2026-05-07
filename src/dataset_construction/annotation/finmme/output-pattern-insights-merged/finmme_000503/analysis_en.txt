@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Company Score Ranking Table (Table).
+- Annotation: 30 companies; currently displaying the top 7.
+- Column Titles and Metrics: Total score(100), Governance and strategy(10), Ecosystems(35), Traceability(15), Social responsibility(40).
+- Elements: Company name and rank, numerical values and horizontal bars for each column, details button on the right; no axes.
+
+[Data Relationships]
+- Total score Highest: Thai Union 47.5; Lowest: Bolton 40.1; Difference: 7.4.
+- Governance Highest: Nueva Pescanova 6.1; Lowest: Cargill 3.6; Difference: 2.5.
+- Ecosystems Highest: Nomad Foods 22.3; Lowest: Thai Union 14.6; Difference: 7.7.
+- Traceability Highest: Nueva Pescanova and Nutreco 9.4; Lowest: Mowi 5.6; Difference: 3.8.
+- Social Responsibility Highest: Thai Union 18.6; Lowest: Nutreco 8.3; Difference: 10.3.
+- Total Score Order: 47.5>43.8>43.5>43.0>42.0>41.3>40.1.
+
+[Pattern Characteristics]
+- The total scores of the top seven show a gradual decrease, with a small gap between the highest and lowest, indicating a relatively tight overall distribution.
+- The bar lengths across the four dimensions are unevenly distributed among companies; some companies show significant prominence in a single dimension while contracting relatively in others.
+- The bars for Ecosystems or Social Responsibility dimensions for certain companies are significantly longer than those for other dimensions, forming a stark contrast with their scores in Governance or Traceability.
+
+[Core Insights]
+Core Conclusion: The overall performance of the companies is similar, but individual capabilities show significant differences.
+
+Business Implications:
+- Comprehensive ranking struggles to fully reflect structural differences.
+- Ecosystems and Social Responsibility are more critical factors influencing the total score.
+- Weaknesses in Governance and Traceability will diminish overall competitiveness.
+
+Risk Focus:
+- When the Governance score is below 4, even high scores in other dimensions may limit the overall potential for improvement.
+- When Social Responsibility is below 10, the company may be significantly surpassed by competitors within the same score bracket.

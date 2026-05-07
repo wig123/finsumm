@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Line chart (three curves)
+- Legend: Red—ROCE (post-tax, %); Gray dashed line—ROE (%); Black—ROIC (%)
+- Y-axis: Percentage scale 0%—25%
+- X-axis: Fiscal Year FY13—FY26F (FY24F–FY26F are forecasts)
+- Title: Not displayed
+
+[Data Relationships]
+- FY13: ROCE≈10%, ROE≈15%, ROIC≈15%
+- Lowest: ROCE≈4% (FY14/FY23), ROE≈5% (FY14/FY23), ROIC≈5% (FY14)
+- Highest: ROE≈20% (FY17), ROIC≈17% (FY17/FY21), ROCE≈11% (FY17)
+- FY26F: ROCE≈8.5%, ROE≈11%, ROIC≈12.5%
+- FY13→FY26F Difference: ROCE approximately -1.5 pct, ROE approximately -4 pct, ROIC approximately -2.5 pct
+- FY17 Gap: ROE is approximately 3 pct higher than ROIC; ROIC is approximately 6 pct higher than ROCE
+
+[Pattern Characteristics]
+All three curves reached a local trough in FY14, followed by the formation of the first common peak in FY17. Subsequently, the overall trend showed a two-stage pattern of initial decline followed by recovery, reaching a second peak in FY21, and returning close to the low range in FY23. The overall levels of ROE and ROIC are similar and mostly higher than ROCE. The three metrics are more convergent during trough periods and the gap widens during peak periods. By FY26F, they gradually converge again but do not return to the starting levels.
+
+[Core Insights]
+Core Conclusion: After two rounds of earnings recovery, future return levels are slightly below the historical starting point.
+
+Business Implications:
+- The two recoveries demonstrate a certain resilience in profitability.
+- ROE consistently higher than ROCE reflects that shareholder returns are more sensitive to capital utilization.
+- Returns during the forecast period have not returned to the FY17 peak, indicating limited long-term growth momentum.
+
+Risk Concerns:
+- If ROE consistently falls below 10%, equity returns may struggle to cover the cost of capital.
+- If ROCE remains below 5% for the long term, existing investment projects may face value erosion.

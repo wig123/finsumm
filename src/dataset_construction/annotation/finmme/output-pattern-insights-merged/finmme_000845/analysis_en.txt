@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Multi-line time series chart
+- Title: Not displayed; annotation in the upper right corner "Median: 30.1x"
+- Y-axis: Unit HKD, range 0–700
+- X-axis: Year scale 2014–2023
+- Labels/Legend: Four benchmark lines labeled "10x" (gray), "20x" (solid black line), "30x" (light pink), "40x" (dashed black line); plus one main red line
+
+[Data Relationships]
+- The red line started (2014) at approximately 40–50 HKD; ended (2023) at approximately 180–200 HKD, a change of about +130–150 HKD
+- The red line reached its lowest point around 2018–2019 at ≈20 HKD; its highest point was around 2022 at ≈320 HKD, a peak-to-trough difference of approximately 300 HKD
+- The 2022 high point of ≈320 HKD is between the 20x line (≈250 HKD) and the 30x line (≈360 HKD)
+- At the end of 2023, the red line was ≈180–200 HKD, between the 10x line (≈140 HKD) and the 20x line (≈280 HKD)
+- End-of-year 2023 values for each benchmark line: 10x≈140, 20x≈280, 30x≈420, 40x≈540 HKD
+
+[Pattern Characteristics]
+The red line fluctuated narrowly around the lower levels of the benchmark lines from 2014–2019, close to the lower boundary of the range. A steep ascent occurred after the end of 2020, forming a single distinct peak in 2022, followed by a retreat from the high and wide fluctuations between 10x and 20x. The overall structure shows a pattern of initial flatness, a sharp rise in the middle phase, and high-level consolidation after a pullback, forming a clear separation from the 30x and 40x benchmark lines in the later period.
+
+[Core Insights]
+Core Conclusion: The current valuation level is significantly below the high-multiple benchmarks, residing in the lower-middle range.
+
+Business Implications:
+- Compared to the 30x and 40x benchmarks, the current pricing shows a significant discount.
+- Close to the 20x benchmark, indicating a downward shift in the valuation center.
+- The retreat from the 2022 peak reflects insufficient sustainability at high levels.
+
+Risk Concerns:
+- If the price falls below the 10x line of approximately 140 HKD, it may trigger further emotional selling.
+- If the price remains long-term below the 20x line of approximately 280 HKD, it may suppress refinancing and valuation recovery potential.

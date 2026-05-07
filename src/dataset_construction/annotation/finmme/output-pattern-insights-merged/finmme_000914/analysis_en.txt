@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Multi-series line chart; title not displayed.
+- Y-axis: Labeled "Corporate tax rate," range 0%—50%, approximately 5% increments.
+- X-axis: Years 1980—2020, approximately 5-year increments.
+- Legend: North America (dark cyan solid line), Asia (light cyan solid line), Europe (orange dashed line).
+- Includes grid lines.
+
+[Data Relationships]
+- 1980 values: North America ≈ 35%, Asia ≈ 38%, Europe ≈ 44–45%.
+- 2020 values: North America ≈ 21–22%, Asia ≈ 18%, Europe ≈ 18%.
+- 1980→2020 difference: North America approximately 13 percentage points, Asia approximately 20 percentage points, Europe approximately 27 percentage points.
+- 2000 values: North America ≈ 27–28%, Asia ≈ 29–30%, Europe ≈ 23–25%.
+- 2010 values: North America ≈ 23–24%, Asia ≈ 21%, Europe ≈ 19–20%.
+- Peak value: Europe early 1980s ≈ 45%; Trough/Low point: All three regions near 2020 ≈ 18–22%.
+
+[Pattern Characteristics]
+The three series generally show a continuous downward trend from 1980 to 2020, with large differences in levels early on, gradually converging later. The Europe curve started at the highest position and experienced the largest adjustment magnitude, showing a noticeable step-down decline around the late 1990s. The trends for Asia and North America are smoother, remaining close throughout the middle and later periods, and converging with Europe into a narrower range near the end point.
+
+[Core Insights]
+Core Conclusion: Corporate income tax rates in major global regions have trended downward over the long term and are converging.
+
+Business Implications:
+- Tax competition among regions is intensifying, and regional disparities are narrowing.
+- The impact of tax burden differences on location selection for cross-regional investment is diminishing.
+- Corporate earnings sensitivity to tax rate changes is generally decreasing.
+
+Risk Focus:
+- If tax rates approach 30% again, corporate net profit margins could be significantly compressed.
+- If a region's tax rate remains consistently more than 5 percentage points above its peers, it may weaken local capital attractiveness.

@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Dual-axis combination chart (Grey bars represent export value, Red line represents year-over-year growth, y-y).
+- Legend: Export value, y-y.
+- Time Axis: Monthly, range 2007/02 to 2023/10.
+- Left Axis: Unit JPY bn, scale 0 to 9.
+- Right Axis: Unit %, scale -80% to 100%, includes 0% horizontal reference line.
+- Annotation: Top right displays “Dec: 0.0%”.
+
+[Data Relationships]
+- Time Coverage: 2007/02—2023/10.
+- Latest Annotation: YoY is 0.0% (Dec).
+- Export Value Range: Minimum below 2 JPY bn, maximum exceeding 8 JPY bn, difference ≥ 6 JPY bn.
+- YoY Range: Minimum below -60%, maximum between 80%—100%, the difference between maximum and minimum is at least 140 percentage points.
+- Near early 2009, YoY was below -60%; near mid-2021, YoY was above 60%.
+- Export value bars for multiple months in 2022—2023 were above 7 JPY bn.
+
+[Pattern Characteristics]
+- The bars generally show a step-like distribution from low—medium—high levels, with bars in the mid-to-late period significantly higher than the early period, forming a sustained, relatively high plateau during 2022—2023.
+- The line repeatedly deviates significantly from the 0% reference line during the sample period, exhibiting both deeply negative ranges and clearly high positive ranges, with a large span between peaks and troughs.
+- The line shows relatively sharp single-peak structures near both extreme negative and extreme positive values, after which it gradually returns to a narrow range close to 0%, settling at 0.0% at the latest point.
+
+[Core Insights]
+Core Conclusion: While the scale of exports has increased, the growth rate has returned to a stagnant state.
+
+Business Implications:
+- Total exports are already in a historically relatively high range.
+- Growth momentum has clearly weakened, and the pulling effect of external demand is limited.
+- Future performance will rely more on inventory stability rather than volume expansion.
+
+Risk Focus:
+- If YoY falls below -20% again, it may transition into overall contraction, suppressing related revenue.
+- If export value falls below 4 JPY bn for several consecutive months, it may trigger pressure on capacity utilization and cash flow.

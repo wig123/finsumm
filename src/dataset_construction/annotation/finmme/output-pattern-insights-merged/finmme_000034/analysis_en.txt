@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Bar + Line Combination Chart
+- Title: Not displayed
+- X-axis: Quarterly/Fiscal Year Category, range approximately Q?FY19 to Q?FY24
+- Left Y-axis: Realization (Rs/kg), scale approximately 90—180
+- Right Y-axis: Growth YoY (%), scale approximately -20—50
+- Legend: Red Bar = Realization (LHS); Blue Line = Growth YoY (RHS)
+
+[Data Relationships]
+- The leftmost red bar is approximately 115 Rs/kg; the rightmost red bar is approximately 130 Rs/kg; the difference is approximately 15 Rs/kg
+- The lowest value of the red bar is approximately 110 Rs/kg (left side); the highest value is approximately 175 Rs/kg (right middle section); the high-low difference is approximately 65 Rs/kg
+- The highest value of the blue line is approximately 45%; the lowest value is approximately -15%; the high-low difference is approximately 60 percentage points
+- The leftmost blue line is approximately 10%; the rightmost is approximately -10%; the difference is approximately 20 percentage points
+- The blue line peak of approximately 45% corresponds to a red bar of approximately 160 Rs/kg
+- The blue line lowest value of approximately -15% corresponds to a red bar of approximately 130 Rs/kg
+- The red bar peak of approximately 175 Rs/kg corresponds to a blue line of approximately 30%
+
+[Pattern Characteristics]
+- The red bars were relatively stable in the early period, then gradually rose, forming a high point in the right middle section, and fell back to the middle range in the final period.
+- The blue line was close to zero in the early period, then rapidly surged, subsequently weakened significantly, and entered the negative range.
+- The blue line peak precedes the red bar peak, and a phased misalignment occurs between the two later on.
+
+[Core Insights]
+Core Conclusion: High price levels are accompanied by negative YoY growth, indicating insufficient growth momentum.
+
+Business Implications:
+- Unit revenue is concentrated in the high range
+- The expansion capability of the YoY metric is weakening
+- Price and growth exhibit a time lag characteristic
+
+Risk Focus:
+- Growth YoY ≤ -10%, indicating YoY revenue contraction, making targets difficult to achieve
+- Realization ≤ 130 Rs/kg, indicating low unit revenue and compressed profit margins

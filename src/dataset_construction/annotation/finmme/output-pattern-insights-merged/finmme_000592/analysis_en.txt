@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Dual-series line chart
+- Title: No separate main title; Y-axis title is “Change vs. 1948, cumulative (%)”
+- X-axis: Year, range 1948–2023 (approx. 5-year intervals)
+- Y-axis: Percentage, range 0%–300% (50% interval spacing)
+- Legend: Productivity (dark color) and Average wage (light color)
+
+[Data Relationships]
+- In 1948, both series were 0%.
+- 2023: Productivity approximately 255%, Average wage approximately 95%, a difference of about 160 percentage points.
+- Productivity peaked around 2019–2021, at approximately 270%; 2023 is about 15 percentage points lower than the peak.
+- Average wage highest value is around 2023, approximately 95%; the low value is between 1985–1990, approximately 65%.
+- 1973: Productivity approximately 115%, Average wage approximately 95%, a difference of about 20 percentage points.
+- 2005: Productivity approximately 200%, Average wage approximately 75%, a difference of about 125 percentage points.
+
+[Pattern Characteristics]
+- The two series coincide at the starting point, then generally exhibit a diverging structure where one curve is significantly higher and the other is relatively lower, with the gap widening over time.
+- The dark series maintains a unidirectional expansion throughout the entire period, accompanied by minor plateaus and localized pullbacks; the light series experiences a phased decline in the early to middle period, followed by a gradual rise in the later period, but consistently remains below the dark series.
+- Approximately around the 1970s, the two lines transitioned from being close to clearly diverging, after which the gap continued to expand, and a high-level inflection point leading to a pullback appeared around 2019–2021.
+
+[Core Insights]
+Core Conclusion: A long-term structural divergence has emerged between output efficiency and average wage performance.
+
+Business Implications:
+- The feedback ratio of labor compensation to efficiency gains continues to decline.
+- Income distribution relies more heavily on contributions from non-wage factors.
+- The sensitivity of labor returns to macroeconomic output expansion has weakened.
+
+Risk Focus:
+- When the gap between the two exceeds 150 percentage points, labor incentives may be significantly weakened.
+- If the growth rate of average wages remains below 100% for an extended period and the gap continues to widen, it may suppress performance in consumption-related businesses.

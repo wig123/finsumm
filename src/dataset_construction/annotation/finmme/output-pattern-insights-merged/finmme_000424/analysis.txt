@@ -1,0 +1,28 @@
+【图表构成】
+- 类型：分组柱状图
+- 标题：未标注
+- X轴：财年类别，FY22、FY23F、FY24F、FY25F、FY26F
+- Y轴：百分比刻度，范围30.0%—70.0%
+- 图例：Overall（红）、Overseas（灰）、Domestic（白/空心）
+
+【数据关系】
+- 年度数值（Overall/Overseas/Domestic）：FY22 57/54/58；FY23F 60/63/60；FY24F 60/65/59；FY25F 61/66/59；FY26F 61/66/59。
+- 关键差距：FY24F中，Overseas较Overall+5pp、较Domestic+6pp；FY25F/FY26F中，Overseas较Overall+5pp、较Domestic+7pp；FY22中，Domestic较Overseas+4pp。
+- 极值与跨度：最高66%(Overseas，FY25F/FY26F)，最低54%(Overseas，FY22)；各系列跨度：Overall 4pp(57–61)、Overseas 12pp(54–66)、Domestic 2pp(58–60)。
+
+【模式特征】
+- 三条序列在时间轴上整体呈现相对平滑的抬升后趋于稳定，未出现剧烈跳变或反转。  
+- FY22起，Overseas由最低逐步上移并在随后各年处于明显高位，Domestic则在中后段整体处于三者中的低位且变化最小。  
+- 各财年三组柱之间的间距自FY23F起明显拉大，尤其是Overseas与Domestic之间形成持续且扩大的固定差距结构。
+
+【核心洞察】
+核心结论：海外与国内表现分化扩大，整体水平由国内走向海外主导。
+
+业务含义：
+- 整体表现更多受海外板块驱动。  
+- 国内对整体指标的拉动作用相对减弱。  
+- 中长期规划需区分海外与国内的差异策略。
+
+风险关注：
+- 若Overseas回落至60%以下，整体指标将明显偏离当前预期。  
+- 若Domestic长期低于59%，国内板块可能难以支撑整体表现稳定。

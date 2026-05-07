@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Line Chart (Two lines)
+- Title: G-sec yield curve
+- Y-axis: Percentage (%), Range approximately 6.00–8.00
+- X-axis: Tenor: 1-yr, 3-yr, 5-yr, 10-yr
+- Legend: Mar-23 (Gray), Feb-24 (Red)
+- Data points annotated with specific values
+
+[Data Relationships]
+- Feb-24: 1-yr 7.09, 3-yr 7.06, 5-yr 7.07, 10-yr 7.08; Maximum 7.09 (1-yr), Minimum 7.06 (3-yr), Range 0.03.
+- Mar-23: 1-yr 7.14, 3-yr 7.09, 5-yr 7.17, 10-yr 7.31; Maximum 7.31 (10-yr), Minimum 7.09 (3-yr), Range 0.22.
+- Tenor Difference (Mar-23–Feb-24): 1-yr 0.05, 3-yr 0.03, 5-yr 0.10, 10-yr 0.23.
+- Start/End Points: Mar-23 7.14→7.31; Feb-24 7.09→7.08.
+
+[Pattern Characteristics]
+- The Mar-23 curve shows a shallow U-shape, with the long end higher than the short end, and significant internal fluctuation.
+- The Feb-24 curve is generally close to flat, with all four tenors concentrated in a narrow band.
+- Comparing the two periods, the difference is primarily concentrated in the long end.
+
+[Core Insights]
+Core Conclusion: Term premium compression, relative attractiveness of long duration declines
+
+Business Implications:
+- Low term premium, limited incremental return for extending duration.
+- Portfolio return sensitivity to duration allocation is reduced.
+- Compared to Mar-23, the relative value of the long end has weakened.
+
+Risk Focus:
+- If the 10-year yield returns to 7.31%, long-duration holdings may incur mark-to-market losses.
+- If the curve range expands to 0.22 (Mar-23 level), the cost of maturity mismatch increases.

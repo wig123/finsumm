@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Line chart; Series: Red "GGL CNG"
+- Y-axis: Unit INR/kg, Range 30—90, Scale interval 10
+- X-axis: Time scale Feb-19 to Nov-23, approximately marked quarterly
+- Legend: Top "GGL CNG"; No explicit main title
+
+[Data Relationships]
+- Initial period (Feb-19) ≈55
+- Lowest point after May 2020 ≈52–53
+- November 2021 ≈65
+- May 2022 ≈80; Aug–Nov 2022 ≈82, the highest point for the entire period
+- February 2023 ≈75; May 2023 ≈73; Final period (Nov-23) ≈74
+- Difference between highest and lowest ≈29–30
+- Change from initial period to final period ≈+19
+
+[Pattern Characteristics]
+- Before mid-2020, the curve was generally flat. After a minor downward adjustment, it maintained a near-low level for an extended period.
+- Starting in the second half of 2021, there were multiple step-like upward movements. A distinct plateau range formed in 2022, followed by narrow fluctuations within a range slightly below the peak.
+- High points across the entire cycle were concentrated in the mid-to-late part of 2022. Although there was a subsequent pullback, the price did not re-enter the early low-level range.
+
+[Core Insights]
+Core Conclusion: The price underwent a structural elevation and consolidated within a high-level range.
+
+Business Implications:
+- The terminal cost baseline has been structurally raised.
+- Cost budgeting should primarily reference the post-2022 range.
+- The capacity to absorb and pass on price changes will be more critical.
+
+Risk Focus:
+- If the price approaches the range above 82 again, it may escalate overall operational cost pressure.
+- A drop below the range near 55 may trigger a revaluation of existing contracts and inventory pricing.

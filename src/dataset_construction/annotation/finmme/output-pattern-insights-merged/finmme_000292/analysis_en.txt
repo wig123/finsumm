@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Line chart (3 series)
+- Title: Not labeled
+- X-axis: Time, 2016—2023 (Annual scale)
+- Y-axis: Average Daily Traffic (000), Range 0—60
+- Legend: 95 Express Lanes (exc. 395, Dark Cyan); 495 Express Lanes (Light Cyan); Dulles Greenway (Orange)
+
+[Data Relationships]
+- 95: Peak ≈58 (2019), Trough ≈15 (Mid-2020), High-Low Difference ≈43; 2016 ≈45, 2023 ≈47.
+- 495: Peak ≈48 (Around 2019), Trough ≈20 (Mid-2020), High-Low Difference ≈28; 2016 ≈40, 2023 ≈37.
+- Dulles: Peak ≈56 (Early 2016), Trough ≈20 (Mid-2020), High-Low Difference ≈36; 2016 ≈55, 2023 ≈36.
+- 2023 Comparison: 95 is higher than 495 by ≈10, and higher than Dulles by ≈11; 2020 Lowest Point Comparison: 95 is lower than the other two by ≈5.
+
+[Pattern Characteristics]
+The three lanes generally maintained similar upper range operation between 2016 and 2019, forming local peaks around 2019. In mid-2020, all three curves showed a significant simultaneous dip, reaching similar low points. They have since gradually recovered but have not fully returned to their respective previous peak ranges. By 2023, the 95 lane is positioned above the three, 495 is slightly in the middle, and Dulles is relatively lower. The spacing between the three curves is wider compared to 2016.
+
+[Core Insights]
+Core Conclusion: The traffic landscape of the three lanes has evolved from being similar to being dominated by 95.
+
+Business Implications:
+- 95 has established a relatively advantageous position in terms of traffic demand.
+- 495 and Dulles play secondary roles in attracting traffic flow.
+- The divergence in recovery pace post-2020 has intensified the competitive landscape among the lanes.
+
+Risk Concerns:
+- If Dulles remains consistently below an average daily traffic of 30, it may weaken profitability and subsequent investment capacity.
+- If 95 approaches the 20 level again, it could lead to significant revenue volatility and impact debt repayment arrangements.

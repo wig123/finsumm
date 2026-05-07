@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Time series line chart, including a cyan "Closing price" line and a blue step line "Target price," marked with red dots.
+- Title: Not displayed.
+- X-axis: Time, range 01-21 to 01-24, ticks include 04-21, 07-21, 10-21, 01-22, 04-22, 07-22, 10-22, 01-23, 04-23, 07-23, 10-23, 01-24.
+- Y-axis: Price (EUR), range EUR0.00 to EUR90.00, interval EUR10.00.
+- Legend: Displays "Closing price" and "Target price."
+
+[Data Relationships]
+- Initial Period (01-21): Closing is between EUR70–80; Target is between EUR80–90.
+- Approx. 10-22: Closing is between EUR30–40; Target is between EUR40–50; the difference is approximately EUR10.
+- Approx. 01-23: Closing is approximately EUR30; Target is between EUR30–40.
+- Approx. 07-23: Closing is between EUR40–50; Target is between EUR50–60; the difference is approximately EUR10.
+- Final Period (01-24): Both Closing and Target are in the EUR40–50 range.
+
+[Pattern Characteristics]
+- The closing price starts in a relatively high range, followed by a prolonged decline, forming a phase low near the end of 2022, and subsequently exhibiting range bound fluctuation throughout 2023, converging with the target price.
+- The target price undergoes multiple step-wise adjustments, primarily downward, with one upward step observed during the period; the closing price is a continuous curve. The two maintain a positive spread for most of the time, converging at the end of the period.
+- Red dots are mostly distributed at local price turning points and around the step changes of the target price.
+
+[Core Insights]
+Core Conclusion: The current price and the target price align at the end of the period.
+
+Business Implications:
+- Decrease in valuation divergence
+- Reduced interference in allocation and pricing judgment
+- Target adjustments lag changes in the current price
+
+Risk Focus:
+- If the closing price falls below EUR40, the price spread may widen again
+- A price spread ≥ EUR10 may lead to decision deviation and execution errors

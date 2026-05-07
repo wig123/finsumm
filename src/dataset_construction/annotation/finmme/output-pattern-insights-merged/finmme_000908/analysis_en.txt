@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Bar chart (red).
+- Title/Legend: Pricing growth (%), single series.
+- X-axis: Time labels—Dec-21, Mar-22, Jun-22, Sep-22, Dec-22, Mar-23, Jun-23, Sep-23, Dec-23.
+- Y-axis: Percentage scale, range approximately 0–16.
+
+[Data Relationships]
+- Values per period: 1.4, 3.6, 10.0, 10.6, 10.3, 13.7, 10.4, 6.3, 7.5 (in chronological order).
+- Maximum/Minimum: 13.7 (Mar-23); 1.4 (Dec-21); range difference 12.3.
+- Start/End of Period: Dec-21 1.4 vs Dec-23 7.5; difference 6.1.
+- 2022 Range: 10.0–10.6 (Jun-22, Sep-22, Dec-22).
+- Adjacent differences in 2023: Mar-23 vs Jun-23 3.3; Jun-23 vs Sep-23 4.1; Sep-23 vs Dec-23 1.2.
+
+[Pattern Characteristics]
+- The overall trend shows a step-like change, first rapidly rising from a low level, maintaining a relatively concentrated high range from mid-2022 to year-end, followed by a pattern in 2023 of peaking, retreating, and then slightly rebounding.
+- Structurally, the first half shows a larger fluctuation range, while the second half oscillates within the medium-to-high level, lacking obvious cyclical repetition.
+- Mar-23 constitutes the single global peak, while Sep-23 is the local low point within 2023, showing a prominent difference in height compared to the adjacent bars.
+
+[Core Insights]
+Core Conclusion: Pricing growth retreated after moving from a low level to the medium-to-high range.
+
+Business Implications:
+- Indicates a significant strengthening of overall pricing power compared to the initial period.
+- Provides temporary support for revenue growth rate and profit margins.
+- The later trend suggests that the potential for price increases may be converging.
+
+Risk Concerns:
+- If below 5%, it may be difficult to cover cost-side pressures.
+- If consistently above 13%, it may exacerbate customer churn and demand compression.

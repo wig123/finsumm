@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Stacked Area Chart
+- Title: Data Center Ethernet Switch Revenue
+- X-axis: Year, Range 2022–2028
+- Y-axis: Revenue in Billions ($), Range 0–40, Scale Interval 5
+- Layers (Legend/Labels): Top 5 U.S. Cloud SPs, Top 3 Chinese Cloud SPs, Rest of Cloud, Large Enterprises, Rest of Enterprise, Telco SPs
+- Source/Notes: 650 Group Ethernet Switch Data Center Forecast Q4 2023; Notes list Top 5 U.S. and Tier 1 Chinese Cloud Service Providers (SPs).
+
+[Data Relationships]
+- Total revenue in 2022 is approximately near $20B; total revenue in 2028 is between $35B–$40B.
+- Contribution of each layer in 2028 from largest to smallest: Top 5 U.S. Cloud SPs > Rest of Cloud > Large Enterprises > Rest of Enterprise ≈ Telco SPs > Top 3 Chinese Cloud SPs.
+- The corresponding value for Top 5 U.S. Cloud SPs in 2028 is the highest among all layers, located in the range above $20B; Top 3 Chinese Cloud SPs are below $5B.
+
+[Pattern Characteristics]
+- The overall area gradually expands over time, and clear boundaries are consistently maintained between the sub-layers, with no significant contraction or discontinuity.
+- The proportion of the Top 5 U.S. Cloud SPs layer in the total is continuously increasing, becoming the primary source of area, while the area of other tiers expands relatively moderately.
+- The area represented by Top 3 Chinese Cloud SPs and Telco SPs is thin compared to all layers, and the change over the timeline is relatively smooth, without prominent inflection points or sudden jumps.
+
+[Core Insights]
+Core Conclusion: The revenue structure, driven by leading U.S. cloud vendors in the data center market, is further strengthened.
+
+Business Implications:
+- Revenue is highly dependent on a few hyperscale cloud customers.
+- Cloud-related customers have a greater impact on overall revenue elasticity.
+- Enterprise and telecom customers provide a relatively secondary contribution to the structure.
+
+Risk Concerns:
+- If revenue from Top 5 U.S. Cloud SPs falls below $20B, the overall scale may be significantly lower than expected.
+- If Top 3 Chinese Cloud SPs remain below $5B long-term, it will limit regional and customer structure diversification.

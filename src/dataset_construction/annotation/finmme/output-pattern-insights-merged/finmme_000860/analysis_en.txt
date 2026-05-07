@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Time-series line chart
+- Title: Zomato; Note: As of 13-Mar-2024; Currency=INR
+- X-axis: Date range approximately 2021/07/01—2024/01/01 (multiple tick marks indicated)
+- Y-axis: Price range 0—180
+- Legend: Closing Price (Black line), Target Price Change (Green triangle), Recommendation Changes (Blue dot)
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial period (2021/07) closing price approximately 130; Final period (2024/03) approximately 150, final period compared to initial period + approximately 20.
+- Highest closing price approximately 160 (around 2022/01); Lowest approximately 45 (around 2022/06), difference between high and low approximately 115.
+- 2022/07 recommendation change approximately 58 (Blue dot); Target price change in the same period approximately 50 (Green triangle); Difference approximately 8.
+- 2024/01 recommendation change approximately 140; Target price change in the same period approximately 175; Difference approximately 35.
+- Other target price changes: 2023/01 approximately 45, 2023/07 approximately 60, 2023/10 approximately 70.
+
+[Pattern Characteristics]
+- The closing price first experienced a sharp decline, followed by a period of sideways consolidation near the low, and subsequently entered a prolonged period of unilateral upward movement, presenting an overall "down-then-up" asymmetric structure.
+- Target price changes are distributed as discrete points, mostly concentrated around phased price adjustments. The magnitude of single changes in the later period is significantly greater than in the earlier period.
+- Recommendation changes only appear at specific time points. The level corresponding to a single change in the later period is significantly higher than the changes near the low point in the earlier period.
+
+[Core Insights]
+Core Conclusion: Current market expectations and broker pricing have significantly increased and are more positive.
+
+Business Implications:
+- Valuation levels and sentiment in the later period are more optimistic than in the earlier period.
+- The magnitude of target price increases has expanded, indicating more concentrated expectations from the research side.
+- Recommendations are upgraded at high levels, which may reinforce trend-following allocation behavior.
+
+Risk Concerns:
+- If the price briefly falls below 120 and no new target price upgrade is observed, it may trigger expectation correction and amplified drawdown.
+- If the subsequent target price is below 160 while the stock price remains above 150, it may lead to unmet expectations, resulting in rating downgrades and selling pressure.

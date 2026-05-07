@@ -1,0 +1,38 @@
+[Chart Components]
+- Type: Single-series Bar Chart
+- Title: A&P cost (as % of revenue)
+- X-axis: Time, 9 data points in total: Dec-21, Mar-22, Jun-22, Sep-22, Dec-22, Mar-23, Jun-23, Sep-23, Dec-23
+- Y-axis: Percentage of Revenue, scale range 5–17, interval approximately 2 units
+- Legend: Red square, labeled "A&P cost (as % of revenue)"
+- Numerical labels displayed at the top of each bar
+
+[Data Relationships]
+- Initial Value (Dec-21): 11.8
+- Final Value (Dec-23): 14.6
+- Increase from Initial to Final Period: +2.8
+- Highest Value: 14.6 (Dec-23)
+- Lowest Value: 10.6 (Mar-23)
+- Range: 4.0 (14.6−10.6)
+- 2022 Data: Mar-22 11.3, Jun-22 13.6, Sep-22 11.4, Dec-22 13.2
+- 2023 Data: Mar-23 10.6, Jun-23 13.7, Sep-23 14.0, Dec-23 14.6
+- Sequential Quarterly Difference:
+  - Dec-22→Mar-23: -2.6
+  - Mar-23→Jun-23: +3.1
+  - Jun-23→Sep-23: +0.3
+  - Sep-23→Dec-23: +0.6
+- Comparison of Jun-22 vs Jun-23: 13.6 vs 13.7, Difference +0.1
+
+[Pattern Characteristics]
+The series shows uneven fluctuations across the nine time points. In 2022, values frequently alternated between high and low points within the middle range. 2023 data is generally in a higher range, with Mar-23 forming a distinct low point, and Dec-23 reaching the peak. A significant jump occurred between adjacent quarters, after which the rate of change slowed.
+
+[Core Insights]
+Core Conclusion: The A&P proportion of revenue is elevated, requiring a balance between budget and return.
+
+Business Implications:
+- Indicates high investment intensity, requiring validation of effectiveness
+- Creates pressure on profit margins and cash burn
+- Demands higher efficiency in revenue conversion
+
+Risk Focus:
+- Proportion ≥14.0: May compress profit and free cash flow
+- Proportion ≤10.6: May weaken market reach and growth rate

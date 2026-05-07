@@ -1,0 +1,35 @@
+【图表构成】
+- 类型：堆积柱状图
+- 标题：无
+- 坐标轴：纵轴表示百分比（0%到100%），横轴表示时间段（Till Dec-22, Till Mar-23, Till Jun-23, Till Sep-23, Till Dec-23）
+- 图例：包括五类数据：Auto ICE (PV+CV)、Auto ICE (2W)、Tech Agnostic、xEV、Non auto
+
+【数据关系】
+- 关键数值和变化：
+  - Till Jun-23，Auto ICE (PV+CV)达到35%。
+  - Till Mar-23，Auto ICE (PV+CV)为28%。
+  
+- 极值对比：
+  - Non auto Till Mar-23达到26%。
+  - Tech Agnostic 在Till Mar-23和Till Sep-23均为13%。
+
+- 重要趋势：
+  - Auto ICE (PV+CV)从Till Dec-22的30%上升至Till Jun-23的35%，随后下降至Till Dec-23的32%。
+  - Non auto从Till Mar-23的26%下降到Till Dec-23的23%。
+
+【模式特征】
+- 各期为多类别堆积结构，红色段始终为最大，占比节奏先放大后趋于收敛。
+- 灰色段前中期缩小、后期回补；白色段波动较小；粉色段近似持平；黑色段在第二期处于相对高位。
+- 顶部“Global”标签呈阶段性抬升后回落。
+
+【核心洞察】
+核心结论：结构集中于Auto ICE(PV+CV)，xEV贡献可预期，非汽车影响有限
+
+业务含义：
+- 组合对传统动力依赖高
+- xEV贡献的可计划性较强
+- 非汽车对主线存在干扰
+
+风险关注：
+- Non auto≥26%：主线被稀释，收益不稳
+- Auto ICE(PV+CV)≤28%：核心贡献不足，规模受压

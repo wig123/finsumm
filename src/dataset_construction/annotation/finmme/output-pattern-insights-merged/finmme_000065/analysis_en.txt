@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Dual Line Chart
+- Labels: Y-axis is "Average toll per transaction (USD)," range approximately 0–8; X-axis is a quarterly sequence, covering 2016 Q1 to 2023 Q4
+- Grid: Vertical and horizontal grid lines visible
+- Legend: Two series—NTE (dark cyan), NTE 35W (light gray-green)
+- Title: No separate main title
+
+[Data Relationships]
+- NTE initial period (2016 Q1) was approximately 3.5 USD; final period (2023 Q4) was approximately 7.2 USD; interval change was approximately +3.7 USD
+- NTE 35W initial period (2017 Q1) was approximately 2.0 USD; final period (2023 Q4) was approximately 5.6 USD; interval change was approximately +3.6 USD
+- The peak values for both series occurred in 2023 Q4: NTE was approximately 7.2 USD; NTE 35W was approximately 5.6 USD
+- The difference between the two in 2017 Q4 was approximately 2.2 USD; the difference in 2020 Q1 was approximately 1.6 USD; the difference in 2023 Q4 was approximately 1.6 USD
+- 2018 Q4: NTE was approximately 5.2 USD; NTE 35W was approximately 3.2 USD; the difference was approximately 2.0 USD
+
+[Pattern Characteristics]
+- Both series show continuous upward movement overall from their respective starting points to the final period, with a relatively gentle slope, showing no sharp jumps or pullbacks.
+- Both consistently maintain a fixed hierarchical relationship; the gap initially narrowed and then stabilized generally, with both ending at their respective interval highs.
+- NTE 35W experienced a period of faster ascent in the initial phase, after which its trend approximated that of NTE and remained generally smooth.
+
+[Core Insights]
+Core Conclusion: Average toll per transaction is at a high level, and NTE maintains a significant premium.
+
+Business Implications:
+- NTE monetization per transaction is higher than NTE 35W
+- Pricing gradient is stable, structure is clear
+- Portfolio revenue has a high dependency on NTE
+
+Risk Concerns:
+- A difference between the two ≥ 2.2 USD may lead to structural imbalance and pressure on segments.
+- If NTE falls back to ≤ 5.2 USD, unit revenue will significantly decline.

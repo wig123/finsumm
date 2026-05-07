@@ -1,0 +1,314 @@
+[
+  {
+    "item_index": 0,
+    "image": "images/syn_v2_013_bar_zh-CN_payments_fintech.png",
+    "has_source_facts": true,
+    "candidates": [
+      {
+        "score": 88,
+        "errors": [
+          "The summary claims the peak is over 16% in early 2022, but the source data shows a maximum of 9.59% in July 2022.",
+          "The summary claims the 2024 low is around 1.5%, while the source data indicates a minimum of 0.03% in January 2024.",
+          "The summary describes the overall shape as a 'Bell Curve' or 'Inverted V', which contradicts the actual downward trend shown in the data."
+        ],
+        "reasoning": "The summary accurately identifies the general trends and timeframes, but it contains significant numerical discrepancies when compared to the verified source data, particularly regarding the peak and trough values.",
+        "cand_index": 0
+      },
+      {
+        "score": 88,
+        "errors": [
+          "The summary claims the 2022 peak is around 16.3%, but the source data max is 9.59%.",
+          "The summary claims the 2023 low is around 1.3%, but the source data min is 0.03% in 2024.",
+          "The summary mentions grid lines, but none are visible in the chart image."
+        ],
+        "reasoning": "The summary accurately describes the visual trends and structure of the chart, but there are significant numerical discrepancies between the summary's visual estimates and the provided source data values.",
+        "cand_index": 1
+      },
+      {
+        "score": 65,
+        "errors": [
+          "The source data and chart show the peak in early 2022 was ~16.3%, but the source data provided starts in March 2022 at 7.86%.",
+          "The summary claims a 'cliff-like' drop to 5% by end of 2022, but the chart shows it was still around 8% in Dec 2022.",
+          "The summary claims 2023 H1 was at 1-2%, but the chart shows values between 5-8% for that period.",
+          "The summary claims a low point in May 2024, but the chart and source data show the minimum was in Jan 2024."
+        ],
+        "reasoning": "The summary contains several significant factual errors regarding the timing and magnitude of data trends, particularly mischaracterizing the values for 2022 and 2023.",
+        "cand_index": 2
+      },
+      {
+        "score": 88,
+        "errors": [
+          "The source data indicates the maximum value is 9.59% in July 2022, while the summary claims 16.3% in Q1 2022 based on the visual chart.",
+          "The summary claims the time range ends in August 2025, but the chart and source data extend to September 2025."
+        ],
+        "reasoning": "The summary accurately describes the visual trends and most data points shown in the chart, though there is a significant discrepancy between the visual scale of the chart and the provided source data values.",
+        "cand_index": 3
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The summary claims the peak is in early 2022 (approx 16.2%), but the source data indicates the peak is 9.59% in July 2022.",
+          "The summary identifies the lowest point as approx 1.2% in mid-2024, while source data shows the minimum is 0.03% in Jan 2024."
+        ],
+        "reasoning": "The summary accurately describes the visual trends and structure of the chart, but there is a significant numerical discrepancy between the visual representation (showing values up to 16%) and the provided source data (peaking at 9.6%).",
+        "cand_index": 4
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The peak value in early 2022 is approximately 16.2%, not 17.2%.",
+          "The 2023 low point is approximately 1.5%, not 1.2%."
+        ],
+        "reasoning": "The summary accurately describes the chart's structure, trends, and core insights, with only minor numerical inaccuracies regarding the specific peak and trough values.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 1,
+    "image": "images/syn_473_line_band_overlay_zh-CN_banking_credit.png",
+    "has_source_facts": false,
+    "candidates": [
+      {
+        "score": 92,
+        "errors": [
+          "The growth from 2021 to mid-2022 is approximately 2700, not 3500.",
+          "The standard deviation width description (500-1000 units) is slightly overestimated relative to the Y-axis scale."
+        ],
+        "reasoning": "The summary accurately identifies the chart type, trends, and key features, but contains minor numerical inaccuracies regarding the specific magnitude of the first growth phase.",
+        "cand_index": 0
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The color of the original data line is grey, not 'grey-green'."
+        ],
+        "reasoning": "The summary is exceptionally accurate, correctly identifying the data points, trends, axis ranges, and specific features like the rolling average and standard deviation bands.",
+        "cand_index": 1
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The peak in 2022 is slightly higher than 21700 (closer to 21750)",
+          "The end point is late 2025, not early 2026"
+        ],
+        "reasoning": "The summary accurately describes the chart's structure, trends, and key data points, with only minor imprecisions regarding the exact peak value and the final date on the x-axis.",
+        "cand_index": 2
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The description of the 2025 end point as 'approaching 22300' is slightly high; it is closer to 22200."
+        ],
+        "reasoning": "The summary is exceptionally accurate, correctly identifying all chart components, data trends, specific values, and the location of anomalies.",
+        "cand_index": 3
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The unit '万亿元' (trillion yuan) is likely a typo for '亿元' or similar, as 22,000 trillion is an implausible scale for this context.",
+          "The vertical axis range is 19,000 to 22,500, not 23,000.",
+          "The '±1 standard deviation' is represented by a solid light gray line, not a dashed line."
+        ],
+        "reasoning": "The summary accurately captures the overall trend, key data points, and visual elements, though it contains minor inaccuracies regarding axis limits and line styles.",
+        "cand_index": 4
+      },
+      {
+        "score": 88,
+        "errors": [
+          "The horizontal axis covers 2021 to early 2025, not 2026.",
+          "The red dots mark the start and end points, not 'extreme low points' (the end point is the maximum).",
+          "The claim that the standard deviation band is widest at red dots is inaccurate; it is wider in 2021-2022."
+        ],
+        "reasoning": "The summary correctly identifies the chart type, title, and general trend, but contains minor inaccuracies regarding the time range and the interpretation of the red anomaly markers.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 2,
+    "image": "images/syn_1107_scatter_en-US_growth_employment.png",
+    "has_source_facts": true,
+    "candidates": [
+      {
+        "score": 80,
+        "errors": [
+          "The source data max value is 9.48, while the chart and summary claim a peak near 14.",
+          "The source data min value is 0.17, while the chart and summary show values below 0.",
+          "The summary claims a sharp decline in 2020 to 4.5, but the chart shows this occurring in 2021."
+        ],
+        "reasoning": "There is a significant discrepancy between the provided source data and the chart image regarding the scale and specific data points, leading to factual errors in the summary's numerical claims.",
+        "cand_index": 0
+      },
+      {
+        "score": 80,
+        "errors": [
+          "The source data minimum (0.17) and maximum (9.48) significantly contradict the chart's visual minimum (approx -0.8) and maximum (approx 13.5).",
+          "The summary claims the maximum is around 2023, but the chart shows the peak in late 2023/early 2024.",
+          "The summary claims the minimum is in early 2009, but the chart shows it in late 2009."
+        ],
+        "reasoning": "The summary accurately describes the visual patterns of the chart, but there is a major discrepancy between the provided source data and the chart image itself, and some minor date imprecisions.",
+        "cand_index": 1
+      },
+      {
+        "score": 45,
+        "errors": [
+          "The source data (max 9.48) contradicts the chart image (max ~13.5).",
+          "The summary claims a spike in mid-2023, but the chart shows the peak in late 2023/early 2024.",
+          "The summary claims a sharp decline in early 2020, but the chart shows the drop occurring in late 2020/early 2021.",
+          "The summary claims values in 2008-2011 hover between -1 and 1.5, but the chart shows values exceeding 2 in 2008."
+        ],
+        "reasoning": "The summary contains significant chronological and numerical errors when compared to the provided chart image, and the provided source data is clearly for a different dataset as its maximum value (9.48) does not match the chart's peak (~13.5).",
+        "cand_index": 2
+      },
+      {
+        "score": 65,
+        "errors": [
+          "The source data's minimum (0.17) and maximum (9.48) values contradict the summary's claims of -1.5% and 13.5%.",
+          "The summary claims values exceed 10% and 12% in 2023-2025, but the source data max is 9.48%.",
+          "The summary identifies a local minimum of -1.5% in 2009, while the source data minimum is positive 0.17%.",
+          "The summary describes a 'V-shaped' dip in 2020, but the source data shows the lowest point was in 2010."
+        ],
+        "reasoning": "The summary contains several significant factual errors regarding the numerical values and trends when compared to the verified source data, particularly overstating the peaks and understating the troughs.",
+        "cand_index": 3
+      },
+      {
+        "score": 80,
+        "errors": [
+          "The source data's maximum value (9.49) contradicts the chart's visual peak (~13.5).",
+          "The source data's minimum value (0.18) contradicts the chart's visual minimum (approx -0.8)."
+        ],
+        "reasoning": "The summary accurately describes the visual patterns in the chart, but there is a significant discrepancy between the chart's visual scale (reaching 13.5) and the provided source data (peaking at 9.49).",
+        "cand_index": 4
+      },
+      {
+        "score": 65,
+        "errors": [
+          "The summary claims values drop to -1 in 2012, but the chart shows a rise to 4.5-7.0.",
+          "The summary claims a sharp decline in 2020 to 4.5-5.0, but the chart shows values around 7.0-8.5.",
+          "The summary claims a global maximum near 13.5 in 2023-2024, while source data max is 9.48.",
+          "The summary describes a 'significant decline' from 2011-2012 that is not present in the visual data."
+        ],
+        "reasoning": "The summary contains several significant factual errors regarding the direction and magnitude of data trends, particularly misidentifying the timing of peaks and troughs compared to both the visual chart and the provided source data.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 3,
+    "image": "images/syn_v4f_20251211_214219_bar_zh-CN_payments_fintech_10394eee.png",
+    "has_source_facts": true,
+    "candidates": [
+      {
+        "score": 100,
+        "errors": [],
+        "reasoning": "The summary accurately reflects all data points, visual elements, and trends shown in the chart and source data without any factual errors.",
+        "cand_index": 0
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The summary incorrectly identifies PayPal as being in the 'tail' (below 50k), whereas the chart shows it at 7.2万.",
+          "The calculation of the top two platforms' share (52%) is mathematically inconsistent with the provided data totals."
+        ],
+        "reasoning": "The summary accurately captures the core trends and most data points, but contains a few minor errors regarding the categorization of PayPal and the percentage calculation of market share.",
+        "cand_index": 1
+      },
+      {
+        "score": 100,
+        "errors": [],
+        "reasoning": "The summary is highly accurate, with all numerical claims and structural observations perfectly matching both the chart image and the provided source data.",
+        "cand_index": 2
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The summary mentions 12 platforms, but the chart and source data only show 11.",
+          "The claim that middle platform gaps are 2-3 times each other is inaccurate; most gaps are much smaller (e.g., 4.6 to 4.3)."
+        ],
+        "reasoning": "The summary accurately captures the key data points and the overall market structure, though it slightly miscounts the number of entities and overstates the gaps between the smaller platforms.",
+        "cand_index": 3
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The summary claims the top two platforms hold over 55% market share, but based on the chart's 11 platforms, they actually hold approximately 59%.",
+          "The summary mentions 'remaining 10 platforms' in the risk section, but there are only 9 platforms listed after the top two."
+        ],
+        "reasoning": "The summary is highly accurate regarding the numerical values and structural analysis, with only minor errors in calculating the total number of platforms and the exact percentage of market concentration.",
+        "cand_index": 4
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The summary mentions 13 platforms, but the chart and data only show 11.",
+          "The claim that the top two exceed the sum of the other 11 is mathematically incorrect (55.4 vs 38.3, but there are only 9 others)."
+        ],
+        "reasoning": "The summary is highly accurate regarding the numerical values and visual trends, but it miscounts the total number of platforms and makes a slightly flawed comparative calculation.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 4,
+    "image": "images/syn_v2_1028_candlestick_zh-CN_commodities.png",
+    "has_source_facts": true,
+    "candidates": [
+      {
+        "score": 35,
+        "errors": [
+          "The title is a long string of zeros, which is incorrect.",
+          "The chart is a line chart, not a K-line (candlestick) chart.",
+          "The time range on the X-axis (1970-1973) contradicts the source data (2020-2025)."
+        ],
+        "reasoning": "The summary contains a nonsensical title and misidentifies the chart type, while the provided source data appears to be for a different time period than the chart image.",
+        "cand_index": 0
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The summary incorrectly identifies the X-axis years as 1970-1973, while the source data confirms the period is 2020-2025.",
+          "The claim of an 80% increase from low to high is an overestimation; the source data shows a cumulative change of approximately 49%."
+        ],
+        "reasoning": "The summary accurately describes the visual patterns and key price levels shown in the chart, but it misinterprets the X-axis labels and slightly overstates the total percentage growth compared to the source data.",
+        "cand_index": 1
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The source data dates (2020-2025) do not match the chart's X-axis labels (1970-1973).",
+          "The summary claims the lowest point is in mid-1971, but the chart shows it in early 1971."
+        ],
+        "reasoning": "The summary accurately describes the visual patterns and price levels shown in the image, though there is a significant discrepancy between the provided source data dates and the chart's axis labels.",
+        "cand_index": 2
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The chart uses green for both up and down movements (hollow/solid) rather than red/green as stated.",
+          "The source data dates (2020-2025) do not match the chart's X-axis labels (1970-1973)."
+        ],
+        "reasoning": "The summary accurately describes the visual trends and price levels shown in the image, though it misidentifies the K-line colors and the source data provided is for a different time period than the chart labels.",
+        "cand_index": 3
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The summary incorrectly identifies the chart as a K-line (candlestick) chart, whereas it is a line chart.",
+          "The summary claims the price growth from 3.2 to 5.8 is over 80%, but the actual calculation (5.8/3.2 - 1) is approximately 81.25%, which is technically correct but the source data shows a cumulative change of +49.26% from start to end."
+        ],
+        "reasoning": "The summary accurately captures the overall trends, key price levels, and volume characteristics shown in the image, though it misidentifies the chart type as candlesticks.",
+        "cand_index": 4
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The summary incorrectly identifies the X-axis years as 1970-1973, whereas the source data confirms the period is 2020-2025 (the chart labels are likely placeholders or truncated).",
+          "The claim that the price rise from low to high is 'nearly 2 times the highest point' is mathematically incorrect; it is roughly an 80% increase (3.2 to 5.8)."
+        ],
+        "reasoning": "The summary accurately captures the price levels, volume peaks, and overall trend described in both the image and source data, though it misinterprets the year labels and one growth ratio.",
+        "cand_index": 5
+      }
+    ]
+  }
+]

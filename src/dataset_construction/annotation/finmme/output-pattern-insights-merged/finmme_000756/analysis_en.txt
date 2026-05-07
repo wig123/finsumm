@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Dual-series clustered bar chart.
+- Title: Not displayed.
+- X-axis: Year categories—2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023F, 2024F, 2025F.
+- Y-axis: Value (TWDmn), range approximately -1,000 to 2,500, including the zero scale and gridlines.
+- Legend: Red represents "Net debt (TWDmn)," Gray represents "FCF (TWDmn)."
+
+[Data Relationships]
+- Net debt Peak: 2024F approximately 2,050; second highest 2025F approximately 1,970; 2023F approximately 1,900; 2022 approximately 1,750; 2021 approximately 850.
+- Net debt Lowest: 2016 approximately -650; 2013 approximately -600; 2018-2020 around 450.
+- FCF Peak: 2016 approximately 1,150; 2025F approximately 650; 2019 approximately 600; 2014 approximately 580; 2013 approximately 550.
+- FCF Lowest: 2021 and 2022 are 0; 2020 approximately 200; 2024F approximately 350; 2023F approximately 420; 2017 approximately 450; 2018 approximately 380.
+- Key Difference: The difference between Net debt and FCF in 2024F is approximately 1,700; in 2025F approximately 1,320; in 2023F approximately 1,480; in 2021 approximately 850; in 2016 approximately 1,800; in 2013 approximately 1,150.
+
+[Pattern Characteristics]
+- Net debt was below the zero scale from 2013-2016, subsequently rising year-over-year and significantly expanding after 2021, maintaining near the high range during 2023F-2025F.
+- FCF distribution is generally scattered, relatively high during 2013-2016, in the medium range during 2017-2020, hitting lows close to the zero scale in 2021-2022, followed by a slight recovery but failing to return to earlier high levels.
+- The bar lengths of the two series show significant differences in most years, particularly prominent in 2016 and the 2023F-2025F period, while 2021-2022 is primarily dominated by the single Net debt bar.
+
+[Core Insights]
+Core Conclusion: Debt service pressure is rising in the coming years, but internal cash generation support is limited.
+
+Business Implications:
+- Increased reliance on external financing for funding sources.
+- Interest burden and the proportion of financial expenses may increase.
+- Capital expenditure and dividend capacity will be significantly constrained.
+
+Risk Focus:
+- When Net debt exceeds 2,000, if FCF remains below 700 for an extended period, it will weaken refinancing negotiation power.
+- If FCF continues to hover in the 0–400 range, short-term repayment may require rolling over debt (borrowing new to pay old), increasing the probability of a liquidity shock.

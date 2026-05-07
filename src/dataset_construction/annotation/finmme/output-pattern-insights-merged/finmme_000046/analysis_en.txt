@@ -1,0 +1,26 @@
+[Chart Components]
+- Type: Dual-Axis Time Series Line Chart
+- Legend: The red line represents "Price," and the gray line represents "Rel Taiwan TAIEX Index"
+- X-Axis: Time range from Mar 23 to Feb 24, marked by monthly increments
+- Left Y-Axis: Unit is TWD, scale range approximately 140 to 170, with intervals of approximately 10
+- Right Y-Axis: Scale range 85 to 102.5, with intervals of approximately 2.5
+
+[Data Relationships]
+- Price: Initial value (Mar 23) is approximately 165 TWD; Peak (Jun 23) is approximately 173–175 TWD; Trough (Sep 23) is approximately 135 TWD; Final value (Feb 24) is approximately 158–160 TWD. The difference between the high and low points is approximately 38–40 TWD.
+- Rel Taiwan TAIEX Index: Initial value (Mar 23) is approximately 100; Peak (Mar 23) is approximately 102–102.5; Trough (Feb 24) is approximately 85 (also the final value). The difference between the high and low points is approximately 17–18 points.
+- Selected Comparison: In Oct 23, the gray line was close to 100, and the red line was approximately 150–155; During the Jun–Jul 23 period, when the red line exceeded 170, the gray line was approximately 95–97.
+
+[Pattern Characteristics]
+The two lines are generally asynchronous, showing a phased, alternating relationship. After a significant rise in Jun–Jul, the red line retreated, subsequently remaining mostly range-bound, accompanied by several sharp dips. The gray line continued to decline in the mid-to-late period, reaching its lowest point at the end of Feb. The red line experienced sharp drops around Sep and Nov, while the gray line's decline in Jan–Feb was particularly pronounced.
+
+[Core Insights]
+Core Conclusion: Weak synchronization with TAIEX; relative performance was weak in the final period.
+
+Business Implications:
+- Increased deviation from benchmark tracking
+- Risk exposure relies more heavily on idiosyncratic factors
+- Decreased stability of relative returns
+
+Risk Focus:
+- Price ≤ 140 TWD, which may lead to further deterioration of returns
+- Rel Index ≤ 90 or touching 85, potentially dragging down relative returns

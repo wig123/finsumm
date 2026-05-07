@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Line chart
+- Legend: Red line, labeled “Gasoline spreads”
+- Y-axis: Unit “USD/bbl”, range 0–60, major tick marks every 10
+- X-axis: Time axis, labeled from “Jul-21” to “Jan-24”, displayed monthly/quarterly
+- Grid: Horizontal grid corresponding to Y-axis tick marks
+- Data Series: Single series, no other groupings
+
+[Data Relationships]
+- Initial period (Jul-21) approximately 12 USD/bbl; final period (Jan-24) approximately 15 USD/bbl; difference approximately 3.
+- Peak value for the entire period approximately 49 (Jun–Jul 2022); trough value close to 0 (Oct 2022); range approximately 49.
+- Near November 2021 approximately 24; near March 2022 approximately 8; difference between the two points approximately 16.
+- May–June 2022 was in the range of ≈35–49; July–August 2022 was in the range of ≈5–10; range difference approximately 25–44.
+- 2023 peak approximately 26 (Sep 2023); trough approximately 6 (Nov 2023); difference approximately 20.
+- April 2023 approximately 24–25; July 2023 approximately 11–12; difference approximately 12–14.
+- January 2023 approximately 13–14; March 2023 approximately 20; difference approximately 6–7.
+
+[Pattern Characteristics]
+The curve maintained a moderate level with short-term fluctuations from mid-2021 to early 2022, followed by a significant expansion in Q2 2022, reaching the overall peak. In the subsequent months, it rapidly retreated close to the period's low, and then oscillated around a moderate range in 2023, forming multiple local peaks and troughs. The overall structure shows a pattern of first sharp expansion, followed by contraction, and then repeated oscillation within a relatively narrow range.
+
+[Core Insights]
+Core Conclusion: Gasoline spreads returned to a neutral range after experiencing an extreme surge and maintained a volatile state.
+
+Business Implications:
+- The pricing environment was previously extremely tight, later transitioning to normal volatility.
+- Refinery and trading profit margins were first significantly amplified, then normalized.
+- Hedging and inventory strategies need to shift from extreme market mode to range-bound strategies.
+
+Risk Concerns:
+- If the spread approaches 50 USD/bbl again, it could trigger margin pressure and trading restrictions.
+- If the spread falls close to 0–5 USD/bbl, refinery marginal revenue may be insufficient to cover fixed costs.

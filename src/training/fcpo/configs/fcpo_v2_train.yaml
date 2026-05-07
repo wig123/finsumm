@@ -1,0 +1,65 @@
+# FCPO 训练配置（从 scripts/h20_fcpo_v2_train.sh 的 heredoc 抽取，与 patch_fcpo.py 配合）
+#
+# 实际训练时由 sh 脚本动态生成 ${NAME}_config.yaml，dataset 字段会被替换为
+# fcpo_v2_gamma1 / fcpo_v2_gamma2 / fcpo_v2_gamma4 三个数据集名之一
+# （对应不同的 margin 缩放系数 γ ∈ {1,2,4}，论文最终使用 γ=4 版本）
+#
+# loss 实现：pref_loss 字段写的 sigmoid 是 LLaMA-Factory 的 DPO 默认值，
+# 但运行前 patch_fcpo.py 会 monkey-patch LLaMA-Factory 的源码，
+# 把 DPO 损失替换为 FCPO：L_i = -log σ(β · margin_i · Δlogits_i)
+# margin 数据由 build_fcpo_data_v2.py 注入到训练数据中。
+
+# === Model ===
+model_name_or_path: $MODEL_ROOT                                  # Qwen3-VL-8B base
+adapter_name_or_path: $DATA_ROOT/dpo/sft-checkpoint/exp-012-ckpt640   # SFT 阶段最佳 checkpoint
+create_new_adapter: true
+
+# === Vision ===
+image_max_pixels: 262144
+video_max_pixels: 16384
+trust_remote_code: true
+
+# === Stage ===
+stage: dpo
+do_train: true
+finetuning_type: lora
+lora_rank: 256
+lora_alpha: 512
+lora_target: all
+
+# === DPO/FCPO Hyperparameters ===
+pref_beta: 0.1
+pref_loss: sigmoid                # 由 patch_fcpo.py 在运行时替换为 fact-calibrated multiplicative margin
+
+# === Dataset ===
+dataset_dir: $DATA_ROOT/dpo
+dataset: fcpo_v2_gamma4           # γ=4 是论文最终使用的 margin 缩放（替换为 fcpo_v2_gamma1/2 可做 γ 消融）
+template: qwen3_vl_nothink        # 必须，与 SFT baseline 对齐
+cutoff_len: 2048
+preprocessing_num_workers: 16
+dataloader_num_workers: 4
+
+# === Output ===
+output_dir: $OUTPUT_ROOT/fcpo_v2_gamma4
+logging_steps: 1
+save_steps: 999999                # 每 epoch 末保存
+save_total_limit: 1
+plot_loss: true
+overwrite_output_dir: true
+save_only_model: true
+report_to: none                   # 实际训练用 wandb offline + WANDB_DIR=outputs/
+
+# === Training ===
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 1    # 8 GPU × 8 × 1 = effective batch 64
+learning_rate: 1.0e-5
+num_train_epochs: 1.0
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+gradient_checkpointing: true
+neat_packing: false
+
+# === DeepSpeed ===
+deepspeed: examples/deepspeed/ds_z2_config.json

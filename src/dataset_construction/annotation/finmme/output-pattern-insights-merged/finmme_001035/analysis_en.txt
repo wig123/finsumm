@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: ETF Metric Data Table (Cells include color and bar visualization)
+- Title: As of 3/27/2024
+- Rows: ETF Tickers (KRE, XLC, XLRE, XLE, XOP, KBE, XLF, XLU, IWM, SMH, XLY, IGV, JETS, XRT, XLK, XME, XLP, XLV, QQQ, XLI, SPY)
+- Columns: 1m ATM (%), IV %ile [2 Yrs], 1M RV - IV (%), 25d Put - Call 1m Skew (%), Skew %ile [2 yrs], 25delta Call Prob Payout [1 Yr] (%)
+- Colors/Legend: Red/Blue bars indicate positive/negative values for “1M RV - IV”; Shades of green are used to display percentiles and probabilities.
+
+[Data Relationships]
+- Highest 1m ATM: SMH 29%; Lowest: XLV 10%; Difference between high and low: 19 percentage points.
+- Highest IV %ile: SMH 38; Lowest: XLV 0; Some lower values: XRT 1, XLP 1, XLRE 7.
+- Largest positive value for 1M RV - IV: SMH +6%; Followed by: XLY +4, IWM +3; Largest negative values: JETS -7, XRT -6, XLC/XLF -5.
+- Highest 25d Put-Call 1m Skew: JETS 4.8%; Lowest: SMH -0.3%; Second lowest: XOP -0.2; XME is 0.0.
+- Highest Skew %ile: JETS 32; Lowest: KRE 2.
+- Highest 25delta Call Prob Payout: XLF 41.3%; Followed by: XLI 40.4, SPY 40.2, SMH 37.7, QQQ 37.4; Lowest: XLU 20.5; Difference between highest and lowest: 20.8 percentage points.
+
+[Pattern Characteristics]
+There is a significant hierarchical difference in 1m ATM Implied Volatility across the ETFs, and compared to the 2-year percentile, most are in the medium-to-low percentile range. 1M RV-IV shows a minority of positive values accompanied by distinct blue bars in the sample, while the remainder are mostly negative red bars of varying shades. The overall skew level is close to zero but shows an upward prominence in individual ETFs. Furthermore, the corresponding skew percentile and the call probability payout do not show a one-to-one correspondence, indicating a certain mismatch structure.
+
+[Core Insights]
+Core Conclusion: Overall volatility levels are low, but pricing divergence among instruments is significant.
+
+Business Implications:
+- A few underlying assets show implied discounts, making short-term contracts more attractive.
+- Option pricing for most underlying assets is more conservative regarding recent volatility.
+- Individual assets show prominent upside payoff potential, suitable for directional positioning.
+
+Risk Focus:
+- When 1M RV-IV is below -5%, volatility mean reversion will amplify losses for sellers.
+- When the 25d call probability payout is above 40%, premium decay will occur if market movement stalls.

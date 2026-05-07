@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Dual-axis line chart
+- Title: Unlabeled; Legend includes Red “Price” and Gray “Rel KOSPI 200”
+- Left Y-axis: Unit KRW, scale approximately 675,000—800,000+
+- Right Y-axis: Scale 80—100
+- X-axis: Time range Feb 23—Jan 24, labeled monthly
+
+[Data Relationships]
+- Starting Point (Feb 23): Price≈805,000 KRW; Rel KOSPI 200≈97
+- Lowest Point (Oct 23): Price≈680,000; Rel KOSPI 200≈82
+- Ending Point (Jan 24): Price≈745,000; Rel KOSPI 200≈91
+- Difference between highest and lowest Price is approximately 125,000 KRW; Rel KOSPI 200 range is approximately 15 points
+- Around August 2023: Price≈750,000; Rel KOSPI 200≈87
+
+[Pattern Characteristics]
+- The two curves track closely for most of the period, with brief local deviations, forming an overall wave structure with several relative peaks and troughs.
+- The price curve hovered in the relatively central range near mid-year, subsequently forming a distinct low range near autumn, and then converged upward into the middle-to-upper range.
+- The Rel KOSPI 200 curve was generally in the mid-to-high range during the spring and summer, reaching the lowest point of the entire period near autumn, and gradually moved upward from the low point around year-end, showing no abrupt single-point anomalies.
+
+[Core Insights]
+Core Conclusion: The asset's relative performance against the index shifted from relatively strong to relatively weak, followed by partial recovery during the observation period.
+
+Business Implications:
+- Significant volatility in relative performance, indicating an unstable comparative advantage.
+- High requirements for selecting allocation timing when pursuing excess returns.
+- Limited recovery after autumn, indicating moderate relative recovery strength.
+
+Risk Concerns:
+- When Rel KOSPI 200 approaches or falls below 80, the asset may face pressure to continuously underperform the index.
+- When Price approaches or falls below 680,000 KRW, short-term book losses and drawdown pressure significantly amplify.

@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Dual-axis line chart
+- Legend: Red line "Price," Gray line "Rel FTSE Bursa Malaysia KLCI Index"
+- Title: Not displayed
+- X-axis: Time (Feb 23 to Jan 24, marked monthly)
+- Left Y-axis: Currency unit (MYR), scale approximately 0.75, 1.00, 1.25, 1.50, 1.75
+- Right Y-axis: Scale 40, 50, 60, 70, 80, 90, 100
+
+[Data Relationships]
+- Initial price (Feb 23) approximately 1.65–1.70 MYR; final price (Jan 24) approximately 0.75–0.80 MYR; difference from start to end approximately 0.9–1.0 MYR.
+- Price peak approximately 1.7 MYR (near Feb 23); lowest range approximately 0.75–0.80 MYR (Nov–Jan); high-low difference approximately 0.9–0.95 MYR.
+- Index initial value approximately 95–100; final value approximately 45–50; difference from start to end approximately 45–55 points.
+- Index lowest value approximately 40–45 (around Nov 23); highest value approximately 95–100 (around Feb 23).
+- Sep–Oct 23 range: Price approximately 0.95–1.05 MYR; corresponding index approximately 55–65.
+
+[Pattern Characteristics]
+Both lines evolve from a higher position at the beginning of the period to a lower position at the end, accompanied by several step-like downward shifts. The overall trend of the red line and the gray line aligns closely, maintaining a similar volatility structure for most of the time, with only slight deviations occurring in localized short periods. Around Sep–Oct, both curves are relatively flat, while the magnitude of change in the preceding and succeeding phases is more pronounced. After November, the overall trend remains within a relatively low range.
+
+[Core Insights]
+Core Conclusion: Price and the relevant index have significantly weakened in the same direction overall, lingering at low levels in the later period.
+
+Business Implications:
+- The performance of the underlying asset is highly driven by the overall environment of the relevant index.
+- Compared to the initial period, holding returns have been significantly compressed.
+- Price is sticky at low levels in the later period, limiting short-term rebound momentum.
+
+Risk Concerns:
+- Sustained price proximity to the 0.75 MYR region may amplify floating losses and stop-loss pressure.
+- The index dropping and lingering again in the 40–45 range may trigger further involuntary position reduction and valuation markdown.

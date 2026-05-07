@@ -1,0 +1,17 @@
+# 单个测试配置
+batch_name: "single_test"
+output_base_dir: "./batch_output"
+
+execution:
+  parallel: false
+  max_workers: 1
+  use_process_pool: false
+  use_async: false
+
+charts:
+  - chart_type: line
+    language: zh-CN
+    theme: inflation
+    task: monitor
+    library: matplotlib
+    data_constraints: {}

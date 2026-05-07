@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Vertical bar chart (arranged by value from low to high)
+- Title: Not displayed
+- X-axis: Country/Region names (e.g., Pakistan, Portugal, Poland, Spain, Netherlands, USA, Germany, Australia, Switzerland, France, Italy, Romania, China, etc.)
+- Y-axis: % of GDP; Range approximately 0%—45%, scale interval approximately 5%
+- Legend: None
+
+[Data Relationships]
+- Minimum Value: Pakistan 13%
+- 20%: Portugal 20%, Poland 20%
+- 21%: Spain 21%, Netherlands 21%, USA 21%
+- 24%: Germany 24%, Australia 24%, Switzerland 24%
+- 26%: France 26%, Italy 26%, Romania 26%
+- Maximum Value: China 39.4%
+- Range: 39.4% − 13% = 26.4 percentage points
+
+[Pattern Characteristics]
+The bar chart is continuously arranged by value from low to high. Most countries are concentrated in the approximately 15%–30% range, showing a relatively uniform distribution. In the middle segment, there are several groups with identical values, showing a step-like ascent. The maximum value is significantly higher than other countries, forming a single prominent peak relative to the overall distribution.
+
+[Core Insights]
+Core Conclusion: The country-specific differences for this indicator are evident, yet the values are highly concentrated at the intermediate level.
+
+Business Implications:
+- Most economies are at a similar level regarding this indicator.
+- Countries with extremely high or extremely low values will be strongly amplified in comparisons.
+- The country with the maximum value possesses significant distinctiveness in cross-national assessments.
+
+Risk Focus:
+- When exceeding 35%, the gap surpasses approximately 10 percentage points compared to most countries, potentially leading to structural imbalance.
+- When falling below 15%, positioning near the lowest range of the sample, this may weaken relative performance in international comparisons.

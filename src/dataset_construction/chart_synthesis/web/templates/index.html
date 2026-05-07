@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>图表查看器 V4{% if show_deleted %} - 回收站{% endif %}</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #f5f5f5;
+            color: #1a1a1a;
+            line-height: 1.6;
+        }
+        .container { max-width: 1600px; margin: 0 auto; padding: 20px; }
+
+        /* Header */
+        header {
+            background: {% if show_deleted %}#dc2626{% else %}#2563eb{% endif %};
+            color: white;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        header h1 { font-size: 1.5rem; font-weight: 500; }
+        header a { color: #93c5fd; text-decoration: none; }
+        header a:hover { text-decoration: underline; }
+        .header-actions { display: flex; gap: 12px; align-items: center; }
+
+        /* Stats Bar */
+        .stats-bar {
+            background: white;
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin-bottom: 20px;
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            align-items: center;
+        }
+        .stat-item { display: flex; flex-direction: column; }
+        .stat-label { font-size: 0.75rem; color: #666; text-transform: uppercase; }
+        .stat-value { font-size: 1.25rem; font-weight: 600; }
+
+        /* Distribution */
+        .distribution {
+            background: white;
+            border-radius: 8px;
+            padding: 16px 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .distribution h4 { font-size: 0.85rem; color: #666; margin-bottom: 8px; }
+        .dist-items { display: flex; flex-wrap: wrap; gap: 8px; }
+        .dist-item {
+            background: #f3f4f6;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+        }
+        .dist-item strong { color: #1a1a1a; }
+
+        /* Chart Grid */
+        .chart-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 16px;
+        }
+        .chart-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            position: relative;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .chart-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .chart-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: contain;
+            background: #fafafa;
+            cursor: pointer;
+        }
+        .chart-info {
+            padding: 12px;
+            font-size: 0.8rem;
+            color: #666;
+        }
+        .chart-info .type {
+            display: inline-block;
+            background: #dbeafe;
+            color: #1d4ed8;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-right: 6px;
+            font-weight: 500;
+        }
+        .chart-info .theme {
+            display: inline-block;
+            background: #dcfce7;
+            color: #166534;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-right: 6px;
+        }
+        .chart-info .lang {
+            display: inline-block;
+            background: #fef3c7;
+            color: #92400e;
+            padding: 2px 8px;
+            border-radius: 4px;
+        }
+        .chart-info .meta {
+            margin-top: 6px;
+            font-size: 0.75rem;
+            color: #999;
+        }
+
+        /* Pagination */
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+        .pagination a, .pagination span {
+            padding: 8px 14px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        .pagination a {
+            background: white;
+            color: #1a1a1a;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            transition: background 0.2s;
+        }
+        .pagination a:hover { background: #f3f4f6; }
+        .pagination a.active {
+            background: #2563eb;
+            color: white;
+        }
+        .pagination span.ellipsis { color: #666; }
+        .pagination .nav-btn { padding: 8px 16px; font-weight: 500; }
+        .pagination .disabled { opacity: 0.5; pointer-events: none; }
+        .page-info {
+            text-align: center;
+            margin-top: 12px;
+            color: #666;
+            font-size: 0.85rem;
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.85);
+            z-index: 1000;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .modal.active { display: flex; }
+        .modal-close {
+            position: absolute;
+            top: 16px; right: 24px;
+            color: #999;
+            font-size: 2rem;
+            cursor: pointer;
+            z-index: 10;
+            transition: color 0.2s;
+        }
+        .modal-close:hover { color: #fff; }
+        .modal-content {
+            display: flex;
+            width: 95%;
+            height: 90%;
+            max-width: 1600px;
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);
+        }
+        .modal-left {
+            flex: 1;
+            background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            min-width: 0;
+        }
+        .modal-left img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+        .modal-right {
+            width: 500px;
+            min-width: 420px;
+            display: flex;
+            flex-direction: column;
+            background: #fafbfc;
+            border-left: 1px solid #e5e7eb;
+        }
+        .modal-header {
+            padding: 20px 24px;
+            background: white;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        .modal-header h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin: 0;
+        }
+        .modal-tabs {
+            display: flex;
+            gap: 0;
+            background: #f3f4f6;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        .modal-tab {
+            padding: 12px 20px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            color: #666;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s;
+        }
+        .modal-tab:hover { color: #1a1a1a; background: #e5e7eb; }
+        .modal-tab.active {
+            color: #2563eb;
+            background: white;
+            border-bottom-color: #2563eb;
+        }
+        .tab-content {
+            flex: 1;
+            padding: 20px 24px;
+            overflow-y: auto;
+            font-size: 0.9rem;
+            line-height: 1.7;
+            color: #374151;
+            display: none;
+        }
+        .tab-content.active { display: block; }
+        .tab-content::-webkit-scrollbar { width: 6px; }
+        .tab-content::-webkit-scrollbar-track { background: transparent; }
+        .tab-content::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 3px; }
+        .tab-content pre {
+            white-space: pre-wrap;
+            word-break: break-word;
+            font-family: 'SF Mono', Monaco, monospace;
+            font-size: 0.8rem;
+            line-height: 1.5;
+            margin: 0;
+            padding: 16px;
+            background: #1e293b;
+            color: #e2e8f0;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+        .loading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 200px;
+            color: #9ca3af;
+        }
+        .loading .spinner {
+            width: 32px;
+            height: 32px;
+            border: 3px solid #e5e7eb;
+            border-top-color: #2563eb;
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-bottom: 12px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* 响应式 */
+        @media (max-width: 900px) {
+            .modal-content {
+                flex-direction: column;
+                height: 95%;
+            }
+            .modal-left { flex: none; height: 40%; }
+            .modal-right { width: 100%; min-width: unset; height: 60%; }
+        }
+
+        /* Toolbar */
+        .toolbar {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #1e293b;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 50px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+            z-index: 100;
+            align-items: center;
+            gap: 16px;
+        }
+        .toolbar.active { display: flex; }
+        .toolbar .count { font-weight: 500; min-width: 100px; }
+        .toolbar button {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: background 0.2s;
+        }
+        .toolbar .btn-select-all { background: #475569; color: white; }
+        .toolbar .btn-select-all:hover { background: #64748b; }
+        .toolbar .btn-cancel { background: #475569; color: white; }
+        .toolbar .btn-cancel:hover { background: #64748b; }
+        .toolbar .btn-delete { background: #ef4444; color: white; }
+        .toolbar .btn-delete:hover { background: #dc2626; }
+        .toolbar .btn-restore { background: #22c55e; color: white; }
+        .toolbar .btn-restore:hover { background: #16a34a; }
+
+        /* Selection */
+        .chart-card.selected {
+            box-shadow: 0 0 0 3px #2563eb;
+            transform: scale(0.98);
+        }
+        .chart-checkbox {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 24px;
+            height: 24px;
+            background: white;
+            border: 2px solid #d1d5db;
+            border-radius: 6px;
+            cursor: pointer;
+            z-index: 10;
+            display: none;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+        }
+        body.edit-mode .chart-checkbox { display: flex; }
+        .chart-checkbox:hover { border-color: #2563eb; }
+        .chart-card.selected .chart-checkbox {
+            background: #2563eb;
+            border-color: #2563eb;
+        }
+        .chart-checkbox svg {
+            display: none;
+            width: 14px;
+            height: 14px;
+            color: white;
+        }
+        .chart-card.selected .chart-checkbox svg { display: block; }
+
+        /* Buttons */
+        .btn {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.85rem;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            transition: background 0.2s;
+        }
+        .btn-primary { background: #475569; color: white; }
+        .btn-primary:hover { background: #64748b; }
+        .btn-primary.active { background: #2563eb; }
+        .btn-outline {
+            background: transparent;
+            border: 1px solid rgba(255,255,255,0.3);
+            color: white;
+        }
+        .btn-outline:hover { background: rgba(255,255,255,0.1); }
+        .badge {
+            background: #ef4444;
+            color: white;
+            font-size: 0.7rem;
+            padding: 2px 6px;
+            border-radius: 10px;
+            margin-left: 4px;
+        }
+
+        /* Confirm Dialog */
+        .confirm-dialog {
+            display: none;
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.5);
+            z-index: 1001;
+            justify-content: center;
+            align-items: center;
+        }
+        .confirm-dialog.active { display: flex; }
+        .confirm-box {
+            background: white;
+            padding: 24px;
+            border-radius: 12px;
+            max-width: 400px;
+            text-align: center;
+        }
+        .confirm-box h3 { margin-bottom: 12px; color: #1a1a1a; }
+        .confirm-box p { color: #666; margin-bottom: 20px; }
+        .confirm-box .buttons { display: flex; gap: 12px; justify-content: center; }
+        .confirm-box button {
+            padding: 10px 24px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+        .confirm-box .btn-confirm { background: #ef4444; color: white; }
+        .confirm-box .btn-confirm:hover { background: #dc2626; }
+        .confirm-box .btn-confirm-restore { background: #22c55e; color: white; }
+        .confirm-box .btn-confirm-restore:hover { background: #16a34a; }
+        .confirm-box .btn-cancel-dialog { background: #e5e7eb; color: #1a1a1a; }
+        .confirm-box .btn-cancel-dialog:hover { background: #d1d5db; }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: #666;
+        }
+        .empty-state svg { width: 80px; height: 80px; margin-bottom: 16px; opacity: 0.5; }
+        .empty-state h3 { margin-bottom: 8px; color: #1a1a1a; }
+
+        /* Question display */
+        .question-box {
+            background: #eff6ff;
+            border-left: 4px solid #2563eb;
+            padding: 12px 16px;
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 16px;
+        }
+        .question-box .label {
+            font-size: 0.75rem;
+            color: #2563eb;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>
+                {% if show_deleted %}
+                <a href="/">Chart Synthesis V4</a> / 回收站
+                {% else %}
+                Chart Synthesis V4
+                {% endif %}
+            </h1>
+            <div class="header-actions">
+                {% if not show_deleted %}
+                <a href="/?deleted=true" class="btn btn-outline">
+                    回收站
+                    {% if deleted_count > 0 %}<span class="badge">{{ deleted_count }}</span>{% endif %}
+                </a>
+                {% endif %}
+                {% if charts %}
+                <button class="btn btn-primary" id="editToggle" onclick="toggleEditMode()">编辑模式</button>
+                {% endif %}
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- 统计信息 -->
+        <div class="stats-bar">
+            <div class="stat-item">
+                <span class="stat-label">{% if show_deleted %}已删除{% else %}总数{% endif %}</span>
+                <span class="stat-value">{{ total }}</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">当前页</span>
+                <span class="stat-value">{{ page }} / {{ total_pages }}</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">图表类型</span>
+                <span class="stat-value">{{ stats.chart_types|length }}</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">主题数</span>
+                <span class="stat-value">{{ stats.themes|length }}</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">语言</span>
+                <span class="stat-value">{{ stats.languages|length }}</span>
+            </div>
+        </div>
+
+        <!-- 分布统计 -->
+        {% if stats.chart_types %}
+        <div class="distribution">
+            <h4>图表类型分布</h4>
+            <div class="dist-items">
+                {% for type, count in stats.chart_types.items()|sort(attribute='1', reverse=true) %}
+                <span class="dist-item">{{ type }}: <strong>{{ count }}</strong></span>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        {% if charts %}
+        <!-- 图表网格 -->
+        <div class="chart-grid" id="chartGrid">
+            {% for chart in charts %}
+            <div class="chart-card" data-folder="{{ chart.folder }}">
+                <div class="chart-checkbox" onclick="toggleSelect(event, '{{ chart.folder }}')">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                </div>
+                {% if show_deleted %}
+                <img src="/deleted_images/{{ chart.folder }}/{{ chart.image }}"
+                     alt="{{ chart.chart_type }}"
+                     onclick="handleImageClick(event, this.src, '{{ chart.folder }}')">
+                {% else %}
+                <img src="/images/{{ chart.folder }}/{{ chart.image }}"
+                     alt="{{ chart.chart_type }}"
+                     onclick="handleImageClick(event, this.src, '{{ chart.folder }}')">
+                {% endif %}
+                <div class="chart-info">
+                    <span class="type">{{ chart.chart_type }}</span>
+                    <span class="theme">{{ chart.theme }}</span>
+                    <span class="lang">{{ chart.language }}</span>
+                    <div class="meta">{{ chart.timestamp }}{% if chart.visual_style %} | {{ chart.visual_style }}{% endif %}</div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+
+        <!-- 分页 -->
+        {% if total_pages > 1 %}
+        <div class="pagination">
+            {% if page > 1 %}
+            <a href="?page={{ page - 1 }}{% if show_deleted %}&deleted=true{% endif %}" class="nav-btn">上一页</a>
+            {% else %}
+            <span class="nav-btn disabled">上一页</span>
+            {% endif %}
+
+            {% for p in page_range %}
+                {% if p == '...' %}
+                <span class="ellipsis">...</span>
+                {% elif p == page %}
+                <a href="?page={{ p }}{% if show_deleted %}&deleted=true{% endif %}" class="active">{{ p }}</a>
+                {% else %}
+                <a href="?page={{ p }}{% if show_deleted %}&deleted=true{% endif %}">{{ p }}</a>
+                {% endif %}
+            {% endfor %}
+
+            {% if page < total_pages %}
+            <a href="?page={{ page + 1 }}{% if show_deleted %}&deleted=true{% endif %}" class="nav-btn">下一页</a>
+            {% else %}
+            <span class="nav-btn disabled">下一页</span>
+            {% endif %}
+        </div>
+        <p class="page-info">
+            显示第 {{ (page - 1) * page_size + 1 }} - {{ [page * page_size, total]|min }} 项，共 {{ total }} 项
+        </p>
+        {% endif %}
+
+        {% else %}
+        <!-- 空状态 -->
+        <div class="empty-state">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"/>
+            </svg>
+            <h3>{% if show_deleted %}回收站为空{% else %}暂无图表{% endif %}</h3>
+            <p>{% if show_deleted %}没有已删除的图表{% else %}输出目录中没有找到图表{% endif %}</p>
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- 详情弹窗 -->
+    <div class="modal" id="modal" onclick="handleModalClick(event)">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <span class="modal-close" onclick="closeModal()">&times;</span>
+            <div class="modal-left">
+                <img id="modal-img" src="" alt="">
+            </div>
+            <div class="modal-right">
+                <div class="modal-header">
+                    <h3 id="modal-title">图表详情</h3>
+                </div>
+                <div class="modal-tabs">
+                    <div class="modal-tab active" data-tab="metadata" onclick="switchTab('metadata')">元数据</div>
+                    <div class="modal-tab" data-tab="code" onclick="switchTab('code')">代码</div>
+                    <div class="modal-tab" data-tab="data" onclick="switchTab('data')">数据</div>
+                    <div class="modal-tab" data-tab="dataspec" onclick="switchTab('dataspec')">DataSpec</div>
+                </div>
+                <div class="tab-content active" id="tab-metadata">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <span>加载中...</span>
+                    </div>
+                </div>
+                <div class="tab-content" id="tab-code">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <span>加载中...</span>
+                    </div>
+                </div>
+                <div class="tab-content" id="tab-data">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <span>加载中...</span>
+                    </div>
+                </div>
+                <div class="tab-content" id="tab-dataspec">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <span>加载中...</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 操作工具栏 -->
+    <div class="toolbar" id="toolbar">
+        <span class="count">已选择 <strong id="selectedCount">0</strong> 项</span>
+        <button class="btn-select-all" onclick="selectAll()">全选</button>
+        <button class="btn-cancel" onclick="cancelSelection()">取消</button>
+        {% if show_deleted %}
+        <button class="btn-restore" onclick="showRestoreDialog()">恢复</button>
+        <button class="btn-delete" onclick="showDeleteDialog()">永久删除</button>
+        {% else %}
+        <button class="btn-delete" onclick="showDeleteDialog()">删除</button>
+        {% endif %}
+    </div>
+
+    <!-- 确认对话框 -->
+    <div class="confirm-dialog" id="confirmDialog">
+        <div class="confirm-box">
+            <h3 id="dialogTitle">确认操作</h3>
+            <p id="dialogMessage">确定要执行此操作吗？</p>
+            <div class="buttons">
+                <button class="btn-cancel-dialog" onclick="hideDialog()">取消</button>
+                <button class="btn-confirm" id="dialogConfirmBtn" onclick="executeAction()">确认</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let editMode = false;
+        let selectedCharts = new Set();
+        let currentAction = null;
+        let cachedDetail = null;
+        const showDeleted = {{ 'true' if show_deleted else 'false' }};
+
+        // Tab 切换
+        function switchTab(tabName) {
+            document.querySelectorAll('.modal-tab').forEach(t => t.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+            document.querySelector(`.modal-tab[data-tab="${tabName}"]`).classList.add('active');
+            document.getElementById(`tab-${tabName}`).classList.add('active');
+        }
+
+        // 打开详情弹窗
+        async function openDetailModal(src, folder) {
+            const modal = document.getElementById('modal');
+            const imgEl = document.getElementById('modal-img');
+
+            imgEl.src = src;
+            modal.classList.add('active');
+            switchTab('metadata');
+
+            // 重置内容
+            ['metadata', 'code', 'data', 'dataspec'].forEach(tab => {
+                document.getElementById(`tab-${tab}`).innerHTML = `
+                    <div class="loading">
+                        <div class="spinner"></div>
+                        <span>加载中...</span>
+                    </div>
+                `;
+            });
+
+            try {
+                const response = await fetch(`/api/get_detail/${encodeURIComponent(folder)}`);
+                const data = await response.json();
+
+                if (data.success) {
+                    // Metadata
+                    if (data.metadata) {
+                        const meta = JSON.parse(data.metadata);
+                        let html = '';
+                        if (meta.question) {
+                            html += `<div class="question-box">
+                                <div class="label">Question</div>
+                                <div>${meta.question}</div>
+                            </div>`;
+                        }
+                        html += `<pre>${data.metadata}</pre>`;
+                        document.getElementById('tab-metadata').innerHTML = html;
+                    } else {
+                        document.getElementById('tab-metadata').innerHTML = '<p style="color:#999;text-align:center;">暂无元数据</p>';
+                    }
+
+                    // Code
+                    if (data.code) {
+                        document.getElementById('tab-code').innerHTML = `<pre>${escapeHtml(data.code)}</pre>`;
+                    } else {
+                        document.getElementById('tab-code').innerHTML = '<p style="color:#999;text-align:center;">暂无代码</p>';
+                    }
+
+                    // Data preview
+                    if (data.data_preview) {
+                        document.getElementById('tab-data').innerHTML = `<pre>${escapeHtml(data.data_preview)}</pre>`;
+                    } else {
+                        document.getElementById('tab-data').innerHTML = '<p style="color:#999;text-align:center;">暂无数据</p>';
+                    }
+
+                    // DataSpec
+                    if (data.dataspec) {
+                        document.getElementById('tab-dataspec').innerHTML = `<pre>${data.dataspec}</pre>`;
+                    } else {
+                        document.getElementById('tab-dataspec').innerHTML = '<p style="color:#999;text-align:center;">暂无 DataSpec</p>';
+                    }
+                } else {
+                    ['metadata', 'code', 'data', 'dataspec'].forEach(tab => {
+                        document.getElementById(`tab-${tab}`).innerHTML = '<p style="color:#999;text-align:center;">加载失败</p>';
+                    });
+                }
+            } catch (error) {
+                ['metadata', 'code', 'data', 'dataspec'].forEach(tab => {
+                    document.getElementById(`tab-${tab}`).innerHTML = '<p style="color:#999;text-align:center;">请求失败</p>';
+                });
+            }
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function closeModal() {
+            document.getElementById('modal').classList.remove('active');
+        }
+
+        function handleModalClick(event) {
+            if (event.target === event.currentTarget) {
+                closeModal();
+            }
+        }
+
+        function handleImageClick(event, src, folder) {
+            if (editMode) {
+                toggleSelect(event, folder);
+            } else {
+                openDetailModal(src, folder);
+            }
+        }
+
+        function toggleEditMode() {
+            editMode = !editMode;
+            const btn = document.getElementById('editToggle');
+            const toolbar = document.getElementById('toolbar');
+
+            if (editMode) {
+                document.body.classList.add('edit-mode');
+                btn.classList.add('active');
+                btn.textContent = '退出编辑';
+                toolbar.classList.add('active');
+            } else {
+                document.body.classList.remove('edit-mode');
+                btn.classList.remove('active');
+                btn.textContent = '编辑模式';
+                toolbar.classList.remove('active');
+                cancelSelection();
+            }
+        }
+
+        function toggleSelect(event, folder) {
+            event.stopPropagation();
+            if (!editMode) return;
+
+            const card = document.querySelector(`.chart-card[data-folder="${folder}"]`);
+            if (selectedCharts.has(folder)) {
+                selectedCharts.delete(folder);
+                card.classList.remove('selected');
+            } else {
+                selectedCharts.add(folder);
+                card.classList.add('selected');
+            }
+            updateSelectedCount();
+        }
+
+        function selectAll() {
+            const cards = document.querySelectorAll('.chart-card');
+            const allSelected = selectedCharts.size === cards.length;
+
+            if (allSelected) {
+                cards.forEach(card => card.classList.remove('selected'));
+                selectedCharts.clear();
+            } else {
+                cards.forEach(card => {
+                    card.classList.add('selected');
+                    selectedCharts.add(card.dataset.folder);
+                });
+            }
+            updateSelectedCount();
+        }
+
+        function cancelSelection() {
+            document.querySelectorAll('.chart-card.selected').forEach(card => {
+                card.classList.remove('selected');
+            });
+            selectedCharts.clear();
+            updateSelectedCount();
+        }
+
+        function updateSelectedCount() {
+            document.getElementById('selectedCount').textContent = selectedCharts.size;
+            const selectAllBtn = document.querySelector('.btn-select-all');
+            const cards = document.querySelectorAll('.chart-card');
+            selectAllBtn.textContent = selectedCharts.size === cards.length ? '取消全选' : '全选';
+        }
+
+        function showDeleteDialog() {
+            if (selectedCharts.size === 0) {
+                alert('请先选择要删除的图表');
+                return;
+            }
+            currentAction = showDeleted ? 'permanent_delete' : 'delete';
+            document.getElementById('dialogTitle').textContent = showDeleted ? '永久删除' : '确认删除';
+            document.getElementById('dialogMessage').innerHTML = showDeleted
+                ? `确定要<strong>永久删除</strong>选中的 <strong>${selectedCharts.size}</strong> 个图表吗？此操作不可恢复！`
+                : `确定要删除选中的 <strong>${selectedCharts.size}</strong> 个图表吗？删除后可从回收站恢复。`;
+            const btn = document.getElementById('dialogConfirmBtn');
+            btn.className = 'btn-confirm';
+            btn.textContent = '确认删除';
+            document.getElementById('confirmDialog').classList.add('active');
+        }
+
+        function showRestoreDialog() {
+            if (selectedCharts.size === 0) {
+                alert('请先选择要恢复的图表');
+                return;
+            }
+            currentAction = 'restore';
+            document.getElementById('dialogTitle').textContent = '确认恢复';
+            document.getElementById('dialogMessage').innerHTML = `确定要恢复选中的 <strong>${selectedCharts.size}</strong> 个图表吗？`;
+            const btn = document.getElementById('dialogConfirmBtn');
+            btn.className = 'btn-confirm-restore';
+            btn.textContent = '确认恢复';
+            document.getElementById('confirmDialog').classList.add('active');
+        }
+
+        function hideDialog() {
+            document.getElementById('confirmDialog').classList.remove('active');
+            currentAction = null;
+        }
+
+        async function executeAction() {
+            if (selectedCharts.size === 0 || !currentAction) return;
+
+            const btn = document.getElementById('dialogConfirmBtn');
+            btn.disabled = true;
+            btn.textContent = '处理中...';
+
+            const apiEndpoints = {
+                'delete': '/api/delete_charts',
+                'restore': '/api/restore_charts',
+                'permanent_delete': '/api/permanent_delete'
+            };
+
+            let requestBody;
+            if (currentAction === 'delete') {
+                const items = Array.from(selectedCharts).map(folder => ({ folder }));
+                requestBody = { items };
+            } else {
+                requestBody = { folders: Array.from(selectedCharts) };
+            }
+
+            try {
+                const response = await fetch(apiEndpoints[currentAction], {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(requestBody)
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    const successList = result.deleted || result.restored || [];
+                    successList.forEach(folder => {
+                        const card = document.querySelector(`.chart-card[data-folder="${folder}"]`);
+                        if (card) card.remove();
+                    });
+
+                    selectedCharts.clear();
+                    updateSelectedCount();
+                    hideDialog();
+
+                    const failedCount = result.failed_count || 0;
+                    const successCount = result.deleted_count || result.restored_count || 0;
+                    if (failedCount > 0) {
+                        alert(`操作完成\n成功: ${successCount}\n失败: ${failedCount}`);
+                    }
+                } else {
+                    alert('操作失败: ' + result.error);
+                }
+            } catch (error) {
+                alert('请求失败: ' + error.message);
+            } finally {
+                btn.disabled = false;
+                btn.textContent = currentAction === 'restore' ? '确认恢复' : '确认删除';
+            }
+        }
+
+        document.addEventListener('keydown', e => {
+            if (e.key === 'Escape') {
+                closeModal();
+                hideDialog();
+                if (editMode && selectedCharts.size > 0) {
+                    cancelSelection();
+                }
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Time series line chart, single red curve
+- Title/Y-axis label: "(USD/tonne)" located at the top of the Y-axis
+- Y-axis range: 0–7,000, scale increment 1,000
+- X-axis: Time from Jan-19 to Jan-24, marked with quarterly increments (Jan/Apr/Jul/Oct)
+- Legend: Not displayed; data points not individually marked
+
+[Data Relationships]
+- Initial value Jan-19 approximately 700
+- Trough value Oct-20 approximately 400
+- Peak value Jan-23 approximately 6,100
+- Final value Jan-24 approximately 1,100
+- Peak-Trough difference approximately 5,700; Peak-Initial difference approximately 5,400; Peak-Final difference approximately 5,000
+- Jan-21 approximately 500; Oct-21 approximately 1,100
+- Jan-22 approximately 2,800; Jul-22 approximately 4,600; Oct-22 approximately 5,600
+- Apr-23 approximately 4,000; Oct-23 approximately 2,000
+
+[Pattern Characteristics]
+- The curve first slowly declined in the lower range to a relative trough near the end of 2020, followed by a sustained and steep unilateral rally, forming a high and sharp peak in early 2023.
+- Following the peak, the curve showed a stepped retreat, with a significant overall drawdown, returning to near the initial level by early 2024. During this period, there were no significant new highs or consolidation phases.
+- The overall trend exhibits an asymmetrical structure characterized by "low-level platform—single primary ascent—high-level peak—single decline," lacking cyclical repetition.
+
+[Core Insights]
+Core Conclusion: Price experienced an extreme phase of spiking followed by a significant reversal.
+
+Business Implications:
+- Overall profitability and cost calculations are highly sensitive to timing.
+- Pricing and contract lock-in strategies have a massive impact on results.
+- Significant phase differences exist in asset, inventory, or project returns.
+
+Risk Focus:
+- Failure to lock in prices promptly when approaching 6,000 or above could result in insufficient hedging or compressed margins.
+- If the price falls below 1,000 and sustains that level, it may lead to inventory impairment and contract losses.

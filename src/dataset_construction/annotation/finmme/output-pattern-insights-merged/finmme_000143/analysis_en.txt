@@ -1,0 +1,39 @@
+[Chart Components]
+- Type: German Map Coloring Chart
+- Title: None
+- Axes: None
+- Legend:
+  - CDU Black
+  - CSU Gray
+  - SPD Red
+  - AfD Blue
+  - Left Purple
+
+[Data Relationships]
+- Party Distribution across States:
+  - CDU holds the majority in multiple states, including North Rhine-Westphalia, Lower Saxony, Saxony, etc.
+  - CSU is only in Bavaria.
+  - SPD is in states such as Bremen, Hamburg, Mecklenburg-Vorpommern, and Berlin.
+  - AfD is in Saxony-Anhalt.
+  - Left is in Thuringia.
+- Key Comparison:
+  - CDU's support coverage is wider, exerting greater influence than other parties.
+  - SPD dominates several major cities in the North and East.
+  - AfD and Left each dominate one state.
+
+[Pattern Characteristics]
+- Color blocks show a large area of black distribution; red forms contiguous areas along the northern coast and around the capital; gray, blue, and purple appear only in single states.
+- Structurally, one color dominates, with the remaining colors scattered in spots, and state boundaries are clearly delineated.
+- Two isolated blocks, distinct from the surrounding color blocks, appear in the Central-East region.
+
+[Core Insights]
+Core Conclusion: Regional structures show significant differences, requiring segmented strategy formulation.
+
+Business Implications:
+- Indicates strong regional dependency, making a unified approach difficult
+- Impacts channel deployment and resource allocation efficiency
+- Differentiated solutions are required for the northern urban clusters and the Central-East region
+
+Risk Focus:
+- When the number of states covered by a party = 1, cross-regional replication is difficult, and return on investment (ROI) is unstable
+- When the number of non-CDU-dominated states is $\ge 4$, a single solution is prone to failure, and localization costs increase

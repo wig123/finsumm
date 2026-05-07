@@ -1,0 +1,30 @@
+【图表构成】
+- 类型：柱状图（红色柱）
+- 标题：未显示
+- X轴：公司类别，顺序为：Natco、Biocon、Ipca、Lupin、Strides Pharma、Gland ex Cenexi、Aurobindo、Ajanta Pharma、Cipla、Sun、Alembic Pharma、Dr Reddy's、Zydus、Granules、Glenmark
+- Y轴：百分比刻度，范围约为-20%至60%，间隔10%
+- 图例：左下角“Y-Y Growth”（红色）
+
+【数据关系】
+- 最大值：Natco约54%
+- 次高：Biocon约34%，Ipca约33%，两者相差约1个百分点
+- 最低：Glenmark约-15%，与最大值差约69个百分点
+- 接近零：Granules约1%；负值仅Glenmark
+- 中位值：Lupin约21%；Strides Pharma约20%；Gland ex Cenexi约17%；Aurobindo约15%；Ajanta约14%；Cipla约13%
+- 其他：Sun约10%；Alembic约8%；Dr Reddy's约6%；Zydus约6%
+- 对比：Natco比Biocon高约20个百分点；Cipla比Sun高约3个百分点
+
+【模式特征】
+整体分布呈现右侧逐级减小的结构，仅首位公司显著高出其余样本，尾部公司略低于零附近并有一个明显落入负区间。中间大部分公司集中在正区间的中段，高低差距明显但分布连续，无明显断层。整体呈单峰且向高值一端有少数突出值。
+
+【核心洞察】
+核心结论：样本公司间增速差异显著，呈明显分化格局。
+
+业务含义：
+- 头部少数公司在增量贡献上更具话语权
+- 中游公司表现接近，竞争更依赖细微差别
+- 尾部公司可能拖累组合整体扩张速度
+
+风险关注：
+- 若低于0%的公司权重过高，可能导致组合整体增速被拉低
+- 若超过30%的高增公司后续回落超过10个百分点，可能引发业绩波动加剧

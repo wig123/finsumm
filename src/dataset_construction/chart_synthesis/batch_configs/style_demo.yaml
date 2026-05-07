@@ -1,0 +1,71 @@
+# 视觉风格演示配置
+# 展示8种不同金融图表视觉风格的效果
+# 用法: python scripts/run_batch.py --config batch_configs/style_demo.yaml
+
+batch_name: "style_demo"
+output_base_dir: "./batch_output"
+
+# 执行配置
+execution:
+  parallel: true
+  max_workers: 2
+  use_process_pool: false
+
+# 图表列表 - 每种风格生成一个示例
+charts:
+  # 1. 交易终端风 - 适合K线图
+  - chart_type: candlestick
+    language: en-US
+    theme: equity_markets
+    visual_style: trading
+    is_frontend: false
+    
+  # 2. 量化学术风 - 适合折线图
+  - chart_type: line
+    language: en-US
+    theme: inflation
+    visual_style: quant
+    is_frontend: false
+    
+  # 3. 宏观国际风 - 适合多国对比
+  - chart_type: bar
+    language: en-US
+    theme: growth_employment
+    visual_style: macro
+    is_frontend: false
+
+  # 4. 新闻媒体风 - 简洁叙事
+  - chart_type: line
+    language: zh-CN
+    theme: macro_policy
+    visual_style: news
+    is_frontend: false
+
+  # 5. 企业财报风 - 适合瀑布图
+  - chart_type: bar
+    language: zh-CN
+    theme: corporate_finance
+    visual_style: corporate
+    is_frontend: false
+
+  # 6. Fintech应用风 - 轻量友好
+  - chart_type: area
+    language: zh-CN
+    theme: asset_management
+    visual_style: fintech
+    is_frontend: true
+    library: echarts
+
+  # 7. 监管央行风 - 克制客观
+  - chart_type: line
+    language: zh-CN
+    theme: risk_regulation
+    visual_style: regulator
+    is_frontend: false
+
+  # 8. 机构研报风 - 标准化
+  - chart_type: bar_line_overlay
+    language: zh-CN
+    theme: real_estate
+    visual_style: research
+    is_frontend: false

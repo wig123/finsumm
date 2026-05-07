@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Time series line chart.
+- Theme/Legend: Red solid line "Forward P/E"; Black dashed line "+1SD=10.2"; Gray dashed line "Mean=8.9"; Orange dashed line "-1SD=7.5".
+- X-axis: Time, labeled from Feb-14 to Jan-24.
+- Y-axis: Numerical range 4–14.
+- Title: Not displayed separately.
+
+[Data Relationships]
+- Initial period (Feb-2014) approximately 11.0; Final period (Jan-2024) approximately 8.3, difference approximately 2.7.
+- Peak value approximately 12.2 (mid-2017), Trough value approximately 6.2 (mid-2020), range approximately 6.0.
+- The peak 12.2 is approximately 2.0 higher than +1SD=10.2; The trough 6.2 is approximately 1.3 lower than -1SD=7.5.
+- Compared to the mean 8.9: Initial period is higher by approximately 2.1; Final period is lower by approximately 0.6; Peak is higher by approximately 3.3; Trough is lower by approximately 2.7.
+- Mid-2023 low point approximately 6.7; Rises to approximately 8.3 by Jan-2024, a change of approximately 1.6.
+
+[Pattern Characteristics]
+- The overall trend shifted from operating around the upper range in the early period, gradually moving towards the middle-lower range, and fluctuating around the mean in the later period.
+- Early data points were mostly located between the mean and the upper dashed line, with multiple brief breakthroughs above the upper dashed line; After a rapid decline near the lower dashed line around 2020, the data has mostly concentrated between the mean and the lower dashed line thereafter.
+- The chart shows several sharp local peaks and troughs, with prominent low-level troughs forming in mid-2020 and mid-2023, followed by subsequent rebounds of a certain magnitude.
+
+[Core Insights]
+Core Conclusion: Valuation level has shifted from relatively high to near the long-term central tendency (mean), currently slightly undervalued.
+
+Business Implications:
+- Current valuation is relatively balanced historically, offering a more prominent value proposition (cost-effectiveness) than before.
+- Asset pricing relies more on earnings changes rather than sentiment premium.
+- If earnings remain stable, there is room for valuation to converge toward the mean.
+
+Risk Focus:
+- If the value breaks below -1SD=7.5 and persists, it may trigger forced selling and capital outflow.
+- If the value approaches or breaks above +1SD=10.2, new capital faces increased pressure from potential drawdowns.

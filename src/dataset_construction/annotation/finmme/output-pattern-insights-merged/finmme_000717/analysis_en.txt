@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Dual-axis dual-line time series chart
+- Title: Not displayed
+- Legend: Red "Price," Gray "Rel NASDAQ COMPOSITE"
+- Y-axis: Left axis unit USD, scale approximately 80–120; Right axis scale approximately 80–115
+- X-axis: Time range Mar 23 to Feb 24, marked monthly
+
+[Data Relationships]
+- Price range approximately 85–118 USD, maximum-minimum difference approximately 33 USD
+- Price initial value (Mar 23) approximately 86 USD; final value (Feb 24) approximately 111 USD
+- Price peak approximately 118 USD (around Nov 23); low point approximately 85–88 USD (around Jan 24)
+- NASDAQ relative value range approximately 86–116, difference approximately 30
+- NASDAQ initial value approximately 104; final value approximately 105
+- Nov–Dec 23 the two values are approximately 118 (Price) and 116 (NASDAQ), difference approximately 2
+- Feb 24 the two values are approximately 111 (Price) and 105 (NASDAQ), difference approximately 6
+
+[Pattern Characteristics]
+The two curves were relatively close in the first half of the year, but the overall level of the red line gradually exceeded the gray line after the midpoint. Around November, both reached a phase high simultaneously, followed by a simultaneous decline, but the red line's decline was steeper and shorter in duration. Entering February, the red line is approaching its previous high, while the gray line remains significantly below its mid-period level, widening the gap between the two compared to the previous period.
+
+[Core Insights]
+Core Conclusion: The individual stock demonstrated stronger performance relative to the NASDAQ during the sample period, and divergence increased.
+
+Business Implications:
+- The contribution to returns relative to the benchmark is more prominent.
+- If portfolio weighting is high, the impact of individual stock factors will be amplified.
+- Subsequent excess returns depend on the individual stock's own trajectory.
+
+Risk Focus:
+- When the Price difference from Rel NASDAQ is ≥10 points, a potential mean reversion or convergence could lead to a significant drawdown.
+- If the Price falls below the 90 USD range, it may erase most of the relative gains.

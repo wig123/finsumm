@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Dual-axis line chart
+- Legend: Red line "Price," Gray line "Rel SET Composite Index"
+- Left Y-axis: Unit THB, Scale approximately 37.5–47.5
+- Right Y-axis: Scale approximately 95–115
+- X-axis: Time range Feb 23–Jan 24, marked monthly
+
+[Data Relationships]
+- Price initial period (Feb 23) approximately 44–45 THB; final period (Jan 24) approximately 39–40 THB, change approximately -5 THB
+- Price highest approximately 47 THB (near May 23); lowest approximately 37 THB (near Jul 23); range approximately 10 THB
+- Index initial period approximately 100; final period approximately 106–108; highest approximately 112 (near Dec 23); lowest approximately 98 (near Feb 23); range approximately 14 points
+- Jan 24 corresponding period: Price approximately 39–40 THB; Index approximately 106–108
+
+[Pattern Characteristics]
+After Price fluctuated slightly around the central axis in the first few months, a significant downward trend appeared in June–July, briefly touching the range low. Subsequently, it oscillated repeatedly within the lower range, failing to return to previous highs. The index generally operated within a narrow range, gradually rising in the later stage. The trend shows a certain divergence from Price in the middle-to-late stage.
+
+[Core Insights]
+Core Conclusion: The individual stock performance is weaker than the relative index performance, showing a clear divergence.
+
+Business Implications:
+- The individual stock is underperforming relative to the sector/market.
+- The return elasticity of holding this security is lower than that of the index.
+- The allocation efficiency of this security in the asset portfolio may be low.
+
+Risk Focus:
+- Price falling near 37 THB may amplify book losses and drawdown pressure.
+- If the index exceeds 112 while Price remains below 40 THB, it may increase the relative performance drag.

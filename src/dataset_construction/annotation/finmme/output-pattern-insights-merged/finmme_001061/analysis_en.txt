@@ -1,0 +1,32 @@
+**[Chart Components]**
+- Type: Dual-axis combination chart (black dashed line chart + green bar/box).
+- Title: Not displayed.
+- X-axis: Month, Jan to Dec.
+- Left Y-axis: % Cash performs (10y), scale 0% (top) to 100% (bottom).
+- Right Y-axis: median performance of Cash in % of initial spread, scale -10% to +10%.
+- Legend: Green—“Med Spreads move € IG (10y)”; Black dashed line—“% Cash performs (10y)”.
+- Annotations: Labeled “Bear” (near Aug) and “Bull” (near Jul).
+
+**[Data Relationships]**
+- Right-axis series: Aug is approximately +10% (the highest); Apr and Jul are approximately -10% (the lowest); Jan, Feb, Mar are approximately 0%.
+- Right-axis series: May is approximately +6%; Sep, Nov are approximately +2%; Oct, Dec are approximately -4%; Jun is between -2% and -6%.
+- Difference between highest and lowest: The difference between +10% and -10% is approximately 20 percentage points.
+- Quantity comparison: Positive values for 4 months (May, Aug, Sep, Nov), negative values for 5 months (Apr, Jun, Jul, Oct, Dec), near zero for 3 months (Jan, Feb, Mar).
+- Specific values for the left-axis line are not labeled; the confirmed range is 0% to 100%.
+
+**[Pattern Characteristics]**
+- The right-axis series initially fluctuates around the zero axis in the first half of the year, followed by a noticeable downward deviation, then reaches the annual upper extreme in August, and subsequently maintains small fluctuations around the zero axis.
+- The right-axis values show an alternating positive/negative sawtooth structure monthly, with extreme points concentrated in April, July, and August, while other months are relatively centered.
+- The left-axis line is relatively stable at the beginning of the year, exhibiting a relationship of partial synchronization and inverse staggering with the right-axis changes, showing relatively distinct pattern differences near the “Bear” and “Bull” annotations.
+
+**[Core Insights]**
+Core Conclusion: Cash performance and spread changes exhibit periodic sensitivity and reversal ranges.
+
+Business Implications:
+- The reaction of intra-year cash returns to the direction of spread movement is not uniform.
+- The vicinity of April and July may be important observation points for portfolio allocation adjustments.
+- The vicinity of August may correspond to phases where sentiment and pricing deviation are significant.
+
+Risk Focus:
+- When spread changes approach ±10%, if cash performance does not improve synchronously, it may lead to valuation drawdown pressure.
+- When spreads remain below -4% for two consecutive months, if the cash proportion remains high, it may significantly amplify opportunity costs.

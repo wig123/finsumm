@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Time-series line chart (red line), including 4 gray reference curves.
+- Title: Not displayed.
+- X-axis: Date, range Dec-18 to Oct-24.
+- Y-axis: Unit is TWD, scale approximately 20, 70, 120, 170, 220, 270, 320.
+- Right reference line labels: 1.5x, 3.0x, 4.5x, 6.0x. No independent legend observed.
+
+[Data Relationships]
+- Initial value (Dec-18) is between 20–70, approximately 40 TWD.
+- The peak value for the entire period is approximately 260–270 TWD, occurring around Jul-23.
+- The final value (Oct-24) is between 220–270, approximately 240–260 TWD.
+- The lowest point for the entire period is approximately 30–40 TWD (located in the lower half of the 20–70 scale).
+- The difference between high and low is approximately 220–240 TWD.
+- Initial position relative to reference lines: Near or slightly below the 1.5x gray line.
+- The Jul-23 peak approaches the 6.0x gray line.
+- The final position is located between the 4.5x and 6.0x gray lines.
+
+[Pattern Characteristics]
+The curve generally climbed slowly along the 1.5x level in the first half, with minor local fluctuations. A steep surge began in mid-2023, forming a single prominent peak near the 6.0x level. Subsequently, the value repeatedly fluctuated within the range between 4.5x and 6.0x, exhibiting significant high-level volatility without returning to the earlier range.
+
+[Core Insights]
+Core Conclusion: The asset valuation level has significantly increased and is sustained within a high range.
+
+Business Implications:
+- Long-term returns have accumulated substantially, resulting in significant holding gains.
+- Current price sensitivity relative to historical cost has increased.
+- Subsequent performance shows increased dependence on entry and exit timing.
+
+Risk Focus:
+- A break below the approximately 4.5x area could trigger a significant giveback of unrealized gains.
+- If the value retreats close to 3.0x, the periodic book value gains for long-term holders would be significantly compressed.

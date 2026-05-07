@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Dual-series line chart
+- Legend: Total ad market (Red); Online ad (Gray)
+- X-axis: Time; Ticks are Jan-22, Jul-22, Jan-23, Jul-23, Jan-24
+- Y-axis: Numerical scale 80–120, interval 5
+- Reference Line: Horizontal dashed line at 100
+- Title: Not displayed
+
+[Data Relationships]
+- Initial Period (Jan-22): Total approx. 98; Online approx. 101; Difference ≈ 3
+- Peak Value: Online approx. 110 in Aug-23; Total approx. 108 in the same month; Difference ≈ 2
+- Trough Value: Total approx. 98 (near Jan-22/Jan-24); Online approx. 100 (Jan-24); Respective high-low difference ≈ 10
+- Final Period (Jan-24): Total approx. 99; Online approx. 100; Difference ≈ 1
+- Early 2023 (near Jan-23): Total approx. 101; Online approx. 103; Difference ≈ 2
+- Mid-2022 (near Jul-22): Total ≈ 103–104; Online ≈ 104–105; Difference < 1
+
+[Pattern Characteristics]
+The two line charts generally fluctuate around the reference line, showing moderate volatility and no unidirectional trend. Online ad is consistently slightly higher than the Total ad market, and their trends are highly synchronized, only showing a sharp, joint surge followed by a rapid decline in mid-to-late 2023. Excluding this peak, high and low points are relatively evenly distributed during other periods, and the lines gradually converge toward the reference line in the final period.
+
+[Core Insights]
+Core Conclusion: Overall deployment scale is relatively stable; online holds a slight but limited advantage.
+
+Business Implications:
+- The online proportion contributes more to overall deployment, but the difference is not significant.
+- The overall deployment pace is relatively predictable, which is beneficial for budget planning.
+- The short-term volume spike in mid-to-late 2023 may correspond to a one-off project driver.
+
+Risk Focus:
+- If any indicator remains below 100 for an extended period, it may signify a contraction in market size relative to the base period.
+- If there is another short-term surge above 110 followed by a rapid decline, it could lead to risks of resource misallocation and unstable deployment returns.

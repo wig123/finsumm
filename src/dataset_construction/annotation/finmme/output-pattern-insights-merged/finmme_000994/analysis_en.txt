@@ -1,0 +1,27 @@
+[Chart Components]
+- Chart Type: Multi-series line chart, including a shaded range band (labeled "5Y Range").
+- Title: Not displayed.
+- X-axis: Monthly categories (Jan—Dec).
+- Y-axis: Scale approximately 1.0—9.0, units not specified.
+- Legend: 5Y Range (light green), 2023 (blue line), 2024 (orange line), 5Y Avg (gray dashed line). 2024 line data is not visible in the chart.
+
+[Data Relationships]
+- 2023 peak value was in Jan at approximately 6.5; trough value was in Apr at approximately 3.8; the maximum-minimum difference was approximately 2.7.
+- Comparison of 2023 with 5Y Avg: Jan 6.5 vs 5.0, difference +1.5; Apr 3.8 vs 5.2, difference -1.4; Aug 5.8 vs 4.8, difference +1.0; Dec 4.6 vs 5.5, difference -0.9.
+- 5Y Range upper boundary: Apr approximately 8.0, Nov–Dec approximately 7.5; lower boundary: Jul–Dec approximately 3.2–4.0. All 2023 monthly values remained within this range band.
+- 2024 data is not presented, precluding numerical comparison.
+
+[Pattern Characteristics]
+The 2023 curve was positioned high at the beginning of the year, experienced a significant decline in the spring, subsequently recovered to an upper-middle level in the summer, and closed the year in the lower-middle range. Compared to the 5Y Avg, 2023 was above it in some months and below it in others, showing an alternating distribution. The entire year's data consistently fell within the 5Y Range shaded band, with no extreme points breaking the upper or lower boundaries.
+
+[Core Insights]
+Core Conclusion: The overall performance in 2023 fluctuated around the central tendency of the historical range, showing no extreme deviation.
+
+Business Implications:
+- The overall annual level is close to the historical norm, with no structural imbalance.
+- Seasonal differences persist, with a noticeable temporary weakening during the spring.
+- Compared to the 5-year average, there was no sustained unilateral advantage or disadvantage throughout the year.
+
+Risk Focus:
+- If future values approach or exceed the 5Y Range upper boundary (approx. 7.5–8.0), it may introduce pressure from abnormal volatility.
+- If values consistently approach or fall below the 5Y Range lower boundary (approx. 3.2–4.0), it may signify a deviation from historical conventional levels, requiring a review of driving factors.

@@ -1,0 +1,35 @@
+[Chart Components]
+- Type: Single Line Chart
+- Legend/Title: The legend displays "Banking system loans growth y‑y," and the red line represents this indicator.
+- X-axis: Time (Month), from Jan‑19 to Jan‑24, labels are displayed monthly and annotated obliquely.
+- Y-axis: Percentage scale, range 0%—8%, with increments of 1%.
+- Others: No obvious grid lines, single series, no secondary axis.
+
+[Data Relationships]
+- Jan‑19 approximately 7.4%
+- May‑19 approximately 4.5%
+- May‑21 low point approximately 2.6%
+- Jan‑22 approximately 4.8%
+- Aug‑22 high point approximately 6.7%
+- Oct‑22 approximately 6.5%
+- Oct‑23 approximately 4.1%
+- Jan‑24 approximately 5.7%
+- The difference between the highest and lowest points is approximately 4.1 percentage points (6.7% vs 2.6%).
+- The difference between Jan‑19 and Jan‑24 is approximately 1.7 percentage points (7.4% vs 5.7%).
+- Aug‑22 is approximately 2.6 percentage points higher than Oct‑23 (6.7% vs 4.1%).
+- The difference between Jan‑22 and Aug‑22 is approximately 1.9 percentage points (4.8% vs 6.7%).
+
+[Pattern Characteristics]
+The curve initially declined rapidly, then fluctuated in the middle-to-low range, forming a distinct trough around mid-2021. Subsequently, it entered a relatively steep upward phase, peaking locally in the second half of 2022 before declining again. The latter half of 2023 showed moderate volatility, with a noticeable upward surge appearing again near the end of the sample period.
+
+[Core Insights]
+Core Conclusion: Loan growth has risen again after a period of decline and remains at a medium-to-high level.
+
+Business Implications:
+- The overall intensity of credit expansion has increased again following a temporary contraction.
+- It has a significant impact on the pace of asset scale expansion.
+- It reflects the relative sensitivity of credit extension to changes in the environment.
+
+Risk Focus:
+- If loan growth falls below 3% again, it could drag down asset returns and scale growth.
+- If it consistently exceeds 7%, it may lead to pressure on asset quality and capital consumption.

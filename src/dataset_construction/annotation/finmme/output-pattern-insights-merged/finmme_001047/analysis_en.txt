@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Scatter plot, containing two types of points and two reference lines (blue dashed line, gray dashed line).
+- Title: 5y Implied vs realised skew; last 3 months.
+- X-axis: Implied skew, range approximately -0.20% to 0.20%, zero mark bolded.
+- Y-axis: Realised skew, range approximately -0.30% to 0.40%, zero mark bolded.
+- Legend: Blue diamond represents "Higher forward," green square represents "Lower forward."
+
+[Data Relationships]
+- Vertical Extremes: Highest realised skew approximately 0.35% (corresponding to x≈0.18%, blue); lowest approximately -0.25% (corresponding to x≈0.05%, blue).
+- Horizontal Range: Implied skew scatter points are generally distributed between -0.12% and 0.18%.
+- Series Value Ranges: Green approximately -0.12% to 0.03%; Blue approximately -0.02% to 0.18%.
+- Relationship to Zero: Scatter points exist near both x=0 and y=0.
+- Overlap Coverage: Both series have scatter points within the range x≈-0.02%—0.10% and y≈-0.10%—0.10%.
+
+[Pattern Characteristics]
+Both types of points exhibit a roughly linear distribution around the origin, forming an overall concentrated band structure in a single direction. Green points are mainly concentrated where the X-axis is slightly negative to slightly positive, and the Y-axis is slightly negative; blue points are more distributed in the positive X-axis and positive Y-axis regions, with a few outliers appearing at higher levels. The two types of points show significant overlap in the central range, but the higher value range is dominated by blue points.
+
+[Core Insights]
+Core Conclusion: In the case of higher forward rates, realised skew is relatively more dependent on the level of implied skew.
+
+Business Implications:
+- The indicative nature of the implied metric on future realised outcomes is more prominent under higher forward conditions.
+- Under higher forward conditions, the linkage between pricing and realised results is tighter.
+- Samples with lower forward rates have a relatively limited contribution to the overall relationship.
+
+Risk Focus:
+- When implied skew ＞ 0.15% and realised skew is significantly below the fitted line, it may lead to pricing drawdown.
+- When implied skew ＜ -0.10% and realised skew is near 0 or positive, insufficient hedging effectiveness may occur.

@@ -1,0 +1,29 @@
+【图表构成】
+- 图表类型：ETF指标数据表（单元格含颜色与条形可视化）
+- 标题：As of 3/27/2024
+- 行：ETF代码（KRE、XLC、XLRE、XLE、XOP、KBE、XLF、XLU、IWM、SMH、XLY、IGV、JETS、XRT、XLK、XME、XLP、XLV、QQQ、XLI、SPY）
+- 列：1m ATM（%）、IV %ile [2 Yrs]、1M RV - IV（%）、25d Put - Call 1m Skew（%）、Skew %ile [2 yrs]、25delta Call Prob Payout [1 Yr]（%）
+- 颜色/图例：红/蓝条表示“1M RV - IV”正负；绿色深浅用于百分位与概率显示
+
+【数据关系】
+- 1m ATM最高：SMH 29%；最低：XLV 10%；高低差：19个百分点
+- IV %ile最高：SMH 38；最低：XLV 0；部分较低：XRT 1、XLP 1、XLRE 7
+- 1M RV - IV最大正值：SMH +6%；其次：XLY +4、IWM +3；最大负值：JETS -7、XRT -6、XLC/XLF -5
+- 25d Put-Call 1m Skew最高：JETS 4.8%；最低：SMH -0.3%；次低：XOP -0.2；XME为0.0
+- Skew %ile最高：JETS 32；最低：KRE 2
+- 25delta Call Prob Payout最高：XLF 41.3%；其后：XLI 40.4、SPY 40.2、SMH 37.7、QQQ 37.4；最低：XLU 20.5；最高与最低差：20.8个百分点
+
+【模式特征】  
+各ETF在1m ATM隐含波动率上存在较大层级差异，与2年分位数相比，多数处于中低分位。1M RV-IV在样本中呈现少数正值伴随明显蓝色条，其余多为不同深浅的负值红条。偏度水平整体接近零但在个别ETF上出现向上突出，且对应的偏度分位数与看涨获利概率并非一一对应，呈现出一定错配结构。
+
+【核心洞察】  
+核心结论：整体波动水平偏低但品种间定价分化明显。  
+
+业务含义：  
+- 少数标的呈现隐含折价，短期合约更具吸引力  
+- 多数标的期权价格对近期波动更为保守  
+- 个别标的上行赔率突出，可用于方向性配置  
+
+风险关注：  
+- 1M RV-IV低于-5%时，波动回归将导致卖方亏损放大  
+- 25d看涨获利概率高于40%时，若行情停滞将造成权利金回撤

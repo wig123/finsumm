@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Bar chart
+- Legend/Title: None
+- X-axis: Time, starting January 2020, ending July 2023, half-year intervals
+- Y-axis: Unit ('000 MT), range from 0 to 1200, horizontal grid lines every 200 units
+- Annotation: Horizontal dashed line marking the average value of 488
+- Color: Red bars
+
+[Data Relationships]
+- Monthly data fluctuations range between approximately 200 and 1000
+- The highest peak occurred in July 2022, close to 1000
+- Data was above the average annotation line of 488 for most months, particularly during the majority of 2021 and 2022
+- The data showed a clear downward trend at the beginning of 2022, but subsequently rebounded
+- 2023 data is relatively unstable, showing significant volatility
+
+[Pattern Characteristics]
+The series exhibits periodic fluctuations. From 2021 to 2022, it mostly stayed above the mean line. A low-level period appeared at the beginning of 2022, followed by an isolated spike mid-year. Entering 2023, high and low switches are more frequent, and dispersion has widened, showing an overall positive skew relative to the mean.
+
+[Core Insights]
+Core Conclusion: The magnitude center is high, but predictability has declined
+
+Business Implications:
+- Reflects insufficient stability, increasing planning difficulty
+- Higher requirements for configuration and safety margins
+- Amplified impact of extreme values on the mean
+
+Risk Focus:
+- A single month below 200 significantly drags down the annual average
+- A single month approaching 1000 leads to short-term resource consumption and cost escalation

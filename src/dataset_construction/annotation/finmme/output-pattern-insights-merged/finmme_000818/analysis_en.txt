@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Time series line chart, including event markers.
+- Title: Kuala Lumpur Kepong.
+- Annotation: As of 10-Mar-2024; Currency=MYR.
+- X-axis: Date range 2021/07/01 to 2024/01/01 (major tick marks labeled).
+- Y-axis: Price scale 0.00 to 30.00 (MYR).
+- Legend: Grey line = Closing Price; Green triangle = Target Price Change; Blue dot = Recommendation Changes.
+- Source: LSEG, Nomura.
+
+[Data Relationships]
+- Initial closing price (2021/07/01) approximately 21 MYR; Final closing price (2024/01/01) approximately 22–22.5 MYR.
+- Global maximum closing price approximately 29 MYR (mid-2022), Global minimum approximately 19 MYR (second half of 2021); Price differential approximately 10 MYR.
+- Blue dot appeared around 2023/01, price at the marker approximately 20–21 MYR.
+- Green triangle appeared approximately four times: 2023/01≈27 MYR, 2023/03≈26 MYR, 2023/06≈24.5 MYR, 2023/08≈27 MYR.
+
+[Pattern Characteristics]
+The price experienced a sharp rally followed by a rapid decline early in the sample period, subsequently consolidating sideways within a relatively narrow range. The overall pattern is dominated by a single peak followed by prolonged platform oscillation, without approaching the previous extreme value again. All target price changes were located above the consolidation range and concentrated around mid-2023, while recommendation changes appeared only near one localized fluctuation.
+
+[Core Insights]
+Core Conclusion: The market price has long hovered near the lower bound of the broker's target range.
+
+Business Implications:
+- The valuation level shows a discount relative to sell-side expectations.
+- Sell-side pricing assumptions significantly influence subsequent investment decisions.
+- Single rating adjustments have limited price reaction, reflecting pricing stickiness.
+
+Risk Concerns:
+- If the price persistently remains below 25 MYR, it may lead to a reduction in the target price and a weakening of the rating.
+- If the price approaches 20 MYR again, a downside breakout could trigger stop-loss orders and capital outflow.

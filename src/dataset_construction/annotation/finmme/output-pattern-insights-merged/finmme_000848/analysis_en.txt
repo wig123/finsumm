@@ -1,0 +1,33 @@
+[Chart Components]
+- Chart Type: Time series line chart, overlaid with event markers (green triangle, blue circle)
+- Title: China Merchants Bank
+- Time Axis: 2021/07/01 to 2024/01/01 (Date scale)
+- Price Axis: 0.00–90.00 (Unit: HKD)
+- Legend: Closing Price (Black line), Target Price Change (Green triangle), Recommendation Changes (Blue circle)
+- Notes: As of 23-Feb-2024; Currency = HKD; Source: LSEG, Nomura
+
+[Data Relationships]
+- Opening Period Closing Price approximately 62 HKD (2021/07).
+- Ending Period Closing Price approximately 31 HKD (2024/01).
+- Maximum Closing Price for the entire period approximately 68 HKD (H2 2021), Minimum approximately 27 HKD (Early 2023), High-Low difference approximately 41 HKD.
+- Maximum Target Price approximately 89 HKD (Early 2022), Minimum approximately 33 HKD (Early 2024), Range difference approximately 56 HKD.
+- Early 2023: Closing Price approximately 28 HKD, corresponding Target Price approximately 60 HKD, difference approximately 32 HKD.
+- July 2023: Closing Price approximately 38 HKD, corresponding Target Price approximately 55 HKD, difference approximately 17 HKD.
+- No blue circle markers (Recommendation Changes) are visible in the chart.
+
+[Pattern Characteristics]
+- The price line initially maintained a high range during the early part of the sample, followed by a distinct step-down movement. The middle-to-later segment generally remained in a lower range, accompanied by several medium-amplitude rebounds.
+- The green triangles were mostly positioned significantly above the price line in the early stages. Subsequently, their overall position gradually shifted downward over time, and the vertical distance between them and the price line showed distinct changes, narrowing and then widening again at different stages.
+- No blue circles appeared in the chart. The event marker type is relatively singular, and the distribution rhythm is relatively uniform, without abrupt dense clusters or extreme outliers.
+
+[Core Insights]
+Core Conclusion: Target price is persistently disconnected from the stock price, and adjustments are lagged.
+
+Business Implications:
+- Valuation expectations are relatively optimistic, and reaction speed is slow.
+- Research pricing has limited guidance effect on market transactions.
+- Price sensitivity to external opinions is weakened periodically.
+
+Risk Focus:
+- When the stock price is below 30 HKD and the target price is still more than 20 HKD higher, investors may overestimate the upside potential.
+- If the target price is lowered to below 40 HKD and the stock price approaches that level, it may trigger concentrated sentiment adjustment and high-volume selling.

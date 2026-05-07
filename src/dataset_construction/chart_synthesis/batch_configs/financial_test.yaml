@@ -1,0 +1,235 @@
+# 金融数据源测试配置 - 30张图表
+# 测试新添加的金融数据源：波动率、债券、基金、全球指数等
+# 用法: python scripts/run_batch.py --config batch_configs/financial_test.yaml
+
+batch_name: "financial_test"
+output_base_dir: "./batch_output"
+
+execution:
+  parallel: true
+  max_workers: 10
+  use_process_pool: false
+  use_async: true
+
+charts:
+  # === 波动率指数相关 (5张) ===
+
+  # 1. VIX波动率 - 中文折线图
+  - chart_type: line
+    language: zh-CN
+    theme: equity_markets
+    library: matplotlib
+    data_constraints: {}
+
+  # 2. 波动率对比 - 英文柱状图
+  - chart_type: bar
+    language: en-US
+    theme: equity_markets
+    library: seaborn
+    data_constraints: {}
+
+  # 3. 波动率分析 - 中文散点图
+  - chart_type: scatter
+    language: zh-CN
+    theme: equity_markets
+    library: matplotlib
+    data_constraints: {}
+
+  # 4. 市场情绪 - 英文折线图
+  - chart_type: line
+    language: en-US
+    theme: macro_policy
+    library: plotly
+    data_constraints: {}
+
+  # 5. 风险指标 - 中文柱状图
+  - chart_type: bar
+    language: zh-CN
+    theme: fixed_income
+    library: seaborn
+    data_constraints: {}
+
+  # === 债券收益率曲线 (5张) ===
+
+  # 6. 国债收益率 - 英文折线图
+  - chart_type: line
+    language: en-US
+    theme: fixed_income
+    library: matplotlib
+    data_constraints: {}
+
+  # 7. 收益率曲线 - 中文折线图
+  - chart_type: line
+    language: zh-CN
+    theme: fixed_income
+    library: seaborn
+    data_constraints: {}
+
+  # 8. 利差分析 - 英文柱状图
+  - chart_type: bar
+    language: en-US
+    theme: fixed_income
+    library: matplotlib
+    data_constraints: {}
+
+  # 9. 信用利差 - 中文折线图
+  - chart_type: line
+    language: zh-CN
+    theme: banking_credit
+    library: plotly
+    data_constraints: {}
+
+  # 10. 债券市场 - 英文散点图
+  - chart_type: scatter
+    language: en-US
+    theme: fixed_income
+    library: seaborn
+    data_constraints: {}
+
+  # === 全球股票指数 (5张) ===
+
+  # 11. 全球指数K线 - 中文
+  - chart_type: candlestick
+    language: zh-CN
+    theme: equity_markets
+    library: mplfinance
+    data_constraints: {}
+
+  # 12. 港股指数 - 英文折线图
+  - chart_type: line
+    language: en-US
+    theme: equity_markets
+    library: matplotlib
+    data_constraints: {}
+
+  # 13. A股指数 - 中文K线
+  - chart_type: candlestick
+    language: zh-CN
+    theme: equity_markets
+    library: mplfinance
+    data_constraints: {}
+
+  # 14. 美股指数 - 英文布林带
+  - chart_type: bollinger_bands
+    language: en-US
+    theme: equity_markets
+    library: mplfinance
+    data_constraints: {}
+
+  # 15. 指数对比 - 中文柱状图
+  - chart_type: bar
+    language: zh-CN
+    theme: equity_markets
+    library: seaborn
+    data_constraints: {}
+
+  # === ETF基金 (5张) ===
+
+  # 16. ETF走势 - 英文折线图
+  - chart_type: line
+    language: en-US
+    theme: equity_markets
+    library: matplotlib
+    data_constraints: {}
+
+  # 17. ETF K线 - 中文
+  - chart_type: candlestick
+    language: zh-CN
+    theme: equity_markets
+    library: mplfinance
+    data_constraints: {}
+
+  # 18. 基金对比 - 英文柱状图
+  - chart_type: bar
+    language: en-US
+    theme: corporate_finance
+    library: seaborn
+    data_constraints: {}
+
+  # 19. 基金分析 - 中文散点图
+  - chart_type: scatter
+    language: zh-CN
+    theme: corporate_finance
+    library: plotly
+    data_constraints: {}
+
+  # 20. 收益分析 - 英文折线图
+  - chart_type: line
+    language: en-US
+    theme: corporate_finance
+    library: seaborn
+    data_constraints: {}
+
+  # === 外汇与期货 (5张) ===
+
+  # 21. 外汇K线 - 中文
+  - chart_type: candlestick
+    language: zh-CN
+    theme: fx_trade
+    library: mplfinance
+    data_constraints: {}
+
+  # 22. 汇率走势 - 英文折线图
+  - chart_type: line
+    language: en-US
+    theme: fx_trade
+    library: matplotlib
+    data_constraints: {}
+
+  # 23. 期货K线 - 中文
+  - chart_type: candlestick
+    language: zh-CN
+    theme: commodities
+    library: mplfinance
+    data_constraints: {}
+
+  # 24. 期货布林带 - 英文
+  - chart_type: bollinger_bands
+    language: en-US
+    theme: commodities
+    library: mplfinance
+    data_constraints: {}
+
+  # 25. 商品价格 - 中文折线图
+  - chart_type: line
+    language: zh-CN
+    theme: commodities
+    library: seaborn
+    data_constraints: {}
+
+  # === 宏观经济 (5张) ===
+
+  # 26. GDP增长 - 英文柱状图
+  - chart_type: bar
+    language: en-US
+    theme: growth_employment
+    library: matplotlib
+    data_constraints: {}
+
+  # 27. 通胀趋势 - 中文折线图
+  - chart_type: line
+    language: zh-CN
+    theme: inflation
+    library: seaborn
+    data_constraints: {}
+
+  # 28. 就业数据 - 英文散点图
+  - chart_type: scatter
+    language: en-US
+    theme: growth_employment
+    library: plotly
+    data_constraints: {}
+
+  # 29. 利率政策 - 中文柱状图
+  - chart_type: bar
+    language: zh-CN
+    theme: macro_policy
+    library: matplotlib
+    data_constraints: {}
+
+  # 30. 经济指标 - 英文折线图
+  - chart_type: line
+    language: en-US
+    theme: macro_policy
+    library: plotly
+    data_constraints: {}

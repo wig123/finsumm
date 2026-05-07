@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Time Series Line Chart
+- Title: MI Technovation
+- Time Axis: 2021/07/01—2024/01/01 (Ticks: 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01)
+- Y-Axis: Price (MYR), from 0.00 to approximately 5.50
+- Legend: Black Line = Closing Price; Green Triangle = Target Price Change; Blue Dot = Recommendation Changes
+- Notes: As of 26-Feb-2024; Source: LSEG, Nomura
+
+[Data Relationships]
+- Ending Closing Price ≈ 2.0 MYR.
+- Initial Closing Price is approximately 4.2 MYR, higher than the ending price by about 2.2 MYR.
+- Highest closing price > 5.0 MYR (mid-2021), lowest approximately 1.1–1.3 MYR (H2 2022); the high-low difference is approximately ≥ 3.7 MYR.
+- Target price change markers total 6 times; recommendation change markers 0 times.
+- The most recent target price change occurred at the end of 2023, corresponding to a price of approximately 2.3 MYR.
+
+[Pattern Characteristics]
+The closing price was in a higher range during the initial sample period, followed by a distinct step-like decline, settling into a prolonged period of low-level sideways fluctuation around H2 2022. Starting in 2023, the price slowly climbed within the lower range, experiencing a brief lift followed by a pullback. Target price changes were concentrated between 2021 and H1 2022 and at the end of 2023, with a gap of over a year in between without target price adjustments, and no recommendation change markers appeared throughout the entire period.
+
+[Core Insights]
+Core Conclusion: Valuation expectations were adjusted multiple times, but there was an overall lack of buy/sell rating changes.
+
+Business Implications:
+- Institutional judgment on the company remains relatively consistent long-term, with only adjustments to the target price level.
+- Target prices were concentrated in early upward revisions and later scattered adjustments, reflecting a valuation re-assessment process.
+- The target price adjustment at the end of 2023 may correspond to a further correction in fundamentals or expectations.
+
+Risk Focus:
+- If the price consistently remains below 2.0 MYR, it may weaken investor willingness to hold shares.
+- If the future target price falls below the current approximately 2.0 MYR, it may trigger further selling pressure.

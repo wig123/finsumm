@@ -1,0 +1,31 @@
+【图表构成】
+- 类型：柱状图，叠加两条水平虚线参考线
+- 标题：未见主标题
+- 纵轴：数值刻度0–120（百分比），带网格线
+- 横轴：类别为各国家/市场；依次为Austria、Belgium、Bulgaria、Croatia、Czech Republic、Denmark、France、Germany、Hungary、Italy、Latvia、Netherlands‑TTF、Poland、Portugal、Romania、Slovakia、Spain、UK‑NBP
+- 图例：红柱“% Fullness”；蓝色虚线“Avg Europe inventory level”；灰色虚线“Avg inventory a year ago”
+
+【数据关系】
+- 最高：Portugal 107；最低：Bulgaria 33；差74
+- Austria 80 vs Belgium 58；差22
+- Germany 74 vs France 55；差19
+- Netherlands‑TTF 64 vs Italy 50；差14
+- Czech Republic 71 vs Hungary 68；差3
+- Romania 61 vs UK‑NBP 55；差6
+- Slovakia 77 vs Spain 51；差26
+- 期初Austria 80，期末UK‑NBP 55；差25
+
+【模式特征】  
+各国家/市场的红色柱体在纵轴上分布离散，上端高度差异明显，整体呈多点散布而非集中于单一区间。多数柱体略高或略低于蓝色虚线，个别国家显著偏离该虚线；与灰色虚线相比，当前柱体整体位置略偏上，仅少数接近或低于。Portugal 构成单一的极端高点，Bulgaria 为明显低点，形成上下两个突出的例外。
+
+【核心洞察】  
+核心结论：各国库存状态差异显著，整体较上年略有改善。  
+
+业务含义：  
+- 区域整体储备水平较去年更从容。  
+- 个别高值国家具备更强的供给调节空间。  
+- 低值国家更依赖跨国调配和外部补充。  
+
+风险关注：  
+- 当库存低于40%（如接近Bulgaria）时，本地供应弹性明显受限。  
+- 当库存超过100%（如接近Portugal）时，可能带来储备冗余和成本压力。

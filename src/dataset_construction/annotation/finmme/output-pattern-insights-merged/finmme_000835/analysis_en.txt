@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Pie chart
+- Title: Not displayed
+- Legend: Includes 12 categories—Taiwan, Australia, Singapore, Japan, U.S., UK, South Korea, Hong Kong SAR, Canada, Macao SAR, Malaysia, Thailand
+- Axes: None (Pie charts do not have axes)
+- Labels: Numerical values are marked on each sector; visible labels include 22, 19, 19, 18, 11, 8, 5, 4, 3, 2, etc.
+
+[Data Relationships]
+- Maximum value is 22; the second highest value is 19, with two items (tied)
+- The difference between the maximum value 22 and 19 is 3; the two values of 19 are equal
+- The fourth largest value is 18; the difference between 22 and 18 is 4
+- Other labeled values: 11, 8, 5, 4, 3, 2
+- The difference between the maximum value 22 and the minimum value 2 is 20
+- The sum of the top three values is 60 (22+19+19); the sum of the top four values is 78; the sum of the top five values is 89
+
+[Pattern Characteristics]
+The chart exhibits a clear structure of concentration at the top, where the largest sector is significantly greater than most other sectors. The top three to five sectors account for the majority of the pie chart's area, while the remaining sectors are smaller and relatively close in size, forming a long-tail distribution. Values generally decrease continuously from high to low, with only multiple small, similar values appearing in the tail end.
+
+[Core Insights]
+Core Conclusion: The regional proportion is highly concentrated in a few markets.
+
+Business Implications:
+- Overall allocation relies on the top few regions.
+- Small and medium-sized regions have limited impact on overall performance.
+- The structure shows a clear long tail, and the space for marginal adjustments is concentrated at the top.
+
+Risk Focus:
+- The largest single region accounts for 22. If this region experiences volatility, it will significantly amplify portfolio volatility.
+- The top three regions collectively account for 60. If they perform negatively in sync, it will drag down overall performance.

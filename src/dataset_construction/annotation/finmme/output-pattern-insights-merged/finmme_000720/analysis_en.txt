@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Dual Line Chart
+- Title: Spring wage negotiations (%)
+- X-axis: Year, range 90–24 (Unit: Year)
+- Y-axis: Percentage, range 0–9
+- Legend: Blue represents Demand, Green represents Result
+- Other: Source noted in the bottom right corner: “Rengo, BNP Paribas”
+
+[Data Relationships]
+- 1990: Demand≈8.5%, Result≈6.0%.
+- 1995: Demand≈5.0%, Result≈3.0%.
+- Trough period 2004–2006: Demand≈1.5%, Result≈1.2%.
+- 2017: Demand≈3.8%, Result≈2.0%.
+- 2024: Demand=5.85%, Result=5.28%, Difference=0.57 percentage points.
+- 2023: Result=3.58%, 1.70 percentage points lower than the 2024 Result.
+
+[Pattern Characteristics]
+- Both curves were at a relatively high level in the early 1990s, followed by a rapid decline in the mid-to-late 1990s, forming a lower plateau around the mid-2000s, and then fluctuating slowly at low levels throughout the 2010s.
+- The blue curve consistently maintains a higher overall level than the green curve, with a relatively stable spread between the two across various years, narrowing or widening only slightly in isolated years.
+- Since 2020, both curves have jointly risen from low levels, showing a particularly steep upward trajectory in the most recent two years, forming a clear localized peak.
+
+[Core Insights]
+Core Conclusion: Both the latest annual negotiation demands and results are situated within the high range of the observation period.
+
+Business Implications:
+- The level of elevated demands and concessions in labor negotiations are rising concurrently.
+- Pressure on corporate labor costs and employee compensation is intensifying simultaneously.
+- The weighting of wage negotiations in overall operational decision-making is increasing.
+
+Risk Focus:
+- A sustained Result above 5% could drive up overall costs and compress profit margins.
+- If the spread between Demand and Result widens further to exceed 1 percentage point, it could trigger negotiation deadlock and labor friction.

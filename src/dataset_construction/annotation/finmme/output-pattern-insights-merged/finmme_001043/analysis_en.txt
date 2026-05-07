@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Bar Chart (Single series, light green)
+- Title: Not displayed
+- X-axis: Quarterly labels, from 1Q21 to 4Q23, totaling 12 periods
+- Y-axis: Unit is €m, range approximately -€200m to €700m, zero value has a baseline
+- Legend: Not displayed; Grid lines are present
+
+[Data Relationships]
+- Maximum value: 1Q22 approximately €570m; Minimum value: 1Q23 approximately -€140m; Overall amplitude approximately €710m
+- 2021: 1Q approximately €250m; 4Q approximately €320m, difference approximately €70m
+- 2022: Q1 approximately €570m, Q2 approximately €120m, difference approximately €450m; Q3 approximately €330m, Q4 approximately -€20m, difference approximately €350m
+- 2023: Q2 approximately -€80m and Q3 approximately -€70m, difference approximately €10m; 4Q approximately €120m, an increase of approximately €190m compared to 3Q
+- Initial and final periods: 1Q21 approximately €250m vs 4Q23 approximately €120m, difference approximately €130m
+- Zero-line crossing: 4Q22, 1Q23, 2Q23, 3Q23 are negative, the rest are positive
+
+[Pattern Characteristics]
+The overall pattern exhibits a distinct single-peak structure, reaching its highest point in the first quarter of 2022, followed by multiple directional reversals thereafter. Starting in 2022, the variation in bar height is significant, and the internal high/low distribution within that year is the most dispersed. Starting from 4Q22, the values fell below the zero baseline for several consecutive quarters, only returning to the positive range in 4Q23.
+
+[Core Insights]
+Core Conclusion: Profitability performance shifted from strong to weak, followed by a slight recovery, but remains below early levels.
+
+Business Implications:
+- Rapid decline after the peak, indicating insufficient earnings stability.
+- Increased internal volatility in 2022, raising the difficulty of budgeting and forecasting.
+- Although profitability was restored by the end of 2023, overall earning power has not returned to 2021 levels.
+
+Risk Focus:
+- If the value falls below €0m again, cost compression and investment reduction may be required.
+- If a single quarter falls below -€100m, it may trigger financing needs and external constraints.

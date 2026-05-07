@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Line chart, including a green area and a dashed baseline.
+- Title: Not displayed.
+- X-axis: Time (2021—2024).
+- Y-axis: 1-month difference, range approximately -0.06 to 0.06, including the horizontal line y=0.
+- Legend: Two items—"VIX curve" (solid line), "10th percentile, 5-year rolling window" (dashed line).
+- Others: A black diamond marks a data point at the end; the green area is located below the dashed line.
+
+[Data Relationships]
+- Solid line maximum value approximately 0.05 (near 2021); minimum value approximately -0.06 (near 2022).
+- Full range difference approximately 0.11 (0.05 − (−0.06)).
+- The value corresponding to the black diamond at the end is approximately -0.036 (2024).
+- Dashed line values: Approximately -0.06 in 2021; approximately -0.04 in 2024, difference approximately +0.02.
+- Difference between the endpoint and the dashed line: Approximately +0.004 (−0.036 − (−0.04)).
+- Difference between the endpoint and the zero line: Approximately −0.036.
+
+[Pattern Characteristics]
+The solid line shows clear reciprocal fluctuation around the zero line, with alternating peaks and troughs, but the overall amplitude remains within a similar range. The dashed line slowly rises throughout the entire period, exhibiting a monotonically smooth, step-like shape. The solid line rapidly declines from a higher position towards the end, marked by a black diamond near the dashed line, remaining slightly above the dashed line.
+
+[Core Insights]
+Core Conclusion: The current VIX curve is approaching historically low percentile levels.
+
+Business Implications:
+- Compared to the distribution over the past 5 years, the current position leans towards the lower segment.
+- The impact of volatility levels on the pricing of related assets may weaken.
+- Future deviations from the percentile line can serve as a reference signal for sentiment changes.
+
+Risk Concerns:
+- If the 1-month difference breaks below the dashed line (approximately ‑0.04), it may indicate volatility is at an extremely low level, increasing the potential for reversal.
+- If it subsequently rises rapidly from near ‑0.04 to above 0, related assets may face pricing adjustment pressure.

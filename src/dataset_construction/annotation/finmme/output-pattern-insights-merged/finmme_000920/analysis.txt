@@ -1,0 +1,29 @@
+【图表构成】
+- 类型：百分比堆叠柱状图
+- 标题：未显示
+- 横轴：季度标签，依次为3Q21、4Q21、1Q22、2Q22、3Q22、4Q22、1Q23、2Q23、3Q23、4Q23
+- 纵轴：百分比刻度0%—100%，以20%为主要刻度
+- 图例与颜色：Serial products of DisplayPort（红）、High-speed interfacing chips（灰）、Source Driver（浅米）、Serial products of TrueTouch（浅粉）
+- 单位与合计：各柱为占比，单柱合计100%
+
+【数据关系】
+- 每季四类占比总和=100%。
+- 4Q22：DisplayPort约52%（该类最高）；High‑speed约33%；Source Driver约14–15%（该类最低）；TrueTouch约3–4%。
+- 4Q23：High‑speed约44%（该类最高）；DisplayPort约35%；Source Driver约18–19%；TrueTouch约3%。
+- 4Q21：Source Driver约30%（该类最高）；DisplayPort约39%；High‑speed约26%；TrueTouch约4–5%。
+- 1Q23：DisplayPort与High‑speed均约40%；Source Driver约18–19%；TrueTouch约3%。
+
+【模式特征】  
+各季度中，DisplayPort与High‑speed两类占比长期构成主要部分，TrueTouch一直保持在最小比例区间。DisplayPort在样本前中段一度处于主导区间，随后High‑speed在后段几个季度占比更大，二者在1Q23附近出现比例接近的阶段。Source Driver整体处于中等区间，先收缩后略有回升，结构未出现突发性跳变。
+
+【核心洞察】  
+核心结论：产品结构由单一偏重逐步转向双核心、再偏向High‑speed。
+
+业务含义：  
+- High‑speed地位提升，结构依赖度上升  
+- DisplayPort相对权重下降，议价与投入需重新评估  
+- 中腰部Source Driver比重回升，组合弹性增强  
+
+风险关注：  
+- 若High‑speed占比长期高于45%，组合过度集中，抗波动能力下降  
+- 若DisplayPort占比再降至30%以下，原有渠道与产能利用可能不足

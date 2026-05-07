@@ -1,0 +1,30 @@
+**[Chart Components]**
+- Type: Time-series dual line chart, title not displayed
+- Y-axis: Currency unit USD, range USD0–USD500, scale increment USD50
+- X-axis: Time scale from 01-21 to 01-24 (Quarterly markers: 01/04/07/10)
+- Legend: Cyan "Closing price," Gray stepped line "Target price"; Red dots serve as data markers
+
+**[Data Relationships]**
+- Closing price around USD330 in 01-21; Closing price around USD370 in 01-24
+- Highest closing price around USD480 (near 01-22); Lowest closing price around USD300 (near 04-23); High-low difference ≈ USD180
+- Highest target price step around USD470 (near 01-22); Lowest target price step around USD320 (01-23 to 10-23)
+- 10-22 Closing price ≈ USD340, Target price ≈ USD380, Difference ≈ −USD40
+- 01-23 Closing price ≈ USD330, Target price ≈ USD320, Difference ≈ +USD10
+- 01-24 Closing price ≈ USD370, Target price ≈ USD340, Difference ≈ +USD30
+
+**[Pattern Characteristics]**
+- After a gradual increase in the initial period, the closing price formed a high-level range near 01-22, subsequently transitioning to a narrow extension within the mid-to-high range, with overall volatility remaining relatively stable.
+- The target price shows stepped adjustments. After remaining above the closing price for a period, it repeatedly shifted downwards from the high range to the mid-range, later running parallel with the closing price at similar levels for an extended period.
+- Locally, the closing price near 10-22 was significantly lower than the target price. However, after 01-23, the closing price was slightly higher than or close to the target price for most of the time, indicating an overall narrowing of the price spread.
+
+**[Core Insights]**
+Core Conclusion: The relationship between the target price and the closing price shifted from divergence to convergence, indicating reduced pricing disagreement.
+
+Business Implications:
+- There was a relatively clear gap between valuation expectations and actual performance in the early period.
+- The narrowing of the price spread in the later period reflects a greater convergence of market views and expectations.
+- The current price range is closer to the target price, suggesting relatively limited room for adjustment.
+
+Risk Focus:
+- If the closing price falls below USD320 again and persists, it may trigger doubts about the target price framework.
+- If the closing price briefly surges near USD470 without the target price following suit, it increases the likelihood of a significant correction.

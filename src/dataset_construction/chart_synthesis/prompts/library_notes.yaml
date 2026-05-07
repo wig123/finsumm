@@ -1,0 +1,513 @@
+# 库特定注意事项配置
+# 用于在生成代码时根据使用的绘图库动态填入相关注意事项
+
+mplfinance:
+  title: "mplfinance 使用注意事项"
+  notes:
+    - "标题设置: 使用 `mpf.plot(title=...)` 或 `ax.set_title()` 二选一,避免重复显示标题"
+    - "图例处理: `mpf.make_addplot()` 不支持 `label` 参数,需要在获取 axes 后手动使用 `ax.legend()` 或 `ax.axhline(..., label=...)` 添加图例"
+    - "返回值: 必须使用 `returnfig=True` 获取 fig 和 axes 对象,以便进行后续自定义(如添加标注、图例等)"
+    - |
+      中文字体 (CRITICAL): **必须**同时配置 matplotlib.rcParams 和 mpf style:
+      ```python
+      import matplotlib
+      matplotlib.rcParams['font.sans-serif'] = ['PingFang SC', 'Heiti SC', 'STHeiti', 'SimHei', 'Arial Unicode MS']
+      matplotlib.rcParams['axes.unicode_minus'] = False
+
+      style = mpf.make_mpf_style(
+          base_mpf_style='charles',
+          rc={'font.sans-serif': ['PingFang SC', 'Heiti SC', 'STHeiti', 'SimHei', 'Arial Unicode MS'],
+              'axes.unicode_minus': False}
+      )
+      ```
+      **禁止**省略任何一处配置，否则中文将显示为方框。
+      **禁止**在 rc 字典中设置 `font.family`，这会覆盖中文字体导致乱码。
+      如需使用特定风格字体（如等宽字体），**必须**将中文字体放在首位：
+      ```python
+      rc={'font.sans-serif': ['PingFang SC', 'Heiti SC', 'Consolas', 'Monaco']}  # 中文字体在前
+      ```
+    - |
+      图表类型 type 参数 (CRITICAL): mplfinance 的有效 type 值:
+      - 'candle' 或 'candlestick': 蜡烛图
+      - 'ohlc': OHLC 柱状图
+      - 'line': 折线图
+      - 'renko': 砖形图
+      - 'pnf': Point and Figure 图（点数图）
+      - 'hollow_and_filled': 空心/实心蜡烛图
+      **禁止**使用以下无效值:
+      - ❌ `type='pointfigure'`
+      - ❌ `type='point_figure'`
+      - ❌ `type='point_and_figure'`
+      正确写法: `type='pnf'`
+    - |
+      OHLC 数据要求 (CRITICAL): mplfinance 需要 DataFrame 包含以下列名（区分大小写）:
+      - 必须: Open, High, Low, Close（首字母大写）
+      - 可选: Volume
+      - 索引必须是 DatetimeIndex
+      如果数据源只提供单一价格列，**禁止**直接使用 mplfinance，需要:
+      - 方案1: 从数据源获取真正的 OHLC 数据
+      - 方案2: 改用 matplotlib 绑制简单折线图
+    - |
+      style 参数 (CRITICAL): **必须**使用 `mpf.make_mpf_style()` 创建 style 对象:
+      ```python
+      # ✅ 正确
+      style = mpf.make_mpf_style(base_mpf_style='charles', rc={...})
+      mpf.plot(df, style=style, ...)
+      
+      # ❌ 错误 - 不能直接传 dict
+      mpf.plot(df, style={'rc': {...}}, ...)  # AttributeError: 'dict' object has no attribute 'rc'
+      ```
+    - |
+      make_addplot 参数 (CRITICAL): `mpf.make_addplot()` 的线宽参数是 `width`，不是 `linewidth` 或 `lw`:
+      ```python
+      # ✅ 正确
+      ap = mpf.make_addplot(data, width=2, color='blue')
+      
+      # ❌ 错误 - 会报 KeyError
+      ap = mpf.make_addplot(data, linewidth=2)  # KeyError: 'Unrecognized kwarg="linewidth"'
+      ap = mpf.make_addplot(data, lw=2)         # KeyError: 'Unrecognized kwarg="lw"'
+      ```
+    - |
+      make_marketcolors 参数 (CRITICAL): `mpf.make_marketcolors()` 没有 `volume_up` 或 `volume_down` 参数。
+      成交量颜色自动跟随蜡烛颜色（上涨/下跌）。
+      有效参数: `up`, `down`, `edge`, `wick`, `volume`
+    - |
+      导入别名 (CRITICAL): 如果导入时写 `import mplfinance as mpf`，则代码中必须用 `mpf.xxx`，不能用 `mplfinance.xxx`:
+      ```python
+      import mplfinance as mpf
+      mpf.plot(...)  # ✅ 正确
+      mplfinance.plot(...)  # ❌ NameError: name 'mplfinance' is not defined
+      ```
+    - "成交量子图 Y 轴 (CRITICAL): 禁止用价格分位数设置成交量轴范围（量纲不同），否则成交量柱会被压成长方形；建议让 mplfinance 自动处理，或用 volume 列的分位数"
+
+plotly:
+  title: "plotly 使用注意事项"
+  notes:
+    - "返回值: 直接返回 plotly 的 Figure 对象,不要使用 `plt.show()`"
+    - |
+      中文字体 (CRITICAL): **必须**在返回 figure 之前调用以下代码:
+      ```python
+      fig.update_layout(font=dict(family='PingFang SC, Heiti SC, STHeiti, SimHei, Arial Unicode MS, sans-serif'))
+      ```
+      **禁止**省略此配置，否则中文将显示为方框。
+    - "交互性: Plotly 图表默认已启用交互功能(缩放、平移、悬停提示等),无需额外配置"
+    - "保存: 不能直接保存为 matplotlib Figure,需要使用 `fig.write_image()` 或返回 plotly Figure"
+    - "瀑布图 (CRITICAL): go.Waterfall 的 measure 参数只需要 'absolute'(起点) 和 'relative'(增量),**禁止**使用 'total'; y 值只传入起点绝对值和各期增量,**禁止**传入终点绝对值"
+    - |
+      废弃属性 (CRITICAL): **禁止**在任何位置使用以下已废弃属性:
+      - `titlefont` → 使用 `title=dict(font=...)`
+      - `titleside` → 使用 `title=dict(side=...)`
+      - `tickfont` (某些上下文) → 检查新版本 API
+      - `spikewidth` → 使用 `spikethickness`
+      这些废弃属性在所有位置都不能使用，包括:
+      - layout 顶层
+      - xaxis/yaxis 内部
+      - colorbar 内部
+      - 任何 trace 的 marker.colorbar 内部
+      ```python
+      # ❌ 错误 - 在 yaxis 中使用废弃属性
+      fig.update_layout(yaxis=dict(titlefont=dict(size=14)))
+      
+      # ❌ 错误 - 在 colorbar 中使用废弃属性
+      go.Treemap(marker=dict(colorbar=dict(titleside='right')))
+      
+      # ✅ 正确 - 使用 title=dict(...) 结构
+      fig.update_layout(yaxis=dict(title=dict(text='标题', font=dict(size=14))))
+      go.Treemap(marker=dict(colorbar=dict(title=dict(text='标题', side='right'))))
+      ```
+    - |
+      时间序列 X轴类型 (CRITICAL): 对于 Candlestick、OHLC 等时间序列图表:
+      **禁止**使用 `xaxis=dict(type='category')`，这会导致日期显示为完整ISO格式(如 2018-03-26T00:00:00.000000000)且标签密集重叠。
+      **必须**使用 `xaxis=dict(type='date')` 或省略 type 让 Plotly 自动识别:
+      ```python
+      fig.update_layout(
+          xaxis=dict(
+              type='date',  # 正确: 使用 date 类型
+              tickformat='%Y-%m',  # 简洁日期格式
+              dtick='M3',  # 每3个月一个刻度
+          )
+      )
+      ```
+    - |
+      图例位置选择策略 (CRITICAL): 根据系列数量和图表空间选择最佳位置:
+      
+      **单系列或≤3个系列 + 图表内有空白区域**: 优先放内部，保持图表完整
+      ```python
+      fig.update_layout(
+          legend=dict(x=0.98, y=0.98, xanchor='right', yanchor='top'),
+          showlegend=True
+      )
+      ```
+      
+      **多系列(>3个) 或 图例文字较长**: 放在图表外部
+      ```python
+      # 方案1: 底部外侧（图例项多时水平排列）
+      fig.update_layout(
+          legend=dict(orientation='h', yanchor='top', y=-0.15, xanchor='center', x=0.5),
+          margin=dict(b=100),
+      )
+      
+      # 方案2: 右侧外部（图例项少但文字长）
+      fig.update_layout(
+          legend=dict(yanchor='top', y=0.99, xanchor='left', x=1.02),
+          margin=dict(r=120),  # 不要超过150，避免图表过度压缩
+      )
+      ```
+      **特别注意**: Radar/Polar 等圆形图表，图例必须放在外部。
+    - |
+      OHLC/Candlestick hoverinfo (CRITICAL): go.Ohlc 和 go.Candlestick 的 `hoverinfo` 参数只接受 ['x', 'y', 'z', 'text', 'name'] 的组合。
+      **禁止**使用 `hoverinfo='x+open+high+low+close'`，这是无效值会导致 ValueError。
+      正确做法是使用 `hoverinfo='x+text'` 或 `hoverinfo='all'`：
+      ```python
+      # 正确示例
+      go.Ohlc(
+          x=df.index,
+          open=df['open'],
+          high=df['high'],
+          low=df['low'],
+          close=df['close'],
+          hoverinfo='all',  # 或 'x+y+text' 或 'name'
+      )
+      ```
+    - "市场深度图 (market_depth): 使用 go.Bar 绘制双向水平柱状图，买盘(Bid)向左延伸，卖盘(Ask)向右延伸，y轴为价格档位"
+    - |
+      Treemap 属性拼写 (CRITICAL): go.Treemap 的 marker 属性中:
+      - ✅ 正确: `colorssrc` (两个s)
+      - ❌ 错误: `colorsrc` (一个s)
+      其他常见拼写错误: `textinfosrc` → `textinfos` 不存在，使用 `textinfo` 配置显示内容
+
+matplotlib:
+  title: "matplotlib 使用注意事项"
+  notes:
+    - "使用 `fig, ax = plt.subplots()` 面向对象模式,避免使用全局状态(如 `plt.plot()`)"
+    - "图例: 通过 `ax.legend()` 添加,线条和标记支持 `label` 参数"
+    - |
+      中文字体 (CRITICAL): **必须**在函数开头、任何绑图代码之前添加以下**完整代码**:
+      ```python
+      import matplotlib
+      matplotlib.rcParams['font.sans-serif'] = ['PingFang SC', 'Heiti SC', 'STHeiti', 'SimHei', 'Arial Unicode MS']
+      matplotlib.rcParams['axes.unicode_minus'] = False
+      ```
+      **禁止**使用 Arial、Times New Roman 等不支持中文的字体。**禁止**只写 `['SimHei']`，必须包含完整的字体回退列表。
+      **禁止**在 `ax.set_title()`, `ax.set_xlabel()`, `ax.set_ylabel()` 中显式指定 `family` 或 `fontfamily` 参数:
+      ```python
+      # ❌ 错误: 显式指定单一字体，如果系统没有这个字体会导致乱码
+      ax.set_title('标题', family='PingFang SC')
+      
+      # ✅ 正确: 只通过 rcParams 全局配置字体，让 matplotlib 自动回退
+      ax.set_title('标题')
+      ```
+    - "参数类型: `alpha`、`linewidth`、`markersize` 必须是单个数值(如 0.3),不能是列表"
+    - "颜色参数: 单系列 `color` 必须是字符串(如 '#2E5090'),不能是列表"
+    - "变量定义: 确保所有变量在使用前已定义,避免 NameError"
+    - "深色背景刻度 (CRITICAL): 深色背景必须用 `ax.tick_params(axis='both', colors='浅色')` 设置刻度颜色，否则默认黑色刻度不可见"
+    - |
+      柱状图 width (CRITICAL): `ax.bar()` 的宽度必须根据 X 轴类型正确设置:
+      
+      **情况1: X轴是字符串分类（如 '2024-01', 'A', 'B'）**
+      使用默认值（约0.8）或小于1的值，**禁止**使用大数值如 `width=20`。
+      
+      **情况2: X轴是 DatetimeIndex（日期索引）(CRITICAL)**
+      默认宽度0.8表示0.8天，对于月度/年度数据会导致柱子极细如针！
+      **必须**根据数据频率动态计算宽度:
+      ```python
+      # 方法1: 根据数据间隔动态计算（推荐）
+      if len(df) > 1:
+          # 计算平均间隔天数，宽度设为间隔的80%
+          avg_interval = (df.index[-1] - df.index[0]).days / (len(df) - 1)
+          bar_width = avg_interval * 0.8
+      else:
+          bar_width = 20  # 单个数据点默认20天
+      ax.bar(df.index, df['value'], width=bar_width)
+      
+      # 方法2: 按已知频率设置固定宽度
+      # 日度数据: width=0.8
+      # 周度数据: width=5
+      # 月度数据: width=20
+      # 季度数据: width=60
+      # 年度数据: width=300
+      ```
+      **禁止**对日期索引使用默认宽度，这会导致柱子太细看不见
+    - "瀑布图 (waterfall): matplotlib 没有内置瀑布图,需手动实现。使用 `ax.bar(x, heights, bottom=bottoms)` 时,确保: 1) 不设置 width 或使用默认值; 2) 正确计算每个柱子的 bottom 位置"
+    - |
+      图例位置选择策略 (CRITICAL): 根据系列数量和图表空间选择最佳位置:
+      
+      **单系列或≤3个系列 + 图表内有空白区域**: 优先放内部，避免压缩图表
+      ```python
+      # 观察数据走势，将图例放在数据稀疏的角落
+      ax.legend(loc='upper right', framealpha=0.8)  # 或 'upper left', 'lower right' 等
+      ```
+      
+      **多系列(>3个) 或 图例文字较长**: 放在图表外部
+      ```python
+      # 方案1: 底部外侧（推荐，图例项多时水平排列）
+      ax.legend(loc='upper center', bbox_to_anchor=(0.5, -0.15), ncol=3)
+      fig.subplots_adjust(bottom=0.2)
+      
+      # 方案2: 右侧外部（图例项少但文字长时）
+      ax.legend(loc='upper left', bbox_to_anchor=(1.02, 1))
+      fig.subplots_adjust(right=0.85)  # 注意: 不要低于0.85，避免过度压缩图表
+      ```
+      
+      **禁止**: 图例遮挡数据点；`right=0.75` 等过度压缩图表的设置
+    - |
+      时序数据X轴标签 (CRITICAL): 当数据点 >30 时，X轴日期标签会严重重叠。**必须**使用以下方法控制标签密度：
+      ```python
+      import matplotlib.dates as mdates
+      
+      # 方法1: 自动定位器（推荐）
+      ax.xaxis.set_major_locator(mdates.AutoDateLocator())
+      ax.xaxis.set_major_formatter(mdates.AutoDateFormatter(ax.xaxis.get_major_locator()))
+      
+      # 方法2: 按时间跨度选择定位器
+      # 日度数据>1年: 按月显示
+      ax.xaxis.set_major_locator(mdates.MonthLocator(interval=3))  # 每3个月
+      ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m'))
+      
+      # 年度数据: 按年显示
+      ax.xaxis.set_major_locator(mdates.YearLocator())
+      ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y'))
+      
+      # 最后: 旋转标签并调整布局
+      plt.xticks(rotation=45, ha='right')
+      fig.tight_layout()
+      ```
+      **禁止**手动设置所有日期作为刻度：`ax.set_xticks(df.index)` 会导致标签重叠。
+    - |
+      AutoDateLocator 参数 (CRITICAL):
+      - ✅ 正确: `mdates.AutoDateLocator(tz=timezone)` — 时区参数是 `tz`
+      - ❌ 错误: `mdates.AutoDateLocator(mtz=...)` — 没有 `mtz` 参数
+      - ❌ 错误: `mdates.AutoDateLocator(timezone=...)` — 参数名是 `tz` 不是 `timezone`
+    - |
+      matplotlib 子模块导入位置 (CRITICAL): 不同的类在不同的子模块中，不要混淆:
+      ```python
+      # 日期相关 - 在 matplotlib.dates 中
+      from matplotlib.dates import AutoDateLocator, AutoDateFormatter, DateFormatter
+      import matplotlib.dates as mdates
+      mdates.AutoDateLocator()  # ✅ 正确
+      
+      # 数值定位器 - 在 matplotlib.ticker 中
+      from matplotlib.ticker import MaxNLocator, MultipleLocator
+      import matplotlib.ticker as mticker
+      mticker.MaxNLocator()  # ✅ 正确
+      
+      # ❌ 常见错误
+      from matplotlib.ticker import AutoDateLocator  # ImportError
+      mdates.MaxNLocator  # AttributeError: 没有这个属性
+      ```
+    - |
+      font.family 覆盖问题 (CRITICAL): **禁止**设置 `font.family` 或在绑图参数中指定 `fontfamily`:
+      ```python
+      # ❌ 错误
+      matplotlib.rcParams['font.family'] = 'monospace'
+      ax.pie(..., textprops={'fontfamily': 'monospace'})
+      ax.set_title('标题', fontfamily='Arial')
+      
+      # ✅ 正确: 只用 font.sans-serif，不指定 fontfamily
+      matplotlib.rcParams['font.sans-serif'] = ['PingFang SC', 'Heiti SC', 'Consolas']
+      ax.pie(..., textprops={'color': 'white'})
+      ```
+
+seaborn:
+  title: "seaborn 使用注意事项"
+  notes:
+    - "返回值: Seaborn 绑图函数返回 Axes 对象,需要通过 `ax.figure` 获取 Figure 对象并返回"
+    - |
+      中文字体 (CRITICAL): `sns.set_style()` 会重置 matplotlib 的 rcParams！
+      **必须**先设置样式，再配置字体，否则字体配置会被覆盖导致中文显示为方框:
+      ```python
+      import matplotlib
+      import seaborn as sns
+      
+      # 步骤1: 先设置 seaborn 样式
+      sns.set_style('white')
+      
+      # 步骤2: 再配置中文字体（在 set_style 之后！）
+      matplotlib.rcParams['font.sans-serif'] = ['PingFang SC', 'Heiti SC', 'STHeiti', 'SimHei', 'Arial Unicode MS']
+      matplotlib.rcParams['axes.unicode_minus'] = False
+      ```
+      **禁止**在 `sns.set_style()` 之前配置字体，否则会被覆盖。
+      **禁止**使用 Arial、SimHei 单独配置，必须包含完整的字体回退列表。
+    - "样式 (CRITICAL): **禁止**使用 `plt.style.use('seaborn-white')` 或 `seaborn-whitegrid` 等旧样式名。新版本使用 `sns.set_style('white')` 或 `sns.set_style('whitegrid')`"
+    - "参数类型: `alpha`、`linewidth` 等必须是单个数值,不能是列表"
+    - "变量定义: 确保所有变量在使用前已定义,避免 NameError"
+    - |
+      热力图 X轴日期格式 (CRITICAL): sns.heatmap 默认将 DatetimeIndex 转为完整ISO格式(如 2021-01-12T00:00:00.000000000)。
+      **必须**手动格式化 xticklabels:
+      ```python
+      # 先格式化日期为简洁字符串
+      x_labels = df.index.strftime('%Y-%m')
+      # 传入格式化后的标签列表
+      sns.heatmap(data.T, xticklabels=x_labels[::step])  # step 控制显示间隔
+      ```
+      **禁止**直接使用 `xticklabels=50` 等数字而不格式化日期。
+    - "时序热力图数据量 (CRITICAL): 当时序数据点>200时,单元格太窄会被边框覆盖。**必须**先 resample 到周/月频率再绑制热力图"
+    - |
+      热力图行列索引 (CRITICAL): 当 DataFrame 索引有重复值时，`df.loc[key, col]` 会返回 Series 而非单值，导致标签显示 pandas 元数据。
+      **必须**使用 `.iloc` 按位置访问，或先确保索引唯一：
+      ```python
+      # ❌ 错误: 索引重复时返回 Series
+      labels = [f"{ent} {df.loc[ent, 'col']}" for ent in df.index]
+      
+      # ✅ 正确: 用 iloc 按行号访问
+      labels = [f"{df.iloc[i]['entity']} {df.iloc[i]['col']}" for i in range(len(df))]
+      ```
+    - |
+      热力图数据形态 (CRITICAL): sns.heatmap 需要**二维矩阵数据**，每个单元格都应有值。
+      **禁止**将一维时间序列强行映射到二维空间（如按bins分箱），这会导致热力图几乎为空。
+      正确的热力图数据格式：
+      ```python
+      # ✅ 正确: 真正的二维矩阵（如：相关矩阵、月-年热力图）
+      # 行=年份, 列=月份, 值=某指标
+      pivot_data = df.pivot(index='year', columns='month', values='value')
+      sns.heatmap(pivot_data)
+      
+      # ❌ 错误: 将一维序列按value分箱强行转二维
+      # 会导致每列只有1个格子有值
+      ```
+
+altair:
+  title: "altair 使用注意事项"
+  notes:
+    - "返回值: 返回 altair.Chart 对象,不是 matplotlib Figure"
+    - "保存图片: 使用 `chart.save('chart.png')` 需要安装 vl-convert-python"
+    - |
+      中文字体 (CRITICAL): **必须**在返回 chart 之前添加字体配置:
+      ```python
+      chart = chart.configure_title(
+          font='PingFang SC, Heiti SC, STHeiti, SimHei, Arial Unicode MS'
+      ).configure_axis(
+          labelFont='PingFang SC, Heiti SC, STHeiti, SimHei, Arial Unicode MS',
+          titleFont='PingFang SC, Heiti SC, STHeiti, SimHei, Arial Unicode MS'
+      ).configure_legend(
+          labelFont='PingFang SC, Heiti SC, STHeiti, SimHei, Arial Unicode MS',
+          titleFont='PingFang SC, Heiti SC, STHeiti, SimHei, Arial Unicode MS'
+      )
+      ```
+      **禁止**省略此配置，否则中文将显示为方框。
+    - "数据格式: 必须使用 pandas DataFrame,通过 `alt.Chart(df)` 创建图表"
+    - "编码映射: 使用 `encode(x='column:Q', y='value:Q')` 指定数据映射,Q=定量,N=名义,O=有序,T=时间"
+    - "图层叠加: 使用 `+` 运算符叠加多个图层,如 `base + line + points`"
+    - "交互性: 通过 `.interactive()` 启用缩放和平移"
+
+bokeh:
+  title: "bokeh 使用注意事项"
+  notes:
+    - "返回值: 返回 bokeh.plotting.Figure 对象,不是 matplotlib Figure"
+    - "时间轴 (CRITICAL): 使用 `x_axis_type='datetime'` 时,**禁止**同时设置 `x_range`,让 Bokeh 自动推断范围"
+    - "时间数据: 直接传入 pandas DatetimeIndex 或 datetime 对象,**禁止**转为字符串后再传入"
+    - "导入路径 (CRITICAL): **禁止**从 `bokeh.models.tickers` 导入 `DatetimeTickFormatter`。正确导入: `from bokeh.models import DatetimeTickFormatter`"
+    - "保存图片: 使用 `export_png(p, filename='chart.png')` 需要安装 selenium 和 geckodriver/chromedriver"
+    - |
+      中文字体 (CRITICAL): Bokeh 对中文支持有限，**必须**在创建 figure 时通过 text_font 参数设置:
+      ```python
+      from bokeh.plotting import figure
+      p = figure(title='标题', x_axis_label='X轴', y_axis_label='Y轴')
+      p.title.text_font = 'PingFang SC'
+      p.xaxis.axis_label_text_font = 'PingFang SC'
+      p.yaxis.axis_label_text_font = 'PingFang SC'
+      p.xaxis.major_label_text_font = 'PingFang SC'
+      p.yaxis.major_label_text_font = 'PingFang SC'
+      ```
+      如果字体仍然显示为方框，建议改用 matplotlib 或 plotly。
+    - "创建画布: 使用 `figure(title='...', x_axis_label='...', y_axis_label='...')` 创建"
+    - "绑定数据: 使用 ColumnDataSource 可以实现更高效的数据绑定和更新"
+    - "图例: 通过 `legend_label` 参数在绑定时设置,然后用 `p.legend.location` 调整位置"
+    - "工具栏: 默认包含平移、缩放、保存等工具,可通过 `tools` 参数自定义"
+
+networkx:
+  title: "networkx 使用注意事项"
+  notes:
+    - "返回值: networkx 本身不绑定可视化,需要配合 matplotlib 使用 `nx.draw()` 系列函数"
+    - |
+      中文字体 (CRITICAL): 继承 matplotlib 配置。**必须**在函数开头添加:
+      ```python
+      import matplotlib
+      matplotlib.rcParams['font.sans-serif'] = ['PingFang SC', 'Heiti SC', 'STHeiti', 'SimHei', 'Arial Unicode MS']
+      matplotlib.rcParams['axes.unicode_minus'] = False
+      ```
+    - "布局算法: 常用 `nx.spring_layout()`, `nx.circular_layout()`, `nx.kamada_kawai_layout()` 等"
+    - "绑定 matplotlib: 使用 `fig, ax = plt.subplots()` 后传入 `nx.draw(G, ax=ax)`"
+    - "节点样式: 通过 `node_color`, `node_size`, `node_shape` 等参数控制"
+    - "边样式: 通过 `edge_color`, `width`, `style` 等参数控制"
+    - "标签: 使用 `nx.draw_networkx_labels()` 单独绑定节点标签"
+
+# 前端库注意事项
+echarts:
+  title: "ECharts 使用注意事项"
+  notes:
+    - "初始化: 使用 `echarts.init(container)` 初始化图表实例"
+    - "配置项: 使用 `chart.setOption(option)` 设置图表配置"
+    - "响应式: 监听 window resize 事件并调用 `chart.resize()`"
+    - "主题: 可通过 `echarts.init(container, 'dark')` 使用内置主题"
+    - "中文支持: ECharts 原生支持中文,无需额外配置字体"
+    - "数据格式: series.data 支持数组格式 `[value]` 或对象格式 `{value, name}`"
+    - "交互: 默认支持 tooltip, legend 交互,可通过配置扩展"
+
+highcharts:
+  title: "Highcharts 使用注意事项"
+  notes:
+    - "初始化: 使用 `Highcharts.chart(containerId, options)` 创建图表"
+    - "模块化: 高级功能需要加载额外模块如 highcharts-more, stock, gantt 等"
+    - "时间序列: 对于金融图表,推荐使用 Highstock 模块"
+    - "导出: 内置导出功能,可通过 exporting 模块配置"
+    - "中文支持: 原生支持中文,通过 lang 选项可自定义本地化"
+    - "响应式: 设置 `chart.reflow = true` 或手动调用 `chart.reflow()`"
+
+chartjs:
+  title: "Chart.js 使用注意事项"
+  notes:
+    - "初始化: 需要先创建 canvas 元素,然后 `new Chart(ctx, config)`"
+    - "响应式: 设置 `options.responsive = true` 和 `maintainAspectRatio`"
+    - "插件系统: 通过 plugins 扩展功能,如数据标签 chartjs-plugin-datalabels"
+    - "动画: 默认启用动画,可通过 `options.animation` 配置"
+    - "数据集: 通过 `datasets` 数组配置多系列数据"
+    - "颜色: 支持 rgba, hex, hsl 等格式,可配置渐变"
+
+plotlyjs:
+  title: "Plotly.js 使用注意事项"
+  notes:
+    - "初始化: 使用 `Plotly.newPlot(container, data, layout, config)` 创建"
+    - "更新: 使用 `Plotly.react()` 进行高效更新,`Plotly.restyle()` 更新样式"
+    - "交互: 默认支持缩放、平移、悬停提示等交互"
+    - "导出: 使用 `Plotly.downloadImage()` 导出为图片"
+    - "3D支持: 原生支持 3D 图表,使用 scene 配置"
+    - "响应式: 配置 `config.responsive = true`"
+
+d3js:
+  title: "D3.js 使用注意事项"
+  notes:
+    - "选择器: 使用 `d3.select()` 和 `d3.selectAll()` 选择元素"
+    - "数据绑定: 使用 `.data()` 绑定数据,`.enter()`, `.exit()` 处理增删"
+    - "比例尺: 使用 `d3.scaleLinear()`, `d3.scaleTime()` 等创建比例尺"
+    - "SVG: 手动创建 SVG 元素,需要计算坐标和尺寸"
+    - "过渡动画: 使用 `.transition().duration()` 创建过渡效果"
+    - "布局: 使用内置布局如 `d3.pie()`, `d3.tree()`, `d3.force()` 等"
+
+tradingview:
+  title: "TradingView Lightweight Charts 使用注意事项"
+  notes:
+    - "初始化: 使用 `LightweightCharts.createChart(container, options)` 创建"
+    - "系列类型: 支持 candlestick, line, area, bar, histogram 等"
+    - "时间格式: 使用 Unix 时间戳(秒)或 YYYY-MM-DD 格式"
+    - "自动缩放: 默认自动调整价格范围,可通过 `priceScale` 配置"
+    - "十字线: 内置十字线工具,通过 `crosshair` 选项配置"
+    - "响应式: 使用 `chart.resize(width, height)` 调整尺寸"
+
+recharts:
+  title: "Recharts 使用注意事项"
+  notes:
+    - "React组件: 基于 React 的声明式图表库"
+    - "组件化: 使用 LineChart, BarChart, PieChart 等组件"
+    - "数据格式: 接受数组对象,每个对象代表一个数据点"
+    - "响应式: 使用 ResponsiveContainer 组件实现响应式"
+    - "自定义: 支持自定义 Tooltip, Legend, Label 等组件"
+
+antv:
+  title: "AntV (G2/G2Plot/G6) 使用注意事项"
+  notes:
+    - "G2: 图形语法库,使用 `new Chart()` 创建,通过链式调用绑定数据和图形语法"
+    - "G2Plot: 高级封装,使用 `new Line()`, `new Bar()` 等快速创建"
+    - "G6: 图可视化引擎,用于网络图、流程图等"
+    - "数据格式: 接受数组对象格式的数据"
+    - "主题: 支持多种内置主题,可自定义主题配置"

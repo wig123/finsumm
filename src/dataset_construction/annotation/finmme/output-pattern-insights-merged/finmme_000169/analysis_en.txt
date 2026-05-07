@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Line chart; Title: China — Real Estate sales (RMBbn, 3mma).
+- X-axis: Time, scale points are Jan-10, Jan-13, Jan-16, Jan-19, Jan-22.
+- Y-axis: Left axis 0–800 (RMBbn); Right axis 0–2000 (RMBbn).
+- Legend: Red Tier 1, Black Tier 3 (Left Axis); Gray Tier 2 (RHS, Right Axis).
+
+[Data Relationships]
+- Initial period (around Jan-10): Tier1≈80; Tier3≈20; Tier2≈40.
+- Peak values: Tier2≈1800 (RHS); Tier1≈700; Tier3≈550.
+- Significant trough (around mid-2020): Tier1≈200; Tier3≈300; Tier2≈600.
+- Final period (approaching post-Jan-22): Tier1≈450; Tier3≈300; Tier2≈1200.
+- Period-end difference: Tier2 relative to Tier1≈+750; Tier1 relative to Tier3≈+150.
+- Value range: Tier1 approximately 80–700; Tier3 approximately 20–550; Tier2 approximately 40–1800.
+
+[Pattern Characteristics]
+The three series exhibit multi-stage fluctuations, generally consistent in direction but differing in intensity, with Tier 2 showing the highest magnitude and scale. Structurally, the hierarchical difference is maintained long-term: Tier 2 leads, Tier 1 is central, and Tier 3 trails. During the period, there was a shared sharp decline followed by a recovery, with the final period remaining below the peak range.
+
+[Core Insights]
+Core Conclusion: Tier 2 transactions dominate, and the contribution difference based on city tier remains relatively fixed.
+
+Business Implications:
+- Resources and strategies are prioritized toward Tier 2 cities
+- Overall scale shows high dependence on Tier 2 cities
+- High correlation indicates sensitivity to unified factors
+
+Risk Focus:
+- Tier 2 below 600 (RHS), overall transaction volume may fall into the low range
+- Tier 1 below 200 (Left Axis), insufficient contribution from high-tier cities leads to increased structural bias

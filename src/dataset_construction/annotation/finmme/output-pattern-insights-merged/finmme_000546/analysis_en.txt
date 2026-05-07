@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Combination chart of bar and line
+- Title: Not displayed
+- X-axis: Quarterly labels, ranging from 1QFY21 to 3QFY24
+- Left Y-axis: Export (INR mn), scale approximately 0–6000 (step size approximately 1000)
+- Right Y-axis: y-y (%), scale approximately -100% to 200%
+- Legend: Red bar represents "Export (INR mn)", black line represents "y-y (%)"
+
+[Data Relationships]
+- Maximum export value approximately 5500 (2QFY23), minimum value approximately 1500 (1QFY21), range ≈ 4000.
+- Export at the beginning of the period approximately 1500 (1QFY21), at the end of the period approximately 3000 (3QFY24), difference ≈ 1500.
+- 3QFY24 export is approximately 2500 less compared to 2QFY23.
+- y-y (%) peak approximately 150% (2QFY22), trough approximately -50% (3QFY24), range ≈ 200 percentage points.
+- The y-y (%) during the period 1QFY23 to 2QFY24 is roughly between 20%–80%.
+- Export values from 1QFY23 to 2QFY24 are roughly in the range of 4500–5500.
+
+[Pattern Characteristics]
+- Bar exports gradually rose from a low level at the beginning of the period, forming a high-level plateau around FY23, and subsequently saw a significant decline in FY24, although still remaining above the initial level.
+- The line y-y (%) showed a prominent high point early in FY22, subsequently fluctuated multiple times around the positive range, until falling into a distinctly negative range for the first time towards the end of FY24.
+- Exports and YoY generally maintained a relatively stable range synchronously during the high-level plateau phase, while the end of the period showed a simultaneous shift of declining exports and YoY turning negative.
+
+[Core Insights]
+Core Conclusion: Exports showed a significant decline after reaching a phased high in FY23, with YoY growth shifting from positive to negative.
+
+Business Implications:
+- Although the scale of exports has increased compared to FY21, recent momentum has weakened.
+- The shift to negative YoY reflects a decrease in incremental contribution, dragging down revenue elasticity.
+- The combination of a high base effect and the subsequent decline indicates limited room for future growth.
+
+Risk Concerns:
+- If exports consistently remain below 3000 and YoY < 0%, overall revenue performance may be suppressed.
+- If YoY falls below approximately -50%, it could lead to a simultaneous weakening of capacity utilization and profitability.

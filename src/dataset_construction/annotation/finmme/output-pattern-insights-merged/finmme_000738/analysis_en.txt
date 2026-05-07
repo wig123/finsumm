@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Combination chart (Bar + Line).
+- Legend: Red bar represents "Smartphone sales (LHS)," Black line represents "Smartphone y-y (%, RHS)."
+- Left Axis: Unit is KRW bn, range approximately -12,000 to 30,000.
+- Right Axis: Percentage, range approximately -40% to 100%.
+- Horizontal Axis: Year scale is 10, 11, 12, ..., 22, 23F, 24F, 25F.
+- Title: Not displayed (Legend description serves as the primary explanation).
+
+[Data Relationships]
+- Sales peak approximately 27,000 KRW bn (Year 13), lowest approximately 1,000 KRW bn (Year 10), difference between high and low approximately 26,000 KRW bn.
+- Beginning of period (Year 10) and end of period (25F) are approximately 1,000 and 19,000 KRW bn, respectively, a difference of approximately 18,000 KRW bn.
+- Sales for 18–22: 18 approx. 19,000; 19 approx. 25,000; 20 approx. 21,000; 21 approx. 24,000; 22 approx. 18,000 (KRW bn).
+- Sales for 23F, 24F, and 25F are approximately 24,000, 23,000, and 19,000 KRW bn, respectively.
+- YoY maximum approximately 90% (12–13), minimum approximately -35% (15), a difference of approximately 125 percentage points.
+- YoY for 23F, 24F, and 25F is approximately +30%, -5%, and 0%.
+
+[Pattern Characteristics]
+- The bar chart rapidly rises from a low level to a high level in the early stages, subsequently fluctuating within a higher range, showing slight signs of decline recently and in the forecast period.
+- The line chart experiences a sharp swing from high positive values to large negative values in the initial phase, subsequently fluctuating around the zero axis, crossing the zero point multiple times, with the overall amplitude converging.
+- In individual years, the line chart shows relatively extreme positive or negative values, while the corresponding bar height does not show an equally drastic jump, resulting in a situation where the pace of change is not entirely synchronized.
+
+[Core Insights]
+Core Conclusion: Sales volume remains in a high range, but the growth rate has entered a low volatility phase.
+
+Business Implications:
+- The current sales level primarily reflects maintenance of the existing base rather than expansion drive.
+- The growth rate hovers around zero, and the marginal contribution to overall growth is limited.
+- Growth rates diverge in the forecast period, slowing down again after a short-term recovery.
+
+Risk Focus:
+- If YoY falls below -20% again, sales volume may drop below 18,000 KRW bn.
+- If sales volume remains below 19,000 KRW bn long-term and YoY is close to 0%, earnings elasticity may be significantly constrained.

@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Time series line chart (Closing Price), accompanied by event markers
+- Title: ASMedia Technology Inc.
+- Time Axis: 2021/07/01 to 2024/01/01 (Multiple scales: 2021/07, 2022/01, 2022/07, 2023/01, 2023/07, 2024/01)
+- Y-Axis: Price (TWD), range approximately 0 to 2500
+- Legend: Black line is Closing Price; Green triangle is Target Price Change; Blue dot is Recommendation Changes
+- Top Right Annotation: As of 29-Feb-2024, Currency=TWD; Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial Period (2021/07) Closing Price ≈ 1200 TWD; Final Period (2024/02) Closing Price ≈ 2400 TWD; Final period compared to initial period + ≈ 1200 TWD
+- Highest closing price for the entire period ≈ 2450 TWD (2024/02); Lowest ≈ 650 TWD (2022/10–11); High-low difference ≈ 1800 TWD
+- Recommendation Changes occurred 1 time: approximately 2022/02, price ≈ 1600 TWD
+- Target Price Change approximately 8 times: 2022/02 ≈ 2200; 2022/06 ≈ 1700; 2022/08 ≈ 1500; 2022/11 ≈ 800; 2023/03 ≈ 700; 2023/05 ≈ 1400; 2023/12 ≈ 1700; 2024/02 ≈ 2500
+
+[Pattern Characteristics]
+- The price trend exhibits a three-stage pattern: initial upward movement, followed by a significant decline, and then sustained elevation. The overall range is wide, and volatility is substantial.
+- Target price adjustments are mostly concentrated near local price peaks, appear frequently during the declining phase, and include one significant downward revision near the lowest point.
+- The single rating adjustment occurred near a relative high, after which the price moved from a plateau into a downward trajectory within a short period.
+
+[Core Insights]
+Core Conclusion: After undergoing a deep correction, the stock price has returned to historical highs, with analyst expectations rising concurrently.
+
+Business Implications:
+- Strong price elasticity, highly sensitive to external expectations.
+- Target price was revised downward multiple times before being adjusted upward again, reflecting a long cycle for analyst expectation correction.
+- The current target price is close to the stock price, leaving limited room for expectation error.
+
+Risk Concerns:
+- If the stock price briefly breaks 2500 TWD but the target price is not raised concurrently, there may be expectation overshoot leading to correction pressure.
+- If the price falls below 1000 TWD again while the target price remains high, it could lead to a divergence between expectation and reality, increasing holding uncertainty.

@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Line chart
+- Title: Not displayed
+- Y-axis: Percentage (%), range approximately -100 to 250
+- X-axis: Time (Month), from Oct-21 to Nov-23
+- Legend: Dahej (Red), Hazira (Light Gray), Dabhol (Black), Kochi (Light Orange)
+
+[Data Relationships]
+- Dahej: Initial value ≈ 85%, Peak value ≈ 100% (May-23, Oct-23), Trough value ≈ 65% (Sep-22), Final value ≈ 90%; Peak-to-trough difference ≈ 35 percentage points.
+- Hazira: Initial value ≈ 60%, Trough value ≈ -40% (Jan-22), Peak value ≈ 55% (Sep-23), Final value ≈ 20%; Peak-to-trough difference ≈ 95 percentage points.
+- Dabhol: Initial value ≈ 40%, Peak value ≈ 210% (Jan-22), Trough value ≈ -80% (Jun-22), Final value ≈ 45%; Peak-to-trough difference ≈ 290 percentage points.
+- Kochi: Initial value ≈ 20%, Peak value ≈ 30% (Jan-23), Trough value ≈ 10% (Jun-22/ Aug-22), Final value ≈ 18%; Peak-to-trough difference ≈ 20 percentage points.
+- As of Oct-23: Dahej ≈ 100%, Hazira ≈ 50%, Dabhol ≈ 45%, Kochi ≈ 20%.
+
+[Pattern Characteristics]
+The Dahej curve is generally stable, fluctuating narrowly within the medium-to-high range, with a slight upward trend in the later period. Hazira, after a significant dip in the early period, mostly operated around the medium-to-low range with moderate volatility. Dabhol experienced a sharp single-month spike and deep decline in the early period, subsequently shifting to high volatility around the medium level, concluding in the medium-to-low range. Kochi generally remained in the lower range, oscillating slightly around an approximately horizontal line, without exhibiting extreme data points.
+
+[Core Insights]
+Core Conclusion: Dahej is the most stable and maintains a higher level, while Dabhol exhibits significantly higher volatility.
+
+Business Implications:
+- Dahej demonstrates strong sustained utilization capability.
+- Dabhol's utilization rate has high elasticity, significantly impacting planning accuracy.
+- The contributions of Hazira and Kochi are more supplementary and marginal.
+
+Risk Concerns:
+- When Dabhol approaches -80%, severe underutilization or negative contribution may occur.
+- Should Hazira drop below 0% again, the average utilization level of the overall portfolio will be significantly reduced.

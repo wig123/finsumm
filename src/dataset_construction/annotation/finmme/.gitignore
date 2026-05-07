@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+
+# 临时文件夹（不要同步到 git）
+tmp/
+
+# 测试和工具脚本（不要同步到 git）
+test-*.js
+fix-*.js
+import-*.js
+export-*.js
+merge-*.js
+test-single-call.js
+
+# 测试结果文件
+test-results-*.json
+annotations-export-*.json
+
+# 日志文件
+*.log
+npm-debug.log*
+
+# SQLite 临时文件（不要同步到 git）
+database.db-shm
+database.db-wal
+
+# 系统文件
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

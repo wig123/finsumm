@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Dual-Axis Column and Line Chart
+- Title: Not labeled
+- X-Axis: Time Series; 1H19, 2H19, 1H20, 2H20, 1H21, 2H21, 1H22, 2H22, 1H23
+- Left Y-Axis: 0—800 (approximately every 200 units), gray columns represent “Overseas revenue”
+- Right Y-Axis: 0.0%—16.0% (approximately every 4% units), red line represents “% total revenue”
+- Legend: The two items listed above
+
+[Data Relationships]
+- 1H19: Revenue 7; Proportion 1.2%
+- 1H23: Revenue 376; Proportion 13.4%; Difference from 1H19 is 369 and 12.2 percentage points
+- 2H22: Revenue 297; Proportion 13.2%; Difference from 1H22 (157, 6.6%) is 140 and 6.6 percentage points
+- Maximum Revenue: 376 (1H23); Second Largest: 297 (2H22); Minimum: 7 (1H19)
+- Maximum Proportion: 13.4% (1H23); Second Largest: 13.2% (2H22); Minimum: 1.2% (1H19)
+- 1H21 and 2H21: Revenue 60 and 124; Proportion 4.2% and 4.6%; Difference of 64 and 0.4 percentage points
+
+[Pattern Characteristics]
+The column values have generally shown a unidirectional uplift since the initial period, with no intermediate decline, and the rate of increase has significantly amplified only in the later stages.
+The line graph ascended slowly in the first half, and the slope significantly increased after 1H21, forming a relatively distinct upward arch formation around 2H22, followed by a slight narrowing.
+The overall pattern exhibits a single dominant trend. In the later period, the columns and the line are relatively concentrated in the high-level range, with no sudden reversals or isolated anomalies observed.
+
+[Core Insights]
+Core Conclusion: The scale and weight of overseas business are strengthening synchronously, leading to a significant increase in recent contribution.
+
+Business Implications:
+- Revenue expansion is accompanied by structural improvement, reducing reliance on a single source.
+- The driving effect on overall revenue growth is increasingly evident.
+- Future budget and resource allocation should be directed toward this segment.
+
+Risk Concerns:
+- If the proportion consistently exceeds 13% and the primary market experiences volatility, overall revenue volatility will be amplified.
+- If revenue declines for two consecutive periods from the 376 level, the achievements of structural optimization will be undermined.

@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Stacked Bar Chart
+- Title: Not displayed
+- X-axis: FY17, FY18, FY19, FY20, FY21, FY22
+- Y-axis: 0—500 (Unit not specified)
+- Legend: Retail stores (Red), Roboshops (Dark Gray), Wholesale and others (Light Gray), Online channels (Orange)
+- Labels: FY19 is 27, FY20 is 74; FY21 segments are 2/137/41; FY22 segments are 138/15/213/90 (Bottom-up)
+
+[Data Relationships]
+- FY19 Total 27; FY20 Total 74; FY21 Total = 2+137+41=180; FY22 Total = 138+15+213+90=456.
+- FY22 Categories: Retail 138, Roboshops 15, Wholesale and others 213, Online 90.
+- FY21 Categories: Retail 2, Wholesale and others 137, Online 41 (Roboshops not labeled).
+- FY22 total difference compared to FY21 is 276.
+- Within FY22: Wholesale and others (213) is higher than Retail by 75, higher than Online by 123, and higher than Roboshops by 198.
+- FY19→FY20 difference 47; FY20→FY21 difference 106; FY21→FY22 difference 276.
+
+[Pattern Characteristics]
+- The annual total volume evolved from near zero in FY17 to FY22 to a significant amplification, especially showing a massive increase during the FY21 to FY22 period.
+- FY19 and FY20 consisted of only single or few categories, while FY21 and FY22 began to show a structure composed of multiple categories. In FY22, "Wholesale and others" holds the largest proportion.
+- The overall structure gradually transitioned from early single dominance to the coexistence of multiple segments, with significant differences in constituent proportions between FY21 and FY22.
+
+[Core Insights]
+Core Conclusion: Business scale achieved leapfrog expansion in the short term, and the structure is becoming more diversified.
+
+Business Implications:
+- Overall revenue (or magnitude) rapidly amplified, with growth concentrated in the last two years.
+- Wholesale and others became the most important source of contribution, increasing channel dependence.
+- Online and retail contributions increased simultaneously, shifting the channel strategy from singular to combined.
+
+Risk Concerns:
+- If the FY22 total of 456 falls back near the FY21 level of 180, it will exert significant downward pressure on overall revenue or sales volume.
+- If Wholesale and others drops from 213 to below 100, structural dependence may lead to a substantial total volume retraction.

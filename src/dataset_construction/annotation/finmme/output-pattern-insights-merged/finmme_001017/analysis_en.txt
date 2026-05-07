@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Stacked bar chart; No explicit title
+- X-axis: Fiscal year classification, FY17, FY18, FY19, FY20, FY21, FY22, FY23, FY24F, FY25F, FY26F
+- Y-axis: Percentage scale, range approximately -10% to 90%
+- Legend: UV (Red), LCV (Grey), M HCV (Black border), Tractors (Pink), Spares (Black)
+- Percentage values are labeled within each bar
+
+[Data Relationships]
+- FY21: UV 6%, LCV 5%, M HCV -6%, Tractors 80%, Spares 15% (Tractors is the largest).
+- Tractors minimum value: FY26F 33%, 47 percentage points less than FY21.
+- UV maximum: FY26F 41%; minimum: FY21 6%; difference of 35 percentage points.
+- LCV maximum: FY19 20%; minimum: FY21 5%; difference of 15 percentage points.
+- Spares maximum: FY22 18%; minimum: FY18 9%; difference of 9 percentage points.
+- M HCV range: -9% (FY17) to -1% (FY25F, FY26F), difference of 8 percentage points.
+- FY24F compared to FY26F: UV 31%→41% (+10pct), Tractors 44%→33% (-11pct), LCV 13% flat, Spares 14% flat, M HCV -2%→-1%.
+
+[Pattern Characteristics]
+Overall, the total height of the bars across the years is similar, but the internal composition shows significant redistribution, gradually transitioning from a single dominant component to a structure where multiple components have similar proportions. Tractors long held absolute dominance in the early stages, followed by a continuous narrowing of its proportion, while the UV proportion continuously rose and approached or even surpassed Tractors in the later period. LCV and Spares showed relatively moderate changes across periods. M HCV consistently remained in a narrow range close to the zero axis and slightly negative, without sharp fluctuations.
+
+[Core Insights]
+Core Conclusion: The product structure is shifting from high concentration in Tractors to a diversified composition led by UV.
+
+Business Implications:
+- Reduced dependence on Tractors, leading to more diversified revenue streams.
+- The rising proportion of UV will reshape the overall profitability structure.
+- Stability in LCV and Spares provides a certain buffer.
+
+Risk Focus:
+- If the Tractors proportion continues to fall below 30%, the decline of a single high-margin source may compress profits.
+- If the UV proportion exceeds 45%, sensitivity to sales fluctuations in a single category will significantly increase.

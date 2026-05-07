@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Bar chart
+- Title: EBITDA growth (%)
+- X-axis: Time; Labels sequentially are Dec-21, Mar-22, Jun-22, Sep-22, Dec-22, Mar-23, Jun-23, Sep-23, Dec-23
+- Y-axis: Percentage; Range approximately -15% to 35%, increments of 5%
+- Legend: Red bar, description is "EBITDA growth (%)"
+
+[Data Relationships]
+- Values for each period: Dec-21 2.7%; Mar-22 1.8%; Jun-22 -8.3%; Sep-22 1.8%; Dec-22 -5.0%; Mar-23 5.2%; Jun-23 28.4%; Sep-23 18.2%; Dec-23 29.6%
+- Highest: Dec-23 29.6%; Lowest: Jun-22 -8.3%; Range 37.9 percentage points
+- Second highest: Jun-23 28.4%; Second lowest: Dec-22 -5.0%
+- Mar-22 and Sep-22 are equal, both 1.8%
+- Dec-22 and Mar-23 differ by 10.2 percentage points
+- Jun-23 and Sep-23 differ by 10.2 percentage points
+- Dec-21 and Mar-22 differ by 0.9 percentage points
+
+[Pattern Characteristics]
+Overall, the trend initially oscillates above and below the zero axis, with a negative range appearing in the middle section, and concentrating in a high positive range in the latter section. Jun-22 forms the deepest single downward low point, after which the bar heights gradually increase over subsequent periods, establishing clear highs at Jun-23 and Dec-23. The heights of Mar-22 and Sep-22 are identical, and there is a relatively significant difference in height between Jun-23 and Sep-23.
+
+[Core Insights]
+Core Conclusion: EBITDA growth experienced a significant recovery and entered a high-growth range.
+
+Business Implications:
+- Growth rate was low in the early period, indicating limited momentum for earnings expansion.
+- Earnings performance showed a phased recovery after Jun-22.
+- Earnings elasticity strengthened in 2023, leading to an increased contribution to overall performance.
+
+Risk Concerns:
+- If the growth rate falls below 0% again, it may trigger downward pressure on profits.
+- If growth rates above 25% are unsustainable, the future YoY base effect may lead to an apparent deceleration.

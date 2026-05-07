@@ -1,0 +1,30 @@
+【图表构成】
+- 类型：公司清单型数据表，相关系数以热力色块显示。
+- 标题：Correlation with*。
+- 列项：Ticker、Company、Factset Industry、Mcap (USD bn)、ADTV (USD mn)、Correlation with SOX、NVDA、TSMC。
+- 坐标轴：无坐标轴；数值直接列示。
+- 图例/色阶：相关系数0–1，颜色由绿（高）到红（低）。
+
+【数据关系】
+- TSMC：Mcap 564.9，ADTV 647；与SOX 0.61、NVDA 0.48。
+- Samsung Electr Pfd（005935 KS）：Mcap 363.9；SOX 0.54、NVDA 0.39、TSMC 0.60。
+- Samsung Electronics（005930 KS）：SOX 0.53、NVDA 0.35、TSMC 0.56。
+- SK hynix（000660 KS）：Mcap 80.9；SOX 0.48、NVDA 0.35、TSMC 0.50。
+- MediaTek（2454 TT）：Mcap 49.5，ADTV 208。
+- 规模对比：TSMC较Samsung Electronics大约+201.0（USD bn）；SK hynix较MediaTek约+31.4（USD bn）。
+- 相关性对比：TSMC的SOX 0.61高于Samsung 0.53与SK hynix 0.48；NVDA 0.48高于Samsung 0.35与SK hynix 0.35。
+
+【模式特征】  
+表格中相关系数随公司向下排列由高到低逐步过渡，颜色从偏绿向偏红连续变化，呈单峰式分布，无明显断层。市值和成交额在前几行集中于较高水平，随后快速下降并在中小规模区间分散排列。与SOX、NVDA、TSMC三列的色块高度一致，整体呈同向梯度，仅个别公司在某一列上相对更亮或更暗，形成轻微错位。
+
+【核心洞察】  
+核心结论：相关性和交易、规模高度集中在少数上游大市值半导体股。
+
+业务含义：  
+- 组合对头部少数标的价格变动依赖度高。  
+- 指数与行业龙头的联动会主导整体波动表现。  
+- 中小市值与NVDA、SOX联动度较低，分散效果有限。  
+
+风险关注：  
+- 若TSMC与SOX相关性跌破0.40，指数对产业景气表征将明显削弱。  
+- 若相关性普遍升至0.80以上，单一行业或风格回撤时组合同步下跌幅度可能放大。

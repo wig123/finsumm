@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Line chart
+- Title: Not displayed
+- X-axis: Quarter, 1QFY21 to 3QFY24
+- Y-axis: Percentage, range -20.0% to 50.0%, major tick marks every 10%
+- Legend: Y-Y growth (Red), Generics (Gray), Domestic formulation (Black), API/CDMO (Light Orange)
+
+[Data Relationships]
+- 1QFY21: Red ≈ 6%, Gray ≈ 6%, Black ≈ 2%, Orange ≈ 38%
+- 3QFY24: Red ≈ 12%, Gray ≈ 13%, Black ≈ 10%, Orange ≈ -4%
+- Peak: Orange ≈ 39% (1QFY21), Gray ≈ 20% (2QFY24), Black ≈ 19% (1QFY22), Red ≈ 16% (2QFY24)
+- Trough: Orange ≈ -10% (1QFY24), Gray ≈ 5% (1QFY22), Black ≈ 2% (2QFY23), Red ≈ 6% (3QFY22/4QFY22)
+- Range (High-Low Difference): Orange approx. 48 pct, Gray approx. 15 pct, Black approx. 17 pct, Red approx. 10 pct
+- 4QFY23: Red ≈ 12%, Gray ≈ 14%, Black ≈ 12%, Orange ≈ 0%
+
+[Pattern Characteristics]
+The four lines generally fluctuate within the moderate range, with API/CDMO exhibiting the largest amplitude and the most unstable trajectory, crossing the zero axis multiple times. Generics and Domestic formulation mostly operate within similar ranges, with localized crossovers but limited divergence. Y-Y growth shows the smallest overall fluctuation. In the later period, the values of the three business lines gradually converge, while API/CDMO significantly deviates from the other curves in the latter half.
+
+[Core Insights]
+Core Conclusion: Overall growth is dragged down by API/CDMO but relies on the support of Generics and domestic sales.
+
+Business Implications:
+- Overall growth is more dependent on the contribution from Generics and Domestic formulation.
+- API/CDMO poses a significant adverse impact on overall performance.
+- The current structure reflects high sensitivity to a single, highly volatile segment.
+
+Risk Focus:
+- If API/CDMO persistently remains below 0%, it could pull down overall growth to single digits.
+- If Generics falls below 10%, maintaining double-digit overall Y-Y growth will face pressure.

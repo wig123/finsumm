@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Line Chart
+- Title: Not provided
+- Axes: X-axis represents time (from January 2020 to January 2024), Y-axis represents PE value, ranging from 0 to 35, with horizontal grid lines spaced at 5-unit intervals.
+- Legend: Includes "-1sd" (red dashed line), "mean PE" (red solid line), "+1sd" (red dash-dot line), "1 Year Forward PE" (black solid line).
+
+[Data Relationships]
+- PE values primarily fluctuate between 15 and 25, exceeding this range during a few periods.
+- The "mean PE" is approximately 20, serving as a baseline throughout the entire time period.
+- Between January 2020 and January 2021, the "1 Year Forward PE" dropped below approximately 15, approaching the "-1sd" level.
+- From January 2022 to January 2023, the "1 Year Forward PE" exceeded "+1sd," peaking near 30, indicating a significant increase.
+- Since January 2023, the "1 Year Forward PE" has shown a downward trend, gradually returning close to the "mean PE" level.
+
+[Pattern Characteristics]
+- The series exhibits range-bound fluctuation centered around the mean, with the vast majority of points falling within the ±1sd band.
+- A high-level period occurred between 2022 and 2023, crossing the upper boundary; the series approached the lower boundary multiple times in early 2020 and late 2023.
+- Localized short-term jumps and spikes exist, with periodic extreme values being relatively concentrated.
+
+[Core Insights]
+Core Conclusion: Valuation exhibits a range structure anchored by the mean.
+
+Business Implications:
+- Relative pricing is constrained by historical percentiles.
+- The sustainability of extreme levels is weak.
+- Signal indication near the mean is limited.
+
+Risk Focus:
+- When PE ≥ 30, valuation compression and retracement may occur.
+- When PE < 15 (near -1sd), repricing pressure and increased volatility may occur.

@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Time series line chart (single red line)
+- Annotation: Average discount 19%
+- X-axis: Time, Jan-20 to Jan-24, marked with Jan/Jul semi-annual scale
+- Y-axis: Percentage, range -20% to 60%, marked every 10%
+- Reference Line: Black horizontal dashed line approximately at 20%
+- Legend: None
+
+[Data Relationships]
+- Initial value (Jan-20) approximately 0%
+- Final value (Jan-24) approximately 10%–15%
+- Global high point approximately 50%–55% (H2 2022)
+- Global low point approximately -15% to -18% (Early 2022)
+- Range (High-Low difference) approximately 65–73 percentage points
+- Jul-21 high point approximately 40%–42%; Jul-23 high point approximately 40%–42%
+- Jul-20 local high point approximately 19%–20%, close to the "average 19%"
+- Variation between the low point in early 2022 and the high point in H2 of the same year is approximately 73 percentage points
+
+[Pattern Characteristics]
+The line chart exhibits a clear multi-round surge and retreat structure around the horizontal dashed line at approximately 20%, showing significant volatility. A significant downward extreme point appeared in early 2022, followed by the formation of the global high point in H2 of the same year, constituting a prominent V-shaped range. Subsequent local high points across several waves of fluctuation generally remained within a similar range. The final period closed below the dashed line but still above the starting point.
+
+[Core Insights]
+Core Conclusion: Discount levels fluctuate significantly around the mean, with extreme ranges recurring.
+
+Business Implications:
+- Discount pricing lacks a stable anchor, resulting in strong short-term volatility.
+- Extreme phases are highly sensitive for investment decisions and entry timing.
+- Repeated approaches to the same high-level range indicate recurring patterns in sentiment or expectations.
+
+Risk Focus:
+- When the discount is below -10%, it may amplify redemption or stop-loss pressure.
+- When the discount is above 50%, a retreat to or below the mean may lead to significant drawdown losses.

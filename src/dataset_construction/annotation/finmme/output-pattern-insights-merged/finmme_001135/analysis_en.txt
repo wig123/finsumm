@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Vertical bar chart; title not displayed
+- X-axis: Year, range 2009–2022, annual scale
+- Y-axis: Percentage, range 30%–40%, 1% scale increments
+- Legend not displayed; percentage data labels on top of each bar; bars are red
+
+[Data Relationships]
+- Highest Value: 38.9% in 2020
+- Lowest Value: 33.9% in both 2009 and 2014
+- Start and End Points: 33.9% in 2009, 34.7% in 2022, difference +0.8 percentage points
+- Difference between Highest and Lowest: 5.0 percentage points
+- 37.8% in 2019, 37.2% in 2021, 37.1% in 2016, 37.4% in 2010
+- 36.1% in 2015, 36.5% in 2017, 36.1% in 2018
+- 34.9% in 2012, 34.4% in both 2011 and 2013
+- Difference 2010 vs 2009: +3.5; Difference 2011 vs 2010: -3.0; Difference 2019 vs 2018: +1.7
+
+[Pattern Characteristics]
+- The overall series is relatively concentrated within the 30%–40% range, with most years distributed in the mid-to-high segment, alternating around several local peaks and troughs, showing no unidirectional monotonic trend.
+- 2010 and 2015–2020 form several distinct high-level plateaus, while 2009, 2014, and 2022 are at relatively low levels, resulting in a pattern where the series surges and then retreats in the middle-to-later period.
+- Inter-annual changes are mostly moderate; the sharp jump between 2010 and 2011 is prominent, representing a local inflection point.
+
+[Core Insights]
+Core Conclusion: This indicator has maintained a mid-to-high level over the long term, showing signs of decline in recent years.
+
+Business Implications:
+- The overall level demonstrates a degree of stability and sustainability.
+- The high-level range during the 2015–2020 period likely corresponds to strong business performance.
+- The weakening trend in 2021–2022 suggests a recent reduction in underlying support/momentum.
+
+Risk Focus:
+- If the figure remains below 34% for two consecutive years (approaching historical lows), it may signal a sustained weakening of key business indicators.
+- A rapid drop below 36% after approaching the 39% high could lead to a misalignment between related resource allocation and actual performance.

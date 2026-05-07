@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Percentage Stacked Bar Chart
+- Title: Not displayed
+- X-axis: Time dimension, FY22, FY23, 9MFY24
+- Y-axis: Percentage scale, 0%—90%, 10% increments
+- Legend: Connecting rods (Red), Rocker arms (Gray), Crank shaft assembly (White), Gear shift dorks (Light Pink), Others (Black)
+
+[Data Relationships]
+- FY22: 39%/18%/16%/5%/5%, Total 83%.
+- FY23: 34%/16%/18%/5%/5%, Total 78%.
+- 9MFY24: 35%/15%/16%/5%/5%, Total 76%.
+- Connecting rods: FY22–FY23 difference of 5 percentage points; FY22–9MFY24 difference of 4 percentage points.
+- Rocker arms: FY22–FY23 difference of 2 percentage points; FY22–9MFY24 difference of 3 percentage points.
+- Crank shaft assembly: FY23–FY22 difference of 2 percentage points; FY23–9MFY24 difference of 2 percentage points.
+- Gear shift dorks and Others are 5% in each period, difference of 0.
+
+[Pattern Characteristics]
+- The overall sum of proportions across the three years gradually narrowed in each period; the column height slightly decreased, not reaching 100%.
+- The proportion of Connecting rods consistently represents the largest segment, but showed a noticeable decline in FY23, with a slight recovery in 9MFY24.
+- Rocker arms and Crank shaft assembly showed mutual fluctuation (gains and losses) in the mid-section, while Gear shift dorks and Others remained stable at the top, with an unchanged structure.
+
+[Core Insights]
+Core Conclusion: The product structure is slowly transitioning from high concentration to diversification.
+
+Business Implications:
+- The marginal contribution of the leading product category is declining.
+- The reliance of the overall structure on mid-tier product categories is increasing.
+- Fixed proportion categories provide structural stability anchors.
+
+Risk Concerns:
+- If the proportion of Connecting rods falls below 30%, the overall profitability structure may be weakened.
+- If the total proportion falls below 70%, volatility in the remaining unlisted portion may amplify performance uncertainty.

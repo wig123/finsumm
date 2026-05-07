@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Grouped Bar Chart
+- Title: % change in cons. adj profit estimates since 31-Dec-2023 (current earnings season)
+- X-axis: Region/Market Category—ASXJ, ASEAN, North Asia, India, Singapore, Philippines, Malaysia, Indonesia, Taiwan, ASXJ ex India, China, HK/CH, Thailand, Korea, Hong Kong
+- Y-axis: Percentage, Range -8.0% to 2.0%
+- Legend: Gray represents 2023E, Red represents 2024E
+- Data Labels: Specific percentages labeled next to each bar
+
+[Data Relationships]
+- 2023E Highest: Singapore +1.2%; followed by: Indonesia +0.7, ASEAN +0.6. Lowest: Korea -7.2; followed by: Thailand -3.0, HK/CH -2.4, North Asia/China -2.2.
+- 2024E Highest: India/Taiwan/Singapore +0.4; Philippines +0.3; Malaysia 0.0. Lowest: Hong Kong -3.6, Korea -3.3; followed by: ASXJ/ASXJ ex India -1.8, North Asia -2.2.
+- Key Comparison: ASEAN +0.6 vs -0.4 (Difference -1.0); Philippines -0.8 vs +0.3 (+1.1); Indonesia +0.7 vs -0.4 (-1.1); Korea -7.2 vs -3.3 (+3.9); Hong Kong -1.8 vs -3.6 (-1.8); India +0.4 vs +0.4 (0); Malaysia 0.0 vs 0.0 (0).
+
+[Pattern Characteristics]
+- The two groups of bars are distributed around the zero axis. 2023E is more dispersed and includes extreme low points, while 2024E is more concentrated in the mildly negative range, with only a few being positive.
+- The structure shows diversified dispersion: some regions maintain the same direction over two years (e.g., Singapore, India, Malaysia), while others show a sign reversal (e.g., ASEAN, Indonesia, Philippines).
+- The anomaly lies in Korea being the lowest in 2023E, while the lowest point shifts to Hong Kong in 2024E; the inter-year difference for these two is the most prominent.
+
+[Core Insights]
+Core Conclusion: Earnings estimate downgrades dominate, and regional divergence is significant.
+
+Business Implications:
+- Expectations in most markets have been lowered.
+- Regional allocation is constrained by divergence.
+- Sign reversal suggests insufficient sustainability.
+
+Risk Focus:
+- 2024E ≤ -3.0% may trigger continuous downgrades.
+- Inter-year difference ≥ 1.0 percentage point (pct) easily leads to judgment bias.

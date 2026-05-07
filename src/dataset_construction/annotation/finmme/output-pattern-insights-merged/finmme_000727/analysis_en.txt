@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Line Chart
+- Title: Not displayed
+- X-axis: Time, range Jan-16 to Jan-24, scale includes Jan and Jul nodes
+- Y-axis: Numerical range 6.0 to 46.0, scale points are 6.0, 11.0, 16.0, 21.0, 26.0, 31.0, 36.0, 41.0, 46.0
+- Legend: Red is "EV EBITDA", Gray is "Average", Black is "+1SD", Light color is "-1SD"
+- Reference Lines: Horizontal lines located at 16.0 (-1SD), 21.0 (Average), and 26.0 (+1SD), respectively.
+
+[Data Relationships]
+- Starting point Jan-16 is approximately 17.0 (between 16.0 and 21.0).
+- The lowest point is close to 16.0 (consistent with -1SD), approximately 5.0 lower than the average line.
+- A low point in early 2020 is approximately 21.0, equivalent to the average line, and approximately 5.0 lower than +1SD.
+- The peak value is approximately 45.0 (around Jan-22), approximately 24.0 higher than the average line, and approximately 19.0 higher than +1SD.
+- The ending point Jan-24 is approximately 36.0, approximately 15.0 higher than the average line, approximately 10.0 higher than +1SD, and approximately 20.0 higher than -1SD.
+- The maximum range difference is approximately 29.0 (45.0−16.0).
+
+[Pattern Characteristics]
+- The overall pattern shows initial narrow fluctuations near the average line, followed by an ascent above +1SD and maintenance within a higher range, with frequent short-term volatility during this period.
+- A sharp, noticeable downward correction occurred near early 2020, followed by a phased, step-like upward movement in mid-2020, forming a high-level volatility plateau between early 2021 and early 2022.
+- The data did not touch below -1SD throughout the entire period; the latter half largely remained above +1SD, showing a significant span between the lowest and highest points.
+
+[Core Insights]
+Core Conclusion: The valuation level has jumped from the neutral range to a persistently elevated range.
+
+Business Implications:
+- Current pricing is significantly elevated relative to the historical median/center.
+- The asset's sensitivity to valuation volatility has increased.
+- The continuation of high levels suggests an increased potential for mean reversion.
+
+Risk Focus:
+- If EV/EBITDA approaches 45 or higher again, the magnitude of the correction may be amplified.
+- A drop below 21 (Average) could trigger sentiment reversal and valuation repricing.

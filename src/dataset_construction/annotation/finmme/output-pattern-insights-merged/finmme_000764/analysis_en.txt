@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Side-by-side grouped bar chart, paired with red diamond scatter points on the right axis; dual coordinates.
+- Title: Not displayed.
+- Left Chart Coordinates: Left axis is TWh, range 0–330; right axis is percentage, range 0–6%. X-axis categories: United States, European Union, China.
+- Right Chart Coordinates: Left axis is TWh, range 0–21; right axis is percentage, range 0–42%. X-axis categories: Denmark, Ireland.
+- Legend: 2022 (dark blue bar), 2026 (light blue bar), Share in total demand (red diamond, right axis).
+
+[Data Relationships]
+- United States: 2022≈260 TWh; 2026≈185 TWh; Difference≈75 TWh; Two share points≈5.5% and ≈4%.
+- European Union: 2022≈150 TWh; 2026≈110 TWh; Difference≈40 TWh; Share≈4% and ≈3%.
+- China: 2022≈300 TWh; 2026≈230 TWh; Difference≈70 TWh; Share≈3% and ≈1.5%.
+- Denmark: 2022≈7 TWh; 2026≈4 TWh; Difference≈3 TWh; Share≈21% and ≈14%.
+- Ireland: 2022≈13 TWh; 2026≈6 TWh; Difference≈7 TWh; Share≈35% and ≈21%.
+- Cross-region: 2022 value comparison in the left chart is China≈300>United States≈260>European Union≈150; 2022 in the right chart is Ireland≈13>Denmark≈7.
+
+[Pattern Characteristics]
+- The bar heights for the three regions in the left chart show a significant decline between 2022 and 2026, but the regions with originally higher values maintain their relative ranking.
+- The corresponding red diamonds shift downward in all regions over the two years, and the regions with larger absolute values have their diamonds positioned relatively lower overall.
+- The absolute values of the bars for the two countries in the right chart are significantly smaller than those in the left chart, but the red diamonds are vertically much higher than those in the left chart regions, and they also exhibit an overall downward shift.
+
+[Core Insights]
+Core Conclusion: Usage and proportion of this item simultaneously decline across multiple regions, with high-proportion smaller markets showing greater concentration.
+
+Business Implications:
+- Overall weakening of related demand in major economies
+- Smaller countries remain highly dependent despite low usage volume
+- Overall allocation is adjusting toward greater dispersion and lower proportion
+
+Risk Focus:
+- When the proportion exceeds 30% and the absolute volume declines, it may amplify the impact of reliance on a single use
+- When the absolute volume falls below 5 TWh and the proportion still exceeds 10%, it may crowd out space for other demands

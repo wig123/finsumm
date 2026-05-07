@@ -1,0 +1,37 @@
+[Chart Components]
+- Type: Bar Chart
+- Title: CIFC
+- Axes: Vertical axis represents percentage (0% to 5%), Horizontal axis represents time (3QFY23, FY23, 1QFY24, 2QFY24, 3QFY24)
+- Legend: Red bar represents "Gross Stage-3 (%)- One year lagged"
+
+[Data Relationships]
+- Key figures and changes:
+  - The proportion in 3QFY23 was 4.71%, the highest value.
+  - The proportion in FY23 was 3.77%.
+  - The proportion in 1QFY24 rose to 3.90%.
+  - The proportion in 2QFY24 slightly increased to 3.97%.
+  - The proportion in 3QFY24 significantly dropped to 2.38%, the lowest value.
+
+- Extremum comparison:
+  - Maximum value was 4.71% (3QFY23).
+  - Minimum value was 2.38% (3QFY24).
+
+- Key trend:
+  - From 3QFY23 to 3QFY24, the Gross Stage-3 proportion showed an overall downward trend, particularly a significant drop in 3QFY24.
+
+[Pattern Characteristics]
+- The bar was highest in the early period, followed by two similar subsequent periods, with the latest period showing a single, significantly low point.
+- The overall distribution is continuous but uneven, with a clear difference between the initial and final periods, and limited fluctuation in the middle section.
+- The final bar deviates from the preceding range, forming a clear inflection point.
+
+[Core Insights]
+Core Conclusion: Credit quality pressure is temporarily alleviated, and loss exposure is narrowing.
+
+Business Implications:
+- Default-related pressure is reduced.
+- Provisioning and capital utilization burden are decreased.
+- Indicator monitoring can be moderately relaxed.
+
+Risk Focus:
+- When ≥3.90%, provisioning requirements increase, eroding profit.
+- When ≥4.71%, capital consumption increases, leading to credit compression.

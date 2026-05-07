@@ -1,0 +1,33 @@
+[Chart Components]
+- Chart Type: Bar Chart
+- Title: Not displayed
+- X-axis: Countries/Regions (Total 28 items, labels displayed tilted, including US, South Africa, France, Italy, Japan, …, Denmark, China)
+- Y-axis: % of GDP, Range 0%—60%, Scale interval 10%
+- Legend: Not displayed
+- Color: Most are light green bars, China on the far right is a dark colored bar
+- Grid: Horizontal and vertical grid lines visible
+
+[Data Relationships]
+- Highest Value: China ≈ 48%.
+- Second Highest: Denmark ≈ 26%; Third: Norway ≈ 24%.
+- Lowest Value: US ≈ 0%.
+- China is higher than Denmark by ≈ 22 percentage points; higher than the US by ≈ 48 percentage points.
+- Sweden ≈ 22%, Netherlands ≈ 20%.
+- Ireland ≈ 17%, Switzerland ≈ 15%, Spain ≈ 14%.
+- Germany ≈ 11%, Latvia ≈ 10%, Bulgaria ≈ 10%.
+- Japan ≈ 4%, Italy ≈ 4%, France ≈ 3%, South Africa ≈ 2%.
+
+[Pattern Characteristics]
+The overall trend shows a monotonically increasing order. The vast majority of countries are concentrated in the 0%–25% range. The value distribution is relatively dispersed but lacks distinct clustering segments. Only a few countries on the right tail are significantly higher than others. The bar for China on the far right forms a single prominent "spike" structure among all observed values, elongating the tail of the overall distribution.
+
+[Core Insights]
+Core Conclusion: China's proportion of this indicator relative to GDP is significantly higher than that of other countries.
+
+Business Implications:
+- China exhibits a highly concentrated allocation characteristic in this sector.
+- The relevant dependency of other major economies is generally low.
+- Changes in this Chinese indicator will have a greater amplifying effect on overall economic indicators.
+
+Risk Focus:
+- If China's proportion continues to approach or exceed 60%, volatility in a single sector may amplify the impact on macroeconomic indicators.
+- If China's proportion falls back towards 20%, it could lead to a significant compression of related output, income, or fiscal space.

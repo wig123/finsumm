@@ -1,0 +1,89 @@
+# 模拟数据生成测试配置
+# 测试 10 张图表，涵盖不同的触发条件
+
+batch_name: "synthetic_test"
+output_base_dir: "./batch_output"
+
+# 执行配置
+execution:
+  parallel: true
+  max_workers: 2
+  use_process_pool: false
+
+# 图表列表
+charts:
+  # === 图表类型触发测试 ===
+  
+  # 1. treemap - 100% 触发模拟数据
+  - chart_type: treemap
+    language: zh-CN
+    theme: asset_management
+    task: compare
+    data_constraints: {}
+    
+  # 2. waterfall - 100% 触发模拟数据
+  - chart_type: waterfall
+    language: zh-CN
+    theme: fiscal_policy
+    task: explain
+    data_constraints: {}
+    
+  # 3. waterfall - 100% 触发模拟数据
+  - chart_type: waterfall
+    language: en-US
+    theme: corporate_finance
+    task: explain
+    data_constraints: {}
+
+  # === 主题触发测试 ===
+  
+  # 4. corporate_finance 主题 + line 图表（80% 概率触发）
+  - chart_type: line
+    language: zh-CN
+    theme: corporate_finance
+    task: monitor
+    data_constraints: {}
+    
+  # 5. insurance 主题 + bar 图表（80% 概率触发）
+  - chart_type: bar
+    language: en-US
+    theme: insurance
+    task: compare
+    data_constraints: {}
+    
+  # 6. esg_sustainable 主题 + pie 图表（80% 概率触发）
+  - chart_type: pie
+    language: zh-CN
+    theme: esg_sustainable
+    task: compare
+    data_constraints: {}
+
+  # === 正常数据测试（不触发模拟数据）===
+  
+  # 7. line + inflation（真实数据）
+  - chart_type: line
+    language: zh-CN
+    theme: inflation
+    task: monitor
+    data_constraints: {}
+    
+  # 8. bar + commodities（真实数据）
+  - chart_type: bar
+    language: en-US
+    theme: commodities
+    task: compare
+    data_constraints: {}
+    
+  # 9. area + macro_policy（真实数据）
+  - chart_type: area
+    language: zh-CN
+    theme: macro_policy
+    task: monitor
+    data_constraints: {}
+    
+  # 10. scatter + growth_employment（真实数据）
+  - chart_type: scatter
+    language: en-US
+    theme: growth_employment
+    task: diagnose
+    data_constraints: {}

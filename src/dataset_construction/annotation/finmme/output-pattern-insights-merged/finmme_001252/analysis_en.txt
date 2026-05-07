@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Three parallel data tables
+- Titles: “Average Sizes (consensus)”, “Median Sizes (consensus)”, “Actual Sizes”
+- Row Labels: February, March, April
+- Column Labels: 2y, 3y, 5y, 7y, 10y, 20y, 30y
+- Color Partitioning: Gray headers for the top two tables, green header for the bottom table
+- No axes, no legend, units not specified
+
+[Data Relationships]
+- The values for Actual and Median are completely consistent across all 21 cells.
+- Maximum difference compared to Average (Actual - Avg): Feb is 0.1; Mar is 0.3 (appearing in 2y, 5y); Apr is 0.4 (appearing in 2y, 5y).
+- February maximum actual value is 64 (5y), minimum is 16 (20y), difference is 48.
+- March maximum actual value is 67 (5y), minimum is 13 (20y), difference is 54.
+- April maximum actual value is 70 (5y), minimum is 13 (20y), difference is 57.
+- Change in actual values from Feb→Apr: 2y+6, 3y+4, 5y+6, 7y+2, 10y-3, 20y-3, 30y-3.
+
+[Pattern Characteristics]
+Across all rows and columns in the three tables, the actual values completely overlap with the median values, showing only minor differences compared to the average values. The 2y, 3y, and 5y tenors show relatively higher values over the three months, while the 20y remains at the lowest overall level each month. As the months progress, the values for most short-to-medium-term tenors increase, while the 10y, 20y, and 30y maintain the same or slightly lower levels in the latter two months.
+
+[Core Insights]
+Core Conclusion: Actual results highly align with the consensus median level, indicating a relatively concentrated distribution.
+
+Business Implications:
+- The consensus median provides a characterization of the results that is closer to the true distribution.
+- Demand or allocation weight for short-to-medium-term tenors is relatively more prominent.
+- The proportion of long-term tenors is relatively limited, and the structure shows maturity concentration.
+
+Risk Concerns:
+- If 2y or 5y continues to exceed 70, it may lead to an excessively short bias in the maturity structure.
+- If 20y persistently remains near 13 without improvement, it may weaken the allocation space for long-term tenors.

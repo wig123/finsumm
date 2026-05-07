@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Time series line chart (Closing Price), overlaid with scatter annotations.
+- Title: Hiwin Technologies Corp.
+- Annotations: As of 27-Feb-2024; Currency = TWD.
+- X-axis: Date, approximately 2021/07/01 to 2024/02.
+- Y-axis: Price (TWD), scale range approximately 0–550.
+- Legend: Closing Price (Black Line); Target Price Change (Green Triangle); Recommendation Changes (Blue Dot).
+- Source: LSEG, Nomura.
+
+[Data Relationships]
+- Initial closing price approximately 350 (2021/07), final closing price approximately 250 (2024/02), difference approximately -100.
+- Highest closing price approximately 420 (2021/08-09), lowest approximately 165 (2022/11), high-low difference approximately 255.
+- 2022/07 approximately 240; 2023/02 approximately 250; 2023/07 approximately 210; 2024/01 approximately 235.
+- Target price change levels approximately: 520, 470, 420, 360, 320, 310, 310, 300, 280.
+- Recommendation change levels approximately: 240, 170, 200, 250.
+
+[Pattern Characteristics]
+- The closing price was in a higher range during the initial period, subsequently experienced a significant decline, formed a relatively flat range near the low, and then showed a slight rebound but did not recover to the initial level.
+- The green target price annotations are generally distributed from high to low, with most scattered above the closing price, and relatively concentrated during a few time periods.
+- The number of blue recommendation change points is relatively small, mostly appearing near locations where the closing price exhibits significant local fluctuations, and they do not correspond one-to-one with the target price annotation times.
+
+[Core Insights]
+Core Conclusion: The stock price and target price expectations show a persistent divergence and have not fully converged.
+
+Business Implications:
+- The market transaction price has long been below the analyst's expected range.
+- The pace of adjustment by the research side lags behind the pace of price changes.
+- There is uncertainty regarding the extent to which investors adopt the research viewpoints.
+
+Risk Focus:
+- If the stock price consistently remains below the lowest target price of 280, it may trigger expectation revisions and valuation downgrades.
+- If the stock price approaches the previous low near 170 again, it may amplify emotional volatility and trading instability.

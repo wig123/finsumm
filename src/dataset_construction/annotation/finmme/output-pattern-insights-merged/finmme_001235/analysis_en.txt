@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Line Chart
+- Title: No explicit title observed
+- X-axis: Quarterly timeline, from 1QFY21 to 3QFY24
+- Y-axis: Percentage, ranging approximately from -5% to 50%, scaled approximately every 5%
+- Legend: Red "Y-Y Growth"; Orange "Y-Y growth adj for GNP one off (3QFY24)"
+- Lines: Red line covers the entire period; Orange line shows a short segment only at 3QFY24
+
+[Data Relationships]
+- Initial period 1QFY21 approximately 0%; Final period 3QFY24 red line approximately 6.5%
+- Peak: 1QFY22 approximately 43%; Trough: 2QFY23 approximately -2%; Peak-to-trough difference approximately 45 percentage points
+- Difference between 2QFY22 (≈43%) and 3QFY22 (≈17%) is approximately 26 percentage points
+- Difference between 1QFY23 (≈14%) and 2QFY23 (≈-2%) is approximately 16 percentage points
+- 3QFY24: Y-Y Growth approximately 6.5%; Adjusted approximately 10.0%; Difference approximately 3.5 percentage points
+- 1QFY24 approximately 9.5%, higher than 4QFY23 (approximately 7.0%) by approximately 2.5 percentage points
+
+[Pattern Characteristics]
+- The red line initially shows a significant single-peak pattern, reaching the global maximum at 1QFY22 before continuously declining, briefly dipping below the zero axis in 2QFY23, and subsequently fluctuating slightly around the mid-single-digit level.
+- The overall trend is characterized by large fluctuations in the first half and low-amplitude, narrow-range volatility in the second half, with several sharp quarter-over-quarter movements in between.
+- The orange line is only slightly above the red line near the 3QFY24 single data point, forming a slight divergence, indicating a minor deviation caused by the adjustment for a one-off factor at that time point.
+
+[Core Insights]
+Core Conclusion: Growth performance has entered a relatively moderate range after experiencing severe volatility.
+
+Business Implications:
+- Early YoY growth rate was extremely amplified, subsequently returning to a normalized range.
+- Recent earnings/revenue momentum relies more on stable operations than explosive expansion.
+- The 3QFY24 one-off item provided a certain uplift to the apparent growth rate.
+
+Risk Concerns:
+- If the YoY growth rate approaches 0% or turns negative again, achieving earnings targets may become difficult.
+- If future periods require reliance on one-off adjustments to elevate the growth rate to ≥10%, sustainability faces pressure.

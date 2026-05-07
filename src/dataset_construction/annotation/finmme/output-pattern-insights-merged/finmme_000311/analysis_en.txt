@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Multi-series line chart (with markers).
+- Title: Mobileye, NVDA & QCOM automotive chip revenue.
+- X-axis: Quarterly time, range Mar-16 to Dec-23.
+- Y-axis: Quarterly Revs ($mm), scale 0 to 600.
+- Legend: Mobileye (Intel) (Diamond/Gray line), NVDA (Triangle/Black line), QCOM (Square/Blue line).
+- Note: QCOM data appears starting from Dec-21.
+
+[Data Relationships]
+- Mobileye: Minimum ≈75 (Mar-16), Maximum ≈570 (Dec-22), Period-end ≈520 (Dec-23); Range difference ≈495.
+- NVDA: Minimum ≈110 (Jun-20), Maximum ≈300 (Mar-23), Period-end ≈260 (Dec-23); Range difference ≈190.
+- QCOM: Initial value ≈290 (Dec-21), Maximum ≈540 (Dec-23); Range difference ≈250.
+- Dec-22: Mobileye ≈570, QCOM ≈450, NVDA ≈290; M-N difference ≈280, M-Q difference ≈120, Q-N difference ≈160.
+- Dec-23: QCOM ≈540, Mobileye ≈520, NVDA ≈260; Q-N difference ≈280, M-N difference ≈260, Q-M difference ≈20.
+- Jun-22: Mobileye ≈460, QCOM ≈390, NVDA ≈210; M-Q difference ≈70, M-N difference ≈250, Q-N difference ≈180.
+- Jun-20: Mobileye ≈140, NVDA ≈110; Difference ≈30.
+
+[Pattern Characteristics]
+All three lines generally show an evolution from low to high, with Mobileye showing the earliest change and the largest span, NVDA's change magnitude being relatively moderate, and QCOM showing a significant phased increase after its appearance. Each series experienced temporary pullbacks or plateau periods in certain quarters, but no long-term downward segments appeared. In the later period, the value ranges of the three clearly stratified, with QCOM and Mobileye approaching each other in the high-end range, and NVDA remaining in the lower range.
+
+[Core Insights]
+Core Conclusion: The automotive chip revenue landscape has shifted from single leadership to a dual-power structure, with NVDA relatively lagging.
+
+Business Implications:
+- Increased revenue concentration among leading manufacturers.
+- Mobileye and QCOM have similar scale (volume) in the automotive business.
+- NVDA's relative contribution in this specific segment is limited.
+
+Risk Focus:
+- If NVDA's quarterly revenue remains below 200 long-term, its bargaining power regarding product investment may be constrained.
+- If Mobileye or QCOM quarterly revenue falls below 350, the concentrated leadership structure may be broken.

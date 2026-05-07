@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Grouped Bar Chart
+- Title: Not displayed
+- X-axis: Four categories—Assam, WB, Rest of India, All India
+- Y-axis: Scale approximately 50–100, no unit label visible
+- Legend: Q1FY23 (Red), Q2FY23 (Gray), Q3FY23 (Black), Q4FY23 (Light Orange), Q1FY24 (Blue), 2QFY24 (Dark Gray), 3QFY24 (Dark Blue)
+- Specific values labeled at the top of each bar
+
+[Data Relationships]
+- Assam: 78, 88, 90, 97, 99, 99, 99; Minimum 78, Maximum 99, Difference 21
+- WB: 94, 95, 96, 99, 99, 99, 99; Minimum 94, Maximum 99, Difference 5
+- Rest of India: 96, 97, 97, 99, 99, 98, 99; Minimum 96, Maximum 99, Difference 3; 2QFY24 is 1 lower than 3QFY24
+- All India: 94, 96, 96, 99, 99, 98, 99; Minimum 94, Maximum 99, Difference 5
+- Contemporaneous comparison: Q1FY23 was 78/94/96/94, inter-category difference 18; Q1FY24 and 3QFY24 all four categories are 99; 2QFY24 was 99/99/98/98, inter-category difference 1
+
+[Pattern Characteristics]
+- Categories gradually converged from early dispersion towards the upper range, operating concurrently at the same high level for multiple quarters in FY24.
+- Assam was significantly low in the early period, subsequently aligning with other categories; the overall structure shifted from imbalance to equilibrium, primarily characterized by narrow-range fluctuation.
+- Individual categories showed slight pullbacks during the middle of FY24, but subsequently recovered to the unified high level, with limited magnitude of deviation.
+
+[Core Insights]
+Core Conclusion: National and regional performance in FY24 is highly consistent, approaching the upper boundary level.
+
+Business Implications:
+- Reduced impact of regional disparities on the overall total
+- Increased predictability of the national metric
+- Management focus shifts to maintaining the level and monitoring anomalies
+
+Risk Concerns:
+- If any region falls below 95, All India may be dragged down, amplifying regional differences
+- Inter-category difference > 5 (as seen in Q1FY23) will increase coordination costs and weaken the effectiveness of unified management.

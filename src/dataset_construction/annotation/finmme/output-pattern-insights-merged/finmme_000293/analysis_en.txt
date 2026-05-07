@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Dual-axis line chart
+- Legend: Red "GNPA(%)"; Gray "NNPA(%)—RHS"
+- X-axis: Quarter, 4Q FY22, 1Q FY23, 2Q FY23, 3Q FY23, 4Q FY23, 1Q FY24, 2Q FY24, 3Q FY24
+- Left Y-axis: GNPA percentage, scale approximately 2.10%—2.70%
+- Right Y-axis: NNPA percentage, scale approximately 0.76%—1.01%
+- Specific values are marked on all data points
+
+[Data Relationships]
+- GNPA: Initial value 2.22% (4Q FY22), Final value 2.64% (3Q FY24); Peak value 2.64% (3Q FY24), Trough value 2.14% (2Q FY23), High-low difference 0.50 percentage points.
+- NNPA: Initial value 0.78% (4Q FY22), Final value 0.96% (3Q FY24); Peak value 0.96% (3Q FY24), Trough value 0.78% (4Q FY22/2Q FY23), High-low difference 0.18 percentage points.
+- Period Comparison: 3Q FY24 GNPA 2.64% vs NNPA 0.96%, difference 1.68 pct; 2Q FY24 difference 1.54 pct; 1Q FY24 difference 1.52 pct; 4Q FY23 difference 1.48 pct; 3Q FY23 difference 1.42 pct; 2Q FY23 difference 1.36 pct; 1Q FY23 difference 1.45 pct; 4Q FY22 difference 1.44 pct.
+
+[Pattern Characteristics]
+- Both curves initially show a slight decline in the first half, followed by an overall upward trend, approaching the upper limit of their respective scales towards the end.
+- The trends of GNPA and NNPA are consistent, with the spread slightly widening quarter by quarter, reaching the highest point of the entire period in 3Q FY24.
+- In the middle section (2Q FY23—1Q FY24), the two lines are relatively close, with a more noticeable divergence appearing at the end.
+
+[Core Insights]
+Core Conclusion: Asset quality pressure is rising, and the capacity for impairment absorption is relatively insufficient.
+
+Business Implications:
+- Write-offs and provisions have not synchronously offset the expansion of non-performing assets.
+- Potential for increased erosion of profitability and capital consumption.
+- Future credit extension scope and structure may be constrained.
+
+Risk Focus:
+- If GNPA continues to exceed 2.6%, it may drive up credit costs and compress profit margins.
+- If NNPA breaches 1.0%, it may trigger regulatory constraints and limit business growth.

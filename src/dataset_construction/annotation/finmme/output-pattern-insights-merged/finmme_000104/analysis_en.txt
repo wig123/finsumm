@@ -1,0 +1,40 @@
+[Chart Components]
+- Type: Combined line and bar chart
+- Title: No specific title
+- Axes:
+  - Left Axis (Y-axis): Labeled as “KRW bn,” range from -10,000 to 14,000
+  - Right Axis (Y-axis): Range from -100% to 140%
+  - Bottom Axis (X-axis): Labeled by year, from 09 to 25F
+- Legend:
+  - Gray Bar Chart: Memory OP
+  - Red Solid Line: Memory OP margin
+  - Green Dashed Line: DRAM OP margin
+  - Blue Dashed Line: NAND OP margin
+
+[Data Relationships]
+- Key Figures and Changes:
+  - Memory OP peaked in 2018 at approximately 14,000 KRW bn, then fell to its lowest point in 2023, approximately -8,000 KRW bn.
+  - Memory OP margin reached its highest point in 2018, close to 100%, subsequently dropping to approximately -20% in 2023.
+- Extremum Comparison:
+  - DRAM OP margin was higher in 2018 than in other years, followed by a very noticeable decline.
+  - NAND OP margin fell to its lowest point in 2022, close to -80%.
+- Important Trends:
+  - From 09 to 18, Memory OP and various margin indicators showed an upward trend, demonstrating significant growth.
+  - After 18, all indicators showed a significant decline, particularly exhibiting a “Hard-landing” phenomenon during the 21 to 23 period, followed by a slight recovery trend.
+
+[Pattern Characteristics]
+- The entire series shows multi-stage fluctuations, with a significant peak around 2018, a significant trough around 2023, followed by a moderate recovery in 24-25F.
+- The three margins generally move in the same direction as the gray bars, and the relative ranking is stable: DRAM is higher than the total margin, and the total margin is higher than NAND; the gap between the three widens during extreme phases.
+- Individual anomalies include the extremely low level of NAND in 2022, and the brief slump around 2020.
+
+[Core Insights]
+Core Conclusion: (Profit highly dependent on cyclicality and product mix)
+
+Business Implications:
+- Profitability exhibits strong cyclicality and high elasticity
+- DRAM profitability is superior to NAND, and the product mix dominates the profit margin
+- The forecast period shows only partial recovery, unlikely to reach historical peaks
+
+Risk Focus:
+- Memory OP margin below 0%, or persistently negative, annual losses may expand
+- NAND OP margin close to -80%, potentially dragging consolidated profit into negative territory

@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Combination chart (Red bar + Black line)
+- Title: Not displayed
+- X-axis: Quarterly categories, 1QFY22 to 3QFY24
+- Left Y-axis: Numerical scale 120–260 (INR bn), corresponding to "Net order book (INR bn)"
+- Right Y-axis: Percentage scale 0%–90%, corresponding to "- of which % EV (RHS)"
+- Legend: Red bar "Net order book (INR bn)", Black line "- of which % EV (RHS)"
+
+[Data Relationships]
+- Key bar values (approx.): 1QFY22 140; 2QFY22 135 (lowest); 3QFY22 175; 4QFY22 185; 1QFY23 205; 3QFY23 238; 4QFY23 215; 1QFY24 218; 2QFY24 220; 3QFY24 240 (highest).
+- Bar range: Minimum 135 and maximum 240, difference ≈ 105.
+- Difference between 3QFY23 and 4QFY23 ≈ 23; Difference between 1QFY23 and 2QFY23 ≈ 0; Difference between 1QFY24 and 2QFY24 ≈ 2.
+- Key line values (% EV) (approx.): 1QFY22 55%; 3QFY22 65%; 4QFY22 60%; 3QFY23 72%; 4QFY23 78%; 1QFY24 80%; 3QFY24 82 (highest).
+- %EV range: ≈55% to ≈82%, difference ≈ 27 percentage points.
+
+[Pattern Characteristics]
+- The bar sequence generally shows a stepped upward trend starting from 1QFY22, with a noticeable pullback in 4QFY23, followed by a subsequent rise, reaching the high point of the range in 3QFY24. Volatility is relatively limited with no sharp spikes.
+- The line sequence exhibits a continuous upward, unidirectional trend from the left side of the chart to the right, with only minor pullbacks, and is generally smoother.
+- The two sequences generally move in the same direction along the timeline, with no distinct phases showing opposing trends.
+
+[Core Insights]
+Core Conclusion: Order size and the proportion of EV orders increase simultaneously, indicating a continuous structural shift towards EV.
+
+Business Implications:
+- Order volume expansion coincides with a continuous increase in EV weighting.
+- Revenue structure shows a significantly increased reliance on EV-related sectors.
+- Future performance sensitivity to changes in EV orders is enhanced.
+
+Risk Focus:
+- If the EV proportion falls below 70%, the overall order structure may tend toward diversification again.
+- If net orders fall below 180 INR bn, the momentum for business scale expansion may significantly weaken.

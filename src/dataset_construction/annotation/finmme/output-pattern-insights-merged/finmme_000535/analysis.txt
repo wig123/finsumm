@@ -1,0 +1,32 @@
+【图表构成】
+- 图表类型：对比表
+- 标题：Nature-related assessment and disclosure approaches
+- 行（Characteristic）含6项：Coverage of value chain；Use of location information in the assessment；Assessment of business dependencies and impacts on nature；Disclosure on business dependencies and impacts on nature；Assessment of nature-related risks and opportunities；Disclosure on nature-related risks and opportunities
+- 列含7个框架：CDP disclosure system；European Sustainability Reporting Standards (ESRS)；Global Reporting Initiative (GRI) Standards；International Sustainability Standards Board (ISSB) Standards；Natural Capital Protocol；Science Based Targets Network (SBTN) target setting guidance；Taskforce on Nature-related Financial Disclosure (TNFD) framework
+- 无坐标轴与图例
+
+【数据关系】
+- 总量：7个框架、6个特征项
+- 价值链覆盖：下游明确包含4（ESRS、ISSB、Natural Capital Protocol、TNFD）；可选/部分2（GRI、CDP）；未覆盖1（SBTN）
+- 位置信息：Yes为6；灵活1（Natural Capital Protocol）
+- 依赖与影响评估：同时覆盖5；仅影响/有限依赖2（GRI、SBTN）
+- 依赖与影响披露：同时覆盖4；仅影响2（GRI、SBTN）；可选1（Natural Capital Protocol）
+- 风险与机会评估：Both为5；未覆盖2（GRI、SBTN）
+- 风险与机会披露：Both为4；未覆盖2（GRI、SBTN）；可选1（Natural Capital Protocol）
+
+【模式特征】
+- 各框架在六个特征上的表现呈现出明显分层：多数框架在评估与披露维度同时具备双向覆盖，少数仅覆盖单向或处于可选状态。  
+- 在价值链和位置信息两个结构性特征上，大部分框架表现较为一致，仅个别框架在下游覆盖和位置使用上显示出弹性或暂未覆盖。  
+- GRI与SBTN在依赖、风险与机会相关的评估和披露维度形成相似的局部空缺，而TNFD、ESRS、ISSB则在多项特征上呈现高度齐整的一致性格局。
+
+【核心洞察】
+核心结论：各框架在评估、披露完整性上分层明显，标准成熟度差异大。
+
+业务含义：
+- TNFD、ESRS、ISSB便于构建较完整的自然相关管理体系。
+- 采用GRI或SBTN易导致依赖、风险识别与信息传递不充分。
+- Natural Capital Protocol适合灵活应用，但可比性与强制程度有限。
+
+风险关注：
+- 若仅依托不覆盖“风险与机会评估”的框架（如GRI、SBTN），可能漏判重大自然相关风险，影响资本配置。
+- 若使用“披露可选”的框架处理依赖与影响（如Natural Capital Protocol），披露比例低于100%时可能削弱投资者与监管信任。

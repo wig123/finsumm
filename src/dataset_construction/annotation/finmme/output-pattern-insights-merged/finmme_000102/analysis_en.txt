@@ -1,0 +1,38 @@
+[Chart Components]
+- Type: Stacked Bar Chart
+- Title: Not provided
+- Axes:
+  - X-axis: Year (2011-2026)
+  - Y-axis: RoRo units (千)
+- Legend:
+  - Light Blue: EU
+  - Blue-Green: Great Britain
+
+[Data Relationships]
+- **Key Metrics and Changes:**
+  - The overall trend is a steady increase in RoRo unit volume.
+  - During the period 2011 to 2026, the volume of RoRo units from Great Britain consistently exceeded that of the EU.
+
+- **Extremum Comparison:**
+  - The total volume of RoRo units supplied by Great Britain and the EU reached a distinct peak in 2020.
+
+- **Significant Trends:**
+  - From 2011 to 2026, RoRo units from Great Britain showed a stable growth trend.
+  - The volume of RoRo units from the EU is relatively volatile, but generally appears stable overall.
+
+[Pattern Characteristics]
+- The stacked bars show a gradual overall increase over the years, with moderate inter-annual fluctuation, maintaining a higher range in the later period.
+- The darker section consistently holds the dominant proportion, while the lighter section serves as the top complement, showing more uneven inter-annual volatility.
+- A single bar shows a significant spike near 2020, followed by a return to a level close to the previous range.
+
+[Core Insights]
+Core Conclusion: High dependence on Great Britain for supply structure
+
+Business Implications:
+- High structural concentration
+- Overall scale is sensitive to GB
+- 2020 represents an anomalous level
+
+Risk Focus:
+- A total volume below 200 thousand may trigger a capacity gap.
+- If Great Britain falls below the 2020 level by ≥100 thousand, the overall scale will be pressured.

@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Dual-axis line chart
+- Title: Not displayed
+- X-axis: Time, scale from Jan-12 to Jan-19
+- Left Y-axis: Percentage, label "Infra vs. MSCI Europe ex-Financials," range approximately -1.0% to 4.0%
+- Right Y-axis: Percentage, label "Real sovereign yield: weighted average," range approximately -1.5% to 3.0%
+- Legend: Two lines—Dark line "European Infra vs. MSCI Europe ex-Financials"; Light line "Real sovereign yield: weighted-average"
+
+[Data Relationships]
+- Early 2012: Dark line approximately 3.5% (Left axis); Light line approximately 2.5% (Right axis).
+- Early 2019: Dark line approximately 0.0%; Light line approximately -0.5%.
+- Dark line peak approximately 3.5% (Early 2012), trough approximately -0.2% (Late 2018); Amplitude approximately 3.7 percentage points.
+- Light line peak approximately 2.5% (Early 2012), trough approximately -1.0% (Mid-2018); Amplitude approximately 3.5 percentage points.
+- Change from start to end of period: Dark line approximately -3.5 percentage points; Light line approximately -3.0 percentage points.
+- Mid-2015: Dark line approximately 1.2%; Light line approximately 0.0% during the same period.
+
+[Pattern Characteristics]
+- Both lines generally show a continuous downward trend during the sample period, with greater volatility in the initial phase, followed by convergence and narrow movement near zero in the later phase.
+- The dark line experienced multiple short-term surges and pullbacks around 2013, followed by a stepwise decline; the light line gradually moved downward around 2014 and remained mostly in the negative territory after 2016.
+- The direction of the two lines is generally consistent most of the time, but there are asynchronous local fluctuations and crossovers in the short term, with troughs more concentrated around mid-to-late 2018.
+
+[Core Insights]
+Core Conclusion: The relative performance of infrastructure assets and real sovereign yields weakened synchronously, and the advantage has largely disappeared.
+
+Business Implications:
+- The excess return of infrastructure relative to equities has narrowed significantly.
+- Declining real sovereign yields have weakened the attractiveness of returns.
+- The synchronous change reflects high sensitivity to the interest rate environment.
+
+Risk Concerns:
+- The dark line falling below -0.2% or remaining below 0% for an extended period may indicate an increased disadvantage in relative returns.
+- The light line remaining below -1.0% and persisting may lead to further compression of income sources.

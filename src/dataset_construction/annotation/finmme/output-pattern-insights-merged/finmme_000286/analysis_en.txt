@@ -1,0 +1,34 @@
+[Chart Components]
+- Chart Type: Dual-Axis Line Chart
+- Title: Not displayed
+- X-axis: Year, 2013—2025F
+- Left Y-axis (LHS): Percentage scale, for Sales; Range approximately 0%—20%, marked 0%, 5%, 10%, 15%, 20%
+- Right Y-axis (RHS): Percentage scale, for EBIT; Range approximately -20%—20%, marked -20%, -10%, 0%, 10%, 20%
+- Legend: Top; Sales (Black, LHS), EBIT (Red, RHS)
+
+[Data Relationships]
+- 2013: Sales≈17%, EBIT≈17%
+- Sales Peak: 2013≈17%; Second highest 2021≈14%; Low Point: 2020≈2% (2015≈3%)
+- EBIT Peak: 2013/2016/2021≈16–17%; Low Point: 2023F≈5% (2015≈8%)
+- 2025F: Sales≈7–8%, EBIT≈15%
+- 2015 Difference: EBIT higher by ≈5 percentage points (≈8% vs ≈3%)
+- 2021 Difference: EBIT higher by ≈2–3 percentage points (≈16–17% vs ≈14%)
+- 2023F Difference: Sales higher by ≈1 percentage point (≈6% vs ≈5%)
+- Range: Sales≈2–17% (Amplitude≈15pp); EBIT≈5–17% (≈12pp)
+
+[Pattern Characteristics]
+- Both curves generally follow a multi-fluctuation, wave-like trajectory. Sales exhibits greater volatility (amplitude) and approaches the lower range more frequently, while EBIT fluctuates within the middle-to-high range.
+- In most years, the two lines move in the same direction, but their levels are misaligned: around 2015 and 2020, Sales was at a relatively low level while EBIT remained in the middle-to-high position. In 2023F, a crossover occurs where Sales is slightly higher than EBIT.
+- Local peak clusters formed around 2013 and 2021, followed by noticeable pullbacks. After 2023F, both lines show an uplift but do not return to the historical high range.
+
+[Core Insights]
+Core Conclusion: Profitability (EBIT) is generally higher than revenue growth (Sales), and exhibits stronger resilience against volatility.
+
+Business Implications:
+- Revenue expansion is unstable, but profitability remains relatively robust.
+- Cost and pricing management contribute significantly to profit.
+- Profit recovery will be faster than revenue recovery over the next two years.
+
+Risk Concerns:
+- If Sales approaches the 2% range again, EBIT may be passively driven down, compressing profit margins.
+- If EBIT falls below the 5% range, it will significantly weaken the ability to buffer against revenue decline.

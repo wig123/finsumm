@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Line chart, with scatter plot markers
+- Title: Taiwan Semiconductor Manufacturing Corp
+- Timeline: Approximately 2021/07/01 to 2024/01/01; noted in the upper right corner as “As of 21-Feb-2024”
+- Y-axis: Price (TWD), range 0.00 to 850.00
+- Legend: Black line=Closing Price; Green triangle=Target Price Change; Blue dot=Recommendation Changes
+- Source: LSEG, Nomura; Currency=TWD
+
+[Data Relationships]
+- The closing price was approximately 600 TWD at the beginning of the period (2021/07) and approximately 700 TWD at the end of the period (2024/01).
+- The closing price range is approximately 380–660 TWD; the difference between the highest and lowest is approximately 280 TWD.
+- The highest closing point was approximately 660 TWD (near 2022/01), and the lowest was approximately 380 TWD (near 2022/10).
+- There are approximately 6 target price change markers; the highest was approximately 840 TWD (2022/01), the lowest was approximately 660 TWD (2023/04), a difference of approximately 180 TWD.
+- The number of visible recommendation changes (blue dots) in the chart is 0.
+
+[Pattern Characteristics]
+- The closing price exhibits a volatile pattern within the overall period, first rising, then significantly declining, and then gradually recovering, with a clear trough in the middle.
+- The price trend shows local peaks and troughs at various stages, with relatively frequent short-term fluctuations.
+- Target price change points are few and scattered, consistently remaining higher than the corresponding closing price, and no recommendation change markers are visible.
+
+[Core Insights]
+Core Conclusion: Brokerage views show limited periodic adjustments, and price volatility is primarily absorbed by the market itself.
+
+Business Implications:
+- The target price is consistently higher than the market price, reflecting an overall optimistic institutional expectation.
+- The lack of recommendation changes suggests a slow pace in updating sell-side opinions.
+- The price recovery from the trough indicates a restoration of market attention toward the company.
+
+Risk Concerns:
+- If the stock price approaches 380 TWD again, it may trigger stop-loss selling by holders and worsen sentiment.
+- If the stock price remains below the 660 TWD target price for an extended period, it could undermine the credibility of institutional views and amplify divergence.

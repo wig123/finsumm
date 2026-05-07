@@ -1,0 +1,32 @@
+**[Chart Components]**
+- Type: Dual-axis line chart, two lines; Red is "Price," Gray is "Rel Hang Seng Index"
+- Label: (HKD) located on the left side
+- X-axis: Time, range Feb 23 to Jan 24, marked monthly
+- Left Y-axis: Price (HKD), scale approximately 2.5—3.3
+- Right Y-axis: Index scale approximately 100—145
+- Legend: Red—Price; Gray—Rel Hang Seng Index
+- Title: No independent title displayed
+
+**[Data Relationships]**
+- Beginning of Period (Feb 23): Price≈2.55 HKD; Index≈100
+- End of Period (Jan 24): Price≈2.90 HKD; Index≈143
+- Price peak approximately 3.22 HKD (around May 23), trough approximately 2.55 (around Aug 23), range difference≈0.67
+- Index peak approximately 145 (around Jan 24), trough approximately 100 (Feb 23), range difference≈45
+- Price at the end of July approximately 3.10; October Price approximately 2.95, Index approximately 125; November Index approximately 130, Price approximately 2.90
+
+**[Pattern Characteristics]**
+- Price first rose significantly in the first half, then clearly retreated, followed by oscillation within a narrow range; the Rel Hang Seng Index, conversely, extended continuously upward from the starting point, with only mild consolidation in the middle.
+- The trends of the two lines were relatively synchronous around May. Subsequently, Price showed a clear downward divergence in July–August, while the Index maintained an upward structure. After entering September, the two moved roughly in the same direction again, but Price generally fluctuated around a relatively stable central pivot.
+- Price formed a localized sharp peak around May, created a sharp decline interval in July–August, while the Index formed a new phase high near the end of the year.
+
+**[Core Insights]**
+Core Conclusion: The individual stock performance was temporarily weaker than the relative Hang Seng Index, and did not fully recover in the later period.
+
+Business Implications:
+- Excess performance relative to the benchmark is unstable and lacks persistence.
+- Increased volatility in the middle period, leading to higher pressure on holding experience and position management.
+- Although there was a rebound in the later period, the strength of relative return recovery was limited.
+
+Risk Focus:
+- Price falling near the 2.55 HKD low may trigger concentrated passive deleveraging and stop-loss orders.
+- The Rel Hang Seng Index being above 140 while Price struggles to break 3.20 HKD may indicate further erosion of relative returns.

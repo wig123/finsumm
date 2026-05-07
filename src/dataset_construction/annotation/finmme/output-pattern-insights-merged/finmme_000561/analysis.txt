@@ -1,0 +1,29 @@
+【图表构成】
+- 类型：堆叠柱状图；标题“Denser network with ~30% fewer towers….”。
+- x轴类别：dtac、TRUE、True+dtac、Single Grid。
+- y轴无刻度，柱顶显示总值，柱内显示分段值。
+- 颜色：蓝、红两系列；有“-30%”标注指向True+dtac与Single Grid的对比。
+
+【数据关系】
+- 总值：dtac=24；TRUE=35；True+dtac=59；Single Grid=42。
+- True+dtac→Single Grid：减少17（59→42），降幅约28.8%；图中标注为“-30%”。
+- 分段：True+dtac蓝24、红35；Single Grid蓝12、红30。
+- 分段变化：蓝-12（24→12，约-50%）；红-5（35→30，约-14.3%）。
+- 其他对比：TRUE比dtac高11；True+dtac比分别高35与24；Single Grid比分别高18与7。
+
+【模式特征】
+- 各柱由两部分构成，True+dtac在四个类别中总高度最高，其次为Single Grid，dtac最低。  
+- True+dtac与Single Grid相比，总高度缩短，同时蓝色部分收缩幅度明显大于红色部分。  
+- TRUE与dtac分别仅由单一颜色构成，而True+dtac与Single Grid呈现双颜色叠加结构。
+
+【核心洞察】
+核心结论：单一共享网格在保持红色规模下显著压缩蓝色规模。
+
+业务含义：
+- True+dtac向Single Grid过渡提升了资源集中度。
+- 在红色保持接近的前提下，蓝色占用被明显压缩。
+- 整体结构更依赖红色部分提供支撑。
+
+风险关注：
+- 若总值再次接近60，可能削弱当前压缩效果。
+- 若蓝色回升至20以上，单一网格的整合效率将明显下降。

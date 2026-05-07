@@ -1,0 +1,29 @@
+【图表构成】
+- 图表类型：折线图（四条系列，双时点）
+- 标题：Asia by Sub Region
+- 横轴：时间，刻度为 Jan-19 与 Jan-24
+- 纵轴：单位为 Millions，最高刻度显示为 120
+- 图例：North East Asia（橙）、South East Asia（黄）、South Asia（灰）、Central Asia（蓝）
+- 右侧标注各系列相对变动百分比
+
+【数据关系】
+- 两期：Jan-19 与 Jan-24
+- 相对变动（Jan-24 相对 Jan-19）：North East Asia +4.0%；South East Asia -13.7%；South Asia +4.5%；Central Asia +49.1%
+- 两期的数值高低均为：North East Asia > South East Asia > South Asia > Central Asia
+- 变动幅度最大：Central Asia（+49.1%）；唯一为负：South East Asia（-13.7%）
+- South Asia 与 North East Asia 的变动差：0.5个百分点；Central Asia 与 North East Asia：45.1个百分点；Central Asia 与 South Asia：44.6个百分点
+
+【模式特征】  
+四条线在两期之间整体保持原有高低顺序，仅数值水平出现改变。Central Asia 的相对变化幅度显著高于其他三条线，而 South East Asia 方向相反，其余两条线变化幅度接近。整体不存在交叉或顺序颠倒，仅在幅度上出现强弱差异。
+
+【核心洞察】  
+核心结论：区域间增长结构分化明显，增速高度集中于 Central Asia。  
+
+业务含义：  
+- 现有规模仍由 North East Asia 主导，格局未改  
+- Central Asia 对整体增量贡献度快速抬升  
+- South East Asia 可能拖累总体表现与资源效率  
+
+风险关注：  
+- Central Asia 增速若跌破+10%，整体增量将明显收窄  
+- South East Asia 继续低于0%时，可能压缩区域合计规模与边际收益

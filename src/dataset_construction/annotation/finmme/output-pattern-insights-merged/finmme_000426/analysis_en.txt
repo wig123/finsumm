@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Line chart
+- Title: No main title visible
+- X-axis: Date, labeled as "2/16" annually, ranging approximately from 2014/02/16 to 2023/02/16
+- Y-axis: Numerical scale, ranging approximately from 5.0 to 23.0, with intervals of approximately 2.0; Unit/Name not specified
+- Legend: Red line, labeled "EV/EBITDA 1 yr fwd"
+
+[Data Relationships]
+- Initial period (2014-02-16) ≈12.3
+- Final period (right end of chart) ≈17.0
+- Global high ≈20.8 (Early 2021)
+- Global low ≈9.0 (Mid-2016)
+- Difference between high and low ≈11.8
+- 2021 peak is higher than the initial period by ≈8.5
+- 2023 low point (≈11.3) is lower than the 2022 high point (≈19.0) by ≈7.7
+- Final period is lower than the 2021 peak by ≈3.8
+
+[Pattern Characteristics]
+The overall trajectory oscillates multiple times between high and low points, accompanied by noticeable medium-to-short-term fluctuations. From 2014 to 2018, the movement was mainly narrow consolidation around the central axis, during which a phase high and a distinct low point occurred. After forming a global high platform from 2020 to 2021, it rapidly retreated, subsequently forming a new volatility range in the mid-to-high segment, without touching the previous high again.
+
+[Core Insights]
+Core Conclusion: The central axis of EV/EBITDA valuation has risen, but the high level is unsustainable.
+
+Business Implications:
+- There are signs of an overall upward shift in valuation levels after 2014.
+- The valuation near 2021 deviated from the historical range and was difficult to sustain subsequently.
+- The current valuation is in the historical mid-to-high segment, leaving limited potential for further upside.
+
+Risk Focus:
+- If it approaches 20x or higher again, it may face significant correction pressure.
+- If it falls below the 2016 low of approximately 9x, it could trigger a sharp contraction in sentiment and allocation.

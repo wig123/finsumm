@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Scatter Plot
+- Title: Main Challenge for 3200G is Power
+- X-axis: Rate Category, including 800G, 1600G, 3200G
+- Y-axis: Power Consumption (Watt), range approximately 0–50, with 10W scale and grid lines
+- Legend: LPO (Blue), LRO (Green), DSP2 (Yellow), DSP (Red)
+- Text box description on the right side
+
+[Data Relationships]
+- 3200G: DSP≈50W, DSP2≈30W, LRO≈20W, LPO≈15W; DSP is approximately 35W more than LPO, 30W more than LRO, and 20W more than DSP2.
+- 1600G: DSP≈22W, DSP2≈18W, LRO≈13W, LPO≈10W; DSP is approximately 12W more than LPO.
+- 800G: DSP≈12W, DSP2≈10W, LRO≈7W, LPO≈5W; DSP is approximately 7W more than LPO.
+- Power consumption relationship within the same category: LPO < LRO < DSP2 < DSP.
+
+[Pattern Characteristics]
+- Stable vertical ranking within each rate category: LPO is the lowest, DSP is the highest.
+- From 800G to 3200G, the data points for all solutions show an overall upward trend, and the separation between solutions is more pronounced in the higher categories.
+- The 3200G group exhibits the largest dispersion, showing stratification between a single high value and a cluster of low values.
+
+[Core Insights]
+Core Conclusion: Power consumption is the main constraint for 3200G, and low-power solutions are more suitable.
+
+Business Implications:
+- Differences in solutions directly impact power compliance.
+- LPO/LRO are better aligned with the requirements of 3200G optical modules.
+- DSP2 results rely on assumptions; stability requires verification.
+
+Risk Concerns:
+- DSP≈50W, approximately 35W more than LPO, restricting selection.
+- If DSP2 > 30W, the low-power assumption fails, making energy-saving targets difficult to achieve.

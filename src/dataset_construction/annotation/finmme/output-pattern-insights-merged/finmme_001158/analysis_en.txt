@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Vertical Bar Chart (Red Bars)
+- Legend: API sales (INR Mn)
+- X-axis: Quarterly labels, from 1QFY16 to 3QFY24 (Tilted display)
+- Y-axis: API Sales (INR Million), Scale range approximately 0—4500
+- Title: Not displayed separately; the legend serves as the thematic description
+
+[Data Relationships]
+- Initial Value: 1QFY16 approximately 3300; Final Value: 3QFY24 approximately 2800; The initial value is higher than the final value by approximately 500.
+- Maximum Value: 1QFY21 approximately 4100; Minimum Value: 1QFY23 approximately 2200; The difference between high and low is approximately 1900.
+- FY24: 1QFY24 approximately 3400; 3QFY24 approximately 2800; The difference between the two is approximately 600.
+- FY22 Low Point: 3QFY22 approximately 2550, higher than 1QFY23 (approximately 2200) by approximately 300.
+- FY21: 3QFY21 approximately 3750, lower than 1QFY21 by approximately 350.
+- FY19/20 Highs: 3QFY19 approximately 3550; 3QFY20 approximately 3500; The difference between the two is approximately 50.
+
+[Pattern Characteristics]
+Overall, the quarterly bars are distributed above and below the median level, with a relatively limited range of fluctuation. The FY19-FY21 period formed a relatively high plateau, with 1QFY21 marking the global peak; FY22 to 1QFY23 saw a relatively concentrated low range. Subsequently, FY23-FY24 showed some recovery but did not return to previous highs. Overall, there is a lack of clear cyclicality, with only localized peaks and troughs in certain quarters.
+
+[Core Insights]
+Core Conclusion: API sales partially recovered after falling from a high level but have not returned to the peak.
+
+Business Implications:
+- The previous volume expansion phase has ended, entering a more moderate range.
+- Recent revenue requires increased resilience to single-quarter fluctuations.
+- The subsequent pace of growth may rely more on structural and pricing optimization.
+
+Risk Concerns:
+- If quarterly sales fall below 2200, it may reduce the achievement rate of the annual revenue target.
+- If two consecutive quarters fall below the FY22-23 average of approximately 2600, it may affect cash flow planning and capacity utilization.

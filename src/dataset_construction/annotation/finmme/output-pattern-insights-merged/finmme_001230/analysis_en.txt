@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Dual-axis line chart
+- Legend: Red "Price," Gray "Rel CSI 300"
+- Left Y-axis: Labeled "(CNY)," scale approximately 50–120
+- Right Y-axis: Scale 60–130
+- X-axis: Time range from Mar 23 to Feb 24, labeled monthly
+- Title: No explicit title observed
+
+[Data Relationships]
+- Price was approximately 115–120 in Apr 23, the highest point on the chart; approximately 55–60 in Feb 24, the lowest; the range difference is about 55–65
+- Price was approximately 105–115 in Jun–Jul 23; approximately 70 in Oct–Nov 23
+- Rel CSI 300 was approximately 105–110 in Dec 23; approximately 70–75 in Feb 24; the range difference is about 30–40
+- The difference between the two series in Feb 24 is approximately 10–15 (Price is lower than Rel CSI 300)
+- The difference between the two series in Apr 23 is approximately 20–30 (Price is higher than Rel CSI 300)
+
+[Pattern Characteristics]
+The two curves generally moved synchronously during the Mar–Jul 23 period, but Price was consistently above Rel CSI 300. Starting from Aug 23, the overall trend of both remained consistent in direction, but the relative position of Price gradually shifted downward, crossing significantly below Rel CSI 300 after Dec 23 and remaining there. In Feb 24, both curves were near the bottom of the range, and the spread between Price and Rel CSI 300 narrowed to a relatively low level.
+
+[Core Insights]
+Core Conclusion: The performance of the underlying asset relative to the benchmark has shifted from early outperformance to significant underperformance.
+
+Business Implications:
+- The ability to outperform the benchmark in the early period could not be sustained
+- Relative return contribution has significantly weakened since Aug 23
+- Recent value proposition largely depends on whether a subsequent reversal occurs
+
+Risk Concerns:
+- Price consistently remaining more than 10 points below Rel CSI 300 may imply a continuous widening of relative drawdown
+- If Price hovers near 60 without recovery, it could lead to a temporary locking-in of the performance gap relative to the benchmark

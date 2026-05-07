@@ -1,0 +1,94 @@
+{
+  "experiment_info": {
+    "judge_model": "gpt-5",
+    "timestamp": "2025-12-04T22:33:34.052606",
+    "dimension_weights": {
+      "faithfulness": 0.3,
+      "completeness": 0.25,
+      "analysis": 0.2,
+      "logicality": 0.15,
+      "conciseness": 0.1
+    }
+  },
+  "group_a": {
+    "description": "仅系统提示词（纯视觉分析）",
+    "stats": {
+      "count": 100,
+      "success": 100,
+      "weighted_score": {
+        "mean": 3.725,
+        "std": 0.521,
+        "min": 1.0,
+        "max": 4.7
+      },
+      "dimension_scores": {
+        "faithfulness": {
+          "mean": 2.99,
+          "std": 0.818
+        },
+        "completeness": {
+          "mean": 3.91,
+          "std": 0.65
+        },
+        "analysis": {
+          "mean": 3.73,
+          "std": 0.63
+        },
+        "logicality": {
+          "mean": 4.72,
+          "std": 0.601
+        },
+        "conciseness": {
+          "mean": 3.96,
+          "std": 0.314
+        }
+      }
+    }
+  },
+  "group_b": {
+    "description": "系统提示词 + 内部参考信息（带数据辅助）",
+    "stats": {
+      "count": 100,
+      "success": 98,
+      "weighted_score": {
+        "mean": 3.98,
+        "std": 0.398,
+        "min": 2.95,
+        "max": 4.7
+      },
+      "dimension_scores": {
+        "faithfulness": {
+          "mean": 3.418,
+          "std": 0.82
+        },
+        "completeness": {
+          "mean": 4.163,
+          "std": 0.529
+        },
+        "analysis": {
+          "mean": 3.98,
+          "std": 0.451
+        },
+        "logicality": {
+          "mean": 4.806,
+          "std": 0.466
+        },
+        "conciseness": {
+          "mean": 3.969,
+          "std": 0.172
+        }
+      }
+    }
+  },
+  "comparison": {
+    "weighted_score_diff": 0.255,
+    "weighted_score_diff_pct": 6.85,
+    "dimension_diffs": {
+      "faithfulness": 0.255,
+      "completeness": 0.255,
+      "analysis": 0.255,
+      "logicality": 0.255,
+      "conciseness": 0.255
+    }
+  }
+}

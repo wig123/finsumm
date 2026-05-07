@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Line chart; no main title.
+- X-axis: Time (Mar-20 to Dec-23, labeled Month-Year).
+- Y-axis: Numerical scale 10–80.
+- Legend: Red solid line "Forward P/E"; Gray dashed line "Mean=36.0"; Black dashed line "+1SD=46.2"; Light orange dashed line "-1SD=25.7".
+
+[Data Relationships]
+- Forward P/E at the beginning of the period (Mar-20) was approximately 18–20; at the end of the period (Dec-23) was approximately 24–25.
+- Maximum value was approximately 67–70 (around Sep-21); minimum value was approximately 16–18 (around Mar-20); the range (difference between high and low) was approximately 49–54.
+- The maximum value was approximately 21–24 higher than +1SD (46.2).
+- The ending value differs from -1SD (25.7) by approximately 1–2.
+- The median value in mid-2022 was approximately 33–34, which was approximately 2–3 lower than the Mean (36.0).
+
+[Pattern Characteristics]
+In the initial phase of the sample, the Forward P/E first fluctuated around the Mean, followed by a short-term sharp surge that broke above +1SD, after which it continuously retreated and, in the latter half, operated long-term between the Mean and -1SD, remaining close to the latter. The three baseline lines (Mean, ±1SD) show an overall slow downward shift. The red line was mostly above the Mean in the early period and mostly below the Mean in the later period, structurally exhibiting a state of initial upward deviation followed by downward clustering, with no extreme points approaching the previous peak reappearing.
+
+[Core Insights]
+Core Conclusion: Valuation has retreated from extreme highs to near the historical lower boundary range.
+
+Business Implications:
+- Reflects that the valuation premium relative to historical levels has significantly contracted
+- The current valuation range has a more pronounced impact on price elasticity and safety margin
+- The valuation anchor has shifted from the high range to closer to the lower side of the historical central tendency
+
+Risk Concerns:
+- If it persistently falls below -1SD=25.7 and approaches 20, it may trigger emotional selling and involuntary position reduction
+- If it approaches or breaks through +1SD=46.2 again, it may lead to subsequent valuation correction and pressure on return drawdown

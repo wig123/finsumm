@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Line chart
+- Title: Not displayed
+- X-axis: Time, range Jan-19 to Jan-24, marked monthly, labels displayed diagonally
+- Y-axis: Percentage scale, range 0.0%–8.0%, includes horizontal grid lines
+- Legend: Not displayed
+- Other Elements: Line is cyan; current value "2.9%" annotated at the right end
+
+[Data Relationships]
+- Initial value (Jan-19) is approximately 6.6%.
+- Final value (Jan-24) is 2.9%.
+- The peak value for the entire period is close to 7.0% (approximately near the beginning of 2020).
+- The trough value for the entire period is approximately 2.4% (around the second half of 2021).
+- The difference between the maximum and minimum values is approximately 4.6 percentage points.
+- The difference between the initial and final values is approximately 3.7 percentage points.
+
+[Pattern Characteristics]
+- The data was at a high level during the initial stage, followed by a brief but noticeable spike at the beginning of 2020, after which it rapidly declined and remained in a relatively low range.
+- After forming the period's low point around the second half of 2021, it re-entered a moderate volatility range, during which peaks and troughs alternated, but generally oscillated around a central pivot point.
+- Starting from the mid-to-late stage of 2023, the curve gradually shifted from the previous middle range towards a lower range, concluding slightly above the period's trough.
+
+[Core Insights]
+Core Conclusion: The indicator has moved from a high level towards a lower level, characterized by periodic, repeated adjustments.
+
+Business Implications:
+- Overall performance has contracted compared to the initial period, with clear periodic volatility.
+- The middle segment remained in a moderate range for a long time, indicating neutral level characteristics.
+- The current value is close to the historical low range, where both incremental upside potential and constraints coexist.
+
+Risk Focus:
+- If it falls below 2.4%, it will hit the historical low range, potentially compressing related returns or scope.
+- If it approaches 7.0% again, it will return to the historical high range, potentially amplifying related costs or pressures.

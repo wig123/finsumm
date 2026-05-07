@@ -1,0 +1,33 @@
+【图表构成】
+- 图表类型：左侧为柱状图，右侧为分部-驱动-趋势的列表/表格。
+- 标题：FCF development (EURbn)。
+- 横轴类别：FY21、FY21 normalised(脚注1)、FY25E、FY30E。
+- 纵轴：未显示刻度，单位为EURbn；FY21与FY21 normalised柱体上方标注数值。
+- 颜色：FY21相关柱为橙色，FY25E与FY30E为蓝色；中间有一小段灰色柱形元素。
+- 额外标注：“Mid single-digit”位于FY25E/FY30E上方。
+- 右侧表格列名：Segment、Key drivers FCF、Trend；分部包含Netherlands Life、Netherlands Non-life、Insurance Europe、Japan Life、Banking、Other；Trend列以箭头图示。
+
+【数据关系】
+- FY21为1.5（EURbn）。
+- FY21 normalised为1.2（EURbn）。
+- 两者差额0.3（EURbn）；normalised为FY21的80%。
+- FY25E与FY30E未给出具体数值，均配“Mid single-digit”注记。
+- 日本寿险：汇回基于当地GAAP利润的5/6（约83.3%）。
+- 其余分部未提供量化数值或比例。
+
+【模式特征】
+- 左侧柱状图先显示一个实际值，再给出较低的归一化值，后续两个预测期以相近高度呈现，并用统一文字说明处于同一量级区间。
+- 中间灰色小柱与归一化柱体相邻，整体结构呈现“历史—调整—预测”的连续布局。
+- 右侧分部列表中，多数组别的趋势箭头方向一致，仅有一项呈相反方向，形成单一例外。
+
+【核心洞察】
+核心结论：FCF由一次性高点回落后，整体呈温和提升格局。
+
+业务含义：
+- 显示历史口径与可持续水平存在差异
+- 未来整体现金创造能力有望逐步抬升
+- 日本寿险对当地会计利润存在较高依赖
+
+风险关注：
+- 若未来FCF低于FY21 normalised水平，可能难以支撑当前资本规划
+- 若Japan Life汇回比例低于5/6，当地利润波动将更直接压缩集团FCF

@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Time series line chart
+- Title: Not displayed
+- Y-axis: Unit is KRW, scale approximately 0, 10,000, 20,000, 30,000, 40,000, 50,000
+- X-axis: Time labeled as 17, 18, 19, 20, 21, 22, 23, 24F
+- Elements: One main red line; multiple gray reference lines, labeled "1.00x, 2.00x, 3.00x, 4.00x, 5.00x"
+- Legend: Not displayed
+
+[Data Relationships]
+- The chart's peak value is approximately 47,000 KRW, occurring in 23.
+- The chart's lowest point is approximately 5,000 KRW, located at the starting point in early 17.
+- The 17 plateau is approximately 45,000 KRW, differing from early 18 (approx. 15,000 KRW) by about 30,000 KRW.
+- 19 high approximately 36,000 KRW; 20 low approximately 12,000 KRW, a difference of about 24,000 KRW.
+- 21 high approximately 34,000 KRW; 22 value approximately 22,000 KRW, a difference of about 12,000 KRW.
+- The final value for 24F is approximately 23,000 KRW; this is about 24,000 KRW lower than the 23 peak; and about 18,000 KRW higher than the initial period (early 17, approx. 5,000 KRW).
+
+[Pattern Characteristics]
+- After experiencing a rapid surge from a low to a high level in early 17, the series briefly consolidated in the high range, then quickly retreated to the mid-to-low range, and subsequently exhibited wide-ranging volatility around the median level between 18 and 22.
+- A single, relatively sharp local peak appeared in 23, followed by a retreat in 24F to near the historical central axis.
+- The red line generally resides between the gray 1.00x to 5.00x reference bands across different phases, with the early period and the 23 peak phase significantly deviating from the central reference band.
+
+[Core Insights]
+Core Conclusion: After experiencing extreme appreciation and subsequent correction, the underlying price is currently at a moderate level.
+
+Business Implications:
+- The price has significantly appreciated relative to the early period, raising long-term returns.
+- The large difference between periodic highs and lows in the middle phase indicates high volatility in the holding experience.
+- The current level is below the historical peak, providing room for re-pricing or re-allocation.
+
+Risk Focus:
+- If the price approaches 47,000 KRW again, a significant correction may recur, impacting unrealized gains.
+- If the price falls below approximately 20,000 KRW, it may revert to the historical mid-to-low range, leading to a substantial contraction of floating profits.

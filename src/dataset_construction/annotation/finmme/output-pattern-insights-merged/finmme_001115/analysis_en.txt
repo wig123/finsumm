@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Time series line chart
+- Title: JD Health
+- Notes: As of 19-Feb-2024; Currency=HKD
+- X-axis: Date scale markers are 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01
+- Y-axis: Price scale approximately 0–170 (HKD)
+- Legend: Black line is Closing Price; Green triangle is Target Price Change; Blue dot is Recommendation Changes
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial closing price approximately 160 HKD (2021/07), final price approximately 30 HKD (near 2024/02).
+- Chart maximum approximately 165 HKD (2021/07), minimum approximately 30 HKD (2024/01), high-low difference approximately 135 HKD.
+- A blue dot appeared once in 2022/01, corresponding to a closing price of approximately 65 HKD.
+- Green triangles appeared 6 times in total: approximately 80 (2022/01), 60 (2022/03), 85 (2023/01), 75 (2023/05), 60 (2023/09), 40 (2024/01).
+- Local low point approximately 35 HKD (2022/05), local high point approximately 85 HKD (2023/01).
+
+[Pattern Characteristics]
+- The closing price continuously trends downward from the high level on the left side to the right, accompanied by multiple medium-amplitude counter-movements.
+- After forming a clear low point around mid-2022, the price rebounded upward to a local peak in early 2023, and subsequently fell back to a lower level.
+- Green triangles mostly appear during periods of staged price rebound or relative stability, while the blue dot appeared only once during a local downtrend segment.
+
+[Core Insights]
+Core Conclusion: The stock price has weakened over the long term, with broker target price adjustments gradually following suit.
+
+Business Implications:
+- Market expectations for the company continue to contract.
+- Target price adjustments exert downward pressure on the valuation center.
+- Investment research view update frequency is low, with corrections lagging the price.
+
+Risk Focus:
+- If the stock price remains persistently below 40 HKD, it may trigger further rating downgrades.
+- If subsequent target prices fall below the current level of approximately 40 HKD, negative sentiment may be amplified.

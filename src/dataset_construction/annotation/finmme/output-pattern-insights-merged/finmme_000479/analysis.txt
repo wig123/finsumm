@@ -1,0 +1,30 @@
+【图表构成】
+- 类型：纵向柱状图
+- 标题：Earnings yield (FY26F)
+- 纵轴：百分比刻度，范围0%—16%，标注0%、2%、4%、6%、8%、10%、12%、14%、16%
+- 横轴：11个类别——BANDHAN、FB、BOB、SBIN、IIB、AXSB、HDFCB、ICICIBC、KMB、AUBANK、YES
+- 元素：柱体有红色与绿色两种颜色；各柱顶部有“Buy/Neutral/Reduce”文字标注；未见图例
+
+【数据关系】
+- 数值：BANDHAN 15%；FB 14%；BOB 13%；SBIN 12%；IIB 11%；AXSB 10%；HDFCB 8%；ICICIBC 8%；KMB 7%；AUBANK 6%；YES 5%
+- 高低点差：最高15%（BANDHAN），最低5%（YES），差10个百分点
+- 并列：HDFCB与ICICIBC均为8%
+- 相邻差：BANDHAN比FB高1%；FB比BOB高1%；BOB比SBIN高1%；SBIN比IIB高1%；IIB比AXSB高1%；AXSB比HDFCB高2%；HDFCB与ICICIBC差0%；ICICIBC比KMB高1%；KMB比AUBANK高1%；AUBANK比YES高1%
+- 标注分布：Buy 7个，Neutral 3个，Reduce 1个
+
+【模式特征】
+- 各柱体从左到右呈现由高到低的单调递减排列，整体高度变化较为平滑，仅在中部出现一次相对更大的间距。  
+- 颜色在红、绿之间交替分布，并未严格按数值高低分色，相同数值的柱体也可能颜色不同。  
+- “Buy/Neutral/Reduce”文本标签集中在高数值区域以“Buy”为主，低数值区域则以“Neutral”和唯一的“Reduce”为主，形成分段式标签分布结构。
+
+【核心洞察】
+核心结论：高收益率标的获得更多积极评级，低收益率集中在中性及减持。
+
+业务含义：
+- 含义1 当前评级明显偏向高收益个股
+- 含义2 低收益个股的配置吸引力相对受限
+- 含义3 中段个股体现一定分化与选择性
+
+风险关注：
+- 风险点1 收益率低于6%的个股继续持有或加仓或导致组合回报拖累
+- 风险点2 收益率在6%–8%区间若被下调至5%以下，可能触发评级进一步下修

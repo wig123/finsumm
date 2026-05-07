@@ -1,0 +1,30 @@
+【图表构成】  
+- 类型：堆叠面积图  
+- 标题：Data Center Ethernet Switch Revenue  
+- 横轴：年份，范围为2022–2028（按年刻度）  
+- 纵轴：Revenue in Billions ($)，范围为$0–$40（每$5为一刻度）  
+- 分层类别：Rest of Enterprise、Large Enterprises、Rest of Cloud、Top 5 U.S. Cloud SPs、Telco SPs、Top 3 Chinese Cloud SPs（直接标注在对应区域内）  
+- 附注/来源：650 Group Ethernet Switch Data Center Forecast Q4 2023；注释列出美/中云厂商名单  
+
+【数据关系】  
+- 2022年总收入约为$22.5（位于$20–$25区间）；2028年总收入约为$37.5（位于$35–$40区间）；两者差值约为$15。  
+- 2028年类别对比：Top 5 U.S. Cloud SPs收入最大；Rest of Enterprise收入最小；Large Enterprises、Rest of Cloud、Telco SPs、Top 3 Chinese Cloud SPs收入居中。  
+- 各年份总收入均位于$20–$40区间，呈逐年增长趋势。  
+- 2022与2028各类别收入均为非零值，且随时间变化呈不同程度增长。
+
+【模式特征】
+- 堆叠面积随年份连续扩大，各层扩张幅度不一致。
+- 结构呈单一层占据较大比例，其余层次较薄、分散。
+- 曲线整体平滑，无明显跳跃或反转。
+
+【核心洞察】
+核心结论：增量主要由头部云厂商贡献
+
+业务含义：
+- 收入更集中于头部
+- 业绩达成依赖该板块
+- 其他板块边际贡献小
+
+风险关注：
+- 总收入< $35，年度目标偏离
+- 头部板块占比>50%，策略变动冲击

@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Dual-axis line chart
+- Title: Not displayed
+- Legend: Red “Price”, Gray “Rel KOSPI 200”
+- X-axis: Time, Mar 23 to Feb 24 (monthly labels)
+- Left Y-axis: Unit KRW, scale approx. 90,000–150,000
+- Right Y-axis: Scale approx. 70–120 (corresponding to “Rel KOSPI 200”)
+
+[Data Relationships]
+- Price initial value approx. 122,000 KRW (Mar 23), final value approx. 92,000 KRW (Feb 24)
+- Price peak approx. 146,000 KRW (approx. May 23), trough approx. 90,000 KRW (Feb 24); range difference approx. 56,000 KRW
+- Rel KOSPI 200 initial value approx. 100, final value approx. 72
+- Rel KOSPI 200 peak approx. 120 (Apr–May 23), trough approx. 70 (Feb 24); range difference approx. 50
+- In Feb 24, Price ≈ 90,000 KRW, corresponding Rel KOSPI 200 ≈ 70
+
+[Pattern Characteristics]
+- The two curves generally moved in the same direction during the early stage, simultaneously forming local peaks around Apr–May 23, followed by a relatively consistent phase of overall decline.
+- In the middle stage (Jun 23–Dec 23), Price and Rel KOSPI 200 fluctuated repeatedly around their respective means, showing no significant structural divergence, with frequent local volatility.
+- Approaching Jan–Feb 24, both curves exhibited a significant unilateral downward trend, forming the lowest points within their respective ranges in Feb 24, representing a substantial shift from the preceding stage.
+
+[Core Insights]
+Core Conclusion: The underlying asset's performance relative to the benchmark continuously weakened during the observation period.
+
+Business Implications:
+- Relative return levels have slipped from the neutral zone into a distinctly weak range.
+- Investment portfolios tracking this asset are experiencing pressure on excess returns.
+- The weight of this asset in the portfolio may have deviated from optimal allocation.
+
+Risk Focus:
+- If Rel KOSPI 200 remains below 80 for an extended period, it may drag down overall relative performance.
+- If Price continues to fall below 100,000 KRW, it may amplify the impact of single-asset drawdowns on the portfolio's net asset value.

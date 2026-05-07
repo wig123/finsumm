@@ -1,0 +1,26 @@
+【图表构成】  
+- 类型：并列双图；左侧为分组柱状图（a.Share），右侧为柱线组合图（b.Growth）。  
+- 总标题：Chart VI.10: Vehicle Loans – NBFCs vis-à-vis SCBs。  
+- a图：x轴标示时间点为Mar-20、Mar-21、Mar-22、Mar-23；y轴标题为“Share in total vehicle loans (in per cent)”，刻度范围为0–70，间隔约为10。图例包括NBFCs（橙色柱）和SCBs（黄色柱）。  
+- b图：x轴与a图一致；y轴标题为“YoY growth (in per cent)”，刻度范围为-10至30，间隔约为10。图例包括NBFC Vehicle Loans（橙柱）、SCB Vehicle Loans（黄柱）、Passenger Vehicle sales（绿色折线）和Two-wheeler vehicles（棕色折线）。  
+- 注记：数据为暂定值；来源包括RBI与SIAM等。  
+
+【数据关系】  
+- a图中，Mar-23数据：NBFCs的占比为43.5%；SCBs的占比为59.5%；两者差值为16.0个百分点。
+
+【模式特征】
+- a图中，黄色柱始终高于橙色柱，呈单一主导的份额结构，末期差距更大。
+- b图中，两类贷款柱值为正为主且黄色高于橙色，曲线组整体由低到高递进。
+- 绿色折线高于棕色折线，棕色由负值跨越至正值，拐点在Mar-22附近。
+
+【核心洞察】
+核心结论：SCBs主导车贷；信贷与乘用车销量联动强。
+
+业务含义：
+- 份额结构集中于SCBs
+- 信贷扩张对乘用车销售敏感
+- 两轮车对贷款影响较弱
+
+风险关注：
+- 贷款YoY<0，可能导致份额收缩
+- 份额差≥16个百分点，NBFC占比继续走低

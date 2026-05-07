@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Grouped Bar Chart
+- Title: No title visible
+- X-axis: Categories are EURUSD, USDJPY, USDCHF, GBPUSD, AUDUSD, NZDUSD, USDCAD, XAUUSD (rhs)
+- Y-axis: Left axis scale 0.9—1.3; Right axis scale 0.9—1.3 (XAUUSD uses the right axis)
+- Legend: Dark green "1y/3m curve steepness", Medium green "-1w", Light green "-1m"
+
+[Data Relationships]
+- All values are around 1.0—1.2, none are below 1.0.
+- Highest is XAUUSD “-1m” ≈ 1.22; second highest is XAUUSD “-1w” ≈ 1.20 (right axis).
+- Highest on the left axis is GBPUSD “1y/3m” ≈ 1.19; lowest is USDJPY “-1m” ≈ 1.00.
+- USDCAD three values are approximately 1.11—1.13, difference < 0.03.
+- EURUSD approximately 1.07—1.12; USDCHF approximately 1.02—1.08.
+- AUDUSD, NZDUSD approximately 1.02—1.10.
+- The span of the three values for most categories is approximately 0.05—0.15.
+
+[Pattern Characteristics]
+- The three bar groups for each instrument are generally concentrated in similar ranges, with limited horizontal difference between instruments, and no extreme low values observed.
+- XAUUSD is generally positioned relatively high across the three bar groups, followed by GBPUSD; USDJPY, USDCHF, AUDUSD, and NZDUSD are distributed in the relatively low range.
+- In most combinations, there is a certain level of difference between “1y/3m” and “-1w” “-1m”. USDCAD shows the smallest internal difference, while the three bar groups for XAUUSD and GBPUSD show more distinct separation in levels.
+
+[Core Insights]
+Core Conclusion: Term structure differences across instruments are moderate, with Gold and the British Pound being more sensitive to short-term changes.
+
+Business Implications:
+- Overall curve shapes are similar, with limited term structure divergence.
+- Gold and the British Pound rely more on the short end for recent valuation adjustments.
+- High internal consistency in the Canadian Dollar facilitates relative value comparison.
+
+Risk Focus:
+- If any bar value for any instrument rises above 1.25, it may signal an increased misalignment in long-term and short-term pricing.
+- If values approach 1.00 and continue to decline, it could lead to re-evaluation of related positions and stop-loss pressure.

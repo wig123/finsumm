@@ -1,0 +1,35 @@
+[Chart Components]
+- Type: Line Chart
+- Title: Trade between the EU and South Korea (€ billion)
+- Axes: The horizontal axis represents the year range 2002—2021, the vertical axis represents the trade value (Unit: billion euros), with a scale range from 0 to 60, marked every 10 units.
+- Legend: The red line represents imports from South Korea to the EU, the blue line represents exports from the EU to South Korea, and the gray line represents the trade balance.
+
+[Data Relationships]
+- Key Figures and Changes:
+  - Since 2011, both EU exports to South Korea and South Korean imports to the EU have shown an upward trend.
+  - 2021 data shows that the value of imports from South Korea to the EU exceeded €5 billion, and the value of exports from the EU to South Korea was close to €5 billion.
+
+- Extremum Comparison:
+  - Imports from South Korea to the EU reached their highest value in 2021, exceeding €5 billion.
+  - Exports from the EU to South Korea approached a historical peak in 2021, slightly lower than the import value.
+
+- Key Trends:
+  - The total trade volume between the EU and South Korea has shown a continuous growth trend since 2002.
+  - The trade balance fluctuated significantly throughout the period, showing notably negative values, especially in 2012 and 2018.
+
+[Pattern Characteristics]
+- Both the red and blue lines generally show a long-term upward trend accompanied by cyclical fluctuations, with a steeper slope in the later period.
+- The two lines cross multiple times, with the red line positioned above the blue line more frequently in recent years; the gray line swings widely around the zero axis, showing significant troughs near 2012 and 2018.
+- In the final stage, all three lines are approaching cyclical highs, with the red line accelerating upward faster relative to the blue line.
+
+[Core Insights]
+Core Conclusion: Bilateral trade volume is at a high level, but the stability of the balance is insufficient.
+
+Business Implications:
+- Large scale of exchange, with weak unilateral dominance.
+- Periods of import dominance are increasing, limiting the scope for trade surplus.
+- The direction of the balance is volatile, requiring greater flexibility in budgeting and settlement.
+
+Risk Focus:
+- Trade balance < 0, resulting in a negative annual net balance.
+- Imports > 50 and higher than exports, causing the balance to turn negative and widen.

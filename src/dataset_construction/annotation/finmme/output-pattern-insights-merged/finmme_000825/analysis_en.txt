@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Line chart (with circular markers)
+- Title: Credit cost (%)
+- Legend: Credit cost (%), red line
+- X-axis: Quarterly categorical labels, from Q3FY21 to Q3FY24, totaling 13 data points
+- Y-axis: Percentage value axis, upper limit marked as 3.0, unit is %; lower limit approaches 0
+
+[Data Relationships]
+- Peak occurred in Q3FY21, located in the 2.5%–3.0% range
+- Second highest value in Q1FY22, approximately 2.2%–2.4%
+- Trough occurred in Q4FY23, approximately 0.1%–0.2%
+- The difference between the initial period (Q3FY21) and the final period (Q3FY24≈0.5%) is approximately 2.0%–2.5%
+- Q1FY23 approximately 0.2%; Q2FY23 approximately 0.3%; Q3FY23 approximately 0.8%
+- Q1FY24 approximately 0.5%; Q2FY24 approximately 0.4%
+- The gap between the maximum and minimum is approximately 2.3%–2.9%
+
+[Pattern Characteristics]
+The series started at a high level, followed by an overall stepped decline, and in the middle section, it remained in a low range with narrow fluctuations near the bottom of the axis. During the period, a noticeable rebound occurred early on, followed by a single uplift near the lowest point. Subsequent values fluctuated slightly around the medium-low level but did not reach the previous high again.
+
+[Core Insights]
+Core Conclusion: Credit cost has retreated from its high point and is hovering in a lower range.
+
+Business Implications:
+- Overall provisioning pressure has significantly eased compared to the early period.
+- The degree of earnings erosion due to credit cost has decreased.
+- Subsequent performance is more sensitive to credit cost fluctuations.
+
+Risk Concerns:
+- If the cost approaches 2.0% or higher again, profit margins could be significantly compressed.
+- A rapid rebound after falling below 0.2% may reflect increased volatility in asset quality.

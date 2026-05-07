@@ -1,0 +1,1137 @@
+# 生成约束配置 v2
+# 新增 theme_indicator_mapping，支持程序化数据选择
+# 定义图表类型、主题、数据源、视觉风格、语言之间的适配关系和配额
+
+# ============================================================================
+# 语言配额
+# ============================================================================
+language_quota:
+  zh-CN: 0.50  # 中文 50%
+  en-US: 0.50  # 英文 50%
+
+# ============================================================================
+# 语言 × 数据源 亲和度
+# 中文图表更多使用中国数据，英文图表更多使用美国数据
+# ============================================================================
+language_data_source_affinity:
+  zh-CN:
+    Baostock: 0.40  # 中文图表优先使用 Baostock（A股指数）
+    yfinance: 0.25  # yfinance（港股/外汇）
+    Synthetic: 0.20 # 合成数据（横截面）
+    FRED: 0.15      # FRED（美国数据，中文标签）
+  en-US:
+    FRED: 0.35      # 英文图表优先使用 FRED（美国宏观数据）
+    yfinance: 0.35  # yfinance（全球指数/外汇/商品）
+    Synthetic: 0.20 # 合成数据
+    Baostock: 0.10  # Baostock（A股指数，英文标签）
+
+# ============================================================================
+# 语言 × 主题 亲和度
+# 某些主题更适合特定语言（中国市场数据 vs 美国市场数据）
+# ============================================================================
+language_theme_affinity:
+  zh-CN:
+    # 中国相关主题更适合中文
+    equity_markets: 1.0   # A股、港股
+    payments_fintech: 1.0 # 中国支付行业发达
+    real_estate: 0.9      # 中国房地产
+    # 美国主导的主题也可用中文
+    macro_policy: 0.8
+    inflation: 0.8
+    default: 0.8
+  en-US:
+    # 美国/国际主题更适合英文
+    macro_policy: 1.0     # 美联储政策
+    fixed_income: 1.0     # 美债市场
+    inflation: 1.0        # 美国CPI
+    commodities: 0.9      # 国际大宗商品
+    fx_trade: 0.9         # 外汇市场
+    esg_sustainable: 0.9  # ESG是国际标准
+    default: 0.8
+
+# ============================================================================
+# 视觉风格配额
+# ============================================================================
+visual_style_quota:
+  trading: 0.15      # 交易终端风格 - 适合交易类主题
+  quant: 0.15        # 量化学术风格 - 适合分析类主题
+  macro: 0.12        # 宏观国际组织风格 - 适合宏观类主题
+  news: 0.12         # 新闻财经风格 - 通用
+  corporate: 0.12    # 企业财报风格 - 适合企业类主题
+  fintech: 0.10      # Fintech App风格 - 适合消费金融类
+  regulator: 0.12    # 监管央行风格 - 适合政策/风险类主题
+  research: 0.12     # 机构研究报告风格 - 通用
+
+# ============================================================================
+# 数据源配额（已移除 AKShare 和 Efinance）
+# ============================================================================
+data_source_quota:
+  FRED: 0.25        # 美国宏观经济数据
+  Baostock: 0.20    # A股指数OHLC（无限流、稳定）
+  yfinance: 0.30    # 全球指数/外汇/商品OHLC（Yahoo Finance）
+  Synthetic: 0.25   # 合成数据（横截面/受限主题）- 调整到 25%
+
+# ============================================================================
+# 图表类型 × 主题 适配矩阵
+# 值: 1.0=完美匹配, 0.5=一般适配, 0.0=不适合
+# ============================================================================
+chart_theme_affinity:
+  # Tier 1 图表
+  line:
+    default: 1.0
+  
+  candlestick:
+    equity_markets: 1.0
+    fx_trade: 1.0
+    commodities: 0.9
+    digital_assets: 0.8
+    derivatives: 0.7
+    default: 0.0
+  
+  candlestick_volume:
+    equity_markets: 1.0
+    commodities: 0.8
+    fx_trade: 0.0  # 🔧 修复: 外汇数据没有成交量
+    digital_assets: 0.0  # 🔧 修复: 加密货币数据没有成交量
+    default: 0.0
+  
+  bar:
+    default: 0.9
+    derivatives: 0.5
+  
+  area:
+    default: 0.8
+    corporate_finance: 0.5
+  
+  histogram:
+    # 🔧 修复: 直方图展示数值分布，需要CS_1D数据，只有合成数据支持的主题才适合
+    derivatives: 0.9  # 期权收益分布
+    risk_regulation: 0.8  # 风险指标分布
+    default: 0.0  # 其他主题禁止（没有合适的横截面分布数据）
+  
+  scatter:
+    default: 0.7
+    inflation: 0.9
+    growth_employment: 0.9
+    macro_policy: 0.9
+
+  # Tier 2 图表
+  heatmap:
+    # 🔧 修复: 热力图需要MATRIX或CS_ND数据
+    derivatives: 1.0  # 相关矩阵
+    fx_trade: 0.8  # 货币对相关矩阵
+    equity_markets: 0.8  # 行业相关矩阵
+    fixed_income: 0.7  # 收益率曲线热力图
+    default: 0.0  # 其他主题禁止（需要合成MATRIX数据支持）
+  
+  waterfall:
+    # 🔧 修复: 瀑布图需要CS_1D递进结构数据（起点→增量→终点）
+    corporate_finance: 1.0  # 财务分解（收入→成本→利润）
+    fiscal_policy: 0.9  # 预算分解
+    asset_management: 0.8  # 投资组合归因
+    default: 0.0  # 其他主题禁止（没有递进结构数据）
+  
+  ohlc:
+    equity_markets: 1.0
+    fx_trade: 1.0
+    commodities: 0.9
+    default: 0.0
+  
+  bollinger_bands:
+    equity_markets: 1.0
+    fx_trade: 1.0
+    commodities: 0.9
+    digital_assets: 0.8
+    default: 0.0
+  
+  box:
+    # 🔧 修复: 箱线图需要CS_ND多组数据比较，只有支持合成数据的主题才适合
+    growth_employment: 0.8  # 多国就业率对比
+    derivatives: 0.7  # 多资产收益对比
+    risk_regulation: 0.7  # 多银行风险指标对比
+    default: 0.0  # 其他主题禁止（没有合适的多组横截面数据）
+  
+  pie:
+    asset_management: 1.0
+    corporate_finance: 0.9
+    insurance: 0.8
+    default: 0.4
+  
+  treemap:
+    # 🔧 修复: 树状图需要CS_ND层级数据，只有特定主题适合
+    asset_management: 1.0  # 资产组合分层
+    equity_markets: 0.9  # 行业板块分层
+    corporate_finance: 0.8  # 收入/成本构成
+    default: 0.0  # 其他主题禁止（没有层级数据）
+
+  # Tier 3 图表
+  contour:
+    # 🔧 修复: 等高线图需要MATRIX二维网格数据，只有极少数场景适合
+    derivatives: 1.0  # 期权隐含波动率曲面
+    fixed_income: 0.8  # 收益率曲线曲面
+    default: 0.0  # 其他主题完全禁止（没有二维网格数据）
+  
+  volume_profile:
+    equity_markets: 1.0
+    commodities: 0.8
+    fx_trade: 0.0  # 🔧 修复: 外汇数据没有成交量
+    digital_assets: 0.0  # 🔧 修复
+    default: 0.0
+  
+  ichimoku_cloud:
+    equity_markets: 1.0
+    fx_trade: 1.0
+    commodities: 0.8
+    default: 0.0
+  
+  renko:
+    equity_markets: 1.0
+    fx_trade: 0.9
+    commodities: 0.8
+    default: 0.0
+  
+  errorbar:
+    growth_employment: 0.9
+    inflation: 0.9
+    macro_policy: 0.8
+    default: 0.5
+  
+  radar:
+    corporate_finance: 1.0
+    asset_management: 0.9
+    esg_sustainable: 0.9
+    default: 0.5
+  
+  fan_chart:
+    macro_policy: 1.0
+    inflation: 0.9
+    growth_employment: 0.8
+    default: 0.4
+  
+  market_depth:
+    equity_markets: 1.0
+    commodities: 0.8
+    fx_trade: 0.0  # 🔧 修复: 外汇数据没有成交量
+    digital_assets: 0.0  # 🔧 修复: 加密货币数据没有成交量
+    default: 0.0
+
+  # Tier 4 图表
+  point_figure:
+    equity_markets: 1.0
+    fx_trade: 0.9
+    commodities: 0.8
+    default: 0.0
+  
+  candlestick_indicator:
+    equity_markets: 1.0
+    fx_trade: 1.0
+    commodities: 0.9
+    default: 0.0
+  
+  density:
+    derivatives: 0.9
+    growth_employment: 0.8
+    inflation: 0.8
+    default: 0.5
+  
+  heatmap_scatter:
+    # 🔧 修复: 散点热力图需要MATRIX或CS_ND二维分布数据
+    derivatives: 0.9  # 期权希腊字母分布
+    equity_markets: 0.7  # 股票风险收益分布
+    default: 0.0  # 其他主题禁止（需要二维散点密度数据）
+
+  bar_line_overlay:
+    default: 0.8
+    corporate_finance: 1.0
+    macro_policy: 0.9
+  
+  line_band_overlay:
+    default: 0.7
+    macro_policy: 1.0
+    inflation: 0.9
+
+# ============================================================================
+# 主题 × 数据形态 推荐
+# ============================================================================
+theme_shape_affinity:
+  equity_markets:
+    TS_OHLC: 1.0
+    TS_1D: 0.8
+    CS_ND: 0.6
+  
+  fx_trade:
+    TS_OHLC: 1.0
+    TS_1D: 0.8
+  
+  commodities:
+    TS_OHLC: 0.9
+    TS_1D: 0.9
+  
+  digital_assets:
+    TS_OHLC: 1.0
+    TS_1D: 0.8
+  
+  macro_policy:
+    TS_1D: 1.0
+    TS_ND: 0.9
+  
+  inflation:
+    TS_1D: 1.0
+    TS_ND: 0.8
+    CS_ND: 0.7
+  
+  growth_employment:
+    TS_1D: 1.0
+    CS_ND: 0.9
+  
+  corporate_finance:
+    CS_1D: 1.0
+    CS_ND: 0.9
+    FLOW: 0.8
+  
+  asset_management:
+    CS_1D: 1.0
+    CS_ND: 0.9
+  
+  insurance:
+    CS_1D: 0.9
+    CS_ND: 0.8
+  
+  derivatives:
+    MATRIX: 1.0
+    TS_1D: 0.7
+
+# ============================================================================
+# 数据源 × 主题 推荐
+# ============================================================================
+data_source_theme_affinity:
+  FRED:
+    macro_policy: 1.0
+    fiscal_policy: 0.9
+    inflation: 1.0
+    growth_employment: 0.9
+    fixed_income: 1.0
+    commodities: 0.8
+    risk_regulation: 0.9
+    equity_markets: 0.3
+    fx_trade: 0.0
+    insurance: 0.0
+    digital_assets: 0.0
+  
+  Baostock:
+    equity_markets: 1.0
+    default: 0.0
+  
+  yfinance:
+    equity_markets: 0.9
+    fx_trade: 1.0
+    commodities: 0.9
+    digital_assets: 1.0
+    default: 0.3
+  
+  Synthetic:
+    default: 0.8
+    insurance: 1.0
+    esg_sustainable: 1.0
+    corporate_finance: 1.0
+    accounting_reporting: 1.0
+    ma_ipos: 1.0
+    payments_fintech: 1.0
+
+# ============================================================================
+# 视觉风格 × 主题 亲和度矩阵
+# ============================================================================
+style_theme_affinity:
+  trading:
+    equity_markets: 1.0
+    fx_trade: 1.0
+    commodities: 0.9
+    derivatives: 1.0
+    digital_assets: 1.0
+    default: 0.3
+  
+  quant:
+    derivatives: 1.0
+    risk_regulation: 0.9
+    inflation: 0.8
+    growth_employment: 0.8
+    macro_policy: 0.7
+    fixed_income: 0.8
+    default: 0.6
+  
+  macro:
+    inflation: 1.0
+    growth_employment: 1.0
+    fiscal_policy: 1.0
+    macro_policy: 0.9
+    fx_trade: 0.8
+    commodities: 0.7
+    default: 0.5
+  
+  news:
+    default: 0.8
+    equity_markets: 0.9
+    inflation: 0.9
+    growth_employment: 0.9
+    commodities: 0.8
+  
+  corporate:
+    corporate_finance: 1.0
+    asset_management: 0.9
+    insurance: 0.8
+    banking_credit: 0.8
+    ma_ipos: 0.9
+    accounting_reporting: 0.9
+    default: 0.4
+  
+  fintech:
+    payments_fintech: 1.0
+    digital_assets: 1.0
+    asset_management: 0.8
+    banking_credit: 0.7
+    default: 0.4
+  
+  regulator:
+    macro_policy: 1.0
+    risk_regulation: 1.0
+    banking_credit: 0.9
+    fixed_income: 0.8
+    fiscal_policy: 0.8
+    default: 0.5
+  
+  research:
+    default: 0.8
+    equity_markets: 1.0
+    fixed_income: 0.9
+    commodities: 0.9
+    corporate_finance: 0.9
+
+# ============================================================================
+# 视觉风格 × 图表类型 亲和度
+# ============================================================================
+style_chart_affinity:
+  trading:
+    candlestick: 1.0
+    candlestick_volume: 1.0
+    ohlc: 1.0
+    bollinger_bands: 1.0
+    ichimoku_cloud: 1.0
+    renko: 1.0
+    point_figure: 1.0
+    volume_profile: 1.0
+    market_depth: 1.0
+    line: 0.8
+    default: 0.4
+  
+  quant:
+    scatter: 1.0
+    heatmap: 1.0
+    contour: 1.0
+    density: 1.0
+    heatmap_scatter: 1.0
+    histogram: 0.9
+    box: 0.9
+    errorbar: 0.9
+    line: 0.8
+    default: 0.6
+  
+  macro:
+    line: 1.0
+    area: 0.9
+    bar: 0.9
+    heatmap: 0.8
+    radar: 0.8
+    default: 0.6
+  
+  news:
+    line: 1.0
+    area: 0.9
+    bar: 0.9
+    default: 0.7
+  
+  corporate:
+    waterfall: 1.0
+    bar: 1.0
+    pie: 0.9
+    treemap: 0.9
+    bar_line_overlay: 0.9
+    default: 0.6
+  
+  fintech:
+    line: 0.9
+    area: 0.9
+    pie: 0.8
+    default: 0.6
+  
+  regulator:
+    line: 1.0
+    area: 0.8
+    bar: 0.8
+    heatmap: 0.7
+    default: 0.6
+  
+  research:
+    line: 1.0
+    bar: 0.9
+    scatter: 0.8
+    candlestick: 0.8
+    default: 0.7
+
+# ============================================================================
+# 强制约束（硬性规则）
+# ============================================================================
+hard_constraints:
+  synthetic_allowed_shapes:
+    - CS_1D
+    - CS_ND
+    - MATRIX
+    - FLOW
+    - GRAPH
+  
+  synthetic_forbidden_shapes:
+    - TS_1D
+    - TS_ND
+    - TS_OHLC
+
+  chart_requires_shape:
+    # === OHLC 图表（必须真实OHLC数据）===
+    candlestick: [TS_OHLC]
+    candlestick_volume: [TS_OHLC]
+    ohlc: [TS_OHLC]
+    bollinger_bands: [TS_OHLC]
+    ichimoku_cloud: [TS_OHLC]
+    renko: [TS_OHLC]
+    point_figure: [TS_OHLC]
+    candlestick_indicator: [TS_OHLC]
+    volume_profile: [TS_OHLC]
+    market_depth: [TS_OHLC]
+    # === 时间序列图表（真实时序数据）===
+    line: [TS_1D, TS_ND]
+    area: [TS_1D, TS_ND]
+    bar_line_overlay: [TS_1D]
+    line_band_overlay: [TS_1D]
+    fan_chart: [TS_1D]
+    errorbar: [TS_1D, CS_ND]
+    # === 矩阵/热力图（需要二维数据）===
+    heatmap: [MATRIX, CS_ND]
+    heatmap_scatter: [MATRIX, CS_ND]  # 🔧 新增
+    contour: [MATRIX]
+    # === 横截面图表（需要分组/层级数据）===
+    box: [CS_ND]  # 🔧 修复: 多组数据比较
+    histogram: [CS_1D]  # 🔧 修复: 数值分布数据
+    treemap: [CS_ND]
+    waterfall: [CS_1D]
+    pie: [CS_1D]
+    bubble: [CS_ND]
+    radar: [CS_ND]
+    # === 特殊图表 ===
+    sankey: [FLOW]
+    gantt: [FLOW]
+    node: [GRAPH]
+  
+  chart_forbidden_themes:
+    candlestick: [insurance, accounting_reporting, payments_fintech, ma_ipos]
+    ohlc: [insurance, accounting_reporting, payments_fintech, ma_ipos]
+    bollinger_bands: [insurance, accounting_reporting, payments_fintech]
+    ichimoku_cloud: [insurance, accounting_reporting]
+    renko: [insurance, accounting_reporting]
+    point_figure: [insurance, accounting_reporting]
+    # 🆕 成交量图表禁止的主题（外汇/加密货币数据没有成交量）
+    candlestick_volume: [fx_trade, digital_assets, insurance, accounting_reporting]
+    volume_profile: [fx_trade, digital_assets, insurance, accounting_reporting]
+    market_depth: [fx_trade, digital_assets, insurance, accounting_reporting]
+  
+  style_forbidden_themes:
+    trading: [insurance, accounting_reporting, esg_sustainable]
+    fintech: [risk_regulation, accounting_reporting]
+  
+  style_forbidden_charts:
+    fintech: [candlestick, ohlc, contour, heatmap_scatter]
+    corporate: [candlestick, ohlc, bollinger_bands, ichimoku_cloud]
+
+# ============================================================================
+# 🆕 主题 → 指标映射 (程序化数据选择)
+# 每个主题定义可用的真实数据指标，用于替代 Planner LLM 选择
+# ============================================================================
+theme_indicator_mapping:
+  
+  # =========================================================================
+  # 交易类主题（需要 OHLC 数据）
+  # =========================================================================
+  equity_markets:
+    ohlc_indicators:  # 用于 candlestick/ohlc/bollinger_bands 等
+      - indicator: index.sh000001.ohlcv
+        data_source: baostock
+        description_zh: 上证综合指数
+        description_en: Shanghai Composite Index
+      - indicator: index.sz399001.ohlcv
+        data_source: baostock
+        description_zh: 深证成份指数
+        description_en: Shenzhen Component Index
+      - indicator: index.sz399006.ohlcv
+        data_source: baostock
+        description_zh: 创业板指数
+        description_en: ChiNext Index
+      - indicator: index.sh000016.ohlcv
+        data_source: baostock
+        description_zh: 上证50指数
+        description_en: SSE 50 Index
+      - indicator: index.sh000300.ohlcv
+        data_source: baostock
+        description_zh: 沪深300指数
+        description_en: CSI 300 Index
+      - indicator: index.sh000905.ohlcv
+        data_source: baostock
+        description_zh: 中证500指数
+        description_en: CSI 500 Index
+      - indicator: index.hsi.ohlcv
+        data_source: yfinance
+        description_zh: 恒生指数
+        description_en: Hang Seng Index
+      - indicator: index.global.spx.ohlcv
+        data_source: yfinance
+        description_zh: 标普500指数
+        description_en: S&P 500 Index
+      - indicator: index.global.dji.ohlcv
+        data_source: yfinance
+        description_zh: 道琼斯工业指数
+        description_en: Dow Jones Industrial Average
+      - indicator: index.global.ixic.ohlcv
+        data_source: yfinance
+        description_zh: 纳斯达克综合指数
+        description_en: NASDAQ Composite Index
+      - indicator: index.global.n225.ohlcv
+        data_source: yfinance
+        description_zh: 日经225指数
+        description_en: Nikkei 225 Index
+      - indicator: index.global.ftse.ohlcv
+        data_source: yfinance
+        description_zh: 富时100指数
+        description_en: FTSE 100 Index
+      - indicator: index.global.dax.ohlcv
+        data_source: yfinance
+        description_zh: 德国DAX指数
+        description_en: German DAX Index
+    ts_indicators:  # 用于 line/area 等时序图
+      - indicator: market.volatility.vix
+        data_source: FRED
+        description_zh: VIX波动率指数
+        description_en: CBOE Volatility Index (VIX)
+      - indicator: market.index.sp500
+        data_source: FRED
+        description_zh: 标普500指数
+        description_en: S&P 500 Index
+    stock_indicators:  # 🆕 个股数据（用于 candlestick/ohlc 等）
+      - indicator: stock.aapl.ohlcv
+        data_source: yfinance
+        description_zh: 苹果公司
+        description_en: Apple Inc.
+      - indicator: stock.msft.ohlcv
+        data_source: yfinance
+        description_zh: 微软
+        description_en: Microsoft Corporation
+      - indicator: stock.googl.ohlcv
+        data_source: yfinance
+        description_zh: 谷歌
+        description_en: Alphabet Inc.
+      - indicator: stock.tsla.ohlcv
+        data_source: yfinance
+        description_zh: 特斯拉
+        description_en: Tesla Inc.
+      - indicator: stock.nvda.ohlcv
+        data_source: yfinance
+        description_zh: 英伟达
+        description_en: NVIDIA Corporation
+      - indicator: stock.0700.ohlcv
+        data_source: yfinance
+        description_zh: 腾讯控股
+        description_en: Tencent Holdings
+      - indicator: stock.9988.ohlcv
+        data_source: yfinance
+        description_zh: 阿里巴巴
+        description_en: Alibaba Group
+      - indicator: stock.1810.ohlcv
+        data_source: yfinance
+        description_zh: 小米集团
+        description_en: Xiaomi Corporation
+    synthetic_shapes: [CS_1D, CS_ND]  # 行业市值分布、板块表现对比
+
+  fx_trade:
+    ohlc_indicators:
+      - indicator: fx.eurusd.ohlcv
+        data_source: yfinance
+        description_zh: 欧元/美元汇率
+        description_en: EUR/USD Exchange Rate
+      - indicator: fx.usdjpy.ohlcv
+        data_source: yfinance
+        description_zh: 美元/日元汇率
+        description_en: USD/JPY Exchange Rate
+      - indicator: fx.gbpusd.ohlcv
+        data_source: yfinance
+        description_zh: 英镑/美元汇率
+        description_en: GBP/USD Exchange Rate
+      - indicator: fx.usdcnh.ohlcv
+        data_source: yfinance
+        description_zh: 美元/人民币汇率
+        description_en: USD/CNH Exchange Rate
+      - indicator: fx.audusd.ohlcv
+        data_source: yfinance
+        description_zh: 澳元/美元汇率
+        description_en: AUD/USD Exchange Rate
+      - indicator: fx.usdcad.ohlcv
+        data_source: yfinance
+        description_zh: 美元/加元汇率
+        description_en: USD/CAD Exchange Rate
+      - indicator: fx.usdchf.ohlcv
+        data_source: yfinance
+        description_zh: 美元/瑞士法郎汇率
+        description_en: USD/CHF Exchange Rate
+    ts_indicators:  # 外汇时序数据（使用 OHLC 的 close 价格）
+      - indicator: fx.eurusd.ohlcv
+        data_source: yfinance
+        description_zh: 欧元/美元汇率走势
+        description_en: EUR/USD Exchange Rate Trend
+      - indicator: fx.usdjpy.ohlcv
+        data_source: yfinance
+        description_zh: 美元/日元汇率走势
+        description_en: USD/JPY Exchange Rate Trend
+      - indicator: fx.gbpusd.ohlcv
+        data_source: yfinance
+        description_zh: 英镑/美元汇率走势
+        description_en: GBP/USD Exchange Rate Trend
+      - indicator: fx.usdcnh.ohlcv
+        data_source: yfinance
+        description_zh: 美元/人民币汇率走势
+        description_en: USD/CNH Exchange Rate Trend
+    # 🔧 修复: 添加合成数据支持（用于 box/histogram/pie 等横截面图表）
+    synthetic_shapes: [CS_1D, CS_ND]
+    synthetic_examples:
+      - 主要货币对波动率对比
+      - 汇率变动幅度分布
+
+  commodities:
+    ohlc_indicators:
+      - indicator: commodity.gold.ohlcv
+        data_source: yfinance
+        description_zh: 黄金期货
+        description_en: Gold Futures (GC=F)
+      - indicator: commodity.silver.ohlcv
+        data_source: yfinance
+        description_zh: 白银期货
+        description_en: Silver Futures (SI=F)
+      - indicator: commodity.oil.wti.ohlcv
+        data_source: yfinance
+        description_zh: WTI原油期货
+        description_en: WTI Crude Oil Futures (CL=F)
+      - indicator: commodity.oil.brent.ohlcv
+        data_source: yfinance
+        description_zh: 布伦特原油期货
+        description_en: Brent Crude Oil Futures (BZ=F)
+      - indicator: commodity.copper.ohlcv
+        data_source: yfinance
+        description_zh: 铜期货
+        description_en: Copper Futures (HG=F)
+      - indicator: commodity.gas.natural.ohlcv
+        data_source: yfinance
+        description_zh: 天然气期货
+        description_en: Natural Gas Futures (NG=F)
+      - indicator: commodity.corn.ohlcv
+        data_source: yfinance
+        description_zh: 玉米期货
+        description_en: Corn Futures (ZC=F)
+      - indicator: commodity.wheat.ohlcv
+        data_source: yfinance
+        description_zh: 小麦期货
+        description_en: Wheat Futures (ZW=F)
+      - indicator: commodity.soybean.ohlcv
+        data_source: yfinance
+        description_zh: 大豆期货
+        description_en: Soybean Futures (ZS=F)
+      - indicator: commodity.coffee.ohlcv
+        data_source: yfinance
+        description_zh: 咖啡期货
+        description_en: Coffee Futures (KC=F)
+    ts_indicators:
+      - indicator: commodity.oil.wti
+        data_source: FRED
+        description_zh: WTI原油现货价格
+        description_en: WTI Crude Oil Spot Price
+      - indicator: commodity.oil.brent
+        data_source: FRED
+        description_zh: 布伦特原油现货价格
+        description_en: Brent Crude Oil Spot Price
+      - indicator: commodity.gas.natural
+        data_source: FRED
+        description_zh: 天然气现货价格
+        description_en: Natural Gas Spot Price
+      - indicator: commodity.gas.price
+        data_source: FRED
+        description_zh: 汽油零售价格
+        description_en: Retail Gasoline Price
+    synthetic_shapes: [CS_1D, CS_ND]  # 商品价格对比、能源消费结构
+
+  digital_assets:
+    ohlc_indicators:
+      - indicator: crypto.btc.ohlcv
+        data_source: yfinance
+        description_zh: 比特币
+        description_en: Bitcoin (BTC-USD)
+      - indicator: crypto.eth.ohlcv
+        data_source: yfinance
+        description_zh: 以太坊
+        description_en: Ethereum (ETH-USD)
+    # 🔧 修复: 添加合成数据支持
+    synthetic_shapes: [CS_1D, CS_ND]
+    synthetic_examples:
+      - 主要加密货币市值分布
+      - 交易所交易量对比
+
+  # =========================================================================
+  # 宏观类主题（时序数据）
+  # =========================================================================
+  macro_policy:
+    ts_indicators:
+      - indicator: macro.interest.rate.fed.funds
+        data_source: FRED
+        description_zh: 联邦基金有效利率
+        description_en: Federal Funds Effective Rate
+      - indicator: macro.money.m2
+        data_source: FRED
+        description_zh: M2货币供应量
+        description_en: M2 Money Stock
+      - indicator: macro.money.m1
+        data_source: FRED
+        description_zh: M1货币供应量
+        description_en: M1 Money Stock
+      - indicator: macro.money.velocity
+        data_source: FRED
+        description_zh: M2货币流通速度
+        description_en: Velocity of M2 Money Stock
+      - indicator: macro.gdp.real
+        data_source: FRED
+        description_zh: 美国实际GDP
+        description_en: U.S. Real GDP
+      - indicator: macro.gdp.nominal
+        data_source: FRED
+        description_zh: 美国名义GDP
+        description_en: U.S. Nominal GDP
+      - indicator: macro.leading.indicator
+        data_source: FRED
+        description_zh: OECD领先指标
+        description_en: OECD Leading Indicator
+    synthetic_shapes: [CS_1D, CS_ND]  # 宏观指标对比、各国政策利率对比
+
+  inflation:
+    ts_indicators:
+      - indicator: macro.inflation.cpi.headline
+        data_source: FRED
+        description_zh: 美国CPI通胀率
+        description_en: U.S. Consumer Price Index
+      - indicator: macro.inflation.cpi.core
+        data_source: FRED
+        description_zh: 核心CPI（剔除食品能源）
+        description_en: Core CPI (excluding Food & Energy)
+      - indicator: macro.inflation.pce.headline
+        data_source: FRED
+        description_zh: PCE物价指数
+        description_en: PCE Price Index
+      - indicator: macro.inflation.pce.core
+        data_source: FRED
+        description_zh: 核心PCE物价指数
+        description_en: Core PCE Price Index
+      - indicator: macro.inflation.ppi
+        data_source: FRED
+        description_zh: 生产者价格指数
+        description_en: Producer Price Index
+    synthetic_shapes: [CS_1D, CS_ND]  # 商品价格分布、通胀贡献度分解
+
+  growth_employment:
+    ts_indicators:
+      - indicator: macro.unemployment.rate
+        data_source: FRED
+        description_zh: 美国失业率
+        description_en: U.S. Unemployment Rate
+      - indicator: macro.employment.nonfarm
+        data_source: FRED
+        description_zh: 非农就业人数
+        description_en: Nonfarm Payrolls
+      - indicator: macro.employment.claims.initial
+        data_source: FRED
+        description_zh: 初请失业金人数
+        description_en: Initial Jobless Claims
+      - indicator: macro.employment.claims.continued
+        data_source: FRED
+        description_zh: 续请失业金人数
+        description_en: Continued Jobless Claims
+      - indicator: macro.employment.participation
+        data_source: FRED
+        description_zh: 劳动参与率
+        description_en: Labor Force Participation Rate
+      - indicator: macro.gdp.real
+        data_source: FRED
+        description_zh: 实际GDP
+        description_en: Real GDP
+      - indicator: macro.industrial.production
+        data_source: FRED
+        description_zh: 工业生产指数
+        description_en: Industrial Production Index
+    synthetic_shapes: [CS_1D, CS_ND]  # 行业就业分布、地区失业率对比
+
+  fiscal_policy:
+    ts_indicators:
+      - indicator: macro.gdp.nominal
+        data_source: FRED
+        description_zh: 名义GDP
+        description_en: Nominal GDP
+      - indicator: macro.gdp.real
+        data_source: FRED
+        description_zh: 实际GDP
+        description_en: Real GDP
+      - indicator: macro.interest.rate.10y.treasury
+        data_source: FRED
+        description_zh: 10年期国债收益率
+        description_en: 10-Year Treasury Yield
+    synthetic_shapes: [CS_1D, CS_ND]  # 财政收支结构、税收来源分布
+
+  fixed_income:
+    ts_indicators:
+      - indicator: bond.treasury.2y
+        data_source: FRED
+        description_zh: 2年期国债收益率
+        description_en: 2-Year Treasury Yield
+      - indicator: bond.treasury.5y
+        data_source: FRED
+        description_zh: 5年期国债收益率
+        description_en: 5-Year Treasury Yield
+      - indicator: macro.interest.rate.10y.treasury
+        data_source: FRED
+        description_zh: 10年期国债收益率
+        description_en: 10-Year Treasury Yield
+      - indicator: bond.treasury.20y
+        data_source: FRED
+        description_zh: 20年期国债收益率
+        description_en: 20-Year Treasury Yield
+      - indicator: bond.treasury.30y
+        data_source: FRED
+        description_zh: 30年期国债收益率
+        description_en: 30-Year Treasury Yield
+      - indicator: bond.treasury.yield.spread.10y2y
+        data_source: FRED
+        description_zh: 10年-2年国债利差
+        description_en: 10Y-2Y Treasury Spread
+      - indicator: bond.treasury.yield.spread.10y3m
+        data_source: FRED
+        description_zh: 10年-3月国债利差
+        description_en: 10Y-3M Treasury Spread
+      - indicator: bond.credit.spread.aaa
+        data_source: FRED
+        description_zh: AAA级企业债收益率
+        description_en: AAA Corporate Bond Yield
+      - indicator: bond.credit.spread.baa
+        data_source: FRED
+        description_zh: BAA级企业债收益率
+        description_en: BAA Corporate Bond Yield
+      - indicator: bond.credit.spread.high.yield
+        data_source: FRED
+        description_zh: 高收益债利差
+        description_en: High Yield Bond Spread
+    # 🔧 修复: 添加 MATRIX 支持（用于 contour 图表的收益率曲线曲面）
+    synthetic_shapes: [CS_1D, CS_ND, MATRIX]
+    synthetic_examples:
+      - 债券持仓结构
+      - 信用评级分布
+      - 收益率曲线曲面
+
+  derivatives:
+    ts_indicators:
+      - indicator: market.volatility.vix
+        data_source: FRED
+        description_zh: VIX波动率指数
+        description_en: CBOE VIX Index
+      - indicator: market.volatility.vix.3month
+        data_source: FRED
+        description_zh: 3个月VIX指数
+        description_en: 3-Month VIX Index
+      - indicator: market.volatility.nasdaq100
+        data_source: FRED
+        description_zh: 纳斯达克100波动率
+        description_en: NASDAQ 100 Volatility Index
+      - indicator: market.volatility.djia
+        data_source: FRED
+        description_zh: 道琼斯波动率指数
+        description_en: DJIA Volatility Index
+    # 🔧 修复: 添加 CS_1D 支持（用于 histogram/waterfall/pie）
+    synthetic_shapes: [CS_1D, MATRIX, CS_ND]
+    synthetic_examples:
+      - 期权Greeks分布
+      - 期限结构分解
+
+  risk_regulation:
+    ts_indicators:
+      - indicator: risk.financial.conditions
+        data_source: FRED
+        description_zh: 芝加哥联储金融条件指数
+        description_en: Chicago Fed National Financial Conditions Index
+      - indicator: risk.financial.conditions.adj
+        data_source: FRED
+        description_zh: 调整后金融条件指数
+        description_en: Adjusted NFCI
+      - indicator: risk.financial.stress.kc
+        data_source: FRED
+        description_zh: 堪萨斯城联储金融压力指数
+        description_en: Kansas City Financial Stress Index
+      - indicator: bond.credit.spread.high.yield
+        data_source: FRED
+        description_zh: 高收益债利差
+        description_en: High Yield Spread
+    # 🔧 修复: 添加 CS_1D 支持（用于 histogram/waterfall/pie）
+    synthetic_shapes: [CS_1D, CS_ND, MATRIX]
+    synthetic_examples:
+      - 各银行风险等级分布
+      - 监管指标违规占比
+
+  banking_credit:
+    ts_indicators:
+      - indicator: macro.interest.rate.prime
+        data_source: FRED
+        description_zh: 优惠贷款利率
+        description_en: Prime Loan Rate
+      - indicator: macro.interest.rate.fed.funds
+        data_source: FRED
+        description_zh: 联邦基金利率
+        description_en: Federal Funds Rate
+      - indicator: risk.corporate.default
+        data_source: FRED
+        description_zh: 企业违约率
+        description_en: Corporate Default Rate
+    synthetic_shapes: [CS_1D, CS_ND]
+
+  real_estate:
+    ts_indicators:
+      - indicator: realestate.house.price.index
+        data_source: FRED
+        description_zh: Case-Shiller房价指数
+        description_en: Case-Shiller Home Price Index
+      - indicator: macro.housing.starts
+        data_source: FRED
+        description_zh: 新屋开工数
+        description_en: Housing Starts
+      - indicator: macro.housing.permits
+        data_source: FRED
+        description_zh: 建筑许可数
+        description_en: Building Permits
+      - indicator: macro.housing.sales.new
+        data_source: FRED
+        description_zh: 新屋销售
+        description_en: New Home Sales
+      - indicator: macro.housing.sales.existing
+        data_source: FRED
+        description_zh: 成屋销售
+        description_en: Existing Home Sales
+    # 🔧 修复: 添加合成数据支持
+    synthetic_shapes: [CS_1D, CS_ND]
+    synthetic_examples:
+      - 各城市房价涨幅对比
+      - 不同房型销售占比
+
+  # =========================================================================
+  # 企业/金融结构类主题（横截面数据，用合成）
+  # =========================================================================
+  corporate_finance:
+    synthetic_shapes: [CS_1D, CS_ND, FLOW]
+    synthetic_examples:
+      - 企业收入/利润构成
+      - 成本费用分解
+      - 资产负债结构
+      - 现金流来源与用途
+
+  asset_management:
+    synthetic_shapes: [CS_1D, CS_ND]
+    synthetic_examples:
+      - 资产配置比例
+      - 基金持仓分布
+      - 投资组合收益归因
+      - 行业/地区配置
+
+  insurance:
+    synthetic_shapes: [CS_1D, CS_ND]
+    synthetic_examples:
+      - 保费收入结构
+      - 赔付类型分布
+      - 产品线占比
+      - 渠道销售分布
+
+  ma_ipos:
+    synthetic_shapes: [CS_1D, CS_ND, FLOW]
+    synthetic_examples:
+      - 并购交易规模分布
+      - IPO发行规模
+      - 行业并购活跃度
+      - 交易类型占比
+
+  payments_fintech:
+    synthetic_shapes: [CS_1D, CS_ND]
+    synthetic_examples:
+      - 支付方式占比
+      - 金融科技融资分布
+      - 用户增长趋势
+      - 交易额分布
+
+  accounting_reporting:
+    synthetic_shapes: [CS_1D, CS_ND]
+    synthetic_examples:
+      - 财务指标对比
+      - 会计准则合规率
+      - 审计意见类型分布
+      - 财报披露时间分布
+
+  esg_sustainable:
+    synthetic_shapes: [CS_1D, CS_ND, MATRIX]
+    synthetic_examples:
+      - ESG评分分布
+      - 碳排放行业对比
+      - 可持续发展目标覆盖
+      - 绿色投资占比
+
+# ============================================================================
+# 图表类型 → 需要的指标类型映射
+# 用于根据 chart_type 确定应该从 ohlc_indicators 还是 ts_indicators 选择
+# ============================================================================
+chart_indicator_type_mapping:
+  # 需要 OHLC 数据的图表
+  ohlc_required:
+    - candlestick
+    - candlestick_volume
+    - ohlc
+    - bollinger_bands
+    - ichimoku_cloud
+    - renko
+    - point_figure
+    - candlestick_indicator
+    - volume_profile
+    - market_depth
+  
+  # 使用时序数据的图表
+  ts_preferred:
+    - line
+    - area
+    - bar_line_overlay
+    - line_band_overlay
+    - fan_chart
+    - errorbar
+  
+  # 可以使用合成数据的图表
+  synthetic_allowed:
+    - bar
+    - histogram
+    - scatter
+    - heatmap
+    - waterfall
+    - box
+    - pie
+    - treemap
+    - contour
+    - radar
+    - density
+    - heatmap_scatter
+

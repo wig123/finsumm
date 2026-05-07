@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Vertical Bar Chart (Negative values downward).
+- Title: Not displayed.
+- Y-axis: % change, range approximately from 0% to -45%.
+- X-axis: 9 companies; the first two are labeled "Container Ports," the rest are labeled "Shipping," specifically ICTSI, China Merchant Port, Wan Hai, Evergreen, Yang Ming, HMM, Mitsui, Nippon Yusen, COSCO.
+- Legend: Not displayed.
+
+[Data Relationships]
+- Values: ICTSI -8%; China Merchant Port -28%; Wan Hai -15%; Evergreen -22%; Yang Ming -23%; HMM -26%; Mitsui -36%; Nippon Yusen -37%; COSCO -40%.
+- Extremes: COSCO -40% and ICTSI -8%, a difference of 32 percentage points.
+- Intra-group difference: Container Ports internal difference is 20 percentage points (-8% vs -28%); Shipping internal range is 25 percentage points (COSCO -40% vs Wan Hai -15%).
+- Adjacent difference: Wan Hai/Evergreen 7; Evergreen/Yang Ming 1; Yang Ming/HMM 3; HMM/Mitsui 10; Mitsui/Nippon Yusen 1; Nippon Yusen/COSCO 3 (percentage points).
+- Other comparison: Mitsui -36% is 8 percentage points lower than China Merchant Port -28%.
+
+[Pattern Characteristics]
+- All companies are in the negative range, but the magnitude shows a stepped distribution from slight to significant, and the overall dispersion is relatively high.
+- Within "Container Ports," there is one high and one low, showing a clear disparity; within "Shipping," the depth generally increases from Wan Hai to COSCO, with minor fluctuations between some adjacent companies in the middle section.
+- COSCO, Nippon Yusen, and Mitsui form a distinct group with the deepest declines, showing clear stratification compared to companies with shallower declines like ICTSI.
+
+[Core Insights]
+Core Conclusion: Performance divergence between port and shipping companies, with some shipping companies facing greater pressure.
+
+Business Implications:
+- The Port sector generally demonstrates stronger resilience than Shipping.
+- Performance gaps between companies within the Shipping sector are widening.
+- Companies with the deepest declines may drag down overall sector valuation and confidence.
+
+Risk Focus:
+- A single company's decline approaching or exceeding -40% may trigger refinancing and rating pressure.
+- If the overall decline in the Shipping sector consistently falls below -25%, it may impact capital expenditure and capacity planning.

@@ -1,0 +1,31 @@
+【图表构成】
+- 类型：堆叠柱状图
+- 标题：未显示
+- 横轴：5个类别——SEPARATION、FEED & BIOFUEL、PUMPS、CLEAN AIR TECHNOLOGIES、GREEN HYDROGEN
+- 纵轴：百分比刻度0%–100%，每10%一格
+- 图例：未见；柱内为多色堆叠
+- 各柱底部数值标签：8%、14%、4%、5%、5%
+
+【数据关系】
+- 各类别数值：FEED & BIOFUEL 14%；SEPARATION 8%；PUMPS 4%；CLEAN AIR TECHNOLOGIES 5%；GREEN HYDROGEN 5%
+- 最大14%，最小4%，差10个百分点
+- 与SEPARATION比较：FEED & BIOFUEL高6个百分点；PUMPS低4个百分点；CLEAN AIR TECHNOLOGIES低3个百分点；GREEN HYDROGEN低3个百分点
+- 5%并列两类：CLEAN AIR TECHNOLOGIES、GREEN HYDROGEN
+- 排序：14% > 8% > 5% = 5% > 4%
+
+【模式特征】
+- 五个类别的柱高存在明显差异，其中FEED & BIOFUEL最高，PUMPS最低，其余三类处于中间水平。  
+- 各柱内部均由多段颜色构成，上端部分的色块在多数类别中高度相近，下端色块高度差异更明显。  
+- CLEAN AIR TECHNOLOGIES与GREEN HYDROGEN在总高度接近的同时，内部色块的排列结构也较为相似。
+
+【核心洞察】
+核心结论：当前配置呈适度集中于FEED & BIOFUEL的格局。
+
+业务含义：
+- 整体资源更偏向FEED & BIOFUEL板块。
+- SEPARATION处于次级重要位置，仍具调整空间。
+- PUMPS与两类5%板块的权重相对边缘化。
+
+风险关注：
+- FEED & BIOFUEL占比若升至≥20%，可能造成结构过度集中。  
+- PUMPS或任一板块占比若跌至≤2%，可能削弱其业务存在感与协同价值。

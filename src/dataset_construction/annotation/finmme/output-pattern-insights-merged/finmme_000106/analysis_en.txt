@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Bar Chart
+- Title: None
+- Axes: X-axis represents date (from Dec-21 to Dec-23), Y-axis represents EBITDA margin (%)
+- Legend: EBITDA margin (%)
+
+[Data Relationships]
+- **Key Figures and Changes:**
+  - EBITDA margin in Mar-22 was the highest, at 33.0%
+  - The lowest value occurred in Jun-22, at 27.2%
+
+- **Extremum Comparison:**
+  - The peak was in Dec-23, at 33.6%
+  - Following the trough in Jun-22, the overall trend is upward.
+
+- **Significant Trends:**
+  - EBITDA margin gradually increased after Jun-22, reaching its peak in Dec-23.
+  - A significant recovery began from 28.0% in Dec-22, reaching 32.8% in Sep-23, and finally peaking at 33.6% in Dec-23.
+
+[Pattern Characteristics]
+The series showed a peak in Mar-22 and a clear trough in Jun-22, after which the bar height gradually increased, with Dec-23 being the highest point for the entire period. The structure is continuous, primarily driven by single time-series changes, with moderate dispersion and no sudden jumps.
+
+[Core Insights]
+Core Conclusion: The period-end profit margin reached the best level of the sample period.
+
+Business Implications:
+- Profit margin is at a relatively optimal level.
+- Allocation efficiency has improved, leading to better resource utilization.
+- Cost management effectiveness has strengthened.
+
+Risk Focus:
+- ≤29.7%: EBITDA contribution is constrained, and the budget is under pressure.
+- ≤27.2%: Profit targets are difficult to achieve; expenses must be reduced.

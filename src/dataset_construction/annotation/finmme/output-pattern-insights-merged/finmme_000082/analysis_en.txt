@@ -1,0 +1,43 @@
+[Chart Components]
+- Type: Combination Bar and Line Chart
+- Title: None
+- Axes:
+  - Left Y-axis: Total Debt (INR bn)
+  - Right Y-axis: Debt/Equity (x)
+  - X-axis: Quarterly Period (from Q1FY21 to Q3FY24)
+- Legend:
+  - Red Bar: Total Debt
+  - Black Line: Debt/Equity
+
+[Data Relationships]
+- **Key Metrics and Changes:**
+  - The peak value of Total Debt occurred in Q2FY23 and Q1FY24, approximately 23 INR bn.
+  - The trough value of Total Debt occurred in Q4FY21, approximately 13 INR bn.
+  - The peak value of Debt/Equity was in Q3FY22, approximately 0.8.
+  - The trough value of Debt/Equity was in Q4FY21 and Q1FY22, close to 0.3.
+
+- **Extremum Comparison:**
+  - The change in the extremum of Total Debt is significant, increasing from a low of approximately 13 INR bn to a high of approximately 23 INR bn.
+  - The difference between the minimum and maximum values of Debt/Equity is also notable, ranging from approximately 0.3 to 0.8.
+
+- **Key Trends:**
+  - Total Debt fluctuated downward between Q1FY21 and Q4FY21, then rose continuously, reaching a high point in Q2FY23.
+  - Debt/Equity generally showed a volatile trend, declining after peaking in Q3FY22.
+  - Overall, Total Debt and Debt/Equity exhibited similar fluctuation trends across several quarters.
+
+[Pattern Characteristics]
+- The bars first decline then rise, forming a near-high level zone in FY22-23, followed by a pullback; the line rises from a low level to a single peak, then shows a step-wise decline.
+- The two series are generally correlated (co-directional), but the timing of the peaks is staggered, with the line peak preceding the bar peak.
+- Q4FY21 constitutes a common trough, and in Q3FY24, both are in a relatively lower phase.
+
+[Core Insights]
+Core Conclusion: Leverage exposure was relatively high in FY22-23, and capital headroom increased in FY24.
+
+Business Implications:
+- Debt accounts for a relatively high proportion of the capital structure
+- Greater sensitivity to risk exposure and refinancing arrangements
+- Increased available capacity in the FY24 phase facilitates structural optimization
+
+Risk Concerns:
+- Debt/Equity ≥ 0.8, potentially compressing new financing capacity
+- Total Debt ≥ 23 INR bn, potentially increasing pressure on debt servicing arrangements

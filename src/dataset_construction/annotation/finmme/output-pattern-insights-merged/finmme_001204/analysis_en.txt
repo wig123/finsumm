@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Heatmap
+- Title: Actual Price to Book vs machine learning model predicted (Higher = more expensive)
+- X-axis: Sector Categories (Health Care, Telecoms, Materials, Utilities, Financials, Energy, Industrials, Cons. Disc, Technology, Real Estate, Consumer Staples)
+- Y-axis: Countries/Regions (India, Kuwait, Saudi Arabia, Qatar, Czech Republic, Malaysia, Taiwan, Mexico, United Arab Emirates, Thailand, Indonesia, Philippines, South Africa, Greece, Romania, Chile, Brazil, Colombia, Egypt, Mainland China, Hungary, Türkiye)
+- Unit of Value: Percentage; Directly labeled within cells; Color gradient is Green/Red
+- Others: Left arrow indicates "More expensive / Less expensive"; No independent legend
+
+[Data Relationships]
+- Extreme Range: -82% to 196%
+- Maximum: Thailand Technology 196%
+- High Values: Saudi Arabia Utilities 142%, Saudi Arabia Health Care 134%, India Real Estate 128%
+- Minimum: Indonesia Technology -82%, Egypt Telecoms -76%, Türkiye Technology -70%
+- Mainland China Examples: Industrials -65%, Financials -45%, Energy -46%, Technology -26%
+- India Examples: Industrials 51%, Technology 45%, Consumer Staples 69%
+- Saudi Arabia Examples: Technology 71%, Consumer Staples 52%
+
+[Pattern Characteristics]
+Overall, the combination of countries/regions and sectors exhibits a clear mixed distribution of positive and negative values, with localized color blocks concentrated rather than uniformly scattered. Some countries, such as Thailand, Saudi Arabia, and India, show concentrated high values across several sectors, while others, such as Mainland China, Hungary, and Türkiye, show clusters of low values in most sectors. Sectors like Technology, Industrials, and Financials show significant differences across countries, with individual cells such as Thailand Technology forming extreme high values, and Indonesia Technology and Egypt Telecoms forming extreme low values.
+
+[Core Insights]
+Core Conclusion: Valuation deviation is highly differentiated at the country and sector level.
+
+Business Implications:
+- Certain sectors in specific countries exhibit significant valuation premiums, requiring separate evaluation.
+- Country-sector combinations with concentrated undervaluation imply potential for allocation and rotation.
+- Directions such as Technology and Financials are highly sensitive to regional selection.
+
+Risk Focus:
+- Combinations with deviations exceeding +100%, such as Thailand Technology, face significant potential for price correction if expectations are revised or sentiment reverses.
+- Combinations below -50%, such as Indonesia Technology and Mainland China Industrials, may fall into a long-term value trap if fundamentals continue to weaken.

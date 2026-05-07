@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Line chart
+- Title: Not displayed
+- x-axis: Time, tick labels Jan 16, Jan 17, Jan 18, Jan 19
+- y-axis: Core CPI (%), range 0.0%–2.5%, tick interval approximately 0.5%
+- Legend: Not displayed
+
+[Data Relationships]
+- Initial Period (Jan 16): ≈2.1%
+- Final Period (End of 2019): ≈2.3%
+- Peak Value (Full Period): ≈2.4% (near the end of 2019)
+- Trough Value (Full Period): ≈1.6% (mid-2017)
+- Difference between High and Low: ≈0.8 percentage points
+- Early 2017 ≈2.2% and Mid-2017 ≈1.6%, difference ≈0.6 pct
+- Early 2018 ≈1.8% and Mid-2018 ≈2.2%, difference ≈0.4 pct
+- Early 2019 ≈2.1%, Mid-2019 ≈2.0%, Final Period ≈2.3%
+
+[Pattern Characteristics]
+The curve generally fluctuates slightly around 2%, without significant dispersion. A clear low point appeared in mid-2017, preceded by a period of relatively concentrated high levels and followed by a phase structure that gradually moved upward. The overall trend is continuous and smooth, with no sudden spikes or jumps.
+
+[Core Insights]
+Core Conclusion: Core inflation levels remain relatively stable within a narrow range.
+
+Business Implications:
+- The pace of price change is moderate, with no extreme volatility observed.
+- Provides a clear reference for medium-term decisions such as interest rates and pricing.
+- Reflects that overall inflationary pressure is within a relatively controllable range.
+
+Risk Focus:
+- If it breaks above 2.5%, it may push up financing costs and price expectations.
+- If it falls below 1.5%, it may suppress yields and related return levels.

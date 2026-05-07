@@ -1,0 +1,29 @@
+【图表构成】
+- 图表类型：折线图；未见明确标题
+- X轴：年份，2016—2025F（含2023F、2024F、2025F预测）
+- Y轴：百分比，范围30%—100%
+- 图例/配色：灰色=Cybersecurity GPM%；黑色=Cloud & IT Infra GPM%；橙色=Basic network & IoT GPM%
+
+【数据关系】
+- Cybersecurity：2016为88%，2017为89%（最高），2024F/2025F为79%（最低）；最高与最低差10个百分点
+- Cloud & IT Infra：2016为56%（最高），2021—2025F为44%（最低）；差12个百分点
+- Basic network & IoT：2019为48%（最低），2020为62%（最高），2025F为53%；差14个百分点
+- 2025F三项分别为79%/44%/53%；Cybersecurity较Cloud & IT Infra高35个百分点，较Basic network & IoT高26个百分点
+- 2019为83%/52%/48%；2020为82%/49%/62%
+
+【模式特征】
+- 三条曲线在整个区间内保持明显分层，Cybersecurity始终处于最高区间，Cloud & IT Infra处于最低区间，Basic network & IoT居中且与两者存在稳定间距。  
+- Cybersecurity从早期的高位平台逐步向下调整并在后期趋于平缓；Cloud & IT Infra则自起点后持续缓慢下行并在2021年后基本保持稳定。  
+- Basic network & IoT在前半段先回落后快速抬升形成一处明显波峰，之后围绕中位水平小幅波动并在预测期保持近乎水平的走势。
+
+【核心洞察】
+核心结论：三条业务毛利率结构分层明显，高毛利业务领先但整体承压。
+
+业务含义：
+- Cybersecurity盈利能力仍是整体利润的主要来源。
+- Cloud & IT Infra毛利水平偏低，拖累整体收益质量。
+- Basic network & IoT盈利表现更依赖阶段性改善。
+
+风险关注：
+- 若Cybersecurity跌破75%，整体利润率将显著被拉低。
+- 若Cloud & IT Infra长期低于45%，可能压缩可持续投入空间。

@@ -1,0 +1,1221 @@
+[
+  {
+    "item_index": 51,
+    "image": "images/prog_2175_errorbar_en-US_inflation.png",
+    "has_source_facts": true,
+    "candidates": [
+      {
+        "score": 92,
+        "errors": [
+          "The description of the trend as a 'check-mark' or 'V' shape is inaccurate; the chart shows a 'W' or 'M' shaped consolidation followed by a rise."
+        ],
+        "reasoning": "The summary is highly accurate regarding numerical values and dates, with only a minor subjective mischaracterization of the visual pattern shape.",
+        "cand_index": 0
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The description of September as 'flat compared to August' is slightly imprecise as the chart and data show a minor increase."
+        ],
+        "reasoning": "The summary is exceptionally accurate, with almost all numerical values and trends perfectly matching both the source data and the visual chart.",
+        "cand_index": 1
+      },
+      {
+        "score": 90,
+        "errors": [
+          "The description of a 'sharp V-shaped trough' in March-April is inaccurate; the data shows a slight decline and stabilization, not a sharp V-shape.",
+          "The claim that August and September show 'very low volatility' is slightly misleading given the large, overlapping confidence intervals."
+        ],
+        "reasoning": "The summary accurately reflects the numerical data points and general trends, but it over-dramatizes minor fluctuations in the pattern features section.",
+        "cand_index": 2
+      },
+      {
+        "score": 82,
+        "errors": [
+          "The claim that January through May shows a 4.9 point drift is incorrect; the actual increase is only about 1.3 points (257.36 to 258.68).",
+          "The 'significant step-change' in June is mischaracterized; the value in June is 260.49, and the jump to 262.36 occurs in July.",
+          "The error bars are not uniform; they vary significantly in size, with June and July having much larger intervals than January."
+        ],
+        "reasoning": "The summary correctly identifies the overall trend and key values but contains several significant errors regarding the magnitude of the early-year drift and the specific timing of the mid-year price jump.",
+        "cand_index": 3
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The error bars span approximately 2 index points above and below the mean, not 5-6 as stated.",
+          "The description of May as the 'first significant monthly increase since January' is inaccurate as February saw a larger increase."
+        ],
+        "reasoning": "The summary accurately captures the numerical values and overall trend of the PPI data, but it significantly overestimates the scale of the error bars and makes a slight logical error regarding the May increase.",
+        "cand_index": 4
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The description of the ascent from January to July as 'continuous and linear' is inaccurate, as there is a notable dip in March and April.",
+          "The claim that error bars fluctuate 'consistently between 255 and 264' is slightly imprecise, as the lower bounds for several months (Mar-May) are above 256."
+        ],
+        "reasoning": "The summary accurately captures the key numerical values and overall trend from the source data, but it oversimplifies the trajectory as linear when there is visible volatility in the first half of the year.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 61,
+    "image": "images/mc_01309_1534297065_8_crop_0.jpg",
+    "has_source_facts": false,
+    "candidates": [
+      {
+        "score": 98,
+        "errors": [
+          "Jun-15 ratio is labeled as 1.40 on the chart, not 1.10."
+        ],
+        "reasoning": "The summary is exceptionally accurate across almost all data points and trends, with only one minor discrepancy regarding the visual estimation of the Jun-15 ratio peak.",
+        "cand_index": 0
+      },
+      {
+        "score": 65,
+        "errors": [
+          "Incorrect debt-to-equity ratio values (1.00 for Jun-13/14 is wrong; 1.07 is for Dec-15, not Jun-15 peak).",
+          "Incorrect peak identification (Jun-15 ratio is ~1.20, not 1.07).",
+          "Incorrect trend description (ratio did not remain 'fixed' at 1.00 during intermediate period).",
+          "Mathematical error (32,972 is ~18x Jun-11, not 29x)."
+        ],
+        "reasoning": "The summary contains several significant factual errors regarding the debt-to-equity ratio values and their corresponding time points, as well as some inaccurate growth calculations.",
+        "cand_index": 1
+      },
+      {
+        "score": 75,
+        "errors": [
+          "Net Debt-to-Equity Ratio values for Jun-11 to Jun-14 are significantly overstated in the summary compared to the right-hand axis.",
+          "The summary incorrectly states the ratio was highest at Jun-15 (labeled 1.07), but the visual peak is much higher (approx 1.40).",
+          "The summary claims the ratio was 1.01 at Jun-13 and 1.15 at Jun-14, while the chart shows them well below 0.50.",
+          "The summary incorrectly describes the Net Debt increase between 2013 and 2014 as the most prominent, whereas the 2014 to 2015 jump was much larger."
+        ],
+        "reasoning": "While the Net Debt values and general trends are mostly accurate, the summary contains significant factual errors regarding the specific values and peak of the Net Debt-to-Equity Ratio relative to the provided axis.",
+        "cand_index": 2
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The summary incorrectly states the Net Debt-to-Equity Ratio was 1.07 at both Jun-15 and Dec-15; the chart shows 1.07 only for Dec-15, while Jun-15 is visibly higher (approx 1.20).",
+          "The claim that the ratio rose 'continuously' from Jun-11 to Jun-15 is slightly inaccurate as it appears flat between Jun-11 and Jun-12."
+        ],
+        "reasoning": "The summary is mostly accurate regarding the bar chart data and general trends, but it misidentifies the specific value of the Net Debt-to-Equity Ratio peak in Jun-15.",
+        "cand_index": 3
+      },
+      {
+        "score": 82,
+        "errors": [
+          "Net Debt-to-Equity Ratio in Jun-13 is ~0.25, not 0.5",
+          "Net Debt-to-Equity Ratio in Jun-14 is ~0.6, not 1.0",
+          "Net Debt-to-Equity Ratio peaked in Jun-15 at ~1.4, not 1.07"
+        ],
+        "reasoning": "The summary correctly identifies the chart components and Net Debt values, but significantly misinterprets the Net Debt-to-Equity Ratio values by misreading the right-hand axis.",
+        "cand_index": 4
+      },
+      {
+        "score": 75,
+        "errors": [
+          "Right Y-axis scale starts at 0, not 0.50",
+          "Ratio values for Jun-11 to Jun-14 are significantly lower than 0.97-1.06",
+          "Highest ratio is approx 1.20, not 1.23"
+        ],
+        "reasoning": "The summary correctly identifies the Net Debt values and general trends, but it significantly misinterprets the Net Debt-to-Equity Ratio values for the first four periods by misreading the right-hand axis scale.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 65,
+    "image": "images/finmme_000331.png",
+    "has_source_facts": false,
+    "candidates": [
+      {
+        "score": 98,
+        "errors": [
+          "The trough value is slightly lower than 2440, appearing closer to 2435."
+        ],
+        "reasoning": "The summary accurately identifies all chart components, data trends, and key values with only a very minor discrepancy in the trough value estimation.",
+        "cand_index": 0
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The highest value is slightly above 2650 (closer to 2670) at label ①.",
+          "The lowest value is slightly below 2440 (closer to 2430) between labels ① and ②."
+        ],
+        "reasoning": "The summary accurately identifies all chart components and trends, with only minor rounding discrepancies regarding the exact peak and trough values.",
+        "cand_index": 1
+      },
+      {
+        "score": 88,
+        "errors": [
+          "The high point after ① is actually at the vertical line ①, not after it.",
+          "The trough occurs before vertical line ②, not after it.",
+          "The high point after ④ is slightly lower than 2620 (looks closer to 2615)."
+        ],
+        "reasoning": "The summary correctly identifies the chart type, axes, and general trends, but it consistently misplaces the timing of peaks and troughs relative to the numbered vertical lines.",
+        "cand_index": 2
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The peak-to-trough difference between ③ and ④ is described as 160 points, but it is actually a trough-to-peak rise of about 120-130 points."
+        ],
+        "reasoning": "The summary is exceptionally accurate in its identification of chart components, data points, and trend descriptions, with only a minor terminological and calculation error regarding the movement between points 3 and 4.",
+        "cand_index": 3
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The core conclusion states the index has not yet returned to the starting point, but the final value (~2590) is actually higher than the starting value (~2510)."
+        ],
+        "reasoning": "The summary accurately identifies the chart components, data points, and trends, but the core conclusion contains a factual contradiction regarding the final index level relative to the starting point.",
+        "cand_index": 4
+      },
+      {
+        "score": 82,
+        "errors": [
+          "Trough location is incorrect; the trough occurs before ③, not after.",
+          "Final period value is approximately 2600, not 2590.",
+          "The trough value is closer to 2430-2440, making the peak-to-trough difference ~250, not 240."
+        ],
+        "reasoning": "The summary correctly identifies the chart type and general trend, but contains significant factual errors regarding the timing of the trough relative to the markers and slight inaccuracies in data point values.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 178,
+    "image": "images/syn_v2_1418_bar_line_overlay_zh-CN_banking_credit.png",
+    "has_source_facts": true,
+    "candidates": [
+      {
+        "score": 88,
+        "errors": [
+          "The source data provided (16 points, min -7.25%) contradicts the chart image (25+ points, min ~-21%), so evaluation is based on the chart image only.",
+          "The summary states the highest point is around 2024-04, but the chart shows the peak is at 2024-07.",
+          "The summary claims the 4-quarter moving average reached above +15% in 2023, but the chart shows it only crossed +15% in 2024."
+        ],
+        "reasoning": "The summary accurately describes the overall 'V' shape and major trends of the chart, but contains minor inaccuracies regarding the specific timing of the peak and the moving average crossover point.",
+        "cand_index": 0
+      },
+      {
+        "score": 82,
+        "errors": [
+          "The lowest point (approx -21%) occurred in 2020-04, not 2023-01 as the source data suggests or 2021-10 as the summary claims.",
+          "The summary claims the 4-quarter moving average is 'completely synchronized' with the bars, but it is a lagging indicator by nature.",
+          "The summary incorrectly identifies the 'lowest point' period as 2020-03 to 2021-10; the chart shows the deepest trough was specifically in Q2 2020."
+        ],
+        "reasoning": "The summary correctly identifies the overall trend and visual structure, but contains significant inaccuracies regarding the specific timing of the lowest data points and the relationship between the moving average and the raw data.",
+        "cand_index": 1
+      },
+      {
+        "score": 90,
+        "errors": [
+          "The summary states the lowest point was in 2020 Q1, but the chart shows the deepest negative bar in 2020 Q2 (2020-04).",
+          "The summary claims the negative duration was longer than the positive duration, but the chart shows roughly 12 quarters of negative values versus 11 quarters of positive values (including projections), making them nearly equal."
+        ],
+        "reasoning": "The summary accurately captures the overall trend, data ranges, and structural patterns of the chart, with only minor inaccuracies regarding the specific timing of the trough and the relative duration of phases.",
+        "cand_index": 2
+      },
+      {
+        "score": 88,
+        "errors": [
+          "The summary claims the lowest point is in mid-2020 at -22%, but the chart shows the lowest bar is at 2020-04 and the lowest point of the rolling average is around 2021-10.",
+          "The summary states the decline from 2020 to 2023 was 'slow', but the chart shows a very sharp drop in early 2020.",
+          "The summary claims the value fell from 0% to -22% between 2020 and 2023, but the chart shows it reached its lowest point much earlier (2020-2021) and was already recovering by 2023."
+        ],
+        "reasoning": "The summary correctly identifies the overall 'V' shape and key trends, but contains several inaccuracies regarding the specific timing of the troughs and the description of the slope of the initial decline.",
+        "cand_index": 3
+      },
+      {
+        "score": 82,
+        "errors": [
+          "最低点日期描述错误：图表显示最低点在2020年Q4至2021年Q4之间，而非2020年1月。",
+          "最高点日期描述错误：图表显示最高点在2024年Q3（2024-07）之后，而非2024年初。",
+          "阶段划分不准确：2018年至2019年数据接近0%，并非维持在-5%至-20%区间。"
+        ],
+        "reasoning": "摘要在整体趋势描述上正确，但在关键极值点的时间定位和初期区间的数值描述上存在明显的视觉解读偏差。",
+        "cand_index": 4
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The summary claims the maximum positive value occurred in mid-2023 at +17%, but the chart shows it peaking later in 2024-2025 at nearly +20%.",
+          "The summary states the data 'straight-line' pulled into positive territory in early 2023, whereas the chart shows it remained negative until mid-2023."
+        ],
+        "reasoning": "The summary accurately describes the chart's structure, overall 'V' shape, and key phases, with only minor inaccuracies regarding the specific timing of the peak and the crossover into positive territory.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 191,
+    "image": "images/syn_v2_1420_heatmap_en-US_growth_employment.png",
+    "has_source_facts": true,
+    "candidates": [
+      {
+        "score": 82,
+        "errors": [
+          "CHN does not have the highest unemployment rate (5.00); IND is higher at 7.10.",
+          "USA, not IND, shows the most significant year-over-year improvement in unemployment (-0.30).",
+          "The claim that higher GDP growth aligns with higher unemployment is factually inconsistent with the data for CHN and USA."
+        ],
+        "reasoning": "The summary correctly identifies the extremes for IND and JPN but makes several factual errors regarding which countries hold specific change metrics and incorrectly identifies CHN as having the highest unemployment rate.",
+        "cand_index": 0
+      },
+      {
+        "score": 75,
+        "errors": [
+          "Incorrectly states CHN has negative unemployment change (-0.10) and positive GDP change (0.20); chart shows 0.10 and -0.20 respectively.",
+          "Incorrectly states DEU has the lowest GDP growth at 1.40%; JPN is lower at 1.00%.",
+          "Incorrectly claims a diagonal divergence pattern from left to right; the data is not ordered sequentially by value magnitude."
+        ],
+        "reasoning": "The summary contains several significant factual errors regarding specific data points and trends, particularly in the year-over-year changes and comparative rankings.",
+        "cand_index": 1
+      },
+      {
+        "score": 82,
+        "errors": [
+          "Incorrectly states DEU YoY GDP growth change is positive (+0.10) when it is 0.00.",
+          "Incorrectly claims CHN has the highest GDP growth (5.30%) when IND is higher (6.50%).",
+          "Incorrectly states JPN and DEU are on the left side of the chart; they are in the middle."
+        ],
+        "reasoning": "The summary accurately identifies most data points and trends but contains a few significant factual errors regarding specific country values and their relative positions on the chart.",
+        "cand_index": 2
+      },
+      {
+        "score": 78,
+        "errors": [
+          "Incorrectly states IND has the most positive change in GDP growth (+0.20); IND is actually -0.30.",
+          "Incorrectly states IND has the most positive change in unemployment (-0.30); IND is actually +0.20.",
+          "Incorrectly claims values transition from light on the left to dark on the right; the pattern is not a linear horizontal gradient.",
+          "Incorrectly identifies CHN as the sole entity with simultaneous peaks; IND has higher values in both primary indicators."
+        ],
+        "reasoning": "The summary correctly identifies the primary indicator values but contains several significant factual errors regarding the change metrics and visual patterns.",
+        "cand_index": 3
+      },
+      {
+        "score": 78,
+        "errors": [
+          "IND does not show the only positive YoY GDP growth change; USA and JPN are also positive (0.10).",
+          "IND's YoY GDP growth change is -0.30, not +0.20.",
+          "CHN's YoY GDP growth change is -0.20, but it is not the only negative change (IND is -0.30).",
+          "The claim of a 'strong inverse structural correlation' is inaccurate as IND has the highest values for both unemployment and GDP growth."
+        ],
+        "reasoning": "The summary correctly identifies the extremes for the primary indicators but contains several significant factual errors regarding the year-over-year change metrics and the correlation patterns.",
+        "cand_index": 4
+      },
+      {
+        "score": 92,
+        "errors": [
+          "CHN (China) does not have the highest unemployment_rate; IND (India) is higher at 7.10 vs 5.00."
+        ],
+        "reasoning": "The summary is highly accurate and correctly identifies almost all data points and trends, with only one minor error regarding which country has the absolute highest unemployment rate.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 209,
+    "image": "images/mc_00114_1252724911_6_crop_1.jpg",
+    "has_source_facts": false,
+    "candidates": [
+      {
+        "score": 82,
+        "errors": [
+          "2013 Q4-2014 Q4 bars are red (only 2013 Q4 and 2014 Q4 are red)",
+          "2014 Q3 peak % Total Revenue is ~25%, not 27%",
+          "Red bars in final three quarters are lower (only 2014 Q4 is lower than Q3)",
+          "2013 Q4 revenue is ~$160M, not $145M"
+        ],
+        "reasoning": "The summary correctly identifies the chart type and general trends, but contains several specific data point errors and misidentifies which bars are colored red.",
+        "cand_index": 0
+      },
+      {
+        "score": 82,
+        "errors": [
+          "Incorrect peak value for % Total Revenue (28% vs ~26%)",
+          "Incorrect trend description for 2009 Q1-Q4 (line rose, summary says dropped)",
+          "Mischaracterization of red bars as 'significantly higher' than succeeding periods"
+        ],
+        "reasoning": "The summary accurately identifies the chart components and general trends, but contains significant factual errors regarding the line chart's direction in 2009 and its peak value, as well as the relative height of the highlighted bars.",
+        "cand_index": 1
+      },
+      {
+        "score": 88,
+        "errors": [
+          "The line chart does not have circular markers.",
+          "The lowest % Total Revenue occurred in Q3 10, not Q2 09.",
+          "The highest % Total Revenue occurred in Q4 13, not Q3 14."
+        ],
+        "reasoning": "The summary accurately describes the chart's structure and general trends, but contains a few specific errors regarding the line chart's visual style and the exact timing of its peaks and troughs.",
+        "cand_index": 2
+      },
+      {
+        "score": 82,
+        "errors": [
+          "2010 Q3 revenue is significantly lower than 2010 Q4, contradicting the '90 million' claim for Q4.",
+          "The claim that the line and bars 'diverged' is inaccurate as they both trend upward.",
+          "The line chart does not exhibit a 'steeper slope' than the bars in the later stage."
+        ],
+        "reasoning": "While the summary correctly identifies the chart components and general trends, it contains several specific data inaccuracies regarding 2010/2011 values and mischaracterizes the relative slopes and divergence of the two data series.",
+        "cand_index": 3
+      },
+      {
+        "score": 82,
+        "errors": [
+          "Trough of black line is ~20%, not 13%",
+          "2013 Q1 to 2014 Q4 increase is ~4%, not 13%",
+          "Maximum decrease claim is confusing/incorrect",
+          "Yellow bar peak is 2014 Q3, not Q4"
+        ],
+        "reasoning": "The summary correctly identifies the chart structure and general trends, but contains several significant numerical errors regarding the black line's trough and specific percentage point increases.",
+        "cand_index": 4
+      },
+      {
+        "score": 82,
+        "errors": [
+          "Q1 09 % of Revenue is ~19%, not 15%.",
+          "Trough for % of Revenue is ~19% (Q1 09), not 15%.",
+          "Q4 14 % of Revenue is ~25%, not 28%."
+        ],
+        "reasoning": "The summary correctly identifies the chart type and general trends, but it contains several significant inaccuracies regarding the specific values and ranges of the percentage line chart.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 228,
+    "image": "images/mc_01941_1870515386_18_crop_0.jpg",
+    "has_source_facts": false,
+    "candidates": [
+      {
+        "score": 92,
+        "errors": [
+          "The 2024 bar height is significantly below the 975,000 tick mark, not approximately at it.",
+          "The spacing between bars is uniform, not gradually widening."
+        ],
+        "reasoning": "The summary is mostly accurate but contains minor errors regarding the visual alignment of the 2024 bar and the description of the bar spacing.",
+        "cand_index": 0
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The claim that the rate of increase was larger in early years is inaccurate; the visual increments for 2023-2026 appear larger than 2020-2022."
+        ],
+        "reasoning": "The summary accurately identifies all labels, axes, and the general trend, but it incorrectly characterizes the growth rate as being higher in the early years when the projected bars show larger absolute increases.",
+        "cand_index": 1
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The 2023 bar is visually closer to 780,000 than 680,000.",
+          "The 2025 bar is visually closer to 1,100,000 than 1,000,000."
+        ],
+        "reasoning": "The summary accurately identifies all chart components and trends, but some estimated data values for the light blue bars (2023 and 2025) are slightly lower than their visual positions relative to the y-axis scale.",
+        "cand_index": 2
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The bar colors for 2020, 2021, and 2022 are dark blue, while 2023-2026 are light blue, contradicting the 'uniformly light blue' description.",
+          "The line graph is a straight line, not a 'smooth upward curve'."
+        ],
+        "reasoning": "The summary accurately captures the numerical data and general trends, but it mischaracterizes the specific color coding of the bars and the geometric shape of the trend line.",
+        "cand_index": 3
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The claim that the 2026 value (~1.2M) is 2 to 3 times the 2022 value (582K) is mathematically incorrect; it is approximately 2.06 times."
+        ],
+        "reasoning": "The summary accurately identifies all chart components, labels, and trends, but contains a slight mathematical overestimation regarding the ratio between the 2026 and 2022 values.",
+        "cand_index": 4
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The 2021 value is significantly higher than 325,000, appearing closer to 400,000.",
+          "The 2023 bar is clearly above the 650,000 line, likely closer to 750,000-800,000.",
+          "The 2024 bar is above the 975,000 line, not below it."
+        ],
+        "reasoning": "The summary accurately identifies the chart type, labels, and general trends, but contains minor inaccuracies regarding the visual positioning of specific bars relative to the grid lines.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 285,
+    "image": "images/mc_00591_1297378317_53_crop_1.jpg",
+    "has_source_facts": false,
+    "candidates": [
+      {
+        "score": 75,
+        "errors": [
+          "Chart type is a stacked bar chart, not a grouped bar chart.",
+          "Incorrectly identifies 20 items on the horizontal axis (there are 18).",
+          "Significant data errors: DTI has a Producer AMA component; East Tennessee is mostly Producer AMA; Sonat is entirely Market AMA.",
+          "Misidentifies the order and composition of several pipelines (e.g., FGT, Gulf South, ANR)."
+        ],
+        "reasoning": "While the summary correctly identifies the chart title and general trend, it misclassifies the chart type and contains several significant factual errors regarding the specific data composition and order of the pipelines.",
+        "cand_index": 0
+      },
+      {
+        "score": 88,
+        "errors": [
+          "Chart type is a stacked bar chart, not a grouped bar chart.",
+          "TCO total capacity is closer to 475 MMcf/d, but Tetco is the one near 375 MMcf/d (summary misidentifies some mid-tier values).",
+          "FGT capacity is above 50 MMcf/d, contrary to the summary's grouping."
+        ],
+        "reasoning": "The summary correctly identifies the overall trends and most data points, but misclassifies the chart type as grouped instead of stacked and contains minor inaccuracies regarding specific company rankings and values.",
+        "cand_index": 1
+      },
+      {
+        "score": 65,
+        "errors": [
+          "Chart type is a stacked bar chart, not a grouped bar chart.",
+          "CenterPoint and El Paso have no red (Producer AMA) portion visible.",
+          "East Tennessee has no red portion; the red bar is on Tennessee.",
+          "Sonat has no red portion; the red bar is on Columbia Gulf.",
+          "Numerical estimates for several bars (e.g., CenterPoint, Tetco, Sonat) are significantly inaccurate based on the Y-axis."
+        ],
+        "reasoning": "The summary misidentifies the chart type and incorrectly attributes 'Producer AMA' values to several pipelines that are shown as 100% 'Market AMA' in the image.",
+        "cand_index": 2
+      },
+      {
+        "score": 75,
+        "errors": [
+          "Chart type is a stacked bar chart, not a grouped bar chart.",
+          "Incorrectly states each entity has two bars; they are stacked segments.",
+          "Misidentifies the order and relative heights of several pipelines (e.g., Sonat vs Columbia Gulf).",
+          "Incorrectly claims Market AMA is generally higher than Producer AMA for all entities (e.g., Tetco is mostly Producer AMA)."
+        ],
+        "reasoning": "The summary fundamentally misidentifies the chart type as grouped rather than stacked, leading to several incorrect claims about individual bar heights and data relationships.",
+        "cand_index": 3
+      },
+      {
+        "score": 65,
+        "errors": [
+          "Chart type is a stacked bar chart, not a grouped bar chart.",
+          "DTI Producer AMA is ~10-20 MMcf/d, not 120 MMcf/d.",
+          "Tetco Producer AMA is ~270 MMcf/d, not 120 MMcf/d.",
+          "Incorrectly claims many companies (e.g., East Tennessee, Equitrans) only have blue bars.",
+          "Company order on the x-axis is misidentified in the summary."
+        ],
+        "reasoning": "The summary misidentifies the chart type as grouped rather than stacked and contains several significant factual errors regarding specific data values and which companies possess Producer AMA (red) components.",
+        "cand_index": 4
+      },
+      {
+        "score": 78,
+        "errors": [
+          "TCO and Transco are below 500 MMcf/d, not exceeding it.",
+          "Sonat and Columbia Gulf are swapped in the horizontal axis list.",
+          "FGT, Gulf South, and Midwestern blue bars are not significantly lower than red bars; blue is actually higher in FGT and Midwestern.",
+          "Tetco total capacity is below 400 MMcf/d."
+        ],
+        "reasoning": "The summary correctly identifies the chart type and general trends but contains several significant factual errors regarding specific data values and the relative proportions of the stacked bars for certain pipelines.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 457,
+    "image": "images/syn_v2_1081_bar_en-US_equity_markets.png",
+    "has_source_facts": true,
+    "candidates": [
+      {
+        "score": 92,
+        "errors": [
+          "The summary states the global maximum was in late 2021, but source data and chart show it occurred in mid-2021 (July).",
+          "The summary describes the recovery as occurring in 'early 2025', whereas the chart and data show the spike began in late 2024."
+        ],
+        "reasoning": "The summary accurately captures the overall trends, volume spikes, and price levels, with only minor chronological imprecisions regarding the exact timing of the peak and the start of the recovery.",
+        "cand_index": 0
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The recovery magnitude is approximately 104% (from 1512 to 3091) rather than 113%."
+        ],
+        "reasoning": "The summary is exceptionally accurate, correctly identifying the specific peak and trough values, the 57% drawdown, and the timing of the volume surge as verified by the source data.",
+        "cand_index": 1
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The summary describes the minimum price as occurring in late 2023/early 2024, while the source data and chart show the global minimum was in August 2024."
+        ],
+        "reasoning": "The summary is exceptionally accurate, correctly identifying the complex price movements, volume spikes, and specific numerical thresholds confirmed by both the chart and the source data.",
+        "cand_index": 2
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The legend identifies volume bars as orange/coral, while the summary describes them as red."
+        ],
+        "reasoning": "The summary is exceptionally accurate, correctly identifying the 57% drawdown, the specific price levels (1500 to 3500), and the dramatic volume spike in late 2024 as verified by the source data.",
+        "cand_index": 3
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The summary mentions a historical low below 1550 in early 2024, while the source data and chart show the global minimum occurred in late August 2024."
+        ],
+        "reasoning": "The summary is exceptionally accurate, correctly identifying the 56% decline, the specific volume surge levels, and the V-shaped recovery pattern confirmed by the source data.",
+        "cand_index": 4
+      },
+      {
+        "score": 88,
+        "errors": [
+          "The summary states the price bottomed near 1500 in Q1 2024, but the chart and data show the global minimum occurred in late Q3 2024 (August/September).",
+          "The summary claims a recovery to 2300 between Q1 and Q3 2024, whereas the chart shows the price was actually trending downward to its lowest point during that specific window.",
+          "The summary describes a surge above 3000 in Q4 2024, but the chart and data show this peak occurred in late 2025."
+        ],
+        "reasoning": "The summary correctly identifies the chart components and general volatility, but it contains several significant chronological errors regarding when specific price peaks and troughs occurred relative to the X-axis labels.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 501,
+    "image": "images/syn_v4_20251212_021708_heatmap_zh-CN_equity_markets_41033824.png",
+    "has_source_facts": true,
+    "candidates": [
+      {
+        "score": 100,
+        "errors": [],
+        "reasoning": "The summary accurately reflects all data points, correlations, and visual patterns shown in the heatmap and confirmed by the source data.",
+        "cand_index": 0
+      },
+      {
+        "score": 88,
+        "errors": [
+          "The correlation between Nikkei 225 and S&P 500 is 0.62, not 0.28 (0.28 is the correlation between Nikkei 225 and STAR 50).",
+          "The claim that Nikkei 225 and S&P 500 have the lowest correlation is incorrect; the lowest is 0.28 between Nikkei 225 and STAR 50."
+        ],
+        "reasoning": "The summary correctly identifies most high-level trends and data points, but it misidentifies the specific pair for the lowest correlation value (0.28) and repeats this error in the risk analysis.",
+        "cand_index": 1
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The summary states the color gradient goes from left-top to right-bottom, but the heatmap's high-correlation clusters are actually in the bottom-left and top-right corners."
+        ],
+        "reasoning": "The summary is exceptionally accurate, correctly identifying specific correlation coefficients and structural patterns, with only a minor descriptive error regarding the visual orientation of the color gradient.",
+        "cand_index": 2
+      },
+      {
+        "score": 88,
+        "errors": [
+          "The claim that the highest value (0.94) is between Shanghai Composite and CSI 300 is incorrect; the highest values are the diagonal 1.00 correlations.",
+          "The claim that US market internal correlation (0.88) is 'significantly lower' than Chinese core indices is inaccurate as some Chinese pairs are lower (e.g., 0.71, 0.72, 0.76).",
+          "The claim that Nikkei 225 and S&P 500 correlation is 'low' at 0.62 is subjective and inconsistent with the 'low' label given to 0.28."
+        ],
+        "reasoning": "The summary correctly identifies the general structure and most data points, but makes a few errors regarding the absolute maximum values and relative comparisons between regional clusters.",
+        "cand_index": 3
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The claim '日经225与德国DAX为0.81' is incorrect; the chart shows 0.68 (0.81 is 标普500 vs 德国DAX).",
+          "The claim '纳斯达克与恒生指数为0.58' is incorrect; the chart shows 0.51."
+        ],
+        "reasoning": "The summary is mostly accurate and captures the key relationships, but it contains two specific numerical errors regarding the correlation coefficients between certain indices.",
+        "cand_index": 4
+      },
+      {
+        "score": 82,
+        "errors": [
+          "The claim that '创业板指与科创50为1.00' is incorrect; the chart shows 0.82.",
+          "The claim that '上证指数与沪深300为0.94' is the highest in the chart is incorrect; several pairs are 1.00 (self-correlation).",
+          "The claim that '德国DAX与纳斯达克为0.77' is incorrect; the chart shows 0.73."
+        ],
+        "reasoning": "The summary correctly identifies the chart type and general trends, but contains several specific numerical errors and misidentifies the highest correlation values.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 563,
+    "image": "images/syn_076_candlestick_volume_en-US_equity_markets.png",
+    "has_source_facts": true,
+    "candidates": [
+      {
+        "score": 92,
+        "errors": [
+          "The global minimum was approximately 14,700 (Oct 2022), not 13,000.",
+          "The decline from peak to trough was approximately 52.7%, not 57%."
+        ],
+        "reasoning": "The summary accurately captures the overall trend, volume shifts, and key dates, but slightly overstates the depth of the 2022 market bottom and the resulting percentage loss.",
+        "cand_index": 0
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The summary states the Y-axis scale starts at 16,000, but the chart image shows labels starting from 0 for volume and 12,000 for price."
+        ],
+        "reasoning": "The summary is exceptionally accurate, aligning perfectly with both the visual chart and the provided source data, with only a minor discrepancy in describing the Y-axis starting point.",
+        "cand_index": 1
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The summary states the global minimum was just below 14,000, but source data and chart show it was 14,690 (closer to 15,000).",
+          "The summary claims volume spikes exceeding 10,000 occurred in late 2022, but the chart and data show these spikes occurred in late 2024."
+        ],
+        "reasoning": "The summary is highly accurate regarding trends, percentages, and overall structure, with only minor imprecisions regarding the exact value of the global minimum and the timing of specific volume spikes.",
+        "cand_index": 2
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The magnitude of decline from the 2021 peak to the 2022 trough was approximately 52.75%, not 57%.",
+          "The recovery of 90% of losses is slightly overstated; the index recovered approximately 70% of the lost value by the end of the chart."
+        ],
+        "reasoning": "The summary accurately identifies the chart's composition, time range, and major trends, though it slightly overestimates the percentage of the decline and the subsequent recovery magnitude.",
+        "cand_index": 3
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The summary states the 2024 low was ~15,000, but the chart and data show the global minimum occurred in late 2022."
+        ],
+        "reasoning": "The summary is exceptionally accurate, correctly identifying the price extremes, volume surges, and overall trend structures confirmed by both the image and the source data.",
+        "cand_index": 4
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The peak value occurred in early 2021, not late 2021.",
+          "The bottom occurred in late 2022, not early 2023."
+        ],
+        "reasoning": "The summary accurately captures the overall trend, volume expansion, and price levels, but contains minor inaccuracies regarding the specific timing of the global peak and trough.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 864,
+    "image": "images/prog_2662_candlestick_indicator_en-US_equity_markets.png",
+    "has_source_facts": true,
+    "candidates": [
+      {
+        "score": 98,
+        "errors": [
+          "The summary mentions a consolidation period from 2012-2015, whereas the data shows a strong upward trend (approx. 6,000 to 12,000) during that specific window."
+        ],
+        "reasoning": "The summary is exceptionally accurate, correctly identifying key price levels, dates of major crashes (2009, 2020), and the recent parabolic growth phase confirmed by the source data.",
+        "cand_index": 0
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The description of the final segment as 'rising from ~17,500 in 2023' is slightly imprecise as the source data shows the rally starting from a lower point in late 2022."
+        ],
+        "reasoning": "The summary is exceptionally accurate, correctly identifying key price levels, dates of major corrections, and the overall statistical trends confirmed by the source data.",
+        "cand_index": 1
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The 2009 global minimum was 3,666 points, not roughly 3,800.",
+          "The loss from 2008 highs to the 2009 low was approximately 54%, not 27%."
+        ],
+        "reasoning": "The summary accurately captures the overall trend, major volatility events, and recent parabolic growth, though it significantly underestimates the magnitude of the 2008-2009 financial crisis drawdown.",
+        "cand_index": 2
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The 2020 decline was approximately -33% (13,789 to 8,255) rather than -40%."
+        ],
+        "reasoning": "The summary is exceptionally accurate, correctly identifying the global extremes, the 500% growth magnitude from the 2009 low, and the specific parabolic nature of the recent price action.",
+        "cand_index": 3
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The summary mentions 12,500-13,000 resistance in 2016, but the chart shows the index reached that level closer to 2017-2018."
+        ],
+        "reasoning": "The summary is exceptionally accurate, correctly identifying the 2009 low, the 2025 peak, and the specific percentage growth and volatility shifts confirmed by the source data.",
+        "cand_index": 4
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The summary states the index starts in 2006, but the chart and source data show it begins in late 2005.",
+          "The range-bound consolidation mentioned from 2016 to 2023 is inaccurate as the index broke 16,000 in 2021."
+        ],
+        "reasoning": "The summary accurately captures the major price levels, the 2008-2009 crash magnitude, and the recent parabolic trend, with only minor inaccuracies regarding the start date and the duration of the consolidation period.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 1116,
+    "image": "images/syn_v2_449_bar_en-US_inflation.png",
+    "has_source_facts": true,
+    "candidates": [
+      {
+        "score": 100,
+        "errors": [],
+        "reasoning": "The summary is exceptionally accurate, correctly identifying the minimum value of approximately 1.0% in mid-2020 and the peak of 5.6% in 2022 as confirmed by the source data.",
+        "cand_index": 0
+      },
+      {
+        "score": 82,
+        "errors": [
+          "The summary incorrectly states the lowest values appear in mid-2022; mid-2022 is actually the peak period.",
+          "The claim that 2021 to mid-2023 shows a 'continuous, monotonic decline' is factually incorrect as that period contains the primary surge.",
+          "The summary describes the overall shape as 'bell-shaped,' which contradicts the actual data showing a sharp spike followed by a plateau."
+        ],
+        "reasoning": "While the numerical values for the peak and troughs are accurate, the summary contains significant contradictions regarding the timing of trends and the overall shape of the data.",
+        "cand_index": 1
+      },
+      {
+        "score": 100,
+        "errors": [],
+        "reasoning": "The summary is exceptionally accurate, with all numerical claims, dates, and trend descriptions perfectly matching both the provided source data and the visual representation in the chart.",
+        "cand_index": 2
+      },
+      {
+        "score": 100,
+        "errors": [],
+        "reasoning": "The summary is exceptionally accurate, with all numerical values, dates, and trend descriptions perfectly matching both the chart image and the provided source data.",
+        "cand_index": 3
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The summary states the rate crossed below 4% in late 2022, but the chart and data show this occurred in mid-2023.",
+          "The summary describes the 2023-present period as a 'monotonic downward trend', but the data shows several fluctuations and a recent slight uptick."
+        ],
+        "reasoning": "The summary is highly accurate regarding the overall trends, key extremes, and structural shifts, with only minor inaccuracies regarding the specific timing of the descent below 4%.",
+        "cand_index": 4
+      },
+      {
+        "score": 100,
+        "errors": [],
+        "reasoning": "The summary is exceptionally accurate, with all numerical values, dates, and trend descriptions perfectly aligning with both the chart image and the provided source data.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 1209,
+    "image": "images/syn_v2_897_point_figure_zh-CN_commodities.png",
+    "has_source_facts": true,
+    "candidates": [
+      {
+        "score": -1,
+        "errors": [
+          "list indices must be integers or slices, not str"
+        ],
+        "reasoning": "API_ERROR",
+        "cand_index": 0
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The claim of a >200% increase from the 2022 low (~18) to the current price (>57) is mathematically incorrect; the actual increase is approximately 220%, but the summary text says 'more than 200%' which is technically true but imprecise in its magnitude description.",
+          "The summary describes the chart as a Renko Chart, but it is actually a Point and Figure (P&F) chart."
+        ],
+        "reasoning": "The summary accurately identifies the key price levels, dates, and trends shown in the chart and source data, with only minor terminology and precision issues.",
+        "cand_index": 1
+      },
+      {
+        "score": -1,
+        "errors": [
+          "list indices must be integers or slices, not str"
+        ],
+        "reasoning": "API_ERROR",
+        "cand_index": 2
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The summary states the highest point was reached in September 2025, while the source data and chart show the peak occurred in December 2025."
+        ],
+        "reasoning": "The summary accurately describes the chart's point-and-figure structure, price ranges, and overall trends, with only a minor discrepancy regarding the exact month of the final peak.",
+        "cand_index": 3
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The summary mentions a 'V-shaped reversal' at the end, but the chart shows a sharp vertical rise followed by a minor pullback, not a full V-recovery."
+        ],
+        "reasoning": "The summary is exceptionally accurate, correctly identifying the Point & Figure chart type, specific price levels like 17.87 and 57.99, and the overall trend segments confirmed by both the image and source data.",
+        "cand_index": 4
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The claim that 2021 prices reached near $50 is incorrect; the chart and data show they peaked around $30 in that period.",
+          "The description of the 2025 peak as 'breaking a previous high of $50' is inaccurate as the only $50+ prices occur at the very end of the chart."
+        ],
+        "reasoning": "The summary accurately captures the overall trend, key dates, and the final price surge to $58, but it misidentifies the price levels during the 2021 period.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 1309,
+    "image": "images/syn_v2_1142_area_en-US_growth_employment.png",
+    "has_source_facts": false,
+    "candidates": [
+      {
+        "score": 100,
+        "errors": [],
+        "reasoning": "The summary accurately describes all aspects of the chart, including the specific axis labels, the dramatic 2020 spike, and the subsequent stabilization period.",
+        "cand_index": 0
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The recovery phase is not strictly linear, showing some curvature and minor fluctuations during the descent."
+        ],
+        "reasoning": "The summary is exceptionally accurate, correctly identifying the chart type, axis ranges, specific data values, and the distinct 'baseline-shock-normalization' pattern.",
+        "cand_index": 1
+      },
+      {
+        "score": 98,
+        "errors": [
+          "Y-axis range actually extends to 15, though the summary says 14."
+        ],
+        "reasoning": "The summary is exceptionally accurate, correctly identifying the specific peak value, the baseline ranges, and the distinct phases of the data trend.",
+        "cand_index": 2
+      },
+      {
+        "score": 88,
+        "errors": [
+          "Starting value in 2016 is approximately 5%, not 3.5%.",
+          "The 2020 spike is not symmetrical; the decay is slower than the vertical rise."
+        ],
+        "reasoning": "The summary accurately identifies the chart type, axes, and the major 2020 spike, but misstates the starting value and describes the decay as symmetrical when it is visibly more gradual than the rise.",
+        "cand_index": 3
+      },
+      {
+        "score": 100,
+        "errors": [],
+        "reasoning": "The summary accurately describes all visual elements, data points, and trends shown in the chart without any factual errors.",
+        "cand_index": 4
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The recovery phase is not 'linear' but follows a curved, exponential-like decay pattern."
+        ],
+        "reasoning": "The summary accurately captures the chart's structure, axis ranges, and key data points, though it slightly mischaracterizes the shape of the recovery curve as linear.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 1385,
+    "image": "images/syn_v4_20251212_023239_line_band_overlay_zh-CN_fixed_income_0684dc41.png",
+    "has_source_facts": true,
+    "candidates": [
+      {
+        "score": 98,
+        "errors": [
+          "The summary states the y-axis range is 0.5% to 4.5%, but the chart labels only go from 1 to 4."
+        ],
+        "reasoning": "The summary is exceptionally accurate, correctly identifying the peak and trough values and dates from the source data and providing a precise description of the chart's visual components and trends.",
+        "cand_index": 0
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The summary states the 2021 year-end value was around 1.7%—1.8%, while the source data indicates it was 1.9%."
+        ],
+        "reasoning": "The summary is exceptionally accurate, correctly identifying all key data points, trends, and technical indicators from both the chart and the source data with only a very minor discrepancy in the final value.",
+        "cand_index": 1
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The description of the overall shape as a 'Inverted V' (倒V型) is slightly inaccurate as the chart shows a long-term downward trend with multiple peaks rather than a single symmetrical peak."
+        ],
+        "reasoning": "The summary is exceptionally accurate, correctly identifying all key data points, dates, and statistical trends from both the source data and the chart image.",
+        "cand_index": 2
+      },
+      {
+        "score": 100,
+        "errors": [],
+        "reasoning": "The summary is exceptionally accurate, perfectly matching both the visual elements of the chart and the provided numerical source data for all key dates and values.",
+        "cand_index": 3
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The claim that the 90-day moving average was above the 30-day moving average for most of 2013-2019 is visually incorrect; they cross frequently and neither dominates.",
+          "The description of 2021 as 'narrow-range' (1.6%-2.0%) is slightly inaccurate as the chart shows a peak near 2.4% in early 2021."
+        ],
+        "reasoning": "The summary accurately captures all key data points, dates, and the overall trend, with only minor inaccuracies regarding moving average positioning and the specific range of the 2021 recovery.",
+        "cand_index": 4
+      },
+      {
+        "score": 82,
+        "errors": [
+          "2020年4月后30日均线并非持续位于90日均线下方，图中显示2021年初30日均线已上穿并位于90日均线上方",
+          "2020年3月后并未‘创新低’，图表显示0.99%即为全段最低点，随后呈回升态势",
+          "核心结论称目前处于‘极度低波动’与‘数据关系’中提到的‘波动剧烈扩大’相矛盾，且图表末尾波动区间并未极度收窄"
+        ],
+        "reasoning": "The summary correctly identifies key historical extremes and overall trends, but contains several significant factual errors regarding moving average crossovers and volatility characteristics in the 2020-2021 period.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 1508,
+    "image": "images/mc_00926_1533985913_4_crop_0.jpg",
+    "has_source_facts": false,
+    "candidates": [
+      {
+        "score": 100,
+        "errors": [],
+        "reasoning": "The summary accurately reflects all data points, trends, and structural components shown in the chart without any factual errors.",
+        "cand_index": 0
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The claim that the proportion of Futures decreased in 2013 is incorrect; it increased from 7.5% to 9.7%."
+        ],
+        "reasoning": "The summary is exceptionally accurate in its data extraction and trend analysis, with only one minor error regarding the relative proportion trend of the Futures component in the early years.",
+        "cand_index": 1
+      },
+      {
+        "score": 100,
+        "errors": [],
+        "reasoning": "The summary accurately reflects all data points, labels, and trends shown in the chart without any factual errors.",
+        "cand_index": 2
+      },
+      {
+        "score": 82,
+        "errors": [
+          "Futures ADV growth rate calculation is incorrect (0.17 increase from 0.10 is 170%, not 47%)",
+          "Index ADV growth rate calculation is incorrect (0.78 increase from 1.22 is ~64%, but 2.00-1.22 is 0.78; the math is inconsistent)",
+          "Total ADV growth rate calculation is incorrect (0.95 increase from 1.32 is ~72%, but the summary claims 71%)"
+        ],
+        "reasoning": "While the raw data points and general trends are accurately extracted, the calculated percentage growth rates for the components are mathematically incorrect, particularly for Futures ADV.",
+        "cand_index": 3
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The chart type is a stacked bar chart, not a 'grouped stacked bar chart'."
+        ],
+        "reasoning": "The summary is exceptionally accurate, correctly identifying all data points, trends, and calculations, with only a minor technical misclassification of the chart type.",
+        "cand_index": 4
+      },
+      {
+        "score": 100,
+        "errors": [],
+        "reasoning": "All verifiable data points, labels, and trends in the summary perfectly match the information presented in the chart image.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 1516,
+    "image": "images/syn_v4f_20251211_211210_contour_zh-CN_fixed_income_e73c11d3.png",
+    "has_source_facts": true,
+    "candidates": [
+      {
+        "score": 82,
+        "errors": [
+          "The maximum positive spread occurred around 2010-2011, not 2006-2007.",
+          "The 'aggressive rate hike' inversion started in late 2022, not 2020.",
+          "The 2020 period actually shows a positive spread (blue), not a deep inversion."
+        ],
+        "reasoning": "The summary correctly identifies the chart type and general trends but contains significant errors regarding the specific timing of the maximum positive spread and the start date of the most recent inversion period.",
+        "cand_index": 0
+      },
+      {
+        "score": 82,
+        "errors": [
+          "The chart title and axis labels specify the 10-year minus 3-month spread, not the 3-year spread.",
+          "The claim that peak positive spreads occurred in 2006 is incorrect; the chart shows a deep inversion (red) in 2006-2007.",
+          "The claim that an inversion occurred in 2014-2015 is incorrect; the chart shows positive blue values (around 2.0) during that period."
+        ],
+        "reasoning": "The summary correctly identifies the current extreme inversion and general chart structure, but makes significant factual errors regarding the timing of historical peaks and inversions compared to both the visual evidence and source data.",
+        "cand_index": 1
+      },
+      {
+        "score": 65,
+        "errors": [
+          "The summary incorrectly claims the current state (far right) is a 'strong positive expansion' (blue), while the chart shows deep red (inverted).",
+          "The 'Extreme Negative' section misidentifies the value range; the chart and source data show a minimum around -1.89, not -2.5.",
+          "The 'Key Points' section mislabels the 2020 dip as 'aggressive rate hikes' when the chart labels that specific text box at the 2023-2024 red zone.",
+          "The core conclusion that the spread has 'completely reversed from inversion' is factually opposite to what the chart and source data show for the 2023-2025 period."
+        ],
+        "reasoning": "The summary correctly identifies the chart structure but fundamentally misinterprets the most recent data (2023-2025), claiming a positive spread expansion when the chart and source data clearly show a historic deep inversion (red).",
+        "cand_index": 2
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The summary claims the 2018-2019 period is a 'deep negative' area, but the chart and data show it was a very brief and shallow inversion compared to 2006 and 2023.",
+          "The claim that the 2006 inversion was 'brief but did not persist' is slightly inaccurate as the chart shows it lasted over a year (mid-2006 to late 2007)."
+        ],
+        "reasoning": "The summary accurately identifies the chart type, key data ranges, and the significant depth of the current inversion, though it slightly mischaracterizes the relative duration and intensity of the 2018-2019 period.",
+        "cand_index": 3
+      },
+      {
+        "score": 75,
+        "errors": [
+          "The summary claims the highest positive spreads (deep blue) occurred in 2006-2013, but the chart and source data show 2006 was a period of inversion (red).",
+          "The summary states the 2008-2009 period saw spreads turn negative, whereas the chart shows this was a period of rapid expansion into positive (blue) territory.",
+          "The summary incorrectly identifies the start of the third 'inversion line' as 2017, while the chart and source data place it in late 2022.",
+          "The summary claims the 2014-2016 period had color depth similar to 2006-2013, but 2006 was inverted (red) and 2010-2011 was the actual peak blue period."
+        ],
+        "reasoning": "The summary contains several significant chronological errors, frequently confusing periods of positive spreads (blue) with periods of inversion (red) relative to the years shown on the horizontal axis.",
+        "cand_index": 4
+      },
+      {
+        "score": 82,
+        "errors": [
+          "The summary claims 2006-2007 is mostly blue (positive), but the chart shows a significant red 'inverted' area during this period.",
+          "The summary states the 2019 inversion reached -1.0, but the chart contours show it barely crossed the 0 line into light red.",
+          "The summary claims 2025 is deep red (-1.5 to -2.0), but the chart shows it transitioning back toward light red/white (approaching 0)."
+        ],
+        "reasoning": "While the structural description is good, there are significant factual errors regarding the color/value states of specific time periods like 2006-2007 and the projected 2025 data.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 1518,
+    "image": "images/finmme_000707.png",
+    "has_source_facts": false,
+    "candidates": [
+      {
+        "score": 78,
+        "errors": [
+          "Y-axis label misread as 'Erode tunnel' instead of 'Eurotunnel'",
+          "2021 Summer peak value significantly underestimated (chart shows ~73%, summary says 55%)",
+          "Spring line color misidentified as 'light green' instead of light blue/grey",
+          "Claim that Winter/Spring are 'consistently higher' than Autumn is false for 2020"
+        ],
+        "reasoning": "The summary contains several significant data errors, particularly regarding the Summer peak in 2021 and the Y-axis label, though it correctly identifies the general trends and convergence.",
+        "cand_index": 0
+      },
+      {
+        "score": 65,
+        "errors": [
+          "Y-axis label typo: 'Eroden tunnel' instead of 'Eurotunnel'.",
+          "Peak values for Summer and Spring are incorrect; Summer peaks in 2021, not 2023.",
+          "Trough for Spring in 2021 is incorrect; it is at its peak then.",
+          "Difference between Autumn and Summer in 2023 is ~3%, not 25%.",
+          "Core conclusion is flawed; Summer and Spring are not 'limited weight' as they converge with other seasons."
+        ],
+        "reasoning": "The summary contains several significant factual errors regarding peak/trough values and comparative data points that contradict the visual evidence in the chart.",
+        "cand_index": 1
+      },
+      {
+        "score": 82,
+        "errors": [
+          "Y-axis label typo: 'Erodnunnel' instead of 'Eurotunnel'.",
+          "Summer peak value error: Summer peaked at ~73% in 2021, not 63% in 2023.",
+          "Pattern description error: Trends were more divergent before 2019 and converged significantly in 2021, contrary to the summary."
+        ],
+        "reasoning": "The summary correctly identifies most data points and the general trend, but it contains a significant factual error regarding the Summer peak value and mischaracterizes the convergence/divergence patterns over time.",
+        "cand_index": 2
+      },
+      {
+        "score": 78,
+        "errors": [
+          "Y-axis label is 'Eurotunnel share (%)', not 'Enotunnel'.",
+          "2019 is a local peak/inflection point for most lines, not a 'trough'.",
+          "The 2021 peak values are overstated (Winter is ~78%, not 81%).",
+          "The summary claims a 'moderate rebound' after 2021, but the chart shows a continuous decline to 2023."
+        ],
+        "reasoning": "While the summary correctly identifies the chart type and general seasonal order, it contains several significant factual errors regarding data values, axis labeling, and the post-2021 trend direction.",
+        "cand_index": 3
+      },
+      {
+        "score": 82,
+        "errors": [
+          "Winter 2012 value is ~57%, not 59%.",
+          "Spring 2023 value is ~65%, not 68%.",
+          "Summer 2012 value is ~47%, not 48%.",
+          "Peak values in 2021 are slightly overestimated (e.g., Winter is ~78%, not 80%)."
+        ],
+        "reasoning": "The summary correctly identifies the chart components and general trends, but contains several minor numerical inaccuracies regarding specific data points and percentage point differences.",
+        "cand_index": 4
+      },
+      {
+        "score": 65,
+        "errors": [
+          "Incorrectly identifies error bars which are not present in the chart.",
+          "Significant data errors: Winter 2021 peak is ~78% (not 80%), Summer peak is ~73% (not 64%).",
+          "Incorrect YoY change: Winter and Summer decreased from 2022 to 2023, but summary claims +15pp and +6pp increases.",
+          "Incorrect trough data: Claims all lines fell to ~50% in 2022, but Winter and Spring were actually ~70%."
+        ],
+        "reasoning": "The summary contains several major factual errors regarding data points, trend directions for the final year, and incorrectly identifies non-existent chart components like error bars.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 1827,
+    "image": "images/syn_v4_20251212_025511_line_zh-CN_derivatives_e97ecf9f.png",
+    "has_source_facts": true,
+    "candidates": [
+      {
+        "score": 88,
+        "errors": [
+          "数据关系中提到指数绝大部分时间低于20，但实际上2021-2022年大部分时间高于20。",
+          "数据关系中提到2020年高点后数月内回落到20附近，实际上2020年大部分时间仍远高于20。"
+        ],
+        "reasoning": "摘要对图表构成和核心趋势描述准确，但在描述指数与长期均值（20）的相对位置关系时存在局部偏差。",
+        "cand_index": 0
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The claim that the index is below 20 for over 95% of the time is inaccurate; the mean is 20.48, and visual inspection shows frequent periods above 20.",
+          "The claim that 2024-2025 data is 'significantly narrowed' is contradicted by a large spike exceeding 40 in late 2024/early 2025."
+        ],
+        "reasoning": "The summary accurately identifies the key peak and long-term mean, but it overstates the amount of time spent below the mean and misses a significant recent volatility spike shown in the chart.",
+        "cand_index": 1
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The summary mentions 2025 mid-year, but the chart and source data extend to late 2025."
+        ],
+        "reasoning": "The summary is exceptionally accurate, correctly identifying the peak value, long-term mean, and specific historical fluctuations in alignment with both the visual chart and the provided source data.",
+        "cand_index": 2
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The summary claims the global low point occurred in mid-2024, but both the chart and source data show the absolute minimum occurred in late 2017 (approx. 11.85)."
+        ],
+        "reasoning": "The summary is highly accurate regarding the chart's structure and the 2020 peak, but it incorrectly identifies the global minimum as occurring in 2024 instead of 2017.",
+        "cand_index": 3
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The summary states the x-axis is labeled by month, but it is actually labeled by year."
+        ],
+        "reasoning": "The summary is exceptionally accurate, correctly identifying the peak value, the long-term mean, and the specific timing of various fluctuations throughout the decade-long period.",
+        "cand_index": 4
+      },
+      {
+        "score": 92,
+        "errors": [
+          "2020年最高峰之后数月内并未迅速回落至20附近，而是维持在25-40区间较长时间",
+          "2020年最高峰日期为3月18日，描述为4月左右略有偏差"
+        ],
+        "reasoning": "The summary accurately captures the chart's structure and key data points, though it slightly mischaracterizes the speed of the post-2020 crash recovery.",
+        "cand_index": 5
+      }
+    ]
+  }
+]

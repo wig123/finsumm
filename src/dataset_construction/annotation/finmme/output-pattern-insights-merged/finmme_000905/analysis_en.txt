@@ -1,0 +1,37 @@
+[Chart Components]
+- Type: Line chart; Color is red line
+- Title: Not displayed
+- X-axis: Quarterly timeline, labeled from 1Q13 to 4Q23f
+- Y-axis: Percentage scale, range approximately -10% to 30%, includes 0% gray baseline
+- Legend: Not displayed
+- Annotations: The chart includes event annotation boxes (General election, Fuel price hike, Fuel price cut, Electricity tariff hike, Covid situation, Covid recovery + FMCG ASP hike, Muted general election money)
+
+[Data Relationships]
+- Initial period 1Q13 approximately 13%
+- Historical peak: 1Q14 approximately 25%
+- 1Q 2015 approximately 0%
+- 1Q16 local high approximately 20%
+- 1Q17 low approximately -6%
+- 2Q18–3Q18 high approximately 16%
+- 2Q20 low approximately -6%
+- 2Q21 high approximately 15%, 2Q22 high approximately 15%
+- 3Q23 low approximately -5%
+- Final period 4Q23f approximately 5%
+- Difference between highest and lowest approximately 31 percentage points
+
+[Pattern Characteristics]
+- The overall trend shows a wave pattern of multiple surges followed by pullbacks, crossing the 0% baseline multiple times, indicating significant volatility.
+- Local peaks and troughs often roughly correspond to the annotated events on the chart, with noticeable directional shifts occurring before and after these events.
+- Although the periods below 0% are limited in frequency, the declines are relatively deep when they occur, and are usually followed by a rapid upward recovery.
+
+[Core Insights]
+Core Conclusion: This indicator is highly sensitive to macroeconomic and policy events, prone to sharp fluctuations.
+
+Business Implications:
+- The results show a strong dependence on elections, energy prices, and public events.
+- Short-term forecasting errors may be significant, requiring higher frequency monitoring.
+- Mid-to-long-term planning requires reserving hedging capacity to mitigate reliance on single-scenario assumptions.
+
+Risk Focus:
+- When the reading approaches or falls below 0%, if sustained for two quarters, it may trigger budget and cash flow pressure.
+- When the fluctuation range approaches ±10%, if compounded by major events, it may amplify profit/loss volatility and decision-making errors.

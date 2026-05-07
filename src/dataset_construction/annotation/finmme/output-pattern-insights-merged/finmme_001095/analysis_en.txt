@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Donut Chart.
+- Title: Not displayed.
+- Axes: No axes.
+- Legend and Colors: BDC (Dark Blue), Non-traded REIT (Teal), Tender Offer (Light Green), Interval Fund (Magenta).
+- Sector Labels: $143bn, $99bn, $48bn, $62bn.
+
+[Data Relationships]
+- Total Amount: 352bn.
+- Maximum: BDC 143bn; Minimum: Tender Offer 48bn; Difference: 95bn.
+- Category Values: BDC 143bn; Non-traded REIT 99bn; Interval Fund 62bn; Tender Offer 48bn.
+- Ranking: 143 > 99 > 62 > 48.
+- Key Differences: BDC is 44bn greater than Non-traded REIT; 81bn greater than Interval Fund; Non-traded REIT is 51bn greater than Tender Offer.
+- Proportion (Approx.): BDC 40.6%; Non-traded REIT 28.1%; Interval Fund 17.6%; Tender Offer 13.6%.
+
+[Pattern Characteristics]
+The chart presents an unbalanced structure where a single category holds a high proportion, and the remaining three categories decrease sequentially. The second largest category forms a clear gradient with the third and fourth categories. The latter two categories have relatively close proportions within the total but still show a visible difference. The overall distribution shows no sudden changes or extremely small values, but there is a clear volume discontinuity between the largest category and the remaining categories.
+
+[Core Insights]
+Core Conclusion: Asset concentration is excessively high in a single category, indicating structural imbalance.
+
+Business Implications:
+- The overall allocation exhibits a clear top-heavy concentration pattern.
+- High dependency on the performance and liquidity of BDC.
+- The impact of secondary categories on the overall outcome is relatively limited.
+
+Risk Focus:
+- If the BDC scale proportion rises above 50%, volatility in this single category may amplify portfolio drawdown.
+- If the Tender Offer proportion falls below 10%, potential exit flexibility and rebalancing capacity may be insufficient.

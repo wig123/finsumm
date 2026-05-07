@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Combination Chart (Gray bars for ARPU, Red line for % y-y)
+- Title: Not labeled
+- X-axis: FY22, FY23F, FY24F, FY25F, FY26F
+- Left Y-axis: ARPU scale approximately 140–175
+- Right Y-axis: YoY scale 0% to -45%
+- Legend: ARPU (Gray), % y-y (Red)
+
+[Data Relationships]
+- FY22: ARPU 170.1; YoY -42.7%
+- FY23F: ARPU 162.7; YoY -4.3%; Difference from FY22 -7.4
+- FY24F: ARPU 154.1; YoY -5.3%; Difference from FY23F -8.6
+- FY25F: ARPU 152.9; YoY -0.8%; Difference from FY24F -1.2
+- FY26F: ARPU 152.5; YoY -0.3%; Difference from FY25F -0.4
+- ARPU Peak: 170.1 (FY22); Trough: 152.5 (FY26F); High-low variance 17.6
+- Highest YoY value (approaching 0): -0.3 (FY26F); Lowest: -42.7 (FY22); Variance of 42.4 percentage points
+
+[Pattern Characteristics]
+ARPU shows a step-wise decline from the initial year onward. The decrease was substantial in the first two years, while the magnitude of change significantly narrowed in the subsequent two years, generally trending toward a near-horizontal level. The YoY curve rapidly rebounded from an extremely low value to near zero, oscillating slightly around zero in the subsequent three years, forming a single phased structure characterized by an initial sharp movement followed by moderation, with no signs of reversal, upward surge, or severe anomalies.
+
+[Core Insights]
+Core Conclusion: ARPU is in a phase of slow decline, with YoY growth converging toward near zero.
+
+Business Implications:
+- Revenue contribution per unit (ARPU) is under pressure but stabilizing.
+- Revenue changes provide limited driving force for overall growth.
+- Future improvement relies more heavily on scale expansion or structural adjustments.
+
+Risk Focus:
+- If ARPU falls below 150 again, it will directly compress revenue potential.
+- If YoY growth drops below -5% again, it may trigger a downward revision of earnings targets.

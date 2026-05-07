@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Data Table
+- Title: Not Displayed
+- Number of rows: 10
+- Columns: ASSET ID, LATITUDE, LONGITUDE, COUNTRY, CITY, ZIP-CODE, ISSUER ID, ISSUER NAME, ISSUER MAPPING ACCURACY, AFFILIATION TYPE, ACTIVITY_AT_ASSET, SOURCES, QUALITY
+- Legend: None
+- Units/Timeline: Not labeled; Data sources are in the "SOURCES" column (US EPA, E-PRTR, MSCI Manual)
+
+[Data Relationships]
+- Issuer: Volkswagen 5, COCA‑COLA 5.
+- Accuracy range 0.73–1.00; 8 instances of 1.00.
+- Affiliation: Operator 9, Owner 1 (Row 9).
+- Minimum Quality 2.45 (Osnabrück, Germany), Maximum 5.00 (Oberhausen, Germany), difference 2.55.
+- Activity: Office 4; Manufacturing 2; Retail, Production, Industrial, Industrial Terminal & Distribution Center 1 each.
+- Country: Germany 2; USA, Mexico, Spain, China, Singapore, India, Australia, Belgium 1 each.
+
+[Pattern Characteristics]
+- Records are equally distributed between the two issuers, covering multiple countries geographically, with slight national-level clustering observed.
+- Mapping accuracy is mostly close to the upper limit, with a few instances being lower; affiliation types are predominantly of one category, with exceptions present.
+- Activity types show a multi-category distribution; Quality scores differ significantly, with extreme high and low values appearing in the same country.
+
+[Core Insights]
+Core Conclusion: Broad coverage and credible mapping; caution is required for a few low-quality and low-accuracy instances.
+
+Business Implications:
+- Affiliation determination is generally acceptable
+- Predominantly based on operational relationships, which facilitates standardization of metrics
+- Diverse scenarios require categorized management and comparison
+
+Risk Focus:
+- Accuracy ≤ 0.85: Prone to affiliation mismatch, affecting aggregated results
+- Quality ≤ 3.2: Conclusions are unstable when used for assessment, requiring manual review

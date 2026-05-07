@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Dual-axis combination chart (Red bars represent 1W, black squares represent YTD, rhs).
+- Title: No explicit title displayed; legend labels are "1W" and "YTD (rhs)".
+- X-axis: Industry/Country categories, labels are dense and displayed rotated (e.g., CH Autos/Comps, KR SoftwareSvcs).
+- Left Y-axis (corresponding to 1W): Range approximately -12 to +12 (Unit: percentage points).
+- Right Y-axis (corresponding to YTD): Range approximately -35 to +35 (Unit: percentage points).
+- A blue integer marking the 1W value for that category is displayed at the top of each red bar.
+
+[Data Relationships]
+- The maximum 1W value is 11 (1st item from the left), the minimum is -5 (1st item from the right); the high-low spread is 16 percentage points.
+- The first few 1W values on the left are sequentially 11, 7, 5, 4, 3, 3, 3, 2, 2, 2, 1, 1, 1, 1... "0" appears multiple times in the middle section, and the latter section ranges from -1 to -5.
+- The 1W difference between the beginning and the end of the period is 16 percentage points.
+- YTD uses the right axis (-35 to +35); the black squares may have a different sign than the 1W value for the same category (only stating the sign relationship).
+
+[Pattern Characteristics]
+The red bars are arranged by 1W from high to low, with a significant high point on the left, followed by a stepped decrease, multiple items near zero in the middle section, and slightly negative values at the end. The black squares are scattered along the right axis, showing a large magnitude span, and exhibit opposite signs to the red bars in multiple categories, with no obvious linear correlation. The overall structure consists of a single high point, a dense band of zero values, and a negative tail, accompanied by a few YTD outliers.
+
+[Core Insights]
+Core Conclusion: Short-term returns are not synchronized with year-to-date accumulation, requiring layered management.
+
+Business Implications:
+- Contribution primarily originates from a small number of categories.
+- Single-week results are insufficient to determine the annual landscape.
+- Position adjustments require separate consideration of both time dimensions.
+
+Risk Focus:
+- When 1W ≤ -5: Portfolio single-week drawdown expands significantly.
+- When YTD ≤ -30: Year-to-date losses drag down overall returns.

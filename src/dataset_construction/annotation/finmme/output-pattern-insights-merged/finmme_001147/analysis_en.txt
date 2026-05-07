@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Bar chart; Title: Average sales growth y-y 9M23.
+- The left side features three average value panels; the right side shows vertical bars corresponding to individual company codes.
+- The vertical axis represents percentages, scaled approximately from -20% to 160%; the horizontal axis represents codes (e.g., RALS, SIDO…PANR).
+- Legend: Green=Leisure; Yellow=Discretionary; Red=FMCG.
+- Numerical labels are present at the top of each bar.
+
+[Data Relationships]
+- Category Averages: FMCG 9.1%; Brick and mortar retailer 22.5%; Leisure 59.2%.
+- Lowest: RALS -10.9%; Other negative values: SIDO -9.7%, UNVR -3.3%, ROTI -0.9%.
+- Near zero: LPPF 0.3%.
+- Mid-range examples: ERAA 22.5%; MAPI 25.4%; BIRD 28.7%; GIAA 48.3%.
+- Highest sequence: BUVA 88.9%; CMPP 95.7%; CLAY 112.5%; Peak PANR 140.4%.
+- Range: 140.4% - (-10.9%) = 151.3 percentage points.
+
+[Pattern Characteristics]
+The overall distribution shows wide dispersion, with individual stock growth rates ranging from significantly negative to extremely high positive values, indicating a large range. Significant internal variation exists within each color segment; the same segment contains both low-performing and high-performing companies, lacking concentrated convergence. The green bars on the right side are densely arranged in the high-value region, forming a sequence of long bars distinctly higher than the other colors, while the left side concentrates a group of short bars near zero or negative.
+
+[Core Insights]
+Core Conclusion: Performance divergence is extreme among companies, sectors, and individual entities.
+
+Business Implications:
+- The overall sales growth structure is uneven, with significant disparity between the highest and lowest performers.
+- Sector averages have limited reference value; company-level judgment is required.
+- High-growth companies are likely to dominate portfolio return contribution.
+
+Risk Focus:
+- Stocks with growth rates below 0% may drag down overall portfolio returns.
+- Stocks with growth rates exceeding 100%, if expectations are revised, may trigger valuation pullbacks.

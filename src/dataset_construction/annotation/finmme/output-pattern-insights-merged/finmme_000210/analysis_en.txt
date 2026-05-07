@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Combination of bar chart and line graph.
+- Legend: Red bars represent "Gross margin," black line represents "Annual average."
+- Y-axis: Unit (INR/scm), range approximately 0–25.
+- X-axis: Quarterly category labels are 1QFY18, 3QFY18, 1QFY19, 3QFY19, 1QFY20, 3QFY20, 1QFY21, 3QFY21, 1QFY22, 3QFY22, 1QFY23, 3QFY23, 1QFY24, 3QFY24.
+
+[Data Relationships]
+- Initial value (1QFY18) ≈ 12; Final value (3QFY24) ≈ 19.
+- Highest bar (1QFY24) ≈ 22; Second highest (1QFY22) ≈ 19; Lowest (3QFY22) ≈ 9; Range ≈ 13.
+- 1QFY20 bar ≈ 15, higher than 1QFY18 by ≈ 3.
+- Annual Average: FY18 ≈ 12, FY19 ≈ 13, FY20 ≈ 15, FY21 ≈ 17, FY22 ≈ 14.5, FY23 ≈ 15, FY24 ≈ 20.5.
+- FY24 average is higher than FY23 by ≈ 5.5, and higher than FY18 by ≈ 8.5.
+- 3QFY22 bar ≈ 9, lower than the FY22 average of ≈ 14.5, difference ≈ 5.5.
+
+[Pattern Characteristics]
+The bars show a phased, step-like structure; the annual average line increased from FY18 to FY21, retracted in FY22, and formed a higher plateau in FY24. Peak occurred in 1QFY24, significant low point in 3QFY22; the gap between the quarterly and annual average was largest in FY22. Structure is unbalanced, dominated by a few high values and a single low value.
+
+[Core Insights]
+Core Conclusion: The FY24 annual gross margin level leads historical performance.
+
+Business Implications:
+- Reflects stronger profitability and unit revenue.
+- FY22 demonstrates sensitivity to single-quarter shocks.
+- The FY24 annual average is close to the high point, indicating better allocation efficiency.
+
+Risk Concerns:
+- When quarterly gross margin is ≤ 9 (INR/scm), the annual average may drop to ≈ 14.5, leading to profit contraction.
+- An annual average < 15 (INR/scm) would be comparable to FY20/FY23, weakening profitability.

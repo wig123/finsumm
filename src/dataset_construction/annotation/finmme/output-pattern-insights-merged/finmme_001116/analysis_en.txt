@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Line chart
+- Title: Household loan growth (y-y) breakdown by type
+- X-axis: Quarter, ranging from 1Q21 to 4Q23
+- Y-axis: Year-over-Year (YoY) growth rate (percentage), ranging approximately from -10% to 30%, including reference lines at 0%, 10%, and 20%
+- Legend: 4 series—Total domestic household loans (Gray), Personal business loans (Red), Non-mortgage consumer loan (Orange), Mortgage loans (Light Orange)
+
+[Data Relationships]
+- 1Q21 Values: Total approximately 16%; Personal business loans approximately 24%; Non-mortgage consumer loan approximately 14%; Mortgage loans approximately 13%.
+- 4Q23 Values: Total approximately 6%; Personal business loans approximately 17%; Non-mortgage consumer loan approximately 14.5%; Mortgage loans approximately -1%.
+- Personal business loans peaked at approximately 20% (2Q23), bottomed at approximately 15% (2Q22), with a range difference of approximately 5 percentage points.
+- Non-mortgage consumer loan bottomed at approximately 4% (4Q22), peaked at approximately 14.5% (4Q23), with a range difference of approximately 10.5 percentage points.
+- Mortgage loans peaked at approximately 13% (1Q21), bottomed at approximately -1% (4Q23), with a range difference of approximately 14 percentage points.
+- The Total series peaked at approximately 16% (1Q21), bottomed at approximately 5% (4Q22), with a range difference of approximately 11 percentage points.
+- 4Q23 Comparison: Personal business loans were approximately 2.5 percentage points higher than Non-mortgage consumer loans; approximately 11 percentage points higher than the Total; and the Total was approximately 7 percentage points higher than Mortgage loans.
+
+[Pattern Characteristics]
+Overall, all series showed a synchronized decline from 2021 to the end of 2022, after which the Total and the two consumption-related loan categories diverged. Personal business loans remained in the highest range throughout the period, exhibiting relatively small volatility. Non-mortgage consumer loans showed a unilateral increase after hitting a local low point at the end of 2022, while Mortgage loans broke below the zero axis around the same time and continued to hover near or below zero. The Total series, meanwhile, fluctuated narrowly at a low-to-moderate level.
+
+[Core Insights]
+Core Conclusion: Household credit growth has shifted from mortgages to non-mortgage consumption and commercial business operations.
+
+Business Implications:
+- Housing-related demand has weakened, and the focus of the loan structure has changed.
+- The aggregate volume relies more heavily on business operation and consumer credit support.
+- Asset portfolios show increased sensitivity to different loan types.
+
+Risk Concerns:
+- Mortgage growth persistently below 0% may drag down asset quality and Net Interest Margin (NIM) performance.
+- Non-mortgage consumer loan growth consistently above 15% may lead to increased concentration risk and default exposure.

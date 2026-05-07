@@ -1,0 +1,35 @@
+[Chart Components]
+- Type: Red Line Chart
+- Title: Not displayed
+- X-axis: Time, range Dec-23 to Feb-24; includes three thick black vertical line event markers (①②③), plus a text annotation ④
+- Y-axis: Index Points, scale and range: 2400, 2500, 2600, 2700
+- Legend: Bottom left "KOSPI Index"
+
+[Data Relationships]
+- Initial period approximately 2520
+- End of Dec approximately 2490
+- Mid-Jan approximately 2600
+- At ① approximately 2620; highest point before ① approximately 2670
+- Lowest point for the entire period approximately 2435 (End of Jan)
+- ② approximately 2465; ③ approximately 2480; ④ approximately 2610
+- Early Feb approximately 2500
+- Final period approximately 2590
+- Difference between high and low approximately 235 points
+- Final period is approximately 70 points higher than the initial period; change from the low point to ④ is approximately +175 points
+
+[Pattern Characteristics]
+- The index exhibits a volatile structure within the sample period, characterized by an initial rise, followed by a decline, and then a renewed uplift in the final segment, oscillating within a limited range overall.
+- After forming a phase high near ①, the trend experienced a continuous pullback, established the period's low area near ②, and subsequently rebounded rapidly after ③ to the high platform near ④.
+- The vicinity of the three vertical event lines corresponds to local inflection points; specifically, a direction reversal immediately followed ①, and after ② and ③, the index gradually moved out of the low area, forming a new high zone around ④.
+
+[Core Insights]
+Core Conclusion: The index has re-established itself in the high range following a significant short-term correction.
+
+Business Implications:
+- The phase price adjustment was sufficient; the current level is higher than the initial period.
+- Rebalancing of buying and selling pressure occurred after event ①, indicating high emotional sensitivity.
+- The range from ② to ④ demonstrates a clear recovery from the low area.
+
+Risk Concerns:
+- A breach below the period low of 2435 could trigger further position reduction and outflow.
+- Repeated resistance near 2620 without a breakthrough may lead to concentrated profit-taking by short-term trading accounts.

@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Line chart; Color: Red.
+- Legend: % of loans had interest rate below the LPR.
+- X-axis: Time (Month), Range 2019-08 to 2023-12, labeled bi-monthly.
+- Y-axis: Proportion (%), Scale 10.00 to 45.00, Interval 5.
+- Title: No separate title observed (variables explained by the legend).
+
+[Data Relationships]
+- Initial period (2019-08) approximately 15.5%; Final period (2023-12) approximately 42%.
+- Highest point approximately 42% (2023-12); Lowest point approximately 15.5% (2019-08); Difference between high and low approximately 26.5 percentage points.
+- 2020-02 approximately 31%, 2020-04 approximately 20.5%, the difference is approximately 10.5 percentage points.
+- Near 2021-03 approximately 21.5%.
+- 2022-06 approximately 29%, 2022-10 approximately 34.5%, a difference of approximately 5.5 percentage points.
+- 2023-10 approximately 38%, about 4 percentage points lower than 2023-12.
+
+[Pattern Characteristics]
+The overall curve shows a stepwise increase from the starting point to the final period, accompanied by multiple moderate pullbacks and rebounds. A sharp, brief spike occurred at the beginning of 2020, followed by a rapid decline, then sideways consolidation near 2021, before entering a more continuous upward trend segment after 2022. No significant sharp drop exceeding previous highs occurred throughout the period; local fluctuations mainly consisted of minor rises and falls over several periods.
+
+[Core Insights]
+Core Conclusion: The proportion of loans with interest rates below the LPR continues to rise and reached a phase high at the end of the period.
+
+Business Implications:
+- The preferential degree of loan pricing relative to the LPR is increasing.
+- The loan portfolio's reliance on the interest rate floor constraint is increasing.
+- Net interest margin (NIM) space and profit structure rely more heavily on refined pricing management.
+
+Risk Concerns:
+- When the proportion remains above 40% for a long time, if asset yields do not match, it may compress net interest margin (NIM) income.
+- If the proportion rapidly drops by 10 percentage points from 40% in the short term, it may reflect income volatility caused by adjustments in pricing strategy.

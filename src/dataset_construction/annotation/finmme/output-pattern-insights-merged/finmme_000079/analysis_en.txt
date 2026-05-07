@@ -1,0 +1,41 @@
+[Chart Components]
+- Type: Bar Chart
+- Title: None (Inferred from chart content as Consumption Category Comparison)
+- Axes: Vertical axis is percentage (0% - 25%); Horizontal axis is consumption category (Saving, Food, Leisure, FMCG, Transport, Education, Fashion, Telecom, Health, Other)
+- Legend: Red represents 2018; Black represents 3Q23
+
+[Data Relationships]
+- Key Metrics and Changes:
+  - `Saving` was 20% in 2018, 16% in 3Q23.
+  - `Food` was 20% in both years.
+  - `Leisure` was 15% in 2018, 17% in 3Q23.
+  - `FMCG` was 10% in 2018, 11% in 3Q23.
+  - `Transport` was 8% in both years.
+  - `Education` was 7% in 2018, 10% in 3Q23.
+  - `Fashion` was 7% in both years.
+  - `Telecom` was 4% in 2018, 5% in 3Q23.
+  - `Health` was 3% in both years.
+  - `Other` was 6% in 2018, 3% in 3Q23.
+
+- Extremum Comparison:
+  - `Saving` held the highest proportion in 2018, at 20%.
+  - `Food` held the highest proportion in 3Q23, at 20%.
+
+- Significant Trends:
+  - `Leisure`, `FMCG`, `Education`, and `Telecom` showed growth in 3Q23 compared to 2018.
+  - `Saving` and `Other` showed a decline in 3Q23 compared to 2018.
+
+[Pattern Characteristics]
+- The two years are close across most categories, with differences concentrated in a few items. The top categories are dominated by Saving and Food, though the sequence changed in the latest period, with Leisure and Education moving higher. The overall distribution is diversified; the lower end clusters around Health, Telecom, and Other, with Other relatively moving backward.
+
+[Core Insights]
+Core Conclusion: (Food leads the top categories, followed by Savings; Education and Leisure weights are prominent)
+
+Business Implications:
+- Budget allocation relies more heavily on top categories
+- Savings weight is low, pressuring retention capability
+- Long-tail categories have reduced influence
+
+Risk Concerns:
+- Saving≤16%: The largest item was replaced by Food, increasing concentration
+- Other≤3%: Long-tail contraction, decreasing diversity

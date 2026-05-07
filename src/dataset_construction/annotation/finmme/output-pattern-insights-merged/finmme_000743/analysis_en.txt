@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Dual Line Chart
+- Title: Not displayed
+- X-axis: Quarterly timeline, ranging from 2020 Q1 to 2023 Q3
+- Y-axis: Percentage scale, labeled “Change vs. 2019 baseline,” approximately -80% to 100%, including the 0% horizontal baseline
+- Legend: Dark line “NTE:NTE 35W 3A & 3B”; Light line “LBJ”
+
+[Data Relationships]
+- 2020 Q2: NTE ≈ -45%, LBJ ≈ -70%, Difference ≈ 25 percentage points
+- 2021 Q4: NTE ≈ 50%, LBJ ≈ 0%, Difference ≈ 50 percentage points
+- 2022 Q2: NTE ≈ 65%, LBJ ≈ 10%, Difference ≈ 55 percentage points
+- 2023 Q2: NTE peak ≈ 85%, LBJ ≈ 10%, Difference ≈ 75 percentage points
+- 2023 Q3 (Period end): NTE ≈ 70%, LBJ ≈ 10%, Difference ≈ 60 percentage points
+- NTE peak-to-trough difference ≈ 130 percentage points (-45% to 85%); LBJ ≈ 80 percentage points (-70% to 10%)
+
+[Pattern Characteristics]
+Both lines were simultaneously at a low point in 2020 Q2, after which they trended upward overall and remained above the 0% line for an extended period, though NTE's magnitude of increase was significantly greater. NTE formed multiple high-point plateaus between 2022 and 2023 and experienced a slight pullback, while LBJ fluctuated narrowly near 0% and lacked significant new highs. The gap between the two has continuously widened since 2021, remaining at a high level through 2023, with no apparent convergence.
+
+[Core Insights]
+Core Conclusion: NTE consistently outperforms LBJ, and its advantage is expanding.
+
+Business Implications:
+- A structural difference has emerged in the relative performance of the two.
+- The allocation of resources or attention toward NTE exhibits greater value sensitivity.
+- LBJ's contribution to the overall portfolio may be continuously diluted.
+
+Risk Concerns:
+- If NTE falls back from 70% to near 0%, the overall incremental contribution will be significantly weakened.
+- If LBJ remains below -20% for an extended period, it may drag down overall portfolio performance and allocation efficiency.

@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Grouped Bar Chart
+- Title: PAR 31-90
+- Legend: FY22 (Red), 1Q23 (Gray), 1Q24 (White)
+- X-axis: Loan Categories (Personal loans, Consumer durables, Credit cards, Home loans, Auto loans)
+- Y-axis: Percentage Scale, Range 0.0%—3.5%, Interval approximately 0.5%
+- Data Labels: Specific percentages marked at the top of each bar
+
+[Data Relationships]
+- FY22: Personal loans 2.2%, Consumer durables 0.9%, Credit cards 2.5%, Home loans not displayed, Auto loans 3.3%.
+- 1Q23: Personal loans 2.1%, Consumer durables 1.0%, Credit cards 2.4%, Home loans 2.1%, Auto loans 2.9%.
+- 1Q24: Personal loans 1.7%, Consumer durables 1.0%, Credit cards 2.2%, Home loans 2.1%, Auto loans 2.3%.
+- High-Low Spread per Period: FY22 high 3.3% (Auto loans) low 0.9% (Durables), difference 2.4 percentage points; 1Q23 high 2.9% low 1.0%, difference 1.9 percentage points; 1Q24 high 2.3% low 1.0%, difference 1.3 percentage points.
+- FY22 vs. 1Q24 Comparison (Percentage Points): Personal loans -0.5, Durables +0.1, Credit cards -0.3, Home loans N/A, Auto loans -1.0.
+
+[Pattern Characteristics]
+Overall, the values for each category across the three periods are concentrated within a narrower range, and the high-low spread is progressively narrowing. Personal loans, Credit cards, and Auto loans show a unidirectional change from high to low over the timeline, while Consumer durables and Home loans generally remain at a consistent level across the three periods. A structural hierarchy consistently shows Auto loans as the highest and Consumer durables as the lowest among categories, with no prominent single-period spikes or extreme values observed.
+
+[Core Insights]
+Core Conclusion: Short-term delinquency levels are generally converging, and structural differences are diminishing.
+
+Business Implications:
+- Default performance across categories is converging, leading to a more concentrated distribution.
+- The gap between Auto loans and other categories is narrowing, resulting in a more balanced portfolio structure.
+- Home loans and Durables are stable in the short term, which is beneficial for forecasting the overall fluctuation range.
+
+Risk Concerns:
+- Should any category approach 3.0% again, it would significantly increase the portfolio's non-performing exposure.
+- Should the high-low spread exceed 2.0 percentage points again, a single category would create concentration risk pressure.

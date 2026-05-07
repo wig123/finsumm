@@ -1,0 +1,35 @@
+【图表构成】
+- 图表类型：水平条形图
+- 标题：Change vs. 2017 (%)
+- 横轴：百分比刻度，范围约为 -20% 至 120%，含 0% 标记
+- 纵轴：国家/地区类别：Vietnam、Thailand、Taiwan、Malaysia、Philippines、Indonesia
+- 图例：未显示
+
+【数据关系】
+- Vietnam：98%（最高）
+- Thailand：49%
+- Taiwan：8%
+- Malaysia：-1%
+- Philippines：-3%
+- Indonesia：-8%（最低）
+- 最高与最低差值：106 个百分点（98% 与 -8%）
+- Vietnam 与 Thailand 差值：49 个百分点
+- Thailand 与 Taiwan 差值：41 个百分点
+- Taiwan 与 Malaysia 差值：9 个百分点
+- Philippines 与 Malaysia 差值：2 个百分点（-3% 与 -1%）
+- Indonesia 与 Philippines 差值：5 个百分点（-8% 与 -3%）
+
+【模式特征】  
+各条形长度在不同国家间差异明显，Vietnam 显著长于其他条形。Thailand 位于中高水平，其余四个国家的条形长度相近且集中在零附近，其中 Malaysia、Philippines、Indonesia 三者条形向负向延伸但幅度较小。整体呈现单一高值、一个中值与多项低值分组结构。
+
+【核心洞察】  
+核心结论：区域表现极度分化，Vietnam 远超其他市场。
+
+业务含义：  
+- 整体由少数市场贡献主要增量。  
+- 资源和关注度易向 Vietnam、Thailand 集中。  
+- 对台湾及三国的投入成效相对有限。
+
+风险关注：  
+- 若 Vietnam 增幅回落至 20% 以下，整体增长将明显削弱。  
+- 若 Indonesia 继续低于 -8%，可能拖累区域平均表现。

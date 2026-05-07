@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Multiple Line Chart
+- Title: Not displayed
+- X-axis: Ticks labeled 10, 11…22, 23F, 24F, 25F
+- Y-axis: -50% to 30%, increments of 10%, including the 0% baseline
+- Legend: OLED (Black), LCD (Gray), Total (Red)
+- Others: The LCD curve is not plotted after 22
+
+[Data Relationships]
+- OLED range approximately -2% to 22% (Low point ≈ 15, High point ≈ 21)
+- LCD range approximately -45% to 15% (Low points ≈ 20 and 22, High point ≈ 17)
+- Total range approximately -8% to 24% (Low point ≈ 19, High point ≈ 24F)
+- At 21: OLED≈22%, LCD≈0%, Total≈15%
+- At 20: OLED≈15%, LCD≈-45%, Total≈-5%; Difference between OLED and LCD ≈ 60 percentage points
+- At 17: OLED≈22%, LCD≈15%, Total≈22%
+- 23F–25F: Total≈20%–23%, OLED≈16%–20%
+
+[Pattern Characteristics]
+- The three curves generally fluctuate around 0%; OLED and Total are mainly distributed in the positive range, while LCD shows a significant negative range in the middle-to-late section and is missing after 22.
+- The trend patterns of OLED and Total are similar at most points, while LCD shows a clear divergence from the two near 16–22, significantly impacting the local low points of Total.
+- Only OLED and Total remain in the 23F–25F range; both fluctuate narrowly within a higher range, showing a more concentrated pattern than the preceding period, without extreme low values.
+
+[Core Insights]
+Core Conclusion: Overall performance is dominated by OLED, with LCD acting as a significant drag during certain phases.
+
+Business Implications:
+- The overall result has a high dependency on OLED performance.
+- The sluggish period of LCD weakens the comprehensive performance of Total.
+- In subsequent forecasts, Total is expected to maintain a relatively favorable level.
+
+Risk Focus:
+- When LCD falls below -40%, Total is prone to dropping near 0%, affecting overall target achievement.
+- If OLED retreats below 5%, Total will struggle to maintain levels above 15%.

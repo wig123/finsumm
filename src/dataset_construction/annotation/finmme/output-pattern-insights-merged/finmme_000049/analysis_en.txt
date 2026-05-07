@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Financial Comparison Table
+- Columns: 3Q24FY results, Nomura estimate, Diff %, Consensus, Diff %, 2Q24FY results, q‑q (%), 3Q23FY results, y‑y (%)
+- Units: USD million; EPS in USD; margin(%) differences noted in percentage points
+- Rows: Total sales, Gross profit, Pretax profit, Net profit, EPS; and Gross/Pretax/Net margin(%)
+
+[Data Relationships]
+- Total sales: 3Q24FY was USD 15,721 million; 0.7% decrease compared to estimate; consensus was USD 15,361 million, 2.3% increase compared to consensus; 2Q24FY was USD 14,410 million (9.1% MoM growth); 3Q23FY was USD 15,267 million (3.0% YoY growth)
+- Gross profit: 3Q24FY was USD 2,601 million; 3.7% decrease compared to estimate; consensus was USD 2,673 million, 2.7% decrease compared to consensus
+- Pretax profit: 3Q24FY was USD 377 million; 14.3% decrease compared to estimate; consensus was USD 407 million, 7.4% decrease compared to consensus
+- Net profit: 3Q24FY was USD 337 million; 11.1% increase compared to estimate; consensus was USD 305 million, 10.5% increase compared to consensus
+- EPS: 3Q24FY was USD 0.028; estimate was USD 0.025; consensus was USD 0.024
+- Margin(%): Gross margin was 16.5% (0.5 percentage point decrease compared to estimate, 0.9 percentage point decrease compared to consensus); Pretax profit margin and Net profit margin were 2.4% and 2.1% respectively (0.4 percentage point decrease and 0.2 percentage point increase compared to estimate, and 0.3 percentage point decrease and 0.2 percentage point increase compared to consensus, respectively)
+
+[Pattern Characteristics]
+- Results show mixed variance against reference values: Revenue was higher than consensus but lower than estimate; Gross profit and Pretax profit were lower than reference; Net profit and EPS were higher than reference.
+- MoM results were generally at a higher level, with Net profit growth being relatively more prominent; YoY revenue was slightly stronger, but the profit side significantly weakened.
+- In the margin structure, Gross margin and Pretax margin were relatively low, while Net margin was slightly high, indicating insufficient internal consistency.
+
+[Core Insights]
+Core Conclusion: Earnings composition does not match market expectations
+
+Business Implications:
+- Weak correlation between earnings and revenue
+- Pretax stage suppresses overall profitability efficiency
+- Net result exceeded expectations, structural mismatch
+
+Risk Focus:
+- Gross margin < 17.1%: May trigger downward revision of earnings expectations
+- Pretax profit margin < 2.7%: Pretax profit consistently below consensus

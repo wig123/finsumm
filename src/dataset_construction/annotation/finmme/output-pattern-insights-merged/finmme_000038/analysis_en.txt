@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Dual-axis column and line combination chart
+- Legend: Red columns represent "Disbursements (INR bn)," Black line represents "Growth (YoY) (%)" (Right Axis)
+- X-axis: Quarterly labels, ranging from 4QFY22 to 3QFY24, totaling 8 quarters
+- Left Y-axis: Amount scale from 0 to 400 (INR bn)
+- Right Y-axis: YoY growth rate scale from 0% to 50%
+
+[Data Relationships]
+- Disbursement Amount (INR bn): 4QFY22 is 245, 1QFY23 is 251.15, 2QFY23 is 258, 3QFY23 is 292, 4QFY23 is 311, 1QFY24 is 305, 2QFY24 is 346, 3QFY24 is 366
+- Year-over-Year Growth Rate (YoY %): 4QFY22 is 14%, 1QFY23 is 45%, 2QFY23 is 21%, 3QFY23 is 26%, 4QFY23 is 27%, 1QFY24 is 21%, 2QFY24 is 34%, 3QFY24 is 25%
+- Maximum disbursement amount is 366 (3QFY24), minimum is 245 (4QFY22), difference is 121
+- Maximum YoY growth rate is 45% (1QFY23), minimum is 14% (4QFY22), difference is 31 percentage points
+- Disbursement difference between 4QFY23 and 1QFY24 is 6; difference between 2QFY24 and 3QFY24 is 20; difference between 3QFY23 and 4QFY23 is 19
+- The YoY growth rates for 2QFY23 and 1QFY24 are both 21%
+
+[Pattern Characteristics]
+The columns generally show a step-like upward trend, with a brief dip midway, refreshing the high point at the end. The line first shows a single peak reaching the top, then declines, forming a relatively low plateau in the middle section, before rising again and then falling back. The extremes of volume and growth rate are asynchronous, indicating multiple inflection points.
+
+[Core Insights]
+Core Conclusion: Disbursement volume is expanding, but the pace of growth is uneven.
+
+Business Implications:
+- Scale expansion leads to a higher volume base
+- The growth rate peak precedes the volume peak, impacting timing decisions
+- Recent growth rate is in the middle range, sustainability requires verification
+
+Risk Focus:
+- If YoY drops near 14%, it may be difficult to create a new volume peak
+- Disbursements below 245 would cause the quarterly volume to hit a new phase low

@@ -1,0 +1,29 @@
+[Chart Components]
+- The page contains 3 charts.
+1) Line chart, title "Higher immigration means labor force growth might be substantially higher than previously estimated". Y-axis "(% y/y)" approximately -2.0 to 2.0; X-axis 2014–2025. Legend: Labor force growth (solid green line), CBO projection Jul 2023 (dashed orange line), CBO projection Feb 2024 (dashed red line).
+2) Stacked bar + line chart, title "Capex trend looks solid…". Y-axis "(pp)" approximately -15 to 25; X-axis 2008–2024. Legend: Business fixed investment (% y/y) (black line); Equipment ex-information processing, Information processing equipment & IP, Oil-related structures, Non‑oil‑related structures (colored bars).
+3) Line chart, title "Wage growth is likely to slow in 2024…". Y-axis "(% y/y)" approximately 1.0–5.0; X-axis 2004–2025. Legend: Employment cost index, wages and salaries (solid green line); Implied by job openings rate (dashed green line); Implied by job quits rate (dotted dashed line).
+
+[Data Relationships]
+- Labor force growth green line: 2020 low point approximately -1.5%, 2022 high point approximately 2.0%, 2025 approximately 1.0%.
+- CBO Jul 23 projection 2023 ≈ 1.0%, to 2025 ≈ 0%; Feb 24 projection 2023 ≈ 1.7%, to 2025 ≈ 0.8%.
+- Capex black line: 2009 ≈ -10%, 2020 ≈ -10%, 2011–2012 and 2021 ≈ 10%.
+- Total bars: 2020 approximately -10pp, 2021 approximately +10pp, 2024 approximately 0–5pp; black line 2024 ≈ 5%.
+- Wages: ECI 2022 peak ≈ 5.0%, 2009–2010 trough ≈ 1.5%, 2024 ≈ 4%; "openings" 2024 ≈ 3%; "quits" 2024 ≈ 2.7%; all three lines 2025 approximately 3%.
+
+[Pattern Characteristics]
+1) The actual labor force growth curve showed a significant dip around 2020 followed by a rapid surge, and then gradually retreated. The two projection curves, starting from 2023, are generally near the actual curve but appear slightly smoother with a gentler slope. The three curves converge around 2025, showing a structure moving from divergence toward proximity.
+2) Capex growth rate shifted from negative to positive multiple times during the sample period, forming several distinct high and low cycles. A deep trough occurred in 2020, followed by a recovery to a moderately high positive range. The stacked bars indicate that the contribution of individual sub-items shows phased dominance, with the overall trend gradually shifting from being driven by a few single items to being jointly contributed by multiple items, while volatility narrows.
+3) Wage growth remained in a low range for a long period after the financial crisis, forming a prominent peak around 2022. Subsequently, all three wage-related curves trend downward from their high points and converge near 2025. The two curves derived from job openings and quit rates decline earlier and lead the actual indicator in convergence.
+
+[Core Insights]
+Core Conclusion: Under improved labor supply, investment continues to expand, while wage growth is returning to the central tendency.
+
+Business Implications:
+- Labor supply expectations are revised upward, alleviating pressure from labor shortages.
+- Capex remains in the positive range, helping to sustain capacity expansion.
+- Wage indicators converge with leading signals, and compensation enters a more stable range.
+
+Risk Concerns:
+- Risk 1: If labor force growth approaches 0 or turns negative again, it may push up labor costs once more.
+- Risk 2: If capex growth rate falls below -5%, it may drag down capacity and growth prospects.

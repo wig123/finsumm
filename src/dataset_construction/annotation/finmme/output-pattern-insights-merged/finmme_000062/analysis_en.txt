@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Doughnut Chart
+- Title: Not displayed
+- Legend and Colors: BDC (Dark Blue), Non-traded REIT (Teal), Tender Offer (Light Green), Interval Fund (Magenta)
+- Axes: None
+
+[Data Relationships]
+- Category Values: BDC $143bn; Non-traded REIT $99bn; Interval Fund $62bn; Tender Offer $48bn
+- Total Volume: $352bn
+- Ranking (High to Low): BDC $143bn > Non-traded REIT $99bn > Interval Fund $62bn > Tender Offer $48bn
+- Difference between Highest and Second Highest: $44bn (143−99)
+- Difference between Highest and Lowest: $95bn (143−48)
+- Aggregate of BDC and Non-traded REIT: $242bn
+- Aggregate of Interval Fund and Tender Offer: $110bn
+- Difference between the Two Groups: $132bn (242−110)
+
+[Pattern Characteristics]
+- The distribution exhibits a single dominant form, with the largest sector occupying a significant proportion.
+- The remaining three categories show a hierarchy from large to small, with the two smaller sectors being relatively close in size.
+- The difference in area between the upper and lower groups is significant, indicating an overall structural imbalance.
+
+[Core Insights]
+Core Conclusion: Allocation focus is on BDC, followed by Non-traded REIT.
+
+Business Implications:
+- The primary category is clear, leading to a defined decision path.
+- The portfolio exhibits higher sensitivity to BDC.
+- The influence of secondary categories is limited.
+
+Risk Considerations:
+- BDC ≤ $99bn: Primary category weakens, rebalancing costs increase.
+- Aggregate of the two smaller categories ≥ $132bn: Structure is rewritten, strategy requires adjustment.

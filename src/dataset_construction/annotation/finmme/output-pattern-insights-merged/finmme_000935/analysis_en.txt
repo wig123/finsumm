@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Combination chart (Red bar chart + Black line graph)
+- Title: Not displayed
+- X-axis: Fiscal Year labels FY09 to FY26F (including forecast indicators 'F' for FY24F–FY26F)
+- Left Y-axis: Revenue (INR bn), scale approximately 0–350
+- Right Y-axis: % y-y (YoY), scale -30% to 40%
+- Legend: Red Bar = Revenue (INR bn); Black Line = % y-y (YoY)
+
+[Data Relationships]
+- Initial period FY09 revenue approximately 80–100; final period FY26F approximately 300, difference approximately 200.
+- Key Revenue Figures: FY21≈130, FY22≈160, FY23≈195, FY24F≈220, FY25F≈250, FY26F=300; sequential differences are approximately +30, +35, +25, +30, +50, respectively.
+- Revenue Peak: FY26F≈300; Trough: FY09≈80–100.
+- % y-y (YoY) Peak: FY21≈35%; Trough: FY20≈-20% to -25%; FY26F≈20%; FY09≈15%; FY12≈28%–30%.
+
+[Pattern Characteristics]
+Overall, the red bar chart representing revenue shows a continuous upward trend from start to finish, with no significant decline in the middle, only a relative narrowing of the growth rate during the mid-period. The black line graph (YoY) shows multiple large fluctuations during the sample period, forming several local peaks and troughs. Notably, FY20 saw a significant downward extreme, followed by a rapid reversal to the prominent high point in FY21. During the forecast period, the revenue bars continue to increase, while the line graph remains within the positive range, showing narrow fluctuations at a moderate level.
+
+[Core Insights]
+Core Conclusion: Revenue scale is expanding, but the growth pace has fluctuated significantly, trending towards moderation in the forecast period.
+
+Business Implications:
+- Historically, growth stability has been insufficient, with periods of contraction.
+- Expansion momentum has increased recently, leading to a noticeable enlargement of revenue volume.
+- The forecast period indicates management's preference for pursuing a sustainable growth pace.
+
+Risk Concerns:
+- If the % y-y (YoY) falls below 0% again, revenue may stagnate or experience an absolute decline.
+- If the % y-y (YoY) reappears near or above 35%, it may be accompanied by a sharp increase in resource input and execution pressure.

@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Line chart
+- Title: Not displayed (text annotation on the right explains the target reduction rate)
+- X-axis: Year, range approximately 1990 to 2050E, scale includes 1995, 2000, 2005, 2010, 2015, 2020, 2025E, 2030E, 2035E, 2040E, 2045E, 2050E; vertical marker line at 2040E
+- Y-axis: GHG (Mt CO2e), range 0—1,200
+- Legend: Actual (solid green line), New path (solid blue line), Old path (dashed orange line)
+- Annotation: Old path shows a 63% reduction in 2040 relative to 2015; the newly proposed target is a 78% reduction
+
+[Data Relationships]
+- Using 2015 as the comparison baseline: The Old path shows a 63% reduction in 2040E compared to 2015, and the New path targets a 78% reduction.
+- The gap between the two paths in 2040E is 15 percentage points (relative to the 2015 level).
+- The peak value of the Actual series is located in the 2010—2015 interval, with readings falling between 1,000—1,200 Mt CO2e.
+- The actual value near 1990 is approximately in the 800—900 Mt CO2e range.
+
+[Pattern Characteristics]
+The Actual series shows a continuous upward trend from 1990 to around 2010, reaching an overall high between 2010—2015 before beginning to decline. After entering 2020E, the Actual line connects with the New path near the high point. The New path exhibits an approximately linear, steeper downward trajectory after 2025E, forming a clear divergence from the Old path around 2040E. The Old path also maintains a monotonic decline after 2020E, but the slope is gentler, remaining higher than the New path until 2040E. Subsequently, both forecast lines continue to extend downward without showing a rebound or plateau.
+
+[Core Insights]
+Core Conclusion: The New path significantly strengthens the intensity and pace of emissions reduction compared to the Old path.
+
+Business Implications:
+- The emissions reduction target is clearly more aggressive compared to the old plan.
+- Imposes stronger constraints on emissions-related investment, capacity, and technology planning.
+- Sets higher requirements for medium-to-long-term emissions performance management.
+
+Risk Focus:
+- Failure to achieve the 78% reduction by 2040E may trigger pressure regarding reduction commitments and increase compliance costs.
+- If the reduction only stabilizes near the approximately 63% level, it may impact the scope for further contraction and the difficulty of execution through 2050E.

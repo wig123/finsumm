@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Dual-Axis Line Chart
+- Title: RM Index
+- X-Axis: Quarterly Categories, from 1Q21, 2Q21… to Current
+- Left Y-Axis: RM Index scale approximately 80–170 (10 interval), no unit specified
+- Right Y-Axis: Labeled (bps), scale range approximately -4.0% to 8.0%
+- Legend: Red "RM Index," Gray "bps impact"
+
+[Data Relationships]
+- RM Index initial period (1Q21) ≈ 88; current ≈ 136
+- RM Index peak: 1Q23 ≈ 158; trough: 1Q21 ≈ 88; peak-to-trough difference ≈ 70
+- RM Index at 4Q23 ≈ 139, compared to 2Q24 ≈ 130, difference ≈ 9
+- bps impact initial period (1Q21) ≈ -3.6%; current ≈ 1.2%
+- bps impact peak: 3Q21 ≈ 7.5%; trough: 4Q23 ≈ -3.3%; peak-to-trough difference ≈ 10.8 percentage points
+- Current corresponding point: RM Index ≈ 136, corresponding bps impact ≈ 1.2%
+
+[Pattern Characteristics]
+The RM Index generally showed a step-wise increase during the sample period, exhibiting significant high-level volatility in the middle-to-later stages. After forming a single high point near 1Q23, it slightly retreated and consolidated within a narrow range at a higher level. The bps impact rapidly surged and then retreated in the early stage, frequently switching above and below the zero axis in the middle stage, hitting a clear low point near 3Q23, and subsequently slowly approaching above the zero axis. The two curves exhibited opposing trends during multiple phases, with localized periods of significant divergence.
+
+[Core Insights]
+Core Conclusion: The RM Index remains at a relatively high level, while the bps impact has narrowed from extreme positive and negative ranges.
+
+Business Implications:
+- The rise in the index level reflects stronger overall performance compared to earlier periods.
+- The narrowing of the bps impact indicates reduced interference from revenue/cost volatility on the results.
+- The periodic divergence between the two suggests that the index's sensitivity to bps changes is unstable.
+
+Risk Concerns:
+- If the bps impact approaches ±7.5% again, it may amplify short-term index volatility.
+- If the RM Index falls back below 130, it may signal reversal pressure on the current improving trend.

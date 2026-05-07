@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Time series line chart
+- Title: Airports of Thailand PCL
+- Top right information: As of 25-Jan-2024; Currency = THB
+- X-axis: Date, tick marks at 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01
+- Y-axis: Price (THB), range approximately 0–90
+- Legend: Closing Price (black line), Target Price Change (green triangle), Recommendation Changes (blue dot)
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Closing price at the beginning of the period (2021/07) was approximately 63 THB; at the end of the period (2024/01) it was approximately 61–62 THB, a difference of about 1–2 THB.
+- The highest visible closing price was approximately 75 THB (early 2023); the lowest was approximately 56–58 THB (H2 2021); a span of approximately 17–19 THB.
+- Two Recommendation Changes (blue dots) occurred in 2023/01, corresponding to a closing price of approximately 73–74 THB.
+- Approximate price levels for Target Price Change (green triangle): 2021/11 approximately 78–80 THB; 2022/06 approximately 74–75 THB; 2022/12 approximately 75–76 THB; 2023/01 approximately 79–80 THB; 2023/09–10 approximately 86–88 THB.
+
+[Pattern Characteristics]
+The closing price generally traded in a narrow range between approximately 60–75, forming a pattern characterized by a mid-way elevation followed by a decline, resulting in similar levels at the start and end points. The green triangles are distributed in the upper-middle section of the line and show a gradual upward trend, with the highest point appearing near Q3 2023. The blue dots are only concentrated near the local high in early 2023, limited in quantity and clustered temporally.
+
+[Core Insights]
+Core Conclusion: Valuation expectations are generally high, but the stock price lacks synchronous follow-through.
+
+Business Implications:
+- Market price response to optimistic judgments from research institutions is limited.
+- A persistent gap exists between the target price and the actual trading level.
+- Rating adjustments primarily revolve around local highs, indicating a concentrated coverage rhythm.
+
+Risk Focus:
+- If subsequent target prices remain above 80 THB while the stock price maintains approximately 60–65 THB, market confidence in research opinions may be weakened.
+- Should the stock price fall below the chart's lowest point of approximately 56 THB, it may trigger concentrated investor skepticism regarding valuation assumptions and rating rationality.

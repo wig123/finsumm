@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Single-series line chart
+- Title: Not displayed
+- X-axis: Date (mm/dd/yyyy), Range 9/25/2005—9/25/2023, labeled annually, tilted labels
+- Y-axis: Percentage, Range 0.0%—120.0%, major tick marks every 20%, with grid lines
+- Legend: Bottom left, series name "BETA", red sample line; data line is a red polyline
+
+[Data Relationships]
+- Starting value approximately 72% (2005-09-25)
+- Ending value approximately 37% (2023-09-25)
+- Global maximum approximately 106% (around 2008)
+- Global minimum approximately 30% (late 2019 to early 2020)
+- Difference between high and low approximately 76 percentage points
+- 2021 value approximately 69%, about 9 percentage points higher than 60%
+- 2014 value approximately 40%—45%
+- Ending value is approximately 35 percentage points lower than the starting value
+
+[Pattern Characteristics]
+- The series shows a significant rise accompanied by large volatility in the early part of the sample, followed by general fluctuation within the medium range, and gradually narrows into the lower range in the final segment.
+- Throughout the period, there are multiple instances of platform consolidation and step-wise decline structures, interspersed with several short-term rebounds.
+- An extreme high point occurred around 2008, and an extreme low point occurred in late 2019—early 2020, both forming prominent step-wise differences compared to preceding and subsequent levels.
+
+[Core Insights]
+Core Conclusion: BETA is in a long-term downward channel and currently maintains a relatively low level.
+
+Business Implications:
+- Overall sensitivity to the benchmark has weakened compared to the early period.
+- The current portfolio's exposure to systematic volatility is relatively limited.
+- Periodic rebounds indicate a certain degree of tracking with the market environment.
+
+Risk Focus:
+- If BETA approaches or exceeds 100% again, the overall volatility exposure may significantly increase.
+- If it remains below 40% for a long period, relative returns may be limited by the tracking ability during upward phases.

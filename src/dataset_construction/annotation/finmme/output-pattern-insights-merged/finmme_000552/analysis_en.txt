@@ -1,0 +1,34 @@
+[Chart Components]
+- Chart Type: Time-series line chart, including scatter markers.
+- Title: Alibaba Group Holding.
+- Time Axis: 2021/07/01 to 2024/01/01 (Semi-annual scale).
+- Price Axis: 0–325 (USD).
+- Legend: Black Line = Closing Price; Green Triangle = Target Price Change; Blue Circle = Recommendation Changes.
+- Notes: As of 07-Feb-2024; Currency = USD; Source: LSEG, Nomura.
+
+[Data Relationships]
+- Initial Closing Price approximately USD 260–270 (2021/07).
+- Final Closing Price approximately USD 75–85 (2024/01).
+- Observable Highest Closing Price approximately USD 250–270 (Mid-2021).
+- Observable Lowest Closing Price approximately USD 60–70 (End of 2022).
+- Difference between highest and lowest approximately USD 180–210.
+- Change from initial period to final period approximately USD 180–195.
+- Blue circle markers appear near USD 110–125 (Early 2023).
+- Green triangle marker points are commonly seen at price levels such as USD 190, 170, 150, 140, 135, and 120.
+
+[Pattern Characteristics]
+- The closing price curve generally shows a unidirectional movement, accompanied by multiple medium-amplitude counter-movements. A clear periodic low appeared near the end of 2022, followed by narrow fluctuations within a lower range.
+- The green triangle scatter points are temporally dispersed, concentrated at higher price levels early on, then gradually moving towards medium-to-low price levels, but generally remaining above the closing price at the corresponding time point.
+- The blue recommendation change marker appears only at one time point near the middle-to-later segment, situated within a relatively central price range.
+
+[Core Insights]
+Core Conclusion: Stock price performance is chronically disconnected from analyst target expectations.
+
+Business Implications:
+- Market pricing is significantly below most target levels.
+- Sell-side pricing models are slow to adjust.
+- Investor adoption of research opinions is limited.
+
+Risk Focus:
+- If the stock price consistently remains below USD 120, it may weaken the effectiveness of subsequent financing and equity incentive plans.
+- If the target price consistently exceeds the stock price by more than USD 50, it may lead to overly optimistic investment decisions.

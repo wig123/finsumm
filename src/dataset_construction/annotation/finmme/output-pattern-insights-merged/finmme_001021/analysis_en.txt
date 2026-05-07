@@ -1,0 +1,33 @@
+[Chart Components]
+- Chart Type: Line Chart
+- Title: Not displayed
+- X-axis: Quarterly labels from 1QFY21 to 3QFY24 (sequentially labeled 1QFY21…3QFY24)
+- Y-axis: Value range 0–25,000, major tick marks every 5,000
+- Legend: Reported (Red), IQVIA (Gray)
+
+[Data Relationships]
+- Initial Period (1QFY21): Reported≈11,500; IQVIA≈12,000
+- Peak (2QFY24): Reported≈23,300; IQVIA≈23,800
+- Final Period (3QFY24): Reported≈22,000; IQVIA≈22,500
+- Range and Amplitude: Reported 11,500–23,300, Amplitude≈11,800; IQVIA 12,000–23,800, Amplitude≈11,800
+- 2QFY22: Reported≈19,500; IQVIA≈19,700, Difference≈200
+- 2QFY23: Reported≈22,000; IQVIA≈22,300, Difference≈300
+- 3QFY23: Reported≈20,000; IQVIA≈20,800, Difference≈800
+- 4QFY23: Both≈20,000, Difference≤200
+
+[Pattern Characteristics]
+- The overall trends of the two curves are similar, their shapes nearly overlap, with only minor vertical offsets.
+- The data shows a step-like increase across quarters, interspersed with several moderate pullbacks and subsequent rebounds, without abrupt single-point jumps.
+- The gap between Reported and IQVIA largely remains within a narrow range, only expanding relatively more significantly in isolated quarters (such as 3QFY23) before converging again.
+
+[Core Insights]
+Core Conclusion: The Reported and IQVIA metrics show high consistency, with only occasional brief deviations.
+
+Business Implications:
+- The two sets of metrics show high consistency in measuring the same business volume.
+- In most quarters, they can be directly used as mutual references for comparative analysis.
+- Individual deviation periods may reflect differences in statistical scope or timing.
+
+Risk Focus:
+- When the difference is ≥800 (such as 3QFY23), it may affect the judgment of single-quarter performance.
+- If the difference is ≥500 for two consecutive quarters in the future, it may undermine decision-making confidence in either metric.

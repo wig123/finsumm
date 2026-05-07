@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Grouped Bar Chart
+- Title: Not specified
+- X-axis: Categories are "Against" and "In favor"
+- Y-axis: Percentage scale, range 44%—54%, increment of 2% per tick
+- Legend: Two data sets — “As of 15 January 2024” (Light Blue) and “As of 22 November 2023” (Green)
+- Data Labels: Specific percentages labeled at the top of each bar
+
+[Data Relationships]
+- Against: 53% in 2024-01, 51% in 2023-11, difference +2 percentage points
+- In favor: 47% in 2024-01, 49% in 2023-11, difference -2 percentage points
+- 2024-01 Intra-period comparison: Against 53% is higher than In favor 47%, difference 6 percentage points
+- 2023-11 Intra-period comparison: Against 51% is higher than In favor 49%, difference 2 percentage points
+- Overall data range: 47%—53%; the highest value is 53% for Against, and the lowest value is 47% for In favor
+
+[Pattern Characteristics]
+The range of values across all categories in both periods is narrow, indicating a concentrated overall distribution. At both time points, the categories exhibit a high-low bifurcated structure internally, with the high values consistently concentrated in the "Against" group. Comparing the two periods, the direction of change for the two categories is opposite, and the gap between "Against" and "In favor" widened further in the later period.
+
+[Core Insights]
+Core Conclusion: The proportion of the opposition further outweighs the supporters, and the degree of dominance has increased.
+
+Business Implications:
+- Group sentiment leans more towards the opposition, intensifying the attitudinal skew.
+- The space for supporters is being compressed, affecting the probability of related proposals passing.
+- The degree of opinion polarization is rising, increasing the difficulty of negotiation and bargaining.
+
+Risk Focus:
+- If Against remains above 50% for the long term, related proposals will continue to face difficulty in advancement.
+- If the gap between the two sides exceeds 6 percentage points, it may trigger more obvious opposition and resistance.

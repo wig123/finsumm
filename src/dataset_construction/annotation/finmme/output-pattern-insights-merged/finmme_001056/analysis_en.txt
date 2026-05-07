@@ -1,0 +1,28 @@
+**[Chart Components]**
+- Type: 100% Stacked Bar Chart
+- Title: Not displayed
+- X-axis: Quarter (1Q22–3Q24)
+- Y-axis: Proportion (Percentage), Range 0%–100%, 10% increments
+- Legend: Proprietory (Red), Banca (Gray), Others (White Box)
+
+**[Data Relationships]**
+- Proprietory: 30% in 1Q22; lowest at 27% in 3Q22; highest at 41% in 4Q23 and 2Q24; 40% in 3Q24; +10 percentage points compared to the beginning of the period.
+- Banca: Highest at 72% in 3Q22; lowest at 58% in 4Q23/1Q24/3Q24; 70% in 1Q22; 58% at the end of the period, -12 percentage points compared to the beginning of the period.
+- Others: 0% in 1Q22 and 4Q22; highest at 4% in 1Q24; 2% in 3Q24; +2 percentage points compared to the beginning of the period.
+- Key Comparison: In 4Q23, Proprietory 41% vs Banca 58%, a difference of 17%; in 1Q24, 38% vs 58%, a difference of 20%; in 3Q24, 40% vs 58%, a difference of 18%.
+- The sum of the proportions of the three categories is 100% every quarter.
+
+**[Pattern Characteristics]**
+Overall, Proprietory and Banca exhibit an inverse structural relationship across the quarters, with Proprietory gradually rising from a low base and Banca gradually declining from a high base. Others consistently maintain a minimal proportion with only slight fluctuations. Structurally, Banca consistently holds the largest proportion, Proprietory is moderate, and Others is weak, but the gap between the two main categories significantly narrows in the latter half of the sample period. There are no sharp jumps in the chart; the movement is gradual displacement, with only one relatively concentrated structural reallocation occurring around 4Q23.
+
+**[Core Insights]**
+Core Conclusion: The channel structure is evolving from high dependence on Banca towards a more balanced allocation.
+
+Business Implications:
+- The importance of Proprietory has increased, leading to more diversified revenue sources.
+- The degree of reliance on the single Banca channel has decreased.
+- The proportion of Others is low, limiting its impact on the overall structure.
+
+Risk Focus:
+- If the Banca proportion drops below 55% again, the overall scale might come under pressure.
+- If the Proprietory proportion falls back below 30%, the effectiveness of diversification will be significantly weakened.

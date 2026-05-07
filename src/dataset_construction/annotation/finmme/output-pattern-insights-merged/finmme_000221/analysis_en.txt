@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Single-series line chart (red).
+- Title: Not displayed.
+- Y-axis: Labeled "(US$/barrel)", range approximately 40 to -160; a black horizontal line is present at 0.
+- X-axis: Time scale, marked Jan-20, Jul-20, Jan-21, Jul-21, Jan-22, Jul-22, Jan-23, Jul-23, Jan-24.
+- Legend: Not displayed.
+
+[Data Relationships]
+- Jan-20 is approximately -30.
+- The lowest point for the entire period is approximately -150 (Jan-22), which is about 120 lower than Jan-20.
+- The highest point for the entire period is approximately +30 (Jul-22), which is about 180 higher than the lowest point.
+- Jul-21 is approximately -40; the preceding low was about -80, a difference of approximately 40.
+- Jan-23 is approximately -25 to -35; by Jul-23, it reached approximately +20, an increase of about 45 to 55.
+- Jan-24 is approximately -5 to -10; about 25 to 30 lower than Jul-23; and about 35 to 40 lower than the period high.
+
+[Pattern Characteristics]
+The entire line remained below the zero axis for a long period from Jan-20 to Jan-22, exhibiting an extreme, sharp downward trough near Jan-22. Subsequently, it quickly crossed the zero axis around Jul-22 and formed a period of high-level consolidation in the positive range. Thereafter, the curve retreated near the zero axis. After Jan-23, it fluctuated around slightly negative and small positive ranges, without the extreme deviations seen previously.
+
+[Core Insights]
+Core Conclusion: The underlying return (or spread) entered a low-amplitude consolidation phase after undergoing extreme correction.
+
+Business Implications:
+- The early period was characterized by sustained significant losses or a negative spread status.
+- A substantial one-time recovery occurred near Jul-22, indicating significant pressure for trading position rebalancing.
+- After Jan-23, the overall status is close to the break-even point, and return elasticity has significantly decreased.
+
+Risk Focus:
+- If it falls below -80 again, a deep retracement similar to the period around Jan-22 might recur.
+- If it remains below -20 for an extended period, related strategies may result in a negative overall annual performance.

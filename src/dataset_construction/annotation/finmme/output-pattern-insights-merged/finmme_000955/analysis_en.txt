@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Dual-line time series chart
+- Title: Main title not displayed
+- Legend: Black represents "BEER+", green represents "USDZAR"; light green vertical shading indicates "win," light red vertical shading indicates "loss"; the chart also includes a gray banded background shadow.
+- X-axis: Monthly scale, from Apr to Mar
+- Y-axis: Numerical scale, showing two dashed reference lines at 18 and 20 (other scales are not labeled)
+
+[Data Relationships]
+- Apr: BEER+ is located near 18; USDZAR is also close to 18
+- Jun: USDZAR touched and briefly exceeded 20; concurrently, BEER+ was below 20
+- Jul: USDZAR was below 18; BEER+ was approximately near 19
+- Oct–Nov: BEER+ approached 20; USDZAR was between 18–19
+- Dec: USDZAR briefly approached 18; BEER+ was approximately 18–19
+- Mar: Both were approximately near 19
+
+[Pattern Characteristics]
+The two lines generally oscillate repeatedly around the range between 18 and 20, and the gray banded background essentially covers this range. USDZAR briefly deviated upward from the upper edge of the gray band in Q2, and subsequently was near the lower edge of the gray band in Q3, while BEER+ was relatively closer to the midpoint of the gray band. The light green "win" segments in the chart mostly correspond to USDZAR approaching or reverting to the middle of the gray band, while the light red "loss" segments appear when USDZAR significantly deviates above the gray band.
+
+[Core Insights]
+Core Conclusion: USDZAR repeatedly deviates from and reverts to the BEER+ valuation band.
+
+Business Implications:
+- Phased misalignment often occurs in exchange rate relative valuation.
+- Misalignment phases are accompanied by differences in position performance.
+- The valuation band exerts a certain constraint on price.
+
+Risk Focus:
+- When USDZAR is above 20 and far from the upper edge of the gray band, it may lead to the appearance of sustained "loss" segments.
+- When USDZAR is below 18 and close to the lower edge of the gray band, a lack of rapid reversion may increase drawdown pressure.

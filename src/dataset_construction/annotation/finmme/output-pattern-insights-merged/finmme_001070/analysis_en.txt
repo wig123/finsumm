@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Dual-axis line chart
+- Series: Red "Price," Gray "Rel FTSE Bursa Malaysia KLCI Index"
+- X-axis: Time, Mar 23 to Feb 24 (monthly labeled)
+- Left Y-axis: (MYR), scale approximately 3.7, 3.8, 3.9, 4.1, range approximately 3.7–4.2
+- Right Y-axis: Index, scale 100, 102.5, 105, 107.5, 110, range 100–110
+- Legend located at the top
+
+[Data Relationships]
+- Price initial period (Mar 23) ≈ 3.78 MYR; final period (Feb 24) ≈ 4.00 MYR, difference ≈ 0.22.
+- Price peak slightly above 4.1 MYR in Aug 23; trough approximately 3.70–3.75 in Jun/Sep 23, high-low difference ≈ 0.35–0.40.
+- Index peak near 110 (Aug 23); trough near 100 (Sep 23/Jan 24), high-low difference ≈ 10.
+- In Sep 23, Price was approximately 3.75 MYR; Index was approximately 100–102.5.
+
+[Pattern Characteristics]
+The red Price and the gray Index generally moved in the same direction during the Mar–Jul 23 period, with a synchronous extreme peak occurring around Aug 23. After Sep 23, the overall correlation between the two weakened. Price oscillated within a slightly higher, narrow range, while the Index gradually retreated within a lower range. During this period, Price showed a noticeable downward decoupling spike (single-day or short-term) near Sep 23.
+
+[Core Insights]
+Core Conclusion: The underlying price exhibits stronger resilience than the relative index performance.
+
+Business Implications:
+- Price demonstrates stronger resistance to decline compared to the index.
+- Outperformance is evident when compared against the benchmark.
+- Price stability in the middle-to-later period is higher than overall market volatility.
+
+Risk Concerns:
+- If Price falls below 3.75 MYR, it may amplify relative drawdown pressure.
+- If the Index falls below 100 and Price simultaneously weakens, the relative return advantage may be eroded.

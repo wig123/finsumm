@@ -1,0 +1,18 @@
+# 单独测试 fintech 风格
+batch_name: "fintech_test"
+output_base_dir: "./batch_output"
+
+execution:
+  parallel: false
+  max_workers: 1
+
+charts:
+  # Fintech应用风 - 换一个更简单的数据源
+  - chart_type: area
+    language: zh-CN
+    theme: inflation  # 换成更简单的通胀数据
+    visual_style: fintech
+    is_frontend: true
+    library: echarts
+
+

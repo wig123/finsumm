@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Line chart (Four series, two time points)
+- Title: Asia by Sub Region
+- X-axis: Time, scaled as Jan-19 and Jan-24
+- Y-axis: Unit is Millions, maximum scale displayed is 120
+- Legend: North East Asia (Orange), South East Asia (Yellow), South Asia (Gray), Central Asia (Blue)
+- Right side indicates the relative percentage change for each series
+
+[Data Relationships]
+- Two Periods: Jan-19 and Jan-24
+- Relative Change (Jan-24 compared to Jan-19): North East Asia +4.0%; South East Asia -13.7%; South Asia +4.5%; Central Asia +49.1%
+- The magnitude ranking for both periods is: North East Asia > South East Asia > South Asia > Central Asia
+- Largest magnitude of change: Central Asia (+49.1%); Only negative change: South East Asia (-13.7%)
+- Difference in change between South Asia and North East Asia: 0.5 percentage points; Central Asia and North East Asia: 45.1 percentage points; Central Asia and South Asia: 44.6 percentage points
+
+[Pattern Characteristics]
+The four lines generally maintained their original ranking order between the two periods; only the numerical levels changed. The relative magnitude of change for Central Asia is significantly higher than the other three lines, while South East Asia moved in the opposite direction. The change magnitude for the remaining two lines is similar. Overall, there is no crossover or reversal of order, only differences in the strength (magnitude) of the change.
+
+[Core Insights]
+Core Conclusion: Growth structure differentiation among regions is significant, with growth highly concentrated in Central Asia.
+
+Business Implications:
+- Current scale is still dominated by North East Asia; the structure remains unchanged.
+- Central Asia's contribution to overall incremental growth is rapidly increasing.
+- South East Asia may drag down overall performance and resource efficiency.
+
+Risk Focus:
+- If Central Asia's growth rate falls below +10%, overall incremental growth will noticeably narrow.
+- If South East Asia continues to remain below 0%, it may compress the combined regional scale and marginal returns.

@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Grouped Bar Chart
+- Title: Not displayed
+- Legend: ICICI Pru (Red), HDFC Life (Gray), SBI Life (White frame, Black border), Max Life (Yellow)
+- X-axis: Fiscal Year labels FY20, FY21, FY22, FY23, FY24F, FY25F, FY26F
+- Y-axis: Percentage scale, range -20% to 40%, including tick marks at -10%, 0%, 10%, 20%, 30%, 40%
+
+[Data Relationships]
+- FY20: ICICI -5%, HDFC 18%, SBI 11%, Max 5%; Highest 18% (HDFC), Lowest -5% (ICICI).
+- FY21: ICICI -12%, HDFC 13%, SBI 7%, Max 18%; Lowest -12% (ICICI).
+- FY22: ICICI 20%, HDFC 17%, SBI 25%, Max 12%; SBI is 5 pct higher than ICICI.
+- FY23: ICICI 12%, HDFC 37%, SBI 18%, Max 13%; HDFC is the highest across the chart at 37%, 25 pct higher than ICICI.
+- FY24F: ICICI 2%, HDFC 0%, SBI 20%, Max 12%; SBI is the highest at 20%.
+- FY25F and FY26F: ICICI/HDFC/SBI are all 12%, Max 15%; Max is 3 pct higher than the others.
+- FY20→FY26F Change: ICICI -5%→12% (+17 pct), HDFC 18%→12% (-6 pct), SBI 11%→12% (+1 pct), Max 5%→15% (+10 pct).
+
+[Pattern Characteristics]
+- The four companies show significant numerical dispersion between FY20–FY24F, with individual years exhibiting clear extreme highs or values below zero, subsequently converging into a narrow range in FY25F–FY26F.
+- ICICI and HDFC show opposite starting directions in the first half, followed by subsequent recovery or decline, while SBI and Max mostly fluctuate slightly above the zero axis.
+- FY23 is the year with the greatest overall dispersion. Starting from FY25F, the bar heights for all companies tend to converge, with only Max slightly higher than the rest.
+
+[Core Insights]
+Core Conclusion: The four companies are moving from divergence to convergence, with Max maintaining a relative advantage in the medium to long term.
+
+Business Implications:
+- Mid-term performance leaders are rotating, and the competitive landscape is no longer singularly concentrated.
+- Industry gaps will narrow in the next two years, shifting the focus of comparison to specialized capabilities.
+- Max possesses a slightly higher growth rate during the forecast period, which is beneficial for increasing market share and bargaining power.
+
+Risk Concerns:
+- If the growth rate of any company falls below 0% again, it may trigger doubts about its growth model.
+- If the actual growth rate of HDFC or ICICI falls below the forecast of 12%, it could weaken their competitive position against Max and SBI.

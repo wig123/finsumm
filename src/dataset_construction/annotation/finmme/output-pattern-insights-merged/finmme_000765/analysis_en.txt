@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Time series line chart; Title: Cummins India
+- X-axis: Date scale points are 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01
+- Y-axis: Closing Price (INR), range 0–2500
+- Legend: Black line=Closing Price; Green triangle=Target Price Change; Blue dot=Recommendation Changes
+- Notes: As of 08-Feb-2024; Currency=INR; Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial period (around 2021/07) closing price is approximately 780 INR
+- Final period (2024/01–02) closing price is approximately 2500 INR
+- Maximum value ≈ 2500 (2024/01–02), Minimum value ≈ 700 (around 2021/08); Range (High-Low difference) ≈ 1800
+- Blue dot (Recommendation change) 1 time, approximately 2021/07, price approximately 750
+- Green triangle (Target price change) approximately 6 times: 2021/07, 2022/03, 2022/06, 2022/09, 2023/02, 2023/04; Corresponding prices approximately 650–1500
+
+[Pattern Characteristics]
+The closing price generally exhibits a unilateral upward trend, interspersed with multiple moderate pullbacks before reaching new highs; the final segment shows a steeper ascent.
+The green triangles are distributed dispersedly as the price gradually increases, generally synchronized with the price uptrend phase, with only one blue dot appearing near the early stage.
+The chart does not show obvious prolonged consolidation ranges; the price channel is relatively continuous, without sudden sharp decline segments.
+
+[Core Insights]
+Core Conclusion: The stock price has experienced a strong long-term ascent, while target price adjustments are frequent and lagging.
+
+Business Implications:
+- The price movement reflects a continuous valuation repricing process.
+- Multiple upward revisions of the target price reflect the continuous correction of expectations by covering institutions.
+- The single rating adjustment early on had a prolonged influence on subsequent price movements.
+
+Risk Concerns:
+- If the price falls back and breaks below the platform near 2000, it may trigger profit-taking pressure.
+- If the target price is not subsequently raised and the stock price remains near 2500, it may lead to a correction risk due to expectation gaps.

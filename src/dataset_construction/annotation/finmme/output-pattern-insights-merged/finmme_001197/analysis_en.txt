@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Vertical Bar Chart
+- Legend: Y-Y Growth (Red)
+- Y-axis: Percentage, range approximately -25% to 30%, scale interval approximately 5%
+- X-axis: Company Categories (Sun, Lupin, Laurus, Dr Reddy’s, Glenmark, Cipla, Zydus, Gland, Torrent Pharma, Aurobindo, Biocon, Alkem Labs, Ajanta Pharma, Alembic Pharma)
+- Grid: Horizontal grid lines; bars are red; no apparent main title
+
+[Data Relationships]
+- Highest: Sun ≈ 24%.
+- Second Highest: Lupin ≈ 23%, Laurus ≈ 21%.
+- Mid-range: Dr Reddy’s ≈ 15%, Glenmark ≈ 12%, Cipla = 10%, Zydus = 5%.
+- Low Positive: Gland, Torrent Pharma, Aurobindo all ≈ 3%.
+- Lowest: Alembic Pharma -20%.
+- Other Negative: Ajanta Pharma, Alkem Labs both -15%; Biocon -10%.
+- Range (High-Low Difference): Approximately 44 percentage points (24% and -20%).
+- 10 companies with positive values, 4 companies with negative values.
+
+[Pattern Characteristics]
+Overall, a clear structure of polarization is evident, with one end concentrated in the high positive range and the other concentrated in the moderate to deep negative range. Samples near the 0% midpoint are relatively few. Within the positive-value companies, a relatively smooth gradient is formed from high to low. Alembic Pharma is significantly lower than other companies in the negative range, constituting the most prominent outlier.
+
+[Core Insights]
+
+Core Conclusion: Growth performance differences among companies are significant, indicating a clear state of stratification.
+
+Business Implications:
+- Leading companies demonstrate stronger YoY expansion capabilities
+- Mid-tier companies contribute limitedly to overall growth
+- Lagging companies drag down overall portfolio performance and stability
+
+Risk Focus:
+- The proportion of companies below 0% is nearly 30%, which may depress portfolio returns
+- If individual stocks below -15% have excessive weight, it may lead to significant drawdowns

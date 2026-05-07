@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Line Chart
+- Title: Loan Loss Provisions / RWA²
+- Axes: X-axis represents years (from 09 to 1H22), Y-axis represents percentage (from 0% to 4%)
+- Legend: Includes UCG (Solid Line), UCG (Excluding Non-Core, Dashed Line), and Peers (Gray Line)
+
+[Data Relationships]
+- The historical Loan Loss Provision Ratio shows a clear volatile trend, with UCG peaking above 3% in 2013 and 2015.
+- The average value shows a mean of 1.9% from 09 to 16, decreasing to 1.3% from 13 to 22.
+- UCG's average value from 2021 to 1H22 is 0.5%, a significant decrease compared to previous periods.
+- The 1H22 data point dropped significantly, approaching the 1% level, which is lower than most previous years.
+- UCG's values were higher than Peers in most years, reaching the maximum gap in 2013 and 2015.
+- The dashed line representing UCG excluding non-core assets shows relatively low and stable data starting from 2018.
+
+[Pattern Characteristics]
+The main line shows two prominent peaks in the middle period, with large fluctuations in the preceding and subsequent stages, and the final segment remaining in a generally low range. Compared to the Peer line, the main line is positioned higher during most periods; the gap is most pronounced in the middle period and converges towards the end. The dashed line is lower and smoother starting from the later segment, showing a significantly low point at the end.
+
+[Core Insights]
+Core Conclusion: Current provisioning burden is relatively light, approaching that of Peers.
+
+Business Implications:
+- Reduced pressure on the income statement
+- Lower provisioning sensitivity
+- More stability when excluding non-core assets
+
+Risk Focus:
+- If it exceeds 3% again, profit erosion will intensify.
+- If it remains below 0.5% for an extended period, allowance coverage will be insufficient.

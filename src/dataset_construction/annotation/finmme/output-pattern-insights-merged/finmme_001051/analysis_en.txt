@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Time series line chart, including event markers (green triangle, blue circle)
+- Title: HDFC Life Insurance
+- X-axis: Date range 2021/07/01 to 2024/01/01 (scale marked semi-annually)
+- Y-axis: Price range 0–800; Unit: INR
+- Legend: Closing Price, Target Price Change, Recommendation Changes
+- Top Right: As of 10-Mar-2024; Currency=INR
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Time Coverage: 2021/07—2024/01
+- Initial Period (2021/07) closing price approximately 650 INR; Final Period (2024/01) approximately 600 INR
+- All-period high approximately 750 INR; low approximately 470 INR; high-low difference approximately 280 INR
+- Target price change markers totaled 7 times: 2 times in 2021, 3 times in 2022, 1 time in 2023, 1 time in 2024
+- Recommendation change marker 1 time: approximately early 2022
+
+[Pattern Characteristics]
+Price initially fluctuated slightly within the high range during the early sample period, followed by a relatively significant downtrend, entering and operating within a lower range. Post-2022, the trend was dominated by medium-amplitude fluctuations, featuring several short-term rebounds and pullbacks, without forming a sustained extension in a single direction. Target price changes are mostly distributed near relatively high price levels and during phase rebounds. The single recommendation change occurred during the transition phase from high to low levels.
+
+[Core Insights]
+Core Conclusion: Overall stock price performance is weak, and institutional expectations have been adjusted multiple times but have not altered the trend structure.
+
+Business Implications:
+- Stock price returns have limited appeal compared to early holding costs
+- Multiple target price adjustments reflect divergence in institutional views and the need for reassessment
+- The driving force of a single recommendation change on market reaction is limited
+
+Risk Focus:
+- If the stock price approaches below 470 again, it may trigger stop-loss selling and emotional sell-offs
+- If subsequent target prices are lowered close to the current price, the valuation safety margin may significantly narrow

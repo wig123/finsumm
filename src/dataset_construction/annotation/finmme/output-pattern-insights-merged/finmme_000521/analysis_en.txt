@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Multiple Line Chart
+- Title: Not displayed
+- X-axis: Quarterly time, from 1Q21 to 4Q23
+- Y-axis: Percentage, range -20% to 80%, scale includes 0%, 20%, 40%, 60%, 80%
+- Legend and Colors: M/L-T corporate loans (Dark Red), Domestic household loans (Orange), Property loans (Gray), Inclusive finance (IF) loans (Yellow), Green loans (Light Orange)
+
+[Data Relationships]
+- 4Q23 Values: M/L-T corporate loans is 56%; Green loans is 50%; Inclusive finance (IF) loans is 16%; Property loans is -19%.
+- 4Q23 Comparison: M/L-T is 6 percentage points higher than Green; 40 percentage points higher than IF; 75 percentage points higher than Property.
+- 4Q23 Comparison: Green is 34 percentage points higher than IF; 69 percentage points higher than Property.
+- 4Q23 Comparison: IF is 35 percentage points higher than Property.
+- The X-axis covers a total of 12 quarters (1Q21 to 4Q23).
+
+[Pattern Characteristics]
+- During the sample period, the various loan categories exhibited divergent trends, with M/L-T corporate loans generally positioned in the highest range, while Property loans were mostly in the lowest range and frequently fell into negative territory.
+- Green loans gradually moved upward in the middle-to-late stage, approaching the highest level. Domestic household loans fluctuated repeatedly within the middle range. IF loans showed narrow volatility in the low-to-middle range. The overall distribution presents a clear high-low stratification pattern.
+- Curve crossovers occurred multiple times during the period, particularly after the middle stage where the positions of Green loans and Property loans clearly reversed. Concurrently, Property loans formed an anomalous tail end of sustained low levels in the later period.
+
+[Core Insights]
+Core Conclusion: The credit structure is clearly concentrating towards M/L-T and green sectors, with the proportion of real estate-related assets weakening.
+
+Business Implications:
+- Medium-to-long-term corporate lending holds a more dominant position in the overall allocation.
+- The proportion of green credit has increased, and the structure is leaning more towards related fields.
+- The proportion of real estate-related allocation is declining, while the impact on household loans is relatively moderate.
+
+Risk Concerns:
+- If Property loans remain below 0% for an extended period, it may increase pressure on related asset quality and collateral value.
+- If M/L-T or Green loans individually sustain levels above 60%, it could lead to excessive portfolio concentration in a few sectors.

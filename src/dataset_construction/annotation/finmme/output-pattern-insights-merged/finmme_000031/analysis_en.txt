@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Time Series Line Chart
+- Title: Meituan
+- Top Right Note: As of February 6, 2024; Currency unit is Hong Kong Dollar (HKD)
+- X-axis: Date, labeled ticks include July 1, 2021, January 1, 2022, July 1, 2022, January 1, 2023, July 1, 2023, January 1, 2024
+- Y-axis: Price, range 0 to 450 HKD, with tick intervals of 25 HKD
+- Legend: Black line represents Closing Price; Green triangle represents Target Price change; Blue dot represents Recommendation change
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- The highest closing price on the left end was approximately 440 HKD, the lowest on the right end (January 2024) was approximately 70 to 80 HKD, with a price difference of about 360 to 370 HKD
+- Closing price on July 1, 2021, was approximately 250 HKD; July 1, 2022, was approximately 160 HKD; July 1, 2023, was approximately 120 HKD; January 1, 2024, was approximately 75 HKD
+- From July 2021 to July 2022, the price decreased by approximately 90 HKD; from July 2022 to July 2023, it decreased by approximately 40 HKD; from July 2023 to January 2024, it decreased by approximately 45 HKD
+- Target price changes (green triangles): Early period on the left end was approximately 400 HKD, mid-period (2022) was approximately 230 HKD, early 2023 was approximately 170 HKD, and early 2024 was approximately 100 HKD
+
+[Pattern Characteristics]
+- The price exhibits a long-term unidirectional trend, interspersed with multiple short-term rebounds and consolidation phases. Volatility was higher in the initial period and gradually converged in the later period.
+- Target price markers show a step-down pattern, generally corresponding to the periodic highs and lows of the price; blue recommendation markers are sparse.
+- A significant rapid dip followed by a recovery occurred in the middle section, after which subsequent highs progressively lowered, with the end point near the lower boundary of the range.
+
+[Core Insights]
+Core Conclusion: Pricing and target price are revised downward concurrently, indicating increasingly conservative expectations.
+
+Business Implications:
+- Analyst expectations continue to decline
+- Valuation center is low, increasing allocation pressure
+- Limited recommendation changes, insufficient marginal guidance
+
+Risk Focus:
+- Closing price breaking below 75 HKD, potentially creating a new phase low and amplifying drawdowns
+- Consecutive closes below 100 HKD, potentially triggering further downward revisions of the target price

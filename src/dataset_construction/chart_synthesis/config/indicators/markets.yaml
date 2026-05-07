@@ -1,0 +1,374 @@
+equity_markets:
+  ohlc_indicators:
+  - indicator: index.sh000001.ohlcv
+    data_source: baostock
+    description_zh: 上证综合指数
+    description_en: Shanghai Composite Index
+  - indicator: index.sz399001.ohlcv
+    data_source: baostock
+    description_zh: 深证成份指数
+    description_en: Shenzhen Component Index
+  - indicator: index.sz399006.ohlcv
+    data_source: baostock
+    description_zh: 创业板指数
+    description_en: ChiNext Index
+  - indicator: index.sh000016.ohlcv
+    data_source: baostock
+    description_zh: 上证50指数
+    description_en: SSE 50 Index
+  - indicator: index.sh000300.ohlcv
+    data_source: baostock
+    description_zh: 沪深300指数
+    description_en: CSI 300 Index
+  - indicator: index.sh000905.ohlcv
+    data_source: baostock
+    description_zh: 中证500指数
+    description_en: CSI 500 Index
+  # === 新增 A 股指数 ===
+  - indicator: index.sh000903.ohlcv
+    data_source: baostock
+    description_zh: 中证100指数
+    description_en: CSI 100 Index
+  - indicator: index.sh000906.ohlcv
+    data_source: baostock
+    description_zh: 中证800指数
+    description_en: CSI 800 Index
+  - indicator: index.sz399673.ohlcv
+    data_source: baostock
+    description_zh: 创业板50指数
+    description_en: ChiNext 50 Index
+  - indicator: index.sh000688.ohlcv
+    data_source: baostock
+    description_zh: 科创50指数
+    description_en: STAR 50 Index
+  - indicator: index.sz399975.ohlcv
+    data_source: baostock
+    description_zh: 证券公司指数
+    description_en: Securities Company Index
+  - indicator: index.sz399986.ohlcv
+    data_source: baostock
+    description_zh: 中证银行指数
+    description_en: CSI Banks Index
+  - indicator: index.sz399989.ohlcv
+    data_source: baostock
+    description_zh: 中证医药100指数
+    description_en: CSI Pharma 100 Index
+  - indicator: index.sz399808.ohlcv
+    data_source: baostock
+    description_zh: 中证新能源指数
+    description_en: CSI New Energy Index
+  # === 新增 A 股龙头个股 ===
+  - indicator: stock.sh600519.ohlcv
+    data_source: baostock
+    description_zh: 贵州茅台
+    description_en: Kweichow Moutai
+  - indicator: stock.sh601318.ohlcv
+    data_source: baostock
+    description_zh: 中国平安
+    description_en: Ping An Insurance
+  - indicator: stock.sh600036.ohlcv
+    data_source: baostock
+    description_zh: 招商银行
+    description_en: China Merchants Bank
+  - indicator: stock.sz000858.ohlcv
+    data_source: baostock
+    description_zh: 五粮液
+    description_en: Wuliangye Yibin
+  - indicator: stock.sz300750.ohlcv
+    data_source: baostock
+    description_zh: 宁德时代
+    description_en: CATL
+  - indicator: stock.sz002594.ohlcv
+    data_source: baostock
+    description_zh: 比亚迪
+    description_en: BYD Company
+  - indicator: stock.sh600276.ohlcv
+    data_source: baostock
+    description_zh: 恒瑞医药
+    description_en: Hengrui Medicine
+  - indicator: stock.sz000333.ohlcv
+    data_source: baostock
+    description_zh: 美的集团
+    description_en: Midea Group
+  - indicator: stock.sh600900.ohlcv
+    data_source: baostock
+    description_zh: 长江电力
+    description_en: Yangtze Power
+  - indicator: stock.sh601398.ohlcv
+    data_source: baostock
+    description_zh: 工商银行
+    description_en: ICBC
+  - indicator: stock.sh600030.ohlcv
+    data_source: baostock
+    description_zh: 中信证券
+    description_en: CITIC Securities
+  - indicator: stock.sz000001.ohlcv
+    data_source: baostock
+    description_zh: 平安银行
+    description_en: Ping An Bank
+  # === 新增 A 股 ETF ===
+  - indicator: fund.sh510050.ohlcv
+    data_source: baostock
+    description_zh: 上证50ETF
+    description_en: SSE 50 ETF
+  - indicator: fund.sh510300.ohlcv
+    data_source: baostock
+    description_zh: 沪深300ETF
+    description_en: CSI 300 ETF
+  - indicator: fund.sh510500.ohlcv
+    data_source: baostock
+    description_zh: 中证500ETF
+    description_en: CSI 500 ETF
+  - indicator: fund.sh512880.ohlcv
+    data_source: baostock
+    description_zh: 证券ETF
+    description_en: Securities ETF
+  - indicator: fund.sh512010.ohlcv
+    data_source: baostock
+    description_zh: 医药ETF
+    description_en: Pharma ETF
+  - indicator: index.hsi.ohlcv
+    data_source: yfinance
+    description_zh: 恒生指数
+    description_en: Hang Seng Index
+  - indicator: index.global.spx.ohlcv
+    data_source: yfinance
+    description_zh: 标普500指数
+    description_en: S&P 500 Index
+  - indicator: index.global.dji.ohlcv
+    data_source: yfinance
+    description_zh: 道琼斯工业指数
+    description_en: Dow Jones Industrial Average
+  - indicator: index.global.ixic.ohlcv
+    data_source: yfinance
+    description_zh: 纳斯达克综合指数
+    description_en: NASDAQ Composite Index
+  - indicator: index.global.n225.ohlcv
+    data_source: yfinance
+    description_zh: 日经225指数
+    description_en: Nikkei 225 Index
+  - indicator: index.global.ftse.ohlcv
+    data_source: yfinance
+    description_zh: 富时100指数
+    description_en: FTSE 100 Index
+  - indicator: index.global.dax.ohlcv
+    data_source: yfinance
+    description_zh: 德国DAX指数
+    description_en: German DAX Index
+  ts_indicators:
+  - indicator: market.volatility.vix
+    data_source: FRED
+    description_zh: VIX波动率指数
+    description_en: CBOE Volatility Index (VIX)
+  - indicator: market.index.sp500
+    data_source: FRED
+    description_zh: 标普500指数
+    description_en: S&P 500 Index
+  # === baostock 时序指标（从 OHLC 提取 close） ===
+  - indicator: index.sh000001.ts
+    data_source: baostock
+    description_zh: 上证综指走势
+    description_en: Shanghai Composite Index Trend
+  - indicator: index.sz399001.ts
+    data_source: baostock
+    description_zh: 深证成指走势
+    description_en: Shenzhen Component Index Trend
+  - indicator: index.sh000300.ts
+    data_source: baostock
+    description_zh: 沪深300指数走势
+    description_en: CSI 300 Index Trend
+  - indicator: index.sh000905.ts
+    data_source: baostock
+    description_zh: 中证500指数走势
+    description_en: CSI 500 Index Trend
+  - indicator: index.sh000688.ts
+    data_source: baostock
+    description_zh: 科创50指数走势
+    description_en: STAR 50 Index Trend
+  - indicator: stock.sh600519.ts
+    data_source: baostock
+    description_zh: 贵州茅台股价走势
+    description_en: Kweichow Moutai Price Trend
+  - indicator: stock.sh601318.ts
+    data_source: baostock
+    description_zh: 中国平安股价走势
+    description_en: Ping An Insurance Price Trend
+  - indicator: stock.sz300750.ts
+    data_source: baostock
+    description_zh: 宁德时代股价走势
+    description_en: CATL Price Trend
+  - indicator: stock.sz002594.ts
+    data_source: baostock
+    description_zh: 比亚迪股价走势
+    description_en: BYD Price Trend
+  - indicator: fund.sh510300.ts
+    data_source: baostock
+    description_zh: 沪深300ETF净值走势
+    description_en: CSI 300 ETF Price Trend
+  stock_indicators:
+  - indicator: stock.aapl.ohlcv
+    data_source: yfinance
+    description_zh: 苹果公司
+    description_en: Apple Inc.
+  - indicator: stock.msft.ohlcv
+    data_source: yfinance
+    description_zh: 微软
+    description_en: Microsoft Corporation
+  - indicator: stock.googl.ohlcv
+    data_source: yfinance
+    description_zh: 谷歌
+    description_en: Alphabet Inc.
+  - indicator: stock.tsla.ohlcv
+    data_source: yfinance
+    description_zh: 特斯拉
+    description_en: Tesla Inc.
+  - indicator: stock.nvda.ohlcv
+    data_source: yfinance
+    description_zh: 英伟达
+    description_en: NVIDIA Corporation
+  - indicator: stock.0700.ohlcv
+    data_source: yfinance
+    description_zh: 腾讯控股
+    description_en: Tencent Holdings
+  - indicator: stock.9988.ohlcv
+    data_source: yfinance
+    description_zh: 阿里巴巴
+    description_en: Alibaba Group
+  - indicator: stock.1810.ohlcv
+    data_source: yfinance
+    description_zh: 小米集团
+    description_en: Xiaomi Corporation
+  synthetic_shapes:
+  - CS_1D
+  - CS_ND
+fx_trade:
+  ohlc_indicators:
+  - indicator: fx.eurusd.ohlcv
+    data_source: yfinance
+    description_zh: 欧元/美元汇率
+    description_en: EUR/USD Exchange Rate
+  - indicator: fx.usdjpy.ohlcv
+    data_source: yfinance
+    description_zh: 美元/日元汇率
+    description_en: USD/JPY Exchange Rate
+  - indicator: fx.gbpusd.ohlcv
+    data_source: yfinance
+    description_zh: 英镑/美元汇率
+    description_en: GBP/USD Exchange Rate
+  - indicator: fx.usdcnh.ohlcv
+    data_source: yfinance
+    description_zh: 美元/人民币汇率
+    description_en: USD/CNH Exchange Rate
+  - indicator: fx.audusd.ohlcv
+    data_source: yfinance
+    description_zh: 澳元/美元汇率
+    description_en: AUD/USD Exchange Rate
+  - indicator: fx.usdcad.ohlcv
+    data_source: yfinance
+    description_zh: 美元/加元汇率
+    description_en: USD/CAD Exchange Rate
+  - indicator: fx.usdchf.ohlcv
+    data_source: yfinance
+    description_zh: 美元/瑞士法郎汇率
+    description_en: USD/CHF Exchange Rate
+  ts_indicators:
+  - indicator: fx.eurusd.ohlcv
+    data_source: yfinance
+    description_zh: 欧元/美元汇率走势
+    description_en: EUR/USD Exchange Rate Trend
+  - indicator: fx.usdjpy.ohlcv
+    data_source: yfinance
+    description_zh: 美元/日元汇率走势
+    description_en: USD/JPY Exchange Rate Trend
+  - indicator: fx.gbpusd.ohlcv
+    data_source: yfinance
+    description_zh: 英镑/美元汇率走势
+    description_en: GBP/USD Exchange Rate Trend
+  - indicator: fx.usdcnh.ohlcv
+    data_source: yfinance
+    description_zh: 美元/人民币汇率走势
+    description_en: USD/CNH Exchange Rate Trend
+  synthetic_shapes:
+  - CS_1D
+  - CS_ND
+  synthetic_examples:
+  - 主要货币对波动率对比
+  - 汇率变动幅度分布
+commodities:
+  ohlc_indicators:
+  - indicator: commodity.gold.ohlcv
+    data_source: yfinance
+    description_zh: 黄金期货
+    description_en: Gold Futures (GC=F)
+  - indicator: commodity.silver.ohlcv
+    data_source: yfinance
+    description_zh: 白银期货
+    description_en: Silver Futures (SI=F)
+  - indicator: commodity.oil.wti.ohlcv
+    data_source: yfinance
+    description_zh: WTI原油期货
+    description_en: WTI Crude Oil Futures (CL=F)
+  - indicator: commodity.oil.brent.ohlcv
+    data_source: yfinance
+    description_zh: 布伦特原油期货
+    description_en: Brent Crude Oil Futures (BZ=F)
+  - indicator: commodity.copper.ohlcv
+    data_source: yfinance
+    description_zh: 铜期货
+    description_en: Copper Futures (HG=F)
+  - indicator: commodity.gas.natural.ohlcv
+    data_source: yfinance
+    description_zh: 天然气期货
+    description_en: Natural Gas Futures (NG=F)
+  - indicator: commodity.corn.ohlcv
+    data_source: yfinance
+    description_zh: 玉米期货
+    description_en: Corn Futures (ZC=F)
+  - indicator: commodity.wheat.ohlcv
+    data_source: yfinance
+    description_zh: 小麦期货
+    description_en: Wheat Futures (ZW=F)
+  - indicator: commodity.soybean.ohlcv
+    data_source: yfinance
+    description_zh: 大豆期货
+    description_en: Soybean Futures (ZS=F)
+  - indicator: commodity.coffee.ohlcv
+    data_source: yfinance
+    description_zh: 咖啡期货
+    description_en: Coffee Futures (KC=F)
+  ts_indicators:
+  - indicator: commodity.oil.wti
+    data_source: FRED
+    description_zh: WTI原油现货价格
+    description_en: WTI Crude Oil Spot Price
+  - indicator: commodity.oil.brent
+    data_source: FRED
+    description_zh: 布伦特原油现货价格
+    description_en: Brent Crude Oil Spot Price
+  - indicator: commodity.gas.natural
+    data_source: FRED
+    description_zh: 天然气现货价格
+    description_en: Natural Gas Spot Price
+  - indicator: commodity.gas.price
+    data_source: FRED
+    description_zh: 汽油零售价格
+    description_en: Retail Gasoline Price
+  synthetic_shapes:
+  - CS_1D
+  - CS_ND
+digital_assets:
+  ohlc_indicators:
+  - indicator: crypto.btc.ohlcv
+    data_source: yfinance
+    description_zh: 比特币
+    description_en: Bitcoin (BTC-USD)
+  - indicator: crypto.eth.ohlcv
+    data_source: yfinance
+    description_zh: 以太坊
+    description_en: Ethereum (ETH-USD)
+  synthetic_shapes:
+  - CS_1D
+  - CS_ND
+  synthetic_examples:
+  - 主要加密货币市值分布
+  - 交易所交易量对比

@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Combination Chart (Bar + Line)
+- Title: Not displayed
+- X-axis: Quarterly classification, ranging from 1QFY20 to 3QFY24
+- Left Y-axis: R&D (INR mn), range 0–45,000
+- Right Y-axis: Y-Y growth, range -0.05–0.25
+- Legend: Red bar represents "R&D (INR mn)", Grey line represents "Y-Y growth"
+
+[Data Relationships]
+- The bar for 1QFY20 is approximately 27,500; 3QFY24 is approximately 40,500; the difference between the two is approximately 13,000
+- The highest bar is approximately 40,500 (3QFY24); the lowest is approximately 27,000 (1QFY20/1QFY21); the high-low difference is approximately 13,500
+- Bars for each quarter of FY23 are approximately 32,000–37,000; the first three quarters of FY24 are approximately 37,000–40,500
+- The grey line peaks at approximately 0.22 (1QFY22, 2QFY24); the trough is approximately -0.03 (2QFY23)
+- The grey line starts at approximately 0.06 (1QFY20); ends at approximately 0.10 (3QFY24); the difference is approximately 0.04
+- The grey line for 2QFY21 is approximately 0.23, which is approximately 0.20 higher than 3QFY21's approximately 0.03
+
+[Pattern Characteristics]
+Overall, the red bars show a stepwise increase across quarters, with minor pullbacks but no extreme contraction, primarily forming a single high-level plateau structure. The grey line exhibits distinct peaks and troughs during the two phases of FY21–FY22 and FY23–FY24, crossing near the zero value multiple times. Its volatility is significantly greater than the change in the bars. In isolated quarters (such as 2QFY23), the line falls into the negative region, creating a prominent local low point compared to preceding and succeeding quarters.
+
+[Core Insights]
+Core Conclusion: R&D investment is steadily expanding, but the pace of YoY growth is uneven.
+
+Business Implications:
+- R&D scale continues to expand, with investment tending toward concentrated high levels.
+- YoY growth rate fluctuates repeatedly, indicating differences in the pace of budget execution.
+- Growth rate picks up again after FY23, indicating a stronger willingness to expand investment.
+
+Risk Concerns:
+- When Y-Y growth falls to 0 or below (e.g., 2QFY23), it may weaken medium-to-long-term innovation output.
+- If R&D is maintained at ≥40,000 and the growth rate is below 0.05, it may lead to cost pressure and a mismatch in returns.

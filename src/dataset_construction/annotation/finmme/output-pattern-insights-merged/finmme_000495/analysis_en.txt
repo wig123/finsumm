@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Time series line chart
+- Title: Not displayed
+- Y-axis: Unit is (x), range approximately 14.0–54.0; scales are 14.0, 19.0, 24.0, 29.0, 34.0, 39.0, 44.0, 49.0, 54.0
+- X-axis: Time, Jan-19 to Jan-24
+- Legend: Red line "Forward P/E"; reference lines include Mean (solid gray line), +1.0sd/−1.0sd (dashed gray line), +2.0sd/−2.0sd (dotted gray line)
+
+[Data Relationships]
+- Initial period (Jan-19) ≈29x; Final period (Jan-24) ≈17x; Difference ≈12x
+- Peak value (around Jan-21) ≈52x; Higher than the Mean of 24x by ≈28x; Higher than +2sd of 44x by ≈8x
+- Low point (between Jan-22–Jul-22) ≈16x; Lower than the Mean by ≈8x; Lower than −1sd of 19x by ≈3x; Higher than −2sd of 14x by ≈2x
+
+[Pattern Characteristics]
+- After minor fluctuations above the Mean in the first half of the series, a sharp and relatively symmetrical single-peak pattern emerged, moving significantly away from the upper and lower standard deviation reference ranges.
+- Following the peak, the series rapidly retreated below the Mean, operating within a narrow range between −1sd and −2sd for an extended period, demonstrating an overall unidirectional shift from a high range to a low range.
+- Although the bottom phase saw short-term rebounds and multiple minor fluctuations, it did not re-touch the Mean or higher regions, indicating clear low-level platform characteristics.
+
+[Core Insights]
+Core Conclusion: Valuation shifted from extreme elevation to sustained operation in a long-term depressed range.
+
+Business Implications:
+- Significant valuation premium existed early on, followed by sustained discount later.
+- The valuation anchor shifted from above the Mean to below the Mean, indicating a lower center of gravity.
+- Mid-to-late stage pricing relies more heavily on undervalued levels to maintain attractiveness.
+
+Risk Focus:
+- If the series approaches or exceeds 44x again, the deviation from the Mean of 24x is excessive, potentially intensifying correction pressure.
+- If the series breaks below 14x and persists, it could trigger sentiment deterioration and liquidity contraction.

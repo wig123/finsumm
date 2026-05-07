@@ -1,0 +1,574 @@
+# 生成约束配置
+# 定义图表类型、主题、数据源、视觉风格、语言之间的适配关系和配额
+
+# ============================================================================
+# 语言配额
+# ============================================================================
+language_quota:
+  zh-CN: 0.50  # 中文 50%
+  en-US: 0.50  # 英文 50%
+
+# ============================================================================
+# 语言 × 数据源 亲和度
+# 中文图表更多使用中国数据，英文图表更多使用美国数据
+# ============================================================================
+language_data_source_affinity:
+  zh-CN:
+    Baostock: 0.35  # 中文图表优先使用 Baostock（A股指数）
+    Efinance: 0.25  # Efinance（中国期货/ETF）
+    Synthetic: 0.25 # 合成数据（横截面）
+    FRED: 0.15      # FRED（美国数据，中文标签）
+  en-US:
+    FRED: 0.35      # 英文图表优先使用 FRED（美国宏观数据）
+    yfinance: 0.30  # yfinance（全球指数/外汇）
+    Synthetic: 0.20 # 合成数据
+    Baostock: 0.15  # Baostock（A股指数，英文标签）
+
+# ============================================================================
+# 语言 × 主题 亲和度
+# 某些主题更适合特定语言（中国市场数据 vs 美国市场数据）
+# ============================================================================
+language_theme_affinity:
+  zh-CN:
+    # 中国相关主题更适合中文
+    equity_markets: 1.0   # A股、港股
+    payments_fintech: 1.0 # 中国支付行业发达
+    real_estate: 0.9      # 中国房地产
+    # 美国主导的主题也可用中文
+    macro_policy: 0.8
+    inflation: 0.8
+    default: 0.8
+  en-US:
+    # 美国/国际主题更适合英文
+    macro_policy: 1.0     # 美联储政策
+    fixed_income: 1.0     # 美债市场
+    inflation: 1.0        # 美国CPI
+    commodities: 0.9      # 国际大宗商品
+    fx_trade: 0.9         # 外汇市场
+    esg_sustainable: 0.9  # ESG是国际标准
+    default: 0.8
+
+# ============================================================================
+# 视觉风格配额
+# ============================================================================
+visual_style_quota:
+  trading: 0.15      # 交易终端风格 - 适合交易类主题
+  quant: 0.15        # 量化学术风格 - 适合分析类主题
+  macro: 0.12        # 宏观国际组织风格 - 适合宏观类主题
+  news: 0.12         # 新闻财经风格 - 通用
+  corporate: 0.12    # 企业财报风格 - 适合企业类主题
+  fintech: 0.10      # Fintech App风格 - 适合消费金融类
+  regulator: 0.12    # 监管央行风格 - 适合政策/风险类主题
+  research: 0.12     # 机构研究报告风格 - 通用
+
+# ============================================================================
+# 数据源配额（已移除 AKShare 和 Efinance）
+# ============================================================================
+data_source_quota:
+  # 目标比例（2024-12更新，AKShare/Efinance 已废弃）
+  FRED: 0.25        # 美国宏观经济数据
+  Baostock: 0.25    # A股指数OHLC（无限流、稳定）
+  yfinance: 0.30    # 全球指数/外汇/商品OHLC（Yahoo Finance）
+  Synthetic: 0.20   # 合成数据（横截面/受限主题）
+  # Efinance: 0.00  # ❌ 已废弃（API不稳定，期货数据改用yfinance）
+
+# ============================================================================
+# 图表类型 × 主题 适配矩阵
+# 值: 1.0=完美匹配, 0.5=一般适配, 0.0=不适合
+# ============================================================================
+chart_theme_affinity:
+  # Tier 1 图表
+  line:
+    # 万能图表，几乎适合所有主题
+    default: 1.0
+  
+  candlestick:
+    # 只适合有 OHLC 数据的主题
+    equity_markets: 1.0
+    fx_trade: 1.0
+    commodities: 0.9
+    digital_assets: 0.8
+    derivatives: 0.7
+    default: 0.0  # 其他主题不适合
+  
+  candlestick_volume:
+    equity_markets: 1.0
+    fx_trade: 0.9
+    commodities: 0.8
+    digital_assets: 0.7
+    default: 0.0
+  
+  bar:
+    # 适合对比类数据
+    default: 0.9
+    derivatives: 0.5  # 不太适合
+  
+  area:
+    # 适合展示累积/趋势
+    default: 0.8
+    corporate_finance: 0.5
+  
+  histogram:
+    # 适合展示分布
+    default: 0.7
+    inflation: 0.9
+    growth_employment: 0.9
+    derivatives: 0.9
+  
+  scatter:
+    # 适合展示相关性
+    default: 0.7
+    inflation: 0.9
+    growth_employment: 0.9
+    macro_policy: 0.9
+
+  # Tier 2 图表
+  heatmap:
+    # 适合多变量/矩阵数据
+    derivatives: 1.0      # 波动率曲面
+    fx_trade: 0.9         # 相关性矩阵
+    equity_markets: 0.8   # 行业相关性
+    commodities: 0.8
+    default: 0.5
+  
+  waterfall:
+    # 适合分解变化
+    corporate_finance: 1.0
+    fiscal_policy: 0.9
+    asset_management: 0.8
+    default: 0.3
+  
+  ohlc:
+    equity_markets: 1.0
+    fx_trade: 1.0
+    commodities: 0.9
+    default: 0.0
+  
+  bollinger_bands:
+    equity_markets: 1.0
+    fx_trade: 1.0
+    commodities: 0.9
+    digital_assets: 0.8
+    default: 0.0
+  
+  box:
+    # 适合展示分布
+    growth_employment: 0.9
+    inflation: 0.9
+    derivatives: 0.8
+    default: 0.6
+  
+  pie:
+    # 适合展示占比
+    asset_management: 1.0
+    corporate_finance: 0.9
+    insurance: 0.8
+    default: 0.4
+  
+  treemap:
+    # 适合层级结构
+    asset_management: 1.0
+    equity_markets: 0.9
+    corporate_finance: 0.8
+    default: 0.3
+
+  # Tier 3 图表
+  contour:
+    # 适合曲面数据
+    derivatives: 1.0      # 波动率曲面
+    fixed_income: 0.8     # 收益率曲面
+    default: 0.2
+  
+  volume_profile:
+    equity_markets: 1.0
+    fx_trade: 0.8
+    commodities: 0.8
+    default: 0.0
+  
+  ichimoku_cloud:
+    equity_markets: 1.0
+    fx_trade: 1.0
+    commodities: 0.8
+    default: 0.0
+  
+  renko:
+    equity_markets: 1.0
+    fx_trade: 0.9
+    commodities: 0.8
+    default: 0.0
+  
+  errorbar:
+    # 适合展示不确定性
+    growth_employment: 0.9
+    inflation: 0.9
+    macro_policy: 0.8
+    default: 0.5
+  
+  radar:
+    # 适合多维对比
+    corporate_finance: 1.0
+    asset_management: 0.9
+    esg_sustainable: 0.9
+    default: 0.5
+  
+  fan_chart:
+    # 适合预测区间
+    macro_policy: 1.0
+    inflation: 0.9
+    growth_employment: 0.8
+    default: 0.4
+  
+  market_depth:
+    equity_markets: 1.0
+    fx_trade: 0.9
+    digital_assets: 0.8
+    default: 0.0
+
+  # Tier 4 图表
+  point_figure:
+    equity_markets: 1.0
+    fx_trade: 0.9
+    commodities: 0.8
+    default: 0.0
+  
+  candlestick_indicator:
+    equity_markets: 1.0
+    fx_trade: 1.0
+    commodities: 0.9
+    default: 0.0
+  
+  density:
+    derivatives: 0.9
+    growth_employment: 0.8
+    inflation: 0.8
+    default: 0.5
+  
+  heatmap_scatter:
+    derivatives: 0.9
+    equity_markets: 0.8
+    inflation: 0.8
+    default: 0.5
+
+# ============================================================================
+# 主题 × 数据形态 推荐
+# 某些主题更适合某些数据形态
+# ============================================================================
+theme_shape_affinity:
+  # 交易类主题 - 需要 OHLC 数据
+  equity_markets:
+    TS_OHLC: 1.0
+    TS_1D: 0.8
+    CS_ND: 0.6
+  
+  fx_trade:
+    TS_OHLC: 1.0
+    TS_1D: 0.8
+  
+  commodities:
+    TS_OHLC: 0.9
+    TS_1D: 0.9
+  
+  # 宏观类主题 - 时序数据为主
+  macro_policy:
+    TS_1D: 1.0
+    TS_ND: 0.9
+  
+  inflation:
+    TS_1D: 1.0
+    TS_ND: 0.8
+    CS_ND: 0.7  # 多国对比
+  
+  growth_employment:
+    TS_1D: 1.0
+    CS_ND: 0.9  # 多国对比
+  
+  # 金融结构类 - 横截面为主
+  corporate_finance:
+    CS_1D: 1.0
+    CS_ND: 0.9
+    FLOW: 0.8   # 资金流向
+  
+  asset_management:
+    CS_1D: 1.0
+    CS_ND: 0.9
+  
+  insurance:
+    CS_1D: 0.9
+    CS_ND: 0.8
+  
+  # 衍生品 - 矩阵数据
+  derivatives:
+    MATRIX: 1.0
+    TS_1D: 0.7
+
+# ============================================================================
+# 数据源 × 主题 推荐
+# 某些主题只能用特定数据源
+# ============================================================================
+data_source_theme_affinity:
+  FRED:
+    macro_policy: 1.0
+    fiscal_policy: 0.9
+    inflation: 1.0
+    growth_employment: 0.9
+    fixed_income: 1.0
+    commodities: 0.8
+    risk_regulation: 0.9
+    # 不支持的主题
+    equity_markets: 0.3  # 只有美股指数
+    fx_trade: 0.0        # FRED 无外汇数据
+    insurance: 0.0
+    digital_assets: 0.0
+  
+  Baostock:
+    # A股指数数据（无限流、稳定）
+    equity_markets: 1.0  # A股指数
+    default: 0.0         # 仅支持A股指数
+  
+  yfinance:
+    # 港股/全球指数/外汇
+    equity_markets: 0.9  # 港股指数
+    fx_trade: 1.0        # 外汇数据
+    commodities: 0.6     # 部分商品
+    default: 0.3
+  
+  # Efinance 已废弃（API不稳定），期货数据改用 yfinance
+  # Efinance:
+  #   derivatives: 1.0
+  #   commodities: 0.9
+  #   equity_markets: 0.7
+  #   default: 0.2
+  
+  # AKShare 已废弃（2024-12），原有数据迁移至：
+  # - A股指数 → Baostock
+  # - 外汇 → yfinance  
+  # - 期货/ETF → Efinance
+  # - 横截面数据 → Synthetic
+  
+  Synthetic:
+    # 合成数据适合所有主题（作为兜底）
+    default: 0.8
+    # 特别适合数据有限的主题
+    insurance: 1.0
+    esg_sustainable: 1.0
+    corporate_finance: 1.0
+    accounting_reporting: 1.0
+    ma_ipos: 1.0
+    payments_fintech: 1.0
+
+# ============================================================================
+# 视觉风格 × 主题 亲和度矩阵
+# 值: 1.0=完美匹配, 0.5=一般适配, 0.2=不太适合
+# ============================================================================
+style_theme_affinity:
+  trading:
+    # 交易终端风格 - 适合需要实时监控的交易类主题
+    equity_markets: 1.0
+    fx_trade: 1.0
+    commodities: 0.9
+    derivatives: 1.0
+    digital_assets: 1.0
+    default: 0.3  # 不适合宏观、企业等主题
+  
+  quant:
+    # 量化学术风格 - 适合需要严谨分析的主题
+    derivatives: 1.0
+    risk_regulation: 0.9
+    inflation: 0.8
+    growth_employment: 0.8
+    macro_policy: 0.7
+    fixed_income: 0.8
+    default: 0.6  # 通用性较好
+  
+  macro:
+    # 宏观国际组织风格 - 适合多国比较、政策分析
+    inflation: 1.0
+    growth_employment: 1.0
+    fiscal_policy: 1.0
+    macro_policy: 0.9
+    fx_trade: 0.8
+    commodities: 0.7
+    default: 0.5
+  
+  news:
+    # 新闻财经风格 - 通用性强，适合叙事
+    default: 0.8  # 几乎所有主题都适合
+    equity_markets: 0.9
+    inflation: 0.9
+    growth_employment: 0.9
+    commodities: 0.8
+  
+  corporate:
+    # 企业财报风格 - 适合企业/业务相关主题
+    corporate_finance: 1.0
+    asset_management: 0.9
+    insurance: 0.8
+    banking_credit: 0.8
+    ma_ipos: 0.9
+    accounting_reporting: 0.9
+    default: 0.4
+  
+  fintech:
+    # Fintech App风格 - 适合消费金融、新兴领域
+    payments_fintech: 1.0
+    digital_assets: 1.0
+    asset_management: 0.8
+    banking_credit: 0.7
+    default: 0.4  # 不适合严肃的宏观/监管主题
+  
+  regulator:
+    # 监管央行风格 - 适合政策、风险、稳定性主题
+    macro_policy: 1.0
+    risk_regulation: 1.0
+    banking_credit: 0.9
+    fixed_income: 0.8
+    fiscal_policy: 0.8
+    default: 0.5
+  
+  research:
+    # 机构研究报告风格 - 通用性强，标准化输出
+    default: 0.8  # 几乎所有主题都适合
+    equity_markets: 1.0
+    fixed_income: 0.9
+    commodities: 0.9
+    corporate_finance: 0.9
+
+# ============================================================================
+# 视觉风格 × 图表类型 亲和度
+# 某些风格更适合某些图表类型
+# ============================================================================
+style_chart_affinity:
+  trading:
+    # 交易风格适合金融交易类图表
+    candlestick: 1.0
+    candlestick_volume: 1.0
+    ohlc: 1.0
+    bollinger_bands: 1.0
+    ichimoku_cloud: 1.0
+    renko: 1.0
+    point_figure: 1.0
+    volume_profile: 1.0
+    market_depth: 1.0
+    line: 0.8
+    default: 0.4
+  
+  quant:
+    # 量化风格适合分析类图表
+    scatter: 1.0
+    heatmap: 1.0
+    contour: 1.0
+    density: 1.0
+    heatmap_scatter: 1.0
+    histogram: 0.9
+    box: 0.9
+    errorbar: 0.9
+    line: 0.8
+    default: 0.6
+  
+  macro:
+    # 宏观风格适合比较类图表
+    line: 1.0
+    area: 0.9
+    bar: 0.9
+    heatmap: 0.8  # 多国比较热力图
+    radar: 0.8    # 多维度比较
+    default: 0.6
+  
+  news:
+    # 新闻风格 - 简洁、叙事型
+    line: 1.0
+    area: 0.9
+    bar: 0.9
+    default: 0.7
+  
+  corporate:
+    # 企业风格适合业务类图表
+    waterfall: 1.0
+    waterfall_line: 1.0
+    bar: 1.0
+    pie: 0.9
+    treemap: 0.9
+    bar_line_overlay: 0.9
+    default: 0.6
+  
+  fintech:
+    # Fintech风格 - 简洁、轻量
+    line: 0.9
+    area: 0.9
+    pie: 0.8
+    default: 0.6
+  
+  regulator:
+    # 监管风格 - 保守、严谨
+    line: 1.0
+    area: 0.8
+    bar: 0.8
+    heatmap: 0.7
+    default: 0.6
+  
+  research:
+    # 研究风格 - 标准化、批量
+    line: 1.0
+    bar: 0.9
+    scatter: 0.8
+    candlestick: 0.8
+    default: 0.7
+
+# ============================================================================
+# 强制约束（硬性规则）
+# ============================================================================
+hard_constraints:
+  # 合成数据只适用于数据点少的形态
+  # 时间序列数据必须使用真实数据源（FRED/yfinance/Baostock/Efinance）
+  synthetic_allowed_shapes:
+    - CS_1D     # 单变量横截面 (~10 个数据点)
+    - CS_ND     # 多变量横截面 (~50 个数据点)
+    - MATRIX    # 矩阵数据 (~100 个数据点)
+    - FLOW      # 流向数据 (~20 条边)
+    - GRAPH     # 图数据 (~20 个节点)
+  
+  # 禁止合成的形态（数据点太多，必须用真实数据）
+  synthetic_forbidden_shapes:
+    - TS_1D     # 单变量时序 (500-2000+ 数据点)
+    - TS_ND     # 多变量时序 (500-2000+ 数据点)
+    - TS_OHLC   # OHLC金融时序 (500-2000+ 数据点)
+
+  # 图表类型必须匹配数据形态
+  chart_requires_shape:
+    candlestick: [TS_OHLC]
+    candlestick_volume: [TS_OHLC]
+    ohlc: [TS_OHLC]
+    bollinger_bands: [TS_OHLC, TS_1D]
+    ichimoku_cloud: [TS_OHLC]
+    renko: [TS_OHLC]
+    point_figure: [TS_OHLC]
+    candlestick_indicator: [TS_OHLC]
+    volume_profile: [TS_OHLC]
+    market_depth: [TS_OHLC]
+    heatmap: [MATRIX, CS_ND]
+    contour: [MATRIX]
+    treemap: [CS_ND, FLOW]
+    waterfall: [CS_1D, FLOW]
+    pie: [CS_1D]
+    radar: [CS_ND]
+  
+  # 某些图表类型禁止某些主题
+  chart_forbidden_themes:
+    candlestick: [insurance, accounting_reporting, payments_fintech, ma_ipos]
+    ohlc: [insurance, accounting_reporting, payments_fintech, ma_ipos]
+    bollinger_bands: [insurance, accounting_reporting, payments_fintech]
+    ichimoku_cloud: [insurance, accounting_reporting]
+    renko: [insurance, accounting_reporting]
+    point_figure: [insurance, accounting_reporting]
+  
+  # 某些视觉风格禁止某些主题（风格与主题严重不匹配）
+  style_forbidden_themes:
+    trading: [insurance, accounting_reporting, esg_sustainable]
+    fintech: [risk_regulation, accounting_reporting, regulator]
+  
+  # 某些视觉风格禁止某些图表类型
+  style_forbidden_charts:
+    fintech: [candlestick, ohlc, contour, heatmap_scatter]  # Fintech风格不适合复杂金融图表
+    corporate: [candlestick, ohlc, bollinger_bands, ichimoku_cloud]  # 企业风格不需要交易图表
+    regulator: [trading, fintech]  # 监管风格不能用交易/Fintech风格的元素
+

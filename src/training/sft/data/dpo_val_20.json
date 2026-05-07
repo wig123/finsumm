@@ -1,0 +1,462 @@
+[
+  {
+    "conversations": [
+      {
+        "from": "system",
+        "value": "You are a financial chart analyst. Analyze the given financial chart and provide detailed insights."
+      },
+      {
+        "from": "human",
+        "value": "<image>\nPlease analyze this financial chart in detail."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "[Chart Components]\n- The chart type is a dual line graph, titled “% Portfolio Represented by Anchors”\n- The horizontal axis represents time, marked quarterly, from 3Q03 to 3Q15\n- The vertical axis represents percentage, ranging approximately from 58% to 68%\n- The legend shows two lines: the teal line represents “% of GLA,” and the black line represents “% of ABR”\n- The two lines are generally close, with only slight differences in height at individual points\n\n[Data Relationships]\n- In 3Q03, both metrics were approximately 60%–61%, with GLA slightly lower than ABR\n- Around 2006, GLA briefly dropped to approximately 58%, while ABR remained around 62%–63%\n- Around 2007, ABR rose to approximately 64%, while GLA was slightly lower\n- Around 2008, both metrics were approximately 63%–64%\n- Around 2010, both metrics were approximately 65%–66%\n- Around 2011, GLA was approximately 67%, and ABR was approximately 65%, representing the highest point for GLA\n- Around 2012, both metrics were approximately 65%–66%\n- Around 2013, GLA was approximately 66%, and ABR was approximately 65%\n- Around 2014, both metrics were approximately 66%–67%\n- In 3Q15, both metrics were approximately 67%, representing the highest point for ABR\n\n[Pattern Characteristics]\n- The two curves generally move in the same direction, with limited deviation\n- The overall pattern shows a step-like increase from the starting point to the ending point, interspersed with several brief pullbacks\n- A clear low point appeared around 2006, followed by a gradual recovery\n- A relatively high plateau formed around 2010–2011, after which the values fluctuated slightly within a narrow range\n- The curves did not show extreme jumps; the changes were relatively smooth\n\n[Core Insights]\nCore Conclusion: The proportion of anchor assets in the portfolio is generally in a high range and has been maintained at a high level in the long term.\n\nBusiness Implications:\n- Indicates that anchor assets have a high degree of concentration in the portfolio\n- Reflects a relatively stable structure in terms of asset allocation\n- Suggests that the portfolio's reliance on anchor assets is significant\n\nRisk Focus:\n- If the proportion of anchor assets consistently exceeds 67%, it may amplify the impact of volatility in a single asset type on overall returns\n- If the proportion falls below 60%, it may weaken the portfolio's reliance on anchor assets, requiring a reassessment of the current allocation strategy"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "[Chart Components]\n- Type: Dual Line Chart\n- Title: % Portfolio Represented by Anchors\n- X-axis: Time; labeled from 2003Q4 to 2015Q3 (quarterly)\n- Y-axis: Percentage; range 58%–68%\n- Legend: Cyan “% of GLA”; Dark Gray “% of ABR”\n- Description: The chart displays the proportion of anchors in the total portfolio, categorized by area (GLA) and revenue (ABR), over time.\n\n[Data Relationships]\n- Initial Period: 2003Q4; GLA≈59%, ABR≈61%.\n- 2008Q1 GLA≈65% vs ABR≈64%; difference ≈1%.\n- 2010Q4 GLA≈67% vs ABR≈65%; difference ≈2%.\n- 2015Q3 GLA≈67% vs ABR≈66%; difference ≈1%.\n- Trough: GLA≈58% (2003Q4); Peak: GLA≈67% (2010–2011, 2015Q3); ABR Peak ≈66% (2015Q3).\n- 2012Q1 ABR≈65% vs GLA≈62%; difference ≈3%.\n- 2013Q4 ABR≈66% vs GLA≈65%; difference ≈1%.\n\n[Pattern Characteristics]\nBoth lines fluctuate synchronously over the long term within the 58%–68% range, with GLA consistently positioned below ABR. GLA showed a rapid increase from 2004–2010, forming a plateau and subsequently rising again in 2015; ABR exhibited a slight step-change rise around 2012, followed by minor fluctuations. The gap between the two was widest in 2012 and narrowed in 2015. A brief inverse relationship occurred between 2012 and 2013, after which they returned to the near-parallel structure.\n\n[Core Insights]\nCore Conclusion: The weight of anchors in GLA and ABR generally remains consistent, but the discrepancy between the two metrics is noticeable.\n\nBusiness Implications:\n- Indicates structural differences between area and revenue distribution.\n- Indicates differences in the sensitivity of asset and revenue allocation.\n- Suggests that the portfolio is relatively concentrated in anchor assets.\n\nRisk Focus:\n- When the GLA/ABR gap exceeds 3 percentage points, structural mismatch may arise.\n- If the anchor proportion consistently exceeds 67%, it may amplify the impact of volatility in a single asset type on performance."
+    },
+    "images": [
+      "images/mc_01414_1570234769_8_crop_1.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "system",
+        "value": "You are a financial chart analyst. Analyze the given financial chart and provide detailed insights."
+      },
+      {
+        "from": "human",
+        "value": "<image>\nPlease analyze this financial chart in detail."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "[Chart Composition]\n- Task: Daily Bitcoin OHLC price movement chart with a corresponding volume bar chart.\n- Content: The top panel displays price action using candlesticks, with the Y-axis labeled \"Price (USD)\" ranging from roughly 5000 to 6800. The X-axis represents time, marked with months (Feb through Sep) and a year label \"1970\" (likely a data display artifact). The bottom panel shows trading volume as bars, with the Y-axis labeled \"Volume 10^6\" ranging from 2000 to 10000. Green indicates price increase, and red indicates decrease.\n\n[Data Relationships]\n- The price begins near the 6000 level and ends near the 6800 level, showing a net positive movement.\n- A significant decline occurs from March to early April, dropping from approximately 6100 to a low of roughly 5000, a decrease of about 18%.\n- Following the low, the price rallies from 5000 to a peak of approximately 6850 by late October, an increase of over 37%.\n- Volume spikes are concentrated during the sharp decline in March/April, with peaks exceeding 8000 (10^6), contrasting with the average volume of roughly 4000-6000 during the subsequent uptrend.\n\n[Pattern Features]\n- The overall morphology resembles a \"V-shaped\" recovery or a checkmark pattern, characterized by a sharp, volatile drop followed by a sustained, linear ascent.\n- The decline phase is steep and discontinuous, featuring long candlesticks and gaps, indicating high instability.\n- The recovery phase is structured and consistent, with lower volatility and a steady slope, showing a clear trend channel.\n- Volume distribution is asymmetrical, with the highest activity coinciding with the price bottom, suggesting capitulation, while the ascent is supported by steady, moderate volume.\n\n[Key Insights]\nCore Conclusion: The asset demonstrated a complete trend reversal, absorbing a sharp correction to establish a dominant bullish structure.\n\nBusiness Implications:\n- Market sentiment shifted from panic selling to sustained, confident accumulation.\n- Asset valuation effectively doubled from the Q2 lows, restoring capital confidence.\n- The recovery trajectory indicates strong demand absorption at lower price levels.\n\nRisk Considerations:\n- A drop below the 6500 support level could invalidate the current uptrend structure.\n- The steep angle of the recent rally suggests potential for a technical pullback."
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "[Chart Composition]\n- Chart Type: Dual-panel financial chart combining a candlestick chart (top) and a volume bar chart (bottom).\n- Title: Daily Bitcoin OHLC Price Movement Over 1 Year.\n- Axes: X-axis displays a time timeline labeled from \"1970\" to \"Sep\" (noting the \"1970\" start is likely a system default); Top Y-axis represents Price (USD) ranging from 5000 to 6750; Bottom Y-axis represents Volume (scaled in millions, 10^6) ranging from 2000 to 10000.\n- Legend: Green candles indicate bullish days, while Red/Orange candles indicate bearish days.\n\n[Data Relationships]\n- Extreme Values: The lowest price point occurred in early April, dropping to approximately 4,900 USD; the highest peak appeared in late October, reaching slightly above 6,800 USD.\n- Major Correction: Between March and early April, the price declined sharply from ~6,100 USD to ~4,900 USD, a drop of roughly 19%.\n- Recovery Magnitude: Following the April low, the price rallied significantly, increasing by over 38% to the 6,750 USD range by year-end.\n- Volume Anomaly: There was a massive surge in trading volume during the March-April decline, with peak bars reaching near 10,000 (10^6), contrasting with the average volume of 4,000-6,000 throughout the rest of the year.\n\n[Pattern Features]\n- Overall Shape: The chart exhibits a distinct \"check mark\" recovery or \"V-shaped\" reversal pattern, characterized by a steep drop followed by a sustained, multi-month ascent.\n- Structural Characteristics: The market transitioned from a high-volatility downward trend in Q1 to a stable, consistent upward channel characterized by higher highs and higher lows from May to October.\n- Anomalies: The decline phase (March-April) is visually dense with long-bodied candles and extreme volume spikes, indicating a period of intense liquidation. This contrasts with the subsequent uptrend, which is structured, continuous, and less volatile.\n- Trend Termination: The final segment of the chart shows signs of deceleration, with candle bodies overlapping at the upper boundaries, suggesting a potential resistance zone near the 6,800 USD level.\n\n[Key Insights]\nCore Conclusion: The asset successfully executed a complete trend reversal, absorbing a Q1 shock to establish a dominant year-long uptrend.\n\nBusiness Implications:\n- Market resilience demonstrated by rapid recovery from the 5,000 USD valuation floor.\n- Consistent price appreciation facilitated sustained capital accumulation and growth.\n- Market structure shifted from high-variance liquidation to stable, orderly accumulation.\n\nRisk Considerations:\n- Resistance near 6,800 USD; failure to break confirms a double-top formation risk.\n- Sharp retracement potential exists if the current momentum stalls at the peak."
+    },
+    "images": [
+      "images/syn_160_candlestick_en-US_digital_assets.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "system",
+        "value": "You are a financial chart analyst. Analyze the given financial chart and provide detailed insights."
+      },
+      {
+        "from": "human",
+        "value": "<image>\nPlease analyze this financial chart in detail."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "[Chart Composition]\n- Chart type: Horizontal bar chart titled \"Employment Growth Rate by Industry Sector\"\n- Axis: Y-axis lists 14 industry sectors; X-axis represents Growth Rate (%) ranging from 0 to 10\n- Visual encoding: Bars are color-coded; green indicates higher growth rates (top half), red indicates lower growth rates (bottom half)\n- Labels: Specific percentage values are annotated at the end of each bar\n\n[Data Relationships]\n- Extremes: Technology records the highest growth at 8.7%, while Agriculture records the lowest at 1.2%\n- Gap: The difference between the highest (Technology) and lowest (Agriculture) sector is 7.5 percentage points\n- Tiered performance: The top three sectors (Technology, Hospitality & Tourism, Healthcare) all exceed 6.0%\n- Threshold crossing: Only four sectors (Technology, Hospitality, Healthcare, Retail) surpass the 5.0% mark\n- Low performers: The bottom five sectors (Construction through Agriculture) all remain below 3.5%\n\n[Pattern Features]\n- Overall shape: The data exhibits a distinct, monotonic descending staircase pattern from top to bottom\n- Structural characteristics: There is a clear visual dichotomy where the top half of the chart is \"green\" (high) and the bottom half is \"red\" (low)\n- Distribution: Growth rates are concentrated in the middle range (3.0% to 6.0%) for the central sectors, creating a \"hump\" in the middle before tapering off\n- Anomalies: No sudden spikes or outliers disrupt the smooth descending order; the transition between sectors is gradual\n\n[Key Insights]\nCore Conclusion: Technology and service-oriented sectors drive aggressive expansion, while traditional industries lag significantly in hiring momentum.\n\nBusiness Implications:\n- High-growth sectors require rapid scaling of recruitment and onboarding processes\n- Traditional industries face stagnation, potentially limiting workforce mobility and retention\n- Strategic resource allocation should favor high-growth sectors to maximize ROI\n\nRisk Considerations:\n- Sectors below 3.0% growth risk talent shortages due to low hiring velocity\n- A 7.5 percentage point gap between leaders and laggards indicates structural sector imbalance"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "[Chart Composition]\n- Task: Horizontal bar chart titled \"Employment Growth Rate by Industry Sector\".\n- Content: The Y-axis lists 14 industry sectors (e.g., Technology, Healthcare, Agriculture). The X-axis represents \"Growth Rate (%)\" with a scale up to 10. The chart uses color coding: bright green for higher growth rates and red for lower rates.\n\n[Data Relationships]\n- Technology holds the maximum growth rate at 8.7%, while Agriculture records the minimum at 1.2%.\n- There is a significant performance gap between the top (Technology) and bottom (Agriculture) sectors, exceeding 7.5 percentage points.\n- Five sectors are in the green zone (above 4.3%), while nine sectors are in the red zone (below or around 4.3%).\n- Technology (8.7%) is the only sector surpassing the 8% threshold.\n- The average growth rate for the top half of the chart (Technology to Transportation & Logistics) is significantly higher than the bottom half.\n\n[Pattern Features]\n- The data exhibits a distinct \"high-low\" stratification, with a clear visual division between high-growth and low-growth segments.\n- There is a descending stair-step pattern in the green section, indicating a consistent slowdown as you move down the list.\n- The red section shows greater visual clustering and less dispersion compared to the green section.\n- The overall distribution is positively skewed towards the high-growth segment in terms of magnitude.\n\n[Key Insights]\nCore Conclusion: The market demonstrates a bifurcated expansion, heavily concentrated in technology-driven sectors while traditional industries stagnate.\n\nBusiness Implications:\n- Labor demand is actively shifting towards high-skill, technology-centric environments.\n- Recruitment strategies must be segmented to match sector-specific growth velocities.\n- Resource allocation likely favors sectors yielding returns above the 4.3% baseline.\n\nRisk Considerations:\n- Sectors below 2.8% growth face potential stagnation or workforce attrition risks.\n- The 7.5 percentage point spread suggests widening structural disparities between sectors."
+    },
+    "images": [
+      "images/syn_v4f_20251211_212424_bar_en-US_growth_employment_5e227432.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "system",
+        "value": "你是一位金融图表分析师。请分析给定的金融图表并提供详细的见解。"
+      },
+      {
+        "from": "human",
+        "value": "<image>\n请详细分析这张金融图表。"
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "【图表构成】\n- 图表类型：带时间轴的阶梯折线图\n- 标题：美国优惠贷款利率走势（2022-2025）\n- 坐标轴：横轴为日期（范围涵盖2023年1月至2026年1月），纵轴为利率（%），刻度范围从7.0至8.5以上\n- 图例：深蓝色实线代表优惠贷款利率\n\n【数据关系】\n- 极值分布：利率在2023年9月至2024年9月期间维持在最高点8.5%\n- 变动幅度：从2023年初的7.0%攀升至8.5%，累计上升1.5个百分点；随后在2024年末开始回落，至2025年末降至7.0%\n- 阶段对比：2023年呈现持续单边上涨，2024年10月后呈现持续单边下跌，中间存在长达一年的高位平台期\n- 关键点位：7.0%和8.5%分别是起始/结束点和峰值，7.5%是2025年中期的过渡平台\n\n【模式特征】\n- 整体形态：呈现典型的“阶梯式”结构，具有明显的阶段性特征，分为快速上升、高位横盘、阶梯下降三个清晰阶段\n- 结构特点：数据表现出极强的“粘性”，在达到某个水平后倾向于长时间保持不变，而非波动式调整\n- 对称性：上升阶段的步幅（约0.25-0.5%）与下降阶段的步幅大致相当，显示出调整的节奏感\n- 趋势方向：2023年为明确的上升趋势，2024年10月后转为明确的下降趋势，中间无明显的反弹或震荡\n\n【核心洞察】\n核心结论：资金成本已完成从激增到紧缩的周期，目前正处于长达一年的高位平台期后，进入确定的阶梯式下行通道。\n\n业务含义：\n- 融资环境已从极度紧张转向逐步宽松\n- 企业偿债压力将随利率下降而显著缓解\n- 长期资金规划需适应“高息-降息”的切换节奏\n\n风险关注：\n- 8.5%的高息平台期长达一年，可能已对现金流造成实质性损伤\n- 下行过程虽稳，但需警惕利率在7.0%附近出现的二次粘性"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "【图表构成】\n- 图表类型：带有时间轴的单线阶梯折线图。\n- 标题：美国优惠贷款利率走势（2022-2025）。\n- 坐标轴：横轴为日期（显示范围覆盖2022年底至2026年初），纵轴为利率（%），范围从7.0%至8.5%以上。\n- 图例：深蓝色线条代表“优惠贷款利率”。\n\n【数据关系】\n- 初始状态：图表始于2023年初，利率处于周期最低点7.0%。\n- 上行阶段：2023年全年利率持续上行，呈阶梯式累计攀升，至2023年9月突破8.5%。\n- 平台期：2023年9月至2024年9月维持在8.5%的最高峰值水平，持续长达12个月。\n- 下行阶段：2024年10月起开始下降，2025年期间分多次阶梯下调，至图表末端（2025年12月）降至7.0%。\n- 对比：上行过程耗时约6个月，峰值平台期约12个月，下行过程耗时约14个月，下行速度明显慢于上行。\n\n【模式特征】\n- 整体形态：呈现显著的“爬升-平台-缓降”形态，走势具有极强的阶梯状特征，表明调整是离散的而非连续的。\n- 结构特点：具有高度的不对称性，上升阶段斜率陡峭，下降阶段斜率平缓且持续时间更长。\n- 稳定性：利率在两个极端位置（7.0%和8.5%）的驻留时间均较长，显示出系统在重大变动前后的粘性。\n\n【核心洞察】\n核心结论：资金成本已完成从最低点到最高点的全周期切换，目前处于漫长的回落与观察期。\n\n业务含义：\n- 融资环境已从高压状态转向逐步宽松周期。\n- 企业或项目的资金成本压力将随利率下调而减轻。\n- 长期低位平台期暗示决策需适应低利率常态。\n\n风险关注：\n- 下行速率缓慢，完全回归7%低点需等待数月。\n- 需警惕在8.5%高点长期盘整后的回撤风险。"
+    },
+    "images": [
+      "images/syn_v4_20251212_023051_line_zh-CN_corporate_finance_973508b0.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "system",
+        "value": "你是一位金融图表分析师。请分析给定的金融图表并提供详细的见解。"
+      },
+      {
+        "from": "human",
+        "value": "<image>\n请详细分析这张金融图表。"
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "【图表构成】\n- 图表类型：双轴组合图（柱状图与折线图）\n- 标题：主要经济体汇率、经常账户与贸易差额季度趋势\n- 横轴：五个主要经济体（中国、美国、日本、德国、印度）\n- 左纵轴：数值（亿美元），范围约-800至600，对应灰色（经常账户）和蓝色（贸易差额）柱状图\n- 右纵轴：汇率变动率（%），范围-2至2.5，对应红色折线图\n- 图例：灰色代表经常账户余额，蓝色代表贸易差额，红色代表汇率变动率\n\n【数据关系】\n- 极值对比：美国的经常账户与贸易差额均为负值，且为全图最低点，经常账户缺口约-600亿美元，贸易赤字超过-800亿美元\n- 正值表现：中国、日本、德国的经常账户与贸易差额均为正值，其中中国数值最高，经常账户约420亿美元，贸易差额约550亿美元\n- 汇率联动：汇率变动率与经常/贸易差额呈现高度正相关，中国（+2.4%）和德国（+1.2%）汇率上升伴随顺差，美国（-1.6%）和印度（-2.1%）汇率下跌伴随逆差\n- 日德差异：德国的经常账户（约280亿美元）和贸易差额（约330亿美元）均显著高于日本（约350亿美元和320亿美元）\n\n【模式特征】\n- 整体形态：呈现显著的“双极分化”形态，经济体被清晰划分为顺差阵营（中、日、德）和逆差阵营（美、印）\n- 结构特点：顺差国（中、日、德）的经常账户与贸易差额方向一致且均为正；逆差国（美、印）的两项指标均为负\n- 趋势特征：汇率变动率与贸易差额之间存在明显的正向线性关系，即汇率升值区域对应贸易顺差，汇率贬值区域对应贸易逆差\n- 异常点：美国的贸易逆差绝对值（超过800亿美元）显著大于其经常账户逆差（约600亿美元），显示出结构性的资金流动特征\n\n【核心洞察】\n核心结论：汇率升值趋势与贸易顺差高度绑定，美国呈现显著的结构性贸易赤字。\n\n业务含义：\n- 贸易与经常账户同步为正，显示出口导向型经济的强劲创汇能力\n- 汇率升值区域对应顺差，表明货币购买力增强并未削弱出口竞争力\n- 美国贸易赤字远超经常账户缺口，暗示资本流入或服务贸易存在逆差\n\n风险关注：\n- 美国贸易赤字突破800亿美元，若持续将加剧外部融资依赖压力\n- 印度汇率跌幅超2%且伴随逆差，需警惕货币贬值对进口成本的冲击"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "【图表构成】\n- 图表类型：双轴组合图（柱状图+折线图）\n- 标题：主要经济体汇率、经常账户与贸易差额季度趋势\n- 横轴：五个主要经济体（中国、美国、日本、德国、印度）\n- 左侧纵轴：数值（亿美元），范围从-800至600\n- 右侧纵轴：汇率变动率（%），范围从-2至2.5\n- 图例：灰色柱体代表经常账户余额，蓝色柱体代表贸易差额，红色折线代表汇率变动率\n\n【数据关系】\n- 极值对比：美国在经常账户与贸易差额上均为最大负值，分别触及约-630亿美元和-780亿美元的底部。\n- 正向分布：中国、日本、德国的经常账户余额与贸易差额均表现为正值，其中中国数值最高，分别为约420亿美元和550亿美元。\n- 印度数据：除贸易差额微弱为正外，经常账户余额呈现小幅度的负值。\n- 汇率走势：汇率变动率呈现显著的两极分化，美国处于最深的负值（约-1.8%），中国处于最高正值（约2.4%），其余三国数值相对温和。\n\n【模式特征】\n- 整体形态：呈现高度的正相关性，经济体的贸易顺差与经常账户盈余在视觉上几乎完全重合，形成对称的“两端高、中间深”的U型或V型分布。\n- 结构特点：数据呈现典型的二元结构，美国作为唯一的深坑（双赤字与负汇率），其余四国则表现为稳健的正向输出（盈余与正汇率）。\n- 异常特征：印度的贸易数据显示出极低的波动性，与美、中、欧的剧烈波动形成对比，且其汇率与账户指标的振幅均明显小于整体样本。\n\n【核心洞察】\n核心结论：全球贸易呈现“双赤字孤岛”与“多盈余阵营”的结构性割裂。\n\n业务含义：\n- 贸易盈余国（中、日、德）资金充裕，具备显著的货币价值支撑。\n- 美国账户赤字需依赖贸易伙伴的逆差来平衡其外部供需缺口。\n- 印度作为中间态，尚未形成大规模的结构性贸易收支波动。\n\n风险关注：\n- 美国贸易赤字若持续超过700亿美元，可能引发贸易伙伴的汇率保卫战。\n- 日本贸易顺差超250亿美元，叠加汇率上升趋势，可能加剧全球贸易摩擦。"
+    },
+    "images": [
+      "images/syn_1038_bar_line_overlay_zh-CN_fx_trade.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "system",
+        "value": "You are a financial chart analyst. Analyze the given financial chart and provide detailed insights."
+      },
+      {
+        "from": "human",
+        "value": "<image>\nPlease analyze this financial chart in detail."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "[Chart Composition]\n- Task: Daily candlestick and volume chart for the S&P 500 Index.\n- Content: The chart covers a 5-year period from November 2020 to October 2025. The primary Y-axis (left) displays Price in USD, ranging from approximately 12,000 to 30,000. The secondary Y-axis (bottom) displays Volume in millions (10^6), ranging from 0 to over 12,000. The X-axis represents time with annual markers. Green candles indicate price increases, while red candles indicate decreases.\n\n[Data Relationships]\n- The index reached a global maximum of approximately 30,000 in early 2021.\n- A significant decline occurred from the 2021 peak to a global minimum of roughly 13,000 in late 2022, representing a loss of approximately 57% of value.\n- A recovery trend has been established since late 2022, with the index rising from ~13,000 to the current level of ~26,000 by late 2025.\n- Volume activity remained relatively stable (mostly below 4,000 units) during the 2021-2022 decline but showed a significant increase in the 2024-2025 period, with peaks exceeding 10,000 units.\n- The current price level (~26,000) is approximately 90% of the historical peak value.\n\n[Pattern Features]\n- The overall morphology presents a large, asymmetric \"V\" or \"U\" shaped recovery pattern, characterized by a steep initial drop followed by a prolonged, choppy ascent.\n- The decline phase (2021-2022) was continuous and directional, while the recovery phase (2023-2025) exhibits higher volatility with frequent pullbacks and consolidation zones.\n- A notable structural shift occurred in 2024, where the trendline became steeper and the price action more aggressive compared to the 2023 period.\n- Volume distribution is highly uneven, showing a \"quiet\" decline and a \"noisy\" recovery, with the most recent uptrend coinciding with the highest volume activity in the entire dataset.\n\n[Key Insights]\nCore Conclusion: The market has completed a major cycle reversal, transitioning from a deep capitulation to a high-volume, high-volatility recovery phase.\n\nBusiness Implications:\n- Market sentiment has shifted from extreme pessimism to active accumulation.\n- Increased trading activity suggests higher liquidity and participation levels.\n- The steepening trend indicates a rapid restoration of valuation confidence.\n\nRisk Considerations:\n- A drop below the 24,000 support level could invalidate the current recovery structure.\n- The widening gap between price highs and volume lows suggests potential exhaustion."
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "[Chart Composition]\n- Chart Type: Dual-panel chart featuring a Daily Candlestick chart (top) and a Volume bar chart (bottom).\n- Title: Daily Candlestick and Volume Chart of S&P 500 Index (Last 5 Years).\n- Axes: The X-axis represents a timeline from November 2020 to October 2025. The primary Y-axis (left) represents Price in USD, ranging from approximately 12,000 to 30,000. The secondary Y-axis (bottom right) represents Volume in millions ($10^6$), ranging from 0 to 12,000.\n- Legend: Green candles indicate price increases, while Red candles indicate price decreases.\n\n[Data Relationships]\n- Extremes: The index reached a global maximum slightly above 30,000 in early 2021 and a global minimum just below 14,000 in late 2022.\n- Magnitude of Decline: From the 2021 peak to the 2022 trough, the index lost approximately 52% of its value.\n- Magnitude of Recovery: Since the 2022 low, the index has rallied to the current level of ~26,000, representing a gain of approximately 85% from the trough.\n- Volume Correlation: Daily trading volume remained consistently below 4,000 units from late 2021 to mid-2024. Notably, volume spikes exceeding 10,000 units occurred specifically during the sharp decline in late 2022 and the aggressive rally in late 2024.\n\n[Pattern Features]\n- Overall Shape: The chart exhibits a classic asymmetric \"V\" or \"Checkmark\" recovery pattern, characterized by a steep initial ascent followed by a prolonged, volatile decline, and finally a sustained, multi-year uptrend.\n- Structural Characteristics: The recovery phase (2023-2025) is structurally different from the correction phase (2021-2022), showing a \"higher low\" formation and consistent upward momentum with fewer deep retracements.\n- Volatility Profile: Volatility was highest during the rapid 2022 crash. The current uptrend shows a stepwise progression with distinct consolidation zones at the 16,000 and 20,000 levels before the final breakout.\n\n[Key Insights]\nCore Conclusion: The index demonstrates a robust structural reversal from a deep bearish trend to a confirmed recovery channel, currently testing historical peaks.\n\nBusiness Implications:\n- Market trend indicates a significant recovery in valuation confidence and liquidity.\n- The sustained uptrend implies consistent capital inflow and strengthening asset pricing.\n- Current momentum suggests a structural shift favoring buying pressure over selling.\n\nRisk Considerations:\n- A drop below the 25,000 level would invalidate the immediate recovery structure.\n- High volume on recent rallies suggests potential exhaustion or increased selling pressure."
+    },
+    "images": [
+      "images/syn_076_candlestick_volume_en-US_equity_markets.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "system",
+        "value": "You are a financial chart analyst. Analyze the given financial chart and provide detailed insights."
+      },
+      {
+        "from": "human",
+        "value": "<image>\nPlease analyze this financial chart in detail."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "[Chart Components]\n- The chart type is a vertical bar chart, titled \"Debt-to-Capital Ratio.\"\n- The horizontal axis represents time, including 2020, 2021, 2022, 2023, and Q3 2024.\n- The vertical axis represents the ratio percentage, with specific scales not marked, only the percentage values annotated at the top of each bar.\n- Each year is represented by a dark blue bar, with the corresponding percentage value labeled at the top: 29.5%, 21.3%, 18.7%, 15.9%, 12.3%.\n\n[Data Relationships]\n- The Debt-to-Capital Ratio in 2020 was 29.5%, the highest value in the chart.\n- In 2021, it was 21.3%, a decrease of 8.2 percentage points compared to 2020.\n- In 2022, it was 18.7%, a further decrease of 2.6 percentage points compared to 2021.\n- In 2023, it was 15.9%, a decrease of 2.8 percentage points compared to 2022.\n- In Q3 2024, it was 12.3%, the lowest value in the chart, a decrease of 3.6 percentage points compared to 2023.\n- Overall, the ratio decreased by 17.2 percentage points from 2020 to Q3 2024, approximately 58% of the initial value.\n\n[Pattern Characteristics]\n- The data exhibits a unidirectional, continuous decreasing structure over time.\n- The magnitude of change between years is uneven, with larger declines in the early stages and smaller declines in the later stages.\n- The overall distribution is concentrated in the medium-to-high range, with no sudden jumps or outliers.\n- The latest period is significantly lower than all previous years, forming a clear low-level plateau.\n\n[Core Insights]\nCore Conclusion: The company's leverage level has significantly decreased over the past five years, and the capital structure is becoming more conservative.\n\nBusiness Implications:\n- Reflects a reduction in reliance on debt financing and a decrease in financial leverage.\n- Has a positive impact on solvency and the ability to withstand adverse shocks.\n- May compress the scope for debt financing and the flexibility of the capital structure.\n\nRisk Focus:\n- If the ratio approaches 30% again, it could significantly increase interest burden and refinancing pressure.\n- If it falls below 10%, it may weaken the ability to leverage financial resources and constrain growth potential."
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "[Chart Components]\n- The chart type is a vertical bar chart\n- The title is \"Debt-to-Capital Ratio\"\n- The horizontal axis represents the time dimension, labeled sequentially as: 2020, 2021, 2022, 2023, Q3 2024\n- The vertical axis is not explicitly scaled, with values provided only on the bars\n- Each year corresponds to a dark blue bar, with the specific percentage labeled above the bar\n\n[Data Relationships]\n- The Debt-to-Capital Ratio in 2020 was the highest, at 29.5%\n- The ratio in 2021 was 21.3%, a decrease of 8.2 percentage points compared to 2020\n- The ratio in 2022 was 18.7%, a further decrease of 2.6 percentage points compared to 2021\n- The ratio in 2023 was 15.9%, a decrease of 2.8 percentage points compared to 2022\n- The ratio in Q3 2024 was 12.3%, the lowest value in the chart, a decrease of 3.6 percentage points compared to 2023\n- The cumulative decrease over the five periods from 2020 to Q3 2024 is 17.2 percentage points\n- The decrease between any two adjacent periods is less than 3 percentage points\n\n[Pattern Characteristics]\n- The data shows a unidirectional, continuous decline over time, with no rebound years\n- The magnitude of change is relatively smooth, with no sudden, significant jumps\n- The data in the first two years was higher, and the subsequent two years showed a smaller decline\n- The most recent period's value is clearly lower than all preceding years\n- The overall structure is simple, composed of a single sequence, with no abnormal outliers or extreme values\n\n[Core Insights]\nCore Conclusion: The proportion of debt in the company's capital structure continues to decline, and the reliance on debt is reducing.\n\nBusiness Implications:\n- Reflects a reduction in the company's leverage level\n- Has a positive impact on solvency and the capacity for debt servicing\n- May weaken the proportion of financing through debt instruments\n\nRisk Focus:\n- If the ratio approaches or exceeds 20% again, it could increase the interest burden and repayment pressure\n- If it remains below 10% for an extended period, it could weaken the efficiency of financial leverage utilization"
+    },
+    "images": [
+      "images/mc_02086_1733954402_8_crop_1.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "system",
+        "value": "You are a financial chart analyst. Analyze the given financial chart and provide detailed insights."
+      },
+      {
+        "from": "human",
+        "value": "<image>\nPlease analyze this financial chart in detail."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "[Chart Composition]\n- Task: Daily OHLC price chart with a corresponding volume bar chart.\n- Content: The title is \"Daily OHLC Price Movements of the S&P 500 Over the Past Year\". The vertical axis (right) represents Price in USD, ranging from 5000 to 7000. The horizontal axis displays time markers labeled 1970, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep. The lower section shows Volume bars with a scale ranging from 2500 to 10000.\n\n[Data Relationships]\n- The price series begins near the 6100 level and ends near the 6800 level, showing a net positive movement.\n- A significant decline occurs from March to early April, dropping from approximately 6000 to a low of roughly 5000, a decrease of about 16%.\n- A sharp, rapid recovery follows the April low, rising from ~5000 to ~6000 in a short period.\n- From May to August, the price steadily ascends from ~6000 to a peak near 6900.\n- Volume spikes are most prominent during the sharp decline in March and the subsequent recovery in April, reaching peaks above 10000, while the steady uptrend in the second half shows more consistent, lower volume (mostly between 2500-7500).\n\n[Pattern Features]\n- The overall morphology resembles a \"check-mark\" or \"V-shaped\" recovery, characterized by a sharp decline followed by a sustained, linear ascent.\n- The decline phase is steep and volatile, indicated by long candle bodies and gaps.\n- The recovery phase is structured and consistent, with lower volatility and a clear upward channel.\n- A distinct volume anomaly exists at the inflection point (April), where trading activity expands significantly compared to the steady, moderate activity seen during the subsequent uptrend.\n\n[Key Insights]\nCore Conclusion: The market demonstrated exceptional resilience, fully recovering from a sharp Q1 drawdown to establish new highs.\n\nBusiness Implications:\n- Market sentiment shifted from acute panic to sustained, confident accumulation.\n- Asset valuations effectively doubled the recovery magnitude of the initial shock.\n- The steady uptrend indicates a stable environment for long-term capital deployment.\n\nRisk Considerations:\n- A drop below the 6500 support level could invalidate the current uptrend structure.\n- The high-volume capitulation in March suggests a deep underlying liquidity risk."
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "[Chart Composition]\n- Task: A dual-panel financial chart displaying price and volume data for the S&P 500.\n- Content: The upper panel is a daily candlestick chart (OHLC) illustrating price movements. The Y-axis (right) represents Price in USD, ranging from approximately 4800 to 7000. The X-axis shows time markers labeled 1970, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep. The lower panel is a volume bar chart with a Y-axis ranging from 0 to 10000. Green and red colors denote positive and negative daily movements.\n\n[Data Relationships]\n- The price range spans from a low near 4800 (late March/April) to a high just below 7000 (late October/November).\n- A sharp decline occurred from early March to April, dropping approximately 1200 points (from ~6000 to ~4800) in roughly 2-3 months.\n- Following the low, a sustained uptrend recovered approximately 2200 points over 5-6 months to reach the 7000 level.\n- Volume spikes exceeding 8000-10000 units are concentrated exclusively during the price decline and bottoming formation in March and April, while the subsequent recovery phase generally maintains volume below 5000.\n- The current price level (approx. 6700-6800) has retraced from the highs but still sits approximately 200 points above the year's starting baseline.\n\n[Pattern Features]\n- The overall morphology exhibits a distinct \"V-shaped\" recovery, characterized by a steep, volatile decline followed by a prolonged, linear ascent.\n- The decline phase is marked by high volatility and expanding candle bodies, indicating aggressive selling pressure.\n- The recovery phase shows a consistent, low-volatility channel with tight grouping and minor retracements, suggesting steady accumulation.\n- A distinct shift occurs at the inflection point in April: price action changes from erratic downward spikes to stable upward drift.\n- Recent data at the far right indicates a consolidation pattern, with the price range narrowing slightly after the peak.\n\n[Key Insights]\nCore Conclusion: The asset successfully executed a complete trend reversal, transitioning from high-volatility capitulation to a stable, growth-oriented recovery.\n\nBusiness Implications:\n- Market sentiment shifted from panic liquidation to sustained, confident accumulation.\n- The recovery trend indicates a strong demand-supply imbalance favoring buyers.\n- The transition from volatility to stability suggests a normalized operating environment.\n\nRisk Considerations:\n- A drop below the 6500 support level could invalidate the recovery trend structure.\n- The prolonged horizontal consolidation near the 7000 peak suggests potential momentum exhaustion."
+    },
+    "images": [
+      "images/syn_820_ohlc_en-US_equity_markets.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "system",
+        "value": "你是一位金融图表分析师。请分析给定的金融图表并提供详细的见解。"
+      },
+      {
+        "from": "human",
+        "value": "<image>\n请详细分析这张金融图表。"
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "【图表构成】\n- 图表类型：等高线热力图（Contour Plot）\n- 标题：美国10年-3月国债利差热力图：倒挂周期清晰可见\n- 坐标轴：横轴为年份（2005年至2025年），纵轴为月份（1月至12月）\n- 图例：右侧颜色条表示利差数值，范围从约-2.5（深红）到+3.75（深蓝），0值为白色\n- 辅助线：黑色虚线标示“倒挂线”（利差为0的临界线），红色箭头标注了三个关键历史节点\n\n【数据关系】\n- 极值分布：图表显示最大正利差出现在2006-2007年区间，数值超过3.5个百分点（深蓝色区域）；最大负利差出现在2022-2023年区间，数值跌破-1.5个百分点（深红色区域）。\n- 倒挂时长：2006年中期至2007年初出现首次倒挂；2019年中期出现短暂倒挂（标注为“疫情前短暂倒挂”）；2020年中期至2023年底出现持续且深度的倒挂（标注为“激进加息深度倒挂”）。\n- 近期趋势：2024年至2025年（图表右侧）显示利差从负值区间逐步回升至接近0值，颜色由红转白。\n\n【模式特征】\n- 整体形态：数据呈现明显的周期性波动，具有“长周期高位、短周期低位”的不对称特征。\n- 结构特点：蓝色（正利差）区域面积显著大于红色（负利差）区域，表明正向利差是常态，负向利差是阶段性异常。\n- 聚集特征：负值区域（倒挂）呈现明显的聚集性，2020年后形成的倒挂区域不仅面积大，且深度（绝对值）远超2006年和2019年的倒挂区域。\n- 趋势方向：图表末端显示出从红色（负值）向白色（零值）过渡的收敛形态，暗示波动率可能正在降低。\n\n【核心洞察】\n核心结论：长端利率优势长期主导市场，但近期经历的深度倒挂打破了历史常态。\n\n业务含义：\n- 市场长期处于期限溢价状态，短期资金成本相对低廉。\n- 近期的深度负利差表明市场对短期资金定价极度悲观。\n- 当前处于从极端异常向常态回归的修复通道中。\n\n风险关注：\n- 利差跌破-1.5%临界点：标志着市场进入极度紧张状态，通常伴随流动性枯竭。\n- 利差长期维持负值：暗示期限溢价结构发生根本性扭曲，需警惕长期融资成本错配。"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "【图表构成】\n- 图表类型：双轴时间序列等高线热力图（Heatmap）。\n- 标题：美国10年-3月国债利差热力图。\n- 坐标轴：横轴为年份（2005年至2025年），纵轴为月份（1月至12月）。\n- 图例：右侧垂直色阶条代表利差数值，范围从深红（负值，约-1.5）过渡到深蓝（正值，约3.75）。\n- 辅助线：黑色虚线标示“倒挂线”（0.0等高线），红色箭头标注三个关键区域（2006年、2018年、2022年）。\n\n【数据关系】\n- 极值分布：图表显示两个主要的高值区间，2008-2014年为正值高区（峰值>3.5），2023-2025年为负值低区（低谷<-1.5）。\n- 倒挂深度：红色标注区域显示利差曾跌至-1.0至-1.5区间，分别出现在2006年中期、2018年末及2022年末。\n- 现状对比：当前时点（图表右侧2023-2025年区域）的红色区域显著比2006年的粉色区域更密集，表明当前的负值利差持续时间可能更长。\n- 中间态：2015年至2019年期间，数据主要集中在0.0到1.0的浅蓝色及白色区间。\n\n【模式特征】\n- 整体形态：呈现明显的“两头红、中间蓝”的非对称分布，两端的负值区深度远超中间的正值区。\n- 周期结构：具有清晰的阶段性，2006-2014年构成一个持续的长周期正向通道，而2018年后形成剧烈的负向通道。\n- 波动特征：2022年后的下降趋势斜率极陡，显示出当前负值利差的形成速度和强度在近期显著增强。\n- 连续性：黑色倒挂线（0轴）贯穿全图，显示这是常态化的阈值，而非异常波动。\n\n【核心洞察】\n核心结论：当前处于深度且持续的收益率倒挂周期，其形态与历史对比显示压力显著加剧。\n\n业务含义：\n- 负值利差持续意味着资金从长期端向短期端流动，抑制长期信贷。\n- 2006年曾出现短暂倒挂但未持续，而本次倒挂深度与持续性均显著提升。\n- 直接削弱长端收益率定价能力，迫使投资者重新评估利率路径。\n\n风险关注：\n- 警惕利差若持续低于-1.0水平，可能确立新一轮下行周期。\n- 2025年区域的红色浓度过高，提示市场对未来的悲观预期固化。"
+    },
+    "images": [
+      "images/syn_v4f_20251211_211210_contour_zh-CN_fixed_income_e73c11d3.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "system",
+        "value": "你是一位金融图表分析师。请分析给定的金融图表并提供详细的见解。"
+      },
+      {
+        "from": "human",
+        "value": "<image>\n请详细分析这张金融图表。"
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "【图表构成】\n- 图表类型：单数据系列折线图（时间序列）\n- 标题：德国DAX指数历史价格趋势分析（ESG与可持续金融主题）\n- 坐标轴：横轴为时间（月），标注年份从2021年至2026年；纵轴为价格（欧元），范围约12000至24000\n- 图例：深蓝色实线代表收盘价\n\n【数据关系】\n- 极值分布：最低点出现在2022年10月前后，数值约为12000欧元；最高点出现在2025年10月前后，数值突破24000欧元\n- 整体涨幅：从2022年的低点至2025年的高点，指数实现了约100%的翻倍增长\n- 关键回撤：2022年全年呈现显著下跌，从16000跌至12000；2025年初出现剧烈波动，从23000上方急跌至20000附近后迅速反弹\n- 阶段对比：2023年至2024年呈现稳步爬升，斜率相对平缓；2025年斜率陡峭，波动幅度显著放大\n\n【模式特征】\n- 整体形态：呈现典型的“深V”反转后接加速上行的形态，2022年为明显的下行周期，2023年后转为强劲的上升通道\n- 波动特征：波动率随时间推移逐渐放大，2025年的锯齿状波动远大于2023-2024年，显示出市场情绪的不稳定性增加\n- 结构特点：上升趋势中包含多次深幅回调，但低点不断抬高（Higher Lows），显示出极强的修复韧性\n- 异常点：2025年中期出现一次极端的V型反转，价格在短时间内剧烈震荡，是全图最显著的异常波动\n\n【核心洞察】\n核心结论：指数在经历两年深度调整后确立长期牛市，目前处于高波动率加速冲顶阶段。\n\n业务含义：\n- 市场摆脱了2022年的低迷，展现出强劲的复苏动能\n- 指数翻倍表明ESG相关资产获得了显著的估值溢价\n- 波动率放大意味着市场分歧加剧，单边持仓风险上升\n\n风险关注：\n- 2025年出现的千点级急跌表明高位存在极高的不稳定性\n- 若价格跌破20000点支撑位，可能引发趋势反转"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "【图表构成】\n- 图表类型：单数据系列折线图（时间序列图）\n- 标题：德国DAX指数历史价格趋势分析（ESG与可持续金融主题）\n- 坐标轴：横轴为时间（月），标注年份从2021年至2026年；纵轴为价格（欧元），范围从12000至24000以上。\n- 图例：深蓝色实线表示收盘价。\n\n【数据关系】\n- 极值区间：全图最低点出现在2022年11月附近，约为12000欧元；最高点出现在2025年末，逼近25000欧元。\n- 关键涨幅：从2022年低点（~12000）至2025年高点（~25000），指数累计涨幅超过100%。\n- 回撤对比：2022年初至11月下跌幅度约15%；而2023年11月至2024年末上涨幅度超过60%。\n- 价格中枢：2021年初至2022年均为14000-16000区间；2023年后价格中枢显著上移至18000-20000区间。\n\n【模式特征】\n- 整体形态：呈现显著的“V型”反转后接“陡峭拉升”形态，2023年后趋势斜率急剧增加，表现为高角度的单边上行趋势。\n- 波动特征：具有显著的周期性波动。2022年表现为宽幅震荡下行，而在2023年至2025年期间，波动率相对收敛，呈现清晰的阶梯式攀升。\n- 异常与转折：2022年末的价格触底（约12000）是一个极其明显的趋势拐点，此后并未出现横盘震荡，而是直接启动了持续且幅度更大的上行通道。\n\n【核心洞察】\n核心结论：市场在经历剧烈清洗后实现了估值重估，目前处于历史高位区域，多头动能强劲。\n\n业务含义：\n- 标志着市场已完全摆脱2022年的调整期。\n- 资产价值已较底部翻倍，长期持有收益显著。\n- 市场情绪由悲观转向乐观，流动性充裕。\n\n风险关注：\n- 当前价格逼近25000整数关口，可能引发技术性阻力。\n- 近期涨幅过大且斜率过陡，需警惕均值回归后的剧烈回调。"
+    },
+    "images": [
+      "images/syn_v2_1329_line_zh-CN_esg_sustainable.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "system",
+        "value": "You are a financial chart analyst. Analyze the given financial chart and provide detailed insights."
+      },
+      {
+        "from": "human",
+        "value": "<image>\nPlease analyze this financial chart in detail."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "[Chart Components]\n- The chart type is a line graph, titled \"Total Return Performance.\"\n- The horizontal axis represents time, marked from 04/01/08 to 12/31/22, with scales displayed at annual intervals.\n- The vertical axis represents the total return value, ranging approximately from 0 to 300.\n- There are two lines: the light green line represents \"MidWestOne Financial Group, Inc.,\" and the dark green line represents \"S&P U.S. BMI Banks - Midwest Region Index.\"\n- The endpoint values are annotated: MidWestOne is 277.9, and the Index is 187.8.\n\n[Data Relationships]\n- Both series were approximately 100 at the starting point (2008).\n- Both reached a low point around 2009, with MidWestOne slightly higher than the Index.\n- Subsequently, both rose significantly, with MidWestOne generally positioned above the Index.\n- MidWestOne reached a local high point around 2016, approximately 270, while the Index was around 160.\n- After 2018, the Index experienced a noticeable decline, while MidWestOne continued to rise, reaching a new high point around 2019, approximately 280.\n- After 2020, the Index rebounded and reached a local high point around 2021, approximately 220, while MidWestOne slightly retreated but remained above 270.\n- At the endpoint (2022), MidWestOne was 277.9, and the Index was 187.8, with MidWestOne being approximately 90 points higher than the Index.\n\n[Pattern Characteristics]\n- The two curves generally exhibit a pattern of initial decline followed by sustained ascent, with the overall trend being consistent.\n- MidWestOne shows a relatively smoother structure, with fewer significant pullbacks.\n- The Index shows more pronounced fluctuations in the middle-to-later stages, with several noticeable peaks and troughs.\n- The gap between the two widened in the middle-to-later stages, and the distance between them at the endpoint is greater than in the early stages.\n- Both curves did not show extreme sharp reversals; the changes were relatively continuous.\n\n[Core Insights]\nCore Conclusion: MidWestOne's total return performance is significantly superior to the regional bank index.\n\nBusiness Implications:\n- Reflects MidWestOne's stronger profitability and capital appreciation capability.\n- Provides a positive contribution to the overall return of the regional bank sector.\n- Indicates that MidWestOne's performance is less dependent on the overall sector environment.\n\nRisk Focus:\n- If MidWestOne's total return falls below 200, it may weaken its relative advantage.\n- If the Index rises above 250 and MidWestOne remains stagnant, the relative performance gap will significantly narrow."
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "[Chart Components]\n- The chart type is a line chart, titled \"Total Return Performance.\"\n- The horizontal axis represents the time dimension, ranging from approximately April 1, 2008, to December 31, 2022, marked by annual increments.\n- The vertical axis is the total return index, scaled from 0 to 300, with major tick marks at 50, 100, 150, 200, 250, 300.\n- There are two lines in the chart: the light green line represents \"MidWestOne Financial Group, Inc.,\" and the dark green line represents \"S&P U.S. BMI Banks - Midwest Region Index.\"\n- The corresponding index values for both lines in 2022 are labeled at the right end: 277.9 and 187.8, respectively.\n\n[Data Relationships]\n- In the initial period (April 2008), both indices were approximately around 100.\n- Both experienced a significant decline around 2009, reaching their lowest point of approximately 50–60 by the end of 2009.\n- From 2010 to 2013, both gradually recovered from the low point and exceeded 100.\n- From 2013 to 2016, both continued to rise, with MidWestOne exceeding 250 around 2016 and the index exceeding approximately 160.\n- After 2016, MidWestOne fluctuated significantly above and below 200 multiple times, reaching a peak of approximately 285–290 around 2019.\n- From 2018 to 2020, MidWestOne showed a noticeable dip, falling back from above 200 to approximately 190–200, then rebounding again.\n- Throughout the entire period, MidWestOne remained above the index, with the gap between the two widening significantly in some years, reaching the maximum difference in 2022, where the gap between 277.9 and 187.8 is approximately 90 points.\n- The index level in 2022 was approximately 187.8, which is approximately 14.7 higher than the index level at the beginning of the period in 2008.\n\n[Pattern Characteristics]\n- The two curves generally exhibit a synchronized direction throughout the period, with only relative magnitudes differing.\n- Both show a distinct V-shaped recovery structure from 2008 to 2013.\n- From 2016 to 2019, the curve fluctuated repeatedly within a high range, while the index fluctuated slightly within a moderate range.\n- MidWestOne formed several sharp local peaks and troughs in the mid-to-late period, showing greater amplitude than the index.\n- The relative ranking between the two remained stable in most phases; the index only briefly crossed MidWestOne in isolated phases.\n- In the final phase, the gap between the two lines is at a relatively high level, and the magnitude of change is still considerable.\n\n[Core Insights]\nCore Conclusion: MidWestOne's total return performance consistently outperformed its peer index, and the gap has widened recently.\n\nBusiness Implications:\n- Demonstrates the company's stronger return generation capability relative to peers.\n- The relative advantage is amplified in the later period, leading to a more significant contribution to overall portfolio return performance.\n- Reflects a high degree of independence in the company's returns relative to regional banking peers.\n\nRisk Considerations:\n- If MidWestOne's index falls below 200, the relative advantage will significantly narrow.\n- If the index falls below 180, the relative return margin will substantially contract, potentially weakening the effectiveness of concentrated holding strategies."
+    },
+    "images": [
+      "images/mc_01811_1861668894_8_crop_0.jpg"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "system",
+        "value": "You are a financial chart analyst. Analyze the given financial chart and provide detailed insights."
+      },
+      {
+        "from": "human",
+        "value": "<image>\nPlease analyze this financial chart in detail."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "[Chart Composition]\n- Task: Vertical bar chart displaying the United States Core PCE Inflation Rate.\n- Content: The X-axis represents time in years, labeled from 2017 to 2026. The Y-axis represents the Inflation Rate (%) with a scale ranging from 0 to 6. The data is visualized using bright green bars against a dark background. A legend in the top right identifies the series as \"Core PCE Inflation Rate\".\n\n[Data Relationships]\n- The data begins at a low point of approximately 1.5% in early 2017 and remains relatively stable between 1.5% and 2.0% until early 2020.\n- A sharp decline occurs in early 2020, dropping to a minimum near 1.0%.\n- A massive surge begins in early 2021, rising from ~1.0% to a peak maximum of approximately 5.6% in mid-2022.\n- Following the peak, the rate declines steadily, returning to the 3.0% level by early 2024.\n- The final segment of the chart (2024-2025) shows a stabilization, with values fluctuating between 2.6% and 3.0%, roughly double the pre-2020 baseline.\n\n[Pattern Features]\n- The overall shape resembles a massive, asymmetric bell curve or mountain structure, dominating the center of the timeline.\n- The ascent phase (2021-2022) is steep and nearly continuous, while the descent phase (2022-2024) is more gradual and linear.\n- The data exhibits a distinct regime shift: a long period of low volatility and stability, interrupted by a high-volatility expansion and contraction cycle.\n- The current tail end of the chart shows a \"flat-top\" morphology, indicating a lack of directional momentum compared to the steep slopes seen previously.\n\n[Key Insights]\nCore Conclusion: Inflation has structurally reset, transitioning from a low-stability baseline to a sustained higher plateau.\n\nBusiness Implications:\n- Cost structures must adapt to a new, elevated baseline environment.\n- Pricing strategies should account for persistent, non-transitory cost pressures.\n- Long-term contracts require indexing clauses to hedge against sustained higher rates.\n\nRisk Considerations:\n- Rates stabilizing above 3.0% indicate a failure to return to pre-2020 lows.\n- The flat trajectory suggests limited near-term relief, increasing long-term margin erosion risks."
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "[Chart Composition]\n- Chart Type: Vertical bar chart displaying time-series data.\n- Title: United States Core PCE Inflation Rate (Year-over-Year) Over Last 10 Years.\n- Axis: The X-axis represents time in years from 2017 to 2026; the Y-axis represents the Inflation Rate (%) with a scale from 0 to 6.\n- Legend: Green bars represent the Core PCE Inflation Rate.\n\n[Data Relationships]\n- Peak Value: The inflation rate peaked in mid-2022, reaching a value of approximately 5.6%.\n- Baseline Period: From 2017 to early 2020, the rate fluctuated consistently between 1.5% and 2.0%.\n- Surge Magnitude: Between early 2020 and mid-2022, the rate increased by over 300 basis points, nearly tripling in value.\n- Correction Magnitude: Following the 2022 peak, the rate declined by approximately 2.5 percentage points within one year (mid-2022 to mid-2023).\n- Current Trend: As of the latest data points (2024-2025), the rate has stabilized in the 2.7% to 3.0% range, roughly 50% of the peak value.\n\n[Pattern Features]\n- Overall Shape: The data exhibits a distinct \"mountain\" or bell-curve morphology, characterized by a gradual rise, a sharp peak, and a gradual decline.\n- Structural Characteristics: The chart is divided into three distinct regimes: a low-volatility flat baseline, a high-volatility expansion phase, and a mean-reverting stabilization phase.\n- Asymmetry: The ascent phase (2020-2022) was steep and continuous, while the descent phase (2022-2024) showed a \"step-down\" structure, plateauing at a higher level than the initial baseline.\n- Trend Direction: The immediate trajectory shows a stabilization pattern, failing to return to pre-2020 lows but establishing a new, elevated equilibrium.\n\n[Key Insights]\nCore Conclusion: The inflation environment has structurally shifted from a low-stability regime to a stabilized plateau significantly higher than historical baselines.\n\nBusiness Implications:\n- Operating environment has transitioned from extreme volatility to sustained high costs.\n- Budgeting cycles must adjust to a new 3% cost-of-capital baseline.\n- Pricing strategies require long-term adjustments rather than temporary discounts.\n\nRisk Considerations:\n- Sustained rates above 2.5% indicate entrenched higher cost structures.\n- A rising trend in the 2025-2026 data could threaten profit margins."
+    },
+    "images": [
+      "images/syn_v2_449_bar_en-US_inflation.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "system",
+        "value": "You are a financial chart analyst. Analyze the given financial chart and provide detailed insights."
+      },
+      {
+        "from": "human",
+        "value": "<image>\nPlease analyze this financial chart in detail."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "[Chart Components]\n- Type: Line chart\n- Title: Not displayed\n- X-axis: Time, labeled Dec-23, Jan-24, Feb-24\n- Y-axis: Index points, range approximately 2400–2700, scale interval approximately 100\n- Legend: Red line represents the KOSPI Index\n- Markers: Four vertical black lines labeled ①, ②, ③, ④\n\n[Data Relationships]\n- Initial period (Dec-23) index approximately 2500\n- Peak value approximately 2670 (near ①)\n- Trough value approximately 2440 (between ② and ③)\n- Final period (Feb-24) index approximately 2590\n- Difference between peak and trough approximately 230 points\n- Difference between initial and final period approximately 90 points\n- Difference between peak and initial period approximately 170 points\n- Difference between peak and final period approximately 70 points\n\n[Pattern Characteristics]\nThe index was in a relatively stable range during the initial period, followed by a step-like ascent, forming a single peak near ①. Subsequently, it experienced a continuous decline, forming a relatively low range between ② and ③. After ③, it rapidly rebounded, forming a local high point near ④, and then slightly retreated. The overall structure shows a single main peak, a clear trough range, and a relatively short recovery phase.\n\n[Core Insights]\nCore Conclusion: The index experienced a significant retracement after a short-term rally, followed by a partial recovery.\n\nBusiness Implications:\n- The short-term rally was insufficient to sustain the high level.\n- The retracement phase increased the pressure on holding positions.\n- The subsequent recovery indicates a certain resilience in the market.\n\nRisk Focus:\n- If the index falls below 2440 again, it may trigger further passive deleveraging.\n- If it fails to break above 2670, the short-term profit-taking pressure will increase."
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "[Chart Components]\n- Chart Type: Line chart, labeled \"KOSPI Index\"\n- X-axis: Time scale, labeled \"Dec-23,\" \"Jan-24,\" \"Feb-24,\" with four vertical black lines marked ①②③④\n- Y-axis: Index points, scale approximately 2400–2700\n- Legend: Red line represents the KOSPI Index\n\n[Data Relationships]\n- Starting point (Dec-23) approximately 2520\n- Local peak before point ① approximately 2670\n- Trough before point ② approximately 2440\n- Trough before point ③ approximately 2450\n- Local peak before point ④ approximately 2610\n- Peak-to-trough difference between ① and ② approximately 230 points\n- Peak-to-trough difference between ③ and ④ approximately 160 points\n- Final value approximately 2590, which is higher than the starting point by approximately 70 points\n\n[Pattern Characteristics]\nThe index first rose slowly and stepwise in the early period, reaching a local high near ①. Subsequently, it dropped overall from ① to ②, moving within a relatively lower range. After ③, there was a significant rebound from the low point to near ④, but it did not fully recover to the level of the previous high.\n\n[Core Insights]\nCore Conclusion: After experiencing a significant pullback, the index partially recovered in the short term.\n\nBusiness Implications:\n- The overall performance shows a pattern of initial advancement followed by a decline.\n- The short-term rebound failed to retrace the previous high, reflecting weakened sustained momentum.\n- The center of volatility shifted downward, indicating a decrease in the price level.\n\nRisk Focus:\n- If the index falls below 2450 again, it may trigger technical position liquidation.\n- If it fails to maintain above 2600, the upward trend may face pressure from short-term sentiment."
+    },
+    "images": [
+      "images/finmme_000331.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "system",
+        "value": "You are a financial chart analyst. Analyze the given financial chart and provide detailed insights."
+      },
+      {
+        "from": "human",
+        "value": "<image>\nPlease analyze this financial chart in detail."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "[Chart Composition]\n- Chart type: Heatmap displaying normalized financial metrics across different equity markets.\n- Title: Heatmap of Financial Metrics Across Major Equity Markets.\n- Axes: The Y-axis lists eight countries/regions (USA, China, Japan, Germany, UK, India, Brazil, Canada). The X-axis lists eight financial metrics (Return, Volatility, Dividend Yield, P/E Ratio, Market Cap, Beta, Sector Strength, Liquidity).\n- Legend: A color scale on the right indicates \"Normalized value (0-1)\", ranging from light blue (0.0) to dark blue (1.0).\n\n[Data Relationships]\n- India and Brazil show the highest relative values (darkest blue) for Volatility, P/E Ratio, and Market Cap, respectively.\n- The USA exhibits the highest relative values for Liquidity and Sector Strength.\n- Germany and the UK display the highest relative values for Dividend Yield.\n- China shows the highest relative values for Return and Beta.\n- Japan displays the lowest relative values (lightest blue) across almost all metrics, indicating consistently low normalized scores compared to peers.\n- Market Cap is predominantly high (dark blue) in India and Brazil, contrasting with lower values in Japan and Germany.\n\n[Pattern Features]\n- The data exhibits distinct regional clustering; specific countries form \"hotspots\" for particular metrics (e.g., India for volatility, USA for liquidity).\n- There is a visible inverse relationship between volatility and liquidity; cells indicating high volatility are consistently light, while high liquidity cells are dark.\n- The distribution is uneven, with significant variance in intensity between regions, particularly highlighting the extreme low values of Japan.\n- India and Brazil show a morphological similarity with high intensity in growth-related metrics (P/E, Market Cap) paired with high volatility.\n\n[Key Insights]\nCore Conclusion: Global markets display significant structural divergence, with distinct regional specializations in growth, yield, or stability.\n\nBusiness Implications:\n- India and Brazil offer high-growth potential but require robust risk management frameworks.\n- Germany and the UK provide superior income generation through higher dividend yields.\n- The USA leads in market depth and execution efficiency due to superior liquidity.\n\nRisk Considerations:\n- India's high volatility and P/E ratios signal elevated valuation risks and price instability.\n- Japan's consistently low normalized scores across all metrics indicate a lack of competitive differentiation."
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "[Chart Composition]\n- Chart Type: Heatmap\n- Title: Heatmap of Financial Metrics Across Major Equity Markets\n- X-Axis: Financial Metrics, displaying 8 columns including Return, Volatility, Dividend Yield, P/E Ratio, Market Cap (Billion USD), Beta, Sector Strength, and Liquidity\n- Y-Axis: Equity Markets (Countries/Regions), displaying 8 rows: USA, China, Japan, Germany, UK, India, Brazil, Canada\n- Legend: Right-side color bar representing \"Normalized value (0-1)\", transitioning from white/light blue (0.0) to dark blue (1.0)\n\n[Data Relationships]\n- USA exhibits the highest values in Market Cap, Beta, and Liquidity, all reaching the maximum normalized value of 1.0.\n- India displays the highest normalized values for Return and Volatility, with dark blue shades approaching or reaching 1.0.\n- Brazil shows the lowest normalized value in Market Cap (close to 0.0), contrasting with a high value in Volatility (dark blue).\n- A distinct gap exists between the normalized value of 1.0 in China's Market Cap and the values for P/E Ratio, which are around the 0.4-0.5 level.\n- Liquidity is consistently normalized to 1.0 for USA, China, Germany, and Canada.\n- Dividend Yield is comparatively higher for India and UK than for USA and Canada, with normalized values generally in the 0.6-0.8 range.\n\n[Pattern Features]\n- The data shows a strong inverse morphological relationship between size/market attributes (Market Cap, Liquidity) and volatility/return profiles.\n- The USA row forms a \"strong market\" pattern with uniform high saturation in capitalization and liquidity metrics.\n- Emerging markets (India, Brazil) exhibit \"high variance\" patterns with alternating high-saturation (dark) cells in volatility and low-saturation (light) cells in capitalization.\n- European markets (UK, Germany) display a \"dividend-oriented\" morphology with moderate-to-high saturation in Yield and distinct low saturation in Volatility.\n- A gradient shift is observable in the transition from developed Western markets to Asian and South American markets.\n\n[Key Insights]\nCore Conclusion: Global equity markets present a stratified landscape where capitalization and volatility exhibit inverse competitive relationships.\n\nBusiness Implications:\n- Capitalization advantage is concentrated in North American and high-volume Asian markets.\n- Emerging markets offer higher volatility compensation but lower valuation baselines.\n- European markets balance stability with superior income generation profiles.\n\nRisk Considerations:\n- India's extreme volatility saturation implies potential for significant asset price instability.\n- Brazil's near-zero capitalization saturation suggests a severe scarcity of market liquidity."
+    },
+    "images": [
+      "images/prog_2355_heatmap_en-US_equity_markets.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "system",
+        "value": "You are a financial chart analyst. Analyze the given financial chart and provide detailed insights."
+      },
+      {
+        "from": "human",
+        "value": "<image>\nPlease analyze this financial chart in detail."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "[Chart Composition]\n- Chart Type: Combination chart featuring vertical bars and a line graph.\n- Title: U.S. Unemployment Rate Edges Higher Through 2024-2025.\n- Axes: The X-axis represents time in months from Dec 2023 to Oct 2025; the Y-axis represents the Unemployment Rate (%) ranging from 3.6 to 4.6.\n- Legend: Light blue bars represent the \"Monthly Rate,\" and the red line with markers represents the \"3-Month MA\" (Moving Average).\n\n[Data Relationships]\n- The data series begins at approximately 3.7% in Dec 2023 and ends near 4.3% in Sep 2025.\n- A significant rise occurs from Jan 2024 (~3.7%) to Aug 2024 (~4.2%), a period of roughly 5 months.\n- A notable decline occurs from Aug 2024 (~4.2%) to Jan 2025 (~4.0%), a drop of about 0.2 percentage points.\n- The peak value is explicitly annotated at 4.4% in Sep 2025, marking the highest point in the displayed timeline.\n- The 3-Month Moving Average (red line) closely tracks the monthly data, with minor smoothing, and shows a slight upward inflection at the end of the series.\n\n[Pattern Features]\n- The overall trajectory exhibits a \"step-up\" morphology, characterized by a gradual ascent followed by a brief consolidation and a final, steeper rise.\n- The data structure is divided into three distinct phases: a steady linear increase (Jan 2024 - Aug 2024), a shallow corrective dip (Aug 2024 - Jan 2025), and a renewed, accelerated ascent (Feb 2025 - Sep 2025).\n- The final segment of the chart shows a parabolic-like acceleration, breaking the previous trend of gradual, linear growth.\n- The moving average confirms the directionality of the trend without significant lag, validating the visual momentum.\n\n[Key Insights]\nCore Conclusion: The labor market demonstrates a structural shift from gradual tightening to a rapid, aggressive expansion phase.\n\nBusiness Implications:\n- Labor supply is rapidly increasing, reducing workforce scarcity.\n- Recruitment cycles may shorten as candidate availability improves.\n- Hiring costs may decrease due to increased applicant volume.\n\nRisk Considerations:\n- Breaking the 4.4% threshold signals a potential shift to a high-unemployment environment.\n- The steep acceleration rate suggests instability in the labor market's recovery trajectory."
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "[Chart Composition]\n- Task: Combination chart overlaying monthly bar data with a moving average trend line.\n- Content: Title is \"U.S. Unemployment Rate Edges Higher Through 2024-2025\". The X-axis represents time in months, ranging from December 2023 to October 2025. The Y-axis represents \"Unemployment Rate (%)\" with a scale from roughly 3.6 to 4.6. Light blue bars represent the \"Monthly Rate,\" and a red line with data markers represents the \"3-Month MA\" (Moving Average). A text annotation indicates a \"Peak: 4.4%\" in September 2025.\n\n[Data Relationships]\n- The series begins at approximately 3.7% in December 2023 and ends near 4.3% in October 2025.\n- The lowest value appears in December 2023 at ~3.7%, and the highest value is the annotated peak at 4.4% in September 2025.\n- From January 2024 to August 2024, the rate steadily increased from ~3.7% to ~4.2%.\n- A consolidation phase occurred from September 2024 to January 2025, where the rate largely stayed within a narrow band between 4.0% and 4.1%.\n- A significant rise occurred in September 2025, where the value jumped from 4.2% (August) to 4.4%, marking the cycle's peak.\n- The 3-Month Moving Average closely tracks the bar heights but smooths out the month-to-month fluctuations.\n\n[Pattern Features]\n- The overall trajectory exhibits a step-like upward trend, characterized by a steep initial ascent, a period of horizontal stabilization, and a final steepening slope.\n- The data structure shows high continuity and low volatility during the mid-period (2024) but displays an acceleration pattern in late 2025.\n- The consolidation phase (late 2024 to early 2025) acts as a \"plateau\" between the rising trend of 2024 and the steep drop in late 2025.\n- The final data point shows a distinct inflection, breaking the previous gentle slope with a sharp vertical increase.\n\n[Key Insights]\nCore Conclusion: The unemployment rate has shifted from gradual rise to accelerated escalation, establishing a new peak in late 2025.\n\nBusiness Implications:\n- Labor market tightness has eased significantly from early 2024 levels.\n- Higher unemployment implies increased availability of workforce talent.\n- The accelerated rise suggests shifting economic momentum impacting hiring.\n\nRisk Considerations:\n- Reaching the 4.4% peak signals a critical threshold for labor supply.\n- The rapid increase in September 2025 creates uncertainty for future stability."
+    },
+    "images": [
+      "images/syn_v4_20251212_024819_bar_line_overlay_en-US_growth_employment_37beb550.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "system",
+        "value": "你是一位金融图表分析师。请分析给定的金融图表并提供详细的见解。"
+      },
+      {
+        "from": "human",
+        "value": "<image>\n请详细分析这张金融图表。"
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "【图表构成】\n- 图表类型：双折线趋势图\n- 标题：沪深300指数及510300 ETF价格走势分析\n- 坐标轴：横轴为时间（2019年至2024年），纵轴为价格（单位：元），范围0至5000\n- 图例：深蓝色实线代表沪深300指数收盘价，灰色实线代表510300 ETF收盘价\n\n【数据关系】\n- 极值分布：沪深300指数在2020年初触及最低点约3400元，2022年中期触及最高点约4650元；510300 ETF在整个周期内数值极低且波动幅度微乎其微。\n- 数量级差异：沪深300指数价格跨度超过1000元，而510300 ETF价格始终紧贴0轴，两者在视觉上存在巨大的数量级落差。\n- 趋势对比：指数呈现明显的长期震荡上行趋势，而ETF曲线几乎呈现一条直线，无明显起伏。\n\n【模式特征】\n- 整体形态：沪深300指数呈现典型的“N”字形或波浪式上升通道，具有明显的周期性波动特征。\n- 结构特点：指数走势包含急跌（2020年）、缓涨（2021-2022）和回调（2022下半年）三个主要阶段。\n- 异常特征：510300 ETF曲线表现为极端的平直形态，与指数的剧烈波动形成鲜明反差，显示出极低的波动率或数据异常。\n\n【核心洞察】\n核心结论：指数呈现长期震荡上行趋势，但图表中的ETF数据因量级过小或异常而无法提供有效分析。\n\n业务含义：\n- 沪深300指数展现出较强的长期增长动能。\n- 由于ETF数据不可视，无法评估其与指数的跟踪偏离度。\n- 建议核查图表数据源或调整坐标轴比例以进行有效对比。\n\n风险关注：\n- 指数在4600点附近出现过显著回撤，需关注高位波动风险。\n- ETF曲线的“平直”形态极可能代表数据缺失或显示错误，属于严重的可视化风险。"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "【图表构成】\n- 图表类型：双折线趋势图\n- 标题：沪深300指数及510300 ETF价格走势分析\n- 横轴：时间维度，按月度标记，跨度从2019年初至2024年初\n- 纵轴：价格（元），刻度范围从0至5000，间隔为1000\n- 图例：深蓝色折线代表沪深300指数收盘价，灰色折线代表510300 ETF收盘价\n\n【数据关系】\n- 极值分布：指数在2020年初触及最低点（约3400元），在2022年初触及最高点（接近4700元），期末处于高位震荡区间（约4600-4700元）。\n- 关键幅度：从2020年初低点至2022年初高点，指数累计上涨超过1000点（约35%幅度）。\n- 阶段变化：2022年中期至2022年末出现显著回撤，价格从近4700元快速下跌至约4100元。\n- 相互关系：灰色的510300 ETF折线在视觉上几乎与横轴重合，数值变化幅度远低于纵轴显示范围，无法从图表中读取有效的价格信息。\n\n【模式特征】\n- 整体形态：呈现典型的长周期震荡上行特征，具有明显的趋势性，中间伴随一次深幅的V型反转。\n- 结构特点：数据波动具有非对称性，2022年的下行速度极快（几乎是垂直下跌），而随后的修复过程则相对缓慢且波动率较低。\n- 异常特征：ETF数据呈现严重的数据可视化失效，表现为一条直线，与指数的巨大波幅形成极端反差。\n\n【核心洞察】\n核心结论：ETF产品数据因量级偏差导致可视化缺失，而底层指数展现出极强的长期修复韧性和抗跌性。\n\n业务含义：\n- 市场展现出显著的长期牛市多头逻辑，指数具备在大幅回撤后快速反弹的能力。\n- 关键的下行风险通常集中在特定年份（如2022年），需建立相应的风控阈值。\n- ETF展示数据的缺失严重影响了对具体产品表现的评估能力。\n\n风险关注：\n- 指数曾发生过超过600点的短期剧烈下跌（2022年），需关注极端行情的流动性风险。\n- 若实际ETF净值增长幅度长期远低于指数表现，存在严重的基差风险。"
+    },
+    "images": [
+      "images/syn_v2_214_line_zh-CN_asset_management.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "system",
+        "value": "You are a financial chart analyst. Analyze the given financial chart and provide detailed insights."
+      },
+      {
+        "from": "human",
+        "value": "<image>\nPlease analyze this financial chart in detail."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "[Chart Components]\n- Type: Line Chart\n- Title: Not displayed\n- X-axis: Date, range 9/25/2005—9/25/2023, marked annually\n- Y-axis: Percentage, range 0.0%—120.0%, scale approximately every 20%\n- Legend: Red line represents \"BETA\"\n\n[Data Relationships]\n- Initial period (2005-09-25) approximately 75%\n- Peak value approximately 105% (around 2007)\n- Trough value approximately 25% (around 2019)\n- Final period (2023-09-25) approximately 38%\n- Difference between peak and trough approximately 80 percentage points\n- Difference between initial and final period approximately 37 percentage points\n- 2021 approximately 68%; 2022 approximately 55%; 2018 approximately 35%\n\n[Pattern Characteristics]\nThe overall trend shows a gradual decline from a high level to a low level, interspersed with multiple medium-amplitude fluctuations. The period from 2006 to 2008 was in a relatively high range, followed by a prolonged period of narrow-range fluctuation in the mid-to-high range. A significant step-down occurred around 2018, after which it remained in a lower range, with the final value approaching the historical low area.\n\n[Core Insights]\nCore Conclusion: The overall volatility level of the underlying asset has significantly weakened.\n\nBusiness Implications:\n- The contribution of volatility to returns has decreased.\n- The impact of volatility on risk exposure has diminished.\n- The sensitivity of the portfolio to the market has weakened.\n\nRisk Focus:\n- If BETA approaches 100% again, it may amplify losses.\n- If BETA falls below 30%, it may weaken the amplification effect on returns."
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "[Chart Components]\n- Type: Single line chart, red\n- Title: Not displayed\n- X-axis: Time, from 9/25/2005 to 9/25/2023, with annual labels\n- Y-axis: Percentage (0.0% to 120.0%), marked in 20% increments\n- Legend: Red line \"BETA\"\n\n[Data Relationships]\n- Initial value (2005-09-25) approximately 70%\n- Peak value in 2007 approximately 105%\n- Mid-range values (2009-2011) approximately 60%–75%\n- Trough value in 2014 approximately 40%\n- Rapid drop in 2018: From approximately 60% to approximately 25%\n- Brief rebound in 2020: From approximately 25% to approximately 60%\n- Trough value in 2022 approximately 25%\n- Final value (2023-09-25) approximately 37%\n- High-low difference: Approximately 80 percentage points\n\n[Pattern Characteristics]\nThe overall curve fluctuates back and forth within the middle-to-high range, forming several complete cycles of rise and fall, with peaks concentrating in the 2006–2007 and 2010–2011 periods, and troughs appearing in 2014, 2018, and 2022. A noticeable step-like jump occurred in 2020, with the local peak height significantly higher than the preceding and succeeding ranges. The end of the chart is situated near the historical lower quartile.\n\n[Core Insights]\nCore Conclusion: BETA has generally declined from a high level to the lower range.\n\nBusiness Implications:\n- The overall stability of the related asset's sensitivity has decreased.\n- Risk exposure is more concentrated in a lower, relatively predictable range.\n- Recent periods show increased volatility; active monitoring is required.\n\nRisk Focus:\n- If it approaches or exceeds 100% again, the impact on overall portfolio volatility will significantly amplify.\n- If it falls below approximately 30%, it may lead to insufficient sensitivity and reduced effectiveness of hedging strategies."
+    },
+    "images": [
+      "images/finmme_000897.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "system",
+        "value": "You are a financial chart analyst. Analyze the given financial chart and provide detailed insights."
+      },
+      {
+        "from": "human",
+        "value": "<image>\nPlease analyze this financial chart in detail."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "[Chart Components]\n- Type: Line chart (four seasonal lines)\n- Title: Not displayed\n- X-axis: Year, range 2012–2023\n- Y-axis: Erode tunnel share (%), range 30%–90%, scale approximately every 10%\n- Legend: Winter (dark green), Spring (light green), Autumn (orange), Summer (dark blue)\n\n[Data Relationships]\n- 2012: Winter≈57%, Spring≈48%, Autumn≈51%, Summer≈46%\n- 2021 Peak: Winter≈80%, Spring≈80%, Autumn≈78%, Summer≈55%\n- 2023: Winter≈65%, Spring≈64%, Autumn≈55%, Summer≈53%\n- Difference between Winter and Summer in 2021: ≈25 percentage points; Difference in 2023: ≈12 percentage points\n- Difference between Spring and Autumn in 2021: ≈2 percentage points; Difference in 2023: ≈9 percentage points\n- Difference between Winter and Spring in 2012: ≈9 percentage points; Difference in 2023: ≈1 percentage point\n\n[Pattern Characteristics]\nThe four seasonal lines generally show a pattern of gradual increase followed by a decline, with Winter and Spring consistently positioned higher than Autumn and Summer. The gap between the four lines was relatively large in the early period, but gradually narrowed in the later period. A clear peak appeared around 2020–2021, after which all four lines showed a simultaneous decline, though the magnitude of the decline varied.\n\n[Core Insights]\nCore Conclusion: The seasonal distribution of the Erode tunnel share is gradually converging, and the dominance of Winter and Spring is weakening.\n\nBusiness Implications:\n- The overall structure is shifting from a clear seasonal disparity to a more balanced state.\n- The relative advantage of Winter and Spring is diminishing, and the competitive landscape is becoming more balanced.\n- The gap between Autumn and Summer and the peak seasons is narrowing, indicating increased seasonal interchangeability.\n\nRisk Focus:\n- If the Winter/Spring share falls below 60%, the overall peak season advantage may be weakened.\n- If the Autumn/Summer share rises above 60%, it could lead to a significant redistribution of the seasonal structure."
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "[Chart Components]\n- Type: Multi-series line chart (4 lines), including error bars\n- Title: Not displayed\n- X-axis: Year, range 2012–2023, marked by year\n- Y-axis: Eurotunnel share (%), range 30%–90%, marked at 40%, 50%, 60%, 70%, 80%, 90%\n- Legend: Winter (Dark Cyan), Spring (Light Cyan), Autumn (Orange), Summer (Dark Blue)\n\n[Data Relationships]\n- Initial period 2012: Winter≈58%, Spring≈50%, Autumn≈50%, Summer≈46%\n- Trough: Winter≈50% (2022), Summer≈49% (2022), Spring≈50% (2012, 2022), Autumn≈50% (2022)\n- Peak: Winter≈80% (2021), Summer≈64% (2020), Autumn≈78% (2021)\n- Final period 2023: Winter≈65%, Spring≈64%, Autumn≈53%, Summer≈53%\n- Year-over-Year (YoY) change from 2022 to 2023: Winter +15pp, Summer +6pp, Autumn -2pp\n- Autumn 2021 and 2020 difference ≈28pp; Winter 2021 and 2020 difference ≈20pp; Spring 2021 and 2020 difference ≈12pp\n\n[Pattern Characteristics]\nOverall, the four seasonal lines show a gradual rise from 2012 to 2018, followed by a rapid surge and subsequent retreat between 2019 and 2022. Winter and Autumn were simultaneously at a relatively high level in 2021, forming a clear short-term peak. Subsequently, all four lines fell back near 50% in 2022, and approached each other in 2023, showing minor differences. Error bars are relatively concentrated, with limited variance, but Winter and Autumn in 2021 show a slight widening.\n\n[Core Insights]\nCore Conclusion: Seasonal share was highly skewed in the short term, but has recently returned to near equilibrium.\n\nBusiness Implications:\n- Historical period showed clear seasonal differences, increasing reliance on Winter and Autumn.\n- The recent reduction in the gap between seasons is beneficial for resource allocation and capacity planning.\n- If the current equilibrium persists, a more diversified seasonal structure can reduce pressure on peak-demand management.\n\nRisk Concerns:\n- If any season falls below 45% again, it could lead to underutilization and increased fixed cost burden.\n- If the gap between seasons exceeds 20 percentage points in the future, it could cause a sharp mismatch between supply and demand arrangements."
+    },
+    "images": [
+      "images/finmme_000707.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "system",
+        "value": "你是一位金融图表分析师。请分析给定的金融图表并提供详细的见解。"
+      },
+      {
+        "from": "human",
+        "value": "<image>\n请详细分析这张金融图表。"
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "【图表构成】\n- 图表类型：柱状图与折线图的组合图表\n- 标题：过去十年美德日三国货币流通速度与联邦基金利率变化趋势\n- 坐标轴：横轴为时间（季度），范围覆盖2018年7月至2025年7月；纵轴为同比变动率（%），刻度范围从-20至20\n- 图例：蓝色柱体代表同比变动率，橙色带点折线代表4季度滚动平均\n\n【数据关系】\n- 极值位置：图表显示最低点出现在2020年4月前后，数值约为-21%；最高点出现在2024年4月前后，数值约为20%\n- 关键转折：2020年初数值从接近0%急剧下挫至-20%以下；2023年初开始触底反弹，2024年突破0%并持续攀升\n- 均值回归：橙色滚动平均线在2020-2022年期间长期维持在-15%至-20%的低位区间，随后在2023年后迅速拉升至+15%以上\n- 波动幅度：从最低点到最高点，数值跨度超过40个百分点，显示出极高的波动性\n\n【模式特征】\n- 整体形态：呈现典型的“深V”反转后接持续爬升的形态，经历了“平稳-急跌-长期低位横盘-快速复苏-高位震荡”的完整周期\n- 结构特点：数据表现出明显的阶段性，2020-2022年为持续的负向区间震荡，2023年后转变为单边的正向扩张趋势\n- 趋势一致性：柱状图的短期波动与折线图的长期趋势高度吻合，显示出极强的同步性，没有明显的背离现象\n\n【核心洞察】\n核心结论：货币流通速度在经历两年深度冻结后，于2023年开启强劲复苏并创出历史新高。\n\n业务含义：\n- 资金周转效率显著提升，市场交易活跃度大幅增加\n- 意味着单位货币支撑的交易量扩大，经济活跃度增强\n- 反映出市场从流动性紧缩向宽松或活跃状态的切换\n\n风险关注：\n- 当前增速逼近20%高位，若持续过快可能引发资产价格重估\n- 需关注高位后的回落风险，历史数据显示波动幅度可达40%以上"
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "【图表构成】\n- 任务：图表为柱状图与折线图的组合图表\n- 内容：标题显示为过去十年美日三国货币流通速度与联邦基金利率变化趋势。纵轴为同比变动率（%），刻度范围约为-22%至+22%。横轴为时间（季度），覆盖范围从2018年7月至2025年7月（含预测数据）。图例包含深蓝色柱状体（同比变动率）和橙色折线（4季度滚动平均）。\n\n【数据关系】\n- 关键数值：图表中最低点出现在2020年3月至2021年10月期间，数值约为-22%；最高点出现在2025年的预测数据中，数值约为+21%。\n- 数量关系：从2021年末的最低点（约-22%）到2023年末的最高点（约+18%），数值在三年内发生了超过40个百分点的剧烈反转。\n- 线性对比：橙色的4季度滚动平均线与蓝色柱状体的走势完全同步，数值波动范围均被限定在-18%至+21%之间。\n\n【模式特征】\n- 整体形态：数据呈现典型的不对称“深坑”形态，前期（2018-2021）长期处于负值区间，近期（2022-2025）呈现单边强劲的正向拉升。\n- 结构特点：2020-2021年表现为持续的下降趋势（流动性收缩或通缩特征），而2022年后转变为陡峭的上升趋势（通胀或通胀预期修复特征）。\n- 异常与拐点：2022年初是极显著的分水岭，数据从约-18%迅速反弹，且上升斜率在2023年明显变缓，显示出强劲惯性后动能衰减的迹象。\n\n【核心洞察】\n核心结论：货币流通速度在经历了长达三年的极值收缩后，正进行剧烈的报复性反弹，已完全逆转至2020年前的平均水平之上。\n\n业务含义：\n- 反映出资金使用效率的显著提升，市场交易活跃度增加。\n- 对名义利率敏感性指标（如通胀预期）可能产生正向放大效应。\n- 需关注该指标若继续维持高位，可能暗示货币紧缩态势固化。\n\n风险关注：\n- 若同比增速持续突破+20%阈值，可能预示极热的流动性过载。\n- 上升斜率变缓后的高位震荡，需警惕反弹动能枯竭后的回调风险。"
+    },
+    "images": [
+      "images/syn_v2_1418_bar_line_overlay_zh-CN_banking_credit.png"
+    ]
+  },
+  {
+    "conversations": [
+      {
+        "from": "system",
+        "value": "You are a financial chart analyst. Analyze the given financial chart and provide detailed insights."
+      },
+      {
+        "from": "human",
+        "value": "<image>\nPlease analyze this financial chart in detail."
+      }
+    ],
+    "chosen": {
+      "from": "gpt",
+      "value": "[Chart Composition]\n- Chart type: Correlation heatmap displaying numerical values within a matrix.\n- Title: Correlation Heatmap of Exchange Rates and Trade Balances Among Major Economies (5 Years).\n- Axes: Both X and Y axes represent the same set of five countries (USA, CHN, JPN, DEU, IND).\n- Legend: A color scale bar on the right indicates the Correlation Coefficient, ranging from -1.00 (blue) to 1.00 (red), with 0.00 in the center.\n- Data Labels: Specific correlation coefficients are annotated within each cell of the matrix.\n\n[Data Relationships]\n- The highest positive correlation is between USA and JPN at 0.98, followed closely by USA and DEU at 0.75.\n- The lowest correlations appear in the off-diagonal cells involving CHN, specifically with JPN (0.14) and DEU (0.20).\n- IND shows moderate to high correlations with all other major economies, ranging from 0.46 with DEU to 0.86 with USA.\n- CHN exhibits the lowest overall connectivity, with all non-self correlations falling below 0.60.\n- The diagonal elements (self-correlation) for all countries are consistently at 1.00.\n\n[Pattern Features]\n- The matrix is strictly symmetrical along the diagonal axis.\n- There is a distinct color banding pattern where the top-left and bottom-right quadrants are predominantly red (positive), while the central cross-section is pale (near-zero).\n- The data structure shows a \"hub-and-spoke\" morphology where JPN and USA act as central nodes with high intensity, contrasting with CHN as a peripheral node with low intensity.\n- No negative correlations (blue shades) are present in the dataset, indicating a uniformly positive relationship structure.\n\n[Key Insights]\nCore Conclusion: Developed economies exhibit high synchronization, while China remains structurally decoupled from global trade balance trends.\n\nBusiness Implications:\n- High correlation between USA and JPN suggests synchronized currency volatility exposure.\n- India's moderate correlations indicate potential as a diversified trade counterparty.\n- China's low connectivity implies distinct internal economic drivers independent of peers.\n\nRisk Considerations:\n- Correlation of 0.98 between USA and JPN implies near-identical risk during market shocks.\n- CHN's correlations below 0.20 suggest limited hedging effectiveness against Western economies."
+    },
+    "rejected": {
+      "from": "gpt",
+      "value": "[Chart Composition]\n- Chart Type: Correlation heatmap matrix\n- Title: Correlation Heatmap of Exchange Rates and Trade Balances Among Major Economies (5 Years)\n- Axes: Both X and Y axes display the same five country codes (USA, CHN, JPN, DEU, IND)\n- Legend: Vertical color bar on the right labeled \"Correlation Coefficient,\" ranging from -1.00 (blue) to 1.00 (red), with a neutral center at 0.00\n- Elements: Numerical correlation coefficients displayed within each cell of the square matrix\n\n[Data Relationships]\n- Extremes: The strongest correlations appear between JPN and USA (0.98) and JPN and DEU (0.84). The weakest absolute correlations are between CHN and JPN (0.14) and DEU and IND (0.46).\n- High Values: USA exhibits high positive correlations with JPN (0.98), DEU (0.75), and IND (0.86).\n- Low Values: CHN shows low correlations with all major economies, ranging from 0.14 to 0.57, significantly lower than the averages of the other four entities.\n- Cluster Analysis: A distinct dense cluster of high correlations exists among the four countries excluding CHN (USA-JPN, JPN-DEU, DEU-IND, USA-IND).\n\n[Pattern Features]\n- Overall Shape: The matrix is predominantly \"red,\" indicating a global positive correlation structure with no negative (blue) values present.\n- Structural Characteristics: There is a visual fragmentation where CHN acts as a structural outlier due to low intensity in most interactions, contrasting with the high-intensity connectivity of the JPN, USA, DEU, and IND group.\n- Clustering: The data shows a \"hollow core\" structure, where entities connect strongly with each other but show weak connectivity with the CHN row/column.\n\n[Key Insights]\nCore Conclusion: Major economies exhibit high structural synchronicity, while China shows distinct low-linkage characteristics.\n\nBusiness Implications:\n- High correlation among G7/BRICs suggests synchronized economic performance.\n- US markets show significant interdependence with both Japan and Germany.\n- China's distinct low linkage suggests unique volatility or operating conditions.\n\nRisk Considerations:\n- Correlation coefficients >0.90 (e.g., JPN-USA) indicate high mutual vulnerability during downturns.\n- Low correlation with China (<0.50) suggests limited hedging effectiveness through exposure to that market."
+    },
+    "images": [
+      "images/syn_096_heatmap_en-US_fx_trade.png"
+    ]
+  }
+]

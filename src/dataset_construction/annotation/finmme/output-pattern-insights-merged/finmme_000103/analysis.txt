@@ -1,0 +1,34 @@
+【图表构成】
+- 类型：矩阵图
+- 标题：无明显标题
+- 坐标轴：无坐标轴
+- 图例：分别为四种政治情景（Democratic sweep、Divided Congress, Democratic president、Divided Congress, Republican president、Republican sweep）对应的五个主题（Taxes、Deficit、Foreign、Climate、Tariffs）
+
+【数据关系】
+- **关键数值和变化：**
+  - 在税收（Taxes）方面，Democratic sweep情景下针对高收入者和企业的税收增加，并扩展税收优惠给低收入者；Republican sweep情景下计划降低企业税。
+  - 在财政赤字（Deficit）方面，Democratic sweep情景可能会有更大的赤字，而Republican sweep则在税收延长期限上下功夫，并关注大型预算项目。
+  
+- **极值对比：**
+  - 在关税（Tariffs）方面，Democratic sweep和Divided Congress, Democratic president情景下保持现状，而Republican sweep情景下建议对所有美国进口商品征收10%的关税，甚至对来自中国的商品征收60%的关税。
+
+- **重要趋势：**
+  - 对气候政策（Climate）的强调在Democratic sweep情景下持续，而Republican sweep情景下则可能放松气候法规。
+  - 在外交政策（Foreign）方面，Democratic情景下保持地缘政治的现状，而Republican情景下则专注于国内事务，削减对外援助。
+
+【模式特征】
+- 矩阵按四种情景与五个主题交叉呈现，内容以定性表述为主，同一主题在不同行情景间存在明显取向差异。
+- 少量单元格给出明确阈值，数值集中在税率与关税；结构上呈现分散而非单一主导。
+- 共和党全面胜出情景在关税与监管方面与其他情景差异最大，分裂国会情景在财政与外交上表现为折中与不确定。
+
+【核心洞察】
+核心结论：不同政治路径将重塑税负、进口成本与合规要求
+
+业务含义：
+- 税制差异主导企业成本结构
+- 关税水平影响跨境采购与定价
+- 监管取向决定减排与项目节奏
+
+风险关注：
+- 企业税率28%或15%，税后现金流与定价需重算
+- 进口关税10%/对华60%，采购与供应策略被迫调整

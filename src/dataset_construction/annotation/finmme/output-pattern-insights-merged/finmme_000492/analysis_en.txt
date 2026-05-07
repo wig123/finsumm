@@ -1,0 +1,34 @@
+[Chart Components]
+- Type: Dual-line time series chart
+- Title: Not displayed; Legend labels two series
+- X-axis: Time scale is 2021, 2022, 2023
+- Y-axis: Value scale 10 to 30
+- Legend: ELISA - Price/Earnings Ratio (Adjusted); STOXX EUROPE 600 TELECOM E - Price/Earnings Ratio (Adjusted)
+- Source: LSEG Datastream
+
+[Data Relationships]
+- ELISA started around 24, ended around 19.
+- ELISA peaked around 26–27 (around 2021), bottomed around 18 (H2 2023), with an amplitude of about 8–9.
+- STOXX started around 17, ended around 16–17.
+- STOXX peaked around 26 (mid-to-late 2023), bottomed around 10 (late 2021/early 2023), with an amplitude of about 16.
+- Mid-2022, both values were close, both around 22–23.
+- Mid-2021, ELISA was about 25, STOXX about 14, a difference of about 11.
+- Early 2023, ELISA was about 20, STOXX about 10–11, a difference of about 9–10.
+- Near the end of 2023, ELISA was about 19, STOXX about 16–17, a difference of about 2–3.
+
+[Pattern Characteristics]
+- The ELISA series generally fluctuates within a higher range, adjusting slowly around its central tendency, exhibiting multiple localized step-like minor fluctuations, with the latter segment positioned slightly lower than the former segment.
+- The STOXX series shows greater fluctuation amplitude across the entire period, featuring multiple distinct step-like jumps and single spikes, resulting in a less smooth structure.
+- The two series had a significant horizontal gap early on, which subsequently narrowed gradually, becoming briefly very close at certain points in time.
+
+[Core Insights]
+Core Conclusion: ELISA's valuation premium is gradually narrowing, while sector valuation undergoes a more drastic re-pricing.
+
+Business Implications:
+- ELISA's pricing advantage relative to the sector is weakening.
+- The overall sector valuation adjustment shows greater magnitude and a faster pace.
+- There are signs of convergence between the valuation centers of the individual stock and the sector.
+
+Risk Focus:
+- If STOXX, when near 10, probes lower again or hits a new low, it could trigger a sharp deterioration in sector sentiment.
+- If the difference between the two narrows and persists in the 0–2 range, ELISA's valuation premium may be further eroded by the market.

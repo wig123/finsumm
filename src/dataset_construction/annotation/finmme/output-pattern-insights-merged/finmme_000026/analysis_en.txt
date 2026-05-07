@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Pie Chart
+- Title: Not displayed
+- Axes: No axes (Pie Chart)
+- Legend: Four categories with colors/markings—BFS (Red), Telecom & Media (Light Gray), Healthcare (Black square/White sector), Others (Light Orange)
+- Annotations: Percentage values marked next to each sector: 38.3%, 22.5%, 33.5%, 5.7%. The legend is located above and to the left of the chart.
+
+[Data Relationships]
+- BFS proportion is 38.3%
+- Healthcare proportion is 33.5%
+- Telecom & Media proportion is 22.5%
+- Others proportion is 5.7%
+- The total proportion of the four categories is 100%
+- BFS is 4.8 percentage points higher than Healthcare, 15.8 percentage points higher than Telecom & Media, and 32.6 percentage points higher than Others
+- Healthcare is 11.0 percentage points higher than Telecom & Media, and 27.8 percentage points higher than Others
+- Telecom & Media is 16.8 percentage points higher than Others
+
+[Pattern Characteristics]
+The proportion distribution shows a pattern of "two large, one medium, one small." The structure is unbalanced; the first two categories are similar in size and significantly larger than the rest. The Healthcare sector has visual emphasis; the overall continuity is maintained, with no significant anomalies.
+
+[Core Insights]
+Core Conclusion: Allocation is concentrated in BFS and Healthcare; diversification effect is limited.
+
+Business Implications:
+- Indicates the portfolio relies on the top two categories
+- Impacts overall resilience/shock resistance
+- Small and medium categories have a weak mitigating effect
+
+Risk Focus:
+- The top two categories total ≥71.8%; single-sector events are easily transmitted
+- Others ≤5.7%; insufficient long-tail coverage, limiting potential gains

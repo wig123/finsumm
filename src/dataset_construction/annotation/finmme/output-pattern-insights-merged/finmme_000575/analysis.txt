@@ -1,0 +1,30 @@
+【图表构成】
+- 图表类型：百分比堆叠柱状图。
+- 标题：Figure 67: Distribution of the EU passenger car stock per type of drivetrain。
+- X轴：类别为年份/情景；包含2015、2030、2040（S1、S2、S3、LITE）、2050（S1、S2、S3、LITE）。
+- Y轴：0%—100%，以10%为刻度。
+- 图例：Fuel cell、Electric、Plug-in hybrid、ICE gaseous、Gasoline ICE、Diesel ICE。
+
+【数据关系】
+- 2015：Diesel ICE≈55%，Gasoline ICE≈40%，ICE gaseous≈3%，Plug-in hybrid≈1%，Electric≈1%，Fuel cell≈0%。
+- 2030：Diesel≈35%，Gasoline≈35%，Electric≈25%，Plug-in hybrid≈4%，ICE gaseous≈1%，Fuel cell≈0%。
+- 2040（S1/S2/S3/LITE）：Electric约60–75%；Diesel+Gasoline合计约23–33%；Plug-in hybrid约3–5%；Fuel cell约1–2%；ICE gaseous约1–2%。
+- 2050（S1/S2/S3/LITE）：Electric约80–92%；Diesel+Gasoline合计约2–13%；Plug-in hybrid约2–4%；Fuel cell约2–3%；ICE gaseous≈0%。
+- 变动幅度（2015→2050 S3）：Electric增加约91个百分点；Diesel+Gasoline合计减少约93个百分点。
+
+【模式特征】
+- 各年份/情景中，动力类型在总量中保持满额分配，构成由少数主导类型向新旧动力并存再到单一新型动力占优演变。
+- 传统燃油类型在时间轴上逐步缩小面积，新型电驱类型对应扩大，插混、气体燃料和燃料电池始终仅占细小带状比例。
+- 2040与2050各情景下，不同情景之间的差别主要体现在电驱与传统燃油类型的占比宽窄变化，其余类型在情景间差异有限，整体不存在突兀断层。
+
+【核心洞察】
+核心结论：车队动力结构将高度电驱集中，传统燃油显著边缘化。
+
+业务含义：
+- 整体盈利和成本结构将更依赖电驱相关业务。
+- 燃油车相关产能与供应链议价能力明显下降。
+- 多情景下均体现对电驱技术路线的高度依赖。
+
+风险关注：
+- 若电驱占比超过80%而充电配套不足，或导致使用端拥堵和服务失衡。
+- 若传统燃油占比跌破5%仍维持高固定成本，可能出现资产闲置和单位成本攀升。

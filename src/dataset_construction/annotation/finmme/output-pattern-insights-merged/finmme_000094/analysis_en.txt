@@ -1,0 +1,38 @@
+**[Chart Components]**
+- Type: Bar Chart
+- Title: None
+- Axes:
+  - X-axis: Time (Semi-annual intervals, from Jan-19 to Jan-24)
+  - Y-axis: Change relative to the 2017-18 baseline (Unit: Percentage points [pp])
+- Legend: None
+
+**[Data Relationships]**
+- Key Values and Changes:
+  - Jan-19 was -0.3pp, indicating below the baseline.
+  - Starting from Jul-19, gradually rose to a peak of approximately 19pp in Jan-21.
+  - The highest peak occurred in Jan-21, at 20pp.
+  - Subsequently reached another secondary peak slightly below 20pp in Jan-22.
+  - Gradually decreased from Jan-22 to Jan-24, approaching 0pp.
+
+- Extremum Comparison:
+  - Peak occurred in Jan-21 (20pp).
+  - Lowest point was Jan-19 (-0.3pp).
+
+- Significant Trends:
+  - The overall trend gradually rose from a negative value in Jan-19 to the peak in Jan-21, then gradually declined back towards the baseline.
+  - The downward trend was significant after Jan-22, converging toward 0pp by Jan-24.
+
+**[Pattern Characteristics]**
+The bars start slightly below the baseline, followed by a sustained uplift, culminating in a prominent peak segment in early 2021. The structure centers around a single dominant peak, followed by a secondary peak approximately one year later. The overall pattern is continuous rather than volatile. The endpoint gradually approaches the baseline, showing no severe anomalies, with only a slight negative value at the starting point.
+
+**[Core Insights]**
+Core Conclusion: The advantage relative to the baseline concentrated and then gradually dissipated.
+
+Business Implications:
+- Reflects high concentration during specific phases.
+- Mid-to-short-term expectations require downward adjustment.
+- Current incremental growth potential is limited.
+
+Risk Focus:
+- ≤0pp: Relative performance is negative; indicator is under pressure.
+- Returning to ≈0pp after ≥20pp: Assumptions invalidated, plan volatility.

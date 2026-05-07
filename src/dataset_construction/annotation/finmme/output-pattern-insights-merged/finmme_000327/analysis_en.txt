@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Dual-axis line chart
+- Time Axis: Feb-13 to Aug-23 (labeled monthly)
+- Left Y-axis: 0–200 (scale interval 40, unit: TWD), corresponding to the red line "Hu Lane share price (TWD)"
+- Right Y-axis: 0–3,000 (scale interval 500, unit: thousand units k units), corresponding to the gray line "China PV production 3MA (k units)"
+- Legend: Red line represents share price, gray line represents China PV production 3MA
+
+[Data Relationships]
+- Red line starting point (Feb-13) ≈50 TWD; ending point (Aug-23) ≈150 TWD
+- Red line peak (approx. 2018) ≈180 TWD; trough (approx. early 2020) ≈60 TWD; peak-to-trough difference ≈120 TWD
+- Gray line starting point (Feb-13) ≈800 thousand units; ending point (Aug-23) ≈2,600–2,700 thousand units
+- Gray line peak (approx. 2023) ≈2,700 thousand units; trough (approx. early 2020) ≈700–800 thousand units; peak-to-trough difference ≈1,900–2,000 thousand units
+- Difference between start and end points: Red line ≈+100 TWD; Gray line ≈+1,800–1,900 thousand units
+
+[Pattern Characteristics]
+- Both lines exhibit multi-stage volatile structures over the entire period, with multiple transitions between high and low points.
+- Around 2018, the high points of both lines roughly coincided. Around 2020, both simultaneously showed significant low points. In other phases, they are sometimes synchronized and sometimes divergent.
+- In the latter half, the gray line fluctuates around a higher level, while the red line experiences multiple pullbacks within the mid-to-high range but remains above its low point.
+
+[Core Insights]
+Core Conclusion: The share price and China PV production show phased correlation but are not completely synchronized.
+
+Business Implications:
+- Company valuation exhibits a certain sensitivity to the prosperity of the photovoltaic industry.
+- Production changes can serve as a supplementary reference for share price analysis, but not the sole basis.
+- The common low points around 2020 reflect sensitivity to the same external shock.
+
+Risk Focus:
+- If PV production falls close to approximately 800 thousand units, the share price may once again approach the historical low range.
+- If the share price breaks below the approximately 60–70 TWD range, it may signify a loss of market confidence in the recovery of industry production.

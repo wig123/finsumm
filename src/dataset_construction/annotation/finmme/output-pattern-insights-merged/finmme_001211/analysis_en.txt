@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Time series line chart; one red main line, four gray reference lines, labeled "7x," "10x," "13x," "16x" on the right side.
+- Title: Not displayed.
+- Y-axis: Unit TWD, range 0–150, scale approximately every 10.
+- X-axis: Time, range Dec-17 to Aug-24, labels include May-18, Oct-18, Mar-19, …, Mar-24, Aug-24.
+- Legend: No independent legend observed; text on the right side serves as reference line labels.
+
+[Data Relationships]
+- The red line was approximately 55 TWD in Dec-17; approximately 85 TWD in Aug-24.
+- The chart minimum was approximately 40 TWD (around Mar-19); the maximum was approximately 90 TWD (around Oct-23).
+- Difference between maximum and minimum ≈ 50 TWD.
+- Difference between the latest value and the starting value ≈ 30 TWD.
+- Aug-24 gray line values: 7x≈40, 10x≈70, 13x≈90, 16x≈115.
+- Aug-24 difference between the red line and gray lines: approximately 5 lower than 13x; approximately 15 higher than 10x; approximately 45 higher than 7x; approximately 30 lower than 16x.
+
+[Pattern Characteristics]
+The red line first weakened from Dec-17 to approximately Mar-19 before rebounding. Subsequently, it showed a stepwise upward movement around the central range, accompanied by short-term fluctuations of moderate amplitude. Starting around 2023, the position of the red line on the chart significantly increased, repeatedly approaching or touching the upper gray reference lines, but consistently remaining below the highest gray line. The overall trend is continuous, with no sudden gaps (jumps). Local peaks and troughs appeared only around 2020 and near 2023.
+
+[Core Insights]
+Core Conclusion: The current price is in the historical medium-to-high range, approaching the 13x reference band.
+
+Business Implications:
+- The valuation level has significantly risen compared to earlier periods.
+- The distance to the 10x and 13x bands makes trading decisions more sensitive.
+- The 16x band still represents significant upside potential of approximately 30 in the short term.
+
+Risk Concerns:
+- If it falls back to the vicinity of 10x ≈ 70, it may trigger profit-taking and position contraction.
+- If it breaks below the vicinity of 7x ≈ 40, it will approach the historical low range, and unrealized loss pressure will significantly increase.

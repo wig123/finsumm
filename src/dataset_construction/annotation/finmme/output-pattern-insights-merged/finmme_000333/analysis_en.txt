@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Scatter Plot
+- Title: Main Challenge for 3200G is Power
+- X-axis: Rate Category (800G, 1600G, 3200G)
+- Y-axis: Power Consumption (Watt), Range 0–50W, Major tick marks every 10W
+- Legend: LPO (Blue), LRO (Green), DSP2 (Yellow), DSP (Red)
+- Right Annotation: LPO and LRO are the lowest power consumption solutions for 3200G optical modules; DSP2 assumes 2nm DSP and low-power modulator (2026/2027)
+
+[Data Relationships]
+- At all rates, power consumption from lowest to highest is: LPO < LRO < DSP2 < DSP
+- 800G: LPO 5–10W; LRO 5–10W; DSP2 10–20W; DSP 10–20W
+- 1600G: LPO ≈10W; LRO 10–15W; DSP2 15–20W; DSP 20–25W
+- 3200G: LPO 15–20W; LRO ≈20W; DSP2 30–35W; DSP 45–50W
+- Difference at 3200G: DSP is approximately 25–35W higher than LPO; DSP2 is approximately 15–20W higher than LPO; DSP is approximately 10–20W higher than DSP2
+
+[Pattern Characteristics]
+Within each rate tier, the four solutions maintain a fixed low-to-high order on the vertical axis, showing clear stratification. As the rate increases from 800G to 3200G, the positions of the four solutions generally shift upwards on the vertical axis. The spacing between layers within the high-speed tier significantly widens, particularly the gap between the highest and lowest values, which is most prominent at 3200G. The data points within the 800G and 1600G tiers are relatively compact, whereas the differences within the 3200G tier are significantly amplified.
+
+[Core Insights]
+
+Core Conclusion: The energy efficiency disparity between different solutions is significantly amplified following rate increases.
+
+Business Implications:
+- At high-end rates, solution selection will directly impact the overall power consumption level.
+- In the 3200G scenario, low-power solutions are more critical for data center capacity planning.
+- Medium power consumption solutions create a trade-off space between performance and energy costs.
+
+Risk Concerns:
+- If the 3200G utilizes a solution approaching 50W power consumption, cabinet power density may exceed existing power supply and cooling limits.
+- When power consumption per port exceeds 35W, large-scale deployment may lead to a rapid escalation in energy budgets and operating costs.

@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Matrix Table
+- Title: Opensignal Global Awards 2024 – Group I
+- Subtitle: The Global Winners and Leaders
+- Columns: Global Winner 2024, Global Leader 2024 (Badge)
+- Rows: 7 Metrics—Games Experience, Voice App Experience, Download Speed Experience, Upload Speed Experience, Time on 4G/5G*, Consistent Quality, Video Experience
+- Axes: None
+- Others: Icon accompanying each row; “*” appears only in Time on 4G/5G
+
+[Data Relationships]
+- Total of 7 metrics.
+- Global Winner: Rakuten Japan won 2 metrics (Games, Voice App); Telenor Norway won 4 metrics (Download, Upload, Consistent Quality, Video); Telia Norway won 1 metric (Upload); Jio India won 1 metric (Time on 4G/5G).
+- Number of Global Leaders: Games 8; Voice 4; Download 4; Upload 5; Time on 4G/5G 4; Consistent Quality 5; Video 4.
+- Frequency of Global Leader appearances: DNA Finland 5 times; ice Norway 4 times; Telia Finland 4 times; Telia Norway 3 times; Telia Sweden 3 times; au Japan 3 times; Telenor Norway 2 times; NTT docomo Japan 2 times; others 1 time.
+
+[Pattern Characteristics]
+Metrics show high concentration in the Global Winner column, where a few operators appear repeatedly across multiple metrics, while the majority appear only in a single metric. The Global Leader column is more dispersed across metrics, but shows clear clustering and multiple repetitions among DNA Finland, ice Norway, and Telia-affiliated operators. The overall structure is "few high-frequency + many low-frequency," and multiple operators appear jointly in rows such as Upload, Consistent Quality, and Video, with no obvious blank rows or discontinuities.
+
+[Core Insights]
+Core Conclusion: A small number of operators have established a clear leading position across multiple network experience metrics.
+
+Business Implications:
+- Overall competition shows concentration at the top, with many operators possessing advantages only in specific areas.
+- Operators listed in multiple categories possess greater negotiating power regarding brand value and premium pricing potential.
+- High-frequency listed Nordic and Japanese operators demonstrate consistent performance across metrics.
+
+Risk Focus:
+- If Global Winners are concentrated among 3 or fewer operators, the performance gap for other operators is easily amplified.
+- If an operator is listed in only 1 metric, a decline in performance in that category will result in the loss of all exposure.

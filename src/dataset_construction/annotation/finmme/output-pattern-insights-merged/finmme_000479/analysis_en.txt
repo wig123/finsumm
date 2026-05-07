@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Vertical Bar Chart
+- Title: Earnings yield (FY26F)
+- Y-axis: Percentage scale, range 0%–16%, marked 0%, 2%, 4%, 6%, 8%, 10%, 12%, 14%, 16%
+- X-axis: 11 categories—BANDHAN, FB, BOB, SBIN, IIB, AXSB, HDFCB, ICICIBC, KMB, AUBANK, YES
+- Elements: Bars are colored in red and green; "Buy/Neutral/Reduce" text labels are displayed at the top of each bar; No legend observed.
+
+[Data Relationships]
+- Values: BANDHAN 15%; FB 14%; BOB 13%; SBIN 12%; IIB 11%; AXSB 10%; HDFCB 8%; ICICIBC 8%; KMB 7%; AUBANK 6%; YES 5%
+- High-low spread: Highest 15% (BANDHAN), Lowest 5% (YES), a difference of 10 percentage points
+- Equal values: HDFCB and ICICIBC are both 8%
+- Sequential differences: BANDHAN is 1% higher than FB; FB is 1% higher than BOB; BOB is 1% higher than SBIN; SBIN is 1% higher than IIB; IIB is 1% higher than AXSB; AXSB is 2% higher than HDFCB; HDFCB and ICICIBC have a 0% difference; ICICIBC is 1% higher than KMB; KMB is 1% higher than AUBANK; AUBANK is 1% higher than YES
+- Label distribution: Buy 7, Neutral 3, Reduce 1
+
+[Pattern Characteristics]
+- The bars exhibit a monotonically decreasing arrangement from left to right, transitioning from high to low. The overall change in height is relatively smooth, with only one relatively larger gap appearing in the middle section.
+- Colors alternate between red and green, and the coloring is not strictly based on numerical value; bars with the same value may have different colors.
+- The "Buy/Neutral/Reduce" text labels are concentrated in the high-value area, predominantly "Buy," while the low-value area is dominated by "Neutral" and the sole "Reduce," forming a segmented label distribution structure.
+
+[Core Insights]
+Core Conclusion: High-yield targets receive more positive ratings, while low-yield targets are concentrated in Neutral and Reduce ratings.
+
+Business Implications:
+- Current ratings clearly favor high-yield stocks.
+- The allocation appeal of low-yield stocks is relatively limited.
+- Mid-range stocks show a degree of differentiation and selectivity.
+
+Risk Focus:
+- Continued holding or increasing positions in stocks with yields below 6% may drag down portfolio returns.
+- If yields in the 6%–8% range are revised down to below 5%, it may trigger a further downward revision of the rating.

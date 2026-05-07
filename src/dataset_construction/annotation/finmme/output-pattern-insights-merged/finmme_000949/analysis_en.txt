@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Bar chart, overlaid with two horizontal dashed reference lines
+- Title: Main title absent
+- Y-axis: Numerical scale 0–120 (percentage), with grid lines
+- X-axis: Categories are various countries/markets; listed sequentially as Austria, Belgium, Bulgaria, Croatia, Czech Republic, Denmark, France, Germany, Hungary, Italy, Latvia, Netherlands‑TTF, Poland, Portugal, Romania, Slovakia, Spain, UK‑NBP
+- Legend: Red bar “% Fullness”; Blue dashed line “Avg Europe inventory level”; Gray dashed line “Avg inventory a year ago”
+
+[Data Relationships]
+- Highest: Portugal 107; Lowest: Bulgaria 33; Difference 74
+- Austria 80 vs Belgium 58; Difference 22
+- Germany 74 vs France 55; Difference 19
+- Netherlands‑TTF 64 vs Italy 50; Difference 14
+- Czech Republic 71 vs Hungary 68; Difference 3
+- Romania 61 vs UK‑NBP 55; Difference 6
+- Slovakia 77 vs Spain 51; Difference 26
+- Initial period Austria 80, Final period UK‑NBP 55; Difference 25
+
+[Pattern Characteristics]
+The red bars for various countries/markets are discretely distributed along the Y-axis, showing significant differences in height at the upper end, presenting an overall scattered multi-point distribution rather than concentration in a single range. Most bars are slightly above or slightly below the blue dashed line, with individual countries deviating significantly from this line; compared to the gray dashed line, the current bars are generally positioned slightly higher, with only a few approaching or falling below it. Portugal constitutes a single extreme high point, and Bulgaria is a clear low point, forming two prominent exceptions at the upper and lower bounds.
+
+[Core Insights]
+Core Conclusion: Inventory status varies significantly across countries, with a slight overall improvement compared to the previous year.
+
+Business Implications:
+- The overall regional reserve level is more comfortable/robust than last year.
+- Individual high-value countries possess greater capacity for supply adjustment/regulation.
+- Low-value countries rely more heavily on cross-border allocation and external replenishment.
+
+Risk Focus:
+- When inventory falls below 40% (e.g., approaching Bulgaria), local supply elasticity is clearly restricted.
+- When inventory exceeds 100% (e.g., approaching Portugal), it may lead to reserve redundancy and cost pressure.

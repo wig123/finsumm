@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Dual-axis line chart
+- Title: Not displayed
+- X-axis: Quarterly time scale, range approximately 2Q18 to the right-end label Dec-23 (ticks include 2Q18, 4Q18, ..., 2Q24, Dec-23)
+- Left Y-axis: 8—18 (for "Soybean")
+- Right Y-axis: 250—600 (for "S&P GSCI Agri Index - Crops (RHS)")
+- Legend: Black=Soybean; Pink=S&P GSCI Agri Index - Crops (RHS)
+
+[Data Relationships]
+- Soybean: Approx. 9.6 in 2Q18; low points near 2Q19/2Q21, approx. 8.3–8.5; peak value of approx. 16.7 in 4Q22; end point (Dec-23) approx. 13.1.
+- S&P GSCI Crops (RHS): Approx. 290 in 2Q18; low point of approx. 280 in 2Q21; peak value of approx. 565 in 4Q22; end point ( near 2Q24) approx. 400.
+- Peak-to-trough difference: Soybean approx. 8.2; Crops Index approx. 285.
+- Values for both in 4Q22, respectively: Soybean≈16.7; Crops Index≈565.
+
+[Pattern Characteristics]
+Both curves fluctuated slowly within a relatively narrow range from 2Q18 to 2Q21, followed by a significant rise after 2Q21, forming a single sharp peak near 4Q22. After the peak, both generally declined synchronously, but Soybean showed one or two noticeable secondary rebounds during the decline, while the Crops Index exhibited a smoother downward trend. Overall, the trends of the two lines were consistent in direction during most periods, showing no significant divergence or isolated anomalies.
+
+[Core Insights]
+Core Conclusion: Soybean prices and the agricultural product index are highly co-directional and exhibit amplified resonance.
+
+Business Implications:
+- Soybean has a strong linkage to overall crop price movements.
+- Index volatility will significantly transmit to single commodity exposure.
+- Soybean showed greater elasticity relative to the index in 4Q22.
+
+Risk Focus:
+- If the index approaches 560 again, single soybean long positions may face the risk of severe drawdown.
+- If soybean prices fall below approx. 9, spot and inventory positions may incur significant unrealized losses.

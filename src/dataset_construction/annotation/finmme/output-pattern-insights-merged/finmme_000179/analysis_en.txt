@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Time series line chart (Closing Price) overlaid with scatter markers.
+- Title: Unimicron Technology.
+- Time Stamp: As of 26-Feb-2024; Currency: TWD.
+- X-axis: Date range approximately 2021/07/01—2024/01/01.
+- Y-axis: Price range 0.00—325.00 (TWD), equidistant scale.
+- Legend: Black Line = Closing Price; Green Triangle = Target Price Change; Blue Dot = Recommendation Changes.
+- Source Annotation: LSEG, Nomura.
+
+[Data Relationships]
+- Initial Period (approx. 2021/07) Closing Price ≈ 100 TWD; Final Period (right end of chart) Closing Price ≈ 190 TWD.
+- The highest closing price point was approximately early 2022, ≈ 250 TWD; the lowest point was approximately mid-2021, ≈ 90 TWD; the high-low differential ≈ 160 TWD.
+- "Recommendation Changes" markers appeared 2 times in total: approximately early 2023 (≈ 125 TWD) and mid-2023 (≈ 190 TWD).
+- Among the Target Price Changes (green triangles), the highest value ≈ 325 TWD, the lowest value ≈ 130 TWD; the range ≈ 195 TWD.
+
+[Pattern Characteristics]
+- The line shows phased changes: first rising to a local peak, then retreating, followed by fluctuations within a narrow range, and finally rising at the right end.
+- Marker distribution is uneven. Green triangles are relatively dense from the second half of 2021 to mid-2022 and after mid-2023, generally located above the line.
+- Blue dots only appeared twice, located near early 2023 and mid-2023.
+
+[Core Insights]
+Core Conclusion: The closing price is consistently below the target price, and recommendation adjustment signals are sparse.
+
+Business Implications:
+- Target price indicates high expectations.
+- Research signals are limited; decision-making requires self-control.
+- The differential between the target and current price can be used for allocation assessment.
+
+Risk Focus:
+- Closing price < 125 TWD may trigger new Recommendation changes.
+- Closing price < 130 TWD, widening the target differential, potentially leading to delayed decision-making.

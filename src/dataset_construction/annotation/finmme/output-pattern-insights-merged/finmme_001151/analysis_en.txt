@@ -1,0 +1,34 @@
+[Chart Components]
+- Chart Type: Combination chart (Bar represents "GDP target," Line represents "Real GDP growth")
+- Legend: GDP target (Cyan), Real GDP growth (Green)
+- X-axis: Years 2012—2024E (2024 is Estimated)
+- Y-axis: Percentage scale 0—10
+- Annotation: Right side marked "Estimated 2024 GDP target at about 5%", 2024E bar shown with a dashed line
+- Title: Not displayed
+
+[Data Relationships]
+- 2012: Line ≈8%, Bar ≈7.5%.
+- Line lowest ≈2% (2020), highest ≈8% (2021), span ≈6 percentage points.
+- 2019: Line ≈6%, Bar ≈6%.
+- 2021: Line ≈8%, Bar ≈6%, Line higher by ≈2 percentage points.
+- 2022: Line ≈3%, Bar ≈5.5%, Line lower by ≈2.5 percentage points.
+- 2023: Line ≈5%, Bar ≈5%, both are close.
+- 2024E: Bar ≈5%, Line ≈4.5%, difference from target ≈0.5 percentage points.
+- 2012—2019 target bar decreased from ≈7.5% to ≈6%, a change of ≈1.5 percentage points.
+
+[Pattern Characteristics]
+- The bar values for the target showed a slow downward trend from 2012—2019, subsequently remaining within a relatively concentrated range near 2020—2024E, with overall volatility less than that of the line.
+- From 2012—2019, the line slightly deviated around the bar values. Starting in 2020, there was a sharp dip followed by a rebound, significantly amplifying the local deviation magnitude.
+- From 2023—2024E, the line reapproaches the bar range, but still maintains a slight gap, with no extreme outliers observed.
+
+[Core Insights]
+Core Conclusion: The alignment of growth outcomes with established targets has recovered after a period of weakening.
+
+Business Implications:
+- Target setting is relatively stable, while actual performance exhibits greater elasticity.
+- Significant execution deviation occurred from 2020—2022, reflecting instability in target achievement.
+- Post-2023, the target and outcome reconverge, which is beneficial for assessing planning consistency.
+
+Risk Focus:
+- If future actual growth continuously falls below the target by more than 1 percentage point, it may weaken the binding force of the target.
+- If a level similar to 2020 (near 2%) occurs, further widening the gap with the approximate 5% target, it will disrupt the feasibility of medium-term planning.

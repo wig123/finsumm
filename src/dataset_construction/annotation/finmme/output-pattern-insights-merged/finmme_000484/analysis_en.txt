@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Grouped bar chart (three bars per quarter).
+- Title: Not displayed.
+- Y-axis: Unit “(mn)”, range approximately 0–500.
+- X-axis: Quarterly labels 1QFY21 to 3QFY24, totaling 15 periods.
+- Legend: VI (Dark Gray), Bharti Airtel (Red), R-Jio (Light Gray).
+
+[Data Relationships]
+- 1QFY21: VI ≈ 280mn, Bharti ≈ 280mn, R-Jio ≈ 400mn.
+- 3QFY24: VI ≈ 210mn, Bharti ≈ 345mn, R-Jio ≈ 470mn.
+- Approximate range of values for each company: VI 280–210, difference ≈ 70; Bharti 280–345, difference ≈ 65; R-Jio 400–470, difference ≈ 70.
+- Difference in values during 3QFY24: R-Jio vs. Bharti ≈ 125; R-Jio vs. VI ≈ 260; Bharti vs. VI ≈ 135.
+- Difference in 1QFY21: R-Jio vs. Bharti ≈ 120; R-Jio vs. VI ≈ 120; Bharti vs. VI ≈ 0.
+
+[Pattern Characteristics]
+- The ranking of bar heights for the three companies across all periods consistently is: R-Jio highest, Bharti intermediate, VI lowest, indicating a stable structure without crossovers.
+- VI shows a slow downward trend across periods, while Bharti and R-Jio show a slow overall upward trend. Single-period changes are small and continuous, without significant sharp jumps.
+- Initially, the bar heights of Bharti and VI were close; by the end period, the gap between them has clearly widened. Furthermore, the gap between R-Jio and the other two has expanded further in the later stages.
+
+[Core Insights]
+Core Conclusion: The user base structure of the three companies is gradually diverging, showing increasing concentration among the leaders.
+
+Business Implications:
+- The divergence between Bharti and VI reflects a widening gap in competitiveness.
+- R-Jio's expanding lead strengthens its influence in the industry.
+- VI's relative contraction may suppress its revenue and bargaining power.
+
+Risk Focus:
+- When VI falls below approximately 210mn, it may restrict its network investment and service quality.
+- When R-Jio exceeds approximately 470mn, rising industry concentration may weaken price elasticity.

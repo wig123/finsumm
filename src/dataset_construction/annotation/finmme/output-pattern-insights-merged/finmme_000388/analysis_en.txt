@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Dual Line Chart
+- Title: Not displayed
+- Y-axis: PT/BV, range approximately 0–4.5
+- X-axis: Time, covering Mar-14 to Mar-24, marked annually (Mar-14, Mar-15…Mar-24)
+- Legend: Micron (Dark Green), SK Hynix (Light Blue)
+
+[Data Relationships]
+- Initial Period Mar-14: Micron≈2.5, SK Hynix≈2.5
+- Historical Highs: Micron≈4.0 (Mar-15), SK Hynix≈2.7 (2015)
+- Historical Lows: Micron≈0.9 (Mar-16), SK Hynix≈0.9 (Mar-23)
+- 2018 Peak: Micron≈3.3, SK Hynix≈2.6; Difference≈0.7
+- 2021 Peak: Micron≈2.6, SK Hynix≈2.0; Difference≈0.6
+- Final Period Mar-24: Micron≈2.8, SK Hynix≈2.0; Difference≈0.8
+- Full Period Range Span: Micron≈3.1 (4.0–0.9), SK Hynix≈1.8 (2.7–0.9)
+
+[Pattern Characteristics]
+- The two curves generally exhibit synchronized multi-round peak-trough structures, with clear cyclical fluctuations.
+- The Micron curve is higher than SK Hynix in most phases, and its fluctuation range is larger, with more pronounced extreme values.
+- The distance between the two periodically widens near several local highs and lows, especially as the final period approaches, where the gap is more noticeable.
+
+[Core Insights]
+Core Conclusion: Micron's valuation elasticity is significantly stronger than SK Hynix, and the gap has recently widened.
+
+Business Implications:
+- Both companies are driven by similar cycles, and the overall pricing rhythm is consistent.
+- Micron is more sensitive to environmental changes, resulting in greater valuation volatility.
+- Micron's current relative premium is at a relatively high level compared to recent years.
+
+Risk Focus:
+- If Micron's PT/BV approaches 4.0 again, it may face significant correction pressure.
+- If the difference in PT/BV between the two consistently exceeds 0.8, it may lead to relative valuation adjustment risk.

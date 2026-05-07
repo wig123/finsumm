@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Mixed chart of line graph and bar chart
+- Title: Not provided
+- Axes: Left axis is Yield (%), ranging from 2% to 14%; Right axis is Total Return (%), ranging from -30% to 30%
+- Legend: Includes "EUR HY yield" (line), "+/- 5% TR" (dots), "+/- 10% TR" (diamonds)
+
+[Data Relationships]
+- Key figures and changes:
+  - EUR HY yield was approximately 4% in early January 2021, climbed to about 8% in early 2022, and subsequently fluctuated slightly.
+  - Yield gradually declined and stabilized at approximately 6% between early 2023 and 2024.
+- Extremum comparison:
+  - The peak yield occurred near early 2022, reaching approximately 11%.
+  - The projected range for Total Return is -30% to 30%; marker size and color intensity indicate different rates of change.
+- Key trends:
+  - Yield significantly increased between late 2021 and early 2022, subsequently declining slightly and stabilizing.
+  - The projected area for Total Return indicates significant future uncertainty.
+
+[Pattern Characteristics]
+- The line segment is relatively flat in the initial period, followed by a noticeable rise forming a single peak, and subsequently fluctuates slightly within a narrow range.
+- The right-side projection band covers both positive and negative ranges, with markers distributed along multiple diagonal sequences, exhibiting layered and discrete structural characteristics.
+
+[Core Insights]
+Core Conclusion: Current yield is mid-range, future return scenarios are diverse
+
+Business Implications:
+- Dispersed return distribution, making allocation decisions difficult
+- Requires simultaneous evaluation of both positive and negative outcomes
+- The relationship between yield and return exhibits multi-scenario characteristics
+
+Risk Focus:
+- Total Return below -20%, indicating significant annual loss
+- Total Return volatility exceeds ±10%, increasing pressure on fund management

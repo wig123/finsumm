@@ -1,0 +1,42 @@
+[Chart Components]
+- Type: Stacked Bar Chart
+- Title: Originations by Ticket size (Value)
+- X-axis: Period Category — FY20, FY21, FY22, FY23, 1Q24
+- Y-axis: Proportion of each ticket size range (percentage), each bar totals 100%, scale not labeled
+- Legend: <0.5mn (Red), 0.5mn–3.5mn (Gray), 3.5mn–7.5mn (White), 7.5mn+ (Light Orange)
+
+[Data Relationships]
+- Proportions of each tier across five periods (unit %):
+    - <0.5mn 2.1/1.7/1.8/1.9/1.8
+    - 0.5–3.5mn 50.9/48.0/43.5/39.4/36.9
+    - 3.5–7.5mn 28.0/29.7/30.7/31.5/31.4
+    - 7.5mn+ 19.0/20.6/24.0/27.2/29.8
+- Change from FY20 to 1Q24 (percentage points):
+    - <0.5mn -0.3
+    - 0.5–3.5mn -14.0
+    - 3.5–7.5mn +3.4
+    - 7.5mn+ +10.8
+- Change from FY23 to 1Q24 (in the same order, percentage points):
+    - -0.1
+    - -2.5
+    - -0.1
+    - +2.6
+- Extremes in a single period: Maximum is 0.5–3.5mn at 50.9% in FY20; Minimum is <0.5mn at 1.7% in FY21.
+- Difference between maximum and minimum in 1Q24: 36.9% and 1.8%, a difference of 35.1 percentage points.
+
+[Pattern Characteristics]
+- Across all periods, 0.5–3.5mn consistently holds the highest proportion, but its share is shrinking sequentially; 7.5mn+ maintains continuous growth and reached one of the highest values among all tiers in 1Q24.
+- 3.5–7.5mn slowly expanded over the five periods and then stabilized; the proportion of <0.5mn remains extremely low and virtually unchanged.
+- The overall structure has gradually evolved from being dominated by a single mid-range tier in the early stages to a multi-level structure where the proportions of mid-to-high tiers are closer; the composition within the bars is smooth with no significant abrupt changes.
+
+[Core Insights]
+Core Conclusion: The value structure of new originations is concentrating towards mid-to-high ticket sizes.
+
+Business Implications:
+- The proportion of low-to-mid tiers is weakening, raising the monetary threshold for client acquisition.
+- The expansion of mid-to-high tiers increases reliance on single-transaction output.
+- Structure is concentrating towards two tiers, reducing portfolio diversity.
+
+Risk Focus:
+- If the proportion of 7.5mn+ consistently exceeds 30%, volatility from a single large-ticket client may amplify performance fluctuations.
+- If 0.5–3.5mn drops below 35%, the foundation of the mid-range client base weakens, reducing resilience against volatility.

@@ -1,0 +1,30 @@
+[Chart Components]
+- Dual-axis line chart; No title
+- Legend: Red "Price"; Gray "Rel FTSE Bursa Malaysia KLCI Index"
+- X-axis: Mar 23–Feb 24 (Monthly)
+- Left Y-axis: Price (MYR) approximately 8.25–9.50
+- Right Y-axis: Index 98–104
+
+[Data Relationships]
+- Price initial value ≈ 8.70; final value ≈ 9.45; change ≈ +0.75
+- Price maximum ≈ 9.50 (Feb 24); minimum ≈ 8.30 (Apr 23); range ≈ 1.20
+- Index initial value ≈ 101; final value ≈ 102; change ≈ +1
+- Index maximum ≈ 104 (between Jun–Nov); minimum ≈ 99 (Apr/Jan); range ≈ 5
+- Feb 24 values: Price ≈ 9.45; Index ≈ 102
+
+[Pattern Characteristics]
+- The red line (Price) generally shows a step-like upward trend during the sample period, accompanied by multiple short-term pullbacks and consolidation ranges, maintaining a relatively smooth pace.
+- The gray line (Index) initially rose and then gave back gains in the first half, subsequently oscillating widely around the central level, showing more localized spikes and greater volatility than the Price.
+- The two curves show periods of divergent direction near Apr–May, Sep–Oct, and Jan. Near Feb 24, the red line is at the upper boundary of its range, while the gray line is near the upper-middle position of its range.
+
+[Core Insights]
+Core Conclusion: The underlying asset's overall performance is superior to the tracked index.
+
+Business Implications:
+- Exhibits stronger price resilience relative to the benchmark.
+- Demonstrates more prominent downside protection capability compared to index drawdowns.
+- Shows clear characteristics of excess returns for medium-to-long-term holding.
+
+Risk Focus:
+- If the Price pulls back from around 9.50 to below 9.00, it may erode the existing excess return.
+- If the Index falls below 99 and remains there for an extended period, it might amplify the absolute drawdown magnitude of the underlying asset.

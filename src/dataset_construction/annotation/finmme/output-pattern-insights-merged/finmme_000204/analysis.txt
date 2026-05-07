@@ -1,0 +1,33 @@
+【图表构成】
+- 类型：组合柱状图（容量、产量）+右轴散点（最大利用率）。
+- 标题：Capacity vs Maximum Production by Region, 2023E；副标题：m units (LHS) and utilisation (RHS)。
+- X轴：地区分类—North America、Europe、Japan/Korea、Greater China、South Asia、South America、RoW。
+- 左Y轴：m units，范围0–40,000，刻度每5,000。
+- 右Y轴：利用率%，范围0%–80%。
+- 图例：Capacity（浅色柱）、Production（深色柱）、Maximum Utilization（橙色圆点，RHS）。
+
+【数据关系】
+- Greater China：容量35,000；产量≈26,000；差≈9,000；利用率≈65%。
+- North America：容量≈21,500；产量≈15,000；差≈6,500；利用率≈60%。
+- Europe：容量≈22,500；产量≈17,000；差≈5,500；利用率≈62%。
+- Japan/Korea：容量15,000；产量≈12,000；差≈3,000；利用率≈70%。
+- South Asia：容量15,000；产量10,000；差5,000；利用率≈65%。
+- South America：容量5,000；产量3,000；差2,000；利用率≈52%。
+- RoW：容量3,000；产量2,000；差1,000；利用率≈60%。
+
+【模式特征】
+- 各地区容量与产量整体同向排列，层级分明；Greater China体量显著，South America与RoW较小。
+- 产量普遍低于容量，空档因地区不同而呈现大小不一；Japan/Korea空档最小，Greater China与North America较大。
+- 利用率点位集中在中高区间，Japan/Korea处于上沿、South America处于下沿，未见极端离群。
+
+【核心洞察】
+核心结论：产能使用效率差异明显，局部承载接近上限。
+
+业务含义：
+- 体现产能使用效率不均
+- 高冗余区域需优化投放
+- 负荷较高区域弹性偏小
+
+风险关注：
+- 差距≥9,000时，冗余扩大，排产效率下降
+- 利用率≥70%时，扩产空间受限，产出提升受限

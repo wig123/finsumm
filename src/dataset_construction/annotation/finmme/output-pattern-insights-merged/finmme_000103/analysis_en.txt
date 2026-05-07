@@ -1,0 +1,34 @@
+[Chart Components]
+- Type: Matrix Chart
+- Title: No obvious title
+- Axes: No axes
+- Legend: Corresponds to four political scenarios (Democratic sweep, Divided Congress, Democratic president, Divided Congress, Republican president, Republican sweep) and five themes (Taxes, Deficit, Foreign, Climate, Tariffs)
+
+[Data Relationships]
+- **Key Metrics and Changes:**
+  - Regarding Taxes, the Democratic sweep scenario involves increased taxes on high-income earners and corporations, and expanded tax credits for low-income earners; the Republican sweep scenario plans to lower corporate taxes.
+  - Regarding the Fiscal Deficit, the Democratic sweep scenario might lead to a larger deficit, while the Republican sweep focuses on extending tax deadlines and scrutinizing large budget items.
+
+- **Extreme Value Comparison:**
+  - Regarding Tariffs, the Democratic sweep and Divided Congress, Democratic president scenarios maintain the status quo, while the Republican sweep scenario proposes a 10% tariff on all US imports, and potentially a 60% tariff on goods from China.
+
+- **Significant Trends:**
+  - Emphasis on Climate policy continues under the Democratic sweep scenario, while the Republican sweep scenario may relax climate regulations.
+  - Regarding Foreign policy, the Democratic scenario maintains the geopolitical status quo, while the Republican scenario focuses on domestic affairs and cuts foreign aid.
+
+[Pattern Characteristics]
+- The matrix presents the intersection of four scenarios and five themes, with content primarily qualitative, showing clear directional differences for the same theme across different scenarios.
+- A small number of cells provide explicit thresholds, with values concentrated in tax rates and tariffs; the structure is decentralized rather than dominated by a single factor.
+- The Republican sweep scenario shows the largest divergence from other scenarios regarding tariffs and regulation, while the Divided Congress scenario exhibits compromise and uncertainty in fiscal and foreign policy.
+
+[Core Insights]
+Core Conclusion: Different political paths will reshape tax burdens, import costs, and compliance requirements
+
+Business Implications:
+- Tax system differences dictate corporate cost structures
+- Tariff levels impact cross-border procurement and pricing
+- Regulatory orientation determines the pace of emissions reduction and projects
+
+Risk Focus:
+- Corporate tax rate of 28% or 15%; post-tax cash flow and pricing require recalculation
+- Import tariffs of 10%/60% on China; procurement and supply strategies must be adjusted

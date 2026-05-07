@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Multi-line chart; Title: FY2024 EPS Indexed.
+- X-axis: Date, range 4-Jan-23 to 28-Feb-24.
+- Y-axis: Indexed scale 80 to 115.
+- Legend: Indo (solid red line), Malay (solid gray line), Phils (solid black line), Sing (dashed red line), Thai (dotted black line), ASEAN USD (solid blue line).
+
+[Data Relationships]
+- Initial period (4-Jan-23) all lines were ≈100.
+- Final period (28-Feb-24): Phils≈110; Indo≈106; Sing≈97; Malay≈92; Thai≈83; ASEAN USD≈92.
+- Peak during the entire period: Phils≈111; ASEAN USD≈107; Sing≈106; Indo≈106; Malay≈100; Thai≈100.
+- Trough during the entire period: Thai≈83; Malay≈92; ASEAN USD≈92; Sing≈97; Indo≈100; Phils≈100.
+- Difference between the highest and lowest final values ≈ 27 points.
+- Change from the initial period to the final period: Phils+≈10; Indo+≈6; Sing−≈3; Malay−≈8; Thai−≈17; ASEAN USD−≈8.
+
+[Pattern Characteristics]
+- All lines remained close near the beginning of the year, subsequently widening the gap, forming a distinct layered structure, with Phils and Indo at the top, Sing in the middle, Malay and Thai at the bottom, and ASEAN USD situated in the lower-middle range.
+- The overall trend for Phils is relatively smooth, showing only a slight step-up increase in the middle segment; Indo and Sing experienced several noticeable short-term fluctuations in the middle segment, but the amplitude remained relatively constrained.
+- Thai and ASEAN USD exhibited a continuous downward step-like structure after mid-year. Following a prominent downward gap in mid-year, Thai remained in the lowest range among all series for an extended period.
+
+[Core Insights]
+Core Conclusion: Regional EPS expectations show significant divergence, with the Philippines and Indonesia demonstrating relatively stronger support.
+
+Business Implications:
+- Philippines and Indonesia earnings expectations show greater resilience.
+- Thailand and Malaysia drag down overall regional earnings performance.
+- Overall pricing of ASEAN USD is closer to the sub-markets with lower expectations.
+
+Risk Focus:
+- If the Thai index falls below 80, it may amplify the downward pressure on regional EPS valuations.
+- If ASEAN USD remains below 90 for an extended period, it may restrict the valuation recovery potential for regional assets.

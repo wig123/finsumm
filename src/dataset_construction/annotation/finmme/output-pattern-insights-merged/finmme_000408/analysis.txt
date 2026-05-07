@@ -1,0 +1,25 @@
+【图表构成】
+- 类型：折线图；纵轴为“Relative share”，范围0%—70%；横轴为年份1830—1940（十年间隔）。
+- 图例：US（青）、Prussia/Germany（灰）、Russia/USSR（橙虚线）、British Empire（蓝）、Japan（紫）、Austria-Hungary（粉）、France（浅青）、Italy（深蓝）。
+
+【数据关系】
+- 全图最高点：US在1920约62%。
+- British Empire最高点：1850—1860约58—60%。
+- 1940：US≈50%，Russia/USSR≈12—13%，Prussia/Germany≈12%，British Empire≈8—10%，Japan≈9%，France≈10%，Italy≈5—6%，Austria‑Hungary≈0%。
+- 1830：British Empire≈45%，US≈12—15%，France≈15%，Russia/USSR≈13%。
+- US与British Empire差距：1850约45—48个百分点；1920约47个百分点。
+
+【模式特征】  
+各经济体的相对份额呈明显此消彼长的多条曲线格局，其中US与British Empire构成两条主导曲线。British Empire在前半段处于高位并持续走低，US在中后段从中位水平逐步爬升到全图峰值后略有回落。Prussia/Germany与France大致维持在中等区间内，Russia/USSR先降后在末段抬升，Japan与Italy在早期接近底部，后期向中低区间聚集；Austria‑Hungary在中段出现小幅起伏后在末端趋近于零。整体看，后期主要经济体的份额更接近，中上区间形成多方分布格局。
+
+【核心洞察】  
+核心结论：全球相对经济份额由单一主导转为多极分布格局。
+
+业务含义：  
+- 主导权从早期强势主体转向后起主体。  
+- 后期竞争格局更分散，集中度下降。  
+- 新进参与者的份额提升，旧有势力影响减弱。  
+
+风险关注：  
+- 任一主体份额跌破10%时，其全球影响力和议价空间或明显收缩。  
+- 当领先主体与第二梯队差距低于5个百分点时，主导地位易被挑战并引发格局重组。

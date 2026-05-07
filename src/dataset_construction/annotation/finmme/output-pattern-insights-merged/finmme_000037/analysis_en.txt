@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Combination Chart (Red Bar Chart and Blue Line Chart)
+- Title: Not displayed
+- X-axis: Quarter, range approximately Q1FY19 to Q3FY24
+- Left Y-axis: Realization (Rs/kg), scale range approximately 90 to 180
+- Right Y-axis: Growth YoY (%), scale range approximately -20 to 50
+- Legend: Red bar chart represents Realization (left Y-axis); Blue line represents Growth YoY (right Y-axis)
+
+[Data Relationships]
+- Minimum Realization is approximately 100 Rs/kg (early FY20), maximum is approximately 170 Rs/kg (Q3FY23), a difference of approximately 70 Rs/kg.
+- Initial Realization (Q1FY19) is approximately 110 Rs/kg; final Realization (Q3FY24) is approximately 130 Rs/kg, a difference of approximately 20 Rs/kg.
+- Maximum Growth YoY is approximately 45% (near Q1FY23), minimum is approximately -10% (Q3FY24), a difference of approximately 55 percentage points.
+- During FY23, Realization for multiple quarters was in the range of 160 to 170 Rs/kg; during FY24, most were in the range of 130 to 150 Rs/kg.
+- Corresponding Growth YoY during FY23 was approximately 30% to 45%; during FY24, most were in the range of 0% to -10%.
+
+[Pattern Characteristics]
+- The red bars gradually rose between FY21 and FY23, forming a high-level cluster, while FY24 is situated in a lower range.
+- The blue line is near the upper boundary in FY23 and near the lower boundary in FY24, showing temporary synchronization; inflection points occurred in the mid-to-late FY23 and early FY24 periods.
+
+[Core Insights]
+Core Conclusion: FY23 pricing and YoY growth rate were significantly superior to FY24.
+
+Business Implications:
+- High consistency and strong interdependence between the two indicators.
+- Revenue per unit impacts the YoY growth rate.
+- FY24 revenue and growth rate are simultaneously under pressure.
+
+Risk Focus:
+- Realization ≤ 120 Rs/kg, indicating a decline in unit revenue, and Growth YoY may be ≤ 0%.
+- Growth YoY ≤ -10%, indicating significant deterioration in year-over-year performance.

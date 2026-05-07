@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Time series line chart (Black solid line represents historical 3-month rolling average sales, red dashed line represents projection).
+- Title: Global semiconductor sales.
+- X-axis: Time, labeled from Dec-77 to Dec-25F (December displayed annually).
+- Y-axis: 3-Mth Rolling Av. Global Chip Sales (USD000s), range $0 to $70,000,000, scale interval $10,000,000.
+- Legend: Total Semiconductor Sales (3-mth rolling av.); Our Projections (+17.8% 2024F, +10.7% 2025F).
+
+[Data Relationships]
+- Starting point (Dec-77) is close to the $0 mark.
+- Historical peak occurred around Dec-22, approximately $52,000,000 (USD000s).
+- Value at the end of 2023 (Dec-23) is approximately $49,000,000.
+- Projected final value (Dec-25F) is approximately $66,000,000.
+- Projection information: 2024 YoY +17.8%, 2025 YoY +10.7% (from the legend).
+- The final value of 2025F is approximately $14,000,000 higher than the historical peak (Dec-22).
+- The low point in 2023 is approximately $40,000,000; the difference compared to the 2025F final value is about $26,000,000.
+
+[Pattern Characteristics]
+The overall curve shows a step-wise upward movement over a long time span, superimposed with multiple moderate pullbacks and subsequent new highs. After forming a local high around 2022, a significant decline occurred in 2023, followed by an upward recovery close to the previous high. The projection line continues to rise based on the end of the historical data, first showing a period of moderate fluctuation in the short term, followed by a steeper upward surge.
+
+[Core Insights]
+Core Conclusion: The industry sales scale is judged to significantly increase and reach a historical high.
+
+Business Implications:
+- The projection reflects strong confidence in the continuation of future demand.
+- Higher requirements are placed on revenue scale and capacity planning.
+- Sensitivity to related investments and inventory management will increase.
+
+Risk Concerns:
+- If the 2024 growth rate is significantly lower than +17.8%, it may lead to a mismatch between capacity expansion and revenue expectations.
+- If 2025 falls below +10.7%, long-term investments made earlier based on high-growth assumptions may face return pressure.

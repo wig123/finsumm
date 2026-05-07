@@ -1,0 +1,41 @@
+[Chart Components]
+- Type: Multi-part Composite Ring Chart
+- Title: Sostenibilidad como pilar estratégico
+- Axes: No explicit axes
+- Legend: Cambio climático, Agua, Residuos eliminados, Accidentabilidad, Diversidad, Cadena de suministro
+
+[Data Relationships]
+- **Cambio climático**:
+  - CO₂ Emission Reduction: Reduced from 100 in 2018 to 70 in 2023, with a 2030 target of 70, achieving a total reduction target of 30%.
+
+- **Agua**:
+  - Water Consumption Reduction: Reduced from 100 in 2018 to 86 in 2023, with a 2030 target of 90, achieving a total reduction target of 10%.
+
+- **Residuos eliminados**:
+  - Waste Reduction: Reduced from 100 in 2018 to 80 in 2023, with a 2030 target of 70, achieving a total reduction target of 30%.
+
+- **Accidentabilidad**:
+  - Lost-Time Injury Frequency Rate (LTIFR) Reduction: Reduced from 0.52 in 2018 to 0.18 in 2023, with a 2030 target of 0.26, achieving a 50% reduction target.
+
+- **Diversidad**:
+  - Proportion of Female Executives Increase: Increased from 15.6% in 2018 to 22.4% in 2023, with a 2030 target of 30%, aiming to double the initial target.
+
+- **Cadena de suministro**:
+  - Supplier Compliance: Increased from 0% in 2018 to 45% in 2023, projected to reach 100% by 2030, achieving 100% growth.
+
+[Pattern Characteristics]
+- The ring chart displays six themes, all compared across three points: 2018, 2023, and 2030, showing a diverse and balanced structure.
+- Most themes show a unidirectional evolution across the three points; a few exhibit maintenance or counter-directional adjustment in the 2030 target.
+- The 2030 targets for individual themes contrast with the 2023 figures, constituting clear exceptions.
+
+[Core Insights]
+Core Conclusion: Phased results are evident, with differentiated focus areas for targets
+
+Business Implications:
+- Solid foundation in emission reduction and waste management.
+- Safety and water consumption targets emphasize stable operations.
+- Significant room for improvement remains in diversity and supply chain compliance.
+
+Risk Focus:
+- CO₂ > 70 or Water Consumption > 90: Failure to meet 2030 commitments.
+- Accidents > 0.26, Female Executives < 30%, Compliance < 100%: Failure to achieve governance targets.

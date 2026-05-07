@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Line chart (red curve).
+- Annotation: The chart indicates "Average 22%", corresponding to a black dashed horizontal line located at approximately 22%.
+- X-axis: Time, ranging from Jan-20 to Jan-24, with scale points at semi-annual intervals (Jan/Jul).
+- Y-axis: Percentage, ranging from -40% to 70%, with increments of 10%.
+- Legend: No independent legend is displayed.
+
+[Data Relationships]
+- Starting value (Jan-20) ≈ 0%; Ending value (Jan-24) ≈ 13%–15%.
+- Average line: 22%.
+- Global maximum value ≈ 55% (around mid-2022); Global minimum value ≈ -35% (around early 2022).
+- Difference between maximum and minimum ≈ 90 percentage points.
+- Maximum value is higher than the average line by ≈ 33 percentage points; Minimum value is lower than the average line by ≈ 57 percentage points.
+- A peak around mid-2020 ≈ 35%; A peak around mid-2021 ≈ 45%.
+- A low point around mid-2023 ≈ 0%.
+
+[Pattern Characteristics]
+The red curve generally exhibits significant high-frequency volatility, repeatedly oscillating above and below the average level, crossing the dashed line multiple times. From 2020 until mid-2022, the curve was primarily distributed above the dashed line, accompanied by multiple local peaks; a sharp dip occurred in early 2022, followed by a rapid rebound. After mid-2022, the data is narrowly distributed near and below the dashed line. Local low points gradually trend upward, but the height of the high points is limited.
+
+[Core Insights]
+Core Conclusion: The center of performance gravity has shifted downward since 2022 compared to the earlier period, and stability has improved.
+
+Business Implications:
+- The early phase demonstrated a stronger aggressive allocation bias.
+- The later phase is closer to the mean, indicating more constrained volatility management.
+- The overall result remains above the zero axis, providing a certain buffer space.
+
+Risk Concerns:
+- If the curve approaches the -35% level again, it may trigger involuntary position reduction or stop-loss pressure.
+- If the curve remains persistently below the 22% average, it may impact target returns or performance assessment achievement.

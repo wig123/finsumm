@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Infographic (Categorization Panel)
+- Title: eClerx Financial Markets
+- Subtitle: Transitioning, managing & transforming complex processes
+- No axes, no scales, no legend
+- Includes 7 module cards: Trade Support, Client Lifecycle, Reference Data, Asset Servicing, Settlements & Clearing, Analytics, Remediation Engagement/Project Work
+
+[Data Relationships]
+- Total number of modules: 7
+- Layout: Top row 3 (Trade Support, Client Lifecycle, Reference Data), Middle row 3 (Asset Servicing, Settlements & Clearing, Analytics), Bottom row 1 (Remediation Engagement/Project Work)
+- All modules are parallel classifications, displaying no numerical values or time scales
+- Each module only provides textual descriptions, without providing quantifiable metrics
+
+[Pattern Characteristics]
+- The chart presents 7 functional modules side-by-side as rectangular cards of equal visual weight, arranged in three vertical rows. The middle row structure is consistent with the top row, while the bottom row retains only one independent module.
+- Each module adopts a uniform layout: an icon and module name on the left, and a brief textual description on the right. The overall structure is a discrete classification, reflecting no sequence, strength, or quantitative differences.
+- The title and subtitle are concentrated at the top, serving as an overarching description for all modules below. There are no connecting lines, hierarchical arrows, or indications of time or numerical changes between the modules.
+
+[Core Insights]
+
+Core Conclusion: The chart displays a composition of equally weighted business capabilities, not performance results.
+
+Business Implications:
+- The current information is better suited for illustrating the scope of services rather than comparing performance.
+- It is impossible to directly assess the contribution of each module to revenue, cost, or efficiency.
+- If decision support is required, quantitative data regarding scale, quality, and return must be supplemented.
+
+Risk Focus:
+- Making resource allocation judgments based on the number or names of the 7 modules, without any numerical context, may lead to a mismatch between investment and actual value.
+- If the parallel layout is interpreted as equal importance, setting KPIs or priorities may overlook the differentiated management required for critical components.

@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Dual-axis line chart.
+- Legend: Red "Price," Gray "Rel Hang Seng Index."
+- Left Y-axis: Labeled "(HKD)," range approximately 2.25—3.25, scales include 2.25, 2.5, 2.75, 3.0, 3.25; corresponds to the red line.
+- Right Y-axis: Range approximately 100—130, scales include 100, 105, 110, 115, 120, 125, 130; corresponds to the gray line.
+- X-axis: Time from Apr 23 to Mar 24, marked monthly.
+- Title: No separate title text observed.
+
+[Data Relationships]
+- Price Peak: Approximately 3.25 HKD (around May 23); Trough: Approximately 2.30 HKD (around Jan 24); Difference approximately 0.95 HKD.
+- Price Initial Period (Apr 23) approximately 2.50 HKD; Final Period (Mar 24) approximately 2.65 HKD; The final period is higher than the initial period by approximately 0.15 HKD.
+- Rel Hang Seng Index Peak: Approximately 130 (around Oct 23); Trough: Approximately 100 (around Jan 24); Difference approximately 30 points.
+- Index Final Period (Mar 24) approximately 125; Initial Period (Apr 23) slightly above 100 (approximately 102—105).
+- Period Comparison: In May 23, Price was approximately 3.25 HKD and the Index was approximately 115; In Jan 24, Price was approximately 2.30 HKD and the Index was approximately 100.
+
+[Pattern Characteristics]
+- The two lines showed similar momentum during the Apr–May 23 phase, after which the correlation weakened, and divergence in trends gradually appeared.
+- Price showed a step-like decline in the middle section followed by horizontal consolidation, while the Rel Hang Seng Index experienced a period of significant unilateral rise in Sep–Oct 23.
+- Around Jan 24, both curves simultaneously reached their respective lows. Subsequently, the index rebounded relatively more significantly, widening the spread.
+
+[Core Insights]
+Core Conclusion: The individual stock's performance relative to the index was initially weak, then stabilized, showing clear divergence during certain phases.
+
+Business Implications:
+- Pressure relative to the index in the middle section, showing clear signs of underperforming the broader market.
+- The index strength after Oct 23 was not reflected synchronously, indicating limited stock elasticity.
+- Although there was a recovery after Jan 24, the relative performance has not been fully restored.
+
+Risk Focus:
+- If Price approaches 2.30 again while the Index is above 120, it may imply a further deterioration in relative performance.
+- If the Index falls back near 100 and Price does not return above 2.50, both absolute and relative returns may face simultaneous pressure.

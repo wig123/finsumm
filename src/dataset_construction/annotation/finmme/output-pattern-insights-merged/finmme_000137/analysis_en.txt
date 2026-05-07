@@ -1,0 +1,42 @@
+[Chart Components]
+- Type: Line Chart
+- Title: None
+- Axes:
+  - X-axis: Year range 2005 to 2025
+  - Left Y-axis: Value range 4 to 8 (Applicable to wage growth and core services CPI)
+  - Right Y-axis: Value range 1 to 3.5 (Applicable to Openings to unemployment rate ratio)
+- Legend:
+  - Green line: Atlanta Fed median wage growth (3mma), Left axis
+  - Cyan line: US core services CPI (% y/y), Left axis
+  - Dark blue solid line: Openings to unemployment rate (ratio), Right axis
+
+[Data Relationships]
+- Key Metrics and Changes:
+  - Around 2020, wage growth and core services CPI rose significantly.
+  - Since 2005, wage growth has generally been higher than core services CPI.
+  - The Openings to unemployment rate ratio rose rapidly in 2020 and decreased slightly in 2022.
+
+- Extremum Comparison:
+  - Wage growth peaked in 2021, close to 8.
+  - The Openings to unemployment rate ratio peaked in 2022, close to 3.5.
+
+- Key Trends:
+  - After 2010, wage growth and core services CPI rose synchronously.
+  - The Openings to unemployment rate ratio shows an inverse trend compared to wage growth and CPI, especially noticeable after 2020.
+
+[Pattern Characteristics]
+- The two lines on the left axis are generally synchronous, with stronger correlation after 2010; and the green line remains above the cyan line most of the time.
+- A significant jump occurred around 2020, forming a peak, after which both entered a downward phase.
+- The dark blue line on the right axis rapidly rose in 2020 before falling back, showing an inverse direction relative to the two lines on the left axis, with a timing mismatch.
+
+[Core Insights]
+Core Conclusion: Core services CPI is primarily driven by wages; the job ratio serves as a control indicator.
+
+Business Implications:
+- Core services CPI is sensitive to wage movements.
+- Decision-making prioritizes tracking wage indicators.
+- The job ratio is used for cross-validation.
+
+Risk Focus:
+- Wage growth rate ≥ 8: CPI is often high, leading to potential judgment bias.
+- Job ratio ≥ 3: Contradicts wage/CPI signals, leading to potential misinterpretation.

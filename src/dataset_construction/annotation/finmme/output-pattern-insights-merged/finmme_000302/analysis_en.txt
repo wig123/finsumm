@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Line chart; title not specified.
+- X-axis: Time points CY20, CY21, 1QCY22, 2QCY22, 3QCY22, 4QCY22, 1QCY23, 2QCY23, 3QCY23, 4QCY23.
+- Y-axis: Percentage, range -10% to 20%, including the 0% baseline.
+- Legend: Red=Financial Services; Gray=Healthcare; Black=Manufacturing/Retail/Logistics; Light Orange=Other (Comm, Media and Technology).
+
+[Data Relationships]
+- Starting Point (CY20): Red ≈ -4%, Gray ≈ 3%, Black ≈ -6%, Orange ≈ 1%.
+- Peak Values: Orange in 1QCY22 ≈ 18%; Black in CY21 ≈ 16%; Gray in CY21 ≈ 10%; Red in CY21 ≈ 7%.
+- Trough Values: Red in 4QCY23 ≈ -5%; Black in CY20 ≈ -6%; Gray in 4QCY23 ≈ -2%; Orange in 2QCY23 ≈ -1%.
+- End of Period (4QCY23): Red ≈ -5%, Gray ≈ -2%, Black ≈ 1%, Orange ≈ 3%.
+- Comparison at 2QCY23: Black ≈ 3%, Red ≈ -3%, Gray ≈ 1%, Orange ≈ -1%; Difference between Black and Red ≈ 6 percentage points.
+
+[Pattern Characteristics]
+All four lines formed their respective high points around CY21 to 1QCY22, after which they trended generally downward, gradually approaching the zero axis and crossing frequently in the later period. Financial Services has consistently remained at the lower level among the sample since CY21, while Healthcare is relatively central and exhibits lower volatility; Manufacturing/Retail/Logistics and Other were higher than the other two groups in the early period, crossing above and below the zero axis in the later period. During the period from 2QCY23 to 3QCY23, Other showed a relatively noticeable short-term rebound, while the changes in the other three lines were smoother.
+
+[Core Insights]
+Core Conclusion: All sectors have transitioned from a high-growth phase into a phase of divergence and contraction.
+
+Business Implications:
+- Financial Services has been under pressure for a longer duration, with a slower pace of recovery.
+- Healthcare performance is relatively moderate, with smoother volatility management.
+- Manufacturing/Retail/Logistics and Other are more sensitive to environmental changes.
+
+Risk Focus:
+- Financial Services remaining below 0% long-term or amplifying negative values may drag down overall portfolio performance.
+- If Other approaches -5% again, it may amplify the magnitude of short-term portfolio drawdown.

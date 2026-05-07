@@ -1,0 +1,31 @@
+【图表构成】
+- 图表类型：财务对比表
+- 标注：表头“USDm”
+- 列结构：指标名称；“2024 Guidance”；“BNPP EXANE”；“Average Cons.**”；“Guidance vs. Cons.”
+- 行项目：LVP YoY%；Revenue及拆分（% growth、o/w % organic、o/w % FX）；EBIT及% margin；OCF及% of sales；Capex及% of sales；FCF及% of sales
+- 单位与格式：金额为USDm；百分比为%；负值以括号表示
+- 备注：*LVP为≤3.5t车辆；**Average Cons.为Company、Infront与VA Consensus平均
+
+【数据关系】
+- LVP YoY：Guidance为(1.0%)；BNPP为3.0%；Consensus为(0.8%)；Guidance较Consensus差(0.2)个百分点。
+- Revenue：Guidance 10,999；BNPP 11,218；Consensus 10,981；Guidance较Consensus多18（+0.2%）；BNPP较Guidance多219。
+- Revenue增长：Guidance 5.0%；Consensus 5.1%；差(0.1)个百分点。Organic：Guidance 5.1%，Consensus 4.8%，差+0.3个百分点。FX：Guidance (0.1%)，Consensus 0.3%，差(0.4)个百分点。
+- EBIT：Guidance 1,155；Consensus 1,172；差-17（-1.4%）；EBIT margin：Guidance 10.5%，Consensus 10.7%，差(0.2)个百分点。
+- OCF：Guidance 1,200；Consensus 1,176；差+24（+2.1%）；OCF占比：Guidance 10.9%，Consensus 10.7%，差+0.2个百分点。
+- Capex：Guidance (605)；Consensus (618)；差+13（+2.2%）；占比：Guidance 5.5%，Consensus 5.6%，差(0.1)个百分点。
+- FCF：Guidance 595；Consensus 557；差+38（+6.8%）；占比：Guidance 5.4%，Consensus 5.1%，差+0.3个百分点。
+
+【模式特征】  
+整体上，Guidance与Consensus在收入、利润与现金流水平上的差异普遍较小，多数指标集中在个位数百分比内。现金流与FCF相关指标中，Guidance普遍略高于Consensus，而LVP增速与EBIT水平则略低。BNPP估值在收入与盈利、现金流等多项指标上整体高于Guidance，形成由Consensus、Guidance到BNPP的递增层级结构。
+
+【核心洞察】  
+核心结论：公司指引总体接近市场预期，现金流与FCF略有上修倾向。  
+
+业务含义：  
+- 收入与利润预期差距有限，市场分歧不大。  
+- 经营现金流与FCF预期相对更佳，显示现金创造能力被强调。  
+- 对LVP与EBIT的预期略保守，盈利弹性更多依赖效率与现金管理。  
+
+风险关注：  
+- 如EBIT margin低于10.5%，则可能导致EBIT低于Consensus水平。  
+- 如FCF占比低于5.1%，则会削弱相对Consensus的现金流优势。

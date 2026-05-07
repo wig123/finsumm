@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Dual Line Chart
+- Legend: Red represents "Avg Rural wage gr y-y," Gray represents "Rural CPI y-y %"
+- X-axis: Time (Dec-15 to Dec-23), marked with semi-annual increments (Jun/Dec)
+- Y-axis: Percentage, range 0%—8%, scale lines at 1% intervals
+- Annotations and Grid: Horizontal and vertical grids aid reading; No secondary axis
+
+[Data Relationships]
+- Initial Period Dec-15: Wage ≈4.3%, CPI ≈5.8%; Final Period Dec-23: Wage ≈5.3%, CPI ≈5.6%.
+- Wage Extremes: Highest ≈6.7% (Jun-20), Lowest ≈3.1% (Dec-19); CPI Extremes: Highest ≈7.5% (Jun-22), Lowest ≈1.6% (Jun-19).
+- Range of Values: Wage ≈3.6 percentage points; CPI ≈5.9 percentage points.
+- Comparison: Dec-16 Wage ≈6.1% vs CPI ≈4.1%, Difference ≈2.0pct; Jun-19 4.0% vs 1.6%, Difference ≈2.4pct.
+- Comparison: Jun-22 4.5% vs 7.5%, Difference ≈-3.0pct; Dec-22 6.1% vs 6.3%, Difference ≈-0.2pct; Dec-23 5.3% vs 5.6%, Difference ≈-0.3pct.
+
+[Pattern Characteristics]
+The two curves intersect multiple times across the entire period, and their relative positions repeatedly shift across different phases, failing to demonstrate a consistent, single dominant pattern. The wage curve exhibits smaller volatility and a smoother pace in the middle section (2017–2019), while the CPI curve in this phase more closely resembles a "V" shape, subsequently showing greater amplitude and sharp peaks during the 2021–2022 period. The chart contains several clear inflection points and localized extreme values, particularly in the low-level range around 2019 and the high-level range around 2022.
+
+[Core Insights]
+Core Conclusion: The strength of rural wage growth and price growth frequently alternates, showing significant periodic misalignment.
+
+Business Implications:
+- The coverage of labor compensation relative to the cost of living exhibits periodic differences.
+- The inconsistent pace between income and costs affects the stability of real purchasing power.
+- When cost pressures dominate in the later period, residents' disposable income space is compressed.
+
+Risk Focus:
+- When CPI ≥7% and wages ≤5%, the real burden significantly increases, potentially leading to consumption contraction.
+- When wages are ≤3.5% and persist for two cycles, improvement in rural labor income may stagnate.

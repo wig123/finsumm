@@ -1,0 +1,28 @@
+【图表构成】
+- 图表类型：柱状图
+- 图例：红色方块标注“Trailing 3M 4 year CAGR”
+- 横轴：类别—SBI Life、HDFC Life、Pvt insurers、Max Life、ICICI Pru life
+- 纵轴：百分比刻度，范围0%—16%，显示0%、2%、4%、6%、8%、10%、12%、14%、16%
+
+【数据关系】
+- 数值：SBI Life 15.2%；HDFC Life 14.7%；Pvt insurers 14.2%；Max Life 12.3%；ICICI Pru life 2.4%
+- 最高15.2%，最低2.4%，极差12.8个百分点
+- SBI Life与HDFC Life差0.5个百分点；SBI Life与Pvt insurers差1.0个百分点
+- HDFC Life与Max Life差2.4个百分点
+- Max Life与ICICI Pru life差9.9个百分点
+- Pvt insurers与ICICI Pru life差11.8个百分点
+
+【模式特征】  
+柱状高度在前三个主体之间非常接近，形成一个高位密集区，其后为略低的单一柱状。最右侧有一根明显偏低的柱，与其余各柱之间存在较大的高度落差。整体呈现出一端明显“拖尾”的单峰分布结构。
+
+【核心洞察】  
+核心结论：行业主体增速分化显著，个别公司明显落后。
+
+业务含义：  
+- 头部公司与行业平均水平相对接近  
+- 尾部公司在增长能力上存在明显短板  
+- 公司间竞争格局呈现明显层级差异  
+
+风险关注：  
+- 若ICICI Pru life增速长期低于5%，或削弱其市场份额  
+- 若Max Life增速跌破10%，可能失去与行业均值的距离优势

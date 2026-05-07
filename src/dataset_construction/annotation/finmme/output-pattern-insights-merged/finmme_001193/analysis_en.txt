@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Multi-line time series chart
+- Title: Not displayed
+- X-axis: Year, range approximately 1960–2000
+- Y-axis: Average tax rate (%), range 0%–80%
+- Legend: 9 groups—Top 0.01%, Top 0.1%, Top 1%, Top 10%, Top 20%, Second 20%, Middle 20%, Bottom 20%, Fourth 20%
+
+[Data Relationships]
+- Top 0.01%: Approx. 75% in 1970–75; Approx. 35% in 2000, a difference of approximately 40 percentage points.
+- Top 0.1%: Approx. 62% in 1970; Approx. 33% in 2000, a difference of approximately 29 percentage points.
+- Top 1%: Approx. 46% in 1960; Approx. 33% in 2000, a difference of approximately 13 percentage points.
+- Top 10%: Approx. 31% in 1970; Approx. 30% in 2000, a difference of approximately 1 percentage point.
+- Middle 20%: Approx. 15% in 1960; Approx. 16% in 2000, a difference of approximately 1 percentage point.
+- Bottom 20%: Approx. 14% in 1960; Approx. 12% in 2000, a difference of approximately 2 percentage points.
+- Inter-group 1970: Top 0.01% 75% vs Bottom 20% 14%, a difference of approximately 61 percentage points.
+- Inter-group 1995: Top 0.01% 47% vs Bottom 20% 12%, a difference of approximately 35 percentage points.
+
+[Pattern Characteristics]
+The curves for all income groups generally exhibit a top-down stratification structure, with high-income groups consistently located in the upper part of the chart and low-income groups in the lower part, and the stratification levels generally do not intersect. Around 1980, the curves for high-income groups showed a distinct step-like downward shift, after which the overall level converges downwards, and the vertical distance between them and the middle-to-low income groups continues to narrow. Middle-to-low income groups experienced only relatively moderate fluctuations throughout the entire period, without prominent breakpoints or sharp jumps.
+
+[Core Insights]
+Core Conclusion: The tax burden on high-income groups has significantly decreased, and the disparity in tax burden between groups has narrowed.
+
+Business Implications:
+- The relative tax contribution of high-income groups is declining.
+- The overall tax structure's ability to differentiate income stratification is weakening.
+- The tax burden on middle-to-low income groups is moving closer to the level of high-income groups.
+
+Risk Concerns:
+- If the tax rate for the Top 0.01% continues to approach below 30%, it may weaken the fiscal capacity to raise funds from high-income groups.
+- If the tax rate for the Bottom 20% exceeds the level near the Middle 20%, it may lead to an increased perception of tax burden among low-income groups.

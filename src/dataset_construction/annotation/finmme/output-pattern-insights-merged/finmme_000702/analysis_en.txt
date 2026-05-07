@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Bar chart; title not displayed.
+- X-axis: Categories are Germany, Taiwan, China, Japan, Korea, US.
+- Y-axis: Percentage scale, range 0%—4%, tick marks labeled 0%, 1%, 2%, 3%, 4%.
+- Legend: Not displayed; bar color is red; specific percentage labels are shown at the top of each bar.
+
+[Data Relationships]
+- Values: Germany 3.24%, Taiwan 3.22%, China 2.69%, Japan 2.25%, Korea 1.49%, US 1.45%.
+- Maximum value: Germany 3.24%, 0.02 percentage points higher than Taiwan.
+- Minimum value: US 1.45%, 0.04 percentage points lower than Korea.
+- Range: The difference between 3.24% and 1.45% is 1.79 percentage points.
+- The difference between Taiwan and China is 0.53 percentage points; the difference between China and Japan is 0.44 percentage points; the difference between Japan and Korea is 0.76 percentage points.
+
+[Pattern Characteristics]
+The bars for each country, from Germany to the US, exhibit a monotonically decreasing arrangement from high to low, with no localized reversals. The bar heights for Germany and Taiwan are very close, while the height differences gradually widen between the middle group (China, Japan) and the latter group (Korea, US), forming a structure where the first two items are relatively concentrated and the subsequent four show a stepped decline. The overall distribution is in the middle section of the Y-axis scale, with no values appearing extremely close to 0% or close to 4%.
+
+[Core Insights]
+Core Conclusion: The sample exhibits moderate differences across various countries, with the top two countries showing a clear lead.
+
+Business Implications:
+- Germany and Taiwan are in the first tier regarding the relevant indicator.
+- China and Japan form the second tier, positioned in the mid-range.
+- Korea and the US are in the bottom tier, showing relatively weaker indicator performance.
+
+Risk Focus:
+- If performance falls below 2% (currently Korea, US), it may drag down overall portfolio performance.
+- If the tier gap widens to exceed 2 percentage points, it will exacerbate structural imbalance among regions.

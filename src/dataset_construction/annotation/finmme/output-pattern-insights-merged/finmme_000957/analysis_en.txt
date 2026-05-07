@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Bar chart
+- Title: Average loans growth
+- X-axis: Year categories, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024F, 2025F
+- Y-axis: Growth rate (percentage), range 0.0%—8.0%, scale interval approximately 1.0%
+- Legend: Red bar, label “Average loans growth”
+
+[Data Relationships]
+- 2016/17/18/19/20/21/22/23/24F/25F: 5.2/3.0/5.6/4.6/3.9/5.3/7.1/6.1/5.8/5.9%
+- Peak: 2022 at 7.1%; Trough: 2017 at 3.0%; Peak-trough difference 4.1 percentage points
+- 2025F is 0.7 percentage points higher than 2016
+- 22→23: -1.0 percentage points; 23→24F: -0.3 percentage points; 24F→25F: +0.1 percentage points
+- 16→17: -2.2 percentage points; 18→19: -1.0; 19→20: -0.7; 20→21: +1.4; 21→22: +1.8
+
+[Pattern Characteristics]
+- Overall, the bars for each year fluctuate up and down within a narrow range around the median level, showing no unidirectional monotonic trend.
+- 2017 formed the lowest point in the entire series, followed by the highest peak in 2022. Forecast values for subsequent years are slightly below the peak and remain close.
+- The entire series does not contain abrupt extreme outliers; changes are mostly moderate, step-like fluctuations.
+
+[Core Insights]
+Core Conclusion: Loan growth rate shows phased strengthening within the medium-level range before stabilizing.
+
+Business Implications:
+- Overall credit expansion remains within a relatively controllable range.
+- The change around 2022 reflects a significant adjustment in the pace of credit extension.
+- The forecast period indicates that credit planning for the next two years leans towards greater balance.
+
+Risk Focus:
+- If any future year falls below 3.0%, it may reflect a simultaneous contraction of credit demand and supply.
+- If any future year exceeds 7.1%, it may increase asset quality and capital pressure.

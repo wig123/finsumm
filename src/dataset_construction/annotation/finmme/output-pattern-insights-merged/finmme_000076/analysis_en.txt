@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Stacked Bar Chart
+- Title: Untitled
+- Axes: X-axis represents Fiscal Year (FY17 to FY22), Y-axis represents Quantity (range 0 to 500)
+- Legend: Includes "Retail stores," "Roboshops," "Wholesale and others," "Online channels"
+
+[Data Relationships]
+- From FY17 to FY19, the total count across all channels was zero, showing a stable trend.
+- Data first appeared in FY20, primarily from "Roboshops" (27).
+- FY21 data increased to a total of 74, consisting of "Roboshops" (41) and "Wholesale and others" (33).
+- FY22 reached a significant peak, totaling 459, categorized as "Retail stores" (136), "Roboshops" (19), "Wholesale and others" (213), and "Online channels" (90).
+- From FY21 to FY22, the total volume increased significantly, with the largest increase observed in "Wholesale and others."
+
+Key Trend: From FY21 to FY22, "Wholesale and others" experienced rapid growth, acting as the primary growth driver. Other channels also showed varying degrees of growth.
+
+[Pattern Characteristics]
+FY17-FY19 maintained zero value. FY20 saw the start of a single stack. FY21 saw increased stack height and the emergence of multiple categories. FY22 showed a significant leap. The stacking structure is unbalanced, with "Wholesale and others" representing the largest area. Compared to FY21, the "Roboshops" segment contracted, while the newly added "Retail stores" and "Online channels" occupy a visible proportion.
+
+[Core Insights]
+Core Conclusion: The channel structure focus has shifted towards "Wholesale and others," and diversification has been established.
+
+Business Implications:
+- Primary contribution is concentrated in the wholesale segment.
+- Retail and online channels are beginning to achieve scale.
+- Roboshops resource proportion is relatively low.
+
+Risk Concerns:
+- If FY22 "Wholesale and others" <213, the total scale will be difficult to maintain at the FY22 level.
+- If the FY22 total is ≤74, it will revert to the FY21 magnitude, limiting channel synergy.

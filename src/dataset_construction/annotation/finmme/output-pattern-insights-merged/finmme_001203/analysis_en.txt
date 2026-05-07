@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Time series line chart, including scatter markers
+- Title: Sansera Engineering
+- Time Axis: 2021/07/01—2024/01/01
+- Y-Axis: Price (INR), scale approximately 0—1,200
+- Legend: Closing Price (Grey Line); Target Price Change (Green Triangle); Recommendation Changes (Blue Dot)
+- Note: As of 12‑Feb‑2024; Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial Closing Price (2021/07) approximately 800; Final (2024/01) approximately 1,050
+- Lowest Closing Price (Mid-2022) approximately 600; Highest (Late 2023/Early 2024) approximately 1,030; Range (High-Low Difference) approximately 430
+- Increase from initial period to final period approximately 250
+- Target Price Change (Green Triangle) range approximately 1,000–1,280; Highest approximately 1,280, Lowest approximately 1,000
+- One recommendation change (Blue Dot) occurred in 2022/01, corresponding to a closing price of approximately 760
+- Target price changed twice in 2023, approximately 1,000 and 1,150–1,250; Once in early 2024, approximately 1,250–1,280
+
+[Pattern Characteristics]
+The closing price initially declined in the early part of the sample period, then gradually rose, exhibiting a pattern of consolidation at a low level followed by an uplift. Volatility is moderate with no sharp gapping.
+The target price scatter points are generally located above the closing price, showing a structure of multiple, phased upward adjustments, with minor pullbacks observed at individual points.
+Recommendation changes occurred only once early on, with no similar discrete markers appearing thereafter.
+
+[Core Insights]
+Core Conclusion: The stock price trend is gradually converging toward the brokerage target range, but a gap remains.
+
+Business Implications:
+- The current valuation still reflects a certain discount relative to institutional expectations.
+- Multiple upward revisions of the target price reflect a generally positive research outlook.
+- The lack of subsequent rating adjustments suggests a relatively stable view.
+
+Risk Focus:
+- Should the stock price fall below the low near 600, it might trigger an expansion of expectation gaps and a drawdown.
+- Should the target price be lowered below 1,000, it could lead to valuation repricing pressure.

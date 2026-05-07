@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Bar chart (vertical)
+- Title: Not displayed
+- X-axis: Country/Region categories, sequentially Turkey, Switzerland, Spain, United Kingdom, France, Germany, EU, Italy, Portugal, Greece
+- Y-axis: % change, range approximately -6% to 10%, scale interval approximately 2%
+- Legend: Not displayed
+- Elements: 0% baseline visible; percentage data labels on top/inside each bar; horizontal grid lines
+
+[Data Relationships]
+- Values: Turkey 7.5%; Switzerland 3.5%; Spain 2.7%; United Kingdom 2.0%; France 1.7%; Germany 0.9%; EU 0.3%; Italy -0.5%; Portugal -1.4%; Greece -3.7%
+- Extreme difference: 7.5% and -3.7% differ by 11.2 percentage points.
+- Turkey vs. Switzerland: 7.5% is 4.0 percentage points higher than 3.5%.
+- Germany vs. EU: 0.9% is 0.6 percentage points higher than 0.3%.
+- Italy vs. Portugal: -0.5% is 0.9 percentage points higher than -1.4%.
+- United Kingdom vs. France: 2.0% is 0.3 percentage points higher than 1.7%.
+
+[Pattern Characteristics]
+The bars for each country/region show a step-like distribution from high to low along the X-axis, gradually turning negative on the right side. Overall, positive values dominate the sample, with a small concentration of data near zero, and only a few countries clearly fall into the negative territory. Turkey is the most prominent among all positive values, and Greece is the most prominent at the negative end; both are significantly distanced from the intermediate samples.
+
+[Core Insights]
+Core Conclusion: Variation differences among countries are significant, with localized performance showing polarization.
+
+Business Implications:
+- The overall trend is dominated by small positive changes, with a fragmented structure.
+- The performance of middle-ranking countries/regions is closer to the overall average level.
+- Turkey and Greece have a higher degree of influence on the overall mean.
+
+Risk Focus:
+- If the number of countries below -2% increases, the overall mean may be significantly dragged down.
+- If a single country sustains a value above 7%, it may lead to a further widening of regional disparities.

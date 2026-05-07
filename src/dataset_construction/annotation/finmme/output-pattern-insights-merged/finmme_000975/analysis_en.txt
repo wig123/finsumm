@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Faceted Grouped Bar Chart
+- Title: Delinquency - Ticket Size (₹)
+- Facets: Upper "PAR 31–90%", Lower "PAR 91–180%"
+- X-axis: Five Ticket Size Tiers—<1L, 1L–2L, 2L–5L, 5L–10L, 10L+; Each tier includes three periods: Jun-21, Jun-22, Jun-23
+- Y-axis: Scale not displayed, bar bodies labeled with percentages
+- Legend: Not listed separately; Green arrows are annotation elements
+
+[Data Relationships]
+- PAR31–90% (2023): Highest 2.7 (<1L), Lowest 1.5 (10L+), Range 1.2.
+- PAR31–90% 2021→2023 Change (Percentage Points): <1L -1.8; 1L–2L -3.2; 2L–5L -3.2; 5L–10L -4.2; 10L+ -3.6.
+- PAR91–180% (2023): Highest 3.5 (<1L), Lowest 0.4 (10L+), Range 3.1.
+- PAR91–180% 2021→2023 Change (Percentage Points): <1L -1.2; 1L–2L -1.6; 2L–5L -0.8; 5L–10L -0.2; 10L+ -0.2.
+
+[Pattern Characteristics]
+Within both delinquency ranges, all ticket size tiers show a stepped decline across the three time points, and the direction of change is consistent. Values for larger ticket size tiers are generally lower than those for smaller tiers at the same time point, forming a decreasing hierarchical structure from left to right. The tier-to-tier difference in the lower panel is more pronounced in 2023, with a wider distribution span between small and large ticket sizes.
+
+[Core Insights]
+Core Conclusion: Delinquency is more concentrated in small ticket sizes; large ticket sizes perform better and show overall improvement.
+
+Business Implications:
+- Asset quality of small-ticket customers is relatively stressed, requiring focused management.
+- Default exposure for large-ticket customers is low, which benefits overall portfolio quality.
+- Continuous improvement across all tiers indicates effective existing portfolio management and collection strategies.
+
+Risk Concerns:
+- If <1L remains above 3% in PAR91–180%, it will amplify tail losses.
+- If 1L–2L returns above 4% in PAR31–90%, it may increase overall provisioning pressure.

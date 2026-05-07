@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Line Chart
+- Title: Auto chips vs. Semi Sales
+- X-axis: Time (Mar-16 to Dec-23, quarterly scale)
+- Y-axis: Sales, normalized to 1Q16 (Range approx. 0.8x—2.4x)
+- Legend: Red line represents "Auto Total (normalized to 1Q16)," Blue line represents "Global total semi sales (Normalized to 1Q16)"
+
+[Data Relationships]
+- Initial Period (Mar-16): Both series are approximately 1.0x.
+- Red line trough: Jun-20, approximately 0.97x, 0.03x lower than the initial period.
+- Blue line peak: Occurred around Dec-21/Mar-22, approximately 1.95x, 0.95x higher than the initial period.
+- Final Period (Dec-23): Red line ≈ 2.46x, Blue line ≈ 1.86x; Difference ≈ 0.60x. Red line is +1.46x compared to the initial period, Blue line is +0.86x compared to the initial period.
+- Point-in-time comparison: Dec-22 Red ≈ 2.32x, Blue ≈ 1.68x, Difference ≈ 0.64x; Jun-20 Red 0.97x, Blue 1.32x, Difference ≈ 0.35x.
+
+[Pattern Characteristics]
+In the early stages, the two series were largely synchronous, with similar upward momentum. The blue line was generally slightly higher and exhibited greater volatility. The red line showed a single, distinct trough in mid-2020. Subsequently, the red line continued a sustained, unilateral ascent and has remained above the blue line long-term since 2021, with the gap between the two gradually widening. The blue line formed a cyclical peak near the end of 2021, followed by a significant decline. It recovered later but failed to surpass the previous high, establishing a persistent divergence structure relative to the red line.
+
+[Core Insights]
+Core Conclusion: The sales intensity of automotive chips significantly exceeds that of the overall semiconductor market.
+
+Business Implications:
+- Automotive-related demand provides relatively stronger support.
+- Revenue structure shows increasing reliance on the automotive sector.
+- The slowdown in overall semiconductor market prosperity has a relatively limited impact on the automotive sector.
+
+Risk Focus:
+- If the red line falls below 2.0x, the relative advantage will narrow, potentially dragging down overall growth.
+- If the blue line falls below 1.5x, it indicates overall industry pressure, increasing exposure to volatility in a single sector.

@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Line Chart
+- Title: Loan-to-Deposit Ratio (LDR)
+- Legend: Red line, labeled "Loan-to-Deposit Ratio (LDR)"
+- X-axis: Quarterly time, from 1Q16 to 3Q24
+- Y-axis: Scale range 88–106, scale interval approximately 2
+
+[Data Relationships]
+- 1Q16 approximately 95
+- Peak value approximately 105 (3Q17)
+- Trough value approximately 94 (3Q19 and 3Q21)
+- 1Q22 approximately 101; 3Q22 approximately 96
+- 1Q23 approximately 98; 3Q23 approximately 103
+- 1Q24 approximately 100; 3Q24 approximately 96–97
+- Full period range approximately 94–105, difference approximately 11
+- 3Q17 is approximately 10 higher than 1Q16
+- 3Q24 is approximately 1–2 higher than 1Q16
+
+[Pattern Characteristics]
+Overall, the structure shows repeated up-and-down fluctuations within the narrow range of 94–105, without forming sustained movement in a single direction. A clear peak appeared early near 3Q17, followed by alternating high and low points, with local waves generally maintaining levels around 100. The latter period (post-3Q23) shows moderation relative to previous high points, settling in the lower-middle position of the range in 3Q24, with no prominent extreme outliers.
+
+[Core Insights]
+Core Conclusion: The LDR has long maintained a small fluctuating range close to full capacity.
+
+Business Implications:
+- Loan issuance and liability expansion are generally matched, with no extreme imbalance observed.
+- Limited flexibility in fund utilization, constraining space for new business.
+- The latter period slightly gravitates toward the mean, indicating a more cautious allocation strategy.
+
+Risk Concerns:
+- If the LDR consistently approaches or exceeds 105, it may lead to insufficient liquidity buffers.
+- If the LDR consistently approaches 94 or below, it may result in low fund utilization efficiency and pressure on earnings.

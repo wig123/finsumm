@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Dual Line Chart
+- Title: Main title not displayed
+- X-axis: Time (Monthly), Range May-20 to Jan-24
+- Y-axis: Market Share (%), Range 0.0%–25.0%, Scale interval 5.0%
+- Legend: Red—Cipla market share in Albuterol MDI; Gray—Lupin market share in Albuterol MDI
+
+[Data Relationships]
+- Cipla: Approx. 0% in May-20; Peak approx. 17.5% (April–May 2022); Approx. 13% in Jan-24
+- Lupin: Approx. 0% in Jul-20; Peak approx. 21% (Jan-24); Low point approx. 4% in Jan-21
+- Both approx. 15% near Sep-21
+- Nov-22–Jan-23 both were close, approx. 17.5%–18.0%, difference approx. 0–0.5 percentage points
+- Jan-24 difference approx. 8 percentage points (Lupin approx. 21%, Cipla approx. 13%)
+
+[Pattern Characteristics]
+- Both lines gradually increased from near-zero values in the early stages, but their trajectories diverged later: the gray line is positioned above the chart at the end, while the red line remained in the middle range after a period of significant decline in the mid-to-late stage.
+- During the middle period (approximately H2 2021 to early 2023), the two lines converged multiple times, exhibiting several phases of intersection or near-overlap, after which the distance between the gray line and the red line gradually widened.
+- The red line showed a relatively significant unidirectional change after forming a phased high point around mid-to-late 2022, whereas the gray line exhibited only relatively moderate fluctuations during the same period and reached its own high point at the end of the chart.
+
+[Core Insights]
+Core Conclusion: Lupin achieved a significant lead in the later period, while Cipla's market share relatively declined.
+
+Business Implications:
+- The effectiveness of Cipla's early expansion showed signs of weakening in the later period.
+- Lupin's dominance over the overall landscape strengthened starting from 2022.
+- The two companies shifted from intense competition to a renewed widening of the market share gap.
+
+Risk Focus:
+- If Cipla maintains around 13% long-term, it may weaken its negotiation power and ability to acquire channel resources.
+- If Lupin continues to rise above 21%, it will intensify the pressure on Cipla, leading to increased costs for the latter to acquire new market share.

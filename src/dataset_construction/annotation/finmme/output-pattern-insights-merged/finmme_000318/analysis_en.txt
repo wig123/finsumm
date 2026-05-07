@@ -1,0 +1,33 @@
+[Chart Components]
+- Chart Type: Line chart
+- Title: Not displayed
+- X-axis: Date, ranging from 2023/01/06 to 2024/02/16 (daily annotation)
+- Y-axis: Percentage, scale 0%—45%, includes gridlines
+- Legend: Only one item "Zydus," the red line represents this series
+
+[Data Relationships]
+- Initial Period (2023/01/06) approximately 0%
+- Near 2023/02/03 approximately 36%
+- Peak value approximately 41% (between approximately 2023/05/12—2023/06/09)
+- Multiple points between 2023/09—2023/10 approximately 27%—30%
+- Final Period (2024/02/16) approximately 30%—31%
+- Difference between peak and trough ≈ 41 percentage points
+- Difference between peak and final period ≈ 10 percentage points
+- Difference between 2023/02/03 and final period ≈ 5 percentage points
+
+[Pattern Characteristics]
+- The series rapidly rose from near-zero values to a higher range in a short period during the initial phase, followed by minor fluctuations near the high point, forming a plateau.
+- Subsequently, it gradually pulled back from the peak, exhibiting narrow range fluctuation within the mid-to-high range, oscillating slightly around the 30% level in the later stage.
+- The overall shape is initially steep, then gradual, with no significant sharp jumps or extreme outliers in the middle to later stages.
+
+[Core Insights]
+Core Conclusion: The indicator experienced a rapid ascent followed by a pullback, stabilizing at a mid-to-high level.
+
+Business Implications:
+- Early performance shows signs of concentrated, phased improvement.
+- Maintenance within the higher range during the middle and later stages reflects a degree of stability.
+- The limited magnitude of the pullback from the peak indicates that some gains have been retained.
+
+Risk Focus:
+- A further decline below 20% could imply a significant giveback of prior improvements.
+- Prolonged stagnation between 25%—30% may suggest limited upside potential and slowing marginal improvement.

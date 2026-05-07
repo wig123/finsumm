@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Line chart
+- Title: Not displayed
+- X-axis: Time, scale includes FY16, FY17, FY18, FY19, FY20, FY21, FY22, FY23, 1QFY24, 2QFY24, 3QFY24
+- Y-axis: Value range approximately 0–45 (Unit not specified)
+- Legend: Six series—MM (Solid red line), MSIL (Solid light pink line), Toyota (Solid light gray line), Kia (Solid black line), Hyundai (Dashed black line), TTMT (Solid orange line)
+- Data Labels: Partial points labeled, mainly appearing at several nodes for MM and Hyundai.
+
+[Data Relationships]
+- MM: FY16=30; FY17=24; FY18=22; FY19=21; FY20=17; FY21=13; FY23=17; 1QFY24=17; 2QFY24=17; 3QFY24=18.
+- Difference between FY16 and 3QFY24 = -12.
+- Hyundai: FY20=17; FY21=18; FY22=14.
+- Difference of FY21 relative to FY20 = +1; Difference of FY22 relative to FY21 = -4.
+- FY20 point comparison: MM=17, Hyundai=17, Difference=0.
+- FY21 point comparison: MM=13, Hyundai=18, Difference=5.
+
+[Pattern Characteristics]
+MM was in a relatively high range early on and continued to decline, subsequently maintaining a relatively stable median level after FY23. Hyundai moved up from the median level during the FY20–FY21 period, gradually retreated after FY22, and is increasingly approaching MM's value range. The curves of other brands are generally distributed in the lower or medium range, with volatility less than that of MM and Hyundai, presenting an overall structure where multiple curves converge in the low-to-medium range.
+
+[Core Insights]
+Core Conclusion: The relative positions of MM and Hyundai have undergone a phased reversal and are trending toward convergence.
+
+Business Implications:
+- MM's early advantage has been eroded, and it is currently in a phase of re-stabilization.
+- Hyundai failed to sustain its phased improvement, leading to increased competitive pressure.
+- Multiple brands are clustered in similar ranges, compressing the competitive gap.
+
+Risk Concerns:
+- If MM falls below 13 again, it may be fully caught up by the median cohort.
+- If Hyundai continues below 14 and declines further, it will lose the relative advantage previously established.

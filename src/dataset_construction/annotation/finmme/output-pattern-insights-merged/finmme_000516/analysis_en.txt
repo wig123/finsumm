@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Grouped Bar Chart
+- Title: An inflection point for the market
+- Y-axis: Unit shipments, Range 0–1,800,000, Scale Interval approximately 200,000
+- X-axis: Year: 2018–2028
+- Legend: Two Series—Coherent on-board (Cyan), Coherent pluggables (Blue)
+
+[Data Relationships]
+- Initial Period (2018–2021), values for both categories were below 600,000.
+- 2022–2023, both categories were below 800,000.
+- 2024, both categories were in the 600,000–800,000 range.
+- 2025, both categories were in the 800,000–1,000,000 range.
+- 2026, both categories were in the 1,000,000–1,200,000 range.
+- In 2027, the two bars approximately fall into the 1,200,000–1,400,000 and 1,400,000–1,600,000 ranges, respectively.
+- In 2028, the two bars approximately fall into the 1,200,000–1,400,000 and 1,600,000–1,800,000 ranges, respectively; the highest bar approaches the 1,800,000 mark.
+
+[Pattern Characteristics]
+- Both series show a continuous expansion trend overall since 2018, and the increment of the bars in recent years is significantly larger than in the early period.
+- The two series are very close in magnitude between 2018–2026, but a more pronounced differentiation (high vs. low) begins in 2027–2028, with the blue series reaching the highest value in the final year.
+- The bars show no significant decline or interruption, exhibiting a continuous, unidirectional expansion structurally. The difference in bar height in later years becomes the primary structural characteristic.
+
+[Core Insights]
+Core Conclusion: Future shipments of both product types will expand synchronously, with the blue series exhibiting a greater amplification effect.
+
+Business Implications:
+- Overall market demand shows a continuous expansion pattern.
+- Both product lines are scaling up collaboratively, which is conducive to the formation of economies of scale.
+- The blue series is gradually becoming the primary source of shipment contribution.
+
+Risk Focus:
+- If actual shipments consistently fall below 1,000,000, a significant gap will emerge compared to the planned growth rate for the later period.
+- If the blue series falls below 1,600,000 in 2028, it will challenge its positioning as the flagship product.

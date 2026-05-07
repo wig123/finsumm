@@ -1,0 +1,36 @@
+[Chart Components]
+- Type: Time series line chart
+- Title/Annotation: 09-Feb-2021 to 08-Feb-2024; Upper right corner "PRICE(USD)"
+- X-axis: Date scale Apr-21 to Jan-24
+- Y-axis: Price (USD), range 0—25
+- Legend: Ford Motor Company (Black line); Target Price Change (Yellow triangle); Recommendation Changes (Red dot)
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial price approximately $11 (Feb-2021).
+- Final price approximately $12–13 (Jan-2024).
+- Global maximum approximately $24 (Jan-2022).
+- Global minimum approximately $9–10 (Oct-2023).
+- Difference between maximum and minimum approximately $14–15.
+- Change from initial period to final period approximately +$1–2.
+- Local high point in Oct/Nov-2021 approximately $18.
+- Local low point in Jul-2022 approximately $10; Oct-2022 approximately $11.
+- Local high point in Jul-2023 approximately $15.
+- Yellow triangles and red dots are distributed across multiple points from 2021 Q4 to 2023, corresponding to prices approximately $11–18.
+
+[Pattern Characteristics]
+- Price initially experienced a rapid increase in its central range during the sample period, followed by a gradual decline, and subsequently traded within a narrow, medium-range corridor for an extended period.
+- The trend exhibits multiple rhythmic surges and pullbacks, with distinct local peaks and troughs.
+- Target price and rating changes are mostly concentrated near the medium-to-high price range, with some points close to local inflection points.
+
+[Core Insights]
+Core Conclusion: After a significant surge, the price has returned to and is consolidating within a relatively balanced range.
+
+Business Implications:
+- Overall returns are limited; short-term swing trading profits are more prominent.
+- Following the decline of the central range, valuation appeal and divergence coexist.
+- Target price and rating actions provide certain guidance for short-term trends.
+
+Risk Focus:
+- A break below the $10 level could trigger stop-losses and passive deleveraging pressure.
+- A renewed pullback near the $24 level could lead to short-term losses for momentum-chasing capital.

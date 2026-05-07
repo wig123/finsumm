@@ -1,0 +1,25 @@
+【图表构成】
+- 类型：水平条形图；图例无；条形为浅绿色
+- 横轴：百分比，范围0–50，刻度每10
+- 纵轴：9个问题类别（Immigration等）
+- 右侧说明：“% of total, first and second most important problems”
+
+【数据关系】
+- 估读数值：Immigration≈47%；Climate change≈21%；Social inequality≈16%；Economy≈12%；Armed conflicts≈11%；Inflation≈10%；Energy policy≈9%；Housing≈8%；Unemployment≈6%
+- 最高与最低差值≈41个百分点（Immigration与Unemployment）
+- Immigration较第二高（Climate change）高≈26个百分点
+
+【模式特征】  
+各条目呈明显的单峰结构，由上到下依次递减，无交叉或反转顺序。首位类别与其余类别之间存在显著长度落差，其余中腰部条目长度较为接近，尾部三个条目明显偏短，整体分布呈高度集中于少数上端类别的失衡格局。
+
+【核心洞察】  
+核心结论：关注高度集中在单一问题，其他议题被边缘化。
+
+业务含义：  
+- 议题结构失衡，单一问题主导舆情与资源分配  
+- 次级问题在20%以下，获得的政策优先级可能下降  
+- 尾部议题在10%以下，相关方案易被推迟或缩减  
+
+风险关注：  
+- 首位问题若降至30%以下，现有单一聚焦战略可能失效  
+- 尾部议题若升至15%以上，现有资源配置或出现明显错配

@@ -1,0 +1,26 @@
+[Chart Components]
+- The left side features a stacked area chart overlaid with a line chart, titled "The unusually high degree of central bank policy cycle synchronisation should continue." The x-axis time span is 2006–2024 (with the period after 2023 labeled as the "BNPP forecasts" projection segment). The y-axis is "Number of CBs cutting/hiking," ranging approximately from -12.5 to 10.0. The legend includes 5 items: Net position, EM cut, DM cut, EM hike, DM hike.
+- The right side features a grouped bar/marker chart, titled "We expect rates to remain in restrictive territory…" The x-axis lists 15 economies: Brazil, Chile, Colombia, Czech Rep., Hungary, S. Africa, India, Indonesia, Korea, Taiwan, Thailand, UK, US, Eurozone, China. The y-axis is "%," ranging from 0–14. The legend includes 4 items: Cumulative cutting cycle, Cuts delivered so far, End‑2024 policy rate (BNPP forecast), Nominal neutral rate.
+
+[Data Relationships]
+- The left chart spans 18 years (2006–2024).
+- The numerical range of the left chart is 22.5 (-12.5 to 10.0).
+- The left chart contains 5 data series; the right chart contains 4 data series.
+- The right chart has 15 categories of economies.
+- The numerical range of the right chart is 14 percentage points (0–14%).
+- Four values are provided for each economy in the right chart, allowing for a direct comparison of "Cumulative cutting cycle," "Cuts delivered so far," "End-2024 policy rate forecast," and "Nominal neutral rate."
+
+[Pattern Characteristics]
+In the left chart, the Net Position curve shows multiple distinct phases of upward and downward movement around the zero line. The amplitude of these swings is large, with an extreme unidirectional extension appearing in the recent forecast segment. The stacked area shows significant changes in the proportion of each component across different phases, but components are mostly concentrated in the same direction, with counter-directional components being relatively small. In the right chart, the four interest rate-related values for each economy form vertical ranges of varying heights. Some groups show large internal discrepancies, while others are relatively tight. The forecast policy rate or neutral rate for individual economies significantly deviates from the remaining values.
+
+[Core Insights]
+Core Conclusion: The direction of monetary policy adjustments among major economies is highly synchronized, and the overall stance is restrictive.
+
+Business Implications:
+- The impact of the global interest rate environment on national financial conditions is becoming more uniform.
+- Policy rates in most economies remain above the estimated neutral level.
+- The future pace of easing is more likely to be gradual rather than involving sharp adjustments.
+
+Risk Focus:
+- Risk 1: If the net position approaches the lower limit of the left chart, around ‑12, it could trigger amplified asset price volatility resulting from global easing.
+- Risk 2: If a country's end-2024 policy rate remains persistently more than approximately 2 percentage points above its neutral rate, it could intensify local growth and financing cost pressures.

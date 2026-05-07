@@ -1,0 +1,45 @@
+[Chart Components]
+- Type: Two data tables (Forecasts)
+- Titles: BNP Paribas GDP growth forecasts; BNP Paribas consumer price inflation forecasts; Subtitle for both is "Developed Markets"
+- Row Labels: Countries/Regions (US, Eurozone, Germany, France, Italy, Spain, China, Japan, UK)
+- Column Labels:
+  - GDP: ANNUAL GROWTH (% YoY, 2023/2024/2025); QUARTERLY GROWTH (% QoQ, 2023 Q1–Q4, 2024 Q1–Q4)
+  - Inflation: ANNUAL RATE (% YoY, 2023/2024/2025); QUARTERLY RATE (% QoQ, 2023 Q1–Q4, 2024 Q1–Q4)
+- Units: Percentage; No legend
+
+[Data Relationships]
+- Annual GDP Growth:
+  - 2023: China 5.2% highest; US and Spain both 2.5%; Germany -0.1% lowest, UK 0.1%.
+  - 2024: US 2.0%, Eurozone 0.7%, UK -0.1%, China 4.5%.
+  - 2025: China 4.3% highest; Japan 0.9% lowest; The gap between China and Japan is 3.4 percentage points; Eurozone 1.6%, US and Germany both 1.4%, Spain 2.1%, UK 1.1%.
+
+- Quarterly GDP Growth:
+  - US 2023 Q3 was 1.2%; 2024 Q3 is 0.1%.
+  - Japan 2023 Q1 was 1.1%, 2023 Q3 was -0.8%, a difference of 1.9 percentage points.
+  - UK 2023 Q4 was -0.3%; 2024 Q4 is 0.2%.
+
+- Annual Inflation Rate:
+  - 2023: UK 7.4% highest; China 0.2% lowest, a difference of 7.2 percentage points.
+  - 2025: Italy 2.5% highest; Spain 1.5% lowest, a difference of 1.0 percentage point.
+
+- Examples of Quarterly Inflation Rate:
+  - Germany 2023 Q2 was 6.9%.
+  - UK 2023 Q2 was 8.4%; 2024 Q2 is 1.5%.
+  - Eurozone 2024 Q4 is 1.9%.
+
+[Pattern Characteristics]
+- Annually, GDP growth shows a tiered distribution across markets, with some years being negative; the annual inflation rate had high dispersion in 2023, tightening its range by 2025.
+- Quarterly, the GDP series shows multiple directional shifts and single-quarter changes; the quarterly inflation rate highlights local peaks in 2023, concentrating within a narrower range in 2024.
+- Notable exceptions include Japan shifting from positive to negative within the year, and the UK shifting from negative to positive by year-end; UK quarterly inflation rapidly declines from high levels, while the Eurozone is at an intermediate level by the end of 2024.
+
+[Core Insights]
+Core Conclusion: (Growth and price levels across countries are inconsistent, requiring segmented assessment)
+
+Business Implications:
+- Implication 1 (Growth leaders are not necessarily high-inflation economies)
+- Implication 2 (2025 inflation rates are closer, making comparisons smoother)
+- Implication 3 (Short-term decisions require strengthened quarterly tracking)
+
+Risk Focus:
+- Risk Point 1 (UK annual GDP growth ≤ 0%, lagging behind peer countries)
+- Risk Point 2 (Japan's quarterly GDP ≤ -0.8%, potentially impacting its 2025 forecast of 0.9%)

@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Line chart; the main body is a red curve, overlaid with multiple sets of gray lines/channels.
+- Title: No explicit title visible; Y-axis unit is labeled as "(KRW)".
+- Y-axis range and scale: 0—200,000; scale includes 0, 50,000, 100,000, 150,000, 200,000.
+- X-axis labels: 14, 16, 18, 20, 22F, 24F, 26F.
+- Other text: Labels "10.0x, 20.0x, 30.0x, 40.0x, 50.0x" are present on the top right.
+- Legend: Not displayed.
+
+[Data Relationships]
+- At point 14: ≈70,000; At point 16: ≈50,000.
+- At point 18: ≈105,000; At point 20: ≈40,000–45,000 (relatively low).
+- Between 21–22: ≈150,000–160,000 (relatively high).
+- Near 24: ≈100,000–110,000.
+- Difference between high point and low point: approximately 110,000–120,000.
+- Difference between 14 and 20: approximately 25,000–30,000.
+- Difference between 18 and 22: approximately 45,000–55,000.
+- Difference between 22 and 24: approximately 40,000–60,000.
+
+[Pattern Characteristics]
+The red curve forms multiple local high and low point reversals between 14 and 20, with the fluctuation range gradually widening. After 20, the curve forms a global high-level plateau near 21–22, subsequently pulling back to a medium-high level near 24. The gray lines exhibit a multi-layered "V"-shaped channel structure, moving from low to high at several time points, suggesting an enveloping relationship with the red line.
+
+[Core Insights]
+Core Conclusion: The underlying price entered a higher operational range after a significant mid-segment elevation.
+
+Business Implications:
+- The overall valuation level is significantly higher compared to the early period.
+- The rise in the mid-segment price range increases the sensitivity of holding P&L (Profit and Loss).
+- The gray channels imply stratification of valuation multiples, suggesting expectations for multi-tiered pricing.
+
+Risk Concerns:
+- If the pullback from the 22F high exceeds 120,000, it could trigger a substantial book value drawdown.
+- If the price falls below 50,000, approaching the historical low range, it may trigger involuntary position reduction or stop-loss pressure.

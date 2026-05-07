@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Multi-series line chart; Title not displayed
+- X-axis: Year, range 1990–2020
+- Y-axis: Index (base = 100), range approximately 0–250; Includes dashed reference line "Base = 100"
+- Legend: Aviation (Cyan), Road (Light Cyan), Maritime (Orange), Rail (Purple)
+
+[Data Relationships]
+- The baseline is 100. In 1990, all four transport categories were close to 100.
+- Aviation: Approximately 230 in 2019; Approximately 90 in 2020; The difference between 2019 and 2020 is approximately 140 points.
+- Road: Approximately 140 in 2018; Approximately 120 in 2020; Net increase from 1990 to 2020 is approximately 20 points.
+- Maritime: Approximately 130 around 2010; Approximately 115 in 2020; Difference from Road in 2020 is approximately 5 points.
+- Rail: Approximately 90 in 1990; Approximately 30 in 2020; Difference from 1990 to 2020 is approximately 60 points; Lowest among the four categories in 2020.
+
+[Pattern Characteristics]
+- The four series converge near the starting point, then gradually diverge, forming one distinctly high position, one mid-level cluster, and one continuously declining structure.
+- The Aviation curve shows an initial rise followed by a steep decline at the end. The distance between the other three curves narrows towards the end. Rail consistently remains far below the baseline and generally maintains a unidirectional change.
+- Overall, there is no regular cyclical fluctuation; instead, the pattern is dominated by long-term gradual evolution, interspersed with a few short-term variations of significant magnitude.
+
+[Core Insights]
+Core Conclusion: The development of various transport modes is highly unbalanced, and their sensitivity to sudden shocks differs significantly.
+
+Business Implications:
+- Aviation exhibits higher expansiveness and stronger external dependence.
+- Road and Maritime assume similar roles as fundamental transport capacity over the long term.
+- Rail is relatively weakened, and its overall allocation weight has significantly decreased.
+
+Risk Focus:
+- When the Aviation index falls below 100 (such as in 2020), related capacity and revenue volatility may be severely amplified.
+- The Rail index remaining below 50 long-term and continuing to decline may lead to further weakening of network coverage and service capability.

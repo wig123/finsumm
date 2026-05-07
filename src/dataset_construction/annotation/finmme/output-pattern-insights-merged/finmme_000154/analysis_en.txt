@@ -1,0 +1,41 @@
+[Chart Components]
+- Type: Bar Chart
+- Title: % change in cons. adj profit estimates since 31-Dec-2023 (current earnings season)
+- Axes:
+  - Y-axis: Percentage Change (%), ranging from negative to positive values
+  - X-axis: Region Names (ASXJ, ASEAN, North Asia, Korea, Hong Kong, India, etc.)
+- Legend: Gray bars represent 2023E, Red bars represent 2024E
+
+[Data Relationships]
+- Key Figures and Changes:
+  - Korea: 2023E is -7.2%, representing the largest negative change among all regions.
+  - North Asia: 2024E decreased by 2.2%, consistent with the magnitude of change in 2023E.
+  - Hong Kong: 2023E is -3.3%, and 2024E is -3.6%; the negative change further widened.
+  - ASEAN: 2023E is 0.6%, one of the few regions showing a positive change.
+  - India: 2024E increased by 2.9%, representing the largest positive change among all regions.
+
+- Extremum Comparison:
+  - Largest positive change: India's 2024E growth of 2.9%.
+  - Largest negative change: Korea's 2023E decline of 7.2%.
+
+- Key Trends:
+  - Changes in most regions for 2024E are negative, indicating an overall downward trend in earnings expectations.
+  - India stands out in 2024E, being the only region with significant growth, forming a sharp contrast with other regions.
+  - The performance of Hong Kong and Korea in 2024E is more negative compared to 2023E, indicating a further deterioration in earnings expectations.
+
+[Pattern Characteristics]
+- Both the gray and red bar groups are below the zero line in most regions, with only a few regions above the zero line.
+- Structural Imbalance: Only a few regions show positive values for 2024E; others are scattered and mostly negative. Some regions maintain the same direction or decline further over the two years.
+- Extreme points are concentrated at the lowest level in Korea's 2023E; Hong Kong's negative magnitude widened over the two years, and India is the strongest in 2024E.
+
+[Core Insights]
+Core Conclusion: Earnings expectation adjustments show a regionalized distribution, with India being the sole bright spot.
+
+Business Implications:
+- Overall expectations are conservative, with incremental growth concentrated in a single market.
+- Asset allocation requires increased selectivity, reducing the weight of pressured regions.
+- Regions continuously revised downwards may affect valuation stability.
+
+Risk Focus:
+- 2024E ≤ -3% (e.g., Hong Kong, Thailand), potentially leading to wider valuation discounts.
+- 2023E ≤ -7% (Korea), potentially triggering more conservative earnings guidance.

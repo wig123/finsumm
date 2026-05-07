@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Grouped Bar Chart
+- Title: Not specified
+- X-axis: Categories are FY16, FY17, FY18, FY19, FY20, FY21, CY21, CY22, CY23
+- Y-axis: Scale approximately 0–20 (Units not specified), equidistant grid lines
+- Legend: Red is Lupin, Gray is IPM
+
+[Data Relationships]
+- FY16: Lupin≈15.8, IPM≈16.0, Difference≈0.2
+- FY17: Lupin≈11.8, IPM≈9.9, Difference≈1.9
+- FY18: Lupin≈9.2, IPM≈5.3, Difference≈3.9
+- FY19: Lupin≈14.4, IPM≈9.1, Difference≈5.3
+- FY20: Lupin≈12.3, IPM≈9.7, Difference≈2.6
+- FY21: Lupin≈2.0, IPM≈2.2, Difference≈0.2
+- CY21: Lupin≈14.2, IPM≈18.2, Difference≈4.0
+- CY22: Lupin≈5.7, IPM≈6.6, Difference≈0.9
+- CY23: Lupin≈7.2, IPM≈9.8, Difference≈2.6
+
+[Pattern Characteristics]
+Overall, the numerical levels of the two sets of bars alternately approach and diverge across the years, exhibiting a clear structure of periodic fluctuations. During the period FY17–FY20, the red bars were generally higher than the gray bars, whereas after CY21, the gray bars were higher than the red bars in most years. In FY21, both were simultaneously at the low point of the entire series. In CY21, the gray bar reached the highest point in the chart, forming a clear inflection point and a relative extreme value.
+
+[Core Insights]
+Core Conclusion: Lupin's performance advantage relative to IPM shows periodic weakening and subsequent reversal.
+
+Business Implications:
+- In the early stages, Lupin demonstrated stronger performance relative to IPM.
+- Starting from CY21, overall market indicators have created pressure on Lupin.
+- Recently, the gap between the two has narrowed, indicating converging competitive dynamics.
+
+Risk Concerns:
+- If Lupin consistently remains more than 2 units below IPM after CY21, its competitive position may be weakened.
+- If Lupin falls back to levels near FY21 (approximately 2), it could lead to a significant decline in overall business metrics.

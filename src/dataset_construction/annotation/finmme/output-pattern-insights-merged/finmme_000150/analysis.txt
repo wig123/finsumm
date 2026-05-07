@@ -1,0 +1,31 @@
+【图表构成】  
+- 类型：对比框图  
+- 标题：未提供明确标题  
+- 坐标轴：无坐标轴标示  
+- 图例：未提供图例，使用颜色和框线区分不同业务分类  
+
+【数据关系】  
+- 关键数据变化：  
+  - 原有业务“Performance and Materials Technologies”和“Safety and Productivity Solutions”被重新划分为“Energy and Sustainability Solutions”及“Industrial Automation”。  
+- 业务重组：  
+  - “Honeywell Process Solutions”从“Performance and Materials Technologies”调整至“Industrial Automation”。  
+  - “UOP”和“Advanced Materials”从“Performance and Materials Technologies”转移至“Energy and Sustainability Solutions”。  
+- 稳定结构：  
+  - “Aerospace”更名为“Aerospace Technologies”，其子项未发生变化。  
+  - “Building Technologies”更名为“Building Automation”，其子项同样保持不变。  
+- 综合趋势：图表反映了Honeywell在技术领域的战略重组，重点转向环境可持续发展和工业自动化领域。
+
+【模式特征】
+图表为左右对照框图，左侧显示原有四个板块及子项，右侧呈现名称调整与归属变更后的结构。两块仅更名且子项不变，另两块出现子项跨框移动，形成新的分组。变更处以虚线标注，层级清晰，未见新增或删除子项。
+
+【核心洞察】
+核心结论：重塑板块结构，强化环境与自动化。
+
+业务含义：
+- 资源与产品围绕两大主题收拢。
+- 板块边界更清晰，提升配置效率。
+- 命名统一，外部沟通更明确。
+
+风险关注：
+- 能源与可持续仅2项；若长期≤2，覆盖不足。
+- 工业自动化含4项；若维持≥4，管理复杂度上升。

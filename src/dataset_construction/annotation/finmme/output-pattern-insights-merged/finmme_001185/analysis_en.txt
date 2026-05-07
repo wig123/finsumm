@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Time series line chart, with markers (triangles, dots)
+- Title: Bajaj Auto; Top right notation: “As of 24-Jan-2024; Currency=INR”
+- X-axis: Date, scales include 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01
+- Y-axis: Price (INR), range approximately 0–9000
+- Legend: Black line = Closing Price; Green triangle = Target Price Change; Blue dot = Recommendation Changes
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial period (07/2021) closing price approximately 3600; Final period (01/2024) closing price approximately 7000
+- Lowest closing price approximately 3200 (mid-2022); Highest approximately 7000 (01/2024); Range approximately 3800
+- Recommendation change blue dots: Approximately 3700 (08/2022), approximately 3500 (02/2023)
+- Target price triangles: Approximately 4500 (07/2021), approximately 5200 (05/2023), approximately 6500 (10/2023), approximately 9000 (01/2024)
+- Spread between closing price and target price during the corresponding period: Approximately 900 (07/2021), approximately 1500 (10/2023), approximately 2000 (01/2024)
+
+[Pattern Characteristics]
+The closing price initially experienced a slight pullback before an overall increase; the upward slope significantly steepened in the latter half, with no severe gaps during the process.
+The green target price points generally show a step-wise upward movement, and the vertical distance between them and the closing price gradually widens, reaching the maximum distance at the end of the period.
+The blue recommendation change points are distributed during the relatively low-price phase, and no new change markers have appeared since then.
+
+[Core Insights]
+Core Conclusion: The stock price continues to strengthen, and the potential upside relative to the target price is expanding.
+
+Business Implications:
+- Earnings expectations or valuation assessments have been revised upwards multiple times.
+- The current price is still expected by analysts to have further upside potential.
+- Early recommendations have been well validated by subsequent performance.
+
+Risk Considerations:
+- If the price approaches 9000 but the target price is not raised concurrently, it may reach the expected ceiling, triggering profit-taking pressure.
+- If the price falls back to the range of approximately 4500–5200, it may breach multiple historical target zones, triggering a revision of views and a weakening of sentiment.

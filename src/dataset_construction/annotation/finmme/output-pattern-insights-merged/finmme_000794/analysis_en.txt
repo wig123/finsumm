@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Time series line chart (red), untitled
+- X-axis: Time, scale from Jan-18 to Oct-24 (Jan-18, Oct-18, Jul-19, Apr-20, Jan-21, Oct-21, Jul-22, Apr-23, Jan-24, Oct-24)
+- Left Y-axis: Unit is TWD, range up to approximately 550
+- Right Y-axis: Multiplier scale, labeled 1.0x, 3.0x, 5.0x, 7.0x
+- Reference lines: Multiple gray lines corresponding to the right axis multipliers; Legend not visible
+
+[Data Relationships]
+- Jan-18 approximately 90 TWD
+- Oct-18 lowest approximately 50, about 40 lower than Jan-18
+- Jan-21 approximately 150; Oct-21 approximately 260, difference approximately 110
+- Jul-22 approximately 150
+- Apr-23 approximately 170
+- Jan-24 approximately 430; corresponding period range approximately 400–450
+- Early 2024 peak approximately 530, about 480 higher than the Oct-18 low point
+- Jan-24 value is close to the 5.0x gray line on the right axis (≈450)
+
+[Pattern Characteristics]
+The overall trend initially showed a slow, volatile upward movement within a lower range, followed by an increased magnitude of rise around 2021, and a period of significant pullback and consolidation in 2022. A single prominent sharp upward surge interval occurred from late 2023 to early 2024, where the value substantially exceeded the central gray reference line and approached the upper reference line, with local volatility significantly amplified during this period. The overall structure evolved from being relatively smooth and close to the lower reference line in the early stages, to moving away from the lower reference line and exhibiting sharp volatility at high levels in the later stages.
+
+[Core Insights]
+Core Conclusion: The valuation level of the underlying asset has risen from its historical mean to a distinctly high range.
+
+Business Implications:
+- The current price exhibits a significant premium relative to the historical average.
+- Valuation sensitivity has increased, relying more on short-term sentiment.
+- Both subsequent price upside and potential downside (pullback space) have been amplified.
+
+Risk Focus:
+- A return to approximately 150 TWD would erase most of the cumulative gains since 2021.
+- If sustained above approximately 450 TWD, increased volatility may trigger a significant short-term retracement.

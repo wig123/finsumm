@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Dual-series stacked bar chart
+- Title: Not displayed
+- Y-axis: Labeled “% of workers”, range up to 30%
+- X-axis: Time axis (monthly), example ticks: Jan-22, Jul-22, Jan-23, Jul-23, Jan-24
+- Legend: Hybrid (light color), Exclusively WFH (dark color)
+- A label showing the total monthly percentage is displayed at the top of each bar.
+
+[Data Relationships]
+- Jan-22: Exclusively WFH 19%, Hybrid 8%, Total 27% (19+8=27)
+- Jul-22: Exclusively WFH 18%, Hybrid 8%, Total 26% (18+8=26)
+- Jan-23: Exclusively WFH 16%, Hybrid 9%, Total 25% (16+9=25)
+- Jul-23: Exclusively WFH 14%, Hybrid 10%, Total 24% (14+10=24)
+- Jan-24: Exclusively WFH 13%, Hybrid 11%, Total 24% (13+11=24)
+- Comparison between Jan-22 and Jan-24: Exclusively WFH -6 percentage points, Hybrid +3 percentage points, Total proportion -3 percentage points
+- Comparison between Jul-22 and Jul-23: Exclusively WFH -4 percentage points, Hybrid +2 percentage points, Total proportion -2 percentage points
+
+[Pattern Characteristics]
+- The overall total proportion slowly narrowed during the observation period, then stabilized at a relatively consistent level.
+- Within the stacked structure, the lower dark section continuously shrinks, while the upper light section gradually thickens. The change in overall height is less significant than the change in internal structure.
+- There are no sudden jumps in the chart; the pace of change is generally continuous, with only slightly larger adjustments observed in the early months.
+
+[Core Insights]
+Core Conclusion: The structure of remote-related employment is rebalancing from a singular form toward a hybrid form.
+
+Business Implications:
+- The proportion of exclusively remote employment has declined, indicating reduced workforce flexibility.
+- The expansion of hybrid work increases reliance on physical/in-person scenarios.
+- The overall remote-related workforce remains at a moderate level, with limited room for adjustment.
+
+Risk Concerns:
+- If the proportion of exclusively remote work continues to fall below 13%, it may weaken the ability to cover talent in different geographical locations.
+- If the total proportion drops below 20%, the return on investment (ROI) for remote work may be insufficient to sustain the current configuration.

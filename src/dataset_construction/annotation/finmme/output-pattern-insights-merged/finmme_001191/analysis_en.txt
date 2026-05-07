@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Three-series line chart
+- Legend: Bharti Airtel (Red), VI (Light Gray), R‑Jio (Black)
+- X-axis: Quarterly time, 1QFY20—3QFY24
+- Y-axis: Percentage scale, 0.0%—5.0%, approximately 0.5% per tick mark
+- Others: Includes grid lines; current value data labels at the end
+
+[Data Relationships]
+- 3QFY24: VI is 4.3%, Bharti Airtel is 2.9%, R‑Jio is 1.7%
+- 3QFY24 Gap: VI is 1.4 percentage points higher than Bharti; 2.6 percentage points higher than R‑Jio; Bharti is 1.2 percentage points higher than R‑Jio
+- Starting Point 1QFY20: Bharti approximately 1.8% (labeled); VI approximately 3.7%; R‑Jio approximately 0.9%
+- Difference between Latest Value and Starting Point: Bharti approximately +1.1 percentage points; VI approximately +0.6 percentage points; R‑Jio approximately +0.8 percentage points
+- Peak Values: VI approximately 4.4% (3QFY23); R‑Jio approximately 3.7% (4QFY22); Bharti approximately 3.9% (2QFY21)
+- Difference between Peak Value and Latest Value: VI approximately -0.1 percentage points; R‑Jio approximately -2.0 percentage points; Bharti approximately -1.0 percentage points
+
+[Pattern Characteristics]
+All three series have risen relative to their starting points over the entire period, but their respective peak times differ, and the subsequent magnitude of decline is inconsistent. After a rapid ascent early on, Bharti Airtel entered a relatively narrow range of fluctuation. VI's overall level remains in the upper position among the three, with moderate fluctuation frequency and recently approaching its historical high. R‑Jio showed a significant spike in the middle period, followed by a continuous decline, maintaining a position near the lower boundary of the range in the later period. The distance between the peak values and the current values for each series shows significant divergence.
+
+[Core Insights]
+Core Conclusion: The divergence in metrics among the three operators has widened, with VI currently holding a relatively leading position.
+
+Business Implications:
+- VI is at a higher level in this metric, possessing a relative advantage.
+- Bharti maintains a median level, demonstrating greater resilience to peer changes.
+- R‑Jio's significant decline may weaken its competitiveness in this metric.
+
+Risk Focus:
+- If R‑Jio consistently falls below 1.5%, it may affect its related revenue and bargaining power.
+- If Bharti drops below 2.5%, its median advantage will disappear, and the competitive landscape may become significantly unfavorable.

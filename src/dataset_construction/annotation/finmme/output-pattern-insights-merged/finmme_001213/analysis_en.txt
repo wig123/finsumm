@@ -1,0 +1,33 @@
+[Chart Components]
+- Chart Type: Dual-axis line chart
+- Title: Not displayed
+- X-axis: Time, range 2019–2024
+- Left Y-axis: Values 0–4 (for IG Spread)
+- Right Y-axis: Values 0–14 (for HY Spread, rhs)
+- Legend: US IG Spread (Cyan solid line), EU IG Spread (Light blue-gray solid line); US HY Spread (Orange dashed line, rhs), EU HY Spread (Dark blue solid line, rhs)
+
+[Data Relationships]
+- Initial values 2019: US IG≈1.3, EU IG≈1.4; US HY≈4, EU HY≈4.
+- Peak values early 2020: Maximum IG approximately 3.7 (both US/EU≈3.6–3.8); Maximum HY approximately 12 (US/EU≈10–12).
+- Mid-2022: US IG≈1.0, EU IG≈1.1; US HY≈3, EU HY≈3.
+- Local high points 2023: EU IG≈2.2, US IG≈1.8; EU HY≈6, US HY≈5.
+- Early 2024: US IG≈1.2, EU IG≈1.5; US HY≈4, EU HY≈4.
+- Difference between 2020 peak and early 2024: IG approximately 2.2–2.5; HY approximately 6–8.
+- Difference between EU and US at 2023 high point: IG approximately 0.4; HY approximately 1.
+
+[Pattern Characteristics]
+- All four curves showed a synchronous sharp spike in early 2020, followed by a rapid decline, and remained in a lower range for most of the subsequent period, with only a secondary rise and subsequent decline occurring between 2022 and 2023.
+- The trends for US and EU are highly consistent across both IG and HY segments, remaining closely intertwined most of the time, with only a period around 2023 showing EU spreads slightly higher overall, resulting in a widening gap.
+- The HY curves are generally situated in a higher range with greater volatility, while the IG curves are relatively close and stable. There was no persistent anomaly where a single market or segment significantly diverged from the other curves.
+
+[Core Insights]
+Core Conclusion: IG and HY spreads generally returned to relatively convergent levels after experiencing an extreme shock.
+
+Business Implications:
+- IG and HY spreads collectively reflect that cyclical pressure is concentrated in limited periods.
+- The spread structure between US and EU is highly consistent, indicating limited regional differences.
+- The relatively higher EU spread in 2023 reflects pricing divergence between regions.
+
+Risk Focus:
+- If IG spreads approach 3.5 or higher again, it may correspond to a sharp tightening of credit conditions.
+- If HY spreads exceed 10 again, it could trigger a substantial increase in financing and refinancing costs for high-yield bonds.

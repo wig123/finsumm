@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Vertical Bar Chart
+- Title: Earnings yield (FY26F)
+- X-axis: 11 categories—BANDHAN, FB, BOB, SBIN, IIB, AXSB, HDFCB, ICICIBC, KMB, AUBANK, YES
+- Y-axis: Percentage scale, range 0%—16%, approximately 2% intervals
+- Labels: Values and ratings (Buy/Neutral/Reduce) displayed at the top of each bar; bar colors differentiated. No separate legend box.
+
+[Data Relationships]
+- Highest: BANDHAN 15%; Lowest: YES 5%; Difference of 10 percentage points
+- Sequential values: FB 14%, BOB 13%, SBIN 12%, IIB 11%, AXSB 10%
+- HDFCB 8%, ICICIBC 8% (Tied); KMB 7%; AUBANK 6%
+- Average value approximately 9.9%; Median 10% (Corresponding to AXSB)
+- There are 6 items ≥10%: BANDHAN, FB, BOB, SBIN, IIB, AXSB
+- Rating count: Buy 7, Neutral 3, Reduce 1
+
+[Pattern Characteristics]
+The bar chart exhibits a monotonically decreasing structure from left to right, showing a high-to-low trend. The overall distribution is relatively uniform with no significant gaps. The number of samples in the mid-to-high range is greater than in the mid-to-low range, and there is a significant spread between the lowest and highest values. The rating text corresponds one-to-one with the bar color, with only a single item falling into the lowest range and marked "Reduce."
+
+[Core Insights]
+Core Conclusion: FY26F earnings yield shows clear stratification, with high-yield portfolios dominating.
+
+Business Implications:
+- High-yield instruments occupy a dominant position in the sample.
+- Research ratings are more concentrated on targets with higher yields.
+- Low-yield instruments may be marginalized during allocation.
+
+Risk Focus:
+- Individual stocks below 7% (AUBANK, YES) may decline further or drag down portfolio returns.
+- Overconcentration in targets ≥10%; if earnings forecasts are revised downwards, this will amplify the overall drawdown magnitude.

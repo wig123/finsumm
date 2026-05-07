@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Time series line chart
+- Title: Not displayed
+- Legend: Red "1-yr fw P/E"; Light gray "Mean"; Black "Mean+1SD"; Peach "Mean-1SD"
+- X-axis: Time, labeled from Feb-13 to Feb-24 (annual scale)
+- Y-axis: P/E value scale, labeled 5, 11, 16, 22, 27 (range approximately 5 to above 27)
+
+[Data Relationships]
+- Key Levels: Mean≈16; Mean+1SD≈22; Mean−1SD is between 11 and 16 (approx. 13).
+- Initial Period (Feb-13) P/E approx. 11–12; Final Period (Feb-24) approx. 24–26.
+- Peak value near 2023–24, slightly above 27 (approx. 28–29); Trough value near 2020, slightly above 5 (approx. 6); Peak-to-trough difference approx. 22–24.
+- The final period value is approx. 2–4 higher than Mean+1SD, and approx. 8–10 higher than the Mean.
+
+[Pattern Characteristics]
+- The overall trajectory repeatedly fluctuates above and below the mean, showing significant wide-range oscillation, crossing the Mean and Mean±1SD range multiple times.
+- A single deep dive occurred around 2020, rapidly returning from the low point to near the Mean and continuing upward in a short period.
+- The 2023–24 phase sustained above Mean+1SD for a relatively long duration, repeatedly forming local peaks and pullbacks near the upper end of the range.
+
+[Core Insights]
+Core Conclusion: Current valuation is in a historically relatively high range and has been sustained for an extended period.
+
+Business Implications:
+- Valuation level is relatively stretched compared to the past decade.
+- Potential for further upside may be suppressed.
+- Allocation decisions require greater emphasis on value proposition and margin of safety.
+
+Risk Concerns:
+- If P/E remains above 22 for an extended period, net asset value volatility may significantly amplify during a pullback.
+- If it approaches or exceeds 28 again, short-term profit giveback pressure may sharply increase.

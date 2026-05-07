@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Dual line chart
+- Annotations/Markers: Two vertical reference lines and text "Election called" (approx. Day -30) and "Election 9 April 1992" (Day 0)
+- X-axis: Days from election day, range approximately -100 to 100 (Unit: Days)
+- Y-axis: bp, range approximately -120 to 60, including the 0 baseline
+- Legend: Blue "2", Green "10"
+
+[Data Relationships]
+- Day -100: Blue approx. -20bp; Green approx. -15bp
+- Day -30 (Election called): Blue approx. -20bp; Green approx. -10bp
+- Day -10: Blue peak approx. +40bp; Green approx. +20bp
+- Day 0 (Election Day): Both approx. 0bp
+- 0 to 10 days later: Both approx. -60bp
+- Blue lowest approx. -110bp (approx. 50–70 days); Green lowest approx. -80bp (approx. 40–60 days); Minimum difference approx. 30bp
+- Day -60: Blue approx. -70bp; Green approx. -35bp; Difference approx. 35bp
+- Day 100: Blue approx. -65bp; Green approx. -60bp; Difference approx. 5bp
+
+[Pattern Characteristics]
+Both curves are generally below the zero line from Day -100 to Day -30, with the blue line positioned relatively lower, maintaining a certain spread between them. Around Day -10, both curves simultaneously move upward to form a distinct local high point, then rapidly decline near Election Day, crossing the zero line and moving into a significantly lower range. After Election Day, both curves generally remain at lower levels, forming individual low points around Day 40–70, followed by a slight recovery and a narrowing of the spread between them.
+
+[Core Insights]
+Core Conclusion: The short end is more sensitive to pre- and post-election events, experiencing greater and more prolonged pressure afterward.
+
+Business Implications:
+- Short-end pricing reacts more sharply to event milestones.
+- The term structure exhibits a stronger adverse tilt following the event.
+- Long-end adjustment is relatively moderate, and the term spread gradually converges.
+
+Risk Focus:
+- The short end dropping below approximately -100bp may lead to increased funding costs and refinancing constraints.
+- The long end below -80bp and the spread relative to the short end less than 5bp may indicate curve flattening, triggering duration loss risk.

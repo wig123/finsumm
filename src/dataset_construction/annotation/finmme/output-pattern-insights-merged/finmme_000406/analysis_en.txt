@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Combination Chart (Stacked Bar + Line)
+- Title: Not displayed
+- X-axis: Year (2024, 2025, 2026, 2027, 2028)
+- Left Y-axis: Amount (KRW bn), Scale 0, 200, 400, 600, 800, 1,000, 1,200, 1,400
+- Right Y-axis: % of total debt, Scale 0% to 35%
+- Legend: Bank Loan (Red), Bond (White Border), Syndicate (Gray), % of total debt (Black Line)
+
+[Data Relationships]
+- 2025 total amount is between 1,200–1,400; black line point is approximately 30%.
+- 2027 total amount is between 200–300; black line point is approximately 5%.
+- 2024 total amount is between 600–700; 2026 is between 600–700; 2028 is between 400–500; corresponding black line points are approximately 15%, 15%, 10%.
+- The 2025 bar includes the "Syndicate" gray segment; other years have no gray segment.
+- Component valuation: 2024 Red approx. 500, White approx. 100–200; 2025 Red approx. 500–600, Gray approx. 500–600, White approx. 150–200; 2026 Red approx. 550–600, White approx. 100; 2027 Red approx. 100–150, White approx. 100; 2028 Red approx. 200–300, White approx. 200–300.
+
+[Pattern Characteristics]
+- The total amount forms a single peak in the middle year, followed by a significant decline, and then a slight recovery towards the end; the corresponding line chart simultaneously reaches its maximum at the peak and its minimum at the trough.
+- Structurally, Bank Loan is the primary component, the proportion of Bond remains relatively stable across all years, with only 2025 showing an additional large Syndicate portion, resulting in a one-time expansion.
+- Changes between years are gradual transitions, without abrupt discontinuities; the structural composition of 2025 is the most prominent exception compared to other years.
+
+[Core Insights]
+Core Conclusion: Debt is concentrated and expanded in 2025, subsequently contracting gradually and tending towards re-diversification.
+
+Business Implications:
+- The debt proportion is high in 2025, indicating temporary concentration.
+- The one-time expansion of Syndicate alters the financing structure for that year.
+- Reliance on banks and bonds increases again in subsequent years.
+
+Risk Focus:
+- The 2025 total amount is close to 1,400 and the proportion is approximately 30%, which may increase refinancing pressure.
+- The 2027 total amount is below 300 and the proportion is approximately 5%, which may result in a scale that is too low, affecting business flexibility.

@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Grouped Bar Chart (Four companies side-by-side).
+- Title: Not labeled.
+- Legend: SBI Life (Red), HDFC Life (Gray), IPRU Life (White outline), Max Life (Blue).
+- X-axis: Six categories—APE Growth - 3Q24 (YoY), APE Growth - 9M24 (YoY), APE Growth - FY23 (YoY), VNB Growth - 3Q24 (YoY), VNB Growth - 9M24 (YoY), VNB Growth - FY23 (YoY).
+- Y-axis: Percentage scale, range approximately -40% to 50%, including the 0% baseline; specific values are labeled on each bar.
+
+[Data Relationships]
+- APE 3Q24: SBI 13%, HDFC -7%, IPRU 5%, Max 19%; difference between high and low is 26pp.
+- APE 9M24: SBI 17%, HDFC 9%, IPRU 0%, Max 14%; difference 17pp.
+- APE FY23: SBI 18%, HDFC 37%, IPRU 12%, Max 11%; difference 26pp.
+- VNB 3Q24: SBI 11%, HDFC -3%, IPRU -29%, Max -18%; difference 40pp.
+- VNB 9M24: SBI 11%, HDFC 5%, IPRU -15%, Max -2%; difference 26pp.
+- VNB FY23: SBI 37%, HDFC 37%, IPRU 28%, Max 28%; difference 9pp.
+- Chart Extremes: Highest 37% (SBI/HDFC, VNB FY23), Lowest -29% (IPRU, VNB 3Q24).
+
+[Pattern Characteristics]
+- All companies are generally in the positive range for APE, but HDFC showed performance contrary to other companies in the single quarter of 3Q24.
+- VNB values for the four companies were relatively close in FY23, but divergence became significant by 3Q24/9M24, with IPRU and Max falling into the negative range at multiple points.
+- SBI maintained the same direction and a relatively central position across all six categories, showing no extreme highs or lows; IPRU formed the lowest single outlier across the entire chart in VNB 3Q24.
+
+[Core Insights]
+Core Conclusion: Recent VNB performance divergence has intensified, with IPRU and Max facing the greatest pressure.
+
+Business Implications:
+- Companies with weak VNB are currently facing pressure on earnings quality.
+- SBI is relatively balanced, which helps maintain overall earnings smoothness.
+- HDFC shifted from high growth to weakness, indicating a temporary slowdown in earnings momentum.
+
+Risk Focus:
+- If IPRU VNB growth continues to be ≤-20%, it may lead to a rapid decline in value contribution.
+- If Max VNB growth maintains ≤-10%, it may drag down medium-to-short-term overall return levels.

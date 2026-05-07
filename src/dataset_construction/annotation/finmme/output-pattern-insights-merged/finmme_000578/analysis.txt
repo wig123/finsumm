@@ -1,0 +1,27 @@
+【图表构成】
+- 图表类型：柱状图
+- 标题：未显示
+- 横轴：类别，包含 AliExpress、Temu、SHEIN
+- 纵轴：数值，单位标注“mn”，范围 0–50
+- 图例：未显示；柱体颜色为红色
+
+【数据关系】
+- 数值：AliExpress 10 mn；Temu 47 mn；SHEIN 28 mn
+- 差值：Temu−SHEIN=19 mn；Temu−AliExpress=37 mn；SHEIN−AliExpress=18 mn
+- 比例：Temu/AliExpress=4.7 倍；SHEIN/AliExpress=2.8 倍；Temu/SHEIN≈1.68 倍
+- 合计：85 mn；占比：Temu≈55.3%，SHEIN≈32.9%，AliExpress≈11.8%
+
+【模式特征】
+三根柱体高度差异明显，形成一高一中一低的阶梯式分布结构。Temu 的柱体远高于另外两个类别，而 SHEIN 处于中间位置，仅 AliExpress 靠近纵轴下端。整体结构呈现出明显的非均衡格局，由单一类别占据主导。
+
+【核心洞察】
+核心结论：当前格局由 Temu 明显主导，AliExpress 份额最低。
+
+业务含义：
+- 市场呈高度集中，头部效应突出。
+- 中位参与者仍具一定规模基础。
+- 尾部参与者竞争压力显著偏大。
+
+风险关注：
+- Temu 占比若持续高于50%，其他平台议价空间受限。
+- AliExpress 占比若跌破10%，可能难以支撑持续投入。

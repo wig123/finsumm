@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Dual Line Chart
+- Title: EU (ex UK) BEV & PHEV Mix trends
+- Axes: X-axis represents time (monthly), ranging from Jan-21 to Jan-24; Y-axis represents proportion (%), scaled at 0%, 5%, 10%, 15%, 20%, 25%, 30%.
+- Legend: BEV Mix (Aqua Green), PHEV Mix (Light Gray).
+- Others: Gridlines and Mercedes-Benz logo.
+
+[Data Relationships]
+- Jan-21: BEV approximately 8%, PHEV approximately 21%, difference ≈ 13 percentage points (pp).
+- Full period range: BEV ≈ 8%—22%; PHEV ≈ 15%—28%.
+- BEV low point: Jun-22 approximately 9%; high point: Sep-23 approximately 22%; period-end Jan-24 approximately 19%.
+- PHEV low points: Jul-21/Jun-22 approximately 15%—16%; high points: Mar-21 and Oct-21 approximately 27%; period-end Jan-24 approximately 27%.
+- Oct-22: BEV ≈ 18%, PHEV ≈ 26%, difference ≈ 8pp.
+- Sep-23: BEV ≈ 22%, PHEV ≈ 22%, difference ≈ 0pp.
+- Nov-23: BEV ≈ 16%, PHEV ≈ 21%, difference ≈ 5pp.
+
+[Pattern Characteristics]
+Both curves exhibit significant wave-like fluctuations, with synchronous high and low points occurring at multiple time intervals. PHEV generally remains in a higher range, with the gap between it and BEV gradually narrowing in the later period, briefly converging in the middle-to-late phase. At the end of the period, PHEV rapidly surged, while BEV, after retreating in the previous phase, rebounded but failed to reach a new high.
+
+[Core Insights]
+Core Conclusion: PHEV proportion maintains dominance, but BEV share shows significant catch-up.
+
+Business Implications:
+- The increase in BEV share indicates a structural shift favoring pure electric products.
+- PHEV remains the primary source of contribution, indicating high reliance on this sales structure.
+- When the proportions of both are close, the powertrain configuration offers greater flexibility.
+
+Risk Focus:
+- If the BEV proportion falls back below 10%, the pace of return on investment for pure electric products may face pressure.
+- If the PHEV proportion consistently remains above 25%, it may slow down the efficiency of transitioning to higher forms of electrification.

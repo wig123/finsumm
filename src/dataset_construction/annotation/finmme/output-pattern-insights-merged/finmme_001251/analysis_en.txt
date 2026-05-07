@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Time series line chart
+- Legend: Forward P/E (Red line), Mean (Solid gray line), +1.0sd / -1.0sd (Dashed gray line), +2.0sd / -2.0sd (Dotted gray line)
+- X-axis: Time, Range Jan-19 to Jan-24 (including Jan/Jul semi-annual ticks)
+- Y-axis: Multiples (x), Range approximately 15–40
+- Reference line positions: Mean≈26; +1sd≈31; -1sd≈20.5; +2sd≈36.8; -2sd≈15
+
+[Data Relationships]
+- Jan-19 Value≈25.3x
+- Peak Value: Near Jan-20 ≈37.5x; approximately 11.5x above the Mean, located above +2sd
+- Trough Value: Near Jan-24 ≈17.8x; approximately 8.2x below the Mean, lower than -1sd by ≈2.7x, higher than -2sd by ≈2.8x
+- Low point near Jan-22 ≈19.0x; approximately 7.0x below the Mean, close to -1sd
+- High point in H1 2023 ≈27–28x; approximately 1–2x above the Mean
+- Total period range ≈19.7x (37.5−17.8)
+
+[Pattern Characteristics]
+The overall pattern shows an initial upward trend followed by a sustained decline, with significant volatility within the range. Previously, it was repeatedly above the Mean and briefly broke above +2sd, subsequently remaining below the Mean for an extended period, hovering near -1sd. The final segment is close to the lower boundary of the range, showing no clear signs of rebound.
+
+[Core Insights]
+Core Conclusion: Current valuation is at a relatively low level for the sample period, significantly below historical peaks.
+
+Business Implications:
+- The valuation shows a significant discount relative to historical equilibrium levels.
+- There are signs that the valuation center has shifted downward compared to earlier stages.
+- Valuation elasticity space has expanded relative to the high-level phase.
+
+Risk Focus:
+- If it falls below -2sd≈15x, it may trigger accelerated sentiment adjustment and liquidity contraction.
+- If it rapidly returns above +1sd≈31x in the short term, it may lead to temporary pullback pressure.

@@ -1,0 +1,27 @@
+【图表构成】
+- 类型：折线图；标题未标注。
+- 横轴：时间点 CY20、CY21、1QCY22、2QCY22、3QCY22、4QCY22、1QCY23、2QCY23、3QCY23、4QCY23。
+- 纵轴：百分比，范围 -10% 至 20%，含 0% 基线。
+- 图例：红=Financial Services；灰=Healthcare；黑=Manufacturing/Retail/Logistics；浅橙=Other (Comm, Media and Technology)。
+
+【数据关系】
+- 起点（CY20）：红≈-4%，灰≈3%，黑≈-6%，橙≈1%。
+- 峰值：橙在1QCY22≈18%；黑在CY21≈16%；灰在CY21≈10%；红在CY21≈7%。
+- 谷值：红在4QCY23≈-5%；黑在CY20≈-6%；灰在4QCY23≈-2%；橙在2QCY23≈-1%。
+- 期末（4QCY23）：红≈-5%，灰≈-2%，黑≈1%，橙≈3%。
+- 2QCY23对比：黑≈3%，红≈-3%，灰≈1%，橙≈-1%；黑与红差≈6个百分点。
+
+【模式特征】
+四条线均在CY21至1QCY22附近形成各自高点，之后整体向下，逐步靠近零轴并在后期交叉频繁。Financial Services自CY21后持续处于样本中较低水平，Healthcare相对居中且波动较小；Manufacturing/Retail/Logistics和Other前期高于另外两组，后期在零轴附近上下穿越。2QCY23到3QCY23期间，Other出现一次相对明显的短期反弹，而其他三条线变化更平缓。
+
+【核心洞察】
+核心结论：各行业从高增阶段进入分化收缩阶段。
+
+业务含义：
+- Financial Services承压更久，恢复节奏偏慢。
+- Healthcare表现相对中庸，波动管理较平稳。
+- 制造/零售/物流与Other对环境变化更敏感。
+
+风险关注：
+- Financial Services长期低于0%或放大负值，可能拖累整体组合表现。
+- Other若再次接近-5%附近，或放大组合短期回撤幅度。

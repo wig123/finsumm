@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Multiple line chart (4 lines)
+- Title: Not displayed
+- Y-axis: Percentage (%), Range approximately 1.0—3.5, Scale interval approximately 0.5
+- X-axis: Time, Jan-20 to Oct-23, marked monthly
+- Legend: 3M (Red), 6M (Light Gray), 9M (Black), 12M (Light Pink)
+
+[Data Relationships]
+- Jan-20: 3M≈2.65%, 6M≈2.80%, 9M≈2.75%, 12M≈2.85%.
+- Jul-20: All tenors approximately in the 1.6%—1.8% range, 3M lowest ≈1.55%.
+- 2021: Approximately in the 1.55%—1.70% range.
+- Near Oct-22: Approximately in the 2.3%—2.5% range.
+- Jul-23 Peak: 9M≈2.95%, 12M≈2.90%, 6M≈2.85%, 3M≈2.75%.
+- Oct-23: 3M≈2.70%, 6M≈2.75%, 9M≈2.78%, 12M≈2.80%.
+- High-Low Difference: 3M≈1.20pct; 9M≈1.35pct; 12M≈1.25pct.
+
+[Pattern Characteristics]
+The four tenor rates generally moved in the same direction during the sample period, first declining rapidly in early 2020, then maintaining a narrow range for an extended period, followed by a stair-step increase starting in early 2022, forming a single distinct peak around mid-2023. A stable vertical arrangement is maintained between different tenors, with longer tenors exhibiting higher levels. The curve spread remains relatively constant, only slightly narrowing or widening at local inflection points.
+
+[Core Insights]
+Core Conclusion: Interest rates across all tenors exhibit a clearly pro-cyclical and consistent change structure.
+
+Business Implications:
+- Stable term structure; the short-to-long end spread is relatively predictable.
+- Interest rate changes affect all tenor products in the same direction.
+- Medium-to-long term pricing relies more on the overall interest rate environment than on a single tenor point.
+
+Risk Focus:
+- If the short end drops below 1.5%, the long end may maintain low returns or compress the spread margin.
+- If the long end approaches or breaks 3.0% again, it will significantly raise medium-to-long term financing costs.

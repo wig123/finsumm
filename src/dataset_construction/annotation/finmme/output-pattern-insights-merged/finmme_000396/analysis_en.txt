@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Time series line chart, including a green line, a green shaded band, and a red line.
+- Title: Not displayed.
+- X-axis: Time, ranging from Mar-23 to Mar-24, with ticks including Mar-23, May-23, Jul-23, Oct-23, Dec-23, Mar-24.
+- Y-axis: Numerical scale from 0.065 to 0.090, with intervals of approximately 0.005.
+- Legend: Green "MarFA™ Macro", Red "US Expanded Tech-Software / S&P 500".
+
+[Data Relationships]
+- Initial Period (Mar-23): Red ≈ 0.070; Green ≈ 0.068; Difference ≈ 0.002.
+- Mid-year (Jul-23): Red ≈ 0.080; Green ≈ 0.078; Difference ≈ 0.002.
+- Oct-23: Red ≈ 0.079; Green ≈ 0.079; Difference ≈ 0.
+- High Point (Dec-23): Red ≈ 0.087; Low Point (Near Initial Period): Red ≈ 0.070; Range Amplitude ≈ 0.017.
+- Final Period (Mar-24): Red ≈ 0.085; Green ≈ 0.088; Difference ≈ -0.003.
+- Green Shaded Band: Mar-24 upper and lower bounds approximately 0.086—0.090; width during most periods approximately 0.005—0.007.
+
+[Pattern Characteristics]
+- The overall direction of the two curves is consistent, with multiple instances of convergence and slight crossover, showing no long-term significant divergence.
+- The green curve is enveloped by the shaded band. The width of the shaded band is generally stable, only slightly expanding in the later stage. The red line remains within the shaded band most of the time, briefly approaching or slightly exceeding the upper boundary.
+- The red line experienced multiple short-term pullbacks and subsequent upward movements around mid-year. After forming a local peak near Dec-23, it approached the previous high again around Mar-24, simultaneously reversing its relative position against the green line.
+
+[Core Insights]
+Core Conclusion: Macro factors exhibit strong explanatory power regarding the relative performance of this technology sector.
+
+Business Implications:
+- The convergence of the two trends indicates a high dependency of the sector on the macroeconomic environment.
+- The red line frequently positioned near the upper boundary of the green band reflects the sector's greater sensitivity in relative performance.
+- The green line being slightly higher than the red line in Mar-24 suggests limited scope for recent excess returns.
+
+Risk Focus:
+- If the red line consistently exceeds the upper boundary of the green band by more than 0.002, it may signal amplified pressure for a phase-specific drawdown.
+- If the red line falls below the lower boundary of the green band by more than 0.001, it may indicate a rapid contraction of relative returns.

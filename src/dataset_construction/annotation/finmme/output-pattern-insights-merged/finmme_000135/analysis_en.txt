@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Line chart
+- Title: Not provided
+- X-axis: Year range 1970–2020, marked in approximately 10-year increments
+- Y-axis: Value unit (USD 000), scale range 0–150, horizontal grid lines spaced at 10
+- Legend: Includes two curves, "No change in inequality" and "Actual"
+- Color: Not specified
+
+[Data Relationships]
+- Initial values (1970): Both lines start at a low level, "No change in inequality" is approximately 40, "Actual" is approximately 30
+- Final values (2020): "No change in inequality" is approximately 140, "Actual" is slightly below 120
+- Magnitude of change between initial and final periods: "No change in inequality" increased by approximately 100 (140−40); "Actual" increased by approximately 90 (120−30)
+- Relationship between the two lines: The "No change in inequality" line is consistently higher than the "Actual" line throughout the period, but both show a similar upward trend
+- Key trend: From 1970 to 2000, both lines rose slowly; after 2000, the growth rate of the "Actual" line accelerated, rapidly catching up to the "No change in inequality" line after 2010
+- Time span: 1970–2020, a total of 50 years
+- Value range of marked points: 30–140, all within the Y-axis range of 0–150
+
+[Pattern Characteristics]
+Both curves generally show a unilateral upward trend, accompanied by periodic fluctuations and step-wise progression. "No change in inequality" consistently remains above "Actual," with greater amplitude and peak values, and both follow the same direction. After 2000, the slope of "Actual" increased, the distance between the two lines significantly narrowed after 2010, and a slight decline occurred at the end of the period.
+
+[Core Insights]
+Core Conclusion: Actual has long been below "No change in inequality," but has approached this benchmark in recent years.
+
+Business Implications:
+- Reflects improved achievement relative to the benchmark
+- Impacts performance evaluation and goal setting
+- Suggests that the target ceiling and pace can be moderately raised
+
+Risk Concerns:
+- If Actual falls below 110 (USD 000), the gap may widen, affecting achievement assessment
+- If the benchmark reaches 140 while Actual fails to reach 120 (USD 000), the relative evaluation deviation increases

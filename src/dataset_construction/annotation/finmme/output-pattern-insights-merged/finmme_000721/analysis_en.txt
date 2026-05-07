@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Stacked bar chart by country/region, overlaid with a red line chart.
+- Legend: Other, Hong Kong, US, Taiwan, Netherlands, Germany, China, South Korea, Thailand, JPY/g (YoY).
+- Y-axis: Percentage, range -30% to 40%, major tick interval 10%, 0% as the baseline.
+- X-axis: Monthly timeline, covering 2007/01 to 2023/09.
+- Annotation text: January: 21.6%.
+
+[Data Relationships]
+- Annotation "January: 21.6%": The red line's value for that month is 21.6%, 21.6 percentage points above the 0% baseline, falling between the 20% and 30% ticks.
+- The difference between the Y-axis upper and lower limits is 70 percentage points (40% − (−30%)).
+- The X-axis time span is approximately 16 years and 9 months (2007/01 to 2023/09), corresponding to approximately 200 monthly data points.
+- The sum of all categories in the monthly stacked bar aligns with the red line value on the same percentage scale (consistent units).
+
+[Pattern Characteristics]
+- Throughout the entire period, the red line fluctuates significantly around 0%, showing multiple distinct peaks and troughs. In the latter half, it is generally situated in a relatively higher range and exhibits more intense volatility.
+- In the early period, the stacked bars alternate between positive and negative values, with some years predominantly negative; in the years approaching the end of the period, the proportion of positive values is higher, and the overall bar height is also greater.
+- The distribution of colors across countries/regions shows a structural change from relatively dispersed contributions to contributions concentrated in certain regions, with a single color dominating the main portion of the bar in individual months.
+
+[Core Insights]
+Core Conclusion: Recent YoY performance is at a relatively high level, and the sources are more concentrated.
+
+Business Implications:
+- Overall fluctuation has intensified, and short-term results lack smoothness.
+- The increase in later period values is more favorable for return-based metrics.
+- Regional contribution concentration has increased, reducing allocation flexibility.
+
+Risk Focus:
+- If the red line falls below 0%, current earnings performance will be weakened.
+- If a single country's contribution exceeds 50% of the total value, the impact of regional shocks will be amplified.

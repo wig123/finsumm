@@ -1,0 +1,27 @@
+【图表构成】
+- 图表类型：折线图；标题：NVDA revenue by segment。
+- 纵轴：Quarterly Revs ($mm)，范围0–24,000，刻度间隔2,000。
+- 横轴：时间从Apr-14到Jan-24（季度）。
+- 图例：Gaming、Professional Visualization、Data Center、Automotive、OEM & Other、Total。
+
+【数据关系】
+- Jan-24：Total≈22,000；Data Center≈18,000；Gaming≈3,200；Automotive≈1,000；Professional Visualization≈700；OEM & Other≈800。
+- Oct-23：Total≈18,000；Data Center≈14,500；差≈3,500。
+- Jul-23：Total≈14,000；Data Center≈10,000；差≈4,000。
+- Apr-23：Total≈4,500；Data Center≈4,000；差≈500。
+- Apr-22：Total≈8,500；Jan-21：Total≈5,000；Apr-14：Total≈1,200。
+
+【模式特征】  
+整体上，总收入从早期的缓慢抬升，过渡到近几个季度的陡峭上冲，中间在2022年前后出现一段平台与回落。各细分中，Data Center在早期与其他业务规模接近，此后逐步拉开差距，在最近几个季度形成明显的主导地位；Gaming曾长期为较大单项，但在后段阶段被明显超越。Automotive缓慢递增，其余两个小项在全程维持在低位窄幅波动，对总曲线形态影响有限。  
+
+【核心洞察】  
+核心结论：收入结构高度集中于Data Center，整体增长依赖单一板块。  
+
+业务含义：  
+- 公司营收来源从多点分散转向单点集中。  
+- 整体业绩对Data Center景气度依赖显著提升。  
+- 非核心板块对冲主力板块波动的能力有限。  
+
+风险关注：  
+- 若Data Center收入较Jan-24水平下滑30%以上，则总收入或大幅回吐。  
+- 若Gaming长期低于Jan-22附近高位水平50%，产品组合抗周期能力可能减弱。

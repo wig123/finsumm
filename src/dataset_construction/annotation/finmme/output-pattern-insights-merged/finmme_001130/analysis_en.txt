@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Line chart
+- Title: FTSE Indonesia vs EM around elections
+- X-axis: Time, labeled "1y prior—Indonesia election day—1y after," with a vertical line at "Indonesia election day"
+- Y-axis: Numerical scale approximately 70—120 (Unit not specified)
+- Legend/Labels: Red line "Current performance"; Black line "Average perf. in 4 prior elections (2019, 2014, 2009 and 2004)"; Light gray lines represent individual paths of previous cycles
+
+[Data Relationships]
+- 1y prior: Red line ≈ 95; Black line ≈ 88; Difference ≈ 7
+- Election Day: Red line ≈ 95–96; Black line ≈ 100; Difference ≈ 4–5
+- 1y after: Red line ≈ 95–96; Black line ≈ 100; Difference ≈ approximately 4
+- Red line extremes: Minimum ≈ 90; Maximum ≈ 105; Range ≈ 15
+- Black line extremes: Minimum ≈ 86–88; Maximum ≈ 106–107; Range ≈ 18–21
+- Gray line range: Approximately 75—115; Around Election Day approximately 95—105
+
+[Pattern Characteristics]
+- The Red line fluctuates slightly around its central axis within the overall period; the range is relatively convergent, and it is mostly situated in the mid-to-high position near the Black line.
+- The Black line gradually rises from a previously lower level, briefly exceeds the Red line near Election Day, and subsequently maintains a slightly higher range.
+- The individual paths of the Gray lines are widely dispersed; the overall envelope range is significantly wider than the Red and Black lines, narrowing slightly around Election Day.
+
+[Core Insights]
+Core Conclusion: Current performance is relatively stable compared to the historical average, and the deviation is limited.
+
+Business Implications:
+- The current index faces less volatility pressure compared to previous election cycles.
+- The small deviation from the historical average suggests neutral relative performance during this phase.
+- The high dispersion of the Gray lines indicates significant variance in the outcomes of individual elections.
+
+Risk Focus:
+- If the index breaks below the lower bound near 90, it may trigger passive selling (de-risking) and outflow pressure.
+- If the index breaks above the upper bound of 105 but fails to hold, it may lead to a retracement (pullback) and short-term crowded trades.

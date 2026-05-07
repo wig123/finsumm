@@ -1,0 +1,62 @@
+【图表构成】  
+- 类型：柱状图  
+- 标题：无明显标题  
+- 坐标轴：纵轴为百分比增长率（范围从-40%到50%），横轴为不同时间段的增长类别（APE Growth和VNB Growth）  
+- 图例：包含三家公司标识：SBI Life（红色），HDFC Life（灰色），IPRU Life（白色）  
+
+【数据关系】  
+
+- APE Growth - 3Q24 (Y-Y)：  
+  - SBI Life增长13%  
+  - IPRU Life增长5%  
+  - HDFC Life下降7%  
+  - 大小关系：SBI Life > IPRU Life > HDFC Life  
+
+- APE Growth - 9M24 (Y-Y)：  
+  - SBI Life增长17%  
+  - HDFC Life增长9%  
+  - IPRU Life增长0%  
+  - 大小关系：SBI Life > HDFC Life > IPRU Life  
+
+- APE Growth - FY23 (Y-Y)：  
+  - HDFC Life增长37%  
+  - SBI Life增长18%  
+  - IPRU Life增长12%  
+  - 大小关系：HDFC Life > SBI Life > IPRU Life  
+
+- VNB Growth - 3Q24 (Y-Y)：  
+  - SBI Life增长11%  
+  - HDFC Life下降3%  
+  - IPRU Life下降29%  
+  - 大小关系：SBI Life > HDFC Life > IPRU Life  
+
+- VNB Growth - 9M24 (Y-Y)：  
+  - SBI Life增长11%  
+  - IPRU Life下降15%  
+  - 大小关系：SBI Life > IPRU Life  
+
+- VNB Growth - FY23 (Y-Y)：  
+  - SBI Life和HDFC Life均增长37%  
+  - IPRU Life增长28%  
+  - 大小关系：SBI Life = HDFC Life > IPRU Life  
+
+- 重要趋势：  
+  - SBI Life在所有类别中均表现为稳定增长，且在多数时间段内领先于其他公司。  
+  - HDFC Life和IPRU Life在VNB Growth - 3Q24 (Y-Y)中均出现下降，其中IPRU Life下降幅度最大。
+
+【模式特征】
+- 各期APE与VNB对比中，SBI均为正柱，且在多数分组中位列前列。
+- HDFC与IPRU呈正负混合分布；IPRU在VNB端出现单期显著负值。
+- 结构为多主体分散格局，各期公司排序多次更替。
+
+【核心洞察】
+核心结论：SBI在规模与价值两端相对占优
+
+业务含义：
+- SBI两项增速领先，竞争位置更强
+- HDFC近期低于FY23高位，稳定性不足
+- IPRU VNB端落后，拖累增长结构
+
+风险关注：
+- VNB Growth<0%（IPRU已-29%），或致同比转负
+- APE Growth<0%（HDFC为-7%），或拉低阶段表现

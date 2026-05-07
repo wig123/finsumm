@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Combined Bar and Line Chart
+- Title: Polish banks
+- Legend: Grey Bar—Net interest income (PLNbn, labels show YoY growth rate); Red Line—Net income (PLNbn)
+- X-axis: Years 2010-2023
+- Y-axis: Unit PLNbn, Range approximately -10 to 110, including the 0 mark
+
+[Data Relationships]
+- YoY Growth Rate of Net Interest Income: 2011 13%, 2012 1%, 2013 -2%, 2014 7%, 2015 -5%, 2016 8%, 2017 12%, 2018 5%, 2019 10%, 2020 -4%, 2021 1%, 2022 60%, 2023 29% (2010 not labeled).
+- Maximum growth rate is 60% (2022), minimum is -5% (2015), a difference of 65 percentage points.
+- The difference in growth rate between 2022 and 2023 is 31 percentage points; the difference between 2021 and 2022 is 59 percentage points.
+- Net Income: 2020 is a negative value (below 0); the 2023 data point is between 20 and 30.
+
+[Pattern Characteristics]
+The grey bars gradually increased from 2010 to 2019, with multiple minor pullbacks occurring intermittently. They rose significantly in 2022 and moved further upward in 2023. The YoY growth rate labels corresponding to the bars repeatedly switch above and below the zero axis. A single extremely high value appeared in 2022, which pulled back in 2023 but remained in a high range. The red line generally maintained minor fluctuations close to a horizontal level from 2010 to 2019. It briefly fell below the zero axis in 2020, then rapidly recovered and reached the highest point of the entire period in 2023, forming a distinct low-point to high-point structure.
+
+[Core Insights]
+Core Conclusion: Profit recovery driven by net interest income was concentrated and released after 2022.
+
+Business Implications:
+- Profitability is highly dependent on interest income, indicating a non-diversified structure.
+- Profit recovery after 2020 mainly stemmed from improved net interest margin.
+- Recent profitability levels are significantly higher than the historical normal range.
+
+Risk Concerns:
+- If YoY net interest income falls below 0% again, net income may once again approach zero or even turn negative.
+- If YoY net interest income rapidly declines from 29% to single digits, profitability levels may significantly retreat to the 2010-2019 range.

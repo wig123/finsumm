@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Percentage Stacked Bar Chart
+- Title: Home loans (Origination-value)
+- X-axis: Two time points — FY20, 1Q24
+- Y-axis: Unlabeled scale; total of each bar is 100%
+- Legend: Four monetary ranges and colors — <0.5mn (Red), 0.5mn-3.5mn (Gray), 3.5mn-7.5mn (White), 7.5mn+ (Light Orange)
+
+[Data Relationships]
+- FY20 Proportion: <0.5mn 2%; 0.5mn-3.5mn 51%; 3.5mn-7.5mn 28%; 7.5mn+ 19%.
+- 1Q24 Proportion: <0.5mn 2%; 0.5mn-3.5mn 37%; 3.5mn-7.5mn 31%; 7.5mn+ 30%.
+- Difference between the two periods: 0.5mn-3.5mn -14 percentage points; 3.5mn-7.5mn +3 percentage points; 7.5mn+ +11 percentage points; <0.5mn 0.
+- Maximum Proportion: FY20 is 0.5mn-3.5mn (51%); 1Q24 is 0.5mn-3.5mn (37%).
+- Range (High-Low Difference): FY20 maximum 51% and minimum 2%, difference 49%; 1Q24 maximum 37% and minimum 2%, difference 35%.
+
+[Pattern Characteristics]
+Overall, the total volume of the two bars remains the same across the two periods, but the internal proportional structure has undergone significant redistribution. A structural change of mutual gain and loss occurred between the mid-range segments (0.5mn-3.5mn, 3.5mn-7.5mn). The proportion of the high-end segment (7.5mn+) has clearly risen, while the proportion of the lowest segment (<0.5mn) remains minimal and stable.
+
+[Core Insights]
+Core Conclusion: The loan origination value structure is concentrating towards higher value segments.
+
+Business Implications:
+- Small and medium-value business has relatively contracted, and the weighting of high-value business has increased.
+- The asset portfolio's reliance on high-value clients has strengthened.
+- The client base and the face value level show an upward trend.
+
+Risk Concerns:
+- If the proportion of 7.5mn+ continues to exceed 30%, volatility from large single clients will amplify portfolio volatility.
+- If 0.5mn-3.5mn drops below 35%, the source of business will become overly dependent on a limited high-value client base.

@@ -1,0 +1,30 @@
+【图表构成】
+- 图表类型：多序列折线图
+- 标题：Immigration Enforcement Actions
+- 横轴：年份，约1892–2020（刻度示例含：1892、1910、1940、1976、2000、2018、2020）
+- 纵轴：单位为Millions，范围0–2（刻度0、0.5、1、1.5、2）
+- 图例：Removals（绿色实线）、Administrative Returns（灰色实线）、Enforcement Returns（橙色虚线）、Expulsions（蓝色实线，Public health ground since Covid）
+
+【数据关系】
+- Enforcement Returns在2000年前后峰值约1.6–1.7百万；1954附近约1.0百万。
+- Expulsions在2020附近数值约1.1百万。
+- Removals峰值约0.45百万（2012–2014）；1998约0.15百万；2020约0.2百万。
+- Administrative Returns在2000附近约0.3百万；2018约0.05–0.1百万。
+- 同期对比：2000前后Enforcement Returns高于其他系列；2020附近Expulsions高于Removals与Administrative Returns。
+
+【模式特征】
+- 各序列在长时间轴上呈阶段式分布：早期整体处于接近零水平，中后段逐步出现多个明显高点，彼此接力主导。
+- Enforcement Returns在中后段形成多个大幅度峰值区间，而Removals则在更靠后的时间段形成较为缓和的单峰结构；Administrative Returns量级始终相对较小并在后期收缩。
+- Expulsions在序列末端突然出现并迅速抬升，短时间内超过其他序列，形成明显的末端突起。
+
+【核心洞察】
+核心结论：不同执法手段在不同时期轮换成为主要政策工具。
+
+业务含义：
+- 中期以Enforcement Returns为主，体现执法方式阶段性侧重。
+- 后期Removals占比提升，显示程序化处理的重要性增强。
+- 疫情后Expulsions激增，表明公共卫生理由下措施依赖度上升。
+
+风险关注：
+- 单一方式超过1.5百万时，可能导致程序负荷与资源配置紧张。
+- Expulsions维持在约1.0百万以上，或削弱其他程序性渠道的使用空间。

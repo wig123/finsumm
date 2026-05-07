@@ -1,0 +1,36 @@
+[Chart Components]
+- Type: Combination Chart (Bar Chart and Line Chart)
+- Title: None
+- Axes: Y-axis is "Average m-m price change (INR/50kg bag)," ranging from -20 to 30; X-axis is the month, from "April" to "March"
+- Legend: Red bar chart represents "North (FY12-24)," Black line chart represents "North FY24"
+
+[Data Relationships]
+- Key Figures and Changes:
+  - April: FY12-24 shows a positive growth of approximately 12
+  - September to October: FY24 showed significant growth, reaching a maximum value of approximately 25
+  - November: FY12-24 shows a positive growth of approximately 8
+
+- Extreme Value Comparison:
+  - FY24's peak was in October, approximately 25
+  - FY24's trough was in July, approximately -10
+
+- Key Trends:
+  - FY24 started rising rapidly from August, peaked in October, and then dropped quickly in November
+  - FY12-24 showed clear positive growth in April and November, with smaller changes in other months
+
+[Pattern Characteristics]
+- The line (FY24) formed a single sharp upward movement between August and October, reaching the annual high point in October, followed by a rapid reversal in November, remaining below the zero axis for an extended period; July was another local low point.
+- The bars (FY12-24) showed small overall amplitude, distributed close to the zero axis, with April and November being prominent positive values, and other months relatively balanced.
+- The two moved in opposite directions in November, indicating a clear misalignment between FY24 and the historical average.
+
+[Core Insights]
+Core Conclusion: The rhythm of FY24 is inconsistent with the historical average, leading to reduced historical reference value.
+
+Business Implications:
+- Weakening of seasonal guidance
+- Forecasting and pricing require increased flexibility
+- Risk control thresholds need to be reset
+
+Risk Concerns:
+- Monthly change > +20; operating based on historical averages easily leads to misjudgment and pricing lag
+- Monthly change < -10; low-frequency price adjustments may result in significant deviations, impacting target achievement

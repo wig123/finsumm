@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Stacked bar chart (Volume) + Line chart (Year-over-Year Growth).
+- Title: Global BEV LV volume forecasts (k units).
+- X-axis: Year, 2020—2035e.
+- Left Y-axis: Volume (k units), scale up to 80,000.
+- Right Y-axis: YoY Growth (%), scale 0%—70% (RHS).
+- Legend: China (Red), Pan-Europe (Light Blue), NAFTA (Dark Blue), RoW (Gray), YoY Growth (Orange Line).
+
+[Data Relationships]
+- 2020 Total volume approximately 2–3k; 2035e Total volume approximately 75k, an increase of about 72k compared to 2020.
+- 2035e Composition: Pan‑Europe approximately 30k, China approximately 25k, NAFTA approximately 12k, RoW approximately 8k.
+- 2021 YoY is higher than the right axis upper limit of 70%; 2035e YoY is approximately 10%.
+- 2025e Total volume approximately 19k; an increase of about 16k compared to 2020.
+- 2030e Total volume approximately 52–55k; an increase of about 33–36k compared to 2025e.
+- In 2035e, Pan‑Europe is about 5k higher than China; NAFTA is about 4k higher than RoW.
+
+[Pattern Characteristics]
+Overall, the stacked bars continuously rise from 2020 towards 2035e, with mid-to-late stage growth primarily driven by Pan‑Europe and China, forming a dual-dominant structure in 2035e. The orange line shows a peak near the top of the right axis in early years, then gradually declines towards the later period, approaching a low-level plateau. The regional proportion within the bars shifts over time from relatively balanced to being primarily composed of Pan‑Europe and China, while NAFTA and RoW remain secondary but increase in absolute scale.
+
+[Core Insights]
+Core Conclusion: Global BEV volume will expand significantly, with a marked increase in regional concentration.
+
+Business Implications:
+- Demand focus shifts towards the two major markets of Pan‑Europe and China.
+- Overall expansion relies on the existing base volume rather than an increase in later-stage growth rate.
+- NAFTA and RoW are secondary sources of growth, but their magnitude cannot be ignored.
+
+Risk Concerns:
+- If YoY remains consistently below 10% after 2030e, it may weaken the certainty of realizing later-stage volume targets.
+- If any dominant region falls below 20k by 2035e, the overall 75k target may be significantly missed.

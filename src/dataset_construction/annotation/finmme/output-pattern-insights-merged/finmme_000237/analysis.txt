@@ -1,0 +1,31 @@
+【图表构成】
+- 图表类型：象限散点图（星形标记）
+- 标题：未显示
+- 坐标轴/区域：上半区标注“Deficit”，下半区标注“Surplus”；左侧标注“Tightening”，右侧标注“Loosening”
+- 对角线：自左下至右上，标注“Positive price momentum/Negative price momentum”
+- 标记与标签：每个星对应一种大宗商品（如Rhodium、Palladium、Copper等），均有文字标注
+- 图例：星色分为深红（Most preferred）、粉红（Neutral）、浅粉（Least preferred）
+
+【数据关系】
+- 位于“Tightening”侧：Palladium、Copper、Platinum、Zinc、Manganese
+- 位于“Loosening”侧：Lithium、Iron ore、Coking Coal、Thermal Coal、Aluminium、Cobalt、Gold、Nickel
+- 位于“Deficit”半区：Rhodium、Palladium、Copper、Platinum、Zinc、Lithium、Iron ore、Coking Coal
+- 位于“Surplus”半区：Nickel、Gold、Aluminium、Cobalt、Thermal Coal、Manganese
+- 偏好等级：深红（最偏好）Rhodium、Palladium、Copper、Platinum、Zinc；粉红（中性）Lithium、Iron ore、Coking Coal；浅粉（最不偏好）Nickel、Gold、Aluminium、Cobalt、Thermal Coal、Manganese
+
+【模式特征】
+- 星标在“Tightening-Deficit”象限内明显更为集中，且多为深红色，高偏好品种主要分布在该区域。  
+- “Loosening-Surplus”方向分布较为分散，浅粉星较多，整体颜色明显变浅。  
+- Rhodium在上方偏离其它星标，位置更为孤立，而Nickel、Gold等浅粉星聚集在下方“Surplus”区域，形成一小簇集中区。
+
+【核心洞察】
+核心结论：偏好明显集中于供给偏紧且缺口侧的大宗商品。
+
+业务含义：
+- 配置重心集中在供需更吃紧的品种。
+- 对“Tightening-Deficit”象限的仓位敞口更高。
+- 对“Surplus-Loosening”品种整体配置意愿偏低。
+
+风险关注：
+- 若“Tightening-Deficit”品种由缺口转为盈余（跨越水平轴），组合收益可能明显回落。
+- 若“Surplus-Loosening”品种由低偏好转为高偏好前未及时调整，错失价格修复带来的收益空间。

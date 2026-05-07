@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Multi-series line chart; Legend includes Dallas (Dark Cyan Solid Line), Fort Worth (Light Cyan Solid Line), Washington (Orange Dashed Dot Line).
+- Title: Not displayed; Y-axis labeled "Index (base = 100)".
+- X-axis: Time, Jan-16 to Jan-23, annual scale.
+- Y-axis: Range approximately 90–130, grid lines visible.
+
+[Data Relationships]
+- Initial Period (Jan-16): Dallas≈100, Fort Worth≈99, Washington≈100.
+- Jan-20: Dallas≈112, Fort Worth≈110, Washington≈110; Dallas is higher by approximately 2.
+- Trough (Jan-21): Dallas≈100, Fort Worth≈98, Washington≈104; Washington is higher by approximately 4 and 6, respectively.
+- Final Period (Jan-23): Dallas≈127, Fort Worth≈124, Washington≈115.
+- Final Period Gap: Dallas is higher than Fort Worth by ≈3, and higher than Washington by ≈12; Fort Worth is higher than Washington by ≈9.
+- Overall Range of Fluctuation: Dallas≈27 (127–100), Fort Worth≈26 (124–98), Washington≈11 (115–104).
+
+[Pattern Characteristics]
+All three lines generally moved in the same direction before Jan-20, followed by a common decline in Jan-21, forming a clear inflection point. Subsequently, the indices in all three locations resumed an upward trend, but the increases for Dallas and Fort Worth were significantly larger, causing the gap with Washington to gradually widen. The overall structure evolved from initial proximity and brief crossover to a stratified and differentiated pattern in the later period.
+
+[Core Insights]
+Core Conclusion: Among the three regional indices, Dallas and Fort Worth are clearly leading and progressively widening the gap.
+
+Business Implications:
+- Dallas and Fort Worth exhibit a greater relative advantage in long-term performance.
+- Performance divergence between regions is increasing, making comparative assessment more critical.
+- Washington's relative ranking has shifted downward during the sample period.
+
+Risk Concerns:
+- If the gap between Dallas and Washington exceeds the current approximately 12 points, it may lead to further imbalance in resource allocation.
+- If Fort Worth falls back below approximately 110 while Dallas maintains a high level, it may amplify internal structural divergence pressure.

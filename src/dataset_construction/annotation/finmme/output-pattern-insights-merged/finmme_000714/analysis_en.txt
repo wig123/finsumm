@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Dual Line Chart
+- X-axis: Quarter, ranging from 2020 Q1 to 2023 Q4
+- Y-axis: Change vs. 2019 baseline, scale -100% to 100%, including the 0% horizontal line
+- Legend: Two series—"Winners (NTE/NTE 35W A&B)" (Light Green) and "Losers (LBJ/I‑95/I‑495/Dulles)" (Dark Green)
+- Background: Gridlines
+
+[Data Relationships]
+- 2020Q1: Winners ≈ 25%; Losers ≈ 0%
+- Lowest Value: 2020Q2, Winners ≈ -30%; Losers ≈ -60%
+- Highest Value: Winners reached ≈ 85% in 2023Q2; Losers peaked near 0% (2023Q3–Q4)
+- End of Period: 2023Q4, Winners ≈ 75–80%; Losers ≈ 0%
+- Key Spread: Difference in 2020Q2 ≈ 30 percentage points; Difference in 2023Q2 ≈ 85 percentage points; Difference in 2023Q4 ≈ 75–80 percentage points
+
+[Pattern Characteristics]
+Both series experienced a significant dip simultaneously in 2020Q2, followed by a continuous upward, unidirectional structure. The Light Green series crossed the 0% level after 2020Q3 and remained operating in the mid-to-high range of the positive territory. The Dark Green series consistently stayed below 0%, slowly converging towards 0%. The distance between the two gradually widened starting from 2020Q2, maintaining a large, stable spread throughout 2022–2023.
+
+[Core Insights]
+Core Conclusion: The performance of the two asset classes has continuously diverged and the gap has widened since 2020Q2.
+
+Business Implications:
+- The return structure is highly concentrated in the assets corresponding to the Light Green series.
+- The portfolio's overall results show a significantly increased reliance on the Light Green assets.
+- The contribution of Dark Green assets to the overall performance is near stagnation, providing only weak support.
+
+Risk Focus:
+- If the Light Green series declines by more than 20 percentage points, it will significantly weaken the overall return elasticity.
+- If the Dark Green series remains below -20% for an extended period, it will drag down the portfolio's long-term allocation efficiency.

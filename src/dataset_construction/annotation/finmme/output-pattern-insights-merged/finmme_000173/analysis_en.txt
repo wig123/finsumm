@@ -1,0 +1,34 @@
+[Chart Components]
+- Chart Type: Line chart, with a vertical color bar and color scale on the right side.
+- Title: No main title observed; annotation in the upper left corner: "Last 12m ret: 12.63%".
+- X-axis: Time, ranging from Jan-21 to Jan-25.
+- Left Y-axis: Yield (%), scale approximately 4 to 14.
+- Right Color Scale: Total Return (%), range -30 to 30.
+- Legend: Black line "USD HY yield"; Dots "+/- 5% TR"; Diamonds "+/- 10% TR".
+
+[Data Relationships]
+- Initial period (Jan-21) yield approximately 4.0%.
+- Global peak approximately 9.8% (near the end of 2022).
+- Trough value approximately 3.7% (near mid-2021).
+- Yield as of Jan-24 approximately 7.8%.
+- High-low difference approximately 6.1 percentage points (9.8% - 3.7%).
+- Change from the initial period to Jan-24 approximately +3.8 percentage points (7.8% - 4.0%).
+- The annotation shows the total return for the last 12 months is 12.63%.
+- The right-side total return scale clearly defines the range: -30% to +30%; the legend markers correspond to ±5% and ±10% total return.
+
+[Pattern Characteristics]
+- The line was at a lower level in the early period, followed by a significant rise, then continued running at a higher level, flattening out towards the end.
+- The structure is segmented by a single inflection point, with local peaks and troughs alternating but no significant jumps, maintaining overall continuity.
+- The right color bar shows a symmetrical red-blue gradient; the dots and diamonds form two sets of parallel diagonal lines on the color bar, representing different return tiers.
+
+[Core Insights]
+Core Conclusion: The total return for the last 12 months is 12.63%, resulting in a positive outcome.
+
+Business Implications:
+- Profitability is positive, validating the return outcome.
+- Increased proportion of income, strengthening the foundation for holding period returns.
+- Clear return range facilitates target and stop-loss setting.
+
+Risk Focus:
+- Total Return < 0%: Turning to loss for the year, failing to meet return targets.
+- Total Return < -10%: Annual loss ≥ 10%, indicating significant capital impairment.

@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Dual line chart (two axes).
+- Title: Not displayed; legend labels red "Price," gray "Rel KOSPI 200."
+- X-axis: Time, Mar 23 to Feb 24, marked monthly scale.
+- Left Y-axis: Unit KRW, range approximately 12000–19000.
+- Right Y-axis: Relative indicator scale 90–140, corresponding to "Rel KOSPI 200."
+
+[Data Relationships]
+- Initial Period (Mar 23): Price approximately 12500; Rel approximately 100.
+- Final Period (Feb 24): Price approximately 16500; Rel approximately 125–130.
+- Peak Value (Jan 24): Price approximately 19000; Rel approximately 140. Trough Value (Nov 23): Price approximately 12000; Rel approximately 95–100.
+- Difference between peak and trough: Price approximately 7000; Rel approximately 40–45 points.
+- Jul 23: Price secondary peak approximately 17500, higher by approximately 3000 compared to Jun 23 at approximately 14500; Rel during the same period approximately 125, higher by approximately 10 compared to Jun 23 at approximately 115.
+- Apr–May 23: Price approximately 14500; Oct–Nov 23: Price mostly between 12000–13000, Rel approximately 95–105.
+
+[Pattern Characteristics]
+- The overall shape of the two curves is similar, maintaining relatively tight synchronous fluctuation most of the time, with only slight deviations occurring at local peaks and troughs.
+- Price and the relative indicator formed two distinct high-level plateau ranges during Apr–Jul 23 and Dec 23–Jan 24, while the intermediate phase of Sep–Nov 23 was generally at a lower level.
+- Multiple short-term sharp fluctuations occurred throughout the period, with the most prominent sharp peak structure appearing near Jan 24, and a relative trough forming near Nov 23.
+
+[Core Insights]
+Core Conclusion: Individual stock returns generally outperformed the benchmark, with relative strength concentrated in specific phases.
+
+Business Implications:
+- Improved relative performance, indicating the existence of periods of alpha (excess returns).
+- High synchronicity with the benchmark, suggesting limited tracking error pressure.
+- The mid-period pullback zone indicates that return volatility is concentrated at a few specific points in time.
+
+Risk Considerations:
+- When Rel KOSPI 200 approaches 140, a significant drawdown may occur if it falls back below 100.
+- If the Price, after approaching 19000, breaks below 13000, it may erode most of the previous paper gains (unrealized profits).

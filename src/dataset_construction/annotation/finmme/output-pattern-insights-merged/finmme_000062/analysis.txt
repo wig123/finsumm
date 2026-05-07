@@ -1,0 +1,32 @@
+【图表构成】  
+- 类型：环形饼图  
+- 标题：未显示  
+- 图例与颜色：BDC（深蓝）、Non-traded REIT（青绿）、Tender Offer（浅绿）、Interval Fund（紫红）  
+- 坐标轴：无  
+
+【数据关系】  
+- 各类别值：BDC $143bn；Non-traded REIT $99bn；Interval Fund $62bn；Tender Offer $48bn  
+- 总量：$352bn  
+- 排序（由高到低）：BDC $143bn > Non-traded REIT $99bn > Interval Fund $62bn > Tender Offer $48bn  
+- 最高与次高差：$44bn（143−99）  
+- 最高与最低差：$95bn（143−48）  
+- BDC与Non-traded REIT合计：$242bn  
+- Interval Fund与Tender Offer合计：$110bn  
+- 两组差值：$132bn（242−110）
+
+【模式特征】
+- 分布呈单一主导形态，最大扇区占据显著份额。
+- 其余三类呈由大到小的层级，两个较小扇区相对接近。
+- 上下两组面积差明显，整体结构偏失衡。
+
+【核心洞察】
+核心结论：配置重心在BDC，非交易REIT次之。
+
+业务含义：
+- 主力类别明确，决策路径清晰
+- 组合对BDC的敏感性更高
+- 次级品类影响力有限
+
+风险关注：
+- BDC≤$99bn：主类弱化，再平衡成本升
+- 两小类合计≥$132bn：结构改写，策略重调

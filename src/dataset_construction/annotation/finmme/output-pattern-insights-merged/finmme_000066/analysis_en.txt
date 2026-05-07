@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Dual Line Chart
+- Title: Not labeled; Y-axis title is "Change vs. 2019 baseline"
+- X-axis: Quarterly scale, ranging from 2020 Q1 to 2023 Q3, divided into Q1 to Q4 annually
+- Y-axis: Percentage scale, ranging from -80% to 100%, 0% as the baseline, with horizontal grid lines
+- Legend: Dark line represents "NTE.NTE 35W 3A & 3B," Light line represents "LBJ"
+
+[Data Relationships]
+- Initial Period (2020 Q1): NTE approximately 0%; LBJ approximately -10%
+- Trough (2020 Q2): NTE approximately -40%; LBJ approximately -70%; The difference between the two is approximately 30 percentage points
+- NTE Peak (2023 Q2): Approximately 80–85%; LBJ Peak (2022 Q3): Approximately 15%; The peak difference between the two is approximately 65–70 percentage points
+- Final Period (2023 Q3): NTE approximately 70–75%; LBJ approximately 10%; The difference between the two is approximately 60–65 percentage points
+- Full Period Span: NTE change is approximately 120 percentage points (from approximately -40% to approximately 80+% ); LBJ change is approximately 85 percentage points (from approximately -70% to approximately 15%)
+
+[Pattern Characteristics]
+- Both lines reached a common low point in 2020 Q2, after which their trends diverged: The dark line rose in a step-like manner above the zero line and maintained a high range; The light line remained below the zero line for a long time, only slightly exceeding the zero line later with a lower peak.
+- The gap between the two remained relatively stable in the latter half, with the local peak for the dark line appearing around 2023 Q2.
+
+[Core Insights]
+Core Conclusion: NTE's baseline improvement significantly leads that of LBJ.
+
+Business Implications:
+- Large relative performance difference
+- Resource allocation should favor NTE
+- LBJ provides limited contribution to overall improvement
+
+Risk Focus:
+- If NTE falls below 60%, relative leadership will be difficult to maintain
+- If the difference is ≤ 30 percentage points, the basis for skewed allocation is insufficient

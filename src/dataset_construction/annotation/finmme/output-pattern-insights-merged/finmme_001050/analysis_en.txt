@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Grouped Bar Chart (Percentage)
+- Legend: Value (Red), Volume (Gray), Ticket size (White Box)
+- X-axis: Personal loans, Consumer durables, Credit cards, Home loans, Auto loans
+- Y-axis: -20% to 60%
+- Title: Not displayed
+
+[Data Relationships]
+- Personal loans: Value 30%, Volume 48%, Ticket size -12%; Difference between Value and Volume is 18 percentage points
+- Consumer durables: 22%, 25%, -3%; Difference of 3 percentage points
+- Credit cards: 30%, 18%, 10%; Difference of 12 percentage points
+- Home loans: 15%, 7%, 7%; Difference of 8 percentage points
+- Auto loans: 20%, 5%, 15%; Difference of 15 percentage points
+- Maximum Value is 30% (Personal loans, Credit cards); Maximum Volume is 48% (Personal loans), Minimum 5% (Auto loans); Maximum Ticket size is 15% (Auto loans), Minimum -12% (Personal loans)
+
+[Pattern Characteristics]
+- Across all categories, the difference in proportion between Value and Volume is significant; Personal loans and Auto loans show the largest gaps, while Consumer durables is the closest.
+- Ticket size is negative for Personal loans and Consumer durables, and positive for the remaining three categories, with Auto loans significantly higher than the others.
+- Value and Volume do not follow a uniform ranking; the combination of the three metrics across different categories presents distinctly different structural configurations.
+
+[Core Insights]
+Core Conclusion: Different loan categories are highly differentiated in terms of contribution structure and average ticket size.
+
+Business Implications:
+- Personal loans are driven by transaction volume, with a relatively low average ticket size.
+- Contribution to value (amount) from Credit cards and Auto loans relies on the average ticket size.
+- Home loans are relatively neutral in both value proportion and average ticket size.
+
+Risk Focus:
+- If the Personal loans Ticket size, currently at -12%, declines further, it may dilute the overall yield.
+- Auto loans Ticket size is as high as 15%; if Value drops below 10%, it will weaken its structural contribution.

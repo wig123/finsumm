@@ -1,0 +1,27 @@
+**[Chart Components]**
+- Type: Stacked Bar Chart
+- Title/Annotation: The reduction in emissions targeted for the Transport stands at -16% vs. 2019
+- X-axis: Year: 1990, 1995, 2000, 2005, 2010, 2015, 2019, 2030E
+- Y-axis: Carbon emissions (million tonnes), Range 0–1,000
+- Legend: Cars, Heavy vehicles, Aviation, Vans, Other road transport, Inland navigation, Rail
+
+**[Data Relationships]**
+- The overall emission target for 2030E is explicitly set at -16% compared to 2019 (as noted in the chart).
+- The unit for the Y-axis is "million tonnes," and the total volume for all years is less than 1,000 (based on the scale).
+- Time points: The initial period is 1990, the latest historical point is 2019, and the end/forecast point is 2030E.
+- Composition relationship: The total volume for each year is formed by the stacked summation of emissions from 7 types of transport modes.
+
+**[Pattern Characteristics]**
+Overall, the total emissions across the years increased first between 1990 and 2019, then slightly declined, remaining at a relatively high level around 2019. Structurally, Cars account for the largest proportion in all years, followed by Heavy vehicles. Other transport modes account for a smaller proportion and are generally stable. The total height (volume) in 2030E is significantly lower compared to 2019, primarily resulting from the reduction in the Cars and Heavy vehicles segments. The magnitude of change in other categories is relatively limited.
+
+**[Core Insights]**
+Core Conclusion: The 2030E emission target primarily relies on road transport emission reduction for achievement.
+
+Business Implications:
+- Road passenger and freight transport are the key sources for effective emission reduction.
+- Policies related to cars and heavy vehicles will directly determine the degree of target completion.
+- The scope for contribution from other transport modes to the overall target is limited.
+
+Risk Focus:
+- If the total emission reduction in 2030E is less than -16%, the established target constraints may not be met.
+- If the emission reduction for Cars or Heavy vehicles is less than 10%, the overall emission reduction gap will significantly widen.

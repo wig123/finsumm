@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: 100% Stacked Column Chart
+- Title: Originations by Ticket size (Value)
+- X-axis: Period (FY18, FY19, FY20, FY21, FY22, FY23, 1Q24)
+- Y-axis: Proportion (Scale not labeled; each column height equals 100%)
+- Legend: Ticket Size Segments—<10k (Red), 10k-25k (Gray), 25k-50k (White), >50k (Light Orange)
+
+[Data Relationships]
+- FY18 Composition (by <10k, 10k-25k, 25k-50k, >50k): 6.7%, 45.1%, 32.1%, 16.1%.
+- 1Q24: 4.1%, 36.3%, 37.5%, 22.1%.
+- 10k-25k Peak/Trough: 47.8% (FY21) / 36.3% (1Q24), magnitude 11.5 pct.
+- <10k Peak/Trough: 7.7% (FY21) / 4.1% (1Q24), magnitude 3.6 pct.
+- 25k-50k Peak/Trough: 37.5% (1Q24) / 27.1% (FY20), magnitude 10.4 pct.
+- >50k Peak/Trough: 23.0% (FY23) / 16.1% (FY18), magnitude 6.9 pct.
+- FY18 compared to 1Q24: 10k-25k -8.8 pct, <10k -2.6 pct, 25k-50k +5.4 pct, >50k +6.0 pct.
+
+[Pattern Characteristics]
+- The structure across all periods is consistently dominated by the 10k-25k and 25k-50k segments, while the <10k segment remains in a low proportion range.
+- The 10k-25k segment was relatively high during the middle periods, then gradually declined, while the 25k-50k segment continuously rose from a lower level, becoming the highest proportion segment in the final period.
+- The >50k segment slowly increased throughout the entire period, slightly retreating after reaching a relative high point in FY23. The overall structure shifted from small-to-medium ticket sizes towards medium-to-large ticket sizes, with no significant single-period abrupt changes.
+
+[Core Insights]
+Core Conclusion: The structure of new originations is concentrating towards higher ticket sizes.
+
+Business Implications:
+- The proportion of small amounts is decreasing, indicating an increase in the average ticket size per customer.
+- The mid-range 25k-50k segment has become the primary source of incremental volume.
+- The weight of large amounts (>50k) has increased, making the portfolio more reliant on a few large transactions.
+
+Risk Focus:
+- If the >50k proportion consistently exceeds 23%, a single large default will amplify losses.
+- If the <10k proportion remains below 4% for an extended period, it is detrimental to diversification and coverage of lower-tier customer segments.

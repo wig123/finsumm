@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Timeline flowchart (annual nodes connected by arrows).
+- Node Years: 2012, 2014, 2015, 2016, 2018, 2021.
+- Node Titles are: Start cloud computing business; Commercial desktop virtualization products aDesk was launched; Commercial hyper convergence products; Cloud host product was launched; Enterprise distributed storage was launched; Data manager platform was launched.
+- Each node contains a red title box and a blue description box; no axes or legend.
+
+[Data Relationships]
+- Total number of nodes is 6, covering 2012 to 2021, a time span of 9 years.
+- The 2015 node provides 2022 market share: Hyper-convergence 13.6%, Desktop Cloud 31.5%, a difference of 17.9 percentage points; both are "ranked in the top three."
+- 2018 node values: Number of customers > 20,000; Project scale is 300 PB level.
+- Descriptions for other years do not provide explicit quantitative values.
+
+[Pattern Characteristics]
+- Nodes on the timeline advance unidirectionally by year, with unequal intervals between nodes; the intervals from 2016 to 2018 and 2018 to 2021 are relatively longer.
+- Events progress from the initiation of basic business to the sequential addition of multiple product lines. Quantitative information attached to later nodes focuses more on customer count, project scale, and segmented market proportion.
+- Overall, the structure gradually expands from early single descriptions to composite information containing multiple indicators, with no retraction or repetition phases observed.
+
+[Core Insights]
+Core Conclusion: The enterprise has established a multi-level, relatively leading market layout in cloud-related products.
+
+Business Implications:
+- Leading market share in segmented fields, indicating a strong competitive position.
+- Customer and project scale metrics reflect high market coverage.
+- Products ranging from virtualization to data management reflect the gradual extension of the capability chain.
+
+Risk Concerns:
+- If the hyper-convergence market share falls below 13.6%, the existing competitive landscape may be weakened.
+- If the number of customers falls below 20,000 or the 300 PB project scale shrinks, it could lead to reduced revenue and weakened economies of scale.

@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Bar Chart
+- Title: USD over/(under) valuation
+- X-axis: Year (1980–2018, marked annually)
+- Y-axis: Percentage, range approximately -20% to 20%
+- Legend: None; specific percentages are marked on each bar; includes horizontal grid lines
+
+[Data Relationships]
+- Initial period 1980 was -11.4%, final period 2018 was 10%
+- Global maximum was 15% (approx. 2003/2004), global minimum was -11.4% (1980)
+- Zero value years: 1996, 2000, 2010, 2011, 2014
+- Recent values: 2015 and 2016 were 12% each; 2017 was 7%; 2012 was -1%
+- Early examples: 1982 -7%, 1984 2%, 1985 7%, 1986 14%, 1988 4%, 1990 1%
+- Other examples: 1992 -3%, 1993 -2%, 1995 -3%, 1998 -3%, 2008 1%, 2009 3%, 2013 3%
+
+[Pattern Characteristics]
+Overall, values repeatedly cross between the negative and positive ranges, showing alternating multi-stage uptrends and pullbacks. In the early 1990s, values were mainly concentrated near zero, slightly negative. After 1998, they entered a high positive range plateau lasting several years, forming a distinct peak around 2002–2004. Although values approached or reached high positive levels multiple times thereafter, they did not exceed the previous peak. After a brief pullback around 2012, they returned to the medium-to-high positive range.
+
+[Core Insights]
+Core Conclusion: USD valuation has undergone multiple repricings over the long term, remaining generally high in recent years.
+
+Business Implications:
+- Valuation levels show significant volatility over the long term, lacking a single central tendency.
+- A historically high overvaluation phase occurred in the early 2000s.
+- Valuation has been maintained in a relatively high range since 2015–2016.
+
+Risk Concerns:
+- When exceeding approximately 15%, it may trigger pressure for a more significant correction.
+- A rapid drop from around positive 10% to below zero could trigger a substantial revaluation of finance and asset pricing.

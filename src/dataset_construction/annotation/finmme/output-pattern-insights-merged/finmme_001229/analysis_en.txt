@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Time series line chart, with scatter/triangle markers
+- Title: Kansai Nerolac Paints; Noted in the upper right corner: “As of 06-Feb-2024,” Currency = INR
+- X-axis: Date, range approximately 2021/07/01 to 2024/01/01, showing key ticks (2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01)
+- Y-axis: Price, range 0.00 to 500.00 (INR)
+- Legend: Black line = Closing Price; Green triangle = Target Price Change; Blue dot = Recommendation Changes
+- Source Annotation: LSEG, Nomura
+
+[Data Relationships]
+- Initial closing price (around 2021/07/01) ≈ 375 INR; Final price (around 2024/01/01) ≈ 345 INR; Difference ≈ -30 INR
+- Highest closing price ≈ 420 INR (2021/10–2022/01); Lowest point ≈ 250 INR (2022/07); High-low difference ≈ 170 INR
+- Recommendation change blue dots 2 times: approximately in 2022/07 and 2023/01
+- Target price change green triangles 9 times, marked values approximately: 480, 500, 330, 435, 405, 385, 380, 415, 430 INR (distributed chronologically from 2021/08 to 2023/12)
+- Closing price range during 2022/06 to 2022/08 approximately 250–320 INR; 2023/06 to 2023/09 approximately 260–310 INR
+
+[Pattern Characteristics]
+- The price initially showed a slight upward movement in the early part of the sample, followed by a significant decline. Subsequently, it fluctuated multiple times within a lower range, accompanied by periodic recoveries.
+- The frequency of target price adjustments is significantly higher than recommendation adjustments, and most target price levels have consistently remained above the corresponding closing price.
+- Both recommendation changes occurred near periods where the price was relatively low and the volatility range was narrowing.
+
+[Core Insights]
+Core Conclusion: The market price has consistently traded below the target price and lacks synchronous follow-through.
+
+Business Implications:
+- Current valuation reflects a discount relative to the research pricing.
+- Frequent target price adjustments indicate relatively frequent revisions of research opinions.
+- Infrequent recommendation changes suggest a slow pace of rating updates.
+
+Risk Concerns:
+- If the price continues to trade below 330 INR for a period, it may weaken the reference value of the target price.
+- If the price approaches the 250 INR low again, it may trigger a significant decline in investor confidence.

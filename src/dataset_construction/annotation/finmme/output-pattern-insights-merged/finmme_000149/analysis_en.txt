@@ -1,0 +1,40 @@
+[Chart Components]
+- Type: Line chart
+- Title: None
+- Axes:
+  - X-axis: Year range 2010 to 2022, marked annually
+  - Y-axis: Cargo throughput (tons), scale range approximately 0 to 14 tons, with 2-ton intervals
+- Legend:
+  - Dark line represents Short Straits
+  - Light line represents Other routes
+
+[Data Relationships]
+- Key Metrics and Changes:
+  - Short Straits reached its peak in 2011, approximately 13 tons.
+  - Starting from 2011, Short Straits throughput gradually declined, reaching approximately 10 tons by 2022.
+  - Other routes maintained relatively stable throughput throughout the period, fluctuating around 8 tons.
+
+- Extremum Comparison:
+  - Short Straits' maximum value was 13 tons (2011), and the minimum value was 10 tons (2022).
+  - Other routes' throughput showed no significant extremum changes during this period, consistently fluctuating near 8 tons.
+
+- Key Trends:
+  - Short Straits exhibited a continuous downward trend between 2010 and 2022.
+  - Other routes' throughput remained stable, showing no obvious upward or downward trend.
+
+[Pattern Characteristics]
+- The two lines remained distinctly separated throughout the entire period, with the dark line generally positioned above the light line.
+- The dark line showed a single peak point around 2011, followed by a continuous decline accompanied by minor fluctuations.
+- The light line fluctuated slightly within an approximately horizontal band, with no crossovers or abrupt changes during the period.
+
+[Core Insights]
+Core Conclusion: Transportation network stability is primarily supported by Other routes.
+
+Business Implications:
+- The availability of Short Straits is insufficiently robust
+- Scheduling and capacity configuration require increased redundancy
+- Evaluation and resources should emphasize the contribution of stable routes
+
+Risk Focus:
+- Short Straits falls below 10 tons, causing demand overflow to other routes
+- Other routes fall below 8 tons, leading to insufficient network buffer and resulting in delays

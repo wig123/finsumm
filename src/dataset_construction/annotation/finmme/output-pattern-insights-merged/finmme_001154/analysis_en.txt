@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Bar chart (Red) + 4-period moving average dashed line (Black).
+- Title: Not displayed.
+- X-axis: Quarters, from 1QFY16 to 3QFY24.
+- Y-axis: Values 0—9000, scale interval 1000, unit not specified.
+- Legend: Domestic formulation; 4 per. Mov. Avg. (Domestic formulation).
+
+[Data Relationships]
+- 1QFY16 bar approximately 3000–3500; 3QFY24 approximately 7700–8000.
+- Peak value: 4QFY24 approximately 8000–9000; Trough value: 4QFY16 approximately 2500–3000.
+- Difference between high and low approximately 5000–6500.
+- 2QFY22 approximately 7000 (coincides with the scale line); 1QFY22 approximately 6100–6300; 1QFY23 approximately 5400–5600.
+- Moving average: Approximately 3000 at the beginning of FY17, rising to approximately 7400–7600 by 3QFY24; difference approximately 4400–4600.
+
+[Pattern Characteristics]
+Overall, the quarterly bars have generally risen stepwise from a moderate level toward a higher range since FY16, punctuated by several brief pullbacks and subsequent surges. The 4-period moving average line has followed a smooth, unidirectional upward trajectory since FY17, showing slight deviations from the bars in localized periods but without severe crossovers. The amplitude of fluctuation for the bars has relatively widened after FY20, and the FY23–FY24 period has consistently remained in the globally higher range.
+
+[Core Insights]
+Core Conclusion: The scale of the domestic formulation business continues to expand, demonstrating stable growth amidst volatility.
+
+Business Implications:
+- Long-term growth potential is relatively clear, with a gradual increase across the historical range.
+- Short-term quarterly performance is not smooth, requiring attention to rhythm management.
+- Importance to the overall revenue structure has significantly increased starting from FY23.
+
+Risk Focus:
+- If a single quarter falls below the FY21–FY22 median of approximately 5000, it may break the existing growth channel.
+- If performance remains below the pre-FY23 high of approximately 6000 for several consecutive quarters, it may signal weakening momentum requiring strategic adjustment.

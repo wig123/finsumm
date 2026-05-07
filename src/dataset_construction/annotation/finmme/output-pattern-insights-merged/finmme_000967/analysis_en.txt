@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Dual line chart, with markers.
+- Legend: Red diamond "AI will transform our company"; Gray circle "AI will transform our industry".
+- Title/Annotation: Text within the shaded area "Companies expect AI will have a significant impact on their business and industry soon".
+- X-axis: Time categories—Now, In 1 year, In 2-3 years, In 4-5 years, In 6-10 years, More than 10 years.
+- Y-axis: % of respondents, range approximately 0% to 35%.
+
+[Data Relationships]
+- Company Series (Red): Now approx. 10%; In 1 year approx. 14%; In 2-3 years approx. 33% (peak); In 4-5 years approx. 21%; In 6-10 years approx. 12%; More than 10 years approx. 7% (lowest). Range approx. 26 percentage points.
+- Industry Series (Gray): Now approx. 8% (lowest); In 1 year approx. 10%; In 2-3 years approx. 20%; In 4-5 years approx. 28% (peak); In 6-10 years approx. 22%; More than 10 years approx. 10%. Range approx. 20 percentage points.
+- Period-over-Period Comparison Difference (Red - Gray): Now approx. +2 percentage points; In 1 year approx. +4; In 2-3 years approx. +13; In 4-5 years approx. -7; In 6-10 years approx. -10; More than 10 years approx. -3.
+
+[Pattern Characteristics]
+- Both curves initially rise and then fall in the first half, forming distinct single peaks at different time points. The Company Series peak is earlier and sharper, while the Industry Series peak is slightly lagged and flatter.
+- Both series have similar values in the early stages, show significant divergence in the middle stages, and converge again in the later stages, though both are below the mid-stage levels.
+- A crossover occurs near the middle of the time axis. After the crossover, the Industry Series is generally higher than the Company Series, and the difference remains at a moderate level in the mid-to-late stages.
+
+[Core Insights]
+Core Conclusion: Enterprises judge the impact on themselves to be shorter-term, and the impact on the industry to be more mid-term.
+
+Business Implications:
+- Enterprises are more focused on the near-term operational impact of AI.
+- The industry level is viewed as a mid-term restructuring and competitive landscape adjustment.
+- The pace of internal transformation and external environmental changes is asynchronous in the short to medium term.
+
+Risk Concerns:
+- If the expected company impact exceeds 30% within 2-3 years while the industry impact is less than 25%, it may lead to insufficient preparation for external competition.
+- If the expected industry impact exceeds 25% within 4-5 years while the company impact is below 20%, there may be a disconnect between transformation investment and industry changes.

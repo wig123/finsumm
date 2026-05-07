@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Line Chart
+- Title: KPJ Healthcare
+- Time and Currency: As of 16-Feb-2024; Currency = MYR
+- X-axis: Date scale markers at 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01
+- Y-axis: Price range approximately 0.00—1.70
+- Legend: Closing Price (Line), Target Price Change (Green Triangle), Recommendation Changes (Blue Dot)
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Closing price range approximately 0.83—1.66; Highest approximately 1.66 (early 2024), Lowest approximately 0.83 (H2 2022); High-low difference approximately 0.83
+- Closing price at the far left approximately 1.05; Latest approximately 1.66; Difference between the two points approximately +0.61
+- Target price changes totaled 6 times, marked values approximately: 1.20, 1.10, 1.02, 1.25, 1.35, 1.55; First-to-last difference approximately +0.35
+- No blue "Recommendation Changes" markers observed in the chart
+
+[Pattern Characteristics]
+- The closing price experienced a period of relative stability followed by weakness from mid-2021 to H2 2022. Subsequently, it showed a continuous upward trend starting from H2 2022, approaching the high end of the range in early 2024. The overall volatility is moderate with no sharp gapping.
+- The green target price markers show a step-like structure of gradual upward movement, with clear intervals between each change, and mostly occurring after the closing price has already experienced a period of ascent.
+- No blue recommendation change markers appeared in the chart, indicating an absence of changes in recommendation status throughout the entire period.
+
+[Core Insights]
+Core Conclusion: Stock price movement and target price adjustments align in direction, but the pace of expectation upward revision is relatively lagged.
+
+Business Implications:
+- Stock price performance creates continuous positive feedback for analyst expectations.
+- Target price updates are largely reactive, following market price changes.
+- The lack of recommendation changes suggests the rating view maintains a singular stance.
+
+Risk Concerns:
+- If the stock price significantly exceeds 1.55 and a new target price is absent, the assessment of upside potential may become inaccurate.
+- If the stock price falls below 1.10 while the target price remains high, it could lead to investor expectation mismatch.

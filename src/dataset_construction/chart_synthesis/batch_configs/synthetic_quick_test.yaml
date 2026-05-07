@@ -1,0 +1,23 @@
+# 快速测试模拟数据修复
+batch_name: "synthetic_quick_test"
+output_base_dir: "./batch_output"
+
+execution:
+  parallel: false
+  max_workers: 1
+
+charts:
+  # 测试 waterfall（之前失败的）
+  - chart_type: waterfall
+    language: zh-CN
+    theme: fiscal_policy
+    task: explain
+    data_constraints: {}
+    
+  # 测试 treemap
+  - chart_type: treemap
+    language: en-US
+    theme: asset_management
+    task: compare
+    data_constraints: {}
+

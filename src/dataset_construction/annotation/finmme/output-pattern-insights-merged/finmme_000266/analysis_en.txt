@@ -1,0 +1,23 @@
+[Chart Components]
+Type: Time series line chart. X-axis: Jan-21—Jan-25. Left Y-axis: Yield(%), range 4—14; Right side is the color scale: Total Return(%), range -30—30. Legend: Solid line "USD HY yield"; Dots "+/- 5% TR"; Diamonds "+/- 10% TR". Top-left annotation: Last 12m ret: 12.63%. The Jan-24—Jan-25 interval on the right side overlays colored vertical bars and dots/diamonds.
+
+[Data Relationships]
+- Total Return for the last 12 months: 12.63%.
+- The yield line is slightly below 4% at its lowest point and close to 10% at its highest, a difference of approximately 6 percentage points.
+- Approximately 4% in Jan-21, approximately 7.8% at the end of Jan-25, a difference of approximately 3.8 percentage points between the start and end of the period.
+- The color scale shows the Total Return range: -30% to +30%; the dots/diamonds correspond to ±5% and ±10%, respectively.
+
+[Pattern Characteristics]
+After rising from the starting point, the yield curve forms a higher plateau in the middle section, then slightly retreats and remains in the medium-to-high range, with several local peaks in the overall trend. The interval after Jan-24 is covered by a continuous color band, showing a symmetrical gradient distribution from deep red to deep blue, overlaid with two parallel sequences of dots and diamonds sloping upwards to the right. The color band and the dots/diamonds together form a banded structure distributed above and below the zero axis, with no significant outliers falling outside this structure.
+
+[Core Insights]
+Core Conclusion: At the current yield level, Total Return exhibits a strong asymmetrical space.
+
+Business Implications:
+- Historical performance shows that coupon income contributes highly to Total Return.
+- Near the current level, the upside potential is relatively more concentrated.
+- Changes in yield impose significant constraints on the medium-to-short-term return range.
+
+Risk Focus:
+- If Total Return falls towards -10%, it may erode the full year's coupon income.
+- If Total Return approaches the -30% range, significant capital drawdown may occur.

@@ -1,0 +1,31 @@
+[Chart Components]
+- Combination chart: Red bars represent Inventory (TWD mn, Left Axis); Gray line represents DOI (Days, Right Axis).
+- Title not displayed.
+- X-axis: Time, labeled from 2011 to 2023 (dense scale).
+- Left Y-axis range: 0–5,000 (TWD mn).
+- Right Y-axis range: 0–250 (Days).
+- Legend: Inventory (TWD mn), DOI (Days, RHS).
+
+[Data Relationships]
+- Inventory peak approximately 4,300 TWD mn (near 2022/2023).
+- Period-end inventory approximately 3,200–3,800 TWD mn; early inventory mostly ≤1,000 TWD mn.
+- DOI peak approximately 225 days (near 2023); lowest approximately 50 days (between 2011–2015).
+- Period-end DOI approximately 150–160 days.
+- Peak-to-trough difference: Inventory approximately 3,300–4,200 TWD mn; DOI approximately 170–175 days.
+
+[Pattern Characteristics]
+- The red inventory bars, starting from an early low range, show an overall step-like increase, forming a distinct high plateau later near 2022–2023, where the peak and period-end levels are close.
+- The gray DOI curve fluctuates around a lower range in the first half, gradually rises in the middle-to-later stages, and simultaneously forms a sharp peak during the inventory surge phase, followed by a slight decline but remaining at a relatively high level.
+- Throughout the entire period, Inventory and DOI generally move in the same direction, with high points and low points highly overlapping on the time axis. The end point does not show a return to the early low-volatility range.
+
+[Core Insights]
+Core Conclusion: Inventory scale and turnover efficiency rise concurrently, leading to a significant increase in inventory capital commitment.
+
+Business Implications:
+- Implication 1 Current reliance on inventory has increased, resulting in a larger proportion of stock.
+- Implication 2 Turnover efficiency has declined, with working capital increasingly locked up in inventory.
+- Implication 3 The later structure is more concentrated in a high-inventory, high-DOI state, reducing flexibility.
+
+Risk Focus:
+- Risk Point 1 If inventory consistently exceeds 4,000 TWD mn, capital commitment pressure may significantly squeeze other expenditures.
+- Risk Point 2 If DOI remains above 200 days for an extended period, it may lead to significant increases in inventory impairment or disposal costs.

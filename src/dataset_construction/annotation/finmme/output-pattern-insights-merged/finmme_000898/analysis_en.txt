@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Product evolution schematic (gray arrow from left to right), including various packaging images and text annotations.
+- Title: No explicit title visible.
+- Axes: No axes or scales.
+- Legend: No legend.
+- Key annotated elements: Topology (“Sixpack,” “Half-bridge”), Cooling method (Single side direct/indirect, Dual side indirect), Device/Voltage (“750V IGBT & diode,” “750V, 1200V SiC MOSFET,” “1200V SiC MOSFET”).
+- Brand identification: “ST” logo in the bottom left corner.
+
+[Data Relationships]
+- Total number of nodes: 6, consisting sequentially of 2 Sixpack and 4 Half-bridge configurations.
+- Cooling method count: Single side direct cooling 2; Single side indirect 3; Dual side indirect 1.
+- Device type count: IGBT & diode 1; SiC MOSFET 5.
+- Voltage label occurrences: 750V appears in 5 nodes; 1200V appears in 5 nodes.
+- Voltage combination: Nodes simultaneously labeled with 750V and 1200V 4 (Nos. 2–5); Nodes labeled only with 750V 1 (No. 1); Nodes labeled only with 1200V 1 (No. 6).
+
+[Pattern Characteristics]
+The overall pattern follows a linear sequence along the gray arrow, transforming packaging form and topology type from left to right, primarily transitioning from Sixpack to Half-bridge. The cooling method is predominantly single-sided in the middle section, with a dual-sided solution appearing at the end. Devices transition from IGBT & diode on the far left to exclusively SiC MOSFETs in the middle and later stages. Voltage labels are dominated by dual-voltage combinations in the middle section, retaining only single-voltage configurations at both ends.
+
+[Core Insights]
+Core Conclusion: The product portfolio is concentrating from traditional solutions toward high-voltage SiC half-bridge modules.
+
+Business Implications:
+- The topology adjustment reflects a focus on discrete half-bridge modules.
+- The increasing proportion of SiC indicates a growing reliance on high-efficiency devices.
+- The evolution of the cooling structure points toward application scenarios requiring higher power density.
+
+Risk Considerations:
+- If the demand proportion for 750V decreases in the future, the utilization rate of single-voltage nodes at the beginning and end of the sequence may decline.
+- If the market penetration of terminal modules supporting only the 1200V solution is insufficient, the payback period for dual-sided cooling investment may be extended.

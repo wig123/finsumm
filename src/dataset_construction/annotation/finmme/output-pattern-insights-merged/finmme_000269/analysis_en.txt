@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Line chart superimposed with a step line
+- Title: Not displayed
+- X-axis: Time, scale from 01-21 to 01-24, marked approximately quarterly
+- Y-axis: Price unit is EUR, range approximately EUR0.00 to EUR5.00, scale approximately every EUR0.50
+- Legend: Closing price (Cyan line); Target price (Grey-blue step line)
+- Others: Several red dots marked on the line (Legend not specified)
+
+[Data Relationships]
+- 01-21: Closing ≈ EUR4.3; Target ≈ EUR4.5
+- Peak near 07-21: Closing ≈ EUR4.8 (Red dot)
+- Trough near 10-22: Closing ≈ EUR2.1; Target ≈ EUR2.5; Difference ≈ 0.4
+- 01-24: Closing ≈ EUR3.0; Target ≈ EUR3.0; Difference ≈ 0–0.1
+- Target price step nodes (approximate values): 10-21 ≈ EUR4.8; 01-22 ≈ EUR4.4; 04-22 ≈ EUR4.0; 07-22 ≈ EUR3.5; 10-22 ≈ EUR2.5; 10-23 ≈ EUR2.5; 01-24 ≈ EUR3.0
+- Early red dot values are mostly in the EUR4.4–4.8 range, later values are approximately in the EUR2.5–3.0 range
+
+[Pattern Characteristics]
+The line initially shows a slight upward movement in the first half, then turns into a sustained decline, forming a prolonged low-level horizontal range in the middle-to-late section, with a slight lift at the end. The step line shows a stepwise downward shift at multiple points in time, consistent with the overall direction of the line but with a slower adjustment pace. Red dots are mostly concentrated at local highs of the line, gradually shifting from the high range in the early period to the mid-to-low range in the later period.
+
+[Core Insights]
+Core Conclusion: After multiple downward adjustments to the target price, it has re-converged with the closing price.
+
+Business Implications:
+- The gap between price and expectation has narrowed, reducing valuation divergence.
+- The pricing center of gravity has clearly shifted downward in the medium term.
+- Later prices fluctuate around the new target, with a more concentrated range.
+
+Risk Focus:
+- If the closing price falls below EUR2.5 again, the current equilibrium range may be broken.
+- If the target price is further reduced to EUR2.0 or below, it may trigger further selling pressure.

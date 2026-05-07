@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Dual Line Chart
+- Title: Not displayed
+- Legend: Red line "System credit growth (% y-y)", Gray line "System deposit growth (% y-y)"
+- X-axis: Time, Feb-14 to Feb-24 (labeled annually in February)
+- Y-axis: Percentage, 0%—20%, scale approximately every 2%
+- Right-side labels: Red line 16%, Gray line 13%
+
+[Data Relationships]
+- Feb-24: Credit 16%, Deposit 13%, difference of 3 percentage points.
+- Feb-14: Credit approximately 14%, Deposit approximately 15%, difference of approximately 1 percentage point.
+- Credit high value approximately 18% (near 2023); low value approximately 4% (near 2018 and 2021); range approximately 14 percentage points.
+- Deposit high value approximately 16% (near 2017); low value approximately 3% (near 2018); range approximately 13 percentage points.
+- Near 2019: Both values are approximately 10%.
+- Near 2022: Credit approximately 8%, Deposit approximately 9%.
+
+[Pattern Characteristics]
+The two curves generally show multiple large fluctuations, with clear low point ranges appearing between 2017–2021. The credit curve rapidly increased after forming a deep "V" shape near 2018 and 2021, while the deposit curve first showed a sharp peak near 2017, followed by relatively smoother volatility around the central axis. There are multiple periods where the two are close or overlap, and also recent periods where credit is significantly higher than deposits.
+
+[Core Insights]
+Core Conclusion: The pace of recent credit expansion is significantly faster than the deposit growth rate.
+
+Business Implications:
+- The support provided by funding sources for credit extension is weakening.
+- The dependence of asset side scale on the liability side is increasing.
+- Pressure on liquidity and funding cost management is intensifying.
+
+Risk Focus:
+- If credit growth persistently remains ≥16% and deposits ≤13%, it may lead to increased reliance on interbank financing and pressure on net interest margins (NIM).
+- If the difference between the two is ≥5 percentage points and persists for more than one year, it may trigger liquidity mismatch and regulatory constraint pressure.

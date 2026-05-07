@@ -1,0 +1,34 @@
+[Chart Components]
+- Type: Infographic/Key Points Card
+- Title: TCPL to acquire upto 100% stake in Organic India
+- Layout: Brand and key items on the left, data badges on the right; below is the subtitle "Unparalleled end-to-end organic supply chain" and two explanatory notes.
+- Axes: None
+- Legend: None
+
+[Data Relationships]
+- Planned Acquisition Proportion: Up to 100% equity stake
+- Market Size: INR 82,000 Cr
+- Brand Size: INR 350+ Cr
+- Quantitative Comparison: 350/82,000≈0.43%
+- Gross Margin: 55%+
+- Brand Tenure: 25+ years
+- Proportion of Revenue from the US: ~40%+
+- Organic Farmers Covered: ~12k+
+- Number of Wellness Products: 100+
+
+[Pattern Characteristics]
+- Information is presented side-by-side with key points on the left and badges on the right, covering dimensions such as scale, profitability, geography, and products.
+- The numerical structure is diverse but shows disparity: Brand size is significantly small relative to the market, while Gross Margin and overseas revenue proportion are relatively high.
+- The bottom section focuses on the end-to-end supply chain and certification process, forming a structured supplement to the main content.
+
+[Core Insights]
+Core Conclusion: The target for acquisition is small in scale but has high gross margin and a high proportion of overseas revenue.
+
+Business Implications:
+- Low market share; growth relies on increasing market penetration/share.
+- Gross margin level is favorable for profit and investment.
+- Overseas proportion increases regional sensitivity.
+
+Risk Focus:
+- US revenue proportion ≥40%; regional fluctuations may suppress revenue.
+- If Gross Margin falls below 55%, profitability and valuation will face pressure.

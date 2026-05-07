@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Line chart, including three series: BOE (Black), LGD (Red), Sharp (Gray)
+- Annotation: Top-left corner labeled "2018 = 100"
+- X-axis: Time range 2018 to 2024, marked by annual increments
+- Y-axis: Index scale range 0–200, with horizontal grid lines
+- Legend: Located in the top-right corner, indicating the three series and corresponding colors
+
+[Data Relationships]
+- Initial values in 2018: BOE approximately 110, LGD approximately 100, Sharp approximately 95
+- Low point values in 2019: BOE approximately 45, LGD approximately 55, Sharp approximately 30
+- High point values in 2021: BOE approximately 130, LGD approximately 90, Sharp approximately 60
+- Final values around 2024: BOE approximately 65, LGD approximately 45, Sharp approximately 25
+- Peak-to-trough difference: BOE approximately 85 (130−45), LGD approximately 35 (90−55), Sharp approximately 30 (60−30)
+- Gap in final values in 2024: BOE vs. LGD approximately 20 (65−45), BOE vs. Sharp approximately 40 (65−25), LGD vs. Sharp approximately 20 (45−25)
+
+[Pattern Characteristics]
+The three series were close starting from 2018, showed a synchronized low point in 2019, followed by a phased increase around 2021 accompanied by several brief spikes.
+BOE generally remains at the top with the largest amplitude, LGD is in the middle, and Sharp is consistently lower and flatter over the long term.
+After 2022, the three series operate within a narrow range at a lower level, with the spacing remaining moderate in the final period.
+
+[Core Insights]
+Core Conclusion: BOE exhibits higher contribution, while Sharp acts as a drag on the overall performance.
+
+Business Implications:
+- Relative performance is dominated by BOE
+- LGD and Sharp show lower sensitivity
+- Difficulty in achieving targets increases after the base year
+
+Risk Concerns:
+- BOE ≤ 45: Widening gap compared to 2018, increasing performance pressure
+- Sharp ≤ 25: Overall rating is pulled down, potentially requiring weight reduction

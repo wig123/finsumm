@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Pie chart
+- Title: Not displayed
+- Axes: No axes
+- Legend: 12 categories (Taiwan, Australia, Singapore, Japan, U.S., UK, South Korea, Hong Kong SAR, Canada, Macao SAR, Malaysia, Thailand)
+- Data Labels: Numerically labeled next to each sector (e.g., 22, 19, 18, 8, etc.)
+
+[Data Relationships]
+- Values: Taiwan 22; Australia 19; Singapore 19; UK 18; U.S. 8; Japan 5; South Korea 4; Malaysia 3; Canada 2; Macao SAR 2; Hong Kong SAR 1; Thailand 1
+- Maximum 22 (Taiwan), Minimum 1 (Hong Kong SAR, Thailand), Difference 21
+- Australia and Singapore are equal (19 each); UK is 1 lower than them
+- The top three items total 60; the top four items total 78
+- U.S. 8 is 10 less than UK; Japan 5 is 3 less than U.S.
+- The total sum is 104 (calculated by adding all labeled values)
+
+[Pattern Characteristics]
+The overall structure shows a clear head concentration pattern, where a few sectors occupy the majority of the area, and the remaining numerous sectors are small and dispersed. The areas of the top three to four categories are similar, forming a relatively tight main cluster. Following this, the sector areas rapidly decrease. The long tail is composed of multiple extremely small sectors, indicating a highly uneven distribution overall.
+
+[Core Insights]
+Core Conclusion: Regional distribution is highly concentrated in a few markets.
+
+Business Implications:
+- Resources or business volume primarily rely on the top four markets.
+- Overall performance is more susceptible to volatility in the leading markets.
+- Tail markets contribute limitedly to the overall results.
+
+Risk Concerns:
+- If the value of either Taiwan or Australia falls below 10, the overall scale will experience a significant contraction.
+- If the value of a single market exceeds 30, it will further amplify the concentration, leading to a decrease in resilience against shocks.

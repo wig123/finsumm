@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Dual-axis line chart
+- Title: Not displayed
+- Legend: Red "Price," Gray "Rel CSI 300"
+- X-axis: Time, range Apr 23 to Mar 24 (labeled monthly)
+- Left Y-axis: Currency labeled as CNY, scale approximately 17.5, 20, 22.5, 25, 27.5, 30, 32.5, 35
+- Right Y-axis: Scale 80, 90, 100, 110, 120 (corresponding to Rel CSI 300)
+
+[Data Relationships]
+- Initial Period (Apr 23): Price approximately 33–34 CNY; Rel CSI 300 approximately 100
+- Final Period (Mar 24): Price approximately 22.5–23 CNY; Rel CSI 300 approximately 90; a decrease of approximately 10–11 CNY and 10 points, respectively, compared to the initial period
+- Price peaked at approximately 35 CNY (Apr–May 23), bottomed at approximately 18 CNY (Feb 24); range difference approximately 17 CNY
+- Rel CSI 300 peaked at approximately 115 (Dec 23), bottomed at approximately 80 (Feb 24); range difference approximately 35 points
+- Corresponding values for Feb 24: Price approximately 18 CNY; Rel CSI 300 approximately 80
+
+[Pattern Characteristics]
+- Both curves moved downward from high levels during the sample period, interspersed with multiple short-term rebounds and pullbacks, generally lacking a prolonged consolidation phase.
+- Price and Rel CSI 300 generally moved in the same direction most of the time, but the synchronicity was not perfectly consistent: for example, in December 2023, Rel CSI 300 was at a relatively high level, while Price was only in the middle range; in February 2024, both simultaneously fell into their respective low ranges.
+- In the final segment (March 2024), both lines showed a relatively concentrated and steep rebound from near their lows, contrasting with the preceding slow decline.
+
+[Core Insights]
+Core Conclusion: The underlying asset's performance relative to the index is generally weak, showing periodic correlation but requiring high timing precision.
+
+Business Implications:
+- Limited relative index advantage; insufficient sustainability of excess returns (alpha).
+- Moderate correlation with the index; limited diversification effect if held in isolation.
+- Frequent short-term rebounds, making it more suitable for tactical trading rather than passive holding.
+
+Risk Concerns:
+- Price falling below 20 CNY and persisting for one month may trigger further redemption or position reduction pressure.
+- Rel CSI 300 approaching 80 again without synchronous Price recovery may amplify relative drawdown and performance evaluation pressure.

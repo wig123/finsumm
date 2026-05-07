@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Multi-series line chart, comprising three solid lines and three corresponding colored horizontal dashed lines (labeled "Current")
+- Y-axis: Average Dynamic Toll Price (Unit: USD), range approximately 0 to 14, evenly spaced
+- X-axis: Year scale, range approximately 2013 to 2023, evenly spaced labels
+- Legend: 95 Express Lanes (Dark Cyan, including "Current" dashed line), 495 Express Lanes (Light Cyan, including "Current" dashed line), Dulles Greenway (Orange, including "Current" dashed line)
+
+[Data Relationships]
+- 95 Express Lanes: Peak value approximately $12 (around 2018), terminal value approximately $11 (2023), Current dashed line value approximately $11
+- 495 Express Lanes: Trough value approximately $3 (around 2020), terminal value approximately $9 (2023), Current dashed line value approximately $9
+- Dulles Greenway: Value range approximately $5 to $6, terminal value approximately $6 (2023), Current dashed line value approximately $6
+- Comparison of Terminal Values: 95 Express Lanes approx. $11 > 495 Express Lanes approx. $9 > Dulles Greenway approx. $6
+- 95 Express Lanes is approximately $2 higher than 495 Express Lanes, and $5 higher than Dulles Greenway; 495 Express Lanes is approximately $3 higher than Dulles Greenway
+
+[Pattern Characteristics]
+The three series form clear high, medium, and low tiers, maintaining this hierarchical relationship at the terminal point. The Dark Cyan series exhibits significant volatility, showing a sharp peak near 2018, followed by a noticeable decline in the middle segment before strengthening again. The Light Cyan series is positioned in the middle after reaching a significant low point near 2020; the Orange series has a narrow range and is generally stable.
+
+[Core Insights]
+Core Conclusion: Price tiers are distinct, with the high-price segment contributing more significantly.
+
+Business Implications:
+- Reflects a clear stratification in the revenue structure
+- High-price routes possess stronger monetization capability
+- Mid-price routes must maintain a gap relative to low-price routes
+
+Risk Focus:
+- If 495 falls below $6, it risks being categorized with Dulles, leading to revenue decline.
+- If 95 falls below $11, the proportion of the high-price segment decreases, impacting total revenue.

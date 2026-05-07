@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Multi-line chart; Title: Mainland China 30 major cities housing sales (7dma).
+- Y-axis: Unit "Th sq m", parallel on both sides, scale approximately 0—1000.
+- X-axis: Time labeled as Jan—Mar—May—Jul—Sep—Nov—Jan.
+- Legend: Year corresponds to color—2023 (Red), 2022 (Gray), 2019 (Light Orange), 2020 (Gray), 2021 (Black).
+- Annotation: Labeled "6 Dec" on the right side.
+
+[Data Relationships]
+- The highest value in the entire chart comes from the 2021 line, peaking at approximately 850 Th sq m; 2022 peak approximately 820; 2020 peak approximately 800; 2019 peak approximately 780; 2023 peak approximately 560.
+- Lowest values: 2020 and 2021 approach 0 around February; 2023 is also near 0; 2019 approximately 200; 2022 approximately 300.
+- Values near July for each year: 2021 approximately 820, 2022 approximately 800, 2020 approximately 730, 2019 approximately 650, 2023 approximately 560; maximum difference approximately 260 (2021 versus 2023).
+- At 6 Dec: 2023 approximately 380; other years during the same period approximately 420—650 (2019≈420, 2021≈600, 2022≈600, 2020≈650); difference compared to 2023 approximately 40—270.
+- Annual range (peak-trough) for each year: 2021 approximately 850, 2020 approximately 800, 2022 approximately 520, 2019 approximately 580, 2023 approximately 560.
+
+[Pattern Characteristics]
+- The curves for all years exhibit distinct intra-year peak and trough structures, with a concentrated high point forming around mid-year, and low ranges occurring near the beginning and end of the year.
+- The multiple curves for 2021, 2020, 2022, and 2019 intersect and remain in close proximity for most periods, while the overall annual level for 2023 is situated at the lower boundary of the aforementioned range, especially widening the gap with other years around mid-year.
+- A clear trough appears around February for all years, with 2020, 2021, and 2023 closely approaching the lower end of the Y-axis; on the side of December 6th, a distinct gap still exists between the 2023 curve and other years.
+
+[Core Insights]
+Core Conclusion: The transaction level in 2023 is significantly weaker than the norm of the past four years.
+
+Business Implications:
+- Overall transaction activity is lower compared to previous years.
+- Project de-stocking velocity may slow down, leading to increased inventory pressure.
+- Achieving sales targets becomes more difficult, constraining cash repatriation.
+
+Risk Concerns:
+- If the level near July remains below 600 Th sq m, full-year de-stocking may be significantly lower than in previous years.
+- If December levels are maintained below 400 Th sq m, cash flow and subsequent investment expenditure may be restricted.

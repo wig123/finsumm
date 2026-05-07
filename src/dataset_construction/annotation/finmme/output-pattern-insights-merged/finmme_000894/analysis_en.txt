@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Multi-series line chart, including a historical range shaded band.
+- Title: CHINA MILLS PRODUCTION (with China flag icon in the upper left).
+- X-axis: Months Jan–Dec.
+- Y-axis: Numerical scale, range approximately 1.5–2.5, explicit ticks at 1.7, 2.1, 2.5.
+- Legend: 2015–20 (shaded band), 2021, 2022, 2023, 2024 (different colored lines).
+
+[Data Relationships]
+- The 2015–20 shaded band covers approximately 1.7–2.3.
+- 2021 peak approximately 2.3 (May), trough approximately 1.8 (December), difference approximately 0.5.
+- 2022 peak approximately 2.2 (June), trough approximately 1.75 (December), difference approximately 0.45.
+- 2023 peak approximately 2.2 (April–May), December approximately 1.85, difference approximately 0.35.
+- January 2024 approximately 1.9; near February approximately 1.7; difference from January approximately 0.2.
+- Peak value comparison: 2021 is higher than 2022/2023 by approximately 0.1.
+- December comparison: 2022≈1.75 < 2021≈1.8 < 2023≈1.85; maximum difference approximately 0.1.
+
+[Pattern Characteristics]
+The multiple annual curves generally exhibit a "higher in the first half, lower in the second half" pattern within the year, with peaks concentrated around the second quarter, followed by a gradual decline to year-end lows. The 2021–2023 curves generally fall within the historical shaded band, with the upper boundary close to the top of the band and the lower boundary close to the bottom, showing a slight convergence in amplitude. The starting point for 2024 is in the lower-middle range, subsequently moving closer to the lower edge of the shaded band in the first two months, forming a temporary low point.
+
+[Core Insights]
+
+Core Conclusion: Production levels have moderately declined in recent years, and year-end contraction tends to be consistent.
+
+Business Implications:
+- Annual peak elevation is restricted, reflecting limited room for capacity utilization expansion.
+- Converging year-end contraction increases pressure on inventory and order matching.
+- The weakness observed at the beginning of 2024 increases uncertainty regarding the achievement of full-year targets.
+
+Risk Focus:
+- If the full-year high point fails to reach 2.1, it may affect the realization of established production plans.
+- If the monthly value drops below 1.7 and persists, it may trigger production cuts and cost dilution pressure.

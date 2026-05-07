@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Categorized Box Plot + Marker Combination Chart
+- Title: Not displayed
+- Y-axis: Percentage (%), Range approximately 0–14
+- X-axis: Countries/Regions (Brazil, Chile, Colombia, Mexico, Czech Republic, Hungary, Poland, South Africa, India, Indonesia, South Korea, Thailand, US, UK, Eurozone)
+- Legend: Cumulative cutting cycle* (White hollow box plot), Cuts delivered so far (Dark blue), End-2023 (Orange short dash), End-2024 (Yellow short dash), Nominal neutral rate** (Green diamond)
+
+[Data Relationships]
+- End‑2023: Brazil ≈ 12–13%, Colombia ≈ 13%, Hungary ≈ 11%; Thailand ≈ 2–2.5%, South Korea ≈ 3.5%, Eurozone ≈ 4%.
+- End‑2024: Brazil ≈ 9%, Chile ≈ 6–7%, Colombia ≈ 9%, Hungary ≈ 5–6%, US ≈ 4.5%, Eurozone ≈ 3%.
+- Difference (End‑2023→End‑2024): Hungary ≈ 5–6 percentage points; Chile ≈ 4–5; Brazil ≈ 3–4; US, Eurozone ≈ 1; Thailand ≈ 0–0.5.
+- Difference between Nominal neutral rate and End‑2024: Mexico ≈ 3–4 percentage points; Hungary ≈ 2–3; US ≈ 2; Brazil ≈ 1–2; South Korea, Thailand ≈ 1.
+- Cumulative cutting cycle vs. Cuts delivered so far: Brazil total magnitude ≈ 5 percentage points, delivered ≈ 3; Chile ≈ 6/≈ 5; Hungary ≈ 6/≈ 2–3; Poland ≈ 2/≈ <1 (Total magnitude/Delivered).
+
+[Pattern Characteristics]
+- Overall, economies are arranged from high to low interest rate levels, forming a clear stratification with the emerging economies group on the left and developed economies on the right.
+- The cumulative rate cutting space for most countries is greater than the magnitude already delivered, leaving varying degrees of gap between the top of the box plot and the dark blue area.
+- The End‑2024 position for some economies remains significantly higher than the green diamond (Nominal neutral rate), while a few, such as Thailand and South Korea, are closer to the diamond, showing a concentrated distribution near the neutral point.
+
+[Core Insights]
+Core Conclusion: Most economies still have significant room for future policy rate reductions.
+
+Business Implications:
+- High-interest rate countries possess greater flexibility in monetary condition adjustments.
+- Economies above the neutral point still impose constraints on financing costs.
+- Countries with smaller delivered magnitudes face higher uncertainty in subsequent policy decisions.
+
+Risk Focus:
+- If End‑2024 remains more than 2 percentage points above the Nominal neutral rate, it may suppress credit and investment in the long term.
+- If the difference between the cumulative rate cut and the delivered magnitude exceeds 3 percentage points, aggressive adjustments may amplify market volatility.

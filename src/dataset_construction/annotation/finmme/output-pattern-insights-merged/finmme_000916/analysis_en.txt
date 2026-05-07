@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Grouped Bar Chart
+- Title: Not displayed
+- X-axis: Categories are FY22, FY23F, FY24F, FY25F, FY26F
+- Y-axis: Percentage scale, range approximately 30.0% to 70.0%
+- Legend: Overall (Red), Overseas (Gray), Domestic (Hollow/White)
+- Data Labels: Specific percentage values labeled at the top of each bar
+
+[Data Relationships]
+- FY22: Overall 57%, Overseas 54%, Domestic 58%
+- FY23F: Overall 60%, Overseas 63%, Domestic 60%
+- FY24F: Overall 60%, Overseas 65%, Domestic 59%
+- FY25F: Overall 61%, Overseas 66%, Domestic 59%
+- FY26F: Overall 61%, Overseas 66%, Domestic 59%
+- Overseas maximum 66% (FY25F, FY26F), minimum 54% (FY22), range 12 percentage points
+- Overall maximum 61% (FY25F, FY26F), minimum 57% (FY22), range 4 percentage points
+- Domestic maximum 60% (FY23F), minimum 58% (FY22), range 2 percentage points
+
+[Pattern Characteristics]
+The three series generally show relatively smooth, unidirectional changes over the timeline, without significant sharp fluctuations or jumps. Overseas remains above the other two in all years, and the gap between it and Overall and Domestic gradually widens and stabilizes after FY25F. Domestic shows the least variation across the years, remaining within a narrow range, while Overall is positioned between the two and adjusts synchronously with changes in Overseas.
+
+[Core Insights]
+Core Conclusion: The overall level is primarily driven by overseas performance, while domestic contribution is relatively stable.
+
+Business Implications:
+- Overall performance is more dependent on changes in overseas performance.
+- The domestic segment provides a relatively stable foundational support.
+- Future overall expectations are highly influenced by overseas assumptions.
+
+Risk Concerns:
+- If Overseas falls below 60%, Overall will struggle to maintain a level above 60%.
+- If Domestic drops below 58%, overall stability will weaken, and the ability to hedge against overseas volatility will decrease.

@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Time series line chart, with scatter point markers
+- Title: China Pacific
+- Description: As of 10-Mar-2024; Currency = HKD
+- X-axis: Date, approx. 2021/07/01—2024/01/01 (Ticks: 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01)
+- Y-axis: Price, 0.00—40.00 (Tick interval approx. 2.50)
+- Legend: Closing Price (gray line), Target Price Change (green triangle), Recommendation Changes (blue dot)
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial closing price approx. 33 HKD (2021/07); final price approx. 16 HKD (2024/01).
+- Highest closing price approx. 34 HKD (2021/07), lowest approx. 13 HKD (2023/01); high-low difference approx. 21 HKD.
+- 2023/06 closing approx. 25 HKD; 2023/10 approx. 19 HKD; 2024/01 approx. 16 HKD.
+- Target price triangles: 2021/07≈39; 2022/01≈32; 2022/05≈31; 2022/10≈23; 2023/01≈25; 2023/03≈27; 2023/06≈28; 2023/08–09≈27; 2023/12≈26 (HKD).
+- Recommendation change blue dot occurred 1 time, approx. 2023/01, price ≈ 13–14 HKD.
+
+[Pattern Characteristics]
+- The closing price generally shifts from a higher level on the left side to a lower level on the right side, forming two relative peaks around the end of 2021 and mid-2023, with a clear low point appearing at the beginning of 2023.
+- Target price markers show a step-like decline from the left side of the chart to the right; earlier points are generally higher than later ones and consistently remain above the closing price.
+- The recommendation change only appeared once near a significantly low closing price; no additional markers were seen during other periods, indicating a relatively singular and continuous overall structure.
+
+[Core Insights]
+Core Conclusion: Closing performance consistently underperforms target expectations, indicating a long-term valuation divergence.
+
+Business Implications:
+- The trading level provided by the market is consistently below the pricing expectation.
+- The alignment between the research valuation framework and the trading price is low.
+- The impact of a single rating change on subsequent price performance is limited.
+
+Risk Concerns:
+- If the closing price continues to hover below 20 HKD, it may amplify the discount pressure relative to the target price.
+- If the target price is further lowered below 25 HKD, it may trigger a weakening of investor confidence in the research assumptions.

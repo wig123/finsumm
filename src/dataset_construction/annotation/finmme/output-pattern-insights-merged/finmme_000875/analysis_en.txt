@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Line chart; Title not displayed
+- X-axis: Time, range 1-Mar-2016 to 1-Sep-2016
+- Y-axis: Percentage, range 5% to 30%, scale interval approximately 5%
+- Legend: Green solid line "GBPUSD 3m 1.25 put"; Blue vertical dashed line labeled "EU referendum"
+
+[Data Relationships]
+- 1-Mar-2016 approximately 14%
+- 1-May-2016 approximately 19%–20%
+- Peak in late June approximately 25%
+- Post-marker (early July) approximately 16%
+- 1-Sep-2016 approximately 10%–11%
+- The peak of 25% is approximately 9 percentage points higher than 16% in early July
+- The difference between the peak of 25% and the period-end 10%–11% is approximately 14–15 percentage points
+- The difference between the starting point of approximately 14% and the period-end 10%–11% is approximately 3–5 percentage points
+
+[Pattern Characteristics]
+The overall trend maintained a medium-to-high level from early March to late June, rapidly declining after forming a single distinct peak in late June. The fluctuation range was wider before the vertical dashed line; afterward, the overall level significantly shifted downward and trended toward narrow stability. The peak occurred shortly before the vertical dashed line, and no similar height reappeared after the dashed line.
+
+[Core Insights]
+Core Conclusion: The implied price of the relevant option significantly increased before the UK referendum, rapidly falling back afterward and stabilizing in a lower range.
+
+Business Implications:
+- Concentrated amplification of market demand for downside protection prior to the referendum
+- Concerns regarding further extreme scenarios significantly diminished post-referendum
+- Later price levels are lower than the previous average, reflecting a decline in protection costs
+
+Risk Focus:
+- If the price approaches 25% again, it indicates a sharp concentration of hedging demand, potentially triggering a surge in hedging costs.
+- If the price remains above 20% for an extended period, it may compress returns on related positions and restrict trading volume.

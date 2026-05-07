@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Time series line chart, including a shaded confidence interval band
+- Title: Main title not displayed
+- X-axis: Time, labeled from Jan-21 to Jan-24
+- Y-axis: Numerical range approximately -0.5 to 1.0, including a 0.0 dashed baseline
+- Legend: Dark red line "CTA 20d beta to Global Equities"; Light red shading "+/- 2 standard deviation confidence"
+- The latest value is marked by a black diamond at the end
+
+[Data Relationships]
+- Initial period (Jan-21) centerline approximately 0.4; Final period (Jan-24) black diamond approximately 0.2. The final value is about 0.2 lower than the initial value.
+- Centerline peak approximately 0.6 (mid-2021); Trough approximately -0.5 (H2 2023); The total range across the period is about 1.1.
+- The upper bound of the confidence interval peaked near 1.0 (mid-2021); The lower bound reached its lowest point around -0.5 (H2 2023).
+
+[Pattern Characteristics]
+Overall, the centerline fluctuates above and below the 0.0 dashed line. It stayed predominantly above in the early period, crossed multiple times and remained below in the middle segment, and moved closer to the upper side in the later period. The confidence interval visibly widened in mid-2021 and the mid-to-late segment of 2023, while remaining relatively narrow during other phases. A significant downward extreme expansion of the interval occurred in H2 2023, after which the interval gradually narrowed towards the latest data point.
+
+[Core Insights]
+Core Conclusion: The short-term correlation strength (beta) between CTA and global equities shows significant phase-based changes.
+
+Business Implications:
+- In 2021, there was a greater tendency to align with the direction of global equities (pro-cyclical).
+- In H2 2023, the relationship exhibited a stronger inverse characteristic relative to equity performance.
+- The correlation level in the latest phase is more moderate compared to the middle period.
+
+Risk Focus:
+- If beta approaches 1.0 again, drawdowns may be amplified in an upward trending market, and vice versa.
+- If beta falls below -0.5, a sharp inverse exposure to equities could amplify profit and loss volatility.

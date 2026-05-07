@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Dual Matrix Table
+- Title: Net profit and potential impact to our base case (FY24F, CNY mn, %)
+- Columns (Gross Margin Change): -2pp, -1pp, no change, +1pp, +2pp; Corresponding Gross Margin Levels: 58.4%, 59.4%, 60.4%, 61.4%, 62.4%
+- Rows (Overseas Sales Change): 10%, 5%, no change, -5%, -10%; Adjacent Column Overseas Sales: 1,919, 1,831, 1,744, 1,657, 1,570 (CNY mn)
+- The left table shows Net Profit (CNY mn), the right table shows the percentage impact relative to the baseline; some cells are marked in gray.
+
+[Data Relationships]
+- Baseline: Sales unchanged, Gross Margin unchanged, Net Profit 1,241; Impact 0.0%
+- Maximum: Sales 10%, Gross Margin +2pp, 1,384; 11.6%; +143 compared to baseline; Minimum: Sales -10%, Gross Margin -2pp, 1,103; -11.1%; Range 281
+- Baseline row following Gross Margin: -2pp 1,124(-9.4%); -1pp 1,183(-4.7%); +1pp 1,299(+4.7%); +2pp 1,358(+9.4%)
+- In the unchanged Gross Margin column: Sales 10% 1,265(+2.0%); 5% 1,253(+1.0%); -5% 1,229(-1.0%); -10% 1,217(-2.0%); Difference from baseline +24, +12, -12, -24
+
+[Pattern Characteristics]
+- When both dimensions of the matrix change simultaneously from the center towards the edges, the values gradually increase or decrease along the diagonal direction, exhibiting an approximately linear gradient.
+- The gray area near the baseline forms a relatively centered square region, and as it spreads outwards, the values deviate progressively.
+- The changes across rows and columns in the entire table demonstrate relatively regular, continuous, and symmetrical increases and decreases, without abrupt outliers.
+
+[Core Insights]
+- Core Conclusion: Net profit is more sensitive to Gross Margin, and secondarily sensitive to Overseas Sales.
+
+Business Implications:
+- Adjusting Gross Margin alone has a more pronounced impact on profitability levels.
+- When sales and Gross Margin change simultaneously, profit elasticity is amplified.
+- The current baseline is in a neutral zone, with clear profit/loss elasticity zones on both sides.
+
+Risk Focus:
+- When Gross Margin drops to -2pp and sales are -10%, the impact is -11.1%, which could significantly compress profit.
+- When Gross Margin declines at any level and sales are ≤-5%, the impact is <-5.6%; cost reduction and pricing strategies need to be evaluated.

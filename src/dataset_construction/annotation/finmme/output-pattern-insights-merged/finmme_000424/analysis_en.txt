@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Grouped Bar Chart
+- Title: Not specified
+- X-axis: Fiscal Year Categories, FY22, FY23F, FY24F, FY25F, FY26F
+- Y-axis: Percentage Scale, Range 30.0%—70.0%
+- Legend: Overall (Red), Overseas (Gray), Domestic (White/Hollow)
+
+[Data Relationships]
+- Annual Values (Overall/Overseas/Domestic): FY22 57/54/58; FY23F 60/63/60; FY24F 60/65/59; FY25F 61/66/59; FY26F 61/66/59.
+- Key Gaps: In FY24F, Overseas is +5pp compared to Overall, and +6pp compared to Domestic; In FY25F/FY26F, Overseas is +5pp compared to Overall, and +7pp compared to Domestic; In FY22, Domestic is +4pp compared to Overseas.
+- Extremes and Span: Highest 66% (Overseas, FY25F/FY26F), Lowest 54% (Overseas, FY22); Span for each series: Overall 4pp (57–61), Overseas 12pp (54–66), Domestic 2pp (58–60).
+
+[Pattern Characteristics]
+- The three series generally show a relatively smooth increase over the timeline, stabilizing afterwards, without sharp fluctuations or reversals.
+- Starting from FY22, Overseas gradually moved up from its lowest point and remained at a significantly high level in subsequent years, while Domestic generally stayed at the lowest position among the three in the middle-to-later period, exhibiting the smallest change.
+- The spacing between the three groups of bars in each fiscal year widened significantly starting from FY23F, particularly forming a persistent and expanding fixed gap structure between Overseas and Domestic.
+
+[Core Insights]
+Core Conclusion: The divergence between Overseas and Domestic performance is widening, and the overall level is shifting from Domestic to Overseas dominance.
+
+Business Implications:
+- Overall performance is increasingly driven by the Overseas segment.
+- The contribution of the Domestic segment to the overall metric is relatively weakening.
+- Mid-to-long-term planning requires differentiated strategies for Overseas and Domestic segments.
+
+Risk Concerns:
+- If Overseas falls back below 60%, the overall metric will significantly deviate from current expectations.
+- If Domestic remains below 59% long-term, the Domestic segment may struggle to support stable overall performance.

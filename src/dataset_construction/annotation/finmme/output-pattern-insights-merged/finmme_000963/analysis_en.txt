@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Combination Chart (Bar + Line)
+- Title: NAVI Finserv
+- X-axis: Period, including FY22, FY23, 1Q24, 2Q24
+- Left Y-axis: Credit cost (%), scale 0.0% to 9.0%
+- Right Y-axis: GS-3 (%)- One year lagged, scale 0.0% to 5.0%
+- Legend: Red bar represents "Credit cost (%)", Black line represents "GS-3 (%)- One year lagged"
+- Data Labels: Bar values are 8.4%, 8.1%, 7.9%, 6.6; Line points are 4.6%, 3.9%, 3.9%, 3.3
+
+[Data Relationships]
+- FY22: Credit cost 8.4%, GS-3 4.6%.
+- FY23: 8.1%/3.9%, a change of -0.3/-0.7 pct respectively compared to FY22.
+- 1Q24: 7.9%/3.9%, a change of -0.2/0 pct compared to FY23.
+- 2Q24: 6.6%/3.3%, a change of -1.3/-0.6 pct compared to 1Q24.
+- Period Difference (Credit cost - GS-3): FY22 3.8 pct, FY23 4.2 pct, 1Q24 4.0 pct, 2Q24 3.3 pct.
+- Highest/Lowest: Credit cost 8.4% (FY22)/6.6% (2Q24), difference 1.8 pct; GS-3 4.6% (FY22)/3.3% (2Q24), difference 1.3 pct.
+
+[Pattern Characteristics]
+Both series generally show a synchronized, relatively smooth, gradual downward trend, with the bar series exhibiting a larger single-period decline in 2Q24. The vertical distance between the two curves is consistently positive and moderate, slightly narrowing across different periods. No reversals or outliers were observed; the structure is continuous without significant jumps.
+
+[Core Insights]
+Core Conclusion: Credit cost consistently exceeds GS-3 and is slowly converging.
+
+Business Implications:
+- The overall level of provisioning is significantly higher than non-performing exposure.
+- Asset quality metrics are improving faster than the pace of cost adjustment.
+- Provisioning redundancy decreased in the latest quarter but still exists.
+
+Risk Focus:
+- If credit cost remains above 6% while GS-3 is below 3.5%, it may lead to excessive resource utilization.
+- If credit cost drops below 6% while GS-3 approaches 4.5% again, it could weaken the coverage buffer.

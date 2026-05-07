@@ -1,0 +1,32 @@
+【图表构成】
+- 图表类型：分组堆叠柱状图（含一个黑色单柱）。
+- 标题：LCOE comparison, EUR/MWh；副标题：(Carbon price @80EUR/t, gas price in EUR/MWh)。
+- 纵轴：EUR/MWh，范围约0–250。
+- 横轴类别：CCGT(gas@0, LF45%)、CCGT(gas@45, LF45%)、CCGT(gas@20, LF45%)、Coal(@100 USD/t, LF45%)、Nuclear(LF90%)、Germany 1yr fwd power price、Offshore wind US 2023、Offshore wind EU 2023、Onshore wind 2023、Solar PV 2023、Wind 2035、Solar PV 2035、CCGT/CCUS 45% LF、HT(H2@2.3EUR/kg, LF45%)。
+- 图例：Carbon cost、Fuel cost、Operating cost、Capital cost。
+- 每个柱顶部标注总值。
+
+【数据关系】
+- 最大值：CCGT(gas@0)204；最小值：Solar PV 2035为37；整体极差167。
+- CCGT三种气价总值：204、129、88；两两差异分别为75、41、116。
+- Coal128与Nuclear114差14。
+- Offshore wind：US 2023为160，EU 2023为90，差70。
+- Onshore wind 2023为74，Solar PV 2023为72，差2。
+- Wind 2035为45，Solar PV 2035为37，差8。
+- CCGT/CCUS为133，相比CCGT(gas@45)高4。
+- Germany 1yr fwd power price为70；与Nuclear(114)差44，与Solar PV 2023(72)差2，与Wind 2035(45)差25。
+
+【模式特征】  
+各技术方案的总值在横轴类别间呈明显分层，火电与氢气机组处于区间高位，2035年风光处于区间低位。多数可再生技术以单一颜色块为主，而化石燃料相关机组由多种颜色块构成，结构更为复杂。黑色单柱位于中低水平，相对周围火电与部分可再生项目形成明显对比。
+
+【核心洞察】  
+核心结论：化石燃料机组成本水平整体高于当前与未来风光项目。
+
+业务含义：  
+- 气价与碳价下，多数燃气与煤电成本竞争力较弱。  
+- 风光项目对整体成本结构的依赖度更集中在资本端。  
+- 未来风光项目体现出更强的成本优势与配置吸引力。  
+
+风险关注：  
+- 当LCOE高于Germany 1yr fwd power price 70时，项目盈利空间受挤压。  
+- 若LCOE接近或超过Offshore wind US 2023的160，投资可能面临明显搁置或延后风险。

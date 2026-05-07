@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Time series line chart, overlaid with scatter markers
+- Title: China Pacific
+- X-axis: Time range approximately 2021/07/01 to 2024/01/01, tick marks labeled as 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01
+- Y-axis: Price range 0–40 (HKD), tick interval approximately 2.5
+- Legend: Grey line=Closing Price; Green triangle=Target Price Change; Blue circle=Recommendation Changes
+- Other Annotations: As of 10-Mar-2024; Currency=HKD; Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial closing price (around 2021/07) approximately 30–32.5 HKD; Final closing price (around 2024/01) approximately 17.5–20 HKD; The difference between the two is approximately 12.5–15 HKD.
+- The lowest point of the closing price was approximately 2022/11–2022/12, located in the 12.5–15 HKD range; The highest visible range does not exceed 30, approximately 25–30 HKD.
+- The highest target price change marker is approximately 37.5–40 HKD (mid-to-late 2021); The lowest is approximately 20–22.5 HKD (2022/10–2023/01).
+- The recommendation change marker appears approximately 1 time, around the end of 2022, corresponding to a price level of about 15 HKD.
+
+[Pattern Characteristics]
+- The closing price shows a step-wise decline from the left side of the chart to the right, with a relatively low platform appearing around the end of 2022, followed by a noticeable rebound, and then a subsequent drop back to the mid-to-low range to conclude.
+- The target price change points generally show a distribution from high to low, followed by a slight increase. The overall level consistently remains higher than the closing price at the corresponding time, and there is a clear range difference between the early and later data points.
+- The recommendation change occurred only once around the end of 2022, located near the local low of the closing price, appearing relatively isolated compared to the adjacent periods before and after.
+
+[Core Insights]
+Core Conclusion: Market performance continues to weaken; institutional expectations have been revised down multiple times but remain relatively optimistic.
+
+Business Implications:
+- The current valuation has a significant discount relative to institutional pricing.
+- Multiple downward revisions of the target price reflect the gradual compression of earnings expectations.
+- The recommendation was adjusted only once, indicating a cautious pace in rating adjustments.
+
+Risk Focus:
+- If the closing price approaches the 12.5 HKD low again, it may trigger investor stop-loss and redemption pressure.
+- If the subsequent target price drops to around 20 HKD, it could lead to further valuation repricing and sentiment deterioration.

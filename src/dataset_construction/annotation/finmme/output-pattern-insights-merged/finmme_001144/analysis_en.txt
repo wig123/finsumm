@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Grouped Bar Chart
+- Title: EBITDA growth (%)
+- X-axis: Fiscal Year Category, FY19, FY20, FY21, FY22, FY23
+- Y-axis: Percentage, Range -50 to 90
+- Legend: Asian Paints (Red), Berger Paints (Gray), Kansai Nerolac (Hollow), Akzo Nobel (Light Orange), Indigo Paints (Black)
+- Specific values labeled at the top of each bar
+
+[Data Relationships]
+- Highest: Indigo FY20=68; Second highest: Indigo FY21=35, FY23=33. Lowest: Kansai FY22=-22; Next lowest: Akzo FY21=-10, Asian FY22=-1.
+- Annual Range (Highest - Lowest): FY19=23 (18 vs -5), FY20=61 (68 vs 7), FY21=45 (35 vs -10), FY22=49 (27 vs -22), FY23=21 (33 vs 12).
+- FY19→FY23 Difference: Asian +12 (18→30), Berger -4 (16→12), Kansai +26 (-5→21), Akzo +6 (15→21), Indigo +33 (0→33).
+
+[Pattern Characteristics]
+Overall, the growth rate differences among companies across different fiscal years are significant, with individual companies in certain years deviating sharply from peers, forming "peaks" or "troughs." Indigo is positioned at the upper end of the sample in multiple years, while Kansai and Akzo fall into the lower range, or even negative territory, in specific years. Looking across the years, except for Berger, most companies show a certain degree of increase between the starting and ending points, with the difference between the starting and ending points for Indigo and Kansai being the most prominent.
+
+[Core Insights]
+Core Conclusion: Profitability growth divergence within the industry is significant, and new entrants exhibit greater elasticity.
+
+Business Implications:
+- Indigo demonstrates stronger profitability expansion capability.
+- Differences in profitability performance among traditional manufacturers affect valuation premium potential.
+- Kansai and Akzo show greater volatility, indicating weaker earnings stability.
+
+Risk Focus:
+- When EBITDA growth approaches 0 or turns negative (e.g., -1, -22), it may trigger a sharp downward adjustment in market sentiment.
+- If extremely high growth rates (e.g., 68) subsequently revert towards the industry median, it may lead to dual pressure from valuation and performance correction.

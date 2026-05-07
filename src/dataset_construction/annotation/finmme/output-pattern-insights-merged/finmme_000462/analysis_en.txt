@@ -1,0 +1,35 @@
+[Chart Components]
+- Type: Time Series Line Chart
+- Title: Mahindra & Mahindra Financial Services
+- Time Range (X-axis): 2021/07/01 to 2024/01/01 (Key scales marked)
+- Price (Y-axis): 0–350 INR
+- Legend: Closing Price (Grey line), Target Price Change (Green triangle), Recommendation Changes (Blue circle)
+- Top Right Annotation: As of 19-Feb-2024; Currency = INR
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial Period (2021/07/01) Closing Price ≈ 200 INR
+- Final Period (2024/01/01) Closing Price ≈ 285 INR
+- Highest Closing Price ≈ 340 INR (Around mid-2023)
+- Lowest Closing Price ≈ 130 INR (Around end of 2021)
+- High-Low Difference ≈ 210 INR
+- Initial to Final Period Difference ≈ 85 INR
+- Rating changes occurred 2 times: Around 2021/08 (≈ 160 INR) and around 2023/12 (≈ 250 INR), the price difference between the two points ≈ 90 INR
+- Multiple target price changes between 2023/10–2024/02 correspond to prices of approximately 245–265 INR
+
+[Pattern Characteristics]
+- The price initially declined to a low point and then gradually rose, accompanied by multiple significant retracements and interim highs, evolving in a step-like manner overall.
+- Target price changes appeared concentrated in multiple phases, distributed both near the price uptrend segments and after high-level pullbacks, with relatively scattered locations.
+- Rating changes occurred only once in the early stage and once in the late stage of the trend, corresponding respectively to a local low and a price range after a pullback from a previous high.
+
+[Core Insights]
+Core Conclusion: After significant volatility in the stock price, the overall valuation level has increased.
+
+Business Implications:
+- Long-term returns outperformed the volatility caused by periodic pullbacks.
+- Analyst opinions formed critical anchor points for the price range.
+- A new market consensus band formed in the later period within a higher price range.
+
+Risk Concerns:
+- If the price falls below approximately 200 INR, it may weaken the bullish confidence established within the previous range.
+- If the price approaches or breaks below the low point of approximately 130 INR, it could trigger concentrated sell-offs of holdings and valuation repricing.

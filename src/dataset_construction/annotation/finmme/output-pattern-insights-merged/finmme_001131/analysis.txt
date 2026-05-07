@@ -1,0 +1,30 @@
+【图表构成】
+- 类型：分组柱状图，含百分比标注
+- 标题：未显示
+- 纵轴：资产规模（$tn），范围约$0tn至$90tn，刻度每$10tn
+- 横轴：10个类别——Public pension funds、Private pension funds、Sovereign wealth funds、Endowments/foundations、Insurance companies、Other institutional investors、Mass affluent、High net worth、Very high net worth、UHNW+ family offices
+- 图例：Alternatives assets（深色柱）、Other assets（浅色柱）、Alternatives allocation %（橙色百分比）
+
+【数据关系】
+- Other assets（$tn）：公募养老金17、私募养老金41、主权基金25、捐赠/基金会3、保险37、其他机构17、富裕大众88、HNW 31、VHNWI 32、UHNW+ 15。
+- Alternatives allocation %：依次为25%、11%、25%、54%、7%、16%、0%、1%、3%、19%。
+- 由比例推算Alternatives assets（$tn）：约5.67、5.07、8.33、3.52、2.78、3.24、0、0.31、0.99、3.52。
+- 对比：私募养老金Other比保险高4；VHNWI比HNW高1；富裕大众比UHNW+高73。
+- 合计：机构Other约140、私人财富Other约166；对应Alternatives估算机构约28.61、私人财富约4.82。
+
+【模式特征】
+- 资产规模在“富裕大众”和几类大型机构中高度集中，而捐赠/基金会等类别规模相对较小，整体呈现明显的体量差异。  
+- 同一类别内，深色与浅色柱体高度差别较大，多数类别由浅色部分占主导，只有个别类别的深色占比接近或明显高于其他类别。  
+- 橙色百分比在各类别之间分布不均，机构端内部差异显著，而私人财富端多数类别数值接近零，仅有末端一类明显高于其余私人财富类别。
+
+【核心洞察】
+核心结论：机构端在该类资产上的运用显著领先私人财富端。
+
+业务含义：
+- 机构投资者对该类资产依赖度更高。
+- 私人财富整体配置该类资产的深度明显不足。
+- 机构内部不同类型的配置偏好差异较大。
+
+风险关注：
+- 机构端若该类资产占比持续高于25%，波动时或放大组合回撤。
+- 私人财富端若长期低于5%，可能错失与传统资产表现差异带来的分散化效果。

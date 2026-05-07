@@ -1,0 +1,35 @@
+[Chart Components]
+- Chart Type: Line Chart
+- Title: Loan-to-Deposit Ratio (LDR)
+- Y-axis: Scale range approximately 82 to 98 (units not indicated), equidistant scale
+- X-axis: Time series, data points marked from 1Q15 to 3Q23 (primarily 1Q and 3Q of each year)
+- Legend: Red line represents "Loan-to-Deposit Ratio (LDR)"
+
+[Data Relationships]
+- Initial period (1Q15) approximately 94.
+- Early peak (3Q15) approximately 96–97.
+- 2016 low point (3Q16) approximately 88–89.
+- Data points between 2017–2019 are mostly around 93–95 (e.g., 1Q17 approx. 95, 3Q18 approx. 93).
+- 2020 lowest point (3Q20) approximately 88; 1Q20 of the same year approximately 95.
+- 2021 data points approximately 89–90 (1Q21 approx. 90, 3Q21 approx. 89).
+- 2022 data points approximately 90–92 (1Q22 approx. 90, 3Q22 approx. 92).
+- Final period (3Q23) approximately 92; 1Q23 approximately 93.
+- Difference between maximum and minimum is approximately 8–9.
+- Difference between initial and final periods is approximately 2.
+
+[Pattern Characteristics]
+- Data for the entire period fluctuates around a relatively stable central tendency, with limited overall amplitude, and no extreme values observed.
+- From early 2015 to 2019, the data primarily showed reciprocal fluctuations within a higher range. A noticeable downward shift occurred in 2020, maintaining a relatively lower range in 2021. It subsequently recovered slightly but did not return to the early high levels.
+- The series contains two relatively distinct clusters of low points, concentrated around 2016 and 2020–2021, respectively. Data points in other years are densely distributed and structurally continuous, without abrupt jumps.
+
+[Core Insights]
+Core Conclusion: The LDR maintained overall stability during the sample period, with significant contraction only occurring during specific phases.
+
+Business Implications:
+- In the long term, the matching degree between credit extension and deposit sources is relatively stable.
+- The matching degree decreased in 2020–2021, potentially impacting asset return contribution.
+- The matching degree has recovered since 2022, but the utilization level relative to the high end is lower than that of 2015–2019.
+
+Risk Concerns:
+- If the LDR approaches 98 again, the over-utilization of funds may compress liquidity buffers.
+- If the LDR falls below 88, it may lead to idle deposits and drag down asset return levels.

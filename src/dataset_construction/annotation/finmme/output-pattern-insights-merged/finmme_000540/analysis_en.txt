@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Time series area chart, filled in teal.
+- Title: Not displayed.
+- X-axis: Time, labeled from Jan-50 to Jan-20, scaled approximately every 5 years.
+- Y-axis: Delta, range approximately -70 to 10, with a black baseline at y=0.
+- Legend: PPI less CPI (Teal fill); Current (Red dashed horizontal line).
+- Grid: Uniform horizontal and vertical grid lines.
+
+[Data Relationships]
+- Value near Jan-50 is close to 0.
+- Value near Jan-80 is approximately 0.
+- The historical low point is around Jan-19, approximately -66 (located between -70 and -60).
+- Near 2010 approximately -50; near 2015 approximately -45; early 2020 approximately -62.
+- Global range is approximately 66 (High ≈ 0, Low ≈ -66).
+- The "Current" red dashed line is located at approximately -60.
+- The difference between the red line and the lowest point is approximately 6; the difference from the 0 baseline is approximately 60.
+
+[Pattern Characteristics]
+The series generally fluctuated slightly around zero between 1950 and 1980, after which it gradually moved away from zero and entered a long-term low range. Since 1980, the volatility has significantly increased, with multiple sharp declines occurring after 2010, setting new historical lows. The current level is close to recent and historical lows, only slightly above the absolute trough value, with the overall pattern showing a unilateral distribution skewed towards the lower region.
+
+[Core Insights]
+Core Conclusion: PPI relative to CPI is currently in a historically weak level range.
+
+Business Implications:
+- Reflects a more pronounced price suppression on the production side relative to final consumer prices.
+- May weaken the bargaining power and profit margins of upstream enterprises.
+- The transmission of upstream cost changes to final consumer prices may be diminished.
+
+Risk Focus:
+- If Delta persistently remains below -60, it could trigger a significant contraction in upstream profitability and the accumulation of cost pressures.
+- If it approaches or breaks below the low point near -66 again, it could trigger a rapid adjustment in related asset valuation and credit.

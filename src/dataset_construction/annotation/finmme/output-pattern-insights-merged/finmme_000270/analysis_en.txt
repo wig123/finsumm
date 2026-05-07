@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Time series line chart, including event markers.
+- Title: Singapore Airlines.
+- Time Axis: Horizontal axis represents date, scales include 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01.
+- Vertical Axis: Price (Currency=SGD), visible range approximately 0–9.
+- Legend: Closing Price (Grey line); Target Price Change (Green triangle); Recommendation Changes (Blue dot).
+- Notes: As of 20-Feb-2024; Source: LSEG, Nomura.
+
+[Data Relationships]
+- Initial Period (approx. 2021/07) closing price ≈ 5.2 SGD; Final Period (approx. 2024/01) ≈ 7.3 SGD; Difference ≈ 2.1.
+- Lowest closing price ≈ 4.5 SGD (mid-2021); Highest ≈ 7.8 SGD (2023/07); Range high-low difference ≈ 3.3.
+- Approximate price levels for Target Price Changes (green triangle): 2022/07 ≈ 6.3, 2022/10 ≈ 6.8, 2023/05 ≈ 7.1, 2023/08 slightly above 9 (highest).
+- Price levels for Recommendation Changes (blue dot): Mid-2021 ≈ 5.5 and ≈ 4.6; 2022/07 ≈ 5.3.
+
+[Pattern Characteristics]
+- The closing price generally shows a step-like ascent from low levels to high levels, interspersed with several relatively flat horizontal ranges and a structure involving a steeper rally followed by a pullback and subsequent recovery.
+- The number of target price change points is small, but each occurrence is positioned above the current closing price, and later points are clearly outside the price range; recommendation changes were concentrated in the early period and did not reappear afterward.
+- No sharp single-day jumps are observed in the chart; price movement is relatively continuous, forming only a short-term spike pattern near the highest point.
+
+[Core Insights]
+Core Conclusion: The stock price center of gravity has significantly risen, and market expectations have been revised upward multiple times.
+
+Business Implications:
+- Stock price performance is generally consistent with the overall direction of external evaluations.
+- Later target prices significantly lead the current price, indicating an optimistic outlook.
+- Following concentrated rating adjustments in the early period, subsequent opinions have changed infrequently.
+
+Risk Concerns:
+- If the stock price consistently falls more than 20% below the 9 SGD target price, it may trigger expectation revision and cooling sentiment.
+- If the price breaks below the previous low area near 5 SGD, it may trigger stop-loss selling and capital outflow.

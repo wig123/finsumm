@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Line chart (four lines, with markers)
+- Title: Global PC shipments with segment detail
+- Y-axis: Units; Range 0—40,000,000, increments of 5,000,000
+- X-axis: Time; Mar-18 to Sep-23, marked quarterly (Mar/Jun/Sep/Dec)
+- Legend: Desktop PC - Commercial (Red triangle), Desktop PC - Consumer (Red diamond), Portable PC - Commercial (Light gray triangle), Portable PC - Consumer (Gray diamond)
+
+[Data Relationships]
+- Initial Period (Mar-18): Desktop - Commercial ≈ 14.5M; Desktop - Consumer ≈ 7M; Portable - Commercial ≈ 16M; Portable - Consumer ≈ 20M.
+- Peak Values: Portable - Commercial ≈ 35M (Dec-21); Portable - Consumer ≈ 34M (Sep-20); Desktop - Commercial ≈ 16M (Dec-19); Desktop - Consumer ≈ 9M (Sep-20).
+- Trough Values: Desktop - Commercial ≈ 11M (Jun-20); Desktop - Consumer ≈ 5M (Mar-23); Portable - Commercial ≈ 17M (Mar-20); Portable - Consumer ≈ 19M (Mar-23).
+- Final Period (Sep-23): Desktop - Commercial ≈ 11M; Desktop - Consumer ≈ 6M; Portable - Commercial ≈ 23M; Portable - Consumer ≈ 27M.
+- Change from Initial to Final Period: Desktop - Commercial approx. -3.5M; Desktop - Consumer approx. -1M; Portable - Commercial approx. +7M; Portable - Consumer approx. +7M.
+- Aggregate Comparison: Dec-21 total for four lines ≈ 91M; Mar-23 total ≈ 66M; Difference ≈ 25M.
+
+[Pattern Characteristics]
+- Of the four lines, the two Portable categories generally occupy a higher range, forming a distinct high-level plateau during 2020-2021, subsequently gradually receding to a medium-high level. The two Desktop lines generally remain in a lower range, with relatively constrained volatility and minor localized fluctuations.
+- A stable hierarchical structure is observed among the segments: Portable - Consumer is the highest, followed by Portable - Commercial, then Desktop - Commercial, and Desktop - Consumer is the lowest. No rank reversal occurred during the period.
+- A significant inflection point occurred around 2020, after which the Portable categories rapidly surged and then retreated, while the Desktop categories experienced only moderate disturbance during the same period. Around 2023, all four lines are positioned at the lower end of their respective recent ranges.
+
+[Core Insights]
+Core Conclusion: The PC shipment structure is clearly concentrating towards the Portable segment, with the Desktop segment showing relative weakness.
+
+Business Implications:
+- The overall center of demand is shifting towards portable products and the consumer segment.
+- Commercial procurement relies more heavily on portable form factors, leading to a decline in the proportion of desktops.
+- Product and channel resources must be strategically allocated, focusing on the Portable segment.
+
+Risk Focus:
+- If the aggregate of the four lines remains below 70M for an extended period, it may compress upstream production capacity and bargaining power.
+- If Desktop - Commercial persistently falls below 11M, related product lines may face an erosion of economies of scale.

@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Combination Chart (Red Bar + Black Dashed 4-Period Moving Average)
+- Title: Not displayed
+- X-axis: Quarterly labels, from 1QFY16 to 3QFY24
+- Y-axis: 0—250, Unit MXN Mn, Scale approximately every 50
+- Legend: Mexico sales (MXN Mn); 4 per. Mov. Avg. (Mexico sales (MXN Mn))
+
+[Data Relationships]
+- Initial period (1QFY16) ≈130; Final period (3QFY24) ≈210, Difference ≈80
+- Highest bar (2QFY23) ≈225; Lowest bar (2QFY24) ≈85, Range ≈140
+- 4QFY23 ≈150 and 1QFY24 ≈90, Difference ≈60
+- 1QFY21 ≈125
+- Moving average peak (approx. 2QFY23—4QFY23) ≈205; Latest (3QFY24) ≈135, Difference from peak ≈70
+
+[Pattern Characteristics]
+- Bars primarily fell within the median range from FY16—FY22, with a significant high point appearing in FY23.
+- The first two periods of FY24 formed a clear low point; the latest period returned to the high range.
+- The moving average first trended upward until the end of FY23, then reversed to trend downward. The overall movement is primarily continuous, interspersed with a few sharp jumps.
+
+[Core Insights]
+Core Conclusion: Quarterly sales lack sufficient predictability.
+
+Business Implications:
+- Revenue stability is weak; guidance requires increased flexibility.
+- Quarterly targets and capacity planning are more difficult to accurately set.
+- Resource allocation and discount strategies require greater prudence.
+
+Risk Focus:
+- A single quarter ≤90 could push the moving average ≤135, expanding the annual budget variance.
+- Two consecutive quarters ≤90 will increase the deviation from the peak average line of 205, putting pressure on funding plans.

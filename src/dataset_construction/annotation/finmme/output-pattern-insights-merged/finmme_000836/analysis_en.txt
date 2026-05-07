@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Dual line chart; no explicit main title.
+- X-axis: Time, range 2017–2024; includes multiple vertical dashed line event annotations (Final hike of 2015–2018 Fed cycle, Fed 25bp cut, COVID-19, Fed hawkish tilt, Russia invades Ukraine, ECB starts hiking, SVB).
+- Y-axis: Swap spread (bp), scale 0–100, intervals approximately 20bp.
+- Series: The red line is "2Y EUR," the black line is "10Y EUR"; the endpoints are marked with values, red "11" and black "17," respectively.
+
+[Data Relationships]
+- End of 2024 period: 2Y EUR is 11bp; 10Y EUR is 17bp; difference is 6bp.
+- Start of 2017 period: 2Y EUR is approximately 50bp; 10Y EUR is approximately 15bp; difference is approximately 35bp.
+- Lowest point: Both lines bottomed out near 2020, both approximately 0–5bp.
+- Peak value: 2Y EUR reached approximately 90bp in 2022; 10Y EUR reached approximately 75–80bp in 2022–2023.
+- Peak comparison: At the peak, 2Y EUR was higher than 10Y EUR by approximately 10–15bp.
+
+[Pattern Characteristics]
+The two curves generally fell first, then rose, and then continued to decline, approaching early low levels towards the end of the chart.
+The 2Y EUR and 10Y EUR generally move in the same direction most of the time, but their relative high/low positions change cyclically, featuring short-term crossovers and subsequent re-divergence.
+Near the events related to the pandemic, geopolitical tensions, and banking issues, both lines showed short-term sharp spikes, subsequently reverting to lower levels.
+
+[Core Insights]
+Core Conclusion: The EUR interest rate swap spread between the short end and the long end has significantly narrowed after a period of high-level expansion.
+
+Business Implications:
+- The pricing differential in the term structure has significantly weakened compared to earlier periods.
+- The effectiveness of swap hedging between different maturities on the curve is more aligned.
+- The impact of extreme events on swap spreads has limited persistence.
+
+Risk Focus:
+- If the 2Y or 10Y spread approaches 80bp again, it could lead to a sharp increase in hedging costs.
+- If the spread falls below 0bp and persists, it could lead to abnormal pricing of related interest rate positions.

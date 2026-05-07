@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Time series line chart (red main line), accompanied by four gray reference lines
+- Title: Not displayed
+- Y-axis: Unit is TWD, range 0—1,000, scale marked 0, 100, …, 1,000
+- X-axis: Time from Jan-18 to Jan-25, marked semi-annually (Jan/Jul)
+- Right reference line labels: 10.0x, 17.5x, 25.0x, 32.5x
+- Legend: Not displayed separately
+
+[Data Relationships]
+- Jan-18 approximately 230 TWD
+- Jan-25 approximately 410 TWD
+- All-time high approximately 750 TWD (Jul-20), all-time low approximately 150 TWD (Jan-19)
+- High-low difference approximately 600 TWD
+- Early 2022 briefly reached approximately 560 TWD
+- The highest point is near the "25.0x" gray line; the 2019 low point is near "10.0x"
+- Values in the 2023—2024 range are between the "10.0x" and "17.5x" gray lines
+
+[Pattern Characteristics]
+- The series experienced significant volatility between 2018 and 2020, showing a clear high-level range, followed by a decline to operate near the middle range.
+- After 2021, the fluctuation range narrowed, generally moving back and forth between the two lower-middle gray reference lines, without touching previous extreme positions again.
+- There are several short-term spikes and troughs in the chart, with the high point around 2020 and the downward probe around 2021 being the most prominent.
+
+[Core Insights]
+Core Conclusion: After the valuation level retreated from the high range, it has long remained in the middle-to-low segment.
+
+Business Implications:
+- Current pricing has significantly converged compared to historical peaks.
+- The valuation center of gravity is close to the 10.0x—17.5x range.
+- The highly valued phase had limited sustainability, and subsequent levels are closer to neutral.
+
+Risk Focus:
+- If the level approaches 25.0x or above again, the pressure for a correction may increase.
+- If the level drops below the 10.0x corresponding range, it may trigger doubts about the asset's margin of safety.

@@ -1,0 +1,335 @@
+# 前端库全覆盖测试 - 50张图表
+# 目标：覆盖所有8种前端库的多种图表类型组合
+batch_name: frontend_libs_50
+
+output_base_dir: ./batch_output
+
+execution:
+  parallel: true
+  max_workers: 5
+  use_async: true
+
+charts:
+  # ============================================================================
+  # ECharts (8张) - 支持最多图表类型
+  # ============================================================================
+  - chart_type: line
+    language: zh-CN
+    theme: macro_policy
+    library: echarts
+    is_frontend: true
+
+  - chart_type: bar
+    language: en-US
+    theme: inflation
+    library: echarts
+    is_frontend: true
+
+  - chart_type: area
+    language: zh-CN
+    theme: growth_employment
+    library: echarts
+    is_frontend: true
+
+  - chart_type: scatter
+    language: en-US
+    theme: equity_markets
+    library: echarts
+    is_frontend: true
+
+  - chart_type: pie
+    language: zh-CN
+    theme: commodities
+    library: echarts
+    is_frontend: true
+
+  - chart_type: candlestick
+    language: en-US
+    theme: equity_markets
+    library: echarts
+    is_frontend: true
+
+  - chart_type: waterfall
+    language: zh-CN
+    theme: banking_credit
+    library: echarts
+    is_frontend: true
+
+  - chart_type: treemap
+    language: en-US
+    theme: commodities
+    library: echarts
+    is_frontend: true
+
+  # ============================================================================
+  # Highcharts (8张) - 专业金融图表
+  # ============================================================================
+  - chart_type: line
+    language: en-US
+    theme: fixed_income
+    library: highcharts
+    is_frontend: true
+
+  - chart_type: bar
+    language: zh-CN
+    theme: growth_employment
+    library: highcharts
+    is_frontend: true
+
+  - chart_type: candlestick
+    language: en-US
+    theme: equity_markets
+    library: highcharts
+    is_frontend: true
+
+  - chart_type: ohlc
+    language: zh-CN
+    theme: fx_trade
+    library: highcharts
+    is_frontend: true
+
+  - chart_type: bollinger_bands
+    language: en-US
+    theme: equity_markets
+    library: highcharts
+    is_frontend: true
+
+  - chart_type: waterfall
+    language: zh-CN
+    theme: corporate_finance
+    library: highcharts
+    is_frontend: true
+
+  - chart_type: pie
+    language: en-US
+    theme: banking_credit
+    library: highcharts
+    is_frontend: true
+
+  - chart_type: renko
+    language: zh-CN
+    theme: equity_markets
+    library: highcharts
+    is_frontend: true
+
+  # ============================================================================
+  # Chart.js (5张) - 轻量级
+  # ============================================================================
+  - chart_type: line
+    language: zh-CN
+    theme: macro_policy
+    library: chartjs
+    is_frontend: true
+
+  - chart_type: bar
+    language: en-US
+    theme: inflation
+    library: chartjs
+    is_frontend: true
+
+  - chart_type: area
+    language: zh-CN
+    theme: growth_employment
+    library: chartjs
+    is_frontend: true
+
+  - chart_type: scatter
+    language: en-US
+    theme: derivatives
+    library: chartjs
+    is_frontend: true
+
+  - chart_type: pie
+    language: zh-CN
+    theme: commodities
+    library: chartjs
+    is_frontend: true
+
+  # ============================================================================
+  # Plotly.js (7张) - 交互式
+  # ============================================================================
+  - chart_type: line
+    language: en-US
+    theme: fixed_income
+    library: plotlyjs
+    is_frontend: true
+
+  - chart_type: scatter
+    language: zh-CN
+    theme: equity_markets
+    library: plotlyjs
+    is_frontend: true
+
+  - chart_type: bubble
+    language: en-US
+    theme: banking_credit
+    library: plotlyjs
+    is_frontend: true
+
+  - chart_type: pie
+    language: zh-CN
+    theme: inflation
+    library: plotlyjs
+    is_frontend: true
+
+  - chart_type: waterfall
+    language: en-US
+    theme: corporate_finance
+    library: plotlyjs
+    is_frontend: true
+
+  - chart_type: box
+    language: zh-CN
+    theme: derivatives
+    library: plotlyjs
+    is_frontend: true
+
+  - chart_type: density
+    language: en-US
+    theme: risk_regulation
+    library: plotlyjs
+    is_frontend: true
+
+  # ============================================================================
+  # D3.js (5张) - 底层可视化
+  # ============================================================================
+  - chart_type: line
+    language: zh-CN
+    theme: macro_policy
+    library: d3js
+    is_frontend: true
+
+  - chart_type: scatter
+    language: en-US
+    theme: equity_markets
+    library: d3js
+    is_frontend: true
+
+  - chart_type: pie
+    language: zh-CN
+    theme: commodities
+    library: d3js
+    is_frontend: true
+
+  - chart_type: treemap
+    language: en-US
+    theme: banking_credit
+    library: d3js
+    is_frontend: true
+
+  - chart_type: bubble
+    language: zh-CN
+    theme: real_estate
+    library: d3js
+    is_frontend: true
+
+  # ============================================================================
+  # Recharts (4张) - React组件库
+  # ============================================================================
+  - chart_type: line
+    language: en-US
+    theme: fixed_income
+    library: recharts
+    is_frontend: true
+
+  - chart_type: bar
+    language: zh-CN
+    theme: growth_employment
+    library: recharts
+    is_frontend: true
+
+  - chart_type: area
+    language: en-US
+    theme: inflation
+    library: recharts
+    is_frontend: true
+
+  - chart_type: pie
+    language: zh-CN
+    theme: asset_management
+    library: recharts
+    is_frontend: true
+
+  # ============================================================================
+  # AntV (6张) - 蚂蚁金服
+  # ============================================================================
+  - chart_type: line
+    language: zh-CN
+    theme: macro_policy
+    library: antv
+    is_frontend: true
+
+  - chart_type: bar
+    language: en-US
+    theme: commodities
+    library: antv
+    is_frontend: true
+
+  - chart_type: candlestick
+    language: zh-CN
+    theme: equity_markets
+    library: antv
+    is_frontend: true
+
+  - chart_type: scatter
+    language: en-US
+    theme: banking_credit
+    library: antv
+    is_frontend: true
+
+  - chart_type: treemap
+    language: zh-CN
+    theme: corporate_finance
+    library: antv
+    is_frontend: true
+
+  - chart_type: waterfall
+    language: en-US
+    theme: ma_ipos
+    library: antv
+    is_frontend: true
+
+  # ============================================================================
+  # TradingView (7张) - 专业交易图表
+  # ============================================================================
+  - chart_type: candlestick
+    language: en-US
+    theme: equity_markets
+    library: tradingview
+    is_frontend: true
+
+  - chart_type: candlestick_volume
+    language: zh-CN
+    theme: fx_trade
+    library: tradingview
+    is_frontend: true
+
+  - chart_type: ohlc
+    language: en-US
+    theme: commodities
+    library: tradingview
+    is_frontend: true
+
+  - chart_type: bollinger_bands
+    language: zh-CN
+    theme: equity_markets
+    library: tradingview
+    is_frontend: true
+
+  - chart_type: ichimoku_cloud
+    language: en-US
+    theme: fx_trade
+    library: tradingview
+    is_frontend: true
+
+  - chart_type: volume_profile
+    language: zh-CN
+    theme: equity_markets
+    library: tradingview
+    is_frontend: true
+
+  - chart_type: renko
+    language: en-US
+    theme: commodities
+    library: tradingview
+    is_frontend: true

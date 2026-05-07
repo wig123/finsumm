@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Dual Line Chart
+- Title: Main title not displayed
+- X-axis: Time, range Aug-23 to Feb-24, ticks include Oct-23, Dec-23, Feb-24
+- Y-axis: bp (basis points), range -5 to 15
+- Legend: Green "1m Bill‑OIS", Blue "6m Bill‑OIS"
+
+[Data Relationships]
+- Aug-23: 1m≈0bp; 6m≈3–4bp; Spread≈3–4bp.
+- Near Oct-23: 1m peak≈5bp; 6m≈9–10bp; Spread≈4–5bp.
+- Nov–Dec-23 trough: 1m≈-1bp; 6m≈4bp; respective range amplitude approximately 6bp and 8bp.
+- Jan-24 peak: 6m≈12bp; 1m≈-1bp; Spread≈13bp.
+- End of Feb-24: 1m≈3bp; 6m≈7bp; Spread≈4bp.
+
+[Pattern Characteristics]
+- The two curves generally maintain synchronous fluctuations throughout the period, with the 6m curve level consistently higher than the 1m, and the distance between them significantly narrowing and widening across different time periods.
+- The 1m curve fluctuates slightly around the zero axis, briefly dropping into the negative range only near Nov–Dec-23; the 6m curve shows stepped fluctuations within the positive range, forming the most prominent high plateau near Jan-24.
+- The curves show relatively concentrated upward movement near Oct-23 and Jan-24, while Nov–Dec-23 is a period of relative decline, with the spread between the two curves reaching the most extreme level of the entire period during Jan-24.
+
+[Core Insights]
+Core Conclusion: The 1m and 6m spread structure continues to steepen, with the short end occasionally showing a discount (or negative basis).
+
+Business Implications:
+- Reflects increasing divergence in pricing between the short end and the medium-short end.
+- Significantly impacts returns for term spread-related strategies.
+- Suggests curve pricing relies more heavily on medium-short end expectations.
+
+Risk Focus:
+- If the 6m and 1m spread exceeds 13bp again, rollover and hedging costs may rise significantly.
+- If 1m remains below 0bp for an extended period, short-term asset returns may struggle to cover the cost of funds.

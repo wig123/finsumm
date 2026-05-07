@@ -1,0 +1,25 @@
+[Chart Components]
+- Type: Line Chart
+- Title: No explicit title
+- Axes: The horizontal axis represents time (months, range 11 to 24), the vertical axis represents Weighted Average Maturity (WAM), measured in days (range 0 to 50 days)
+- Legend: Crane MMF Average WAM
+
+[Data Relationships]
+- Key Values and Changes: The chart shows that during months 13 to 16, the WAM was relatively high, approximately between 40 and 45 days.
+- Extremes Comparison: During months 20 to 21, the WAM reached nearly 50 days, representing a local peak in the chart; during months 22 to 23, the WAM dropped to approximately 25 days, marking a clear trough.
+- Significant Trend: The overall trend shows that during months 11 to 17, the WAM experienced a period of volatile increase; subsequently, from month 17 to month 21, the WAM gradually declined; a sharp drop occurred between months 21 and 22; thereafter, the WAM showed an upward trend from month 22 to 24.
+
+[Pattern Characteristics]
+The line was in a higher range during the early period, accompanied by stepped volatility. After gradually declining in the middle segment, there was a rapid dip, followed by a noticeable rebound. Structurally, it shows an alternation between phased plateaus and transition periods, highlighted by a local peak followed immediately by a deep trough.
+
+[Core Insights]
+Core Conclusion: Maturity management shows phased adjustments, currently favoring a longer WAM.
+
+Business Implications:
+- Reflects high flexibility in maturity allocation.
+- Impacts the pace of reinvestment and duration exposure.
+- Recent inclination towards extending the holding period.
+
+Risk Focus:
+- WAM ≤ 25 days: High concentration of short-term maturities, increasing reinvestment difficulty.
+- WAM ≥ 50 days: Maturity distribution is skewed long, potentially leading to sluggish response to changes.

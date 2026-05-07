@@ -1,0 +1,33 @@
+[Chart Components]
+- Chart Type: Data table.
+- The header is divided into two sections: Headline HICP, Core HICP; each section has three sub-columns: Mar. ECB, Dec. ECB, BNPP.
+- Rows represent years: 2023, 2024, 2025, 2026.
+- Cells contain numerical values, some marked as N/A.
+- No axes or legends; categorization is identified by row and column titles.
+
+[Data Relationships]
+- 2023: Headline 5.5 (Mar/Dec/BNPP); Core 5.0 (Mar/Dec/BNPP).
+- 2024: Headline 2.4/2.7/2.1; Core 2.6/2.7/2.3 (Mar/Dec/BNPP).
+- 2025: Headline 2.1/2.1/1.9; Core 2.2/2.3/2.2.
+- 2026: Headline 2.0/1.9/N/A; Core 2.1/2.1/N/A.
+- Difference (Headline − Core) for the same year and source: 2023 is −0.5 (all sources); 2024 is +0.2, 0, +0.2; 2025 is +0.1, +0.2, +0.3; 2026 is +0.1, +0.2 (Mar/Dec).
+- Headline maximum value is 5.5 (2023 all sources), minimum value is 1.9 (2025 BNPP, 2026 Dec ECB); Core maximum value is 5.0 (2023 all sources), minimum value is 2.1 (2026 Mar/Dec).
+- 2024 cross-source difference: Headline maximum is 0.6 (Dec 2.7 vs BNPP 2.1), Core maximum is 0.4 (Dec 2.7 vs BNPP 2.3).
+- 2025 cross-source difference: Headline 0.2 (2.1 vs 1.9), Core 0.1 (2.3 vs 2.2).
+
+[Pattern Characteristics]
+- Across all years, the overall values for Headline and Core are similar among the three forecasts, with a relatively larger divergence among sources only appearing in 2024.
+- As the years progress, the values for Headline and Core show a continuous convergence trend, stabilizing into a narrow range of change after 2025.
+- The difference between Headline and Core shifts from a negative value in 2023 to small positive values in subsequent years. The numerical hierarchy remains stable without abrupt jumps, with only partial N/A entries appearing in 2026.
+
+[Core Insights]
+Core Conclusion: Both headline inflation and core inflation are expected to remain at proximate levels over the next few years.
+
+Business Implications:
+- Price growth rate is expected to return to a relatively moderate range.
+- Different institutions largely agree on the medium-term inflation outlook.
+- The underlying support provided by core components to overall prices is more persistent.
+
+Risk Focus:
+- If Headline or Core exceeds 3%, it may undermine medium-term price stability expectations.
+- If actual values fall below 2% after 2025, it could lead to insufficient inflationary momentum and pressure for expectation adjustments.

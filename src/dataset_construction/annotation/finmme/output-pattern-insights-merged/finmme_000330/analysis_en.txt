@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Line chart (with markers)
+- Title: Data center segment sales
+- X-axis: Quarterly timeline, Mar-14 to Mar-24
+- Y-axis: Quarterly Revs ($mm), Range 0–20,000, Scale interval 2,000
+- Legend: Intel (Gray diamond), AMD (Red square), Nvidia (Black triangle)
+
+[Data Relationships]
+- Mar-14: Intel≈3,000; AMD≈300; Nvidia≈500.
+- Peak Values: Nvidia (Mar-24)≈18,000; Intel (Dec-21)≈6,600; AMD (Dec-23)≈2,200.
+- Mar-24: Intel≈3,800; AMD≈2,000; Nvidia≈18,000.
+- Maximum increase from initial period: Nvidia≈17,500; Intel≈3,600; AMD≈1,900.
+- Mar-24 Gap: Nvidia-Intel≈14,200; Nvidia-AMD≈16,000; Intel-AMD≈1,800.
+
+[Pattern Characteristics]
+- The Intel curve generally maintains a medium-to-high level throughout the period, experiencing several noticeable ascents and pullbacks, forming several local peaks before returning to the middle range.
+- The AMD curve remains generally in the lower range, rising slowly, with minor pullbacks mid-way, but the overall structure is relatively smooth, without sharp volatility.
+- Nvidia was close to AMD in the early stages, then gradually increased, showing continuous steep acceleration near the end, significantly surpassing the other two curves at the endpoint, forming a prominent spike structure.
+
+[Core Insights]
+Core Conclusion: The data center revenue landscape has been significantly reshaped by Nvidia.
+
+Business Implications:
+- Intel shifts from dominance toward a comparative position relative to Nvidia.
+- Nvidia's influence on overall data center expenditure has significantly strengthened.
+- AMD remains in a relatively weak position but shows a trend of continuous improvement.
+
+Risk Focus:
+- If Nvidia exceeds 20,000 in a single quarter, it will put pressure on customer bargaining power and market concentration.
+- If Intel or AMD falls below 1,000, their influence in the data center market may noticeably weaken.

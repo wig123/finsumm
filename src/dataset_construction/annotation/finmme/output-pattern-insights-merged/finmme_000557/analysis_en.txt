@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Stacked Bar Chart
+- Title: 100G/200G/400G Switch ports (mn)
+- X-axis: Year, including 2020, 2021, 2022
+- Y-axis: Port Quantity (Millions), scale range approximately 0–25
+- Legend: Arista (Red), Cisco (Gray), Others (White with Black Border)
+
+[Data Relationships]
+- 2020: Arista 4.9, Cisco 3.3, Others 5.1; Total 13.3
+- 2021: Arista 6.0, Cisco 3.8, Others 6.9; Total 16.7
+- 2022: Arista 9.9, Cisco 5.00, Others 8.9; Total 23.8
+- Intra-year Difference: 2020 Arista–Cisco 1.6, Arista–Others 0.2; 2021 respectively 2.2, 0.9; 2022 respectively 4.9, 1.0
+- Annual Difference: Arista (2022–2020) 5.0, Cisco 1.7, Others 3.8; Total (2022–2020) is 10.5, (2022–2021) is 7.1, (2021–2020) is 3.4
+
+[Pattern Characteristics]
+The overall height of the bars increases year by year, and the magnitude of the increase between consecutive years expands sequentially. Within the stacked structure, Arista consistently occupies the largest segment, Cisco is in the middle, and Others is slightly higher than or close to Cisco. The gap between the three parties widens over time, especially the distance between Arista and Cisco, indicating an evolution from a relatively close structure to a more differentiated one.
+
+[Core Insights]
+Core Conclusion: The high-end switch port market shows a clear trend of concentration and strengthening.
+
+Business Implications:
+- Arista's influence (or market power) in this segment continues to strengthen.
+- Cisco's competitiveness in high-end ports is relatively under pressure.
+- Although the total volume of other manufacturers is large, their concentration is low.
+
+Risk Focus:
+- If Arista's proportion of port quantity consistently exceeds 40%, its bargaining power may significantly increase.
+- If the proportion of either Cisco or Others falls below 20%, it may weaken ecosystem cooperation and platform stickiness.

@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Line chart
+- Title: Not displayed
+- X-axis: Year, range 2014—2025F, labels include 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023F, 2024F, 2025F
+- Y-axis: Percentage scale, approximately 52%—70%, scale includes 52%, 56%, 58%, 60%, 62%, 64%, 66%, 68%, 70%
+- Legend: GPM %
+
+[Data Relationships]
+- Annual Values: 2014 is 67%; 2015 is 68%; 2016 is 67%; 2017 is 65%; 2018 is 65%; 2019 is 66%; 2020 is 64%; 2021 is 66%; 2022 is 63%; 2023F is 59%; 2024F is 58%; 2025F is 58%
+- Highs and Lows: Peak value 68% (2015), trough value 58% (2024F, 2025F), range difference 10 percentage points
+- Start and End Period: 2014 is 67%, 2025F is 58%, difference 9 percentage points
+- Period-over-Period Change Examples: 2016→2017 is -2 pct; 2019→2020 is -2 pct; 2020→2021 is +2 pct; 2021→2022 is -3 pct; 2022→2023F is -4 pct
+- Identical Values: 2017 and 2018 are both 65%; 2024F and 2025F are both 58%
+
+[Pattern Characteristics]
+- The line fluctuates slightly around the medium-to-high range between 2014 and 2019, with limited volatility.
+- The overall level shifts noticeably downward after 2020, particularly showing a significant single-period drop from 2022 to 2023F, subsequently flattening out near the relatively lower range and forming a plateau.
+- Local peaks only occurred in the first half of the period; the level has not returned to early figures since then.
+
+[Core Insights]
+Core Conclusion: The gross profit margin (GPM) level gradually transitions from a high point to a low point and stabilizes at the lower level.
+
+Business Implications:
+- Profitability margin has significantly narrowed compared to earlier years.
+- Increased pressure on profitability results stemming from costs or selling prices.
+- Future profit structure will rely less on unit gross margin.
+
+Risk Focus:
+- If the level continues to fall below 60%, the volume of profit may be insufficient to support current investment/expenditures.
+- If approaching the 52% mark, downside potential is limited, and further compression of earnings flexibility will occur.

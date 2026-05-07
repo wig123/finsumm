@@ -1,0 +1,33 @@
+[Chart Components]
+- Chart Type: Quarterly vertical bar chart.
+- Y-axis Label: Change vs. 2017-2018, unit is percentage, scale approximately from -20% to 20%, with a thick horizontal line at 0%.
+- X-axis: 2019, 2020, 2021, 2022, 2023E, with Q1–Q4 labeled for each year.
+- Colors: Historical periods are light-colored bars, 2023E is dark-colored bars.
+- Legend: No text legend visible; most bars are annotated with numerical values (e.g., 6%, -7%, 17%).
+- Grid: Background includes vertical and horizontal grid lines.
+
+[Data Relationships]
+- Peak Value: 2023E Q2 is 17%.
+- 2023E: Q1 7%, Q2 17%, Q3 7%, Q4 6%.
+- 2019: Q1 6%, Q2 -7%, Q3 -1%, Q4 -3%.
+- 2020: Q1 -10%, Q2 -12%, Q3 -3%, Q4 6%.
+- 2021: Q4 9%; other bars show labels such as 0%, -2%.
+- 2022: Q4 -1%; other labels include 0%.
+- Difference Examples: The difference between 2019 Q1 and Q2 is 13 percentage points; the difference between 2020 Q2 and Q4 is 18 percentage points; the difference between 2023E Q2 and Q4 is 11 percentage points.
+
+[Pattern Characteristics]
+- Overall, most quarters in 2019–2020 were below 0%; 2021–2022 gradually fluctuated slightly around 0%; while 2023E is entirely within the clear positive range.
+- Quarterly differences within each year are significant. 2019–2020 showed a clear transition from lower values to slightly higher values. 2023E forms a single prominent peak in the second quarter, with other quarters relatively concentrated.
+- Negative values in the chart are concentrated around 2020, after which negative bars significantly decrease, appearing only sporadically in individual quarters.
+
+[Core Insights]
+Core Conclusion: 2023E shows significant improvement relative to the base period and sets a new phase high.
+
+Business Implications:
+- Performance relative to 2017-2018 has shifted from being under pressure to showing significant uplift.
+- 2023E plays a dominant role in the overall annual result.
+- Following a phase of sluggishness, the recovery pace is largely complete.
+
+Risk Concerns:
+- If a single quarter falls back below 0%, it will weaken the outperformance relative to 2017-2018.
+- If Q2 is the only quarter above 10%, the full-year uplift may fall short of the expectations set by the 17% peak.

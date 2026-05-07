@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Grouped bar chart, including percentage labels
+- Title: Not displayed
+- Y-axis: Asset size ($tn), range approximately $0tn to $90tn, scale every $10tn
+- X-axis: 10 categories—Public pension funds, Private pension funds, Sovereign wealth funds, Endowments/foundations, Insurance companies, Other institutional investors, Mass affluent, High net worth, Very high net worth, UHNW+ family offices
+- Legend: Alternatives assets (Dark bar), Other assets (Light bar), Alternatives allocation % (Orange percentage)
+
+[Data Relationships]
+- Other assets ($tn): Public pension funds 17, Private pension funds 41, Sovereign wealth funds 25, Endowments/foundations 3, Insurance companies 37, Other institutional investors 17, Mass affluent 88, HNW 31, VHNWI 32, UHNW+ 15.
+- Alternatives allocation %: Respectively 25%, 11%, 25%, 54%, 7%, 16%, 0%, 1%, 3%, 19%.
+- Estimated Alternatives assets ($tn) based on proportion: Approximately 5.67, 5.07, 8.33, 3.52, 2.78, 3.24, 0, 0.31, 0.99, 3.52.
+- Comparison: Private pension fund Other assets are 4 higher than Insurance; VHNWI is 1 higher than HNW; Mass affluent is 73 higher than UHNW+.
+- Total: Institutional Other assets approximately 140, Private wealth Other assets approximately 166; Corresponding estimated Institutional Alternatives assets approximately 28.61, Private wealth Alternatives assets approximately 4.82.
+
+[Pattern Characteristics]
+- Asset size is highly concentrated in the "Mass affluent" and several large institutional categories, while categories like Endowments/foundations have relatively smaller scales, showing a significant overall volume disparity.
+- Within the same category, there is a large difference in height between the dark and light bars. The light portion dominates in most categories, with only a few individual categories where the dark bar proportion is close to or significantly higher than others.
+- The orange percentage is unevenly distributed across categories. Internal differences are significant on the institutional side, while most categories on the private wealth side have values close to zero, with only the final category being significantly higher than the rest of the private wealth categories.
+
+[Core Insights]
+Core Conclusion: Institutional utilization of this asset class significantly leads that of private wealth.
+
+Business Implications:
+- Institutional investors have a higher reliance on this asset class.
+- The overall depth of allocation to this asset class by private wealth is clearly insufficient.
+- Allocation preferences vary significantly among different types of institutions.
+
+Risk Focus:
+- If the proportion of this asset class on the institutional side consistently exceeds 25%, volatility may amplify portfolio drawdowns.
+- If the private wealth side remains below 5% long-term, they may miss out on the diversification benefits resulting from performance differences compared to traditional assets.

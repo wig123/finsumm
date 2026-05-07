@@ -1,0 +1,45 @@
+【图表构成】  
+- 类型：表格  
+- 标题：未显示标题  
+- 坐标轴：无坐标轴  
+- 图例：分列为“Headline HICP”和“Core HICP”，并进一步细分为“Mar. ECB”、“Dec. ECB”和“BNPP”  
+
+【数据关系】  
+- 2023年数值：  
+  - Headline HICP：所有预测（Mar. ECB、Dec. ECB、BNPP）均为5.5  
+  - Core HICP：所有预测均为5.0  
+
+- 2024年数值：  
+  - Headline HICP：Mar. ECB为2.4，Dec. ECB为2.7，BNPP为2.1  
+  - Core HICP：Mar. ECB为2.6，Dec. ECB为2.7，BNPP为2.3  
+  - Dec. ECB预测值在Headline HICP和Core HICP中均高于其他预测  
+
+- 2025年数值：  
+  - Headline HICP：Mar. ECB和Dec. ECB均为2.1，BNPP为1.9  
+  - Core HICP：Mar. ECB为2.2，Dec. ECB为2.3，BNPP为2.2  
+
+- 2026年数值：  
+  - Headline HICP：Mar. ECB为2.0，Dec. ECB为1.9  
+  - Core HICP：Mar. ECB和Dec. ECB均为2.1  
+  - BNPP未提供2026年预测  
+
+- 重要趋势：  
+  - Headline HICP和Core HICP呈逐年下降趋势  
+  - 2024年预测中，Dec. ECB数值高于其他预测值
+
+【模式特征】
+- 各来源在2023数值完全一致，随后按年份呈阶梯式下移，整体变化平滑。
+- 2024年Dec. ECB在两项指标上均高于另两家，至2025年后各来源数值更接近。
+- Core列整体略高于Headline；2026年仅有ECB两版，BNPP缺失。
+
+【核心洞察】
+核心结论：中期预期集中于约2%，短期判断存在分歧
+
+业务含义：
+- 中期水平判断集中度高
+- 2024分歧削弱定价一致性
+- 可据机构区间设定容忍带
+
+风险关注：
+- 2024 Headline>2.7或<2.1，定价与指引被动调整
+- 2025 Core>2.3或<2.2，模型与目标区间需重估

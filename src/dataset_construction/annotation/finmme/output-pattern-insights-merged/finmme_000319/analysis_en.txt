@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Line chart, including a gray range band and a gray dashed average line.
+- Title: Not labeled.
+- Y-axis: Unit "mn tons," scale approximately 0.3–1.3.
+- X-axis: Months Jan–Dec.
+- Legend: 2019–2023 range (gray band), Avg (gray dashed line), 2022 (red line), 2023 (black line), 2024 (blue line).
+
+[Data Relationships]
+- 2023: Jan≈0.86; May≈0.96 (High); Sep≈0.65 (Low); Dec≈0.70; Range difference≈0.31.
+- 2022: Jan≈0.89; Apr≈0.96; May≈0.79; Sep≈0.73; Dec≈0.91.
+- 2024: Only Jan≈0.76, close to Avg Jan≈0.76.
+- Avg: Jan≈0.76; Jul≈0.89; Dec≈0.81.
+- The upper and lower bounds of the gray range for most months are approximately 0.6–1.2.
+- Comparison: Dec 2022≈0.91 is higher than Dec 2023≈0.70, difference≈0.21.
+- Comparison: May 2023≈0.96 is higher than May 2022≈0.79, difference≈0.17.
+- Comparison: Sep 2023≈0.65 is lower than Sep 2022≈0.73, difference≈0.08.
+
+[Pattern Characteristics]
+- Monthly data for all years generally fluctuates narrowly around the gray dashed average line, with most points falling within the historical gray range.
+- The 2022 curve was relatively higher before mid-year and rose again at year-end; 2023 reached a local peak in late spring, followed by lower levels for most months in the second half of the year.
+- Currently, 2024 only has January data, which is close to the average line, insufficient to reflect the full-year pattern.
+
+[Core Insights]
+Core Conclusion: The full-year level for 2023 was relatively low, while 2022 was relatively high.
+
+Business Implications:
+- Performance in 2023 showed a weakening trend compared to 2022.
+- The indicators in the second half of the year had a more pronounced dragging effect on the annual total.
+- It is currently difficult to determine whether 2024 will continue the differences observed in previous years.
+
+Risk Focus:
+- If monthly values continue to approach the lower boundary of the 0.6 range, it may drag down the annual total volume and related earnings.
+- If peak months fail to approach the upper boundary of the 1.0+ range, insufficient peak contribution may affect the achievement of budget targets.

@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Dual-axis line chart; No explicit title
+- Legend: Red line "Boeing/Airbus (LHS)", Black line "KAI (RHS)"
+- X-axis: Year, 2014 to 2026F (including 2024F, 2026F as forecasts)
+- Left Y-axis: Units, range approximately 500 to 2,000
+- Right Y-axis: Value (KRW bn), range 0 to 1,500
+
+[Data Relationships]
+- Red line: 2014 approximately 1,300–1,400 units; 2018 approximately 1,550–1,600 units; 2020 located between 500–1,000; 2024F approximately 1,200–1,300 units.
+- Difference between the Red line in 2018 and 2020 is ≥550 units; Difference between 2014 and 2020 is ≥300 units.
+- Black line: 2016 approximately 1,100–1,200 KRW bn; 2020–2021 approximately close to 1,000 KRW bn; 2024F approximately 1,300–1,450 KRW bn; 2026F approximately 1,200–1,300 KRW bn.
+- Difference between the Black line in 2024F and 2020–2021 is approximately 300–450 KRW bn.
+
+[Pattern Characteristics]
+Both lines were in a similar medium-to-high range around 2014–2018, followed by a synchronous significant low point near 2020. Subsequently, the Red line gradually rose from the low but has not yet returned to its previous high, while the Black line continuously trended higher from the low and is maintained in a relatively higher range during the forecast period. Overall, the Black line exhibits a smoother trajectory, while the Red line shows a sharper inflection point after 2018 and greater volatility.
+
+[Core Insights]
+Core Conclusion: KAI value recovery is relatively more complete, while industry OEM shipments remain in the recovery phase.
+
+Business Implications:
+- KAI and OEM shipments show a certain degree of synchronization, but KAI exhibits higher elasticity.
+- KAI's revenue volume shows relatively stronger resilience to a single low point.
+- Future KAI performance depends on the further recovery of OEM shipments.
+
+Risk Focus:
+- If Boeing/Airbus falls below approximately 1,000 units, the KAI value may drop back to approximately 1,000 KRW bn.
+- If the KAI value fails to reach 1,200 KRW bn, it deviates from the forecast path, and valuation and expected earnings may be revised downward.

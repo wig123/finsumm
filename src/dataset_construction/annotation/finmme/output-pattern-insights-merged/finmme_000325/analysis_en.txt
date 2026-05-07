@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Bar chart (single series, red)
+- Legend/Title: Pricing growth (%)
+- X-axis: Company categories, 17 items in total: Titan, United Spirits, Colgate, Nestle, Jubilant Foodworks, ITC, Emami, Dabur, Berger Paints, Kansai Nerolac, Asian Paints, Hindustan Unilever, Godrej Consumer, Britannia, Page Industries, Marico, Bajaj Consumer
+- Y-axis: Percentage scale, range -20.0 to 30.0, including the 0 baseline
+
+[Data Relationships]
+- Maximum value: Titan 15.0%
+- Higher values: United Spirits 9.3%, Colgate 8.7%, Nestle 6.4%, Jubilant Foodworks 5.8%, ITC 4.3%
+- Lowest positive values: Emami 1.4%, Dabur 1.1%
+- Smallest negative magnitude: Berger/Kansai/Asian Paints all at -0.5%
+- Larger negative values: Hindustan Unilever -2.4%, Godrej Consumer -2.7%, Britannia -3.3%, Page Industries -4.1%, Marico -5.1%, Bajaj Consumer -5.8% (Lowest)
+- Range (Extreme difference): 20.8 percentage points difference between 15.0% and -5.8%
+- Numerical comparison: 8 companies positive, 9 companies negative
+
+[Pattern Characteristics]
+- Pricing growth rates across companies are distributed within a relatively wide range. A few outliers are clearly positioned at high and low extremes, while the majority are concentrated in the middle region near zero.
+- The number of companies with positive values is slightly less than those with negative values. The bars are arranged from left to right, high to low, showing a structure that gradually transitions from significantly above the baseline to slightly below, and then to deeper negative territory.
+- Several companies in the negative range have similar values, but the last company in the tail extends significantly lower than the rest of the negative cohort, forming a distinct low-end outlier.
+
+[Core Insights]
+Core Conclusion: Pricing growth rates show significant divergence among companies, with the overall trend leaning slightly towards the pressure zone.
+
+Business Implications:
+- A small number of leading companies possess stronger capabilities to realize price increases.
+- Mid-range companies have limited pricing power, contributing minimally to profit elasticity.
+- Tail-end companies may face weak bargaining power and pressure to maintain market share.
+
+Risk Focus:
+- For the 9 companies with pricing growth ≤0%, rising costs will directly erode profit margins.
+- Companies with pricing growth ≤-5%, such as Bajaj Consumer, may experience earnings downgrades and valuation compression.

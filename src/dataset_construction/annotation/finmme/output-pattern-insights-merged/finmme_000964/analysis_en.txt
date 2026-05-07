@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Line chart; includes annotated text.
+- Title: Not displayed.
+- X-axis: Year, 2010–2023.
+- Y-axis: % of Total, scale 0%–70%.
+- Legend: Four series—EU (solid dark line), EU: current (dashed dark line), RoW (solid light line), RoW: current (dashed light line).
+
+[Data Relationships]
+- 2010: EU ≈ 60%, RoW ≈ 40%, difference ≈ 20 percentage points.
+- 2022: EU ≈ 52%, RoW ≈ 48%, difference ≈ 4 percentage points.
+- 2023: EU ≈ 58%–59%, RoW ≈ 41%–42%, difference ≈ 16–18 percentage points.
+- EU full period range ≈ 52%–60%; RoW full period range ≈ 40%–48%.
+- “EU: current” dashed line ≈ 58%; “RoW: current” dashed line ≈ 42%; difference between the two ≈ 16 percentage points.
+
+[Pattern Characteristics]
+- Both solid lines fluctuate slowly within a relatively narrow range throughout the entire period, exhibiting a symmetrical structure where one gains as the other declines.
+- Near 2022, the gap between the solid lines narrowed to the lowest point of the entire period. In 2023, the gap significantly widened again, approaching the corresponding dashed line levels.
+- The two dashed lines remain constant throughout the period, positioned roughly in the upper-middle/lower-middle range of their respective solid lines, corresponding to a relatively stable target or baseline level.
+
+[Core Insights]
+Core Conclusion: The actual structure realigned toward the baseline level represented by the dashed lines in 2023.
+
+Business Implications:
+- Structural adjustment between 2010 and 2022 was limited, primarily consisting of minor redistribution.
+- The extreme proximity observed in 2022 reflects a temporary high degree of equilibrium between the proportions of both parties.
+- The reversion in 2023 suggests that the current structure is closer to the long-term established or expected state.
+
+Risk Focus:
+- If the EU proportion remains below 52% long-term, it will lead to a significant increase in reliance on RoW.
+- If the RoW proportion exceeds 48%, it may break the historical range, leading to allocation and stability pressures.

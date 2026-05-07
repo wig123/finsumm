@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Single-series vertical bar chart.
+- Title/Legend: Displays "Gross margin expansion (bps)" (red) at the top.
+- X-axis: Time categories, sequentially Dec-21, Mar-22, Jun-22, Sep-22, Dec-22, Mar-23, Jun-23, Sep-23, Dec-23.
+- Y-axis: bps value axis, range approximately -400 to 600, scale increment approximately 200, zero axis centered.
+
+[Data Relationships]
+- Period Values: Dec-21 -216; Mar-22 -323; Jun-22 -322; Sep-22 -303; Dec-22 -206; Mar-23 -138; Jun-23 103; Sep-23 381; Dec-23 374.
+- Maximum Value: Sep-23 381bps; Minimum Value: Mar-22 -323bps; Range (High-Low Difference): 704bps.
+- Periods with Positive Values are Jun-23(103), Sep-23(381), Dec-23(374); The difference between Sep-23 and Dec-23 is 7bps.
+
+[Pattern Characteristics]
+- The initial periods are all below the zero axis, subsequently crossing the zero axis near the midpoint, and the final periods remain above the zero axis with adjacent values being close.
+- Large span, distinct phases: Early periods are predominantly in the negative range, later periods are predominantly in the positive range; the structure shifts from dispersed to concentrated.
+- A clear inflection point appeared in mid-2023.
+
+[Core Insights]
+Core Conclusion: Gross margin expansion is in a phase of positive contribution and is more stable.
+
+Business Implications:
+- Indicates improved profitability
+- Enhances margin stability
+- Strengthens result repeatability
+
+Risk Focus:
+- Single quarter < 0bps, profitability contribution turns negative, compressing profit.
+- Single quarter ≤ -300bps, potentially leading to significant margin weakening and dragging down performance.

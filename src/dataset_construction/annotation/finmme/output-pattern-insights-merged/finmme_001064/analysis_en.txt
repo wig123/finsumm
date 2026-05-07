@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Time-series line chart (red line).
+- Title: Main title not provided; the chart includes text annotations: "peak P/B 1.1x," "bottom P/B 0.3x," "avg. P/B 0.7x," "+1 S.D 0.9x," "-1 S.D 0.5x."
+- Axes: The y-axis is labeled "(X)," with a scale range of approximately 0.0 to 1.5; the x-axis represents time, ranging from Jan-14 to Jan-24, with tick marks labeled Jan-14, Jan-16, Jan-18, Jan-20, Jan-22, Jan-24.
+- Auxiliary Lines: Solid line for the average value 0.7x; two dashed lines for +1 S.D 0.9x and -1 S.D 0.5x; two dotted dashed lines for the peak 1.1x and bottom 0.3x.
+- Legend: Not displayed.
+
+[Data Relationships]
+- The annotated peak line 1.1x is 0.2x higher than +1 S.D 0.9x.
+- The annotated trough line 0.3x is 0.2x lower than -1 S.D 0.5x.
+- The average value 0.7x is 0.2x lower than +1 S.D 0.9x and 0.2x higher than -1 S.D 0.5x.
+- The peak line 1.1x is 0.4x higher than the average value 0.7x; the trough line 0.3x is 0.4x lower than the average value.
+- The annotated range span between the peak line and the trough line is 0.8x (1.1x − 0.3x).
+- The x-axis time coverage is approximately 10 years (Jan-14 to Jan-24).
+
+[Pattern Characteristics]
+- The series exhibits a clear range-bound oscillation pattern around the central axis, spending most of the time between the upper and lower standard deviation lines, only touching or slightly exceeding the extreme ranges in isolated periods.
+- In the early and late segments of the sample period, the curve repeatedly approaches the upper range, while the middle segment is more frequently distributed near the lower range, featuring a noticeable low-level plateau near the lowest annotated line.
+- The rhythm of fluctuation is relatively orderly, with no single sharp jump observed; instead, the transition from high to low, and the subsequent upward recovery, is achieved through multiple continuous minor variations.
+
+[Core Insights]
+Core Conclusion: Valuation repeatedly switches within an identifiable range over the long term, with limited excursions to extreme positions.
+
+Business Implications:
+- The valuation level possesses clear high and low boundaries, which facilitates range-based judgment.
+- The characteristic of repeated reversion to the mean is beneficial for rhythmic configuration/timing-based allocation.
+- The extreme low position has been touched, reflecting temporary sentiment pressure.
+
+Risk Focus:
+- When the valuation approaches or exceeds 1.1x, upside potential may be limited, and correction pressure is amplified.
+- When the valuation approaches or falls below 0.3x, it may correspond to a deep negative shock to fundamentals or sentiment.

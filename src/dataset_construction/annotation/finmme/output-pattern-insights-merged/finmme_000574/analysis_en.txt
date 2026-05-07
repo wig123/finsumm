@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Doughnut Chart
+- Title: Not displayed
+- Axes: None
+- Legend: Dark Blue = BDC, Teal = Non-traded REIT, Light Green = Tender Offer, Crimson = Interval Fund
+- Labels: Amounts displayed within each sector (Unit: $bn USD)
+
+[Data Relationships]
+- Amounts: BDC $143bn; Non-traded REIT $99bn; Interval Fund $62bn; Tender Offer $48bn
+- Total: $352bn
+- Key Differences: BDC is $44bn more than REIT; $81bn more than Interval Fund; $95bn more than Tender Offer; REIT is $51bn more than Tender Offer; Interval Fund is $14bn more than Tender Offer
+- Proportion: BDC approximately 40.6%; REIT approximately 28.1%; Interval Fund approximately 17.6%; Tender Offer approximately 13.6%
+
+[Pattern Characteristics]
+- The ring structure shows a clear lead by a single item in terms of scale, with the remaining three categories distributed across medium and small levels, forming a decreasing volume gradient from largest to smallest.
+- The four sectors are not evenly distributed; there is a moderate gap between the second largest and third largest items, and a relatively small gap between the third largest and the smallest item.
+- There is no further division or aggregation within each sector; the overall composition is stable and structurally simple, with no extremely small or extremely close sectors.
+
+[Core Insights]
+Core Conclusion: The concentration of funds/assets is high in a single category, with the remaining categories exhibiting a secondary distribution.
+
+Business Implications:
+- The overall structure reflects strong characteristics of top-heavy concentration.
+- The focus of resource allocation is clearly skewed towards the BDC category.
+- Categories of small to medium volume have limited marginal impact on the overall structure.
+
+Risk Focus:
+- If the BDC proportion consistently exceeds 40%, it may amplify reliance on a single strategy or asset type.
+- If Tender Offer remains below 15% for an extended period without growth, it may limit the scope for diversification within this category.

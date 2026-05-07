@@ -1,0 +1,36 @@
+[Chart Components]
+- Type: Bar chart
+- Title: Not provided
+- Axes: Y-axis represents pricing growth percentage (%), ranging from -5% to 20%; X-axis represents the timeline, from December 2021 to December 2023
+- Legend: Pricing growth (%)
+
+[Data Relationships]
+- Key figures and changes:
+  - December 2021: 8.2%
+  - Reached peak in September 2022: 17.6%
+  - September 2023: 0.6%, indicating near stabilization
+  - December 2023: -3.3%, the only negative growth
+
+- Extremum comparison:
+  - Maximum value was 17.6% in September 2022
+  - Minimum value was -3.3% in December 2023
+
+- Key trends:
+  - Pricing growth rapidly increased from late 2021 to September 2022
+  - Following September 2022, the overall trend was downward
+  - Negative growth appeared in December 2023, indicating a significant decline in price levels
+
+[Pattern Characteristics]
+The overall structure exhibits a single peak: gradually rising from late 2021 to Q3 2022, forming a peak point in September 2022. Subsequently, readings continuously declined, approaching the zero axis in September 2023, and entering the negative range by December 2023. Structurally continuous, dominated by a single peak period, with the sole negative instance occurring at the end.
+
+[Core Insights]
+Core Conclusion: The period of high pricing growth has ended, with price reductions observed at year-end
+
+Business Implications:
+- Weakened pricing power, declining negotiation leverage
+- Revenue growth increasingly relies on volume rather than price
+- Gross margin is more sensitive to cost fluctuations
+
+Risk Focus:
+- Indicator ≤ 0% (see December 2023) may lead to revenue and profit decline
+- Indicator ≤ 0.6% (see September 2023) indicates increased discount pressure and slower collections

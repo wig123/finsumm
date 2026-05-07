@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Line chart
+- Title: Not displayed
+- X-axis: Time, annual scale 2006—2024
+- Left Y-axis (Blue line): HICP (% YoY, 9m lag, lhs), scale approximately -1 to 11
+- Right Y-axis (Red, Green lines): Indeed wage tracker (3m ave % YoY, 6m lag, rhs) and Negotiated wages (% YoY, rhs), scale approximately 0 to 5.5
+- Legend: Blue=HICP; Red=Indeed wage tracker; Green=Negotiated wages
+
+[Data Relationships]
+- HICP is approximately 10–11 near 2022 (left axis); approximately -0.5 near 2015; approximately 2–3 in 2024
+- Negotiated wages is approximately 4–4.5 near 2009 and 2023 (right axis); approximately 1 near 2015; approximately 3 in 2024
+- Indeed wage tracker is approximately 5 near 2022–2023 (right axis); approximately 2.5–3 in 2024
+- HICP peak is approximately 6 higher than the Negotiated wages peak; approximately 5–6 higher than the Indeed peak
+
+[Pattern Characteristics]
+The three curves generally fluctuated slowly around a lower range between 2006 and 2019, without long-term unidirectional extension. HICP showed a brief trough below zero around 2015, and formed a distinct single peak around 2022, with a magnitude significantly higher than the other two wage-related curves. Negotiated wages and Indeed wage tracker began to rise around 2019, forming relatively synchronous high points near 2022–2023, but both the peak magnitude and the speed of decline were weaker than HICP.
+
+[Core Insights]
+Core Conclusion: Price volatility is stronger than wage adjustments, and there is a clear misalignment between the two.
+
+Business Implications:
+- Wage response to price changes exhibits lag and inertia
+- The driving effect of labor costs on the overall price level is limited
+- Recent wage levels remain within a relatively moderate growth range
+
+Risk Concerns:
+- If HICP approaches 10 again while wages fail to rise to 5, it may compress real income space
+- If wage indicators remain above 4 long-term and HICP stays above 3, it may push up cost pressures and subsequent price levels

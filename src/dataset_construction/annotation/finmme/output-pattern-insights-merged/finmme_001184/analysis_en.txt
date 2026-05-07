@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Dual-axis combination chart (gray bars + red triangle markers).
+- Title: Not displayed.
+- X-axis: Fiscal year labels FY18, FY19, FY20, FY21, FY22, FY23, FY24F, FY25F, FY26F.
+- Left Y-axis: WHRS & Solar (MW), scale 0–900.
+- Right Y-axis: Power mix (%), scale 0%–70%.
+- Legend: Gray "WHRS & Solar (MW)", Red triangle "Power mix (%) (RHS)".
+
+[Data Relationships]
+- MW Peak: FY26F approximately 760–780; Trough: FY18 approximately 60; Difference approximately 700–720.
+- FY22 approximately 420; FY23 approximately 340; FY24F approximately 410–420; FY25F approximately 420.
+- Percentage: FY18≈10%, FY19≈10%, FY20≈12%, FY21≈15%, FY22≈22%, FY23≈28–30%, FY24F≈35–38%, FY25F≈33–35%, FY26F≈58–60%.
+- The FY26F percentage is approximately 48–50 percentage points higher than FY18.
+
+[Pattern Characteristics]
+The bar values show an overall stair-step increase starting from FY18, with a slight dip after FY22, followed by continued upward movement after FY24F, culminating in a clear high point in FY26F. The red triangles exhibit a continuous upward monotonic structure over time, with the growth rate significantly accelerating in the middle-to-later stages, creating a substantial gap between FY26F and previous periods. Both series maintain a synchronized change throughout the entire period, reaching their respective historical highs concurrently in the later stage, with no inverse movements or isolated anomalies observed.
+
+[Core Insights]
+Core Conclusion: Both WHRS and solar installed capacity and their respective proportions are planned for substantial increases.
+
+Business Implications:
+- The weighting of captive clean power sources within the energy mix is significantly strengthened.
+- Dependence on external conventional power is expected to decrease significantly.
+- The rising proportion of power generation assets will enhance overall energy self-sufficiency.
+
+Risk Focus:
+- If installed capacity after FY24F fails to reach approximately 410MW, subsequent proportion targets may not be achieved.
+- If the FY26F proportion falls below approximately 55%, the planned pace of energy structure improvement will be delayed.

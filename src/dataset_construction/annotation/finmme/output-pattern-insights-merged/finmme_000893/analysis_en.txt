@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Time Series Line Chart
+- Title: China Vanke - H
+- Time Axis: 2021/07 to 2024/01 (Scale approximately semi-annual)
+- Price Axis: 0—32.5 HKD (Scale interval 2.5)
+- Top Right Annotation: As of 16-Mar-2024; Currency=HKD
+- Legend: Grey Line=Closing Price; Green Triangle=Target Price Change; Blue Dot=Recommendation Changes
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial Period (around 2021/07) closing price approximately 31–32 HKD; Final Period (around 2024/01) approximately 5.5–6 HKD; the difference between the two is about 25–26 HKD.
+- The highest point on the entire chart is close to 32 HKD (left side); the lowest point is close to 5 HKD (right side); the gap is about 27 HKD.
+- The price corresponding to the Blue Dot in 2022/01 is about 19–20 HKD; the difference from the Green Triangle in 2022/03, which is about 24–25 HKD, is approximately 5 HKD.
+- The Blue Dot in 2023/05 is about 12–13 HKD; the difference from the Green Triangle in 2023/08, which is about 9–10 HKD, is approximately 2–4 HKD.
+- The difference between the Blue Dot in 2023/05 and the final value in 2024/01 is about 6–7 HKD.
+
+[Pattern Characteristics]
+Throughout the period, the closing price exhibits a unilateral downward trend from left to right, accompanied by several short-term rebound and pullback minor waves. A relatively clear phase high appeared near the beginning of 2022, after which it gradually moved to a lower range. In the later period, the price range shifted downward overall, and the volatility tended to converge slightly. The number of Green Triangles and Blue Dots is small, distributed near local phase highs or relatively central price levels, and they do not form a distinct cyclical structure.
+
+[Core Insights]
+Core Conclusion: The stock price has been on a trajectory of significant long-term pressure, and multiple adjustments in institutional expectations have failed to reverse the situation.
+
+Business Implications:
+- Valuation levels have significantly contracted relative to the early stages.
+- Institutional pricing and tracking cadence have limited impact on the price.
+- There is a clear misalignment between investor sentiment and research opinions.
+
+Risk Concerns:
+- If the price approaches further below 5 HKD, it may trigger investor stop-loss and forced position reduction.
+- If subsequent target prices continue to be more than 2–3 HKD below the current price, the downward adjustment cycle may amplify negative price feedback.

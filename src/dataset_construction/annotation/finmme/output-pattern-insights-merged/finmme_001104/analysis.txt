@@ -1,0 +1,30 @@
+【图表构成】
+- 类型：分组数据表
+- 分组：Total UST、Market UST (net of Fed)、SOMA UST
+- 列：Present、2y、5y、10y
+- 行与单位：Outstanding amount ($trn)、WAM (years)、WAM ex-bills/FRN
+- 坐标轴与图例：无
+
+【数据关系】
+- Outstanding amount($trn)：Present26.8/22.3/4.5；2y25.7/20.0/5.7；5y17.4/15.2/2.2；10y13.8/11.5/2.3（序为Total/Market/SOMA）。四期均满足Total−Market＝SOMA。
+- WAM(years)：Present5.73/5.15/8.60；10y5.01/4.00/10.11。
+- WAM ex-bills/FRN：Present7.69/7.32/9.02；10y6.58/5.57/10.11。
+- Present中ex-bills较WAM：Total+1.96，Market+2.17，SOMA+0.42。
+
+【模式特征】
+- 各期 Total、Market 与 SOMA 在规模上呈稳定加总关系，SOMA 始终为Total与Market的差额，随时间推移三者规模同步缩小。  
+- 当前时点下，SOMA 组的期限指标整体高于 Total 与 Market，而 Market 普遍低于 Total，且在10年期时 SOMA 与剔除短券后的期限数值完全一致。  
+- 各期中，剔除短券后的期限均显著高于对应的整体期限，且这一差异对 Total 和 Market 的影响程度大于对 SOMA 的影响。
+
+【核心洞察】
+
+核心结论：联储持有部分显著拉长整体久期，短券占比较高压低市场端久期。
+
+业务含义：
+- 当前市场端久期低于整体，利率敏感度有限  
+- 联储资产组合久期更长，对长期利率变化更敏感  
+- 剔除短券后，市场和整体久期显著抬升，显示期限集中度较高  
+
+风险关注：
+- 若Market WAM降至4年以下，利率上行时价格波动受限但再融资压力上升  
+- 若SOMA WAM维持在10年以上，长期利率上移将放大资产估值波动

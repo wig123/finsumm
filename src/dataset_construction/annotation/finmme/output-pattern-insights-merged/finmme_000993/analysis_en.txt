@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Multi-series Line Chart
+- Title: FY24 EPS US$ (Indexed =100)
+- X-axis: Date, ranging from 04-Jan-23 to 28-Feb-24, marked with specific date scales.
+- Y-axis: Index Value, scale ranging approximately 70–105.
+- Legend: AeJ (Solid Red Line), Semi/Eqpt (Dotted Black Line), Tech HW/Eqpmt (Dashed Black Line), Soft/Srvcs (Dashed Blue Line).
+- Note: The index is benchmarked at 100.
+
+[Data Relationships]
+- Initial Period (04-Jan-23): AeJ≈100; Soft/Srvcs≈100; Semi/Eqpt≈99; Tech HW/Eqpmt≈98
+- Peak: Soft/Srvcs≈103 (Jan); AeJ≈101 (Jan); Semi/Eqpt≈99 (Jan); Tech HW/Eqpmt≈99 (Jan)
+- Trough: Tech HW/Eqpmt≈78 (Oct–Nov); Semi/Eqpt≈79 (Oct–Nov); AeJ≈86 (Feb); Soft/Srvcs≈88 (Feb)
+- Final Period (28-Feb-24): AeJ≈86; Soft/Srvcs≈88; Semi/Eqpt≈83; Tech HW/Eqpmt≈78
+- Change from Initial to Final Period: AeJ approx. -14; Soft/Srvcs approx. -12; Semi/Eqpt approx. -16; Tech HW/Eqpmt approx. -20
+- Final Period Difference: Soft/Srvcs is higher than AeJ by ≈2; higher than Semi/Eqpt by ≈5; higher than Tech HW/Eqpmt by ≈10; AeJ is higher than Semi/Eqpt by ≈3
+
+[Pattern Characteristics]
+All four series were close to the benchmark value at the beginning of the year, followed by an overall unidirectional downward trend, lacking obvious cyclicality. Soft/Srvcs consistently remained at the top, and Tech HW/Eqpmt remained at the bottom for an extended period. The relative ranking remained largely stable, only slightly converging or diverging at specific local points. Around October–November, Tech HW/Eqpmt and Semi/Eqpt experienced a deeper downward probe, while Soft/Srvcs and AeJ only saw a moderate decline during the same period, forming a divergent structure.
+
+[Core Insights]
+Core Conclusion: Overall EPS expectations across all sectors have been revised downwards; Software is relatively resilient against declines.
+
+Business Implications:
+- Overall earnings expectations are weakening, and valuation support is diminishing.
+- The Software sector exhibits stronger relative return elasticity.
+- Hardware and Semiconductors are more sensitive to negative information.
+
+Risk Concerns:
+- When the Tech HW/Eqpmt index consistently falls below 80, it may trigger further divestment and valuation compression.
+- If the AeJ index breaks below 85 and sustains that level, it will drag down overall regional earnings expectations and capital flows.

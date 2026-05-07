@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Multi-series line chart (with circular markers).
+- Title: Main title not displayed; the legend includes 3 series.
+- Legend: Green "Britannia," Blue "Largest Competitor," Purple "2nd Largest Competitor."
+- X-axis: Time categories, 2012-13, 2013-14, 2014-15, 2015-16, 2016-17, 2017-18, 2018-19, 2019-20, 2020-21, 2021-22, 2022-23, YTD’24, EXIT.
+- Y-axis: Biscuit Market Share % (Numerical scale not provided).
+- Annotation: Red arrow indicates the gap between Blue and Green in 2012-13; Green brackets indicate the gap between Blue and Green in 2022-23 and EXIT.
+
+[Data Relationships]
+- 2012-13: Blue is higher than Green, the gap is indicated by a red arrow.
+- 2015-16: Green and Blue are nearly equal.
+- 2016-17 to 2021-22: Green is consistently higher than Blue.
+- 2022-23: Green is higher than Blue, the gap is marked by green brackets.
+- EXIT: Green is higher than Blue, the brackets show the gap is larger than in 2022-23.
+- Purple is lower than the other two series in all periods; the peak is in 2015-16, and the trough is in 2020-21.
+- Green: The starting period (2012-13) is its lowest point; the ending period (EXIT) is its highest point.
+- Blue: The highest point is in 2012-13; the lowest point is between 2022-23 and YTD’24 (the two points are close).
+
+[Pattern Characteristics]
+The Green series shows an overall unidirectional upward trend from left to right, with no significant pullback midway, reaching its highest point at the end of the period. The Blue series starts high, followed by a phased decline, a slight rebound in the middle segment, and remains in a lower range in the later segment. After minor fluctuations in the early-to-middle segment, the Purple series gradually moves downward and remains at a low and narrow level in the later period. Green and Blue intersect in the middle segment, remain separated thereafter, and the gap widens further towards the end.
+
+[Core Insights]
+Core Conclusion: Britannia has transitioned from a challenger to a clear market leader, and the leadership advantage is expanding.
+
+Business Implications:
+- The market leadership structure has shifted from a single leader to Britannia dominance.
+- The share attractiveness of the largest competitor has significantly declined.
+- The influence of the second competitor on the overall landscape continues to weaken.
+
+Risk Focus:
+- If Britannia’s share falls back from the EXIT position by ≥ half of the final gap shown in the chart, the stability of the leadership will be weakened.
+- If the largest competitor’s share recovers to a level close to Britannia (similar to the 2015-16 spacing), direct competitive pressure will intensify again.

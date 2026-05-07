@@ -1,0 +1,30 @@
+【图表构成】
+- 总图标题：INDF Flow Chart。含四个子图。
+- 左上：Investors' portfolio weighting in INDF（% of portfolio）。横轴：Jan’18–Oct’23。左纵轴：0–4%（权重），右纵轴：1,000–10,000（价格）。图例：Local Weighting（黑）、Foreign Weighting（灰）、Weight in JCI %（红）、MSCI Weightings（黄虚线）、Price（蓝虚线）。
+- 右上：Local and foreign investors' ownership in INDF（% of company）。横轴：Jan’18–Oct’23。左纵轴：0–18%（持股占比），右纵轴：1,000–10,000（价格）。图例：Local Ownership %（黑）、Foreign Ownership %（灰）、Owned by Retail %（红）、Stock Price（蓝虚线）。
+- 左下：Local IS MF and PF Breakdown。横轴：Jan’18–Oct’23。纵轴：0–12%。图例：Local IS（黑）、Local MF（灰）、Local PF（红）。
+- 右下：Foreign IS MF and PF Breakdown。横轴：Jan’18–Oct’23。纵轴：0–9%。图例：Foreign IS（红）、Foreign MF（灰）、Foreign PF（黑）。
+
+【数据关系】
+- 左上末值：Foreign Weighting 1.93%；MSCI Weightings 1.6%；Weight in JCI % 0.96%；价格Dec-23为6,450。Foreign比MSCI高0.33个百分点，比JCI高0.97个百分点。
+- 右上末值：Local Ownership 11.4%；Foreign Ownership 12.7%；Owned by Retail 5.3%；价格Dec-23为6,450。Foreign比Local高1.3个百分点；Local比Retail高6.1个百分点；Foreign比Retail高7.4个百分点。
+- 左下末值：Local IS 9.8%；Local MF 2.1%；Local PF 0.7%。IS比MF高7.7个百分点；IS比PF高9.1个百分点；MF比PF高1.4个百分点。
+- 右下末值：Foreign PF 7.4%；Foreign MF 3.8%；Foreign IS 0.4%。PF比MF高3.6个百分点；PF比IS高7.0个百分点；MF比IS高3.4个百分点。
+
+【模式特征】  
+- 左上图中，本地与外资权重在区间内呈窄幅上下起伏，整体与价格曲线并行但并非完全同步，MSCI 与 JCI 权重基准基本保持平直。  
+- 右上图中，外资持股比例始终高于本地，零售持股自中段开始逐步抬升，股价在中后段围绕一个中枢上下波动。  
+- 左下图中，本地 IS 在样本中后期处于明显主导位置，MF 与 PF 保持在较低且相对稳定的水平。  
+- 右下图中，外资 PF 始终为主要持有方且在后段进一步抬升，MF 维持中位水平，IS 长期处于极低占比。  
+
+【核心洞察】  
+核心结论：资金结构由机构主导且偏重外资长线配置。  
+
+业务含义：  
+- 含义1 本地与外资配置差异反映持有者结构分层  
+- 含义2 外资 PF 占优提高股价对长期资金依赖度  
+- 含义3 零售占比上升增加交易盘的活跃度  
+
+风险关注：  
+- 风险点1 若外资 PF 比例自7.4%明显回落，可能导致股价承压与换手放大  
+- 风险点2 若零售占比自5.3%继续快速抬升，波动或加剧并放大短期回撤风险

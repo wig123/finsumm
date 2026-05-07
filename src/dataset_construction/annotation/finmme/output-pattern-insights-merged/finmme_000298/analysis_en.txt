@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Scatter Plot
+- Title: 5y Implied vs realised skew; last 3 months
+- X-axis: Implied skew; Tick marks labeled as -0.10%, -0.05%, 0.00%, 0.05%, 0.10%
+- Y-axis: Realised skew; Scale range -0.4% to 0.2%, interval approximately 0.1%
+- Reference Lines: x=0 and y=0 axes; one gray dashed line and one black dotted dashed line
+- Legend: Blue diamond "Higher forward", Green square "Lower forward"
+
+[Data Relationships]
+- X-axis data range approximately -0.10% to +0.10%; Y-axis data range approximately -0.40% to +0.20%.
+- Leftmost point Implied skew approximately -0.09%; Rightmost point approximately +0.08%; The difference between the two extremes is about 0.17 percentage points.
+- Realised skew lowest point approximately -0.37%; Highest point approximately +0.15%; The difference between the two extremes is about 0.52 percentage points.
+- Both types of markers (blue, green) appear in the quadrants where x<0 and x>0, and y<0 and y>0.
+
+[Pattern Characteristics]
+- The scatter points generally distribute along a direction slightly inclined towards the upper right, exhibiting moderate dispersion around the two reference dashed lines, with no obvious extreme outliers.
+- Blue diamonds are mainly concentrated near the negative side of the X-axis and slightly biased towards the median of the Y-axis, while green squares are primarily distributed in the positive region of the X-axis, with similar spans in both positive and negative directions of the Y-axis.
+- The two types of points show some overlap near the origin, but exhibit a relatively segregated structure on either side of the X-axis; no obvious stratification is observed on the Y-axis.
+
+[Core Insights]
+Core Conclusion: There is a moderate positive correlation between implied and realised skew, but group differences are significant.
+
+Business Implications:
+- The degree of alignment between skew expectation and outcome differs across groups.
+- Pricing and hedging accuracy exhibit group-dependent characteristics.
+- The distinctiveness of near-term expectation signals is higher than the overall intensity.
+
+Risk Focus:
+- When the absolute value of Implied skew is >0.08%, Realised deviation may amplify P&L volatility.
+- When Realised skew is <-0.30%, if Implied skew is close to 0, it may lead to severe mispricing exposure.

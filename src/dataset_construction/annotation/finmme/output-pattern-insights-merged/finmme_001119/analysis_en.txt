@@ -1,0 +1,27 @@
+[Chart Components]
+- Chart Type: Bar Chart
+- Title: EBIT Margins
+- Y-axis: Percentage scale, range 0%—30%, marked 0%, 5%, 10%, 15%, 20%, 25%, 30%
+- X-axis: Fiscal Year Categories: FY19, FY20, FY21, FY22, FY23, FY24F, FY25F, FY26F
+- Legend: Red bar, label "EBIT Margins"
+
+[Data Relationships]
+- Values for each period: FY19 18.4%; FY20 17.6%; FY21 23.4%; FY22 25.8%; FY23 23.0%; FY24F 23.1%; FY25F 22.3%; FY26F 23.7%.
+- Maximum value: FY22 25.8%; Minimum value: FY20 17.6%; Difference between high and low is 8.2 percentage points.
+- Initial period (FY19) 18.4%, Final period (FY26F) 23.7%, difference of 5.3 percentage points.
+- Sequential differences: FY21–FY22 2.4pp; FY22–FY23 2.8pp; FY23–FY24F 0.1pp; FY24F–FY25F 0.8pp; FY25F–FY26F 1.4pp.
+
+[Pattern Characteristics]
+The overall structure exhibits a single peak, first declining slowly, then rising significantly, reaching a local maximum in FY22. Subsequently, values fluctuate slightly within a similar range, without sharp jumps. Historical values transition smoothly to forecasted values, with the latter period showing narrow fluctuations around a medium-to-high level.
+
+[Core Insights]
+Core Conclusion: The EBIT margin operates within a high-level plateau range, with limited future volatility.
+
+Business Implications:
+- Profitability is maintained within a high range rather than continuously expanding.
+- Cost control and pricing strategies play a prominent role in profit maintenance.
+- Future earnings elasticity is limited, leaning towards a steady-state operational structure.
+
+Risk Concerns:
+- If the EBIT margin falls below 20%, it will significantly compress profit margins and valuation potential.
+- If the high point of 25.8% cannot be approached again, long-term growth expectations may be downgraded.

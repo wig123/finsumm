@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Stacked Bar Chart
+- Title: Not displayed
+- Legend: Banks (Red), Mutual funds (Gray), Insurance cos (White), AIFIs (Light Orange), Others (Black)
+- X-axis: Time/Period, labeled as FY19, FY20, FY21, FY22, 2Q23, FY23, 2Q24
+- Y-axis: Numerical scale 0–100 (Equidistant scale)
+- Sub-component values are labeled on each bar, totaling approximately 100.
+
+[Data Relationships]
+- FY19: Banks 42, Mutual funds 27, Insurance 20, AIFIs 7, Others 4 (Total approx. 100)
+- 2Q24: Banks 55, Mutual funds 14, Insurance 14, Others 17 (Total 100; AIFIs not displayed)
+- Banks Range: 42 (FY19)–55 (2Q24), difference 13
+- Mutual funds Range: 27 (FY19)–14 (2Q24), difference 13
+- Insurance Range: 23 (FY23)–14 (2Q24), difference 9
+- Others Range: 17 (2Q24)–4 (FY19), difference 13
+- AIFIs only appear: FY19=7, FY20=8 (Not displayed after FY21)
+- Reference Intermediate Periods: FY22=Banks 48, Mutual 20, Insurance 18, Others 14; FY23=44, 19, 23, 15
+
+[Pattern Characteristics]
+Overall, the total volume across all periods remains largely stable, showing a clear redistribution structure among different categories. The proportion of Banks continuously expands across the timeline, while Mutual funds and Insurance gradually narrow after a brief mid-period rebound. Others significantly increased after FY21. AIFIs only appeared in the first two fiscal years, subsequently disappearing from the structure, reducing the number of categories from five to four.
+
+[Core Insights]
+Core Conclusion: The funding source structure is shifting from diversified dispersion toward concentration in Banks and Other institutions.
+
+Business Implications:
+- Increased reliance on the banking sector, leading to changes in bargaining power.
+- Reduced influence of Non-Banking Financial Institutions (NBFIs) within the overall structure.
+- Following the exit of AIFIs, the replacement force primarily comes from other unclassified institutions.
+
+Risk Concerns:
+- If the Banks proportion consistently exceeds 55, volatility from a single source may amplify overall financing uncertainty.
+- If the Mutual funds proportion falls below 14 and continues to decline, it may weaken the flexibility of market-based funding sources.

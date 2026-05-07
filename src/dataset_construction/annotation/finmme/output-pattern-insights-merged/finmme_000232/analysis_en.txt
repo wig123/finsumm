@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Bar Chart + Line Chart (Dual Axis).
+- Legend: Red bars represent “CNG volumes,” Black line represents “y-y growth (RHS).”
+- Left Y-axis: Unit mmscm, Range approximately 0.0—3.0.
+- Right Y-axis: Percentage, Range approximately ‑100%—250%.
+- X-axis: Quarterly labels, from 1QFY18, 3QFY18, 1QFY19, … to 3QFY24.
+- Title: Not displayed.
+
+[Data Relationships]
+- CNG volumes minimum approximately 0.3 mmscm (1QFY21); maximum approximately 2.6 mmscm (3QFY24); difference approximately 2.3 mmscm.
+- Initial period 1QFY18 approximately 1.9 mmscm; Final period 3QFY24 approximately 2.6 mmscm; Increase approximately 0.7 mmscm.
+- 3QFY20 approximately 2.2 mmscm, higher than 1QFY21 (approximately 0.3 mmscm) by approximately 1.9 mmscm.
+- 1QFY23 approximately 2.5 mmscm, higher than 3QFY22 (approximately 2.3 mmscm) by approximately 0.2 mmscm.
+- y-y growth minimum approximately ‑80% (1QFY21); maximum approximately 250% (1QFY22); span approximately 330 percentage points.
+- 1QFY23 approximately 50–60%; 3QFY23 approximately 0–10%; 3QFY24 around 10%.
+
+[Pattern Characteristics]
+- The bar chart generally fluctuates slightly around a narrow range, with a single significant low point appearing in 1QFY21, after which it gradually recovered to slightly above previous levels, ending the period at the upper boundary of the range.
+- The line chart remained within a relatively stable band around FY18–FY20, sharply dropping to a low in 1QFY21, then forming a sharp peak in 1QFY22, and subsequently gradually declining and converging into a narrow fluctuation range near zero.
+- 1QFY21 and 1QFY22 formed adjacent extreme values in the combination of bars and lines, creating a clear structural breakpoint in the overall sequence.
+
+[Core Insights]
+Core Conclusion: Volume recovered after the trough and entered a phase of moderate expansion, with growth rates having clearly converged.
+
+Business Implications:
+- After experiencing a significant contraction, demand has recovered to the historically higher end of the range.
+- The phase of ultra-high growth rates has concluded, and subsequent expansion relies less on new drivers.
+- Current performance is closer to existing inventory maintenance, requiring enhanced refined operations.
+
+Risk Concerns:
+- If y-y growth falls below 0% again, it may transition to inventory contraction and suppress future volume expansion potential.
+- If CNG volumes fall back to around 1.5 mmscm, it will weaken economies of scale and increase unit cost pressure.

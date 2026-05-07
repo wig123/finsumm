@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Line Chart
+- Title: Not displayed
+- X-axis: Time, scale marked as Jan‑18, Jan‑19, Jan‑20, Jan‑21, Jan‑22, Jan‑23
+- Y-axis: Metric Tons (Thousands), range 0–30,000, major scale every 5,000
+- Legend: Four series—List 3 (Dark Green Solid Line), List 2 (Light Gray-Blue Solid Line), List 4 (Orange Dashed Line), List 1 (Dark Blue Solid Line)
+
+[Data Relationships]
+- List 3: Jan‑18 approximately 24,000, Jan‑23 approximately 12,500, interval high approximately 24,000, low approximately 12,000, difference between start and end of period approximately 11,500
+- List 2: Jan‑18 approximately 2,000, low point near 2020 approximately 500, Jan‑23 approximately 2,000, high-low difference approximately 1,500
+- List 4: Jan‑18 approximately 1,000, high point near 2021 approximately 3,000, Jan‑23 approximately 2,000, high-low difference approximately 2,000
+- List 1: Jan‑18 approximately 500, Jan‑23 approximately 0, high-low difference approximately 500
+- Jan‑23 Comparison: List 3 approximately 12,500, List 2 approximately 2,000, List 4 approximately 2,000, List 1 approximately 0; List 3 is higher than List 2 or List 4 by approximately 10,500, and higher than List 1 by approximately 12,500
+
+[Pattern Characteristics]
+- Multi-series but significantly imbalanced structure; List 3's magnitude is far higher than the rest, forming a single dominance.
+- List 3 follows a downward channel, showing a brief uplift near 2021, and trending sideways at the end.
+- Subordinate series have small amplitude: List 2 bottomed out near 2020 and returned close to its starting point, List 4 formed a peak mid-period, List 1 gradually approaches the zero axis.
+
+[Core Insights]
+Core Conclusion: (Structure highly dependent on List 3, high concentration)
+
+Business Implications:
+- The dominant series determines the overall scale and fluctuation.
+- Subordinate series have limited influence and are difficult to offset.
+- Portfolio dispersion is low; sensitivity is concentrated at a single point.
+
+Risk Focus:
+- List 3 < 12,000: Total scale approaches the bottom, limiting decision space.
+- List 2 < 500: Subordinate series contribution is nearly zero.

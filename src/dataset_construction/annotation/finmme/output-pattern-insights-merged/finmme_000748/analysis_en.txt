@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Pie chart
+- Title: Not displayed
+- Axes: No axes
+- Legend: No independent legend; sectors are directly labeled with country names and percentages
+- Others: No grid lines; sectors are distinguished by different colors
+
+[Data Relationships]
+- Total 11 categories, percentages: France 20%, Spain 18%, United Kingdom 15%, Netherlands 10%, Turkey 9%, Italy 8%, Belgium 7%, Portugal 4%, Rest of Europe 4%, Poland 3%, Greece 2%.
+- Maximum value: France 20%; Minimum value: Greece 2%; Difference of 18 percentage points.
+- The top three items (France + Spain + United Kingdom) total 53%.
+- Spain 18% is 3 percentage points higher than United Kingdom 15%.
+- Netherlands 10% is 1 percentage point higher than Turkey 9%.
+- Portugal 4% and Rest of Europe 4% total 8%.
+- Poland 3% is 1 percentage point higher than Greece 2%.
+- Italy 8% and Belgium 7% differ by 1 percentage point.
+
+[Pattern Characteristics]
+Overall, it shows a concentrated distribution where a few segments hold large proportions, while the remaining countries have fragmented, long-tail proportions. The area of the top three sectors is significantly larger than the others; subsequently, the area of each sector gradually contracts, but the differences are not drastic. The areas of the sectors at the tail end are similar, and visually there are no abrupt extreme minimum values or isolated blocks.
+
+[Core Insights]
+Core Conclusion: The regional composition exhibits a structure of head concentration and tail dispersion.
+
+Business Implications:
+- Resources or revenue are highly dependent on a few key countries.
+- Mid-tier countries contribute limitedly, with small marginal improvement potential.
+- The overall proportion of tail-end countries is low, limiting their impact on the total.
+
+Risk Focus:
+- A 5 percentage point decline in any country with a proportion >15% will significantly alter the overall structure.
+- If the combined proportion of the top three countries rises to ≥60%, the concentration is too high, and volatility in a single region will impact the overall results.

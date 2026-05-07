@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Line Chart
+- Title: LiAuto Inc.
+- Axes: X-axis represents Time (ranging from July 2021 to February 2024), Y-axis represents Price (in USD, ranging from 0 to 55)
+- Legend: Black line represents Closing Price, Green triangle represents Target Price Change, Blue dot represents Recommendation Changes
+
+[Data Relationships]
+- Key Values and Changes:
+  - The peak occurred in early 2023, with the stock price approximately 45
+  - The trough occurred in mid-2022, with the stock price approximately 15
+- Extremum Comparison:
+  - The peak in early 2023 (approx. 45) was significantly higher than other time points
+  - The low point in mid-2022 (approx. 15) was significantly lower than stock prices in other periods
+- Key Trends:
+  - From mid-2021 to early 2022, the stock price experienced a significant rise followed by a pullback
+  - From mid-2022 to early 2023, the stock price showed a significant upward trend
+  - After early 2023, the stock price experienced a volatile decline and then rose again, reaching a higher level in mid-2023
+
+[Pattern Characteristics]
+The closing price line shows phased fluctuations, structurally featuring a prominent main peak and a clear trough. Subsequently, the amplitude of the range first converged and then expanded again, forming a segment of renewed upward movement. Event markers are sparsely distributed: Green triangles appear at several nodes, and the blue dot appears only once and is located in an earlier phase.
+
+[Core Insights]
+Core Conclusion: The synchronization between price and target price/recommendation changes is relatively weak.
+
+Business Implications:
+- The decision guidance provided by analyst signals is limited
+- Portfolio allocation should reduce reliance on single events
+- Reflects differences in phased sensitivity
+
+Risk Focus:
+- Dropping below 15: may trigger stop-loss, leading to liquidity pressure
+- Failure to effectively hold above 45: may result in profit giveback and earnings erosion

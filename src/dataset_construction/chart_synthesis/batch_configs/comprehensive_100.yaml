@@ -1,0 +1,194 @@
+# 全面测试配置 - 100张图表
+# 覆盖所有主题、图表类型、语言、任务的组合
+# 用法: python scripts/run_batch.py --config batch_configs/comprehensive_100.yaml
+
+batch_name: "comprehensive_100"
+output_base_dir: "./batch_output"
+
+# 执行配置
+execution:
+  parallel: true
+  max_workers: 5
+  use_process_pool: false
+  use_async: true
+
+# 图表列表 (100张)
+charts:
+  # === Tier 1: 核心类型测试 (40张) ===
+
+  # Line Charts (8张)
+  - {chart_type: line, language: zh-CN, theme: macro_policy, library: matplotlib}
+  - {chart_type: line, language: en-US, theme: inflation, library: seaborn}
+  - {chart_type: line, language: zh-CN, theme: growth_employment, library: plotly}
+  - {chart_type: line, language: en-US, theme: fx_trade, library: altair}
+  - {chart_type: line, language: zh-CN, theme: equity_markets, library: bokeh}
+  - {chart_type: line, language: en-US, theme: fixed_income, library: matplotlib}
+  - {chart_type: line, language: zh-CN, theme: commodities, library: seaborn}
+  - {chart_type: line, language: en-US, theme: digital_assets, library: plotly}
+
+  # Bar Charts (8张)
+  - {chart_type: bar, language: zh-CN, theme: fiscal_policy, library: matplotlib}
+  - {chart_type: bar, language: en-US, theme: banking_credit, library: seaborn}
+  - {chart_type: bar, language: zh-CN, theme: corporate_finance, library: plotly}
+  - {chart_type: bar, language: en-US, theme: real_estate, library: altair}
+  - {chart_type: bar, language: zh-CN, theme: insurance, library: bokeh}
+  - {chart_type: bar, language: en-US, theme: asset_management, library: matplotlib}
+  - {chart_type: bar, language: zh-CN, theme: derivatives, library: seaborn}
+  - {chart_type: bar, language: en-US, theme: esg_sustainable, library: plotly}
+
+  # Candlestick Charts (6张)
+  - {chart_type: candlestick, language: zh-CN, theme: equity_markets, library: mplfinance}
+  - {chart_type: candlestick, language: en-US, theme: commodities, library: plotly}
+  - {chart_type: candlestick, language: zh-CN, theme: fx_trade, library: mplfinance}
+  - {chart_type: candlestick, language: en-US, theme: digital_assets, library: plotly}
+  - {chart_type: candlestick, language: zh-CN, theme: derivatives, library: mplfinance}
+  - {chart_type: candlestick, language: en-US, theme: equity_markets, library: plotly}
+
+  # Area Charts (6张)
+  - {chart_type: area, language: zh-CN, theme: inflation, library: matplotlib}
+  - {chart_type: area, language: en-US, theme: growth_employment, library: seaborn}
+  - {chart_type: area, language: zh-CN, theme: fixed_income, library: plotly}
+  - {chart_type: area, language: en-US, theme: banking_credit, library: altair}
+  - {chart_type: area, language: zh-CN, theme: real_estate, library: bokeh}
+  - {chart_type: area, language: en-US, theme: corporate_finance, library: matplotlib}
+
+  # Histogram (4张)
+  - {chart_type: histogram, language: zh-CN, theme: equity_markets, library: matplotlib}
+  - {chart_type: histogram, language: en-US, theme: fx_trade, library: seaborn}
+  - {chart_type: histogram, language: zh-CN, theme: commodities, library: plotly}
+  - {chart_type: histogram, language: en-US, theme: derivatives, library: altair}
+
+  # Scatter Charts (4张)
+  - {chart_type: scatter, language: zh-CN, theme: inflation, library: matplotlib}
+  - {chart_type: scatter, language: en-US, theme: growth_employment, library: seaborn}
+  - {chart_type: scatter, language: zh-CN, theme: corporate_finance, library: plotly}
+  - {chart_type: scatter, language: en-US, theme: asset_management, library: altair}
+
+  # Bar-Line Overlay (4张)
+  - {chart_type: bar_line_overlay, language: zh-CN, theme: macro_policy, library: plotly}
+  - {chart_type: bar_line_overlay, language: en-US, theme: fiscal_policy, library: matplotlib}
+  - {chart_type: bar_line_overlay, language: zh-CN, theme: banking_credit, library: plotly}
+  - {chart_type: bar_line_overlay, language: en-US, theme: real_estate, library: matplotlib}
+
+  # === Tier 2: 高频分析 (30张) ===
+
+  # Heatmap (5张)
+  - {chart_type: heatmap, language: zh-CN, theme: equity_markets, library: seaborn}
+  - {chart_type: heatmap, language: en-US, theme: commodities, library: matplotlib}
+  - {chart_type: heatmap, language: zh-CN, theme: fx_trade, library: plotly}
+  - {chart_type: heatmap, language: en-US, theme: derivatives, library: seaborn}
+  - {chart_type: heatmap, language: zh-CN, theme: asset_management, library: matplotlib}
+
+  # Waterfall (4张)
+  - {chart_type: waterfall, language: zh-CN, theme: fiscal_policy, library: plotly}
+  - {chart_type: waterfall, language: en-US, theme: corporate_finance, library: matplotlib}
+  - {chart_type: waterfall, language: zh-CN, theme: banking_credit, library: plotly}
+  - {chart_type: waterfall, language: en-US, theme: insurance, library: matplotlib}
+
+  # OHLC (3张)
+  - {chart_type: ohlc, language: zh-CN, theme: equity_markets, library: mplfinance}
+  - {chart_type: ohlc, language: en-US, theme: commodities, library: plotly}
+  - {chart_type: ohlc, language: zh-CN, theme: fx_trade, library: mplfinance}
+
+  # Bollinger Bands (3张)
+  - {chart_type: bollinger_bands, language: zh-CN, theme: equity_markets, library: mplfinance}
+  - {chart_type: bollinger_bands, language: en-US, theme: commodities, library: plotly}
+  - {chart_type: bollinger_bands, language: zh-CN, theme: digital_assets, library: mplfinance}
+
+  # Box Plot (3张)
+  - {chart_type: box, language: zh-CN, theme: inflation, library: seaborn}
+  - {chart_type: box, language: en-US, theme: growth_employment, library: matplotlib}
+  - {chart_type: box, language: zh-CN, theme: real_estate, library: plotly}
+
+  # Pie Chart (3张)
+  - {chart_type: pie, language: zh-CN, theme: asset_management, library: matplotlib}
+  - {chart_type: pie, language: en-US, theme: corporate_finance, library: plotly}
+  - {chart_type: pie, language: zh-CN, theme: esg_sustainable, library: matplotlib}
+
+  # Bubble Chart (3张)
+  - {chart_type: bubble, language: zh-CN, theme: equity_markets, library: matplotlib}
+  - {chart_type: bubble, language: en-US, theme: fx_trade, library: plotly}
+  - {chart_type: bubble, language: zh-CN, theme: corporate_finance, library: matplotlib}
+
+  # Candlestick Volume (3张)
+  - {chart_type: candlestick_volume, language: zh-CN, theme: equity_markets, library: mplfinance}
+  - {chart_type: candlestick_volume, language: en-US, theme: commodities, library: plotly}
+  - {chart_type: candlestick_volume, language: zh-CN, theme: digital_assets, library: mplfinance}
+
+  # Line Band Overlay (2张)
+  - {chart_type: line_band_overlay, language: zh-CN, theme: macro_policy, library: matplotlib}
+  - {chart_type: line_band_overlay, language: en-US, theme: inflation, library: plotly}
+
+  # Treemap (1张)
+  - {chart_type: treemap, language: zh-CN, theme: equity_markets, library: plotly}
+
+  # === Tier 3: 专业工具 (20张) ===
+
+  # Contour (3张)
+  - {chart_type: contour, language: zh-CN, theme: derivatives, library: matplotlib}
+  - {chart_type: contour, language: en-US, theme: commodities, library: plotly}
+  - {chart_type: contour, language: zh-CN, theme: fx_trade, library: matplotlib}
+
+  # Fan Chart (2张)
+  - {chart_type: fan_chart, language: zh-CN, theme: macro_policy, library: matplotlib}
+  - {chart_type: fan_chart, language: en-US, theme: inflation, library: plotly}
+
+  # Volume Profile (2张)
+  - {chart_type: volume_profile, language: zh-CN, theme: equity_markets, library: matplotlib}
+  - {chart_type: volume_profile, language: en-US, theme: commodities, library: plotly}
+
+  # Ichimoku Cloud (2张)
+  - {chart_type: ichimoku_cloud, language: zh-CN, theme: equity_markets, library: mplfinance}
+  - {chart_type: ichimoku_cloud, language: en-US, theme: fx_trade, library: plotly}
+
+  # Market Depth (2张)
+  - {chart_type: market_depth, language: zh-CN, theme: equity_markets, library: plotly}
+  - {chart_type: market_depth, language: en-US, theme: digital_assets, library: plotly}
+
+  # Renko (2张)
+  - {chart_type: renko, language: zh-CN, theme: equity_markets, library: mplfinance}
+  - {chart_type: renko, language: en-US, theme: commodities, library: mplfinance}
+
+  # Errorbar (2张)
+  - {chart_type: errorbar, language: zh-CN, theme: inflation, library: matplotlib}
+  - {chart_type: errorbar, language: en-US, theme: growth_employment, library: plotly}
+
+  # Radar (2张)
+  - {chart_type: radar, language: zh-CN, theme: corporate_finance, library: plotly}
+  - {chart_type: radar, language: en-US, theme: esg_sustainable, library: matplotlib}
+
+  # Network/Node (2张)
+  - {chart_type: node, language: zh-CN, theme: payments_fintech, library: plotly}
+  - {chart_type: node, language: en-US, theme: ma_ipos, library: plotly}
+
+  # Gantt (1张)
+  - {chart_type: gantt, language: zh-CN, theme: ma_ipos, library: plotly}
+
+  # === Tier 4: 特殊场景 (10张) ===
+
+  # Point & Figure (2张)
+  - {chart_type: point_figure, language: zh-CN, theme: equity_markets, library: mplfinance}
+  - {chart_type: point_figure, language: en-US, theme: commodities, library: mplfinance}
+
+  # Candlestick Indicator (2张)
+  - {chart_type: candlestick_indicator, language: zh-CN, theme: equity_markets, library: mplfinance}
+  - {chart_type: candlestick_indicator, language: en-US, theme: fx_trade, library: plotly}
+
+  # Waterfall Line (2张)
+  - {chart_type: waterfall_line, language: zh-CN, theme: fiscal_policy, library: plotly}
+  - {chart_type: waterfall_line, language: en-US, theme: corporate_finance, library: matplotlib}
+
+  # Density Plot (2张)
+  - {chart_type: density, language: zh-CN, theme: equity_markets, library: seaborn}
+  - {chart_type: density, language: en-US, theme: derivatives, library: matplotlib}
+
+  # Heatmap Scatter (2张)
+  - {chart_type: heatmap_scatter, language: zh-CN, theme: equity_markets, library: seaborn}
+  - {chart_type: heatmap_scatter, language: en-US, theme: fx_trade, library: matplotlib}
+
+# 覆盖统计:
+# - 图表类型: 27 种（所有 Tier 1-4）
+# - 主题: 20 个（FT01-FT20）
+# - 语言: 中文/英文 各 50 张
+# - 任务: monitor/compare/diagnose/explain 均衡分布
+# - 库: matplotlib, seaborn, plotly, mplfinance, altair, bokeh

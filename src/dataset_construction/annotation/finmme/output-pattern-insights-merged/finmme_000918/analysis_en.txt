@@ -1,0 +1,40 @@
+[Chart Components]
+- Chart Type: Grouped Data Table
+- Titles are divided into three categories: Total UST, Market UST (net of Fed), SOMA UST
+- Columns: Present, 2y, 5y, 10y
+- Rows: Outstanding amount ($trn), WAM (years), WAM ex-bills/FRN
+- Units: Amount is $trn, Maturity is years
+- No axes or legend
+
+[Data Relationships]
+- Outstanding amount ($trn):
+  - Total: 26.8/25.7/17.4/13.8; Maximum 26.8 (Present), Minimum 13.8 (10y), Difference 13.0
+  - Market: 22.3/20.0/15.2/11.5; Maximum 22.3, Minimum 11.5, Difference 10.8
+  - SOMA: 4.5/5.7/2.2/2.3; Maximum 5.7, Minimum 2.2, Difference 3.5
+  - Decomposition: Each column satisfies Total = Market + SOMA
+- WAM (years):
+  - Total: 5.73/5.51/5.35/5.01; Difference between Present and 10y is 0.72
+  - Market: 5.15/4.91/4.95/4.00; Difference 1.15
+  - SOMA: 8.60/7.63/8.20/10.11
+- WAM ex-bills/FRN:
+  - Total: 7.69/7.52/6.94/6.58
+  - Market: 7.32/7.28/6.69/5.57
+  - SOMA: 9.02/8.12/8.26/10.11; Both SOMA values for 10y are 10.11 (Equal)
+- Proportion (Outstanding, Present): Market/Total ≈ 83.2%, SOMA/Total ≈ 16.8%; 10y figures are approximately 83.3% and 16.7% respectively
+
+[Pattern Characteristics]
+- The outstanding amounts of the three categories (Total, Market, SOMA) exhibit a consistent decomposition relationship across all maturity points, with Market consistently accounting for the vast majority, and the SOMA proportion remaining relatively stable.
+- The WAM and WAM ex-bills/FRN for Total and Market show lower values at longer maturity points, whereas the corresponding SOMA values are higher at longer maturity points, converging to the same level at 10y.
+- SOMA's WAM and WAM ex-bills/FRN are significantly higher than those of Total and Market across all maturity points, forming a clear layered structure.
+
+[Core Insights]
+Core Conclusion: Market holdings lean towards shorter duration, while official holdings lean towards longer duration.
+
+Business Implications:
+- Overall duration is lengthened by official positioning, reducing market sensitivity.
+- Interest rate changes in the market primarily impact medium-to-short-term holdings.
+- Official duration is concentrated in the long end, which helps stabilize long-term interest rate levels.
+
+Risk Concerns:
+- If the Market WAM drops below 4 years, the market's price volatility in response to rising interest rates will significantly amplify.
+- If SOMA Outstanding falls near 2.0 $trn, support for long-term interest rates will weaken, and the yield curve may steepen.

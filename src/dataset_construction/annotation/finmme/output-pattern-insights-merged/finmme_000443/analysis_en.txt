@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Dual Line Chart
+- Title: P/E (12‑month forward)
+- X-axis: Time Jan‑10 to Jan‑24 (Annual scale)
+- Y-axis: P/E, Range approximately 4–20 (Scale interval approximately 2)
+- Legend: Vinci (Dark color), Eiffage (Light color)
+
+[Data Relationships]
+- Vinci peak ≈ 19 (Jan‑21), trough ≈ 7 (2012).
+- Eiffage peak ≈ 14 (2015‑16), trough ≈ 7 (2012).
+- Initial period Jan‑10: Vinci ≈ 12, Eiffage ≈ 13.
+- Final period Jan‑24: Vinci ≈ 12‑13, Eiffage ≈ 9.
+- Maximum difference approximately 7 (Jan‑21: 19 vs 12).
+- Jan‑23: Vinci ≈ 13, Eiffage ≈ 9, difference approximately 4.
+
+[Pattern Characteristics]
+- The two curves generally exhibit a multi-segment fluctuating structure, with several distinct surges and pullbacks, showing no regular periodicity.
+- Vinci is positioned above Eiffage during most time periods, especially since 2018, where the gap between the two has widened, forming a more distinct separation structure.
+- Around 2012, both were simultaneously at a common low. Vinci showed a single prominent peak around 2021, while Eiffage formed its own relatively high plateau around 2016 before gradually declining.
+
+[Core Insights]
+Core Conclusion: Vinci's valuation pricing has generally been superior to Eiffage's over the long term, with the gap widening in recent years.
+
+Business Implications:
+- Vinci is assigned higher growth or earnings expectations by the market.
+- There is a structural divergence in the capital market attractiveness of the two companies.
+- Eiffage's recent valuation decline may suppress refinancing and equity incentive potential.
+
+Risk Focus:
+- If Vinci's P/E approaches 20 again, it may trigger valuation correction and sentiment volatility.
+- If Eiffage's P/E persistently falls below 8, it may exacerbate declining investor confidence and capital outflow.

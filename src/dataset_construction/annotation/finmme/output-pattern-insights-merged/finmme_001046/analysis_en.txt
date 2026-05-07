@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Dual-axis time series line chart
+- Title: US: Real Wage Growth vs Cons Confidence
+- X-axis: Time, Jan-19 to Sep-23 (Jan/May/Sep labeled)
+- Left Y-axis: Real Wage Growth (%), Range -1.5% to 3.5%, approximately 0.5% increments; includes 0% baseline
+- Right Y-axis: US Consumer Confidence, Range 40 to 110, approximately 10-point increments
+- Legend: Dark green represents Real Wage Growth, Light blue represents US Consumer Confidence
+
+[Data Relationships]
+- Initial Period (Jan-19): Real wage growth ≈ 2.0%; Consumer confidence ≈ 95
+- Final Period (Sep-23): Real wage growth ≈ 0.5%; Consumer confidence ≈ 65
+- Real wage growth peaked at ≈ 3.0% (mid-2021), lowest at ≈ -1.4% (mid-2022); high-low difference ≈ 4.4 percentage points
+- Consumer confidence peaked at ≈ 100 (early 2020), lowest at ≈ 50 (mid-2022); high-low difference ≈ 50 points
+- Mid-2022, when wage growth was negative (≈ -1.4%), consumer confidence was ≈ 50–60
+- Mid-2021, when wage growth was ≈ 3.0%, consumer confidence was ≈ 85–90
+
+[Pattern Characteristics]
+Both time series exhibit a clear pattern of initial rise followed by a decline, accompanied by multiple significant fluctuations during the sample period. Real wage growth reached a relatively high plateau around 2021, subsequently crossed the 0% baseline, lingered near negative values, and then returned to a slightly positive range. Consumer confidence was at its highest point for the entire period around early 2020, and has generally remained in a relatively low range since then. Both curves simultaneously approached their respective low points around mid-2022. Local peaks and troughs are generally synchronized, but there are also periods of deviation.
+
+[Core Insights]
+Core Conclusion: The correlation between real income performance and consumer sentiment is high during the sample period, but not perfectly consistent.
+
+Business Implications:
+- Changes in real income have a clear transmission effect on sentiment.
+- When sentiment is in a high range, it is more sensitive to negative disturbances in income.
+- In the mid-to-late period, income and sentiment are in a dual-weak range, restricting consumption willingness.
+
+Risk Focus:
+- Real wage growth ≤ 0% and confidence index ≤ 60 may suppress discretionary consumption and sales.
+- Real wage growth near ≤ -1.0% coupled with confidence ≤ 50 may trigger a more pronounced demand contraction and earnings downward revision.

@@ -1,0 +1,40 @@
+【图表构成】
+- 类型：分组柱状图
+- 标题：Revenue (INR bn) trends
+- 坐标轴：纵轴为收入（INR bn），横轴为财年（FY18至FY23）
+- 图例：Asian Paints（红色）、Berger Paints（灰色）、Kansai Nerolac（白色方块边）、Akzo Nobel（浅粉色）、Indigo Paints（黑色）
+
+【数据关系】
+- **关键数值和变化：**
+  - 从FY18到FY23，Asian Paints的收入从168上升到345，持续增加并在FY23达到最大值。
+  - Berger Paints的收入也持续增长，从FY18的51增加到FY23的106。
+  - Kansai Nerolac的收入在FY20和FY23持平，分别为53和75。
+  - Akzo Nobel的收入从FY18的4上升到FY23的11，虽然有增长，但量较小。
+  - Indigo Paints增长显著，从FY18的27上升到FY23的38。
+
+- **极值对比：**
+  - FY23中，所有公司中Asian Paints的收入最高为345。
+  - FY18中Akzo Nobel的收入最低，仅为4。
+
+- **重要趋势：**
+  - Asian Paints和Berger Paints显示了持续增长的趋势。
+  - Kansai Nerolac在FY20的时候收入较低，但逐步回升。
+  - Indigo Paints从FY18开始有稳定增长。
+  - 整体来看，行业内多数公司收入在FY23达到最高点。
+
+【模式特征】
+- 多数公司随财年呈连续递增，末年柱值最高。
+- 结构呈失衡，一家规模明显高于其余，其他位于低位区间。
+- FY20出现个别回落或停滞，随后柱值恢复并抬升。
+
+【核心洞察】
+核心结论：头部贡献主导，收入梯队分化
+
+业务含义：
+- 体现头部依赖度较高
+- 二线公司对总量影响有限
+- 弱势品牌规模提升难改格局
+
+风险关注：
+- Asian Paints低于291，合计收入或下滑
+- Berger低于106或Kansai≤75，二线带动力不足

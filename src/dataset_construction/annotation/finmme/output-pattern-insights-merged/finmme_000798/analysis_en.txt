@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Step line chart comparing two groups
+- Annotation: In-chart note "HR (95% CI) = 0.09 (0.02; 0.44)"
+- Y-axis: Probability of being retreated with IVIg (%), range 0–1
+- X-axis: Time (Days), scale 1, 8, 15, 22, 29, 43, 57, 71, 85, 99, 113
+- Legend: Blue "EMPA IV", Grey "Placebo"
+- Other elements: One grey dashed horizontal line approximately at 0.5, one vertical line approximately at Day 43
+
+[Data Relationships]
+- Day 1: Probability for both groups ≈ 0
+- Cumulative probability for Placebo at approximately Day 29, 43, and 57 is ≈ 0.10, ≈ 0.50, and ≈ 0.75, respectively
+- EMPA IV is ≈ 0.08 at approximately Day 57, and ≈ 0.18–0.20 at approximately Day 99–113
+- At Day 43: Placebo ≈ 0.50, EMPA IV ≈ 0; Difference ≈ 0.50
+- At Day 57: Placebo ≈ 0.75, EMPA IV ≈ 0.08; Difference ≈ 0.67
+- Quantified metric provided in the annotation: HR=0.09, 95% CI: 0.02–0.44
+
+[Pattern Characteristics]
+The grey step line continuously moves upward in the Day 29–57 interval, forming a higher and earlier cumulative level, after which it tends to flatten. The blue step line generally remains in the lower range, showing only a few step increases in the mid-to-late period, and the final cumulative level is significantly lower than the grey line. Near Day 43, the distance between the two curves is observed to widen suddenly, and this gap is largely maintained thereafter.
+
+[Core Insights]
+Core Conclusion: The retreatment incidence rate is significantly lower and occurs later in the experimental group compared to the control group.
+
+Business Implications:
+- Retreatment events in the control group are more concentrated in the early stage.
+- The experimental group has significantly less need for retreatment during the follow-up period.
+- The HR and its confidence interval indicate that the difference between the two groups is statistically significant.
+
+Risk Focus:
+- If the retreatment probability for Placebo consistently exceeds 0.5, overall resource utilization will increase significantly.
+- If the retreatment probability for EMPA IV approaches 0.3, the difference between the two groups will narrow, and the advantage will diminish.

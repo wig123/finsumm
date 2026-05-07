@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: 100% Stacked Bar Chart
+- Title: Not displayed
+- Y-axis: % of Total, range 0%–100%
+- X-axis: Categories are sequentially: 2019; 2035E (New momentum, Accelerated, Net Zero); 2050E (New momentum, Accelerated, Net Zero)
+- Legend: Two series—SAF (light color), Kerosene (dark color)
+
+[Data Relationships]
+- Proportions for each category (Kerosene/SAF): 2019 100%/0%; 2035E-New momentum 96%/4%; 2035E-Accelerated 90%/10%; 2035E-Net Zero 81%/19%; 2050E-New momentum 88%/12%; 2050E-Accelerated 61%/39%; 2050E-Net Zero 23%/77%.
+- Within 2035E: Maximum SAF proportion is 19%, minimum is 4%, a difference of 15 percentage points.
+- Within 2050E: Maximum SAF proportion is 77%, minimum is 12%, a difference of 65 percentage points.
+- Cross-period comparison: Comparing 2019 with 2050E Net Zero, the difference in SAF is 77 percentage points, and the difference in Kerosene is 77 percentage points; Comparing 2035E Net Zero with 2050E Net Zero, the difference in SAF is 58 percentage points, and the difference in Kerosene is 58 percentage points.
+
+[Pattern Characteristics]
+- In all years and scenarios, the two energy types consistently form a complementary structure within each bar, with the total remaining constant. The overall structure gradually transitions from a single proportion dominance to a dual proportion structure.
+- As the years progress, the difference in the proportion of the light-colored section across different scenarios gradually widens. The differentiation among 2050E scenarios is significantly higher than among 2035E scenarios.
+- Among all combinations, the structural difference between 2050E-Net Zero and 2019 is the most extreme, while the 2035E stage still maintains a pattern dominated by the dark-colored section.
+
+[Core Insights]
+Core Conclusion: The more aggressive the scenario assumptions, the more complete the energy structure substitution and the greater the difference in pace.
+
+Business Implications:
+- The future structure is highly dependent on the choice of scenario pathway.
+- Forecasts for traditional fuel demand exhibit significant scenario elasticity.
+- New fuel production capacity and supply chain must match high-proportion scenarios.
+
+Risk Focus:
+- If the light-colored proportion in 2050E fails to reach 60%, relevant emission reduction targets may not be met.
+- If the light-colored proportion in 2035E remains below 5%, the phasing out of traditional fuel assets may face a steeper adjustment.

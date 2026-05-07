@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Data table; Title: INDEX TARGET PE BASIS
+- Columns: Peak/Bull case, Bear-case, Base case (Base case shaded gray)
+- Row Items: Current spot price, Current 12mth fw PER (consensus), Post GFC 12mth fw PER average (consensus), IBES Consensus 2023E/2024E/2025E EPS Growth, Nomura Expected Earnings Growth YoY (2023E/2024E/2025E), Nomura: 2024F/2025F EPS, Target multiple (end 24), 2024E Index target, Implied upside/downside to TP, Nomura vs Consensus Index EPS (2023F/2024F/2025F)
+- Axes and Legend: None
+
+[Data Relationships]
+- Current Price: 660 (Identical across three columns)
+- 12m fwd PER: 12.8; Post GFC Average: 12.4 (Difference of 0.4)
+- IBES EPSg: 2023E −0.3%; 2024E 19.9%; 2025E 16.6%
+- Nomura EPSg (Peak/Bear/Base): 2023E 0%/−2%/−1%; 2024E 20%/12%/16%; 2025E 16%/12%/12%
+- Nomura EPS: 2024F 50.8/46.4/48.6; 2025F 58.9/52.0/54.4
+- Target multiple: 13.5/10.0/13.0
+- 2024E Index Target: 795/520/707; Implied relative to current price: 20%/−21%/7%
+
+[Pattern Characteristics]
+- Under all three scenarios, the current price and consensus valuation starting points remain consistent. Subsequent differences are primarily driven by Nomura's earnings growth, target multiple, and index target, presenting a stratified structure from the Peak scenario to the Bear scenario.
+- EPS growth is slightly negative or near zero in 2023, followed by positive growth in the subsequent two years across all scenarios. The growth rate in the Bear scenario is systematically lower than in the Peak and Base scenarios.
+- The target multiple and index target are highest in the Peak scenario and lowest in the Bear scenario, showing a significant gradient distribution of implied upside/downside across the three columns.
+
+[Core Insights]
+Core Conclusion: Expected index returns are highly dependent on earnings growth and valuation assumptions.
+
+Business Implications:
+- Current valuation is slightly above the historical average, requiring earnings delivery for support.
+- The difference in target levels primarily reflects varying judgments regarding earnings and multiples.
+- Upside potential is limited in the Base scenario, making entry timing more sensitive.
+
+Risk Focus:
+- If 2024E EPS growth falls below 12%, corresponding to the Bear scenario target of 520, the price may decline by approximately 21%.
+- If the P/E ratio falls below 10x by the end of 2024, the index may still remain near 520, even if earnings are realized.

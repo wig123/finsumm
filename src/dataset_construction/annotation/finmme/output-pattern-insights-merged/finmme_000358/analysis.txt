@@ -1,0 +1,30 @@
+【图表构成】
+- 类型：经济事件日程表（表格）
+- 列名：Date、Time（GMT/Local）、Country/region、Description、Previous、Forecast
+- 日期与时间示例：03-Apr-24（GMT 13:00/Local 06:00）；04-Apr-24（GMT 13:00、16:00/Local 09:00）；05-Apr-24（GMT 12:00/Local 08:00）
+- 备注区：含“Local time…”说明与“Key”(a,f,p,r,s,t)
+
+【数据关系】
+- Poland NBP政策利率：Previous 5.75%，Forecast 5.75%，差异0.00pp
+- Brazil 外资流入（FDI）：Previous USD 8.7bn，Forecast USD 6.5bn，差额USD 2.2bn
+- Brazil FGV IGP-DI（Mar m/m）：Previous -0.41%，Forecast -0.48%，变动-0.07pp
+- Brazil FGV IGP-DI（Mar y/y）：Previous -4.04%，Forecast -4.18%，变动-0.14pp
+- Mexico两项记录（投资、政策纪要）未给出Previous/Forecast
+- 04-Apr-24含两项事件（GMT 13:00、16:00）；05-Apr-24两项均在GMT 12:00（Local 08:00）
+
+【模式特征】
+- 事件在三天内集中于墨西哥、波兰和巴西，时间分布上同一日期内存在多时点安排，且部分国家在同一时间段出现多项数据发布。  
+- 已给出预测值的指标中，波兰利率呈持平预期，巴西FDI为较大幅度减少预期，而巴西两项通胀指数的预测值均较前值略有进一步下行。  
+- 部分墨西哥指标缺少前值和预测值，使整体表格在信息完整度上存在空白区域。
+
+【核心洞察】
+核心结论：市场关注点集中在拉美资金流与物价指标变化。
+
+业务含义：
+- 含义1 巴西FDI回落预期显示跨境资金动力减弱
+- 含义2 通胀指标更低预期影响当地利率前景判断
+- 含义3 波兰利率持平预期强调货币环境暂时稳定
+
+风险关注：
+- 风险点1 若巴西FDI低于USD 6.5bn，或引发本币与资产承压
+- 风险点2 若IGP-DI y/y高于-4.04%，或打破当前物价缓和预期

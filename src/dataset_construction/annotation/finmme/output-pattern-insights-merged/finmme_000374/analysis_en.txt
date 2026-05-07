@@ -1,0 +1,33 @@
+[Chart Components]
+- Chart Type: Bar chart on the left, segment-driver-trend list/table on the right.
+- Title: FCF development (EURbn).
+- X-axis Categories: FY21, FY21 normalised (Footnote 1), FY25E, FY30E.
+- Y-axis: Scale not displayed, unit is EURbn; values are annotated above the FY21 and FY21 normalised bars.
+- Color: FY21 related bars are orange, FY25E and FY30E are blue; there is a small gray bar element in the middle.
+- Additional Annotation: “Mid single-digit” is located above FY25E/FY30E.
+- Right Table Column Names: Segment, Key drivers FCF, Trend; Segments include Netherlands Life, Netherlands Non-life, Insurance Europe, Japan Life, Banking, Other; the Trend column uses arrow icons.
+
+[Data Relationships]
+- FY21 is 1.5 (EURbn).
+- FY21 normalised is 1.2 (EURbn).
+- The difference between the two is 0.3 (EURbn); normalised is 80% of FY21.
+- Specific values for FY25E and FY30E are not provided, both are accompanied by the “Mid single-digit” annotation.
+- Japan Life: Repatriation of 5/6 (approx. 83.3%) based on local GAAP profit.
+- No quantitative values or proportions are provided for the remaining segments.
+
+[Pattern Characteristics]
+- The bar chart on the left first shows an actual value, then a lower normalised value, followed by two forecast periods presented at similar heights, with unified text indicating they are within the same magnitude range.
+- The small gray bar in the middle is adjacent to the normalised bar, and the overall structure presents a continuous layout of "History—Adjustment—Forecast."
+- In the segment list on the right, the trend arrows for most groups point in the same direction, with only one item pointing in the opposite direction, forming a single exception.
+
+[Core Insights]
+Core Conclusion: After retreating from a one-off high point, FCF shows an overall pattern of moderate improvement.
+
+Business Implications:
+- Indicates a difference between historical metrics and sustainable levels.
+- Future overall cash generation capacity is expected to gradually increase.
+- Japan Life has a high reliance on local accounting profit (GAAP profit).
+
+Risk Focus:
+- If future FCF falls below the FY21 normalised level, it may be difficult to support current capital planning.
+- If the repatriation proportion for Japan Life falls below 5/6, fluctuations in local profit will more directly compress Group FCF.

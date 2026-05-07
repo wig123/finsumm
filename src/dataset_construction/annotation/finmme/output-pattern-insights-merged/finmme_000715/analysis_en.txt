@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Multi-line time series chart, including triangular scatter points representing "Actuals"
+- Title: IEA Wind, net zero (NZE) and ref scenarios (stated policy 2008-2020, announced pledges 2021-2023)
+- X-axis: Years 2006–2050
+- Y-axis: Numerical scale 0–8000 (units not labeled)
+- Legend: NZE (Dashed line); WEO 2008–2023 scenarios for various years (different colors/shades of gray); Actuals (Triangles)
+
+[Data Relationships]
+- 2050 Endpoint: NZE approximately 7,500 (close to the upper scale); final values for multiple WEO scenarios distributed approximately 1,500–6,000.
+- Near 2030: The labeled value on the chart is 2,420, corresponding to one scenario curve.
+- At 2024–2025: Readings for most scenarios are approximately 1,000.
+- 2020 "Actuals" triangle reading is approximately 700.
+- Between 2008–2020, "Actuals" gradually rise from near 0 to approximately 700 (reading only).
+
+[Pattern Characteristics]
+From 2006–2020, "Actuals" and the various scenario lines show a gradual annual increase at low levels and remain close to each other. After 2020, WEO scenario lines for various years show a clear "divergence" around 2030. Some curves extend higher, forming a final value band ranging from approximately 1,500 to 6,000. The NZE dashed line deviates upward relative to other scenarios after 2020, and is significantly higher than all WEO scenarios at the 2050 endpoint.
+
+[Core Insights]
+Core Conclusion: Long-term planning targets are significantly higher than the expectations of most reference scenarios.
+
+Business Implications:
+- Existing reference pathways are unlikely to naturally achieve the planned level.
+- Mid-to-long-term capacity allocation and investment pace need significant acceleration.
+- Differences between scenarios are widening, making decisions more sensitive to scenario selection.
+
+Risk Focus:
+- If the 2030 value falls below the labeled 2,420, achieving the high-end scenarios by 2050 will face pressure from accelerated work and increased costs.
+- If 2050 only falls within the 1,500–3,000 range, a significant gap may form relative to the NZE target of approximately 7,500, impacting the realization of the overall objective.

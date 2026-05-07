@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Bar chart; no explicit title.
+- Y-axis label: Change vs. 2017–2018; range approximately -12% to +8%, 0% has a thick black baseline, grid scale approximately every 2%.
+- X-axis: Quarters (Q1–Q4), years from 2019 to 2023, 2023 up to Q3.
+- Legend: None; percentage data labels are present on each bar.
+
+[Data Relationships]
+- Highest value: 2019 Q1 at +6.2%; Lowest value: 2021 Q2 at -8.7%; the difference between the two is 14.9 percentage points.
+- Start and end of period: 2019 Q1 +6.2% and 2023 Q3 -5.2%, a difference of 11.4 percentage points.
+- 2020 Quarters: -2.3%, -4.9%, -7.8%, -7.5%.
+- Selected 2021 Quarters: Q1 -6.4%, Q2 -8.7%, Q3 -5.4%.
+- 2022 Quarters: -1.9%, -1.4%, -3.1%, -5.5%; the difference between the highest and lowest is 4.1 percentage points.
+- 2023: Q1 -4.5%, Q2 +2%, Q3 -5.2%; the difference between Q2 and Q1 is 6.5 percentage points, and the difference between Q2 and Q3 is 7.2 percentage points.
+- Positive quarters: 2019 Q1–Q4 and 2023 Q2; the remainder are negative values.
+
+[Pattern Characteristics]
+Overall, the pattern shows a gradual transition from the initial positive range into the negative range, where it has remained long-term, with no intermediate phase returning to high levels. Within 2019, there was a slight decline but the direction remained the same. The magnitude of the negative change expanded in 2020–2021, then narrowed in 2022. The first three quarters of 2023 show a significant quarter-over-quarter reversal (up and down). Structurally, it is characterized by concentrated unidirectional movement in the early period, followed by a long-term unilateral distribution, with only an isolated single-quarter rebound in 2023 deviating from surrounding levels.
+
+[Core Insights]
+Core Conclusion: Relative to 2017–2018, the overall state is one of continuous weakening, with only brief periods of recovery.
+
+Business Implications:
+- Performance is long-term situated in a disadvantageous range compared to the overall baseline.
+- 2020–2021 dragged down multi-period cumulative results, making short-term recovery difficult through a single quarter.
+- Volatility increased in 2023, raising the impact of short-term uncertainty on annual results.
+
+Risk Concerns:
+- If levels below -8% reappear, it could signify that cyclical pressure is approaching the historical worst range.
+- If only 1 quarter for the full year is above 0%, and the rest are below -4%, the annual relative gap may be further widened.

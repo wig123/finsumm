@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Line Chart
+- Legend: 12M Forward Free Cash Flow Yield - TELENOR
+- X-axis: Time, Scale Range 2018–2023
+- Y-axis: Yield, Scale Range approximately 4–18
+- Line Color: Cyan
+- Source: LSEG Datastream
+
+[Data Relationships]
+- Initial Period (2018) ≈5
+- Peak Value (Mid-2022) ≈17–18
+- Trough Value (End of 2022) ≈6
+- Final Period (2023) ≈7–8
+- Range Difference (Peak - Trough): ≈11–12
+- Difference between Start and Peak: ≈12–13
+- Difference between Start and End: ≈2–3
+
+[Pattern Characteristics]
+The line gradually trended upward from the initial period, interspersed with minor pullbacks, reaching a significantly high level by mid-2022. Subsequently, it experienced a sharp drop over a short period, accompanied by a discontinuity, falling into a lower range. Overall, the trend remained range-bound within a narrow band throughout 2023, failing to revisit previous levels.
+
+[Core Insights]
+Core Conclusion: The indicator signal was previously extreme, but is currently in a normal range
+
+Business Implications:
+- Reflects a phased imbalance in cash flow returns.
+- Affects the stability and credibility of valuation judgments.
+- Asset allocation requires greater reliance on threshold readings.
+
+Risk Focus:
+- Below 6: May compress cash flow returns, leading to underweighting (or reduced allocation).
+- Above 17: Easily misjudged as highly attractive, leading to increased concentration.

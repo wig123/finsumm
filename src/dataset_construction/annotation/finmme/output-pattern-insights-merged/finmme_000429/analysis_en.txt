@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Time-series line chart, including event markers.
+- Title: YUM China; Top right corner marked "As of 07-Feb-2024," Currency = HKD.
+- X-axis: Date scale markers at 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01.
+- Y-axis: Price (HKD), range 0–600, scale approximately every 50.
+- Legend: Closing Price (Black Line), Target Price Change (Green Triangle), Recommendation Changes (Blue Dot).
+- Source: LSEG, Nomura.
+
+[Data Relationships]
+- Initial closing price approximately 500 HKD (around 2021/07); final closing price approximately 290 HKD (around 2024/02), difference approximately 210 HKD.
+- Highest closing price approximately 520 HKD (H2 2021); lowest approximately 280 HKD (early 2024), range difference approximately 240 HKD.
+- Closing prices at key points: 2022/01≈450; 2022/07≈330; 2023/01≈480; 2024/01≈300.
+- Comparison above: Difference between 2023/01 and 2022/07 is approximately 150; difference between 2022/01 and 2024/01 is approximately 150.
+- Rating changes (blue dots) occurred approximately 2 times: 2022/12≈370; 2023/01≈405.
+- Target price adjustments (green triangles) highest approximately 600 (mid-2021); lowest approximately 360 (mid-2022); difference approximately 240.
+
+[Pattern Characteristics]
+- The closing price was in a higher range at the beginning of the sample period, followed by a period of decline, a significant rebound in early 2023, and subsequently weakened again, approaching the low end of the range in early 2024.
+- The price trajectory includes several moderate-sized rebounds and pullbacks, generally showing a structure of slow initial decline, followed by a short-term recovery, and then a sustained lower plateau.
+- Target price adjustments are mostly concentrated near price highs and during phase-specific rebounds, while rating changes are concentrated during the price recovery phase from late 2022 to early 2023. No obvious extreme single-point anomalies were observed.
+
+[Core Insights]
+Core Conclusion: The stock price exhibits a phase-specific mismatch relative to institutional targets and ratings.
+
+Business Implications:
+- Institutional expectations provided support for the price during multiple phases but were difficult to sustain in the long term.
+- The rating and target adjustments from late 2022 to early 2023 had a clear amplifying effect on short-term performance.
+- The current price is in the lower part of the range, reflecting the market's discount relative to previous expectations.
+
+Risk Concerns:
+- If the price remains below 350 HKD for an extended period, it may weaken the relevance of institutional pricing.
+- If the target price continues to be maintained above 500 HKD while the stock price hovers near 300 HKD, it may amplify investor skepticism regarding research opinions.

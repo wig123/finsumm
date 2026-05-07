@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Multiple Line Chart
+- Title: Greenhouse gas emissions by sector (MtCO2e)
+- X-axis: Years 1990—2025
+- Y-axis: Emissions (MtCO2e), range approximately 0—1500, scale 500/1000/1500
+- Series and Legend: 6 lines—Transport (Blue), Industry, Public Electricity & Heat, Buildings, Agriculture, Waste (Gray); Series names placed on the right
+
+[Data Relationships]
+- 1990 Values: Public Electricity & Heat≈1500; Industry≈1200; Transport≈800; Buildings≈650; Agriculture≈400; Waste≈150
+- 2025 Values: Transport≈1050; Industry≈900; Public Electricity & Heat≈700; Buildings≈500; Agriculture≈350; Waste≈100
+- 1990—2025 Change: Transport+≈250; Industry−≈300; Public Electricity & Heat−≈800; Buildings−≈150; Agriculture−≈50; Waste−≈50
+- 2010—2012: Transport≈1100, higher than Industry≈1050 and Public Electricity & Heat≈1000
+
+[Pattern Characteristics]
+Overall, emissions across various sectors exhibit divergent trends between 1990 and 2025, with most series shifting from high levels toward lower levels, while only one series gradually rises from a median level. The Public Electricity & Heat series maintained high levels in the early period, followed by a distinct downward step-change in the middle segment, culminating in a steep decline around 2020. The Transport series showed a slow increase around 2000—2010, forming a clear peak, followed by a brief, sharp drop around 2020 before recovering again. Trends for other sectors (Buildings, Agriculture, Waste) are relatively smooth, exhibiting a long-term gradual decline without sharp inflection points. The Waste series consistently remains at the lowest level, showing unilateral contraction.
+
+[Core Insights]
+Core Conclusion: The emission structure shifts from being dominated by electricity to having a higher relative proportion contributed by transport.
+
+Business Implications:
+- Emission reduction effectiveness is concentrated in the electricity and industrial segments.
+- Transport has become the critical weak link (or bottleneck area) in overall emission control.
+- Buildings, Agriculture, and Waste contribute less but still possess room for continuous optimization.
+
+Risk Concerns:
+- If transport emissions persistently remain above approximately 1000 MtCO2e, a significant reduction in total emissions will be difficult to achieve.
+- If Public Electricity & Heat emissions rebound above 1000 MtCO2e, existing emission reduction achievements will be undermined.

@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Stacked Bar Chart
+- Title: No explicit title
+- Axes: Y-axis is Carbon Emissions (Million Tons), scale from 0 to 1000; X-axis is Year, from 1990 to 2030E
+- Legend: Categories include "Rail", "Inland navigation", "Other road transport", "Vans", "Aviation", "Heavy vehicles", "Cars"
+
+[Data Relationships]
+- From 1990 to 2005, total carbon emissions gradually increased, peaking at approximately 900 million tons in 2005.
+- The primary source of emissions is "Cars", followed by "Heavy vehicles".
+- From 2010 to 2019, carbon emissions remained relatively stable.
+- By 2030E, carbon emissions are projected to decrease, targeting a reduction of approximately 18% compared to 2019.
+- The relative ranking of categories remains consistent, with "Cars" and "Heavy vehicles" consistently being the main emission sources.
+
+[Pattern Characteristics]
+- The overall trend first rises, then maintains a near-plateau, with the forecast endpoint lower than recent levels.
+- The structure is dominated by Cars and Heavy vehicles; other categories have smaller magnitudes, and the category ranking remains stable throughout the period.
+- A single peak point appears in the middle section; 2030E is a significantly low level, marked with the target relative to 2019.
+
+[Core Insights]
+Core Conclusion: Achieving the 2030E target requires reducing emissions from passenger vehicles (Cars) and heavy vehicles.
+
+Business Implications:
+- Emission structure is concentrated in two vehicle types
+- The overall target is primarily influenced by the magnitude of reduction in these two categories
+- The marginal contribution of non-dominant categories is limited
+
+Risk Concerns:
+- If the 2030E reduction is < 18% below 2019 levels, the target will not be met
+- If the total volume is ≥ 900 million tons (2005 peak), it will negate existing progress

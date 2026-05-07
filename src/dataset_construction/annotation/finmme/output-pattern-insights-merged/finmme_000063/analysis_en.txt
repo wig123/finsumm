@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Vertical Bar Chart
+- Legend/Title: Adj PAT growth (%), red bars represent this indicator
+- X-axis: Quarterly time points, labeled Dec-21, Mar-22, Jun-22, Sep-22, Dec-22, Mar-23, Jun-23, Sep-23, Dec-23
+- Y-axis: Percentage scale, ranging from -10% to 40%, including horizontal grid lines, 0 as the baseline
+
+[Data Relationships]
+- Period Values (%): Dec-21 1.6; Mar-22 3.0; Jun-22 -6.1; Sep-22 3.3; Dec-22 -3.6; Mar-23 9.1; Jun-23 33.9; Sep-23 22.3; Dec-23 35.7
+- Maximum Value: 35.7 (Dec-23); Minimum Value: -6.1 (Jun-22); Range: 41.8 percentage points
+- Start and End Periods: 1.6 (Dec-21) and 35.7 (Dec-23), difference of 34.1 percentage points
+- Negative values occurred twice: Jun-22 -6.1, Dec-22 -3.6
+- Sequential Difference: Dec-22→Mar-23 +12.7; Mar-23→Jun-23 +24.8; Jun-23→Sep-23 -11.6; Sep-23→Dec-23 +13.4 percentage points
+
+[Pattern Characteristics]
+The bars change from low to high levels quarterly, crossing the 0 baseline, with significant amplitude variation. The structure is unbalanced; 2023 largely remained in the high-value range, maintaining high levels even after a significant temporary decline. Anomalies occurred in mid-2022 and year-end 2022, falling into the negative territory.
+
+[Core Insights]
+Core Conclusion: The adjusted net profit growth rate was high in 2023, but quarterly stability was insufficient.
+
+Business Implications:
+- Higher level of profitability growth
+- High quarterly dispersion, impacting planning and performance evaluation
+- Major contributions concentrated in the second half of 2023
+
+Risk Focus:
+- Falling below 0% results in negative growth, suppressing annual performance
+- Single-quarter volatility of ≥24.8 percentage points leads to wider deviations in budgeting and guidance

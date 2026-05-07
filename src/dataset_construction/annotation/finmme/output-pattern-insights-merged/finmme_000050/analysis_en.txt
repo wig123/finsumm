@@ -1,0 +1,39 @@
+[Chart Components]
+- Type: Stacked Bar Chart
+- Title: Not displayed
+- X-axis: Year range 2005—2024
+- Y-axis: Percentage scale 0%—100%
+- Legend: International (Dark Blue), Europe (Light Blue), Domestic (Dark Green)
+- Data Labels: Percentage for each year displayed within the Europe and Domestic segments
+
+[Data Relationships]
+- 2005: Domestic 63%, Europe 42%
+- 2008: Domestic 49%, Europe 49%
+- 2011: Domestic 40%, Europe 57%
+- 2013: Domestic 33%, Europe 67%
+- 2014: Domestic 33%, Europe 65%
+- 2015: Domestic 32%, Europe 65%
+- 2016: Domestic 32%, Europe 68%
+- 2018: Domestic 30%
+- 2020: Domestic 39%
+- 2021: Domestic 31%, Europe 62%
+- 2022: Domestic 40%
+- 2023: Domestic 41%
+- 2024: Domestic 33%, Europe 67%
+
+[Pattern Characteristics]
+- From 2005—2016, the green segment gradually narrowed, the light blue segment relatively expanded, and the dark blue portion remained generally thin and stable.
+- In 2008, the two segments were nearly balanced; after 2011, the light blue segment became the primary segment, maintaining a high proportion in the medium to long term.
+- From 2020—2023, the green segment showed a period of increase, falling back again in 2024.
+
+[Core Insights]
+Core Conclusion: The structural focus is on Europe, with low domestic impact.
+
+Business Implications:
+- High regional concentration
+- The influence of the domestic segment on the total volume is weakening
+- Limited marginal effect of the International segment
+
+Risk Focus:
+- Domestic ≤ 30%, structural imbalance, aggravated European weighting
+- Europe ≥ 65%, reduced diversification, weakened influence of other regions

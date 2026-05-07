@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Time series line chart, including event markers
+- Title: Crompton Greaves Consumer Electrical
+- Time Annotation: As of 15-Feb-2024; Currency: INR
+- X-axis: Date, range approximately 2021/01–2024/01 (scale marked up to 2024/01/01)
+- Y-axis: Price, 0–600 (approximately every 50 as a tick mark)
+- Legend: Black line=Closing Price; Green triangle=Target Price Change; Blue dot=Recommendation Changes
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial period (approx. early 2021) Closing Price ≈ 350; Final period (approx. early 2024) ≈ 300; Change ≈ -50.
+- Highest Closing Price ≈ 495 (approx. late 2021); Lowest ≈ 265 (approx. mid-2023); High-low difference ≈ 230.
+- Mid-2022 closing price peak ≈ 410; Early 2023 closing price ≈ 340; Mid-2023 closing prices mostly in the 280–300 range.
+- Approximately 12 green triangles, located between ≈ 300–600; Highest ≈ 600 (approx. late 2021), late 2023 mostly in the ≈ 300–350 range.
+- One blue recommendation change marker, time ≈ 2023/07, location ≈ 290.
+
+[Pattern Characteristics]
+- The closing price initially rose in the early part of the sample period, forming a high-level plateau, then generally extended downwards, forming a low-level range in mid-2023, followed by sideways fluctuation within a narrower range.
+- The green target price markers were initially concentrated in a higher range, then gradually moved down and approached the actual price in the later period.
+- The blue recommendation change appeared only once when the price was near the phased low, generally consistent with the preceding and succeeding price ranges.
+
+[Core Insights]
+Core Conclusion: Valuation expectations are gradually moving from overly optimistic towards realistic levels.
+
+Business Implications:
+- Early target prices were significantly higher than trading levels, reflecting elevated expectations.
+- Later target prices are closer to trading levels, indicating convergence in valuation divergence.
+- The key recommendation adjustment point occurred during the price compression phase, reflecting a strategic re-evaluation.
+
+Risk Focus:
+- If the long-term price remains below 300 and target prices simultaneously decrease, investment appeal may be weakened.
+- If the price approaches the previous low near 260 again, it may trigger pressure for further rating or target price downgrades.

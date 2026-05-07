@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Dual Line Chart
+- Annotation/Title: No main title observed; unit in the upper left corner is “% y‑y”
+- Legend: Red “Retail loans”, Gray “Agri loans”
+- Y-axis: 0%—30%, increments of 5%
+- X-axis: Time scale from Jan‑14 to Jan‑24, marked annually
+
+[Data Relationships]
+- At the end of Jan‑24: Agri loans approximately 20%, Retail loans approximately 18%, a difference of about 2 percentage points.
+- Retail loans historical peak approximately 25% (near Jan‑20), lowest value approximately 10% (near Jan‑21); the difference between high and low is about 15 percentage points.
+- Agri loans historical lowest value approximately 5% (near Jan‑18), highest value approximately 20% (Jan‑24); the difference between high and low is about 15 percentage points.
+- In Jan‑24: Agri loans (20%) is higher than Retail loans (18%) by approximately 2 percentage points.
+
+[Pattern Characteristics]
+Both curves exhibit clear multi-peak oscillatory patterns throughout the entire period, with frequent shifts between high and low values. In the first half, the red line is predominantly higher. The gray line experienced a significant dip in the middle section, followed by a gradual rise. In the latter half, the distance between the two narrowed, culminating in a crossover pattern at the end where the gray line is slightly higher. The overall structure features alternating dominance between the two series, similar volatility, but differing phase-specific strengths.
+
+[Core Insights]
+Core Conclusion: The growth dynamic of retail and agricultural loans has shifted from single dominance to near equilibrium.
+
+Business Implications:
+- Retail loans no longer constitute absolute dominance over the overall portfolio.
+- The importance of agricultural loans to the credit structure has significantly increased.
+- Credit growth sources are more diversified, increasing the scope for structural adjustment.
+
+Risk Concerns:
+- If the growth rate of either loan category consistently falls below 5%, it may lead to insufficient overall lending momentum.
+- If the growth rate of either loan category remains above 25% for an extended period, it could increase concentration risk and asset quality pressure.

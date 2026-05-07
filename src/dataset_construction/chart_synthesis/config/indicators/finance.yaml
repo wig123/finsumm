@@ -1,0 +1,112 @@
+fixed_income:
+  ts_indicators:
+  - indicator: bond.treasury.2y
+    data_source: FRED
+    description_zh: 2年期国债收益率
+    description_en: 2-Year Treasury Yield
+  - indicator: bond.treasury.5y
+    data_source: FRED
+    description_zh: 5年期国债收益率
+    description_en: 5-Year Treasury Yield
+  - indicator: macro.interest.rate.10y.treasury
+    data_source: FRED
+    description_zh: 10年期国债收益率
+    description_en: 10-Year Treasury Yield
+  - indicator: bond.treasury.20y
+    data_source: FRED
+    description_zh: 20年期国债收益率
+    description_en: 20-Year Treasury Yield
+  - indicator: bond.treasury.30y
+    data_source: FRED
+    description_zh: 30年期国债收益率
+    description_en: 30-Year Treasury Yield
+  - indicator: bond.treasury.yield.spread.10y2y
+    data_source: FRED
+    description_zh: 10年-2年国债利差
+    description_en: 10Y-2Y Treasury Spread
+  - indicator: bond.treasury.yield.spread.10y3m
+    data_source: FRED
+    description_zh: 10年-3月国债利差
+    description_en: 10Y-3M Treasury Spread
+  - indicator: bond.credit.spread.aaa
+    data_source: FRED
+    description_zh: AAA级企业债收益率
+    description_en: AAA Corporate Bond Yield
+  - indicator: bond.credit.spread.baa
+    data_source: FRED
+    description_zh: BAA级企业债收益率
+    description_en: BAA Corporate Bond Yield
+  - indicator: bond.credit.spread.high.yield
+    data_source: FRED
+    description_zh: 高收益债利差
+    description_en: High Yield Bond Spread
+  synthetic_shapes:
+  - CS_1D
+  - CS_ND
+  - MATRIX
+  synthetic_examples:
+  - 债券持仓结构
+  - 信用评级分布
+  - 收益率曲线曲面
+corporate_finance:
+  ts_indicators:
+  # 企业融资成本参考指标
+  - indicator: macro.interest.rate.prime
+    data_source: FRED
+    description_zh: 优惠贷款利率（企业融资成本）
+    description_en: Prime Lending Rate (Corporate Financing Cost)
+  - indicator: bond.credit.spread.baa
+    data_source: FRED
+    description_zh: BAA级企业债收益率
+    description_en: BAA Corporate Bond Yield
+  - indicator: macro.gdp.nominal
+    data_source: FRED
+    description_zh: 名义GDP（企业营收背景）
+    description_en: Nominal GDP (Corporate Revenue Context)
+  synthetic_shapes:
+  - CS_1D
+  - CS_ND
+  - FLOW
+  synthetic_examples:
+  - 企业收入/利润构成
+  - 成本费用分解
+  - 资产负债结构
+  - 现金流来源与用途
+insurance:
+  ts_indicators:
+  # 保险行业相关宏观指标
+  - indicator: macro.interest.rate.10y.treasury
+    data_source: FRED
+    description_zh: 10年期国债收益率（保险投资参考）
+    description_en: 10-Year Treasury Yield (Insurance Investment Reference)
+  - indicator: macro.consumer.sentiment
+    data_source: FRED
+    description_zh: 消费者信心指数（保费增长参考）
+    description_en: Consumer Sentiment Index (Premium Growth Reference)
+  synthetic_shapes:
+  - CS_1D
+  - CS_ND
+  synthetic_examples:
+  - 保费收入结构
+  - 赔付类型分布
+  - 产品线占比
+  - 渠道销售分布
+payments_fintech:
+  ts_indicators:
+  # 金融科技相关指标
+  - indicator: macro.retail.sales
+    data_source: FRED
+    description_zh: 零售销售额（支付交易参考）
+    description_en: Retail Sales (Payment Transaction Reference)
+  - indicator: macro.personal.consumption
+    data_source: FRED
+    description_zh: 个人消费支出
+    description_en: Personal Consumption Expenditure
+  synthetic_shapes:
+  - CS_1D
+  - CS_ND
+  synthetic_examples:
+  - 支付方式占比
+  - 金融科技融资分布
+  - 用户增长趋势
+  - 交易额分布

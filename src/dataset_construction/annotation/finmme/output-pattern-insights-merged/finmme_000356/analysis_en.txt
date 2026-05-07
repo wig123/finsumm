@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Dual-axis combination chart (Red bars represent Revenues, black line represents y-y growth).
+- Legend: Revenues (USDmn), y-y growth.
+- X-axis: Fiscal year categories, labeled FY19, FY21, FY23, FY25F (including unlabeled years in between).
+- Left Y-axis: 0–18,000 (USDmn), scale approximately every 2,000.
+- Right Y-axis: 0%–16%, scale approximately every 2%.
+
+[Data Relationships]
+- The lowest bar is approximately 8,800 USDmn; the highest bar is approximately 15,800 USDmn; the difference between the two is approximately 7,000 USDmn.
+- FY25F Revenue is approximately 15,800 USDmn; the corresponding y-y growth is approximately 9.2%.
+- FY23 Revenue is approximately 12,600 USDmn; the corresponding y-y growth is approximately 9.6%.
+- FY21 Revenue is approximately 10,300 USDmn; the corresponding y-y growth is approximately 15.1%.
+- Labeled y-y growth values (from left to right): 10.2%, 15.1%, 2.4%, 12.8%, 9.6%, 5.6%, 8.3%, 9.2%; highest 15.1%, lowest 2.4%, a difference of 12.7 percentage points.
+
+[Pattern Characteristics]
+- The bar data generally shows a stepwise increase from left to right, with no significant decline in the middle, only differences in the magnitude of the increase.
+- The line data fluctuates significantly throughout the sample period, first rising rapidly, then sharply falling back, followed by two moderate inverse changes.
+- The line forms a distinct low point around FY21, creating a sharp trough compared to surrounding years, while the transition between high and low points in other years is relatively smooth.
+
+[Core Insights]
+Core Conclusion: Revenue scale continues to expand, but growth rate performance is unstable.
+
+Business Implications:
+- Revenue volume is expanding, but the pace of growth lacks consistency.
+- Mid-term planning needs to balance scale expansion and pace management.
+- The forecast period still relies on moderate growth rates to sustain scale improvement.
+
+Risk Focus:
+- If the y-y growth rate approaches 2.4% again, the contribution to revenue growth will be significantly weakened.
+- If the y-y growth rate remains below 5% for an extended period, it may be difficult to support the current revenue level.

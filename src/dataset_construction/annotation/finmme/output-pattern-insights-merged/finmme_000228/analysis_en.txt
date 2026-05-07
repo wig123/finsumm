@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Time series line chart (black line represents Closing Price), overlaid with symbol markers (Green triangle = Target Price Change, Blue circle = Recommendation Changes).
+- Title: JD Logistics
+- Top right corner: As of 25-Jan-2024; Currency=HKD
+- X-axis: Date, approximately 2021/07/01—2024/01/01
+- Y-axis: Price (HKD), scale 0 to approximately 45, step size 5
+- Legend: Closing Price, Target Price Change, Recommendation Changes
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial closing price approximately 44 HKD (2021/07), final closing price approximately 9 HKD (2024/01), change approximately −35 HKD.
+- Highest closing price for the entire period approximately 46 HKD (2021/07), lowest approximately 8–9 HKD (2023/12—2024/01), high-low difference approximately 37–38 HKD.
+- Blue circle appeared 1 time, at a price level of approximately 28–29 HKD (2021/08).
+- Green triangles are distributed in the range of approximately 10–35 HKD, the most recent occurrence being approximately 10 HKD (2024/01).
+
+[Pattern Characteristics]
+The closing price rapidly declined from a high level early in the sample period, and thereafter generally fluctuated within a lower range and slowly trended downward. Green triangles appeared multiple times, with a relatively dispersed rhythm, mostly occurring near the process of successive price declines. The single occurrence of the blue circle was concentrated in the earlier stage, with no new recommendation change markers appearing afterward.
+
+[Core Insights]
+Core Conclusion: The stock price has long been in a sustained weakening range; target price adjustments are frequent but provide limited support.
+
+Business Implications:
+- Overall decline in valuation levels, significant retreat in market confidence.
+- Research expectations for the future have been revised multiple times; earnings and growth assumptions have been downgraded.
+- Deviation between target price and actual performance, leading to reduced effectiveness of pricing references.
+
+Risk Focus:
+- If the stock price remains persistently below 10 HKD, it may trigger further downward expectations and capital outflow.
+- If subsequent target prices continue to converge near the current price, it implies limited upside potential and decreased attractiveness for allocation.

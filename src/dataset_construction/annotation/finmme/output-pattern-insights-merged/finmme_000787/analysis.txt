@@ -1,0 +1,29 @@
+【图表构成】
+- 图表类型：瀑布图（Price to Book 的模型预测值与实际值的构成）。
+- 标题：Brazil: Contribution to machine learning model predicted Price to Book vs Actual。
+- 横轴：类别依次为 Base、Return on Equity、Margins、Tax + Interest、Dividends、Other、Beta + Vol、Asset Turnover、Earnings Growth、Predicted、Over/undervalued、Actual PB。
+- 纵轴：数值刻度约从0到3.5（未标注单位）。
+- 图例：未显示；颜色区分为淡橙（Base、Predicted）、红色（负向或“Over/undervalued”）、白色（中性/正向贡献）、黑色（Actual PB）。
+
+【数据关系】
+- Base标注值：2.61。
+- Predicted标注值：2.42。
+- Actual PB标注值：1.39。
+- Base到Predicted变动：2.42 − 2.61 = −0.19。
+- Predicted与Actual PB差额：2.42 − 1.39 = 1.03。
+- Base与Actual PB差额：2.61 − 1.39 = 1.22。
+
+【模式特征】  
+整体上，Price to Book 从 Base 到 Predicted 出现温和的净下移，中间由多个细小的正负条形依次叠加构成。白色条形在前半段占主导，随后逐步被红色条形取代，结构呈由多项分散贡献到少数项目集中拉低的特征。最终 Predicted 与 Actual PB 之间存在明显单一红色条，形成模型结果与最终柱状值之间的显著落差。
+
+【核心洞察】  
+核心结论：模型估值系统性高于市场给出的实际PB。
+
+业务含义：  
+- 模型对该市场给出偏乐观估值水平。  
+- 估值决策若依赖模型，可能抬高目标价格。  
+- 模型特征贡献不足以解释当前定价折扣。
+
+风险关注：  
+- Predicted 高于 Actual 约1.0以上时，可能导致过度配置该市场。  
+- Base 高于 Actual 超过1.2时，若继续沿用基准假设，回撤损失可能放大。

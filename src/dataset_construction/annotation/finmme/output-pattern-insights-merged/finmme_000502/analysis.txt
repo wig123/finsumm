@@ -1,0 +1,34 @@
+【图表构成】
+- 图表类型：瀑布图（分段柱形）
+- 标题：未显示
+- 横轴：类别标签为“Singapore Expansion”“Rotterdam Optionality”“2024”“Rotterdam Expansion”“2026”
+- 纵轴：数值范围约0至3.5
+- 颜色：深青与浅青两种柱段；未提供图例
+
+【数据关系】
+- Singapore Expansion：1
+- Rotterdam Optionality：0.5
+- 2024：1.5
+- Rotterdam Expansion：1.2
+- 2026：2.7
+- 最高值2.7（2026），最低值0.5（Rotterdam Optionality），极差2.2
+- 2026与2024差1.2；2024与Singapore Expansion差0.5
+- Rotterdam Expansion与2024差0.3；2026与Rotterdam Expansion差1.5
+- 2026与Singapore Expansion差1.7；2024与Rotterdam Optionality差1.0
+
+【模式特征】
+- 各柱段依次在横轴上相连构成阶梯式结构，整体由左至右呈逐步累加的形态，未出现回落段。
+- 深青色柱段主要作为阶段性起点或结果，浅青色柱段作为中间增量，结构上表现为单一方向的连续叠加。
+- 各相邻段之间的增量大小不均，尤其末段前后的间隔相对更大，形成较明显的层级差异。
+
+【核心洞察】
+核心结论：整体效果由前期阶段逐步累积，在末期形成显著放大。
+
+业务含义：
+- 结果高度依赖多个阶段连续贡献。
+- 中间阶段对最终体量的放大作用明显不同。
+- 末期阶段对最终结果占比更高，决定性更强。
+
+风险关注：
+- 若2026低于2.0，则前期累计投入的整体回报明显受限。
+- 若Rotterdam Expansion低于1.0，则终局结果难以保持与当前差值水平相当。

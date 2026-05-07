@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Multi-series Time Series Line Chart
+- Benchmark and Title: “2022 = 100” noted in the upper left (Index Benchmark); No other title
+- X-axis: Time, range Jan-22 to Jan-24, labeled by month
+- Y-axis: Index scale 40, 70, 100, 130, 160, 190
+- Legend and Color: Murata Manufacturing (Gray), TDK (Light Blue), Yageo (Beige Orange), Taiyo Yuden (Black), Walsin Tech (Light Gray), SEMCO (Red)
+
+[Data Relationships]
+- Starting Point Jan-22: Each series is approximately near 100; Yageo, Walsin approximately 95; Murata, TDK approximately 98; Taiyo Yuden, SEMCO approximately 100.
+- Ending Values near Jan-24: TDK≈160; Murata≈96; Yageo≈86; Walsin Tech≈65; Taiyo Yuden≈52; SEMCO≈75.
+- Overall Highest Value: TDK approximately 170 (near the right end); Lowest Value: Taiyo Yuden approximately 50 (right end).
+- Jan-24 Cross-Sectional Comparison: The difference between TDK and Taiyo Yuden is approximately 108; the difference with Walsin is approximately 95; the difference with Murata is approximately 64.
+- Magnitude of Change from Start to End of Period (Approximate): TDK+60; Murata-4; Yageo-14; SEMCO-25; Walsin-35; Taiyo Yuden-48.
+
+[Pattern Characteristics]
+The six series were close in position at the beginning of 2022. Subsequently, most remained relatively convergent within the same low range, with only TDK gradually separating from the group starting mid-2023 and forming a singular high position at the right end. After a concentrated dip in mid-2022, the remaining five series mostly fluctuated narrowly within the mid-to-low range, and the differences between their end-period levels significantly widened. Overall, TDK and Taiyo Yuden form the highest and lowest extreme points, while the rest are distributed in an intermediate gradient.
+
+[Core Insights]
+Core Conclusion: Performance is highly differentiated under the same benchmark, with TDK significantly outperforming peer companies.
+
+Business Implications:
+- TDK's relative return is significantly higher than the industry average
+- Portfolio results show a marked increase in dependence on a single security
+- Significant differences in competitiveness and pricing power among companies within the industry
+
+Risk Focus:
+- If the TDK index falls below 130, it will significantly weaken the portfolio's relative return
+- If Taiyo Yuden remains below 60 for an extended period, it may drag down the overall valuation of comparable assets

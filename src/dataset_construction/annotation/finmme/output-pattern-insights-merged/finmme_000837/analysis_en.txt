@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Time series line chart
+- Title: Not displayed
+- Data Series: Red line "PBV"; Gray line "Average"; Black line "+1SD"; Light orange line "-1SD"
+- X-axis: Time, range Feb-16 to Feb-24, scaled by Feb/Aug
+- Y-axis: Numerical scale approximately 2.0 to 8.0
+- Legend: Located below, indicating the color and name of each line
+
+[Data Relationships]
+- +1SD≈5.7；Average≈4.3；-1SD≈3.0
+- Initial period (Feb-16) PBV≈5.8, close to +1SD
+- High point (Mid-2016) PBV≈6.7, higher than +1SD by ≈1.0
+- Low point (Early 2020) PBV≈2.5, lower than -1SD by ≈0.5, lower than Average by ≈1.8
+- Early 2023 PBV≈3.0, approximately equal to -1SD
+- Final period (Feb-24) PBV≈4.9, higher than Average by ≈0.6, lower than +1SD by ≈0.8
+
+[Pattern Characteristics]
+PBV remained in the high range during the initial part of the sample period, subsequently experienced a sustained decline, hitting a clear low point in early 2020, and then fluctuated horizontally within the lower range. Throughout the period, PBV crossed between the Average and -1SD multiple times. In the latter part, it began to rise rapidly in late 2023, approaching the upper-middle range by the final period. Only one extreme value clearly deviating downwards from the main fluctuation band appeared in the chart; the remaining fluctuations were relatively continuous.
+
+[Core Insights]
+Core Conclusion: After retreating from high levels, PBV remained depressed for a long period, but recently approached the upper-middle level of the central axis.
+
+Business Implications:
+- Early valuation was in a clearly elevated range
+- Subsequent long-term valuation was in a discount range
+- Recent valuation repair (recovery), increasing sensitivity to reallocation
+
+Risk Focus:
+- When PBV approaches or exceeds 5.7, further upside potential may be limited
+- If PBV falls below 3.0 again, it may trigger sentiment and liquidity pressure

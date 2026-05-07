@@ -1,0 +1,32 @@
+[Chart Components]
+- Combination chart: Red bars represent Revenue (LHS), black line represents y-y growth (%).
+- Left axis: Unit KRWbn, range approximately -5,000 to 10,000.
+- Right axis: Growth rate axis, range -50% to 100%.
+- Horizontal axis: Years 2011–2025F.
+- Legend: Revenue (LHS), y-y growth (%).
+
+[Data Relationships]
+- Revenue peak: 2022 approximately 8,000 KRWbn; second highest: 2025F approximately 7,500.
+- Revenue trough: 2015 approximately 2,000 KRWbn.
+- 2016 Revenue approximately 5,000, approximately 3,000 more than 2015.
+- 2021 approximately 5,000; 2022 approximately 8,000, a difference of approximately 3,000.
+- 2023F approximately 5,000, approximately 3,000 less than 2022; 2024F approximately 6,000, approximately 1,000 more than 2023F; 2025F approximately 1,500 more than 2024F.
+- Growth rate peak is near 100% between 2015–2016; trough is in 2023F, approximately -30% to -35%.
+- 2020 growth rate approximately 50%; 2024F approximately 20%–25%.
+
+[Pattern Characteristics]
+- Revenue initially fluctuated slightly from 2011 to 2015 before a brief decline, followed by a significant uplift in 2016. Subsequently, it gradually increased within a higher range, reaching a prominent peak in 2022, then slightly retreated before rising again towards 2025F.
+- The growth rate curve exhibited extreme volatility (amplitude) and crossed the zero axis multiple times between 2013–2017. Volatility then decreased but still showed alternating highs and lows, with the most pronounced negative trough occurring in 2023F. 2024F and 2025F return to the positive range.
+- Revenue and growth rate formed clear inflection points near 2015–2016 and 2022–2023F, demonstrating characteristics of rapid directional reversal in the short term.
+
+[Core Insights]
+Core Conclusion: After experiencing drastic changes, revenue is entering a new phase of moderate expansion.
+
+Business Implications:
+- Historical performance reflects strong cyclicality and volatility.
+- The recent planning phase indicates a smoother pace of expansion.
+- Rapid recovery following negative growth demonstrates certain resilience.
+
+Risk Focus:
+- If the growth rate falls below -30% again, revenue scale may decline back below approximately 5,000.
+- If the growth rate remains below 10% for an extended period in the coming years, revenue may struggle to re-approach the 8,000 peak.

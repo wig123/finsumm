@@ -1,0 +1,30 @@
+【图表构成】
+- 类型：竖向柱状图（单系列）。
+- 标题：未显示主标题。
+- X轴：公司类别—Natco、Alkem Labs、Ajanta Pharma、Alembic Pharma、Lupin、Glenmark、Zydus、Cipla、Torrent Pharma、Ipca、Sun、Dr Reddy’s、Aurobindo、JB Chemicals、Gland ex Cenexi。
+- Y轴：百分比刻度，范围约 -40% 至 100%，刻度间隔 20%。
+- 图例：红色柱，标注“Y‑Y Growth”。
+
+【数据关系】
+- 最高值：Natco约75%（介于60%–80%）；最低值：Gland ex Cenexi约-20%。
+- 第二高：Alkem Labs略高于40%（约42%）；Zydus接近20%。
+- Ajanta、Alembic、Lupin均在30%–35%区间；Glenmark约25%（20%–30%）。
+- Cipla、Torrent分别约15%、约12%（均在10%–20%）；Ipca约8%–10%。
+- Sun约6%，Dr Reddy’s约5%，Aurobindo约3%。
+- JB Chemicals小幅为负（约-2%至-4%）。
+- 最高与最低差约95个百分点；正值公司约13家，负值约2家。
+
+【模式特征】  
+整体呈现单峰结构，Natco显著高于其他公司，其后依次向右大致递减。大部分公司集中在0%到40%之间，分布偏向正区间，仅两家公司位于负区间，其中Gland ex Cenexi偏离整体分布较远。整体差异跨度较大，个体间分布不均匀。
+
+【核心洞察】  
+核心结论：公司间同比增速分化明显，头部与尾部差距巨大。  
+
+业务含义：  
+- 行业内公司成长表现高度不均衡。  
+- 资金配置更易集中于高增速公司。  
+- 中低增速公司议价和资源获取可能受限。  
+
+风险关注：  
+- 增速落入0%以下时，可能被视为配置削减候选。  
+- 与行业最高值差距超过50个百分点，公司估值与预期易出现调整。

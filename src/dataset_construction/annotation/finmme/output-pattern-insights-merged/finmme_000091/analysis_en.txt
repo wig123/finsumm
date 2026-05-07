@@ -1,0 +1,54 @@
+[Chart Components]
+
+- Type: Combined bar chart and line chart
+- Titles:
+  - Top Left: BBNI - Monthly profit IDRbn
+  - Top Right: BMRI - Monthly profit IDRbn
+  - Bottom Left: BBRI - Monthly profit IDRbn
+  - Bottom Right: BBCA - Monthly profit IDRbn
+- Axes:
+  - Y-axis: Unit is IDRbn (Indonesian Rupiah billion)
+  - X-axis: Time range from January 2019 to January 2024, marked monthly
+- Legend:
+  - Red bar chart represents "Monthly profit IDRbn"
+  - Blue line represents "12MMA monthly profit IDRbn"
+
+[Data Relationships]
+
+- **BBNI**
+  - Monthly profit steadily increased throughout the period, growing from approximately 2,500 IDRbn to about 3,500 IDRbn.
+  - The 12-Month Moving Average (12MMA) also shows a continuous upward trend.
+
+- **BMRI**
+  - Initial profit stabilized between approximately 3,500 IDRbn and 4,000 IDRbn.
+  - Starting in 2021, profit increased significantly, reaching approximately 6,500 IDRbn by 2024.
+  - The 12MMA shows a similar upward trend, indicating robust overall profit growth.
+
+- **BBRI**
+  - Monthly profit grew from approximately 5,500 IDRbn to about 10,500 IDRbn, a significant increase.
+  - The 12MMA line shows a steady rise, increasing from 6,000 IDRbn to nearly 10,000 IDRbn.
+
+- **BBCA**
+  - Initial profit was approximately 3,000 IDRbn, gradually increasing to about 6,000 IDRbn in 2024.
+  - The 12MMA curve shows an upward trend, consistent with the growth in monthly profit.
+
+- **Overall Trend**
+  - The monthly profits and 12-Month Moving Averages for all banks show an upward trend, indicating stable profit growth, especially after 2021.
+  - Profit growth for BBRI and BMRI is particularly notable, showing a higher growth rate compared to other banks.
+
+[Pattern Characteristics]
+- In all four charts, the bars fluctuate slightly around the 12MMA, and the lines are smooth and continuous; in terms of magnitude, BBRI and BMRI are higher, followed by BBCA, and BBNI is the lowest.
+- After 2021, the slope for BMRI and BBRI is steeper; BBCA showed consecutive months above the average at the end of 2023; BBNI had one month significantly below the average near the end of the period.
+- There are no long-term discontinuities; local peaks above the average alternate with pullbacks, and the overall structure is predominantly continuous.
+
+[Core Insights]
+Core Conclusion: Profit hierarchy is clear, BBRI/BMRI dominate, followed by BBCA.
+
+Business Implications:
+- Clear stratification of profitability
+- Allocation can focus on high-profit entities
+- BBCA has a greater short-term impact on the average
+
+Risk Concerns:
+- BMRI monthly profit < 5,000 IDRbn would depress the 12MMA, weakening its relative advantage.
+- BBCA monthly profit < 5,500 IDRbn, making the recent improvement in the average difficult to sustain.

@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Dual-axis time series line chart.
+- Legend: Red "Price," Gray "Rel KOSPI 200."
+- Left Y-axis: Unit is KRW, scale approximately 200,000, 225,000, 250,000, 275,000, 300,000.
+- Right Y-axis: Scale is 70, 75, 80, 85, 90, 95, 100, 105.
+- X-axis: Monthly scale, from "Feb 23" to "Jan 24."
+- Title: Main title not displayed; the two curves correspond to the left and right Y-axes, respectively.
+
+[Data Relationships]
+- Price initial period (Feb 23) ≈ 285,000 KRW; final period (Jan 24) ≈ 205,000 KRW.
+- Price peak near Jun–Jul 23 ≈ 315,000 KRW; low near Nov 23 ≈ 215,000–225,000 KRW.
+- Difference between Price peak and final period ≈ 110,000 KRW; difference between initial and final period ≈ 80,000 KRW.
+- Rel KOSPI 200 initial period ≈ 100; high point near Mar 23 ≈ 105; final period ≈ 72–75.
+- Difference between Rel KOSPI 200 high point and final period ≈ 30 points.
+- Comparative data for the same period: In Jul 23, Price ≈ 315,000 KRW, Rel KOSPI 200 ≈ 95.
+
+[Pattern Characteristics]
+Both curves generally show a unilateral downward trend from left to right, forming a distinct short-term upward surge near Jun–Jul 23 before retreating. Price and Rel KOSPI 200 exhibit consistent directional movement for most periods, but the relative deviation is more pronounced near Mar 23 and Jun–Jul 23. After entering Nov 23, both curves weakened synchronously within the low range, with the center of volatility continuously shifting downward. In Jan 24, both are near their respective phase lows.
+
+[Core Insights]
+
+Core Conclusion: Both the individual stock price and its relative performance against the KOSPI 200 have weakened, with the final period being inferior to the beginning of the year.
+
+Business Implications:
+- Indicates that the individual stock performed relatively weakly against the index during the sample period.
+- High consistency between price and relative performance, suggesting limited diversification effect.
+- The relative score is low in the final period, indicating high index tracking.
+
+Risk Focus:
+- If Rel KOSPI 200 persists below 75, it may face continued pressure from passive divestment.
+- If Price breaks below 200,000 KRW, it could trigger an amplification of selling pressure due to a technical breakdown.

@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Bar chart
+- Title: Not displayed
+- X-axis: Categories are Aviation, Rail, Maritime, Road, Total transport
+- Y-axis: Labeled as “Gap vs. target (pp)”, range approximately 0%–14%, scale displayed in percentage
+- Legend: Not displayed; among the bar colors, “Total transport” is a darker shade, the others are lighter
+
+[Data Relationships]
+- Road value is 13%, the highest among all categories; Rail is 0%, the lowest; the difference between the highest and lowest is 13 percentage points
+- Aviation is 11%, Total transport is 11%, the two are equal
+- Maritime is 5%; Maritime is 6 percentage points lower than Aviation, and 8 percentage points lower than Road
+- Road is 2 percentage points higher than Aviation; Road is 2 percentage points higher than Total transport
+- Aviation is 11 percentage points higher than Rail; Total transport is 11 percentage points higher than Rail
+- Maritime is 5 percentage points higher than Rail
+
+[Pattern Characteristics]
+Differences between categories are significant, ranging from a minimum value close to zero to a maximum value approaching the upper limit of the Y-axis. Road, Aviation, and Total transport values are similar and at a high level; Maritime is at a medium level; Rail is significantly low, forming a single extreme point. The overall structure exhibits a single peak but is highly discrete, lacking a continuous transition gradient.
+
+[Core Insights]
+Core Conclusion: The degree of deviation from the target across different transport modes is highly unbalanced.
+
+Business Implications:
+- The overall deviation is primarily contributed by specific modes.
+- Road and Aviation are key sources influencing the total transport deviation.
+- Rail's contribution to elevating the overall deviation is almost negligible.
+
+Risk Focus:
+- If Road maintains above 13%, it will continuously raise the 11% deviation level of total transport.
+- If Aviation exceeds 11%, the total transport deviation will be difficult to offset by improvements in other modes.

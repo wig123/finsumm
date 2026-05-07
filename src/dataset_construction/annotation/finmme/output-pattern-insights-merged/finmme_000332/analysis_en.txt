@@ -1,0 +1,27 @@
+[Chart Components]
+- Chart Type: Multi-series line chart; no explicit title visible.
+- X-axis: Time (Month), range Jul-21 to Mar-24.
+- Y-axis: Index Value (relative to ASXJ $), range 60.0–190.0.
+- Legend: 6 series—MSCI India (Solid Red Line), MSCI Taiwan (Solid Black Line), MSCI Hong Kong (Dashed Black Line), MSCI China (Gray), MSCI Korea (Blue), MSCI Japan (Orange).
+
+[Data Relationships]
+- At the start of the period (Jul-21), all series were approximately 100.
+- At the end of the period (Mar-24): India≈180, Japan≈145, Taiwan≈135, Korea≈95, Hong Kong≈85, China≈68.
+- Difference between the highest and lowest values at the end of the period: India and China, approximately 112 points.
+- Highest value across the entire period: India peak ≈185–190; Lowest value across the entire period: China≈65–70.
+- Change from the start to the end of the period: India +approx. 80; Japan +approx. 45; Taiwan +approx. 35; Korea −approx. 5; Hong Kong −approx. 15; China −approx. 32.
+
+[Pattern Characteristics]
+All indices briefly converged at the beginning of the sample period, after which a clear hierarchical differentiation gradually emerged, with India occupying the top position alone, exhibiting the largest volatility at high levels. Japan and Taiwan remained in the middle range for most of the time, showing relatively consistent trends, interspersed with localized plateaus and pullbacks. China and Hong Kong were generally located in the bottom range, with China showing a relatively clear structure of unilateral decline. Korea fluctuated back and forth within the lower-middle range but showed no breakthrough upward movement.
+
+[Core Insights]
+Core Conclusion: Regional relative performance is highly differentiated, with India significantly leading and China consistently lagging.
+
+Business Implications:
+- Regional sources of return are concentrated in a few markets
+- The geographical distribution of the investment portfolio will significantly affect overall returns
+- Markets in the lower-middle range have weak contribution, dragging down portfolio performance
+
+Risk Focus:
+- If the portfolio weighting for India is ＜20%, overall performance may underperform peers in the long term
+- If the weighting for China + Hong Kong is ＞40%, the magnitude of drawdowns may be amplified when their indices are in the ＜80 range

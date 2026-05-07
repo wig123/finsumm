@@ -1,0 +1,28 @@
+【图表构成】
+- 类型：饼图
+- 标题：FY23 East Cement capacity share (%)
+- 坐标轴：无坐标轴
+- 标签：切片直接标注类别与百分比（单位：%），包括 UltraTech、Dalmia Bharat、Nuvoco、Shree、Ambuja、Others
+- 图例：未单独显示
+
+【数据关系】
+- 份额：Others 33%；UltraTech 20%；Dalmia Bharat 17%；Nuvoco 15%；Shree 10%；Ambuja 5%。
+- 最大值33%（Others），最小值5%（Ambuja），差28个百分点。
+- UltraTech与Dalmia Bharat差3个百分点；Dalmia Bharat与Nuvoco差2个百分点；Nuvoco与Shree差5个百分点；Shree与Ambuja差5个百分点。
+- 已命名五家公司合计67%，Others为33%；UltraTech+Dalmia Bharat=37%；再加Nuvoco合计52%。
+- 全部类别合计100%。
+
+【模式特征】  
+整体构成呈多家主体分布，其中最大单块明显大于其余单块，但未形成绝对占优。已命名五家公司切片面积依次递减，后四家之间面积差距相对平滑。整体结构在头部与“Others”之间形成一大块与多中小块并存的格局。
+
+【核心洞察】  
+核心结论：产能集中于数家龙头与大量中小厂并存格局。
+
+业务含义：  
+- 头部企业具备一定区域影响力。  
+- 中小厂合计体量对区域供给具有实质作用。  
+- 前三家合计比重对价格与开工决策更具话语空间。
+
+风险关注：  
+- 若单一企业份额升至40%以上，议价能力或明显倾斜。  
+- 若Others合计跌破20%，区域竞争主体可能显著减少。

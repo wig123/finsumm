@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Line chart
+- Title: Market share in derma
+- X-axis: Quarterly labels, Q1FY21 to Q3FY24, totaling 15 periods
+- Y-axis: Percentage scale, range approximately 6.0%—8.0%, increments of 0.2%
+- Legend: Red line "Market share in derma"
+
+[Data Relationships]
+- Initial period (Q1FY21) ≈ 7.8%, Final period (Q3FY24) ≈ 7.1%, a difference of ≈ 0.7 percentage points.
+- Highest point: Q1FY21 ≈ 7.8%; Second highest: Q1FY24 ≈ 7.5, Q2FY22 ≈ 7.5.
+- Lowest point: Q1FY22 ≈ 6.7%, a difference of ≈ 1.1 percentage points from the highest point.
+- FY21: Q2 ≈ 7.5; Q3 ≈ 7.1; Q4 ≈ 7.1 (the latter two are close).
+- FY22: Q3 ≈ 6.9; Q4 ≈ 6.9 (difference ≈ 0.0—0.1 percentage points).
+- FY23: Q1 ≈ 7.3; Q2 ≈ 7.2; Q3 ≈ 7.0; Q4 ≈ 7.2.
+- FY24: Q2 ≈ 7.4, approximately 0.1 percentage points lower than Q1 ≈ 7.5.
+
+[Pattern Characteristics]
+The line generally fluctuates around 7%, starting higher and ending slightly lower, within a narrow range. Q1FY21 is the highest point in the entire period, followed by a significant low point in Q1FY22, after which multiple fluctuations occur around 7%. Within each fiscal year, brief plateau periods often appear where values remain close for two consecutive quarters.
+
+[Core Insights]
+Core Conclusion: The market share for this category has slightly declined overall but remains within a narrow range.
+
+Business Implications:
+- Share has not deviated from the existing range; the competitive landscape is relatively stable.
+- The low point around Q1FY22 reflects increased short-term competitive pressure.
+- Failure to return to the initial level after Q1FY24 indicates limited recovery momentum.
+
+Risk Focus:
+- If the share falls below 6.7%, it will hit the historical low range, potentially triggering a decline in channel confidence.
+- If the share remains below 7.0% for an extended period, it may weaken bargaining power and resource acquisition capability in this specific market segment.

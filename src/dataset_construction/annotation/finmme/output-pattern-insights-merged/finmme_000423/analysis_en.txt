@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Dual-series chart (Closing price line; Target price step line)
+- Title: Not displayed
+- X-axis: Time, range 01-21 to 01-24; Scale marked as 01/04/07/10-YY
+- Y-axis: Price, unit EUR, range 0–140, interval 20
+- Legend: Closing price (Teal line), Target price (Gray-blue step line); Red dots marked on the chart.
+
+[Data Relationships]
+- Initial period (01-21) closing price ≈ EUR80; Final period (01-24) ≈ EUR40; Difference ≈ -40
+- Closing price peak approximately 10-21, ≈ EUR95; Trough approximately 10-22, ≈ EUR25; High-low difference ≈ 70
+- Target price step values: ≈ EUR135 (01-22), ≈ EUR105 (04-22), ≈ EUR85 (07-22), ≈ EUR65 (10-22), ≈ EUR35 (01-23), reaching ≈ EUR40 by 01-24
+- 01-22: Closing price ≈ EUR95, Target price ≈ EUR135, Difference ≈ 40
+- 10-22: Closing price ≈ EUR25, Target price ≈ EUR35, Difference ≈ 10
+- 04-23: Closing price ≈ EUR40, Target price ≈ EUR40, Difference ≈ 0
+
+[Pattern Characteristics]
+- The closing price initially rose briefly before gradually declining, showing a significant downward trend in the middle segment, followed by narrow fluctuations near the lower price level and a slight recovery.
+- The target price shows multi-level step-down adjustments, maintaining the new level for a period after each adjustment. Overall, it moves generally in the same direction as the closing price, but the distance between the two sometimes expands and sometimes converges.
+- Some red dot positions indicate a significant gap between the closing price and the target price, which subsequently narrowed until they briefly converged in the middle-to-late segment. Thereafter, the two lines moved slowly in close proximity.
+
+[Core Insights]
+Core Conclusion: The target price has been continuously revised downwards, and the gap with the market price has significantly narrowed.
+
+Business Implications:
+- Early target expectations were relatively high, subsequently moving closer to reality.
+- Valuation judgment in the middle-to-late period is closer to the market price.
+- Current pricing headroom is limited, constraining the flexibility for outperformance.
+
+Risk Focus:
+- If the target price is ≤ EUR40 and the price remains below this level for a long time, it may weaken the potential for subsequent upward revisions.
+- If the future price falls below the low level of ≈ EUR25 again, it may trigger further target price reductions and sentiment deterioration.

@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: 100% stacked bar chart, comparing the composition of car production by SAE automation level over two years.
+- Title: Car production by degree of automation (SAE level).
+- X-axis: Year, with two columns representing 2023 and 2030 respectively.
+- Y-axis: Percentage scale 0%–100%, marked at 0%, 20%, 40%, 60%, 80%, 100%.
+- Segment Labels: L0, L1, L2, L2+, L3/L4/L5, labeled directly within each segment; "100%" marked at the top of each column.
+- Annotations/Indicators: Right-side callouts mark "L1/L2/L2+ ~55% (2023)/~75% (2030)" and "L3/L4/L5 ~0% (2023)/~5% (2030)"; dashed brackets indicate the aforementioned aggregate ranges. No independent legend.
+
+[Data Relationships]
+- 2023: L1/L2/L2+ total approximately 55%; L3/L4/L5 approximately 0%; therefore L0 approximately 45%.
+- 2030: L1/L2/L2+ total approximately 75%; L3/L4/L5 approximately 5%; therefore L0 approximately 20%.
+- 2023→2030: L1/L2/L2+ increased by approximately 20 percentage points; L3/L4/L5 increased by approximately 5 percentage points; L0 decreased by approximately 25 percentage points.
+- The total volume for both years is 100%.
+
+[Pattern Characteristics]
+In the comparison between the two years, the proportion of each automation level shows a clear redistribution structure, with the overall proportion of the high-level segment rising and the low-level segment significantly contracting. L1/L2/L2+ forms the primary block, further expanding its dominant proportion in 2030, while L3/L4/L5 evolves from being virtually non-existent to a recognizable minor segment. The overall composition remains continuous without sudden jumps, with structural change only occurring in the high-level segment (transitioning from zero to a positive value).
+
+[Core Insights]
+Core Conclusion: The composition of car production is concentrating towards medium and high-level automation.
+
+Business Implications:
+- The overall existing product portfolio is migrating towards higher levels of automation.
+- Mid-level automation vehicle models will determine the primary capacity layout.
+- High-level vehicle models are beginning to form an independent niche market space.
+
+Risk Focus:
+- If the proportion of L0 remains above 40% for an extended period, the pace of product renewal may be slow.
+- If the proportion of L3/L4/L5 is below 3% in 2030, high-end R&D investment may struggle to achieve cost amortization.

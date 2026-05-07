@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Time series line chart (red main line), including four gray reference lines
+- Title: Not displayed
+- Y-axis: Unit (TWD), range 0–160
+- X-axis: Time, from Jan-18 to Feb-25, monthly scale
+- Legend/Annotation: Gray lines on the right annotated 0.8x, 1.2x, 1.6x, 2.1x
+
+[Data Relationships]
+- Jan-18 value approximately 90 TWD; Feb-25 approximately 85 TWD; difference approximately -5 TWD
+- All-time high approximately 130 TWD (mid-2021), all-time low approximately 60 TWD (early 2019); high-low difference approximately 70 TWD
+- The range of values for 2020Q4–2021Q3 is 110–130 TWD, approaching the 1.6x reference line (≈115 TWD)
+- Mid-2022 saw approximately 60 TWD, approaching the 0.8x reference line
+- The range of values for 2023–2024 is 80–95 TWD, situated between the 0.8x and 1.2x reference lines
+
+[Pattern Characteristics]
+The entire time series first experienced a gradual rise accompanied by significant volatility between 2018 and 2021. After peaking in mid-2021, it shifted to operating within a lower range. Following a clear dip in mid-2022, subsequent data has fluctuated narrowly between the gray 0.8x and 1.2x reference lines. The terminal position is slightly below the previous platform. The overall structure shows a convergence from wide-range volatility to a narrower range, failing to touch the upper 1.6x and higher reference bands again.
+
+[Core Insights]
+Core Conclusion: The high-level phase has concluded, entering a neutral-to-low operating range.
+
+Business Implications:
+- The center of gravity for returns/prices has shifted downward, weakening the competitive advantage level.
+- Disconnected from the high-multiple range, limiting premium capability.
+- The current range relies more heavily on the stability provided by the 0.8x–1.2x band support.
+
+Risk Focus:
+- A drop below 0.8x (approx. 60 TWD) could trigger involuntary position reduction or stop-loss.
+- Failure to return to 1.6x (approx. 115 TWD) long-term may weaken allocation attractiveness.

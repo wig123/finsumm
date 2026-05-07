@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Vertical Bar Chart
+- Title: Not displayed
+- Y-axis: Percentage of Disposable Income, range approximately 0%–45%, with grid lines
+- X-axis: Country Name, displayed rotated, examples include China, Switzerland, Norway, Sweden, Australia, Netherlands, USA, France, Germany, Italy, Russia, South Africa, Lithuania, etc.
+- Legend: Not displayed
+
+[Data Relationships]
+- Value range is approximately between 0%–40%
+- Highest value: China is approximately 40%
+- Second highest value: The second-to-last country on the right is approximately 20%–25%, about 15–20 percentage points lower than the highest value
+- Most countries are concentrated around 10%–20%, such as Norway, Sweden, Australia, Netherlands, USA, France
+- Lowest value is located on the left, approximately 0%–2%
+- The gap between the highest and lowest values is approximately 38–40 percentage points
+
+[Pattern Characteristics]
+The bars are ordered from low to high; most are located in the middle segment, with a few falling into the extremely low and extremely high positions. A single significantly high value appears at the right end, creating a clear gap between it and the second highest value; the left end has minimum values close to zero. The overall structure is characterized by imbalance, showing the coexistence of multiple middle segments and a few extremes.
+
+[Core Insights]
+Core Conclusion: The proportion of this indicator relative to income varies significantly across countries, with a single market showing the highest utilization.
+
+Business Implications:
+- Reflects differences in market dependency across various markets.
+- Regions with a high proportion have limited space for other expenditures.
+- Regions with a low proportion have limited scale for related businesses.
+
+Risk Focus:
+- ≥30%: Overly high utilization of income, potentially crowding out other uses.
+- ≤2%: Penetration is too low, hindering the expansion of related businesses.

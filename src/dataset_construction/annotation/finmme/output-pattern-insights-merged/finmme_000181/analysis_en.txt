@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Time series line chart (Closing Price), with event markers.
+- Title: Genting Bhd; Top right corner annotated "As of 24-Jan-2024" "Currency=MYR".
+- X-axis: Date, range approximately 2021/07/01 to 2024/01/01, ticks showing 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01.
+- Y-axis: Price, range 0.0 to 6.0 MYR.
+- Legend: Black line=Closing Price; Green triangle=Target Price Change; Blue dot=Recommendation Changes.
+- Source: LSEG, Nomura.
+
+[Data Relationships]
+- Initial closing price (2021/07) approximately 5.1 MYR; Final (2024/01) approximately 4.8 MYR; Change approximately -0.3 MYR.
+- Highest closing price for the entire period approximately 5.9 MYR (approx. 2023/01); Lowest approximately 3.9 MYR (approx. 2023/07); High-low difference approximately 2.0 MYR.
+- Blue dot occurred once (approx. 2023/02), corresponding closing price approximately 4.5 MYR.
+- Green triangle occurred 5 times in total: approx. 2021/07 (5.4), 2021/10 (5.1), 2022/06 (5.5), 2022/10 (5.4), 2023/01 (5.9).
+- Closing price near 2023/01 approximately 5.0 MYR, difference from the green triangle position on that day approximately 0.9 MYR.
+
+[Pattern Characteristics]
+- The closing price generally exhibits range-bound movement, with initial and final levels being similar, showing multiple significant fluctuations in between.
+- A significant low point occurred in mid-2023, flanked by temporary high points, followed by a recovery that did not reach the previous peak.
+- Target price changes are distributed from 2021 to early 2023, mostly positioned above the price; Recommendation changes occurred only once, near early 2023.
+
+[Core Insights]
+Core Conclusion: Price remains below the target price for the long term, constraining earnings expansion.
+
+Business Implications:
+- Analyst expectations are higher than trading levels, indicating a valuation divergence.
+- Returns rely more on short-term position adjustments and spread management.
+- Infrequent recommendation changes, resulting in low signal density.
+
+Risk Focus:
+- A drop below 3.9 MYR may trigger amplified stop-loss selling and deeper drawdowns.
+- Sustained difference from target price ≥ 0.9 MYR may weaken the returns of follow-the-leader strategies.

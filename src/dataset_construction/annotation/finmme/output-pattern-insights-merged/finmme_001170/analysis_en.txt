@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Multi-series line chart; title not displayed.
+- Y-axis: Unit "KRW bn," range 0–3,500, scale approximately every 500.
+- X-axis: Time scale Jan-15 to Jan-24 (labeled annually).
+- Legend: 6 series—"4" (Red), "6" (Gray), "8" (Black), "10" (Light Orange), "12" (Black Dashed Line), "EV" (Orange).
+
+[Data Relationships]
+- Jan-15 Values: 4≈250, 6≈350, 8≈500, 10≈650, 12≈550, EV≈600.
+- Jan-24 Values: 4≈850, 6≈1,200, 8≈1,650, 10≈2,050, 12≈2,500, EV≈1,200.
+- EV Extremes: Highest ≈3,000 (Jan-23), Lowest ≈100 (Early 2021).
+- Jan-24 Spreads: 12 is higher than 10 by ≈450, higher than 8 by ≈850, higher than 4 by ≈1,650; EV is close to "6" (≈1,200).
+
+[Pattern Characteristics]
+- Prior to Jan-17, the overall level of the six series was low with limited spacing between them. Subsequently, they generally rose and gradually widened the gap, with the dashed line "12" consistently maintaining the highest position from the middle segment onward.
+- EV was briefly at a relatively low level near Jan-21, followed by multiple significant fluctuations (up and down) between Jan-22 and Jan-23. After reaching its peak in Jan-23, it saw a noticeable decline, ultimately stabilizing roughly level with "6" in Jan-24.
+- Excluding EV, the trends of the remaining series were relatively stable throughout the period, showing only minor step-like changes around Jan-17 and Jan-20, without sharp volatility.
+
+[Core Insights]
+Core Conclusion: EV exhibits significant short-term volatility, while benchmark magnitudes like "12" show a characteristic of sustained upward momentum.
+
+Business Implications:
+- EV has demonstrated greater uncertainty in recent years.
+- "12" has remained higher than other series over the long term, reflecting stronger support capacity.
+- As EV approaches "6" in Jan-24, valuation aligns closer to the benchmark.
+
+Risk Focus:
+- Should EV approach 3,000 again without a synchronous rise in other series, temporary overvaluation pressure may emerge.
+- If EV drops below 500 while "8" and "10" remain above 1,000, this may indicate a severe mismatch between pricing and fundamental quantities.

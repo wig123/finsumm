@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Multi-series line chart
+- Title: Not displayed
+- X-axis: Date, range from 2023/2/10—2024/2/1 (labeled by month/day)
+- Y-axis: Value axis, range 0—6,000,000 (unit unspecified)
+- Legend: ChatGPT (Red), Bing: Chat with AI & GPT-4 (Gray), Character AI: AI-Powered Chat (Black), Poe – Fast AI Chat (Light Orange)
+
+[Data Relationships]
+- ChatGPT: Initial approx. 0.5M (2023/5/10), Peak approx. 5.5M (2023/12), Final approx. 4.1M (2024/2/1); Peak-Initial difference approx. 5.0M.
+- Bing: Initial approx. 0.8M (2023/2), Peak approx. 3.8M (2024/1), Final approx. 1.1M; Peak-Final difference approx. 2.7M.
+- Character AI: Initial approx. 1.1M (2023/5), Final approx. 0.3M (2024/2); Range approx. 0.25–1.1M.
+- Poe: Value approx. 0.08–0.25M; Initial approx. 0.08M, Final approx. 0.11M.
+- Near 2024/1: Bing approx. 3.8M, ChatGPT approx. 3.4M, difference approx. 0.4M; On the same day, Character AI approx. 0.3M, Poe approx. 0.1M.
+
+[Pattern Characteristics]
+- Among the four curves, the red curve is generally in the highest range, and in the middle-to-late section, it repeatedly shows steep local peaks and declines, with volatility significantly greater than the other series.
+- The gray curve was at a moderate level in the first half, then rapidly surged in the second half, approaching the red curve before significantly declining, exhibiting a single prominent peak.
+- Since its appearance, the black curve has generally trended downward, approaching the bottom range. The light orange curve consistently hugs the lower edge of the chart, accompanied only by minor fluctuations.
+
+[Core Insights]
+Core Conclusion: User attention is highly concentrated on a single application, followed by a challenger, while others remain marginalized long-term.
+
+Business Implications:
+- The leading application possesses a clear scale advantage and user inertia.
+- The second-place contender achieved a temporary breakthrough, but lacked sustainability.
+- Bottom-tier products have limited bargaining power and exposure in the competition.
+
+Risk Concerns:
+- If the value of the leading application drops below 3,000,000, its market dominance may be weakened.
+- If the second-place contender remains below 1,000,000 long-term, it is easily further marginalized, and competitiveness is reduced.

@@ -1,0 +1,27 @@
+[Chart Components]
+- Chart Type: Multi-series time line chart
+- Title: Not displayed
+- X-axis: Time, Jul-21 to Mar-24 (Bi-monthly scale: Sep-21, Nov-21…Jan-24, Mar-24)
+- Y-axis: Numerical scale 60.0–190.0, step size approximately 10
+- Legend and Color: MSCI India $ rel to ASXJ $ (Solid Red Line), MSCI Taiwan (Solid Black Line), MSCI Hong Kong (Dashed Black Line), MSCI China (Solid Light Gray Line), MSCI Korea (Solid Blue Line), MSCI Japan (Solid Pink-Orange Line)
+
+[Data Relationships]
+- Jul-21 Starting Point: India≈100; Taiwan≈100; Hong Kong≈100; China≈95; Korea≈100; Japan≈100.
+- Mar-24 Ending Point: India≈180; Taiwan≈135; Japan≈145; Korea≈95; Hong Kong≈85; China≈68.
+- Difference between Ending Point and Starting Point: India≈+80; Japan≈+45; Taiwan≈+35; Korea≈−5; Hong Kong≈−15; China≈−27.
+- Highest Single Point for the entire period: India≈185–188 (Near Mar-24). Lowest Single Point for the entire period: China≈68 (Mar-24).
+
+[Pattern Characteristics]
+All series clustered near the starting point, subsequently diverging into distinct three-tiered structures: high, medium, and low positions. The India line continuously pulled away and remained at the top in the final segment. Japan and Taiwan were in the middle range. Korea, Hong Kong, and China were mostly in the lower positions, with China reaching the lowest level on the entire chart in the final segment. Locally, the lines experienced multiple short-term convergences and subsequent separations, but no long-term overlap occurred after intersection.
+
+[Core Insights]
+Core Conclusion: Regional performance is highly differentiated, with India demonstrating long-term dominance and China consistently lagging.
+
+Business Implications:
+- Regional sources of return are concentrated in a few markets.
+- Existing portfolio regional allocation may be imbalanced.
+- Excess returns relative to the benchmark depend on structural selection.
+
+Risk Concerns:
+- If the India relative index falls below 140, portfolio excess returns may narrow significantly.
+- If China remains below 80, it will continue to drag down portfolios with high weightings in that market.

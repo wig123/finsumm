@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Vertical Bar Chart
+- Legend/Title: EBIT margin (%) (Red)
+- X-axis: Year/Category; Displayed ticks include CY18, CY20, CY22, CY24F, CY26F; Bars cover CY18, CY19, CY20, CY21, CY22, CY23, CY24F, CY25F, CY26F
+- Y-axis: Percentage scale, approximately 10% to 19%, 1% interval
+- Data Labels: Specific percentages labeled at the top of each bar
+- Color: Bars are red
+
+[Data Relationships]
+- CY18: 18.0%; CY19: 14.6%; CY20: 12.7%
+- CY21: 15.3%; CY22: 15.3%; CY23: 15.1%
+- CY24F: 15.3%; CY25F: 15.7%; CY26F: 15.7%
+- Highest value 18.0% (CY18), lowest value 12.7% (CY20), a difference of 5.3 percentage points
+- Starting point CY18 is 18.0%, ending point CY26F is 15.7%, a difference of 2.3 percentage points
+- Difference between CY18 and CY19 is 3.4 percentage points; difference between CY19 and CY20 is 1.9 percentage points
+- CY21 and CY22 are the same (15.3%); CY25F and CY26F are the same (15.7%)
+- Difference between CY22 and CY23 is 0.2 percentage points; difference between CY23 and CY24F is 0.2 percentage points; difference between CY24F and CY25F is 0.4 percentage points
+
+[Pattern Characteristics]
+The bars initially show a significant decline, reaching the lowest point for the period in CY20. Subsequently, the bars generally remain at an upper-middle level, fluctuating slightly, and gradually converge and stabilize within a relatively concentrated range during the later forecast years. CY21 and CY22, and CY25F and CY26F form two distinct plateaus with identical heights.
+
+[Core Insights]
+Core Conclusion: After experiencing a decline, the profitability rate enters a relatively stable central range.
+
+Business Implications:
+- Current profitability has retreated from its previous high point
+- Profit performance in recent years and the forecast period is relatively predictable
+- Limited room for subsequent improvement, relying more on scale or efficiency
+
+Risk Focus:
+- If it falls below 13%, it will approach historical lows, compressing profit margins
+- If it struggles to exceed 16% long-term, earnings elasticity will be constrained, impacting valuation upside potential

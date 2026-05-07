@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Dual Line Chart
+- Legend: Red "Price," Gray "Rel Taiwan TAIEX Index"
+- Title: Not displayed
+- X-axis: Time, Apr 23 to Mar 24 (Monthly labels)
+- Left Y-axis: Labeled "(TWD)," Scale approximately 75—275
+- Right Y-axis: Unit not labeled, Scale 100—300
+
+[Data Relationships]
+- Initial Period (Apr 23): Price≈90 TWD; TAIEX≈110 (Right axis)
+- Final Period (Mar 24): Price≈255 TWD; TAIEX≈275
+- Price Peak≈280 TWD (Jul–Aug 23), Trough≈90 TWD (Apr–May 23), Range≈190 TWD
+- TAIEX Peak≈290 (Right axis), Trough≈110, Range≈180
+- Aug 23: Price≈260 TWD; TAIEX≈230 (Right axis)
+- Nov–Dec 23: Price≈200–210 TWD; TAIEX≈190–205 (Right axis)
+
+[Pattern Characteristics]
+- Price rapidly surged from a low base during the Apr–Jul 23 period, subsequently exhibiting wide-ranging volatility within a higher band, with intermittent short-term pullbacks and rebounds.
+- The overall trajectory of the TAIEX is broadly synchronized with Price, moving higher in the same direction after Jun 23 and entering a higher band, though its volatility range is slightly smaller than Price.
+- The two curves maintained a noticeable spread multiple times during Jul–Aug 23 and Jan–Mar 24, while the spread narrowed in Nov–Dec 23. No single-month sharp deviation or extreme outlier was observed.
+
+[Core Insights]
+Core Conclusion: The individual stock exhibited strong positive deviation relative to the index for the majority of the period.
+
+Business Implications:
+- The individual stock significantly outperformed the broader market, demonstrating characteristics of excess returns (alpha generation).
+- This security likely contributed significantly to the overall portfolio return.
+- The performance differential relative to the index indicates limited reliance on market Beta.
+
+Risk Considerations:
+- If Price pulls back to around 200 TWD or below, previous relative gains may be rapidly surrendered (or clawed back).
+- If the TAIEX falls below approximately 200 while Price remains above 250 TWD, relative valuation may face concentrated correction pressure.

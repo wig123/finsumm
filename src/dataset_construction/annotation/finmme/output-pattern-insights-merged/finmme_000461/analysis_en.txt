@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Line chart; no explicit title.
+- X-axis: Quarter, 1Q21 to 4Q23.
+- Left Y-axis: Percentage scale 5.0%—17.0%, corresponding to Green loans, Inclusive finance (IF) loans.
+- Right Y-axis: Percentage scale 22.0%—24.0%, corresponding to Agricultural-related loans (rhs).
+- Legend: Green loans (light color), Inclusive finance (IF) loans (orange), Agricultural-related loans (red, right axis).
+- Annotation: 4Q23 shows 23.8% (red line), 12.7% (light color line).
+
+[Data Relationships]
+- 4Q23: Agricultural-related loans = 23.8% (right axis); Green loans = 12.7% (left axis).
+- 4Q23 Difference between the two = 23.8% - 12.7% = 11.1 percentage points.
+- 4Q23 Ratio = 23.8 / 12.7 ≈ 1.87.
+- All red line data points are located in the right axis range 22.0%—24.0%; Green/IF line data points are located in the left axis range 5.0%—17.0%.
+- All three series cover 1Q21—4Q23, totaling 12 quarterly data points.
+
+[Pattern Characteristics]
+All three series exhibit a unilateral structure of gradual increase overall from 1Q21–4Q23, with only a slight dip or plateau phase appearing in the mid-to-early period of 2021. Green loans and IF loans consistently maintain a small gap between them, and their trends are generally parallel; Agricultural-related loans are generally in a higher range and showed a steeper upward slope starting from the end of 2022. There are no obvious isolated outliers in any series, but the change in slope from the end of 2022 to 2023 constitutes the main inflection point.
+
+[Core Insights]
+Core Conclusion: The proportion of agricultural-related loans is significantly higher than that of green and inclusive finance loans, and the gap in proportion is widening.
+
+Business Implications:
+- The credit structure exhibits a strong reliance on agriculture-related sectors.
+- The pace of green and inclusive finance deployment is relatively uniform, suggesting limited room for adjustment.
+- The structure further tilted towards agricultural-related loans after the end of 2022.
+
+Risk Concerns:
+- If the proportion of agricultural-related loans consistently exceeds 24.0%, it may amplify concentration risk in a single sector.
+- If the proportion of green loans remains below 10.0% for an extended period, it may constrain the achievement of relevant policy or performance targets.

@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Bar chart, including a horizontal dashed line.
+- Legend: Red bar "Adj. PAT growth (%)"; Dashed line "8-qtr historical avg. (%)".
+- X-axis: Quarterly classification, 3Q22 to 3Q24.
+- Y-axis: Percentage scale, range approximately 0–18.
+- Annotation: Specific values displayed at the top of each bar.
+
+[Data Relationships]
+- Quarterly Values: 3Q22 8.3; 4Q22 6.7; 1Q23 6.2; 2Q23 2.5; 3Q23 10.6; 4Q23 14.1; 1Q24 16.6; 2Q24 13.9; 3Q24 7.9.
+- Maximum Value: 1Q24 16.6; Minimum Value: 2Q23 2.5; Range 14.1.
+- Difference between initial and final period: 7.9−8.3=−0.4.
+- Sequential Difference: 3Q23−2Q23=8.1; 4Q23−3Q23=3.5; 1Q24−4Q23=2.5; 2Q24−1Q24=−2.7; 3Q24−2Q24=−6.0.
+- Quarters ≥10%: 3Q23(10.6), 4Q23(14.1), 1Q24(16.6), 2Q24(13.9).
+
+[Pattern Characteristics]
+- The sequence gradually declined from a moderate level in the first half, hit a singular low point in 2Q23, subsequently maintained a relatively high level within the sample for several consecutive quarters, peaked in 1Q24, and then declined again.
+- The quarterly bars are distributed above and below the dashed line; the first half is mostly below the dashed line, the period from 3Q23 to 2Q24 is generally above the dashed line, and 3Q24 is slightly lower than the initial level but still close to the dashed line.
+- 2Q23 and 1Q24 constitute clear local low and high points, respectively. The magnitude of change between adjacent quarters is relatively sharp in certain intervals, manifesting as significant adjustments in the opposite direction in the latter period.
+
+[Core Insights]
+Core Conclusion: Earnings growth experienced a trough, followed by a significant short-term rebound, and is currently returning to the central average.
+
+Business Implications:
+- The 2Q23 low point indicates temporary pressure on profitability.
+- The high range from 3Q23–2Q24 reflects the full release of earnings resilience/elasticity.
+- 3Q24 returned close to the mean; subsequent sustainability remains to be verified.
+
+Risk Focus:
+- If future quarters fall below 5%, it could lead to downward revisions of earnings forecasts and valuation pressure.
+- If the rate consistently remains below the 8.3% average, it may erode confidence in medium-to-long-term growth.

@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Dual-axis time line chart
+- Legend: Red "Price," Gray "Rel Jakarta Stock Exchange Composite"
+- X-axis: Time, Mar 23 to Feb 24, marked monthly
+- Left Y-axis: Unit (IDR), scale approximately 0—1000
+- Right Y-axis: Scale approximately 100—200
+- No explicit main title
+
+[Data Relationships]
+- The red line initial value (Mar 23) is approximately 450 IDR; the final value (Feb 24) is approximately 950—1000 IDR.
+- The red line lowest point (approx. Apr 23) is approximately 400 IDR; the highest point (Jan—Feb 24) is approximately 970—1000 IDR, with a range difference of approximately 570—600 IDR.
+- The red line in the Aug—Sep 23 range is approximately 820—860 IDR; near Oct 23, it is approximately 820—850 IDR.
+- The gray line initial value (Mar 23) is approximately 105—115 (right axis); the final value (Feb 24) is approximately 195—200.
+- The gray line common values in the Jun—Sep 23 range are approximately 150—175 (right axis).
+
+[Pattern Characteristics]
+- The red line generally shows a step-wise upward movement from left to right, forming a relatively concentrated platform near Jun—Oct 23, after which it moves upward again and maintains a high-level range near Jan—Feb 24.
+- The trend of the gray line maintains a similar shape to the red line for most of the time. The correlation between the two is high in the Jun—Sep 23 range. Although the distance between them sometimes slightly widens afterward, no significant inverse change is observed.
+- No sudden, large single-day jumps occurred throughout the period. Price changes are primarily characterized by continuous fluctuations, with localized structures showing renewed uplift after pullbacks.
+
+[Core Insights]
+Core Conclusion: The individual stock trend generally follows the broader market, but its relative performance slightly strengthened in the later period.
+
+Business Implications:
+- Strong co-movement between the individual stock and the broader market, reflecting index-driven characteristics.
+- The Jun—Sep 23 platform area indicates a relatively long valuation digestion period.
+- The sustained high level in Jan—Feb 24 indicates increasing capital attention.
+
+Risk Concerns:
+- If the red line falls back from near 1000 to below approximately 800, it may trigger a short-term sentiment reversal.
+- If the gray line falls back from near 200 to below approximately 150, a broader market pullback may amplify individual stock volatility.

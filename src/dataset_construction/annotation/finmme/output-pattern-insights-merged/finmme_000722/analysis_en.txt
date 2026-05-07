@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Grouped bar chart (with data labels).
+- Legend: SBI Life (Red), HDFC Life (Gray), IPRU Life (White outline).
+- X-axis: 6 categories—APE Growth (3Q24 YoY, 9M24 YoY, FY23 YoY); VNB Growth (3Q24 YoY, 9M24 YoY, FY23 YoY).
+- Y-axis: Percentage scale, approximately from -40% to 50%, including the 0% baseline.
+- Title: No overall title visible in the chart.
+
+[Data Relationships]
+- APE 3Q24: SBI 13%, HDFC -7%, IPRU 5%; range of 20 percentage points.
+- APE 9M24: SBI 17%, HDFC 9%, IPRU 0%; range of 17 percentage points.
+- APE FY23: HDFC 37%, SBI 18%, IPRU 12%; range of 25 percentage points.
+- VNB 3Q24: SBI 11%, HDFC -3%, IPRU -29%; range of 40 percentage points.
+- VNB 9M24: SBI 11%, HDFC 5%, IPRU -15%; range of 26 percentage points.
+- VNB FY23: SBI 37%, HDFC 37%, IPRU 28%; range of 9 percentage points; SBI and HDFC tied for the highest.
+- Global maximum value 37%, minimum value -29%; overall span of 66 percentage points.
+
+[Pattern Characteristics]
+Across all APE periods, the values for the three companies are generally in the moderate positive range, with only slight divergence at individual time points. In VNB, SBI and HDFC are generally in the positive range, while IPRU shows a significant negative value in the most recent period, creating a large gap with the other two. When comparing FY23 with 3Q24/9M24, the ranking and distance between HDFC and IPRU relative to SBI have changed significantly, shifting from previously high or similar levels.
+
+[Core Insights]
+
+Core Conclusion: SBI generally leads in recent growth performance, while IPRU is clearly under pressure.
+
+Business Implications:
+- The comparison between APE and VNB shows an intensifying divergence in growth rates among the three companies.
+- SBI demonstrates relatively greater sustainability in new business and value creation.
+- IPRU's recent pressure on Value of New Business (VNB) may weaken its contribution to profitability.
+
+Risk Concerns:
+- If IPRU VNB continues to fall below 0%, it may persistently drag down overall earnings performance.
+- If HDFC's APE and VNB simultaneously fall below 5%, it may weaken its competitive position relative to peers.

@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Bar chart
+- Title: SHFL
+- Legend: Gross Stage-3 (%) - One year lagged
+- Y-axis: Percentage, range 0%—12%
+- X-axis: FY23, 1QFY24, 2QFY24, 3QFY24
+- Data Labels: 8.89%, 10.15%, 8.96%, 8.32%
+
+[Data Relationships]
+- Values per period: FY23=8.89%; 1QFY24=10.15%; 2QFY24=8.96%; 3QFY24=8.32%.
+- Maximum value 10.15% (1QFY24), minimum value 8.32% (3QFY24), range 1.83 percentage points.
+- Difference FY23→1QFY24: +1.26 percentage points;
+- Difference 1QFY24→2QFY24: -1.19 percentage points;
+- Difference 2QFY24→3QFY24: -0.64 percentage points.
+- Difference between FY23 and 3QFY24: -0.57 percentage points.
+- Four-period average 9.08%, median approximately 8.93%.
+
+[Pattern Characteristics]
+The four observation periods are generally distributed within a narrow range, fluctuating slightly around 9%. 1QFY24 formed a single peak, followed by a gradual decline over the next two quarters to a level below the starting period. There are no sudden jumps or extreme outliers in the sequence.
+
+[Core Insights]
+Core Conclusion: The Stage-3 proportion briefly increased before returning to a level slightly below FY23.
+
+Business Implications:
+- Overall non-performing exposure remains within a relatively close range.
+- 1QFY24 indicates asset quality was under pressure during that period.
+- Remedial efforts in subsequent quarters have had some effect on the non-performing level.
+
+Risk Focus:
+- If the level approaches or exceeds 10.15% again, it may compress profit margins.
+- If the level exceeds the 12% Y-axis limit, it may trigger further provisioning and capital pressure.

@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Multiple Line Chart
+- Title: Transport is the biggest source of emissions in the EU
+- Subtitle: Greenhouse gas emissions by sector (MtCO2e)
+- X-axis: Year, approx. 1990—2025 (labeled 1990, 1995, 2000, 2005, 2010, 2015, 2020, 2025)
+- Y-axis: Emissions (MtCO2e), Range 0—1500 (Major ticks 500, 1000, 1500)
+- Series/Legend: 6 lines—Transport (blue); Industry, Public Electricity & Heat, Buildings, Agriculture, Waste (gray, labeled on the right)
+- Notes/Source: UNFCCC, EEA, Stratas Advisors; Transport includes international aviation and shipping
+
+[Data Relationships]
+- Transport: approx. 800 in 1990; peak approx. 1150 in 2007; approx. 900 in 2020; approx. 1050 in 2024.
+- 2024 Sectors: Industry approx. 750–800; Public Electricity & Heat approx. 600–650; Buildings approx. 480–500; Agriculture approx. 360–380; Waste approx. 90–110.
+- 2024 Comparison: Transport is higher than Industry by approx. 250–300; higher than Public Electricity & Heat by approx. 400–450; higher than Buildings by approx. 550; higher than Agriculture by approx. 680–700; higher than Waste by approx. 940–960.
+- Transport Change (Start to End of Period): approx. +250 MtCO2e.
+
+[Pattern Characteristics]
+- Among all sectors, only the Transport line shows a net increase from the beginning to the end of the period; the remaining sectors generally show a gradual contraction or a stable slight decline.
+- Transport formed its first local high point around 2007, subsequently declined, experienced a brief deep dip around 2020, and then rose again, maintaining a single dominant structure above all other lines in the latest year.
+- The Industry and Public Electricity & Heat lines were close to each other at early high levels, then continuously declined and were surpassed by Transport; Buildings and Agriculture maintained narrow fluctuations at medium-low levels, while Waste showed a continuous monotonic decline with no significant rebound.
+
+[Core Insights]
+Core Conclusion: Emission reduction effectiveness highly depends on non-transport sectors, with Transport becoming the dominant source of emissions.
+
+Business Implications:
+- The overall emission reduction structure shows significant differences in contribution among sectors.
+- The degree of Transport's impact on total emission levels is significantly higher than other sectors.
+- If the current structure is maintained, the comprehensive emission reduction potential will increasingly concentrate on Transport.
+
+Risk Focus:
+- If Transport remains above 1000 MtCO2e for a long period, the decline in total emissions may be significantly constrained.
+- If Industry and Public Electricity & Heat struggle to decline further after reaching around 500 MtCO2e, marginal emission reduction will rely more on Transport adjustments.

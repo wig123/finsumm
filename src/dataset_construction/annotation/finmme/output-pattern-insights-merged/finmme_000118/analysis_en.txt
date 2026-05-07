@@ -1,0 +1,36 @@
+[Chart Components]
+- Type: Table
+- Title: Untitled
+- Axes: No Axes
+- Legend: Includes "Market," "HSBC view," "FTSE benchmark weight (%)," "HSBC weight (%)"
+
+[Data Relationships]
+- **Key Figures and Changes**
+  - FTSE Russell EM Asia has the largest total weight, 75.1% (FTSE benchmark) and 70.7% (HSBC), respectively.
+  - Mainland China has the largest weight within the Asian regional market, 28.4% (FTSE benchmark) and 28.4% (HSBC).
+  - Brazil accounts for the largest proportion in Latin America, 6.5% (FTSE benchmark) and 7.7% (HSBC).
+
+- **Extremum Comparison**
+  - In the FTSE benchmark, Mainland China has the highest weight among all markets at 28.4%.
+  - In the HSBC weightings, Brazil significantly increases to 7.7% compared to its FTSE benchmark of 6.5%.
+
+- **Important Trends**
+  - HSBC's "overweight" view on FTSE Russell EM EMEA results in its weight being slightly higher than the FTSE benchmark (16.7% versus 14.4%).
+  - Compared to the FTSE benchmark, HSBC is "overweight" in both Latin America and EMEA regions, and "underweight" in the Asia region.
+
+[Pattern Characteristics]
+- Regional distribution is highly concentrated in Asia, with the other two major regions accounting for significantly smaller proportions, presenting an overall unbalanced structure.
+- Compared to the benchmark, HSBC is overweighting EMEA and Latin America and underweighting Asia; internal redistribution within Asia is significant, with prominent differences in the relative weights of India and Taiwan.
+- There are individual markets almost identical to the benchmark (e.g., Mainland China), and markets that are minimal or zero (e.g., Pakistan); markets like Brazil and Turkey show relatively noticeable changes.
+
+[Core Insights]
+Core Conclusion: Systemic differences emerge between regional allocation and the benchmark, with the focus shifting towards EMEA and Latin America.
+
+Business Implications:
+- Reducing single-region reliance on Asia
+- Decreased consistency with the FTSE composition
+- Internal country exposure within Asia is being reshaped
+
+Risk Focus:
+- Asia < 70.7%, widening the gap from the benchmark 75.1%
+- Taiwan ≤ 10.0%, India ≥ 24.2%, increasing the gap from 18.1%/21.8%

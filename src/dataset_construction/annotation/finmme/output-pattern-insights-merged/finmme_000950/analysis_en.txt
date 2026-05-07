@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Dual-axis line chart (with square markers)
+- Title: CAR & MUV
+- Legend: Red—CIFC disbursement growth (y-y); Black—Industry volume growth (y-y)
+- X-axis: FY17, FY18, FY19, FY20, FY21, FY22, FY23, 9M24
+- Left Y-axis: -15% to 75% (%)
+- Right Y-axis: -10% to 35% (%)
+- Others: Annotation "Correlation: 0.93"; 0% displayed as a horizontal line
+
+[Data Relationships]
+- FY23: CIFC 75%; Industry 33%; Difference 42 pct.
+- FY21: CIFC -15%; Industry -10%; Difference 5 pct.
+- FY17: CIFC 25%; Industry 17%; Difference 8 pct.
+- FY19: CIFC 30%; Industry 5%; Difference 25 pct.
+- FY20: CIFC -3%; Industry -6%; Difference 3 pct.
+- 9M24: CIFC 12%; Industry 7%; Difference 5 pct.
+- Change FY21→FY23: CIFC +90 pct; Industry +43 pct.
+- Correlation coefficient in the chart: 0.93.
+
+[Pattern Characteristics]
+The direction of the two lines is generally consistent across all periods, showing a highly synchronized trend, with magnitude differences widening only in specific years. Both reached a low point around FY21, subsequently achieved cyclical highs simultaneously during the FY22–FY23 phase, and then retreated in 9M24 while still maintaining the same directional change. Overall, the red line deviates further above or below the black line in most years, and the gap is more pronounced in high-growth years.
+
+[Core Insights]
+Core Conclusion: CIFC growth is highly synchronized with industry growth but exhibits greater intensity.
+
+Business Implications:
+- CIFC performance closely tracks overall industry cyclical changes.
+- CIFC is more sensitive to industry expansion during upturns.
+- Highly correlated with the industry, demonstrating limited independence.
+
+Risk Focus:
+- Historically, when industry growth is $\le$ 0%, CIFC also falls to low levels, potentially amplifying the downside impact.
+- When industry growth is $\ge$ 30% and CIFC significantly exceeds it, subsequent corrections may be more severe.

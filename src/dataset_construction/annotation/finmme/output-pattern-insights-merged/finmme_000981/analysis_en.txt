@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Vertical Bar Chart (Single Series, Red)
+- Title: No explicit main title observed
+- X-axis: Categories are FY19, FY20, FY21, FY22, FY23, FY24F, FY25F, FY26E
+- Y-axis: Value axis, unit INR Mn, range approximately 10.0 to 18.0, scale interval approximately 1.0
+- Legend: Single series label "Average revenue per store p.a. (INR Mn)"
+
+[Data Relationships]
+- Values for each period: FY19≈14.5; FY20≈16.7; FY21≈15.9; FY22≈15.6; FY23≈13.8; FY24F≈13.6; FY25F≈14.4; FY26E≈15.0
+- Highest: FY20≈16.7; Lowest: FY24F≈13.6; High-low difference≈3.1
+- Difference between initial period FY19 and final period FY26E≈+0.5
+- FY20 is higher than FY19 by≈2.2
+- Difference between FY21 and FY22≈0.3
+- Difference between FY23 and FY24F≈0.2
+- FY25F is higher than FY24F by≈0.8
+- FY26E is higher than FY25F by≈0.6
+- FY21 is higher than FY23 by≈2.1
+
+[Pattern Characteristics]
+The bar height forms a single peak in FY20, after which it declines significantly, then gradually recovers during the FY25F and FY26E stages but does not reach the previous high point. The overall values fluctuate within a relatively narrow range, with no extreme outliers, showing a structure of initial rise, subsequent decline, and then moderate recovery.
+
+[Core Insights]
+Core Conclusion: The peak annual revenue per store has passed; the future outlook is one of moderate recovery.
+
+Business Implications:
+- Profitability declined after reaching a superior level in the early period.
+- Recent store revenue generation efficiency is under pressure, weakening overall profit elasticity.
+- Although there is improvement in the forecast period, it is difficult to restore the historical peak in the short term.
+
+Risk Concerns:
+- If it consistently falls below INR 14 Mn, it may be difficult to cover fixed costs and could compress profit margins.
+- Failure to achieve the FY26E target of approximately INR 15 Mn may affect valuation and expansion pace.

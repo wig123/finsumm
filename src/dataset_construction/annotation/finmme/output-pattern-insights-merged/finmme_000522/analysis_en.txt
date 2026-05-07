@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Infographic/Columnar Card Display
+- Title: eClerx Digital
+- Structure: Four-column sections, each containing an icon, section title, brief description, and itemized list.
+- Section Titles: Data Management; Analytics & Insights; Digital Marketing Ops; Creative Services
+- Axes: None; Legend: None
+
+[Data Relationships]
+- Number of Sections: 4 (arranged by column)
+- Number of Icons: 4 (1 per column)
+- Number of Descriptive Paragraphs per Column: 4 (1 per column)
+- Number of Items: Data Management 5 items; Analytics & Insights 5 items; Digital Marketing Ops 6 items; Creative Services 6 items; Total 22 items
+- Item Proportion: Data Management 22.7%; Analytics & Insights 22.7%; Digital Marketing Ops 27.3%; Creative Services 27.3%
+
+[Pattern Characteristics]
+- The chart utilizes an equally wide four-column layout, with all sections maintaining consistency in layout, structure, and information hierarchy, differentiated only by icon and title color.
+- The number of items in each column varies slightly, with the latter two columns having slightly more items, presenting an overall distribution structure where content is similar but weighting is slightly skewed.
+- The text consists of a general description followed by detailed sub-items. Information density gradually increases from top to bottom, with no obvious abrupt or isolated single items.
+
+[Core Insights]
+Core Conclusion: The service structure covers the complete digital chain, from data foundation to marketing execution.
+
+Business Implications:
+- Demonstrates a continuous capability structure spanning from data foundation to application and content.
+- Investment is present in both middle/back-office and front-end marketing capabilities, resulting in a relatively balanced structure.
+- The higher number of marketing operations and creative items indicates a focus on the delivery side.
+
+Risk Concerns:
+- If the latter two columns consistently maintain an item proportion of ≥27.3%, functional resources may concentrate on the marketing and creative sides, potentially weakening investment in the data foundation.
+- If the proportion of items in any of the first two columns persistently remains ≤22.7%, it may limit the depth of analytical support for downstream services.

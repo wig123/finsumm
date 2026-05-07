@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Multi-series Line Chart
+- Title: Core inflation (% m/m, saar, 3mma)
+- X-axis: 2017—2023 (Annual scale)
+- Y-axis: -2.5 to 12.5 (Interval of approximately 2.5), Unit: %
+- Reference Line: 0%
+- Legend: US (Dark Blue), Eurozone (Dark Green), Brazil (Light Green), Poland (Light Blue)
+
+[Data Relationships]
+- 2017 Starting Point: US≈1%, Eurozone≈1%, Brazil≈4%, Poland≈0%.
+- Peak Value (Full Period): Brazil≈12% (2022), Poland≈12% (2022), US≈7.5% (2021), Eurozone≈5% (2022).
+- Trough Value (Full Period): US≈-2% (2020), Poland≈-2% (2020), Eurozone≈-1% (2020), Brazil≈0% (2019/2020).
+- 2023 Value: US≈3%, Eurozone≈4%, Brazil≈3%, Poland≈4.5%.
+- Max-Min Difference (Range): Brazil≈12%, Poland≈14%, US≈9.5%, Eurozone≈6%.
+
+[Pattern Characteristics]
+The four curves were relatively close in value between 2017 and 2019, fluctuating narrowly around 0–4%. Around 2020, all simultaneously showed a significant downward deviation and briefly entered negative territory. Subsequently, all four economies reached their respective peaks in 2021–2022. The peaks for Brazil and Poland were significantly higher than those for the US and the Eurozone, and their overall volatility was greater. After 2022, all series retreated from their highs, converging near 3–4.5% by 2023, though Poland remains slightly above the other economies.
+
+[Core Insights]
+Core Conclusion: Core inflation across the four economies experienced a synchronous shock, followed by divergence, and then re-convergence.
+
+Business Implications:
+- Under global shocks, the price environment exhibits clear synchronization characteristics.
+- Price levels in Brazil and Poland are more sensitive to shocks and undergo more drastic adjustments.
+- The convergence in 2023 provides a basis for cross-regional comparison and unified strategies.
+
+Risk Focus:
+- If any economy approaches or exceeds 10% again, it may trigger stronger tightening measures and growth pressure.
+- If core inflation falls below 0% again, it could lead to a sharp rise in real interest rates and suppress demand.

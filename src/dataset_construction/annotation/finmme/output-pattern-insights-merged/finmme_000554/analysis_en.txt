@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Line chart; Legend is the red line "CET1 Capital Ratio (%)".
+- X-axis: Quarterly labels, range 1Q16 to 3Q24.
+- Y-axis: Percentage scale, range 0–16, interval approximately 2 percentage points.
+- Single series, no data labels or auxiliary lines; no independent title (the legend serves as the series description).
+
+[Data Relationships]
+- Approximately 11.0% in 1Q16.
+- Approximately 12.0% in 3Q17.
+- Approximately 12.6% in 3Q20.
+- Approximately 13.6% in 3Q21; approximately 11.5% in 1Q22, the difference between the two points is approximately 2.1 pct.
+- Approximately 13.8% in 3Q24, a difference of approximately 2.8 pct compared to 1Q16.
+- All-period high approximately 13.8% (3Q24), low approximately 11.0% (1Q16), range approximately 2.8 pct.
+
+[Pattern Characteristics]
+- Values throughout the period fluctuate narrowly around a central axis, presenting an overall relatively smooth single-series structure, without sustained large-scale single-sided movement.
+- During the period, there are multiple small upward and downward waves, mainly within approximately 2 percentage points. A relatively prominent brief downward deviation occurred around 1Q22, after which it returned above the previous range and reached the highest point of the entire period at the end.
+- The series is continuous on the time axis, with no gaps or obvious breakpoints, and no multi-peak or multi-cluster structure observed.
+
+[Core Insights]
+Core Conclusion: The CET1 capital adequacy level is generally stable and has shown an upward trend.
+
+Business Implications:
+- Overall capital buffer is strengthening, and resilience to shocks has improved.
+- Rapid recovery after a brief decline reflects strong capital management and adjustment capability.
+- The current level is close to historical highs, providing some room for subsequent asset expansion.
+
+Risk Concerns:
+- If the CET1 ratio approaches 11% again, it may compress business growth space.
+- If there is a rapid short-term decline exceeding 2 pct from above 13%, it may trigger regulatory and rating pressure.

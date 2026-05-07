@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Line chart, including range band (shaded area).
+- Title: Not displayed.
+- X-axis: Week number, range 1–53.
+- Y-axis: Percentage, range 0%–100%, scaled in 10% increments.
+- Legend: 5yr range (light green shade), 5yr average (grey dashed line), 2023 (blue solid line), 2024 (red line chart, diamond markers).
+
+[Data Relationships]
+- 2023: Week 1 approximately 82%; Weeks 12–14 approximately 56% as the low point; Weeks 45–47 approximately 100% as the high point; Week 53 approximately 88%; high-low difference approximately 44 percentage points.
+- 5-Year Average: Week 1 approximately 74%; Week 13 approximately 41% low point; Week 45 approximately 92% high point; Week 53 approximately 78%; high-low difference approximately 51 percentage points.
+- 2024 (Weeks 1–4 plotted): Approximately 80%, 78%, 76%, 75%.
+- 5-Year Range Band Example: Week 13 lower bound approximately 26%, upper bound approximately 55%; Week 45 lower bound approximately 76%, upper bound approximately 95%.
+
+[Pattern Characteristics]
+- Both the 5-year average and the 2023 curve exhibit a single trough and single peak annual pattern, with the low point occurring after the start of the year and the curve gradually recovering to the year-end high.
+- The 2023 curve generally adheres closely to the upper boundary of the 5-year average, operating within the range band but skewed towards the upper limit.
+- The first 4 weeks of 2024 data disclosed are situated in the upper-middle section of the 5-year range band, slightly above the 5-year average, and generally follow the trajectory of the corresponding period in 2023.
+
+[Core Insights]
+Core Conclusion: The current annual starting level is skewed towards the historically higher range.
+
+Business Implications:
+- Relative to typical years, the current starting condition is more abundant/robust.
+- Close to the same period last year, short-term planning can reference previous operational rhythms.
+- If the upper limit position is maintained subsequently, the full-year volatility resilience will be stronger.
+
+Risk Concerns:
+- If the level subsequently falls below the 5-year average (below approximately 70%), subsequent weekly targets may need to be revised downward.
+- If the level approaches the 5-year lower bound (below approximately 55%), it may trigger resource constraints and necessitate contingency planning.

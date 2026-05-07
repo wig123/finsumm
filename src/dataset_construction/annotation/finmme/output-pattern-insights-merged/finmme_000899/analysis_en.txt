@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Line chart (red line represents "Banks"), black horizontal line represents "LTA."
+- Title: Not displayed.
+- X-axis: Date, ranging from 6/30/2006 to 6/30/2023, labeled annually and displayed diagonally.
+- Y-axis: Numerical scale 0 to 14, with major ticks at 2, 4, 6, 8, 10, 12, 14.
+- Legend: Annotated in the bottom left corner with "Banks" (red line) and "LTA" (black line).
+
+[Data Relationships]
+- Annotated Values: Approximately 9.3 near 2007; 12.3 near 2018; 10.7 and 8.6 annotated on the right side of 2023 (the terminal value is 8.6).
+- LTA: A horizontal line, located at approximately 7.5 (between the 7 and 8 ticks).
+- The terminal value of 8.6 is approximately 1.1 higher than the LTA.
+- The 2018 annotated value of 12.3 is approximately 4.8 higher than the LTA.
+- The 2007 annotated value of 9.3 is approximately 1.8 higher than the LTA.
+- The 2023 annotated value of 10.7 is approximately 3.2 higher than the LTA.
+- The 2018 annotated value of 12.3 is 3.7 higher than the 2023 terminal value of 8.6.
+- The 2023 annotated value of 10.7 is 2.1 higher than the 2023 terminal value of 8.6.
+
+[Pattern Characteristics]
+The red line fluctuates above and below the black horizontal line throughout the period, spending a longer duration below it in the early stages, but mostly remaining above it thereafter. Multiple distinct peaks and troughs appeared from the middle to the later stages, with the highest point globally occurring near 2018, followed by a relatively deep decline around 2022. The terminal value is lower than the annotated value earlier in the same year, but still remains above the horizontal line.
+
+[Core Insights]
+Core Conclusion: Although Banks is currently above the LTA, it has significantly declined from its historical high.
+
+Business Implications:
+- In the long term, the overall position relative to the LTA is in a relatively high range.
+- The weakening trend after 2018 has eroded the advantage gained during the peak period.
+- Volatility has increased internally over the past year, leading to decreased short-term stability.
+
+Risk Focus:
+- If the value approaches or falls below 7.5 again, it may reflect a significant decline in relative performance.
+- If future peaks struggle to surpass 12.3, it may signify difficulty in recovering to the historical best level.

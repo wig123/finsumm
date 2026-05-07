@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Multi-series Line Chart
+- Title: Immigration Enforcement Actions
+- X-axis: Year, approximately 1892–2020 (Scale examples include: 1892, 1910, 1940, 1976, 2000, 2018, 2020)
+- Y-axis: Unit in Millions, Range 0–2 (Scale 0, 0.5, 1, 1.5, 2)
+- Legend: Removals (Solid Green Line), Administrative Returns (Solid Gray Line), Enforcement Returns (Dashed Orange Line), Expulsions (Solid Blue Line, Public health ground since Covid)
+
+[Data Relationships]
+- Enforcement Returns peaked around 2000 at approximately 1.6–1.7 million; around 1954, approximately 1.0 million.
+- Expulsions value around 2020 was approximately 1.1 million.
+- Removals peaked at approximately 0.45 million (2012–2014); 0.15 million in 1998; 0.2 million in 2020.
+- Administrative Returns were approximately 0.3 million around 2000; approximately 0.05–0.1 million in 2018.
+- Comparative Analysis: Enforcement Returns were higher than other series around 2000; Expulsions were higher than Removals and Administrative Returns around 2020.
+
+[Pattern Characteristics]
+- Each series exhibits a phased distribution over the long time axis: the early period is generally near zero, and multiple significant high points gradually emerge in the middle-to-later stages, taking turns in dominance.
+- Enforcement Returns formed multiple large peak ranges in the middle-to-later stages, while Removals formed a relatively moderate single-peak structure in a later period; the magnitude of Administrative Returns remained relatively small and contracted in the later stage.
+- Expulsions suddenly appeared at the end of the series and rapidly escalated, surpassing other series in a short period, forming a distinct terminal spike.
+
+[Core Insights]
+Core Conclusion: Different enforcement methods alternate as the primary policy tools across different periods.
+
+Business Implications:
+- Enforcement Returns dominated the medium term, reflecting a phased emphasis on enforcement methods.
+- The proportion of Removals increased in the later period, indicating the growing importance of procedural processing.
+- The surge in Expulsions post-pandemic indicates increased reliance on measures based on public health grounds.
+
+Risk Focus:
+- When a single method exceeds 1.5 million, it may lead to procedural overload and strained resource allocation.
+- Expulsions maintained above approximately 1.0 million may constrain the utilization space for other procedural channels.

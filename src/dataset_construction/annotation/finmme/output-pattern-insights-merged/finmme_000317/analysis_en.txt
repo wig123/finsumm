@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Combination Chart (Red Bar Chart: API; Black Dashed Line: 4-Period Moving Average)
+- Title: Not displayed
+- X-axis: Quarter, 1QFY16 to 3QFY24
+- Y-axis: 0–6000, major scale interval approximately 1000, unit not specified
+- Legend: API; 4 per. Mov. Avg. (API)
+
+[Data Relationships]
+- Initial Period 1QFY16: API approximately 2100
+- Lowest Value: 4QFY16 approximately 1200
+- Highest Value: 1QFY21 approximately 5100; approximately 3900 higher than the lowest value
+- Final Period 3QFY24: approximately 2900; approximately 800 higher than the initial period
+- 1QFY22 approximately 4150; 4QFY22 approximately 2550; difference approximately 1600
+- 1QFY23 approximately 3700; 4QFY23 approximately 3450; difference approximately 250
+- 1QFY24 approximately 2950; 2QFY24 approximately 3300; 3QFY24 approximately 2850
+- Moving Average: Initial period approximately 1600; Peak approximately 3700–3800 (2QFY21–3QFY21); Final period approximately 3100
+
+[Pattern Characteristics]
+- The bar values generally increased gradually from a lower range between early FY16 and early FY20, interspersed with distinct single-quarter lows and several local highs. A prominent peak emerged in FY21, after which quarterly data oscillated around a higher level, with the magnitude of short-term fluctuations narrowing in phases.
+- The moving average curve trended gently upward from the initial period, reached its peak in mid-FY21, then slowly retreated and remained within a narrower range, exhibiting a single dominant structure of initial rise followed by stabilization.
+- Individual quarterly bar values show prominent highs or lows relative to the adjacent quarters, creating outliers compared to neighboring points and the corresponding moving average values.
+
+[Core Insights]
+Core Conclusion: After a significant increase, the API entered a high-level consolidation phase, with a slight recent decline.
+
+Business Implications:
+- The overall level is significantly higher than the FY16–FY19 phase.
+- Entering a relatively stable range after FY21 is favorable for medium-term planning.
+- Recent slight downward movement requires assessment of its sustainability.
+
+Risk Focus:
+- If the API falls below 3000 for several consecutive quarters and the moving average simultaneously breaks down, it will weaken the achievability of medium-to-long-term targets.
+- If a single quarter again approaches or exceeds 5000, it may put pressure on resource allocation and execution capacity.

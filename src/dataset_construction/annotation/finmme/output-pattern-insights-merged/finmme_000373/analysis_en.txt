@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Vertical Bar Chart (Single Series).
+- Title: Change vs. 2017-18 (%).
+- X-axis: Quarterly categories, grouped by year (2021: Q1–Q4; 2022: Q1–Q4; 2023: Q1–Q3).
+- Y-axis: Percentage scale, ranging approximately from 0% to -120%, including horizontal grid lines.
+- Data Labels: Corresponding percentages (negative values) labeled at the top of each bar.
+- Legend: None.
+
+[Data Relationships]
+- 2021: Q1 -96.0%; Q2 -95.4%; Q3 -83.1%; Q4 -62.9%.
+- 2022: Q1 -46.7%; Q2 -15.5%; Q3 -12.2%; Q4 -8.6%.
+- 2023: Q1 -8.0%; Q2 -3.4%; Q3 -2.9%.
+- Global Minimum: 2021Q1 -96.0%; Maximum (closest to 0): 2023Q3 -2.9%; Range difference of 93.1 percentage points.
+- Intra-year Change: 2021 start-to-end difference of 33.1 percentage points; 2022 difference of 38.1 percentage points; 2023 (Q1 to Q3) difference of 5.1 percentage points.
+- Example of Sequential Difference: 2021Q4 difference of 20.2 percentage points compared to Q3; 2022Q2 difference of 31.2 percentage points compared to Q1; 2023Q2 difference of 4.6 percentage points compared to Q1.
+
+[Pattern Characteristics]
+The overall values show a continuous narrowing process over time, moving from extreme negative values toward values close to zero, with no intermediate reversal or rebound. Differences between quarters in 2021 were significant, showing marked single-period change; 2022 still saw substantial narrowing, but the rate weakened quarter-by-quarter. Since entering 2023, the gap between quarterly values has significantly decreased, the overall trend has flattened, and no new extreme values or sharp deviations have occurred.
+
+[Core Insights]
+Core Conclusion: The negative deviation compared to 2017-18 stabilized after rapid narrowing.
+
+Business Implications:
+- The degree of deviation relative to the base year has significantly diminished.
+- The magnitude of adjustment during the 2021 to 2022 phase was substantial, with a concentrated pace of improvement.
+- Marginal improvement has been limited since 2023, and the potential for further gains is beginning to narrow.
+
+Risk Focus:
+- If the value remains consistently below approximately -5%, a full return to the 2017-18 level may be challenging.
+- If the value approaches the -50% range again, it would signify a sharp increase in the gap relative to the base year.

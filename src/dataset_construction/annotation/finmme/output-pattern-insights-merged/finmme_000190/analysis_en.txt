@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Time series line chart, containing four curves.
+- Y-axis: Swap spread (bp), range -60 to 100, including the zero axis.
+- X-axis: 2017—2024; featuring multiple vertical event annotations (Final hike, Fed 25bp cut, COVID-19, Fed hawkish tilt, Russia invades Ukraine, ECB starts hiking, SVB).
+- Legend: 2Y EUR (Orange), 10Y EUR (Black), 2Y USD (Gray), 10Y USD (Red); values annotated on the right side are 17, 12, -12, -35.
+
+[Data Relationships]
+- End-of-period values: 10Y EUR=17bp; 2Y EUR=12bp; 2Y USD=-12bp; 10Y USD=-35bp.
+- EUR/USD spread for the same maturity: 10Y=52bp; 2Y=24bp.
+- Intra-currency term spread: EUR=5bp; USD=23bp (by absolute value).
+- Relationship to the zero axis: EUR is positive at the end of the period, USD is negative.
+
+[Pattern Characteristics]
+- Clear cross-currency stratification: Both EUR curves remain above the zero axis long-term, while both USD curves remain below; within the same currency, the two maturities move in the same direction, with a smaller EUR term spread and a larger USD term spread.
+- Short-term spikes and increased volatility occurred near the vertical lines marking COVID-19, Russia-Ukraine conflict, ECB rate hikes, and SVB; the EUR curves were in a relatively high region from 2022 to the first half of 2023 before gradually converging.
+- At the end of the period, the distance between the four curves narrowed, but the structure of EUR remaining higher than USD, and the USD long end remaining lower than the short end, persists.
+
+[Core Insights]
+Core Conclusion: EUR is positive while USD is negative, indicating a significant cross-currency spread.
+
+Business Implications:
+- Reflects the difference in risk premium between the two markets.
+- Impacts cross-currency hedging and allocation decisions.
+- Stronger term structure constraints on the USD side.
+
+Risk Focus:
+- 10Y EUR/USD spread ≤ 0bp, putting pressure on cross-market spread strategies.
+- 10Y USD ≤ -50bp, magnifying losses on USD duration positions.

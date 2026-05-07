@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Mixed chart of bar chart and line graph
+- Legend/Title: Revenue and y-y growth
+- X-axis: Time periods identified by quarter, from FY22 3Q to FY24 3Q
+- Left Y-axis: Numerical scale 0—400, increment of 50 per tick
+- Right Y-axis: Percentage scale 0%—160%, increment of 20% per tick
+- Annotation: Each quarter is marked with the growth percentage
+- Colors: Red bars represent Revenue, black line represents YoY growth
+
+[Data Relationships]
+- Initial quarter (FY22 3Q) data: Revenue is approximately 200, growth rate 47.0%
+- Highest growth point (FY23 2Q): Growth rate is 137.1%
+- Lowest growth point (FY24 1Q): Growth rate is 14.7%
+- Final quarter (FY24 3Q) data: Revenue exceeds 300, growth rate 23.1%
+- Growth trend: The growth rate sharply increased in early FY23, peaked in FY23 2Q, gradually declined thereafter, and slightly rebounded in FY24 3Q
+- Revenue change: Generally shows an upward trend, reaching the highest point in FY24 3Q
+
+[Pattern Characteristics]
+- Revenue bars generally show a gradual increase, with minor fluctuations between quarters.
+- The YoY curve first rises significantly, forms a peak in the middle section, continues to decline, and shows a slight recovery at the end.
+- Structural misalignment between the two: Scale is more stable, while growth rate fluctuation is significant, with inflection points concentrated in the middle section and early FY24.
+
+[Core Insights]
+Core Conclusion: Scale remains high, and the growth rate shifts from extremely high to conventional.
+
+Business Implications:
+- Current focus is primarily on maintaining scale, with limited room for acceleration.
+- Resource allocation and target setting emphasize scale retention.
+- Growth drivers rely more on volume; marginal improvements are yet to be proven.
+
+Risk Concerns:
+- When the growth rate is ≤15%, quarterly incremental revenue may contract.
+- If Revenue falls below 300, the scale target may be missed.

@@ -1,0 +1,40 @@
+[Chart Components]
+- Type: Bar Chart
+- Title: Action - ROCE (%)
+- Axes:
+  - Horizontal Axis: Year (2018 to 2023)
+  - Vertical Axis: Percentage (0% to 70%)
+- Legend: No separate legend
+
+[Data Relationships]
+- Key Values and Changes:
+  - In 2018, ROCE was 21%
+  - Increased to 25% in 2019
+  - Decreased to 24% in 2020
+  - Increased to 35% in 2021
+  - Increased to 49% in 2022
+  - Reached 63% in 2023
+
+- Extremum Comparison:
+  - The highest value was 63% in 2023
+  - The lowest value was 21% in 2018
+
+- Significant Trend:
+  - ROCE shows an overall upward trend, with particularly significant increases between 2021 and 2023.
+
+[Pattern Characteristics]
+- Single-series bar chart, showing an overall year-on-year increase; changes were smaller in the early period, with more pronounced growth later on.
+- A slight dip occurred in 2020, followed by a stepwise increase after 2021.
+- 2023 is the peak, 2018 is the trough; the structure is non-uniformly increasing, with no obvious cycle.
+
+[Core Insights]
+Core Conclusion: ROCE is at a high level, indicating outstanding capital efficiency performance.
+
+Business Implications:
+- Reflects advantages in profitability and capital utilization efficiency.
+- Forms a positive signal for capital allocation and expansion decisions.
+- Strengthens shareholder return expectations and capital attractiveness.
+
+Risk Focus:
+- ROCE < 35%: Insufficient return on investment, restricted reinvestment.
+- ROCE ≤ 24%: Returning to 2020 levels, expansion plans would be hindered.

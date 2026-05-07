@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Dual-axis line chart
+- Legend: Red "Price," Gray "Rel Taiwan TAIEX Index"
+- X-axis: Time, Mar 23 to Feb 24 (monthly labeled)
+- Left Y-axis: Price (TWD), approximately 150–550
+- Right Y-axis: Relative Index, scale 75–250
+
+[Data Relationships]
+- Price initial period ≈ 175 TWD (Mar 23), final period ≈ 520 TWD (Feb 24), difference ≈ 345.
+- Price lowest ≈ 150 (Apr–May 23), highest ≈ 525 (Feb 24), range ≈ 375.
+- Index initial period ≈ 100 (Mar 23), final period ≈ 225 (Feb 24), difference ≈ 125.
+- Index lowest ≈ 100 (Mar 23), highest ≈ 240–250 (Aug–Sep 23), range ≈ 140–150.
+- Simultaneous points in Aug–Sep 2023: Price ≈ 450–500 TWD; Index ≈ 225–240.
+
+[Pattern Characteristics]
+- Price was at a relatively low level in Mar–May 23 with a brief pullback, followed by a significant step-like ascent during Jun–Aug 23. It then consolidated horizontally within a higher range, and the upper boundary of the range was raised again in Jan–Feb 24.
+- The Index generally trended upward starting Mar 23, forming a cluster of highs around Aug–Sep 23, then slowly pulled back and remained in the mid-to-high range without setting new highs.
+- The two curves exhibited generally synchronous trends during the Jun–Oct 23 period. Subsequently, the magnitude of Price's upward momentum in Jan–Feb 24 was significantly stronger than the Index, resulting in a structural characteristic where the gap between the two widened.
+
+[Core Insights]
+Core Conclusion: Individual stock performance significantly outperformed the reference index, with alpha concentrated in the later period.
+
+Business Implications:
+- The advantage relative to the index was primarily reflected in the Jan–Feb 24 phase.
+- This security's contribution to overall portfolio returns is likely high.
+- The index pullback while the individual stock remained firm reflects a degree of independence.
+
+Risk Concerns:
+- If Price pulls back more than 20% from 520 TWD (falling below 416), it may erode previously accumulated gains.
+- If the index falls back near 100 while Price remains high, the divergence in valuation from the benchmark may amplify volatility losses.

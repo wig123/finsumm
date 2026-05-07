@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Line chart (red line, circular markers)
+- Title: No main title observed
+- X-axis: Quarterly timeline, 1Q19 to 4Q23, marked quarterly
+- Y-axis: Percentage scale, range approximately 2.5%–6.5%, increments of 0.5%
+- Legend: overall take rate (revenue/loan origination)
+
+[Data Relationships]
+- Initial period 1Q19 ≈ 4.9%; Final period 4Q23 ≈ 3.75–3.8%.
+- Peak value for the entire period: 2Q20 ≈ 6.1–6.2%; Trough value for the entire period: 3Q23 ≈ 3.1%.
+- Peak-to-trough difference ≈ 3.0 percentage points; Change from initial period to final period ≈ -1.1 percentage points.
+- 1Q20 ≈ 4.5%, 2Q20 increased by ≈ 1.6 percentage points compared to 1Q20.
+- 3Q20 ≈ 5.65%, 4Q20 ≈ 5.6%.
+- 2021 Quarters: 1Q ≈ 4.85%, 2Q ≈ 4.9%, 3Q ≈ 4.5%, 4Q ≈ 4.7%.
+- 2022 Quarters: 1Q ≈ 4.55%, 2Q ≈ 4.4%, 3Q ≈ 4.25%, 4Q ≈ 3.7%.
+- 2023 Quarters: 1Q ≈ 3.7%, 2Q ≈ 3.25%, 3Q ≈ 3.1%, 4Q ≈ 3.75%.
+
+[Pattern Characteristics]
+The overall trend shows a single-peak structure, characterized by a sharp short-term rise followed by a prolonged, gradual decline. A clear high point appeared around mid-2020, preceded by a prominent jump in the previous quarter. From 2021 to mid-2023, the trend was mostly a relatively smooth, stepwise descent. After forming the lowest point of the entire period in 3Q23, a slight rebound occurred in the final period.
+
+[Core Insights]
+Core Conclusion: The overall take rate has continuously declined since its mid-2020 high, showing a slight recent recovery.
+
+Business Implications:
+- A high monetization level was achieved in mid-2020.
+- Subsequently, the efficiency of converting revenue from loan origination volume weakened.
+- The slight recovery at the end of 2023 indicates that pricing/structural adjustments are beginning to show results.
+
+Risk Concerns:
+- If the take rate approaches 3.0% again, revenue elasticity will be significantly constrained.
+- If the rate cannot stabilize above 4.0%, profitability will become more sensitive to cost fluctuations.

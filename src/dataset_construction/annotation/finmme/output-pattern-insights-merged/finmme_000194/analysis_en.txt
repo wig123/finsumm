@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Single-series bar chart (red).
+- Legend: EBITDA margin change (bps).
+- Title: Not separately labeled.
+- X-axis: Quarterly categories, sequentially 3Q22, 4Q22, 1Q23, 2Q23, 3Q23, 4Q23, 1Q24, 2Q24, 3Q24.
+- Y-axis: Unit is bps, zero line indicated, positive scale up to 600; negative values are represented by downward bars.
+
+[Data Relationships]
+- Period values: 3Q22 -682; 4Q22 -186; 1Q23 109; 2Q23 58; 3Q23 -27; 4Q23 215; 1Q24 404; 2Q24 478; 3Q24 349.
+- Maximum value: 2Q24 478; Minimum value: 3Q22 -682; Range = 1,160.
+- Difference between initial period 3Q22 and final period 3Q24 = 349−(−682)=+1,031.
+- 2023 Total = 109+58−27+215=355; 2024 Total = 404+478+349=1,231; Difference between the two = 876.
+- Maximum sequential increase (QoQ increase): 3Q22→4Q22 +496; Maximum sequential decrease (QoQ decrease): 2Q24→3Q24 −129.
+
+[Pattern Characteristics]
+The sequence starts with significantly negative values, subsequently crosses the zero line, and is predominantly positive. The 2024 phase is generally in a higher range, with a slight retreat after the peak in 2Q24. Structurally, there is a transition from imbalance toward greater equilibrium, with only one small negative exception occurring in the middle.
+
+[Core Insights]
+Core Conclusion: The annual increment of the EBITDA margin has significantly increased.
+
+Business Implications:
+- The 2024 cumulative total is 1,231 bps, significantly higher than 2023.
+- Creates a positive boost for profitability metrics.
+- The full-year result has a higher proportion of contribution from the latter half of 2024.
+
+Risk Focus:
+- A single quarter below 0 bps, resulting in margin compression and dragging down the annual cumulative total.
+- A sequential (QoQ) decrease > 129 bps could lead to a significant clawback of previously achieved gains.

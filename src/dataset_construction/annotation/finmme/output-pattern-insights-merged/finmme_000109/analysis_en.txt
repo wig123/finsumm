@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Dual Line Chart with Background Area Plot
+- Title: None
+- Axes: Left scale for the "S&P 500" index (Range: 2500 to 5000), Right scale for the "10Y UST (%)" (Range: 0 to 5)
+- Legend: Red area represents "Risk-on/Risk-off," Blue-green area represents "Goldilocks/Reverse Goldilocks"
+
+[Data Relationships]
+- From 2018 to 2024, the "S&P 500" showed an overall upward trend, accelerating particularly after 2020, reaching nearly 5000 points.
+- The "10Y UST" interest rate has fluctuated significantly since 2018, rising sharply to nearly 5% after 2022.
+- The red background area corresponds to "Risk-on/Risk-off," marking periods of market risk volatility.
+- The blue-green background area represents the economic "Goldilocks/Reverse Goldilocks" period, closely related to corresponding phases of market and interest rate changes.
+- Key phases, such as the sharp market decline in early 2020 and the rapid interest rate increase in 2022, align with the changes in the background color phases.
+
+[Pattern Characteristics]
+- The S&P 500 curve generally shows a step-wise increase, with the slope steepening after 2020, featuring one deep retracement followed by a rapid recovery.
+- The 10Y UST curve initially fluctuated at low levels, showed a steep vertical rise around 2022, and subsequently operated within a high-level range.
+- The background color blocks alternate in multiple segments; the transition points generally align with the phase shifts of the two curves, with individual narrow bands corresponding to short-term sharp changes.
+
+[Core Insights]
+Core Conclusion: Phase transitions dominate the relationship between the index and interest rates, requiring scenario-based allocation.
+
+Business Implications:
+- Color blocks represent state partitioning, requiring periodic management.
+- The index has a high sensitivity to interest rate changes.
+- The right side is dominated by the blue-green period; strategies must be aligned accordingly.
+
+Risk Concerns:
+- 10Y UST≥5%: May trigger a phase transition, causing allocation deviation.
+- S&P 500<4000: May lead to amplified retracement and portfolio rotation pressure.

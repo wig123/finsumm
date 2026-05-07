@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Line chart
+- Title: Not displayed
+- X-axis: Fiscal years labeled as FY21, FY22, FY23, FY24F, FY25F, FY26F
+- Y-axis: Percentage scale, range -80.0% to 80.0%
+- Legend and Colors: Red Segmental PBT margin; Gray 99acres (real estate) (PBT); Black (Jeevansathi and Shiksha) (PBT); Light Orange Recruitment Solutions (PBT)
+
+[Data Relationships]
+- Segmental PBT margin (Red line): FY21=24.5%, FY22=29.3%, FY23=36.4%, FY24F=39.7%, FY25F=43.6%, FY26F=44.8%; FY21 to FY26F increased by 20.3 percentage points; FY23 to FY24F increased by 3.3 percentage points; FY24F to FY26F increased by 5.1 percentage points.
+- Recruitment Solutions (Light Orange): Located in the 50%—60% range across all periods, FY23 is close to 60%.
+- 99acres (Gray line): Below 0% from FY21—FY24F; FY25F is approximately 0%; FY26F is above 0%.
+- Jeevansathi & Shiksha (Black line): Below 0% and lower than the gray line from FY21—FY24F; FY25F is approximately 0%; FY26F is positive and higher than the gray line.
+
+[Pattern Characteristics]
+The Segmental PBT margin line shows a continuous upward trend, with the slope slightly moderating in the later period. Recruitment Solutions generally remains in a high range, with only slight fluctuations in the curve. The 99acres and Jeevansathi & Shiksha lines are initially in a deeply negative region, then gradually approach the zero axis and turn positive in the final period. The black line crosses the gray line and takes the lead in the later segment.
+
+[Core Insights]
+Core Conclusion: The overall profitability structure is shifting from single support to multi-business contribution.
+
+Business Implications:
+- Overall profitability is steadily strengthening
+- Recruitment Solutions is the current core source of profit
+- 99acres and J&S are expected to diversify profit concentration after achieving turnaround
+
+Risk Focus:
+- If the Segmental PBT margin falls below 30%, overall profit elasticity will significantly weaken
+- If 99acres or J&S PBT remains below 0% after FY25F, losses may once again drag down the overall profit margin

@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Dual-Y-Axis Time Series Line Chart
+- Legend: Red line represents Price; Gray line represents Rel Jakarta Stock Exchange Composite Index
+- X-axis: Time range from Mar 23 to Feb 24, marked with monthly increments
+- Left Y-axis: Currency unit (IDR), scale range approximately 7000–9500
+- Right Y-axis: Index range approximately 75–105
+- No explicit title
+
+[Data Relationships]
+- The initial value of the red line is approximately 9000 IDR (Mar 23), and the final value is approximately 7150 IDR (Feb 24)
+- The maximum value of the red line is approximately 9500 IDR, the minimum value is approximately 7100 IDR, and the range (high-low difference) is approximately 2400 IDR
+- The initial value of the gray line is approximately 100 (Mar 23, right axis), and the final value is approximately 75 (Feb 24)
+- The maximum value of the gray line is approximately 102, the minimum value is approximately 75, and the range (high-low difference) is approximately 27
+- Mid-period (approx. Aug 23) red line value is approximately 8700 IDR; gray line value is approximately 92 (right axis)
+
+[Pattern Characteristics]
+- The two series generally move in the same direction; the red line and the gray line mostly track closely, with occasional slight deviations.
+- The middle section shows brief consolidation, while the final section exhibits a rapid, step-like decline, reaching the low point of the range.
+- The structure is predominantly directional, with continuous but irregular volatility; the local amplitude of the gray line is more pronounced in the final section.
+
+[Core Insights]
+Core Conclusion: High correlation with the Jakarta Composite Index, lacking outperformance
+
+Business Implications:
+- Individual performance is market-driven
+- Difficulty in achieving excess returns increases
+- Positions are more cautious during the year-end phase
+
+Risk Focus:
+- Price ≤ 7200 IDR, losses widen
+- Rel Index ≤ 80, relative returns turn negative

@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Single-series filled area chart (red)
+- Title: Commercial paper o/s (INR bn)
+- X-axis: Monthly time scale, from Jun-22 to Jan-24
+- Y-axis: Value (INR billion), scale approximately from 500 to 5,000, with intervals of approximately 500
+- Legend: Red square at the top, label consistent with the title
+
+[Data Relationships]
+- Initial period (Jun-22) approximately 3,800–3,900; Final period (Jan-24) approximately 3,700–3,800
+- The highest point on the chart is around Aug-23, approximately 4,500; the lowest point is around Mar-23, approximately 3,550–3,600; the difference between high and low is approximately 900–950
+- Oct-23 approximately 4,200; Dec-23 approximately 3,900; difference approximately 300
+- Apr-23 approximately 4,200; Jul-23 approximately 4,450; difference approximately 250
+- Nov-23 approximately 4,150; Jan-23 approximately 3,650; difference approximately 500
+- Sep-22 and Nov-22 are both approximately 4,100; difference ≈ 0
+
+[Pattern Characteristics]
+- Overall values fluctuate slightly within a relatively narrow range. Initial and final period levels are similar, showing no unidirectional trend.
+- A relative low occurred around Mar-23, followed by a gradual increase in the middle-to-later period, reaching the segment high in Aug-23, and then slowly receding.
+- Short-term fluctuations of tens of billions exist between local months, but there are no sudden sharp spikes or discontinuities.
+
+[Core Insights]
+Core Conclusion: The outstanding balance generally fluctuates within a relatively stable range.
+
+Business Implications:
+- The overall utilization level of short-term financing instruments is relatively stable.
+- The reliance on this instrument slightly increased during the intermediate phase.
+- A slight pullback occurred in the later period, indicating potential minor adjustments in the financing structure.
+
+Risk Concerns:
+- If the scale consistently exceeds 4,500, it may increase reliance on a single type of financing instrument.
+- If it falls below 3,500, it may signal a contraction in short-term funding sources; refinancing arrangements should be monitored.

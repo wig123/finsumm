@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Time series line chart, dual axis.
+- Legend: Red "Price," Gray "Rel NIFTY50."
+- X-axis: Time, labeled monthly from "Feb 23" to "Jan 24."
+- Left Y-axis: Unit (INR), scale approximately 3500, 4000, 4500, 5000, 5500, 6000, 6500, 7000, 7500.
+- Right Y-axis: Relative scale, labeled 100, 110, 120, 130, 140, 150, 160, 165.
+- Title: No explicit title observed.
+
+[Data Relationships]
+- Initial Period (Feb23): Price≈3,800; Rel NIFTY50≈100.
+- Period Low: Price≈3,600 (Mar23).
+- Mid-year (Jun23): Price≈4,800; Rel≈125.
+- Dec23: Price≈6,300; Rel≈150.
+- Final Period (Jan24): Price≈7,300; Rel≈165.
+- Price Change: +3,500 (7,300-3,800); High-Low Difference≈3,700 (7,300-3,600).
+- Rel Change: +65 (165-100).
+- Ratio: Final Price is approximately 1.92 times the initial price.
+
+[Pattern Characteristics]
+Both curves generally show continuous advancement, characterized by step-like increases followed by brief consolidation phases. The gray line and the red line are broadly synchronized, though the gap between them slightly widens in the later period. A slight pullback and horizontal trading range occurred in July–August, with notable jumps observed in October and December.
+
+[Core Insights]
+Core Conclusion: Relative strength is in a dominant range, accumulating excess returns.
+
+Business Implications:
+- Performance surpasses the benchmark, enhancing profit contribution.
+- Provides justification for increasing allocation weight.
+- Returns rely more heavily on individual security relative strength.
+
+Risk Focus:
+- If Price falls below 6000, excess returns may contract.
+- If Rel NIFTY50 falls below 140, the benchmark advantage may disappear.

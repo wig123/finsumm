@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Multi-series Line Chart (Time Series)
+- Title: Not displayed
+- X-axis: Time, scale from Feb-19 to Feb-24, including Feb/Aug annotations.
+- Y-axis: Value (INR), range approximately 100—800, interval approximately 100.
+- Legend: Price (INR) Red line; 20x Light gray; 36x Black; 52x Light orange dashed line; 67x Black dotted line; 83x Light orange solid line.
+
+[Data Relationships]
+- Feb-19: Price≈300; 20x≈120; 36x≈230; 52x≈330; 67x≈430; 83x≈520
+- Price Extremes: Lowest≈200 (Mid-2020); Highest≈440 (Feb-21); Difference≈240
+- Feb-21: Price≈410; 83x≈400; 67x≈320; 52x≈240; 36x≈170; 20x≈100
+- Feb-24: Price≈340; 36x≈340; 20x≈190; 52x≈490; 67x≈640; 83x≈790; Price difference from start to end of period≈+40
+
+[Pattern Characteristics]
+- Price exhibits multiple fluctuations throughout the period, with a clear brief dip in the middle, followed by oscillation around the median level, ending slightly higher than the starting point.
+- The multiplier curves generally show a step-like upward trend from left to right, with 83x and 67x consistently remaining at high levels, and the distance between them and Price gradually widening in the latter half.
+- The 36x curve gradually approaches and intersects with Price near the end of the period, while 20x remains consistently in the lower range, with a relatively stable gap relative to Price.
+
+[Core Insights]
+Core Conclusion: The current price is relatively low compared to high multiplier levels, indicating compressed valuation space.
+
+Business Implications:
+- Price has not expanded synchronously with high multipliers, limiting valuation upside.
+- The difficulty of realizing the premium under high multiplier assumptions is increasing.
+- The vicinity of 36x may become the focal point for market pricing.
+
+Risk Concerns:
+- If Price remains persistently below 36x (approx. 340), it may weaken investment attractiveness based on a neutral multiplier.
+- If Price approaches or breaches 83x (approx. 790), it may trigger concerns regarding overvaluation and correction pressure.

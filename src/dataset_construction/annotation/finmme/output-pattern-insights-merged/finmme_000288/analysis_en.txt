@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Grouped Bar Chart
+- Title: Not displayed
+- Horizontal Axis: Indicator Categories (GDP Growth, Unemployment Rate, PCE Inflation, Core PCE Inflation, Federal Funds Rate)
+- Vertical Axis: Scale 0–5 (Units not specified)
+- Legend: 2024 (Blue), 2025 (Orange), 2026 (Gray), Long Term (Dark Red)
+
+[Data Relationships]
+- GDP Growth: 2024=2.0, 2025=2.0, 2026≈1.8, Long Term≈1.8; 2024/2025 is higher than Long Term by ≈0.2.
+- Unemployment Rate: 2024=4.0, 2025≈4.1, 2026=4.0, Long Term≈4.1; Highest ≈4.1, difference from lowest 4.0 is ≈0.1.
+- PCE Inflation: 2024≈2.6, 2025≈2.2, 2026≈2.0, Long Term=2.0; 2024 is higher than Long Term by ≈0.6.
+- Core PCE: 2024≈2.6, 2025≈2.2, 2026≈1.9, Long Term=2.0; Highest ≈2.6, higher than 2026 by ≈0.7.
+- Federal Funds Rate: 2024≈4.6, 2025≈3.9, 2026≈2.8, Long Term≈2.6; 2024 is higher than Long Term by ≈2.0.
+
+[Pattern Characteristics]
+- The bar heights for each indicator across different years are generally close; the Long Term bars are mostly located in the middle or end positions, showing a relatively convergent structure.
+- Indicators related to prices and interest rates show significantly higher short-term bars compared to subsequent years and long-term values, while the disparity in bar heights for GDP Growth and Unemployment Rate across years is smaller.
+- No extreme outliers appear within the groups, except for the Federal Funds Rate bar in 2024, which is significantly higher than the other years in the same group.
+
+[Core Insights]
+Core Conclusion: Short-term policy interest rates and inflation expectations are significantly higher than long-term levels.
+
+Business Implications:
+- Current price pressure has not fully retreated to the target range.
+- Monetary conditions impose stronger constraints on economic activity in the near term.
+- In the medium to long term, the policy stance leans toward normalization.
+
+Risk Concerns:
+- If PCE inflation remains persistently above 2.0, it will compress real income and corporate profits.
+- If the Federal Funds Rate remains persistently above 4.6, it will significantly raise financing costs and the probability of default.

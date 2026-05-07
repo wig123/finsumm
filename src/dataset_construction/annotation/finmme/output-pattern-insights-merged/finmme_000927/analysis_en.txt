@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Dual Line Chart
+- Annotations: Orange vertical line "Election called" (approx. Day -55); Red vertical line "Election 8 June 2017" (Day 0)
+- X-axis: Days from election day, range approximately -100 to 100
+- Y-axis: (bp), range approximately -15 to 35
+- Legend: Blue line labeled "2", Green line labeled "10"
+- No main title visible
+
+[Data Relationships]
+- At Day -100: Blue line ≈ -5bp, Green line ≈ 10bp, Difference ≈ 15bp
+- Near Day -55: Both lines ≈ 0bp, Difference < 1bp
+- At Day 0: Blue line ≈ -2bp, Green line ≈ -1bp
+- Trough: Green line ≈ -10bp (approx. Day 7); Blue line ≈ -7bp (approx. Day 5-8)
+- At Day 20-30: Blue ≈ 20bp, Green ≈ 25bp, Difference ≈ 5bp
+- Green line peak ≈ 27bp (approx. Day 30-35); Blue line during the same period ≈ 23bp, Difference ≈ 4bp
+- At Day 100: Blue line peak ≈ 35bp, Green line ≈ 30bp, Difference ≈ 5bp
+
+[Pattern Characteristics]
+The two lines show significant separation early in the sample period, gradually converging as they approach "Election called" and briefly hugging the zero axis. After approaching and passing "Election 8 June 2017," both lines decline synchronously, forming a local low point, followed by an overall rise, establishing a relatively high plateau around Day 20-40. Towards the end of the sample period, both lines remain positive. The blue line is relatively steeper and reaches one of its highest points for the entire period at the endpoint.
+
+[Core Insights]
+Core Conclusion: The spread between the short end and the long end significantly repriced and widened again before and after the event.
+
+Business Implications:
+- Prior to the event, the term structure temporarily flattened.
+- Following the conclusion of the event, the term structure once again reflected a term premium.
+- The short end showed a larger adjustment magnitude later, reflecting a more sensitive duration structure.
+
+Risk Focus:
+- A renewed narrowing of the spread toward 0bp may indicate crowded trade positioning.
+- An absolute change exceeding 30bp in either end may trigger margin calls and asset revaluation pressure.

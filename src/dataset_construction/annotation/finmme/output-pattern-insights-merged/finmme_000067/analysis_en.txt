@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Dual-axis combination chart (Line + Bar)
+- Title: COF Comp BBNI and BBCA %
+- X-axis: Month range Jan-19 to Jan-24
+- Left Y-axis: Percentage scale 0.0–4.0 (Corresponding to BNI Red Line, BCA Black Line)
+- Right Y-axis: bps scale 50.0–170.0 (Corresponding to the blue bar "12MMA CoF diff BBNI–BBCA")
+- Legend: BNI (Red Line), BCA (Black Line), 12MMA CoF diff (Blue Bar)
+
+[Data Relationships]
+- Jan-19: BNI approximately 3.5%, BCA approximately 2.0%, the difference between the two is about 1.5 percentage points (approx. 150bps); the blue bar is about 130bps.
+- The lowest value of the blue bar is about 60–70bps (Sep–Nov 21); during the same period, BCA is about 0.75%, BNI is about 1.5%, the difference between the two is about 0.75 percentage points.
+- Jan-24: BNI approximately 3.0%, BCA approximately 1.15%, the difference between the two is about 1.85 percentage points (approx. 185bps); the blue bar is about 150–155bps.
+- BNI line peak is about 3.6% (early 2019); BCA line peak is about 2.1% (mid-2019), lowest value is about 0.75% (end of 2021).
+
+[Pattern Characteristics]
+- The Red Line is generally higher than the Black Line. The two gradually converged from 2019 to 2021, reaching the minimum gap at the end of 2021, and subsequently widened again until the end of the sample period.
+- The Blue Bar synchronizes with the change in the gap between the two lines, showing a single-trough structure (first decline, then rise), with the trough appearing around Autumn 2021.
+- Both the line and bar charts are continuous, showing no sharp jumps, with inflection points concentrated in the second half of 2021.
+
+[Core Insights]
+Core Conclusion: BNI's Cost of Funds (CoF) is consistently higher than BCA's, and the current difference is at a high level.
+
+Business Implications:
+- Significant relative cost disadvantage, compressing Net Interest Margin (NIM).
+- Higher requirements for loan/deposit pricing.
+- Profitability sensitivity relies more heavily on cost control.
+
+Risk Focus:
+- Difference ≥ 150bps, BNI's profit margin is squeezed.
+- Difference ≤ 70bps, BCA's relative advantage is weakened.

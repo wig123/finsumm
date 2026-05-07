@@ -1,0 +1,30 @@
+**[Chart Components]**
+- Chart Type: Product Price Grid/Card List
+- Title: Top Sellings
+- Composition: Total 8 product cards; each card includes the brand "POP MART," product name, price, and status labels (NEW, HOT, SOLD OUT)
+- Price Unit: HK$
+- No axes or legend; prices displayed with two decimal places
+
+**[Data Relationships]**
+- Prices of 8 products: HK$81×5, HK$95×1, HK$105×1, HK$235×1
+- Lowest price HK$81; Highest price HK$235; Difference HK$154
+- Average price HK$105; Median HK$81
+- Label quantities: NEW 4 units, HOT 3 units, SOLD OUT 1 unit
+- Comparison: HK$105 is HK$24 higher than HK$81; HK$95 is HK$14 higher than HK$81
+
+**[Pattern Characteristics]**
+- Product prices show distinct stratification, with the vast majority concentrated at the same low price point, and only a few distributed across medium and high price points.
+- The three status labels (NEW, HOT, SOLD OUT) are interspersed across different price tiers, indicating no singular correlation between the label and the price.
+- The only sold-out product is located within the low-price range, alongside multiple products of the same price but different statuses.
+
+**[Core Insights]**
+Core Conclusion: The pricing of top-selling products is predominantly in the low-end segment, with high-priced items serving as a minor supplement.
+
+Business Implications:
+- Sales contribution primarily relies on low-priced SKUs.
+- The labels (status indicators) have limited driving effect on sales performance.
+- High-priced items primarily serve the function of brand image enhancement and boosting Average Transaction Value (ATV).
+
+Risk Concerns:
+- If the low-priced HK$81 product is delisted, the primary source of sales will be weakened.
+- If too many high-priced products (≥HK$235) are added, it may depress the overall transaction volume (number of units sold).

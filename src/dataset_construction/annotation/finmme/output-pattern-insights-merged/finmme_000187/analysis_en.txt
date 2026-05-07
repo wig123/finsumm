@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Pie Chart
+- Title: Not displayed
+- Axes: None
+- Legend: No independent legend; categories and percentages are annotated directly next to the sectors.
+- Categories and Annotations: Other clients in China 45%；Overseas markets 23%；Geely 10%；BYD 7%；Changan 7%；US EV brand 3%；Chery 3%；SAIC-GM-WL 2%
+
+[Data Relationships]
+- Largest proportion: Other clients in China 45%
+- Second largest: Overseas markets 23%; the difference between the two is 22 percentage points; the first two items total 68%
+- Geely 10% is 3 percentage points higher than BYD 7% and Changan 7%
+- BYD 7% is the same as Changan 7%; the two total 14%
+- US EV brand 3% is the same as Chery 3%; the two total 6%
+- SAIC-GM-WL 2% is the smallest; it is 8 percentage points lower than Geely, and 21 percentage points lower than the 23% item.
+- The three categories ≤3% (US EV brand, Chery, SAIC-GM-WL) total 8%
+- All categories total 100%
+
+[Pattern Characteristics]
+- The composition exhibits a hierarchical structure characterized by a single dominant component, a secondary central component, and multiple dispersed remaining items, generally approximating a long-tail distribution.
+- There are two sets of equal categories in the middle section, and several extremely small sectors are clustered at the tail end; the smallest sector shows a significant gap compared to the largest component (the head).
+
+[Core Insights]
+Core Conclusion: The structure relies on the top two segments, with limited contribution from the tail end.
+
+Business Implications:
+- High concentration, insufficient source diversity
+- Key resources should focus on the top two segments
+- Tail-end expansion offers limited overall improvement
+
+Risk Concerns:
+- Largest item <23%: Weakening of the main source, difficult to compensate through substitution.
+- Overseas markets <10%: Single geographical source, concentrated pressure bearing.

@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Horizontal scatter plot (with error bars), displaying three columns of values side-by-side on the right.
+- Title: 5G Performance and Availability Among Nordics Top Providers; Subtitle: Speedtest Intelligence | Q2 2022.
+- X-axis: Median Speeds (Mbps), scale approximately 0–500 (increments of 100); error bars indicate the 95% confidence interval.
+- Y-axis: Multiple Nordic operators (listed by row, including country name).
+- Right-side data columns: Download (Mbps), Upload (Mbps), 5G Availability (percentage), displayed in different colors.
+
+[Data Relationships]
+- Highest Download value: 481.2 Mbps (top row), corresponding to Upload 35.12 Mbps and 5G Availability 3.3%.
+- Second and third highest Downloads: 461.2 Mbps, 418.7 Mbps.
+- Lowest Download value: 155.6 Mbps (bottom row), corresponding to Upload 26.79 Mbps and 5G Availability 20.8%.
+- Download range (difference between high and low): 325.6 Mbps (481.2−155.6).
+- Upload range: Highest 39.67 Mbps, Lowest 15.69 Mbps; difference 23.98 Mbps.
+- 5G Availability range: Highest 43.3%, Lowest 3.3%; difference 40.0 percentage points.
+- Examples of Download values between 200–300 Mbps: 280.9, 279.5, 275.5, 273.9, 248.2, 218.6, 214.5, 206.3.
+
+[Pattern Characteristics]
+- Download values are widely dispersed across the X-axis, forming a distinct dense cluster in the middle segment, while a few high-value points are separated from the main group.
+- Error bars are generally short, but there are individual samples in the middle segment with significantly wider confidence intervals.
+- Among the three columns on the right, the Upload distribution is more convergent, whereas the ranking of 5G Availability does not align with the Download ranking, showing a staggered distribution.
+
+[Core Insights]
+Core Conclusion: A trade-off characteristic exists between high speed and coverage.
+
+Business Implications:
+- Difficulty in simultaneously achieving both speed and coverage
+- Limited differentiation among mid-range providers
+- Low differentiation in upload metrics
+
+Risk Focus:
+- Availability ≤ 5%, narrow coverage, limited scale
+- Download < 200 Mbps, insufficient capacity for high-traffic scenarios

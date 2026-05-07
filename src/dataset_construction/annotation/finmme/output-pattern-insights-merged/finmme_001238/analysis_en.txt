@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Bar chart
+- Title: Gas transmission EBIT
+- Y-axis: Unit (INR bn), Range 0–80, Scale interval 10
+- X-axis: Year categories 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024F, 2025F, 2026F
+- Color scheme: 2016–2023 are red bars, 2024F–2026F are gray bars; Legend not displayed
+
+[Data Relationships]
+- 2016≈18; 2017≈24; 2018≈30; 2019≈33; 2020≈37; 2021≈35; 2022≈38; 2023≈19
+- 2024F≈47; 2025F≈63; 2026F≈69
+- Within the 2016–2022 range, the highest was 2022≈38, the lowest was 2016≈18, difference≈20
+- 2023 is less than 2022 by ≈19
+- 2026F is greater than 2022 by ≈31; greater than 2024F by ≈22; greater than 2025F by ≈6
+- 2018 is greater than 2017 by ≈6; 2019 is greater than 2018 by ≈3; 2020 is greater than 2019 by ≈4; 2021 is less than 2020 by ≈2; 2022 is greater than 2021 by ≈3
+
+[Pattern Characteristics]
+The bars from 2016–2022 generally show a stepwise increase, with only a slight dip in 2021. The bar height in 2023 is significantly lower than the previous year, representing an abrupt change from the preceding pattern. The gray bars from 2024F–2026F are significantly higher than all historical years, continuing to extend throughout the forecast period, but the rate of increase gradually narrows.
+
+[Core Insights]
+Core Conclusion: Following increased historical volatility, future forecasts indicate a substantial rise in profitability.
+
+Business Implications:
+- Past profitability performance featured cyclical contraction and recovery.
+- The forecast period reflects strong expectations for earnings expansion.
+- The narrowing rate of increase in later years suggests limited room for further enhancement.
+
+Risk Focus:
+- If the level remains below ≈20 after 2023, it will deviate from subsequent high profitability expectations.
+- If 2026F does not reach ≈60, the overall medium-to-long-term profitability target may need to be revised downward.

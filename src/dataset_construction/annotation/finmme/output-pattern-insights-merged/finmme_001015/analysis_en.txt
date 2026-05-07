@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Time series line chart, including markers.
+- Title: Genting Malaysia.
+- X-axis: Date, approximately 2021/07/01—2024/01/01; top right noted "As of 29‑Feb‑2024," Currency=MYR.
+- Y-axis: Price scale, approximately 0.25—3.75 MYR, scale interval approximately 0.25.
+- Legend: Closing Price (black line), Target Price Change (green triangle), Recommendation Changes (blue circle).
+- Source: LSEG, Nomura.
+
+[Data Relationships]
+- Closing price range approximately 2.3—3.2 MYR, range difference approximately 0.9.
+- Closing price at the beginning of the period (2021/07) approximately 2.7 MYR; at the end of the period (2024/01) approximately 2.8—2.9; difference approximately 0.1—0.2.
+- Highest closing price approximately 3.2 (2021/11—2022/01), lowest approximately 2.3 (2023/08).
+- Target price marked 4 times, approximately 3.75, 3.30, 3.50, 3.60; difference between highest and lowest approximately 0.45.
+- Blue recommendation change markers are not visible in the chart.
+
+[Pattern Characteristics]
+The closing price fluctuates around a central level throughout the entire period, without forming a unidirectional trend. A relatively high-level plateau appeared near the end of 2021 to the beginning of 2022, followed by a relatively low-level range in the mid-to-late part of 2023, with some subsequent recovery. Target price changes are infrequent, and each instance is significantly higher than the closing price during the corresponding period; no recommendation change markers are visible.
+
+[Core Insights]
+Core Conclusion: The stock price has traded within a narrow range over the long term and exhibits a significant discount relative to the target price.
+
+Business Implications:
+- A persistent gap exists between the valuation level and analyst expectations.
+- The research team's judgment on the company is relatively consistent, and the adjustment frequency is low.
+- Market pricing may have limited adherence to research views.
+
+Risk Focus:
+- If the stock price remains below 3.0 MYR for an extended period, it may suppress the realization of upside potential based on the target price.
+- If the future target price is lowered below 3.0 MYR, it may trigger investors to re-evaluate their holdings.

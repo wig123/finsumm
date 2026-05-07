@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Dual Line Chart
+- Annotation: Y-axis unit “(CNYk/tonne)”
+- Y-axis Range: 0—700 (approximately marked every 100 units)
+- X-axis: Time from Jan‑19 to Jan‑24, marked quarterly/monthly
+- Legend: Red “carbonate”, Gray “hydroxide”
+- Title: No independent main title observed
+
+[Data Relationships]
+- Jan‑19: carbonate approximately 80, hydroxide approximately 100, difference approximately 20
+- Mid-2020: Both approximately 40
+- End of 2022: carbonate approximately 600, hydroxide approximately 570, difference approximately 30
+- July 2023: carbonate approximately 320, hydroxide approximately 310
+- Jan‑24: carbonate approximately 90, hydroxide approximately 100, difference approximately 10
+- Magnitude of Change: carbonate maximum 600 and minimum 40, difference approximately 560; hydroxide maximum 570 and minimum 40, difference approximately 530
+
+[Pattern Characteristics]
+The trends of the two lines are highly consistent throughout the entire period, the difference remains small, showing synchronous change. The overall trend first experienced a relatively stable low-level phase, followed by a rapid surge forming a high-level plateau, then a significant decline, returning close to the starting level. In the middle-to-late stage, there were two significant periodic peaks within the high-level range followed by sharp declines, during which short-term volatility significantly increased.
+
+[Core Insights]
+Core Conclusion: The prices of the two products are highly correlated, and after extreme expansion, they have essentially returned to early levels.
+
+Business Implications:
+- Prices are mainly influenced by common driving factors, with limited divergence.
+- Trading or pricing decisions during the historical peak range faced significant pressure.
+- Current profit or cost margins are difficult to replicate compared to the high-level period.
+
+Risk Focus:
+- If prices approach 600 CNYk/tonne again, it may trigger significant compression in upstream and downstream sectors or demand adjustments.
+- Falling below the vicinity of 40 CNYk/tonne may lead to a noticeable decline in related assets and capacity utilization.

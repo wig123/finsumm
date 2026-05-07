@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Time series line chart (Closing Price)
+- Title: Pegatron Corp
+- Notes: As of 14-Mar-2024; Currency=TWD
+- X-axis: Date, approximately 2021/07/01—2024/01/01
+- Y-axis: Price scale 0—90 TWD
+- Legend: Closing Price (Grey line), Target Price Change (Green triangle), Recommendation Changes (Blue dot)
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial period (2021/07/01) closing price approximately 72 TWD; Final period (14-Mar-2024) approximately 90 TWD; Difference approximately 18 TWD.
+- Highest closing price close to 90 TWD (Early 2024); Lowest approximately 57 TWD (End of 2022); High-low difference approximately 33 TWD.
+- Target price change markers approximately 6 times: 2021/09, 2022/03, 2022/08, 2022/11, 2023/01, 2023/05; Blue recommendation change points are not visible.
+
+[Pattern Characteristics]
+- The price curve generally shows a pattern of initial oscillation followed by a rally, with a noticeable dip in the middle before a gradual recovery.
+- Volatility was primarily concentrated in the mid-to-late period of 2022, after which the price traded within a higher range and tested the upper boundary multiple times.
+- Target price change points are scattered across the early and middle periods; the later stage of price ascent lacks new target price or recommendation change markers.
+
+[Core Insights]
+Core Conclusion: The stock price trend is gradually strengthening while sell-side opinions show minimal adjustment.
+
+Business Implications:
+- There is a certain lag or disconnect between price performance and historical sell-side expectations.
+- The lack of target price updates in the later period means investment decisions rely more heavily on self-assessment.
+- The elevation of the price range reflects a valuation reset following the period of volatility.
+
+Risk Focus:
+- If the price approaches the historical low range again (approximately 60 TWD), it could signify a decline in sentiment and an increase in unrealized losses.
+- A rapid decline after breaking above the current high range (approximately 90 TWD) could lead to short-term retracement pressure.

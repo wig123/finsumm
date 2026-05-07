@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Line Chart (Dual Line)
+- Legend: Previous (Grey), Revised (Red)
+- X-axis: Years 2010–2025F, 2023F–2025F is the forecast period (labeled "F")
+- Y-axis: 0–30, Unit "(8Gb eq, US cents)"
+- Title: Not displayed
+
+[Data Relationships]
+- The peak value of Revised appeared around 2015, approximately 30 US cents; the second highest was in 2017–2018, approximately 25–26.
+- The lowest value of Revised is in 2023F, approximately 3.
+- Revised initial and final values: 2015 approximately 30, 2025F approximately 5, a change of approximately -25; the difference between the highest and lowest is approximately 27.
+- 2016 is approximately 17, about 13 lower than 2015.
+- 2019 approximately 9; 2020 approximately 10; 2021 approximately 8; 2022 approximately 8.
+- 2024F: Revised approximately 7, Previous approximately 5, difference approximately 2.
+- 2025F: Revised approximately 5, Previous slightly lower (approximately 4–5), difference approximately 0.5–1.
+
+[Pattern Characteristics]
+The Revised curve was at a high level around 2015, followed by short-term fluctuations before entering a long-term downward trend, forming a distinct local peak in 2017–2018. After 2019, the overall level remained low, accompanied by multiple minor fluctuations. After reaching the lowest point for the entire period in 2023F, it slightly rebounded in 2024F, and then declined again in 2025F, though remaining above the low point. During the forecast period, the trend direction of Previous and Revised is consistent, but Revised is generally slightly higher. The gap between the two is largest in 2024F and significantly narrows in 2025F.
+
+[Core Insights]
+Core Conclusion: The price center of gravity has shifted significantly downward, and the latest forecast is slightly higher than the old value.
+
+Business Implications:
+- Long-term profit margin has been compressed, with slight signs of recovery recently.
+- Cost side or selling price assumptions have been raised, elevating future profit expectations.
+- The sustainability of improvement after 2024F is limited; the pace of capacity expansion needs careful evaluation.
+
+Risk Focus:
+- If the price falls below the 2023F level of approximately 3 US cents again, it may lead to negative profitability or a significant decline.
+- If the actual price in 2024F is lower than the Previous level of approximately 5 US cents, it will make the earnings targets based on the Revised forecast difficult to achieve.

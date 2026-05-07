@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Time series line chart, including event markers
+- Title: SK Innovation
+- Top Right Corner: As of February 8, 2024; Currency unit is Korean Won (KRW)
+- X-axis: Date scale, marked as July 1, 2021, January 1, 2022, July 1, 2022, January 1, 2023, July 1, 2023, January 1, 2024
+- Y-axis: Price (KRW), ranging from 0 to 400,000
+- Legend: Closing Price (Black line); Target Price Change (Green triangle); Rating Change (Blue dot)
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- The peak closing price was approximately KRW 275,000 to 285,000 (mid-2021), and the trough was approximately KRW 115,000 to 125,000 (early 2024); the difference between high and low is approximately KRW 150,000 to 170,000
+- The closing price near July 2021 was approximately KRW 260,000; near January 2024 it was approximately KRW 120,000; the difference is approximately KRW 140,000
+- Rating changes (Blue dots): Approximately KRW 155,000 in January 2023; approximately KRW 185,000 to 195,000 in August 2023
+- Target price changes (Green triangles): Approximately KRW 400,000, 375,000, 350,000, 325,000 in 2021; approximately KRW 320,000 in mid-2022; approximately KRW 250,000 in early 2023, KRW 240,000 in mid-2023, and KRW 200,000 in late 2023
+- Near January 2023: Target price was approximately KRW 250,000 and closing price was approximately KRW 155,000, a difference of approximately KRW 95,000
+- Near July 2023: Target price was approximately KRW 240,000 and closing price was approximately KRW 185,000 to 190,000, a difference of approximately KRW 50,000 to 55,000
+
+[Pattern Characteristics]
+- The closing price has shown a stepwise decline since its mid-2021 high, interspersed with several moderate rebounds and fluctuations.
+- Target price markers generally shifted downward sequentially from high to low, with a magnitude greater than the price itself; rating change points are sparse, concentrated in 2023.
+- The gap between the closing price and the target price narrowed in the first half of 2023, then widened again; the price was near the lower end of the range in early 2024.
+
+[Core Insights]
+Core Conclusion: Research consistently revises expectations downwards, and the price remains persistently below its guidance.
+
+Business Implications:
+- Significant valuation discount, divergence between research and trading
+- The guiding role of the target price is weakening
+- Price sensitivity to research adjustments is unstable
+
+Risk Focus:
+- Closing price below 120,000; difference from the 200,000 target price is ≥80,000, exacerbating divergence
+- Price-research gap ≥95,000; potentially leading to decreased guidance effectiveness

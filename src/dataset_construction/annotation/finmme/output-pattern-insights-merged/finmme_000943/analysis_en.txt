@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Dual Line Chart
+- Title: Not displayed
+- X-axis: Time, labeled as Jan-23, Mar-23, May-23, Jul-23, Sep-23, Nov-23, Jan-24
+- Y-axis: bp (basis points), range approximately -200 to 100, baseline at zero value
+- Legend: Green "1m Bill-RRP", Blue "3m Bill-RRP"
+
+[Data Relationships]
+- Near Jan-23: 1m approximately -5bp; 3m approximately 30bp.
+- 1m minimum value approximately -170bp (Apr–May 23); 3m minimum value approximately -15bp (Mar–Apr 23). The spread between the two minimum points is approximately 155bp.
+- 1m maximum value approximately 60bp (May 23); 3m maximum value approximately 40–45bp (Jun 23).
+- Late Jun 23 to early Jul 23: 3m approximately 30–40bp; 1m during the same period approximately 0–20bp; spread approximately 10–30bp.
+- After Jul 23, values mostly reside in the 0–15bp range.
+- Jan-24: 1m approximately 0bp; 3m approximately 2–5bp; spread approximately 2–5bp.
+- Full period range (span): 1m approximately 230bp (-170 to +60); 3m approximately 60bp (-15 to +45).
+
+[Pattern Characteristics]
+Both curves fluctuated around the zero value at the beginning of the year. Subsequently, the short-end curve experienced a sharp decline in spring followed by a significant rebound, while the long-end curve only showed a relatively moderate decline and recovery. The two curves briefly formed a large divergence in the first half of the year, then gradually converged and maintained a narrow range close to the zero value starting in the second half of the year. Overall, the volatility of the short-end curve was significantly greater than the long-end. The structure transitioned from an initial imbalance to a relatively close and stable alignment later in the period.
+
+[Core Insights]
+Core Conclusion: Short-end spreads converged after extreme volatility, and the differentiation in the term structure weakened.
+
+Business Implications:
+- Pricing of short-term funding costs was significantly unstable in the first half of the year.
+- Inter-term spreads converged, weakening the signals provided by the interest rate term structure.
+- Interest rate levels concentrated later in the period, which is favorable for neutral pricing and valuation.
+
+Risk Concerns:
+- If 1m falls below -100bp again, it may trigger pressure and mismatch in short-end liquidity.
+- If 3m drops below -20bp, it may amplify the risk of loss for spread trading and rolling financing positions.

@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Dual-axis time series line chart
+- Title: Not displayed
+- X-axis: Time, range Jan-17 to Dec-19 (Example ticks: Jun-17, Nov-17, Apr-18, Sep-18, Feb-19, Jul-19, Dec-19)
+- Left Y-axis: Monthly sales (TWD k), range 0–600,000
+- Right Y-axis: Share price (TWD, RHS), range 0–800
+- Legend: Purple for Monthly sales (TWD k), Red for Share price (TWD, RHS)
+
+[Data Relationships]
+- Initial Period (Jan-17): Sales approximately 240,000; Share price approximately 230
+- Final Period (Dec-19): Sales approximately 560,000; Share price approximately 670; compared to the initial period, increases were approximately +320,000 and +440, respectively
+- Sales peak approximately 580,000 (near the final period), trough approximately 190,000 (near Apr-18), peak-to-trough difference approximately 390,000
+- Share price peak approximately 700 (near the final period), trough approximately 200 (near early 2017), peak-to-trough difference approximately 500
+- In February 2019, when sales were approximately 500,000, the share price was approximately 450
+
+[Pattern Characteristics]
+Both curves generally show a gradual upward trend, with multiple periods of relatively synchronous change occurring throughout. The sales curve exhibits a step-like, intermittent jump pattern; the share price curve is more continuous, with denser short-cycle fluctuations. Brief deviations occurred near Spring 2018 and mid-2019, with both curves approaching high levels again by the final period.
+
+[Core Insights]
+Core Conclusion: Share price is sensitive to sales performance, and the two exhibit a strong correlation.
+
+Business Implications:
+- Sales and valuation are interdependent.
+- Pricing responds faster, affecting short-term allocation.
+- Uneven sales rhythm increases forecasting difficulty.
+
+Risk Concerns:
+- When sales are ≤200,000, the share price may be near 200, putting pressure on valuation.
+- If sales are <500,000, a share price of 450 is difficult to sustain, putting pressure on returns.

@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Multi-series line chart
+- Title: Not displayed
+- X-axis: Year, 2003–2019 (Annual scale)
+- Y-axis: Index (EU27=100), Range approximately 20–120, Scale approximately every 10 units
+- Legend: Displays 5 series and colors on the right—Italy (Teal), Spain (Light Gray-Blue), Greece (Orange), Portugal (Dark Blue), Turkey (Purple, with dot markers)
+- Background: Includes horizontal and vertical grid lines
+
+[Data Relationships]
+- 2003 Values: Italy≈105; Spain≈90; Greece≈90; Portugal≈82; Turkey≈52.
+- 2019 Values: Italy≈107; Spain≈87; Greece≈95; Portugal≈80; Turkey≈60.
+- Peak Values and Years: Italy≈115 (2012); Greece≈104 (2010); Spain≈99 (2009–2010); Portugal≈90 (2008–2010); Turkey≈75 (2012–2013).
+- Trough Values (Approximate): Turkey≈52 (2003/2018); Portugal≈78 (2017–2018); Spain≈84 (2014); Greece≈85 (2014).
+- Deviation Range relative to EU27=100: Italy approximately +5 to +15; Greece approximately -5 to +5; Spain approximately -2 to -15; Portugal approximately -10 to -20; Turkey approximately -25 to -50.
+
+[Pattern Characteristics]
+All five series primarily exhibit slow changes over the medium to long term, lacking sharp short-term jumps, with the overall distribution being relatively smooth and continuous. Italy generally remains in the highest range and is relatively stable. Turkey consistently stays in the lowest range, showing a clear hierarchical separation from the other four countries. Spain, Greece, and Portugal frequently overlap and maintain similar ranges across most years. Most countries showed local peaks or plateaus around 2008–2013, followed by a general decline or stabilization. Only Greece and Turkey showed a more pronounced downward extension in the later period.
+
+[Core Insights]
+Core Conclusion: The long-term performance levels of the five countries show significant divergence, and most countries are relatively weaker compared to the EU27 benchmark.
+
+Business Implications:
+- Italy holds a leading relative position, reflecting a certain structural advantage.
+- Spain and Portugal consistently remain below the benchmark, weakening their overall comparative standing.
+- Turkey has a large gap relative to the benchmark, indicating higher sensitivity to changes in the external environment.
+
+Risk Focus:
+- Turkey's index is near the 50 mark, potentially corresponding to a significant lack of competitiveness relative to the benchmark region.
+- Portugal's index is near 80. If it continues to decline or remains at a low level, it may limit its ability to catch up to the average EU27 level.

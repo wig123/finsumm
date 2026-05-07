@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Tabular Dashboard
+- Title: Company Head to Head Analysis
+- Top Filters: Sector, Industry, Company (Dropdown)
+- Column Fields: Parent Company, Sector, Water Stress Score, Located Within WPA, Located Within KBA, KBA Overlap (Sqkm), WPA Overlap (Sqkm)
+- Display Format: Numerical values juxtaposed with bar charts; WPA/KBA Overlap shown as area values (some marked with "K" indicating thousands)
+- Axes and Legend: None
+
+[Data Relationships]
+- Sector Distribution: The top 7 companies are Energy; Solvay SA and Vale SA are Materials.
+- Located Within WPA: Baker Hughes 2; Ultrapar 5; PTT PCL 0; Halliburton 6; Royal Dutch Shell 6; Schlumberger 9; Solvay 3; Vale 8 (TotalEnergies value unclear).
+- WPA Overlap (Sqkm): Baker Hughes 4.9K; Halliburton 2.7K; Royal Dutch Shell 1.7K; Schlumberger 4.6K; Solvay 4.4K; Vale 4.6K; Ultrapar shows "24..." subsequent characters illegible.
+- KBA Overlap (Sqkm) discernible: Baker Hughes 5; Ultrapar 6; TotalEnergies 9; PTT 4; Halliburton 5; Schlumberger 3; Solvay 3; Vale 2 (Royal Dutch Shell unclear).
+- Comparison: Schlumberger 9 is 3 higher than Halliburton/Royal Dutch Shell 6; Vale 8 is 5 higher than Solvay 3; Baker Hughes 4.9K is 3.2K higher than Royal Dutch Shell 1.7K; the difference from Schlumberger/Vale 4.6K is 0.3K.
+
+[Pattern Characteristics]
+Companies show significant inter-company differences in "Located Within WPA" and "Located Within KBA"; there is no convergent distribution within the same industry. WPA Overlap area is highly dispersed across the sample, with some companies having bars significantly longer than others, creating single-point prominence characteristics. The ranking of Energy and Materials companies is interleaved across various metrics, failing to form a sector-stratified structure.
+
+[Core Insights]
+Core Conclusion: Inter-company spatial exposure differences related to water are significant and highly discrete.
+
+Business Implications:
+- Water resource-related exposure levels are inconsistent among peer companies.
+- Asset selection can be finely differentiated based on spatial exposure differences.
+- Certain companies exhibit a higher degree of concentration in sensitive areas.
+
+Risk Focus:
+- When Located Within WPA ≥ 8 and WPA Overlap ≥ 4.6K, related projects or assets face consequences of concentrated exposure.
+- When Located Within KBA ≥ 8 and KBA Overlap ≥ 6, this may increase reliance on and restrictive impacts from key ecological areas.

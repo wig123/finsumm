@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Line Chart
+- Title: RM Index
+- Axes: The left vertical axis represents the value of the RM Index (range 80 to 170), the right vertical axis represents the percentage change (range -15% to 20%), and the horizontal axis represents time (from 1Q21 to 3Q24).
+- Legend: The red line represents the RM Index, the gray line represents the percentage change (% q-q).
+
+[Data Relationships]
+- From 1Q21 to 4Q22, the RM Index showed an upward trend, reaching around 140.
+- It peaked in 3Q22, approximately 150.
+- From 3Q22 to 3Q23, the RM Index gradually declined.
+- Subsequently, the index stabilized roughly between 130 and 135, from 4Q23 to the present.
+
+- The percentage change (% q-q) from 3Q22 to 3Q23 was negative, indicating a slowdown in the growth of the RM Index during this period.
+- After 4Q23, the % q-q slightly rebounded, approaching 5%.
+
+- The RM Index reached its highest point in 3Q22, while the percentage change reached its highest point in 2Q21 at approximately 15%, and remained around 0% in 1Q24.
+
+[Pattern Characteristics]
+The red line showed a continuous rise early on, peaked around 3Q22, after which the amplitude converged and entered a range-bound state. The gray line was strongly positive in the early period, subsequently crossed the zero axis multiple times, and recently has been close to zero with a slight positive bias. The timing of the peaks for the two lines is inconsistent; the turning point for the red line occurred around 3Q22.
+
+[Core Insights]
+Core Conclusion: The sequential (Q-o-Q) momentum of the RM Index is weak, and short-term incremental growth is limited.
+
+Business Implications:
+- Insufficient phased drivers; assessment requires observing continuity.
+- Sequential signals are near neutral, reducing the impact on decision adjustments.
+- Need to enhance the speed of inflection point identification and response.
+
+Risk Concerns:
+- % q-q falling below 0% could lead to consecutive quarters of negative performance.
+- RM Index below 130 may lead to a downward revision of the level and a weakening of the signal.

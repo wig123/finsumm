@@ -1,0 +1,40 @@
+[Chart Components]
+- Type: Grouped Bar Chart
+- Title: Revenue (INR bn) trends
+- Axes: Y-axis represents Revenue (INR bn), X-axis represents Fiscal Year (FY18 to FY23)
+- Legend: Asian Paints (Red), Berger Paints (Gray), Kansai Nerolac (White square border), Akzo Nobel (Light pink), Indigo Paints (Black)
+
+[Data Relationships]
+- **Key Figures and Changes:**
+  - From FY18 to FY23, Asian Paints' revenue continuously increased from 168 to 345, reaching its maximum value in FY23.
+  - Berger Paints' revenue also grew continuously, increasing from 51 in FY18 to 106 in FY23.
+  - Kansai Nerolac's revenue was 53 in FY20 and 75 in FY23.
+  - Akzo Nobel's revenue increased from 4 in FY18 to 11 in FY23; although there was growth, the volume was small.
+  - Indigo Paints showed significant growth, rising from 27 in FY18 to 38 in FY23.
+
+- **Extreme Value Comparison:**
+  - In FY23, Asian Paints had the highest revenue among all companies at 345.
+  - In FY18, Akzo Nobel had the lowest revenue, only 4.
+
+- **Key Trends:**
+  - Asian Paints and Berger Paints demonstrated a continuous growth trend.
+  - Kansai Nerolac's revenue was lower in FY20 but gradually recovered.
+  - Indigo Paints showed stable growth starting from FY18.
+  - Overall, the revenue of most companies in the industry reached its peak in FY23.
+
+[Pattern Characteristics]
+- Most companies show continuous year-over-year growth, with the highest bar value occurring in the final year.
+- The structure is imbalanced; one company's scale is significantly higher than the rest, while others remain in the lower range.
+- Individual declines or stagnation occurred in FY20, followed by a recovery and elevation of bar values.
+
+[Core Insights]
+Core Conclusion: Headliner contribution dominates; revenue stratification is evident.
+
+Business Implications:
+- Reflects a high degree of dependence on the market leader.
+- Second-tier companies have limited impact on the total volume.
+- Scale improvement by weaker brands is unlikely to change the overall structure.
+
+Risk Focus:
+- If Asian Paints falls below 291, aggregate revenue may decline.
+- If Berger falls below 106 or Kansai ≤ 75, the driving force from the second tier is insufficient.

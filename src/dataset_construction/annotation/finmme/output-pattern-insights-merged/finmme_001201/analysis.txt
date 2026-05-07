@@ -1,0 +1,29 @@
+【图表构成】
+- 图表类型：表格型仪表板
+- 标题：Company Head to Head Analysis
+- 顶部筛选：Sector、Industry、Company（下拉）
+- 列字段：Parent Company、Sector、Water Stress Score、Located Within WPA、Located Within KBA、KBA Overlap (Sqkm)、WPA Overlap (Sqkm)
+- 展示形式：数值与条形并列；WPA/KBA Overlap以面积数值（部分标注“K”表示千）
+- 坐标轴与图例：无
+
+【数据关系】
+- 行业分布：前7家公司为Energy；Solvay SA与Vale SA为Materials。
+- Located Within WPA：Baker Hughes 2；Ultrapar 5；PTT PCL 0；Halliburton 6；Royal Dutch Shell 6；Schlumberger 9；Solvay 3；Vale 8（TotalEnergies数值不清）。
+- WPA Overlap (Sqkm)：Baker Hughes 4.9K；Halliburton 2.7K；Royal Dutch Shell 1.7K；Schlumberger 4.6K；Solvay 4.4K；Vale 4.6K；Ultrapar显示“24…”后续字符不可辨。
+- KBA Overlap (Sqkm)可辨：Baker Hughes 5；Ultrapar 6；TotalEnergies 9；PTT 4；Halliburton 5；Schlumberger 3；Solvay 3；Vale 2（Royal Dutch Shell不清）。
+- 对比：Schlumberger 9比Halliburton/壳牌6高3；Vale 8比Solvay 3高5；Baker Hughes 4.9K比壳牌1.7K高3.2K；与Schlumberger/Vale 4.6K差0.3K。
+
+【模式特征】  
+各公司在“Located Within WPA”“Located Within KBA”上呈现明显的公司间差异，同一行业内部不存在收敛分布。WPA Overlap面积在样本中高度分散，部分公司条形远长于其他公司，形成单点突出特征。Energy与Materials公司在各指标上的排序交错，没有形成按行业分层的结构。
+
+【核心洞察】  
+核心结论：公司间水相关空间暴露差异显著，呈高度离散。
+
+业务含义：  
+- 同业公司水资源相关暴露水平并不一致  
+- 资产选取可通过空间暴露差异进行精细区分  
+- 个别公司在敏感区域的集中程度更高  
+
+风险关注：  
+- Located Within WPA≥8且WPA Overlap≥4.6K时，相关项目或资产面临集中暴露后果  
+- Located Within KBA≥8且KBA Overlap≥6时，可能加大对重点生态区域的依赖与限制影响

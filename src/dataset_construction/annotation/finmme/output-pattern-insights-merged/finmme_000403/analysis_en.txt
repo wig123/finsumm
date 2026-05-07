@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Stacked Bar Chart
+- Title: Not displayed
+- Y-axis: % of 2022 nominal GDP, scale range approximately 0–100
+- X-axis: Categories are "Eurozone," "United States"
+- Legend: Rating groups AAA (Red), AA (Black), A (Orange), BBB (Gray), HY (Pink); numerical values are annotated inside the bars
+
+[Data Relationships]
+- Eurozone: AAA 17%, AA 26%, A 11%, BBB 18%, total 72%.
+- United States: AAA 99%, total 99%; AA, A, BBB, HY segments are not displayed.
+- AAA Comparison: The United States is 82 percentage points higher than the Eurozone (99–17).
+- Total Volume Comparison: The United States is 27 percentage points higher than the Eurozone (99–72).
+- The largest internal segment within the Eurozone is AA 26%, and the smallest segment is A 11%.
+
+[Pattern Characteristics]
+The Eurozone bar is composed of multiple rating segments (AAA, AA, A, BBB), and its overall height is significantly lower than that of the United States. The United States bar is almost entirely composed of a single AAA segment, approaching the upper limit of the Y-axis, with other segments not displayed. The proportion of various segments within the Eurozone shows significant high-low variation, whereas the United States exhibits a highly concentrated structure within the visible range.
+
+[Core Insights]
+Core Conclusion: The dominance of high-rated assets in the United States is far greater than in the Eurozone, indicating a significant structural difference.
+
+Business Implications:
+- The United States has a larger proportion of top-rated assets, leading to a more concentrated structure.
+- Eurozone assets are more widely distributed across different ratings.
+- There are significant differences between the two regions in the supply and reliance on high-grade assets.
+
+Risk Focus:
+- If the proportion of AAA in the United States significantly drops from 99%, the perception of overall asset quality may be impacted.
+- If the Eurozone's total proportion further declines from 72%, it may weaken its capacity for high-rated asset allocation.

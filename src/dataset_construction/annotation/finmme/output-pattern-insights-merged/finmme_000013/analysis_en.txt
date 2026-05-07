@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Dual Line Chart
+- Legend/Title: Price (Red) and Rel FTSE Bursa Malaysia KLCI Index (Gray)
+- X-axis: Time span, marked monthly from March 2023 to February 2024
+- Y-axis (Left): Price (MYR), range 3.5 to 4.25, increment of 0.25 per grid line
+- Y-axis (Right): Relative Index, range 92.5 to 107.5, increment of 5 per grid line
+- Colors: Price is the red curve, Relative Index is the gray curve
+
+[Data Relationships]
+- Price (Red) starts near 4.25 at the beginning of the chart, subsequently drops to a low of 3.5, and then gradually increases throughout the period.
+- The Relative Index (Gray) generally aligns with the price trend, starting near 100, subsequently dropping to a low of approximately 92.5, and then gradually recovering to nearly 107.5.
+- Both Price and the Relative Index reach their highest values at the end of the period (February 2024), with Price near 4.25 and the Relative Index around 107.5.
+- Overall, the red and gray curves exhibit similar upward and downward trends during most time periods.
+
+[Pattern Characteristics]
+The two curves show a time-series pattern of starting low and ending high, with moderate volatility during the period. Both maintain the same direction and structural continuity during most phases, with occasional brief deviations. Both conclude near the upper boundary of their respective ranges.
+
+[Core Insights]
+Core Conclusion: Price exhibits high synchronization with the Relative Index, indicating that index influence is dominant.
+
+Business Implications:
+- Strong correlation, reflecting dependence on index movements.
+- Decisions should prioritize the signaling function of index indicators.
+- As the upper boundary of the range is approached, the marginal return space narrows.
+
+Risk Focus:
+- Price falling below 3.75 may lead to negative periodic returns.
+- The Relative Index falling below 100 may trigger a negative correlation in price.

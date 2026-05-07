@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Stacked Bar Chart
+- Title: Not displayed
+- Y-axis: mmscmd (Million Standard Cubic Meters per Day), range approximately 0–40, with grid lines and 40 scale mark
+- X-axis: Time, Oct-18 to Oct-23, scale is semi-annual, Apr/Oct
+- Legend: Two categories—Others (Grey), Eastern offshore (Red)
+
+[Data Relationships]
+- Oct-18: Total volume approximately 14–15 mmscmd; Others approximately 10–11; Eastern offshore approximately 3–4.
+- Around Apr-20: Total volume approximately 8; Others approximately 6–7; Eastern offshore approximately 1–2 (relatively lowest).
+- Apr-21: Total volume approximately 23–24.
+- Oct-21: Total volume approximately 30–31; Others approximately 10; Eastern offshore approximately 20–21.
+- Oct-22: Total volume approximately 31–32.
+- Apr-23: Total volume approximately 35–36.
+- Oct-23: Total volume is 40 (highest); Others approximately 9–10; Eastern offshore approximately 30–31.
+- The difference between the peak of 40 and the low point of approximately 8 is about 32 mmscmd.
+
+[Pattern Characteristics]
+- The total volume initially slowly declined, and after reaching a clear low point around Apr-20, it subsequently continued to rise, reaching a high point in Oct-23.
+- Others remained relatively stable overall; after a slight dip in the middle section, it maintained a similar range. Eastern offshore had a small proportion before Apr-20, but subsequently gradually occupied the main portion of the bar.
+- The period around Apr-20 was the lowest window for the entire span. The total volume and the Eastern offshore component showed a clear step-wise increase around Apr-21 and during the Apr-23 to Oct-23 phase.
+
+[Core Insights]
+Core conclusion: The supply structure shifted from diversified to concentrated, dominated by Eastern offshore.
+
+Business implications:
+- Total supply capacity expanded significantly, and sources became more concentrated.
+- Dependence on the production stability of Eastern offshore significantly deepened.
+- Incremental growth from Others is limited, restricting adjustment and substitution space.
+
+Risk focus:
+- Risk point 1: If Eastern offshore falls below 20 mmscmd, the total volume might fall back below approximately 30.
+- Risk point 2: If Others drops below 8 mmscmd, the total volume's resilience against shocks will be significantly weakened.

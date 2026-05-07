@@ -1,0 +1,26 @@
+[Chart Components]
+- Type: Line chart, including range band
+- Y-axis: Combined corporate tax rate (pp), scale 10—70
+- X-axis: Years 1985—2025
+- Legend: United States (Dark Blue), 25th pctl (Green), 75th pctl (Light Green), Range of select economies (Light Cyan Range), Biden proposal (Light Blue Dashed Line), Trump/Republican (Orange Dashed Line)
+
+[Data Relationships]
+- 1985: US ≈50pp; 25th ≈40pp; 75th ≈60pp; US higher than 25th by ≈10pp, lower than 75th by ≈10pp
+- Before 2017 US ≈40pp; Starting 2018 ≈25pp; Change ≈15pp
+- 2020: US ≈25pp; 25th ≈21pp; 75th ≈31pp; Respectively higher than 25th by ≈4pp, lower than 75th by ≈6pp
+- 2025 Proposals: Biden ≈28pp; Trump ≈20pp; Difference between the two ≈8pp; Relative to current US (≈25pp) respectively +≈3pp, −≈5pp
+
+[Pattern Characteristics]
+- The three main lines show an overall downward trend over time, and the distance between the 25th and 75th percentiles has narrowed. The US showed a significant step-change in 2018, subsequently moving closer to the 25th percentile. 2025 presents two proposed dashed lines, diverging upwards and downwards; the range band shifts downward overall and narrows slightly.
+
+[Core Insights]
+Core Conclusion: US tax rate positioning tends lower, the 2025 decision will redefine it.
+
+Business Implications:
+- Decline relative to global percentile ranking
+- Impacts the relative gap with the 25th/75th percentiles
+- The choice will significantly alter the benchmark position
+
+Risk Focus:
+- ≤20pp: May fall below the 25th percentile ≈21pp, positioning too low
+- ≥28pp: Widens the gap with the 25th percentile, approaching the 75th percentile ≈31pp

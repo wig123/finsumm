@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Dual Line Chart
+- Legend: Red "HDFCB TD Rates," Gray "SBIN TD Rates"
+- X-axis: Month, Range Mar-22 to Feb-24, labeled monthly
+- Y-axis: Interest Rate (%), Range 4.0% to 7.5%, scale interval 0.5%
+- Note: Time series displayed continuously
+
+[Data Relationships]
+- Initial Period (Mar-22): Both approximately 5.1%
+- Oct-22: HDFCB ≈ 5.7%, SBIN ≈ 6.1%, Difference ≈ 0.4 percentage points (SBIN higher)
+- Dec-22: HDFCB ≈ 7.0%, SBIN ≈ 6.7%, Difference ≈ 0.3 percentage points
+- Mar-23: HDFCB ≈ 7.1%, SBIN ≈ 7.0%, Difference ≈ 0.1 percentage points
+- Feb-24: HDFCB ≈ 7.25%, SBIN ≈ 7.0%, Difference ≈ 0.25 percentage points
+- Full Period Change: HDFCB approximately +2.1 percentage points; SBIN approximately +1.9 percentage points
+- Peak Value: HDFCB ≈ 7.25%; SBIN ≈ 7.0%
+
+[Pattern Characteristics]
+Both interest rate curves moved upward synchronously from the initial period, showing a significant step-like increase in the mid-to-late part of 2022, followed by entering a high-level plateau phase. From early 2022 until before October, the gray line was generally slightly higher; subsequently, the red line gradually moved up and maintained a superior position in the high-interest rate range. The trends of both are highly correlated, with only minor cross-overs and localized structural changes involving the narrowing/widening of the gap during the rising phase.
+
+[Core Insights]
+Core Conclusion: The Term Deposit (TD) rates of the two institutions are highly synchronized, but HDFCB holds a slight advantage during the high-rate phase.
+
+Business Implications:
+- The pace of interest rate adjustments by both institutions is largely consistent, reflecting a homogeneous pricing environment.
+- HDFCB's pricing is slightly higher in the high-interest rate range, potentially making it more attractive.
+- SBIN's pricing is slightly lower, possibly relying on other factors to maintain competitiveness.
+
+Risk Focus:
+- If HDFCB's rate consistently exceeds SBIN's by more than 0.3 percentage points, it may push up funding costs and compress the Net Interest Margin (NIM).
+- If the rates of both institutions fall back below the 6.0% vicinity, it may weaken their appeal to interest-sensitive clients.

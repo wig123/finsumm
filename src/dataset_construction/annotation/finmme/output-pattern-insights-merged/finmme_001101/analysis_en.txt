@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Time series line chart.
+- Title: No explicit main title visible; the legend shows two series—the red line "JB Pharma EV/EBITDA 1 yr fwd," and the thick black horizontal line "Average EV/EBITDA 1 yr fwd."
+- X-axis: Date, ranging approximately from 3/16/2014 to 3/16/2023.
+- Y-axis: EV/EBITDA (1 yr fwd) values, scaled approximately 0–30, with grid lines at 5, 10, 15, 20, 25.
+- Other: The black average line is positioned approximately around 12.
+
+[Data Relationships]
+- Left end (approx. 2014) value ≈ 3.5; right end highest value ≈ 25; overall range approx. 3.5–25, difference ≈ 21.5.
+- Average line ≈ 12: The highest point is higher than the average by ≈ 13; the lowest point is lower than the average by ≈ 8.5.
+- Around 2017 ≈ 9–10 (lower than the average by ≈ 2–3).
+- Around 2019 ≈ 6–7 (lower than the average by ≈ 5–6).
+- Around 2021 ≈ 14–17 (higher than the average by ≈ 2–5).
+- Around 2022 ≈ 18–22 (higher than the average by ≈ 6–10).
+- Around 2023 ≈ 18–20 (higher than the average by ≈ 6–8).
+
+[Pattern Characteristics]
+The red line was below the black average line for most of the period between 2014–2019, oscillating narrowly within a relatively low range. Since 2020, the red line has generally risen and remained above the average line for an extended period, periodically expanding into a higher range between 2021–2023, accompanied by greater vertical volatility. No sudden single-point spikes are visible in the chart, but there is a clear step-change transition from the low range to the high range around 2020.
+
+[Core Insights]
+Core Conclusion: The valuation level has shifted from a long-term discount to a sustained premium, with the magnitude of the premium expanding.
+
+Business Implications:
+- Market expectations for the company's future earnings have significantly strengthened.
+- The cost of capital or entry barriers may be elevated.
+- Increased bargaining power for operations such as refinancing and equity incentives.
+
+Risk Focus:
+- If EV/EBITDA is consistently above 22, it will amplify the magnitude of drawdowns during profit declines.
+- If the valuation falls back below 12, it may trigger concentrated selling pressure from institutional holdings.

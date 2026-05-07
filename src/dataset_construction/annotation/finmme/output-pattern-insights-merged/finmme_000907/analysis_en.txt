@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Dual-line time series line chart
+- Title/Description: Notation in the upper left corner "(2018 = 100)"
+- Legend: Whirlpool (Gray), LGE (Red)
+- X-axis: Year scale 2018–2024
+- Y-axis: Indexed scale 0–200
+
+[Data Relationships]
+- 2018 Base Period: Both lines are approximately 100
+- Low point early 2020: Whirlpool ≈ 60; LGE ≈ 40–45; Difference ≈ 15–20
+- LGE Peak (approx. early 2021): ≈ 165–170; Increment relative to base period ≈ 65–70
+- Whirlpool Peak (approx. early 2022): ≈ 135–140; Increment relative to base period ≈ 35–40
+- Early 2024: Whirlpool ≈ 65–70; LGE ≈ 85–90; Difference ≈ 15–25
+- Magnitude of change from 2020 low point to respective peaks: LGE ≈ +120–130; Whirlpool ≈ +75–80
+
+[Pattern Characteristics]
+The two indexed curves start close in 2018, subsequently decline synchronously, forming a common low range in 2020. Thereafter, the LGE curve showed a steeper surge and a wider volatility band around 2021, while Whirlpool reached its own high point later, with relatively contained volatility. Since their respective peaks, both generally fluctuate in the same direction, but LGE remains above Whirlpool most of the time, and the gap widened again in 2023–2024.
+
+[Core Insights]
+Core Conclusion: The strength and pace of recovery for the two companies since the 2020 low point are significantly different, with LGE showing relative outperformance.
+
+Business Implications:
+- LGE exhibits stronger relative valuation performance and higher market recognition.
+- Whirlpool's recovery pace is slower, and asset return elasticity is limited.
+- Both still exhibit high correlation, suitable for pair trading and hedging.
+
+Risk Concerns:
+- The index falling below 60 (approaching the 2020 low) may signal an intensification of short-term drawdown risk.
+- A sustained difference between the two greater than 30 may lead to pressure from extreme divergence in relative performance.

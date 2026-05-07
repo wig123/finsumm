@@ -1,0 +1,32 @@
+【图表构成】
+- 类型：垂直柱状图
+- 标题：未显式给出；图中含注释“The net number of discriminatory measures introduced in the US since 2008 exceeds that of any other nation”
+- 横轴：国家类别（Mexico、South Africa、Indonesia、Australia、South Korea、Saudi Arabia、Turkey、Argentina、Russia、India、Japan、France、UK、Brazil、Italy、Canada、Germany、China、USA）
+- 纵轴：Net number of discriminatory measures，范围约0–7,000，等距刻度
+- 每柱顶部标注具体数值；单一配色；无图例
+
+【数据关系】
+- 峰值：USA 5,731
+- 次高与第三：China 2,552、Germany 2,543；差9
+- 谷值：Mexico 175；峰谷差5,556
+- USA与China差3,179；与Germany差3,188
+- Italy 1,598 与 Canada 1,598（相同）
+- UK 1,460；Brazil 1,478（比UK高18）；France 1,160（比UK低300）
+- Japan 1,115；India 1,091（Japan高24）；Russia 982
+- Turkey 619；Saudi Arabia 481（差138）
+- South Korea 377；Australia 362（差15）；Indonesia 356；South Africa 255
+
+【模式特征】  
+整体呈现由左至右递增的阶梯状分布，大部分国家数值集中在较低至中等区间，少数国家处于显著更高水平。结构上，美国形成远高于其余国家的单一极端值，中国和德国构成第二层高值集群，中游国家之间差距相对密集且存在部分数值并列。整体没有明显的周期性，仅表现为国家间的等级分层和尾部分布拉长。
+
+【核心洞察】  
+核心结论：美国在相关措施上的累积规模对其他国家形成绝对性领先。
+
+业务含义：  
+- 说明国家间在相关政策运用上存在明显强弱差异。  
+- 对全球经贸环境中的谈判地位与议价空间影响突出。  
+- 反映出部分经济体对类似工具的依赖度更高。  
+
+风险关注：  
+- 当单一国家数值超过5,000时，可能导致对其相关政策高度敏感的外部依赖风险。  
+- 当第二梯队国家数值接近或超过3,000时，可能放大多国间政策摩擦与不确定性。

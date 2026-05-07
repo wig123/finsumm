@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Vertical Bar Chart
+- Title: Not displayed
+- Y-axis: Labeled as “Change vs. 2017-2018,” ranging from +5% to -40%, unit is percentage
+- X-axis: Quarterly classification, including 2019 (Q1–Q4), 2020 (Q1–Q4), 2021 (Q1–Q4), 2022 (Q1–Q4), 2023E (Q1–Q4)
+- Legend: Not displayed; Bar colors differentiate years and estimates from light to dark
+
+[Data Relationships]
+- Peak: Q1 2019 was +1%
+- Lowest Value: -31%, appearing in Q2 2020, Q1 2021, Q3 and Q4 2022, and all quarters of 2023E (total 8 quarters)
+- Other Key Values: Q2 2019 was -13%, Q3 was -9%, Q4 was -8%; Q1 2020 was -13%, Q4 was -4%; Q2 and Q3 2021 were both -23%, Q4 was -29%; Q1 2022 was -25%, Q2 was -30%
+- Maximum Difference: 32 percentage points between +1% and -31%
+- Difference between the initial period (Q1 2019) and the final period (Q4 2023E) is 32 percentage points
+
+[Pattern Characteristics]
+- Except for the initial period, the bars are generally below the zero line, subsequently showing a phased decline and remaining in the same low range for an extended period later on.
+- Distribution is unbalanced; low values recur across multiple quarters and persist year-over-year; only a few quarters show brief improvements, but this does not change the dense pattern at the bottom.
+
+[Core Insights]
+Core Conclusion: This indicator has been at a long-term disadvantage relative to 2017–2018, making short-term recovery difficult.
+
+Business Implications:
+- The gap relative to the benchmark has become normalized/structural
+- Creates pressure on target setting and execution
+- Limited room for improvement during the forecast period
+
+Risk Focus:
+- Quarterly value ≤ -31%: May lead to failure to meet annual targets and necessitate plan contraction.
+- Consecutive ≥4 quarters ≤ -30%: May trigger strategic adjustments and the suspension of expansionary actions.

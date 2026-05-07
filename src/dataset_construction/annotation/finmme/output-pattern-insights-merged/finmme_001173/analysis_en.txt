@@ -1,0 +1,27 @@
+[Chart Components]
+- The page contains three line charts, with the main title being "Eurozone: Recovery faster in periphery than core".
+- Top-left chart: Title "PMI surveys…", X-axis shows years 2021–2025, Y-axis shows "Eurozone composite PMI", scale approximately 45–62.5; the legend includes two lines: solid line "Eurozone composite PMI*", dashed line "PMI implied by BNPP’s forecast**".
+- Top-right chart: Title "Recovery across the eurozone…", X-axis shows 2014–2026 (the final section is a dashed line forecast), Y-axis shows "Real GDP (2019=100)", scale 75–110; the legend includes four lines: Spain, Spain, France, Italy, Germany.
+- Bottom-left chart: Title "Growth in real incomes…", X-axis shows 2018–2024; left Y-axis "Real compensation per employee (% y/y)" scale -7–7; right Y-axis "Savings rate (%)" scale 12.5–27.5; the legend includes two lines: compensation growth rate and savings rate.
+
+[Data Relationships]
+- PMI: 2021 high point approximately 60, 2023 low point approximately 48; 2024 approximately 50–52; forecast for 2025 approximately 52.5. The difference between high and low is approximately 12.
+- Real GDP (2019=100): Among the 2020 low points, Spain ≈ 80 (the lowest); Italy ≈ 85; France ≈ 90–95; Germany ≈ 95. End-of-2024 values: Spain ≈ 105–108, Italy ≈ 103–106, France ≈ 101–104, Germany ≈ 100–103; the difference between Spain and Germany is approximately 2–8 points.
+- Real Compensation: 2021 peak ≈ 6%, 2022 trough ≈ -5%, 2024 approximately 1–2%. Savings Rate: 2020 peak ≈ 27%, 2024 approximately 16–17%, a decline of approximately 10–11 percentage points.
+
+[Pattern Characteristics]
+- The PMI curve exhibits a single large fluctuation during the sample period, rising first, then falling, and then stabilizing. The forecast line slightly lifts above recent levels and is smoother, with the overall structure being continuous without significant breaks.
+- Real GDP across countries declined collectively in 2020 and then rebounded synchronously, but a stable gradient difference in levels persists, with peripheral countries generally positioned above core countries. The forecast lines in the future segment maintain the original ranking.
+- Real compensation shows a sharp positive-negative swing followed by minor fluctuations near zero. The savings rate, after a steep surge, gradually declines along a relatively smooth path, without subsequent extreme values.
+
+[Core Insights]
+Core Conclusion: The pace of recovery and the overall restoration of domestic demand in peripheral countries are superior to those in core economies.
+
+Business Implications:
+- Meaning 1: The stabilization and upward movement of the PMI reflect a gradual restoration of overall economic sentiment.
+- Meaning 2: Peripheral GDP is tracking at a higher level, indicating stronger growth momentum.
+- Meaning 3: Real compensation turning positive coupled with the decline in savings is conducive to the release of consumption.
+
+Risk Focus:
+- If the PMI remains below 50 for an extended period, it may correspond to a renewed weakening of actual economic activity.
+- If the savings rate rises back above 20%, household consumption recovery may be significantly suppressed.

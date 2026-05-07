@@ -1,0 +1,27 @@
+[Chart Components]
+- Chart Type: Donut Chart.
+- Center displays total asset size: USD 158 tn.
+- Segments and Labels: Global Wealth Management AUM (Light Blue, USD 86 tn), Global Retail AUM (Cyan, USD 42 tn), Global DC Plan AUM (Dark Blue, USD 30 tn).
+- No axes or separate legend; values and categories are labeled directly on the segments.
+
+[Data Relationships]
+- Total Volume: USD 158 tn; Individual Components: USD 86 tn, USD 42 tn, USD 30 tn.
+- Verification: 86+42+30=158 (Consistent with the total volume).
+- Differences: Wealth Management is 44 tn greater than Retail, and 56 tn greater than DC Plans; Retail is 12 tn greater than DC Plans.
+- Proportions: Wealth Management approximately 54.4%, Retail approximately 26.6%, DC Plans approximately 19.0%.
+
+[Pattern Characteristics]
+- The donut chart exhibits a clear single dominant structure, where one segment occupies more than half of the circle, and the remaining two segments combined are close to, but slightly smaller than, the dominant segment.
+- The three segments are arranged in descending order of size; the middle tier and the smallest tier are similar in area, and the overall structure is complete with no missing or anomalous segments.
+
+[Core Insights]
+Core Conclusion: Assets are primarily concentrated in the Wealth Management sector, indicating high structural concentration.
+
+Business Implications:
+- Wealth Management has a critical impact on overall asset performance.
+- Retail and DC Plans hold secondary positions within the structure.
+- Resource allocation and product design must revolve around the dominant segment.
+
+Risk Focus:
+- If the proportion of Wealth Management consistently exceeds 50%, volatility in this single sector will significantly impact total AUM.
+- If the proportion of Retail or DC Plans remains below 20% for an extended period, the overall structure's resilience against shocks may be limited.

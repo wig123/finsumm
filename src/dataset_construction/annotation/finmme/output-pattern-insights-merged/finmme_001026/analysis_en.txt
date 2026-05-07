@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Vertical Bar Chart
+- Title: NBFCs: PAR 91-180
+- X-axis: Time categories, including Jan-21, Jan-22, Jan-23
+- Y-axis: Percentage scale, 0.0% to 5.0%, with 1.0% intervals
+- Legend: None; Bars are red; Values annotated at the top of each bar (5.0%, 1.6%, 0.8%)
+
+[Data Relationships]
+- Jan-21: 5.0%
+- Jan-22: 1.6%
+- Jan-23: 0.8%
+- Maximum value: 5.0% (Jan-21); Minimum value: 0.8% (Jan-23)
+- The difference between Jan-21 and Jan-22 is 3.4 percentage points; the difference between Jan-22 and Jan-23 is 0.8 percentage points; the difference between Jan-21 and Jan-23 is 4.2 percentage points
+- Jan-22 is 32% of Jan-21; Jan-23 is 16% of Jan-21; Jan-23 is 50% of Jan-22
+
+[Pattern Characteristics]
+The bar heights for the three time points decrease progressively, and the difference between the first year and the subsequent two years is significantly greater than the difference between the latter two years. The overall structure shows a single dominant year, with the values in the remaining two years being relatively close but still showing a trend of further narrowing.
+
+[Core Insights]
+
+Core Conclusion: NBFCs show a continuous improvement trend in PAR 91-180.
+
+Business Implications:
+- Significant decline in the proportion of overdue assets, indicating improved asset quality.
+- Narrowing of default exposure, which helps mitigate credit pressure.
+- Subsequent reduction in pressure related to impairment provisioning and capital utilization.
+
+Risk Focus:
+- If the ratio approaches 3% again or higher, it may increase credit losses and provisioning requirements.
+- If the ratio returns near 5%, it will significantly erode profit margins.

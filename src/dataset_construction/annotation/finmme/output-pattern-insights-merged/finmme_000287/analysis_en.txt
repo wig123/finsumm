@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Red single-line line chart
+- Title: Not displayed
+- X-axis: Time; Scale includes 1Q19, 1Q20, 1Q21, 1Q22, 1Q23, 1Q24F
+- Y-axis: Percentage (%); Range approximately 50–100
+- Legend: None
+
+[Data Relationships]
+- 1Q19 data point approximately 71%, annual low approximately 62%
+- 1Q20 approximately 90%
+- 1Q21 peak approximately 98–99%
+- 1Q22 low approximately 72%, high approximately 91%, difference approximately 19 pct
+- 1Q23 lowest approximately 59%, another high approximately 85%, difference approximately 26 pct
+- 1Q24F approximately 80%; approximately 9 pct higher than 1Q19; approximately 19 pct lower than the overall maximum (≈99%)
+- Overall maximum ≈99%, overall minimum ≈59%, high-low spread approximately 40 pct
+
+[Pattern Characteristics]
+The overall structure shows a single-peak, multi-valley pattern with multiple fluctuations, operating within a relatively high range but with a wide fluctuation span. The overall highest point formed around 1Q21, followed by significant high-level pullbacks and low-level rebounds in subsequent years. The overall lowest point occurred in 1Q23, after which 1Q24F is positioned in the upper-middle range between the historical high and low.
+
+[Core Insights]
+Core Conclusion: The indicator exhibits significant cyclical adjustments within the high-level range.
+
+Business Implications:
+- The overall level is relatively high, but phased performance is unstable.
+- The widening spread between peaks and valleys amplifies fluctuations in related revenues and costs.
+- 1Q24F is at a moderate level, allowing room for strategic adjustments.
+
+Risk Focus:
+- If it approaches below 60% again, it may trigger performance and assessment pressure.
+- If it approaches above 95%, subsequent pullbacks may lead to significant short-term P&L volatility.

@@ -1,0 +1,26 @@
+[Chart Components]
+- Type: Multi-series quarterly line chart; Title: “Automotive chip revs”.
+- X-axis: Time from Mar-16 to Dec-23 (quarterly scale).
+- Y-axis: Quarterly Revs (USDmm), range approximately 0–10,000.
+- Legend: Infineon, NXP, Renesas, TXN, ON, ADI (incl. Maxim), Rohm, Total.
+
+[Data Relationships]
+- Total: Approximately 3,900 in Mar-16; approximately 3,700 in Jun-20 (lowest point); approximately 9,300–9,400 in Dec-23 (highest point); high-low difference approximately 5,600; difference between start and end of period approximately 5,400.
+- Company values in Dec-23: Infineon≈2,250; NXP≈1,800; Renesas≈1,200; ON≈1,200; TXN≈1,050; ADI≈1,000; Rohm≈400; close to Total.
+- Company values in Mar-16: Infineon≈600; NXP≈900; Renesas≈700; ON≈500; TXN≈450; ADI≈300; Rohm≈200; Total≈3,900.
+- Difference between end and start of period: Infineon≈1,650; NXP≈900; Renesas≈500; ON≈700; TXN≈600; ADI≈700; Rohm≈200; Total≈5,400.
+
+[Pattern Characteristics]
+Overall, the total series initially rose slowly, hit a noticeable trough in mid-2020, and then continued to surge to the highest level shown in the chart. The curves for individual companies also dipped concurrently in mid-2020, after which they all displayed a step-like upward arrangement, with the spacing between them widening slightly. Infineon and NXP occupied the upper range in the later period, while Rohm consistently remained in the lower range. No significant crossover reversals occurred between the series.
+
+[Core Insights]
+Core Conclusion: The industry revenue scale has expanded significantly, and leader concentration has increased.
+
+Business Implications:
+- Overall profit volume has significantly increased, enlarging the market space.
+- Market share of leading manufacturers like Infineon and NXP has increased, strengthening their bargaining power.
+- The rapid recovery post-2020 reflects high elasticity in both demand and supply.
+
+Risk Focus:
+- If the Total revenue approaches the Jun-20 low level again, it could lead to a rapid contraction of capacity and investment.
+- If a single manufacturer's revenue falls below its level near 2020, it may trigger significant market share loss and changes in the competitive landscape.

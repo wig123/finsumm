@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Stacked Bar Chart + Line
+- Title: China AI market spending
+- Left Y-axis: USDbn, Range 0–30
+- Right Y-axis: YoY%, Range 0–30%
+- X-axis: Year: 2021, 2022, 2023e, 2024e, 2025e, 2026e
+- Legend: Software (Red), Service (Light Pink), Hardware (Gray), YoY (Black Line, RHS)
+
+[Data Relationships]
+- Total Expenditure (USDbn): 2021=10, 2022=12, 2023e=15, 2024e=18, 2025e=22, 2026e=26.
+- Annual Difference (Relative to Previous Year): +2, +3, +3, +4, +4 (Corresponding to 2022 through 2026e).
+- Difference between 2026e and 2021 = +16 USDbn; Relative Increase = +160%.
+- Difference between 2025e and 2024e = +4 USDbn; Difference between 2024e and 2023e = +3 USDbn.
+- Each bar is composed of three components: Software, Service, and Hardware; specific sub-item values are not labeled.
+
+[Pattern Characteristics]
+Overall bar height shows continuous growth, with the single-year increment slightly increasing in the middle-to-later period. In the stacked structure, the proportion of the gray segment is consistently the largest, followed by red, and light pink is the smallest, indicating a relatively stable structure. After peaking in the first year, the line shows a significant decline, then fluctuates slightly around a moderate level, with no sudden movements.
+
+[Core Insights]
+Core Conclusion: Market size is expanding rapidly, the structure is dominated by hardware, and the short-term landscape is stable.
+
+Business Implications:
+- Expanding expenditure volume indicates a sustained increase in willingness to invest.
+- Hardware-dominated structure, capital is primarily concentrated on foundational capability construction.
+- Growth rate remains in the moderate range, which is favorable for medium-term planning and budget preparation.
+
+Risk Concerns:
+- If YoY growth falls below 10%, it could lead to a slowdown in new project initiation and expansion.
+- If the hardware proportion remains above 70% long-term, it may crowd out investment in software and service capabilities.

@@ -1,0 +1,34 @@
+[Chart Components]
+- Type: Bar Chart
+- Title: Training cost of ChatGPT models (USD)
+- Axes: The vertical axis represents cost (in USD), ranging from 0 to 2,000,000,000; the horizontal axis displays different ChatGPT versions.
+- Legend: None, specific values are annotated directly on the bar chart.
+
+[Data Relationships]
+- Key Metrics:
+  - The training cost for ChatGPT-2 is $40,000
+  - The training cost for ChatGPT-3 is $4,500,000
+  - The training cost for ChatGPT-4 is $100,000,000
+  - The training cost for ChatGPT-5 ranges between $2,250,000,000 and $1,250,000,000
+- Extremum Comparison:
+  - The training cost of ChatGPT-5 is significantly higher than other versions, representing the maximum.
+  - The training cost of ChatGPT-2 is the lowest.
+- Significant Trend:
+  - Training costs show an exponential growth trend with version upgrades.
+
+[Pattern Characteristics]
+- Bar heights increase sequentially by version, with an accelerating rate of growth.
+- The structure is clearly unbalanced, with the single bar at the end dominating the overall scale.
+- The final bar is annotated with a range, showing a significant gap compared to the preceding bar.
+
+[Core Insights]
+Core Conclusion: Training expenses impose an extremely high financial barrier for the latest version.
+
+Business Implications:
+- R&D investment is highly concentrated in the new generation.
+- Budget allocation must be skewed toward higher-tier versions.
+- Capital acquisition capability becomes the primary constraint.
+
+Risk Focus:
+- A budget < $100,000,000 is insufficient to support ChatGPT-4.
+- Funding < $1,250,000,000 cannot reach the cost range of ChatGPT-5.

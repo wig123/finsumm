@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Combination Chart (Red Bar + Black Line)
+- Title: Not displayed; Legend items are "Aftermarket Revenue (INR bn)" and "% y‑y (RHS)"
+- X-axis: Fiscal Years FY16—FY23
+- Left Y-axis: 0—12 (Unit: INR bn)
+- Right Y-axis: 1%—36% (Scale: 1%, 6%, 11%, 16%, 21%, 26%, 31%, 36%)
+- Legend: Red bars represent Aftermarket Revenue; Black line represents Year-over-Year percentage (RHS)
+
+[Data Relationships]
+- Annual Revenue (INR bn): FY16≈4.4, FY17≈4.6, FY18≈5.0, FY19≈5.7, FY20≈5.6, FY21≈7.5, FY22≈8.2, FY23≈10.5.
+- Maximum revenue is FY23≈10.5, minimum is FY16≈4.4, difference≈6.1.
+- Difference between adjacent years: FY23–FY22≈2.3; FY22–FY21≈0.7; FY21–FY20≈1.9; FY19–FY18≈0.7; FY20–FY19≈0.1.
+- % y‑y (YoY): FY18 approximately 11%—16%; FY19 approximately 21%—26%; FY20≈1%; FY21 approximately 31%—36% (Highest); FY22 approximately 11%—16%; FY23 approximately 26%—31%.
+
+[Pattern Characteristics]
+- The bar sequence generally shows a stepwise increase from low to high levels, with only a slight dip occurring in FY20, maintaining a continuous upward structure in all other years.
+- After gradually moving upward during the FY16—FY19 period, the line briefly dropped close to the lower limit of the right axis, subsequently showing a single peak in FY21, then falling back in FY22 before returning to a higher level in FY23.
+- The volatility of the revenue growth rate curve is significantly greater than the revenue itself. FY21 forms the most prominent extreme point, creating a clear inflection point relative to the low point in FY20.
+
+[Core Insights]
+Core Conclusion: The scale of the aftermarket business continues to expand, but the pace of growth is highly uneven.
+
+Business Implications:
+- Revenue volume is significantly higher than early levels, reflecting the effectiveness of business expansion.
+- The significant fluctuation in the growth rate indicates high sensitivity to the external environment and internal operational pace.
+- Maintaining double-digit growth after FY21 suggests that the growth momentum has not yet exhausted.
+
+Risk Concerns:
+- If the % y‑y (YoY) approaches the FY20 level of approximately 1% again, the revenue slowdown will compress profit elasticity.
+- If the future % y‑y (YoY) remains consistently below the FY18/FY22 range of approximately 11%, subsequent room for improvement will be limited due to the high base effect.

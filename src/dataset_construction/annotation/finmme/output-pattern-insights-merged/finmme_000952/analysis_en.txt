@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Time series line chart
+- Title: Not displayed
+- X-axis: Time, range 01‑21 to 01‑24, scale includes 04‑21, 07‑21, 10‑21, 01‑22, 07‑22, 10‑22, 01‑23, 04‑23, 07‑23, 10‑23
+- Y-axis: Price (GBP), range GBP0.00 to GBP1,400.00, scale approximately every GBP200
+- Legend: Closing price (green line); Target price (blue horizontal line, accompanied by 4 red markers)
+
+[Data Relationships]
+- 01‑21 Closing price ≈ GBP1,000; 01‑24 ≈ GBP900, difference −GBP100
+- Highest closing price ≈ GBP1,300 (around 10‑21); Lowest ≈ GBP800 (around 07‑23), high-low difference ≈ GBP500
+- Target price ≈ GBP1,050
+- 04‑23 Closing price ≈ GBP1,050, comparable to the target price
+- 07‑23 ≈ GBP900, lower by ≈ GBP150; 10‑23 ≈ GBP950, lower by ≈ GBP100; 01‑24 ≈ GBP900, lower by ≈ GBP150
+
+[Pattern Characteristics]
+- The line fluctuates around the mid-to-high range in the first half, experiencing a significant upward expansion followed by a pullback.
+- Subsequently, the price fluctuates narrowly within a lower range, with the overall center of gravity shifting downward compared to the previous period.
+- The horizontal Target price line remains unchanged. The curve briefly approaches it, then stays below it for an extended period. The end shows a slight rebound but still fails to reach the early high range.
+
+[Core Insights]
+Core Conclusion: The current price has been consistently below the fixed target level, increasing valuation pressure.
+
+Business Implications:
+- The current stock price lacks effective support relative to the target level.
+- There is a significant gap between expected returns and actual realization.
+- Investor returns depend on subsequent price recovery potential.
+
+Risk Focus:
+- If the price remains persistently below GBP1,050, holding returns may consistently fall short of expectations.
+- If the price approaches the vicinity of GBP800 again without a rebound, it could trigger stop-loss orders and emotional selling pressure.

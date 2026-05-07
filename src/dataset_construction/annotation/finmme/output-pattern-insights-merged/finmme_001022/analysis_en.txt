@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Time series line chart (red main line), accompanied by multiple gray reference bands
+- Title: Not displayed
+- Left Y-axis: Unit TWD, range approximately 20–200, common tick marks include 50, 80, 110, 140, 170
+- Right Y-axis: Labeled “1.0x,” “2.0x,” “3.0x,” “4.0x,” corresponding to the gray reference bands
+- X-axis: Time range Jan-18 to Oct-24, labeled with several dates (e.g., Jan-18, Oct-18, Jul-19…)
+- Legend: Not displayed
+
+[Data Relationships]
+- Initial period (Jan-18) approximately 70 TWD; Final period (near Oct-24) approximately 160–170 TWD; Difference approximately 90–100 TWD
+- Peak value approximately 165–170 TWD (around Jan-24)
+- Trough value approximately 40–45 TWD (around Jul-22); Peak-to-trough difference approximately 120–130 TWD
+- High point in the first half of 2020 approximately 130–135 TWD
+- Mid-year value in 2023 approximately 50–60 TWD
+- Near Jan-24, the red line is between “2.0x” and “3.0x”; Near Jul-22, it is close to the “1.0x” line
+
+[Pattern Characteristics]
+The overall trend is divided into three structural phases: initial upward oscillation, mid-section decline and bottoming out, and subsequent rapid ascent. In the early and middle stages, the price frequently fluctuated around the central gray band, with frequent local highs and lows. After a clear low point appeared in mid-2022, the curve crossed multiple gray bands upward, approaching the upper reference range by early 2024.
+
+[Core Insights]
+Core Conclusion: After undergoing a deep correction, the price has risen again and significantly elevated the range.
+
+Business Implications:
+- Following the cyclical adjustment, the overall price level has increased.
+- The current degree of premium relative to the historical average has significantly increased.
+- Price sensitivity to the upper and lower boundaries of the range has strengthened.
+
+Risk Concerns:
+- If the price falls back below the 1.0x band, it could imply giving back most of the gains since the trough.
+- If the price surges above 3.0x in the short term, it could lead to significant correction pressure and increased volatility.

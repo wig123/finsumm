@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Time series chart with three lines
+- Title: Credit/Loans outstanding YoY
+- X-axis: Years 2011–2023
+- Y-axis: Percentage 0%–25%, increments of 5%
+- Legend: Asia (Red), LatAm (Gray), EMEA (Black)
+
+[Data Relationships]
+- 2011: Asia≈14%, LatAm≈16%, EMEA≈15%.
+- Historical Peaks: EMEA in 2020–2021≈23%; LatAm in 2022≈15%; Asia in 2011≈15%.
+- Historical Troughs: EMEA in 2018≈5–6%; LatAm in 2021≈2–3%; Asia in 2017≈8–9%.
+- Magnitude (Peak-Trough): EMEA≈17pp; LatAm≈12pp; Asia≈6pp.
+- 2023: Asia≈10%, LatAm≈10%, EMEA≈8–9%; Asia-EMEA difference≈1–2pp, LatAm-EMEA difference≈1–2pp.
+
+[Pattern Characteristics]
+Among the three series, Asia exhibits the smoothest trend, remaining at a median level long-term; LatAm showed a significant contraction in the middle period followed by a resurgence, forming an overall U-shaped structure; EMEA experienced the most violent fluctuations in the latter half of the sample, with multiple rapid surges and pullbacks in the short term. The values for the three regions converged in the early and final stages, with the most significant divergence occurring between 2018–2021. During this period, EMEA established a prominent high range, while LatAm reached a local minimum around 2021.
+
+[Core Insights]
+Core Conclusion: Credit growth rates in the three regions diverged and then converged again, with EMEA being the most sensitive to volatility.
+
+Business Implications:
+- Asia reflects a relatively stable pace of credit expansion
+- LatAm is relatively passive regarding cyclical changes, prone to contraction phases
+- EMEA reacts strongly to environmental changes, with frequent adjustments to credit conditions
+
+Risk Focus:
+- When EMEA falls below approximately 5%, it may correspond to a significant lack of regional credit support
+- When EMEA exceeds approximately 20%, it may correspond to rising leverage accumulation and default pressure

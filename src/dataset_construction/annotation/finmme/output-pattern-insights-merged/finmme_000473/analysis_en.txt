@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Vertical bar chart
+- Legend/Indicator: Red bar, “Gross margin change (bps)”
+- X-axis: Quarterly classification, 3Q22—3Q24, total 9 periods
+- Y-axis: bps scale, approximately from -1,000 to 800, 0 as baseline, step size approximately 200
+- Specific values labeled on each bar
+
+[Data Relationships]
+- Values per period (3Q22 to 3Q24): -781, -452, -178, -12, 61, 315, 492, 706, 541
+- Lowest value: -781 (3Q22); Highest value: 706 (2Q24); Range: 1,487 bps
+- Initial period (3Q22) -781, Final period (3Q24) 541, Difference: 1,322 bps
+- 4 periods of negative values (3Q22, 4Q22, 1Q23, 2Q23); 5 periods of positive values (3Q23 to 3Q24)
+- Difference from 2Q23 to 3Q23: 73 bps (-12 to 61)
+- Difference between 3Q24 and 2Q24: -165 bps (541 vs 706)
+
+[Pattern Characteristics]
+- The data gradually moves upward from the initial significant low, first narrowing in the negative range, then entering the positive range and maintaining a high level.
+- The overall structure shows continuous, unidirectional change with no significant discontinuity, only a slight pullback in the final period relative to the preceding period.
+- There is a clear contrast in duration and magnitude between the negative and positive value segments. 2Q24 formed the highest point of the entire series, with 3Q24 being a localized exception.
+
+[Core Insights]
+Core Conclusion: Gross margin movement shifted from significant pressure to substantial improvement.
+
+Business Implications:
+- Profitability quality was pressured in the early stages, followed by a clear recovery later.
+- The contribution of pricing and cost control to gross margin gradually strengthened.
+- The current profitability level provides strong support for subsequent performance.
+
+Risk Focus:
+- If it falls below 0 bps again, it means the YoY gross margin will no longer improve.
+- If the pullback exceeds 200 bps, it could significantly drag down profit growth.

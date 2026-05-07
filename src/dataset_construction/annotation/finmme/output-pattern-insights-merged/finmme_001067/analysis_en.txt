@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Multi-line chart; title not displayed.
+- X-axis: Time, 1H20, 2H20, 1H21, 2H21, 1H22, 2H22, 1H23.
+- Y-axis: Percentage, range approximately -100% to 300%, including 0%, 100%, 200% scale markers.
+- Legend: Overseas (Red), Domestic (Gray), Total (Black).
+
+[Data Relationships]
+- Overseas: Peak 216.0% (1H20), Trough 131.5% (2H21), 1H23 stands at 139.8%.
+- Domestic: Peak 58.0% (1H21), Trough -16.3% (2H22), 1H23 stands at 19.3%.
+- Total: Peak 114.9% (1H21), Trough -24.4% (2H22), 1H23 stands at 10.7%.
+- 1H20 Difference: Overseas - Domestic = 165.5 pct, Overseas - Total = 167.5 pct.
+- 2H22 Difference: Overseas - Domestic = 156.3 pct, Overseas - Total = 164.4 pct.
+- Total Change: 1H21 vs. 1H20 +66.4 pct; 2H22 vs. 1H22 -52.8 pct.
+
+[Pattern Characteristics]
+Among the three lines, Overseas consistently remains in the highest range, fluctuating narrowly at a high level without significant extreme spikes. The trends of Domestic and Total are similar, showing an upward surge in the middle segment followed by a period-by-period decline, briefly entering the negative range in 2H22, and then slightly recovering. Overseas maintains a significant gap from the other two lines throughout the period, with the divergence among the three being most pronounced in 2H22.
+
+[Core Insights]
+Core Conclusion: Overall performance is highly dependent on Overseas contribution, and Domestic volatility significantly impacts Total.
+
+Business Implications:
+- Overseas is the primary driver source, with high concentration of contribution.
+- Domestic experienced periodic weakness, dragging down the overall result.
+- Total is relatively sensitive to changes in Domestic, indicating limited resilience.
+
+Risk Focus:
+- When Domestic approaches 0% or turns negative (e.g., 2H22), Total is easily pulled down to a low level or even into negative territory.
+- If Overseas falls below 150%, and Domestic remains low, Total may linger in the single-digit level for an extended period.

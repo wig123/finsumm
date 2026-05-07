@@ -1,0 +1,33 @@
+[Chart Components]
+- Chart Type: Time series line chart, including event markers
+- Title: Hyundai Motor
+- Top right information: As of 04-Mar-2024; Currency=KRW
+- X-axis: Date, range approximately 2021/06–2024/03; Ticks include 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01
+- Y-axis: Price (KRW), range 0–325,000
+- Legend: Closing Price (Black line); Target Price Change (Green triangle); Recommendation Changes (Blue dot)
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial closing price approximately 220,000 (2021/07); Final closing price approximately 245,000 (2024/03), difference approximately 25,000
+- Closing price high approximately 245,000 (2024/02–03); Low approximately 155,000 (2023/01–03), high-low difference approximately 90,000
+- Target Price: 2021/08≈310,000; 2021/11≈280,000; 2022/04≈270,000; 2022/07≈290,000
+- 2023/01≈230,000; 2023/06≈310,000; 2023/11≈240,000; 2024/02≈330,000
+- The final target price of 330,000 is approximately 85,000 higher than the final closing price of 245,000
+- One recommendation change marker is visible (approximately 2023/01)
+
+[Pattern Characteristics]
+The closing price initially weakened slowly from the start of the period, formed a clear low range near the beginning of 2023, then gradually rose and approached the peak of the entire period near the beginning of 2024.
+The target price appeared multiple times at a higher level, with limited upward and downward adjustments. The overall range is significantly higher than the closing price for the corresponding period, only narrowing slightly at individual points in time.
+The visible recommendation change occurred near the low point of the closing price, adjacent to the subsequent upward phase of the closing price.
+
+[Core Insights]
+Core Conclusion: The closing price rebounded after hitting a low, but there is still a significant gap compared to the target price.
+
+Business Implications:
+- The stock price has achieved a phase of recovery, but has not yet approached the analysts' expected range.
+- The valuation upside remains significant; the price has not fully reflected the projected level.
+- The adjustment of the view/recommendation in early 2023 shows some positive validation with subsequent performance.
+
+Risk Focus:
+- If the closing price approaches 155,000 again, it could lead to significant book value drawdown pressure.
+- If the target price is lowered to near the current closing price (approximately 245,000), it could imply that the upside potential is significantly compressed.

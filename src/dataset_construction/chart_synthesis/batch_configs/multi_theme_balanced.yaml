@@ -1,0 +1,121 @@
+# 多主题均衡分布 - 覆盖所有主要主题
+# 用法: python scripts/run_batch.py --config batch_configs/multi_theme_balanced.yaml
+
+batch_name: "multi_theme_balanced"
+output_base_dir: "./batch_output"
+
+execution:
+  parallel: true
+  max_workers: 8
+  use_process_pool: false
+
+charts:
+  # === 宏观政策 (macro_policy) ===
+  - chart_type: line
+    language: zh-CN
+    theme: macro_policy
+    task: monitor
+
+  - chart_type: bar
+    language: en-US
+    theme: macro_policy
+    task: compare
+
+  # === 通胀 (inflation) ===
+  - chart_type: line
+    language: zh-CN
+    theme: inflation
+    task: monitor
+
+  - chart_type: scatter
+    language: en-US
+    theme: inflation
+    task: explain
+
+  # === 增长与就业 (growth_employment) ===
+  - chart_type: line
+    language: zh-CN
+    theme: growth_employment
+    task: monitor
+
+  - chart_type: bar
+    language: en-US
+    theme: growth_employment
+    task: compare
+
+  # === 大宗商品 (commodities) ===
+  - chart_type: line
+    language: zh-CN
+    theme: commodities
+    task: monitor
+
+  - chart_type: bar
+    language: en-US
+    theme: commodities
+    task: compare
+
+  # === 外汇与贸易 (fx_trade) ===
+  - chart_type: line
+    language: zh-CN
+    theme: fx_trade
+    task: monitor
+
+  - chart_type: scatter
+    language: en-US
+    theme: fx_trade
+    task: diagnose
+
+  # === 权益市场 (equity_markets) ===
+  - chart_type: bar
+    language: zh-CN
+    theme: equity_markets
+    task: monitor
+
+  - chart_type: line
+    language: en-US
+    theme: equity_markets
+    task: compare
+
+  # === 固定收益 (fixed_income) ===
+  - chart_type: line
+    language: zh-CN
+    theme: fixed_income
+    task: monitor
+
+  - chart_type: bar
+    language: en-US
+    theme: fixed_income
+    task: compare
+
+  # === 银行与信贷 (banking_credit) ===
+  - chart_type: line
+    language: zh-CN
+    theme: banking_credit
+    task: monitor
+
+  - chart_type: scatter
+    language: en-US
+    theme: banking_credit
+    task: explain
+
+  # === 企业财务 (corporate_finance) ===
+  - chart_type: bar
+    language: zh-CN
+    theme: corporate_finance
+    task: monitor
+
+  - chart_type: line
+    language: en-US
+    theme: corporate_finance
+    task: compare
+
+  # === 房地产 (real_estate) ===
+  - chart_type: line
+    language: zh-CN
+    theme: real_estate
+    task: monitor
+
+  - chart_type: bar
+    language: en-US
+    theme: real_estate
+    task: diagnose

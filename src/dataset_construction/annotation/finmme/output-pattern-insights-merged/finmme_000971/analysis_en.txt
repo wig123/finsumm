@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Dual line chart (Y-o-Y percentage)
+- Title: Not displayed
+- Y-axis: Labeled "y-y", range approximately -60% to 100%, scale increments of 20%
+- X-axis: Time axis, labeled from 2019/01 to 2023/10 (monthly)
+- Legend: Orange "Consumer electronics", Purple "Automotive/industrial machinery"
+- Right annotation box: Consumer electronics 23/12: +9.9%; Automotive/industrial machinery 23/12: +6.9%
+
+[Data Relationships]
+- 23/12 Values: Consumer electronics +9.9%; Automotive/industrial machinery +6.9%; Difference of 3.0 percentage points
+- Orange line trough approximately 2023/02, about -41%; Purple line trough approximately 2020/06, about -35%; Trough difference approximately 6 percentage points
+- Purple line peak approximately 2021/06, about 70%; Orange line peak approximately 2020/04, about 40%; Peak difference approximately 30 percentage points
+- 2023/10 Endpoint: Orange line approximately 18%, Purple line approximately 7%; Difference approximately 11 percentage points
+- Near 2022/01, both lines are close to 0%, differing by no more than 1 percentage point
+
+[Pattern Characteristics]
+Both lines generally exhibit high-frequency, large-amplitude fluctuations, alternately occupying relatively high or low positions across different time periods. The purple line formed a higher peak near mid-2020 and significantly diverged from the orange line multiple times before and after this period. The orange line showed a deeper negative extreme value near early 2023. Both lines briefly converged near early 2022. There are multiple instances of short-term crossovers and divergences in the same direction. At the endpoint, both lines are in positive territory but at inconsistent levels.
+
+[Core Insights]
+Core Conclusion: The business cycles (prosperity levels) of the two sectors are asynchronous, with consumer electronics leading the recent recovery.
+
+Business Implications:
+- The cycles of the two sectors are unsynchronized, showing clear characteristics of cyclical rotation.
+- Consumer electronics contributes more to overall volatility and exhibits higher sensitivity.
+- Current allocation favors consumer electronics; automotive/industrial machinery is suitable as a complement.
+
+Risk Focus:
+- If either sector's Y-o-Y growth falls below -20% again, it could trigger a dual compression of earnings and valuation.
+- If the two lines diverge significantly again by over 30 percentage points, it may amplify structural drawdowns in the portfolio.

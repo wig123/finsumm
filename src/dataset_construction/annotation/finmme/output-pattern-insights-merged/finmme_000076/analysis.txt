@@ -1,0 +1,29 @@
+【图表构成】
+- 类型：堆积柱状图
+- 标题：无标题
+- 坐标轴：横轴为财政年度（FY17至FY22），纵轴为数量（范围0到500）
+- 图例：包含“Retail stores”、“Roboshops”、“Wholesale and others”、“Online channels”
+
+【数据关系】
+- FY17至FY19，所有渠道的总数均为零，变化趋势平稳。
+- FY20开始出现数据，主要为“Roboshops”（27）。
+- FY21数据增加至总计74，分别为“Roboshops”（41）和“Wholesale and others”（33）。
+- FY22达到显著高点，总计459，分类为“Retail stores”（136）、“Roboshops”（19）、“Wholesale and others”（213）、“Online channels”（90）。
+- 从FY21到FY22，总数显著增加，尤其是“Wholesale and others”的增幅最大。
+
+重要趋势：FY21至FY22，“Wholesale and others”出现快速增长，是增长主力。其他渠道也有不同程度的增长。
+
+【模式特征】
+FY17-FY19保持零值，FY20开始出现单一堆积，FY21堆积高度提升并出现多类别。FY22出现显著跃升，堆积结构不均衡，“Wholesale and others”面积最大。与FY21相比，“Roboshops”块体缩小，新增“Retail stores”和“Online channels”占据可见比例。
+
+【核心洞察】
+核心结论：渠道结构重心偏向“Wholesale and others”，多元化已形成。
+
+业务含义：
+- 主要贡献集中于批发端
+- 零售与线上开始具备规模
+- Roboshops资源占比偏低
+
+风险关注：
+- FY22“Wholesale and others”<213，总规模难维持FY22水平
+- FY22总计≤74，将回到FY21量级，渠道协同受限

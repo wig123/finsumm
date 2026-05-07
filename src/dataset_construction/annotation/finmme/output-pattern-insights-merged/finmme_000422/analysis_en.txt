@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Time series line chart; title not displayed
+- X-axis: Date, range December 2, 2020, to December 2, 2023, major ticks are Mar/Jun/Sep/Dec
+- Y-axis: Percentage, range -100% to 300%, labeled including 0%, 100%, 200%, 300%
+- Legend: 4 series
+  1) Red: Polysilicon - prime for mono
+  2) Light Gray: Mono wafer - 210mm
+  3) Black: Mono PERC cell - 210mm
+  4) Light Orange: Mono PERC module - 210mm
+
+[Data Relationships]
+- Starting point 2020/12: All four series are approximately 0%
+- Polysilicon: Peak approximately 270% (2022/9–12); 2023/12 approximately -10%; change from peak to end approximately -280 percentage points
+- Wafer: Peak approximately 80% (2022/9–12); 2023/12 approximately -20%; peak to end approximately -100 percentage points
+- Cell: Peak approximately 40% (2022/6–12); 2023/12 approximately -60%; peak to end approximately -100 percentage points
+- Module: Peak approximately 20% (2021/9–2022/3); 2023/12 approximately -30%; peak to end approximately -50 percentage points
+- 2022/12→2023/2: Polysilicon dropped from approximately 270% to approximately 80%, a difference of about -190 percentage points; 2023/3 is approximately 170%, an increase of about 90 percentage points compared to 2023/2
+- 2023/12 Comparison: Cell lowest approximately -60% < Module -30% < Wafer -20% < Polysilicon -10%
+
+[Pattern Characteristics]
+The four series start from the same level near the origin, subsequently diverging during 2021-2022, with the Red series showing significantly greater magnitude and duration of increase than the other three. All series rapidly retreated from high levels near the end of 2022 and remained generally below zero throughout 2023, but the relative ranking at the end remains stable: Black lowest, followed by Light Orange, Light Gray, and Red highest. The Red series experienced a brief rebound (retracement) in mid-2023, while the other three moved downward more smoothly.
+
+[Core Insights]
+Core Conclusion: Upstream segments exhibit greater volatility, while downstream profit margins face more prolonged pressure.
+
+Business Implications:
+- Upstream pricing power is stronger, and cyclicality is more pronounced.
+- Downstream module and cell profitability is more squeezed and recovery is lagged.
+- Profit distribution across the entire chain shows a pattern of upstream concentration and downstream weakness.
+
+Risk Concerns:
+- If the upstream series approaches 200% or higher again, the downstream may struggle to pass on costs synchronously.
+- If the cell or module series consistently remains below -50%, downstream companies' cash flow and capacity utilization may face significant pressure.

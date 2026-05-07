@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Dual-axis combination chart (Pink bars = Inventory value, Gray line = Year-over-Year YoY)
+- Title/Legend: Lululemon: quarterly inventory (USDmn); y-y
+- X-axis: Quarter, 1Q14 to 1Q24
+- Left Y-axis: Inventory value scale 0–2,000 (Unit: Million USD)
+- Right Y-axis: YoY percentage scale -40%–100%
+
+[Data Relationships]
+- 1Q14 inventory was approximately $150 million USD; 1Q24 was approximately $1,650 million USD, an increase of about $1,500 million USD
+- The highest inventory during the entire period was approximately $1,750 million USD in 1Q23; the lowest was approximately $150 million USD in 1Q14, a difference of about $1,600 million USD
+- 3Q23 inventory was approximately $1,500 million USD, about $250 million USD less than 1Q23, and about $150 million USD less than 1Q24
+- The YoY fluctuation range is approximately -30% to nearly 100%; the peak was around 100% in 3Q16, and the trough was around -30% in 1Q17
+- 1Q23 YoY was approximately 80%; 3Q23 was approximately 0%; 1Q24 was approximately 15%
+
+[Pattern Characteristics]
+- The pink bars generally show a stepped increase, reaching a clear high point in 1Q23 in the middle-to-later period, followed by a slight decline before stabilizing in a higher range.
+- The gray line oscillates frequently throughout the period, showing multiple sharp extreme points, particularly forming distinct inverse extremes (one high, one low) around 3Q16 and 1Q17.
+- In recent quarters, while the high level of inventory value has continued, the YoY growth rate rapidly retreated from its previous extremely high level to near zero before slightly rebounding.
+
+[Core Insights]
+Core Conclusion: Inventory scale has significantly expanded, but the growth rate has clearly slowed down.
+
+Business Implications:
+- Capital tied up in inventory has increased significantly, requiring more stringent capital allocation.
+- The alignment between replenishment and sales pace is becoming more critical.
+- Future inventory efficiency will directly impact earnings flexibility.
+
+Risk Focus:
+- When inventory approaches $1,750 million USD and YoY exceeds 70%, if demand falls short of expectations, it could lead to significant markdowns and write-downs.
+- When YoY drops near 0% and inventory remains above $1,500 million USD, slower turnover may significantly compress gross margin and cash flow.

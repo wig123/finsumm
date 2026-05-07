@@ -1,0 +1,34 @@
+[Chart Components]
+- Chart Type: Dual Line Chart
+- Title: Not displayed
+- X-axis: Year, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023F, 2024F, 2025F
+- Y-axis: Percentage, range 0%–90%
+- Legend: Red line "Security product GPM %", Gray line "Security service GPM %"
+
+[Data Relationships]
+- 2014: Product 76%, Service 56%, a difference of 20 percentage points.
+- Product peak 80% (2015), trough 61% (2023F-2025F).
+- Service peak 68% (2019), trough 45% (2017).
+- 2016: Product 78%, Service 47%, a difference of 31 percentage points.
+- 2019: Product 65%, Service 68%, Service is higher by 3 percentage points.
+- 2021: Both are 66%; 2022: Both are 63%.
+- 2023F: Product 61%, Service 55%, a difference of 6 percentage points.
+- 2024F: Product 61%, Service 54%, a difference of 7 percentage points.
+- 2025F: Product 61%, Service 53%, a difference of 8 percentage points.
+
+[Pattern Characteristics]
+- The red line maintained a high level in the early period, showed a significant decline in the middle segment, and subsequently remained relatively stable in the lower range; the gray line first retreated, then rose, briefly exceeding the red line in the middle segment, and then retreated again to the mid-to-low range.
+- There was a large gap between the two lines early on, which subsequently narrowed, leading to a crossover and several overlaps. The gap then widened again, but the magnitude is significantly smaller than in the early period.
+- The gray line formed a distinct low point around 2017. The red line showed a stepped downward shift after 2019. During the 2021–2022 period, the two lines formed a brief overlapping plateau.
+
+[Core Insights]
+Core Conclusion: The Gross Profit Margin structure of products and services shifted from "Product significantly dominant" to "Gap narrows, then widens again."
+
+Business Implications:
+- The overall profitability structure shifts from a single high-profit source to a more balanced structure.
+- Service-side profitability strengthens temporarily before weakening again.
+- Product-side profitability declines and then stabilizes within a new range.
+
+Risk Concerns:
+- If product GPM remains close to 60% long-term, the buffer space for profit against cost fluctuations decreases.
+- If service GPM continues to fall below 50%, the overall business portfolio margin may be significantly dragged down.

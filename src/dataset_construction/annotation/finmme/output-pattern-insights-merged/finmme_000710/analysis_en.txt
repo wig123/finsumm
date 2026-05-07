@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Multi-line time series chart (including one "Close" line and multiple numbered reference lines).
+- Title: Not displayed.
+- Y-axis: Unit is TWD, range 0–2,500, scale interval approximately 500.
+- X-axis: Date range 2016/3/24 to 2023/3/24, marked annually.
+- Legend: Close (red), and multiple reference lines numbered 2, 3, 4, 5 (dashed), 6, 7, 8.
+
+[Data Relationships]
+- Initial period (2016/3/24) Close ≈ 500 TWD; Final period (2023/3/24) Close ≈ 500 TWD; Difference between the two ≈ 0 TWD.
+- All-time high Close ≈ 1,400 TWD (around mid-2017); Lowest ≈ 300 TWD (around mid-2022); High-low difference ≈ 1,100 TWD.
+- Significant high point of Close near 2019/3–2020/3 ≈ 1,000 TWD.
+- Close near 2021/3/24 ≈ 750 TWD; Close near 2022/3/24 ≈ 400 TWD.
+- As of 2023/3/24: Reference line 5 ≈ 1,000 TWD, Reference line 3 ≈ 700 TWD, Reference line 2 ≈ 500 TWD; Close during the same period ≈ 500 TWD, close to Reference line 2; Difference from Reference line 5 ≈ 500 TWD.
+
+[Pattern Characteristics]
+- The overall trajectory initially rises and then falls, followed by long-term narrow-range movement around the central band, with initial and final levels being similar.
+- The numbered reference lines generally show a step-like upward shift from left to right, maintaining approximate parallelism and stable spacing between levels.
+- Close repeatedly approached or crossed the mid-to-high reference lines in the early stages, but subsequently remained near the mid-to-low reference lines for a long period, failing to reach the upper range again.
+
+[Core Insights]
+Core Conclusion: The price has long deviated from the upper reference range, exhibiting a characteristic shift toward a lower central tendency.
+
+Business Implications:
+- There was a brief window for pricing elevation in the early stage.
+- In the later period, movement centered around Reference line 2, indicating the valuation focus is trending toward the mid-to-low range.
+- The gap with Reference line 5 has widened, indicating insufficient momentum for a return to the high-level range.
+
+Risk Concerns:
+- If the price consistently remains below Reference line 2 (approx. 500 TWD), it may weaken holding attractiveness.
+- If the gap with Reference line 5 remains above approximately 500 TWD, the time required for a high-level recovery may be significantly prolonged.

@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Dual-series line chart, titled "PAR 31-90."
+- X-axis: Time points are Jun-21, Jun-22, Jun-23.
+- Y-axis: Percentage scale, range approximately 1.5%–4.5%.
+- Legend: Pvt Banks (light gray), Others (red), square markers.
+
+[Data Relationships]
+- Jun-21: Pvt Banks 4.3%, Others 4.0%, difference of 0.3 percentage points.
+- Jun-22: Pvt Banks 2.4%, Others 1.8%, difference of 0.6 percentage points.
+- Jun-23: Pvt Banks 2.0%, Others 2.6%, difference of 0.6 percentage points (Others higher).
+- Pvt Banks: Initial period 4.3% → Final period 2.0%, change of -2.3 percentage points.
+- Others: Initial period 4.0% → Final period 2.6%, change of -1.4 percentage points.
+- Extremes: Pvt Banks maximum 4.3% (Jun-21), minimum 2.0% (Jun-23); Others maximum 4.0% (Jun-21), minimum 1.8% (Jun-22).
+
+[Pattern Characteristics]
+- The two series start with similar values, then decline synchronously, with the gap slightly widening by the second time point.
+- At the third time point, Pvt Banks continues to decline, while Others shows a significant rebound, resulting in a reversal of their relative high/low positions.
+- The overall structure is relatively smooth; the directional reversal only occurs in the latter segment of Others, which can be viewed as the primary inflection point.
+
+[Core Insights]
+Core Conclusion: Pvt Banks shows continuous improvement, while Others exhibits a phased giveback (deterioration).
+
+Business Implications:
+- Pvt Banks' performance is more stable and adjustments are more thorough.
+- The effectiveness of recent management or screening efforts by Others is not sustainable.
+- The contribution to PAR within the portfolio is gradually shifting, with Others becoming the primary source.
+
+Risk Concerns:
+- If Others rises above 3.0% again, overall asset quality will be significantly dragged down.
+- If Pvt Banks reverts above 2.5%, it will weaken the current structural relative advantage.

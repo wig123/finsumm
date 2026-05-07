@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Line chart; the red line represents "System liquidity (INR tm)" (Legend located at the top).
+- Y-axis: Range approximately -10 to 4, unit is INR tm; includes the zero baseline.
+- X-axis: Time scale from Feb-14 to Feb-24, primarily marked with Feb and Aug.
+- Text Annotations: Deficit (above the zero line), Surplus (below the zero line); data annotation points are 2.1, -4.5, -8.0, 2.7, 1.9.
+
+[Data Relationships]
+- The latest annotated value on the right is approximately 1.9 (Feb-24).
+- The previous high point annotated on the right was 2.7 (approximately Aug-23).
+- The maximum positive annotated value is 2.7, the minimum negative value is -8.0, resulting in a range of 10.7.
+- The positive value annotated around 2016 is 2.1, differing from the annotated -4.5 by 6.6.
+- 2.7 decreased by 0.8 compared to 1.9.
+- Annotated negative values include -4.5, -8.0; positive values include 2.1, 2.7, 1.9.
+
+[Pattern Characteristics]
+The curve frequently crosses above and below the zero axis, showing multiple cyclical shifts between high and low points. In the middle-to-later period, it extended continuously downwards, reached its lowest point, and then gradually returned above the zero axis. Overall volatility is significant; later high points are slightly higher than earlier annotated high points, but the latest reading is below the previous peak.
+
+[Core Insights]
+Core Conclusion: Liquidity, after experiencing significant tightening, has once again shifted towards a tight environment.
+
+Business Implications:
+- Reflects significant differences in the liquidity environment across various phases.
+- Has a significant impact on funding costs and short-term interest rates.
+- Places higher demands on short-term funding planning and position management.
+
+Risk Focus:
+- Approaching or falling below -4.5 may trigger a rapid increase in funding costs.
+- Approaching or exceeding 2.7 may lead to decreased efficiency in capital utilization and increased arbitrage activity.

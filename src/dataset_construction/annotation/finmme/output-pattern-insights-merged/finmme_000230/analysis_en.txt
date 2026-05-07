@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Vertical Bar Chart
+- Title: Not displayed
+- Y-axis: Labeled “% change,” range approximately -6% to 10%, zero axis emphasized
+- X-axis: Categories are Turkey, Switzerland, Spain, United Kingdom, France, Germany, EU, Italy, Portugal, Greece
+- Legend: Not visible; Switzerland bar is dark, the rest are light.
+
+[Data Relationships]
+- Maximum Value: Turkey 7.5%
+- Switzerland: 3.5%
+- Spain: 2.7%; United Kingdom: 2.0% (a difference of 0.7 percentage points)
+- France: 1.7%; Germany: 0.9% (a difference of 0.8 percentage points)
+- EU: 0.3%
+- Italy: -0.5%; Portugal: -1.4% (a difference of 0.9 percentage points)
+- Minimum Value: Greece: -3.7%
+- Range (High-Low Difference): 7.5% - (-3.7%) = 11.2 percentage points
+- 7 positive values, 3 negative values
+
+[Pattern Characteristics]
+The bars for each country/region show clear high-low stratification around the zero axis, with the overall distribution gradually decreasing from a single high point toward both sides. The number of positive samples is greater than the negative samples, but most positive values are concentrated in the mid-to-low range, with only one significantly prominent high point. The distribution within the negative range is closer to the zero axis compared to the positive end, with only one relatively prominent low point.
+
+[Core Insights]
+Core Conclusion: Overall performance is slightly positive, but regional disparities are significant.
+
+Business Implications:
+- A few markets contribute more significantly to overall performance.
+- Regions with moderate growth rates are more critical for overall stability.
+- Negative value regions may drag down the average level of the overall indicator.
+
+Risk Concerns:
+- If the region near -4% continues to decline, it could significantly depress the overall result.
+- If the single high value above 7% retreats, the overall average level will shift noticeably downward.

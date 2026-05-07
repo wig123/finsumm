@@ -1,0 +1,37 @@
+[Chart Components]
+- Chart Type: Dual Line Chart
+- Title: Not explicitly provided (Series explained by legend)
+- X-axis: Time, scaled by year, range 2014—2023
+- Y-axis: Numerical scale 0—10, displaying 0, 2, 4, 6, 8, 10
+- Legend: Two series
+  1) Inverse of TELENOR - Price/Earnings Ratio (Adjusted)*100 (Cyan)
+  2) RF NORWAY GVT BMK BID YLD 10Y (Light Purple)
+- Data Source: LSEG Datastream
+
+[Data Relationships]
+- Cyan series approximately 6.5 in 2014; approximately 5.0 in 2023; the difference is approximately 1.5.
+- Cyan series peaked at approximately 9.0 (late 2020), lowest near 0 (around 2017 and 2022).
+- Light Purple series approximately 3.0 in 2014; approximately 3.5 in 2023; the difference is approximately 0.5.
+- Light Purple series peaked at approximately 3.8 (2023), lowest at approximately 0.6 (2020).
+- Late 2020: Cyan ≈ 9.0, Light Purple ≈ 1.0, Difference ≈ 8.0.
+- 2017: Cyan ≈ 0.3, Light Purple ≈ 1.5, Difference ≈ 1.2.
+- 2023: Cyan ≈ 5.0, Light Purple ≈ 3.5, Difference ≈ 1.5.
+- 2018: Cyan ≈ 6.0, Light Purple ≈ 1.8, Difference ≈ 4.2.
+- 2019: Cyan ≈ 2.0, Light Purple ≈ 1.3, Difference ≈ 0.7.
+
+[Pattern Characteristics]
+- The Cyan series exhibits multiple significant step-like changes within the period, alternating between low phases briefly approaching zero and high phases near the upper limit. Its overall volatility is significantly greater than the Light Purple series.
+- The Light Purple series maintained lower values and smoother changes in the first half, gradually rising in the second half, while still maintaining a relatively narrow fluctuation structure. The spread between the two curves significantly narrows and widens across different years.
+- Around 2020, the Cyan series was at a high level while the Light Purple series was at a local low, resulting in a relatively extreme spread for the entire period; around 2017 and 2022, the Cyan series briefly approached zero, forming significant morphological anomalies.
+
+[Core Insights]
+Core Conclusion: There is a phased mismatch and subsequent re-convergence between equity valuation yield and the risk-free rate.
+
+Business Implications:
+- The yield attractiveness of stocks relative to risk-free assets shifts significantly across different years.
+- Changes in the risk-free rate are not synchronously reflected in the pace of valuation adjustments.
+- Valuation exhibits clear phased sensitivity characteristics to the interest rate environment.
+
+Risk Concerns:
+- When the 10Y government bond yield approaches or exceeds 3.8, if the valuation yield does not rise synchronously, it may weaken the willingness for equity allocation.
+- When the valuation yield approaches 0, if the risk-free rate remains above 1, it may lead to excessive compression of the equity-bond yield spread.

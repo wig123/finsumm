@@ -1,0 +1,33 @@
+[Chart Components]
+- Chart Type: Time series line chart, overlaid with a vertical color band and color scale on the right segment.
+- Title: No main title; text in the upper left corner: "Last 12m ret: 4.66%".
+- X-axis: Time, labeled Jan-21, Jan-22, Jan-23, Jan-24, Jan-25.
+- Left Y-axis: Yield (%), scale approximately 2, 4, 6, 8 (range approximately 1.8%—9%).
+- Right Y-axis: Total Return (%), color scale range −30 to +30.
+- Legend: Solid line = "USD IG yield"; Dots = "+/- 5% TR"; Diamonds = "+/- 10% TR".
+- The right side (approximately Jan-24 to Jan-25) is a colored vertical band, corresponding to the right-side color scale.
+
+[Data Relationships]
+- Yield in Jan-21 was approximately 2%.
+- The lowest value during the period was approximately 1.8%, near the beginning of 2021.
+- The highest value during the period was approximately 6.2%—6.3%, near the end of 2023 to the beginning of 2024.
+- Yield near Jan-24 was approximately 5.3%.
+- The spread between high and low points was approximately 4.4 percentage points (≈6.3%−1.9%).
+- The upper left corner shows the total return for the last 12 months was 4.66%.
+- The total return range on the right-side color scale is −30% to +30%, with white approximately corresponding to 0%.
+- The labeled points are located at yield levels of approximately 4% to 8%: dots correspond to ±5% Total Return, and diamonds correspond to ±10% Total Return.
+
+[Pattern Characteristics]
+The line was at a low level at the beginning of 2021, subsequently rose overall, and formed a relatively high plateau around the end of 2023, with multiple moderate fluctuations during the period. The right-side color band gradually changes from blue to red from bottom to top, exhibiting a roughly symmetrical distribution around the white central axis. The black dots and diamonds are arranged approximately linearly along the yield axis, with fixed upward and downward deviation magnitudes.
+
+[Core Insights]
+Core Conclusion: The current yield is in a historically high range, significantly impacting future total returns.
+
+Business Implications:
+- The current yield level makes the instrument more sensitive to price changes.
+- Small changes in yield can significantly alter the total return.
+- Allocation decisions must consider both coupon income and price impact.
+
+Risk Focus:
+- If the yield rises by more than 1 percentage point, the total return may approach the −10% range.
+- If the yield falls by more than 1 percentage point, the total return may rapidly shift toward the +10% range.

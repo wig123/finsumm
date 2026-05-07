@@ -1,0 +1,30 @@
+【图表构成】
+- 类型：左侧柱状图，标题“FCF development (EURbn)”；右侧为表格，列名“Segment”“Key drivers FCF”“Trend”。
+- X轴标签：FY21、FY21 normalised(注脚1)、FY25E、FY30E；Y轴无刻度线，部分柱顶标注数值。
+- 颜色：FY21与FY21 normalised为橙/灰；FY25E与FY30E为蓝。
+- 注释：椭圆标注“Mid single-digit”指向FY25E与FY30E。
+- Segment共6项：Netherlands Life、Netherlands Non-life、Insurance Europe、Japan Life、Banking、Other。
+
+【数据关系】
+- FY21数值为1.5 EURbn。
+- FY21 normalised数值为1.2 EURbn。
+- 两者差值为0.3 EURbn。
+- FY25E、FY30E未给出具体数值，仅以“Mid single-digit”标注。
+- Segment合计6类。
+- 各细分要点数：NL Life 1条、NL Non-life 1条、Insurance Europe 2条、Japan Life 2条、Banking 2条、Other 1条。
+- Japan Life包含“基于当地GAAP利润的5/6”比率。
+
+【模式特征】  
+柱状图中，FY21到FY21 normalised出现一次性下调，之后在FY25E与FY30E阶段呈更高区间，且两者大致相近。表格中各Segment对应的趋势箭头多为向右上，少数为水平或向右下，呈现以上行趋势为主、个别分项走弱的结构。Japan Life的现金流测度采用当地GAAP利润的一部分（5/6），在细分项中具有独特规则。
+
+【核心洞察】  
+核心结论：整体FCF规划指向较FY21规范值更高的长期水平。  
+
+业务含义：  
+- 大部分业务线对未来现金流形成正向贡献预期  
+- 个别板块可能拖累整体自由现金流表现  
+- Japan Life对会计口径较为敏感，影响可分配现金规模  
+
+风险关注：  
+- 若实际FCF低于FY21 normalised 1.2，则中长期目标实现受阻  
+- 若任何Segment由上升转为下降，将削弱“mid single-digit”区间可达性

@@ -1,0 +1,28 @@
+**[Chart Components]**
+- Type: Pie Chart
+- Title: Capacity (ML p.a.)
+- Legend: Water-based / Emulsions (Red), Solvent-based / Enamels (Grey), Wood finish (Black)
+- Data Labels: Sectors display 200, 23, 7
+- Axes: No axes; Unit is ML p.a. (See title)
+
+**[Data Relationships]**
+- Total Capacity: 200+23+7=230 ML p.a.
+- Category Values: Water-based / Emulsions 200; Solvent-based / Enamels 23; Wood finish 7.
+- Proportion: 200/230≈86.96%; 23/230=10.00%; 7/230≈3.04%.
+- Difference: 200−23=177; 200−7=193; 23−7=16.
+- Multiples: 200/23≈8.70; 200/7≈28.57; 23/7≈3.29.
+
+**[Pattern Characteristics]**
+The pie chart exhibits a clear structure dominated by a single large sector, where Water-based / Emulsions capacity occupies the vast majority of the disk area. The area occupied by Solvent-based / Enamels is much smaller than the main sector, while Wood finish forms only a very narrow sectoral edge. The overall structure is highly concentrated, with no significant outliers or abrupt distribution changes.
+
+**[Core Insights]**
+Core Conclusion: Capacity is highly concentrated in the Water-based / Emulsions category, with other categories accounting for a low proportion.
+
+Business Implications:
+- Capacity allocation is concentrated in a single primary category.
+- Solvent-based / Enamels and Wood finish have limited influence in the overall capacity.
+- Adjustments to the category structure will significantly depend on changes in Water-based / Emulsions capacity.
+
+Risk Focus:
+- If the utilization rate of Water-based / Emulsions falls below 50%, the overall utilization of 230 ML p.a. will significantly decline.
+- If Solvent-based / Enamels needs to be increased to a proportion of ≥20%, the existing 23 ML p.a. capacity may be insufficient.

@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Line chart
+- Title: Net credit charge (bps) (ann)
+- X-axis: Quarterly time scale, from 1Q15 to 3Q23 (labeled by 1Q, 3Q)
+- Y-axis: Value unit is bps, range 0–160
+- Legend: Red line represents "Net credit charge"
+
+[Data Relationships]
+- Initial period (1Q15) approximately 25 bps; final period (3Q23) approximately 30 bps.
+- Peak approximately 135 bps (2020); Trough approximately 10 bps (1Q19); Difference between high and low is approximately 125 bps.
+- 3Q16 approximately 85 bps; 3Q19 approximately 70 bps; 1Q21 approximately 80 bps; 3Q21 approximately 40 bps.
+- 1Q22 approximately 10 bps and 3Q22 approximately 55 bps, a difference of approximately 45 bps.
+- 1Q23 approximately 22 bps and 3Q23 approximately 30 bps, a difference of approximately 8 bps.
+
+[Pattern Characteristics]
+The line exhibits a distinct alternating high and low pattern throughout the entire period, with volatility being more intense in the middle phase, while the overall levels in the early and final periods are relatively similar. Around 2019–2021, a prominent peak interval formed, characterized by a sharp rise followed by a rapid decline. Its peak value was significantly higher than other periods. After briefly touching the all-time low in 2022, it recovered to the moderate range within several quarters.
+
+[Core Insights]
+Core Conclusion: The net credit cost, after undergoing a significant surge, has returned to a relatively moderate range.
+
+Business Implications:
+- Indicates that credit asset quality was under pressure in the middle term but has shown repair in the later stage.
+- Mid-to-long-term profitability is easily and significantly affected by changes in credit cost.
+- The current level is close to the historical median, making marginal changes more indicative.
+
+Risk Focus:
+- If it approaches or exceeds 120 bps again, it could significantly erode the profit margin.
+- If it falls below 10 bps and the duration is too short, it might mask insufficient release of potential losses.

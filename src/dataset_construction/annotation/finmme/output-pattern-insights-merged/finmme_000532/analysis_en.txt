@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Column chart
+- Title: Not displayed
+- X-axis: Fiscal year categories, sequentially from FY09 to FY26F (including forecasts)
+- Y-axis: Value axis, unit is INR bn, scale approximately 0–35 (increment approximately 5)
+- Legend: Red bars represent “Rec PAT (INR bn)”
+- Annotation: A red arrow on the right side labeled with “16%”
+
+[Data Relationships]
+- FY26F is approximately 30, the highest in the entire chart; FY25F is approximately 25; FY24F is approximately 22.
+- FY23 is approximately 19–20; FY22 is approximately 12–13; FY21 is approximately 10.
+- Early years: FY11 is approximately 10; FY09 and FY10 are approximately 8–9.
+- The low point is in FY14, approximately 3–4; approximately 26–27 lower than FY26F.
+- FY19 is approximately 11–12; FY20 is approximately 7–8, the difference between the two is approximately 3–4.
+- FY26F is approximately 10 higher than FY23; approximately 8 higher than FY24F.
+
+[Pattern Characteristics]
+Overall, it presents a step-like structure: an initial decline, followed by a gradual increase, and then a significant expansion in the final few years. A relatively low-level plateau formed around FY12–FY15, with FY14 being the minimum value of the entire sequence. Thereafter, the height generally follows a phased increasing arrangement. The three years following FY23 are forecast values, with the bar heights concentrated in the upper part of the chart. The gap between adjacent years slightly widens, and the arrow and “16%” in the upper right corner emphasize the growth pace of the final segment.
+
+[Core Insights]
+Core Conclusion: Profitability levels have entered an accelerated improvement phase after a period of recovery.
+
+Business Implications:
+- After early volatility, profitability has entered a stable expansion channel.
+- Profit volume surged starting in FY23, contributing to overall profitability.
+- The forecast period reflects the expectation of sustained profit enhancement.
+
+Risk Concerns:
+- If FY26F falls below the FY23 level, the previous expansion hypothesis would be invalidated, and valuation may come under pressure.
+- If future growth rate is lower than the illustrated 16%, current planning targets may not be achieved.

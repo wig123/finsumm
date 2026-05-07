@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Line chart (red line)
+- Annotation: Horizontal dashed line "Average 27%"
+- X-axis: Time, Jan-20 to Jan-24
+- Y-axis: Percentage scale, from -20% to 70%, with 10% intervals
+- Legend/Title: No separate legend or title observed
+
+[Data Relationships]
+- Average Value: 27% (indicated by the dashed line)
+- Initial Period (Jan-20): Located in the 10%–20% range; Final Period (Jan-24): Located in the 10%–20% range
+- Global Peak: Approximately mid-2022, located in the 50%–60% range
+- Global Trough: Approximately early 2022, located in the -10%–-20% range
+- The peak is approximately 23–33 percentage points higher than the average
+- The trough is approximately 37–47 percentage points lower than the average
+
+[Pattern Characteristics]
+Overall, it exhibits wide-ranging fluctuations around the 27% dashed line, failing to establish a sustained unidirectional trend. From early 2020 to mid-2021, the movement was predominantly above the dashed line. This was followed by a deep dive in 2022, after which it quickly rebounded to a high level. From mid-2022 to early 2024, the line frequently crossed above and below the dashed line. The latter part of this period shows a gradual concentration below the dashed line, accompanied by several sharp, extreme volatility points.
+
+[Core Insights]
+
+Core Conclusion: Although this indicator has long remained near the mean, volatility is strong, and recent fluctuations are pronounced.
+
+Business Implications:
+- Long-term performance lacks a sustained unidirectional trend; stage-specific differences are significant.
+- Mid-to-short-term decisions must account for the dual scenarios of high-level ranges and deep drawdowns.
+- Recent values are closer to the lower side of the mean, suggesting the current state leans toward a conservative range.
+
+Risk Focus:
+- Breaking below the 0% range could trigger significant losses and passive adjustment pressure.
+- If the indicator surges above the 60% range without supporting synchronous improvements, the subsequent magnitude of giveback (reversal/retracement) may increase.

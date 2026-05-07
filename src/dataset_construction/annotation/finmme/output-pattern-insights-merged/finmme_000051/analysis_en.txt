@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Line chart, overlaid with scatter markers
+- Title: China Mobile
+- X-axis: Time scale displayed as 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01; annotated "As of 18-Mar-2024" in the upper right corner
+- Y-axis: Currency unit is HKD, scale range 0–85
+- Legend: Closing Price (Grey Line), Target Price Change (Green Triangle), Recommendation Change (Blue Dot)
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Closing price started at approximately HKD 50 (2021/07), ending at approximately HKD 66–67 (2024/03), a difference of about HKD 16–17
+- The highest closing price was approximately HKD 69 (2023/06–2024/01), the lowest was approximately HKD 46 (2021/11), a high-low difference of about HKD 23
+- The closing price fluctuated within the range of approximately HKD 45–70
+- There are 9 target price adjustment markers in total, specifically: 67 (2021/10), 72 (2022/02), 74 (2022/03), 61 (2022/07), 64 (2022/11), 83 (2023/03), 76 (2023/07), 75 (2023/09), 79 (2024/02)
+- No recommendation change markers observed (0 counts)
+
+[Pattern Characteristics]
+The closing price shows a step-wise upward trend, with several pullbacks and short-term consolidations during the period. Target price adjustment scatter points are distributed across multiple nodes, with one downward revision occurring in mid-2022 and mid-2023, and the rest being higher; recommendation changes are absent.
+
+[Core Insights]
+Core Conclusion: The price is higher than the initial period, the target price has been revised multiple times while the recommendation remains unchanged.
+
+Business Implications:
+- Analyst expectations adjusted multiple times
+- Recommendation unchanged, maintaining consistent reference standard
+- Trading range guided by the target price
+
+Risk Focus:
+- Closing price below HKD 46, leading to expanded losses
+- Failure to break HKD 69–70 for an extended period, limiting returns

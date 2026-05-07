@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Waterfall Chart
+- Title: Untitled
+- Axes: The vertical axis is a numerical scale, ranging from 0 to 8; the horizontal axis contains year and event labels (2022, Singapore Expansion, Martinez, 2023, Singapore Expansion, 2024, Singapore Expansion, De-bottleneck, 2025, Rotterdam, 2026)
+- Legend: None
+
+[Data Relationships]
+- Starting Value: 3.3 in 2022
+- Key Changes:
+  - Increased to 5.3 in 2023
+  - Increased to 5.5 in 2024
+  - Increased to 5.7 in 2025
+  - Reached a peak of 7.0 in 2026
+- Extremes: The lowest point is 3.3 in 2022, and the highest point is 7.0 in 2026
+- Overall Trend: Continuous growth, with the Singapore Expansion and Rotterdam events contributing significantly to the increase
+
+[Pattern Characteristics]
+- The overall pattern is a step-wise accumulation, with year-end nodes progressively increasing.
+- The increment is superimposed by multiple events; the contribution of single events is uneven, with the middle segment being weaker and the end segment being stronger.
+- There is one event increment close to zero, and no negative segments appeared.
+
+[Core Insights]
+Core Conclusion: The result relies on key events, with the end nodes contributing the most.
+
+Business Implications:
+- Indicates that this metric is primarily driven by projects.
+- Achieving the year-end level depends on the final nodes.
+- Mid-term effectiveness is limited; resources need to be focused.
+
+Risk Focus:
+- If the Rotterdam increment is below 1.3, the annual target of 7.0 will be difficult to achieve.
+- If the Singapore Expansion is below 0.2/0.1, the phase target will be hindered.

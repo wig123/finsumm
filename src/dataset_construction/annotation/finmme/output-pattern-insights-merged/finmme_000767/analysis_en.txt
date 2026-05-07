@@ -1,0 +1,34 @@
+[Chart Components]
+- Type: Grouped Bar Chart
+- Title: Not displayed
+- X-axis: Country Grouping (China, India, Japan, Vietnam, UK, US), each group contains two years (2015, 2023)
+- Y-axis: Numerical scale 0—300 (approximately one horizontal grid line every 50 units)
+- Legend: Five categories of energy cost/value items—Solar (non-tracking), Wind onshore, Wind offshore, Gas (CCGT), Coal (distinguished by different colors)
+- Others: No data labels, horizontal grid lines aid reading
+
+[Data Relationships]
+- Highest bar in the entire chart: Japan 2015 Wind offshore approximately 260; Japan 2015 Solar approximately 240, the difference between the two is approximately 20.
+- Vietnam 2015 Solar approximately 200; approximately 130 higher than Vietnam 2015 Gas approximately 70.
+- UK 2015 Wind onshore approximately 190; UK 2015 Solar approximately 150, difference approximately 40.
+- US 2023 Wind offshore approximately 160; approximately 50 higher than US 2023 Gas approximately 110.
+- UK 2023 Wind offshore approximately 140; UK 2023 Solar approximately 70, difference approximately 70.
+- Japan 2023 Wind offshore approximately 170; Japan 2023 Gas approximately 70, difference approximately 100.
+- China 2015 Solar approximately 120; China 2015 Coal approximately 100, difference approximately 20.
+- China 2023 Gas approximately 90; China 2023 Solar approximately 40, difference approximately 50.
+- US 2015 Coal approximately 60; US 2023 Coal approximately 75, the difference between the two is approximately 15.
+- UK 2015 Gas and UK 2023 Gas are both approximately 120 (equal).
+
+[Pattern Characteristics]
+Compared to 2015, the bar heights for most renewable energy sources in various countries significantly narrowed in 2023, while fossil fuels showed minor changes or even slight increases in some countries. Each technology exhibits a relatively clear hierarchy of high and low levels within the same year, with Wind offshore generally located in the upper range of the country's energy projects. Japan, Vietnam, and the UK showed significant bar height discrepancies between certain renewable energy projects and domestic fossil fuel projects in 2015, forming several prominent extreme values.
+
+[Core Insights]
+Core Conclusion: Cost differences among renewable energy projects in various countries have narrowed, but regional divergence remains significant.
+
+Business Implications:
+- The cost gap between renewable projects and fossil fuels has been significantly compressed in some countries.
+- Technology selection must consider the cost disadvantage of Wind offshore in various countries.
+- Coal power and gas projects still maintain cost competitiveness in some countries.
+
+Risk Focus:
+- When Wind offshore costs exceed domestic Gas by more than 50 units, new installed capacity may face profitability pressure.
+- If Coal power costs remain more than 40 units below domestic Solar for an extended period, it may suppress investment appetite for solar projects.

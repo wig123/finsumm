@@ -1,0 +1,27 @@
+[Chart Components]
+- Composite chart: Red bars represent EBITDA; black line represents Transmission tariff (RHS).
+- Legend is at the top; no main title visible.
+- Left axis unit is INR bn, range approximately 0–5.0; right axis unit is INR/scm, range approximately 0–1.8.
+- Horizontal axis is quarterly: 1QFY20 to 3QFY24, totaling 19 periods.
+
+[Data Relationships]
+- EBITDA peak: 2QFY20≈4.4; secondary peak: 2QFY24≈4.1; low point: 3QFY23≈2.7; peak-to-trough difference≈1.7.
+- Initial period (1QFY20)≈4.0; final period (3QFY24)≈3.8; difference≈0.2.
+- FY23 quarters: 1Q≈3.6, 2Q≈3.3, 3Q≈2.7, 4Q≈3.0.
+- Tariff peak: 2–3QFY23≈1.65–1.7; low point: 1QFY24≈1.4; difference≈0.3.
+- 1QFY24→2QFY24: EBITDA≈3.3→≈4.1 (difference≈0.8); Tariff≈1.4→≈1.6 (difference≈0.2).
+
+[Pattern Characteristics]
+EBITDA generally fluctuated narrowly around its central tendency throughout the sample period, with the latter half slightly lower than the former, followed by a continuous decline in FY23 before rising again. Transmission tariff largely remained within a similar range during the first half, started a sustained upward trend near the end of FY22, and formed a clear plateau around mid-FY23. The two series showed a misalignment phase around mid-FY23, characterized by relatively low EBITDA and relatively high tariff, which subsequently partially converged.
+
+[Core Insights]
+Core Conclusion: Profitability performance exhibits limited correlation with tariff adjustments, showing periodic deviations.
+
+Business Implications:
+- The increase in unit price did not simultaneously lead to a proportional improvement in profitability.
+- Profitability is highly dependent on other operational factors.
+- The recovery in profitability during late FY23 showed a delayed reaction to the price signal.
+
+Risk Focus:
+- If the tariff remains consistently above 1.7 while EBITDA stays below 3.0, overall yield may be compressed.
+- If the tariff falls below 1.4 and EBITDA is not maintained above 3.5, cash generation capability may weaken.

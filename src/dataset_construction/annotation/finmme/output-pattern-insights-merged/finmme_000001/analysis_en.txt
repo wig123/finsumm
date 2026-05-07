@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Percentage stacked bar chart
+- Title: Not displayed
+- X-axis: Years (1980–2020, one bar per year; ticks labeled 1980, 1985, 1990, 1995, 2000, 2005, 2010, 2015, 2020)
+- Y-axis: % of Total (0%–100%)
+- Legend: Net exports (Red), Government expenditure (Dark Blue), Household expenditure (Light Blue/Gray), Investment expenditure (Dark Green)
+- The sum of the four components' proportions in each bar is 100%
+
+[Data Relationships]
+- 1980: Investment 33%–36%; Household 48%–52%; Government 10%–14%; Net exports 2%–4%.
+- 2010: Investment 45%–50%; Household 32%–38%; Government 12%–16%; Net exports 3%–6%.
+- 2020: Investment 40%–44%; Household 38%–42%; Government 12%–16%; Net exports 4%–6%.
+- Net exports are consistently <10% across all years; Government + Net exports combined total approximately 15%–25%.
+- Investment in 2010 was approximately 10–15 percentage points higher than in 1980; and approximately 3–8 percentage points higher than in 2020.
+
+[Pattern Characteristics]
+- The composition across all years is dominated by Investment and Household expenditure proportions, while Government and Net exports proportions are smaller and show limited fluctuation.
+- The Investment proportion first rises and then converges over the long cycle; Household expenditure shows an inverse trend, with the disparity between the two being more noticeable around 2010.
+- Investment was at a relatively low level around 2000 and a relatively high level around 2010; Net exports consistently maintain a low level.
+
+[Core Insights]
+Core Conclusion: Aggregate composition relies on investment, while consumption contribution is relatively weak.
+
+Business Implications:
+- Demand structure is more reliant on investment
+- Consumption contribution to the aggregate total is relatively low
+- Fiscal policy and foreign trade have limited impact on the structure
+
+Risk Concerns:
+- Investment proportion ≥50%: Consumption share is compressed, leading to excessive structural concentration
+- Government + Net exports ≥25%: Dominated by policy and external demand, reducing flexibility

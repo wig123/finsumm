@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Time series line chart
+- Title: Malaysia Airports
+- Time Axis: 2021/07/01 to 2024/01/01; Noted in the upper right corner: As of 25-Jan-2024; Currency Unit: MYR
+- Y-Axis: Price scale approximately 0—8.5 (MYR)
+- Legend: Black line=Closing Price; Green triangle=Target Price Change; Blue dot=Recommendation Changes
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial Period (approx. 2021/07) Closing Price ≈5.3 MYR; Final Period (2024/01) ≈7.7 MYR; Difference ≈2.4 MYR
+- Highest Closing Price ≈8.2–8.3 MYR (approx. second half of 2023); Lowest ≈5.0–5.1 MYR (approx. end of 2022); High-Low Spread ≈3.1–3.3 MYR
+- Near 2022/06 ≈6.7 MYR; Near 2023/01 ≈6.2 MYR; Near 2023/07 ≈7.2 MYR; Near 2023/10 ≈7.6 MYR
+- Target Price changed three times: Approx. 2021/06–07 (Price ≈6.3 MYR), 2022/04–05 (≈7.8 MYR), 2023/05–08 (≈8.3 MYR)
+- No blue "Recommendation Changes" markers observed in the chart
+
+[Pattern Characteristics]
+The price exhibits a stepped upward structure within the overall rising channel, accompanied by multiple rounds of moderate pullbacks. The three target price changes all occurred near relative highs after the price had moved for a period, and subsequent prices mostly consolidated within the corresponding range. No "Recommendation Changes" markers appeared throughout the period; the price trend only formed a point-to-point correspondence with the target price events.
+
+[Core Insights]
+Core Conclusion: The stock price continues to rise and approaches the target price range without any rating changes.
+
+Business Implications:
+- Improved earnings expectations or sentiment are gradually reflected.
+- Multiple upward revisions of the target price raise the valuation anchor.
+- The lack of rating changes suggests relative consensus in views.
+
+Risk Focus:
+- If the stock price consistently exceeds 8.3 MYR, it may trigger profit-taking pressure.
+- If the price falls below 6.0 MYR, early-entry capital may face selling pressure due to unrealized losses.

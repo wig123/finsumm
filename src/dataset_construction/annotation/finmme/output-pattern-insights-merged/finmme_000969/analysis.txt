@@ -1,0 +1,32 @@
+【图表构成】
+- 类型：分组柱状图（每类两根柱）。
+- 标题：% change in cons. Adj profit ests during ongoing earnings season (post 31-Dec-2023)。
+- 横轴：类别为ASXJ、Utils., Healthcare, Comm Svcs., IT, Industrials, Energy, Financials, Cons Staples, Cons Disc., Real Estate, Materials。
+- 纵轴：百分比刻度，约-17.0%至9.0%。
+- 图例：灰色代表2023E，红色代表2024E。
+- 数据标签：各柱标注具体百分比。
+- 其他元素：ASXJ右侧有一条红色竖线。
+
+【数据关系】
+- 2024E最高：Utilities 8.1%；最低：Materials -15.5%。
+- 2023E最高：IT 3.8%；最低：Real Estate -14.8%。
+- ASXJ：2023E -2.4%，2024E -2.0%，差+0.4pct。
+- 主要差值(2024E-2023E)：Industrials +11.9pct(-12.4%→-0.5%)；Real Estate +7.7pct(-14.8%→-7.1%)；Utilities +5.8pct(2.3%→8.1%)。
+- 降幅：IT -3.7pct(3.8%→0.1%)；Cons Disc -2.5pct(-1.7%→-4.2%)；Energy -2.3pct(1.0%→-1.3%)；Cons Staples -0.7pct(-2.8%→-3.5%)。
+- 2024E：Healthcare 0.2%。
+
+【模式特征】
+整体上，大部分行业的两年预期柱体均位于零值下方，个别行业在两年间由明显负值靠近零值。行业间分化较大，Utilities 与 IT 等少数板块的柱体为正，而Materials、Real Estate 等板块则呈现连续的深负值区间。部分行业（如Industrials、Real Estate、Utilities）两年柱体之间间距明显，而ASXJ整体两柱相距较小。
+
+【核心洞察】
+
+核心结论：盈利预期在板块间出现明显分化与再定价。
+
+业务含义：
+- 整体指数预期调整幅度有限，但内部差异放大。
+- Utilities、Healthcare等防御属性板块预期相对更受支持。
+- Materials、Real Estate等顺周期板块承压，对组合贡献有限。
+
+风险关注：
+- Materials 2024E低于-10%时，或显著拖累整体盈利增速。
+- Real Estate 2024E低于-7%附近时，相关资产估值或面临进一步下调压力。

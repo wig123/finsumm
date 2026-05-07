@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: The upper section is a scatter/line chart with dashed lines (representing CO2 data); the lower section is a stacked bar chart (representing PV market size).
+- Labels: The left axis is "CO2 g/km, NEDC," and the bottom axis is "PV market size in mn units."
+- X-axis: Year range is CY2016–2030E.
+- Legend: Includes PHEV, EV+FCV, HV (including mild hybrid), Others, Fleet CO2 (Actual/Estimated), CO2 Cap.
+- Key Annotations: CO2 Cap milestones are 130, 100, 95, 81, 42; total volume figures are annotated at the top of each bar.
+
+[Data Relationships]
+- Actual CO2 Value: 2016 is 118, 2019 is 122, 2020 is 100, 2021 is 94, 2024E is 85, 2025E is 79, 2029E is 61, 2030E is 43.
+- CO2 Cap Value: 2016 to 2019 is 130, 2020 is 100, 2021 to 2024 is 95, 2025 to 2029 is 81, 2030 is 42.
+- Difference (Actual Value minus Cap Value): 2016 is −12, 2019 is −8, 2020 is 0, 2021 is −1, 2024 is −10, 2025 is −2, 2029 is −20, 2030 is +1.
+- Total PV Market Volume: 2016 is 15.1, 2020 is 12.0, 2024E is 13.2, 2030E is 14.1.
+- 2030E Composition: Others is 0.5, PHEV is 0.7, EV+FCV is 7.2, HV is 5.8, totaling 14.1.
+- Change in Others Volume: 2016 is 14.6, 2020 is 9.1, 2024E is 5.6, 2030E is 0.5.
+
+[Pattern Characteristics]
+- The upper actual curve generally tracks closely with the dashed Cap line; the Cap shows a step-wise decline; the two lines intersect in the middle section, with a slight overshoot at the end.
+- The total volume in the lower section initially dips then stabilizes; the stack shifts from being dominated by "Others" to being primarily "EV+FCV" and "HV," with PHEV maintaining a small proportion.
+- The "Others" volume continuously shrinks toward zero; the structure diversifies from singular to multi-faceted, with no sudden spikes observed.
+
+[Core Insights]
+Core Conclusion: Electrification is dominant, but the 2030 compliance buffer is extremely narrow.
+
+Business Implications:
+- Compliance level primarily depends on electrification penetration.
+- High sensitivity to the achievement of emission control targets.
+- The marginal contribution of traditional powertrains significantly weakens.
+
+Risk Focus:
+- If 2030 Actual > 42 g/km, a positive difference will occur, failing to meet the Cap.
+- If 2030 EV+FCV < 7.2 mn, the difficulty of meeting the standard increases, leading to insufficient buffer.

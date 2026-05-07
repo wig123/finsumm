@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Stacked Area Chart
+- Title: Not displayed in the chart
+- X-axis: Year, range 1975 to 2045E (including several estimates E)
+- Y-axis: Number of people (thousands), scale 0 to 500
+- Legend: Two categories—Net Migration (dark color) and Natural Growth (light color)
+
+[Data Relationships]
+- The peak of the total stack occurred in 2021, approximately 430 to 440 thousand people
+- The low point was near 2012, with a total value of approximately 0 to 20 thousand people
+- Total value in 1990 was approximately 200 thousand people; around 2004, approximately 160 to 170 thousand people
+- Total value for each point from 2025E to 2045E is approximately 170 to 190 thousand people
+- Natural Growth: Approximately 50 to 70 thousand people during the 1980s to 1990s; approximately 10 to 20 thousand people after 2015; approximately 0 to 10 thousand people after 2030E
+- Net Migration in 2021 is approximately the total value minus Natural Growth, about 410 to 420 thousand people
+- Net Migration in 2025E is approximately 170 to 185 thousand people; Net Migration in 2045E is approximately 170 thousand people
+- Total value in 1975 was approximately 50 to 60 thousand people
+
+[Pattern Characteristics]
+The series evolves from an early stack with a relatively balanced contribution from both sources to a structure dominated by the dark-colored component. A trough value near zero appeared around 2012, followed by an extreme spike in 2021; subsequently, it enters a relatively stable plateau, with the light-colored component close to the baseline.
+
+[Core Insights]
+Core Conclusion: The source of growth shifts from Natural Growth to Net Migration dominance
+
+Business Implications:
+- Source concentration significantly increased
+- Overall increment is sensitive to Net Migration movements
+- Sustainability during the forecast period depends on migration levels
+
+Risk Focus:
+- If Net Migration < 170 thousand people, the total increment will be below 170 thousand people
+- If Natural Growth ≤ 10 thousand people, overall growth will be highly dependent on Net Migration

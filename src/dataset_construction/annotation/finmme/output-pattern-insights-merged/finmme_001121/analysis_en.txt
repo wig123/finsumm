@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Dual-axis line chart; title not displayed.
+- X-axis: Year, 2019, 2020, 2021, 2022, 2023F, 2024F, 2025F.
+- Left Y-axis (LHS): Percentage scale 0%–140%, corresponding to Sales.
+- Right Y-axis (RHS): Percentage scale 0%–350%, corresponding to EBIT.
+- Legend: Black "Sales (LHS)", Red "EBIT (RHS)".
+
+[Data Relationships]
+- Sales Peak: Approximately 120% in 2021 (LHS); Initial period 2019 approximately 27%; Final period 2025F approximately 16%.
+- EBIT Peak: Approximately 130% in 2021 (RHS); 2019 approximately 10%; 2022 close to 0%; 2025F approximately 7%.
+- The difference between the highest Sales (120%) and the lowest (approximately 15% in 2024F) is about 105 percentage points.
+- The difference between the highest EBIT (approximately 130%) and the lowest (approximately 0% in 2022) is about 130 percentage points.
+- 2023F: Sales approximately 17%; EBIT approximately 9%.
+
+[Pattern Characteristics]
+Both curves simultaneously formed a single sharp peak structure between 2019–2021, followed by a rapid decline after reaching their highest point in 2021. Sales showed a continuous decline after the peak and stabilized at a low level after 2023F; EBIT, however, reached an extremely low point close to zero in 2022, followed by only a slight recovery. Overall, the trends of the two curves were close before the peak, but post-peak, EBIT was significantly lower than Sales and remained in a range closer to the bottom.
+
+[Core Insights]
+Core Conclusion: Revenue and profit sharply declined after the peak and showed limited recovery.
+
+Business Implications:
+- Profitability significantly weakened after the peak year.
+- The support of revenue for profit significantly decreased.
+- Profit will be more sensitive to changes in revenue in the coming years.
+
+Risk Focus:
+- When EBIT is close to 0% (e.g., 2022), operational loss pressure may arise.
+- When Sales remains below 20% (e.g., 2023F–2025F), the scope for profit improvement is limited.

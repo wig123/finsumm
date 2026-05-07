@@ -1,0 +1,29 @@
+【图表构成】
+- 类型：饼图；标题未显示。
+- 单位：百分比；各扇区外有数值标注（33.65%、17.82%、13.52%、13.24%、6.43%、5.27%、4.39%、3.28%、2.41%）。
+- 图例类别：Government、Military、Telecom、Energy, Tobacco、Finance、Media, Education、Transportation、Healthcare、Eneterprise & others。
+- 坐标轴：无。
+
+【数据关系】
+- 各类别占比：33.65%、17.82%、13.52%、13.24%、6.43%、5.27%、4.39%、3.28%、2.41%（对应图例顺序）。
+- 最大值为Government 33.65%，最小值为Healthcare 2.41%，差31.24个百分点。
+- Government比Military高15.83个百分点。
+- Telecom与Eneterprise & others差0.28个百分点（13.52% vs 13.24%）。
+- 前三类合计64.99%，前四类合计78.23%。
+- 后四类（Finance、Energy, Tobacco、Transportation、Healthcare）合计15.35%。
+- Government比（Military+Telecom）高2.31个百分点（33.65% vs 31.34%）。
+
+【模式特征】
+整体分布呈非均衡结构，单一扇区明显突出。最大扇区略高于第二与第三之和，前几类构成主体，尾部由多个小扇区形成长尾。第三与第四扇区尺寸非常接近，最小与最大差异显著。
+
+【核心洞察】
+核心结论：对Government的依赖显著，头部驱动整体。
+
+业务含义：
+- 结构依赖Government类别
+- 资源倾向Government与Military
+- 尾部类别对总体影响有限
+
+风险关注：
+- Government<31.34%：主导性下降，决策成本上升
+- 后四类合计>15.35%：管理复杂度增大，效率下滑

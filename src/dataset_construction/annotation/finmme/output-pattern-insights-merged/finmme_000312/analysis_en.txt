@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Bar chart (single series)
+- Title/Legend: EBITDA margin expansion (bps), red bars represent the metric
+- X-axis: Time categories Dec-21, Mar-22, Jun-22, Sep-22, Dec-22, Mar-23, Jun-23, Sep-23, Dec-23
+- Y-axis: Numerical unit is bps, range approximately -400 to 700, scale interval approximately 100
+
+[Data Relationships]
+- Peak: Dec-23 557 bps; Trough: Jun-22 -325 bps; High-low difference: 882 bps.
+- Initial period: Dec-21 -36; Final period: Dec-23 557; Change from initial to final period: +593 (bps).
+- 2022 values: Mar-22 13; Jun-22 -325; Sep-22 -23; Dec-22 -174 (bps).
+- 2023 values: Mar-23 46; Jun-23 438; Sep-23 337; Dec-23 557 (bps).
+- Interval differences: Dec-22→Mar-23 +220; Mar-23→Jun-23 +392; Jun-23→Sep-23 -101; Sep-23→Dec-23 +220 (bps).
+
+[Pattern Characteristics]
+Overall, the data initially moves from slightly negative values gradually toward zero, followed by a single sharp decline, then lingers near the low point for a period, before rapidly transitioning to sustained high positive values. Structurally, there is clear segmentation: 2022 mostly consists of negative values with high volatility, while 2023 is generally in a high positive range, with only one moderate pullback that did not alter the high-level structure. The difference between the highest and lowest points across the entire range is significant, highlighting the contrast between the single extreme low point and the subsequent multiple high points.
+
+[Core Insights]
+Core Conclusion: The magnitude of EBITDA margin improvement in 2023 is significantly better than in 2022.
+
+Business Implications:
+- Reflects a substantial improvement in earnings quality compared to the previous year.
+- Contribution to overall profitability significantly strengthened in the later period.
+- Indicates that the profit margin has high sensitivity to operational adjustments.
+
+Risk Focus:
+- If the range approaches -300 bps again, it could lead to significant erosion of periodic earnings.
+- If improvement above 500 bps cannot be sustained, the profit margin may face correction pressure.

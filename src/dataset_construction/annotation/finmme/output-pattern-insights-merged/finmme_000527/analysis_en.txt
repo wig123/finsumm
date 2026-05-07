@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Combination chart (Red bars represent Revenue, Grey line represents No. of stores), the line uses the right secondary axis.
+- Title: Not specified.
+- X-axis: Categories are FY24F, FY25F, FY26F, FY27F.
+- Left Y-axis (Revenue): 0–70,000, scale interval 10,000, unit not labeled.
+- Right Y-axis (No. of stores): 0–50, scale interval 5.
+- Legend: Revenue; No. of stores (RHS).
+
+[Data Relationships]
+- Revenue: FY24F is between 10,000 and 20,000; FY25F is between 20,000 and 30,000; FY26F is between 40,000 and 50,000; FY27F is approximately 60,000.
+- Revenue Difference: FY27F and FY24F differ by approximately 50,000; FY26F and FY25F differ by approximately 15,000–25,000; FY26F and FY24F differ by approximately 30,000–40,000; FY25F and FY24F differ by approximately 10,000–20,000.
+- No. of stores (RHS): FY24F is approximately 20; FY25F is approximately 25–30; FY26F is approximately 35; FY27F is approximately 45.
+- Store Count Difference: FY27F is approximately 25 more than FY24F; FY27F is approximately 10 more than FY26F.
+
+[Pattern Characteristics]
+- The Revenue bars show continuous year-over-year growth, and the incremental increase in the latter half of the period significantly accelerates, forming a pattern of accelerated expansion.
+- The No. of stores line also shows smooth growth, with a relatively uniform pace, forming an overall structure of synchronous upward movement without any decline.
+- The growth rate of Revenue is steeper compared to the number of stores; the gap between the two widens further in the later period, with no obvious anomalies or sudden shifts observed.
+
+[Core Insights]
+Core Conclusion: Revenue growth shows a reinforcing effect on store expansion, indicating improved contribution per store.
+
+Business Implications:
+- Revenue acceleration rate is higher than store expansion, indicating improving output per store.
+- Operating leverage is strengthening, which is beneficial for enhancing overall earnings elasticity.
+- Future resources can be prioritized for concentrated allocation towards high-efficiency stores and regions.
+
+Risk Considerations:
+- If the number of stores in FY27F exceeds 45 but Revenue does not reach 60,000, efficiency per store may weaken.
+- If the incremental revenue between FY26F–FY27F is below 15,000, it will undermine high growth expectations.

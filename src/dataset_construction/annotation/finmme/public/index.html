@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>登录 - 数据标注系统</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Aurora 背景 -->
+  <div class="aurora-bg"></div>
+
+  <!-- 登录容器 -->
+  <div class="flex items-center justify-center" style="min-height: 100vh; padding: 2rem;">
+    <div class="card fade-in" style="max-width: 420px; width: 100%; padding: 3rem;">
+      <!-- Logo 和标题 -->
+      <div class="text-center mb-6">
+        <div style="width: 64px; height: 64px; margin: 0 auto 1rem; background: linear-gradient(135deg, #5751D5 0%, #8b83ff 100%); border-radius: 1rem; display: flex; align-items: center; justify-content: center;">
+          <i class="fas fa-chart-line" style="font-size: 2rem; color: white;"></i>
+        </div>
+        <h1 class="text-2xl font-bold mb-2">数据标注系统</h1>
+        <p class="text-gray-600 text-sm">Data Annotation Platform</p>
+      </div>
+
+      <!-- 登录表单 -->
+      <form id="loginForm" class="flex flex-col gap-4">
+        <div>
+          <label class="text-sm font-semibold mb-2" style="display: block;">用户名</label>
+          <div style="position: relative;">
+            <i class="fas fa-user" style="position: absolute; left: 0.875rem; top: 50%; transform: translateY(-50%); color: #9ca3af;"></i>
+            <input
+              type="text"
+              id="username"
+              class="input"
+              placeholder="请输入用户名"
+              style="padding-left: 2.5rem;"
+              required
+              autocomplete="username"
+            >
+          </div>
+        </div>
+
+        <div>
+          <label class="text-sm font-semibold mb-2" style="display: block;">密码</label>
+          <div style="position: relative;">
+            <i class="fas fa-lock" style="position: absolute; left: 0.875rem; top: 50%; transform: translateY(-50%); color: #9ca3af;"></i>
+            <input
+              type="password"
+              id="password"
+              class="input"
+              placeholder="请输入密码"
+              style="padding-left: 2.5rem;"
+              required
+              autocomplete="current-password"
+            >
+          </div>
+        </div>
+
+        <div id="errorMessage" class="text-sm" style="color: #ef4444; display: none; padding: 0.5rem; background: #fee2e2; border-radius: 0.375rem;">
+          <i class="fas fa-exclamation-circle"></i>
+          <span id="errorText"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 0.5rem; padding: 0.75rem;">
+          <span id="loginButtonText">登录</span>
+          <div id="loginSpinner" class="spinner" style="display: none; margin: 0 auto;"></div>
+        </button>
+      </form>
+
+      <!-- 测试账号提示 -->
+      <div class="mt-4" style="padding: 1rem; background: #f9fafb; border-radius: 0.5rem; border: 1px dashed var(--border-color);">
+        <p class="text-sm font-semibold mb-2" style="color: var(--accent-purple);">
+          <i class="fas fa-info-circle"></i> 测试账号
+        </p>
+        <div class="text-sm text-gray-600" style="line-height: 1.6;">
+          <p><strong>管理员：</strong> admin / admin123</p>
+          <p><strong>标注员：</strong> annotator / anno123</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+  <script src="api.js"></script>
+  <script>
+    // 登录页面逻辑
+    const loginForm = document.getElementById('loginForm');
+    const usernameInput = document.getElementById('username');
+    const passwordInput = document.getElementById('password');
+    const errorMessage = document.getElementById('errorMessage');
+    const errorText = document.getElementById('errorText');
+    const loginButtonText = document.getElementById('loginButtonText');
+    const loginSpinner = document.getElementById('loginSpinner');
+
+    // 检查是否已登录
+    if (api.auth.isLoggedIn()) {
+      window.location.href = 'annotate.html';
+    }
+
+    // 表单提交
+    loginForm.addEventListener('submit', async (e) => {
+      e.preventDefault();
+
+      const username = usernameInput.value.trim();
+      const password = passwordInput.value;
+
+      if (!username || !password) {
+        showError('请输入用户名和密码');
+        return;
+      }
+
+      // 显示加载状态
+      loginButtonText.style.display = 'none';
+      loginSpinner.style.display = 'block';
+      errorMessage.style.display = 'none';
+
+      try {
+        await api.auth.login(username, password);
+
+        // 动画后跳转
+        anime({
+          targets: '.card',
+          scale: 0.95,
+          opacity: 0,
+          duration: 300,
+          easing: 'easeInQuad',
+          complete: () => {
+            window.location.href = 'annotate.html';
+          }
+        });
+      } catch (error) {
+        loginButtonText.style.display = 'block';
+        loginSpinner.style.display = 'none';
+        showError(error.message || '用户名或密码错误');
+
+        // 摇晃动画
+        anime({
+          targets: '.card',
+          translateX: [
+            { value: -10, duration: 100 },
+            { value: 10, duration: 100 },
+            { value: -10, duration: 100 },
+            { value: 10, duration: 100 },
+            { value: 0, duration: 100 }
+          ],
+          easing: 'easeInOutSine'
+        });
+      }
+    });
+
+    function showError(message) {
+      errorText.textContent = message;
+      errorMessage.style.display = 'block';
+
+      anime({
+        targets: '#errorMessage',
+        opacity: [0, 1],
+        translateY: [-10, 0],
+        duration: 300,
+        easing: 'easeOutQuad'
+      });
+    }
+
+    // 入场动画
+    anime({
+      targets: '.card',
+      opacity: [0, 1],
+      translateY: [30, 0],
+      duration: 600,
+      easing: 'easeOutQuad'
+    });
+  </script>
+</body>
+</html>

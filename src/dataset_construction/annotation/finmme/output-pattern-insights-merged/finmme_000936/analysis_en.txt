@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Combination chart (Bar, horizontal line, triangular markers).
+- Title: Not displayed.
+- Legend: Gray bar represents “# total users,” horizontal line represents “% Top 10 players,” red triangle represents “% Pop Mart.”
+- X-axis: FY19, FY20, FY21, FY22.
+- Left Y-axis: 0–50 (used for # total users).
+- Right Y-axis: 20%–60% (used for percentages).
+- Right axis data labels: FY19 is 58.0%, FY21 is 56.5%, FY22 is 50.7%; horizontal line is labeled 50.4%.
+
+[Data Relationships]
+- % Top 10 players is 50.4% (constant horizontal line).
+- % Pop Mart: FY19 58.0%; FY21 56.5%; FY22 50.7%.
+- The difference in % Pop Mart between FY19 and FY22 is 7.3 percentage points; the difference between FY21 and FY22 is 5.8 percentage points.
+- Difference between % Pop Mart and the 50.4% line: FY19 is higher by 7.6 percentage points; FY21 is higher by 6.1 percentage points; FY22 is higher by 0.3 percentage points.
+- Ranking of # total users bar height: FY22 is the largest, followed by FY21, then FY20, and FY19 is the smallest.
+
+[Pattern Characteristics]
+The bar chart shows the number of users gradually increasing year by year, displaying a structure of continuous expansion. The percentage corresponding to the red triangle approaches the horizontal reference line in a step-like manner across the years, with FY22 nearly coinciding with this horizontal line. Overall, the trend direction of the volume dimension and the proportion dimension are consistent, with no significant abrupt changes or reversals observed.
+
+[Core Insights]
+Core Conclusion: While the user base expands, concentration is gradually converging toward 50.4%.
+
+Business Implications:
+- Head position (market leadership) has slightly contracted relative to previous periods.
+- The contribution effect of user growth on overall market share is weakening.
+- Future changes in market share will be more sensitive to the competitive landscape.
+
+Risk Focus:
+- If % Pop Mart falls below 50.4%, it may lose the market share premium above the average of the top players.
+- If % Pop Mart approaches below 50% despite continued user growth, the conversion efficiency of new users may significantly decline.

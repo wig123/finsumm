@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Bar chart; Title: Not displayed.
+- X-axis: 7 categories—Industry specific, Customer Experience, Finance & accounting, Research & analytics, Technology services, Legal services, HRO.
+- Y-axis: Qualitative scale, labeled as Low, Med, High.
+- Legend: Potential impact (Red).
+
+[Data Relationships]
+- Level correspondence: Industry specific=Med; Customer Experience=High; Finance & accounting=Med; Research & analytics=Low; Technology services=Med; Legal services=High; HRO=Med.
+- Peak categories: Customer Experience, Legal services (High).
+- Trough category: Research & analytics (Low).
+- Counts: High 2 items; Med 4 items; Low 1 item.
+- Only levels are provided, without specific numerical scale.
+
+[Pattern Characteristics]
+- The categories exhibit a discrete distribution across three levels, with the majority at the medium level, a small number at the highest level, and very few at the lowest level.
+- The structure is segmented rather than a continuous scale, dominated by the medium level, supplemented by contrasts between individual high and low positions. Differences between categories are reflected in the level transitions.
+
+[Core Insights]
+Core Conclusion: Resources should be prioritized toward High, with Med serving as the stable foundation.
+
+Business Implications:
+- Reflects clear tiers of influence, requiring tiered management.
+- High is suitable for priority investment and resource allocation.
+- Med can support scaled implementation, while Low focuses primarily on monitoring.
+
+Risk Concerns:
+- If High drops to Med/Low, potential impact is reduced, making key objectives difficult to achieve.
+- Continued new investment when maintaining = Low, potential impact is limited, and output falls short of expectations.

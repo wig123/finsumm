@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Time series line chart; Title: Malaysia Airports
+- Annotation: As of 29-Feb-2024; Currency=MYR
+- X-axis: Date, approximately from 2021/07/01 to 2024/01/01 (Displayed ticks include 2021/07, 2022/01, 2022/07, 2023/01, 2023/07, 2024/01)
+- Y-axis: Price, range approximately 0.0–8.5 (Unit: MYR)
+- Legend: Gray line=Closing Price; Green triangle=Target Price Change; Blue dot=Recommendation Changes
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial closing price ≈ 6.0 MYR (2021/07).
+- Final closing price ≈ 8.5 MYR (2024/02/29).
+- Maximum value during the entire period ≈ 8.5 MYR (end of 2024/02), minimum value ≈ 5.6 MYR (early 2023).
+- Difference between maximum and minimum ≈ 2.9 MYR.
+- Target price change marked 3 times: approximately 2021/08 (≈6.2), 2022/04 (≈7.9), 2023/05 (≈8.3).
+- No blue "Recommendation Changes" markers are visible in the chart.
+
+[Pattern Characteristics]
+The price exhibits a volatile pattern throughout the period, characterized by a mid-period pullback followed by a rally, reaching the top of the range at the end. The trend includes multiple moderate-amplitude swings, but generally maintains continuity without significant price gaps. Target price changes are distributed across three points in time: early, middle, and late stages. The latter two changes occurred near relatively high price levels, and no recommendation change markers appeared.
+
+[Core Insights]
+Core Conclusion: The stock price center of gravity has gradually risen and is broadly consistent with target price adjustments.
+
+Business Implications:
+- Market pricing and research institution views have evolved largely in sync.
+- The lack of recommendation changes indicates strong continuity in the rating stance.
+- The price movement around multiple target prices reflects a valuation anchoring effect.
+
+Risk Concerns:
+- If the price significantly exceeds 8.5 MYR, it may deviate from the existing target range, triggering downward pressure (or: a correction).
+- If the price breaks below the range low of 5.6 MYR, it may imply the negation of the previous valuation basis, leading to an emotionally amplified downside.

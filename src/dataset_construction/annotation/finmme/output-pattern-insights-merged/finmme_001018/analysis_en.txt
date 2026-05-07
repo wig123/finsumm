@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Time-series line chart, including symbol markers
+- Title: Hyundai Motor; noted in the upper right as "As of 08-Feb-2024," Currency: KRW
+- X-axis: Date, scale examples are 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01
+- Y-axis: Price (KRW), range 0–325,000
+- Legend: Black line = Closing Price; Green triangle = Target Price Change; Blue dot = Recommendation Changes
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial period (approx. 07/2021) closing price ≈ 235,000 KRW; Final period (approx. 02/2024) ≈ 245,000 KRW; Difference ≈ 10,000 KRW
+- Approximate lowest closing price in Q4 2022 ≈ 160,000 KRW; Difference from the final period ≈ 85,000 KRW
+- Approximately 7 green triangles in total: ≈ 310,000 (09/2021), ≈ 280,000 (12/2021), ≈ 270,000 (06/2022), ≈ 290,000 (08/2022), ≈ 230,000 (01/2023), ≈ 310,000 (05/2023), ≈ 240,000 (12/2023)
+- Difference between the final closing price and the highest target price marker (≈ 310,000) ≈ 65,000 KRW
+- No significant blue dot markers observed (≈ 0 times)
+
+[Pattern Characteristics]
+- The closing price initially trended slowly downward within the overall range, formed a distinct low point around Q4 2022, rebounded thereafter, and approached the upper boundary of the range by the final period.
+- Price movement showed phased consolidation/oscillation near the low point, followed by an increase in upward volatility, concluding with a relatively steep upward segment.
+- Target price change points are relatively scattered, mostly located above the current price, and appear both near the price lows and the price highs; recommendation changes are almost absent.
+
+[Core Insights]
+Core Conclusion: After undergoing a round of correction, the stock price is once again approaching the upper boundary of the analyst's expected range.
+
+Business Implications:
+- Current valuation levels are significantly higher than historical lows.
+- A long-term upside gap exists between analyst expectations and the market transaction price.
+- The lack of frequent recommendation adjustments reflects a slow pace of opinion revision.
+
+Risk Focus:
+- If the price approaches 160,000 KRW again, it may signify a significant widening of the expectation gap.
+- A breakthrough above the 310,000 KRW target price ceiling could trigger a reassessment of views and increased volatility.

@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Time-series line chart (Closing Price) including event markers
+- Title: E INK
+- X-axis: Date, range approximately 2021/07/01 to 2024/01/01
+- Y-axis: Price (TWD), range approximately 0–250
+- Legend: Closing Price (Black line), Target Price Change (Green triangle), Recommendation Changes (Blue dot)
+- Top Right Note: As of 07-Mar-2024; Currency=TWD
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial Period (approx. 2021/07) Closing Price ≈ 45 TWD; Final Period (right end of chart) ≈ 250 TWD.
+- Maximum Value ≈ 250 TWD (Early 2024); Minimum Value ≈ 40 TWD (Mid-2021); Range (High-Low Difference) ≈ 210 TWD.
+- 2 Blue dots: Approx. 2022/06 (≈ 205 TWD), Approx. 2023/01 (≈ 180 TWD).
+- 9 Green triangles: Approx. 2021/10 (≈ 90), 2022/01 (≈ 125), 2022/04 (≈ 195), 2022/06 (≈ 235), 2023/02 (≈ 240), 2023/05 (≈ 240), 2023/07 (≈ 245), 2023/09 (≈ 225), 2024/02 (≈ 210).
+- Difference between Final Period and Initial Period ≈ 205 TWD.
+
+[Pattern Characteristics]
+- The price line shows a significant overall upward trend superimposed with multiple rounds of mid-term pullbacks, forming several local high and low plateaus.
+- Green triangles are mostly distributed at phased highs or after rapid upward movements, while blue dots fall near local highs and are often followed by a period of range-bound fluctuation or decline.
+- The overall structure is dominated by a single security, with a limited number of event markers that are discretely distributed.
+
+[Core Insights]
+Core Conclusion: As the stock price rises significantly, target price and rating adjustments tend to follow the trend.
+
+Business Implications:
+- Valuation expectations are often updated only after the price has already risen significantly.
+- Brokerage opinions have limited guidance on short-term trading rhythm.
+- Investment decisions rely more on trend following than event driving.
+
+Risk Concerns:
+- If the price experiences a >20% pullback from ≈ 250 TWD, positions established at previous highs will face significant unrealized losses.
+- If subsequent target prices are not adjusted upward beyond ≈ 250 TWD, upside potential is limited, easily triggering profit-taking pressure.

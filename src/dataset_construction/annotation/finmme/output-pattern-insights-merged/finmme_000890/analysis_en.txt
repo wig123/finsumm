@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Scatter plot, including blue dashed, green dashed, and gray dashed reference lines.
+- Title: 3m Implied vs realised skew; last month.
+- X-axis: Implied skew, range approximately -0.10% to 0.10%, scale: -0.10%, -0.05%, 0.00%, 0.05%, 0.10%.
+- Y-axis: Realised skew, range approximately -0.2% to 0.2%, scale: -0.2%, -0.1%, 0.0%, 0.1%, 0.2%.
+- Legend: Blue diamond "Higher spot," Green square "Lower spot."
+- Thick line baseline at x=0% and y=0%.
+
+[Data Relationships]
+- Maximum Realised approximately 0.12% to 0.15%, corresponding Implied approximately 0.03% (blue points).
+- Minimum Realised approximately -0.12% to -0.14%, corresponding Implied approximately 0% to -0.01% (green points).
+- Maximum Implied approximately 0.08% to 0.10%, corresponding Realised approximately 0.08% to 0.10% (blue points).
+- Minimum Implied approximately -0.08% to -0.10%, corresponding Realised approximately -0.08% to -0.12% (green points).
+- Both types of points appear near the origin (Implied≈0%, Realised≈0%).
+- Blue points Implied range approximately -0.06% to 0.06%; Green points approximately -0.06% to 0.01%. Blue points Realised approximately -0.10% to 0.15%; Green points approximately -0.14% to 0.08%.
+- Overall Realised span approximately 0.26% to 0.29%; Overall Implied span approximately 0.18% to 0.20%.
+
+[Pattern Characteristics]
+The points are generally distributed in a narrow range around the origin, with the Realised span slightly greater than the Implied span. Blue and green points are distributed in bands along upward-sloping dashed lines, but with different intercept positions. Green points are more concentrated in the negative Implied and negative Realised regions, while blue points are more dispersed in the positive Implied and positive Realised regions. Individual blue points exist as outliers deviating from the main cluster in the positive Realised direction.
+
+[Core Insights]
+Core Conclusion: The correlation between implied and realised skew exhibits systematic differences under varying spot conditions.
+
+Business Implications:
+- A positively skewed structure is more likely to emerge during periods of Higher spot.
+- Periods of Lower spot are more sensitive to negative skew performance.
+- The strength of the linkage between implied and realised skew is constrained by the spot status.
+
+Risk Focus:
+- If Implied approaches ±0.10% but Realised does not synchronously approach ±0.10%, pricing deviation may result.
+- If Realised approaches ±0.15% while Implied remains near 0%, it may trigger significant mismatch in hedging positions.

@@ -1,0 +1,27 @@
+[Chart Components]
+- Chart Type: Line chart; Title not displayed.
+- X-axis: Year, scale includes 2018, 2019, 2020, 2021, 2022.
+- Y-axis: Percentage, range 0.0%—50.0%, scale interval approximately 5%.
+- Legend: CR1 (Red), CR4 (Light Gray), CR8 (Black).
+- All data points are marked with specific percentage values.
+
+[Data Relationships]
+- CR1: 2018=6.4%, 2019=6.6%, 2020=7.8%, 2021=9.5%, 2022=9.8%; Change from 2018—2022: +3.4 percentage points.
+- CR4: 2018=21.7%, 2019=24.1%, 2020=26.0%, 2021=28.1%, 2022=28.6%; Change: +6.9 percentage points.
+- CR8: 2018=38.8%, 2019=39.5%, 2020=41.4%, 2021=44.0%, 2022=44.9%; Change: +6.1 percentage points.
+- 2022 Value Comparison: CR8-CR4 = 16.3 percentage points; CR4-CR1 = 18.8 percentage points; CR8-CR1 = 35.1 percentage points.
+
+[Pattern Characteristics]
+The three curves exhibit a unidirectional, relatively smooth, monotonic change across the entire period, without significant volatility or pullbacks. CR8 consistently remains at the highest level, followed by CR4, with CR1 being the lowest. The spacing between the three remains large and generally stable throughout the period. The growth rate of each indicator slightly narrowed from 2021 to 2022 compared to previous periods, with no prominent outliers or inflection points observed.
+
+[Core Insights]
+Core Conclusion: Overall concentration among leading enterprises has increased, but hierarchical differences remain stable.
+
+Business Implications:
+- The industry structure is gradually concentrating toward the leaders, and competition leans more toward scale confrontation.
+- The overall bargaining power and agenda-setting capabilities of the top 8 firms have strengthened.
+- The disparity in size between the top firm (CR1) and the top 4 (CR4) and top 8 (CR8) is unlikely to change significantly in the short term.
+
+Risk Focus:
+- If CR8 exceeds 50%, it may diminish the survival space for small and medium participants.
+- If CR1 approaches 15%, it may lead to constraints associated with over-reliance on a single entity.

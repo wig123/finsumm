@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Bar-Line Combination Chart.
+- Legend: Red bar is "Services revenue (INR bn)," Black line is "% of Sales."
+- X-axis: FY11 to FY23.
+- Left Y-axis: Numerical scale 0–24 (approximately every 3 units), corresponding to revenue.
+- Right Y-axis: Percentage scale 0%–18% (approximately every 2 percentage points), corresponding to sales proportion.
+- Title: Not displayed.
+
+[Data Relationships]
+- Key Bar Values: FY11≈4.5 (lowest); FY16≈14.5; FY20≈17; FY22≈20.5; FY23≈22.5 (highest).
+- Start and End Period: Revenue increased from ≈4.5 to ≈22.5, an increase of ≈18; % of Sales changed from ≈5% to ≈12.5%, a change of ≈+7.5 percentage points.
+- Key Line Values: Peak ≈17.5% (FY20); Second highest ≈17% (FY16); Low value ≈5% (FY11).
+- Difference Examples: Revenue difference between FY16 and FY17 ≈3.5; Difference between FY21 and FY22 ≈4; Difference between FY19 and FY20 ≈2.5.
+
+[Pattern Characteristics]
+Bar data shows a continuous upward trend from the start to the end period, with a noticeable dip around FY17 before continuing its ascent. The line initially moves upward after FY11, forming two similar high points between FY16–FY20, and then gradually declines from FY20 to FY23. Both the bar and the line simultaneously reached local high levels around FY16 and FY20. However, after FY17 and FY21, there were periods where volume growth (revenue) and proportion increase were asynchronous.
+
+[Core Insights]
+Core Conclusion: Services revenue continues to expand, but its contribution to the sales structure first rises, then stabilizes, and slightly declines.
+
+Business Implications:
+- The increase in revenue scale is faster than the slowdown in overall sales.
+- The boosting effect of services on the sales structure slowed down after FY20.
+- Later growth stems more from the expansion of the total market rather than an increase in proportion.
+
+Risk Focus:
+- If % of Sales falls below 10%, the driving effect of services on overall performance will weaken.
+- If the revenue increase falls below the previous range of approximately +2–4, the momentum for scale expansion will be insufficient.

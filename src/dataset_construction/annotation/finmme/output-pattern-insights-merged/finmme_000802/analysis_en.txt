@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Dual-axis time series line chart
+- Title: Not displayed
+- Legend: Red "Price," Gray "Rel NIFTY50"
+- X-axis: Time (Month), Range Feb 23 to Jan 24
+- Left Y-axis: Unit (INR), Scale approximately 1250, 1500, 1750, 2000, 2250
+- Right Y-axis: Scale 100–150 (Increment approximately 10), used for Rel NIFTY50
+
+[Data Relationships]
+- Price range approximately 1250–2250, interval difference ≈ 1000
+- Initial period (Feb 23) Price ≈ 1250; Final period (Jan 24) ≈ 2250, change ≈ +1000 (approx. +80%)
+- Near Jun 23, Price moves from ≈ 1400 to ≈ 1700, difference ≈ 300
+- Nov 23 Price approximately 2000; Dec 23 approximately 2050; Jan 24 peak ≈ 2250
+- Rel NIFTY50 range approximately 100–150, interval difference ≈ 50
+- Initial period ≈ 105; Nov–Dec 23 peak ≈ 150; Final period (Jan 24) ≈ 145
+- Comparison: Feb 23 Price ≈ 1250/Rel ≈ 105; Jun 23 ≈ 1700/≈ 135; Jan 24 ≈ 2250/≈ 145
+
+[Pattern Characteristics]
+Price exhibits a stepped upward trend throughout the entire period, with a significant rise occurring around June. Other phases are characterized mainly by minor fluctuations combined with a slow upward trajectory. Rel NIFTY50 generally fluctuates around an upward-sloping path, with slightly larger volatility in the middle-to-later stages, forming a relatively high plateau in November–December. It slightly retreated at the end but remains at a high level. The two curves move in the same direction most of the time, with brief localized deviations.
+
+[Core Insights]
+Core Conclusion: The stock's performance relative to the index gradually strengthened and consolidated in the later period.
+
+Business Implications:
+- The level of return relative to the benchmark continuously increased throughout the year.
+- The contribution of outperformance to the portfolio increased in the second half of the year.
+- The period of relative strength in the middle-to-later stages exhibits continuation characteristics.
+
+Risk Focus:
+- Rel NIFTY50 dropping below 120 could imply a rapid give-back of relative returns.
+- Price falling back to around 1750 may trigger concentrated profit-taking and an expansion of drawdowns.

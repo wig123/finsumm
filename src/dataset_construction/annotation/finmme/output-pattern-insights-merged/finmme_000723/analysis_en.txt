@@ -1,0 +1,27 @@
+[Chart Components]
+- Chart Type: Combination chart (Gray bars represent Green Power, Red triangles represent Green Power Mix%, Right Axis).
+- Title: Not displayed.
+- X-axis: Fiscal Year classification—FY18, FY19, FY20, FY21, FY22, FY23, FY25F.
+- Left Y-axis: Power (MW), maximum scale approximately 600.
+- Right Y-axis: Proportion (%), scale range 30%—65%, interval 5%.
+- Legend: Green Power (MW); Green Power Mix (%) (RHS).
+
+[Data Relationships]
+- Green Power Mix: FY25F is between 60%—65%, representing the highest level; FY18 is between 30%—35%, representing the lowest level; the difference between the two is approximately 25—35 percentage points.
+- FY19 approximately 40%; FY20 approximately 45%; FY21 and FY22 are around 50%; FY23 approximately 50%—55%.
+- Green Power (MW): The FY25F bar approaches 600MW, representing the highest level; FY18 is the shortest, approximately 100—150MW; FY19 approximately 150MW; FY20, FY21 approximately 230—250MW; FY22 approximately 260—270MW; FY23 approximately 380—400MW.
+
+[Pattern Characteristics]
+The two series (bars and triangles) generally show a synchronized, gradually ascending step structure across the fiscal years, with greater increases observed in the later period. Changes between years are continuous, with no significant decline, except for the FY21–FY22 period where the triangle values (proportion) remained largely flat. Both the bar height and the triangle height for FY23 and FY25F are significantly higher than in previous years, forming two relatively prominent peaks, with FY25F being the most concentrated in the upper range.
+
+[Core Insights]
+Core Conclusion: The scale and proportion of green power are increasing simultaneously, accelerating structural adjustment.
+
+Business Implications:
+- The weighting of green power in the overall power structure continues to rise.
+- Capacity expansion and structural optimization show a trend of synergistic advancement.
+- Resource and capital allocation towards green power will be more concentrated over the next two years.
+
+Risk Concerns:
+- If FY25F capacity is below 500MW, the green power proportion may struggle to stabilize above 60%.
+- If the proportion remains near 50% for an extended period, the return on existing expansion investment may be weakened.

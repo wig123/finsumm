@@ -1,0 +1,52 @@
+# 验证测试 - 测试优化后的系统
+batch_name: "validation_test"
+output_base_dir: "./validation_test"
+
+execution:
+  parallel: true
+  max_workers: 3
+  use_async: true
+
+# 测试6个关键图表
+charts:
+  # 1. 股票市场K线 - 测试OHLC数据源
+  - chart_type: candlestick
+    language: en-US
+    theme: equity_markets
+    library: mplfinance
+    data_constraints: {}
+
+  # 2. 商品K线 - 测试商品OHLC
+  - chart_type: candlestick
+    language: en-US
+    theme: commodities
+    library: mplfinance
+    data_constraints: {}
+
+  # 3. 外汇K线 - 测试外汇OHLC
+  - chart_type: candlestick
+    language: en-US
+    theme: fx_trade
+    library: mplfinance
+    data_constraints: {}
+
+  # 4. 时间序列折线图
+  - chart_type: line
+    language: en-US
+    theme: equity_markets
+    library: matplotlib
+    data_constraints: {}
+
+  # 5. 热力图
+  - chart_type: heatmap
+    language: en-US
+    theme: fx_trade
+    library: seaborn
+    data_constraints: {}
+
+  # 6. 散点图
+  - chart_type: scatter
+    language: en-US
+    theme: commodities
+    library: matplotlib
+    data_constraints: {}

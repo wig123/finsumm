@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Side-by-side two-dimensional heat maps (matrices), where cells display IRR percentages and use a red-to-green color scheme to indicate high and low values.
+- Titles: Left "Unlevered Onshore IRR Sensitivities"; Right "Levered Onshore IRR Sensitivities."
+- Column Axis Labels: Wind Turbine ASP ($/W), values $0.80, $0.85, $0.90, $0.95, $1.00, $1.05, $1.10, $1.15, $1.20.
+- Row Axis Labels: PPA Price ($/MWh), values from $15 to $75, with a step of $5.
+- The charts include black boxes highlighting several key cells; no external numerical legend.
+
+[Data Relationships]
+- Unlevered minimum value: 2.1% at $15 and $1.20; maximum value: 24.5% at $75 and $0.80; range span of 22.4 percentage points.
+- Levered minimum value: -1.9% at $15 and $1.20; maximum value: 69.8% at $75 and $0.80; range span of 71.7 percentage points.
+- At $50 and $1.00: Unlevered is 16.1%, Levered is 44.1%, a difference of 28.0 percentage points.
+- In the $75 row: Unlevered at $0.80 is 24.5%, at $1.20 is 18.3%, a difference of 6.2 percentage points; Levered is 69.8% and 50.3%, respectively, a difference of 19.5 percentage points.
+- In the $15 row: Unlevered at $0.80 is 5.1%, at $1.20 is 2.1%, a difference of 3.0 percentage points; Levered is 12.9% and -1.9%, respectively, a difference of 14.8 percentage points.
+- In the $0.80 column: Unlevered increases from 5.1% at $15 to 24.5% at $75, an increase of 19.4 percentage points; Levered increases from 12.9% to 69.8%, an increase of 56.9 percentage points.
+
+[Pattern Characteristics]
+Both matrices exhibit an overall gradient from high-value regions in the upper-left to low-value regions in the lower-right, with colors transitioning from green to red, structurally resembling regular diagonal contour lines. Vertically, the gradient of change corresponding to PPA price (under the same ASP) is significantly greater than the horizontal gradient of change corresponding to ASP (under the same PPA). The Levered matrix exhibits a more intense color scale change. The Levered matrix shows negative value blocks in certain low PPA and high ASP regions, whereas the Unlevered matrix maintains positive values in the corresponding locations.
+
+[Core Insights]
+Core Conclusion: Leverage significantly amplifies the profitability level and the sensitivity to price parameters.
+
+Business Implications:
+- IRR is primarily driven by PPA price, and secondarily by turbine unit price (ASP).
+- Applying leverage significantly increases return elasticity, and the range of fluctuation is magnified.
+- Under a combination of medium-to-high PPA and medium ASP, leverage can significantly elevate the project return range.
+
+Risk Focus:
+- When PPA ≤ $20 and ASP ≥ $1.10, the Levered IRR approaches or falls below 0%, potentially leading to negative equity returns.
+- Within the PPA ≤ $35 range, every $0.05/W increase in ASP significantly compresses the Levered IRR, potentially causing marginal projects to quickly fall outside the target return.

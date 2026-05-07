@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Grouped Bar Chart
+- Title: Not displayed
+- X-axis: Currency Categories (GBP, USD, EUR, JPY, CHF, AUD, BRL, IDR, ZAR, PLN)
+- Y-axis: USD Million, scale approximately from -20 to 10
+- Legend: Spot (Blue), Options (Green)
+
+[Data Relationships]
+- Spot: USD approx. -18 to -19; EUR approx. -5; JPY approx. +2; IDR approx. +2; BRL approx. +7; ZAR approx. +7; GBP ≈ 0; AUD ≈ 0; PLN ≈ 0; CHF ≈ 0.
+- Options: USD approx. -3; GBP approx. +1; AUD approx. +1; PLN approx. +0.5; Others (EUR, JPY, CHF, BRL, IDR, ZAR) ≈ 0.
+- In the USD category, the difference between Spot and Options is approximately 15.
+- Highest positive values: Spot for BRL and ZAR are both approx. +7; Largest negative value: Spot for USD is approx. -18 to -19.
+- The difference between EUR Spot and USD Spot is approximately 13 to 14.
+
+[Pattern Characteristics]
+Each currency exhibits significant structural differences between Spot and Options, with a few currencies showing the same direction but a large difference in magnitude. Overall, Spot deviates further from zero across most currencies, while Options are mostly clustered near zero, with only minor deviations in a few currencies. The absolute value of the USD Spot bar is prominent compared to other currencies; the Spot bars for BRL and ZAR are significantly higher on the positive side than other positive-value currencies.
+
+[Core Insights]
+Core Conclusion: Exposure is highly concentrated in a few currencies, primarily driven by spot transactions.
+
+Business Implications:
+- Overall risk is primarily driven by the USD Spot position.
+- The regulatory effect of options on overall risk is limited.
+- Emerging currencies such as BRL and ZAR amplify P&L volatility.
+
+Risk Focus:
+- When USD Spot is below -15, single-currency volatility may dominate the overall result.
+- When BRL or ZAR Spot is above +7, local market changes may amplify portfolio volatility.

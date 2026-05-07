@@ -1,0 +1,25 @@
+[Chart Components]
+- Type: Combination chart (Red bars represent GNPA%, gray bars represent NNPA%, black line represents PCR%).
+- Title: No explicit title; legend labels are “GNPA(%), NNPA(%), PCR(%)”.
+- X-axis: Time points are sequentially 9MFY22, FY22, 1QFY23, 1HFY23, 9MFY23, FY23, 1QFY24, 1HFY24, 9MFY24.
+- Y-axis: Left axis 0.0%—9.0% (corresponding to GNPA, NNPA); Right axis 0%—50% (corresponding to PCR).
+
+[Data Relationships]
+- Initial Period (9MFY22) vs. Final Period (9MFY24): GNPA 7.9%→3.0%, change -4.9pp; NNPA 5.1%→1.7%, -3.4pp; PCR 35%→44%, +9pp.
+- High and Low Points: GNPA highest 7.9% (9MFY22), lowest 3.0% (9MFY24), difference 4.9pp; NNPA highest 5.1% (9MFY22), lowest 1.7% (9MFY24), difference 3.4pp; PCR highest 47% (FY23), lowest 35% (9MFY22/FY22/1QFY23), difference 12pp.
+- Year-over-Year Comparison (FY22 vs FY23): GNPA 6.6% vs 4.0%, difference -2.6pp; NNPA 4.3% vs 2.1%, -2.2pp; PCR 35% vs 47%, +12pp. The maximum difference between GNPA and NNPA is 2.8pp (9MFY22), and the minimum is 1.3pp (9MFY24).
+
+[Pattern Characteristics]
+The GNPA and NNPA bar groups generally show a continuous narrowing trend, and NNPA is consistently lower than GNPA, with the gap between the two slightly decreasing over time. The PCR line gradually increased after stabilizing at the same level in the early period, reaching a clear peak in FY23, followed by a slight decline but remaining at a relatively high level. There are no sharp fluctuations among the three metrics; the pace of change is relatively smooth, with only a significant high point for PCR forming around FY23.
+
+[Core Insights]
+Core Conclusion: Non-performing asset ratios are declining while provision coverage remains within a high range.
+
+Business Implications:
+- The extent of non-performing asset exposure is gradually mitigating.
+- Provisioning for non-performing assets is more adequate.
+- The alignment between asset quality and impairment provisioning has improved.
+
+Risk Concerns:
+- If GNPA approaches 6% or higher again, it may compress profit margins.
+- If PCR falls back near 35%, it may weaken the capacity to buffer against subsequent increases in non-performing assets.

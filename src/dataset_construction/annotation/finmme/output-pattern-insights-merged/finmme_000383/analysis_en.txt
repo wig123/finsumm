@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Line chart (red line)
+- Title: Not displayed; Legend is “Sales per store per yr (INR mn)”
+- X-axis: Fiscal years labeled FY15, FY16, FY17, FY18, FY19, FY20, FY21, FY22, FY23, 1HFY24
+- Y-axis: Value range approximately 0.00–1.60, scale interval approximately 0.20
+- Others: Background grid lines, single data series
+
+[Data Relationships]
+- Initial period FY15 ≈ 0.88; Lowest point FY17 ≈ 0.55; Latest 1HFY24 ≈ 1.44.
+- FY18 ≈ 0.67; FY19 ≈ 0.76; FY20 ≈ 0.76; FY21 ≈ 0.96; FY22 ≈ 1.10; FY23 ≈ 1.36.
+- Difference between the highest point (1HFY24) and the lowest point (FY17) ≈ 0.89.
+- Difference between FY15 and 1HFY24 ≈ 0.56.
+- Difference between FY19/20 and FY21 ≈ 0.20.
+- Difference between FY22 and FY23 ≈ 0.26.
+- Difference between FY17 and FY18 ≈ 0.12; Difference between FY18 and FY19 ≈ 0.09.
+
+[Pattern Characteristics]
+The curve initially declined to a local low point in FY17, after which it showed a continuous overall increase. Values remained nearly flat during the FY19–FY20 period, followed by a relatively faster increase up to 1HFY24, where the slope of the latter segment is greater than the former. No significant sharp jumps or isolated outliers were observed throughout the entire period.
+
+[Core Insights]
+Core Conclusion: Sales per store, following adjustments, are now at a significantly higher level.
+
+Business Implications:
+- Reflects a marked increase in revenue generation capability per store compared to FY15.
+- Provides a positive contribution to overall revenue scale and sales productivity.
+- Indicates higher efficiency in the store operation model during the mid-to-late stages.
+
+Risk Focus:
+- If sales per store fall back below 1.0, it may drag down the overall revenue growth rate.
+- If future growth is lower than the difference observed during the FY22–FY23 period, the return on expansion may fall short of expectations.

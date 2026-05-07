@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Line Chart
+- Title/Legend: US Effective Tax Rate: 5-year average (Teal/Cyan Curve); A vertical blue line is also present in the chart
+- X-axis: Year, Range approximately 1986–2025 (Scale examples: 1986, 1990, 1994, 1998, 2002, 2006, 2010, 2014, 2018, 2022, 2025)
+- Y-axis: Numerical Scale approximately 10.0–45.0
+
+[Data Relationships]
+- Value near 1986 is between 30 and 35.
+- Reached close to 40 around 1992–1993 (Between approximately 35–40, representing the chart's peak).
+- Value around 2018 is between 20 and 25.
+- Value at the end of 2024–2025 is approximately 15 (Close to the 15 mark).
+- The difference between the peak and the end of 2024–2025 is approximately 25 scale units.
+- The difference between 1986 and the end of 2024–2025 is approximately 15–20 scale units.
+
+[Pattern Characteristics]
+The curve initially rises to the highest range in the early sample period, then generally exhibits a stepped decline after the mid-1990s, interspersed with several brief plateaus and minor rebounds. The decline became more continuous after 2010, positioning the curve in the chart's low range near the end of the sample period. The vertical blue line is located around 2017–2018, dividing the curve into two phases: before and after the blue line. Following the blue line, the curve continues to extend toward lower levels.
+
+[Core Insights]
+Core Conclusion: The US effective tax rate has trended downward over the long term, currently resting at historically low levels.
+
+Business Implications:
+- The tax burden is relatively reduced, expanding profit margins.
+- Fiscal revenue may exhibit increased reliance on other sources.
+- Changes in tax rates lead to greater sensitivity in valuations and capital structure.
+
+Risk Focus:
+- If the 5-year average continues to approach 10, the fiscal budget may face deficit pressure.
+- Should the rate rebound above 30 in the future, corporate earnings and equity valuations could face significant compression.

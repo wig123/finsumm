@@ -1,0 +1,28 @@
+[Chart Components]
+- Dual line chart; Title: "Tractors"
+- Legend: Red "MMFS disbursement growth (y-y)", Gray "Industry volume growth (y-y)"
+- X-axis: FY17–FY23; Y-axis: Growth rate (%), range approximately -40% to 40%, 10% scale, including 0% baseline
+- In-chart text: Correlation: 0.25
+
+[Data Relationships]
+- MMFS Annual: FY17≈35%, FY18≈26%, FY19≈29%, FY20≈-12%, FY21≈-30%, FY22≈29%, FY23≈35%
+- Industry Annual: FY17≈7%, FY18≈16%, FY19≈12%, FY20≈-2%, FY21≈15%, FY22≈3%, FY23≈28%
+- MMFS Peak≈35%, Trough≈-30%, Amplitude≈65pp; Industry Peak≈28%, Trough≈-2%, Amplitude≈30pp
+- Period Difference (MMFS - Industry): FY17+28, FY18+10, FY19+17, FY20-10, FY21-45, FY22+26, FY23+7pp
+- FY21→FY22: MMFS+59pp; Industry -12pp
+- Correlation: 0.25
+
+[Pattern Characteristics]
+The overall direction of the two lines is inconsistent, with a correlation of only 0.25, indicating a weak positive relationship. The volatility (amplitude) of the red line is much greater than the gray line, deviating significantly from the gray line's level multiple times, especially showing an extreme low point near FY21, followed by a sharp reversal in FY22. The gray line trend is relatively smooth, showing a noticeable upward shift only between FY21–FY23, but the magnitude is still significantly smaller than the red line.
+
+[Core Insights]
+Core Conclusion: MMFS disbursement growth exhibits high volatility and periodic decoupling relative to the industry.
+
+Business Implications:
+- MMFS pace is not synchronized with industry prosperity, indicating a more aggressive strategy.
+- Places higher demands on MMFS's own scale volatility management and resource allocation.
+- The recovery pace post-FY21 is significantly faster than the industry, suggesting potential market share changes during this period.
+
+Risk Concerns:
+- When MMFS growth exceeds the industry by more than 30pp, it may lead to overly rapid asset expansion.
+- When MMFS growth falls below -20% while the industry remains positive, it may result in business contraction and idle capacity.

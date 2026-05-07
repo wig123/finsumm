@@ -1,0 +1,28 @@
+【图表构成】
+- 类型：垂直柱状图
+- 标题：未显示
+- 纵轴：% of ticket price，范围0%–40%，刻度每5%
+- 横轴：Ryanair Group、easyJet、Wizz Air、IAG、AF‑KLM Group、Lufthansa Group
+- 图例：Network carriers（深色），LCCs（浅色）
+
+【数据关系】
+- 数值：Ryanair 34%；easyJet 28%；Wizz Air 19%；IAG 8%；AF‑KLM 6%；Lufthansa 6%
+- 最高34%（Ryanair），最低6%（AF‑KLM、Lufthansa），高低差28个百分点
+- LCCs均值=27.0%；Network carriers均值≈6.7%；两组均值差≈20.3个百分点
+- LCCs组内差=15个百分点（34%–19%）；Network carriers组内差=2个百分点（8%–6%）
+- easyJet比Wizz Air高9个百分点；Ryanair比easyJet高6个百分点；IAG比AF‑KLM高2个百分点；Lufthansa与AF‑KLM相同
+
+【模式特征】  
+图中呈现两类航空公司的分组结构，一组整体处于纵轴上端，另一组整体处于下端，形成明显阶梯式分层。组间差异远大于组内差异，其中LCCs内部从最高到最低跨度较大，而Network carriers内部数值相对集中。各柱状无断点和反转，整体结构稳定，无孤立极端值。
+
+【核心洞察】  
+核心结论：低成本航司在票价构成中的该项占比显著高于传统航司。  
+
+业务含义：  
+- 两类航司在收益结构上存在明显分化  
+- LCCs对该项收入来源的依赖度更高  
+- 传统航司的相关收入空间可能相对有限  
+
+风险关注：  
+- LCCs若该项占比持续高于30%，对单一收入来源过度依赖  
+- Network carriers若长期低于7%，在该项收益竞争上处于劣势

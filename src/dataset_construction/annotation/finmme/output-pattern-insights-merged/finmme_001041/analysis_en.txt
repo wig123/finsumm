@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: A three-column, three-row scenario comparison table.
+- Column Titles: Peak/Bull case, Bear-case, Base case; column headers are red horizontal bars.
+- Row Themes: 1) Macro and Policy/Growth Assumptions; 2) Valuation Multiples Level; 3) Relationship between Asian Earnings and Consensus Estimates.
+- Color Scheme: Cells in the Base case column have a light-colored background, the rest have a white background.
+- No axes, no scales, no legends, no overall title observed.
+
+[Data Relationships]
+- Years: 2023 (Peak Fed Rate); 2024 (Soft Landing/Growth Slowdown/Recovery); 24F, 25F (Earnings Forecasts).
+- Valuation Multiples: Peak/Bull are above the historical average; Bear sees significant mid-year downward revision, year-end is "optically high" due to a low earnings base; Base is slightly below the average.
+- Earnings Comparison: Peak/Bull are roughly consistent with consensus estimates; Bear is significantly below 24F and 25F; Base is below 24F and 25F.
+- Macro Assumptions: Peak/Bull features moderating inflation, resilient growth, weakening USD; Bear features higher rates for longer, recession/stagflation concerns; Base features a soft landing.
+- China and Semiconductors/AI: Peak/Bull is "stronger/continuation"; Bear is "disappointment"; Base is "cyclical recovery, continuation."
+
+[Pattern Characteristics]
+- The three columns of scenarios form a top-down matching combination across three main lines: Macro assumptions, valuation multiples, and earnings levels change progressively from optimistic to pessimistic according to the scenario.
+- Within each scenario, the three rows exhibit consistent directional linkage descriptions, with no cross-contradictions.
+- The Base column is highlighted with a light background, emphasizing it as the intermediate scenario, while the Peak/Bull and Bear columns on either side present contrasting comparisons in terms of macro, valuation, and earnings.
+
+[Core Insights]
+Core Conclusion: Differences in the macro trajectory will directly dictate the landing points for Asian valuations and earnings.
+
+Business Implications:
+- Investment outcomes are highly dependent on the assessment of macro and policy trends.
+- Valuation levels are constrained jointly by earnings revisions and risk premium.
+- The performance of China and Semiconductors/AI will amplify return differentials between different scenarios.
+
+Risk Focus:
+- If actual earnings are significantly below 24F/25F consensus estimates, valuations may become passively high due to the low earnings base.
+- If high interest rates are maintained long-term and growth is weaker than the Base assumption, portfolios will face the dual impact of valuation compression and profit downgrades.

@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Vertical stacked bar chart (Total value is negative, extending downwards from the 0 axis).
+- Title: Not displayed.
+- X-axis: Time, annual labels from "Jan-03" to "Jan-23".
+- Y-axis: USD billion; Scale range 0 to -80, with increments of approximately -10.
+- Legend: Two categories—"301" (light green) and "Non-301" (dark green).
+
+[Data Relationships]
+- Initial period (Jan-03) total value approximately -18 (between -20 and -10).
+- The lowest total value appeared near Jan-22, approximately -75 (between -70 and -80).
+- Final period (Jan-23) total value approximately -58 (between -60 and -50).
+- Jan-22 composition: Non-301 approximately -12, 301 approximately -63, total approximately -75.
+- Jan-03 composition: Non-301 approximately -4, 301 approximately -14, total approximately -18.
+- Magnitude of change from the initial period to the lowest point approximately -57.
+- Difference between the initial period and the final period approximately -40.
+
+[Pattern Characteristics]
+- The overall bar height generally deepened over time, accompanied by several medium-sized swings and contractions, but never returned to early levels.
+- The proportion of the light green segment in the overall bar height maintained a dominant position long-term. The dark green segment mostly formed a thinner layer at the top, slightly thickening in the recent later period.
+- The most prominent extreme bar height appeared near Jan-22, subsequently contracting slightly in Jan-23, but still significantly larger than the early stages.
+
+[Core Insights]
+Core Conclusion: The scale of negative values accumulated long-term and amplified intensely in the later period, with the structure primarily driven by "301".
+
+Business Implications:
+- The overall negative exposure continues to expand, with concentration leaning towards "301".
+- "301" drove most of the total volume change and had the largest impact on the overall indicator.
+- There has been a slight recovery in the past year, but it remains in a historically high negative value range.
+
+Risk Focus:
+- When the total value approaches or exceeds -70 (e.g., Jan-22), it may trigger increased liquidity or capital utilization pressure.
+- When the "301" single item approaches -60 or above, it may lead to excessive structural concentration, weakening diversification effects.

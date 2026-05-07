@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Multi-line chart
+- Annotation: Top right corner "Median: 0.8x"
+- Y-axis: Unit "(HKD)", range approximately 0.0—4.0
+- X-axis: Time scale, from Aug-18 to Aug-23
+- Legend/Annotations: Reference lines annotated on the right "0.5x, 1x, 1.5x, 2x, 2.5x"; corresponding to gray (0.5x), black (1x), light orange (1.5x, 2.5x), black dashed line (2x); there is also a red data line.
+
+[Data Relationships]
+- Initial Period (Aug-18) Red line ≈1.1 HKD; Final Period (Aug-23) ≈1.0 HKD; Difference ≈−0.1 HKD
+- Red line peak ≈2.1 HKD (approx. Aug-19), trough ≈0.7 HKD (approx. Aug-22); Peak-to-trough difference ≈1.4 HKD
+- Reference line levels: 0.5x≈0.6 HKD; 1x≈1.2 HKD; 1.5x≈1.9 HKD; 2x≈2.5 HKD; 2.5x≈3.2 HKD
+- In Aug-19, the Red line was higher than 1x by ≈0.9 HKD; lower than 2x by ≈0.4 HKD
+- In Aug-22, the Red line was higher than 0.5x by ≈0.1 HKD; lower than 1x by ≈0.6 HKD
+- Text on chart: Median=0.8x
+
+[Pattern Characteristics]
+- The Red line initially experienced a significant rise and a localized peak in the early stage, subsequently gradually declining around the middle section and maintaining minor fluctuations within a lower range.
+- Compared to the multiple horizontal reference lines, the Red line remained between 1x and 0.5x for most of the entire period, only briefly approaching the higher multiple reference lines in the early stage.
+- The median of the Red line is annotated as 0.8x, reflecting that its value has long been skewed toward the lower half, and there were no periods of sustained proximity to extreme reference lines.
+
+[Core Insights]
+Core Conclusion: The long-term operating level of the underlying asset is generally below the 1x benchmark.
+
+Business Implications:
+- Relative to the 1x benchmark, it is in a discount range.
+- The early premium phase can be viewed as a signal of temporary overvaluation.
+- The median of 0.8x indicates a conservative valuation focus.
+
+Risk Concerns:
+- If it persistently falls below 0.5x (approx. 0.6 HKD), it may trigger further sentiment suppression.
+- If it surges again close to 2x (approx. 2.5 HKD), short-term pullback pressure may significantly increase.

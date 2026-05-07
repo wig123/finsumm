@@ -1,0 +1,33 @@
+【图表构成】
+- 图表类型：堆叠柱状图
+- 标题：未显示
+- 横轴：财年类别—FY19、FY20、FY21、FY22、FY23、FY24F、FY25F
+- 纵轴：单位为Wbn，范围约-100至400，零点有水平基线；负刻度标注(-50)、(-100)
+- 图例：红色—Retail OP（offline、online、supermarket、CVS）；灰色—Food OP（SSG Food、SKC、Hotel）
+
+【数据关系】
+- FY19：Retail OP约220 Wbn；Food OP约10 Wbn；合计约230 Wbn
+- FY20：Retail OP约290 Wbn；Food OP为负，处于-50至-100 Wbn区间
+- FY21：Retail OP约190 Wbn；Food OP约40 Wbn；合计约230 Wbn
+- FY22：Retail OP约90 Wbn；Food OP约170 Wbn；合计约260 Wbn
+- FY23：Retail OP约10 Wbn；Food OP约210 Wbn；合计约220 Wbn
+- FY24F：Retail OP约60 Wbn；Food OP约240 Wbn；合计约300 Wbn
+- FY25F：Retail OP约70 Wbn；Food OP约270 Wbn；合计约340 Wbn
+- 合计对比：FY24F较FY23约+80 Wbn；FY25F较FY24F约+40 Wbn；FY22较FY21约+30 Wbn
+
+【模式特征】
+- 各年度合计柱体整体在一个相对窄的区间内变化，未出现极端跳跃，但FY22后预测阶段略高于历史区间。  
+- 红色部分在FY20达到峰值后逐年收缩，并在FY23处于极低水平，随后预测小幅恢复；灰色部分在FY20为明显负值，此后在全部年度均为正值且逐年放大，并在FY22后成为柱体的主要组成。  
+- FY20是唯一出现负向灰色区段的年份，也是两部分相对结构差异最明显的年份。
+
+【核心洞察】
+核心结论：整体盈利保持在稳定区间，结构重心由Retail向Food转移。
+
+业务含义：
+- 整体利润未显著扩张，更多是结构调整。
+- Food板块对集团利润贡献度快速上升。
+- Retail板块对整体表现的主导作用明显减弱。
+
+风险关注：
+- 若Retail长期低于50 Wbn，单板块抗压能力偏弱，易拖累整体空间。
+- 若Food高于250 Wbn占比过高，过度依赖单一板块，波动放大全集团业绩变动。

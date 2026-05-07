@@ -1,0 +1,27 @@
+[Chart Components]
+- Chart Type: Line chart; Title not visible/present.
+- X-axis: Time, scale from Jan-16 to Jan-24.
+- Y-axis: Index (base = 100), range approximately 90–150.
+- Legend: Dallas (dark cyan), Fort Worth (light cyan), Washington DC (orange, dotted).
+
+[Data Relationships]
+- Jan-16: The indices for all three cities were approximately 100.
+- Jan-23: Fort Worth approximately 142, Dallas approximately 139, Washington DC approximately 129.
+- Jan-24: Fort Worth approximately 145, Dallas approximately 143, Washington DC approximately 130.
+- Jan-24 Differential: Fort Worth was approximately 2 points higher than Dallas; approximately 15 points higher than Washington DC; Dallas was approximately 13 points higher than Washington DC.
+- The maximum scale displayed on the Y-axis is 150, and the minimum scale is 90.
+
+[Pattern Characteristics]
+The three lines converge at the starting point, and subsequently, the overall trend is synchronous (in the same direction), but the magnitude gradually diverges. Around Jan-21, after the three lines briefly converged, a relatively noticeable change in slope occurred, followed by a gradual widening of the gap. At the endpoint, a fixed ranking from highest to lowest is established, with the top two lines remaining close to each other, and the third line significantly lower.
+
+[Core Insights]
+Core Conclusion: The indices of the three regions have evolved synchronously over the long term, but a strength hierarchy (gradient) has been established.
+
+Business Implications:
+- Fort Worth and Dallas demonstrate a stronger accumulation effect.
+- Washington DC's relative performance is inferior, affecting the overall ranking.
+- Increased divergence between regions provides greater scope for allocation trade-offs.
+
+Risk Focus:
+- If the Washington DC index remains stagnant near 130 for an extended period, it may drag down the overall portfolio performance.
+- If the Fort Worth or Dallas indices approach the upper limit of 150, further additions may face drawdown pressure.

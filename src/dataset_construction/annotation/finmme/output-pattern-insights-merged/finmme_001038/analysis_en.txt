@@ -1,0 +1,27 @@
+[Chart Components]
+- Chart Type: Multi-line chart
+- Title: EPS
+- X-axis: Time, scale from Jan 20 to Jan 24 (Jan/Jul semi-annual scale)
+- Y-axis: Value range approximately 5–17, scale marks at 5, 7, 9, 11, 13, 15, 17
+- Legend: 5 series—2021 (Cyan), 2022 (Orange), 2023 (Purple), 2024 (Light Gray), 2025 (Dark Gray); Grid lines visible; Each series is labeled with the year at the end
+
+[Data Relationships]
+- At Jan 24: 2025≈16.5; 2024≈13.5; 2021≈10.8; 2023≈9.5; 2022≈7
+- Global maximum value≈17 (2024/2025 near Jan 23); Global minimum value≈5 (2021 at Jan 20)
+- Starting values for each series: 2021≈5 (Jan 20); 2022≈6 (Jan 20); 2023≈9 (Jan 21); 2024≈13 (Jan 22); 2025≈16–17 (Jan 23)
+- Difference from start point to Jan 24: 2021≈+6; 2022≈+1; 2023≈+0.5; 2024≈+0.5; 2025≈0–0.5
+
+[Pattern Characteristics]
+The multiple curves generally exhibit a step-wise upward shifting structure, with the overall level of subsequent years' series progressively increasing. The 2021 and 2022 series were relatively flat in the early stages, followed by a period of significant uplift before leveling off and slightly declining. The 2023 series peaked locally in the middle segment before continuing to trend lower, while 2024 and 2025, after a brief sharp jump, maintained small fluctuations within a higher range.
+
+[Core Insights]
+Core Conclusion: The EPS level rises year-over-year, with newer years maintaining a higher range.
+
+Business Implications:
+- Overall profitability shows a step-wise enhancement across different years.
+- The later profitability benchmark is elevated, having a greater impact on valuation and pricing.
+- The subsequent decline in 2023 reflects lower earnings stability compared to 2024–2025.
+
+Risk Concerns:
+- If EPS falls back below 10, it will significantly weaken market expectations formed by previous high profitability.
+- If 2024/2025 EPS declines to below 13, it will erase the incremental growth achieved in the last two years.

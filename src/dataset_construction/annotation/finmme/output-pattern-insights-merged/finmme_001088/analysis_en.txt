@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Financial Data Table; Title: Galp
+- Columns: 4Q22, 3Q23, 4Q23E, Actual, CONS*, YoY(%), QoQ(%)
+- Row Items: Working interest production (kboe/d); Clean PnL (EURmn) Segments—Upstream, Industrial & Energy Management, Commercial, Renewables & New Businesses; Adjusted EBITDA; Income tax; Adjusted Net Income; Galp OCF (pre-WC); Gross Capex (inc. exploration); Net Debt (exc. leases); Net debt (inc. leases)/Net debt & Equity
+- Units: Production kboe/d; Most items EURmn; The last row is percentage
+
+[Data Relationships]
+- Production 4Q23E 122; vs CONS 128 -6; vs 4Q22 -8, vs 3Q23 -3.
+- Clean PnL (4Q23E): Upstream 658, I&EM 115, Commercial 70, Renewables 28; Difference vs CONS: +8, +12, -7, +3; High 658, Low 28.
+- Adj EBITDA 870; vs 4Q22 -81, vs 3Q23 -187; vs CONS 854 +16.
+- Adj Net Income 206; vs 4Q22 -68, vs 3Q23 -4; vs CONS 228 -22.
+- Capex 402; vs 4Q22 +60, vs 3Q23 +109.
+- Net Debt 865; vs 4Q22 -690, vs 3Q23 -345; Net Debt/Net Debt & Equity 29% vs 36% (-7pp) / 32% (-3pp).
+
+[Pattern Characteristics]
+- Profitability across segments exhibits a differentiated structure: Upstream has the largest volume, followed by Industrial & Energy Management, while Commercial and Renewables are significantly smaller in scale.
+- Within the same project, some indicators show a slight positive deviation compared to consensus (e.g., Upstream, Adj EBITDA), while production and Adj Net Income are below consensus; positive and negative changes are intertwined in the YoY and QoQ columns, presenting a non-unidirectional mixed change pattern.
+- Cash flow and Capex move in opposite directions; Capex is at a relatively high level in this table, while Net Debt and the leverage ratio are at the lowest levels among the three periods presented.
+
+[Core Insights]
+Core Conclusion: Profit structure relies on Upstream, with overall earnings and cash flow under pressure but leverage declining.
+
+Business Implications:
+- Upstream contribution is dominant, indicating a high concentration of profit sources.
+- Overall profit is weaker than consensus, limiting earnings elasticity.
+- While investment is amplified, the intensity of the balance sheet has moderated.
+
+Risk Concerns:
+- If Adj Net Income continues to fall below CONS 228mn, it may weaken shareholder return expectations.
+- If Net debt/Net debt & Equity rises above 32% again, it will compress future investment and distribution capacity.

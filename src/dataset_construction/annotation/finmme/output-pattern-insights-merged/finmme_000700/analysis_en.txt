@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Scatter Plot
+- Title: Stoxx 600 Sectors
+- Y-axis: YTD Relative Returns, scale approximately from (80%) to 100%, including the 0% horizontal line
+- X-axis: Correlation of relative return with US 5Y Nominal Yield (last 3 years), scale approximately from (15%) to 10%, including the 0% vertical line
+- The 0% horizontal and vertical lines form four quadrants
+- Each point is labeled with the sector name; no legend
+
+[Data Relationships]
+- Highest YTD: Oil & Gas ≈ 80%, Correlation ≈ -5%.
+- Next Highest: Insurance ≈ 45%, ≈ 2%; Basic Resources ≈ 40%, ≈ -10%.
+- Positive Returns: Food & Bev ≈ 30%, ≈ 2%; Healthcare ≈ 25%, ≈ 3%; Banks ≈ 15%, ≈ -3%; Chemicals ≈ 25%, ≈ -8%.
+- Near 0: Telecom ≈ 0%, ≈ -3%; Travel & Leis ≈ 0%, ≈ 10%.
+- Lowest YTD: Technology ≈ -70%, ≈ 8%.
+- Low Returns: Cons Prd & SVcs ≈ -50%, ≈ 6%; Retail ≈ -50%, ≈ -15%; Real Estate ≈ -40%, ≈ -10%.
+
+[Pattern Characteristics]
+- Sector points show distinct stratification on the Y-axis. The upper segment concentrates in the area of significantly positive returns, the middle segment clusters around the zero value, and the lower segment gathers in the area of substantial negative values, forming a clear three-tier structure.
+- On the X-axis, most sectors are distributed near slightly positive or negative correlation. Only a few sectors are located at positions with high absolute correlation values. The overall distribution is moderately dispersed, lacking a clear linear arrangement.
+- Individual sectors form isolated extreme points in the upper-left and lower-right quadrants, deviating from the main cluster in both the return and correlation dimensions relative to other sectors.
+
+[Core Insights]
+Core Conclusion: Significant differences exist in sector return performance and interest rate dependency, indicating clear structural divergence.
+
+Business Implications:
+- The few sectors in the upper segment collectively demonstrate stronger profitability and independence.
+- Middle segment sectors reflect more balanced performance, with moderate sensitivity to interest rate changes.
+- Lower segment sectors are under performance pressure and rely more heavily on improvements in the external environment.
+
+Risk Focus:
+- Sectors with Correlation > 8% and Returns < -40% could see exacerbated losses if interest rates rise further.
+- Sectors with Returns < -50%, if the slump continues, may trigger significant adjustments in financial reports and valuations.

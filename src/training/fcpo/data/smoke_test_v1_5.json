@@ -1,0 +1,338 @@
+[
+  {
+    "item_index": 0,
+    "image": "images/syn_v2_013_bar_zh-CN_payments_fintech.png",
+    "has_source_facts": true,
+    "candidates": [
+      {
+        "score": 92,
+        "errors": [
+          "The provided source data (numerical values 44.54 to 123.6) does not match the chart image or the summary's values (0% to 17.5%).",
+          "The summary correctly describes the visual chart image, but the 'Source Data' provided in the prompt appears to be for a different dataset entirely."
+        ],
+        "reasoning": "The summary is an excellent and accurate description of the provided chart image, but it completely contradicts the provided 'Source Data' which contains unrelated values and dates.",
+        "cand_index": 0
+      },
+      {
+        "score": 45,
+        "errors": [
+          "The source data provided (stock-like prices 44-123) completely contradicts the chart image (percentages 0-17.5%).",
+          "The summary claims a low of 1.1% in mid-2024, but the chart shows a near-zero or negative value in early 2024.",
+          "The summary claims 2025 values are between 3.7%-5.0%, but the chart shows values dropping below 3% in late 2024/early 2025.",
+          "The summary claims no negative values, but the bar for early 2024 appears to be at or slightly below the zero line."
+        ],
+        "reasoning": "The summary is based on the visual chart but contains several numerical inaccuracies regarding the chart's own data points, and the provided 'Source Data' is entirely irrelevant to the chart shown.",
+        "cand_index": 1
+      },
+      {
+        "score": 45,
+        "errors": [
+          "The source data provided (values 44-123) completely contradicts the chart image and summary values (0-17.5%).",
+          "The summary claims a minimum near 0% in May 2024, but the chart shows the lowest point in early 2024 (Jan/Feb).",
+          "The summary claims data was in the 1-2% range for all of H1 2023, but the chart shows values near 5-7.5% in early 2023.",
+          "The summary claims a 'low-level sideways' period from mid-2024, but the chart shows a clear rising trend from 2% to 5% through 2025."
+        ],
+        "reasoning": "The summary is based on the visual chart but contains several internal dating and value errors, and it is completely decoupled from the provided numerical source data which appears to belong to a different dataset entirely.",
+        "cand_index": 2
+      },
+      {
+        "score": 45,
+        "errors": [
+          "The provided source data (values 44.54 to 123.6) completely contradicts the chart image (values 0 to 17.5).",
+          "The summary claims a 2024 Q1 minimum of 0.3-0.4%, but the chart shows a value near 0% or slightly negative in early 2024.",
+          "The summary claims a 2025 Q1 peak of 5.2%, but the chart shows the peak in Q2 2025.",
+          "The summary claims a 2022 peak of 16.3%, while the chart shows it at approximately 16.1%."
+        ],
+        "reasoning": "The summary accurately describes the visual trends of the chart image, but the provided source data is for a completely different dataset (likely a stock price), making the numerical verification fail against the ground truth.",
+        "cand_index": 3
+      },
+      {
+        "score": 45,
+        "errors": [
+          "The provided source data (values 44.54 to 123.6) completely contradicts the chart image (values 0 to 17.5).",
+          "The source data time range (2020-2025) does not match the chart's x-axis (2022-2025).",
+          "The summary claims a peak of 16.2% in 2022, but the source data lists a global max of 123.6 in March 2022.",
+          "The summary describes a 'downward' trend from 2022, while source data stats describe an 'upward' overall trend."
+        ],
+        "reasoning": "The summary accurately describes the visual chart image, but it is fundamentally incorrect when compared to the provided numerical source data, which appears to belong to a different dataset entirely.",
+        "cand_index": 4
+      },
+      {
+        "score": 45,
+        "errors": [
+          "The source data provided (stock-like prices 45-123) completely contradicts the chart image (percentages 0-17.5).",
+          "The summary claims a peak of 17.2% in 2022, but the chart shows the highest bar is around 16.2%.",
+          "The summary claims a low of 1.2% in mid-2023, but the chart shows a near-zero or negative bar in early 2024.",
+          "The summary describes a 'double peak' and 'cliff-like drop' that do not match the visual trend of the bar chart."
+        ],
+        "reasoning": "The summary fails to accurately describe the visual data in the chart, and the provided source data is for a completely different dataset (likely a stock price) than the retail sales percentage chart shown.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 1,
+    "image": "images/syn_473_line_band_overlay_zh-CN_banking_credit.png",
+    "has_source_facts": true,
+    "candidates": [
+      {
+        "score": 35,
+        "errors": [
+          "The source data (2003-2010) completely contradicts the chart and summary dates (2021-2025).",
+          "The source data values (1.197-1.599) are in a different order of magnitude than the chart (19000-22500).",
+          "The summary claims a growth of 3500 from 2021-2022, but the chart shows a growth of only ~2500 (19000 to 21500).",
+          "The summary claims a 2023 low of 20700, but the chart shows the low near 20750 in early 2024."
+        ],
+        "reasoning": "The summary describes the visual chart reasonably well but is completely invalidated by the provided source data, which covers a different time period and scale, and it contains several internal numerical inconsistencies compared to the visual evidence.",
+        "cand_index": 0
+      },
+      {
+        "score": 35,
+        "errors": [
+          "The source data (2003-2010) completely contradicts the chart's time range (2021-2025).",
+          "The source data values (1.197 to 1.33) are in a different order of magnitude than the chart (19000 to 22000).",
+          "The summary claims a 17% growth, but the source data shows 11.17%.",
+          "The summary describes an 'N' shape, while the source data describes a different trend with a global max in 2008."
+        ],
+        "reasoning": "The summary accurately describes the visual elements of the provided image, but it is fundamentally disconnected from the provided source data, which covers a different time period and scale.",
+        "cand_index": 1
+      },
+      {
+        "score": 35,
+        "errors": [
+          "The source data (2003-2010) completely contradicts the chart and summary dates (2021-2026).",
+          "Source data values (1.197-1.599) are thousands of times smaller than chart values (19000-22000).",
+          "The summary claims a peak in 2022, but the chart shows the highest point is at the end of the series (2026).",
+          "The summary describes an 'N' shape, but the chart shows a 'W' or double-bottom recovery shape."
+        ],
+        "reasoning": "The summary accurately describes the visual elements of the provided image, but it is fundamentally disconnected from the provided source data (which covers a different decade and scale), and it contains internal contradictions regarding the chart's peak and overall shape.",
+        "cand_index": 2
+      },
+      {
+        "score": 35,
+        "errors": [
+          "The summary claims a time range of 2021-2025, but the source data covers 2003-2010.",
+          "The summary claims values between 19,000 and 22,300, but the source data values are between 1.168 and 1.599.",
+          "The summary describes a 'deposit and credit growth' chart, while the source data is for a different financial instrument (likely EUR/USD exchange rate).",
+          "The summary claims a cumulative increase of 3,000 units, while the source data shows an 11.17% change."
+        ],
+        "reasoning": "The summary accurately describes the visual elements of the provided image, but it is completely factually disconnected from the provided ground truth source data in terms of dates, values, and subject matter.",
+        "cand_index": 3
+      },
+      {
+        "score": 35,
+        "errors": [
+          "The source data (2003-2010) completely contradicts the chart and summary dates (2021-2025).",
+          "The source data values (1.19-1.59) are in a different order of magnitude than the chart (19000-23000).",
+          "The summary claims a peak of 22600, but the chart Y-axis only goes to 22000+ and the data shows 1.599.",
+          "The summary describes an 'N-shape' trend which matches the image but is not supported by the provided source data stats."
+        ],
+        "reasoning": "The summary accurately describes the visual chart image, but there is a total disconnect between the provided source data (EUR/USD 2003-2010) and the chart/summary (Financial growth 2021-2025).",
+        "cand_index": 4
+      },
+      {
+        "score": 35,
+        "errors": [
+          "The source data (2003-2010) completely contradicts the chart and summary dates (2021-2025).",
+          "The summary claims the 2021 red dot is a 'low point', but the chart shows it is at the start of the line.",
+          "The summary claims the 2025 red dot is a 'low point', but the chart shows it at the global maximum.",
+          "Numerical values in the summary (e.g., 19000-22500) match the chart image but have no basis in the provided source data (1.19-1.59)."
+        ],
+        "reasoning": "The summary accurately describes the visual chart image but is fundamentally disconnected from the provided source data, which covers a different time period and scale.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 2,
+    "image": "images/syn_1107_scatter_en-US_growth_employment.png",
+    "has_source_facts": true,
+    "candidates": [
+      {
+        "score": 35,
+        "errors": [
+          "The source data time range (2003-2010) completely contradicts the chart and summary time range (2008-2026).",
+          "The source data values (min 2.42, max 5.11) do not match the chart's visual range (min ~-1, max ~14).",
+          "The summary claims a peak of 14 in 2023-2024, which is not supported by the provided source data stats.",
+          "The summary describes a 'step-function' trend that is not reflected in the source data's 'downward' overall trend."
+        ],
+        "reasoning": "The summary accurately describes the provided image, but the image itself and the summary are fundamentally inconsistent with the provided numerical source data in terms of dates, values, and trends.",
+        "cand_index": 0
+      },
+      {
+        "score": 35,
+        "errors": [
+          "Source data time range (2003-2010) completely contradicts the chart and summary (2008-2026).",
+          "Source data values (min 2.42, max 5.11) do not match the chart's scale (min <0, max ~14).",
+          "The summary describes a 'hockey stick' shape which is visually inaccurate for this scatter plot.",
+          "The summary claims a 40x magnitude increase which is mathematically incorrect based on the visual data."
+        ],
+        "reasoning": "The summary and chart are fundamentally disconnected from the provided source data, and the summary contains significant internal mathematical and visual misinterpretations of the chart image.",
+        "cand_index": 1
+      },
+      {
+        "score": 45,
+        "errors": [
+          "Source data time range (2003-2010) completely contradicts the chart and summary (2008-2026).",
+          "Source data values (min 2.42, max 5.11) do not match the chart's visual range (-1 to 13.5).",
+          "Summary claims a 'stable period' from 2013-2019, but source data ends in 2010.",
+          "Summary identifies a 2023 spike that is absent from the provided source data stats."
+        ],
+        "reasoning": "The summary accurately describes the provided chart image, but it is fundamentally inconsistent with the provided source data, which covers a different time period and value range.",
+        "cand_index": 2
+      },
+      {
+        "score": 35,
+        "errors": [
+          "The source data (2003-2010) completely contradicts the chart's timeline and values.",
+          "The summary claims a local minimum of -1.5% in 2009, but the chart shows values near -1%.",
+          "The summary claims values rise to 7% in 2012, but the chart shows values around 4.5% in early 2012.",
+          "The summary describes a 'deep trough' in 2020, but the chart shows a peak followed by a drop in 2021.",
+          "The summary identifies a 'recovery phase' from 2010-2016, but the chart shows a massive vertical jump in 2012."
+        ],
+        "reasoning": "The summary fails to accurately describe the chart's visual data points, and the provided source data is entirely irrelevant to the chart shown, leading to a fundamental disconnect in the evaluation.",
+        "cand_index": 3
+      },
+      {
+        "score": 35,
+        "errors": [
+          "The source data (2003-2010) completely contradicts the chart's timeline and values.",
+          "The chart's X-axis labels (2008-2026) include future dates, making it a synthetic or mislabeled visualization.",
+          "The summary claims a peak of 13.5 in 2023, but the source data shows a max of 5.11 in 2006.",
+          "The summary describes a 'regime shift' in 2012 that is not supported by the provided ground truth data."
+        ],
+        "reasoning": "The summary accurately describes the provided image, but both the image and the summary are fundamentally contradicted by the verified source data, which covers a different time period and value range.",
+        "cand_index": 4
+      },
+      {
+        "score": 35,
+        "errors": [
+          "Source data time range (2003-2010) completely contradicts the chart and summary (2008-2026).",
+          "Source data values (min 2.42, max 5.11) do not match the chart's visual range (-1 to 14).",
+          "Summary claims values below -1 in 2009, but the chart shows values around 2.0 and -0.5.",
+          "Summary claims a decline from 2011-2012 to -1, but the chart shows a sharp rise from 1.0 to 4.5.",
+          "Summary claims a stable range of 7-8 from 2014-2019, but the chart shows values between 6 and 8.5."
+        ],
+        "reasoning": "The summary accurately describes the visual chart provided, but both the chart and the summary are fundamentally contradicted by the provided 'ground truth' source data in terms of dates, values, and trends.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 3,
+    "image": "images/syn_v4f_20251211_214219_bar_zh-CN_payments_fintech_10394eee.png",
+    "has_source_facts": true,
+    "candidates": [
+      {
+        "score": 100,
+        "errors": [],
+        "reasoning": "The summary accurately describes the chart image's visual structure and numerical data points, correctly identifying the provided source data as irrelevant to the image content.",
+        "cand_index": 0
+      },
+      {
+        "score": 65,
+        "errors": [
+          "The provided source data (ExchangeRateVolatility, GDPGrowthRate, etc.) is completely unrelated to the chart image (Payment Platforms).",
+          "The summary claims the top two platforms account for 52% of the total, but the actual sum of all bars is 72.8, making the top two (55.4) account for 76%.",
+          "The summary claims the tail platforms (PayPal to Du Xiaoman) sum to 17.6, but the actual sum of those 8 bars is 28.6."
+        ],
+        "reasoning": "The summary accurately reflects the visual data in the chart image, but it fails significantly when compared to the provided source data (which is irrelevant) and contains internal calculation errors regarding percentages and sums of the chart's values.",
+        "cand_index": 1
+      },
+      {
+        "score": 100,
+        "errors": [],
+        "reasoning": "The summary accurately reflects all data points and visual elements shown in the chart image, and the provided source data appears to be irrelevant metadata that does not match the chart's content.",
+        "cand_index": 2
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The summary mentions 12 platforms, but the chart only displays 11."
+        ],
+        "reasoning": "The summary accurately reflects the data and visual patterns shown in the chart image, though it slightly miscounts the number of platforms listed.",
+        "cand_index": 3
+      },
+      {
+        "score": 98,
+        "errors": [
+          "The summary mentions '其余10家平台' (other 10 platforms), but the chart only displays 9 platforms below the top two."
+        ],
+        "reasoning": "The summary accurately reflects the data and visual structure shown in the chart image, though it slightly miscounts the total number of tail platforms.",
+        "cand_index": 4
+      },
+      {
+        "score": 90,
+        "errors": [
+          "The summary mentions 13 platforms, but the chart only displays 11.",
+          "The summary mentions 11 platforms in the 'remaining' category, but there are only 9 remaining after the top two."
+        ],
+        "reasoning": "The summary accurately reflects the visual data and numerical values shown in the chart image, but it miscounts the total number of platforms displayed.",
+        "cand_index": 5
+      }
+    ]
+  },
+  {
+    "item_index": 4,
+    "image": "images/syn_v2_1028_candlestick_zh-CN_commodities.png",
+    "has_source_facts": false,
+    "candidates": [
+      {
+        "score": 35,
+        "errors": [
+          "The title is a long string of zeros which is not present in the image.",
+          "The chart is a line chart, not a K-line (candlestick) chart.",
+          "The summary fails to identify the actual date range (1970-1973) and price range (3.5-5.5)."
+        ],
+        "reasoning": "The summary contains a nonsensical title and misidentifies the chart type, though it correctly identifies the presence of a main chart and a sub-chart.",
+        "cand_index": 0
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The title text actually says '收盘价周度变化（5年滚动）' which is slightly different from the visual content (OHLC bars).",
+          "The price low in 1971 is closer to 3.10-3.15 than 3.25."
+        ],
+        "reasoning": "The summary accurately identifies the chart type, axes, and major trends, though it slightly overestimates the price floor in 1971.",
+        "cand_index": 1
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The peak in 1973 is slightly below 5.8 (approx 5.75).",
+          "The 1971 low is closer to 3.3 than 3.2."
+        ],
+        "reasoning": "The summary accurately identifies the chart structure, timeframes, and major price movements, with only very minor discrepancies in reading the exact values of the extreme peaks and troughs.",
+        "cand_index": 2
+      },
+      {
+        "score": 78,
+        "errors": [
+          "主图中并未包含红色K线，全图仅显示绿色K线",
+          "成交量柱状图颜色为蓝色，但摘要中提到的'红色代表下跌'在图中不存在",
+          "价格图顶部并未标注'突破前高'，仅有'5日均线'相关文字"
+        ],
+        "reasoning": "The summary correctly identifies the overall trend and axis ranges, but it incorrectly claims there are red candles (the chart is monochromatic green) and mentions non-existent text labels like 'breakout of previous high'.",
+        "cand_index": 3
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The lowest point is approximately 3.0, not 3.2.",
+          "The price growth from 3.0 to 5.8 is roughly 93%, exceeding the 'over 80%' claim but slightly imprecise."
+        ],
+        "reasoning": "The summary accurately identifies the chart type, time range, and key trends, though it slightly overestimates the value of the historical low point.",
+        "cand_index": 4
+      },
+      {
+        "score": 92,
+        "errors": [
+          "The claim that the price increase from the lowest to highest point is nearly 2x is mathematically incorrect (3.2 to 5.7 is ~78% increase).",
+          "The description of K-line colors as green and white is slightly inaccurate as they appear to be shades of green/lime."
+        ],
+        "reasoning": "The summary accurately identifies the chart structure, axis ranges, and major price trends, though it contains a minor mathematical error regarding the relative magnitude of the total price increase.",
+        "cand_index": 5
+      }
+    ]
+  }
+]

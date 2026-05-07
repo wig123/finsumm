@@ -1,0 +1,26 @@
+【图表构成】
+- 类型：并列的水平条形图（左：美国；右：欧元区）。
+- 标题：“US change in z-score vs previous week”“Eurozone change in z-score vs previous week”。
+- 横轴：变化的z-score。美国子图刻度约为-3至+2；欧元区子图约为-8至+6。
+- 纵轴：指标类别。美国包括Average Weekly Hours、NFIB Small Business Optimism Index、PPI Final Demand、Continuing Claims、Retail Sales、Unemployment Rate、Average Hourly Earnings、CPI、PPI Final Demand Less Food &…、Business Inventories；欧元区包括EZ Core HICP、DE Exports、DE PPI、DE Industrial production、ES Core CPI、EZ GDP、ES HICP、ES Retail sales、EZ Ind. Prod.
+- 图例：两系列——Change in DSI（绿色）与Change in ESI（蓝色）。
+- 来源：BNP Paribas、Macrobond、Bloomberg。
+
+【数据关系】
+- 美国：Average Weekly Hours≈+2为最高；NFIB指数≈+1.5；Retail Sales≈+0.5；CPI≈-0.7；PPI（剔除）≈-1.6；Business Inventories≈-2.6为最低；最高与最低差≈4.6。
+- 欧元区：EZ Core HICP≈+6最高；DE Exports两项均≈+3~+4；DE PPI≈+2；ES Core CPI≈+1；EZ GDP≈0；EZ Industrial Production≈-7最低；ES Retail Sales≈-5；最高与最低差≈13。
+
+【模式特征】  
+美国各指标的条形长度整体集中在零附近，上下分布较为均衡，仅个别项目在正向和负向略为突出。美国产出与物价类指标之间并未出现极端离散，整体跨度有限。欧元区各指标之间差异更为拉开，少数项目处于样本极端位置，正负两侧均出现明显“长条”，结构呈现高度不均衡特征。
+
+【核心洞察】  
+核心结论：欧元区指标分化远大于美国，局部压力与支撑并存。  
+
+业务含义：  
+- 美国宏观数据整体波动有限，短期预期较为集中。  
+- 欧元区不同指标表现差异大，区域与行业间传导不均。  
+- 欧元区价格与产出项的背离加大了解读与决策难度。  
+
+风险关注：  
+- 欧元区单项z-score低于-5（如工业生产）或引发对增长前景的明显担忧。  
+- 欧元区单项z-score高于+5（如核心通胀）或推高对政策收紧的压力预期。

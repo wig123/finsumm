@@ -1,0 +1,41 @@
+[Chart Components]
+- Type: Dual Line Chart
+- Title: None
+- Axes:
+  - Left Axis (Unit: KRW): Range from 125,000 to 155,000
+  - Right Axis: Range from 75 to 100
+  - Horizontal Axis: Time, labeled "Apr 23" to "Mar 24"
+- Legend:
+  - Price (Red)
+  - Rel KOSPI 200 (Gray)
+
+[Data Relationships]
+- Key Values and Changes:
+  - Price peaked in "Apr 23," approximately 154,000 KRW.
+  - Price dropped to a trough in "Nov 23," approximately 128,000 KRW.
+  - Rel KOSPI 200 fluctuated between 75 and 95 throughout the entire time frame.
+
+- Extremum Comparison:
+  - Price peaked in "Apr 23," with two other high points in "Sep 23" and "Jan 24," and a trough in "Nov 23."
+
+- Key Trends:
+  - Price fluctuated significantly throughout the period, exhibiting multiple peaks and troughs.
+  - Price began to recover after "Nov 23."
+  - Rel KOSPI 200 remained relatively stable, with minor fluctuations.
+
+[Pattern Characteristics]
+- The red line exhibits a high-amplitude pattern with multiple peaks and troughs; Apr 23, Sep 23, and Jan 24 are notable high points, Nov 23 shows a prominent low point, followed by fluctuations within the range.
+- The gray line is tighter and more continuous, generally operating within a band range, positioned at the lower boundary of the range during the Feb–Mar 24 period.
+- The two lines show periodic desynchronization; the vicinity of Nov 23 and Mar 24 represents clear inflection points or exceptional segments.
+
+[Core Insights]
+Core Conclusion: The underlying asset has low dependence on the index, resulting in limited tracking value.
+
+Business Implications:
+- Weak correlation with KOSPI 200
+- Low efficiency for index hedging or replication
+- Relative value mostly between 75–95, limiting excess return potential
+
+Risk Focus:
+- Price falling below 130,000 KRW may lead to expanded drawdowns.
+- Rel KOSPI 200 below 80 may indicate sustained underperformance.

@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Time series line chart, including markers (Green triangle = Target Price Change, Blue circle = Recommendation Changes).
+- Title: China Mobile.
+- Top right note: As of 18-Mar-2024; Currency=HKD.
+- X-axis: Date, range approximately 2021/07 to 2024/03; ticks at 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01.
+- Y-axis: Price (HKD), 0–85.
+- Legend: Closing Price (Black line), Target Price Change (Green triangle), Recommendation Changes (Blue dot).
+- Source: LSEG, Nomura.
+
+[Data Relationships]
+- Initial closing price approximately 45–50 HKD; final closing price approximately 65–70 HKD; difference approximately 15–25 HKD.
+- Closing price full range approximately 45–70 HKD; high-low difference approximately 25 HKD.
+- Target price change maximum approximately 80–85 HKD (2023/04), minimum approximately 60–65 HKD (2022/08); difference approximately 15–25 HKD.
+- Other target price markers are in the 65–80 HKD range: 2021/09≈65–70; 2022/03≈70–75; 2022/05≈70–75; 2023/02≈65–70; 2023/08≈75–80; 2023/11≈70–75; 2024/02≈75–80.
+- No blue recommendation change markers are visible in the chart.
+
+[Pattern Characteristics]
+- The closing price shows a gradual upward trend overall, with a noticeable upward segment appearing at the beginning of 2023, followed by stepped movement and horizontal consolidation within a higher range.
+- Target price change markers are distributed across multiple points in time, generally positioned above the closing price line, with higher value levels observed after 2023.
+- No rating change markers are present in the chart, and no sudden spikes or discrete anomalies are observed.
+
+[Core Insights]
+Core Conclusion: Expectation level is generally positive and rating opinions are continuously consistent.
+
+Business Implications:
+- A gap exists between the target price and the market price, reflecting a premium expectation.
+- High rating continuity enhances the reference value of the research signal.
+- The price differential can be used to set position sizing and take-profit boundaries.
+
+Risk Focus:
+- Closing price drops below 60 HKD, widening the price differential, potentially leading to drawdown and loss.
+- Target price is lowered to ≤70 HKD, narrowing the price differential, potentially compressing achievable returns.

@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Dual-axis line chart
+- Title: Not displayed
+- X-axis: Time, Feb 23 to Jan 24 (Monthly scale)
+- Left Y-axis: Unit MYR, scale approximately 0.80, 0.85, 0.90, 0.95, 1.00, 1.05
+- Right Y-axis: Numerical scale approximately 90, 95, 100, 105, 110, 115, 120
+- Legend: Red "Price," Gray "Rel FTSE Bursa Malaysia KLCI Index"
+
+[Data Relationships]
+- Price: Feb 23 approximately 1.00; Jun 23 lowest approximately 0.79; Oct 23 peak approximately 1.03; Jan 24 approximately 0.83.
+- Price maximum and minimum difference approximately 0.24; Change from Feb 23 to Jan 24 approximately -0.17.
+- KLCI: Feb 23 approximately 110; Jun 23 approximately 95; Oct 23 peak approximately 118; Jan 24 approximately 93.
+- KLCI maximum and minimum difference approximately 23–25.
+- Comparative analysis (Same period): Jun 23 Price≈0.79, KLCI≈95; Oct 23 Price≈1.03, KLCI≈118; Jan 24 Price≈0.83, KLCI≈93.
+
+[Pattern Characteristics]
+The two curves exhibit similar patterns over most time periods, with minor local deviations. Price and KLCI were in a phase low range around June, subsequently forming a distinct high plateau between August and October, before jointly retreating to the January low. The overall structure shows a single dominant wave, lacking characteristics of prolonged consolidation or multiple superimposed cycles.
+
+[Core Insights]
+Core Conclusion: The individual stock performance is highly correlated (co-directional) with the KLCI index, and alpha generation is unstable.
+
+Business Implications:
+- The individual stock has a high dependency on the overall market environment.
+- Achieving sustained excess returns (alpha) is relatively difficult.
+- Market timing is critical to the resulting returns.
+
+Risk Focus:
+- When Price falls below 0.80 and KLCI is below 95, simultaneous drawdowns may occur, amplifying losses.
+- When Price approaches 1.00 while KLCI remains above 110, an index correction may compress potential upside.

@@ -1,0 +1,36 @@
+**[Chart Components]**
+- Type: Time Series Line Chart
+- Title: China Literature
+- Notes: As of 18-Feb-2024; Currency = HKD
+- X-axis: Date range approximately 2021/07/01 to 2024/01/01, ticks marked as 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01
+- Y-axis: Price range 0–95 HKD
+- Legend: Closing Price (Black line); Target Price Change (Green triangle); Recommendation Changes (Blue dot)
+- Source: LSEG, Nomura
+
+**[Data Relationships]**
+- Initial (around 2021/07) Closing Price ≈ 70 HKD
+- Highest Closing Price for the entire period ≈ 90 HKD (Mid-2021)
+- Lowest Closing Price for the entire period ≈ 20 HKD (Late 2022 to Early 2024)
+- Final (2024/01) Closing Price ≈ 22 HKD
+- Difference between highest and lowest ≈ 70 HKD; Difference between initial and final ≈ 48 HKD
+- 2022/01 Closing Price ≈ 55 HKD; 2022/03 ≈ 27 HKD; Difference ≈ 28 HKD
+- Local peak in 2023/02–03 ≈ 41 HKD; Difference from final price ≈ 19 HKD
+- Green triangles are distributed around 2021/12, 2022/02, 2022/08, 2023/02, 2023/07, 2023/11, 2024/01; corresponding prices are approximately 25–75 HKD
+- Blue dot is located around 2022/01, price ≈ 55 HKD
+
+**[Pattern Characteristics]**
+- The closing price was high in the early sample period, followed by a significant decline in Q1 2022. Subsequently, it fluctuated in a step-like pattern within a lower range, with the overall center of gravity continuously shifting downward.
+- Green triangles are relatively evenly distributed across the entire range, mostly appearing after the price has significantly retreated, with a slightly higher density in the mid-to-late period of 2023.
+- The blue dot appeared only once in early 2022, located during a downtrend following a brief rebound, and no similar markings have appeared since.
+
+**[Core Insights]**
+Core Conclusion: The stock price has remained in a low range long-term following a phase of decline.
+
+Business Implications:
+- Valuation levels have significantly contracted compared to the early period.
+- Investor sentiment shows limited reaction to positive news/catalysts.
+- A divergence exists between analyst target price adjustments and actual stock performance.
+
+Risk Focus:
+- If the stock price falls below 20 HKD, it may trigger technical selling pressure.
+- If the price remains below 30 HKD long-term, it may affect the holding stability of investors who established positions at historical highs.

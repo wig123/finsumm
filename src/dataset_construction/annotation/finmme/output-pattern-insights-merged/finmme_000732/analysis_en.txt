@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Grouped Bar Chart (Vertical).
+- Title: CAGR by volume of New and Used car market.
+- X-axis: Fiscal Year Intervals, two categories—FY16-21, FY22-27.
+- Y-axis: Compound Annual Growth Rate (%), scale approximately from -2.0% to 14.0%, including 0%, 2%, 4%, etc.
+- Legend: Used car (Red), New car (Gray).
+- Data Labels on Bar Tops: 5.9%, -0.7%, 12.7%, 7.0%.
+
+[Data Relationships]
+- FY16-21: Used car = 5.9%; New car = -0.7%; Difference = 6.6 percentage points.
+- FY22-27: Used car = 12.7%; New car = 7.0%; Difference = 5.7 percentage points.
+- Inter-period Change: Used car 12.7% - 5.9% = +6.8 percentage points; New car 7.0% - (-0.7) = +7.7 percentage points.
+- Extremes: Highest value 12.7% (Used car, FY22-27); Lowest value -0.7% (New car, FY16-21).
+- In FY22-27, Used car CAGR is 12.7%, approximately 1.81 times that of New car.
+
+[Pattern Characteristics]
+In both periods, the Used car bars are higher than the New car bars, and both categories show an overall increase in the later period. New car CAGR shifts from slightly below the zero axis to the mid-to-high range, while Used car CAGR jumps from a moderate level to the highest point in the entire chart. The height difference for the same category between the two periods is significant, but the gap between the two categories within the same period has slightly narrowed.
+
+[Core Insights]
+Core Conclusion: Used cars maintain superiority, while New cars recover later but remain relatively weak.
+
+Business Implications:
+- Market focus leans more towards the expansion of Used car transaction volume.
+- The New car segment recovers later, contributing to overall incremental growth.
+- The gap between the two narrows, leading to a more balanced structural allocation.
+
+Risk Concerns:
+- If New car CAGR falls below 0% again, it may drag down the overall vehicle market size.
+- If Used car CAGR drops back below 5%, the momentum for Used car expansion will significantly weaken.

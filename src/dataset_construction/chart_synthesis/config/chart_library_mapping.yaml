@@ -1,0 +1,324 @@
+# 图表类型到绘图库的映射表
+# 基于 docs/chart-library-mapping.md
+# python_libs: 支持的Python库列表，第一个为默认库
+# frontend_libs: 支持的前端库列表，第一个为默认库
+#
+# ============================================================================
+# 时间序列图表优先配置 (75%+)
+# ============================================================================
+# ⏱️ 时间序列图表: ~75% (line, candlestick, area, ohlc, bollinger等)
+# 📊 其他图表: ~25% (bar, pie, heatmap, waterfall等)
+# ============================================================================
+
+chart_types:
+  # ============================================================================
+  # Tier 1: 核心时序类型 (65%)
+  # ============================================================================
+  line:
+    python_libs: [matplotlib, seaborn, plotly, altair]
+    frontend_libs: [echarts, highcharts, chartjs, plotlyjs, d3js, recharts, antv]
+    tier: 1
+    weight: 0.15  # ⬆️ 增加 (原0.12)
+    data_constraints:
+      - "Y轴范围: 当数据范围窄且远离0时（如数据在16000-20000之间），Y轴应自适应数据范围而非从0开始，避免80%空白。使用 ax.set_ylim([data_min*0.95, data_max*1.05])"
+
+  candlestick:
+    python_libs: [mplfinance, plotly]
+    frontend_libs: [tradingview, highcharts, echarts, antv]
+    tier: 1
+    weight: 0.12  # ⬆️ 增加 (原0.10)
+    required_shapes: [TS_OHLC]
+    synthetic_allowed: false  # OHLC 数据必须来自真实数据源
+    data_constraints:
+      - "必须提供 OHLC 数据：包含 Open, High, Low, Close 列"
+      - "时间索引验证: 确保 df.index 是有效的 DatetimeIndex，如出现 1970 年数据说明时间解析失败，需用 pd.to_datetime(df.index, errors='coerce') 转换"
+
+  candlestick_volume:
+    python_libs: [mplfinance, plotly]
+    frontend_libs: [tradingview, highcharts, echarts]
+    tier: 1
+    weight: 0.10  # ⬆️ 增加 (原0.08)
+    required_shapes: [TS_OHLC]
+    synthetic_allowed: false  # OHLC+Volume 数据必须来自真实数据源
+    data_constraints:
+      - "必须提供 OHLC+Volume 数据：包含 Open, High, Low, Close, Volume 列"
+      - "禁止使用外汇(fx_trade)和加密货币(digital_assets)主题：这些数据源在 Yahoo Finance 没有成交量数据"
+      - "时间索引验证: 确保 df.index 是有效的 DatetimeIndex，如出现 1970 年数据说明时间解析失败"
+    forbidden_themes: [fx_trade, digital_assets]  # 外汇/加密货币无成交量
+
+  area:
+    python_libs: [matplotlib, seaborn, plotly, altair]
+    frontend_libs: [echarts, highcharts, chartjs, plotlyjs, recharts, antv]
+    tier: 1
+    weight: 0.08  # ⬆️ 增加 (原0.05)
+    required_shapes: [TS_1D, TS_ND]
+    data_constraints:
+      - "数据形态: 面积图仅适合时序数据(TS_1D/TS_ND); 横截面对比(国家/类别)应改用 bar 图"
+      - "Y轴范围: 当数据范围窄且远离0时，Y轴应自适应数据范围，使用 ax.set_ylim([data_min*0.95, data_max*1.05]) 或 scale=alt.Scale(zero=False)"
+
+  bar_line_overlay:
+    python_libs: [plotly, matplotlib]
+    frontend_libs: [echarts, highcharts, chartjs, antv]
+    tier: 1
+    weight: 0.06  # ⬇️ 调整 (原0.08, 权重总和校准)
+
+  ohlc:
+    python_libs: [mplfinance, plotly]
+    frontend_libs: [tradingview, highcharts, echarts]
+    tier: 1
+    weight: 0.06  # ⬆️ 增加 (原0.03, 从Tier2提升)
+    required_shapes: [TS_OHLC]
+    synthetic_allowed: false  # OHLC 数据必须来自真实数据源
+    data_constraints:
+      - "必须提供 OHLC 数据：包含 Open, High, Low, Close 列"
+      - "时间索引验证: 确保 df.index 是有效的 DatetimeIndex，如出现 1970 年数据说明时间解析失败，需用 pd.to_datetime(df.index, errors='coerce') 转换"
+
+  bollinger_bands:
+    python_libs: [mplfinance, plotly]
+    frontend_libs: [tradingview, highcharts, echarts]
+    tier: 1
+    weight: 0.06  # ⬆️ 增加 (原0.03, 从Tier2提升)
+    required_shapes: [TS_OHLC]
+    synthetic_allowed: false  # OHLC 数据必须来自真实数据源
+    data_constraints:
+      - "必须提供 OHLC 数据用于计算布林带"
+      - "时间索引验证: 确保 df.index 是有效的 DatetimeIndex，如出现 1970 年数据说明时间解析失败"
+
+  # ============================================================================
+  # Tier 2: 专业时序 + 基础分析 (25%)
+  # ============================================================================
+  line_band_overlay:
+    python_libs: [matplotlib, plotly]
+    frontend_libs: [highcharts, echarts, plotlyjs, antv]
+    tier: 2
+    weight: 0.03  # 调整 (权重总和校准)
+
+  ichimoku_cloud:
+    python_libs: [mplfinance, plotly]
+    frontend_libs: [tradingview, highcharts, echarts]
+    tier: 2
+    weight: 0.03  # ⬆️ 增加 (原0.015)
+    required_shapes: [TS_OHLC]
+    synthetic_allowed: false  # OHLC 数据必须来自真实数据源
+    data_constraints:
+      - "必须提供 OHLC 数据用于计算一目均衡表"
+      - "时间索引验证: 确保 df.index 是有效的 DatetimeIndex，如出现 1970 年数据说明时间解析失败，需用 pd.to_datetime(df.index, errors='coerce') 转换"
+
+  volume_profile:
+    python_libs: [matplotlib, plotly]
+    frontend_libs: [tradingview, highcharts, echarts]
+    tier: 2
+    weight: 0.025  # ⬆️ 增加 (原0.015)
+    required_shapes: [TS_OHLC]  # 🆕 明确需要 OHLC 数据
+    synthetic_allowed: false  # 成交量数据必须来自真实数据源
+    data_constraints:
+      - "🆕 需要真实的 OHLC+Volume 数据展示成交量分布"
+      - "🆕 禁止使用外汇(fx_trade)和加密货币(digital_assets)主题：这些数据源没有成交量"
+    forbidden_themes: [fx_trade, digital_assets]  # 🆕 外汇/加密货币无成交量
+
+  renko:
+    python_libs: [mplfinance]
+    frontend_libs: [tradingview, highcharts]
+    tier: 2
+    weight: 0.02  # ⬆️ 增加 (原0.01)
+    required_shapes: [TS_OHLC]
+    synthetic_allowed: false  # OHLC 数据必须来自真实数据源
+    data_constraints:
+      - "必须提供 OHLC 数据用于构建砖形图"
+      - "Renko 图忽略时间维度，X 轴是砖块序号；代码中禁止使用 mdates.DateFormatter 格式化 X 轴，否则会显示 1970 年错误日期"
+
+  point_figure:
+    python_libs: [mplfinance]
+    frontend_libs: [tradingview, highcharts]
+    tier: 2
+    weight: 0.02  # ⬆️ 增加 (原0.01)
+    required_shapes: [TS_OHLC]
+    synthetic_allowed: false  # OHLC 数据必须来自真实数据源
+    data_constraints:
+      - "必须提供 OHLC 数据：包含 Open, High, Low, Close 列"
+      - "禁止使用单值时序数据(date, value)，P&F图需要真实的高低价差来判断价格反转"
+
+  candlestick_indicator:
+    python_libs: [mplfinance, plotly]
+    frontend_libs: [tradingview, highcharts, echarts]
+    tier: 2
+    weight: 0.02  # ⬆️ 增加 (原0.008)
+    required_shapes: [TS_OHLC]
+    synthetic_allowed: false  # OHLC 数据必须来自真实数据源
+    data_constraints:
+      - "必须提供 OHLC 数据用于蜡烛图和技术指标叠加"
+      - "时间索引验证: 确保 df.index 是有效的 DatetimeIndex，如出现 1970 年数据说明时间解析失败"
+
+  # === 基础分析图表 ===
+  bar:
+    python_libs: [matplotlib, seaborn, plotly, altair]
+    frontend_libs: [echarts, highcharts, chartjs, plotlyjs, d3js, recharts, antv]
+    tier: 2
+    weight: 0.04  # ⬇️ 减少 (原0.10)
+    data_constraints:
+      - "数据密度: 建议柱子数量≤80; 日频数据超过80天时，建议将 frequency 改为 W(周)或 M(月)，或改用 line/area 图表"
+      - "数据尺度: 当数据中存在极端值差异（如最大值是中位数的10倍以上）时，考虑使用对数刻度 ax.set_yscale('log') 或截断轴避免小值被压缩不可见"
+
+  histogram:
+    python_libs: [matplotlib, seaborn, plotly, altair]
+    frontend_libs: [echarts, highcharts, chartjs, plotlyjs, antv]
+    tier: 2
+    weight: 0.025  # ⬇️ 减少 (原0.04)
+    required_shapes: [CS_1D, TS_1D]  # 🔧 扩展: 支持收益率分布、价格变动分布等时序衍生分析
+    data_constraints:
+      - "需要足够样本量展示分布特征，建议样本量 >= 30"
+      - "直方图需要大量原始连续数据点（>=30）来统计频率分布，禁止使用预先分组/汇总的类别数据（如等级占比）；如只有少量类别汇总数据应改用 bar 图"
+      - "禁止场景: 时序趋势展示（如月度GDP变化）应改用 line/bar 图表"
+      - "TS_1D场景: 仅用于收益率分布、价格变动幅度分布等统计分析，而非原始时序展示"
+
+  scatter:
+    python_libs: [matplotlib, seaborn, plotly, altair]
+    frontend_libs: [echarts, highcharts, chartjs, plotlyjs, d3js, antv]
+    tier: 2
+    weight: 0.015  # ⬇️ 调整 (权重总和校准)
+    data_constraints:
+      - "数据密度: 散点图建议数据点≥20个才能展示有意义的相关性/分布; 数据点<10时建议改用 bar 图"
+      - "散点图用于展示两变量的分散关系；如果两变量高度相关（|r|>0.95）会退化为直线，失去可视化意义，应改用 line 或直接报告相关系数"
+
+  heatmap:
+    python_libs: [seaborn, matplotlib, plotly, altair]
+    frontend_libs: [echarts, highcharts, plotlyjs, d3js, antv]
+    tier: 2
+    weight: 0.025  # ⬇️ 减少 (原0.05)
+    required_shapes: [MATRIX, CS_ND]  # 需要2D矩阵或多变量横截面数据
+    data_constraints:
+      - "数据密度: 建议行列数均≤50 (总单元格≤2500); 时序热力图数据点>200时，建议先 resample 到周/月频率"
+
+  box:
+    python_libs: [seaborn, matplotlib, plotly, altair]
+    frontend_libs: [echarts, highcharts, plotlyjs, antv]
+    tier: 2
+    weight: 0.015  # ⬇️ 减少 (原0.025)
+    required_shapes: [CS_ND]  # 🔧 修复: 箱线图需要多组数据比较，单时序会退化为一条线
+    data_constraints:
+      - "必须提供多组数据（如不同国家、不同行业、不同时期分组）进行并排比较"
+      - "多变量时必须保证所有列量纲一致（如都是%同比或都是指数值）"
+      - "箱线图需要每组有多个原始观测值来展示分布（min/Q1/median/Q3/max），禁止使用已汇总的统计值（如平均值、中位数），否则箱子会退化为竖线；如只有汇总数据应改用 bar 图"
+      - "禁止场景: 单变量时序数据会退化为单个箱子，应改用 line 或 histogram"
+
+  # ============================================================================
+  # Tier 3: 横截面 + 特殊图表 (10%)
+  # ============================================================================
+  waterfall:
+    python_libs: [plotly, matplotlib]
+    frontend_libs: [highcharts, echarts, plotlyjs, antv]
+    tier: 3
+    weight: 0.015  # ⬇️ 减少 (原0.04)
+    required_shapes: [CS_1D]
+    data_constraints:
+      - "数据密度: 建议条形数控制在 5-20 个; 超过20个步骤会导致可读性下降"
+      - "典型场景：单期因素分解（如收入→各成本项→净利润）"
+      - "瀑布图需要「起点→增量/减量→终点」的递进结构数据，禁止用于平行指标比较；如只是多类别数值比较应改用 bar 图"
+      - "禁止场景: 不适合展示时序变化（如月度/季度趋势），时序数据应改用 line/bar 图表"
+
+  pie:
+    python_libs: [matplotlib, plotly, altair]
+    frontend_libs: [echarts, highcharts, chartjs, plotlyjs, d3js, recharts, antv]
+    tier: 3
+    weight: 0.015  # ⬇️ 减少 (原0.025)
+    required_shapes: [CS_1D]
+    data_constraints:
+      - "必须是分类占比数据（部分与整体关系），禁止使用时间序列"
+      - "典型场景：市场份额、资产配置、收入构成"
+      - "数据密度: 建议扇区数量≤12; 超过12个类别时，建议合并小类别为'其他'或改用 treemap/bar 图表"
+
+  bubble:
+    python_libs: [matplotlib, plotly, altair]
+    frontend_libs: [echarts, highcharts, plotlyjs, d3js, antv]
+    tier: 3
+    weight: 0.008  # ⬇️ 调整 (权重总和校准)
+    required_shapes: [CS_ND]
+    data_constraints:
+      - "气泡图需要至少3个变量（X轴、Y轴、气泡大小），适合横截面多实体比较；禁止用于单变量时序数据，否则气泡会密集重叠成折线状，应改用 line/scatter"
+      - "气泡尺寸: 当数据尺度差异极大时（如GDP 20万亿 vs 5千亿），使用 sqrt 或 log 变换气泡面积，避免小气泡不可见: sizes = np.sqrt(df['value']) * scale_factor"
+
+  treemap:
+    python_libs: [plotly, altair]
+    frontend_libs: [echarts, highcharts, d3js, antv]
+    tier: 3
+    weight: 0.01  # 保持
+    required_shapes: [CS_ND]
+    data_constraints:
+      - "数据密度: 建议叶节点数量≤100; 节点过多会导致标签难以辨认"
+
+  contour:
+    python_libs: [matplotlib, plotly]
+    frontend_libs: [plotlyjs, d3js, echarts]
+    tier: 3
+    weight: 0.01  # ⬇️ 减少 (原0.02)
+    required_shapes: [MATRIX]  # 必须是2D矩阵数据（如期权波动率曲面）
+    data_constraints:
+      - "必须提供二维网格数据(X, Y, Z)，不能用一维时序数据"
+      - "典型场景：期权隐含波动率曲面（到期×行权价）、收益率曲线曲面"
+
+  errorbar:
+    python_libs: [matplotlib, plotly, altair]
+    frontend_libs: [highcharts, plotlyjs, echarts]
+    tier: 3
+    weight: 0.008  # 保持
+
+  fan_chart:
+    python_libs: [matplotlib, plotly]
+    frontend_libs: [highcharts, echarts, plotlyjs]
+    tier: 3
+    weight: 0.008  # 新增
+
+  # ============================================================================
+  # Tier 4: 特殊场景 (5%)
+  # ============================================================================
+  waterfall_line:
+    python_libs: [plotly, matplotlib]
+    frontend_libs: [highcharts, echarts, plotlyjs]
+    tier: 4
+    weight: 0.005  # ⬇️ 减少 (原0.007)
+    required_shapes: [CS_1D]
+    data_constraints:
+      - "数据密度: 建议步骤数控制在 5-20 个; 时序数据点>20 应改用 line 或 bar 图表"
+      - "禁止场景: 不适合纯时序趋势展示，仅适合因素分解叠加趋势线的场景"
+
+  density:
+    python_libs: [seaborn, matplotlib, plotly]
+    frontend_libs: [plotlyjs, d3js, echarts]
+    tier: 4
+    weight: 0.005  # 保持
+
+  heatmap_scatter:
+    python_libs: [seaborn, matplotlib, plotly]
+    frontend_libs: [echarts, plotlyjs, d3js, antv]
+    tier: 4
+    weight: 0.005  # 保持
+    required_shapes: [MATRIX, CS_ND]  # 🔧 修复: 需要二维散点密度分布数据
+    data_constraints:
+      - "必须提供二维数据（X, Y坐标）用于展示散点密度分布"
+      - "禁止场景: 单变量时序数据会退化为阶梯状，应改用 line 或 scatter"
+
+  radar:
+    python_libs: [plotly, matplotlib]
+    frontend_libs: [echarts, highcharts, chartjs, antv]
+    tier: 4
+    weight: 0.005  # 新增
+
+  sankey:
+    python_libs: [plotly]
+    frontend_libs: [echarts, highcharts, d3js, antv]
+    tier: 4
+    weight: 0.005  # 新增
+    required_shapes: [FLOW]
+
+  node:
+    python_libs: [plotly]
+    frontend_libs: [echarts, d3js, antv]
+    tier: 4
+    weight: 0.003  # 新增
+    required_shapes: [GRAPH]
+
+  gantt:
+    python_libs: [plotly]
+    frontend_libs: [echarts, highcharts, antv]
+    tier: 4
+    weight: 0.003  # 新增

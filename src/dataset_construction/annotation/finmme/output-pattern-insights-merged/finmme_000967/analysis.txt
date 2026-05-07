@@ -1,0 +1,28 @@
+【图表构成】
+- 图表类型：双折线图，带标记点。
+- 图例：红色菱形“AI will transform our company”；灰色圆点“AI will transform our industry”。
+- 标题/注释：阴影区域内文字“Companies expect AI will have a significant impact on their business and industry soon”。
+- 横轴：时间分类—Now、In 1 year、In 2-3 years、In 4-5 years、In 6-10 years、More than 10 years。
+- 纵轴：% of respondents，范围约0%至35%。
+
+【数据关系】
+- 公司系列（红）：Now约10%；In 1 year约14%；In 2-3 years约33%（最高）；In 4-5 years约21%；In 6-10 years约12%；More than 10 years约7%（最低）。范围约26个百分点。
+- 行业系列（灰）：Now约8%（最低）；In 1 year约10%；In 2-3 years约20%；In 4-5 years约28%（最高）；In 6-10 years约22%；More than 10 years约10%。范围约20个百分点。
+- 同期对比差值（红-灰）：Now约+2个百分点；In 1 year约+4；In 2-3 years约+13；In 4-5 years约-7；In 6-10 years约-10；More than 10 years约-3。
+
+【模式特征】
+- 两条曲线在前半段先抬升后回落，在不同时间点各自形成单一峰值，公司系列峰值更靠前且更尖锐，行业系列峰值略滞后且更平缓。
+- 两系列在早期阶段数值接近，中段出现明显分离，后期再次收敛但均低于中段水平。
+- 时间轴中部附近存在一次交叉，交叉之后行业系列整体高于公司系列，且差值在中后段维持在中等水平。
+
+【核心洞察】
+核心结论：企业对自身冲击判断更短期，对行业冲击判断更偏中期。
+
+业务含义：
+- 含义1 企业更关注近期经营层面的AI影响。
+- 含义2 行业层面被视为中期重塑与竞争格局调整。
+- 含义3 中短期内内部转型与外部环境变化节奏并不同步。
+
+风险关注：
+- 风险点1 若2-3年内公司影响预期超过30%而行业不足25%，可能导致对外部竞争准备不足。
+- 风险点2 若4-5年行业影响预期超过25%且公司低于20%，可能出现转型投入与行业变化脱节。

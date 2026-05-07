@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Grouped horizontal scatter/range chart.
+- Axes and Titles: No main title; x-axis is "CTAs 20d Beta," range approximately -2 to 2, with a vertical dashed line at 0, labeled "Short" on the left and "Long" on the right; y-axis has four categories: Global EQ, 10Y UST fut., USD, Oil.
+- Legend: Red diamond = Current, Blue diamond = 2w ago, Black short vertical line = Avg since 2010, Dark gray = 1Y range, Light gray = Range since 2010.
+
+[Data Relationships]
+- Global EQ: Current > 0, located on the Long side; two weeks ago also > 0; current is higher than two weeks ago; both points are within the 1-year range and the range since 2010.
+- 10Y UST fut.: Current < 0, located on the Short side; two weeks ago < 0; current absolute value is greater than two weeks ago; both are below the "Avg since 2010" (which is in the positive value area).
+- USD: Current > 0; two weeks ago > 0; current is less than two weeks ago; both points are within the 1-year range.
+- Oil: Current is close to 0 and slightly < 0; "2w ago" marker is not visible; within the 1-year and range since 2010.
+- Comparison: Among the four asset classes, the current absolute value of Global EQ is the largest.
+
+[Pattern Characteristics]
+- The four asset classes show a pattern of dispersion towards both sides on the horizontal axis, with Global EQ leaning towards the positive side with the largest magnitude, 10Y UST fut. leaning towards the negative side, and USD and Oil being closer to the neutral zone.
+- Comparing current positions with those two weeks ago, Global EQ and 10Y UST fut. shifted further in their respective directions, USD moved slightly closer to neutral, and Oil only shows a single current point near the zero axis.
+- All current points fall within their respective one-year and long-term ranges, showing no extreme positions that break historical boundaries.
+
+[Core Insights]
+Core Conclusion: CTA shows a strong bias towards equities and a more adversarial stance towards interest rate instruments.
+
+Business Implications:
+- Equity exposure holds a dominant position in the portfolio.
+- Interest rate-related positions differ significantly from the long-term average allocation.
+- Currencies and commodities lean towards a more neutral weighting in the overall allocation.
+
+Risk Focus:
+- If the absolute value of Global EQ Beta approaches the boundaries of its long-term range, portfolio volatility may significantly increase.
+- If 10Y UST fut. Beta continues to move away from "Avg since 2010," the effectiveness of hedging traditional interest rate risk may weaken.

@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Vertical Bar Chart
+- Title: Not displayed
+- X-axis: Year Classification—2019, 2020, 2021, 2022, 2023, 2024F
+- Y-axis: Unit (KRW bn), range approximately 0–700, including major tick marks
+- Bars: Primarily red; 2023 and 2024F overlay a gray dashed box segment on the red bar, labeled with the text "SM Ent."
+- Legend: Not displayed separately, only the "SM Ent." annotation
+
+[Data Relationships]
+- The red bar in 2019 is approximately 200; 2020 is approximately 450 (a difference of about 250 compared to 2019).
+- The red bar in 2021 is approximately 590 (a difference of about 140 compared to 2020); 2022 is approximately 560 (a difference of about 30 compared to 2021).
+- The red bar in 2023 is approximately 380, the gray segment is approximately 120, totaling approximately 500.
+- The red bar in 2024F is approximately 380, the gray segment is approximately 170, totaling approximately 550 (a difference of about 50 compared to the 2023 total value).
+- The peak of the red bar is approximately 590 (2021), the trough is approximately 200 (2019), with a high-low difference of about 390; the peak of the total value (including the gray segment) is approximately 550 (2024F).
+
+[Pattern Characteristics]
+The overall value increased year-over-year from 2019 to 2021, reaching its highest point in 2021, followed by a slight pullback in 2022. In 2023 and 2024F, a new gray dashed box is added on top of the original red bar, making the total height significantly higher than the level of the red bar alone. The red bar remains similar between 2023 and 2024F, while the proportion of the gray box further increases in 2024F compared to 2023.
+
+[Core Insights]
+Core Conclusion: After the traditional segment peaked and pulled back, the added contribution from SM Ent. became the primary source of incremental growth.
+
+Business Implications:
+- The scale of the original business is nearing a plateau, with limited momentum for expansion.
+- Overall growth is increasingly dependent on revenue related to SM Ent.
+- Future performance will largely depend on the realization of results from the new source.
+
+Risk Focus:
+- If the contribution from SM Ent. falls below 120 (the 2023 gray segment), the overall scale may fall below the 2023 level.
+- If the red bar drops below 380 (the 2023–2024F level), the total volume will struggle to maintain the forecast target of 550.

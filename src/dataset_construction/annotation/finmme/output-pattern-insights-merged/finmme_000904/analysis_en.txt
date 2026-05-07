@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Grouped Bar Chart
+- Title: Not labeled
+- X-axis: Three categories—Product supplier, Service supplier, Integrated player
+- Y-axis: Numerical scale 0 to 4,500, unit not labeled
+- Legend: 2021 is red, 2022 is light gray, 2023 is white (black border)
+
+[Data Relationships]
+- Product supplier: Approx. 1,250 in 2021; approx. 1,350 in 2022; approx. 1,450 in 2023. 2023 is approx. 200 higher than 2021, and 2022 is approx. 100 higher than 2021.
+- Service supplier: Approx. 3,800 in 2021; approx. 2,150 in 2022; approx. 2,850 in 2023. The difference between 2021 and 2022 is approx. 1,650; 2023 is approx. 700 higher than 2022.
+- Integrated player: Approx. 320 in 2021; approx. 260 in 2022; approx. 340 in 2023. 2023 is approx. 80 higher than 2022; the difference between 2021 and 2022 is approx. 60.
+- Intra-year comparison: In 2021, Service supplier was approx. 2,550 higher than Product supplier; in 2023, Service supplier was approx. 1,400 higher than Product supplier; in 2021, Product supplier was approx. 930 higher than Integrated player.
+
+[Pattern Characteristics]
+- Among the three types of entities, Service supplier consistently maintained the highest level over the three years, while Integrated player was consistently the lowest, demonstrating a highly stratified structure overall.
+- Product supplier values increased year-over-year (YoY) for three years, while Service supplier first experienced a significant decline before recovering, but did not return to the starting point. Integrated player showed slight fluctuations within a small range.
+- The magnitude of internal change differs among the entities; Service supplier showed the most significant annual variance, while the annual changes for Product supplier and Integrated player were relatively moderate.
+
+[Core Insights]
+Core Conclusion: Service-type entities hold the largest volume but show significant volatility, while product-type entities expand steadily.
+
+Business Implications:
+- Service-type entities have the greatest impact on the overall landscape.
+- Product-type entities demonstrate stronger sustained accumulation capability.
+- Integrated entities have limited scale and a weak contribution to the overall total.
+
+Risk Focus:
+- If Service supplier falls below 2,000, the overall scale will contract significantly.
+- If Product supplier stagnates near 1,300, the structure will continue to be overly reliant on the service side.

@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Time series line chart, including event markers (yellow triangles, red dots)
+- Title/Range: 20-Feb-2021 to 19-Feb-2024
+- Y-axis: PRICE(USD), scale approximately 0–25
+- X-axis: Time scale: Apr-21, Jul-21, Oct-21, Jan-22, Apr-22, Jul-22, Oct-22, Jan-23, Apr-23, Jul-23, Oct-23, Jan-24
+- Legend: Black line = The Goodyear Tire & Rubber Co.; Yellow triangle = Target Price Change; Red dot = Recommendation Changes
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial period (Feb-2021) approximately $17.5; Final period (Feb-2024) approximately $12.5; Difference approximately -$5.0.
+- All-time high approximately $24.5 (end of 2021); All-time low approximately $10.0 (early 2023); High-low spread approximately $14.5.
+- July 2021 approximately $19; July 2023 approximately $15; Difference between the two points approximately -$4.
+- Event markers: May 2022 red dot corresponds to price approximately $11; April 2023 red dot approximately $13.5; July 2022 yellow triangle approximately $17.5; October 2023 yellow triangle approximately $12.5.
+
+[Pattern Characteristics]
+The price first experienced an upward trend, peaking at the end of 2021, and subsequently traded within a generally lower range starting from 2022. After a noticeable step-down shift in price during 2022, a phase low was formed near the beginning of 2023, followed by minor fluctuations around a moderate range. Yellow triangles and red dots are mostly concentrated during the phase when the price shifted from a high level to a lower range, and after stabilization at the low level, showing a clustering characteristic.
+
+[Core Insights]
+Core Conclusion: The stock price has shifted from a strong range into a long-term low range, with the center of volatility moving downward.
+
+Business Implications:
+- The overall valuation level has been significantly revised downward, and market expectations have weakened.
+- Analyst target price and rating adjustments are concentrated at key inflection points, reflecting rapid repricing of expectations.
+- The current price is hovering around the middle range, indicating weak short-term directional signals.
+
+Risk Focus:
+- If the price breaks below the low near $10, it could trigger further selling pressure and self-reinforcing negative expectations.
+- If the rebound is capped near $17.5, the upside potential may be limited, restricting the extent of valuation recovery.

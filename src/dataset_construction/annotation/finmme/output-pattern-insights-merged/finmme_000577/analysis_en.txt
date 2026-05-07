@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Bar chart overlaid with scatter plot
+- Title: Minimum 2025 vs 2023 estimated change in EU (ex UK) BEV volume to meet 2025 CO2 targets (Based on BNPP-Exane PHEV mix assumptions)
+- Y-axis: Percentage, range approximately -100% to 400%, including tick marks at 0%, -50%, -100%, 400%.
+- X-axis: Toyota et al, Ford, VW, RNO‑Nissan‑Mits, Renault, Mercedes, EU+UK Fleet, EU fleet, Stellantis, Hyundai‑Kia, BMW, Volvo, Tesla‑Honda‑JLR
+- Legend: Light green bar represents “% chg in 2025e vs 2023 BEV volume based on flat overall volumes”; Orange dot represents “% chg in 2025e vs 2023 BEV volume based on BNPPE volume ests”
+- Other: EU logo included on the left side
+
+[Data Relationships]
+- Light Green Bar: Toyota et al≈370%, Ford≈335%, VW≈100%
+- RNO‑Nissan‑Mits≈60%, Renault≈55%, Mercedes≈45%
+- EU+UK Fleet≈40%, EU fleet≈35%, Stellantis≈35%, Hyundai‑Kia≈25–30%, BMW≈20
+- Volvo≈-25%, Tesla‑Honda‑JLR≈-50%
+- Orange Dot: Toyota et al≈380%, Ford≈380%, VW≈135%
+- RNO‑Nissan‑Mits≈90%, Renault≈85%, Mercedes≈65%
+- EU+UK≈63%, EU fleet≈52%, Stellantis≈65%, Hyundai‑Kia≈43%, BMW≈39%
+- Volvo≈-8%, Tesla‑Honda‑JLR≈-25%
+
+[Pattern Characteristics]
+Overall, the two sets of percentages for each automaker show clear stratification, with the leftmost companies showing large positive values, the middle group showing moderate positive values, and the two rightmost groups showing negative values. For most brands, the orange dot is higher than the light green bar, but the magnitude of the difference varies, and for individual brands, the gap is highly significant. There is a clear height difference between Toyota et al, Ford, and the remaining samples, while the two sets of values for Volvo and Tesla‑Honda‑JLR are both located below the zero axis, forming a relatively concentrated negative value range.
+
+[Core Insights]
+Core Conclusion: There is extreme divergence among different automakers regarding the incremental volume required to meet 2025 targets.
+
+Business Implications:
+- Toyota and Ford face the greatest pressure to increase EV sales volume.
+- Mid-tier automakers require significant expansion, but the magnitude is relatively manageable.
+- Volvo and Tesla‑Honda‑JLR's current sales levels are relatively close to the target range.
+
+Risk Focus:
+- If Toyota/Ford's actual increase is below 100%, it will be far below their required level of approximately 350%–380%.
+- If Volvo and Tesla‑Honda‑JLR's sales continue to show less than 0% change, they may not be able to offset overall fleet emission requirements.

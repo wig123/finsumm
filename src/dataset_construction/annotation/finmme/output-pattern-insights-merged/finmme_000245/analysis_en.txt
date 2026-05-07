@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Stacked Bar Chart
+- Title: Not displayed
+- Y-axis: Unit is KRW bn, range approximately 0–180
+- X-axis: Quarterly labels from 1Q21 to 4Q23, totaling 12 periods
+- Legend: Physical Album (Red), Concerts (Light Orange), Others (Blue), Streaming (Gray), Appearances (Black), Ads (Commercial) (White Box), MD (Orange)
+
+[Data Relationships]
+- Minimum total: 1Q21 approximately 30–35 KRW bn; Maximum total: 4Q23 close to 160 KRW bn; The difference between the two is approximately 125–130 KRW bn.
+- Key high points: 2Q23 total approximately 150 KRW bn; 3Q23 approximately 140 KRW bn; 4Q22 approximately 115 KRW bn; 1Q23 approximately 120 KRW bn.
+- 2021 quarterly totals approximately: 1Q21≈30, 2Q21≈40, 3Q21≈55, 4Q21≈65 (KRW bn).
+- 2022 quarterly totals approximately: 1Q22≈70, 2Q22≈65, 3Q22≈95, 4Q22≈115 (KRW bn).
+- 2023 quarterly totals approximately: 1Q23≈120, 2Q23≈150, 3Q23≈140, 4Q23≈160 (KRW bn).
+
+[Pattern Characteristics]
+- The quarterly totals generally show a stepwise upward trend, with lower levels in 2021, a significant increase in the mid-to-late stages of 2022, and remaining in the highest range of the chart in 2023.
+- Among the constituent items, the proportion of Physical Album and MD areas significantly expanded in the later periods, while the volume of other items (Streaming, Others, etc.) also increased but remained relatively more balanced.
+- The bar height continuously extended during the period from 2Q22 to 2Q23, with no significant pullback during this time; only 3Q23 was slightly lower than the previous quarter, and 4Q23 reached the chart's highest point again.
+
+[Core Insights]
+Core Conclusion: The revenue structure is dominated by physical goods and merchandise, and the overall scale is rapidly expanding.
+
+Business Implications:
+- Profit volume has expanded significantly, leading to a stronger revenue base.
+- High reliance on physical sales and merchandise development capabilities.
+- Enhanced contribution from diversified channels, which helps mitigate volatility from single projects.
+
+Risk Concerns:
+- If the quarterly total falls below 100 KRW bn, the economies of scale will be significantly weakened.
+- If the combined proportion of Physical Album + MD falls below 50%, it may impact the existing profit structure.

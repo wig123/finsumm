@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Percentage Stacked Bar Chart (Vertical)
+- Title: India population age wise mix (%)
+- X-axis: Year/Estimate—2011, 2016, 2021, 2026 E, 2031 E, 2036 E
+- Y-axis: Percentage 0–100
+- Legend: 0–14 yrs (Red), 15–59 yrs (Gray), 60+ yrs (White/Black outline)
+- Specific percentages are labeled on each bar segment.
+
+[Data Relationships]
+- 2011: 0–14 is 30.9%, 15–59 is 60.7%, 60+ is 8.4%.
+- 2036E: 0–14 is 20.1%, 15–59 is 64.9%, 60+ is 14.9%.
+- 2011↔2036E Difference: 0–14 differs by 10.8 percentage points; 15–59 differs by 4.2 percentage points; 60+ differs by 6.5 percentage points.
+- 2021: 15–59 is 64.2%, 38.5 percentage points higher than 0–14, and 54.1 percentage points higher than 60+.
+- Extremes: 15–59 peaks at 65.1% (2031E); 0–14 peaks at 30.9% (2011) and bottoms at 20.1% (2036E); 60+ peaks at 14.9% (2036E) and bottoms at 8.4% (2011).
+
+[Pattern Characteristics]
+- The proportion structure of the three age groups is stable across the years but shows significant redistribution. The middle age segment consistently holds the largest proportion, while the two extreme age segments remain relatively smaller.
+- The share of the younger group shows continuous contraction, while the share of the older group shows continuous expansion. Their directions of change are opposite, and the magnitude of change is relatively smooth.
+- The middle age group slightly declines after reaching a relative peak in the middle years, but the overall magnitude of change is smaller than that of the two extreme age groups.
+
+[Core Insights]
+Core Conclusion: The demographic structure is evolving from a youth-dominant type toward a pattern characterized by an increasing proportion of middle-aged and elderly individuals.
+
+Business Implications:
+- Labor supply is temporarily situated within a relatively abundant range.
+- Dependency burden will gradually shift from the education sector toward the elderly care sector.
+- The structure of consumption and service demand will tend toward the coexistence of multiple age groups.
+
+Risk Focus:
+- When the proportion of 60+ approaches 15%, if the elderly care burden is unmatched, it may strain fiscal and household budgets.
+- When the proportion of 0–14 drops to approximately 20%, over-expansion of investment related to education and children may lead to underutilized resources.

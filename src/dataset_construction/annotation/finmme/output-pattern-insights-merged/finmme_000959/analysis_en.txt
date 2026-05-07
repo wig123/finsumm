@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Multiple Line Chart (Percentage).
+- Title: Not displayed.
+- X-axis: Year, 2016—2025E.
+- Y-axis: Percentage, range approximately -10% to 50%, marked in 10% increments.
+- Legend: Three series—Red "Adjusted OPM %", Gray "S&M to sales %", Black "G&A to sales %".
+
+[Data Relationships]
+- S&M to sales %: 2016 was 44%; 2017 was 35%; 2018 was 36%; 2019 was 35%; 2020 was 33%; 2021 was 34%; 2022 was 33%; 2023E was 34%; 2024E was 33%; 2025E was 33%; highest 44%, lowest 33%, a difference of 11 percentage points.
+- G&A to sales %: 2016–2019 were all 4%; 2020 was 5%; 2021 was 6%; 2022 was 5%; 2023E was 4%; 2024E was 4%; 2025E was 3%; highest 6%, lowest 3%, a difference of 3 percentage points.
+- Adjusted OPM %: 2017 was 15% (highest); 2018 was 7%; 2019 was 7%; 2020 was 4%; 2022 was -6% (lowest); 2023E/2024E/2025E were all -5%; range difference of 21 percentage points.
+
+[Pattern Characteristics]
+- S&M to sales % generally narrows slowly within the mid-to-high range, fluctuating narrowly around the mid-30% segment after 2016, remaining nearly flat during the forecast period.
+- G&A to sales % consistently remains low with minimal fluctuation, showing a slight downward trend after 2021, reaching the lowest point of the entire period in 2025E.
+- Adjusted OPM % continuously declines after forming a single peak in 2017, remaining below the zero axis after 2022 and staying in the negative range during the forecast period, showing a clear phase inflection point.
+
+[Core Insights]
+Core Conclusion: Against the backdrop of stable Sales and Management expense ratios, the profit margin shifts from positive to negative and is difficult to recover.
+
+Business Implications:
+- The cost structure is relatively stable, but profitability quality has clearly weakened.
+- The effectiveness of sales expenses in driving revenue may be insufficient.
+- Mid-to-short-term profitability recovery space is limited, requiring reliance on structural adjustments.
+
+Risk Concerns:
+- If Adjusted OPM % consistently remains below 0%, the business may struggle to self-cover costs.
+- If S&M to sales % approaches 40% or higher again, it may further compress the earnings elasticity space.

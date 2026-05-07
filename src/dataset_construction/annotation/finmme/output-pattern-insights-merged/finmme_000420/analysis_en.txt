@@ -1,0 +1,36 @@
+[Chart Components]
+- Chart Type: Multi-series time line chart
+- Title: Not displayed (explained by the legend in the upper left)
+- Legend and Series:
+  1) Dark Green Solid Line: Credit Standards To Firms exp. next quarter
+  2) Light Gray-Blue Solid Line: Long term loan demand
+  3) Orange Dashed Line: Credit Demand from Firms exp. next quarter
+- X-axis: Year, 2003–2025
+- Y-axis: Numerical scale -30 to 40, step size 10, including a dashed baseline at 0
+- Others: Includes horizontal grid lines and a few blue arrow annotations
+
+[Data Relationships]
+- The overall numerical range of the chart is -30 to 40, a span of approximately 70
+- The orange line reached the chart's highest point around 2020, ranging between 30 and 40 (approx. 35)
+- The gray line reached its lowest point around 2009, ranging between -20 and -30 (approx. -25)
+- The gray line reached its highest point around 2010, ranging between 20 and 30; the difference from its lowest point is approximately 45 to 55
+- The teal/green line reached its highest point between 2008 and 2009, ranging between 20 and 30; its lowest point was between 2020 and 2021, ranging between -10 and -20; the difference between the two is approximately 30 to 50
+- Around 2022, the gray line was between -20 and -30, and the orange line was between 0 and 10, a difference of approximately 20 to 40
+- In 2024–2025, all three lines are within the -10 to 10 range
+
+[Pattern Characteristics]
+- The three series repeatedly fluctuate above and below the zero axis throughout the period, showing multiple distinct cycles of volatility, and gradually converging into a narrow range near zero in the final period.
+- The gray line and the teal/green line showed periods of opposing direction or significant divergence during phases such as 2008–2010 and 2019–2022, while the orange line exhibited a prominent sharp peak around 2020.
+- In some years, the trends of the three lines are relatively close, particularly in 2024–2025 where they are nearly clustered around the same level, whereas earlier periods showed a more dispersed structure.
+
+[Core Insights]
+Core Conclusion: The relationship between credit standards and loan demand shows periodic misalignment, trending toward moderation recently.
+
+Business Implications:
+- Instability in the matching degree between early credit constraints and corporate financing willingness.
+- Significant volatility in allocation efficiency and pricing dynamics between 2019 and 2022.
+- Post-2024, the divergence in expectations between credit supply and demand sides has narrowed, favoring neutral decision-making.
+
+Risk Focus:
+- If any series approaches ±30 again, it may trigger deviations in financial planning and budgeting.
+- If the gray and orange lines show prolonged divergence above ±20, it could lead to resource misallocation and asset quality volatility.

@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Line chart
+- Title: Not displayed
+- X-axis: Time, tick marks labeled Jan‑18, Jan‑19, Jan‑20, Jan‑21, Jan‑22, Jan‑23
+- Y-axis: Percentage, label "Tariff rate (weighted-average)", range 0% to 20%, with grid lines
+- Legend: Not displayed; Single data series (cyan line)
+
+[Data Relationships]
+- Initial period (Jan‑18) approximately 3%
+- Mid-2018 approximately 6%, year-end approximately 9%
+- Mid-2019 approximately 14%, peak at year-end 2019 approximately 17–18%
+- Early 2020 approximately 15%, mid-2020 approximately 14%, mid-2021 approximately 14.5%
+- 2022 approximately 13.5–14%, early 2023 approximately 12.7%, final period (year-end 2023) approximately 13.3%
+- Difference between peak and initial period approximately 14–15 percentage points; Difference between peak and final period approximately 4–5 percentage points
+
+[Pattern Characteristics]
+- The overall curve shows a significant upward trend in the first half, followed by minor fluctuations within a higher range.
+- Structurally, it exhibits multiple step-wise increases before entering a plateau phase, followed by narrow-range oscillation around a relatively stable level in the later period.
+- A single significant spike formed near the end of 2019, and no extreme points of the same magnitude have appeared since.
+
+[Core Insights]
+Core Conclusion: The weighted-average tariff rate, after a sharp short-term increase, has remained sustained within a relatively high range over the long term.
+
+Business Implications:
+- The overall tax burden level has significantly increased and stabilized relative to the initial period.
+- The import/export cost structure relies more heavily on pricing and negotiation capabilities within a high-tariff environment.
+- Enterprises and relevant entities must adapt to a high-cost normal state rather than a temporary shock.
+
+Risk Focus:
+- If the tariff rate approaches the 17% peak again, it may compress the profit margins of related trade or business operations.
+- If the rate falls below 10% in the future, it may trigger a revaluation of the existing pricing system based on high tariffs.

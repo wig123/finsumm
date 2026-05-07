@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Vertical Bar Chart
+- Title: Not displayed; Y-axis label is "Change vs. 2017-18 (%)"
+- Axes: X-axis shows quarters, segmented by year: 2021 (Q1–Q4), 2022 (Q1–Q4), 2023 (Q1–Q3); Y-axis scale runs from 0% down to approximately -120%, including horizontal grid lines
+- Legend: Not displayed
+- Data Labels: Percentage values are annotated on each bar
+
+[Data Relationships]
+- 2021: Q1 -96.3%, Q2 -95.8%, Q3 -71.4%, Q4 -62.4%
+- 2022: Q1 -46.7%, Q2 -17.4%, Q3 -13.9%, Q4 -10.3%
+- 2023: Q1 -10.2%, Q2 -6.1%, Q3 -3.9%
+- Lowest value is 2021 Q1 at -96.3%; Highest value (closest to 0) is 2023 Q3 at -3.9%, a difference of 92.4 percentage points.
+- 2021 Range: -96.3% to -62.4%, an interval of 33.9 percentage points.
+- 2022 Range: -46.7% to -10.3%, an interval of 36.4 percentage points.
+- 2023 Range (through Q3): -10.2% to -3.9%, an interval of 6.3 percentage points.
+- Difference from 2021 Q1 to 2022 Q1: 49.6 percentage points; Difference from 2022 Q4 to 2023 Q3: 6.4 percentage points.
+
+[Pattern Characteristics]
+Overall, quarterly values consistently remain negative, but the absolute values gradually decrease starting from 2021 Q1, approaching the zero axis. The difference between individual quarters was large between 2021 and 2022, showing a significant reduction in bar length. In 2023, the differences between quarters have narrowed significantly, indicating greater concentration. No reversal or sharp turnaround has occurred; the pattern only shows a single dominant structure of continuous convergence.
+
+[Core Insights]
+Core Conclusion: The negative deviation relative to the 2017-18 baseline continues to narrow but has not yet been fully recovered.
+
+Business Implications:
+- Performance relative to the baseline is gradually approaching normal levels.
+- Volatility has significantly decreased, reducing short-term uncertainty.
+- The recovery process is slowing down, and the scope for subsequent improvement is limited.
+
+Risk Concerns:
+- If the metric remains below -5% for an extended period, it may solidify into a new normal, compressing profit margins and budget capacity.
+- A drop back below -20% would likely signify an interruption in the recovery trajectory, necessitating an adjustment to operational and investment pacing.

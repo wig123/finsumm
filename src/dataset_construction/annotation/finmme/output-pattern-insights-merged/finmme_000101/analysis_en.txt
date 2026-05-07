@@ -1,0 +1,42 @@
+[Chart Components]
+- Type: Line Chart
+- Title: No apparent title
+- Axes:
+  - Y-axis: Price (USD/ton), ranging from -600 to 800
+  - X-axis: Time, ranging from January 2019 to January 2024
+- Legend:
+  - Red line represents PX spread
+  - Gray line represents MEG spread
+  - Black line represents PTA spread
+
+[Data Relationships]
+- Key values and changes:
+  - PX spread initially (2019) remained above 500, then decreased after 2020, fluctuating generally between 300 and 400, and rose again close to 400 at the end of 2023.
+  - PTA spread is generally lower than the PX spread, fluctuating consistently between 0 and 300.
+  - MEG spread was initially low, hovering around 100, rebounded slightly after bottoming out in 2020, but remained between 0 and 200.
+
+- Extreme Value Comparison:
+  - PX spread reached its highest point above 600 in early 2019.
+  - MEG spread fell to its lowest point, nearly -200, in mid-2020.
+
+- Important Trends:
+  - The overall trend of the PX spread is a decline followed by a slight recovery.
+  - PTA spread is relatively stable, showing a slight increase.
+  - MEG spread first declined and then recovered, but the magnitude of the increase was limited.
+
+[Pattern Characteristics]
+- The three series show a clear hierarchy: the red line is highest, the black line is central, and the gray line is lowest, fluctuating within their respective ranges.
+- The distance between the three narrowed around 2020, then widened again; a brief spike occurred in mid-2022, accompanied by a significant dip in the gray line.
+- In the closing phase, the red line maintains a relatively high platform, the black line is in the middle range, and the gray line, although having moved up slightly, remains in the bottom range.
+
+[Core Insights]
+Core Conclusion: Upstream spread dominates, midstream is secondary, and downstream earnings elasticity is weak.
+
+Business Implications:
+- Reflects the skewing of profit distribution toward the upstream sector.
+- PTA is highly susceptible to upstream influence, resulting in weak bargaining power.
+- MEG has low profit elasticity, and its potential for improvement is limited.
+
+Risk Focus:
+- MEG spread ≤ 0 or approaching -200 indicates potential sustained losses.
+- When PX spread ≥ 500, cost pressure on PTA/MEG increases, and profit margins are compressed.

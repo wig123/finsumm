@@ -1,0 +1,25 @@
+[Chart Components]
+- Type: Line chart; Y-axis is "Relative share," range 0%—70%; X-axis is years 1830—1940 (ten-year intervals).
+- Legend: US (Cyan), Prussia/Germany (Gray), Russia/USSR (Orange dashed line), British Empire (Blue), Japan (Purple), Austria-Hungary (Pink), France (Light Cyan), Italy (Dark Blue).
+
+[Data Relationships]
+- Overall peak: US approximately 62% in 1920.
+- British Empire peak: Approximately 58—60% between 1850—1860.
+- 1940: US≈50%, Russia/USSR≈12—13%, Prussia/Germany≈12%, British Empire≈8—10%, Japan≈9%, France≈10%, Italy≈5—6%, Austria‑Hungary≈0%.
+- 1830: British Empire≈45%, US≈12—15%, France≈15%, Russia/USSR≈13%.
+- Difference between US and British Empire: Approximately 45—48 percentage points in 1850; approximately 47 percentage points in 1920.
+
+[Pattern Characteristics]
+The relative shares of the various economies exhibit a clear pattern of multiple curves rising and falling against each other, with the US and the British Empire forming the two dominant curves. The British Empire maintained a high position in the first half and continuously declined, while the US gradually climbed from a mid-level position in the middle-to-later period to the overall chart peak before slightly receding. Prussia/Germany and France generally maintained the middle range, Russia/USSR initially declined but rose in the final segment, Japan and Italy were near the bottom in the early stages, gathering toward the low-to-middle range later; Austria‑Hungary showed minor fluctuations in the middle segment before approaching zero at the end. Overall, the shares of the major economies are closer in the later period, forming a multi-party distribution structure in the upper-middle range.
+
+[Core Insights]
+Core Conclusion: The global relative economic share structure shifted from single dominance to a multipolar distribution pattern.
+
+Business Implications:
+- Dominance shifted from early strong entities to emerging entities.
+- The competitive landscape became more fragmented in the later period, and concentration decreased.
+- The proportion (share) of new entrants increased, and the influence of established powers diminished.
+
+Risk Focus:
+- When the share of any entity falls below 10%, its global influence and bargaining power may significantly contract.
+- When the gap between the leading entity and the second tier is less than 5 percentage points, the dominant position is easily challenged, potentially triggering a structural realignment.

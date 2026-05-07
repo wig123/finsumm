@@ -1,0 +1,29 @@
+【图表构成】
+- 图表类型：堆叠面积图
+- 标题：Data Center Ethernet Switch Revenue
+- X轴：年份，范围2022–2028
+- Y轴：Revenue in Billions ($)，范围0–40，刻度间隔5
+- 分层（图例/标签）：Top 5 U.S. Cloud SPs、Top 3 Chinese Cloud SPs、Rest of Cloud、Large Enterprises、Rest of Enterprise、Telco SPs
+- 来源/注释：650 Group Ethernet Switch Data Center Forecast Q4 2023；注释列出美国Top 5与中国Tier 1云厂商
+
+【数据关系】
+- 2022年总收入约在$20B附近；2028年总收入介于$35B–$40B。
+- 2028年各层贡献从大到小：Top 5 U.S. Cloud SPs > Rest of Cloud > Large Enterprises > Rest of Enterprise ≈ Telco SPs > Top 3 Chinese Cloud SPs。
+- 2028年Top 5 U.S. Cloud SPs对应值为各层最高，位于$20B以上区间；Top 3 Chinese Cloud SPs在$5B以下。
+
+【模式特征】
+- 整体面积随时间逐步扩大，各分层之间始终保持清晰分界，没有明显收缩或断层。
+- Top 5 U.S. Cloud SPs对应层在整体中占比不断放大，已成为主要面积来源，其余层级面积相对温和扩张。
+- Top 3 Chinese Cloud SPs与Telco SPs的面积在全部层中较薄，且在时间轴上变化较为平缓，没有突出的拐点或跳变。
+
+【核心洞察】
+核心结论：数据中心以头部美国云厂商拉动的收入格局进一步强化。
+
+业务含义：
+- 收入高度依赖少数超大规模云客户。
+- 云相关客户对整体营收弹性影响更大。
+- 企业与电信客户对结构贡献相对次要。
+
+风险关注：
+- 若Top 5 U.S. Cloud SPs收入跌破$20B，整体规模可能显著低于预期。
+- 若Top 3 Chinese Cloud SPs长期停留在$5B以下，将限制区域与客户结构多元化。

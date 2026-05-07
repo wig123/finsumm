@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Line chart (single red line).
+- Title: Total Bulkcarrier Suez Canal Transits.
+- Measurement Description: Annotated in the upper left corner as "mn GT, 7dma." (Unit: million gross tons, 7-day moving average).
+- X-axis: Time axis, ranging from Sep-23 to Feb-24; labeled Oct-23, Nov-23, Dec-23, Jan-24, Feb-24; includes a vertical dashed line at "16th Dec".
+- Y-axis: Value axis, ranging approximately 0—1.5 (mn GT), including tick marks at 0.5, 1.0, and 1.5.
+- Legend/Annotation: The red line represents "Total Bulkcarrier Suez Canal Transits"; annotation on the right states "Bulkcarriers Latest 7 days: -42% vs 1H Dec".
+
+[Data Relationships]
+- Initial period (Sep-23) approximately 0.75 mn GT; final period (Feb-24) approximately 0.58 mn GT, a difference of about 0.17 mn GT.
+- Peak value for the entire period approximately 1.12 mn GT (around Nov-23/Jan-24).
+- Trough value for the entire period approximately 0.55 mn GT (around Feb-24).
+- Peak-to-trough difference approximately 1.12−0.55=0.57 mn GT.
+- The value at the 16 Dec vertical line is approximately 0.98 mn GT.
+- Mid-Oct-23 high point approximately 1.02 mn GT; early Nov-23 high point approximately 1.10 mn GT.
+- Annotation indicates: The latest 7 days are -42% compared to the first half of December.
+
+[Pattern Characteristics]
+- From Sep-23 to the first half of Dec-23, the line shows multiple fluctuations, oscillating around the mid-to-high range, forming a temporary high-level plateau near Nov-23.
+- After 16th Dec, the line gradually slides from the mid-to-high range toward the lower range. Although there were minor rebounds during this period, the overall trend is a continuous decline, approaching the period's low point near Feb-24.
+- The trend in the first half of the period was relatively concentrated in the high-level area, while the latter half regathered in the low-level area, indicating a clear regime shift between the two segments.
+
+[Core Insights]
+Core Conclusion: Bulkcarrier transits through the Suez Canal have shifted from a relatively high phase into a state of significant contraction.
+
+Business Implications:
+- Utilization of bulk carrier capacity via the Suez route has significantly decreased.
+- Capacity allocation and scheduling flexibility for related routes are constrained.
+- Upstream and downstream reliance on the Suez transit path has temporarily weakened.
+
+Risk Focus:
+- If the volume persists around 0.55 mn GT, it could lead to a significant reduction in Suez-related business revenue.
+- If the level of approximately -42% relative to 1H Dec is maintained long-term, it may amplify volatility in related asset returns and increase idling costs.

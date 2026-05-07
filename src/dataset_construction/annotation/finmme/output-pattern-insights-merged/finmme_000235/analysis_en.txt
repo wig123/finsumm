@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Line chart
+- Title: Not displayed
+- X-axis: Days after election, approximate scale points 1, 256, 511, 766, 1021, 1276
+- Y-axis: Joint support in national polls (% of total), range 0–80%
+- Legend and Color: Grand-coalition (2005–2009, light blue); Grand-coalition (2013–17, green); Grand-coalition (2017–21, orange)
+
+[Data Relationships]
+- Initial Value (Day 1): 2005–09 approx. 73%; 2013–17 approx. 68%; 2017–21 approx. 54%
+- Day 511: 2005–09 approx. 66%; 2013–17 approx. 64%; 2017–21 approx. 45%; pairwise difference approx. 21, 19, 2 percentage points
+- Day 766: 2005–09 approx. 62%; 2013–17 approx. 60%; 2017–21 approx. 38%
+- Day 1021: 2005–09 approx. 58%; 2013–17 approx. 55%; 2017–21 approx. 40%
+- 2013–17 range roughly highest approx. 66%, lowest approx. 55%, difference approx. 11 percentage points
+- 2017–21 range roughly highest approx. 54%, lowest approx. 35%, difference approx. 19 percentage points
+- Near End of Period: 2013–17 approx. 58%; 2017–21 approx. 48%; difference approx. 10 percentage points
+
+[Pattern Characteristics]
+All three lines extend from a higher level to a lower level, but the slope and volatility differ: 2005–09 and 2013–17 are relatively smooth, while 2017–21 starts lower and exhibits greater fluctuation. In the middle-to-late stage, the three lines consistently maintain a clear hierarchical distribution, and 2017–21 maintains a significant gap from the other two lines for most of the period. 2013–17 showed a noticeable rebound followed by a decline in the later stage, forming a localized "rebound after dip" pattern, while 2017–21 formed a distinct low plateau range in the middle stage.
+
+[Core Insights]
+Core Conclusion: The level of joint support across different terms shows significant divergence, with the most recent term generally situated in a lower range.
+
+Business Implications:
+- The coalition composition exhibits clear differences in public support foundation across various cycles.
+- Cycles showing slight recovery in the later stage indicate relatively manageable public pressure.
+- Cycles with greater volatility face more restricted agenda setting and communication bandwidth.
+
+Risk Focus:
+- If support drops below 40%, the ability to advance key initiatives may be weakened.
+- If support lingers around 35% for an extended period, it may trigger doubts regarding the stability of the cabinet formation.

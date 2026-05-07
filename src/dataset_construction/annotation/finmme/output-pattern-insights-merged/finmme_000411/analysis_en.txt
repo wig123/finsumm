@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Bar chart (red bars)
+- Title: Not displayed
+- X-axis: Company categories, ordered as: Natco, Biocon, Ipca, Lupin, Strides Pharma, Gland ex Cenexi, Aurobindo, Ajanta Pharma, Cipla, Sun, Alembic Pharma, Dr Reddy's, Zydus, Granules, Glenmark
+- Y-axis: Percentage scale, range approximately -20% to 60%, 10% intervals
+- Legend: Bottom left "Y-Y Growth" (red)
+
+[Data Relationships]
+- Maximum value: Natco approximately 54%
+- Second highest: Biocon approximately 34%, Ipca approximately 33%, the difference between the two is about 1 percentage point
+- Lowest value: Glenmark approximately -15%, a difference of about 69 percentage points from the maximum value
+- Near zero: Granules approximately 1%; Negative value only Glenmark
+- Mid-range values: Lupin approximately 21%; Strides Pharma approximately 20%; Gland ex Cenexi approximately 17%; Aurobindo approximately 15%; Ajanta approximately 14%; Cipla approximately 13%
+- Others: Sun approximately 10%; Alembic approximately 8%; Dr Reddy's approximately 6%; Zydus approximately 6%
+- Comparison: Natco is about 20 percentage points higher than Biocon; Cipla is about 3 percentage points higher than Sun
+
+[Pattern Characteristics]
+The overall distribution shows a structure of gradual decrease towards the right. Only the leading company is significantly higher than the rest of the sample. The companies at the tail end are slightly below zero, with one clearly falling into the negative range. The majority of the middle companies are concentrated in the mid-section of the positive range. The difference between high and low values is significant, but the distribution is continuous with no obvious gaps. The overall shape is unimodal with a few outliers towards the high-value end.
+
+[Core Insights]
+Core Conclusion: Growth rates among sample companies vary significantly, showing a clear divergence pattern.
+
+Business Implications:
+- A small number of leading companies have greater influence regarding incremental contribution.
+- Mid-tier companies perform similarly, and competition relies more on subtle differences.
+- Tail-end companies may drag down the overall expansion rate of the portfolio.
+
+Risk Focus:
+- If the weighting of companies below 0% is too high, it may lead to a reduction in the overall portfolio growth rate.
+- If high-growth companies exceeding 30% subsequently drop by more than 10 percentage points, it may intensify performance volatility.

@@ -1,0 +1,28 @@
+【图表构成】
+- 图表类型：分组条形图（白色带黑框为累计降息周期），叠加红色矩形、黄色/橙色水平线与绿色菱形标记。
+- 标题：未标注。
+- 纵轴：百分比（约0–14，刻度间隔≈2）。
+- 横轴：国家/地区：Brazil、Chile、Colombia、Mexico、Czech Rep.、Hungary、Poland、South Africa、India、Indonesia、South Korea、Thailand、US、UK、Eurozone。
+- 图例：Cumulative cutting cycle*、Cuts delivered so far、End-2023、End-2024、Nominal neutral rate**。
+
+【数据关系】
+- 累计降息周期：最高约14%（Brazil/Hungary/Colombia），最低约3–4%（US/UK/Eurozone）。其余：Mexico≈10–11%，Chile≈11–12%，South Africa≈7–8%，Poland/Czech≈6–7%，India/Indonesia≈5–6%，Korea≈3–4%，Thailand≈2–3%。
+- End‑2023较End‑2024差值：Brazil≈3pp；Chile/Hungary/Mexico≈2pp；Poland/Czech/South Africa/US/UK/EZ≈1pp；India/Indonesia/Korea/Thailand≈0.5pp。
+- 名义中性利率（绿钻）：≈6%（Colombia/South Africa/India/Mexico），≈4–5%（Brazil/Chile/Indonesia/Poland），≈3%（Czech/Hungary/Korea），≈2%（Thailand/US/UK/Eurozone）。
+
+【模式特征】
+- 各经济体的累计降息区间呈明显分层，从高双位数到低单位数依次递减，巴西、智利、匈牙利、哥伦比亚和墨西哥处于上端，美国、英国和欧元区处于下端。  
+- 各类水平线在每个经济体内部形成自上而下的有序排列，End‑2023普遍高于End‑2024，且均位于名义中性利率之上，留出一定垂直间距。  
+- 绿钻相对各区间的所在位置因国别而异，有的处于区间中部，有的靠近区间下沿，显示出不同经济体之间的结构差异，但未出现明显脱离整体量程的极端点。
+
+【核心洞察】
+核心结论：各国未来降息空间与中性利率之间的缓冲度差异显著。
+
+业务含义：
+- 高累计空间经济体货币条件调整弹性更大。  
+- End‑2024仍高于中性利率的国家，后续收紧压力更小。  
+- 中性利率接近预期利率的经济体，政策余地更受约束。
+
+风险关注：
+- 若实际政策利率在距名义中性利率不足0.5pp时继续下调，可能削弱货币政策有效性。  
+- 若累计降息接近图中上限约14%仍未到达中性利率附近，可能导致利率定价出现失衡。

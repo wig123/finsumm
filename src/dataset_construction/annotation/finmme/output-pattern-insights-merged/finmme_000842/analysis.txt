@@ -1,0 +1,29 @@
+【图表构成】
+- 图表类型: 柱状图
+- 标题: 未显示
+- 横轴: 类别为 Aviation、Rail、Maritime、Road、Total transport
+- 纵轴: 标注为“Gap vs. target (pp)”，范围约 0%–14%，刻度以百分比显示
+- 图例: 未显示；柱体颜色中“Total transport”为较深色，其余为浅色
+
+【数据关系】
+- Road 数值为 13%，为各类别中最高；Rail 为 0%，为最低；最高与最低差距 13 个百分点
+- Aviation 为 11%，Total transport 为 11%，两者相等
+- Maritime 为 5%；Maritime 比 Aviation 低 6 个百分点，比 Road 低 8 个百分点
+- Road 比 Aviation 高 2 个百分点；Road 比 Total transport 高 2 个百分点
+- Aviation 比 Rail 高 11 个百分点；Total transport 比 Rail 高 11 个百分点
+- Maritime 比 Rail 高 5 个百分点
+
+【模式特征】  
+各类别间差异明显，由一个近似为零的极小值到一个接近纵轴上限的极大值。Road、Aviation 与 Total transport 三者数值相近且处于较高水平，Maritime 处于中等水平，Rail 明显偏低并形成单一极端点。整体呈现单峰但高度离散的结构，无连续过渡梯度。
+
+【核心洞察】  
+核心结论：不同运输方式与目标偏离程度高度不均衡。
+
+业务含义：  
+- 整体偏离主要由个别方式贡献。  
+- Road 与 Aviation 是影响总运输偏离的关键来源。  
+- Rail 对整体偏离的拉高作用几乎可以忽略。
+
+风险关注：  
+- Road 若维持在13%以上，将持续抬升总运输11%的偏离水平。  
+- Aviation 若高于11%，总运输偏离将难以通过其他方式的改善抵消。

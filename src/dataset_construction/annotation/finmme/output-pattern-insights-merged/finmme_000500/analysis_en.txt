@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Time series line chart
+- Theme/Legend: Red line "Forward EV/EBITDA"; Gray dashed line "Mean=16.0"; Black dashed line "+1SD=18.3"; Orange dashed line "-1SD=13.7"
+- X-axis: Time, Mar-16 to Nov-23
+- Y-axis: Numerical scale 5–23 (Interval approximately 2)
+
+[Data Relationships]
+- Initial Period (Mar-16) ≈ 18.8
+- Final Period (Nov-23) ≈ 14.1, difference compared to initial period ≈ -4.7
+- Maximum value ≈ 21.0 (Jun-20), higher than the mean by ≈ 5.0, higher than +1SD by ≈ 2.7
+- Minimum value ≈ 10.0 (Jul-22), lower than the mean by ≈ 6.0, lower than -1SD by ≈ 3.7
+- Range (Difference between high and low points) ≈ 11.0
+- Width of the mean and ±1SD interval: 18.3−13.7=4.6
+- 2023 values approximately 13.5–15.0; difference compared to the mean approximately -2.5 to -1.0
+
+[Pattern Characteristics]
+- The series fluctuated narrowly around the mean between 2016 and 2019, with occasional brief deviations; around 2020, there was a noticeable uplift, repeatedly touching or slightly exceeding +1SD.
+- After 2021, the trend was generally downward, repeatedly falling into the area below the mean, with an extreme low point appearing in 2022, significantly below -1SD.
+- In 2023, the overall movement was narrow, operating between the mean and -1SD. Relative to the previous fluctuation range, the volatility has converged, and the two standard deviation boundaries were not breached again.
+
+[Core Insights]
+Core Conclusion: The valuation center of gravity has shifted from the historical central axis towards the mid-to-low range and is being maintained.
+
+Business Implications:
+- Relative to the historical pricing center, the current valuation is in the discount zone.
+- The space for valuation recovery has expanded, increasing the price sensitivity for entry and exit.
+- Under the assumption of long-term mean reversion, future performance is more sensitive to timing selection.
+
+Risk Concerns:
+- If the value continues to fall below -1SD=13.7 and persists, it may correspond to a further deterioration in sentiment.
+- If the value approaches or exceeds +1SD=18.3 again, the upside potential is limited, and downward pressure (on correction) increases.

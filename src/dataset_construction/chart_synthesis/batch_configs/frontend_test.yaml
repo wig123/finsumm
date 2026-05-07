@@ -1,0 +1,44 @@
+# 前端库渲染测试配置
+batch_name: frontend_test
+
+output_base_dir: ./batch_output
+
+execution:
+  parallel: false
+  max_workers: 1
+  use_async: false
+
+charts:
+  # ECharts 测试
+  - chart_type: line
+    language: zh-CN
+    theme: macro_policy
+    library: echarts
+    is_frontend: true
+
+  - chart_type: bar
+    language: en-US
+    theme: inflation
+    library: echarts
+    is_frontend: true
+
+  # Highcharts 测试
+  - chart_type: line
+    language: en-US
+    theme: equity_markets
+    library: highcharts
+    is_frontend: true
+
+  # Chart.js 测试
+  - chart_type: bar
+    language: zh-CN
+    theme: commodities
+    library: chartjs
+    is_frontend: true
+
+  # Plotly.js 测试
+  - chart_type: scatter
+    language: en-US
+    theme: banking_credit
+    library: plotlyjs
+    is_frontend: true

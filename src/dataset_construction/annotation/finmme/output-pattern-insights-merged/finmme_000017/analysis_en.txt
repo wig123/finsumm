@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Line Chart
+- Legend/Title: US multi-asset fund equity beta
+- X-axis: Year Range 2019—2024, marked by year
+- Y-axis: 3-month difference, scale range from -0.4 to 0.5, interval of 0.1
+- Color: Line is black, green area fill
+
+[Data Relationships]
+- Data mainly fluctuates between -0.2 and 0.2
+- Data showed significant volatility in 2023, briefly exceeding 0.4
+- The overall trend is moving toward the negative territory in 2024
+- Areas below 0 are marked with green shading
+- The line represents US multi-asset fund equity beta, the dashed line represents the 10th percentile, expanding window
+
+[Pattern Characteristics]
+- Overall characterized by narrow up-and-down swings, hovering near the zero line.
+- A prominent positive spike occurred in 2023, followed by a deep pullback, forming a rare extreme.
+- In 2024, it mostly falls below the zero line, close to the dashed line level and near the lower boundary region.
+
+[Core Insights]
+Core Conclusion: The three-month change in equity beta is predominantly negative.
+
+Business Implications:
+- Indicates that equity sensitivity is trending downward.
+- Imposes constraints on stock weight and position sizing decisions.
+
+Risk Focus:
+- 3-month difference < −0.2: May lead to a rapid downward adjustment of beta, weakening correlation with the stock market.
+- Recurrence of positive values > 0.4: Could lead to overly rapid upward adjustment of beta and rebalancing pressure.

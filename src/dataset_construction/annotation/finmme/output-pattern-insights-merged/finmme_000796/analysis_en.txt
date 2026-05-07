@@ -1,0 +1,27 @@
+[Chart Components]
+- Chart Type: Line Chart
+- Title: Not displayed
+- X-axis: Quarterly Time Series (1Q21 to 4Q23)
+- Left Y-axis: Percentage scale, range 55.0%—70.0%, corresponding to the gray and orange series
+- Right Y-axis: Percentage scale, range 0.0%—25.0%, corresponding to the red series
+- Legend: Gray “M/L‑T corporate loan as % of total domestic corp loans”; Orange “Service sector M/L‑T loans as % of total M/L‑T corp loan”; Red “Industrials sector M/L‑T loans as % of total M/L‑T corp loans (rhs)”
+
+[Data Relationships]
+- 4Q23 Values: Service sector proportion = 63.5%; Industrial sector proportion = 21.9% (RHS); M/L-T corporate loans as proportion of total domestic corporate loans = 61.6%.
+- 4Q23 Comparison: Difference between service sector proportion and industrial sector proportion = 41.6 percentage points.
+- 4Q23 Comparison: Difference between service sector proportion and M/L-T corporate loan proportion = 1.9 percentage points.
+
+[Pattern Characteristics]
+The gray series generally rises slowly within a narrow range, experiencing a slight dip before rising again. The orange series gradually declines from a high level on the left side of the chart, ending significantly lower than its starting point. The red series continuously moves upward from a lower level, crossing the orange line in the middle section and continuing to rise, with the divergence between the two gradually increasing.
+
+[Core Insights]
+Core Conclusion: A significant redistribution of medium/long-term corporate loan structure is evident across sectors.
+
+Business Implications:
+- The dominance of the service sector in M/L-T loans has weakened.
+- The proportion of the industrial sector in M/L-T credit allocation has increased.
+- The overall proportion of M/L-T loans relative to total corporate loans is relatively stable, showing a slight strengthening.
+
+Risk Focus:
+- If the industrial sector proportion continues to exceed 25%, it may lead to excessive concentration of credit allocation across sectors.
+- If the service sector proportion falls below 60%, it may affect the diversification of related asset portfolios.

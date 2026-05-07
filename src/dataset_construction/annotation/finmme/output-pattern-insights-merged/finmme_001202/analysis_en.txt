@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Dual-axis time series line chart
+- Legend: Red line "Price," Gray line "Rel Hang Seng Index"
+- Left Y-axis: Unit HKD, Range approximately 4.0–5.5, Scale interval approximately 0.25
+- Right Y-axis: Range 95–125, Scale interval 5
+- X-axis: Time from Feb 23 to Jan 24, marked monthly
+
+[Data Relationships]
+- Price initial period (Feb 23) ≈ 5.2 HKD; final period (Jan 24) ≈ 4.35 HKD; Change ≈ −0.85 HKD
+- Price peak (approx. May 23) ≈ 5.6 HKD; trough (approx. Aug 23) ≈ 4.1 HKD; High-low difference ≈ 1.5 HKD
+- Rel Hang Seng Index initial period ≈ 100; final period ≈ 123; Change ≈ +23
+- Index peak (Jan 24) ≈ 124; trough (Aug 23) ≈ 96; High-low difference ≈ 28
+- In Aug 23, Price ≈ 4.1 HKD; corresponding index ≈ 96
+
+[Pattern Characteristics]
+Price initially rose and then fell in the first half, experienced a sharp downward shift after July, formed a clear low point around August, and subsequently fluctuated narrowly within a lower range. The Rel Hang Seng Index generally showed a stepwise upward trend, forming a relative low between July and August. The two curves were generally aligned before mid-year, but the trends gradually diverged after July, with the index rising while Price remained at a relatively low level.
+
+[Core Insights]
+Core Conclusion: The subject's price trend is significantly weaker than the relative performance of the Hang Seng Index.
+
+Business Implications:
+- The subject's return performance relative to the market is disadvantaged (underperforming).
+- Relative returns for portfolios tracking this subject are under pressure.
+- The ability to generate alpha (excess return) relative to the index has weakened temporarily.
+
+Risk Focus:
+- If Price continues to fall below 4.2 HKD, it may lead to an expansion of relative drawdown.
+- If the Rel Hang Seng Index remains above 120 and Price does not follow, it may increase the degree of relative underperformance.

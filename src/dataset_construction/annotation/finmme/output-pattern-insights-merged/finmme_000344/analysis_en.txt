@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Time series line chart
+- Title: Overall title not displayed
+- X-axis: Date, ranging from 12/22/2016 to 12/22/2023
+- Y-axis: P/B Ratio, scale range 0–7
+- Legend: Red line is Real estate P/B ratio; Black dashed lines are +1 SD, -1 SD; Black solid lines are Pre Covid 3Yr Average, Post Covid 3Yr Average
+
+[Data Relationships]
+- Initial period (12/22/2016) P/B approximately 0.7; Final period (12/22/2023) approximately 6.0
+- Global high point approximately 6.1; Low point approximately 1.0 (around 2020)
+- Pre Covid 3Yr Average approximately 1.3; Post Covid 3Yr Average approximately 4.0; the difference between the two is approximately 2.7
+- -1 SD approximately 2.7; +1 SD approximately 5.3
+- The final value is approximately 0.7 higher than +1 SD; approximately 2.0 higher than the Post Covid Average
+- The initial value is approximately 0.6 lower than the Pre Covid Average
+
+[Pattern Characteristics]
+- The overall trend gradually rises from a lower level, interspersed with multiple rounds of step-like increases and pullbacks, operating near the sample high in the later period.
+- A clear low point appeared around 2020, followed by fluctuations around the Post Covid average line, and repeatedly approaching or breaking through the +1 SD line.
+- In the final period, there was a rapid short-term surge, with a significant deviation from the Post Covid average line and the +1 SD line. The duration spent in the high-level zone is still relatively short.
+
+[Core Insights]
+Core Conclusion: The valuation of the real estate sector is significantly higher than the post-pandemic normalized range.
+
+Business Implications:
+- The current valuation level has clearly risen relative to the historical average.
+- The value proposition of this sector in asset allocation may decline.
+- Subsequent returns are more sensitive to valuation digestion and fundamentals.
+
+Risk Concerns:
+- If the P/B ratio remains above 5.3 for a long period, the book value decline during a pullback may be significantly amplified.
+- If the P/B ratio rapidly falls back to around 4.0, it may trigger short-term emotional pressure and redemptions.

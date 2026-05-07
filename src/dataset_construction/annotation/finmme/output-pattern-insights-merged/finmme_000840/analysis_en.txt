@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Single-series Line Chart
+- Main Title: Not displayed
+- Legend: Blended (Red line)
+- X-axis: Time, range from Jul-20 to Jan-24, marked monthly
+- Y-axis: Unit is INR/liter, range approximately -30 to 20, scale marked every 5 units
+
+[Data Relationships]
+- Initial period (Jul-20) approximately 3; Final period (Jan-24) approximately 7
+- All-period high approximately 13 (around May-23); All-period low approximately -25 (around Jul-22); Range approximately 38
+- Nov-21 approximately 9, difference of approximately 9 compared to May-21 approximately 0
+- Mar-22 approximately -15, difference of approximately 24 compared to Nov-21 approximately 9
+- Sep-22 approximately 0, difference of approximately 4 compared to Jan-23 approximately 4
+- Sep-23 approximately -5, difference of approximately 8 compared to Nov-23 approximately 3
+- The peak of approximately 9 (late 2021 to early 2022) differs from the mid-2023 peak of approximately 13 by approximately 4
+
+[Pattern Characteristics]
+The overall structure exhibits multi-stage volatility, initially oscillating narrowly slightly above zero, followed by a significant downward shift and expansion of magnitude, before returning to a higher range above the zero-axis.
+In the middle section, there is an extreme trough with a deep downward movement, accompanied by multiple significant reverse swings, forming a "deep V plus multi-wave fluctuation" pattern.
+The high-level range in the later section still contains several medium-amplitude fluctuations, but values approaching the previous extreme low point have not reappeared.
+
+[Core Insights]
+Core Conclusion: The price exhibits characteristics of strengthening again following a period of sharp adjustment.
+
+Business Implications:
+- Profit margin experienced significant compression and subsequent recovery during the sample period.
+- Costs or selling prices are sensitive to external factors, requiring high management flexibility.
+- The pricing range elevated in the later period, increasing the revenue level per unit product.
+
+Risk Focus:
+- If the value approaches -25 again, widespread loss pressure may occur.
+- If the value falls back near the zero-axis, the profit margin will approach the break-even point, putting pressure on cash flow.

@@ -1,0 +1,33 @@
+[Chart Components]
+- Chart Type: Stacked Bar Chart
+- Title: Not displayed
+- X-axis: Fiscal Year Category—FY19, FY20, FY21, FY22, FY23, FY24F, FY25F
+- Y-axis: Unit is Wbn, range approximately -100 to 400, with a horizontal baseline at zero; negative scale marked (-50), (-100)
+- Legend: Red—Retail OP (offline, online, supermarket, CVS); Gray—Food OP (SSG Food, SKC, Hotel)
+
+[Data Relationships]
+- FY19: Retail OP approx. 220 Wbn; Food OP approx. 10 Wbn; Total approx. 230 Wbn
+- FY20: Retail OP approx. 290 Wbn; Food OP is negative, in the range of -50 to -100 Wbn
+- FY21: Retail OP approx. 190 Wbn; Food OP approx. 40 Wbn; Total approx. 230 Wbn
+- FY22: Retail OP approx. 90 Wbn; Food OP approx. 170 Wbn; Total approx. 260 Wbn
+- FY23: Retail OP approx. 10 Wbn; Food OP approx. 210 Wbn; Total approx. 220 Wbn
+- FY24F: Retail OP approx. 60 Wbn; Food OP approx. 240 Wbn; Total approx. 300 Wbn
+- FY25F: Retail OP approx. 70 Wbn; Food OP approx. 270 Wbn; Total approx. 340 Wbn
+- Total Comparison: FY24F vs. FY23 approx. +80 Wbn; FY25F vs. FY24F approx. +40 Wbn; FY22 vs. FY21 approx. +30 Wbn
+
+[Pattern Characteristics]
+- The total bars across all years fluctuate within a relatively narrow range, showing no extreme jumps, although the forecast period after FY22 is slightly higher than the historical range.
+- The red segment peaked in FY20 and then contracted year-over-year, reaching an extremely low level in FY23, followed by a slight recovery in the forecast; the gray segment was distinctly negative in FY20, but has been positive and expanding year-over-year in all subsequent years, becoming the main component of the bar after FY22.
+- FY20 is the only year showing a negative gray segment, and also the year with the most significant structural difference between the two components.
+
+[Core Insights]
+Core Conclusion: Overall profitability remains within a stable range, with the structural focus shifting from Retail to Food.
+
+Business Implications:
+- Overall profit has not expanded significantly; it is primarily a structural adjustment.
+- The Food segment's contribution to group profit is rapidly increasing.
+- The Retail segment's dominant role in overall performance has significantly weakened.
+
+Risk Focus:
+- If Retail remains below 50 Wbn long-term, the segment's resilience is weak, potentially dragging down overall performance.
+- If Food exceeds 250 Wbn and its proportion is too high, it indicates excessive reliance on a single segment, amplifying group-wide performance volatility.

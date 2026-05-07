@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Combination Chart (Bar + Line)
+- Title: Not displayed
+- X-axis: Year 2014–2025F (including 2023F, 2024F, 2025F as forecasts)
+- Left Y-axis: Net Profit (CNYmn), scale approximately -600 to 900
+- Right Y-axis: YoY %, scale approximately -100% to 150%
+- Legend: Red bar "Net profit (CNYmn)", Black line "YoY % (RHS)"
+
+[Data Relationships]
+- Net Profit: 2014=233, 2015=330, 2016=258, 2017=574, 2018=603, 2019=759, 2020=809, 2021=273, 2022=194, 2023F=189, 2024F=234, 2025F=315; Highest 2020=809, Lowest 2023F=189, Difference=620.
+- Initial Period 2014=233, Final Period 2025F=315, Difference=82.
+- Year-over-Year (YoY): 2015=+42%, 2016=-22%, 2017=+123%, 2018=+5%, 2019=+26%, 2020=+7%, 2021=-66%, 2022=-29%, 2023F=-3%, 2024F=+24%, 2025F=+34%.
+- Key Differences: 2020→2021 decrease 536; 2021→2022 decrease 79; 2022→2023F decrease 5; 2023F→2024F increase 45; 2024F→2025F increase 81.
+
+[Pattern Characteristics]
+The Net Profit bar chart gradually increased from a moderate level to a single peak between 2014–2020, followed by a significant decline and a slow upward trend during the forecast period. The YoY line formed sharp volatility between 2015–2017, moving from moderate positive values to extreme negative values and then to extreme positive values. After 2020, it turned sharply negative again before gradually returning to the moderate positive range. The overall pattern shows a concentration of high points in the middle period, with 2021 being a clear trough. Furthermore, the YoY curve is often not completely synchronized with the peaks and troughs of the bar chart.
+
+[Core Insights]
+Core Conclusion: After earnings experienced a decline from a high level, the forecast period shows a moderate recovery trend.
+
+Business Implications:
+- Historical earnings performance exhibits strong cyclical volatility.
+- The pace of earnings recovery post-2021 significantly impacts overall earnings stability.
+- The improvement in profit and YoY growth during the forecast period suggests potential enhancement in profit quality.
+
+Risk Concerns:
+- If YoY growth approaches -60% to -70% again, earnings may repeat the 2021-level decline.
+- If net profit remains below 200mn for an extended period, it may constrain space for reinvestment and shareholder returns.

@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Bar chart
+- Title: FY25 P/E
+- X-axis: Company name labels (Towngas, China Gas, Italgas Spa, Chesapeake, Shenzhen Gas, PG&E Corp, Tokyo/Osaka Gas, Snam Spa, Spire Inc, Indraprastha Gas, Naturgy, Sempra, One Gas, Toho Gas, Enagas, CMS, Atmos, Mahanagar Gas, Southwest Gas, HK&C Gas, Nippon Gas, Gujarat Gas, etc.)
+- Y-axis: P/E multiple, scale range 0–30
+- Color: Mostly red bars, three black bars (Indraprastha Gas, Mahanagar Gas, Gujarat Gas); these three are labeled above with 13.6, 16.8, and 27.1, respectively
+- Legend: Not displayed
+
+[Data Relationships]
+- Peak value: Gujarat Gas 27.1.
+- Three black companies: Indraprastha Gas 13.6; Mahanagar Gas 16.8; Gujarat Gas 27.1.
+- Difference: Gujarat–Mahanagar 10.3; Gujarat–Indraprastha 13.5; Mahanagar–Indraprastha 3.2.
+- Ratio: Gujarat/Indraprastha≈1.99; Gujarat/Mahanagar≈1.61; Mahanagar/Indraprastha≈1.24.
+- The values of the remaining red company bars are all below approximately 20, with a minimum difference of approximately 7.1 compared to Gujarat's 27.1.
+
+[Pattern Characteristics]
+The overall distribution incrementally increases within a single range, forming a structure that generally progresses from low to high from left to right. The vast majority of samples are concentrated in the mid-range; the three black companies fall into the upper-middle and extremely high positions, with Gujarat Gas forming the distinctly prominent highest point. Excluding this outlier, the height differences among the remaining samples are relatively smooth, with no significant gaps.
+
+[Core Insights]
+Core Conclusion: Gujarat's valuation is significantly higher than its peer group, while the valuations of the other companies are relatively concentrated.
+
+Business Implications:
+- Overall valuation levels are close, indicating limited divergence within the sector.
+- The three black companies are positioned relatively high in terms of valuation.
+- Gujarat exhibits a significant premium pricing characteristic relative to its peers.
+
+Risk Focus:
+- If Gujarat falls back from 27x to 20x, there is significant room for valuation compression.
+- If Indraprastha and Mahanagar fall below 10x, they would be below the level of most companies in the current sample.

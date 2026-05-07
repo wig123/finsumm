@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Vertical Bar Chart
+- Title: Not displayed
+- Y-axis: % of ticket price, range 0%–40%, scale every 5%
+- X-axis: Ryanair Group, easyJet, Wizz Air, IAG, AF‑KLM Group, Lufthansa Group
+- Legend: Network carriers (dark color), LCCs (light color)
+
+[Data Relationships]
+- Values: Ryanair 34%; easyJet 28%; Wizz Air 19%; IAG 8%; AF‑KLM 6%; Lufthansa 6%
+- Highest 34% (Ryanair), lowest 6% (AF‑KLM, Lufthansa), difference of 28 percentage points
+- LCCs average = 27.0%; Network carriers average ≈ 6.7%; difference between the two group averages ≈ 20.3 percentage points
+- LCCs internal range = 15 percentage points (34%–19%); Network carriers internal range = 2 percentage points (8%–6%)
+- easyJet is 9 percentage points higher than Wizz Air; Ryanair is 6 percentage points higher than easyJet; IAG is 2 percentage points higher than AF‑KLM; Lufthansa is the same as AF‑KLM
+
+[Pattern Characteristics]
+The chart presents a grouping structure of two types of airlines, with one group generally positioned at the upper end of the Y-axis and the other generally at the lower end, forming a distinct stepped stratification. Inter-group variance is significantly greater than intra-group variance. Specifically, the internal span of LCCs from highest to lowest is large, while the values within Network carriers are relatively concentrated. There are no breaks or reversals in the bars; the overall structure is stable, with no isolated outliers.
+
+[Core Insights]
+Core Conclusion: The proportion of this item in the ticket price composition is significantly higher for Low-Cost Carriers (LCCs) than for traditional Network Carriers.
+
+Business Implications:
+- There is a clear divergence in the revenue structure between the two types of airlines.
+- LCCs have a higher dependency on this source of revenue.
+- The potential revenue space for traditional carriers in this area may be relatively limited.
+
+Risk Concerns:
+- If the proportion of this item for LCCs consistently exceeds 30%, it indicates over-reliance on a single revenue source.
+- If Network carriers remain below 7% long-term, they are at a disadvantage in competing for this revenue stream.

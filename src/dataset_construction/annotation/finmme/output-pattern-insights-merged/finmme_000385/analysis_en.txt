@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Grouped Bar Chart (Quarterly Bars)
+- Title: Quarterly subscriptions and redemptions since inception
+- X-axis: Year scale 2007—2023 (Multi-quarter bars); includes gray shaded areas labeled with events: Global financial crisis, European sovereign debt crisis, US-China trade war, COVID-19, Rising rates
+- Y-axis: Net flows as % of NAV of respective share class group (OLD & NEW), range approximately -10% to 40%, 0% baseline; red dashed line at -5% labeled "5% quarterly gate"; scale break symbol displayed at the top.
+- Legend: Dark color—Net flows OLD share classes; Light color—Net flows NEW share classes
+
+[Data Relationships]
+- Highest positive value ≈ 40%: Appeared in 2007–2008 (OLD), 2011 (OLD), and 2019 (NEW).
+- Lowest negative value ≈ -4% (Individual quarters 2019–2023), approximately 1 pct higher than the -5% threshold.
+- Range ≈ 44 pct (40% to -4%).
+- Largest difference between OLD and NEW in 2019: NEW ≈ 40%, OLD ≈ -1% to -2%, difference ≈ 41–42 pct.
+- Initial period (Q1 2007) OLD ≈ 40%; Final period (End of 2023) NEW ≈ 0%, OLD ≈ -1%.
+
+[Pattern Characteristics]
+- Overall, OLD share classes showed high and concentrated positive peaks in the early period, subsequently declining to moderate-low levels and oscillating slightly around the zero axis in the later period. NEW share classes only appeared later, forming isolated peaks in individual quarters, while mostly distributing narrowly around the zero axis otherwise.
+- Within the shaded areas corresponding to major events, the direction and height of the bars show significant changes, sometimes resulting in opposite directions and extremely large gaps between the OLD and NEW share classes.
+- The negative value range is limited across the entire sample period, and no quarter has touched the red dashed threshold line located at a lower position.
+
+[Core Insights]
+Core Conclusion: Net capital inflow generally dominates, and share class structure differences are significant during critical periods.
+
+Business Implications:
+- Overall subscription and redemption performance indicates a preference for capital inflow rather than outflow.
+- Clear divergence between OLD and NEW share classes in key years reflects differences in holder structure.
+- Most quarters remain distant from negative extremes, which is conducive to the overall capital stability of the product.
+
+Risk Focus:
+- If quarterly net outflow approaches the -5% threshold, it may trigger redemption restriction arrangements (gating).
+- Should a large quarterly net inflow of approximately 40% occur again, it could lead to pressure on position allocation and cash management.

@@ -1,0 +1,33 @@
+[Chart Components]
+- Chart Type: Vertical Bar Chart
+- Title: Not displayed
+- X-axis: Year categories are 2018, 2019, 2020, 2021, 2022, 2023, 2024F
+- Y-axis: Numerical scale range is approximately -1,500 to 2,000, with intervals of approximately 500, including the 0 baseline
+- Legend: Not displayed, bars are red
+
+[Data Relationships]
+- 2018 approximately -800
+- 2019 approximately -550
+- 2020 approximately -80
+- 2021 approximately -1,100 (Lowest)
+- 2022 approximately -200
+- 2023 approximately 1,750 (Highest)
+- 2024F approximately 1,600
+- Difference between the highest and lowest is approximately 2,850
+- 2023 is approximately 150 higher than 2024F
+- 2018 is approximately 250 lower than 2019
+
+[Pattern Characteristics]
+The overall sequence initially remains continuously below the zero line, experiencing a deeper negative value in 2021, and then gradually moves upward. Starting in 2023, the value shifts from negative to positive, reaching the highest point of the entire period in 2023, with 2024F slightly lower than the previous year. The magnitude of change between years is uneven; 2020 and 2022 are relatively close, while 2021 and 2023 show a significant contrast.
+
+[Core Insights]
+Core Conclusion: Transition from sustained losses to substantial profitability with signs of a short-term peak.
+
+Business Implications:
+- Earlier operating results were under pressure, followed by significant improvement later.
+- Profit contribution became the main driving factor starting in 2023.
+- The slightly lower 2024F suggests that high profitability levels may be difficult to further amplify.
+
+Risk Concerns:
+- If the future value falls below 0, it indicates a return to losses, impacting cash flow.
+- If the value remains consistently below the 2023 peak of 1,750, it suggests the peak is difficult to replicate, requiring a downward adjustment of valuation expectations.

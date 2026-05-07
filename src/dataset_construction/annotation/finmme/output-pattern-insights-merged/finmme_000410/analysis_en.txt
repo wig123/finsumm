@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Stacked bar chart + line chart.
+- Title: Not explicitly displayed; legend includes "JPY/g (y‑y)" and various countries/regions: Other, Hong Kong, US, Taiwan, Netherlands, Germany, China, South Korea, Thailand.
+- X-axis: Monthly time series, ranging from 2007/01 to 2023/09.
+- Y-axis: Percentage scale, ranging from -30% to 40%, including the 0% baseline.
+- Annotation text on the right: "January: 21.6%".
+
+[Data Relationships]
+- The JPY/g (y‑y) line peaks at approximately 33% (near the end of 2022) and bottoms out at approximately -20% (mid-2016), representing a range of about 53 percentage points.
+- The line value at the beginning of the period (2007/01) is approximately 8%–12%, and at the end of the period (2023/09) is approximately 18%–20%. The difference between the two is about 6%–12%.
+- The annotation "January: 21.6%" indicates a monthly value of 21.6%.
+- The overall height of the stacked bars is approximately -15% to -20% in mid-2016, and repeatedly reaches the 20%–30% range from mid-to-late 2022.
+- The absolute value of the single-month bar values for most categories is within ±5%, with occasional months exceeding ±10%.
+
+[Pattern Characteristics]
+- The line exhibits a clear structure of significant fluctuations across the entire period, showing a deep trough around 2016 and forming a relatively high plateau around 2022. The initial level is lower than the final level.
+- The stacked bars frequently cross the 0% line. Negative values are primarily concentrated in periods such as 2008–2009 and 2012–2016, while values around 2022 are mostly large positive figures.
+- Most country/region segments of the bars cluster around the neutral point. Extreme single-month performance is limited. The overall result is composed of multiple sources, with no single category maintaining long-term absolute dominance.
+
+[Core Insights]
+Core Conclusion: Overall Year-over-Year (YoY) performance has gradually shifted from weak in the early period to strong, with synergistic contributions from multiple countries amplifying volatility.
+
+Business Implications:
+- The magnitude of recent annual changes has significantly increased, reflecting enhanced profitability and demand elasticity.
+- The regional structure is more diversified, reducing reliance on a single market.
+- Both the positive pull and negative drag effects of extreme years on overall performance are increasing.
+
+Risk Focus:
+- When the overall performance falls below the -15% range, cash flow pressure and budget contraction may occur.
+- When the overall performance breaks above the 30% vicinity and rapidly retreats, it is prone to triggering misjudgment of trends, leading to over-investment or excessive inventory stocking.

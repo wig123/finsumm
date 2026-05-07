@@ -1,0 +1,39 @@
+【图表构成】  
+- 类型：饼图  
+- 标题：无  
+- 坐标轴：无  
+- 图例：不同颜色的扇形代表不同类别及其资金分配（金额以十亿美金为单位）  
+
+【数据关系】  
+- 关键资金分配：  
+  - 最高资金分配为“Clean Electricity Tax Credits”，金额为161亿美元。  
+  - 第二高为“Air Pollution, Transportation, Infrastructure”，金额为40亿美元。  
+  - “Clean Manufacturing Tax Credits”和“Individual Clean Energy Incentives”，金额均为37亿美元。  
+  - “Clean Fuel and Vehicle Tax Credits”，金额为36亿美元。  
+  - “Conservation, Forestry”，金额为35亿美元。  
+  - “Building Efficiency, Electrification, Transmission, Industrial”，金额为27亿美元。  
+  - 最低资金分配为“Other Energy and Climate”，金额为14亿美元。  
+
+- 极值对比：  
+  - 最高值为“Clean Electricity Tax Credits”（161亿美元），最低值为“Other Energy and Climate”（14亿美元）。  
+
+- 重要趋势：  
+  - 清洁电力税收抵免占据了最大的资金分配份额，显著高于其他类别，表明该领域的投资优先级。  
+  - 资金分配集中于清洁能源相关项目，尤其是电力和交通基础设施，体现出对绿色能源转型的关注。
+
+【模式特征】
+- 分布呈明显不均衡：一个扇形远大于其余，其它大多为中等体量片段。
+- 次级片段之间大小接近，形成集中于中档的一组；存在一个最小片段与最大片段差距很大。
+- 整体无对称或周期结构，主要由多个类别构成但权重差异突出。
+
+【核心洞察】
+核心结论：资源配置指向清洁电力，其他板块为次级
+
+业务含义：
+- 体现明确的配置偏好与决策取向
+- 非电力板块资源约束，执行强度受限
+- 交通与制造处第二梯队，可阶段推进
+
+风险关注：
+- 清洁电力≥226亿美元，其他项目被挤出
+- Other Energy=14亿美元，边缘创新易停滞

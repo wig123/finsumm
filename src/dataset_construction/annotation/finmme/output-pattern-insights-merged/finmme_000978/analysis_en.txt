@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Time series line chart; Title: United Microelectronics Corporation; Top right annotation: As of 21-Feb-2024, Currency=TWD.
+- X-axis: Time scale, marked 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01.
+- Y-axis: Price range approximately 0–80 TWD, equidistant scale (approximately 5 TWD per tick).
+- Legend: Black line=Closing Price; Green triangle=Target Price Change; Blue dot=Recommendation Changes.
+- Source: LSEG, Nomura.
+
+[Data Relationships]
+- The highest closing price was approximately 67 TWD (late 2021 - early 2022); the lowest was approximately 36 TWD (mid-2022); the high-low difference was approximately 31 TWD.
+- The latest closing price as of 2024-02-21 was approximately 50 TWD.
+- The closing price at the beginning of the period (around 2021/07) was approximately 50 TWD, with a difference of approximately 0–2 TWD compared to the end-of-period value.
+- Rating changes: Approximately 2 times, occurring around 2022/01 (approx. 60 TWD) and around 2023/01 (approx. 45 TWD), with a difference of approximately 15 TWD between the two points.
+- Target price changes: Approximately 6 times, distributed from the second half of 2021 to early 2024.
+
+[Pattern Characteristics]
+- Price initially experienced a significant up-and-down fluctuation during the sample period, followed by narrow range oscillation around the median level.
+- Target price adjustments are scattered throughout the period, with some appearing near local price extremes; rating adjustments are less frequent, positioned close to periodic price inflection points.
+- The overall shape presents a wide volatility range, with the range narrowing in the later period and lacking a continuous unidirectional structure.
+
+[Core Insights]
+Core Conclusion: The stock price returned close to its starting point after undergoing a complete oscillation cycle.
+
+Business Implications:
+- The price has not clearly broken out of the long-term range, and the trend direction is not prominent.
+- Multiple target price adjustments indicate periodic revisions in institutional views.
+- Infrequent rating adjustments may have more periodic significance as price indicators.
+
+Risk Focus:
+- If the price approaches below 40 TWD again, it may increase volatility in holding sentiment.
+- If the price approaches 65–70 TWD without a volume-backed breakout, it may face pullback pressure.

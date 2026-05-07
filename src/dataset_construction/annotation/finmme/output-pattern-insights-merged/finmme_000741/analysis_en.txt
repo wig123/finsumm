@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Line Chart
+- Title: Not displayed
+- Y-axis: RMB/W, Range approximately 0.5—3.5, Scale interval approximately 0.5
+- X-axis: Time, Jan-21 to Nov-24 (Bi-monthly labeling)
+- Legend and Series: Red solid line "Solar module: historical spot price"; Black solid line "Onshore wind turbine: historical bidding price"; Red dashed line "Solar module: end-2024e"; Gray dashed line "Onshore wind turbine: end-2024e"
+
+[Data Relationships]
+- Jan-21: Wind power ≈3.0, Module ≈1.6, Difference ≈1.4 RMB/W
+- Oct-21: Module ≈2.0; Wind power ≈2.3
+- Nov-22: Both ≈1.8
+- Nov-23: Wind power ≈1.5, Module ≈1.0, Difference ≈0.5
+- Nov-24e: Wind power ≈1.35, Module ≈0.9, Difference ≈0.45
+
+[Pattern Characteristics]
+The two historical curves generally converge downwards. Initially, the wind power price was higher and showed greater volatility, while the module price was lower and smoother. After a brief intersection around the end of 2022, the downward slope of the module curve significantly steepened, widening the gap with the wind power price again. The two estimated dashed lines tend to flatten out during 2024 and maintain a relatively fixed difference, showing no new intersections or drastic changes.
+
+[Core Insights]
+Core Conclusion: The unit price reduction rate for PV modules is significantly faster than that for onshore wind turbines.
+
+Business Implications:
+- Under the same installed capacity, the cost pressure per watt for PV is easing more rapidly.
+- The pace of price adjustment in the wind power bidding segment is relatively lagged.
+- The difference in cost-effectiveness (value for money) per unit investment between the two technological routes is widening.
+
+Risk Concerns:
+- If wind power prices remain above 1.5 RMB/W for an extended period, it may weaken the project winning bid rate.
+- If module prices rebound above 1.5 RMB/W, it will compress the investment return space for power plants.

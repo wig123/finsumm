@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Dual Line Chart
+- Title: Not displayed separately; annotated with "Election called" and "Election 9 April 1992"
+- Y-axis: Unit bp, range approximately -120 to 60, includes 0 baseline
+- X-axis: Days from election day, range -100 to 100; orange vertical line near Day -30 (Election called), red vertical line on Day 0 (Election 9 April 1992)
+- Legend: Blue line "2", Green line "10"
+
+[Data Relationships]
+- Day -100: Blue ≈ -20bp, Green ≈ -10bp.
+- Day -40 to -30: Blue ≈ -80bp, Green ≈ -40bp.
+- Day -5: Blue peak ≈ 40bp, Green ≈ 20bp.
+- Day 0 to +5: Blue ≈ -60bp; change from Day -5 approximately -100bp. Green ≈ -50bp; change from Day -5 approximately -70bp.
+- Day +60 to +70: Blue trough ≈ -110bp; Green ≈ -60bp.
+- Day +100: Blue ≈ -60bp; Green ≈ -45bp.
+- Day -10 to -5: Values of both lines are close, both within the 0~20bp range.
+
+[Pattern Characteristics]
+The two curves slowly trend downward from Day -100 to Day -40, followed by a deeper negative extension in the Day -40 to Day -30 interval. Approaching Day -10 to Day -5, the two lines gradually converge and briefly enter the positive territory, forming a local high point around Day -5. Near the election day, the two lines rapidly decline from the high level and maintain a sustained low level. The blue line generally remains below the green line, reaching its deepest trough around Day +60 to Day +70.
+
+[Core Insights]
+Core Conclusion: The short end is significantly more sensitive to the event, and the impact persists.
+
+Business Implications:
+- The market exhibits phased re-pricing behavior in response to key dates.
+- The intensity of the short-end interest rate reaction to political timelines is higher than that of the long end.
+- The yield curve structure appears steeper following the event.
+
+Risk Concerns:
+- If the spread between the short end and the long end approaches -100bp again, it may amplify interest rate exposure losses.
+- If the short end declines by more than 100bp from the positive territory again, it may trigger a sharp increase in margin and hedging costs.

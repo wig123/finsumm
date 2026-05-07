@@ -1,0 +1,33 @@
+[Chart Components]
+- Chart Type: Line Chart
+- Title: Not displayed
+- X-axis: Time (Month), range Jan-20 to Jan-24, labels displayed diagonally
+- Y-axis: Percentage scale, range 40.0% to 85.0%, increments of 5%
+- Reference Line: Gray dashed line at approximately 50.0%
+- Data Series: Single red line; No legend
+
+[Data Relationships]
+- Initial Period Jan-20 ≈ 63%
+- Chart Maximum: Feb-20 ≈ 81–82%
+- 2020 Low Point: Jun–Jul ≈ 54–55%
+- March 2021 ≈ 65%; Sep-21 ≈ 51%
+- Chart Minimum: Jul-22 ≈ 49–50%, below the 50% reference line
+- November 2022 ≈ 65%
+- January 2023 ≈ 58%; March ≈ 62%; May ≈ 55%; November ≈ 60%
+- Final Period Jan-24 ≈ 60%
+- Difference between Maximum and Minimum ≈ 32 percentage points
+
+[Pattern Characteristics]
+An isolated peak appeared early on, followed by a return to the middle range with non-smooth fluctuations. Most months are above the reference line, occasionally approaching or briefly dipping below it. After forming a clear low point around mid-2022, the subsequent amplitude of fluctuation has narrowed compared to the previous period.
+
+[Core Insights]
+Core Conclusion: Implement threshold management using 50% as the baseline.
+
+Business Implications:
+- Approaching the critical line requires strengthened control
+- 60–65% can be set as the operational range
+- High dispersion necessitates cautious allocation decisions
+
+Risk Focus:
+- <50% → Key indicator breached, potentially leading to passive contraction
+- ≥80% → If this becomes the norm, over-allocation is likely

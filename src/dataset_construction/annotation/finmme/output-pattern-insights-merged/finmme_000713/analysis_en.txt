@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Percentage Stacked Bar Chart
+- Title: Not displayed
+- X-axis: Period labels are FY21, FY22, FY23, 9MFY24
+- Y-axis: Proportion scale 0%–100%, increments of 10%
+- Legend: Trucks and Buses (Red), PCs/UVs (Gray), LCVs (White outline), 2W/3W (Light Orange), Farm, Speciality (Black)
+- Data labels showing component percentages are included within the bars.
+
+[Data Relationships]
+- FY21: T&B 34%; PCs/UVs 14%; LCVs 9%; 2W/3W 29%; Farm 14%
+- FY22: In the same sequence, 30%, 18%, 9%, 28%, 15%
+- FY23: In the same sequence, 30%, 20%, 8%, 26%, 16%
+- 9MFY24: In the same sequence, 31%, 20%, 7%, 28%, 14%
+- FY21→9MFY24 Change: T&B -3pct; PCs/UVs +6pct; LCVs -2pct; 2W/3W -1pct; Farm 0pct
+- Range Magnitude: T&B 30%–34%(4pct); PCs/UVs 14%–20%(6pct); LCVs 7%–9%(2pct); 2W/3W 26%–29%(3pct); Farm 14%–16%(2pct)
+
+[Pattern Characteristics]
+- The overall structure remains relatively stable across all years, with only limited reallocation of proportions among components, and no extreme expansion or contraction in any single segment.
+- The proportion of PCs/UVs shows a continuous upward trend, the proportion of LCVs slowly contracts, and T&B maintains a similar level in the middle-to-late period; 2W/3W and Farm, Speciality fluctuate slightly within a narrow range.
+- The fluctuation range for all components is narrow, with no sudden jumps or extreme outliers observed.
+
+[Core Insights]
+Core Conclusion: The structure maintains overall stability amidst minor rebalancing.
+
+Business Implications:
+- Increased contribution from PCs/UVs, leading to a structure leaning more towards the passenger vehicle segment.
+- The weight of T&B is largely maintained, and its primary position has not been weakened.
+- Contraction in the weight of LCV and 2W/3W, indicating reduced influence from peripheral segments.
+
+Risk Focus:
+- If the proportion of PCs/UVs exceeds 25%, dependence on a single segment may become excessive.
+- If the proportion of T&B falls below 28%, the volume of core business may decline significantly.

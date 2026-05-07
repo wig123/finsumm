@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Time series chart, including a closing price line graph and a target price step line.
+- Title: Not displayed.
+- X-axis: Date scale, from "12-19" to "09-22", with labeled nodes including "03-20, 06-20, 09-20, 12-20, 03-21, 06-21, 09-21, 12-21, 03-22, 06-22, 09-22".
+- Y-axis: US Dollar (USD), scaled and labeled as USD50.00, USD60.00, USD70.00, USD80.00.
+- Legend: Closing price (dark line); Target price (light step line).
+
+[Data Relationships]
+- The closing price falls within the USD60.00—USD80.00 range throughout the period; the lowest point is slightly above USD60.00 (around 03-20), and the highest point is close to USD80.00 (around mid-2022), with a range difference of approximately USD20.00.
+- The closing price at the beginning of the period (12-19) was between USD70 and USD80; at the end of the period (09-22), it was also between USD70 and USD80; the difference between the two is less than USD10.
+- The target price steps are mainly located between USD70.00—USD80.00; the highest step is close to USD80.00, and the lowest step is approximately USD70.00; the height difference between the steps is about USD10.00.
+- At most time points, the deviation between the closing price and the target price is within the range of approximately ±USD5, with individual phases approaching USD10.
+
+[Pattern Characteristics]
+- The closing price fluctuates around a relatively stable central axis throughout the period, locally showing several moderate upward movements and pullbacks, and weakening somewhat after forming a phase high around mid-2022.
+- The target price adjusts in a step-like manner, generally maintaining a slow upward trend, with minor downward adjustments occurring during a few periods. The span between each step is relatively small, and the duration is relatively balanced.
+- The closing price generally tracks the target price closely, only briefly separating by a larger distance during individual phases before gradually converging again.
+
+[Core Insights]
+Core Conclusion: The closing price generally closely follows the target price, with limited deviation magnitude.
+
+Business Implications:
+- Closing performance is broadly consistent with valuation expectations, indicating minor pricing deviation.
+- The pace of target price adjustments provides continuous constraint and guidance for the price.
+- Individual deviation phases may reflect short-term sentiment or pressure for expectation correction.
+
+Risk Concerns:
+- When the deviation between the closing price and the target price exceeds USD10, sharp pullbacks or aggressive buying behavior may occur.
+- If the target price is lowered to around USD70 and the closing price simultaneously tracks closely, it may trigger expectations of further downward revision.

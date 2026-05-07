@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Dual line chart
+- Title: Not displayed
+- Y-axis: 12m fwd P/E, scale approximately 12–21
+- X-axis: Time axis, labeled Jan-16, Jan-17, Jan-18, Jan-19
+- Legend: Two series—MSCI US ex-financials (dark color), MSCI Europe ex-financials (light color)
+
+[Data Relationships]
+- Jan-16: US approximately 16.5; Europe approximately 16.0; difference approximately 0.5
+- Peak Value: US approximately 19.8 (early 2018); Europe approximately 17.7 (2017–18); maximum difference approximately 2.1
+- Trough Value: US approximately 16.0 (early 2019); Europe approximately 13.7 (early 2019); minimum difference approximately 2.3
+- Latest (right end): US approximately 19.3; Europe approximately 16.7; difference approximately 2.6
+- Full Period Range: US approximately 16.0–19.8; Europe approximately 13.7–17.7
+
+[Pattern Characteristics]
+- Both curves show a gradual step-like upward movement, followed by a noticeable decline in early 2019 before rising again, maintaining overall co-directional change.
+- The dark curve consistently remains above the light curve, and the distance between the two gradually widens over time, with the gap reaching its maximum level for the entire period at the right end.
+- In early 2019, both curves simultaneously reached their respective troughs, after which the magnitude of the rebound was more pronounced for the dark curve.
+
+[Core Insights]
+Core Conclusion: US equity valuation consistently exceeds European equity valuation, and the premium is gradually expanding.
+
+Business Implications:
+- The valuation level of US equities is more prominent relative to European equities.
+- In regional asset allocation, the weighting of the US will significantly impact portfolio valuation.
+- The widening valuation gap reflects an increasing degree of cross-regional pricing divergence.
+
+Risk Focus:
+- When the US equity 12m P/E approaches 20x or higher, further upward movement may increase pressure for a comprehensive correction.
+- When the US-Europe valuation difference exceeds 2.5x, if mean reversion occurs, holding the overvalued side may face a significant drawdown.

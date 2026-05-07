@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Time Series Line Chart
+- Title: HYBE (As of 12-Feb-2024, Currency=KRW)
+- X-axis: Date scale at 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01
+- Y-axis: Price, range 0—425,000 (Scale interval 25,000)
+- Legend: Closing Price (Black Line), Target Price Change (Green Triangle), Recommendation Changes (Blue Dot)
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- The highest closing price was approximately 410,000KRW (end of 2021); the lowest was approximately 120,000KRW (Oct-Nov 2022); the difference between high and low is approximately 290,000KRW.
+- The closing price at the beginning of the period (2021/07) was approximately 220,000KRW; at the end of the period (2024/02) it was approximately 210,000KRW; the difference between the start and end is approximately 10,000KRW.
+- The closing price around 2023/07 was approximately 290,000KRW; around 2023/01 it was approximately 170,000KRW; the difference between these two points is approximately 120,000KRW.
+- 2024/01 markers: Recommendation Changes approximately 240,000KRW; Target Price Change approximately 285,000KRW; the difference between the two is approximately 45,000KRW.
+
+[Pattern Characteristics]
+The price exhibits a multi-stage volatility structure during the sample period, characterized by a rapid initial surge followed by a sharp decline, a subsequent rebound, and then another dip. The overall endpoint is close to the starting level.
+Within the range, there are two distinct high-level plateaus and a concentrated low-level zone, with multiple occurrences of moderate, temporary counter-movements.
+The latest target price and rating change points are both located near the upper-middle price range, with the target price positioned higher than the price corresponding to the rating change.
+
+[Core Insights]
+Core Conclusion: After significant price fluctuations, the current valuation is close to the initial level.
+
+Business Implications:
+- The temporary market rally did not result in sustained value appreciation.
+- There is some upside potential between earnings/valuation expectations and the current trading price.
+- Analyst opinions remain moderately positive regarding future performance but are not extreme.
+
+Risk Focus:
+- If the price approaches the previous low of approximately 120,000KRW again, it may trigger sentiment and liquidity pressure.
+- If the price struggles to break above the target price of approximately 285,000KRW over the long term, the upside expectation may be discounted by the market.

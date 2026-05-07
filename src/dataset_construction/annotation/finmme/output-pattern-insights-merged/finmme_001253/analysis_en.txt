@@ -1,0 +1,34 @@
+[Chart Components]
+- Type: Horizontal Bar Chart
+- Title: EU membership brings the German people...
+- X-axis: Percentage scale, range 0%—60%, labeled 0%, 20%, 40%, 60%
+- Y-axis: Category labels are “Benefits,” “Benefits and disadvantages,” “Disadvantages”
+- Data labels: Percentage values displayed to the right of each bar
+- Colors: Green (Benefits), Light Blue (Benefits and disadvantages), Red (Disadvantages)
+- Legend: Not displayed separately
+
+[Data Relationships]
+- Benefits: 45%
+- Benefits and disadvantages: 37%
+- Disadvantages: 15%
+- Highest 45%, lowest 15%, a difference of 30 percentage points
+- 45% is higher than 37% by 8 percentage points
+- 45% is higher than 15% by 30 percentage points
+- 37% is higher than 15% by 22 percentage points
+- Sum of the three items: 97%
+
+[Pattern Characteristics]
+The three horizontal bars decrease sequentially from bottom to top, showing a structure of a single dominant category, a secondary level, and a smaller group. The middle category is relatively close to the highest category but shows a more significant gap compared to the lowest category. The overall proportion is close to the full amount, but there is still a small remainder not categorized into the three groups.
+
+[Core Insights]
+
+Core Conclusion: Positive evaluation of the EU effect is dominant.
+
+Business Implications:
+- Overall, the evaluation of the EU is primarily positive.
+- A considerable portion of the population holds a compromising view; the attitude is not unidirectional.
+- The size of the purely negative evaluation group is limited but cannot be ignored.
+
+Risk Focus:
+- If “Disadvantages” rises to ≥25%, overall support could be significantly weakened.
+- If “Benefits” drops to ≤35%, the public opinion foundation for policy promotion will noticeably thin out.

@@ -1,0 +1,39 @@
+[Chart Components]
+- Type: Line Chart
+- Title: 12M Forward Enterprise Value/EBITDA - TELE2 B
+- Axes: X-axis represents years (2019 to 2023), Y-axis represents the ratio (7 to 13)
+- Legend: 12M Forward Enterprise Value/EBITDA - TELE2 B
+- Data Source: LSEG Datastream
+
+[Data Relationships]
+- Key Values and Changes:
+  - In early 2019, the value was approximately 13, situated at a high level.
+  - Subsequently, the overall trend was downward, dropping to nearly 10 by early 2020.
+  - It reached a secondary peak above 11 again in mid-2021.
+  - A significant downward trend emerged in 2022, dropping from 11 to around 8.
+  - In 2023, the value fluctuated between 8 and 9.
+
+- Extremum Comparison:
+  - The highest value occurred in early 2019, approximately 13.
+  - The lowest value occurred in 2023, close to 8.
+
+- Key Trend:
+  - The overall trend is downward, gradually declining from the high level in 2019 to the lower level in 2023.
+  - There were brief rebounds during intermittent periods, especially in mid-2021, but they were unsustainable.
+
+[Pattern Characteristics]
+- The line gradually shifted downward from a high level, accompanied by multiple short-term fluctuations, resulting in a lower overall volatility range.
+- A phased high point formed in mid-2021, followed by a continuous and substantial retracement segment in 2022.
+- In 2023, it traded narrowly within the low range, without any sustained breakthrough.
+
+[Core Insights]
+Core Conclusion: Forward EV/EBITDA is at a low level, lacking sufficient momentum for revaluation.
+
+Business Implications:
+- Reflects a relatively low valuation level and limited premium.
+- Impacts asset allocation weighting and pricing judgment.
+- Trading relies more heavily on clear catalysts and guidance.
+
+Risk Focus:
+- Below 8: Valuation continues to contract, delaying the revaluation process.
+- Failure to return to ≥11: Rerating potential is limited, leading to a downward revision of return expectations.

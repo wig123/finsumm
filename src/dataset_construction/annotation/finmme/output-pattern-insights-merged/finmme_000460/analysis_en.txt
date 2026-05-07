@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Percentage Stacked Bar Chart (Two Categories).
+- Title: Not displayed.
+- Y-axis: Percentage scale 0%–100%, marked every 10%.
+- X-axis: Categories are FY22, FY23, 1QFY24, 2QFY24, 3QFY24.
+- Legend: Bottom, Red is OEM, Gray is Replacement.
+- Percentage labels included within each bar.
+
+[Data Relationships]
+- OEM/Replacement for each period: FY22 88%/12%, FY23 90%/10%, 1QFY24 92%/8%, 2QFY24 93%/7%, 3QFY24 92%/8%.
+- Initial period (FY22) vs. Final period (3QFY24): OEM difference +4 percentage points, Replacement difference -4 percentage points.
+- OEM peaked at 93% (2QFY24), lowest at 88% (FY22), range of 5 percentage points; Replacement peaked at 12% (FY22), lowest at 7% (2QFY24), range of 5 percentage points.
+- The sum of the two categories is 100% in all periods.
+
+[Pattern Characteristics]
+In each period, the red portion consistently accounts for the vast majority, while the gray portion remains at a low level. The sum of the two categories consistently equals the full bar height. Over time, the proportions of the two categories exhibit a unidirectional change (one rising, one falling). After reaching an extreme value in 2QFY24, a slight pullback occurred in 3QFY24. The overall structure is dominated by a single category, while the proportion of the other category is contracting, showing no sharp jumps or discrete points.
+
+[Core Insights]
+Core Conclusion: The revenue structure is highly dependent on the OEM segment, with the proportion becoming further concentrated.
+
+Business Implications:
+- Overall revenue source is concentrated in a single channel.
+- Decreased reliance on Replacement-related capabilities and bargaining power.
+- The revenue structure is more sensitive to changes in OEM customers.
+
+Risk Focus:
+- When the OEM proportion consistently exceeds 90%, volatility or slowdown in the single channel will significantly compress overall revenue elasticity.
+- If the Replacement proportion drops below 5%, aftermarket deployment and counter-cyclical capability may be significantly limited.

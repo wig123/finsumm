@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Line chart, single data series, red curve
+- Legend: Displays “2y Rates Correlation Index” in the upper left corner, no separate main title
+- X-axis: Labeled “date,” time range approximately 2000–2024, specific date “2024-03-21” marked in the bottom right
+- Y-axis: Numerical scale range approximately 0.15–0.55, no unit or axis title specified, no secondary axis set
+
+[Data Relationships]
+- Maximum value is approximately 0.55, occurring in the 2023–2024 range
+- Minimum value is approximately 0.15, occurring in the 2019–2020 range
+- Range (difference between high and low) is approximately 0.40 (0.55−0.15)
+- Ending value (2024-03-21) is approximately 0.53
+- A high point of approximately 0.53 appeared around 2003
+- The low point in the 2015–2016 range was approximately 0.17–0.20
+- Data in the 2008–2012 range was generally between 0.25 and 0.35
+
+[Pattern Characteristics]
+The red curve exhibits reciprocal oscillation, with irregular cycles, alternating peaks and troughs, generally diffusing around the median range. Periods around 2003 and 2023–2024 are closer to the upper boundary, while 2015–2016 and 2019–2020 are closer to the lower boundary. Structurally, there are multiple short-term jumps and rapid reversals, lacking a sustained single dominant phase.
+
+[Core Insights]
+Core Conclusion: Correlation is at a high level, diversification efficiency is under pressure
+
+Business Implications:
+- Cross-sectional synchronicity strengthens
+- Portfolio diversification decreases
+- Strategy differentiation returns narrow
+
+Risk Concerns:
+- When above 0.50, strong positive correlation, drawdowns compound
+- When below 0.20, weak linkage, hedging error expands

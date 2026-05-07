@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Stacked Bar Chart
+- Title: Figure 67: Distribution of the EU passenger car stock per type of drivetrain
+- Y-axis: Percentage 0%–100%, approximately 10% scale
+- X-axis: 2015, 2030, 2040 (S1/S2/S3/LIFE), 2050 (S1/S2/S3/LIFE)
+- Legend: Fuel cell, Electric, Plug-in hybrid, ICE gaseous, Gasoline ICE, Diesel ICE
+
+[Data Relationships]
+- Total of each bar = 100%
+- 2015: Diesel≈50%, Gasoline≈45%, Others≈5%
+- 2030: Electric≈35–40%, Plug-in≈10%, Gasoline≈25–30%, Diesel≈15–20%, Gaseous≈3–5%, Fuel cell≈1–2%
+- 2040 (S1/S2/S3/LIFE): Electric≈60–70%, Plug-in≈5–10%, Fuel cell≈2–4%, Total ICE (Gasoline + Diesel + Gaseous) ≈20–30%
+- 2050 (S1/S2/S3/LIFE): Electric≈80–90%, Plug-in≈3–7%, Fuel cell≈2–4%, Total ICE ≈5–15%
+
+[Pattern Characteristics]
+Over time, the proportion of traditional gasoline and diesel components in the total composition continues to contract, while electric-related drivetrains (BEV, Plug-in) gradually become the dominant type. Compositional differences exist between the scenarios (S1/S2/S3/LIFE) in 2040 and 2050, but all show a concentrated structure dominated by a single powertrain type. Fuel cells and gaseous ICE consistently maintain only a marginal proportion. The overall change is continuous, without obvious sudden jumps.
+
+[Core Insights]
+Core Conclusion: The fleet powertrain type is highly concentrated towards electrification, and the proportion of internal combustion engine (ICE) vehicles is significantly compressed.
+
+Business Implications:
+- The proportion of traditional fuel-related business declines significantly.
+- OEMs and the supply chain must focus their strategy on electric products.
+- The market space for fuel cell and gaseous technologies is limited across multiple scenarios.
+
+Risk Focus:
+- If Diesel + Gasoline falls below 40% in 2030, ICE vehicle assets may experience declining utilization and depreciation.
+- If the electric proportion exceeds 80% in 2050, insufficient charging infrastructure and supporting facilities will constrain vehicle usage and sales conversion.

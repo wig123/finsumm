@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Dual Y-axis Line Chart
+- Title: Not displayed
+- Legend: Red "Price," Gray "Rel Taiwan TAIEX Index"
+- X-axis: Time (Monthly), Mar 23–Feb 24
+- Left Y-axis: Unit (TWD), Scale approximately 120–170 (Corresponding to Price)
+- Right Y-axis: Scale 65–100 (Corresponding to Rel Taiwan TAIEX Index)
+
+[Data Relationships]
+- Price: Initial period approx. 170, final period approx. 145, change ≈ -25.
+- Price high point ≈ 170 (Mar–Apr 23), low point ≈ 123 (Aug 23), high-low difference ≈ 47.
+- Rel TAIEX: Initial period ≈ 96, final period ≈ 80, change ≈ -16.
+- Rel TAIEX high point ≈ 90 (Apr–May 23), low point ≈ 70 (Approaching Feb 24), difference ≈ 20.
+- As of Nov 23: Price ≈ 168; Rel TAIEX ≈ 85.
+
+[Pattern Characteristics]
+Both lines were simultaneously at relatively high levels around Mar–Apr 23, after which they successively entered a significant downward trajectory. Price showed a distinct trough around Aug 23, followed by increased volatility, forming a short-term high plateau in Nov–Dec 23. Rel TAIEX is generally smoother, gradually diverging from Price starting in the second half of the year, and is located near the relative low point of its respective range as Feb 24 approaches.
+
+[Core Insights]
+Core Conclusion: The underlying asset's performance trend weakened and exhibited greater volatility compared to the TAIEX in the later period.
+
+Business Implications:
+- Performance disparity relative to the index reflects pressure on active returns.
+- Greater amplitude implies a stronger sense of volatility in the holding experience.
+- Increased deviation from the index in the later period indicates unstable relative portfolio performance.
+
+Risk Focus:
+- If Price approaches the previous low of approximately 123 and subsequently dips further or breaches this level, it may trigger stop-loss and redemption pressure.
+- Rel TAIEX breaking below the range bottom near 70 may signify an increase in relative drawdown, which is detrimental to performance evaluation.

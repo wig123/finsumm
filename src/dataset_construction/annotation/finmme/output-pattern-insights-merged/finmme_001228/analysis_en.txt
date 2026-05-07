@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Pie Chart
+- Title: Not displayed
+- Axes: None
+- Legend: He Zhaoxi (Red), Xiong Wu (Gray), Feng Yi (White/Black Outline), HK Stock Connect (Light Peach), Others (Black)
+- Sector Labels: 20.06%, 17.39%, 8.03%, 3.20%, 51.3200%
+
+[Data Relationships]
+- Proportion of each category: He Zhaoxi 20.06%; Xiong Wu 17.39%; Feng Yi 8.03%; HK Stock Connect 3.20%; Others 51.3200%.
+- Maximum Value: Others 51.3200%; Minimum Value: HK Stock Connect 3.20%; Difference 48.1200%.
+- Difference between He Zhaoxi and Xiong Wu is 2.67%; Difference with Feng Yi is 12.03%; Difference between Xiong Wu and Feng Yi is 9.36%.
+- Others exceeds He Zhaoxi and Xiong Wu by 31.26% and 33.93%, respectively.
+- Total percentage approximates 100.00%.
+
+[Pattern Characteristics]
+The overall structure presents a dominant sector accounting for over half of the proportion, with the remaining four sectors distributed in the mid-to-low range. The areas of He Zhaoxi and Xiong Wu are similar, while the areas of Feng Yi and HK Stock Connect are significantly smaller, showing a stepped decrease in size. There are no extreme outliers among the sectors; apart from the maximum and minimum ends, the spacing between other sectors is relatively moderate.
+
+[Core Insights]
+Core Conclusion: Holdings (or stakes) are clearly concentrated in the "Others" category.
+
+Business Implications:
+- The current structure reflects high concentration and dominance by the unsegmented portion.
+- The relative influence/weighting of known individual accounts or channels is limited.
+- Insufficient granularity of information is evident when segmenting investor/channel profiles.
+
+Risk Concerns:
+- If "Others" consistently exceeds 50%, it may weaken the monitoring of specific holder behavior.
+- If the proportion of a single known account rises above 30%, it could amplify the trading impact of that single entity.

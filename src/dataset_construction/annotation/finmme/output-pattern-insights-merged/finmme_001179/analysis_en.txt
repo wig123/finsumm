@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Single-series line chart (Red)
+- Title: Total Bulkcarrier Suez Canal Transits
+- Y-axis: mn GT, 7dma; Range 0–1.5, Ticks 0.0, 0.5, 1.0, 1.5
+- X-axis: Time range Sep-23 to Feb-24, including Ticks Oct-23, Nov-23, Dec-23, Jan-24
+- Legend: Red line labeled "Total Bulkcarrier Suez Canal Transits"
+- Annotation: Dashed line marking "16th Dec"; Right-side text "Bulkcarriers Latest 7 days: -42% vs 1H Dec"
+
+[Data Relationships]
+- Initial period (Sep-23) approximately 0.75 mn GT; Final period (Feb-24) approximately 0.58 mn GT; Change approximately -0.17 mn GT.
+- Maximum for the entire period approximately 1.15 mn GT (near end of Nov); Minimum approximately 0.55 mn GT (early Feb); High-low difference approximately 0.60 mn GT.
+- Value near 16th Dec approximately 1.0 mn GT.
+- Latest 7 days are 42% lower than the first half of December (Chart annotation).
+- Final period / Maximum ≈ 0.58 / 1.15 ≈ 0.50.
+
+[Pattern Characteristics]
+The overall curve fluctuated around medium-to-high levels from Sep-23 to the end of November, forming multiple local peaks and pullbacks during this period. It remained at a relatively high level near mid-December, after which it continuously shifted towards a lower range until Feb-24, approaching the period's low point around early February. There were no sudden jumps throughout the period; the change was relatively continuous. The vicinity of 16th Dec can be viewed as an inflection point transitioning from the high-level range to the low-level range.
+
+[Core Insights]
+Core Conclusion: Bulkcarrier transits through the Suez Canal have significantly weakened since mid-December.
+
+Business Implications:
+- Implication 1 Current canal utilization rate has clearly contracted compared to the first half of December.
+- Implication 2 Shipping turnover and capacity allocation face pressure from temporary idleness.
+- Implication 3 Related freight rates and scheduling strategies must adapt to lower transit levels.
+
+Risk Focus:
+- Risk Point 1 Maintaining levels near approximately 0.6 mn GT will compress the elasticity of shipping revenue.
+- Risk Point 2 If the level falls below 0.55 mn GT again, it may trigger more aggressive decisions regarding service reduction or rerouting.

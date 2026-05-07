@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Horizontal stacked bar chart.
+- Title: Satisfaction with different attributes of a gas boiler.
+- X-axis: Percentage scale, range 0%—100%, increments of 10%.
+- Y-axis: 9 attribute categories (Hot water heating, Safety, Reliability, Noise, Ease of use and control, Space heating, Maintenance costs, Energy efficiency, Running costs).
+- Legend: 6 response types and color indicators—Very satisfied, Fairly satisfied, Not very satisfied, Not at all satisfied, Don't know, Not applicable.
+- Other elements: The bar corresponding to Space heating is emphasized by a black rectangular frame; none of the bars have specific numerical labels.
+
+[Data Relationships]
+- Total satisfaction (Very+Fairly) approx.: Hot water heating ≈90%, Safety ≈85%, Reliability ≈85%, Noise ≈80%, Ease of use and control ≈75%, Space heating ≈80%, Maintenance costs ≈55%, Energy efficiency ≈50%, Running costs ≈50%.
+- Proportion of “Very satisfied” approx.: Hot water heating ≈60%, Safety ≈55%～60%, Reliability ≈50%, Noise ≈50%, Ease of use and control ≈40%, Space heating ≈35%, Maintenance costs ≈20%, Energy efficiency ≈20%, Running costs ≈10%.
+- Proportion of dissatisfaction (Not very+Not at all) approx.: Running costs ≈30%, Energy efficiency ≈30%, Maintenance costs ≈30%; Hot water heating ≈8%—10%.
+- The sum of “Don't know” and “Not applicable” is ≈20% for both Energy efficiency and Running costs, while the sum for most other categories is ≤10%.
+
+[Pattern Characteristics]
+Attributes show a high-to-low gradient distribution in overall positive responses, with Hot water heating, Safety, and Reliability at the top, and Maintenance costs, Energy efficiency, and Running costs at the bottom. Attributes in the high group have a significantly larger proportion of “Very satisfied,” with fewer negative responses and neutral options, while cost and energy efficiency related attributes have a higher proportion of negative responses and “Don't know/Not applicable.” Space heating, highlighted by the black frame, is in the middle tier, with its positive and negative responses being at a moderate level among all attributes.
+
+[Core Insights]
+Core Conclusion: Functional experience outweighs cost and energy efficiency perception.
+
+Business Implications:
+- Performance of usage functions contributes more significantly to the overall evaluation.
+- Cost and energy efficiency related sentiments drag down overall reputation.
+- Space heating still has room for further optimization and promotion.
+
+Risk Concerns:
+- If dissatisfaction with running costs remains at ≈30%, it may inhibit subsequent purchases or recommendations.
+- If the sum of dissatisfaction and uncertainty regarding energy efficiency exceeds ≈50%, it may weaken the appeal of energy-saving selling points.

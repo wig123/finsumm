@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>管理页面 - 数据标注系统</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    .manage-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+    .stat-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 0.75rem;
+      border: 1px solid var(--border-color);
+      box-shadow: var(--shadow-sm);
+    }
+    .stat-value {
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 0.5rem 0;
+    }
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .image-card {
+      position: relative;
+      background: white;
+      border-radius: 0.75rem;
+      overflow: hidden;
+      border: 1px solid var(--border-color);
+      box-shadow: var(--shadow-sm);
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+    .image-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-md);
+    }
+    .image-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+      background: #f9fafb;
+    }
+    .image-card-content {
+      padding: 1rem;
+    }
+    .image-card-checkbox {
+      position: absolute;
+      top: 0.75rem;
+      left: 0.75rem;
+      width: 1.5rem;
+      height: 1.5rem;
+      cursor: pointer;
+      z-index: 10;
+    }
+    .pagination {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0.5rem;
+      margin-top: 2rem;
+    }
+    .pagination button {
+      padding: 0.5rem 0.75rem;
+      border: 1px solid var(--border-color);
+      background: white;
+      border-radius: 0.375rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    .pagination button:hover:not(:disabled) {
+      background: var(--text-primary);
+      color: white;
+    }
+    .pagination button:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+    .pagination button.active {
+      background: var(--accent-purple);
+      color: white;
+      border-color: var(--accent-purple);
+    }
+    .prompt-editor {
+      background: #f9fafb;
+      border: 1px solid var(--border-color);
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+    }
+    .file-upload-area {
+      border: 2px dashed var(--border-color);
+      border-radius: 0.75rem;
+      padding: 2rem;
+      text-align: center;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      background: #fafafa;
+    }
+    .file-upload-area:hover {
+      border-color: var(--accent-purple);
+      background: #f5f3ff;
+    }
+    .file-upload-area.drag-over {
+      border-color: var(--accent-purple);
+      background: #f5f3ff;
+      transform: scale(1.02);
+    }
+  </style>
+</head>
+<body>
+  <!-- Aurora 背景 -->
+  <div class="aurora-bg"></div>
+
+  <div class="manage-container fade-in">
+    <!-- Header -->
+    <div class="flex items-center justify-between mb-6">
+      <div>
+        <h1 class="text-2xl font-bold mb-2">数据管理</h1>
+        <p class="text-gray-600">
+          <i class="fas fa-user" style="color: var(--accent-purple);"></i>
+          <span id="currentUser"></span>
+        </p>
+      </div>
+      <div class="flex gap-2">
+        <a href="annotate.html" class="btn btn-accent">
+          <i class="fas fa-tags"></i>
+          去标注
+        </a>
+        <button id="logoutBtn" class="btn btn-secondary">
+          <i class="fas fa-sign-out-alt"></i>
+          退出
+        </button>
+      </div>
+    </div>
+
+    <!-- 统计面板 -->
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="text-sm text-gray-600">
+          <i class="fas fa-images"></i> 总数
+        </div>
+        <div class="stat-value" id="statTotal">0</div>
+        <div class="progress-bar mt-2">
+          <div class="progress-fill" style="width: 100%; background: #6b7280;"></div>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <div class="text-sm text-gray-600">
+          <i class="fas fa-check-circle"></i> 已标注
+        </div>
+        <div class="stat-value" style="color: #10b981;" id="statAnnotated">0</div>
+        <div class="progress-bar mt-2">
+          <div class="progress-fill" id="progressAnnotated" style="width: 0%; background: #10b981;"></div>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <div class="text-sm text-gray-600">
+          <i class="fas fa-clock"></i> 待标注
+        </div>
+        <div class="stat-value" style="color: #f59e0b;" id="statPending">0</div>
+        <div class="progress-bar mt-2">
+          <div class="progress-fill" id="progressPending" style="width: 0%; background: #f59e0b;"></div>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <div class="text-sm text-gray-600">
+          <i class="fas fa-trash"></i> 已删除
+        </div>
+        <div class="stat-value" style="color: #ef4444;" id="statDeleted">0</div>
+        <div class="progress-bar mt-2">
+          <div class="progress-fill" id="progressDeleted" style="width: 0%; background: #ef4444;"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Prompt 配置 -->
+    <details class="card p-6 mb-6" open>
+      <summary class="font-bold text-lg cursor-pointer mb-4" style="color: var(--accent-purple);">
+        <i class="fas fa-cog"></i> Prompt 配置
+      </summary>
+
+      <div class="grid grid-cols-2 gap-4">
+        <div>
+          <label class="text-sm font-semibold mb-2" style="display: block;">
+            Prompt 1: 生成总结
+          </label>
+          <textarea
+            id="promptGenerate"
+            class="textarea"
+            rows="8"
+            placeholder="输入生成总结的 prompt..."
+          ></textarea>
+          <button id="savePromptGenerate" class="btn btn-accent mt-2">
+            <i class="fas fa-save"></i>
+            保存
+          </button>
+        </div>
+
+        <div>
+          <label class="text-sm font-semibold mb-2" style="display: block;">
+            Prompt 2: 修改总结
+          </label>
+          <textarea
+            id="promptModify"
+            class="textarea"
+            rows="8"
+            placeholder="输入修改总结的 prompt..."
+          ></textarea>
+          <button id="savePromptModify" class="btn btn-accent mt-2">
+            <i class="fas fa-save"></i>
+            保存
+          </button>
+        </div>
+      </div>
+    </details>
+
+    <!-- 批量上传 -->
+    <div class="card p-6 mb-6">
+      <h2 class="font-bold text-lg mb-4">
+        <i class="fas fa-upload"></i> 批量上传图片
+      </h2>
+
+      <div id="fileUploadArea" class="file-upload-area">
+        <i class="fas fa-cloud-upload-alt" style="font-size: 3rem; color: var(--accent-purple); margin-bottom: 1rem;"></i>
+        <p class="font-semibold mb-2">拖拽图片到这里，或点击选择</p>
+        <p class="text-sm text-gray-600">支持 JPG, PNG, GIF 格式</p>
+        <input type="file" id="fileInput" multiple accept="image/*" style="display: none;">
+      </div>
+
+      <div id="uploadPreview" class="mt-4" style="display: none;">
+        <div class="flex items-center justify-between mb-2">
+          <p class="text-sm font-semibold">待上传: <span id="uploadCount">0</span> 张</p>
+          <div class="flex gap-2">
+            <button id="clearUpload" class="btn btn-secondary">
+              <i class="fas fa-times"></i>
+              清空
+            </button>
+            <button id="confirmUpload" class="btn btn-accent">
+              <i class="fas fa-check"></i>
+              确认上传
+            </button>
+          </div>
+        </div>
+        <div id="previewGrid" class="grid grid-cols-6 gap-2">
+          <!-- 预览缩略图 -->
+        </div>
+      </div>
+    </div>
+
+    <!-- 工具栏 -->
+    <div class="card p-4 mb-4">
+      <div class="flex items-center justify-between">
+        <div class="flex gap-2">
+          <button id="selectAllBtn" class="btn btn-secondary">
+            <i class="fas fa-check-square"></i>
+            全选
+          </button>
+          <button id="batchGenerateBtn" class="btn btn-accent" disabled>
+            <i class="fas fa-magic"></i>
+            批量生成 (<span id="selectedCount">0</span>)
+          </button>
+          <button id="exportBtn" class="btn btn-secondary">
+            <i class="fas fa-download"></i>
+            导出数据
+          </button>
+        </div>
+
+        <div class="flex gap-2">
+          <button class="btn btn-secondary filter-btn" data-filter="all">
+            全部
+          </button>
+          <button class="btn btn-secondary filter-btn" data-filter="annotated">
+            已标注
+          </button>
+          <button class="btn btn-secondary filter-btn" data-filter="pending">
+            待标注
+          </button>
+          <button class="btn btn-secondary filter-btn" data-filter="deleted">
+            已删除
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 图片网格 -->
+    <div id="imageGrid" class="image-grid">
+      <!-- 动态加载 -->
+    </div>
+
+    <!-- 分页 -->
+    <div id="pagination" class="pagination">
+      <!-- 动态加载 -->
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+  <script src="api.js"></script>
+  <script src="manage.js"></script>
+</body>
+</html>

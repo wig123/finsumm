@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Vertical Bar Chart
+- Title: Main title not displayed; Legend is "Y-Y Growth," red bars
+- X-axis: Company Categories, 14 items in total: Sun, Lupin, Laurus, Dr Reddy’s, Glenmark, Cipla, Zydus, Gland, Torrent Pharma, Aurobindo, Biocon, Alkem Labs, Ajanta Pharma, Alembic Pharma
+- Y-axis: Percentage scale, range approximately -25% to 30%, scale interval approximately 5%
+
+[Data Relationships]
+- Highest value: Sun approximately 24%
+- Second highest: Lupin approximately 23%, about 1 percentage point lower than Sun
+- Laurus approximately 21%; Dr Reddy’s approximately 15%; Glenmark approximately 12%; Cipla approximately 10%
+- Zydus approximately 5%; Gland approximately 3%; Torrent Pharma approximately 3%
+- Aurobindo approximately -4%
+- Biocon approximately -9%; Alkem Labs approximately -14%; Ajanta Pharma approximately -15%; Alembic Pharma approximately -20%
+- Maximum difference between highest and lowest is approximately 44 percentage points
+- Approximately 9 companies show positive values, and approximately 5 companies show negative values
+
+[Pattern Characteristics]
+- The YoY growth rates of various companies are distributed across a wide range, from high positive values to significant negative values, showing an overall pattern of clear differentiation.
+- Companies with positive values are mostly concentrated in the mid-to-high single digits up to over 20%, while companies with negative values are concentrated in the mid-to-high negative range, forming two relatively distinct arrays.
+- The bar heights are generally arranged from left to right in descending order of value. Only a small number of companies slightly above or below zero appear in the middle, and there are no extreme isolated outliers.
+
+[Core Insights]
+Core Conclusion: Significant differences in YoY performance among companies, indicating clear stratification of strength within the industry.
+
+Business Implications:
+- Leading companies demonstrate stronger YoY expansion capabilities.
+- Mid-tier companies are in a moderate growth zone with limited elasticity.
+- Companies with negative growth face pressure for performance recovery and strategic adjustments.
+
+Risk Focus:
+- Declines to -10% and below (such as Biocon and lower) may trigger downward revisions of earnings forecasts.
+- Companies in the near 0% to -5% range, if they continue to weaken, may slide from moderate growth toward systemic pressure.

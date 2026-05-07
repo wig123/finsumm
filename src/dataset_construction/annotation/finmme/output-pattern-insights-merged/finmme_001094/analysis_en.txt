@@ -1,0 +1,24 @@
+[Chart Components]
+- Type: Stacked bar chart; Title: TDC: Cost as % of sales
+- Y-axis: Percentage scale, range 0%–80%; X-axis: Quarterly timeline, 1Q21–4Q23 (12 periods)
+- Legend: Network cost (Red), Customer acquisition cost (Gray), OPEX (ex-forex, White box), D&A (Beige)
+
+[Data Relationships]
+- Total proportion: 1Q21 64%, 3Q21/4Q21 63%, 1Q22–3Q22 66%, 4Q22 70%, 1Q23 76%, 2Q23 71%, 3Q23 68%, 4Q23 71%
+- Start/End Period: Network 22%→23% (+1); CAC 7%→10% (+3); OPEX 23%→26% (+3); D&A 12%→12% (0)
+- Range and Peak: Network 19%–25% (Peak 1Q23, Trough 4Q21); CAC 7%–10%; OPEX 23%–29% (Peak 4Q22); D&A 11%–14% (Peak 1Q23)
+
+[Pattern Characteristics]
+Overall, the total cost proportion remained relatively stable in the early part of the sample period, experienced a lift in the middle section, and subsequently declined in the latter section, though it did not return to the starting level. Among the components, OPEX consistently held the largest proportion in every period, followed by Network. CAC and D&A accounted for smaller proportions and exhibited narrower fluctuation ranges. 1Q23 was the period where the total cost and multiple components simultaneously reached relatively high levels. 4Q22 and 1Q23 were local peaks for OPEX. Subsequently, the proportions of the various items adjusted slightly, but the structural hierarchy remained essentially unchanged.
+
+[Core Insights]
+Core Conclusion: The burden of cost of sales progressively increased during the sample period, remaining higher at the end than at the start.
+
+Business Implications:
+- Overall cost efficiency has weakened compared to previous periods.
+- OPEX is the primary factor squeezing the sales profit margin.
+- CAC and Network continue to heighten marginal cost sensitivity.
+
+Risk Focus:
+- When the total cost proportion is ≥75% (e.g., 1Q23), the sales profit margin may be significantly compressed.
+- When the OPEX proportion is ≥29% (levels near 4Q22), cost rigidity may limit subsequent room for expense reduction.

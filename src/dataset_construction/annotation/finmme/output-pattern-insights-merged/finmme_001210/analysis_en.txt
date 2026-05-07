@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Combination Chart (Red Bar = Revenue, Black Line = Paid Wow members)
+- Title: Not displayed
+- X-axis: 1Q21 to 4Q23 (Quarterly, total 12 periods)
+- Left Y-axis: Unit USD, scale 0/2,000/4,000/6,000
+- Right Y-axis: Unit mn, scale 3/6/9/12/15
+- Legend: Revenue (Red), Paid Wow members (Black)
+
+[Data Relationships]
+- Revenue: Approximately $4,200 in 1Q21; approximately $5,000 in 4Q21; approximately $5,800 in 1Q23; slightly above $6,000 in 4Q23
+- Revenue High/Low Points: Lowest in 1Q21, highest in 4Q23, difference approximately $2,000; 4Q23 increased by approximately $2,000 compared to 1Q21
+- Paid Wow members: Approximately 6mn in 1Q21; approximately 9mn in 4Q21; approaching 12mn in 1Q23; approximately 15mn in 4Q23
+- Paid Wow members Net Increase: Net increase of approximately 9mn from 1Q21 to 4Q23
+
+[Pattern Characteristics]
+Revenue generally shows a stepped increase starting from 1Q21, with a brief plateau or slight pullback occurring around 1Q22–2Q22, followed by continued upward movement until 4Q23. Paid Wow members exhibits a relatively smooth, unidirectional upward curve, with growth rates fairly consistent between quarters. The two series show consistent directional movement over time, with no significant divergence or sudden spikes observed.
+
+[Core Insights]
+Core Conclusion: Revenue and the scale of paid membership increase synchronously, demonstrating clear volume-price linkage.
+
+Business Implications:
+- Revenue exhibits strong dependence on the number of members.
+- Member expansion continuously amplifies its contribution to revenue.
+- Revenue per member generally maintains a stable level.
+
+Risk Concerns:
+- If Paid Wow members fall below 12mn, Revenue may struggle to maintain the current range.
+- If Revenue retreats to around $5,000, it may indicate a decline in monetization efficiency.

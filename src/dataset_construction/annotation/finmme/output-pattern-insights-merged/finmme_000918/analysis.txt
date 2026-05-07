@@ -1,0 +1,40 @@
+【图表构成】
+- 图表类型：分组数据表
+- 标题分为三块：Total UST、Market UST (net of Fed)、SOMA UST
+- 列：Present、2y、5y、10y
+- 行：Outstanding amount ($trn)、WAM (years)、WAM ex-bills/FRN
+- 单位：金额为$trn，期限为years
+- 无坐标轴与图例
+
+【数据关系】
+- Outstanding amount ($trn)：
+  - Total：26.8/25.7/17.4/13.8；最大26.8（Present），最小13.8（10y），差13.0
+  - Market：22.3/20.0/15.2/11.5；最大22.3，最小11.5，差10.8
+  - SOMA：4.5/5.7/2.2/2.3；最大5.7，最小2.2，差3.5
+  - 分解：各列均满足Total=Market+SOMA
+- WAM (years)：
+  - Total：5.73/5.51/5.35/5.01；Present与10y差0.72
+  - Market：5.15/4.91/4.95/4.00；差1.15
+  - SOMA：8.60/7.63/8.20/10.11
+- WAM ex-bills/FRN：
+  - Total：7.69/7.52/6.94/6.58
+  - Market：7.32/7.28/6.69/5.57
+  - SOMA：9.02/8.12/8.26/10.11；SOMA在10y两项均为10.11（相等）
+- 份额（Outstanding，Present）：Market/Total≈83.2%，SOMA/Total≈16.8%；10y分别≈83.3%与≈16.7%
+
+【模式特征】  
+- 三块（Total、Market、SOMA）的余额在各期限点呈一致分解关系，且Market始终占绝大部分，SOMA占比相对稳定。  
+- Total与Market的WAM和WAM ex‑bills/FRN在更远期限点数值更低，而SOMA的对应数值在更远期限点更高，并在10y收敛到同一水平。  
+- SOMA在各期限点的WAM与WAM ex‑bills/FRN明显高于Total与Market，形成清晰分层结构。
+
+【核心洞察】  
+核心结论：市场持有更偏向短久期，官方持有更偏向长久期。  
+
+业务含义：  
+- 整体久期由官方配置拉长，减轻市场端敏感度。  
+- 市场端利率变动主要作用于中短端持仓。  
+- 官方久期集中在长端，有利于稳定长期利率水平。  
+
+风险关注：  
+- 若Market WAM降至4年以下，市场端对利率上行的价格波动将显著放大。  
+- 若SOMA Outstanding降至2.0 $trn附近，长端利率支撑减弱，曲线可能出现陡峭化。

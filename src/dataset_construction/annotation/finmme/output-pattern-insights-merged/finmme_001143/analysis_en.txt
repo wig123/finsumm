@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Dual Line Chart (Indexed)
+- Title: Not displayed; annotated in the upper left as "2018 = 100"
+- X-axis: Time, scale marked 2018 to 2024
+- Y-axis: Index, range approximately 0–200, major ticks include 50, 100, 150, 200
+- Legend: Gray Whirlpool; Red LGE
+
+[Data Relationships]
+- 2018 Start Point: Both approximately 100
+- Early 2020 Trough Value: LGE ≈ 40, Whirlpool ≈ 55, Difference ≈ 15
+- Early 2021 Peak Value: LGE ≈ 165 (approx. 160–170), Whirlpool ≈ 140, Difference ≈ 25
+- Mid-2022: Whirlpool ≈ 140, LGE ≈ 130, Difference ≈ 10
+- Early 2024 End Value: LGE ≈ 85–90, Whirlpool ≈ 65–70, Difference ≈ 15–20
+- Full Period Range: LGE approximately 40–170, Whirlpool approximately 50–140
+
+[Pattern Characteristics]
+The two index curves generally exhibit a single large wave structure: an initial decline, followed by a significant rise, and then a gradual decline. LGE shows greater amplitude and more localized sharp peaks in the 2020 trough region and the 2021 peak region, while Whirlpool's trend is smoother. Both generally move in the same direction with limited separation for most of the period, but the price difference briefly and significantly widened during the 2020 low and 2021 high phases. Subsequently, the gap converged back to a moderate level.
+
+[Core Insights]
+Core Conclusion: The performance of the two companies is highly synchronized within the same cycle, but the magnitude of volatility differs.
+
+Business Implications:
+- Driven overall by common market factors; individual differences are secondary.
+- LGE reacts with greater magnitude to the same environment, indicating higher sensitivity.
+- The medium-to-long-term relative performance advantage shifts between the two parties multiple times.
+
+Risk Focus:
+- When the index falls below approximately 50, the short-term retracement pressure significantly amplifies.
+- When the price difference exceeds 25 points, a significant reversal in relative returns may subsequently occur.

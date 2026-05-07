@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Bar Chart
+- Title: EBIT Margins %
+- Y-axis: Percentage, Range 0.0%—14.0%, Increments of 2.0%
+- X-axis: Fiscal Year Categories: FY19, FY20, FY21, FY22, FY23, FY24F, FY25F, FY26F
+- Legend: Red bar represents "EBIT Margins %"
+
+[Data Relationships]
+- Period Values: FY19 12.0%, FY20 10.8%, FY21 11.8%, FY22 12.0%, FY23 9.4%, FY24F 11.0%, FY25F 11.3%, FY26F 11.9%.
+- Maximum value 12.0% (FY19, FY22), Minimum value 9.4% (FY23), Difference between high and low is 2.6 percentage points.
+- Initial period (FY19) 12.0%, Final period (FY26F) 11.9%, Difference -0.1 percentage points.
+- Sequential Period Difference: FY20 compared to FY19 -1.2pp; FY21 compared to FY20 +1.0pp; FY22 compared to FY21 +0.2pp; FY23 compared to FY22 -2.6pp; FY24F compared to FY23 +1.6pp; FY25F compared to FY24F +0.3pp; FY26F compared to FY25F +0.6pp.
+
+[Pattern Characteristics]
+- The annual bars are generally distributed within a narrow range, fluctuating slightly around 10%—12%, with no sustained unidirectional change.
+- FY23 forms the most significant trough in the entire series; the preceding and succeeding years (including forecasts) are all in a higher range, showing a single, distinct dip.
+- The forecast period FY24F—FY26F gradually returns after FY23 to a level near the historical upper boundary. The final point is highly similar to the initial point, and the overall shape is relatively symmetrical.
+
+[Core Insights]
+Core Conclusion: The EBIT margin recovers to near historical high levels after a brief decline.
+
+Business Implications:
+- Overall profitability remains within a relatively stable band.
+- FY23 reflects a temporary phase of earnings pressure.
+- The forecast period demonstrates earnings recovery and stability expectations.
+
+Risk Concerns:
+- If the EBIT Margin falls below 10% again, it could lead to a significant reduction in total profit.
+- If the margin fails to return to the vicinity of 12% over the long term, the high-profitability phase may be difficult to replicate, impacting valuation expectations.

@@ -1,0 +1,27 @@
+【图表构成】
+- 类型：折线图
+- 标题：未显示
+- 横轴：财年标注为FY21、FY22、FY23、FY24F、FY25F、FY26F
+- 纵轴：百分比刻度，范围-80.0%至80.0%
+- 图例与颜色：红色Segmental PBT margin；灰色99acres (real estate) (PBT)；黑色(Jeevansathi and Shiksha) (PBT)；浅橙Recruitment Solutions (PBT)
+
+【数据关系】
+- Segmental PBT margin（红线）：FY21=24.5%，FY22=29.3%，FY23=36.4%，FY24F=39.7%，FY25F=43.6%，FY26F=44.8%；FY21至FY26F增20.3个百分点；FY23至FY24F增3.3个百分点；FY24F至FY26F增5.1个百分点。
+- Recruitment Solutions（浅橙）：各期位于50%—60%区间，FY23接近60%。
+- 99acres（灰线）：FY21—FY24F均在0%以下；FY25F约为0%；FY26F高于0%。
+- Jeevansathi & Shiksha（黑线）：FY21—FY24F在0%以下且低于灰线；FY25F约为0%；FY26F为正且高于灰线。
+
+【模式特征】  
+Segmental PBT margin线条呈持续抬升，斜率在后期略有趋缓。Recruitment Solutions整体维持在较高区间，曲线仅有轻微起伏。99acres与Jeevansathi & Shiksha两条线先处于较深负值区域，之后逐步靠近零轴并在末期转为正值，黑线在后段对灰线形成交叉并领先。
+
+【核心洞察】  
+核心结论：整体盈利结构由单一支撑转向多业务贡献。  
+
+业务含义：  
+- 综合盈利能力在稳步增强  
+- Recruitment Solutions是当前利润核心来源  
+- 99acres与J&S扭亏后有望分散盈利集中度  
+
+风险关注：  
+- 若Segmental PBT margin低于30%，整体利润弹性将明显减弱  
+- 若99acres或J&S PBT在FY25F后仍低于0%，亏损可能重新拖累整体利润率

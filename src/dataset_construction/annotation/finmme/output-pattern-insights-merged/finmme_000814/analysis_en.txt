@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Combination chart (Red bar chart + Black line chart)
+- Title: Not displayed
+- X-axis: Quarterly categories, from 1QFY21 to 3QFY24
+- Y-axis (Left): EBITDA (INR mn), range 0–6000
+- Y-axis (Right): EBITDA margin (%), range 0%–25%, scale interval approximately 5%
+- Legend: Red bar represents "EBITDA (INR mn)", Black line represents "EBITDA margin (%)"
+
+[Data Relationships]
+- The peak EBITDA occurred in 3QFY24, with the bar height close to 5500; the corresponding margin is slightly above 20%.
+- The EBITDA trough was in 3QFY22, with the bar height approximately 2000–2500; the margin trough was in 2QFY22, slightly below 10%.
+- EBITDA at the beginning of the period (1QFY21) was approximately 3000–3500; margin was close to 20%.
+- The difference in EBITDA between the end of the period (3QFY24) and the beginning of the period (1QFY21) is approximately 2000–2500; the margin is higher by about 2–5 percentage points.
+- EBITDA for 1QFY24, 2QFY24, and 3QFY24 was approximately 3500, 4000, and 5500, respectively; margins were approximately 15%, 15–17%, and 20%+ respectively.
+
+[Pattern Characteristics]
+- The red bars generally show a step-like upward trend, with a noticeable dip occurring early in FY22, followed by gradual recovery and an amplified increase in FY24.
+- The black line forms multiple fluctuations during the sample period, with a significant downward probe in the middle section. Subsequently, both the high points and low points have generally moved higher, culminating in a new local high at the end of the period.
+- Both series were simultaneously at a relative low near 2QFY22, and simultaneously at the highest point of the entire period in 3QFY24. The overall structure is dominated by a single upward trajectory, with no abrupt outliers observed.
+
+[Core Insights]
+Core Conclusion: Profitability scale and profit margin simultaneously improved after adjustment, reaching a new phase high.
+
+Business Implications:
+- Reflects mid-term operating performance initially under pressure, followed by recovery.
+- Indicates an enhanced profit contribution per unit of revenue.
+- Recent quarters have provided a more pronounced boost to overall profitability levels.
+
+Risk Concerns:
+- If EBITDA falls below 3000 mn, it may weaken the current trend of profitability improvement.
+- If the EBITDA margin approaches 10% again, it could compress future profit margins.

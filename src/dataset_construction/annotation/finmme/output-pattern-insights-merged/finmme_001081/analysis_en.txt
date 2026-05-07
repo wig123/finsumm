@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Line chart
+- Title: Not displayed
+- X-axis: Date, approximately from 30-Dec-23 to 2-Mar-24; Scale examples: 30-Dec-23, 20-Jan-24, 10-Feb-24, 2-Mar-24
+- Y-axis: Unit bp, label "2s10s swap spread curve (bp)", range approximately -34 to -22, scale interval approximately 2 bp
+- Legend: No separate legend; Single green curve
+
+[Data Relationships]
+- Initial Value (30-Dec-23): Approximately -24 bp
+- Final Value (2-Mar-24): Approximately -31.8 bp; Approximately 7.8 bp lower than the initial value
+- Peak: Approximately -23.8 to -24.0 bp (around late January/early February)
+- Trough: Approximately -32.4 to -32.6 bp (around early March); Approximately 8.5 to 8.8 bp lower than the peak
+- Mid-February level approximately -28 bp; Approached -30 bp briefly in late February
+
+[Pattern Characteristics]
+The curve exhibits a unilateral downward, step-like structure throughout the period, accompanied by relatively frequent intraday fluctuations. The trend shows multiple instances of brief rebounds followed by pullbacks, but no sustained consolidation periods were formed. A notable dip occurred near the end of the sample, bringing the final value close to the overall low point.
+
+[Core Insights]
+Core Conclusion: The 2s10s spread generally shifted to a lower threshold and continued to deepen its inversion.
+
+Business Implications:
+- The term structure exhibits a stronger misalignment between the short and long ends.
+- Related interest rate positions are more sensitive to the curve shape.
+- Profit and loss drivers for curve trading strategies are more concentrated in long-end pricing.
+
+Risk Focus:
+- When the curve persistently remains below the -30bp range, the drawdown potential for spread convergence trades increases.
+- If the curve approaches the lower boundary of -34bp further, long-end related exposures may face margin call pressure.

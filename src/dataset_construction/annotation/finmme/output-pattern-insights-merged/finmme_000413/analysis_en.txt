@@ -1,0 +1,28 @@
+[Chart Components]
+- Composite chart: Gray bars represent “Export value,” and the red line represents “y‑y”
+- Annotation in the upper right corner: Dec: 8.0%
+- X-axis: 2007/01—2023/09 (Monthly)
+- Left axis: (JPYbn) 0—70; Right axis: Percentage -100%—100%
+- Horizontal baseline: 0% on the right axis, corresponding to approximately 35 JPYbn on the left axis
+
+[Data Relationships]
+- Export value bar values range approximately from 10—60 JPYbn; the peak is close to 60 (around 2022—2023), the trough is approximately 10—15 (around 2009), resulting in a range of approximately 45—50 JPYbn.
+- Relative to the 0% line corresponding to 35 JPYbn: the peak is approximately 25 higher, and the trough is approximately 20—25 lower.
+- The y‑y range is approximately -40% to 70%; the explicitly labeled point in the chart is “Dec: 8.0%.”
+
+[Pattern Characteristics]
+- The gray bars were in a lower range during the early period of the sample, subsequently rising gradually, and remaining near a relatively high level in the later period, exhibiting an overall smooth, step-like change without extreme jumps in between.
+- The red line fluctuates significantly above and below the 0% baseline, showing clear peaks and troughs in the early stages. The volatility relatively converges in the middle-to-late stages, and at the end, it approaches and is slightly above 0%.
+- In several phases, the line exhibits synchronous local fluctuation ranges with the height of the bars, but there are also periods where the local direction is inconsistent.
+
+[Core Insights]
+Core Conclusion: While the export scale has increased, the growth rate (YoY) shows cyclical recovery and recurrence.
+
+Business Implications:
+- Total export volume is significantly larger compared to the early period.
+- The cyclical rebound in the growth rate indicates that external demand is not subject to unidirectional change.
+- The endpoint is within the positive growth rate range, providing a buffer for subsequent assessment.
+
+Risk Focus:
+- If y‑y falls below 0% again, it could lead to a simultaneous decline in export orders and revenue.
+- If the export value falls back close to 20 JPYbn, it may affect related capacity utilization and cash flow security.

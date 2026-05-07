@@ -1,0 +1,63 @@
+# 通胀主题深度分析 - 多维度可视化
+# 用法: python scripts/run_batch.py --config batch_configs/inflation_analysis.yaml
+
+batch_name: "inflation_analysis"
+output_base_dir: "./batch_output"
+
+execution:
+  parallel: true
+  max_workers: 6
+  use_process_pool: false
+
+charts:
+  # === 监控类 (monitor) ===
+  # 1. CPI趋势监控 - 中文
+  - chart_type: line
+    language: zh-CN
+    theme: inflation
+    task: monitor
+
+  # 2. PPI趋势监控 - 英文
+  - chart_type: line
+    language: en-US
+    theme: inflation
+    task: monitor
+
+  # === 对比类 (compare) ===
+  # 3. CPI vs PPI 对比 - 中文
+  - chart_type: bar
+    language: zh-CN
+    theme: inflation
+    task: compare
+
+  # 4. 美国 vs 中国通胀率对比 - 英文
+  - chart_type: bar
+    language: en-US
+    theme: inflation
+    task: compare
+
+  # === 解释类 (explain) ===
+  # 5. 通胀驱动因素分析 - 中文
+  - chart_type: scatter
+    language: zh-CN
+    theme: inflation
+    task: explain
+
+  # 6. 通胀与利率关系 - 英文
+  - chart_type: scatter
+    language: en-US
+    theme: inflation
+    task: explain
+
+  # === 诊断类 (diagnose) ===
+  # 7. 通胀异常检测 - 中文
+  - chart_type: line
+    language: zh-CN
+    theme: inflation
+    task: diagnose
+
+  # 8. 通胀结构诊断 - 英文
+  - chart_type: bar
+    language: en-US
+    theme: inflation
+    task: diagnose

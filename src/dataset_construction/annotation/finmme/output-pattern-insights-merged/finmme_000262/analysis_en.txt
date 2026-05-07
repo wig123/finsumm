@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Industry comparison data table
+- Columns: AI productivity benefit % revenue; Labor costs as % total costs; EPS CAGR 2023-2033 under different AI adoption scenarios (Slow/Moderate/Fast)
+- Rows: 25 industry names
+- No axes or legends; units for all columns are percentages
+
+[Data Relationships]
+- Highest AI Benefit: Software and Services 4.8%-9.3; Lowest: Utilities 0.5%-0.9, Materials 0.7%-1.2, Energy 1.0%-1.6.
+- Highest Labor Cost Proportion: 57% (Software and Services), Second Highest: 36% (Commercial and Professional Services); Lowest: 2% (Energy), 5% (Real Estate Management and Development).
+- Highest EPS in Fast Scenario: 12.9% (Semiconductors), Lowest: 1.5% (Energy).
+- EPS Slow/Moderate/Fast Examples: Software and Services 8.1/9.1/10.9; Medical Devices 5.6/7.5/10.7; Real Estate 8.1/8.7/9.7.
+- Other Examples: Media 7.7/8.2/9.0; Telecommunications 2.2/2.7/3.4; REITs 2.7/2.9/3.1.
+
+[Pattern Characteristics]
+Industries show clear stratification between AI benefit and labor cost proportion. High labor cost industries generally correspond to higher AI benefit ranges, while low labor cost industries are concentrated in lower benefit ranges. EPS shows a monotonic increase across the three scenarios for most industries, but the magnitude of the increase varies significantly between industries. A few, such as Semiconductors, maintain high values across all scenarios, while Utilities and Energy consistently remain at lower levels. The EPS gap between different scenarios for certain industries (e.g., Software, Medical Devices, Real Estate Management and Development) is significantly larger than for industries like Utilities and REITs.
+
+[Core Insights]
+Core Conclusion: The potential uplift in earnings growth brought by AI adoption is highly differentiated across various industries.
+
+Business Implications:
+- High labor cost industries possess greater potential for cost improvement and earnings elasticity.
+- Sectors such as Semiconductors and Software are more sensitive to the pace of AI adoption in terms of returns.
+- Earnings in sectors such as Utilities and Energy show weaker dependence on the pace of AI adoption.
+
+Risk Considerations:
+- If AI adoption remains in the Slow scenario, high-expectation industries (e.g., Software EPS 8.1%) may face valuation correction.
+- If AI adoption is concentrated in high-elasticity industries beyond expectations, low-elasticity industries (e.g., Energy EPS 1.5%-1.9%) may be significantly underweighted by capital.

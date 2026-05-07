@@ -1,0 +1,35 @@
+【图表构成】
+- 类型：并列水平条形图；左图标题“US change in z-score vs previous week”，右图标题“Eurozone change in z-score vs previous week”
+- x轴：两图刻度为变化的z-score，范围约-3至+3（含-3、-2、-1、0、1、2、3）
+- y轴：美国包含PPI Final Demand Less Food &…, PPI Final Demand, Existing Home Sales, Markit Manufacturing PMI, Continuing Claims, UoM Consumer Sentiment Index, Markit Services PMI, Building Permits, Leading Index, Housing Starts；欧元区包含FR Manufacturing PMI, EZ Consumer confidence, FR HICP, FR INSEE manufacturing confidence, EZ Services PMI, DE Services PMI, IT HICP, EZ HICP final, EZ Manufacturing PMI, DE Manufacturing PMI
+- 图例：两系列—Change in DSI（浅绿）、Change in ESI（蓝）
+- 数据来源：BNP Paribas, Macrobond, Bloomberg
+
+【数据关系】
+- 美国PPI剔食品能源：DSI≈+2.8，ESI≈+2.2
+- 美国PPI总项：DSI≈+2.2，ESI≈+1.8
+- 美国Leading Index：DSI≈-1.6，ESI≈-0.5
+- 美国建筑许可：DSI≈-0.7，ESI≈-0.2
+- 美国住房开工：ESI≈+1.0，DSI≈0附近
+- 欧区FR制造PMI：DSI≈+2.8，ESI≈+2.0
+- 欧区DE制造PMI：DSI≈-2.3，ESI≈-1.2
+- 欧区消费者信心：ESI≈+1.8，DSI≈+0.5
+- 欧区FR HICP：ESI≈+1.4，DSI≈+0.8
+- 欧区制造PMI（EZ）：DSI≈-0.7，ESI≈-0.1
+
+【模式特征】
+- 两张图中，大多数指标的两条柱长短相近、方向一致，仅在少数项目上出现明显差距。  
+- 美国侧在价格类指标上集中于正区间，在领先与地产相关指标上多处于负区间；欧元区在法国制造PMI上为极端正值，而德国制造PMI则为极端负值。  
+- 个别指标的z-score变化接近±3，形成突出“长柱”，与其余相对中性的指标形成明显对比。
+
+【核心洞察】
+核心结论：价格预期与实体活动信号出现明显分化，且区域间差异突出。
+
+业务含义：  
+- 美国物价相关预期上行，而前瞻与地产指标表现偏弱。  
+- 欧元区内部景气在法国与德国之间呈现强烈不一致。  
+- 情绪类与价格类指标对总体评估的影响正在放大。
+
+风险关注：  
+- 若美国PPI剔食品能源z-score变化持续高于+2，可能压缩企业利润空间。  
+- 若德国制造PMI相关z-score变化继续低于-2，或拖累欧元区整体景气评估。

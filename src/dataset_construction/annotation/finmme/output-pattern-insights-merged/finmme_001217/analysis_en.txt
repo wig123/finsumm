@@ -1,0 +1,33 @@
+[Chart Components]
+- Chart Type: Categorical Data Table
+- Title: Land/Water/Sea use change
+- Structure: The left side contains "ISIC Group (Alphabetical)" and "Production process"; the right side is divided into three domains: Terrestrial use, Freshwater use, Marine use; each domain includes "Indexed pressure score" and "Materiality rating (0 or 1)".
+- Notation: Values are decimals (e.g., 9.0, 8.0, 6.0); "ND" indicates no data.
+- Axes: No axes.
+
+[Data Relationships]
+- Animal Production: Terrestrial 9.0 (Large/Small Livestock), Freshwater/Marine ND.
+- Construction/Real Estate: Construction Terrestrial 9.0; Real Estate Terrestrial 9.0, Freshwater 8.0 (a difference of 1.0).
+- Infrastructure Construction: Terrestrial 9.0, Freshwater 8.0, Marine 9.0, Materiality rating is 1 for all.
+- Infrastructure Maintenance Contracts: Terrestrial 6.0, Materiality rating 0.
+- Fisheries: Freshwater Wild Catch Freshwater 9.0; Saltwater Wild Catch Marine 9.0.
+- Agriculture: Large Irrigation/Rainfed Freshwater 9.0; Small Irrigation Freshwater 8.0; corresponding Terrestrial is 9.0 for both.
+- Mining (Non-ferrous metals): Freshwater 8.0, Terrestrial 9.0 (a difference of 1.0), Marine ND.
+- Maritime and Coastal Transport: Marine 8.0, Materiality rating 1; Financial Services/Healthcare ND in all domains.
+
+[Pattern Characteristics]
+- Scores across various industries in the Terrestrial dimension are highly concentrated in the high range, often paired with a "Materiality rating of 1," demonstrating a pattern dominated by singular high values.
+- A fixed score differential exists between Terrestrial and Freshwater in certain industries, while the Freshwater and Marine dimensions show high values only in a few entries, with the majority being "ND," creating a significant information gap.
+- Certain entries, despite having medium-to-high scores, correspond to a Materiality rating of 0, forming a structural contrast with other entries in the table that show "High Score + Materiality rating 1."
+
+[Core Insights]
+Core Conclusion: Land-related activities are the most critical drivers of change across the three domains, and marine information is the least complete.
+
+Business Implications:
+- Land use has become the primary dimension for evaluating a company's environmental footprint.
+- Infrastructure and agriculture sectors carry significant weight in the comprehensive impact assessment.
+- The evaluation of the Freshwater and Marine dimensions remains insufficient in certain industries.
+
+Risk Focus:
+- Businesses with Terrestrial scores ≥ 9 and Materiality rating = 1, if they expand in scale, will significantly amplify land-related constraints.
+- The high volume of NDs in Marine and Freshwater suggests that if future data filling results in scores ≥ 8, it could trigger additional compliance and disclosure pressure.

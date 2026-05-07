@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Line Chart
+- Title: GLOBAL BEV MODEL COUNT BY REGION
+- Subtitle: WESTERN OEMS (Mass)
+- X-axis: Quarterly timeline, starting Q4’18, ending approximately Q3’30
+- Y-axis: BEV model count, range 0–120, scale increment 20
+- Legend: Europe (Light Blue), USA (Dark Blue), China (Red)
+- Annotation: Orange text "2023–25: +72% increase," marked by two orange vertical dashed lines indicating the period.
+
+[Data Relationships]
+- End Period (approx. Q3’30): Europe≈98–100; USA≈90; China≈46–48
+- Start Period (Q4’18): All three are near 0–5 (Europe≈2; USA≈1; China≈1)
+- Peak Position: Peaks for all regions occur at the end period; values are approximately 100, 90, and 48, respectively.
+- End Period Gap: Europe is higher than USA by approximately 8–10; higher than China by approximately 50–52; USA is higher than China by approximately 42–44.
+- Annotation Period (2023–25): Indicates an increase of +72% (located near the Europe curve).
+
+[Pattern Characteristics]
+All three curves extend upward and to the right from a low point near zero at the start period, showing an overall trend of continuous expansion. Europe consistently maintains the highest level, showing a distinct increase in slope around the 2023–25 period. The USA curve was nearly flat in the early stages, after which the slope gradually increased, eventually tending to run parallel to Europe but remaining below it. The China curve remains the lowest throughout, with a relatively gentle growth rate, slowing slightly in the middle-to-late stages. The three curves form a stable high, medium, and low stratification structure by the end period.
+
+[Core Insights]
+Core Conclusion: The supply of BEV models by Western OEMs exhibits a significant regional stratification pattern.
+
+Business Implications:
+- Europe holds a relatively leading position in the breadth of model deployment.
+- The USA accelerates its follow-up in the middle-to-late stages, narrowing the gap with the leader.
+- China's model count is relatively limited, and the gap in product coverage with the other two is widening.
+
+Risk Concerns:
+- If China remains near the 50-model mark by 2030, it may limit its weight in the global product matrix.
+- If the USA model count consistently lags Europe by more than approximately 10 models, it may weaken its influence in key segmented markets.

@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Time series line chart, overlaid with markers (triangles, circles)
+- Title: SK Hynix
+- Top right information: As of 01-Mar-2024; Currency = KRW
+- X-axis: Date, range approximately 2021/07 to 2024/01 (multiple ticks)
+- Y-axis: Price (KRW), 0–225,000, ticks approximately every 25,000
+- Legend: Gray line=Closing Price; Green triangle=Target Price Change; Blue circle=Recommendation Changes
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial Closing Price ≈ 140,000 KRW (2021/07), Final Closing Price ≈ 160,000 KRW (2024/03), Net change ≈ +20,000 KRW.
+- Lowest Closing Price ≈ 75,000 KRW (H2 2022); Difference from final period ≈ 85,000 KRW, Difference from initial period ≈ 65,000 KRW.
+- Highest Closing Price occurred in early 2024, value ≈ 160,000 KRW; Difference from the lowest point ≈ 85,000 KRW.
+- Highest Target Price ≈ 220,000 KRW (late 2021/early 2022), Lowest ≈ 110,000–120,000 KRW (late 2022/early 2023), Range difference ≈ 100,000 KRW.
+- Target Price mostly ranged between 150,000–195,000 KRW from mid-2023 to early 2024; The latest point ≈ 190,000 KRW.
+
+[Pattern Characteristics]
+- The Closing Price first experienced a period of gradual weakening, forming a distinct trough in H2 2022, after which it generally recovered upwards, reaching the highest point of the entire period in early 2024, exhibiting a shape similar to a "U".
+- The Target Price was at the highest level of the entire period early on, subsequently moved down significantly, remained in a relatively convergent range near the price lows, and then gradually increased with the stock price recovery but did not re-touch the historical high range.
+- The number of blue recommendation change points is extremely small, and they are mostly distributed after the price has significantly deviated from previous levels, failing to form a dense, continuous signal band.
+
+[Core Insights]
+Core Conclusion: The stock price and target price demonstrated a phased re-evaluation process between 2022–2024.
+
+Business Implications:
+- The stock price had significantly deviated from early valuation expectations and subsequently underwent gradual correction.
+- Research institutions made significant range adjustments in their valuation judgment of the company.
+- The frequency of recommendation changes is low, reflecting a relatively stable coverage pace.
+
+Risk Focus:
+- If the stock price approaches 75,000 KRW again, it may signify an amplification of the deviation from the recent target price range.
+- If the target price is lowered below 110,000 KRW, it may correspond to a significant discount by institutions on the company's outlook.

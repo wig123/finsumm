@@ -1,0 +1,35 @@
+[Chart Components]
+- Type: Line Chart
+- Title: Not provided
+- Axes:
+  - X-axis: Time (Quarterly), ranging from 1Q21 to 4Q23, marked quarterly
+  - Y-axis: Percentage scale, from 10% to 30%, with horizontal grid lines marked every 5%
+- Legend: None
+
+[Data Relationships]
+- Initial Value (1Q21): Approximately 18%
+- Final Value (4Q23): Approximately 28%
+- Lowest Point: 2Q21, approximately 15%
+- Highest Point: 3Q23 and 4Q23, approximately 28%
+- Trend:
+  - From 1Q21 to 2Q21, decreased to approximately 15%
+  - Starting from 3Q21, the overall trend is upward
+  - Growth was relatively stable from 2Q22 to 1Q23
+  - Reached the highest point of approximately 28% in 3Q23, 4Q23 slightly leveled off or decreased to approximately 28%
+- Time Span: 1Q21 to 4Q23, totaling 11 quarters
+- Value Range: 15%—28%, all within the Y-axis range of 10%—30%
+
+[Pattern Characteristics]
+The line shape shows a clear low point early on, followed by continuous advancement, approaching the upper end of the scale in the final segment and exhibiting narrow fluctuations. Overall, it is dominated by a single structure, with relatively uniform changes in the middle segment, and no obvious cyclical repetition. The last two quarters show similar levels, forming a slight plateau characteristic.
+
+[Core Insights]
+Core Conclusion: This percentage is already at a near-upper level and is being maintained.
+
+Business Implications:
+- Recent comparisons show a high proportion status.
+- Evaluation should use the 25%—28% range as the benchmark.
+- Small fluctuations can affect quarterly judgment.
+
+Risk Concerns:
+- Falling below 20% would deviate from the norm of the last four quarters and might be considered an anomaly.
+- Exceeding 30% goes beyond the scale limit, leading to distortion in monitoring and comparison.

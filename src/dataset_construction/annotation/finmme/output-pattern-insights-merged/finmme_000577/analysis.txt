@@ -1,0 +1,32 @@
+【图表构成】
+- 图表类型：柱状图叠加散点
+- 标题：Minimum 2025 vs 2023 estimated change in EU (ex UK) BEV volume to meet 2025 CO2 targets (Based on BNPP-Exane PHEV mix assumptions)
+- 纵轴：百分比，范围约 -100% 至 400%，含 0%、-50%、-100%、400% 刻度
+- 横轴：Toyota et al、Ford、VW、RNO‑Nissan‑Mits、Renault、Mercedes、EU+UK Fleet、EU fleet、Stellantis、Hyundai‑Kia、BMW、Volvo、Tesla‑Honda‑JLR
+- 图例：浅绿柱为“% chg in 2025e vs 2023 BEV volume based on flat overall volumes”；橙色点为“% chg in 2025e vs 2023 BEV volume based on BNPPE volume ests”
+- 其他：左侧含EU标识
+
+【数据关系】
+- 浅绿柱：Toyota et al≈370%，Ford≈335%，VW≈100%
+- RNO‑Nissan‑Mits≈60%，Renault≈55%，Mercedes≈45%
+- EU+UK Fleet≈40%，EU fleet≈35%，Stellantis≈35%，Hyundai‑Kia≈25–30%，BMW≈20
+- Volvo≈-25%，Tesla‑Honda‑JLR≈-50%
+- 橙点：Toyota et al≈380%，Ford≈380%，VW≈135%
+- RNO‑Nissan‑Mits≈90%，Renault≈85%，Mercedes≈65%
+- EU+UK≈63%，EU fleet≈52%，Stellantis≈65%，Hyundai‑Kia≈43%，BMW≈39%
+- Volvo≈-8%，Tesla‑Honda‑JLR≈-25%
+
+【模式特征】  
+整体上，各车企的两组百分比呈明显分层，左侧几家为大幅正值，中部为中等正值，右侧两组为负值。多数品牌橙点高于浅绿柱，但差距大小不一，个别品牌两者差距非常显著。Toyota et al、Ford 与其余样本之间存在明显高度差，而Volvo、Tesla‑Honda‑JLR的两组值均位于零轴下方，形成一组相对集中的负值区间。
+
+【核心洞察】  
+核心结论：不同车企在满足2025目标所需增量上分化极大。  
+
+业务含义：  
+- Toyota与Ford面临的电动车销量提升压力最大。  
+- 中游车企需要显著扩张但幅度相对可控。  
+- Volvo及Tesla‑Honda‑JLR当前销量水平相对接近目标区间。  
+
+风险关注：  
+- Toyota/Ford若实际增幅低于100%，将远低于其约350%–380%的需求水平。  
+- Volvo及Tesla‑Honda‑JLR若销量继续低于0%变化，可能无法对冲整体车队排放要求。

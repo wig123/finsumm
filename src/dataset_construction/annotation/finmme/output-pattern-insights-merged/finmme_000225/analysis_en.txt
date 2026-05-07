@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Time series line chart
+- Legend: Red solid line "One year forward PE," Black dashed line "Average"
+- X-axis: Date, Range from 2016/1/24 to 2024/1/24
+- Y-axis: PE multiple, Range 15–35, Scale markings 17, 19, 21, 23, 25, 27, 29, 31, 33, 35
+
+[Data Relationships]
+- Initial period (2016/1/24) approximately 18.0
+- Final period (near 2024/1/24) approximately 33.0
+- Global minimum approximately 16.7 (2016); Global maximum approximately 33.2 (2024); High-low difference approximately 16.5
+- Average line approximately 23.0; Final period is approximately 10.0 higher than the average
+- Peaks in 2017 and 2018 both approximately 26–27; Peak in 2021 approximately 27; Low point in 2022 approximately 19.0
+
+[Pattern Characteristics]
+- The sequence generally exhibits a stepped upward trend from left to right, accompanied by frequent upward and downward oscillations.
+- Fluctuations between 2017–2021 primarily crossed above and below the average line, locally forming multiple medium-height peaks and troughs.
+- After 2023, the curve clearly deviated upward from the average line. High points are concentrated at the far right end of the sample period, approaching the global upper boundary, with no significant downward correction phase.
+
+[Core Insights]
+Core Conclusion: Current valuation is already in a significantly high range, far exceeding historical equilibrium levels.
+
+Business Implications:
+- The deviation of the valuation level relative to the historical mean has significantly widened.
+- Further upside potential may be limited, and sensitivity to pullbacks has increased.
+- Asset allocation must consider that the center of gravity of the valuation distribution has shifted upward.
+
+Risk Concerns:
+- If the PE remains above 30, a valuation decline may lead to significant book value volatility.
+- If the PE falls back to around 23 or below, it may trigger a sharp shift in sentiment and concentrated position reduction.

@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Stacked Bar Chart + Line Chart
+- Title: Not displayed
+- X-axis: Categories are FY16, FY17, FY18, FY19, FY20, FY21, CY21, CY22, CY23
+- Y-axis: Numerical scale approximately -10 to 20 (based on 0, equidistant approximately 5)
+- Legend: Volume (Red), Price (Gray), New product (Black frame white block), Total (Light orange line)
+
+[Data Relationships]
+- Total peak is in FY16, approximately 14–15; FY20, CY21, and CY22 are all approximately 12
+- Total trough is in FY18, approximately -1; FY21 is approximately 4
+- Total for FY19 is approximately 10; FY17 is approximately 12; CY23 is approximately 10
+- The difference in Total between FY16 and FY18 is approximately 16; the difference between CY22 and CY23 is approximately 2–3
+- Volume: FY18 is -5, FY21 is -5, CY23 is approximately -0.5
+- Price: FY19 is approximately 6, FY20 is approximately 9, CY22 is approximately 8
+
+[Pattern Characteristics]
+Overall, the Total shows a clear deep decline followed by a recovery across the periods, maintaining slight fluctuations within a higher range in the middle-to-later stages. In the stacked bars, Price consistently serves as the main positive component. Volume shows significant negative values in a few years, creating a downward drag on Total. New product only provides minor supplementation in most years. FY18 and FY21 are the periods with the most prominent structure, where Volume is negative and Total is at a relatively low level, forming a clear contrast with other years.
+
+[Core Insights]
+Core Conclusion: Total is highly dependent on Price contribution, and Volume volatility brings significant disruption.
+
+Business Implications:
+- Implication 1 Price is the key source of Total growth drivers
+- Implication 2 Volume volatility directly affects overall growth stability
+- Implication 3 New product currently has a relatively limited contribution to the Total
+
+Risk Focus:
+- Risk Point 1 When Volume falls below the -5 level, Total may drop near 0 or even become negative
+- Risk Point 2 If Price contribution declines below 6, it will be difficult for Total to maintain a level above 10

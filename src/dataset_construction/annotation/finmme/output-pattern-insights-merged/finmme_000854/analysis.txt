@@ -1,0 +1,31 @@
+【图表构成】
+- 类型：分组柱状图，各柱显示百分比并标注数值。
+- 标题：未见明确标题。
+- 横轴：4个类别——WB、Assam、Rest of India、Overall microloans；每类含9个季度（Q3FY22至Q3FY24）。
+- 纵轴：百分比刻度，范围0%—25%，每5%一刻度。
+- 图例：季度序列——Q3FY22、Q4FY22、Q1FY23、Q2FY23、Q3FY23、Q4FY23、Q1FY24、Q2FY24、Q3FY24。
+
+【数据关系】
+- 全图最高值：Assam Q1FY23为22%；次高为Assam Q2FY23为19%。
+- 全图最低值：Assam Q1FY24/Q2FY24/Q3FY24均为1%；WB Q3FY24为1%。
+- WB：峰值Q2FY23为10%，谷值Q3FY24为1%，差9个百分点；期初Q3FY22为7%，期末Q3FY24为1%，差6个百分点。
+- Assam：峰值22%(Q1FY23)，谷值1%(Q1FY24—Q3FY24)，差21个百分点；期初9%(Q3FY22)，期末1%(Q3FY24)，差8个百分点。
+- Rest of India：峰值6%(Q2FY23)，谷值2%(Q4FY22)，差4个百分点。
+- Overall microloans：最高8%(Q1FY23、Q2FY23)，最低2%(Q2FY24、Q3FY24)，差6个百分点。
+- 同期对比：Q1FY23各类分别为WB 9%、Assam 22%、Rest of India 5%、Overall 8%；Assam比Overall高14个百分点、比WB高13个百分点、比Rest of India高17个百分点。
+- Q3FY24各类分别为WB 1%、Assam 1%、Rest of India 3%、Overall 2%。
+
+【模式特征】  
+各区域在FY23前中期形成一个明显高点，随后在FY24三个季度处于相对低位区间。Assam在FY23上半年显著高于其他区域且波动幅度最大，之后快速收窄并接近WB水平。Rest of India整体变动较小，曲线相对平缓，而Overall microloans的轨迹大致处于各区域的中间位置，并在后期收窄到低位。
+
+【核心洞察】  
+核心结论：Assam早期压力突出，但各区域近期指标已收敛至低位。
+
+业务含义：  
+- Assam曾是整体组合中最敏感的区域。  
+- 当前组合区域间差异减少，有利于集中管理。  
+- 整体指标回落，显示资产质量分布更趋均匀。
+
+风险关注：  
+- 若Assam再次接近15%以上，整体组合将被单一区域拉高。  
+- Overall microloans若重新升至8%以上，可能压缩收益与资本缓冲。

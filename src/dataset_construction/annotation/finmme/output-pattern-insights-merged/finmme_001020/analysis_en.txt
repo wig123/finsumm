@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Vertical bar chart, comparing model context "Tokens."
+- Title: None; right-side annotation "up to 10M in research."
+- Axes: The bottom horizontal axis is "Tokens," unscaled; the vertical axis is unlabeled.
+- Categories: Gemini 1.0 Pro, GPT-4 Turbo, Claude 2.1, Gemini 1.5 Pro.
+- Annotations: 1 hour video, 11 hours audio, >30K lines of code, >700K words.
+
+[Data Relationships]
+- Values: 32K, 128K, 200K, 1M; research capacity reaches 10M.
+- Comparison:
+  - 1M is 800K more than 200K, approximately 5 times greater.
+  - 1M is 872K more than 128K, approximately 7.8 times greater.
+  - 1M is 968K more than 32K, approximately 31.25 times greater.
+  - 200K is 72K more than 128K; 168K more than 32K.
+- Note: 1M corresponds to 1 hour video, 11 hours audio, >30K lines of code, >700K words.
+
+[Pattern Characteristics]
+The four bars exhibit a clear height differential structure under the same horizontal axis category, where the first three bars are relatively close, but the last bar is significantly taller than the others. The overall structure shows a single category dominating by an order of magnitude, while the remaining categories are concentrated in the lower range. The tallest bar is additionally accompanied by annotations for various content types, and a higher potential upper limit indicator extends above it.
+
+[Core Insights]
+Core Conclusion: A single model establishes absolute leadership in the scale of processable context.
+
+Business Implications:
+- Differences in context capacity widen the application boundaries between models.
+- Highly differentiated capability in processing long documents and long multimodal content.
+- Forms a concentrated advantage in complex task aggregation and integrated processing.
+
+Risk Concerns:
+- When exceeding 1M tokens, if the 10M research capability is not accessed, tasks may be forcibly split, leading to process interruption.
+- When approaching the 10M tokens research limit, insufficient resource planning may lead to a significant amplification of inference latency.

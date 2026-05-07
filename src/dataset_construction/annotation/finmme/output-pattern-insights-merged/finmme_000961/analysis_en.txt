@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Time series line chart (red line).
+- Title: Not displayed.
+- X-axis: Time, Jan-19 to Jan-24, labeled by month.
+- Y-axis: Numerical scale 0.5 to 3.0, interval approximately 0.5; values are Forward P/B (indicated by the legend).
+- Horizontal Reference Lines: Mean=2.1 (gray dashed line), +1SD=2.5 (black dashed line), -1SD=1.7 (orange dashed line).
+- Legend: Forward P/B (red line), Mean=2.1, +1SD=2.5, -1SD=1.7.
+
+[Data Relationships]
+- Initial Period (Jan-19) Forward P/B approximately 2.15.
+- Peak value approximately 2.55 (around Jan-20), 0.45 higher than the Mean, approximately 0.05 higher than +1SD.
+- Trough value approximately 1.45 (near Jul-21 and Jul-22), 0.65 lower than the Mean, approximately 0.25 lower than -1SD.
+- Approximately 1.85 near April 2020.
+- Approximately 2.05 near March 2022.
+- Final Period (Jan-24) approximately 1.65, 0.45 lower than the Mean, approximately 0.05 lower than -1SD.
+- Range (peak-to-trough difference) across the entire period is approximately 1.10 (2.55−1.45).
+
+[Pattern Characteristics]
+The curve generally fluctuated slightly around the Mean from 2019 to early 2020, briefly touching the upper +1SD reference line. After mid-2020, the value began a gradual downward trend, forming trough ranges multiple times near and below -1SD between 2021 and 2022. Subsequently, the value oscillated narrowly at a lower level, consistently remaining below the Mean and failing to approach the upper reference lines again.
+
+[Core Insights]
+Core Conclusion: The valuation level shifted from relatively high to consistently below the historical Mean over the long term.
+
+Business Implications:
+- Overall pricing is more conservative compared to the previous historical median.
+- Compared to the overvalued phase, the potential for upward revaluation is relatively greater.
+- The current range reflects higher price sensitivity and divergence.
+
+Risk Focus:
+- Sustained levels below 1.7 (-1SD) may correspond to further deterioration in sentiment and deeper drawdowns.
+- If the value approaches 2.5 (+1SD) again, the cost-effectiveness of new capital investment may significantly decrease.

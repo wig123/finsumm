@@ -1,0 +1,33 @@
+[Chart Components]
+- Chart Type: Dual-panel data table
+- Main Title: GDP and inflation forecasts (Global Outlook Q2 2024)
+- Left Panel: BNP Paribas GDP growth forecasts. Columns include Annual avg (% y/y: 2023, 2024, 2025) and Quarterly averages (% q/q: Q1–Q4 of 2024, 2025)
+- Right Panel: BNP Paribas CPI inflation forecasts. Columns include Annual avg (% y/y: 2023, 2024, 2025) and Quarterly averages (% y/y: Q1–Q4 of 2024, 2025)
+- Row Dimensions: US, Eurozone, Germany, France, Italy, Spain, China, Japan, UK, India, South Korea, Brazil, Mexico, Poland, South Africa
+- Others: Footnotes "2023 data are actual" and "India’s annual forecasts are for the fiscal year (Apr–Mar)". Source: National statistical agencies, BNP Paribas forecasts. No axes, unit is percentage.
+
+[Data Relationships]
+- 2024 GDP: India highest at 8.1%; Germany lowest at 0.0%; US 2.8%, Eurozone 0.7% (a difference of 2.1 pct)
+- 2025 GDP: US 1.8%, Eurozone 1.7% (a difference of 0.1 pct)
+- 2023 GDP: Germany -0.1% is the only negative value; Spain 2.5%
+- 2024 GDP Comparison: China's 4.3% is 1.5 pct higher than the US
+- 2024 CPI: US 3.1%, Eurozone 2.3%, China 1.0%, Japan 2.2%, UK 2.2%, India 4.0%
+- 2025 CPI: US 2.8%, Eurozone 2.1% (a difference of 0.7 pct); China 2.0%, Japan 2.5%
+- 2023 CPI: Poland highest at 11.5%; China lowest at 0.2%; UK 7.4%
+
+[Pattern Characteristics]
+- The annual average GDP growth rates for most economies are positive during the sample period. A few countries were at low levels or slightly negative in 2023, with subsequent annual figures showing relative convergence. Quarterly data exhibits moderate fluctuations between years, without significant abrupt changes.
+- Overall, the annual average inflation rate shows a clear downward trend from 2023 to 2025, although significant differences persist among countries. While inflation in some high-inflation economies drops notably in 2024–2025, it remains higher than in most other economies. Quarterly inflation data is relatively smooth within the year, with only isolated countries showing relatively prominent peaks or troughs.
+- Growth and inflation do not exhibit a simple consistent structure across countries: combinations of high growth/low inflation and high inflation/moderate growth coexist, indicating a diversified combination landscape.
+
+[Core Insights]
+Core Conclusion: Major global economies exhibit a combination pattern of "moderate growth + inflation deceleration."
+
+Business Implications:
+- The overall environment corresponds to a relatively moderate pace of economic expansion.
+- Price pressure eases in most economies, increasing the maneuvering room for interest rate policy.
+- Divergence in growth and price combinations across countries widens, requiring more granular stratification in asset allocation.
+
+Risk Concerns:
+- If CPI in individual economies remains above 4% in 2025, tight interest rates may persist, suppressing the valuation of local growth assets.
+- If GDP falls below 0% in 2024 or 2025 and persists for several quarters, the relevant countries may face downward revisions in earnings expectations and widening credit spreads.

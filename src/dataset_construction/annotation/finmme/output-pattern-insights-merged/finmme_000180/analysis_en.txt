@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Time series line chart, including a green shaded area and a terminal diamond marker
+- Title: Not displayed
+- X-axis: Time, scaled from 2019 to 2024
+- Y-axis: "3‑month difference", range approximately -0.4 to 0.5
+- Legend: Solid line "US multi-asset fund equity beta"; Dashed line "10th percentile, expanding window"
+- Reference lines: 0 baseline; Dashed line represents the percentile threshold, with the green shade located below it
+
+[Data Relationships]
+- Maximum value of the solid line is approximately 0.45, located near 2024
+- Minimum value of the solid line is approximately -0.22, located in the mid-to-late part of 2024
+- Range of the solid line is approximately 0.67 (0.45 - (-0.22))
+- Dashed line threshold: Approximately -0.06 in 2019; Approximately -0.10 in 2024
+- Terminal diamond marker value is approximately -0.16; It is approximately 0.06 below the dashed line; The difference from the 0 baseline is approximately 0.16
+
+[Pattern Characteristics]
+- The solid line operates continuously around the 0 level, showing no obvious cyclical pattern overall.
+- The 2024 period showed a significant extreme deviation followed by a reversal, with greater amplitude than previous periods.
+- The latest data point is located in the shaded area below the dashed line threshold, highlighted by a diamond marker.
+
+[Core Insights]
+Core Conclusion: The change in equity beta over the past three months has fallen into the low percentile zone
+
+Business Implications:
+- Indicates that the magnitude of sensitivity change is abnormally negative
+- May suppress the portfolio's market correlation
+- Suggests that allocation flexibility is constrained
+
+Risk Focus:
+- Sustained < -0.10: The three-month difference is too low, potentially leading to excessive adjustment of equity exposure
+- Rises to >0: The change turns positive, potentially leading to overly rapid expansion of equity exposure

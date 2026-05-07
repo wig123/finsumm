@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Line Chart
+- Title: Property loan growth (y-y) by type
+- X-axis: Quarter, 1Q21—4Q23
+- Y-axis: Percentage, -10.0%—20.0% (Marked at 0.0%, 10.0%, -10.0%)
+- Legend: Total property loans (Grey), Mortgage loans (Red), Property developer loans (Orange), Subsidized housing developer loan (Light Orange)
+
+[Data Relationships]
+- Mortgage: Approximately 15% in 1Q21 (peak), approximately -3% in 4Q23 (trough), interval change approximately 18pp.
+- Total property loans: Approximately 11% in 1Q21, approximately -2% in 4Q23, change approximately 13pp; peak/trough approximately 11% (1Q21), -2% (4Q23).
+- Property developer loans: Approximately 4% in 1Q21, approximately 0% in 3Q21 (low), approximately 6% in 1Q23 (high), peak-to-trough difference approximately 6pp.
+- Subsidized housing developer loan: Approximately -2% in 3Q21 (low), approximately 1% in 1Q23 (high), interval difference approximately 3pp; approximately -1% in 1Q21, 0% in 4Q23.
+
+[Pattern Characteristics]
+- All series gradually converge toward the zero axis from the early positive range, with Mortgage and Total remaining below the zero axis in the later period.
+- Property developer loans initially weakened, then strengthened, forming a single peak before declining, showing a "U" shape before flattening out.
+- Subsidized housing developer loan consistently maintains low volatility around the zero axis, crossing other series multiple times during the period.
+
+[Core Insights]
+Core Conclusion: Insufficient contribution from mortgages; growth relies more heavily on developer loans.
+
+Business Implications:
+- The dominant source of the portfolio shifts from mortgages to development loans.
+- Total growth rate is dragged down by mortgage performance.
+- Subsidized housing development has limited impact on the total volume.
+
+Risk Focus:
+- Total property loans ≤ 0%: Total volume YoY is negative, indicating scale decline.
+- Mortgage ≤ -3%: Aggregate growth rate is pulled down, indicating structural imbalance.

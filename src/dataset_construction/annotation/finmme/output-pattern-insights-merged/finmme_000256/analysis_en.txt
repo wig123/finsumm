@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Time series line chart; Title: New China Life.
+- Top right annotation: As of 26-Feb-2024; Currency=HKD.
+- X-axis: Date, scale includes 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01.
+- Y-axis: Price (HKD), range approximately 0–45.
+- Legend: Closing Price (Black line), Target Price Change (Green triangle), Recommendation Changes (Blue dot).
+- Source: LSEG, Nomura.
+
+[Data Relationships]
+- Initial closing price approximately 30 HKD (around 2021/07); Final price approximately 15 HKD (2024/02); The difference between the two is approximately 15 HKD.
+- Highest closing price approximately 30 HKD; Lowest approximately 13 HKD (around 2023/01); High-low difference approximately 17 HKD.
+- The highest green triangle is approximately 45 HKD (mid-2021); The rest are mostly concentrated around 23–27 HKD (H2 2022 to early 2024).
+- No blue "Recommendation Changes" markers are visible in the chart.
+
+[Pattern Characteristics]
+- The closing price gradually moved from a higher range at the beginning of the chart to a lower range at the end, with several brief rebounds in between, but the overall trend is volatile, and the lows are sequentially declining.
+- The green triangles were positioned higher in the chart during the early stage, after which they generally showed a step-like decline and concentrated within a relatively narrow range in the middle to later stages.
+- No blue dot markers appeared in the chart, indicating no recommendation changes during the period. The price trend remained continuous throughout the time frame, without significant price gaps (gaps).
+
+[Core Insights]
+Core Conclusion: Long-term stock performance is weaker than early expectations; the target price has been adjusted downward but remains somewhat optimistic.
+
+Business Implications:
+- Earnings or valuation expectations have been adjusted multiple times but maintain a certain level of confidence.
+- The stock price exhibits a persistent discount relative to the forecast level.
+- Lack of rating updates may reflect a slower pace of coverage and feedback.
+
+Risk Focus:
+- If the closing price consistently remains below 20 HKD, investors may amplify bearish interpretations, affecting trading activity (liquidity).
+- If the subsequent target price is lowered close to 15 HKD, it may trigger concentrated institutional downgrades and capital outflow.

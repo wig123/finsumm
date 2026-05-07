@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Time series line chart, including a step line; data points marked with red dots.
+- Title: Not displayed.
+- X-axis: Time, scale markers are sequentially 01-21, 04-21, 07-21, 10-21, 01-22, 04-22, 07-22, 10-22, 01-23, 04-23, 07-23, 10-23, 01-24.
+- Y-axis: Price (USD), range approximately USD0.00—USD400.00, equidistant scale.
+- Legend: Closing price (cyan line), Target price (gray step line).
+
+[Data Relationships]
+- Initial period (01-21) closing price ≈ USD250; Final period (01-24) closing price ≈ USD50; Difference ≈ USD200.
+- Highest closing price ≈ USD350 (approx. 07-21); Lowest closing price ≈ USD50 (approx. 04-23 to 01-24).
+- 07-21 Target price ≈ USD360–370; Closing price ≈ USD330–350; Difference ≈ 10–40.
+- 01-22 Target price ≈ USD290; Closing price ≈ USD190–210; Difference ≈ 80–100.
+- 04-22 Target price ≈ USD210; Closing price ≈ USD110–130; Difference ≈ 80–100.
+- 01-23 Target price ≈ USD100; Closing price ≈ USD70–90; Difference ≈ 10–30.
+- 04-23 Target price ≈ USD80; Closing price ≈ USD50; 01-24 Target price ≈ USD60–80; Closing price ≈ USD50.
+
+[Pattern Characteristics]
+The closing price initially rose briefly before entering a multi-stage decline, stabilizing in a narrow range near the low point during the latter half of the period. The target price exhibits a stepped structure with segmented adjustments, remaining horizontal for a period after each adjustment. Overall, the closing price consistently remains below the target price. The gap between the two was significant during the middle period, but has noticeably narrowed and stabilized towards the end.
+
+[Core Insights]
+Core Conclusion: Following multiple downward revisions of the target price, the gap between expectation and actual performance has passively narrowed.
+
+Business Implications:
+- Significant deviation between mid-term expectations and market performance, raising doubts about pricing effectiveness.
+- The narrowing of the gap in the later period stems from downward revisions of expectations, challenging the valuation framework.
+- The current price closely tracks the latest target range, limiting scope for further adjustments.
+
+Risk Concerns:
+- If the future target price continues to be revised down below USD50, it may trigger further emotional selling pressure.
+- If the closing price remains near USD50 for an extended period without a new round of target price upward revisions, it may weaken holding sentiment and investor attention.

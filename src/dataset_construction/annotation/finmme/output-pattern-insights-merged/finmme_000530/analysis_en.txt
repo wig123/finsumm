@@ -1,0 +1,27 @@
+[Chart Components]
+- Chart Type: Line Chart
+- Axis Labels: Y-axis is "JPYmn," scale 0–12,000 (approximately 2,000 increments); X-axis is Quarterly, range 1Q15 to 3Q23
+- Legend: Red=Machine Tools; Gray=General Machinery; Black=Electronics
+- Title: Not displayed in the chart
+
+[Data Relationships]
+- 1Q15: Machine Tools ≈ 4,300; General Machinery ≈ 4,000; Electronics ≈ 3,600. 3Q23: Machine Tools ≈ 2,000; General Machinery ≈ 2,600; Electronics ≈ 5,300.
+- Peak (1Q18): Electronics ≈ 10,200; General Machinery ≈ 8,200; Machine Tools ≈ 8,000.
+- Trough/Low Point: Machine Tools ≈ 1,200 (1Q20); General Machinery ≈ 2,500 (3Q19); Electronics ≈ 2,600 (3Q19).
+- 1Q18 Spread: Electronics - Machine Tools ≈ 2,200; Electronics - General Machinery ≈ 2,000; General Machinery - Machine Tools ≈ 200.
+- Change from Start to End of Period: Machine Tools ≈ -2,300; General Machinery ≈ -1,400; Electronics ≈ +1,700.
+
+[Pattern Characteristics]
+All three lines formed a common high point around 1Q18, preceded by a relatively synchronized ascent phase, followed by a rapid decline. Subsequently, the overall trend showed two distinct fluctuations: reaching respective local troughs around 1Q20, followed by forming another relatively high range around 1Q22, before declining again. Electronics consistently maintained the highest value level in the latter half of the period, while Machine Tools was the lowest at the end of the sample; the three generally moved in the same direction, with significant deviations in magnitude only occurring in isolated quarters.
+
+[Core Insights]
+Core Conclusion: The Electronics segment gradually became the dominant scale factor amid cyclical fluctuations.
+
+Business Implications:
+- Electronics revenue demonstrated stronger support capability at the end of the sample period.
+- Overall revenue is more reliant on Electronics, with reduced dependence on Machine Tools and General Machinery.
+- Revenue structure is concentrated in Electronics, simultaneously amplifying portfolio elasticity and single-segment exposure.
+
+Risk Focus:
+- If Electronics falls below 3,000 JPYmn and other segments do not recover, overall revenue will approach the historical low range.
+- If Machine Tools consistently remains below 2,000 JPYmn, it will weaken the diversification effect among segments, amplifying the impact of volatility in the Electronics segment.

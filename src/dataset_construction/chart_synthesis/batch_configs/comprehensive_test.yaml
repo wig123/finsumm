@@ -1,0 +1,233 @@
+# 综合测试配置 - 30张多样化图表
+# 测试不同主题、不同库、不同语言、不同图表类型
+# 用法: python scripts/run_batch.py --config batch_configs/comprehensive_test.yaml
+
+batch_name: "comprehensive_test"
+output_base_dir: "./batch_output"
+
+# 执行配置
+execution:
+  parallel: true          # 并行执行
+  max_workers: 10         # 最大并发数
+  use_process_pool: false # 使用线程池(进程池需要代码重构以支持序列化)
+  use_async: true         # 使用异步IO (真正的并发,推荐)
+
+# 图表列表 (30张)
+charts:
+  # === matplotlib 库测试 (10张) ===
+
+  # 1. 宏观政策 - 中文折线图
+  - chart_type: line
+    language: zh-CN
+    theme: macro_policy
+    library: matplotlib
+    data_constraints: {}
+
+  # 2. 通胀 - 英文柱状图
+  - chart_type: bar
+    language: en-US
+    theme: inflation
+    library: matplotlib
+    data_constraints: {}
+
+  # 3. 增长就业 - 中文散点图
+  - chart_type: scatter
+    language: zh-CN
+    theme: growth_employment
+    library: matplotlib
+    data_constraints: {}
+
+  # 4. 外汇交易 - 英文折线图
+  - chart_type: line
+    language: en-US
+    theme: fx_trade
+    library: matplotlib
+    data_constraints: {}
+
+  # 5. 股票市场 - 中文柱状图
+  - chart_type: bar
+    language: zh-CN
+    theme: equity_markets
+    library: matplotlib
+    data_constraints: {}
+
+  # 6. 固定收益 - 英文散点图
+  - chart_type: scatter
+    language: en-US
+    theme: fixed_income
+    library: matplotlib
+    data_constraints: {}
+
+  # 7. 大宗商品 - 中文折线图
+  - chart_type: line
+    language: zh-CN
+    theme: commodities
+    library: matplotlib
+    data_constraints: {}
+
+  # 8. 银行信贷 - 英文柱状图
+  - chart_type: bar
+    language: en-US
+    theme: banking_credit
+    library: matplotlib
+    data_constraints: {}
+
+  # 9. 企业财务 - 中文散点图
+  - chart_type: scatter
+    language: zh-CN
+    theme: corporate_finance
+    library: matplotlib
+    data_constraints: {}
+
+  # 10. 房地产 - 英文折线图
+  - chart_type: line
+    language: en-US
+    theme: real_estate
+    library: matplotlib
+    data_constraints: {}
+
+  # === seaborn 库测试 (10张) ===
+
+  # 11. 通胀 - 中文折线图
+  - chart_type: line
+    language: zh-CN
+    theme: inflation
+    library: seaborn
+    data_constraints: {}
+
+  # 12. 宏观政策 - 英文柱状图
+  - chart_type: bar
+    language: en-US
+    theme: macro_policy
+    library: seaborn
+    data_constraints: {}
+
+  # 13. 外汇交易 - 中文散点图
+  - chart_type: scatter
+    language: zh-CN
+    theme: fx_trade
+    library: seaborn
+    data_constraints: {}
+
+  # 14. 增长就业 - 英文折线图
+  - chart_type: line
+    language: en-US
+    theme: growth_employment
+    library: seaborn
+    data_constraints: {}
+
+  # 15. 固定收益 - 中文柱状图
+  - chart_type: bar
+    language: zh-CN
+    theme: fixed_income
+    library: seaborn
+    data_constraints: {}
+
+  # 16. 股票市场 - 英文散点图
+  - chart_type: scatter
+    language: en-US
+    theme: equity_markets
+    library: seaborn
+    data_constraints: {}
+
+  # 17. 银行信贷 - 中文折线图
+  - chart_type: line
+    language: zh-CN
+    theme: banking_credit
+    library: seaborn
+    data_constraints: {}
+
+  # 18. 大宗商品 - 英文柱状图
+  - chart_type: bar
+    language: en-US
+    theme: commodities
+    library: seaborn
+    data_constraints: {}
+
+  # 19. 房地产 - 中文散点图
+  - chart_type: scatter
+    language: zh-CN
+    theme: real_estate
+    library: seaborn
+    data_constraints: {}
+
+  # 20. 企业财务 - 英文折线图
+  - chart_type: line
+    language: en-US
+    theme: corporate_finance
+    library: seaborn
+    data_constraints: {}
+
+  # === mplfinance 库测试 (5张) ===
+
+  # 21. 大宗商品K线 - 中文
+  - chart_type: candlestick
+    language: zh-CN
+    theme: commodities
+    library: mplfinance
+    data_constraints: {}
+
+  # 22. 外汇交易K线 - 英文
+  - chart_type: candlestick
+    language: en-US
+    theme: fx_trade
+    library: mplfinance
+    data_constraints: {}
+
+  # 23. 股票市场K线 - 中文
+  - chart_type: candlestick
+    language: zh-CN
+    theme: equity_markets
+    library: mplfinance
+    data_constraints: {}
+
+  # 24. 大宗商品布林带 - 英文
+  - chart_type: bollinger_bands
+    language: en-US
+    theme: commodities
+    library: mplfinance
+    data_constraints: {}
+
+  # 25. 外汇交易成交量 - 中文
+  - chart_type: candlestick_volume
+    language: zh-CN
+    theme: fx_trade
+    library: mplfinance
+    data_constraints: {}
+
+  # === plotly 库测试 (5张) ===
+
+  # 26. 增长就业 - 中文折线图
+  - chart_type: line
+    language: zh-CN
+    theme: growth_employment
+    library: plotly
+    data_constraints: {}
+
+  # 27. 通胀 - 英文柱状图
+  - chart_type: bar
+    language: en-US
+    theme: inflation
+    library: plotly
+    data_constraints: {}
+
+  # 28. 股票市场 - 中文散点图
+  - chart_type: scatter
+    language: zh-CN
+    theme: equity_markets
+    library: plotly
+    data_constraints: {}
+
+  # 29. 企业财务 - 英文折线图
+  - chart_type: line
+    language: en-US
+    theme: corporate_finance
+    library: plotly
+    data_constraints: {}
+
+  # 30. 房地产 - 中文柱状图
+  - chart_type: bar
+    language: zh-CN
+    theme: real_estate
+    library: plotly
+    data_constraints: {}

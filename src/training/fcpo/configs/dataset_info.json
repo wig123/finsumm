@@ -1,0 +1,20 @@
+{
+  "fcpo_v2_gamma1": {
+    "file_name": "$DATA_ROOT/dpo/data/fcpo_v2_gamma1_lf.json",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {"messages": "conversations", "chosen": "chosen", "rejected": "rejected", "images": "images"}
+  },
+  "fcpo_v2_gamma2": {
+    "file_name": "$DATA_ROOT/dpo/data/fcpo_v2_gamma2_lf.json",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {"messages": "conversations", "chosen": "chosen", "rejected": "rejected", "images": "images"}
+  },
+  "fcpo_v2_gamma4": {
+    "file_name": "$DATA_ROOT/dpo/data/fcpo_v2_gamma4_lf.json",
+    "formatting": "sharegpt",
+    "ranking": true,
+    "columns": {"messages": "conversations", "chosen": "chosen", "rejected": "rejected", "images": "images"}
+  }
+}

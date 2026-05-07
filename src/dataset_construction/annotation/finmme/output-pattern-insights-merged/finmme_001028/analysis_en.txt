@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Combination Chart (Red Bar + Black Line)
+- Title: Not displayed
+- X-axis: Years 2016–2022
+- Left Y-axis: Numerical scale 0–8,000, corresponding to “China”
+- Right Y-axis: Percentage scale 0%–50%, corresponding to “y‑y % (RHS)”
+- Legend: China, y‑y % (RHS)
+
+[Data Relationships]
+- Bar Values: 2016=1,713; 2017=2,413; 2018=3,120; 2019=4,461; 2020=5,307; 2021=6,646; 2022=7,179.
+- Line Values: 32%, 41%, 29%, 43%, 19%, 25%, 8% (2016→2022).
+- Highest bar value 7,179 (2022), lowest 1,713 (2016), difference = 5,466; 2022/2016 ≈ 4.19.
+- Year-over-Year Bar Value Difference: +700, +707, +1,341, +846, +1,339, +533.
+- Highest percentage 43% (2019), lowest 8% (2022), difference = 35 percentage points.
+
+[Pattern Characteristics]
+Bar values show a continuous upward trend from 2016 to 2022. The single-year increment varies significantly between different years, with relatively larger increases observed in 2018–2019 and 2020–2021. The line values fluctuate within a generally high range, peaking in 2019 and subsequently declining year by year, reaching the lowest point of the entire period in 2022. The direction of movement for the bar and line values is inconsistent in certain years, forming relatively distinct structural inflection points around 2019–2020 and 2020–2021.
+
+[Core Insights]
+Core Conclusion: Scale continues to expand, but the growth rate is weakening periodically.
+
+Business Implications:
+- The long-term expansion trend is clear, and the base figure has risen significantly.
+- Growth momentum weakened after 2019, with the slowdown being particularly pronounced in the later period.
+- The combination of a high base and low growth rate leads to a decline in marginal contribution.
+
+Risk Focus:
+- If the y‑y% remains below 10% for an extended period, the absolute scale may approach a plateau.
+- If the y‑y% falls below the 8% low point again, subsequent incremental growth may be insufficient to cover cost inputs.

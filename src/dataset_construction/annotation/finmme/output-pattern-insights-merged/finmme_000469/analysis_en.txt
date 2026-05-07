@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Dual-axis time series line chart
+- Title: No centered main title observed; chart includes explanatory text annotations.
+- X-axis: Year, range approximately 1950–2023, ticks include 1950, 1960, 1970, 1980, 1990, 2000, 2010, 2020.
+- Left Y-axis: PAT margin (%), range 0%–16%.
+- Right Y-axis: Wages-to-income (%), range 40%–50%.
+- Legend: Two series—PAT margin (dark color) and Wages-to-income (light color).
+- Other: Red dashed box indicates the approximate 2002–2023 interval.
+
+[Data Relationships]
+- PAT margin: 2023 approx. 14%; 1991 approx. 4%; 1950 approx. 10%; 2000 approx. 7%–8%; 2010 approx. 12%; 2020 approx. 13%.
+- Wages-to-income: 1950s approx. 48%–49%; 2012 approx. 40%–41%; 2002 approx. 45%; 2023 approx. 45%–46%.
+- PAT margin difference (high vs. low) ≈ 10 percentage points (14% vs 4%).
+- Wages-to-income difference (high vs. low) ≈ 8–9 percentage points (≈49% vs ≈40%).
+- 2002→2023: PAT margin approx. 7%–8%→approx. 14%; Wages-to-income approx. 45%→approx. 45%–46%.
+
+[Pattern Characteristics]
+- The overall trends of the two series were relatively similar between 1950 and 2000, with localized synchronous peaks and decline intervals, though the magnitudes differed.
+- After approximately 2002, the PAT margin showed a stepwise increase and fluctuated near high levels, while Wages-to-income first declined significantly before recovering. The gap between the two widened substantially during this period.
+- Around 2008–2012, Wages-to-income showed a clear trough at a low level, while the PAT margin did not experience a corresponding degree of decline during the same period.
+
+[Core Insights]
+Core Conclusion: After 2002, the profit proportion and the wage proportion exhibited a continuously widening structural divergence.
+
+Business Implications:
+- The structural dependence of corporate profitability on factor distribution has changed.
+- The correlation between the income statement and compensation costs has significantly weakened.
+- The sensitivity of labor compensation to changes in overall earnings has decreased.
+
+Risk Concerns:
+- If the PAT margin consistently remains above 12% while Wages-to-income is below 43%, it may amplify conflicts over benefit distribution.
+- If Wages-to-income rises above 47% while the PAT margin falls below 8%, it could compress corporate profit margins and affect reinvestment.

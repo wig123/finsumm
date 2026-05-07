@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Multi-series Time-Series Line Chart
+- Title: FY24 EPS US$ (Indexed =100)
+- X-axis: Date range 04-Jan-23 to 28-Feb-24, marked by week/day
+- Y-axis: Index level, range approximately 55–120
+- Legend: AeJ, Autos, Mats, CapGds, Com/Prof Svcs, Cons.Durables, Cons Srvc., Fd/Stpl Rtl, Media/Ent, RtIng, Tpt.
+- Note: The title annotation "Indexed=100" represents the baseline value
+
+[Data Relationships]
+- Initial Period (04-Jan-23): All series are approximately ≈100
+- Global Maximum: RtIng reached approximately 115 in Jan 2024
+- Global Minimum: Mats reached approximately 59 at the end of Feb 2024
+- End Period (28-Feb-24): Media/Ent≈109, RtIng≈108, Autos≈108, CapGds≈99, AeJ≈86, Com/Prof Svcs≈82, Cons.Durables≈82, Cons Srvc≈77, Fd/Stpl Rtl≈75, Tpt≈75, Mats≈59
+- Difference between Maximum and Minimum ≈56; Changes relative to the baseline of 100 at the end of the period are, respectively: +9, +8, +8, -1, -14, -18, -18, -23, -25, -25, -41
+
+[Pattern Characteristics]
+- After the initial point, all series rapidly diverge. A few curves near the top range extend horizontally, while multiple curves below slowly trend downward in the lower range, maintaining an increasing distance.
+- Several series in the middle fluctuate narrowly around the baseline level, presenting an overall multi-layered distribution structure rather than a single cluster.
+- Individual series showed a distinct step-down shift around mid-year, subsequently failing to return to their original range, resulting in sustained divergence from other series.
+
+[Core Insights]
+Core Conclusion: FY24 EPS expectations across various sectors show a clear pattern of divergence.
+
+Business Implications:
+- A few sectors show outstanding expected performance, forming focal points for returns.
+- Expectations for most sectors are compressed, dragging down overall portfolio performance.
+- The widening gap in expectations between sectors increases the importance of structural allocation.
+
+Risk Focus:
+- If the lowest sector index consistently remains below 70, it may significantly depress the portfolio's EPS growth rate.
+- Should the leading sector indices fall back toward 100, it would undermine the current support for overall expectations.

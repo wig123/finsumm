@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Dual-axis line chart (with markers).
+- Title: 2W, 3W & SCVs.
+- Legend: Red—CIFC disbursement growth (YoY); Black—Industry volume growth (YoY).
+- X-axis: FY17, FY18, FY19, FY20, FY21, FY22, FY23, 9M24.
+- Left Y-axis: Percentage scale, approximately -30% to 90%.
+- Right Y-axis: Percentage scale, approximately -35% to 35%.
+- Other: Annotation “Correlation: 0.7”.
+
+[Data Relationships]
+- CIFC Peak: FY18≈95%; Trough: FY21≈-28%.
+- Industry Peak: FY23≈32%; Trough: FY21≈-33%.
+- Initial Period FY17: CIFC≈15%; Industry≈12%; Final Period 9M24: CIFC≈35%; Industry≈5%.
+- FY18 Gap≈80 percentage points (95% vs 15%).
+- FY21 Gap≈5 percentage points (-28% vs -33%).
+- FY23 Gap≈33 percentage points (65% vs 32%).
+- Range Volatility: CIFC≈123 percentage points; Industry≈65 percentage points.
+- Correlation Coefficient: 0.7 (Annotated on chart).
+
+[Pattern Characteristics]
+The overall trend of the two series changes in the same direction, with a significant low point appearing simultaneously in FY21, showing a relatively synchronous turning structure in the preceding and subsequent phases. The amplitude of the CIFC series is significantly greater than the industry series, and it occupies higher or lower extreme positions in multiple years. The distance between the two lines significantly narrows or widens in different stages across various years, especially forming large deviation segments in FY18 and FY23.
+
+[Core Insights]
+Core Conclusion: CIFC exhibits an amplification effect on industry prosperity and periodically surpasses industry growth speed.
+
+Business Implications:
+- Overall performance changes with the industry, reflecting a high degree of industry dependence.
+- The amplification effect relative to the industry increases the potential for market share acquisition.
+- Deviations in extreme years suggest a more aggressive operational pace.
+
+Risk Focus:
+- When industry growth rate is ≤0%, if CIFC consistently lags the industry by 5 percentage points, it may amplify downside losses.
+- When CIFC growth rate is ≥70% and the industry is ≤30%, if this persists for more than two years, it may intensify asset quality and recovery pressure.

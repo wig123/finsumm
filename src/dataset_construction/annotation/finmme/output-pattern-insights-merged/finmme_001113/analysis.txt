@@ -1,0 +1,28 @@
+【图表构成】
+- 图表类型：分组柱状图
+- 标题：未显示
+- 横轴：币种类别（GBP、USD、EUR、JPY、CHF、AUD、BRL、IDR、ZAR、PLN）
+- 纵轴：USD Million，刻度约从-20到10
+- 图例：Spot（蓝色）、Options（绿色）
+
+【数据关系】
+- Spot：USD约-18～-19；EUR约-5；JPY约+2；IDR约+2；BRL约+7；ZAR约+7；GBP≈0；AUD≈0；PLN≈0；CHF≈0。
+- Options：USD约-3；GBP约+1；AUD约+1；PLN约+0.5；其余（EUR、JPY、CHF、BRL、IDR、ZAR）≈0。
+- USD类别中，Spot与Options差值约15。
+- 正值最高：BRL、ZAR的Spot均约+7；负值最大：USD的Spot约-18～-19。
+- EUR的Spot与USD的Spot差距约13～14。
+
+【模式特征】  
+各币种在Spot和Options之间呈现明显的结构性差异，少数币种两者方向一致但规模相差较大。整体上，Spot在多数币种上更偏离零值，而Options多分布在零值附近，仅在少数币种上有小幅偏离。USD的Spot柱与其他币种相比绝对值突出，BRL和ZAR的Spot柱在正值一侧明显高于其他正值币种。
+
+【核心洞察】  
+核心结论：敞口高度集中于少数币种，且以现货为主。  
+
+业务含义：  
+- 整体风险主要由USD现货头寸驱动。  
+- 期权对整体风险的调节作用有限。  
+- BRL、ZAR等新兴币种对盈亏波动有放大效果。  
+
+风险关注：  
+- USD Spot低于-15时，单一币种波动可能主导整体结果。  
+- BRL或ZAR Spot高于+7时，局部市场变动或放大组合波动。

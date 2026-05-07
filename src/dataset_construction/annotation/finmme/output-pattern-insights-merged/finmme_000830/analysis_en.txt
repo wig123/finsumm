@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Time series line chart
+- Title: Not displayed
+- X-axis: Date, from Feb-14 to Feb-24 (February labeled annually)
+- Y-axis: EV/EBITDA (x), range 4–18, scale interval approximately 2
+- Legend: Red "Ramco EV/EBITDA (x)", Gray "3-years average (x)", Black "5-years average (x)"
+
+[Data Relationships]
+- Initial period (Feb-14) Ramco≈7x; Final period (Feb-24) ≈13.7x; Difference between final and initial period ≈6.7x
+- All-time high ≈16.8x (around 2021), All-time low ≈7x (Feb-14); High-low spread ≈9.8x
+- Low point near 2020 ≈9.5x
+- 3-year average: Starting point ≈11x (Feb-17), Final period ≈14.3x; 5-year average: Starting point ≈12.4x (Feb-19), Final period ≈14.2x
+- Comparison at final period: Ramco≈13.7x, 3-year average ≈14.3x, 5-year average ≈14.2x; Ramco is lower by ≈0.6x and ≈0.5x, respectively.
+
+[Pattern Characteristics]
+The Ramco curve generally shows a phased upward trend within the mid-to-high range, accompanied by significant high-frequency volatility, with one sharp downward spike occurring during the period. The 3-year and 5-year average curves slowly trend upward from their respective starting points, gradually converging and slightly exceeding the Ramco curve in the middle-to-later stages. The values of the three metrics are close in the final period, forming a convergence structure.
+
+[Core Insights]
+Core Conclusion: The valuation level is approaching the upper boundary of the medium-to-long-term average range.
+
+Business Implications:
+- Implication 1 Current valuation has limited premium compared to the historical equilibrium range
+- Implication 2 The medium-to-long-term pricing center has shifted upward
+- Implication 3 Short-term trading space is relatively restricted
+
+Risk Focus:
+- Risk Point 1 If Ramco approaches 16.8x again, it may trigger valuation pullback pressure
+- Risk Point 2 A breach below the approximately 9.5x level could signify a sharp drop in sentiment and an amplified discount

@@ -1,0 +1,33 @@
+【图表构成】
+- 类型：信息图表
+- 标题：未提供
+- 坐标轴：无坐标轴
+- 图例：四个板块分别代表不同金融业务领域：
+  - 零售银行（Retail banking）
+  - 投资银行（Investment banking）
+  - 企业银行（Corporate banking）
+  - 保险（Insurance）
+
+【数据关系】
+- 零售银行业务包括绿色抵押贷款（Green mortgage）、绿色消费贷款（Green consumer loans）、绿色汽车租赁（Green car lease）和信用卡（Credit card）。
+- 投资银行业务包括绿色储蓄（Green savings）、可持续投资（Sustainable investment）、绿色基金（Green Funds）和绿色债券（Green bonds）。
+- 企业银行业务包括绿色项目融资（Green project finance）、碳金融（Carbon finance）、绿色企业贷款（Green corporate Loans）和绿色证券化（Green securitization）。
+- 保险业务包括电动汽车保险（Electric car insurance）、灾害保险（Catastrophe insurance）、绿色保险（Green insurance）和可再生能源项目保险（Insurance for Renewable Energy Projects）。
+
+- 每个金融业务领域都强调绿色或可持续发展的产品类别，这体现了在不同金融领域推动可持续金融产品的趋势。
+
+【模式特征】
+- 四个业务板块以并列四象限呈现，每个板块包含四个产品，整体围绕绿色/可持续主题。
+- 命名呈一致化倾向但存在例外，如信用卡、碳金融、电动汽车保险、灾害保险；保险板块的绿色命名相对更少。
+
+【核心洞察】
+核心结论：可持续金融已形成跨板块产品矩阵。
+
+业务含义：
+- 定位统一，但命名规范需提升。
+- 影响整合推广与客户识别。
+- 利于组合化销售与协同。
+
+风险关注：
+- 保险板块绿色命名=1/4，易致主题识别偏差。
+- 各板块非绿色命名≥1项，可能形成传播不一致。

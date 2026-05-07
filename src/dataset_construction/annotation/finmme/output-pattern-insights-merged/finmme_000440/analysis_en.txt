@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Line chart
+- Title: No explicit title observed
+- Y-axis: Labeled “(Rebased Jan 2019 = 100)”, scale range approximately 85–135
+- X-axis: Time scale 2019–2023
+- Legend: Red “Revolving consumer credit”; Green “Real consumer spending”; Blue “Real disposable personal income”
+- Other Elements: A gray vertical band near 2020; A thin black line not labeled in the legend
+
+[Data Relationships]
+- Base Period: The three lines are approximately 100 near 2019
+- Green line lowest point: Approximately 88–90 after the 2020 gray band (about 10–12 lower than the base period)
+- Blue line highest point: Approximately 128–130 between 2020–2021 (about 28–30 higher than the base period)
+- Red line lowest point: Approximately 92–95 between 2020–2021
+- End of 2023: Red approximately 126–128, Green approximately 115–116, Blue approximately 107–108
+- Difference at the end of 2023: Red - Green ≈ 10–12, Red - Blue ≈ 18–21, Green - Blue ≈ 7–9
+
+[Pattern Characteristics]
+The three lines start close around 2019, followed by a clear divergence near 2020: The green line briefly plummeted then gradually recovered; the blue line experienced multiple sharp spikes and high-level retreats between 2020–2021; the red line first dipped after 2020 and then continued to climb. After 2021, the blue line tended to flatten and slightly decrease, the green line maintained a slow upward trend, while the red line moved upward with a steeper slope and surpassed the other two lines after 2022. By the end of 2023, the three lines showed a relatively ordered high-to-low arrangement, with the gap significantly widening compared to the pre-2020 period.
+
+[Core Insights]
+Core Conclusion: The expansion rate of consumer credit has been significantly faster than income improvement.
+
+Business Implications:
+- Household expenditure reliance on credit is increasing.
+- Income growth lags, weakening the ability for self-funding capacity.
+- Increased credit proportion reduces balance sheet flexibility.
+
+Risk Focus:
+- If the red line remains ≥20 points higher than the blue line for an extended period, it may lead to a rapid accumulation of repayment pressure.
+- If the green line approaches or exceeds the red line and the blue line is ≤105, it might trigger defaults and expenditure contraction.

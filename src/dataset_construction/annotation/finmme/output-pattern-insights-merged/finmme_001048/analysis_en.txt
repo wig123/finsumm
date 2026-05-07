@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Time series line chart; title not displayed.
+- X-axis: Time range Jan-19 to Jan-24 (Monthly scale).
+- Y-axis: Forward P/E, scale approximately 7–57.
+- Legend: Red line is Forward P/E; Gray dashed line is Mean=27.8; Black dashed line is +1SD=38.7; Orange dashed line is -1SD=17.0.
+
+[Data Relationships]
+- Initial period (Jan-19) approximately 31.
+- All-period high approximately 52 (around 2020), about 13 higher than +1SD.
+- All-period low approximately 12 (mid-2022), about 5 lower than -1SD.
+- Final period (Jan-24) approximately 18–19, about 9–10 lower than the Mean, about 1–2 higher than -1SD.
+- Difference between high and low is approximately 40 (52−12).
+- Spring 2021 approximately 27, close to the Mean.
+- Q2 2023 approximately 22–24, about 4–6 lower than the Mean.
+
+[Pattern Characteristics]
+Overall, it first experienced a sharp surge and fluctuated multiple times in the high range, then continuously moved downward, stabilizing near the low point for a relatively long period, followed by a slight rebound to slightly below the Mean.
+Relative to the Mean and ±1SD reference lines, the early period was often located in the upper extreme region, while the mid-to-late period was long situated in the lower range, fluctuating slightly around the lower reference line.
+The chart shows two distinct high-point plateaus and one distinct low-point plateau, with a large range span between the highest and lowest phases.
+
+[Core Insights]
+Core Conclusion: Valuation experienced an extreme elevation followed by a retreat to slightly below the historical normal range.
+
+Business Implications:
+- The early valuation level reflected a strong state of premium pricing.
+- The subsequent valuation retreat increased the pricing space for future returns.
+- Remaining below the Mean for an extended period indicates that the valuation system has undergone repricing.
+
+Risk Concerns:
+- If the Forward P/E approaches or exceeds +1SD≈38.7 again, it may lead to valuation pullback pressure.
+- If it consistently breaks below -1SD≈17.0 and remains near 15, it may trigger a pessimistic reassessment of earnings prospects.

@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Line Chart
+- Title: Average South region prices
+- X-axis: Time span Mar-19 to Mar-24, ticks at Mar/Jun/Sep/Dec
+- Y-axis: INR/50kg bag, range approximately 250–500, tick marks 250, 300, 350, 400, 450, 500
+- Legend: Not displayed; Single red data series
+
+[Data Relationships]
+- Starting Point: Mar-19≈355
+- Minimum Value: approx. Dec-19≈305; Maximum Value: approx. Sep-21≈440; Range≈135
+- Mar-20≈320 vs. Jun-20≈410, Difference≈90
+- Dec-22≈420 vs. Jun-23≈365, Difference≈55
+- End Point: Mar-24≈340; Difference from start point≈12
+- Dec-23≈395; Higher than Jun-23 by≈30
+
+[Pattern Characteristics]
+- The curve initially declined slowly from early 2019 to early 2020, followed by a significant jump, and subsequently exhibited a volatile, sawtooth pattern within a higher range.
+- Post-2020, volatility concentrated in the mid-to-high range, avoiding the extreme lows seen earlier, but local peaks gradually weakened.
+- Approaching mid-to-late 2023, the curve generally shifted downward segment by segment, returning to a lower range near the starting point by early 2024.
+
+[Core Insights]
+Core Conclusion: Average South region prices have significantly retreated after experiencing a substantial elevation.
+
+Business Implications:
+- Mid-to-long-term profit margin was previously elevated but has recently narrowed.
+- The phase of elevated price center increased the volatility sensitivity of unit revenue.
+- The latest level is close to the early range, suggesting limited bargaining power.
+
+Risk Concerns:
+- If prices approach below 300 again, it may compress channel and end-user margins.
+- If prices exceed approximately 440, sustained high prices could lead to demand-side pressure and inventory accumulation.

@@ -1,0 +1,77 @@
+# 横截面数据示例 - 跨实体对比分析
+# 用法: python scripts/run_batch.py --config batch_configs/cross_sectional_demo.yaml
+
+batch_name: "cross_sectional_demo"
+output_base_dir: "./batch_output"
+
+execution:
+  parallel: true
+  max_workers: 4
+  use_process_pool: false
+
+charts:
+  # === 中国省级数据 ===
+  # 1. 省级GDP对比 - 中文柱状图
+  - chart_type: bar
+    language: zh-CN
+    theme: macro_policy
+    task: compare
+    data_constraints:
+      preferred_indicators:
+        - china.stats.provinces.gdp
+
+  # 2. 省级人口分布 - 中文柱状图
+  - chart_type: bar
+    language: zh-CN
+    theme: growth_employment
+    task: monitor
+    data_constraints:
+      preferred_indicators:
+        - china.stats.provinces.population
+
+  # === 国际对比数据 ===
+  # 3. 全球通胀率对比 - 英文柱状图
+  - chart_type: bar
+    language: en-US
+    theme: inflation
+    task: compare
+    data_constraints:
+      preferred_indicators:
+        - international.imf.inflation
+
+  # 4. 全球GDP增长率对比 - 英文柱状图
+  - chart_type: bar
+    language: en-US
+    theme: macro_policy
+    task: compare
+    data_constraints:
+      preferred_indicators:
+        - international.imf.gdp.growth
+
+  # 5. 主要国家GDP总量 - 英文柱状图
+  - chart_type: bar
+    language: en-US
+    theme: macro_policy
+    task: monitor
+    data_constraints:
+      preferred_indicators:
+        - international.worldbank.gdp
+
+  # 6. 主要国家人口规模 - 中文柱状图
+  - chart_type: bar
+    language: zh-CN
+    theme: growth_employment
+    task: monitor
+    data_constraints:
+      preferred_indicators:
+        - international.worldbank.population
+
+  # === 农业数据 ===
+  # 7. 中国主要农作物产量 - 中文柱状图
+  - chart_type: bar
+    language: zh-CN
+    theme: commodities
+    task: monitor
+    data_constraints:
+      preferred_indicators:
+        - international.fao.crop.production

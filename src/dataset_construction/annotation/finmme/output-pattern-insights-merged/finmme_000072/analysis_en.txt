@@ -1,0 +1,45 @@
+[Chart Components]
+- Type: Table
+- Title: Not displayed
+- Axes: No axes
+- Legend: Divided into "Headline HICP" and "Core HICP," further subdivided into "Mar. ECB," "Dec. ECB," and "BNPP"
+
+[Data Relationships]
+- 2023 Figures:
+  - Headline HICP: All forecasts (Mar. ECB, Dec. ECB, BNPP) are 5.5
+  - Core HICP: All forecasts are 5.0
+
+- 2024 Figures:
+  - Headline HICP: Mar. ECB is 2.4, Dec. ECB is 2.7, BNPP is 2.1
+  - Core HICP: Mar. ECB is 2.6, Dec. ECB is 2.7, BNPP is 2.3
+  - Dec. ECB forecast values are higher than other forecasts for both Headline HICP and Core HICP
+
+- 2025 Figures:
+  - Headline HICP: Mar. ECB and Dec. ECB are both 2.1, BNPP is 1.9
+  - Core HICP: Mar. ECB is 2.2, Dec. ECB is 2.3, BNPP is 2.2
+
+- 2026 Figures:
+  - Headline HICP: Mar. ECB is 2.0, Dec. ECB is 1.9
+  - Core HICP: Mar. ECB and Dec. ECB are both 2.1
+  - BNPP did not provide 2026 forecasts
+
+- Key Trends:
+  - Headline HICP and Core HICP show a year-over-year declining trend
+  - Among 2024 forecasts, the Dec. ECB figures are higher than other forecast values
+
+[Pattern Characteristics]
+- All sources are completely consistent in 2023 figures, followed by a step-down by year, with overall smooth changes.
+- In 2024, Dec. ECB is higher than the other two institutions in both indicators; figures from all sources converge closer after 2025.
+- The Core column is generally slightly higher than Headline; only the two ECB versions are available for 2026, with BNPP missing.
+
+[Core Insights]
+Core Conclusion: Medium-term expectations are concentrated around 2%, while short-term judgments show divergence.
+
+Business Implications:
+- High concentration in medium-term level judgment
+- 2024 divergence weakens pricing consistency
+- Tolerance bands can be set based on institutional ranges
+
+Risk Focus:
+- If 2024 Headline > 2.7 or < 2.1, pricing and guidance will require passive adjustment
+- If 2025 Core > 2.3 or < 2.2, models and target ranges require re-evaluation

@@ -1,0 +1,35 @@
+【图表构成】
+- 图表类型：折线图
+- 标题：Global PC shipments with segment detail
+- 纵轴：Units，范围0–40,000,000（每5,000,000为刻度）
+- 横轴：时间，从Mar-18到Sep-23，季度标注（Mar/Jun/Sep/Dec）
+- 图例：四条系列
+  - Desktop PC - Commercial（红色三角）
+  - Desktop PC - Consumer（红色菱形）
+  - Portable PC - Commercial（灰色三角）
+  - Portable PC - Consumer（灰色菱形）
+
+【数据关系】
+- Mar-18：Desktop-Commercial约14M；Desktop-Consumer约7M；Portable-Commercial约16M；Portable-Consumer约20M。
+- 峰/谷值：
+  - Portable-Consumer峰值35M（Dec-21），谷约19M（Mar-23），幅度≈16M。
+  - Portable-Commercial峰值≈34M（Dec-20），谷≈20M（Mar-23），幅度≈14M。
+  - Desktop-Commercial峰值≈17M（Dec-19），谷≈11M（Jun-20/ Sep-23），幅度≈6M。
+  - Desktop-Consumer峰值≈9M（Sep/Dec-20），谷≈5M（Mar-20/ Mar-23），幅度≈4M。
+- Dec-21：Portable-Consumer35M、Portable-Commercial≈33M、Desktop-Commercial≈15M、Desktop-Consumer≈9M；便携合计≈68M，台式合计≈24M，差≈44M。
+- Sep-23：Desktop-Commercial≈11M；Desktop-Consumer≈6M；Portable-Commercial≈22–23M；Portable-Consumer≈27M。
+
+【模式特征】  
+四条曲线均呈明显季节性起伏，其中便携机两个系列的振幅远大于台式机。2020–2021年期间，便携机出货量整体处于全段最高区间，随后明显回落但仍高于起始阶段。台式机两个系列整体水平较低、波动较窄，在样本期内后段略低于中前段。四条线之间形成长期分层结构，便携机长期高于台式机，且消费与商用之间保持相对稳定差距。
+
+【核心洞察】  
+核心结论：PC需求结构长期偏向便携机，台式机占比持续收缩。  
+
+业务含义：  
+- 整体市场更依赖便携机出货贡献。  
+- 台式机产品线对总量拉动能力有限。  
+- 商用与消费细分间格局短期内难以根本改变。  
+
+风险关注：  
+- 若Portable-Consumer低于20M，将显著拖累整体PC出货体量。  
+- 若Desktop-Commercial长期接近11M低位，将削弱商用更新相关收入。

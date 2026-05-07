@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Line Chart
+- Title: China import volumes of commodities (Index: 2012=100)
+- X-axis: Time, marked points are Jan-12, Jan-14, Jan-16, Jan-18, Jan-20, Jan-22, Jan-24
+- Left Y-axis: Index range 90–210, scale interval approx. 20 (Applicable to Soy bean, Plastics, Iron ores)
+- Right Y-axis: Index range 0–450, scale interval approx. 50 (Applicable to Copper, RHS)
+- Legend: Soy bean (Red), Plastics (Black), Iron ores (Blue), Copper (Grey, RHS)
+
+[Data Relationships]
+- Approximate values in Jan-12: Red ≈ 100; Black ≈ 105; Blue ≈ 115; Grey ≈ 100 (RHS)
+- Peak/Trough: Red Peak ≈ 205 (mid-2020), Trough ≈ 90 (2013); Black Peak ≈ 175 (2021), Trough ≈ 105 (2013-14); Blue Peak ≈ 175 (around 2021), Trough ≈ 110 (2013); Grey Peak ≈ 420 (2023-24), Trough ≈ 100 (2012)
+- Approximate values in Jan-24: Red ≈ 170; Black ≈ 145; Blue ≈ 165; Grey ≈ 410
+- Change from start to end period: Red + approx. 70; Black + approx. 40; Blue + approx. 50; Grey + approx. 310
+- Difference between high and low points: Red ≈ 115; Black ≈ 70; Blue ≈ 65; Grey ≈ 320
+- Jan-24 point comparison: Grey 410 is approximately 2.4 times Red 170, 2.5 times Blue 165, and 2.8 times Black 145 (RHS)
+
+[Pattern Characteristics]
+The four curves generally show a long-term upward trend accompanied by significant short-term fluctuations, with Copper exhibiting a relatively larger magnitude of increase and amplitude of volatility. The trends for Soy bean and Iron ores are relatively similar during most phases. Plastics were comparatively lower in the early period and had a slightly narrower range in the middle-to-late period. Around 2020, all lines showed prominent extreme values. Although there was a subsequent decline, the values did not return to the early range. Copper maintained levels close to its historical high towards the end of the period.
+
+[Core Insights]
+Core Conclusion: The increase in Copper import volume is significantly higher than that of the other three types of commodities.
+
+Business Implications:
+- The overall scale of import demand has significantly increased compared to 2012.
+- Copper's influence on the overall commodity import structure has significantly strengthened.
+- Demand for Soy bean and Iron ores exhibits stronger synchronicity, while Plastics remains relatively independent.
+
+Risk Focus:
+- If the Copper index sharply falls from around 420 to below 300, it may trigger a downturn in the prosperity of related industries.
+- If the Soy bean or Iron ores index falls below around 120 while Copper maintains a high level, it may lead to increased pressure from demand mismatch across the industrial chain.

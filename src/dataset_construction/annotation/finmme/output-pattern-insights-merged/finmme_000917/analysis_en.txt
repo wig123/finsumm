@@ -1,0 +1,34 @@
+[Chart Components]
+- Chart Type: Time series line chart
+- Title: Not displayed
+- X-axis: Date scale, sample labels from 23-02-2014 to 23-02-2023 (Tilted annotation)
+- Y-axis: Percentage, range 0%—120%, intervals of 20%
+- Legend: Red line chart, labeled "GNP vs Others"
+
+[Data Relationships]
+- Initial value (23-02-2014) ≈ 106%
+- Global peak (early 2014) ≈ 112%
+- Global trough (around 2020) ≈ 33%
+- Final value (23-02-2023) ≈ 60%
+- Difference between highest and lowest ≈ 79 percentage points
+- Decrease from initial value to final value ≈ 46 percentage points
+- High point around 2019 ≈ 83%, higher than the trough by ≈ 50 percentage points
+- High point around 2021 ≈ 66%, higher than the final value by ≈ 6 percentage points
+- High point mid-2023 ≈ 71%, higher than the final value by ≈ 11 percentage points
+
+[Pattern Characteristics]
+- After being at a high level since early 2014, the curve generally shows a continuous downward trend, interspersed with multiple medium-amplitude fluctuations.
+- Relatively distinct phase-specific rebound plateaus appeared around 2019 and 2021, followed by subsequent declines into lower ranges.
+- A single deep low point occurred around 2020, representing the most prominent outlier in the overall sequence, followed by a slow recovery but failing to return to earlier levels.
+
+[Core Insights]
+Core Conclusion: The advantage of GNP relative to "Others" continues to erode and is difficult to repair.
+
+Business Implications:
+- Long-term relative performance has weakened, and competitive positioning has been compressed.
+- The two recovery attempts in 2019 and 2021 lacked sufficient momentum, failing to alter the overall structure.
+- The current level represents a significant discount compared to earlier periods; valuation and allocation preferences may have been re-priced.
+
+Risk Focus:
+- If the low point near 33% is approached again, it may trigger large-scale position adjustments by holders.
+- If the level remains below 60% for an extended period, it could lead to a sustained shift of resources towards "Others," resulting in further market share decline.

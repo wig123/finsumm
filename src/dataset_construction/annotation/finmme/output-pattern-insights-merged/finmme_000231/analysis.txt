@@ -1,0 +1,31 @@
+【图表构成】
+- 类型：柱状图；未见显式标题。
+- X轴：9个类别标签——China official price、China dept store、China online flagship、China DFS、China online Shopping festival、K-DFS resellers (G-brands)、K-DFS resellers (K-brands)、Korea department store、K-DFS。
+- Y轴：数值刻度0–100。
+- 图例：未显示；柱体为红色；各柱顶部标注具体数值。
+
+【数据关系】
+- 各类别数值依次为：100、95、95、68、62、61、56、83、70。
+- 最高值：China official price=100；最低值：K-DFS resellers (K-brands)=56；极差=44。
+- China dept store与China online flagship均为95。
+- Korea department store=83，与K-DFS=70差13。
+- China DFS=68，与China online Shopping festival=62差6；与K-DFS=70差2。
+- 与100的差值：95差5；68差32；62差38；61差39；56差44；83差17；70差30。
+- “China”5项均值=84；“K”4项均值=67.5。
+
+【模式特征】
+- 各柱体在0–100区间内呈单峰分布，上端集中在80以上和60–70附近两个层级，中间无断层。  
+- 前三项数值明显高于其余类别，后续柱体整体较为分散，接近下限的一端只有一项。  
+- 以“China”命名的五项整体水平相对接近且偏上，以“K”命名的四项则整体处于较低区间，仅有一项接近较高层级。
+
+【核心洞察】
+核心结论：中方相关渠道整体定价水平明显高于韩方渠道。
+
+业务含义：
+- 中国渠道整体定位更高，价位带集中上沿。
+- 韩方渠道呈现更明显的价格让利空间。
+- 韩方分销与代购间存在内部价差层级。
+
+风险关注：
+- 当韩方最低价≤56且与中国官方差≥40，或放大利差导致跨区域套利和渠道冲突。
+- 当Korea department store≤70且接近K-DFS=70，或削弱百货与免税之间的价格区隔。

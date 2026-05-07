@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Dual Line Chart
+- Title: Not displayed
+- X-axis: Quarterly time points, 1Q21 to 4Q23 (12 nodes)
+- Y-axis: Percentage scale, range 10.0%—42.0%, major ticks: 10.0%, 18.0%, 26.0%, 34.0%, 42.0%
+- Legend: Gray represents "Total IF loans," Orange represents "IF MSE loans"
+
+[Data Relationships]
+- 1Q21: IF MSE ≈ 34.0%, Total IF ≈ 28.0%.
+- 4Q23: IF MSE ≈ 23.5%, Total IF ≈ 22.0%.
+- IF MSE Peak Value: 1Q21 ≈ 34.0%; Trough Value: ≈ 23.5% (4Q22/4Q23).
+- Total IF Peak Value: 1Q21 ≈ 28.0%; Trough Value: ≈ 20.0%—21.0% (2Q22).
+- Initial Gap (1Q21) ≈ 6.0 percentage points; Final Gap (4Q23) ≈ 1.5 percentage points.
+- 1Q23—2Q23: IF MSE ≈ 26.0%, Total IF ≈ 24.0%, Difference ≈ 2.0 percentage points.
+
+[Pattern Characteristics]
+Both line charts exhibit simultaneous movement across the entire period, continuously declining in the first half, slightly rebounding in the middle, and then falling again. The overall level of the orange line consistently remains above the gray line. The vertical distance between the two initially narrows significantly, subsequently tightening slightly around a relatively small gap. No crossover occurs in the chart, and both lines form their respective local troughs around 2Q22.
+
+[Core Insights]
+Core Conclusion: The proportion of MSE loans consistently exceeds the total, and the gap is narrowing.
+
+Business Implications:
+- MSE maintains a relatively higher weighting within the IF loan structure.
+- The overall trend aligns with the MSE proportion, indicating limited structural divergence.
+- The shrinking gap suggests that sub-segment differences within the portfolio are weakening.
+
+Risk Focus:
+- If the Total IF proportion falls below 20%, it may lead to restricted overall return potential.
+- If the IF MSE proportion drops below 22%, the contribution of the MSE business to IF will be significantly weakened.

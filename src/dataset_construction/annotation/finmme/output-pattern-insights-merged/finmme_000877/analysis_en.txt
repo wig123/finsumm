@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Dual line chart.
+- Title: PC ASP.
+- X-axis: Time from Mar-18 to Sep-23 (periodically marked).
+- Y-axis: ASP of commercial and consumer PCs, unit in USD, range $400 to $1,000, scale approximately every $100.
+- Legend: Red = Desktop PC ASP; Gray = Portable PC ASP.
+
+[Data Relationships]
+- Mar-18: Desktop ≈ $600; Portable ≈ $800; Difference ≈ $200.
+- Desktop Peak ≈ $740 (Mar-22), Trough ≈ $580 (Sep-18); Span ≈ $160.
+- Portable Peak ≈ $930 (Mar-22/Dec-21), Trough ≈ $770 (Dec-20); Span ≈ $160.
+- Sep-23: Desktop ≈ $690; Portable ≈ $870; Difference ≈ $180.
+- Sep-21: Desktop ≈ $710; Portable ≈ $880; Difference ≈ $170.
+
+[Pattern Characteristics]
+The two lines generally exhibit a time series pattern of slight initial fluctuation, followed by a significant rise, and then a slight decline. Portable pricing consistently remains above Desktop pricing. The gap between the two is generally stable within a similar range, only slightly narrowing in the middle-to-later period before widening slightly again. The two lines formed common high points around 2021-2022, and their subsequent trends have been largely synchronized.
+
+[Core Insights]
+Core Conclusion: The ASPs of both PC categories, after experiencing a surge and subsequent retreat, remain in a relatively high range.
+
+Business Implications:
+- The overall profitable ASP has significantly risen compared to earlier periods.
+- The premium of Portable over Desktop has maintained a stable structure long-term.
+- Recent price softening indicates increased room for negotiation and configuration flexibility.
+
+Risk Concerns:
+- If Desktop ASP falls below $650, overall gross margin may be significantly compressed.
+- If Portable ASP falls below $820, the narrowing price gap with Desktop may weaken the contribution of high-end products.

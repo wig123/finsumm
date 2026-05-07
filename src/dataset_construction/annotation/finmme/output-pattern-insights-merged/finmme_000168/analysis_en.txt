@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Line Chart
+- Title: None
+- Axes: X-axis represents time (from Feb-18 to Feb-24); Y-axis represents PE value, ranging from 5 to 75
+- Legend: Red represents PE, Gray represents Average, Black represents +1SD, Pink represents -1SD
+
+[Data Relationships]
+- Key Values and Changes: The PE value peaked around Aug-21 at approximately 65, gradually declining thereafter.
+- Extremum Comparison: The maximum PE value occurred in Aug-21, and the minimum occurred around Feb-19, approximately 20.
+- Significant Trend: The PE value fluctuated significantly between Feb-20 and Aug-21, subsequently decreasing and stabilizing in the following period.
+- After Feb-23, the PE value slightly rebounded and showed a minor fluctuation trend.
+
+[Pattern Characteristics]
+- Phased positioning relative to the Average is distinct: Early periods were mostly below it; after 2020, it was above it most of the time; a single sharp peak appeared in mid-21, exceeding the established range.
+- After 2022, it gradually approached the Average and remained between the Average and +1SD; after 2023, it fluctuated slightly around the Average, ending slightly above the Average.
+
+[Core Insights]
+Core Conclusion: Valuation has reverted from a high percentile to near the mean.
+
+Business Implications:
+- Currently at a historical mid-range percentile
+- Premium level has significantly converged
+- Allocation favors balanced weighting
+
+Risk Focus:
+- Above +1SD≈43: Valuation is expensive, increasing the probability of drawdown
+- Below -1SD≈25: Percentile is too low, potentially triggering passive rebalancing

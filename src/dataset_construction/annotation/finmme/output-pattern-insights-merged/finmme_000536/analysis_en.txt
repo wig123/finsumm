@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Time-series line chart, including event markers
+- Title: Hiwin Technologies Corp
+- Top Right Note: As of 27-Feb-2024; Currency=TWD
+- X-axis: Date, range approximately 2021/07/01—2024/01/01 (semi-annual scale)
+- Y-axis: Price (TWD), range 0—550
+- Legend: Closing Price (Black Line); Target Price Change (Green Triangle); Recommendation Changes (Blue Dot)
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial closing price approximately 350 TWD (2021/07), final closing price approximately 250 TWD (2024/02)
+- Highest closing price approximately 380 TWD (mid-2021), lowest approximately 165 TWD (end of 2022); high-low difference approximately 215 TWD
+- Closing price in 2022/07 approximately 250 TWD; 2023/02 approximately 245 TWD; 2023/07 approximately 230 TWD; 2024/01 approximately 230 TWD
+- Target price change markers: approx. 540 (mid-2021), approx. 460 (Autumn 2021), approx. 420/330/310 (2022), approx. 310/320/300 (H1 2023), approx. 280 (2023/10), approx. 270 (2024/01); difference between highest and latest approximately 270 TWD
+- Recommendation change corresponding prices approximately: 2022/06 at 250 and 230; 2022/12 at 170; 2023/01 at 190; 2023/02 at 240 and 250
+
+[Pattern Characteristics]
+- The overall price exhibited a single peak during the sample period, followed by a decline and repeated oscillation within a low range, with several localized short-term rebounds.
+- Target price markers show a step-wise downward trend from left to right, generally consistent with the price movement direction, but the pace of reduction is relatively lagged and the magnitude is dispersed.
+- Recommendation changes are concentrated near phased price lows or localized rebounds, are few in number, and show a scattered distribution.
+
+[Core Insights]
+Core Conclusion: Institutional views have generally shifted from optimistic to contractionary, reacting slowly to price adjustments.
+
+Business Implications:
+- Valuation expectations are continuously revised downward; earnings or growth assumptions are tightening.
+- Price highly dependent on view adjustments; research pricing influence is significant.
+- Recommendations are often adjusted at low points; research is conservative in identifying turning points.
+
+Risk Concerns:
+- If the target price further drops below 270 TWD, it may trigger a new cycle of valuation downgrades.
+- If the stock price approaches the 165 TWD low again, it may amplify emotional selling and liquidity pressure.

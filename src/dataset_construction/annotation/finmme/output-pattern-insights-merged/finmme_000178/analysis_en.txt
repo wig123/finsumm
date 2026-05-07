@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Multi-series line chart
+- Title: No formal title observed; chart includes annotations "Growth post GFC…" and "…followed by years of stagnation"
+- X-axis: Year, range 2004—2019
+- Y-axis: Index (base = 100), scale approximately 80—130
+- Legend: Seats (dark green thick line), Total population (grey thin line), Working age population (orange dashed/dotted line)
+
+[Data Relationships]
+- In 2004, all three series were ≈100 (base period).
+- Seats: Minimum ≈96 (2010), Maximum ≈120 (2018), 2019 ≈112; Range ≈24.
+- Total population: Range 98—101, 2019 ≈99; Range ≈3.
+- Working age population: Maximum ≈100 (2004), 2019 ≈88; Range ≈12.
+- 2019 Comparison: Seats ≈112, Total ≈99, Working age ≈88; Seats relative to Total +13, relative to Working age +24; Total relative to Working age +11.
+- 2018 Comparison: Seats ≈120, Total ≈100, Working age ≈89; Seats relative to Total +20, relative to Working age +31.
+
+[Pattern Characteristics]
+- The Seats series experienced an initial rise followed by a decline after 2004, with significant amplitude; the Total population series remained generally flat; the Working age population series showed a continuous downward trend.
+- Around 2010, the three series began to diverge significantly, reaching the widest gap around 2018. The gap narrowed somewhat in 2019 but the series have not converged.
+
+[Core Insights]
+Core Conclusion: Seat supply exceeds the population base, indicating low allocation efficiency.
+
+Business Implications:
+- Supply is excessive relative to the population base
+- Load factor efficiency and unit revenue are under pressure
+- Expansion requires greater focus on structural optimization
+
+Risk Focus:
+- Seats-Total difference ≥20 (2018): Low load factor, weak cash flow
+- Seats-Working difference ≥30 (2018): Revenue decline

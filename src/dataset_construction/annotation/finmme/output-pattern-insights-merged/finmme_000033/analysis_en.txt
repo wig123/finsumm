@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Two parallel tables (Left table: GDP growth forecast; Right table: Consumer Price Inflation forecast)
+- Titles: BNP Paribas GDP growth forecasts – Emerging Markets; BNP Paribas consumer price inflation forecasts – Emerging Markets
+- Column headers: Annual Growth (% y/y), Annual Rate (% y/y); Year columns include 2023, 2024, 2025
+- Row divisions: Latam, CEEMEA, EM Asia, and individual countries
+- Values are concentrated in the 2024 column; No axes, no legend
+- Unit is percentage (YoY)
+
+[Data Relationships]
+- 2024 GDP Forecast: Highest is India 7.0%, followed by UAE 5.3%; lowest is Argentina -3.0%; the difference between highest and lowest is 10.0 percentage points
+- Latam Region GDP Forecast: Mexico 2.5%, Brazil 1.8%, Chile 1.5%, Colombia 1.0%
+- CEEMEA Region GDP Forecast: Poland and Saudi Arabia 4.0% each, Egypt 3.9%, Hungary 3.3%, South Africa 1.1%
+- EM Asia Region GDP Forecast: Indonesia 4.8%, Malaysia 3.9%, South Korea 1.9%, Thailand 3.7%
+- 2024 CPI Forecast: Argentina 331.0% is the highest; Turkey 50.1%, Egypt 30.4% are relatively high; UAE 1.8%, Saudi Arabia 1.9% are the lowest; the difference between highest and lowest is 329.2 percentage points
+- Other CPI Comparison: India 5.7%, Mexico 4.3%, Brazil and Chile 3.6% each; Poland 6.0% is higher than Hungary 4.8% and Czech Republic 3.2%; Indonesia 2.7%, Malaysia 2.8%, South Korea 2.5%, Thailand 2.4%
+
+[Pattern Characteristics]
+- Both tables primarily focus on 2024 forecasts, layered by region with discrete country arrangements, and the value range span is very large.
+- The GDP table shows a multi-point distribution skewed toward medium-high, with a few countries at the top and a single negative value. The inflation table shows extremely high values, while low values are concentrated in a few countries.
+- Individual countries are located at opposite extremes in the two tables; regional concentration is inconsistent.
+
+[Core Insights]
+Core Conclusion: High divergence in growth and inflation, necessitating differentiated regional strategies.
+
+Business Implications:
+- Growth momentum is concentrated in India and the UAE.
+- High inflation is concentrated in Argentina, Turkey, and Egypt.
+- Low-inflation countries are more favorable for pricing and capital management.
+
+Risk Focus:
+- CPI ≥ 50% (Turkey), potentially leading to rising financing costs and margin pressure.
+- GDP ≤ 0% (Argentina -3.0%), potentially leading to demand contraction and revenue decline.

@@ -1,0 +1,61 @@
+version: "3.9"
+
+services:
+  qwen3vl-sft:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: qwen3vl-sft:latest
+    container_name: qwen3vl-sft
+    restart: unless-stopped
+
+    # GPU 配置
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+
+    # 共享内存配置（多卡训练必需）
+    ipc: host
+    shm_size: "64g"
+
+    # 环境变量
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+      - HF_HOME=/app/hf_cache
+      - TRANSFORMERS_CACHE=/app/hf_cache
+      - NCCL_P2P_DISABLE=1
+      - NCCL_IB_DISABLE=1
+      - DISABLE_VERSION_CHECK=1
+
+    # 卷挂载
+    volumes:
+      # 模型缓存（挂载服务器已有模型）
+      - $MODEL_ROOT:/app/models:ro
+      # HuggingFace 缓存
+      - ./hf_cache:/app/hf_cache
+      # 训练数据
+      - ../data:/app/data
+      # 训练配置
+      - ../configs:/app/configs
+      # 训练输出
+      - ../outputs:/app/outputs
+      # LLaMA-Factory 数据集配置（需要挂载到 LLaMA-Factory 的 data 目录）
+      - ../data:/app/LLaMA-Factory/data/finmme
+
+    # 端口映射
+    ports:
+      - "7860:7860"   # LLaMA-Factory WebUI
+      - "8000:8000"   # vLLM API（可选）
+      - "6006:6006"   # TensorBoard
+
+    working_dir: /app
+
+    # 保持容器运行
+    stdin_open: true
+    tty: true
+    command: bash

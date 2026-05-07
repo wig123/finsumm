@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Dual-Axis Line Chart
+- Legend: Price (Red), Rel Hang Seng Index (Gray)
+- Left Y-Axis: Unit (HKD), Scale approximately 12.5 to 25
+- Right Y-Axis: Scale approximately 80 to 120
+- X-Axis: Time, Apr 23—Mar 24 (Monthly)
+
+[Data Relationships]
+- Price started at approximately 21 HKD (Apr 23), ended at approximately 14 HKD (Mar 24)
+- Price peaked at approximately 25–26 HKD (May 23), troughed at approximately 13–14 HKD (Jan—Mar 24), with a high-low difference of approximately 12 HKD
+- Rel Hang Seng Index peaked at approximately 115–120 (Oct—Nov 23), troughed at approximately 80–85 (Jan—Feb 24)
+- Rel Hang Seng Index ended at approximately 85–90 (Mar 24)
+
+[Pattern Characteristics]
+The two lines generally move in the same direction, experiencing multiple short-term fluctuations, showing strong synchronization but not complete overlap. The red line shows a stepped decline, with a clear step change occurring between November and December; the gray line rapidly retreated after forming a local peak in October—November. By January—March, both are near the lower end of their range, and volatility has narrowed.
+
+[Core Insights]
+Core Conclusion: High correlation between Price and the Relative Index; under pressure in the final period.
+
+Business Implications:
+- Limited diversification benefits; the portfolio relies more heavily on the single underlying asset.
+- Valuation space is constrained, and capital efficiency is squeezed.
+- Relative performance has weakened, impacting the generation of alpha (excess returns).
+
+Risk Focus:
+- Price below 14 HKD may trigger passive position reduction and liquidity pressure.
+- Rel Hang Seng Index below 85 may widen relative losses and necessitate position compression.

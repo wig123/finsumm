@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Comparison Table
+- Title: Nature-related assessment and disclosure approaches
+- Rows (Characteristic) include 6 items: Coverage of value chain; Use of location information in the assessment; Assessment of business dependencies and impacts on nature; Disclosure on business dependencies and impacts on nature; Assessment of nature-related risks and opportunities; Disclosure on nature-related risks and opportunities
+- Columns include 7 frameworks: CDP disclosure system; European Sustainability Reporting Standards (ESRS); Global Reporting Initiative (GRI) Standards; International Sustainability Standards Board (ISSB) Standards; Natural Capital Protocol; Science Based Targets Network (SBTN) target setting guidance; Taskforce on Nature-related Financial Disclosure (TNFD) framework
+- No axes or legend
+
+[Data Relationships]
+- Totals: 7 frameworks, 6 characteristic items
+- Value Chain Coverage: Downstream explicitly included 4 (ESRS, ISSB, Natural Capital Protocol, TNFD); Optional/Partial 2 (GRI, CDP); Not covered 1 (SBTN)
+- Location Information: Yes 6; Flexible 1 (Natural Capital Protocol)
+- Assessment of Dependencies and Impacts: Simultaneously covered 5; Impact only/Limited dependency 2 (GRI, SBTN)
+- Disclosure on Dependencies and Impacts: Simultaneously covered 4; Impact only 2 (GRI, SBTN); Optional 1 (Natural Capital Protocol)
+- Assessment of Risks and Opportunities: Both 5; Not covered 2 (GRI, SBTN)
+- Disclosure on Risks and Opportunities: Both 4; Not covered 2 (GRI, SBTN); Optional 1 (Natural Capital Protocol)
+
+[Pattern Characteristics]
+- The performance of each framework across the six characteristics shows clear stratification: most frameworks feature bidirectional coverage in both assessment and disclosure dimensions, while a few cover only one direction or are optional.
+- Regarding the two structural characteristics, value chain and location information, most frameworks perform consistently, with only individual frameworks showing flexibility or temporary non-coverage in downstream coverage and location usage.
+- GRI and SBTN exhibit similar localized gaps in the assessment and disclosure dimensions related to dependencies, risks, and opportunities, while TNFD, ESRS, and ISSB show a highly uniform and consistent structure across multiple characteristics.
+
+[Core Insights]
+Core Conclusion: Frameworks show clear stratification in assessment and disclosure completeness, indicating significant differences in standard maturity.
+
+Business Implications:
+- TNFD, ESRS, and ISSB facilitate the construction of relatively complete nature-related management systems.
+- Adopting GRI or SBTN easily leads to insufficient dependency and risk identification and information transmission.
+- The Natural Capital Protocol is suitable for flexible application, but its comparability and mandatory degree are limited.
+
+Risk Focus:
+- Relying solely on frameworks that do not cover "Assessment of nature-related risks and opportunities" (such as GRI, SBTN) may lead to failure to identify major nature-related risks, affecting capital allocation.
+- If a framework with "optional disclosure" is used to handle dependencies and impacts (such as the Natural Capital Protocol), a disclosure proportion below 100% may weaken investor and regulatory trust.

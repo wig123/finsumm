@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Time series line chart (Closing price) and step line (Target price), including several red circular markers
+- Title: Not displayed
+- X-axis: Time, scale from 01-21 to 01-24, labeled nodes include 04-21, 07-21, 10-21, ..., 10-23, 01-24
+- Y-axis: Price, unit USD, scale every USD10, ranging from USD0.00 to USD80.00
+- Legend: Closing price, Target price
+
+[Data Relationships]
+- Closing price at the beginning of the period (01-21) is approximately USD50; at the end of the period (01-24) is approximately USD45; the difference is about USD5
+- The highest closing price is approximately near USD60 (around 10-21); the lowest is slightly above USD30 (around 10-22); the high-low difference is about USD25–30
+- The visible red circular markers are distributed at price levels around USD35, USD40, USD50, USD60–70
+- The step values of the target price are generally located at price levels around USD70, USD55, USD50, USD45, USD40, USD50
+
+[Pattern Characteristics]
+- The closing price, over the entire period, shows a pattern of initial rise followed by a decline, and then sideways consolidation within a lower range, with multiple occurrences of moderate short-term volatility in between.
+- The target price shows step-like adjustments, generally moving down sequentially from a high level, followed by a period of increase and relative stability in the mid-to-low price range later on.
+- The red circular markers are mostly concentrated near changes in the closing price and target price, with some points forming a discrete distribution significantly above or below the closing price at that time.
+
+[Core Insights]
+Core Conclusion: The expected level was continuously revised downward and then slightly recovered, but there is a deviation from actual performance.
+
+Business Implications:
+- Multiple adjustments to target setting reflect unstable expectations.
+- The closing price repeatedly deviates from the target price, indicating a gap between valuation and expectations.
+- The target price increased later, but price follow-through was limited, suggesting insufficient transmission of improved expectations.
+
+Risk Focus:
+- When the target price exceeds the closing price by more than USD10, it may lead to over-optimistic expectations among holders and unbalanced decision-making.
+- If the target price is lowered to USD40 or below, and the closing price does not converge synchronously, it may raise questions about the validity of the pricing model.

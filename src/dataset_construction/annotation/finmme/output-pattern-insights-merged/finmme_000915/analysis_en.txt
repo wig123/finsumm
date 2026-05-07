@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Combination chart (red bars represent revenues, black line represents year-over-year growth).
+- Legend: Displays “Revenues (USDmn)” and “y-y growth” at the top; no separate title.
+- X-axis: Fiscal year classification, sequentially FY18, FY19, FY20, FY21, FY22, FY23, FY24F, FY25F, FY26F.
+- Left Y-axis: Revenues (USDmn), range 0–8,000, increments of 1,000.
+- Right Y-axis: Year-over-Year (YoY) growth rate (%), range -10% to 20%, increments of 5%.
+
+[Data Relationships]
+- YoY Growth Rate Annotations: FY18 9.6%; FY19 4.2%; FY20 4.2%; FY21 -1.4%; FY22 17.3%; FY23 10.1%; FY24F -5.4%; FY25F 6.0%; FY26F 12.1%.
+- Revenue Readings: FY22 is 6,000; FY23 approximately 6,500; FY26F approximately 7,500; FY18 approximately 4,700; FY19 approximately 5,000; FY20 approximately 5,200; FY21 approximately 5,100; FY24F approximately 6,200; FY25F approximately 6,600 (USDmn).
+- Highest revenue FY26F approximately 7,500, lowest FY18 approximately 4,700, difference approximately 2,800.
+- FY26F revenue is approximately 1,500 more than FY22; FY24F is approximately 300 less than FY23 (USDmn).
+- The maximum positive growth rate is 17.3% in FY22, the minimum is -5.4% in FY24F, a difference of 22.7 percentage points.
+
+[Pattern Characteristics]
+The revenue bars generally show a step-like increase, with two minor pullbacks occurring in FY21 and FY24F, while other years maintain upward extension. The YoY growth rate line first slides from a medium-high level to a slightly negative value between FY18–FY21, sharply rises in FY22, then falls back to a distinctly negative value in FY24F, followed by gradual recovery in FY25F and FY26F. Revenue and growth rate form a synchronous high point in FY22 and a synchronous low point in FY24F; the inflection points are relatively concentrated.
+
+[Core Insights]
+Core Conclusion: Revenue volume is expanding, but the pace of growth shows significant volatility.
+
+Business Implications:
+- The revenue base has expanded, but the sustainability of expansion is unstable.
+- Momentum has weakened post-FY22, creating pressure on medium-term planning.
+- Reliance on growth recovery post-FY24F means uncertainty exists in achieving forecasts.
+
+Risk Concerns:
+- If the growth rate remains below 0% long-term after FY24F, revenue will stagnate at a high level or decline.
+- If the growth rate remains below 5% long-term, it will be difficult to significantly raise revenue above 7,500.

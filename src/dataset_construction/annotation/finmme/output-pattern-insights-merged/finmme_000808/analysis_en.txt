@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Line chart, three series.
+- Legend: Red "Maybank total return (including dividends)", Light Gray "Maybank share price only return", Black "KLFIN Index".
+- X-axis: Time, Jan-19 to Jan-24, monthly scale.
+- Y-axis: Numerical scale approximately -50 to 50, interval 10; 0 is the baseline.
+- Title: Not displayed.
+
+[Data Relationships]
+- Jan-19: All three curves are ≈0.
+- Low point (Apr-20): KLFIN ≈ -40; Maybank share price only ≈ -25; Maybank total return ≈ -15.
+- Jan-21: Maybank total return ≈ +5; the other two are approximately -10 to -20.
+- Jan-24: Maybank total return ≈ +40; Maybank share price only ≈ 0; KLFIN ≈ 0.
+- End-of-period difference: The red line differs from the gray/black lines by ≈40.
+- Span (approx.): Red -15 to +40 (≈55); Gray -25 to 0 (≈25); Black -40 to 0 (≈40).
+
+[Pattern Characteristics]
+The three curves followed similar trends initially, collectively forming a significant low point in Q2 2020, with the black line showing the largest decline. Subsequently, the red line gradually diverged from the gray and black lines, forming a continuously widening positive deviation, and the volatility of the red line was significantly greater. The gray and black lines operated within a narrow range around the zero axis for most of the latter half of the period, only slowly approaching the zero value near the end. The overall structure presents a coexistence of one dominant curve and two secondary curves close to the zero axis.
+
+[Core Insights]
+Core Conclusion: Share price return is close to the index, and dividend contribution is the main source of incremental gain.
+
+Business Implications:
+- Overall return relies more on cash distribution than on price appreciation.
+- Compared to the peer index, asset price performance difference is limited.
+- The return structure is relatively sensitive to distribution strategy and sustainability.
+
+Risk Concerns:
+- If future dividend yield falls close to the index level, the total return may converge to approximately 0.
+- If price return falls below the historical low range shown in the chart (below approximately -25), the total return may still turn negative even if dividends remain unchanged.

@@ -1,0 +1,27 @@
+[Chart Components]
+- Chart Type: Pie Chart
+- Title: Not displayed
+- Legend: Rural (Red), Urban (Light Gray)
+- Labels: Sectors are marked with "69%" and "31%"
+- Axes: No axes
+
+[Data Relationships]
+- Rural proportion is 69%, Urban proportion is 31%.
+- Difference: Rural is 38 percentage points higher than Urban.
+- Ratio: Rural:Urban ≈ 69:31, approximately 2.23:1.
+- Total: The proportions of the two categories sum up to 100%.
+
+[Pattern Characteristics]
+The pie chart only contains two categories, presenting an overall structure characterized by single dominance and secondary supplementation. The Rural sector is significantly larger than Urban, indicating high graphical imbalance, with no third category or scattered minor categories. The sectors are continuously connected, with no outliers or abrupt changes in morphology.
+
+[Core Insights]
+Core Conclusion: The structure is highly concentrated in Rural, and the overall distribution is unbalanced.
+
+Business Implications:
+- Reflects that the sample or resources primarily originate from Rural.
+- Urban-related business or allocation is in a secondary position.
+- Decision-making requires setting weights primarily around the Rural side.
+
+Risk Focus:
+- If the Rural proportion remains above 60% long-term, it may lead to single-source dependency.
+- If the Urban proportion consistently remains below 40%, it may restrict the business expansion potential on that side.

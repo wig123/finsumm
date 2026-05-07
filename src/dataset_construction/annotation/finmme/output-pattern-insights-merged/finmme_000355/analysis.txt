@@ -1,0 +1,27 @@
+【图表构成】
+- 图表类型：折线图；标题：California Housing Prices: Actual vs. Forecasted for 2023
+- 横轴：Date，刻度Jan–Sep 2023
+- 纵轴：Price ($)，约700,000–750,000
+- 图例：Actual Values（绿）、GPT ARIMA Forecast（红）、“Magic” Model Forecast（蓝青）、Human ARIMA Forecast（灰）
+
+【数据关系】
+- Jan：Actual≈730k；GPT≈735k（+5k）；Magic≈734k（+4k）；Human≈732k（+2k）
+- Jun：Actual≈728k；GPT≈730k；Magic≈730k；Human≈710k；Actual与Human差≈18k
+- Sep：Actual≈747k；GPT≈729k（差≈18k）；Magic≈737k（差≈10k）；Human≈697k（差≈50k）
+- 最高值：Actual≈747k（Sep）；GPT≈735k（Jan）；Magic≈737k（Sep）；Human≈732k（Jan）
+- Jan→Sep变动：Actual≈+17k；GPT≈−6k；Magic≈+3k；Human≈−35k
+
+【模式特征】  
+实际价格先缓慢下行后在年中附近转为上行，并在后段明显高于年初。GPT 预测整体呈轻微下移后趋于平缓，Human 预测为持续单向下移且逐月偏离实际。Magic 模型在前期略低于实际、中段交汇，后段保持在实际与 GPT 之间，与实际轨迹形状更为接近。
+
+【核心洞察】  
+核心结论：Magic 模型对价格走向与水平的贴合度整体最高。
+
+业务含义：  
+- Human 方案对市场变化反应不足，误差持续放大。  
+- GPT 方案对年末水平估计偏低，影响定价精度。  
+- Magic 模型更适合作为短期预测和对比基准。
+
+风险关注：  
+- 若Human预测继续低于实际超30k，可能导致严重低估资产价值。  
+- 若GPT与实际偏差持续高于15k，可能影响基于预测的购置与融资决策。

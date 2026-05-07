@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Line Chart
+- Title: FY24 EPS US$ (Indexed =100)
+- X-axis: Date, ranging from 04-Jan-23 to 28-Feb-24, marked at multiple time points.
+- Y-axis: Index Level, ranging from 80–115 (Base 100 marked).
+- Legend and Line Types: AeJ (Solid Red Line), Banks (Solid Light Gray Line), Insu. (Solid Black Line), Div Fin. (Dashed Black Line).
+
+[Data Relationships]
+- At the beginning of the period (2023-01-04), all four groups were approximately 100.
+- At the end of the period (2024-02-28): AeJ≈85; Banks≈86; Insu.≈83; Div Fin.≈108.
+- Change from the beginning to the end of the period: AeJ approx. -15; Banks approx. -14; Insu. approx. -17; Div Fin. approx. +8.
+- End-of-period difference: Div Fin. is approximately 25 points higher than Insu., 23 points higher than AeJ, and 22 points higher than Banks; the difference between AeJ and Banks is about 1 point.
+- Peak/Trough: Banks early peak ≈ 103 (early February); AeJ early peak ≈ 102; Insu. peak ≈ 101; Div Fin. peaks ≈ 112–113 (August and December), trough ≈ 95 (mid-July).
+
+[Pattern Characteristics]
+- The four lines converged at the beginning of the period, after which AeJ, Banks, and Insu. showed a relatively synchronized movement in a single direction. The overall shape is smooth with no significant short-term rebound segments.
+- Div Fin. was close to the other lines until mid-July, followed by a noticeable upward shift, maintaining a higher range thereafter, interspersed with several small, step-like adjustments.
+- By the end of the period, Div Fin. showed a clear divergence from the other three lines, while AeJ, Banks, and Insu. maintained a high degree of correlation with each other, with only Insu. showing a slight additional dip towards the end.
+
+[Core Insights]
+Core Conclusion: Earnings expectations for Diversified Financials (Div Fin.) are significantly superior to those of Banks, Insurance, and AeJ overall.
+
+Business Implications:
+- The Diversified Financials sector exhibits higher elasticity in earnings expectations.
+- Earnings expectations for Banks and Insurance are more reliant on common driving factors.
+- Increasing divergence in earnings performance among sectors makes allocation trade-offs more critical.
+
+Risk Focus:
+- If Div Fin. falls back below 100, the previous relative advantage will rapidly narrow.
+- If any of AeJ, Banks, or Insu. breaks below 80, it may trigger further downward revisions or re-rating pressure.

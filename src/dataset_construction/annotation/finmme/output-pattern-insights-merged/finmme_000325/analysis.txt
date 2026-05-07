@@ -1,0 +1,31 @@
+【图表构成】
+- 类型：柱状图（单系列，红色）
+- 图例/标题：Pricing growth (%)
+- 横轴：公司类别，共17项：Titan、United Spirits、Colgate、Nestle、Jubilant Foodworks、ITC、Emami、Dabur、Berger Paints、Kansai Nerolac、Asian Paints、Hindustan Unilever、Godrej Consumer、Britannia、Page Industries、Marico、Bajaj Consumer
+- 纵轴：百分比刻度，范围-20.0至30.0，含0基线
+
+【数据关系】
+- 最大值：Titan 15.0%
+- 较高值：United Spirits 9.3%，Colgate 8.7%，Nestle 6.4%，Jubilant Foodworks 5.8%，ITC 4.3%
+- 正值最低：Emami 1.4%，Dabur 1.1%
+- 负值最小幅：Berger/Kansai/Asian Paints均为-0.5%
+- 负值较大：Hindustan Unilever -2.4%，Godrej Consumer -2.7%，Britannia -3.3%，Page Industries -4.1%，Marico -5.1%，Bajaj Consumer -5.8%（最低）
+- 极差：15.0%与-5.8%差20.8个百分点
+- 数量对比：正值8家，负值9家
+
+【模式特征】
+- 各公司定价增速在一个较宽区间内分布，少数个体处于明显的高位和低位，大部分集中在靠近零值的中间区域。  
+- 正值公司数量略少于负值公司，柱体从左到右由高到低排列，呈现从明显上方逐步过渡到略微下方，再到更深下方的结构。  
+- 负值区间中数家公司数值接近，但尾部一家公司向下延伸幅度明显大于其余负值公司，形成下缘突出点。
+
+【核心洞察】
+核心结论：公司间定价增速分化明显，整体略偏向压力区间。
+
+业务含义：
+- 头部少数公司具备更强提价实现能力。
+- 中部公司定价空间有限，对利润弹性贡献有限。
+- 尾部公司可能面临议价弱势与份额维护压力。
+
+风险关注：
+- 定价增速≤0%的9家公司，如成本抬升将直接侵蚀利润率。
+- 定价增速≤-5%的公司，如Bajaj Consumer，或出现盈利下修与估值压缩。

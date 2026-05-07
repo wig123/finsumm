@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Waterfall Chart
+- Title: Not provided
+- Axes: The vertical axis displays a numerical range from 0 to 8, and the horizontal axis displays years and events (e.g., 2022, Martinez, 2023, etc.)
+- Legend: No specific legend identification
+
+[Data Relationships]
+- The starting value for 2022 is 3.3.
+- The contribution of "Singapore Expansion" in different years is 1.0 (2022 increase), 0.2 (2023 impact), 0.1 (2024 impact), and 0.0 (2025 impact), respectively.
+- Martinez contributed 1.0 in 2023, bringing the total to 5.3.
+- The total reached 5.5 in 2024.
+- There was no change in 2025, and the total remained at 5.7.
+- "Rotterdam" increased by 1.3 in 2026, bringing the total to 7.0.
+- Overall Trend: From 2022 to 2026, the total increased from 3.3 to 7.0, showing sustained growth. The overall increase is primarily driven by the expansion of different projects.
+
+[Pattern Characteristics]
+- The waterfall chart shows continuous cumulative upward movement, formed by the gradual superposition of annual nodes and event blocks.
+- Structural contribution is imbalanced; the increment from a few single events is significantly higher than the rest, while the subsequent contribution of the same project gradually weakens and reaches zero.
+- Years with zero increment appear in the middle, followed by a large, one-time new addition block.
+
+[Core Insights]
+Core Conclusion: Results rely on a few major projects, and sustainability is constrained.
+
+Business Implications:
+- Concentrated sources, weak resilience against disruption.
+- Annual performance is dominated by key events.
+- Need to expand the project pipeline to supplement sources.
+
+Risk Focus:
+- If the Rotterdam 1.3 contribution is not realized in 2026, the total will only halt at 5.7.
+- When new contributions are ≤0.1 (2024/2025), the total hovers between 5.5–5.7.

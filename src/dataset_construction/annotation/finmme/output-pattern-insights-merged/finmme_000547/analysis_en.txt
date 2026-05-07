@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Vertical Bar Chart (or Column Chart)
+- Title: NBFCs: PAR 31-90
+- X-axis: Jan-21, Jan-22, Jan-23
+- Y-axis: Percentage scale 0.0%—10.0%, tick marks 0.0%, 2.0%, 4.0%, 6.0%, 8.0%, 10.0%; numerical labels on top of the bars
+- Legend: None; bars are red
+
+[Data Relationships]
+- Single Data Points: Jan-21 is 10.4%; Jan-22 is 5.8%; Jan-23 is 3.9%.
+- Difference: Jan-21 and Jan-22 differ by 4.6 percentage points; Jan-22 and Jan-23 differ by 1.9 percentage points; Jan-21 and Jan-23 differ by 6.5 percentage points.
+- Ratio: Jan-22/Jan-21≈55.8%; Jan-23/Jan-21≈37.5%; Jan-23/Jan-22≈67.2%.
+- Extremes and Range: Maximum 10.4% (Jan-21); Minimum 3.9% (Jan-23); Range is 6.5 percentage points.
+
+[Pattern Characteristics]
+The three bars decrease sequentially from Jan-21 to Jan-23, showing a unidirectional decline in height without reversal. The decline between the first two years was greater, after which the decline relatively narrowed. The overall structure is simple, single-peaked, and without obvious outliers.
+
+[Core Insights]
+Core Conclusion: The proportion of NBFCs' PAR 31-90 continues to decline.
+
+Business Implications:
+- The proportion of overdue assets within total credit is decreasing.
+- Asset quality indicators suggest reduced pressure for loss provisioning.
+- The credit portfolio's sensitivity to short-term default is moderating.
+
+Risk Focus:
+- If PAR 31-90 approaches 10.4% again, loss reserves and funding costs will significantly increase.
+- If it remains above 5.8% for the long term, it may compress profit margins and restrict business expansion.

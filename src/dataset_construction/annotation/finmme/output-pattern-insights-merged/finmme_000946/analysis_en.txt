@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Quarterly stacked bar chart with line graph. Title: GDP contributions (pp).
+- X-axis: Time, labeled 2022, 2023, 2024 (far right labeled "BNPP fcst.").
+- Y-axis: Numerical scale from -4 to +4 (unit: pp), including the zero axis.
+- Legend: Line represents "GDP (%q/q saar)" (brown); bar components include Net exports (purple), Change in private inventories (orange), Government (black), Residential investment (red), Business investment (green), PCE (blue).
+
+[Data Relationships]
+- The line graph reaches its lowest point in 2022, between -3 and -2 pp; its highest point in 2023, near +4 pp; the range is approximately 6–7 pp.
+- Bar corresponding to the 2023 peak: Total contribution is between +3 and +4 pp, PCE is approximately +1–2 pp, inventories are approximately +1–1.5 pp, and the remaining components total approximately +0.5–1 pp.
+- Bar corresponding to the 2022 trough: Total contribution is between -2 and -3 pp, Net exports are approximately -1.5 to -2.5 pp, Residential investment is approximately -0.5 to -1 pp, and the remaining components total approximately 0 to +0.5 pp.
+- 2024 (BNPP fcst): Total contribution is approximately +1 pp, PCE is approximately +0.5–1 pp, and the remaining components range from near zero to slightly positive values.
+
+[Pattern Characteristics]
+- Overall, the line graph initially remains at a lower level, subsequently moves to a higher range across the year, and falls back to a moderate level towards the end of the chart.
+- The stacked bars show a clear rotation of dominant sources among the components across different periods, including phases dominated by negative contributions and phases where multiple components are simultaneously positive.
+- Net exports and inventories exhibit significant one-sided deviations in certain quarters, representing the most prominent sources of structural volatility.
+
+[Core Insights]
+Core Conclusion: Growth is shifting from multi-driver momentum to a moderate structure more reliant on consumption and inventories.
+
+Business Implications:
+- The current structure indicates that domestic demand is more decisive in overall performance.
+- The drag on overall performance from external demand and real estate has significantly diminished.
+- Overall performance during the forecast period relies more on consumption resilience than on surging investment.
+
+Risk Focus:
+- If the PCE contribution falls below 0 pp, overall growth may approach stagnation.
+- If the inventory contribution falls below -1 pp again, it could trigger a renewed weakening of single-quarter overall performance.

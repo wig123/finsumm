@@ -1,0 +1,186 @@
+# 生成配置（简化版）
+# 亲和度配置见 affinity.yaml
+# 指标映射见 indicators/*.yaml
+
+language_quota:
+  zh-CN: 0.5
+  en-US: 0.5
+visual_style_quota:
+  trading: 0.15
+  quant: 0.15
+  macro: 0.12
+  news: 0.12
+  corporate: 0.12
+  fintech: 0.1
+  regulator: 0.12
+  research: 0.12
+data_source_quota:
+  FRED: 0.25
+  Baostock: 0.2
+  yfinance: 0.3
+  Synthetic: 0.25
+hard_constraints:
+  synthetic_allowed_shapes:
+  - CS_1D
+  - CS_ND
+  - MATRIX
+  - FLOW
+  - GRAPH
+  synthetic_forbidden_shapes:
+  - TS_1D
+  - TS_ND
+  - TS_OHLC
+  chart_requires_shape:
+    candlestick:
+    - TS_OHLC
+    candlestick_volume:
+    - TS_OHLC
+    ohlc:
+    - TS_OHLC
+    bollinger_bands:
+    - TS_OHLC
+    ichimoku_cloud:
+    - TS_OHLC
+    renko:
+    - TS_OHLC
+    point_figure:
+    - TS_OHLC
+    candlestick_indicator:
+    - TS_OHLC
+    volume_profile:
+    - TS_OHLC
+    market_depth:
+    - TS_OHLC
+    line:
+    - TS_1D
+    - TS_ND
+    area:
+    - TS_1D
+    - TS_ND
+    bar_line_overlay:
+    - TS_1D
+    line_band_overlay:
+    - TS_1D
+    fan_chart:
+    - TS_1D
+    errorbar:
+    - TS_1D
+    - CS_ND
+    heatmap:
+    - MATRIX
+    - CS_ND
+    heatmap_scatter:
+    - MATRIX
+    - CS_ND
+    contour:
+    - MATRIX
+    box:
+    - CS_ND
+    histogram:
+    - CS_1D
+    treemap:
+    - CS_ND
+    waterfall:
+    - CS_1D
+    pie:
+    - CS_1D
+    bubble:
+    - CS_ND
+    radar:
+    - CS_ND
+    sankey:
+    - FLOW
+    gantt:
+    - FLOW
+    node:
+    - GRAPH
+  chart_forbidden_themes:
+    candlestick:
+    - insurance
+    - accounting_reporting
+    - payments_fintech
+    - ma_ipos
+    ohlc:
+    - insurance
+    - accounting_reporting
+    - payments_fintech
+    - ma_ipos
+    bollinger_bands:
+    - insurance
+    - accounting_reporting
+    - payments_fintech
+    ichimoku_cloud:
+    - insurance
+    - accounting_reporting
+    renko:
+    - insurance
+    - accounting_reporting
+    point_figure:
+    - insurance
+    - accounting_reporting
+    candlestick_volume:
+    - fx_trade
+    - digital_assets
+    - insurance
+    - accounting_reporting
+    volume_profile:
+    - fx_trade
+    - digital_assets
+    - insurance
+    - accounting_reporting
+    market_depth:
+    - fx_trade
+    - digital_assets
+    - insurance
+    - accounting_reporting
+  style_forbidden_themes:
+    trading:
+    - insurance
+    - accounting_reporting
+    - esg_sustainable
+    fintech:
+    - risk_regulation
+    - accounting_reporting
+  style_forbidden_charts:
+    fintech:
+    - candlestick
+    - ohlc
+    - contour
+    - heatmap_scatter
+    corporate:
+    - candlestick
+    - ohlc
+    - bollinger_bands
+    - ichimoku_cloud
+chart_indicator_type_mapping:
+  ohlc_required:
+  - candlestick
+  - candlestick_volume
+  - ohlc
+  - bollinger_bands
+  - ichimoku_cloud
+  - renko
+  - point_figure
+  - candlestick_indicator
+  - volume_profile
+  - market_depth
+  ts_preferred:
+  - line
+  - area
+  - bar_line_overlay
+  - line_band_overlay
+  - fan_chart
+  - errorbar
+  synthetic_allowed:
+  - bar
+  - histogram
+  - scatter
+  - heatmap
+  - waterfall
+  - box
+  - pie
+  - treemap
+  - contour
+  - radar
+  - density
+  - heatmap_scatter

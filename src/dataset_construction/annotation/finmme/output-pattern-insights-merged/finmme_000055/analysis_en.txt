@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Pie chart
+- Title: No separate title displayed; legend is at the top
+- Legend: MCLR (Red), Fixed (Gray), Repo (White), Other EBLR linked (Light Orange, including T-bill, MIBOR, etc.)
+- Labels: Percentages directly marked on each sector (22%, 17%, 26%, 35%)
+- Axes: Not applicable (Pie charts have no axes)
+
+[Data Relationships]
+- Proportion of each category: MCLR 22%, Fixed 17%, Repo 26%, Other EBLR linked 35%, totaling 100%
+- Maximum and minimum proportions: Other EBLR linked is 35% (maximum), Fixed is 17% (minimum), the difference is 18 percentage points
+- Key comparisons: MCLR proportion is 5 percentage points higher than Fixed; Repo proportion is 9 percentage points higher than Fixed; Repo proportion is 4 percentage points higher than MCLR
+- Other comparisons: Other EBLR linked proportion is 13 percentage points higher than MCLR; 9 percentage points higher than Repo
+- Combined comparisons: MCLR and Other EBLR linked total proportion is 57%; Repo and Fixed total proportion is 43%; the top two categories (Other EBLR linked and Repo) total proportion is 61%
+
+[Pattern Characteristics]
+- The proportions of the four categories show a stepped distribution, with two categories significantly larger than the other two.
+- The overall structure is relatively unbalanced, with a clear gap between the maximum and minimum; the top two items combined account for the majority.
+- Sectors are continuous and clearly delineated, with no anomalies or sudden jumps observed.
+
+[Core Insights]
+Core Conclusion: Dominated by Other EBLR linked and Repo
+
+Business Implications:
+- Concentration of primary benchmarks, high category dependence
+- Limited influence of MCLR and Fixed
+- Allocation and pricing are driven more by dominant weights
+
+Risk Focus:
+- Other EBLR linked reaching 35% may lead to single-category dependence and restricted adjustments
+- The top two categories total 61%, compressing MCLR/Fixed to 43%, indicating decreased diversity

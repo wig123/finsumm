@@ -1,0 +1,39 @@
+[Chart Components]
+- Type: Combination of Line Chart and Step Chart
+- Title: Not provided
+- Axes:
+  - X-axis: Time, from 01-21 to 01-24
+  - Y-axis: Price, in EUR, ranging from EUR0.00 to EUR900.00
+- Legend:
+  - "Closing price": Represented by a line chart
+  - "Target price": Represented by a step chart
+
+[Data Relationships]
+- Key Values and Changes:
+  - The closing price (blue line) shows overall volatility, but the general trend remains stable.
+  - The target price (gray line) gradually steps up to a higher level between quarters, and subsequently remains stable.
+
+- Extremum Comparison:
+  - The closing price peaked between 07-21 and 10-21, approaching EUR900.00.
+  - Subsequently, there was a slight decrease in 01-22.
+
+- Significant Trends:
+  - The target price gradually increased before 07-21, but remained stable thereafter.
+  - The target price is generally set higher than most closing prices, indicating high market expectations.
+
+[Pattern Characteristics]
+- The closing price is a continuous line operating around the median range; the target price is step-shaped, forming a long plateau in the later period.
+- A long-term vertical gap is maintained between the two series, with the target price frequently positioned above; the structure is dominated by plateaus and continuous lines.
+- After a significant high point appears in the middle section, the price enters a narrower range; at individual points in time, the distance between the two narrows, only to widen again subsequently.
+
+[Core Insights]
+Core Conclusion: The target price is consistently higher than the closing price, indicating a deviation between expectation and realization
+
+Business Implications:
+- Reflects overly high valuation expectations
+- Raises the return threshold for capital utilization
+- Actual pricing has limited constraint on the target
+
+Risk Focus:
+- Closing price ≤ EUR600.00, leading to expanded book losses and decreased capital efficiency
+- Closing price ≥ EUR900.00 and still below the target price, potentially triggering expectation revision and valuation pressure

@@ -1,0 +1,25 @@
+[Chart Components]
+- Type: Horizontal bar chart; No legend; Bars are light green
+- X-axis: Percentage, range 0–50, scale increment 10
+- Y-axis: 9 problem categories (e.g., Immigration)
+- Right annotation: “% of total, first and second most important problems”
+
+[Data Relationships]
+- Estimated values: Immigration≈47%; Climate change≈21%; Social inequality≈16%; Economy≈12%; Armed conflicts≈11%; Inflation≈10%; Energy policy≈9%; Housing≈8%; Unemployment≈6%
+- Difference between highest and lowest ≈ 41 percentage points (Immigration and Unemployment)
+- Immigration is higher than the second highest (Climate change) by ≈ 26 percentage points
+
+[Pattern Characteristics]
+Each item exhibits a clear single-peak structure, sequentially decreasing from top to bottom, with no crossovers or inversions in order. There is a significant length gap between the leading category and the remaining categories. The lengths of the middle-tier items are relatively similar, while the bottom three items are noticeably short. The overall distribution shows an imbalance highly concentrated in a few upper-tier categories.
+
+[Core Insights]
+Core Conclusion: Attention is highly concentrated on a single issue, marginalizing other topics.
+
+Business Implications:
+- Imbalanced issue structure; a single problem dominates public opinion and resource allocation.
+- Secondary issues are below 20%, suggesting a potential decrease in policy priority.
+- Bottom-tier issues are below 10%; related initiatives are prone to postponement or reduction.
+
+Risk Focus:
+- If the leading issue drops below 30%, the current single-focus strategy may become ineffective.
+- If bottom-tier issues rise above 15%, the existing resource allocation may result in significant misalignment.

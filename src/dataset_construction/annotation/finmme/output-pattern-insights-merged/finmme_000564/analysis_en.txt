@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Dual-axis line chart
+- Legend: Red "Price," Gray "Rel NIFTY50"
+- Left Y-axis unit: INR, scale approximately 600, 700, 800, 900, 1000, 1050
+- Right Y-axis scale approximately 90, 100, 110, 120
+- X-axis: Time (Month), Mar 23 to Feb 24
+- Title not displayed
+
+[Data Relationships]
+- Mar 23: Price≈780 INR; Rel NIFTY50≈118
+- Feb 24: Price≈890 INR; Rel NIFTY50≈106; Difference from start to end of period: Price≈110 INR; Rel≈12
+- Price low point approximately Jun 23: ≈650 INR; High point approximately Dec 23: ≈1040 INR; High-low difference≈390 INR
+- Rel low point approximately Jun 23: ≈95; High point approximately Dec 23: ≈122; High-low difference≈27
+- Aug–Oct 23: Price≈900–950 INR; Rel≈110–115
+
+[Pattern Characteristics]
+The two curves formed a common low point near Jun 23, having previously declined synchronously in phases, after which they generally moved upward together, simultaneously peaking near Dec 23. Within the Aug–Oct 23 period, the two lines fluctuated narrowly within similar ranges, showing a high degree of correlation in movement. During the Jan–Feb 24 phase, both lines retreated from their highs, with the Rel NIFTY50 showing a relatively greater magnitude of decline in the latter part.
+
+[Core Insights]
+Core Conclusion: The stock's relative, phased advantage over the index has weakened following the high point.
+
+Business Implications:
+- In the medium term, the stock's performance was significantly stronger than the benchmark.
+- Allocation to this security previously enhanced the portfolio's relative return level.
+- Recent relative givebacks have increased, requiring greater patience for holding.
+
+Risk Focus:
+- If Rel NIFTY50 falls below 100, it may transition from outperformance (excess return) to lagging the index.
+- If Price returns near the Jun 23 low, it may trigger technical stop-loss and passive position reduction.

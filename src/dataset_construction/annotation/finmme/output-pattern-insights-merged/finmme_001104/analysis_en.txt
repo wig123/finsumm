@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Grouped Data Table
+- Groups: Total UST, Market UST (net of Fed), SOMA UST
+- Columns: Present, 2y, 5y, 10y
+- Rows and Units: Outstanding amount ($trn), WAM (years), WAM ex-bills/FRN
+- Axes and Legend: None
+
+[Data Relationships]
+- Outstanding amount ($trn): Present 26.8/22.3/4.5; 2y 25.7/20.0/5.7; 5y 17.4/15.2/2.2; 10y 13.8/11.5/2.3 (Order: Total/Market/SOMA). The equation Total − Market = SOMA holds true for all four periods.
+- WAM (years): Present 5.73/5.15/8.60; 10y 5.01/4.00/10.11.
+- WAM ex-bills/FRN: Present 7.69/7.32/9.02; 10y 6.58/5.57/10.11.
+- Difference between WAM ex-bills and WAM at Present: Total +1.96, Market +2.17, SOMA +0.42.
+
+[Pattern Characteristics]
+- In all periods, Total, Market, and SOMA exhibit a stable additive relationship in terms of size, with SOMA consistently being the difference between Total and Market. The size of all three components decreases synchronously over time.
+- At the current time point, the duration metrics for the SOMA group are generally higher than those for Total and Market, while Market is generally lower than Total. Furthermore, at the 10-year mark, the SOMA duration value is exactly the same as the duration value excluding short-term bills.
+- In all periods, the duration excluding short-term bills is significantly higher than the corresponding overall duration, and this difference impacts Total and Market to a greater extent than it impacts SOMA.
+
+[Core Insights]
+
+Core Conclusion: The portion held by the Federal Reserve (Fed) significantly extends the overall duration, while a high proportion of short-term bills suppresses the market-side duration.
+
+Business Implications:
+- Current market-side duration is lower than the overall duration, resulting in limited interest rate sensitivity.
+- The Fed's asset portfolio has a longer duration, making it more sensitive to changes in long-term interest rates.
+- After excluding short-term bills, market and overall duration rise significantly, indicating a high concentration of maturities.
+
+Risk Focus:
+- If the Market WAM drops below 4 years, price volatility during rising interest rates will be limited, but refinancing pressure will increase.
+- If SOMA WAM remains above 10 years, an upward shift in long-term interest rates will amplify asset valuation volatility.

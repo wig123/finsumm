@@ -1,0 +1,31 @@
+【图表构成】
+- 类型：饼图
+- 标题：未显示
+- 坐标轴：无
+- 图例：无单独图例，各扇区以文字标注类别与金额（单位：USD bn）
+- 扇区标签：Clean Electricity Tax Credits 161；Air Pollution, Transportation, Infrastructure 40；Individual Clean Energy Incentives 37；Clean Manufacturing Tax Credits 37；Clean Fuel and Vehicle Tax Credits 36；Conservation, Forestry 35；Building Efficiency, Electrification, Transmission, Industrial 27；Other Energy and Climate 14
+
+【数据关系】
+- 总额=387bn
+- 最大：Clean Electricity Tax Credits 161bn，占约41.6%
+- 第二大：Air Pollution…40bn，与最大差121bn，占约10.3%
+- 最小：Other Energy and Climate 14bn，与最大差147bn，占约3.6%
+- 并列值：Individual Clean Energy Incentives 37bn 与 Clean Manufacturing Tax Credits 37bn
+- 接近值：Clean Fuel and Vehicle Tax Credits 36bn 与 Conservation, Forestry 35bn，差1bn
+- Building Efficiency…27bn；比Conservation 35bn少8bn、比Other 14bn多13bn
+- “Tax Credits”三项合计=234bn，占约60.5%；前两项合计=201bn，占约51.9%
+
+【模式特征】  
+整体上呈现单一大扇区占据近半，其余多个中小扇区分散分布的结构。除最大扇区外，其余类别金额相对接近，形成数个体量相近的小组，并出现两项完全相同与多项仅有微小差异的金额。最小扇区面积明显缩小，与最大扇区之间存在显著落差。
+
+【核心洞察】  
+核心结论：资金高度集中于单一减排工具，其余领域呈多点分散格局。
+
+业务含义：  
+- 整体资源分配侧重税收激励类工具。  
+- 其他领域获得的直接财政支持相对有限。  
+- 并列和接近金额体现出若干领域被视作相近优先级。  
+
+风险关注：  
+- 若Tax Credits合计占比>70%，可能削弱对非税收工具的支持弹性。  
+- 若“Other Energy and Climate”占比长期<5%，可能使边缘创新或小众项目难以获得足够资金。

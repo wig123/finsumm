@@ -1,0 +1,27 @@
+[Chart Components]
+- Chart Type: Stacked Bar Chart
+- Title: Not displayed
+- Y-axis: Unit is "EUR million", range approximately 0–700
+- X-axis: Year, from 2016 to 2030E
+- Legend: 407 ETR, NTE, NTE 35W, LBJ, I-86, I-77, Other Tollroads (Color segments stacked from bottom to top)
+
+[Data Relationships]
+- Annual Total (Annotated at the top of the bar, EUR mn): 2016 160, 2017 180, 2018 170, 2019 230, 2020 140, 2021 220, 2022 310, 2023 300, 2024E 400, 2025E 520, 2026E 590, 2027E 530, 2028E 550, 2029E 560, 2030E 620.
+- Maximum/Minimum: 620 (2030E) and 140 (2020), difference 480.
+- Start/End Period: 160 (2016) and 620 (2030E), difference 460.
+- Partial Sequential Differences: 2024E-2023=+100, 2025E-2024E=+120, 2026E-2025E=+70, 2027E-2026E=-60, 2028E-2027E=+20, 2029E-2028E=+10.
+
+[Pattern Characteristics]
+Overall, the annual total showed a clear low point in 2020, having changed slowly before that, followed by a period of rapid increase, a slight pullback in the mid-to-late period, and then reaching a new high. Structurally, 407 ETR accounts for the largest proportion in all years, with NTE and other road sections stacked sequentially above it. The color blocks representing new projects gradually thicken in the later period, making the composition of the bars in the mid-to-late period more diversified. After 2026E, the relative height changes of the components are not entirely synchronized; intermediate layers slightly contract in individual years. There is no extreme situation where a single component completely dominates in any given year.
+
+[Core Insights]
+Core Conclusion: Overall toll asset revenue is expected to continue expanding, and the structure of revenue sources tends toward diversification.
+
+Business Implications:
+- Existing assets remain the main support for revenue, while the contribution from new projects gradually increases.
+- Multiple distribution points for revenue sources help reduce dependence on a single road section.
+- The mid-term forecast shows a slight decline, indicating uncertainty in future earnings.
+
+Risk Concerns:
+- If the total falls below 140 (the 2020 level), it may reflect a significant decline in demand or pricing.
+- If 2030E does not reach 620 and remains near the 2027E level of approximately 530, it will weaken the medium-to-long-term growth expectation.

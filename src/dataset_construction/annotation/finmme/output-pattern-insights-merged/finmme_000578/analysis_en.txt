@@ -1,0 +1,27 @@
+[Chart Components]
+- Chart Type: Bar Chart
+- Title: Not displayed
+- X-axis: Categories, including AliExpress, Temu, SHEIN
+- Y-axis: Values, unit labeled "mn", range 0–50
+- Legend: Not displayed; Bar color is red
+
+[Data Relationships]
+- Values: AliExpress 10 mn; Temu 47 mn; SHEIN 28 mn
+- Differences: Temu−SHEIN=19 mn; Temu−AliExpress=37 mn; SHEIN−AliExpress=18 mn
+- Ratios: Temu/AliExpress=4.7 times; SHEIN/AliExpress=2.8 times; Temu/SHEIN≈1.68 times
+- Total: 85 mn; Proportion: Temu≈55.3%, SHEIN≈32.9%, AliExpress≈11.8%
+
+[Pattern Characteristics]
+The heights of the three bars show significant differences, forming a stepped distribution structure of high, medium, and low. Temu's bar is significantly higher than the other two categories, while SHEIN is in the middle position, and AliExpress is only near the lower end of the Y-axis. The overall structure presents a clear unbalanced landscape, dominated by a single category.
+
+[Core Insights]
+Core Conclusion: The current landscape is clearly dominated by Temu, with AliExpress holding the lowest share.
+
+Business Implications:
+- The market shows high concentration, with a prominent leading effect.
+- The mid-tier participant still possesses a certain scale foundation.
+- The tail-end participant faces significantly high competitive pressure.
+
+Risk Concerns:
+- If Temu's proportion consistently exceeds 50%, the bargaining power of other platforms will be restricted.
+- If AliExpress's proportion falls below 10%, it may be difficult to sustain continuous investment.

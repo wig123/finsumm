@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Scatter plot
+- Title: 3m Implied vs realised skew; last month
+- X-axis: Implied skew, range approximately -0.15% to 0.15%, including ticks at -0.10%, -0.05%, 0.00%, 0.05%, 0.10%, 0.15%
+- Y-axis: Realised skew, range approximately -0.5% to 0.5%, including ticks at -0.3%, -0.1%, 0.1%, 0.3%
+- Legend: Higher spot (Blue diamond), Lower spot (Green square)
+- Other elements: Gray dashed diagonal line, Blue dashed line; Bolded coordinate origin
+
+[Data Relationships]
+- Maximum Realised skew is approximately 0.15% (Blue point, x≈0.00%)
+- Minimum is approximately -0.45% (Green point, x≈0.00%)
+- Realised skew span is approximately 0.60 percentage points (-0.45% to 0.15%)
+- Observed range for Implied skew is approximately -0.07% to 0.08%, a span of approximately 0.15 percentage points
+- Within the range x≈-0.05% to 0.05%, y values range approximately from -0.30% to 0.10%
+- Leftmost x-point is approximately -0.07% (Green), Rightmost x-point is approximately 0.08% (Blue)
+
+[Pattern Characteristics]
+- Data points are primarily clustered in a narrow range near zero on the X-axis, with a more elongated vertical distribution, generally forming a nearly horizontal band-like scatter.
+- Blue and green points highly overlap in their X-axis positions, but are more dispersed on the Y-axis. Green points extend deeper downwards, while blue points are mostly distributed in the middle range.
+- Both the gray dashed diagonal line and the blue dashed line slope slightly upward to the right, but the blue dashed line is closer to the center of the point cloud, indicating differences in the local fitting relationship between the two types of points.
+
+[Core Insights]
+Core Conclusion: The correlation between implied skew and realized skew is weak but directionally consistent.
+
+Business Implications:
+- Implied skew has limited predictive power for future skew.
+- There is a discrepancy between the anticipation of extreme outcomes in pricing and the actual performance.
+- The degree of skew realization varies significantly under different spot levels.
+
+Risk Focus:
+- When Realised skew falls below -0.30%, significantly exceeding most data points, it may cause hedging position returns to deviate from expectations.
+- When Realised skew is above 0.10% while Implied skew is close to 0%, it may lead to a mismatch between option pricing and the actual distribution.

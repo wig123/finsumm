@@ -1,0 +1,36 @@
+[Chart Components]
+- Type: Combination Chart (Red Bar + Gray Bar + Gray Line + Brown Triangle Marker)
+- Title: Not displayed
+- X-axis: Fiscal Year Category FY17—FY22
+- Left Y-axis: Numerical Scale 0—50 (Corresponding to “# male,” “# net additions”)
+- Right Y-axis: Percentage Scale 0.0%—30.0% (Corresponding to “% penetration,” “% total users”)
+- Legend: # male, # net additions, % penetration, % total users
+- Annotations: Specific numerical labels are present on the bars/lines for each year
+
+[Data Relationships]
+- FY17: # male 0.1; net additions 0.1; % penetration 0.1%; % total users 20%
+- FY18: 0.3; 0.1; 0.3%; 20%
+- FY19: 1.0; 0.4; 1.0%; 20%
+- FY20: 1.7; 1.2; 3.8%; 23%
+- FY21: 4.5; 2.8; 10.3%; 23%
+- FY22: 7.3; 2.8; 16.6%; 28%
+- Maximum Value: # male 7.3 (FY22); net additions 2.8 (FY21/FY22); % penetration 16.6% (FY22); % total users 28% (FY22)
+- FY17 to FY22 Difference: # male +7.2; net additions +2.7; % penetration +16.5 percentage points; % total users +8 percentage points
+- Difference between Red and Gray Bars in the respective year: FY20 0.5; FY21 1.7; FY22 4.5
+
+[Pattern Characteristics]
+- The red bars show continuous growth year-over-year, and starting from FY20, the height of the red bars is significantly higher than the gray bars, with the height difference expanding annually.
+- The gray line remains close to the X-axis during the FY17-FY19 period, but after FY20, the slope significantly increases, forming an upward trending curve.
+- The brown triangle markers are relatively flat horizontally from FY17-FY19, followed by a step-like upward movement after FY20, reaching the highest point of the entire period in FY22.
+
+[Core Insights]
+Core Conclusion: The scale and penetration rate of male users are rapidly increasing simultaneously, leading to a significant rise in contribution.
+
+Business Implications:
+- The importance of the male customer segment to the overall user structure has clearly strengthened.
+- The support provided by the number of new male users for scale expansion is increasing.
+- The rise in penetration rate leads to greater depth of user coverage.
+
+Risk Concerns:
+- If % total users exceeds 30%, it may lead to gender structural imbalance, affecting diversification requirements.
+- If net additions fall below 1.0, it will weaken the sustained increase in subsequent scale and penetration rate.

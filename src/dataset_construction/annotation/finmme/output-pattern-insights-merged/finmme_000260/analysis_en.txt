@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Multi-series Line Chart
+- Title: Not displayed
+- X-axis: Year, range 2005—2023 (Annual scale)
+- Y-axis: Numerical range approximately -2.0 to 5.0, includes a horizontal baseline at 0; Unit annotation not visible.
+- Legend: Europe (Dark Blue), Germany (Red), France (Green)
+
+[Data Relationships]
+- Initial Period (2005): Europe≈-0.9, Germany≈-1.0, France≈-1.0
+- Historical Peak: Germany≈4.5 (approx. 2022), France≈4.0 (approx. 2016), Europe≈3.8 (approx. 2016–2017)
+- Historical Trough: All three approximately near -1.2
+- 2023: Europe≈2.1, Germany≈3.6, France≈1.2
+- Peak-to-Trough Difference (Range): Germany≈5.7, France≈5.2, Europe≈5.0
+- Approximately 2016: France≈4.0, Europe≈3.5, Germany≈0, Difference between France and Germany≈4.0
+
+[Pattern Characteristics]
+The three series generally clustered in a narrow range around 0 in the early period, followed by a gradual increase in the overall numerical level and an expansion of the oscillation range. France and Europe followed similar trends most of the time, while Germany deviated from the other two series multiple times around 2015–2017, notably forming a significant inverse divergence around 2016. Since 2020, the three series have generally been in a higher range. Germany has been relatively higher in recent years, while France shows a slight retreat.
+
+[Core Insights]
+Core Conclusion: The overall regional level has risen, but divergence among nations has significantly increased.
+
+Business Implications:
+- Average regional performance has improved, but internal disparity has increased.
+- Germany's influence on the overall result has increased, while France's perceived weight has weakened.
+- The extreme divergence around 2016 suggests characteristics of structural imbalance.
+
+Risk Focus:
+- When Germany is above Europe by more than 3.0, the regional outcome is overly dependent on a single economy, easily amplifying volatility.
+- When France is below 0 and Europe is above 2.0, internal imbalance may intensify, potentially undermining overall sustainability.

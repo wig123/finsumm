@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Dual-axis line chart
+- Legend: Red "Price," Gray "Rel Taiwan TAIEX Index"
+- Title: No main title visible
+- X-axis: Time; scale labeled monthly from Mar 23 to Feb 24
+- Left Y-axis: Labeled (TWD), scale approximately 150—550
+- Right Y-axis: Numerical scale approximately 75—250
+
+[Data Relationships]
+- Price at inception (Mar 23) approximately 175 TWD; at period end (Feb 24) approximately 520 TWD, a difference of approximately 345 TWD
+- Price low approximately 155 TWD (Apr–May 23), high approximately 525 TWD (Feb 24), a high-low difference of approximately 370 TWD
+- Aug–Sep 2023 Price approximately 420—500 TWD; Dec 2023 approximately 360—390 TWD
+- Rel Taiwan TAIEX Index: Mar 23 approximately 100; Aug–Oct 23 peak approximately 240—250; Jan 24 approximately 175; Feb 24 approximately 235
+- Comparative analysis: Aug 23 Price approximately 430, Rel approximately 220; Dec 23 Price approximately 380, Rel approximately 190; Feb 24 Price approximately 520, Rel approximately 235
+
+[Pattern Characteristics]
+- After a brief initial decline, Price formed a relatively distinct stepped ascent, consolidating within a higher range during the middle segment, and subsequently surging again to a new high near the end of the sample period.
+- The overall trend of the Rel Taiwan TAIEX Index is generally synchronized with Price, but exhibits greater volatility in the middle segment, with more pronounced local peaks and troughs.
+- The two curves remain close for most of the period; occasional points in the middle-to-late segment show inconsistent relative magnitude changes, but no long-term deviation has occurred.
+
+[Core Insights]
+Core Conclusion: The underlying asset demonstrates overall stronger performance relative to the broader market, with high synchronization.
+
+Business Implications:
+- Overall return performance is superior to the referenced index.
+- High synchronization with the benchmark, indicating clear tracking characteristics.
+- The relative advantage narrowed in the middle segment, but expanded again later.
+
+Risk Focus:
+- If Price declines by more than 15% from approximately 520 TWD, the excess return may contract significantly.
+- If the Rel Index falls below 180 from approximately 235, a substantial giveback in relative performance may occur.

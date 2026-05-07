@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Time Series Line Chart (with markers)
+- Title: Axiata
+- Top right corner info: As of February 22, 2024; Currency unit is MYR
+- X-axis: Date, range approximately July 1, 2021, to January 1, 2024
+- Y-axis: Price (MYR), bottom scale 0.0, top scale approximately 5.0
+- Legend: Black line represents Closing Price; Green triangle represents Target Price change; Blue dot represents Recommendation change
+- Data Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial period (July 2021) Closing Price approximately 3.7 MYR
+- High point Closing Price approximately 4.1 MYR (October 2021 to January 2022)
+- Low point Closing Price approximately 2.3 MYR (October 2022)
+- Final period (February 2024) Closing Price approximately 2.8 MYR
+- High-low difference approximately 1.8 MYR; Final period difference compared to initial period approximately -0.9 MYR
+- Green triangle appeared 7 times, Y-values approximately 4.7, 5.1, 3.6, 3.7, 3.8, 3.8, 3.1 MYR; Blue dot did not appear (count is 0)
+
+[Pattern Characteristics]
+- The price line initially traded in a higher range, subsequently moved down, showing a clear low point in the second half of 2022, followed by a slight rebound towards the end.
+- The overall trend is continuous with moderate volatility; the early period was relatively balanced, while the later period spent more time in the low range.
+- Green triangles are distributed across multiple phases, mostly positioned above the closing price line; blue dots did not appear.
+
+[Core Insights]
+Core Conclusion: Market pricing has consistently been below multiple target prices, indicating a deviation between expectation and valuation.
+
+Business Implications:
+- Widening divergence between market sentiment and research views
+- Lack of recommendation signals, limiting decision basis
+- Allocation requires further independent verification
+
+Risk Focus:
+- Closing price falling below 2.3 MYR may trigger passive position reduction
+- Long-term trading below 3.1 MYR leads to decreased credibility of the target price

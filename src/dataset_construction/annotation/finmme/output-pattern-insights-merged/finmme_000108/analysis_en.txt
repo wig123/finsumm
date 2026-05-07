@@ -1,0 +1,44 @@
+[Chart Components]
+- Type: Data Table
+- Title: Left side is "BNP Paribas GDP growth forecasts Emerging Markets," Right side is "BNP Paribas consumer price inflation forecasts Emerging Markets"
+- Axes: Not applicable (Data Table)
+- Legend: Left side is "ANNUAL GROWTH (% y/y)," Right side is "ANNUAL RATE (% y/y)"
+
+[Data Relationships]
+
+### GDP Growth Forecasts (Left Table)
+
+- **Extremum Comparison**
+  - In 2023, Argentina was the lowest (-2.0%); India was the highest (7.5%).
+  - In 2025, the highest growth remains India (6.5%).
+
+- **Key Trends**
+  - From 2023 to 2025, India maintains high growth, registering 7.5%, 6.3%, and 6.5%, respectively.
+  - Argentina recovers from negative growth in 2023 (-2.0%) to 2.5% in 2025.
+
+### Consumer Price Inflation Forecasts (Right Table)
+
+- **Extremum Comparison**
+  - In 2023, Argentina’s inflation rate was the highest (126.8%), and Poland was the lowest (11.1%).
+  - In 2025, Argentina’s inflation rate remains the highest (80.1%).
+
+- **Key Trends**
+  - Argentina’s inflation rate remains persistently high over the three years, despite a decline (from 126.8% to 80.1%).
+  - Turkey sees a significant decline from high inflation in 2023 (42.0%) to 13.5% in 2025.
+
+[Pattern Characteristics]
+- Both tables are grouped by region; country values show dispersed distribution, with clear ranking differences.
+- In the growth column, EM Asia generally ranks high, with India maintaining the lead; Argentina moves from the negative value zone toward the positive value zone.
+- The inflation column shows a single outlier (Argentina), and the range position of individual countries changes significantly across the time dimension (e.g., Turkey).
+
+[Core Insights]
+Core Conclusion: Cross-country mismatch between earnings momentum and price levels necessitates layered exposure management.
+
+Business Implications:
+- Inconsistency between earnings drivers and price pressure
+- Impacts country weighting and hedging design
+- Suitable for adopting regional and tiered allocation strategies
+
+Risk Focus:
+- Inflation ≥ 80%: Return erosion, difficult pricing
+- GDP ≤ 0%: Cash flow volatility, investment delay

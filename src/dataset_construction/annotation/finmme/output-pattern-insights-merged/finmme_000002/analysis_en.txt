@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Dual Line Chart
+- Title: No explicit main title observed (series labeled by legend)
+- X-axis: Quarterly, 1Q16 to 3Q24F (including forecast F)
+- Y-axis: YoY Growth Rate (%), range approximately -40% to 60%, including the 0% baseline
+- Legend: Red "Major auto markets' y‑y*"; Gray "Global PMX auto sales y‑y"
+- Others: Specific data point values are not labeled
+
+[Data Relationships]
+- Red Line: Trough 1Q20 approximately -35%; Peak 1Q21 approximately +30%; Starting point 1Q16 approximately +6%; Ending value 3Q24F approximately +5%; Peak-to-trough difference approximately 65 percentage points
+- Gray Line: Trough 3Q22 approximately -15%; Peak 1Q21 approximately 45–50%; Starting point 1Q16 approximately 18%; Ending value 3Q24F approximately 20%; Peak-to-trough difference approximately 63 percentage points
+- Key Comparison: 1Q20 Red line is lower than Gray line by approximately 25 percentage points; 1Q21 Gray line is higher than Red line by approximately 15–20 percentage points; 3Q22 Red line and Gray line are nearly overlapping; 3Q23 Red line is higher than Gray line by approximately 20–25 percentage points; 1Q24F the difference between the two lines is approximately 2 percentage points; 3Q24F Gray line is higher by approximately 15 percentage points
+
+[Pattern Characteristics]
+- The two series mostly show movement in the same direction, but the Gray line has a larger amplitude and sharper extremes.
+- 1Q20 the Red line formed a deep V; after the two lines reached extremes in 1Q21, they quickly reverted, crossing multiple times.
+- In 3Q22 the two lines were close, and the gap widened in 3Q23; during the forecast period, they first converge then expand, with the Gray line ending on top.
+
+[Core Insights]
+Core Conclusion: The two indicators show strong correlation but exhibit phase differences; PMX is relatively dominant during the forecast period.
+
+Business Implications:
+- Phase differences indicate switching strength between methodologies/scopes.
+- YoY assessment requires combining both methodologies/scopes.
+- Short-term allocation favors PMX.
+
+Risk Focus:
+- If the difference between the two lines > 15 percentage points, the conclusion deviation is amplified.
+- If the Red line < 0%, major markets show negative YoY growth, dragging down the overall methodology/scope.

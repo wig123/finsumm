@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Time Series Line Chart
+- Title: Malaysia Airports
+- Top Right Information: As of 25-Jan-2024; Currency = MYR
+- X-axis: Date scale includes 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01
+- Y-axis: Price (MYR), range 0.0—8.5
+- Legend: Black line represents Closing Price; Green triangle represents Target Price Change; Blue dot represents Recommendation Changes
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Time Span: Approximately July 2021 to January 2024
+- Closing price maximum value approximately 8.3 MYR, minimum value approximately 5.2 MYR, range difference approximately 3.1 MYR
+- Beginning of period (around July 2021) closing price approximately 5.2 MYR; End of period (around January 2024) closing price approximately 7.8 MYR; End of period increased by approximately 2.6 MYR compared to the beginning of the period
+- Target price change markers occurred 3 times, specifically in mid-2021, mid-2022, and mid-2023; Corresponding prices are approximately 6.5 MYR, 7.9 MYR, and 8.3 MYR
+- Blue dots (Recommendation Changes) are not visible in the chart
+
+[Pattern Characteristics]
+- The closing price line exhibits a multi-stage step-like structure with a relatively wide range amplitude.
+- A noticeable trough appeared mid-period, followed by a gradual return near the upper boundary of the range.
+- Target price change markers are distributed annually mid-year, often positioned close to local highs.
+
+[Core Insights]
+Core Conclusion: Research recommendations are stable, with signals primarily driven by target price adjustments.
+
+Business Implications:
+- Signal source is concentrated, relying on the target price.
+- The three adjustments reflect phased expectation updates.
+- More suitable for use as a valuation anchor reference.
+
+Risk Focus:
+- Above 8.3 MYR, lacking historical reference, valuation uncertainty increases.
+- Below 5.2 MYR, falling outside the range of the past three years, risk exposure expands.

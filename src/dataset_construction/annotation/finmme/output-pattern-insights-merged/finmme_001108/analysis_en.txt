@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Dual Line Chart
+- Y-axis: (USDtrn), range approximately 10—40, scale increment of 5
+- X-axis: Year, 2010—2024 (2-year increments)
+- Legend: Green represents "Total public debt subject to limit"; Light blue represents "Statutory debt limit (currently suspended until 1 January, 2025)"
+- Annotations: Right side marked with "Election day" and "Debt ceiling date"; A gray vertical band is present around 2020
+
+[Data Relationships]
+- Total debt in 2010 is approximately 12
+- Total debt in 2024 is approximately 34–35 (the highest)
+- Approximately 26–27 in 2021; approximately 30–31 in 2022
+- Approximate statutory limit step values: 2011≈14, 2013≈16, 2015≈18, 2017≈20, 2019≈22, post-2021≈31 and maintained until 2024
+- The difference between total debt and the limit in 2024 is approximately 3–4
+- At the gray vertical band (≈2020), total debt ≈ 23, limit ≈ 22, difference ≈ 1
+- Total debt increase from the beginning to the end of the period is approximately 22–23
+
+[Pattern Characteristics]
+Overall, both curves have generally moved upward together since 2010. The total debt curve is more continuous and smooth, while the statutory limit moves upward in a step-like fashion. Near the gray vertical band around 2020, the distance between the two curves noticeably narrowed. Subsequently, total debt showed a relatively steep ascent around 2021, gradually approaching the limit while the limit remained level. By the end of the period, the total debt curve is in the highest range of the entire segment, leaving a limited gap between itself and the limit, which has remained unchanged for a long time.
+
+[Core Insights]
+Core Conclusion: Total debt has expanded over the long term and continues to approach the current statutory limit.
+
+Business Implications:
+- Indicates increasing reliance on fiscal leverage, with capacity being progressively utilized
+- The limit has not been relaxed concurrently in recent years, creating constraints on future borrowing
+- Flexibility in budget and financing arrangements is restricted when approaching the limit range
+
+Risk Focus:
+- When total debt approaches the statutory limit of approximately 31, continued increases may trigger the limit constraint and technical default disputes
+- If the debt remains high and approaches 31 around the election date, escalating political maneuvering may trigger market volatility and refinancing pressure

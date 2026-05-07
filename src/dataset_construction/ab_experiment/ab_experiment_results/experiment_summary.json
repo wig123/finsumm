@@ -1,0 +1,34 @@
+{
+  "experiment_info": {
+    "model": "gemini-2.5-flash-preview-09-2025",
+    "max_concurrency": 20,
+    "timestamp": "2025-12-04T22:01:08.361974",
+    "batch_source": "<WORKSPACE>/合成图表/chart-synthesis-v3/prog_2000/batch_004"
+  },
+  "group_a": {
+    "description": "仅系统提示词（纯视觉分析）",
+    "stats": {
+      "count": 100,
+      "success": 100,
+      "failed": 0,
+      "total_tokens": 389046,
+      "avg_tokens": 3890.0,
+      "total_duration_s": 1302.56,
+      "avg_duration_s": 13.03,
+      "avg_analysis_length": 1791.0
+    }
+  },
+  "group_b": {
+    "description": "系统提示词 + 内部参考信息（带数据辅助）",
+    "stats": {
+      "count": 100,
+      "success": 100,
+      "failed": 0,
+      "total_tokens": 448944,
+      "avg_tokens": 4489.0,
+      "total_duration_s": 1072.87,
+      "avg_duration_s": 10.73,
+      "avg_analysis_length": 1828.0
+    }
+  }
+}

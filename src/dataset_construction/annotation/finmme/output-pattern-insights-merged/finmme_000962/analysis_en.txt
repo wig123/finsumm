@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Financial Data Table; No axes or legend
+- Columns: BMW, Mercedes, VW, Porsche, Stellantis, Renault, Volvo, Ferrari, Tesla
+- Sections and Titles: US to Europe (k Units, USDbn), ASP; Pure Tariff impact (if raised from 10% to..), Or volume impact (if tariff lowered to..), Blended impact (if tariff raised from 2.5% to..)
+- Metrics and Units: k Units (thousand units), USDbn (billion USD), USDm (million USD), %PBT (Proportion of Profit Before Tax)
+
+[Data Relationships]
+- Baseline k Units/USDbn: BMW 109/7.2; Mercedes 53/4.3; Stellantis 7/0.2; Volvo 18/1.3; Tesla 4/0.3; VW, Porsche, Renault, Ferrari are 0.
+- ASP: Mercedes 81,459 highest, Stellantis 34,787 lowest; Tesla 80,424; Volvo 73,718; BMW 66,254.
+- Pure Tariff 25%: BMW -1,085(-7.2%); Mercedes -641(-3.8%); Volvo -201(-6.4%); Stellantis -37(-0.2%); Tesla -43(-0.4%).
+- Blended 15%: BMW -497(-3.3%); Mercedes -294(-1.9%); Volvo -92(-2.9%); Stellantis -25(-0.1%); Tesla -19(-0.2%).
+
+[Pattern Characteristics]
+- Overall, the direction of change in monetary value and %PBT is consistent across companies under the three scenarios: "Pure Tariff," "Volume Increase from Tariff Reduction," and "Blended Scenario," and this change monotonically increases with the magnitude of the tariff increase or reduction.
+- The absolute values and %PBT changes for BMW, Mercedes, and Volvo are significantly higher than those for Stellantis and Tesla, showing a clear gradient.
+- VW, Porsche, Renault, and Ferrari are NM (Not Material) in all scenarios, forming a stable sample group with zero impact.
+
+[Core Insights]
+Core Conclusion: Tariff adjustments have the greatest sensitivity impact on the profitability of a few high-priced, high-baseline manufacturers.
+
+Business Implications:
+- Profit structures show clear differences in reliance on cross-regional trade.
+- The profits of BMW, Mercedes, and Volvo are more sensitive to tariff policies.
+- Low-baseline or non-exporting manufacturers are virtually unaffected by the current scenarios.
+
+Risk Focus:
+- Under a Pure Tariff of 25%, BMW's -7.2% PBT may significantly erode overall profit.
+- Under a Blended 20% scenario, Mercedes' -2.6% PBT may weaken medium-term earnings resilience.

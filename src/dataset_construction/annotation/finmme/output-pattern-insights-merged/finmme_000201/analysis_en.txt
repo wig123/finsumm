@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Time Series Line Chart
+- Title: Budweiser Brewing Company APAC
+- Top Right Annotation: As of 29-Feb-2024; Currency=HKD
+- X-axis: Date scale from 2021/07/01 to 2024/01/01
+- Y-axis: Price scale 0.00–27.50 (Increment approximately 2.50, unit HKD)
+- Legend: Gray line is Closing Price; Green triangle is Target Price Change; Blue dot is Recommendation Changes
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial period (around 2021/07/01) closing price is in the 20.0–22.5 range; Final period (around 2024/01/01) is in the 12.5–15.0 range; The difference between the two is approximately 7.5–10.0 HKD.
+- The highest closing price is located in the 25.0–27.5 range (high point between 2021/08–2023/02); The lowest is located in the 10.0–12.5 range (2023/12–2024/01); The high-low difference is approximately 12.5–17.5 HKD.
+- The blue dot is approximately 12.5 HKD; The green triangle is approximately 15.0 HKD; The difference between the two is approximately 2.5 HKD.
+
+[Pattern Characteristics]
+- The initial segment of the series was in a higher range with multiple pullbacks, briefly rising at the beginning of 2023, then gradually transitioning to a lower range, forming a phase low near the end of the year.
+- The structure shifted from multi-peak oscillation to continuous movement with stronger directionality, showing no obvious jumps or gaps.
+- Near the end of the period, a recommendation and target price marking appeared. The green triangle is located above the closing price, the blue dot is close to the closing price, and there is a visible gap between the two.
+
+[Core Insights]
+Core Conclusion: Price is below the target price and at a relatively low level.
+
+Business Implications:
+- A deviation exists between valuation and sell-side expectations.
+- The probability of the target price being realized is under pressure.
+- The effectiveness of rating guidance has declined.
+
+Risk Focus:
+- Below 12.5 HKD → May trigger further rating downgrade.
+- Long-term below 15.0 HKD → May lead to target price reduction and reduction in holdings.

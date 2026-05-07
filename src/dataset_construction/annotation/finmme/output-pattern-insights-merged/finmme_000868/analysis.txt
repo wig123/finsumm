@@ -1,0 +1,29 @@
+【图表构成】
+- 类型：分组柱状图
+- 标题：EBITDA (INR mn)
+- X轴：财年标注为FY18、FY19、FY20、FY21、FY22、FY23
+- Y轴：刻度范围约0—70，单位为INR mn
+- 图例：Asian Paints（红）、Berger Paints（灰）、Kansai Nerolac（黑描边）、Akzo Nobel（浅橙）、Indigo Paints（黑）
+- 每个柱顶有数值标注
+
+【数据关系】
+- FY18：Asian 32、Berger 8、Kansai 8、Akzo 3、Indigo 0。
+- FY23：Asian 63、Berger 15、Kansai 8、Akzo 5、Indigo 2。
+- FY23最高为Asian 63，最低为Indigo 2，差61。
+- FY18→FY23变动：Asian +31、Berger +7、Kansai 0、Akzo +2、Indigo +2。
+- FY23对比：Asian相对Berger +48、相对Kansai +55、相对Akzo +58、相对Indigo +61。
+
+【模式特征】  
+整体上，Asian的柱体在各年度均显著高于其他公司，并在期间保持持续抬升。Berger处于第二梯队，数值中等且逐年递增；Kansai基本维持在相对稳定区间。Akzo与Indigo位于较低水平，前者缓慢上移，后者从接近零值逐步抬升，整体结构呈现明显的高低分层格局。
+
+【核心洞察】  
+核心结论：EBITDA高度集中于Asian，行业格局分层明显。  
+
+业务含义：  
+- Asian在盈利规模上处于绝对主导地位  
+- Berger具备次级竞争力，但与龙头差距较大  
+- Kansai、Akzo、Indigo对整体盈利贡献有限  
+
+风险关注：  
+- 若Asian EBITDA跌破40，则整体行业盈利水平将显著下移  
+- 若Berger EBITDA停留在15以下，将难以缩小与龙头的差距

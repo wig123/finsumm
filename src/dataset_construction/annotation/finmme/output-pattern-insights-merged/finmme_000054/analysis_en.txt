@@ -1,0 +1,34 @@
+[Chart Components]
+- Type: Waterfall Chart (Bar)
+- Y-axis: Labeled as “Contribution (21-Mar)”, scale ranging from 0.00 to 0.60, zero baseline is dashed
+- X-axis: Categories include GBP_Bund corr, USDHY_JPY corr, S&P 500, USD HY, other, Reverse Goldilocks
+- Colors: Green indicates positive values, red indicates negative values, black indicates the summation
+
+[Data Relationships]
+- GBP_Bund corr: 0.31
+- USDHY_JPY corr: 0.31
+- S&P 500: -0.17
+- USD HY: 0.08
+- other: 0.03
+- Summation “Reverse Goldilocks”: 0.56
+- Total positive value is 0.73, subtracting the negative value 0.17 results in 0.56, consistent with the summation.
+- Maximum positive value is 0.31, minimum positive value is 0.03, the difference is 0.28.
+- The absolute value of the negative contribution (0.17) accounts for approximately 23% of the total positive contribution (0.73).
+- The summation 0.56 differs from the scale limit 0.60 by 0.04.
+
+[Pattern Characteristics]
+- The chart is dominated by positive bars, with a single negative bar appearing in the middle, and the final summation is positive and close to the upper limit of the Y-axis.
+- The structure is unbalanced; the first two positive bars have similar heights and are significantly higher than the remaining items, while the latter two items provide only marginal increments.
+- The negative bar did not change the direction of the accumulation, and no jump across the zero baseline was observed.
+
+[Core Insights]
+Core Conclusion: Net contribution is positive, but the drivers are highly concentrated.
+
+Business Implications:
+- Primarily dependent on two correlation factors.
+- The equity factor constitutes an offset to the result.
+- Remaining factors have marginal impact and limited diversification.
+
+Risk Concerns:
+- If S&P 500 ≤ -0.31, the summation may drop to ≈0.42, offsetting the leading contributions.
+- If any dominant positive item drops to zero, the summation drops to ≈0.25, significantly weakening the driver.

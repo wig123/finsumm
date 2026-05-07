@@ -1,0 +1,37 @@
+[Chart Components]
+- Type: Line Chart
+- Title: No explicit title
+- Axes: X-axis represents years (from 2006 to 2024), Y-axis represents data values (range from -20 to 140)
+- Legend: Shows "10Y Bund SS - 10Y UST SS"
+
+[Data Relationships]
+- Key Values and Changes:
+  - In early 2008, the value was low, approximately below 0, followed by a sharp rise to about 100.
+  - Between 2012 and 2016, the value showed minor fluctuations, remaining between 60 and 100.
+  - Between 2021 and 2022, it peaked again, approaching 120, and then gradually retreated.
+
+- Extremum Comparison:
+  - The highest points occurred in 2008 and 2022, with values approaching 100 and 120, respectively.
+  - The lowest point occurred in early 2008, with a value of approximately -20.
+
+- Significant Trends:
+  - The overall trend shows significant volatility between 2010 and 2015, following a sharp rise in 2008.
+  - After 2016, it maintained a relatively high level, showing a volatile upward trend.
+  - A downward trend emerged after 2022, approaching 80.
+
+[Pattern Characteristics]
+- The early curve rapidly crossed from the negative range into the positive range, exhibiting multiple phase-specific high points.
+- The middle segment showed prolonged narrow-range consolidation near the dashed line, with continuous structure and single dominance.
+- In the past two years, it has gradually converged toward the dashed line, with no new extreme abnormal jumps observed.
+
+[Core Insights]
+Core Conclusion: The spread remains in a relatively high range, currently trading near 80.
+
+Business Implications:
+- High degree of pricing divergence
+- Reduced operational space near 80
+- Enhanced risk control required during extreme phases
+
+Risk Focus:
+- Breaking below 80 leads to decreased strategy effectiveness and increased misjudgment
+- Approaching 120; if divergence does not converge, losses will expand

@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Combined Bar and Line Chart
+- Title: Not displayed
+- X-axis: Fiscal Year Categories FY24F, FY25F, FY26F, FY27F
+- Left Y-axis: Revenue, scale range approximately 0–70,000 (in increments of 10,000)
+- Right Y-axis: No. of stores (RHS), scale range approximately 0–50 (in increments of 5)
+- Legend: Red bar represents Revenue; Grey line represents No. of stores (RHS)
+
+[Data Relationships]
+- FY24F: Revenue≈11,000; Stores≈20
+- FY25F: Revenue≈26,000; Stores≈30
+- FY26F: Revenue≈45,000; Stores≈40
+- FY27F: Revenue≈60,000; Stores≈45
+- Difference between FY24F and FY27F: Revenue≈49,000; Stores≈25
+- Annual Revenue difference: FY24F→FY25F≈15,000; FY25F→FY26F≈19,000; FY26F→FY27F≈15,000
+- Revenue per store (approximate value): FY24F≈550; FY27F≈1,333; Difference between the two≈783/store
+
+[Pattern Characteristics]
+- Both the bars (Revenue) and the line (Stores) show monotonic growth across the entire fiscal year sequence, with no decline or stagnation.
+- The increase in the bars is larger in the middle years, while the increment in the line is relatively uniform.
+- Revenue per store, calculated annually, shows continuous elevation, with no obvious anomalies or inflection points.
+
+[Core Insights]
+Core Conclusion: Revenue growth is significantly faster than store expansion, leading to a sustained increase in output per store.
+
+Business Implications:
+- Overall profitability expectations are significantly strengthened.
+- Store operating efficiency improves year-over-year, enhancing marginal benefit.
+- Future resource allocation can be more focused on high-yield stores and regions.
+
+Risk Concerns:
+- If the number of stores exceeds 50 while Revenue does not exceed 70,000, store profitability may be compressed.
+- If revenue per store falls below 1,000, the overall profit margin may be weakened.

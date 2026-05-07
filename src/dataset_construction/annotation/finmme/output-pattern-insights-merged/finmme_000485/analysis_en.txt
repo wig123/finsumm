@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Time Series Line Chart
+- Title: Asymchem; annotated in the upper right corner "As of 01-Mar-2024," currency unit = CNY
+- Axes: X-axis is Date (2021/07/01—2024/01/01); Y-axis is Price Range 0.00—375.00
+- Legend: Closing Price (Black Line), Target Price Change (Green Triangle), Recommendation Changes (Blue Dot)
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial Period (approx. 2021/07) Closing Price ≈ 185 CNY; Final Period (approx. 2024/01) ≈ 100 CNY; Difference between the two ≈ 85 CNY
+- All-time High ≈ 360 CNY (approx. 2022/01); All-time Low ≈ 95–100 CNY (approx. 2024/01); High-Low Difference ≈ 260–265 CNY
+- Target Price Change marked approximately 5 times: located near ≈ 180, ≈ 180, ≈ 175, ≈ 150, ≈ 180 CNY, respectively
+- Recommendation Change marked 1 time: located near ≈ 140 CNY
+
+[Pattern Characteristics]
+- Price initially rose rapidly in the early sample period, forming a single major peak, and subsequently maintained a slow, volatile decline within a relatively low range for an extended period.
+- Target price adjustments were frequently concentrated in the middle-to-late stage and generally located near the same price band. Recommendation changes occurred only once, situated in the middle segment after the price retreated from its high.
+- The overall trend consists of a concentrated upward surge in the early period and narrow fluctuations within a low-level range in the later period, with no new high-point platforms emerging.
+
+[Core Insights]
+Core Conclusion: The valuation center has shifted significantly downward, and sell-side expectation adjustments lag behind price changes.
+
+Business Implications:
+- Following the price retracement, the market's valuation of the company's worth has clearly contracted.
+- The target price is frequently concentrated in the 150–180 range, reflecting strong stickiness in sell-side expectations.
+- The single recommendation adjustment suggests that covering institutions are relatively cautious in updating their views.
+
+Risk Focus:
+- If the price persistently remains below 100 CNY, it may trigger further rating downgrades and target price revisions.
+- If the subsequent target price is revised downward close to the current price (e.g., ≤ 120 CNY), the valuation defense line will be breached, potentially triggering further selling pressure.

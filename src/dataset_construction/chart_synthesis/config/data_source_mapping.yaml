@@ -1,0 +1,334 @@
+# 数据源映射配置
+# 将indicator_id映射到数据源特定的series_code
+
+# ============================================================================
+# FRED 数据源 - 美国宏观经济数据
+# ============================================================================
+fred:
+  # === 通胀指标 ===
+  macro.inflation.cpi.headline: CPIAUCSL
+  macro.inflation.cpi.core: CPILFESL
+  macro.inflation.pce.headline: PCEPI
+  macro.inflation.pce.core: PCEPILFE
+  macro.inflation.ppi: PPIACO
+
+  # === GDP ===
+  macro.gdp.real: GDPC1
+  macro.gdp.nominal: GDP
+
+  # === 就业市场 ===
+  macro.unemployment.rate: UNRATE
+  macro.employment.nonfarm: PAYEMS              # 非农就业人数
+  macro.employment.claims.initial: ICSA         # 初请失业金人数
+  macro.employment.claims.continued: CCSA       # 续请失业金人数
+  macro.employment.participation: CIVPART       # 劳动参与率
+  macro.employment.hourly.earnings: CES0500000003  # 平均时薪
+
+  # === 利率 ===
+  macro.interest.rate.fed.funds: FEDFUNDS
+  macro.interest.rate.10y.treasury: GS10
+  macro.interest.rate.prime: DPRIME             # 优惠贷款利率
+
+  # === 生产与产能 ===
+  macro.industrial.production: INDPRO           # 工业生产指数
+  macro.capacity.utilization: TCU               # 产能利用率
+  macro.manufacturing.orders: DGORDER           # 耐用品订单
+
+  # === 消费者 ===
+  macro.consumer.sentiment: UMCSENT             # 密歇根消费者信心指数
+  macro.consumer.confidence: CSCICP03USM665S    # 消费者信心指数 (OECD)
+  macro.retail.sales: RSAFS                     # 零售销售额
+  macro.personal.consumption: PCE               # 个人消费支出
+
+  # === 货币供应 ===
+  macro.money.m1: M1SL                          # M1货币供应量
+  macro.money.m2: M2SL                          # M2货币供应量
+  macro.money.velocity: M2V                     # M2货币流通速度
+
+  # === 房地产 ===
+  macro.housing.starts: HOUST                   # 新屋开工
+  macro.housing.permits: PERMIT                 # 建筑许可
+  macro.housing.sales.new: HSN1F                # 新屋销售
+  macro.housing.sales.existing: EXHOSLUSM495S   # 成屋销售
+  realestate.house.price.index: CSUSHPISA       # Case-Shiller房价指数
+
+  # === 领先/滞后指标 ===
+  macro.leading.indicator: USALOLITONOSTSAM     # OECD领先指标
+  macro.coincident.indicator: USPHCI            # 费城联储一致指标
+
+  # === 能源商品 ===
+  commodity.oil.wti: DCOILWTICO
+  commodity.oil.brent: DCOILBRENTEU             # 布伦特原油
+  commodity.gas.price: GASREGW
+  commodity.gas.natural: DHHNGSP
+
+  # === 农业食品 ===
+  commodity.chicken.price: APU0000706111
+  commodity.beef.price: APU0000703112
+  commodity.agricultural.index: WPU02
+  commodity.food.index: CPIUFDNS                # 食品CPI
+
+  # === 金属矿产 ===
+  commodity.metal.index: WPU101
+  commodity.nonferrous.index: WPU102
+  # 注意: 黄金价格可通过 Efinance 期货数据获取 (futures.au.ohlcv)
+
+  # === 建筑材料 ===
+  commodity.lumber.index: WPU081
+  commodity.steel.index: PCU331331
+
+  # === 波动率指数 ===
+  market.volatility.vix: VIXCLS
+  market.volatility.vix.3month: VXVCLS
+  market.volatility.nasdaq100: VXNCLS
+  market.volatility.djia: VXDCLS
+  market.volatility.move: MOVE                  # MOVE债券波动率指数
+
+  # === 国债收益率曲线 ===
+  bond.treasury.1y: DGS1
+  bond.treasury.2y: DGS2
+  bond.treasury.5y: DGS5
+  bond.treasury.20y: DGS20
+  bond.treasury.30y: DGS30
+  bond.treasury.yield.spread.10y2y: T10Y2Y
+  bond.treasury.yield.spread.10y3m: T10Y3M      # 10年-3月利差
+
+  # === 信用利差 ===
+  bond.credit.spread.aaa: DAAA
+  bond.credit.spread.baa: DBAA
+  bond.credit.spread.high.yield: BAMLH0A0HYM2
+
+  # === 风险指标 ===
+  # TED利差(TEDRATE)和STLFSI2已停止更新，使用替代指标
+  risk.financial.conditions: NFCI               # 芝加哥联储全国金融条件指数
+  risk.financial.conditions.adj: ANFCI          # 芝加哥联储调整后金融条件指数
+  risk.financial.stress.kc: KCFSI               # 堪萨斯城联储金融压力指数
+  risk.corporate.default: DRSFRMACBS            # 企业违约率
+
+  # === 美股市场指数 ===
+  market.index.sp500: SP500
+  market.index.djia: DJIA
+  market.index.nasdaq100: NASDAQ100
+  market.index.wilshire5000: WILL5000IND
+
+  # === 国际股票市场 ===
+  market.index.nikkei225: NIKKEI225
+  market.index.msci.emerging: MSCIEF
+
+# ============================================================================
+# Baostock 数据源 - A股指数 (无限流、免费、稳定)
+# ============================================================================
+baostock:
+  # === A股指数 OHLCV ===
+  index.sh000001.ohlcv: sh.000001   # 上证综指
+  index.sz399001.ohlcv: sz.399001   # 深证成指
+  index.sz399006.ohlcv: sz.399006   # 创业板指
+  index.sh000016.ohlcv: sh.000016   # 上证50
+  index.sh000300.ohlcv: sh.000300   # 沪深300
+  index.sh000905.ohlcv: sh.000905   # 中证500
+  index.sh000852.ohlcv: sh.000852   # 中证1000
+  # === 新增指数 ===
+  index.sh000903.ohlcv: sh.000903   # 中证100
+  index.sh000906.ohlcv: sh.000906   # 中证800
+  index.sz399673.ohlcv: sz.399673   # 创业板50
+  index.sh000688.ohlcv: sh.000688   # 科创50
+  index.sz399975.ohlcv: sz.399975   # 证券公司
+  index.sz399986.ohlcv: sz.399986   # 中证银行
+  index.sz399989.ohlcv: sz.399989   # 医药100
+  index.sz399808.ohlcv: sz.399808   # 中证新能源
+  # === A股龙头个股 ===
+  stock.sh600519.ohlcv: sh.600519   # 贵州茅台
+  stock.sh601318.ohlcv: sh.601318   # 中国平安
+  stock.sh600036.ohlcv: sh.600036   # 招商银行
+  stock.sz000858.ohlcv: sz.000858   # 五粮液
+  stock.sz300750.ohlcv: sz.300750   # 宁德时代
+  stock.sz002594.ohlcv: sz.002594   # 比亚迪
+  stock.sh600276.ohlcv: sh.600276   # 恒瑞医药
+  stock.sz000333.ohlcv: sz.000333   # 美的集团
+  stock.sh600900.ohlcv: sh.600900   # 长江电力
+  stock.sh601398.ohlcv: sh.601398   # 工商银行
+  stock.sh600030.ohlcv: sh.600030   # 中信证券
+  stock.sz000001.ohlcv: sz.000001   # 平安银行
+  # === A股ETF ===
+  fund.sh510050.ohlcv: sh.510050    # 上证50ETF
+  fund.sh510300.ohlcv: sh.510300    # 沪深300ETF
+  fund.sh510500.ohlcv: sh.510500    # 中证500ETF
+  fund.sh512880.ohlcv: sh.512880    # 证券ETF
+  fund.sh512010.ohlcv: sh.512010    # 医药ETF
+  # === 时序指标（提取 close 列）===
+  index.sh000001.ts: sh.000001      # 上证综指
+  index.sz399001.ts: sz.399001      # 深证成指
+  index.sh000300.ts: sh.000300      # 沪深300
+  index.sh000905.ts: sh.000905      # 中证500
+  index.sh000688.ts: sh.000688      # 科创50
+  stock.sh600519.ts: sh.600519      # 贵州茅台
+  stock.sh601318.ts: sh.601318      # 中国平安
+  stock.sz300750.ts: sz.300750      # 宁德时代
+  stock.sz002594.ts: sz.002594      # 比亚迪
+  fund.sh510300.ts: sh.510300       # 沪深300ETF
+
+# ============================================================================
+# yfinance 数据源 - 港股/全球指数/外汇/商品期货 (Yahoo Finance)
+# ============================================================================
+yfinance:
+  # === 港股指数 OHLCV ===
+  index.hsi.ohlcv: "^HSI"           # 恒生指数
+  index.hscei.ohlcv: "^HSCE"        # 国企指数
+  index.hstech.ohlcv: "^HSTECH"     # 恒生科技
+
+  # === 美股个股 OHLCV ===
+  stock.aapl.ohlcv: "AAPL"          # 苹果
+  stock.msft.ohlcv: "MSFT"          # 微软
+  stock.googl.ohlcv: "GOOGL"        # 谷歌
+  stock.amzn.ohlcv: "AMZN"          # 亚马逊
+  stock.tsla.ohlcv: "TSLA"          # 特斯拉
+  stock.nvda.ohlcv: "NVDA"          # 英伟达
+  stock.meta.ohlcv: "META"          # Meta
+  stock.jpm.ohlcv: "JPM"            # 摩根大通
+  stock.v.ohlcv: "V"                # Visa
+  stock.wmt.ohlcv: "WMT"            # 沃尔玛
+  stock.jnj.ohlcv: "JNJ"            # 强生
+  stock.pg.ohlcv: "PG"              # 宝洁
+
+  # === 港股个股 OHLCV ===
+  stock.0700.ohlcv: "0700.HK"       # 腾讯控股
+  stock.9988.ohlcv: "9988.HK"       # 阿里巴巴
+  stock.1810.ohlcv: "1810.HK"       # 小米集团
+  stock.9618.ohlcv: "9618.HK"       # 京东集团
+  stock.2318.ohlcv: "2318.HK"       # 中国平安
+  stock.0939.ohlcv: "0939.HK"       # 建设银行
+
+  # === 全球指数 OHLCV ===
+  index.global.dji.ohlcv: "^DJI"    # 道琼斯
+  index.global.spx.ohlcv: "^GSPC"   # 标普500
+  index.global.ixic.ohlcv: "^IXIC"  # 纳斯达克
+  index.global.n225.ohlcv: "^N225"  # 日经225
+  index.global.ftse.ohlcv: "^FTSE"  # 英国富时100
+  index.global.dax.ohlcv: "^GDAXI"  # 德国DAX
+
+  # === 能源商品期货 OHLCV ===
+  commodity.oil.wti.ohlcv: "CL=F"   # WTI原油期货
+  commodity.oil.brent.ohlcv: "BZ=F" # 布伦特原油期货
+  commodity.gas.natural.ohlcv: "NG=F" # 天然气期货
+  commodity.gasoline.ohlcv: "RB=F"  # 汽油期货
+  commodity.heating.oil.ohlcv: "HO=F" # 取暖油期货
+
+  # === 贵金属期货 OHLCV ===
+  commodity.gold.ohlcv: "GC=F"      # 黄金期货
+  commodity.silver.ohlcv: "SI=F"    # 白银期货
+  commodity.platinum.ohlcv: "PL=F"  # 铂金期货
+  commodity.palladium.ohlcv: "PA=F" # 钯金期货
+
+  # === 工业金属期货 OHLCV ===
+  commodity.copper.ohlcv: "HG=F"    # 铜期货
+  commodity.aluminum.ohlcv: "ALI=F" # 铝期货
+
+  # === 农产品期货 OHLCV ===
+  commodity.corn.ohlcv: "ZC=F"      # 玉米期货
+  commodity.wheat.ohlcv: "ZW=F"     # 小麦期货
+  commodity.soybean.ohlcv: "ZS=F"   # 大豆期货
+  commodity.sugar.ohlcv: "SB=F"     # 糖期货
+  commodity.coffee.ohlcv: "KC=F"    # 咖啡期货
+  commodity.cotton.ohlcv: "CT=F"    # 棉花期货
+  commodity.cocoa.ohlcv: "CC=F"     # 可可期货
+
+  # === 外汇 OHLCV ===
+  fx.usdcnh.ohlcv: "USDCNY=X"       # 美元/人民币
+  fx.eurusd.ohlcv: "EURUSD=X"       # 欧元/美元
+  fx.usdjpy.ohlcv: "USDJPY=X"       # 美元/日元
+  fx.gbpusd.ohlcv: "GBPUSD=X"       # 英镑/美元
+  fx.audusd.ohlcv: "AUDUSD=X"       # 澳元/美元
+  fx.usdcad.ohlcv: "USDCAD=X"       # 美元/加元
+  fx.usdchf.ohlcv: "USDCHF=X"       # 美元/瑞士法郎
+
+  # === 加密货币 OHLCV ===
+  crypto.btc.ohlcv: "BTC-USD"       # 比特币
+  crypto.eth.ohlcv: "ETH-USD"       # 以太坊
+  crypto.bnb.ohlcv: "BNB-USD"       # 币安币
+  crypto.sol.ohlcv: "SOL-USD"       # Solana
+  crypto.xrp.ohlcv: "XRP-USD"       # 瑞波币
+
+# ============================================================================
+# Efinance 数据源 - 期货/ETF (东方财富)
+# ============================================================================
+efinance:
+  # === 期货 OHLCV ===
+  # 格式: 交易所代码.品种代码 (115=上期所, 113=中金所, 114=大商所, 116=郑商所)
+  futures.au.ohlcv: "115.AU0"       # 黄金主力
+  futures.ag.ohlcv: "115.AG0"       # 白银主力
+  futures.cu.ohlcv: "115.CU0"       # 铜主力
+  futures.al.ohlcv: "115.AL0"       # 铝主力
+  futures.zn.ohlcv: "115.ZN0"       # 锌主力
+  futures.ni.ohlcv: "115.NI0"       # 镍主力
+  futures.rb.ohlcv: "115.RB0"       # 螺纹钢主力
+  futures.sc.ohlcv: "115.SC0"       # 原油主力
+  futures.if.ohlcv: "113.IF0"       # 沪深300期货主力
+  futures.ic.ohlcv: "113.IC0"       # 中证500期货主力
+  futures.ih.ohlcv: "113.IH0"       # 上证50期货主力
+
+  # === ETF基金 OHLCV ===
+  fund.etf.sh510050.ohlcv: "510050"   # 50ETF
+  fund.etf.sh510300.ohlcv: "510300"   # 300ETF
+  fund.etf.sh510500.ohlcv: "510500"   # 500ETF
+  fund.etf.sz159915.ohlcv: "159915"   # 创业板ETF
+
+# ============================================================================
+# AKShare 数据源已移除
+# ============================================================================
+# 原因：
+# 1. 性能瓶颈（严格限流、全局锁导致串行化）
+# 2. 不需要数据的全面性，只需要多样性
+# 3. FRED + yfinance + baostock + efinance 已提供足够多样性
+# 4. 横截面数据由 LLM 合成生成
+#
+# 移除的数据：
+# - 中国宏观经济（9个指标）→ 不影响多样性
+# - 中国商品价格（6个指标）→ yfinance/efinance 替代
+# - 资金流向（6个指标）→ 非核心需求
+# - 期权数据（9个指标）→ 非核心需求
+# - 横截面数据（15个指标）→ LLM 合成替代
+#
+# 替代方案：
+# - 时间序列：FRED (100+指标) + yfinance (无限) + baostock + efinance
+# - 横截面：LLM 合成（90%概率）+ Cross-sectional API（10%）
+
+# ============================================================================
+# 横截面数据源 - 国际组织/政府统计
+# ============================================================================
+cross_sectional:
+  # === 国家统计局 ===
+  china.stats.provinces.gdp:
+    source: 国家统计局
+    api_url: https://data.stats.gov.cn/easyquery.htm
+    method: POST
+    description: 省级GDP数据
+  china.stats.provinces.population:
+    source: 国家统计局
+    description: 省级人口数据
+
+  # === IMF (国际货币基金组织) ===
+  international.imf.inflation:
+    source: IMF
+    api_url: https://www.imf.org/external/datamapper/api/v1/PCPIPCH
+    description: 全球主要国家通胀率
+  international.imf.gdp.growth:
+    source: IMF
+    api_url: https://www.imf.org/external/datamapper/api/v1/NGDP_RPCH
+    description: 全球主要国家GDP增长率
+
+  # === 世界银行 ===
+  international.worldbank.gdp:
+    source: 世界银行
+    api_url: https://api.worldbank.org/v2/country/all/indicator/NY.GDP.MKTP.CD
+    description: 全球主要国家GDP总量
+  international.worldbank.population:
+    source: 世界银行
+    api_url: https://api.worldbank.org/v2/country/all/indicator/SP.POP.TOTL
+    description: 全球主要国家人口
+
+  # === FAOSTAT (联合国粮农组织) ===
+  international.fao.crop.production:
+    source: FAOSTAT
+    api_url: https://fenixservices.fao.org/faostat/api/v1/en/data/QCL
+    description: 中国主要农作物产量
+

@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Dual-axis time series line chart
+- Title: Not displayed
+- X-axis: Time, Apr 23 to Mar 24, monthly scale
+- Left Y-axis: Labeled "(CNY)", corresponds to the red line Price; the lower scale shows 50 (other scales are not labeled)
+- Right Y-axis: Corresponds to the gray line Rel CSI 300, scale range 50–120, interval 10
+- Legend: Red "Price", gray "Rel CSI 300"
+
+[Data Relationships]
+- Price initial period (Apr 23) approximately 145–150 CNY; final period (Mar 24) approximately 55–60 CNY; difference from initial to final period approximately 85–95 CNY.
+- Price peak in early May, approximately 160 CNY; trough in late February, approximately 50–55 CNY; high-low difference approximately 105–110 CNY.
+- Rel CSI 300 initial period approximately 100–110 (right axis); final period approximately 60–65; difference from initial to final period approximately 40–50.
+- Rel CSI 300 values for the entire period are generally between 60–95.
+
+[Pattern Characteristics]
+- Price first rose rapidly in April–May before falling back, after which it generally showed a step-wise decline, accompanied by several brief minor rebounds, slightly recovering after hitting the low in February.
+- Rel CSI 300 consistently runs adjacent to the Price, with the overall trajectory being generally synchronous, but local volatility is slightly smaller in the middle-to-later stages, briefly deviating above the Price several times.
+- The two curves did not show significant phases of opposite direction during the sample period; the main differences are reflected in the magnitude of movement and the non-complete overlap of local peaks and troughs.
+
+[Core Insights]
+Core Conclusion: Individual stock performance is consistently weaker than its relative benchmark, and excess returns are under pressure.
+
+Business Implications:
+- Return performance relative to the benchmark is at a clear disadvantage.
+- The allocation efficiency of holding this asset is low.
+- Active positions struggle to contribute positive relative returns.
+
+Risk Focus:
+- If the Price, near 50 CNY, breaks down further, it may trigger additional selling pressure.
+- If Rel CSI 300 consistently stays below 60, it indicates that relative returns may continue to drag down portfolio performance.

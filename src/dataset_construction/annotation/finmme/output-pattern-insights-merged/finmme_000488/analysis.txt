@@ -1,0 +1,30 @@
+【图表构成】
+- 类型：多折线图；标题：FY2024 EPS Indexed。
+- 横轴：日期，范围4-Jan-23至28-Feb-24。
+- 纵轴：指数刻度80至115。
+- 图例：Indo（红实线）、Malay（灰实线）、Phils（黑实线）、Sing（红虚线）、Thai（黑点线）、ASEAN USD（蓝实线）。
+
+【数据关系】
+- 期初（4-Jan-23）各线均≈100。
+- 期末（28-Feb-24）：Phils≈110；Indo≈106；Sing≈97；Malay≈92；Thai≈83；ASEAN USD≈92。
+- 全期最高：Phils≈111；ASEAN USD≈107；Sing≈106；Indo≈106；Malay≈100；Thai≈100。
+- 全期最低：Thai≈83；Malay≈92；ASEAN USD≈92；Sing≈97；Indo≈100；Phils≈100。
+- 期末最高与最低差≈27点。
+- 期初到期末变动：Phils+≈10；Indo+≈6；Sing−≈3；Malay−≈8；Thai−≈17；ASEAN USD−≈8。
+
+【模式特征】
+- 各线在年初附近保持接近，随后逐渐拉开差距，形成明显分层结构，上方为Phils与Indo，中部为Sing，下方为Malay与Thai，ASEAN USD位于中下区间。
+- Phils整体走势较为平滑，仅在中段出现小幅台阶式抬升；Indo与Sing在中段有数次明显的短期波动，但振幅相对受限。
+- Thai和ASEAN USD在年中以后呈持续向下的阶梯状结构，Thai在年中有一次突出的向下跳空后，长期处于所有系列最低区间。
+
+【核心洞察】
+核心结论：区域EPS预期分化明显，Philippines与Indonesia相对更具支撑。
+
+业务含义：
+- Philippines与Indonesia盈利预期更有韧性
+- Thailand与Malaysia拖累区域整体盈利表现
+- ASEAN USD整体定价更接近低预期子市场
+
+风险关注：
+- Thai指数若跌破80，可能放大对区域EPS估值的压制
+- ASEAN USD若长期低于90，或限制区域资产的估值修复空间

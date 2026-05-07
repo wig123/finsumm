@@ -1,0 +1,35 @@
+[Chart Components]
+- Chart Type: Horizontal Bar Chart
+- Title: Change vs. 2017 (%)
+- X-axis: Percentage scale, range approximately -20% to 120%, including the 0% mark
+- Y-axis: Country/Region Categories: Vietnam, Thailand, Taiwan, Malaysia, Philippines, Indonesia
+- Legend: Not displayed
+
+[Data Relationships]
+- Vietnam: 98% (Highest)
+- Thailand: 49%
+- Taiwan: 8%
+- Malaysia: -1%
+- Philippines: -3%
+- Indonesia: -8% (Lowest)
+- Difference between highest and lowest: 106 percentage points (98% and -8%)
+- Difference between Vietnam and Thailand: 49 percentage points
+- Difference between Thailand and Taiwan: 41 percentage points
+- Difference between Taiwan and Malaysia: 9 percentage points
+- Difference between Philippines and Malaysia: 2 percentage points (-3% and -1%)
+- Difference between Indonesia and Philippines: 5 percentage points (-8% and -3%)
+
+[Pattern Characteristics]
+The length of the bars varies significantly across countries, with Vietnam being substantially longer than the others. Thailand is at a medium-high level, while the bar lengths of the remaining four countries are similar and concentrated near zero. Among these, the bars for Malaysia, Philippines, and Indonesia extend negatively but only slightly. The overall structure shows a single high value, one medium value, and a grouping of multiple low values.
+
+[Core Insights]
+Core Conclusion: Regional performance is highly polarized, with Vietnam significantly outperforming other markets.
+
+Business Implications:
+- Overall incremental growth is primarily contributed by a few markets.
+- Resources and attention are likely to concentrate on Vietnam and Thailand.
+- The effectiveness of investment in Taiwan and the three countries is relatively limited.
+
+Risk Focus:
+- If Vietnam's growth rate drops below 20%, overall growth will be significantly weakened.
+- If Indonesia continues to perform below -8%, it may drag down the regional average performance.

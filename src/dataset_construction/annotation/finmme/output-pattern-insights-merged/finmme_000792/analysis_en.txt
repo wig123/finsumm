@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Multi-line time series chart
+- Title: Not displayed; Y-axis unit is TWD
+- Y-axis range: 0—1,600
+- X-axis: Date scale, from 2016/3/24 to 2023/3/24
+- Legend: Close (Red); 15 (Light Gray), 20 (Black), 25 (Dark Gray), 30 (Gray Dashed Line), 35 (Orange Red), 40 (Dark Red)
+
+[Data Relationships]
+- Initial Close (2016/3/24) approximately 750 TWD
+- Close peak approximately 1,400 TWD (between 2017–2018)
+- Close reached its lowest point near 0 in early 2023 (approximately 20–50 TWD)
+- Peak-to-trough difference approximately 1,350 TWD
+- Final Close (near 2023/3/24) approximately 450 TWD
+- Mid-2020 Close approximately 1,100 TWD
+- During 2017–2018, 15/20/25/30/35/40 were approximately 500/650/800/950/1,050/1,150 TWD
+- At the 2023 low point, all lines from 15–40 were in the 0–100 TWD range
+
+[Pattern Characteristics]
+Overall, the Close experienced a significant rise in the first half, followed by wide-range consolidation, then a sharp decline after 2022, stabilizing slightly near the bottom in 2023. The 15–40 lines generally maintained a parallel distribution with the Close, showing clear interval stratification, with noticeable convergence at the low point. The chart shows two distinct high-level platforms formed around 2017–2018 and 2020, while the period from 2022 to early 2023 represents a prominent single extreme low-value range.
+
+[Core Insights]
+Core Conclusion: The price is in a significant contraction range following a substantial decline.
+
+Business Implications:
+- Historical highs are unsustainable, and the current price level represents a significant discount.
+- Technical moving averages are tightly converging, reducing short-term directional clarity.
+- Mid-to-long-term allocation requires greater focus on volatility and entry timing.
+
+Risk Concerns:
+- If the Close approaches 50 TWD again, it may trigger involuntary position reduction or stop-loss orders.
+- If the price fails to regain a stable position above 800 TWD, the cost basis for high-level holdings will be difficult to recover in the long term.

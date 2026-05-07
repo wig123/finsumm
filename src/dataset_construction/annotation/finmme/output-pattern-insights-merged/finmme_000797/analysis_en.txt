@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Bar chart
+- Title: A&P cost (as % of revenue)
+- X-axis: Quarterly time points—Dec-21, Mar-22, Jun-22, Sep-22, Dec-22, Mar-23, Jun-23, Sep-23, Dec-23
+- Y-axis: Percentage scale, range approximately 5–17
+- Legend: Red bars represent "A&P cost as a proportion of revenue"
+
+[Data Relationships]
+- Values for each period: 11.8%, 11.3%, 13.6%, 11.4%, 13.2%, 10.6%, 13.7%, 14.0%, 14.6% (in chronological order).
+- Highest 14.6% (Dec-23), lowest 10.6% (Mar-23), a difference of 4.0 percentage points.
+- The initial period (Dec-21) was 11.8%, the final period (Dec-23) was 14.6%, a difference of 2.8 percentage points.
+- Key comparisons: Jun-22 relative to Mar-22 difference +2.3; Dec-22 relative to Sep-22 difference +1.8; Jun-23 relative to Mar-23 difference +3.1; Dec-23 relative to Sep-23 difference +0.6.
+
+[Pattern Characteristics]
+The overall trend shows multiple fluctuations around a median level, with the bars in the latter half generally higher than those in the first half. Jun-22, Dec-22, Jun-23, Sep-23, and Dec-23 form a relatively high range, while Mar-23 is a clear low point, with the preceding and succeeding quarters both at high levels. While the overall shape exhibits local volatility, the final period level is higher than the initial period.
+
+[Core Insights]
+Core Conclusion: The proportion of A&P cost is rising amid fluctuations, currently residing in a relatively high range.
+
+Business Implications:
+- The intensity of A&P investment per unit of revenue is increasing.
+- Greater pressure is being exerted on gross margin and operating profit.
+- Budget management requires more detailed periodic planning.
+
+Risk Focus:
+- A sustained proportion above 14% may significantly compress profit margins.
+- If the proportion falls below 11% accompanied by a decline in revenue, it may weaken the effectiveness of business expansion.

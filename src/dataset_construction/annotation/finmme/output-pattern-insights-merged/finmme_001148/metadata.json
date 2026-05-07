@@ -1,0 +1,23 @@
+{
+  "image_id": "finmme_001148",
+  "filename": "finmme_001148.png",
+  "processed_at": "2025-11-26T17:30:34.968Z",
+  "duration_ms": 7758,
+  "image_size_kb": 362,
+  "model": "gpt-5.1",
+  "api_usage": {
+    "prompt_tokens": 2238,
+    "completion_tokens": 316,
+    "total_tokens": 2554,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  }
+}

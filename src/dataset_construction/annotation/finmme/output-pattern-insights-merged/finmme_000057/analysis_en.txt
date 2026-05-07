@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Grouped Bar Chart
+- Title: An inflection point for the market
+- Y-axis: Unit shipments, Range 0–1,800,000, Scale Interval 200,000
+- X-axis: Years 2018–2028
+- Legend: Coherent on-board (Teal), Coherent pluggables (Blue)
+- Source: LightCounting
+
+[Data Relationships]
+- 2018: Both categories are in the 200,000–400,000 range
+- 2028 (Peak): on-board approximately 1,700,000; pluggables approximately 1,400,000; difference approximately 300,000
+- 2027: on-board approximately 1,400,000; pluggables approximately 1,200,000; difference approximately 200,000
+- Start to End Period: on-board changes from approximately 300,000 to approximately 1,700,000, a change of approximately 1,400,000; pluggables changes from approximately 300,000 to approximately 1,400,000, a change of approximately 1,100,000
+
+[Pattern Characteristics]
+The two series are similar in the early stages, gradually showing a distinct hierarchical progression, with larger steps in the later period. The structure shifts from relatively balanced to dominance by a single category, with the gap between the two reaching its maximum at the end of the period. No downturns or outliers observed; continuous upward trajectory maintained after an inflection point appears in the middle-to-late period.
+
+[Core Insights]
+Core Conclusion: Incremental growth is primarily driven by on-board, leading to a skewed product structure.
+
+Business Implications:
+- Category structure leans towards on-board
+- Resource allocation must be optimized based on the differences between the two categories
+- High-volume shipments impose requirements on capacity and delivery schedules
+
+Risk Concerns:
+- If on-board falls below 1,400,000 (2027), the overall volume target may not be met
+- If the difference between the two is less than 200,000 (2027 difference), the portfolio strategy requires readjustment

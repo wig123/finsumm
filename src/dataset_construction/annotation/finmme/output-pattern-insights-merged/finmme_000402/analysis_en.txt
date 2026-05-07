@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Line chart
+- Legend: Red line "Customer deposits y‑y%"
+- X-axis: Quarterly annotations, from 1Q16 to 3Q24
+- Y-axis: Percentage scale, range approximately -10% to 20%, marked every 5% (-10%, -5%, 0%, 5%, 10%, 15%, 20%)
+
+[Data Relationships]
+- Initial period 1Q16 approximately 3–4% (below the 5% mark); final period 3Q24 close to 10% (slightly below 10%).
+- The highest value for the entire period was in 3Q18, approximately 15%; the second highest was in 1Q24, approximately 12%, and 3Q21, approximately 12–13%.
+- The lowest value for the entire period was in 3Q17, approximately -7%; another low point 3Q20 was slightly below 0%.
+- 1Q22 was 0%; 3Q23 was approximately 0%.
+- High-low spread: The difference between the highest value of approximately 15% and the lowest value of approximately -7% is about 22 percentage points.
+- Mid-2018 (1Q18, 3Q18) were both above 10% (1Q18 approximately 12%, 3Q18 approximately 15%).
+- 3Q19 approximately 11–12%; 1Q19 approximately 6–7%.
+
+[Pattern Characteristics]
+The overall trend fluctuates around 0%, with large amplitude, crossing the zero axis multiple times. Significant low points appeared around mid-2017 and mid-2020, while relatively prominent high points formed in mid-2018, mid-2019, and mid-2021. The latter half (2022 to 2024) still shows frequent fluctuations within the positive range, but the extreme points are slightly weaker than the mid-2018 peak.
+
+[Core Insights]
+Core Conclusion: The YoY growth rate of deposits shows significant long-term volatility, with alternating periods of high growth and sluggishness.
+
+Business Implications:
+- Large fluctuations in customer funds, resulting in unstable liability size.
+- Asset-liability matching has a high dependence on deposits.
+- Mid-to-long-term planning must account for both high-growth and contraction scenarios.
+
+Risk Concerns:
+- If it falls below approximately -5%, liability contraction may occur, eroding the size of interest-earning assets.
+- If it exceeds approximately 15%, rapid expansion may elevate funding costs and liquidity pressure.

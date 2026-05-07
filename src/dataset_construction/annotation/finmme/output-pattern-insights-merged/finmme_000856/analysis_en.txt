@@ -1,0 +1,34 @@
+[Chart Components]
+- Chart Type: Grouped Bar Chart
+- Title: Impact on RoA (bps, FY26F)
+- Y-axis: Impact on RoA (Basis Points), scale approximately -60 to 60, with 0 as the baseline
+- X-axis: Categories are LIC HF, BAF, CIFC, MMFS, SHFL, SBIC, CREDAG
+- Legend: 50bp rate cut (Red), 75bp rate cut (Grey), 100bp rate cut (Beige)
+
+[Data Relationships]
+- LIC HF: -23, -33, -42 (corresponding to 50/75/100bp)
+- BAF: -4, -5, -6
+- CIFC: 6, 8, 12
+- MMFS: 12, 16, 22
+- SHFL: 13, 19, 25
+- SBIC: 16, 24, 33
+- CREDAG: 20, 29, 39
+- Difference between 100bp and 50bp scenarios: LIC HF -19; BAF -2; CIFC +6; MMFS +10; SHFL +12; SBIC +17; CREDAG +19
+- Maximum/Minimum in each scenario: 50bp maximum 20 (CREDAG), minimum -23 (LIC HF); 75bp maximum 29 (CREDAG), minimum -33 (LIC HF); 100bp maximum 39 (CREDAG), minimum -42 (LIC HF)
+
+[Pattern Characteristics]
+- The bar heights for each company across the three scenarios show a unidirectional, approximately linear change as the scenario deepens, with absolute values gradually expanding.
+- LIC HF and BAF are entirely below the zero axis, while all other companies are above the zero axis, indicating a clear polarization in distribution.
+- CREDAG and SBIC show the highest values across all scenarios, while LIC HF shows the lowest values. The overall structure is characterized by the coexistence of a few extremes and a central gradient distribution.
+
+[Core Insights]
+Core Conclusion: The profit/loss differential among different institutions resulting from interest rate reductions is significant.
+
+Business Implications:
+- The profitability of certain institutions is highly sensitive to interest rate adjustments.
+- Asset portfolio structure significantly impacts earnings elasticity.
+- Profitability divergence among institutions may be further amplified.
+
+Risk Focus:
+- LIC HF, falling below -40bps in the 100bp scenario, may significantly compress profit margins.
+- CREDAG approaches 40bps in the 100bp scenario; if the underlying assumption is not realized or reverses, the earnings target may be missed.

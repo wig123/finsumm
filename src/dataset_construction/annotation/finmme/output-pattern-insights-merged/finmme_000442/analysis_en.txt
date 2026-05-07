@@ -1,0 +1,34 @@
+[Chart Components]
+- Chart Type: Table
+- Title: BNP Paribas end-period policy rate forecasts (%) — Emerging Markets
+- Columns/Time: YEAR END includes 2023, 2024, 2025; values are displayed only for the 2024 column.
+- Unit: %
+- Rows/Grouping: Latam, CEEMEA, EM Asia
+- Countries:
+    - Latam includes Argentina, Brazil, Chile, Colombia, Mexico
+    - CEEMEA includes Czech Republic, Egypt, Hungary, Poland, Romania, Saudi Arabia, South Africa, Turkey, UAE
+    - EM Asia includes India, Indonesia, Malaysia, South Korea, Thailand
+- Axes and Legend: No axes or legend
+
+[Data Relationships]
+- Highest: Argentina 75.00; Next Highest: Turkey 30.00, Egypt 26.25
+- Lowest: Thailand 2.50
+- Latam: 75.00 (Argentina) — 4.50 (Chile), difference 70.50; Mexico 9.50; Brazil/Colombia 8.50
+- CEEMEA: 30.00 (Turkey) — 3.65 (UAE), difference 26.35; South Africa 7.25
+- EM Asia: 6.25 (India) — 2.50 (Thailand), difference 3.75; Indonesia 4.50
+- Overall Maximum-Minimum Spread: 72.50; Number of economies ≥10%: 3 (Argentina, Turkey, Egypt)
+
+[Pattern Characteristics]
+The interest rate levels of various economies exhibit a highly dispersed structure within the same year, with the overall distribution consisting of a few extreme high values and a majority of medium-to-low values. The internal spread within Latam and CEEMEA is significantly greater than that of EM Asia, where country values are relatively concentrated. The number of countries exceeding 10% is limited, forming a clear stratified pattern of a high-level minority and a low-to-medium-level majority.
+
+[Core Insights]
+Core Conclusion: Emerging market interest rate levels are highly differentiated, predominantly characterized by medium-to-low rates.
+
+Business Implications:
+- Significant differences exist in financing cost structures across regions.
+- Assets in medium-to-low interest rate economies possess greater pricing flexibility.
+- The high-interest-rate minority of countries may dominate the high end of the yield spectrum.
+
+Risk Focus:
+- Countries with interest rates ≥20% may lead to significant volatility in local currency asset prices.
+- Countries with interest rates ≤3% may face capital outflow pressure if external interest rates rise.

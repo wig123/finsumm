@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Company list data table, correlation coefficients displayed using heat map color blocks.
+- Title: Correlation with*.
+- Columns: Ticker, Company, Factset Industry, Mcap (USD bn), ADTV (USD mn), Correlation with SOX, NVDA, TSMC.
+- Axes: No axes; values are listed directly.
+- Legend/Color Scale: Correlation coefficient 0–1, colors range from green (high) to red (low).
+
+[Data Relationships]
+- TSMC: Mcap 564.9, ADTV 647; Correlation with SOX 0.61, NVDA 0.48.
+- Samsung Electr Pfd (005935 KS): Mcap 363.9; SOX 0.54, NVDA 0.39, TSMC 0.60.
+- Samsung Electronics (005930 KS): SOX 0.53, NVDA 0.35, TSMC 0.56.
+- SK hynix (000660 KS): Mcap 80.9; SOX 0.48, NVDA 0.35, TSMC 0.50.
+- MediaTek (2454 TT): Mcap 49.5, ADTV 208.
+- Scale Comparison: TSMC is approximately +201.0 (USD bn) larger than Samsung Electronics; SK hynix is approximately +31.4 (USD bn) larger than MediaTek.
+- Correlation Comparison: TSMC's SOX correlation of 0.61 is higher than Samsung's 0.53 and SK hynix's 0.48; NVDA correlation of 0.48 is higher than Samsung's 0.35 and SK hynix's 0.35.
+
+[Pattern Characteristics]
+The correlation coefficients in the table gradually transition from high to low as companies are listed downwards, with colors continuously changing from greenish to reddish, showing a unimodal distribution without obvious discontinuities. Market capitalization (Mcap) and average daily trading volume (ADTV) are concentrated at high levels in the first few rows, then rapidly decline and are scattered across the small-to-mid-cap range. The color blocks across the three columns (SOX, NVDA, TSMC) are highly consistent, showing a uniform gradient overall, with only individual companies appearing relatively brighter or darker in a specific column, creating slight misalignment.
+
+[Core Insights]
+Core Conclusion: Correlation, trading activity, and scale are highly concentrated in a few upstream large-cap semiconductor stocks.
+
+Business Implications:
+- The portfolio has a high dependency on the price movements of a few leading stocks.
+- The co-movement between the index and industry leaders will dominate overall volatility performance.
+- Small and mid-cap stocks have lower co-movement with NVDA and SOX, resulting in limited diversification effectiveness.
+
+Risk Focus:
+- If the correlation between TSMC and SOX falls below 0.40, the index's representation of industry prosperity will be significantly weakened.
+- If correlations universally rise above 0.80, the magnitude of simultaneous portfolio decline during a single sector or style drawdown may be amplified.

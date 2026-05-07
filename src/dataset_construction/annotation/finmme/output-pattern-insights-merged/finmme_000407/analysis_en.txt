@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Line Chart
+- Legend/Title: 12M Forward Enterprise Value/EBITDA - TELENOR
+- X-axis: Time; Scale marked 2019, 2020, 2021, 2022, 2023
+- Y-axis: Ratio; Range approximately 4—9
+- Data Source: LSEG Datastream
+
+[Data Relationships]
+- The highest point on the chart is close to 9, located near the end of 2018/early 2019.
+- The lowest point on the chart is slightly above 4 (approx. 4.2), located in mid-2022.
+- Initial period (early 2019) approx. 8.8; Final period (mid-to-late 2023) approx. 7.3; Change approx. -1.5.
+- 2020 range approx. 5.5—6.5.
+- 2021 range approx. 6.0—6.5.
+- 2023 range approx. 7.0—7.6; Difference from the 2022 lowest point approx. +3.0.
+
+[Pattern Characteristics]
+The curve was at a relatively high level in the early part of 2019, followed by a continuous decline from 2019 to mid-2022, accompanied by multiple short-term rebounds. After reaching the global lowest point in mid-2022, the subsequent period remained generally within a higher range, maintaining narrow fluctuations. The overall structure shows a single dominant evolution pattern of "High Level—Low Level—Elevated Plateau," with no obvious long-term consolidation areas in between.
+
+[Core Insights]
+Core Conclusion: The valuation level experienced a significant decline, followed by partial recovery, but has not returned to historical highs.
+
+Business Implications:
+- Current valuation is discounted relative to 2019, reflecting a tendency toward conservative market pricing.
+- Valuation recovery enhances the pricing flexibility for refinancing and equity incentives.
+- The downward shift in the valuation center of gravity may compress future market capitalization elasticity.
+
+Risk Concerns:
+- If EV/EBITDA approaches below 4.5 again, it may trigger further deterioration in investor sentiment and capital outflow.
+- If the ratio remains below 6.0 for an extended period, it may restrict negotiation power in transactions such as M&A and asset disposals.

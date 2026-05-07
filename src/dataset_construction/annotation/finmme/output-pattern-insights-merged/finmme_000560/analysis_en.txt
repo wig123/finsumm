@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Combination chart (Grey bars represent "WHRS & Solar (MW)", Red triangles represent "Power mix (%)", right axis).
+- Title: No overall title visible; the legend contains the two items mentioned above.
+- Axes: X-axis covers FY18, FY19, FY20, FY21, FY22, FY23, FY24F, FY25F, FY26F. Left Y-axis 0–900 (MW); Right Y-axis 0–70%.
+
+[Data Relationships]
+- FY26F approximately 750MW, approximately 60% (right axis).
+- FY22 approximately 420MW, approximately 22%; FY23 approximately 340MW, approximately 28%; FY24F approximately 410MW, approximately 36%; FY25F approximately 420MW, approximately 34%.
+- FY18 approximately 60MW, approximately 10%; FY19 approximately 150MW, approximately 9%; FY20 approximately 210MW, approximately 12%; FY21 approximately 240MW, approximately 15%.
+- The largest bar is FY26F, the smallest is FY18, with a difference of approximately 690MW.
+- FY26F is approximately 330MW higher than both FY22 and FY25F.
+- FY24F is approximately 70MW higher than FY23; the right axis is higher by approximately 8 percentage points.
+- The FY26F right axis value is approximately 26 percentage points higher than FY25F.
+
+[Pattern Characteristics]
+- The bar values generally show a stepped increase starting from FY18, followed by a period of decline after FY22, and then a significant rise after FY24F, forming a "platform followed by a surge" structure.
+- The proportion curve represented by the red triangles generally moves upward segment by segment. The increase is relatively concentrated between FY22 and FY24F. FY25F is slightly lower than the previous year, and FY26F forms a significant peak, coinciding with the peak bar value for the same period.
+- The bars and triangles are relatively close during the low-value phase in earlier years, but gradually diverge later, showing a clear height difference, especially in FY26F.
+
+[Core Insights]
+Core Conclusion: The importance of WHRS (Waste Heat Recovery System) and Solar in the power generation structure is rapidly increasing and significantly amplifying during the forecast period.
+
+Business Implications:
+- Installed capacity expansion is faster than the early pace, enhancing self-sufficiency in power generation.
+- Dependency on WHRS and Solar within the power source structure is significantly strengthened.
+- Relative reliance on traditional power sources further declines by the end of the planning period.
+
+Risk Concerns:
+- If the installed capacity in FY26F is below 600MW, the magnitude of the power structure adjustment will be difficult to achieve the current planning target.
+- If the FY26F proportion is below 50%, power generation costs and related emission reduction targets may be difficult to achieve simultaneously.

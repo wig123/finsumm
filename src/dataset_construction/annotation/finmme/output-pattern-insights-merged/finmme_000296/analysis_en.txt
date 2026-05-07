@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Line Chart
+- Title: Not displayed
+- X-axis: Year, labeled as 2019, 2020, 2021, 2022, 2023, 2024F, 2025F, 2026F
+- Y-axis: Percentage (%), range approximately from -40% to +40%, including the zero line.
+- Legend: Grey: “MLCC demand (y-y) based on OEM shipment”; Red: “SEMCO’s MLCC shipment (y-y)”; Black: “MLCC market size (y-y)”
+
+[Data Relationships]
+- Red line peak value ≈ 40% (between 2020-2021), trough value ≈ -35% (2022); peak-to-trough difference ≈ 75 percentage points.
+- Black line peak value ≈ 38% (2021), trough value ≈ -20% (2022); peak-to-trough difference ≈ 58 percentage points.
+- Grey line peak value ≈ 5% (2024F), trough value ≈ -10% (2022); peak-to-trough difference ≈ 15 percentage points.
+- Comparison of the three in 2022: Red ≈ -35%, Black ≈ -20%, Grey ≈ -10%; Red is lower than Black by ≈ 15 percentage points, and lower than Grey by ≈ 25 percentage points.
+- 2023: Red ≈ 20%, Grey approximately -5% to -8%, Black slightly negative (approx. -5%); Difference between Red and Grey ≈ 25 percentage points, difference between Red and Black ≈ 25 percentage points.
+
+[Pattern Characteristics]
+All three lines show a clear volatility pattern of rising first, then falling, and finally returning to a moderate range, but the amplitude difference is significant: the Red line has the largest fluctuation, followed by the Black line, and the Grey line has the smallest. During the 2020-2021 period, the Red and Black lines were simultaneously in the high range. In 2022, all three lines were in the low range but their positions diverged. Subsequently, the Red line's rebound in 2023 was significantly higher than the Black and Grey lines, while the Grey line tends to fluctuate slightly near zero after 2024F.
+
+[Core Insights]
+Core Conclusion: The company's shipment growth rate is more aggressive relative to the industry and demand, and also exhibits greater volatility.
+
+Business Implications:
+- The company's pace is more aggressive, leading to greater market share elasticity.
+- Compared to demand and overall market size, the company relies more on actively adjusting production and sales.
+- Overall growth rate will return to moderation in the coming years, with limited excess incremental growth.
+
+Risk Focus:
+- When the market and demand are below 0% while the company maintains >10%, it may lead to inventory and pricing pressure.
+- When market growth exceeds 20% while the company maintains single-digit growth, passive market share decline may occur.

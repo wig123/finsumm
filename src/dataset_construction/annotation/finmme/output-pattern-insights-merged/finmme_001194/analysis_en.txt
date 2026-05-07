@@ -1,0 +1,26 @@
+[Chart Components]
+- Type: Side-by-side horizontal bar charts (Left: US; Right: Eurozone).
+- Title: "US change in z-score vs previous week" "Eurozone change in z-score vs previous week".
+- X-axis: Change in z-score. US subplot scale is approximately -3 to +2; Eurozone subplot is approximately -8 to +6.
+- Y-axis: Indicator categories. US includes Average Weekly Hours, NFIB Small Business Optimism Index, PPI Final Demand, Continuing Claims, Retail Sales, Unemployment Rate, Average Hourly Earnings, CPI, PPI Final Demand Less Food &…, Business Inventories; Eurozone includes EZ Core HICP, DE Exports, DE PPI, DE Industrial production, ES Core CPI, EZ GDP, ES HICP, ES Retail sales, EZ Ind. Prod.
+- Legend: Two series—Change in DSI (Green) and Change in ESI (Blue).
+- Source: BNP Paribas, Macrobond, Bloomberg.
+
+[Data Relationships]
+- US: Average Weekly Hours ≈ +2 (highest); NFIB Index ≈ +1.5; Retail Sales ≈ +0.5; CPI ≈ -0.7; PPI (excl.) ≈ -1.6; Business Inventories ≈ -2.6 (lowest); Difference between highest and lowest ≈ 4.6.
+- Eurozone: EZ Core HICP ≈ +6 (highest); DE Exports (both items) ≈ +3~+4; DE PPI ≈ +2; ES Core CPI ≈ +1; EZ GDP ≈ 0; EZ Industrial Production ≈ -7 (lowest); ES Retail Sales ≈ -5; Difference between highest and lowest ≈ 13.
+
+[Pattern Characteristics]
+The bar lengths for US indicators are generally concentrated near zero, with a relatively balanced distribution above and below, and only a few individual items slightly prominent in the positive and negative directions. There is no extreme divergence between US output and price indicators, and the overall spread is limited. The differences between Eurozone indicators are more pronounced, with a few items located at the sample extremes. Significant "long bars" appear on both the positive and negative sides, indicating a highly unbalanced structural characteristic.
+
+[Core Insights]
+Core Conclusion: Indicator divergence in the Eurozone is significantly greater than in the US, with localized pressure and support coexisting.
+
+Business Implications:
+- Overall volatility of US macroeconomic data is limited, and short-term expectations are relatively concentrated.
+- Significant performance differences among various Eurozone indicators, suggesting uneven transmission across regions and sectors.
+- The divergence between Eurozone price and output items increases the difficulty of interpretation and decision-making.
+
+Risk Focus:
+- A single Eurozone z-score below -5 (such as industrial production) may trigger significant concerns about growth prospects.
+- A single Eurozone z-score above +5 (such as core inflation) may heighten expectations for policy tightening pressure.

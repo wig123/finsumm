@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Time Series Line Chart
+- Title: Not indicated
+- X-axis: Time span Mar-16 to Nov-23, labeled by month/year
+- Y-axis: Value range approximately 7–37, major ticks 7, 12, 17, 22, 27, 32, 37
+- Legend: Red solid line is Forward P/E; Grey dashed line Mean=21.4; Black dashed line +1SD=26.1; Orange dashed line -1SD=16.6
+
+[Data Relationships]
+- Initial period (Mar-16) approximately 22.
+- Final period (Nov-23) approximately 17, about 4.4 lower than the mean, and about 0.4 higher than -1SD.
+- Peak value for the entire period approximately 31 (mid-2019), about 9.6 higher than the mean, and about 4.9 higher than +1SD.
+- Trough value for the entire period approximately 11 (mid-2022), about 10.4 lower than the mean, and about 5.6 lower than -1SD.
+- Difference between high and low approximately 20.
+- Change from the initial period to the final period approximately -5.
+
+[Pattern Characteristics]
+The entire curve fluctuated narrowly around the mean in the first half, followed by a significant upward surge in 2018-2019, touching or exceeding the +1SD line multiple times. Since 2020, the curve rapidly moved downward from its high, accompanied by a sharp short-term decline, followed by a distinct low range in 2022, where it briefly fell below the -1SD line. Subsequently, the value gradually approached the vicinity of -1SD and oscillated slightly above it. The overall volatility is significantly weaker than during the high phase, and it has not touched the mean line again.
+
+[Core Insights]
+Core Conclusion: The valuation level has shifted from being persistently high to operating near the lower range.
+
+Business Implications:
+- Valuation pricing in the early stage leaned towards optimism.
+- Post-2020, the valuation center shifted downward, compressing expected investment returns.
+- Current valuation is close to the historically low range, suggesting an increased margin of safety.
+
+Risk Focus:
+- If it approaches or breaks through +1SD=26.1 again, it may lead to retracement pressure.
+- If it falls below -1SD=16.6 and sustains that level, it may trigger a further contraction in sentiment.

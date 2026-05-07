@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Bar chart, overlaid with a red dashed line.
+- Title: Not displayed.
+- X-axis: 2000–2023 (Year).
+- Y-axis: % of GDP, range 0–12%, scale approximately every 2%.
+- Legend: Light green "12mma", red dashed line "Current".
+
+[Data Relationships]
+- 2000 approximately 1–2%;
+- 2023 approximately 1.8–2.0%;
+- Dashed line "Current" approximately 1.8%.
+- 2007–2008 highest, approximately 10–11%.
+- 2019–2020 lowest, approximately 0.5–1%.
+- 2006–2009 in the 6–11% range; 2010–2013 approximately 2–4%; 2017–2019 approximately 0–1%.
+- Peak value is approximately 8–9 percentage points higher than the dashed line.
+- 2022 approximately 2.2–2.5%, approximately 0.4–0.7 percentage points higher than the dashed line.
+
+[Pattern Characteristics]
+The data exhibits a single-peak structure, with 2006–2009 being a significantly high segment, and most other years falling within a low, narrow range. A clear trough appeared in 2019–2020, after which the value moved closer to the red dashed line, recently approaching the dashed line. Overall continuity, significant gap between the extreme value and the trough, with no sudden jumps (outliers).
+
+[Core Insights]
+Core Conclusion: The contribution of this indicator to GDP is at a conventional level, and short-term pressure is low.
+
+Business Implications:
+- Reflects limited overall impact
+- Weak constraints on resource allocation
+- Consistent with the marked value, facilitating short-term planning
+
+Risk Focus:
+- Proportion (of GDP) ≥10%, potentially leading to excessive resource concentration and allocation imbalance.
+- Proportion (of GDP) ≤1%, potentially resulting in insufficient contribution from related output and scale contraction.

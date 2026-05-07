@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Time series line chart (including scatter/triangle markers)
+- Title: Wuxi Apptec
+- Time Axis: 2021/01/01 to 2024/01/01 (Semi-annual scale)
+- Price Axis: 0.00 to 275.00 (Unit: HKD)
+- Top Right Information: As of 26-Jan-2024; Currency = HKD
+- Legend: Black line is Closing Price; Green triangle is Target Price Change; Blue dot is Recommendation Changes
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial closing price approximately 135 HKD; Final closing price approximately 75 HKD; The difference is approximately 60 HKD
+- Closing price high point approximately 180 HKD; Low point approximately 60 HKD; High-low difference approximately 120 HKD
+- Two blue recommendation change points: approximately 2021/07 (≈165 HKD) and 2021/12 (≈150 HKD); The difference between the two points is approximately 15 HKD
+- Green target price change marker highest approximately 270 HKD (near 2021/01); Lowest approximately 95–100 HKD (around 2023/06); High-low difference approximately 170–175 HKD
+- Observation period spans approximately 3 years; Closing prices are mainly distributed in the range of approximately 60–180 HKD (measured by axis scale)
+
+[Pattern Characteristics]
+The closing price initially rose and then fell during the first half of the first year, after which it remained volatile within a lower range for a long period, with the overall center of gravity gradually shifting downward.
+The green target price changes gradually converged from an early high distribution towards a later mid-to-low distribution.
+Blue recommendation changes were only concentrated near the early local high, with no new recommendation change markers appearing afterward.
+
+[Core Insights]
+Core Conclusion: The divergence between market price and sell-side target price and rating is gradually widening.
+
+Business Implications:
+- Price performance is weaker than early analytical expectations.
+- The pace of target price reduction lags behind the price trend.
+- Lack of new rating update signals in the later period.
+
+Risk Focus:
+- If the closing price approaches 60 HKD again, it may trigger a further downward revision of valuation expectations.
+- If the target price continues to approach or drop below 100 HKD, it may lead to a significant decline in institutional allocation willingness.

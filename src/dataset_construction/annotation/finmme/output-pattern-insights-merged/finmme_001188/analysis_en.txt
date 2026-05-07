@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Bar chart
+- Legend: Revenue growth (%), Red
+- X-axis: Time points, Dec-21, Mar-22, Jun-22, Sep-22, Dec-22, Mar-23, Jun-23, Sep-23, Dec-23
+- Y-axis: Percentage scale, approximately 0—16, scale interval approximately 4
+- Data labels: Specific percentage values marked above each bar
+
+[Data Relationships]
+- Highest value: Dec-21 at 14.9%; Second highest: Mar-23 at 10.1%; The difference between the two is 4.8 percentage points
+- Lowest value: Dec-23 at 3.2%; Difference from the highest value is 11.7 percentage points
+- Initial period (Dec-21) 14.9%, Final period (Dec-23) 3.2%; The difference between the initial and final periods is 11.7 percentage points
+- 2022: Mar-22 8.6%, Jun-22 4.1%, Sep-22 9.0%, Dec-22 7.0; Difference between Mar-22 and Jun-22 is 4.5; Difference between Sep-22 and Dec-22 is 2.0
+- 2023: Mar-23 10.1%, Jun-23 9.4%, Sep-23 5.6%, Dec-23 3.2; Difference between Mar-23 and Jun-23 is 0.7; Difference between Jun-23 and Sep-23 is 3.8; Difference between Sep-23 and Dec-23 is 2.4
+- Annual comparison: 2022 highest 9.0 (Sep-22), 2023 highest 10.1 (Mar-23), difference of 1.1 percentage points
+
+[Pattern Characteristics]
+- Overall, the values across periods generally exhibit a high-to-low stepped structure from left to right, with multiple short-term rebounds in between.
+- Both 2022 and 2023 show a wave-like structure of "initial decline followed by rebound, then decline again."
+- Dec-21 and Dec-23 form a clear high-low contrast, while Jun-22 and Dec-23 are two concentrated low points.
+
+[Core Insights]
+Core Conclusion: After a phase of improvement, overall revenue growth is in a decelerating trend.
+
+Business Implications:
+- Overall expansion momentum has significantly weakened compared to the initial period.
+- Short-term rebounds are insufficient to reverse the overall slowing trend.
+- Increased reliance on new revenue streams in later periods.
+
+Risk Concerns:
+- If revenue growth consistently falls below 5%, it may be difficult to support the existing cost structure.
+- If growth cannot return above the 10% level, future earnings elasticity may be constrained.

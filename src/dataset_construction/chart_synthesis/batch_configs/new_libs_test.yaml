@@ -1,0 +1,86 @@
+# 新库测试配置 - altair 和 bokeh
+# 用法: python scripts/run_batch.py --config batch_configs/new_libs_test.yaml
+
+batch_name: "new_libs_test"
+output_base_dir: "./batch_output"
+
+execution:
+  parallel: true
+  max_workers: 5
+  use_process_pool: false
+  use_async: true
+
+charts:
+  # === altair 库测试 (5张) ===
+
+  # 1. altair 折线图 - 中文
+  - chart_type: line
+    language: zh-CN
+    theme: macro_policy
+    library: altair
+    data_constraints: {}
+
+  # 2. altair 柱状图 - 英文
+  - chart_type: bar
+    language: en-US
+    theme: inflation
+    library: altair
+    data_constraints: {}
+
+  # 3. altair 散点图 - 中文
+  - chart_type: scatter
+    language: zh-CN
+    theme: growth_employment
+    library: altair
+    data_constraints: {}
+
+  # 4. altair 面积图 - 英文
+  - chart_type: area
+    language: en-US
+    theme: equity_markets
+    library: altair
+    data_constraints: {}
+
+  # 5. altair 直方图 - 中文
+  - chart_type: histogram
+    language: zh-CN
+    theme: fixed_income
+    library: altair
+    data_constraints: {}
+
+  # === bokeh 库测试 (5张) ===
+
+  # 6. bokeh 折线图 - 英文
+  - chart_type: line
+    language: en-US
+    theme: fx_trade
+    library: bokeh
+    data_constraints: {}
+
+  # 7. bokeh 柱状图 - 中文
+  - chart_type: bar
+    language: zh-CN
+    theme: commodities
+    library: bokeh
+    data_constraints: {}
+
+  # 8. bokeh 散点图 - 英文
+  - chart_type: scatter
+    language: en-US
+    theme: banking_credit
+    library: bokeh
+    data_constraints: {}
+
+  # 9. bokeh 面积图 - 中文
+  - chart_type: area
+    language: zh-CN
+    theme: corporate_finance
+    library: bokeh
+    data_constraints: {}
+
+  # 10. bokeh 直方图 - 英文
+  - chart_type: histogram
+    language: en-US
+    theme: real_estate
+    library: bokeh
+    data_constraints: {}

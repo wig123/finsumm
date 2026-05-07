@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Green stepped line chart, with the latter segment dashed
+- Title: Fed funds upper bound (%)
+- X-axis: Year scale, range 2020—2025
+- Y-axis: Percentage scale, range 0—6
+- Annotations: Near 2024, there are "Sep FOMC" (hollow circle) and "Election Day" (solid circle)
+- Gray shaded band on the left end; No legend
+
+[Data Relationships]
+- Values for 2020—2021 are close to the 0 mark, approximately 0.25%
+- The peak value is approximately 5.5%, occurring in 2023—2024, forming a plateau
+- The increase from the low point to the high point is approximately 5.25 percentage points
+- 2024 annotation points: The hollow circle is higher than the solid circle; both are located within the 5%—6% range
+- After 2024, the dashed line is below 5.5%, falling into the approximately 3%—4% range by 2025
+
+[Pattern Characteristics]
+- The pattern initially adheres closely to a low-level plateau for a long period, then significantly rises in successive steps and remains at a high level.
+- Two close but distinct annotation points appear at the end of the high-level plateau, after which the curve transitions to a dashed phase and shows a stepped decline.
+- A clear inflection point is formed where the solid and dashed lines connect at the high level. Subsequently, the overall level gradually retreats, with no new upward segments appearing.
+
+[Core Insights]
+Core Conclusion: The Federal Funds Rate, after rapid tightening, enters a period of high-level maintenance and is expected to gradually decline.
+
+Business Implications:
+- Short-term funding costs are already in a phase following a significant increase.
+- The extended duration at a high level creates continuous constraints on financing and valuations.
+- The subsequent trajectory includes expectations of a moderate decline, supporting medium-to-long-term pricing adjustments.
+
+Risk Focus:
+- If the high-level plateau continues to be maintained above 5%, it will increase interest expenses and refinancing pressure.
+- If the actual level does not fall below 4% before 2025, it may suppress long-term investment and asset price recovery.

@@ -1,0 +1,27 @@
+[Chart Components]
+- Chart Type: Line chart; Title: NVDA revenue by segment.
+- Y-axis: Quarterly Revs ($mm), range 0–24,000, scale interval 2,000.
+- X-axis: Time from Apr-14 to Jan-24 (Quarterly).
+- Legend: Gaming, Professional Visualization, Data Center, Automotive, OEM & Other, Total.
+
+[Data Relationships]
+- Jan-24: Total≈22,000; Data Center≈18,000; Gaming≈3,200; Automotive≈1,000; Professional Visualization≈700; OEM & Other≈800.
+- Oct-23: Total≈18,000; Data Center≈14,500; Difference≈3,500.
+- Jul-23: Total≈14,000; Data Center≈10,000; Difference≈4,000.
+- Apr-23: Total≈4,500; Data Center≈4,000; Difference≈500.
+- Apr-22: Total≈8,500; Jan-21: Total≈5,000; Apr-14: Total≈1,200.
+
+[Pattern Characteristics]
+Overall, total revenue transitioned from a slow rise in the early period to a steep acceleration in recent quarters, with a period of plateau and decline around 2022. Among the segments, Data Center was similar in scale to other businesses early on, but subsequently widened the gap, establishing clear dominance in the most recent quarters; Gaming was long the largest single item, but has been significantly surpassed in the later stage. Automotive shows slow incremental growth, while the remaining two minor items maintained low, narrow fluctuations throughout the period, having limited impact on the shape of the total curve.
+
+[Core Insights]
+Core Conclusion: The revenue structure is highly concentrated in Data Center, and overall growth relies on a single segment.
+
+Business Implications:
+- The company's revenue source has shifted from diversified points to single-point concentration.
+- Overall performance dependency on the Data Center sector's prosperity has significantly increased.
+- Non-core segments have limited ability to hedge against volatility in the main segment.
+
+Risk Concerns:
+- If Data Center revenue declines by more than 30% compared to the Jan-24 level, total revenue may experience a significant pullback.
+- If Gaming remains long-term below 50% of its high level near Jan-22, the product portfolio's cyclical resistance capability may weaken.

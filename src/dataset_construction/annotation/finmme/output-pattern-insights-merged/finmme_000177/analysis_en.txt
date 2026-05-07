@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Time series line chart (Red P/B line)
+- Labels: peak P/B 1.7x, bottom P/B 0.5x, avg. P/B 0.9x, +1 S.D 1.1x, -1 S.D 0.7x
+- X-axis: Time, range Jan-14 to Jan-24
+- Y-axis: Ratio (X), scale approximately 0.0–2.0
+- Reference Lines: Average line 0.9x (solid line), ±1SD 1.1x/0.7x (dashed lines), Top 1.7x and Bottom 0.5x (dotted lines)
+- Legend: Not displayed
+
+[Data Relationships]
+- Peak labeled 1.7x; Bottom labeled 0.5x; High-low difference 1.2x.
+- Average value 0.9x; Difference between +1SD and average +0.2x; Difference between -1SD and average -0.2x; ±1SD range width 0.4x.
+- Peak is 0.8x higher than the average; Bottom is 0.4x lower than the average.
+- Start of period (Jan-14) approximately 0.9x; End of period (Jan-24) approximately 0.7x; End of period is approximately 0.2x lower than the average.
+- End of period is approximately 1.0x lower than the peak; Approximately 0.2x higher than the bottom.
+
+[Pattern Characteristics]
+- The series fluctuates around the upper and lower bounds of the mean line over the long term, mostly staying within the ±1SD range, with occasional excursions outside the range.
+- A short-term spike occurred around 2021, approaching the top line, followed by a decline and hovering below the mean line; The end of the period is near the lower boundary, with no clear reversal pattern.
+
+[Core Insights]
+Core Conclusion: The current P/B is at a historically low percentile, below the mean.
+
+Business Implications:
+- The pricing level is relatively low compared to the historical central tendency.
+- Tolerance for incremental allocation decisions is increased.
+- Returns are more reliant on mean reversion.
+
+Risk Focus:
+- Falling below 0.7x, or testing 0.5x, could lead to significant drawdowns.
+- Breaking above 1.1x and approaching 1.7x is prone to profit-taking pressure and a decline in returns.

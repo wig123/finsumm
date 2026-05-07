@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Closing Price Line Chart, including event markers
+- Title: CHPT
+- Time Axis: 2021/07/01—2024/01/01
+- Price Axis: 0—900 (TWD)
+- Top Right Information: As of 20‑Feb‑2024; Currency=TWD
+- Legend: Closing Price; Target Price Change (Green Triangle); Recommendation Changes (Blue Dot)
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial Closing Price ≈ 880 TWD; Final ≈ 560 TWD; Difference ≈ -320 TWD.
+- All-time High ≈ 900 (2021/07); All-time Low ≈ 380 (2022/10); High-Low Spread ≈ 520 TWD.
+- Green Triangle Events: 2021/07 Price ≈ 870; 2022/03 Price ≈ 590; 2022/06 Price ≈ 500.
+- Blue Dot Events: 2022/04 Price ≈ 620; 2022/06 Price ≈ 470; Difference between the two blue dots ≈ 150 TWD.
+- Difference between the 2022/04 blue dot and the corresponding green triangle ≈ 30 TWD; Difference between the 2022/06 blue dot and the green triangle ≈ 30 TWD.
+
+[Pattern Characteristics]
+- Following the initial high point, the price exhibited a step-like decline, interspersed with several moderate rebounds, forming a phase low in the second half of 2022, after which it fluctuated narrowly within the mid-range channel.
+- Green triangles and blue dots are primarily concentrated in the first half of 2022, and price movements between adjacent events were relatively significant; no new event markers appeared in the subsequent period.
+- The overall pattern transitioned from a singular high-price zone to a mid-to-low-price zone; price distribution is relatively dispersed, with no obvious cyclical repetitive structure.
+
+[Core Insights]
+Core Conclusion: The stock price center of gravity has clearly shifted downward and remained in the mid-to-low range for an extended period.
+
+Business Implications:
+- Valuation levels have significantly contracted compared to the early period.
+- Institutional opinions underwent concentrated adjustments in the first half of 2022 and have since stabilized.
+- The price range narrowed in the later period, reducing short-term directional signals.
+
+Risk Focus:
+- If the price breaks below the low point near 2022/10 (≈380), it may trigger further selling pressure.
+- If the price is unable to return to the range above 700 for an extended period, it may limit the potential for price recovery.

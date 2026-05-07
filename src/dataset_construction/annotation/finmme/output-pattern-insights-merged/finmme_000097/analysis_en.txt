@@ -1,0 +1,35 @@
+[Chart Components]
+- Type: Bar Chart
+- Title: Not provided
+- Axes:
+  - X-axis: Fiscal Year (FY16 to 9MFY24)
+  - Y-axis: Sales Revenue (USD mn)
+- Legend: Sales Revenue of each product (USD mn)
+
+[Data Relationships]
+- Key Figures and Changes:
+  - FY17 reached the peak value, approximately USD 7.18 million.
+  - Since FY18, sales revenue has declined year-over-year.
+  - Sales revenue for 9MFY24 was USD 2.73 million, the lowest value.
+
+- Extremum Comparison:
+  - The peak sales revenue in FY17 (USD 7.18 million) shows a significant decline compared to the lowest sales revenue in 9MFY24 (USD 2.73 million).
+
+- Key Trends:
+  - The overall trend from FY16 to 9MFY24 is downward.
+  - The downward trend became particularly pronounced after FY21.
+
+[Pattern Characteristics]
+The series formed a single-peak high point early on, followed by continuous overall convergence. FY19 saw a brief rebound compared to the previous year, but the rate of convergence accelerated after FY21. The structure is singular, continuous, without significant jumps, and the endpoint is located at the low end of the range.
+
+[Core Insights]
+Core Conclusion: Single-product revenue generation capability is weak, and operating space is constrained.
+
+Business Implications:
+- Reflects pressure on profitability
+- Reduces the safety margin for working capital turnover
+- Increases reliance on cost control
+
+Risk Focus:
+- Below FY23's 3.36, potentially indicating insufficient expense coverage
+- Approaching 9MFY24's 2.73, exacerbating cash flow strain

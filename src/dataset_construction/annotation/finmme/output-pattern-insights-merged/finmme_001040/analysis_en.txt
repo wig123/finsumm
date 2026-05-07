@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Dual-axis time series line chart
+- Title: Not displayed; legend contains two series
+- Legend: Red line "Price," Gray line "Rel Hang Seng Index"
+- X-axis: Time, Mar 23 to Feb 24 (monthly scale)
+- Left Y-axis: Price (HKD), scale approximately 300–500
+- Right Y-axis: Relative Hang Seng Index, scale 80–115
+
+[Data Relationships]
+- Initial Period (Mar 23): Price approximately 480–500 HKD; Rel approximately 95
+- Final Period (Feb 24): Price approximately 300–320 HKD; Rel approximately 88–90
+- Full-period Price peak near 500 HKD (Apr–May 23); Trough approximately 280–300 HKD (Jan 24), high-low difference approximately 200–220 HKD
+- Rel peak approximately 110–112 (Oct 23); Trough approximately 83–85 (Jan 24), high-low difference approximately 27–29 points
+- Nov 23: Price approximately 340–360 HKD; Rel approximately 95–100
+- Difference between initial and final periods: Price approximately 160–200 HKD; Rel approximately 5–7 points
+
+[Pattern Characteristics]
+The two series generally move in the same direction, with the early trend largely conforming, and slight localized deviations in the middle-to-late stages. After maintaining a high level from Mar–May 23, Price declined in phases, showing a distinct step-down shift around Nov 23, forming a phase low in Jan 24, followed by a slight rebound. Rel fluctuated slightly around the central axis in the first half of the year, briefly spiking in Oct 23, and subsequently falling synchronously with Price to the full-period low around Jan 24.
+
+[Core Insights]
+Core Conclusion: The stock's performance relative to the Hang Seng Index continues to weaken, and alpha (excess return) is contracting.
+
+Business Implications:
+- Return contribution relative to the benchmark is limited or even low.
+- Portfolios holding this security are being dragged down relative to the index performance.
+- Insufficient defensive capability after Oct, leading to increased sensitivity to market volatility.
+
+Risk Focus:
+- If Rel falls below 85 and persists, it could lead to significant underperformance relative to the Hang Seng Index, potentially triggering redemptions or portfolio rebalancing.
+- Price approaching or retesting the 280 level may trigger technical selling pressure and sentiment deterioration.

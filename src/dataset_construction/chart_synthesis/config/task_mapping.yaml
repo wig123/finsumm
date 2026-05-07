@@ -1,0 +1,97 @@
+# 任务映射配置
+# 基于 Brehmer & Munzner 可视化任务谱系
+
+tasks:
+  monitor:
+    label: "监测"
+    label_en: "Monitor"
+    description: "追踪时序数据的趋势、拐点和最新状态"
+    brehmer_munzner_why: "consume-lookup"
+
+    # 数据需求倾向
+    data_requirements:
+      shape_preference: ["TS_1D"]  # 优先单变量时序
+      frequency: ["D", "W", "M", "Q"]
+      transform: ["level", "yoy_12m", "mom", "pct_change_1m"]
+      time_horizon: ["1Y", "3Y", "5Y", "10Y", "20Y"]
+
+    # 典型图表类型
+    typical_charts: ["line", "area", "bar"]
+
+    # 样式提示
+    style_hints:
+      - "清晰展示趋势走向"
+      - "突出关键特征点"
+      - "根据数据特点智能标注"
+      - "保持图表简洁，避免信息过载"
+
+    weight: 0.35
+
+  compare:
+    label: "比较"
+    label_en: "Compare"
+    description: "对比不同实体、时期或指标的相对表现"
+    brehmer_munzner_why: "consume-summarize"
+
+    data_requirements:
+      shape_preference: ["CS_1D", "CS_ND", "TS_ND"]  # 横截面或多变量时序
+      frequency: ["M", "Q", "Y"]
+      transform: ["level", "index_100", "pct_change"]
+      time_horizon: ["1Y", "3Y", "5Y"]
+
+    typical_charts: ["bar", "grouped_bar", "line", "radar"]
+
+    style_hints:
+      - "清晰区分不同对象"
+      - "使用对比色突出差异"
+      - "根据业务问题决定是否需要排名、均值等参考信息"
+      - "保持视觉层次清晰"
+
+    weight: 0.30
+
+  explain:
+    label: "解释"
+    label_en: "Explain"
+    description: "叙述数据背后的故事,解释驱动因素和事件影响"
+    brehmer_munzner_why: "present-annotate"
+
+    data_requirements:
+      shape_preference: ["TS_1D", "TS_ND"]
+      frequency: ["D", "W", "M"]
+      transform: ["level", "yoy_12m"]
+      time_horizon: ["3Y", "5Y", "10Y", "20Y"]
+
+    typical_charts: ["line", "area", "timeline"]
+
+    style_hints:
+      - "讲述数据故事，突出关键转折点"
+      - "根据需要添加文字说明或区域标注"
+      - "体现因果关系和时间脉络"
+      - "平衡信息量与可读性"
+
+    weight: 0.25
+
+  diagnose:
+    label: "诊断"
+    label_en: "Diagnose"
+    description: "识别异常、归因分析、分解驱动因素"
+    brehmer_munzner_why: "explore-filter-derive"
+
+    data_requirements:
+      shape_preference: ["TS_1D", "TS_ND", "CS_ND"]
+      frequency: ["M", "Q"]
+      transform: ["level", "yoy_12m", "contribution", "decomposition"]
+      time_horizon: ["1Y", "3Y", "5Y"]
+
+    typical_charts: ["waterfall", "stacked_bar", "scatter", "heatmap"]
+
+    style_hints:
+      - "分解展示构成要素或驱动因素"
+      - "识别并突出异常模式"
+      - "根据分析需要展示相关性或归因信息"
+      - "使用适当的视觉编码辅助诊断"
+
+    weight: 0.10
+
+# 权重总和应为 1.0
+# 当前: 0.35 + 0.30 + 0.25 + 0.10 = 1.0

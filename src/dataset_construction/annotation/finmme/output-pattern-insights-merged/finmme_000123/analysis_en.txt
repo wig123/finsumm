@@ -1,0 +1,38 @@
+[Chart Components]
+- Type: Bar chart and line chart
+- Title: Untitled
+- Axes:
+  - Left Y-axis: OCF (CNYmn), range from -100 to 1,000
+  - Right Y-axis: YoY growth %, range from -2500% to 500%
+  - X-axis: Year (2011 to 2025F)
+- Legend:
+  - Red bar chart represents OCF (CNYmn)
+  - Black line chart represents YoY growth % (RHS)
+
+[Data Relationships]
+- Key figures and changes:
+  - OCF increased from 45 in 2011 to 417 in 2015, subsequently dropping close to 0 in 2021.
+  - OCF in 2023 was extremely low at 206, with significant increases projected for 2024 and 2025 to 876 and 892, respectively.
+- Extremum comparison:
+  - Maximum OCF occurs in 2024, reaching 876.
+  - Lowest growth rate occurs in 2022, approximately -1962%.
+- Significant trends:
+  - OCF significantly declined from 2016 to 2017.
+  - The 2022 growth rate was negative, with a strong rebound projected for 2023 to 806%.
+
+[Pattern Characteristics]
+- The bar-line combination shows multi-stage changes: a significant pullback after an early rise, followed by a substantial leap during the forecast period.
+- Structurally unbalanced, featuring jump points and sharp inflection points; the growth line and the bars show extreme values in specific years.
+- Anomalies include the deep negative zone of the growth rate followed by a high-level zone; OCF remained low between 2021 and 2023.
+
+[Core Insights]
+Core Conclusion: Cash generation is sensitive to annual changes and relies on projected recovery.
+
+Business Implications:
+- Reflects insufficient stability and high sensitivity
+- Impacts capital allocation and liquidity redundancy
+- High proportion of forecast values, significant impact from execution deviations
+
+Risk Focus:
+- OCF<0 (e.g., 2022): Net outflow and working capital pressure
+- If 2024F OCF<876 or 2025F<892: Failure to meet annual cash targets

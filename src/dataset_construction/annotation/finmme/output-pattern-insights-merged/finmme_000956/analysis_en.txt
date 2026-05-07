@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Grouped bar chart (vertical).
+- Title: Main title not displayed.
+- X-axis: Quarterly categories, from 4QFY18 to 3QFY24.
+- Y-axis: Percentage scale, range approximately -20% to 70%, with grid lines every 10%.
+- Legend: Red represents "Alkem growth," gray represents "IPM growth."
+
+[Data Relationships]
+- Peak: 1QFY22 Alkem ≈ 61%, IPM ≈ 41%, Difference ≈ 20pp.
+- Trough: 1QFY21 Alkem ≈ -10%, IPM ≈ -5%, Difference ≈ -5pp.
+- Starting Point: 4QFY18 Alkem ≈ 13%, IPM ≈ 8%, Difference ≈ 5pp.
+- Ending Point: 3QFY24 Alkem ≈ 8–9%, IPM ≈ 8–9%, Difference ≈ 0–1pp.
+- 4QFY23: Alkem ≈ 23%, IPM ≈ 16%, Difference ≈ 7pp.
+- 2QFY20: Alkem ≈ 17%, IPM ≈ 11%, Difference ≈ 6pp.
+- 3QFY20: Alkem ≈ 9% lower than IPM ≈ 10%, lower by ≈ 1pp; 4QFY20 lower by ≈ 2pp.
+- Range: Alkem approximately -10% to ≈ 61%; IPM approximately -5% to ≈ 41%.
+
+[Pattern Characteristics]
+- Both series generally move in the same direction, but the red bars are higher than the gray bars in most quarters, only slightly lower or close in individual quarters.
+- An extreme high point appears in the middle section, followed by a rapid decline to a moderate level, gradually converging in the later period until the heights are similar.
+- During the period, there are a few bars that fall below zero, but the duration is short, and the periods immediately preceding and following them show a clear contrast with the surrounding quarters.
+
+[Core Insights]
+Core Conclusion: Alkem's growth advantage relative to IPM amplified and subsequently returned to near synchronization.
+
+Business Implications:
+- In the medium to long term, Alkem performs stronger relative to the overall industry.
+- Quarters with extremely high growth contribute significantly to the overall compound growth rate.
+- Recent values are close to IPM, indicating a narrowing lead.
+
+Risk Focus:
+- If Alkem falls below IPM by more than 2pp for several consecutive quarters, its relative competitiveness may be weakened.
+- If Alkem drops below 0% again while IPM remains positive, the gap with the overall industry will widen.

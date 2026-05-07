@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Line (Closing price), Step Line (Target price), including red dot markers
+- Title: Not displayed
+- X-axis: Time, range 03-21 to 03-24 (Ticks are 03/06/09/12-YY)
+- Y-axis: Price (DKK), range 0–1,000 (Tick interval of 100)
+- Legend: Closing price, Target price
+
+[Data Relationships]
+- Initial period (03-21) closing price approximately DKK300; target price approximately DKK300.
+- Final period (03-24) closing price approximately DKK950–990; target price approximately DKK900–950.
+- Change in closing price from initial to final period approximately +DKK650–690; change in target price approximately +DKK600–650.
+- 12-22: Closing price approximately DKK500; target price approximately DKK450–500, difference 0–50.
+- 09-23: Closing price approximately DKK750–800; target price approximately DKK700–750, difference approximately 50.
+- 12-23: Closing price approximately DKK900; target price approximately DKK900, difference approximately 0.
+
+[Pattern Characteristics]
+- The closing price generally shows a continuous upward trend, interspersed with multiple minor pullbacks and consolidation phases, without any significant long-term sideways trading ranges.
+- The target price rises segment by segment in a step-like manner, maintaining each step for a period before moving up again, resulting in a relatively smooth overall pace.
+- For most of the time, the closing price trades near the target price, being slightly higher or lower in localized phases. The vertical distance between the two lines (marked by red dots) is generally small, tending to converge towards the end of the period.
+
+[Core Insights]
+Core Conclusion: The closing price and target price generally move upward in synergy, with limited deviation.
+
+Business Implications:
+- Current expectations are largely consistent with market performance; valuation divergence is minimal.
+- The pace of target price adjustments provides continuous guidance for the price.
+- Increased convergence in the later period reflects a rising realization rate of expectations.
+
+Risk Focus:
+- If the closing price remains consistently above the target price by more than DKK50, it may trigger excessive expectations and pullback pressure.
+- If the closing price falls below the target price by more than DKK50 and persists for multiple periods, it may signal expectation revision and the risk of target price reduction.

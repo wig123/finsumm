@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Data Table (DataFrame preview), titled "fdf.head()"
+- Columns: California, Texas, Florida, New York
+- Row Index: Date (YYYY-MM-DD), showing 5 rows from 2000-01-31 to 2000-05-31 (Month-end)
+- Values: All are decimal numbers; Units are not specified
+- No axes or legend
+
+[Data Relationships]
+- California: Initial Period 189260.580491; Final Period 194787.578801; Range Minimum = Initial Period, Maximum = Final Period; Difference 5546.998310
+- Texas: Initial Period 110479.871930; Final Period 110807.143952; Minimum = Initial Period, Maximum = Final Period; Difference 327.272022
+- Florida: Initial Period 107306.760725; Final Period 109011.343469; Minimum = Initial Period, Maximum = Final Period; Difference 1704.582744
+- New York: Initial Period 153890.061822; Final Period 157274.087274; Minimum = Initial Period, Maximum = Final Period; Difference 3384.025452
+- Comparison on the same day (2000-05-31): Highest California 194787.578801; Lowest Florida 109011.343469; Difference between the two 85776.235332
+
+[Pattern Characteristics]
+All four regions exhibited unidirectional, relatively smooth, gradual changes during the sample period, with no pullbacks or significant outliers/jumps. A stable high-to-low ranking structure was maintained among the columns, with California having the highest value and Florida the lowest. The disparity between the regions persisted throughout the entire period and was substantial in magnitude.
+
+[Core Insights]
+Core Conclusion: The scale of the four states expanded simultaneously, and regional disparities persisted.
+
+Business Implications:
+- The overall scale is in an expansionary phase, with no signs of short-term contraction.
+- California consistently maintains a dominant position, indicating high structural concentration.
+- Florida and Texas showed limited magnitude of increase, suggesting weak capacity for catching up.
+
+Risk Focus:
+- If California's value falls below 190000, it will significantly weaken the overall scale performance.
+- If the gap between Florida and California widens to 90000, it will exacerbate regional structural imbalance, constraining decision-making.

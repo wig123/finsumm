@@ -1,0 +1,34 @@
+[Chart Components]
+- Chart Type: Grouped stacked bar chart (including one black single bar).
+- Title: LCOE comparison, EUR/MWh; Subtitle: (Carbon price @80EUR/t, gas price in EUR/MWh).
+- Y-axis: EUR/MWh, range approximately 0–250.
+- X-axis Categories: CCGT(gas@0, LF45%), CCGT(gas@45, LF45%), CCGT(gas@20, LF45%), Coal(@100 USD/t, LF45%), Nuclear(LF90%), Germany 1yr fwd power price, Offshore wind US 2023, Offshore wind EU 2023, Onshore wind 2023, Solar PV 2023, Wind 2035, Solar PV 2035, CCGT/CCUS 45% LF, HT(H2@2.3EUR/kg, LF45%).
+- Legend: Carbon cost, Fuel cost, Operating cost, Capital cost.
+- Total values are annotated at the top of each bar.
+
+[Data Relationships]
+- Maximum Value: CCGT(gas@0) 204; Minimum Value: Solar PV 2035 is 37; Overall range is 167.
+- Total values for the three CCGT gas prices: 204, 129, 88; Pairwise differences are 75, 41, and 116, respectively.
+- The difference between Coal 128 and Nuclear 114 is 14.
+- Offshore wind: US 2023 is 160, EU 2023 is 90, difference is 70.
+- Onshore wind 2023 is 74, Solar PV 2023 is 72, difference is 2.
+- Wind 2035 is 45, Solar PV 2035 is 37, difference is 8.
+- CCGT/CCUS is 133, which is 4 higher than CCGT(gas@45).
+- Germany 1yr fwd power price is 70; the difference compared to Nuclear (114) is 44, compared to Solar PV 2023 (72) is 2, and compared to Wind 2035 (45) is 25.
+
+[Pattern Characteristics]
+- The total values of various technology options show clear stratification across the X-axis categories, with thermal power and hydrogen units positioned at the high end of the range, and 2035 wind and solar positioned at the low end.
+- Most renewable technologies are dominated by a single color block, whereas fossil fuel-related units consist of multiple color blocks, indicating a more complex structure.
+- The black single bar is positioned at a medium-to-low level, forming a clear contrast relative to surrounding thermal power and some renewable projects.
+
+[Core Insights]
+Core Conclusion: The cost level of fossil fuel units is generally higher than that of current and future wind and solar projects.
+
+Business Implications:
+- Under current gas and carbon prices, most gas and coal power generation lacks cost competitiveness.
+- The reliance of wind and solar projects on the overall cost structure is more concentrated on the capital expenditure side.
+- Future wind and solar projects demonstrate stronger cost advantages and greater attractiveness for deployment.
+
+Risk Focus:
+- When LCOE exceeds the Germany 1yr fwd power price of 70, project profitability margins are squeezed.
+- If LCOE approaches or exceeds the Offshore wind US 2023 value of 160, investments may face significant risks of postponement or cancellation.

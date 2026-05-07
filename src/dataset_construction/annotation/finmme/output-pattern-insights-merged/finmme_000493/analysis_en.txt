@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Data Table
+- Title: Not displayed; the first row "Total" provides the summary
+- Columns: Company, Location, Target Online, Investment (USD), Nameplate (GW), Capex/Watt ($/W), Component, Jobs*, per GW
+- Legend/Notes: Color differentiation exists; Footnotes include "*Manufacturing jobs (excluding construction)", "**NI = Non-Integrated (calculation only includes at least cell + module)", "***1 GW module, 1.5 GW cell"
+- Axes: Not applicable
+
+[Data Relationships]
+- Total: Investment $11.97 bn; Nameplate 44.3 GW; Jobs 17,310
+- Highest Investment: Qcells (GA) $2.50 bn; Capex/W $0.73/W; Nameplate 3.3 GW; Jobs 2,500
+- Lowest Investment: Hounen Solar (SC) $0.03 bn; Nameplate 0.5 GW; Capex/W $0.03/W; Jobs 120
+- Highest Nameplate Capacity: 5.0 GW (Canadian Solar-TX/IN, SEG Solar-TX, Trina Solar-TX)
+- Lowest Capex/W: $0.03/W (JA Solar-AZ, Hounen Solar-SC); Highest: $0.73/W (Qcells-GA); Difference $0.70/W
+- Maximum Jobs: 2,500 (Canadian Solar-TX, Qcells-GA); Second Highest: 1,800 (Maxeon-IN)
+
+[Pattern Characteristics]
+- Projects exhibit a distinct discrete distribution among investment amount, capacity, and unit cost, with multiple Capex/W levels existing within the same capacity tier.
+- The companies with the highest capacity are not simultaneously positioned at the extremes in terms of investment and job count; the number of jobs per GW varies significantly.
+- Individual projects significantly deviate from others in terms of Capex/W or job intensity, forming a few extreme high and extreme low data points.
+
+[Core Insights]
+Core Conclusion: The input efficiency and labor intensity of various projects differ significantly, indicating a relatively fragmented structure.
+
+Business Implications:
+- Differences in unit cost reflect a clear gradient in process technology and asset efficiency.
+- Differences in job density will directly impact overall human resource allocation and operating expenses.
+- Some projects show a more intensive matching between investment and capacity, which facilitates centralized resource management.
+
+Risk Focus:
+- Projects with Capex/W approaching or exceeding $0.70/W may see a significant extension of the investment payback period if returns are insufficient or prices decline.
+- For projects with Jobs per GW exceeding 1,000, fixed labor cost pressure may amplify losses if revenue falls short of expectations.

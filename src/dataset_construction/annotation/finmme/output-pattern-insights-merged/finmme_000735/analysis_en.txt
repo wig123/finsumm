@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Dual-axis combination chart (Red bars represent Total volume, Black line represents y-y change).
+- Left Axis: Unit mmscmd, range approximately 0–14.
+- Right Axis: Percentage, range -60%–180%.
+- X-Axis: Time points from 1QFY18 to 3QFY24 (labeled by 1Q, 3Q).
+- Legend: Total volume; y-y change (RHS).
+
+[Data Relationships]
+- Initial period (1QFY18) total volume ≈6 mmscmd; Final period (3QFY24) ≈9.2 mmscmd; Difference ≈3.2.
+- Peak total volume 1QFY22 ≈12; Trough 1QFY21 ≈5; High-low difference ≈7 mmscmd.
+- Total volume for both 1QFY20 and 3QFY20 ≈9–9.3 mmscmd.
+- Peak YoY ≈120% (1QFY22); Trough ≈-55% (1QFY21); Difference between the two ≈175 percentage points.
+- 1QFY23 total volume ≈9.8; 3QFY23 ≈7.2; Difference ≈2.6 mmscmd.
+- Final period YoY (3QFY24) ≈20%.
+
+[Pattern Characteristics]
+- Total volume generally shows a step-wise upward trend from 1QFY18 to 3QFY24, with a significant low point appearing in 1QFY21, followed by reaching a range high near 1QFY22, and subsequently maintaining minor fluctuations within a higher range.
+- The YoY curve shows a significant trough near 1QFY21, immediately followed by forming a prominent peak in 1QFY22. Thereafter, it oscillates around the zero axis, with volatility narrowing compared to the previous period.
+- Total volume and YoY simultaneously exhibited extreme points between 1QFY21–1QFY22. In other phases, both generally show changes in the same direction, but the synchronization is not perfectly consistent.
+
+[Core Insights]
+Core Conclusion: Following the upward shift of the volume magnitude center, the growth rate transitioned from extreme volatility to moderate positive growth.
+
+Business Implications:
+- The current operating level is higher than the historical initial period.
+- 1QFY21 to 1QFY22 reflects severe disturbances in demand/supply.
+- The recent growth rate of approximately 20% indicates continued expansion.
+
+Risk Focus:
+- If YoY falls below 0% again, it may lead to pressure for a phased contraction in scale.
+- If total volume declines below 7 mmscmd, it may affect established capacity and contract fulfillment.

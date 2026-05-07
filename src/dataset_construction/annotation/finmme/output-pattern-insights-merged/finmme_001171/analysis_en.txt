@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Dual-axis stacked bar chart
+- Title: Not displayed
+- X-axis: Year, scales at 1990, 1995, 2000, 2005, 2010, 2015, 2020
+- Y-axis: % of GDP, range -4% to 4%, interval approximately 1%
+- Legend: 12 categories displayed on the right—Other surplus, China, Energy exporters, Germany, Ireland, Singapore, Other deficit, Turkey, France, UK, India, US
+
+[Data Relationships]
+- Peak positive aggregate value approximately 3.5% (2006-2008)
+- Trough negative aggregate value approximately -3.5%, difference from positive value approximately 0
+- US lowest approximately -3.2% (2006-2008)
+- China highest approximately 1.0% (2006-2008)
+- Energy exporters peak approximately 1.1% (around 2008)
+- Germany peak approximately 0.8% (around 2007)
+- UK lowest approximately -1.1% (2005-2008)
+- Other surplus and Other deficit approximately 1.2% and -1.2% respectively (multi-year)
+
+[Pattern Characteristics]
+Overall, the positive and negative sides are roughly symmetrical in most years, summing close to the X-axis. Around 2000, the positive section gradually thickened, reaching its most significant concentrated high point around 2006-2008, subsequently contracting slightly but maintaining a multi-layered structure. The negative section extended deeper downward during the same period, subsequently retracting slightly and becoming more dispersed in composition, but still formed by the superposition of one large block and several small to medium blocks.
+
+[Core Insights]
+Core Conclusion: Global imbalances are primarily concentrated in a few major economies and resource exporters, reflecting distinct country-specific divisions of labor.
+
+Business Implications:
+- The US consistently bears the primary deficit, reflecting its status as the global demand center.
+- China, energy exporters, and Germany collectively contribute the surplus, indicating a high degree of external reliance.
+- Surpluses and deficits in other countries largely offset each other, maintaining near overall global balance of payments.
+
+Risk Focus:
+- When a single economy's deficit approaches approximately -3%, tightening financing conditions can easily trigger rebalancing pressure.
+- When the concentrated volume of surpluses collectively exceeds approximately 3%, a decline in external demand may lead to growth and reserve adjustment pressures.

@@ -1,0 +1,29 @@
+【图表构成】
+- 类型：饼图
+- 标题：未显示
+- 坐标轴：无坐标轴
+- 图例：12个类别（Taiwan、Australia、Singapore、Japan、U.S., UK、South Korea、Hong Kong SAR、Canada、Macao SAR、Malaysia、Thailand）
+- 数据标注：各扇区旁以数字标注（如22、19、18、8等）
+
+【数据关系】
+- 数值：Taiwan 22；Australia 19；Singapore 19；UK 18；U.S. 8；Japan 5；South Korea 4；Malaysia 3；Canada 2；Macao SAR 2；Hong Kong SAR 1；Thailand 1
+- 最大22（Taiwan），最小1（Hong Kong SAR、Thailand），差21
+- Australia与Singapore相同（各19）；UK比它们低1
+- 前三项合计60；前四项合计78
+- U.S. 8比UK少10；Japan 5比U.S.少3
+- 总和为104（由各标注数值相加）
+
+【模式特征】  
+整体结构呈明显的头部集中形态，少数几个扇区占据大部分面积，其余多数扇区面积较小且分散。前三至四个类别之间面积接近、形成一个相对紧密的主集群，其后类别面积迅速缩减，长尾部分由多个极小扇区构成，整体呈高度不均衡分布。
+
+【核心洞察】  
+核心结论：区域分布高度集中于少数几个市场。
+
+业务含义：  
+- 资源或业务量主要依赖前四个市场。  
+- 整体表现更受头部市场波动影响。  
+- 尾部市场对总体结果贡献有限。
+
+风险关注：  
+- 若Taiwan或Australia任一值跌破10，总体规模将出现明显收缩。  
+- 若单一市场数值超过30，将进一步放大集中度导致抗冲击能力下降。

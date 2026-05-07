@@ -1,0 +1,27 @@
+【图表构成】
+- 类型：分类面板，无坐标轴与图例。
+- 顶部筛选：Sector=Consumer Staples；Sub‑industry=Agricultural Products；Production process=Large‑scale livestock (beef and da…）。
+- 选项卡：Dependencies（当前）、Impacts；分区：Ecosystem services（当前）、Assets。
+- 列表分组（含“+ SHOW ALL”按钮）：Direct Physical Input、Enables Production Process、Mitigates Direct Impacts、Protection from Disruption。
+- 右上角显示：Showing – 19。
+
+【数据关系】
+- 分组计数：Direct Physical Input=4；Enables Production Process=5；Mitigates Direct Impacts=4；Protection from Disruption=6。
+- 合计：4+5+4+6=19，与“Showing – 19”一致。
+- 最大值：Protection from Disruption=6；最小值：Direct Physical Input、Mitigates Direct Impacts=4。
+- 与最大值差：6-5=1；6-4=2。
+
+【模式特征】  
+各分组项目数量分布较为接近，最大与最小分组之间差异有限。四个分组均有条目，未出现为空或明显突出的单一分组。整体呈现为轻微不均衡但相对分散的结构。
+
+【核心洞察】  
+核心结论：各类生态服务依赖较为分散，无单一主导领域。
+
+业务含义：  
+- 业务依赖来源多元，结构相对均衡。  
+- 各环节的重要性差距有限，需综合管理。  
+- 资源或风险评估时应覆盖全部四类要素。
+
+风险关注：  
+- 若任一分组条目数增至≥8，可能显示该环节依赖或问题集中度过高。  
+- 若某分组条目数降至≤1，可能导致该环节被忽视、评估不充分。

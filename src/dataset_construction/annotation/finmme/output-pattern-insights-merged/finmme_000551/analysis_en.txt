@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Time series line chart
+- Title: BYD
+- Top right information: As of 29-Feb-2024; Currency = CNY
+- Data Series and Legend: Closing Price (Black Line); Target Price Change (Green Triangle); Recommendation Changes (Blue Dot)
+- X-axis: Date, range approximately 2021/07/01—2024/01/01, scale marked as 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01
+- Y-axis: Price (CNY), range approximately 0—350
+- Source Annotation: Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial period (2021/07/01) closing price approximately 165 CNY; Final period (2024/02/29) approximately 175 CNY; Difference approximately 10 CNY.
+- Highest closing price approximately 340 CNY (around 2022/07); Lowest closing price approximately 140 CNY (around 2021/08); High-low difference approximately 200 CNY.
+- 2022/01/01 approximately 240 CNY; 2023/01/01 approximately 255 CNY; 2024/01/01 approximately 185 CNY. Relative difference: 2023/01/01 compared to 2022/01/01 approximately +15 CNY; 2024/01/01 compared to 2023/01/01 approximately -70 CNY.
+- The most recent target price adjustment marker (green triangle) is located near 2024/01, corresponding to a price of approximately 260 CNY.
+
+[Pattern Characteristics]
+- The closing price exhibits a volatile pattern of initial upward movement followed by a decline over the entire period, forming multiple local peaks and troughs.
+- The price showed a single significant peak around mid-2022, after which the high points gradually decreased, and the volatility range narrowed.
+- The most recent target price adjustment signal appeared during the phase following the relative price decline. Recommendation change points in the chart are few and sparsely distributed.
+
+[Core Insights]
+- Core Conclusion: After undergoing a complete upward cycle, the stock price has entered a relatively low-level consolidation phase.
+
+Business Implications:
+- The current valuation level has significantly compressed compared to historical peaks.
+- Investor sentiment and expectations may rely more heavily on subsequent fundamental verification.
+- The recent upward revision of the target price may establish a reference anchor point in the low-price range.
+
+Risk Focus:
+- If the stock price falls below the low point near 140 CNY, it may trigger further selling pressure.
+- If the price struggles to approach the 260 CNY target price over the long term, the market influence of institutional views may be weakened.

@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Time series combination chart (Closing price line, Target price step line, including red scatter markers)
+- Title: Not displayed
+- X-axis: Date, range 01-21 to 01-24, scale approximately 01/04/07/10 for respective years
+- Y-axis: Price (EUR), range EUR0.00 to EUR120.00, scale interval 20
+- Legend: Closing price (Cyan); Target price (Grey-blue)
+
+[Data Relationships]
+- Initial Period (01-21): Closing price ≈ EUR70; Target price ≈ EUR90; Difference ≈ EUR20
+- Final Period (01-24): Closing price ≈ EUR82; Target price ≈ EUR80; Difference ≈ EUR2
+- Closing price range approximately EUR60—EUR95; Peak ≈ EUR92 (near 01-22); Trough ≈ EUR65 (near 07-22); Amplitude ≈ EUR27
+- Target price range approximately EUR80—EUR105; Highest platform ≈ EUR100; Lowest platform ≈ EUR80; Amplitude ≈ EUR20
+- Full period difference range between the two approximately EUR0—EUR25 (Initial ≈ 20, Final ≈ 2)
+
+[Pattern Characteristics]
+The closing price curve generally oscillates around a central level, with frequent short-term fluctuations but limited volatility range. The target price exhibits a multi-stage step-like platform structure, adjusted upwards or downwards multiple times during the period, transitioning overall from a high-level platform to a lower platform. The two lines maintain a significant gap in the initial segment of the sample, with the distance gradually narrowing in the middle and later segments, locally converging near the end but without forming sustained overlap.
+
+[Core Insights]
+Core Conclusion: Market price is gradually converging towards the analytical target range, but acceptance is not stable.
+
+Business Implications:
+- Earlier valuation expectations were overly optimistic, and actual transactions did not fully follow through.
+- After the target range was lowered in the later period, it more closely aligned with market transactions.
+- The narrowing gap between price and expectation facilitates the determination of the current reasonable valuation range.
+
+Risk Focus:
+- If the closing price consistently remains below the target price by ≥ EUR20, it may lead to a decline in the credibility of the expectation.
+- If the target price is lowered below EUR80 and the closing price simultaneously moves down, it may introduce further price retracement pressure.

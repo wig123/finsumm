@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Grouped Stacked Bar Chart (three series: BEV, PHEV, HEV).
+- Title: TOP-5 EU + NORDICS ELECTRIFIED VEHICLES PENETRATION (%).
+- Y-axis: Top-EU penetration of EVs, % of total PC market; Scale 0%—64%, with increments of 4%.
+- X-axis: Time from Feb-20 to Feb-24, marked monthly/bi-monthly.
+- Legend: BEV (Cyan), PHEV (Gray), HEV (Hatched pattern).
+- Annotation: Flags of 9 countries, text "These 9 countries represent 80% of European PC market," with the notation "from Mar-18/Jun-18/Jan-19."
+
+[Data Relationships]
+- Total electrified penetration in Feb-20: Approximately 12%–16%.
+- Peak during the period in Dec-22: Total penetration approximately 52%–56%.
+- End of period Feb-24: Total penetration approximately 44%–48%.
+- Second highest level in Oct-23: Approximately 48%–52%.
+- Increase from start point to peak: Approximately 36–44 percentage points; Increase from start point to end of period: Approximately 28–36 percentage points.
+- Feb-24 Non-HEV (BEV+PHEV) total approximately 28%–32%, corresponding HEV approximately 16%–20%.
+- Dec-22 Non-HEV total approximately 32%–40%, corresponding HEV approximately 16%–20%.
+
+[Pattern Characteristics]
+- The total penetration rate continuously rose from the starting point, showed a single prominent high point at the end of 2022, and subsequently stabilized within a plateau range slightly below the peak, accompanied by significant monthly fluctuations.
+- The combined proportion of BEV and PHEV approached or slightly exceeded that of HEV in the middle-to-late period. The upper HEV segment remained generally stable, and the structural balance among the three components became more pronounced in the later period.
+- The chart shows multiple instances of short-term spikes and pullbacks, but no sustained one-sided trend was formed. Local high points are mostly concentrated at year-end or in adjacent months.
+
+[Core Insights]
+Core Conclusion: Electrification penetration has entered a high-level plateau phase, with a more balanced structure.
+
+Business Implications:
+- The overall level of electrification has significantly improved compared to the starting point.
+- HEV is no longer absolutely dominant; the importance of BEV/PHEV is rising.
+- The pace within the year is uneven, making the management of short-term timing more critical.
+
+Risk Focus:
+- If total penetration remains below 40% for an extended period, it may weaken investment enthusiasm for electrification.
+- If the proportion of BEV+PHEV falls below 24%, it may affect related capacity and supporting infrastructure planning.

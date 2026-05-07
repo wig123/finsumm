@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Time series line chart (red).
+- Title: Not displayed.
+- Y-axis: KRW, scale 0, 100,000, 200,000, 300,000, 400,000, 500,000.
+- X-axis: Years 14, 16, 18, 20, 22, 24F, 26F.
+- Auxiliary elements: Multiple gray reference lines/bands, labeled on the right side 0.9x, 1.1x, 1.5x, 2.0x, 2.2x; No legend.
+
+[Data Relationships]
+- 2014 approximately 90,000–110,000.
+- Lowest point slightly below 100,000 (near 2018–2019); Highest point approximately 390,000–400,000 (near 2022), the difference between high and low is approximately 290,000–310,000.
+- 2020 approximately 150,000–170,000; 2022 approximately 350,000–400,000; 24F approximately 210,000–240,000.
+- 24F decreased by approximately 110,000–180,000 compared to 2022; 2022 increased by approximately 180,000–230,000 compared to 2020.
+- The latest displayed point is at 24F, approximately 220,000.
+
+[Pattern Characteristics]
+- The series fluctuated within a narrow range during the early years, then gradually ascended, forming a distinct high peak region around 2022.
+- Following the high point, the curve moved downward from the vicinity of the peak, gradually approaching the lower-middle gray reference band, currently situated between 0.9x and 1.1x.
+- The overall trend includes multiple short-term fluctuations, but no subsequent high points have exceeded the peak observed around 2022.
+
+[Core Insights]
+Core Conclusion: The current level has significantly retreated from the 2022 peak but remains above the early period range.
+
+Business Implications:
+- The corresponding indicator was historically situated in a relatively high range around 2022.
+- The current valuation/price has released adjustment space relative to the peak.
+- If maintained below 1.1x in the future, the degree of premium is limited.
+
+Risk Concerns:
+- If it breaches the lower boundary of 0.9x, it may trigger further selling pressure and valuation compression.
+- If it surges above 2.0x again, it may lead to a short-term correction and increased volatility.

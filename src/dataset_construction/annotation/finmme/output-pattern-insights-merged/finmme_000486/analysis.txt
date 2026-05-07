@@ -1,0 +1,29 @@
+【图表构成】
+- 类型：折线图；未显示标题
+- X轴：月份，Jan-22 至 Dec-23
+- Y轴：百分比刻度，范围 0%–9%，每 1%一档
+- 图例：7条线——GAC Aion、Geely、Li Auto、NIO、Leapmotor、Xpeng、Seres
+
+【数据关系】
+- 全局最大值约8.0%（Geely，Oct-23）；次高约7.8%（GAC Aion，Apr–May 2023）
+- 全局最小值约0.3%（Seres，Jan-22）
+- 期初（Jan-22）：GAC Aion≈4.5%，Geely≈5.0%，Li Auto≈2.2%，NIO≈2.6%，Leapmotor≈2.2%，Xpeng≈3.5%，Seres≈0.3%
+- 期末（Dec-23）：GAC Aion≈4.7%，Geely≈6.3%，Li Auto≈5.3%，NIO≈1.9%，Leapmotor≈2.0%，Xpeng≈2.1%，Seres≈3.1%
+- 关键差异/变动：GAC Aion Jan-23→Apr-23 增约+5.2pct；Geely Oct-23 比 GAC Aion Oct-23 高约+2.7pct；Seres Nov-23→Dec-23 增约+0.7pct
+
+【模式特征】
+- 各品牌曲线总体呈多条分化轨迹，局部有明显高点和低谷，整体在0%–8%左右区间内运行，未出现极端断层或缺失点。
+- Geely 与 GAC Aion 长期处于数值较高区间，但在不同月份交替处于相对领先位置；Li Auto、Seres 后段数值抬升，与前段位置相比有明显结构变化。
+- NIO、Leapmotor、Xpeng 多数时间围绕中低区间窄幅摆动，仅在个别月份出现短暂凸起；Seres 在样本前期处于最低水平，至末期接近中等水平，形态上呈后段抬升特征。
+
+【核心洞察】
+核心结论：头部格局仍在演变，中腰部品牌后程追赶明显。
+
+业务含义：
+- 领先品牌优势不稳固，竞争顺位存在调整空间。
+- Li Auto、Seres 后程表现提升，显示渗透能力增强。
+- NIO、Xpeng、Leapmotor 表现偏中性，短期贡献弹性有限。
+
+风险关注：
+- 若Geely数值跌破5%，头部集中度下降，可能削弱规模协同。
+- 若NIO长期低于2%，品牌心智和渠道投入回报或承压。

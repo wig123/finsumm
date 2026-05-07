@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Line Chart
+- Title: BNEF Wind Global Capacity Addition Forecast - High Scenario (GW)
+- X-axis: Year, Range 2007–2029
+- Y-axis: Global Wind Power Capacity Addition (GW), Range 0–180, Scale approximately every 20
+- Legend: Actual/HSBC extrapol (Solid black line); 2016 Q2/Q4, 2017 Q2/Q4, 2018 Q2/Q4, 2019 Q2/Q4, 2020 Q2/Q4, 2021 Q2/Q4, 2022 Q2/Q4, 2023 Q2 (Gray/Red, including dashed/dotted lines)
+- Right-side numerical annotation: 170
+
+[Data Relationships]
+- Actual Values: Approximately 30 GW in 2007; approximately 55 GW in 2019; approximately 100 GW in 2020 (Peak); approximately 80 GW in 2021; approximately 65 GW in 2023
+- Increment from 2007 to 2020 is approximately 70 GW; Difference between 2020 and 2023 is approximately 35 GW
+- 2029 Forecast: Approximately 170 GW (2023 Q2); approximately 135 GW (2021 Q4); Difference approximately 35 GW
+- 2025 Forecast: Approximately 115 GW (2023 Q2); approximately 95 GW (2021 Q4); approximately 90 GW (2018 Q4); Difference between highest and lowest is approximately 25 GW
+
+[Pattern Characteristics]
+Overall, the actual values show a stepped upward trend from 2007–2020, followed by a noticeable decline after 2020, and then a gradual recovery. Forecasts from different quarterly versions form a fan-shaped band from low to high for the same year. Earlier versions are generally lower than later versions, with the largest divergence occurring in 2029. The period around 2020 is the main inflection point for the actual series. Long-term forecasts show a structure of annual increases and widening divergence after 2025.
+
+[Core Insights]
+Core Conclusion: The latest forecast significantly raises the long-term expectation for new wind power capacity addition.
+
+Business Implications:
+- Mid-to-long-term installation expectations are revised upwards, and growth potential is being reassessed.
+- Project pipeline and capacity planning must align with higher levels of capacity addition.
+- Uncertainty in long-term estimates is amplified; planning needs to emphasize flexible ranges.
+
+Risk Focus:
+- If the actual capacity in 2025 falls below 90 GW, it will be lower than the early high scenario, impacting mid-term return on investment expectations.
+- If the actual capacity in 2029 falls below 135 GW, the deviation from the latest 170 GW expectation will be too large, potentially leading to upstream overcapacity and asset idling.

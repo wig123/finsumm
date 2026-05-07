@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Multi-series line chart
+- Title: Not indicated; y-axis noted as “% y‑o‑y, 3mma”
+- Axes: x-axis time range is Feb-15 to Feb-23; y-axis range is approximately -50 to 50, including the 0 baseline
+- Legend and Colors: Red=Floor Space under Construction; Black=Floor Space of Newly-started Buildings; Gray=Floor Space of Buildings Completed; Orange=Real estate FAI
+
+[Data Relationships]
+- Feb-23 Values: Gray line ≈ +25%; Red line ≈ -25%; Black line ≈ -20 to -25%; Orange line ≈ -10%
+- Extreme Values: Red line lowest ≈ -45% (approx. 2022); Black line lowest ≈ -30% (approx. 2022); Gray line highest ≈ +35% (approx. 2021), lowest ≈ -30% (approx. 2022); Orange line highest ≈ +15% (approx. 2021), lowest ≈ -15% (approx. 2022)
+- Key Discrepancies: Feb-23 difference between gray line and red line ≈ 50 percentage points, difference with black line ≈ 45-50 percentage points, difference with orange line ≈ 35 percentage points
+- Trough Comparison: Approx. 2022 difference between the lowest values of the red line and the black line ≈ 15 percentage points
+
+[Pattern Characteristics]
+- The four lines mostly fluctuated narrowly around the zero value between 2015 and 2019, showed significant amplification around 2020-2021, and formed a concentrated downward exploration zone around 2022.
+- Each series experienced short-term surges of varying degrees around 2021, followed by a simultaneous entry into a prolonged negative territory, with trough positions close but depths differing.
+- By 2023, the gray line has clearly returned to a higher positive value region, while the remaining three lines are still near deeply negative values, indicating significant divergence among the series.
+
+[Core Insights]
+Core Conclusion: Recovery in construction, new starts, and investment lags behind completion, indicating an internal imbalance in industry momentum.
+
+Business Implications:
+- The completion segment shows relatively outstanding performance, with the structure leaning towards finishing projects.
+- New starts and floor space under construction are under pressure, weakening future project reserves.
+- Investment execution is cautious, and the pace of capital deployment is slowing.
+
+Risk Focus:
+- If floor space under construction and new starts remain below -20% for an extended period, subsequent sustainable supply may significantly contract.
+- If investment remains below -10% for an extended period, it may trigger project delays and pressure on capital recovery.

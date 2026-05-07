@@ -1,0 +1,3542 @@
+[
+  {
+    "chart_id": "20251204_031907_bar_zh-CN_inflation_3dd152d5",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "图像确为柱状图，时间从2024-01到2025-09，绿色柱代表CPI指数；整体呈缓慢上升，2024-01最低、2025-09最高基本符合。但存在不准之处：1) 纵轴上限明显高于330点左右，摘要称“范围从0点至略高于300点”不准确；2) 声称2024年中期出现“明显的停滞”以及末端“增速更快、斜率变陡”在图中并不清晰，柱高几乎等距上升，难以支持该判断。",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "覆盖了图表类型、标题、坐标含义、时间跨度、最高/最低点以及总体上升趋势等关键信息。但未给出任何数值区间估计（如约311到330），也未指出每月增幅极小这一特征的量级。",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 3,
+        "evidence": "提供了业务含义与风险点，但多为通用性推断（如购买力被侵蚀、成本压力上升），且基于CPI指数水平上行就推出强烈结论，缺少对增速、同比/环比的量化与阈值判断，力度有限。",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "结构清晰，分为图表构成、数据关系、模式特征、核心洞察与风险，叙述顺序合理，无明显自相矛盾。",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "总体较精炼，但“稳定上升、波动性低、连续性高”等表述存在一定重复，可进一步压缩。",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.65,
+    "normalized_score": 0.73,
+    "overall_comment": "摘要基本把握了图表的类型与总体单调上升趋势，但对纵轴范围和增速变化的描述存在不准确与过度解读。分析部分偏泛化，缺乏量化支撑。",
+    "duration_s": 53.19,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024510_bollinger_bands_zh-CN_fx_trade_339e0a53",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "核心趋势（长期窄幅波动+尾段巨型尖峰、布林带极度扩张）描述正确。但有若干数值与事实不符或存疑：1) 最近收盘价更接近0.82~0.85而非0.78；2) 20日均线末端接近1.0而非0.95；3) 下轨最低约在-0.6~-0.7，描述为-0.5略低估；4) 文中称“包含了收盘价跌破或远低于下轨的瞬时形态”，图上并未清晰出现此情形，属于可能的臆测。",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 5,
+        "evidence": "覆盖了图表类型、标题、坐标轴含义与时间范围、图例构成、阴影区域；抓住了主要走势（长时间平稳、末端异常尖峰）、布林带上下一致扩张、均线被尖峰抬升、上下轨的极值与变化。关键要点基本齐全。",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "给出了“异常值导致波动性失真、均线被抬升、布林带失效”的解读，并提出风险关注点，具有一定业务含义。可进一步量化阈值或给出交易/风控建议以增强可操作性。",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "按构成-数据关系-模式特征-核心洞察-风险的结构展开，层次清晰，无明显自相矛盾。",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "总体精炼，但在“模式特征”与“风险关注”中对布林带扩张和失真有少量重复表述，略显冗长。",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.1,
+    "normalized_score": 0.82,
+    "overall_comment": "总结抓住了图表的关键现象与含义，结构清晰。但个别数值偏差和关于价格跌破下轨的推断降低了准确度。修正这些细节后可评为高质量分析。",
+    "duration_s": 52.15,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024515_candlestick_en-US_digital_assets_65f6d435",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Accurately notes the candlestick type, axes, legend, early-2024 price near 40k, a rise to ~70k by Q2 2024, a peak a little above 120k (≈125k) in late 2025, a subsequent drop to the mid‑80k area, and a late rebound to around 90–93k. Minor imprecision: the peak appears closer to late Oct/early Nov 2025 rather than strictly October.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers major extrema, overall trend (strong rise then sharp correction), mentions key breakouts (70k and 100k), and the end-of-period level. Could add intermediate swings (e.g., mid-2024 pullback to ~55–60k and multiple peaks around 105–110k in early 2025) for fuller coverage.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Gives meaningful interpretation (expansion then retracement), notes volatility increase above 100k, and provides actionable risk levels (80k support, drawdown after >120k). Insights are solid but somewhat generic and not tied to specific support/resistance clusters visible on the chart.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured into composition, relationships, patterns, and insights. Clear flow and no contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally succinct, though a few phrases repeat points about expansion/correction and volatility.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.15,
+    "normalized_score": 0.83,
+    "overall_comment": "A strong, mostly accurate summary that reflects the chart’s key movements and offers useful insights. Minor timing precision and a few missing intermediate details prevent a perfect score.",
+    "duration_s": 48.94,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031952_scatter_en-US_growth_employment_f081e4a1",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Extrema and trend are mostly correct (low ~3.7% in 2024-01; last point just under ~4.4% and is the peak). Net increase and final three-month rise are accurate. Minor errors: the 'stabilization' span is 14 months from 2024-06 to 2025-07 (not 13), and the stated two dips include 2024-05, which precedes that span. The final value is slightly below 4.4%, not clearly at 4.4%.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, axes, series, extrema, overall upward trend, mid-period plateau, and late breakout. Could add brief mention of the early 2024 cluster around 3.9% for fuller coverage.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides reasonable interpretation (softening labor market), business implications (wage pressure, spending), and a risk threshold. Insights are useful though somewhat generic and not tightly tied to exact magnitudes.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 4,
+        "evidence": "Clear sectioned structure and coherent flow. Minor inconsistency in defining the stabilization period (2024-06 through 2025-07 vs. 2024-07 to 2025-07).",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise with bullet points, though a few statements repeat the same idea (plateau and stabilization) and add slight verbosity.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.0,
+    "normalized_score": 0.8,
+    "overall_comment": "A generally accurate and well-structured summary that captures the chart’s main story and offers useful implications. Minor numerical and consistency issues prevent a top score.",
+    "duration_s": 63.16,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031740_errorbar_zh-CN_inflation_c2703dd2",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 5,
+        "evidence": "Chart shows a single blue line with gray vertical error bars from 2023-01 to 2025-09. Values rise steadily from roughly 303 to just above 330 by 2025-09. Error bars lengthen over time. The summary’s start (~302.7), end (~330.5), continuous uptrend, and increasing error-bar width all match the visual. The claim that 314 is first exceeded around 2024-01 and 330 is first exceeded at 2025-09 is consistent with the plotted points.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, axes, series, start/end values, cumulative change, monotonic rise, and volatility widening. Could add more specifics such as any brief slower phases or approximate error-bar magnitudes, but key elements are present.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Gives clear implications (persistent inflation pressure, rising uncertainty), and risk note about breaching 330 and widening bands. Insights are reasonable but somewhat generic without tying to precise thresholds or policy context.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured sections (构成/数据关系/模式特征/核心洞察) with coherent flow and no contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise; a few statements repeat the persistent uptrend and widening dispersion, but overall efficient.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.45,
+    "normalized_score": 0.89,
+    "overall_comment": "Summary closely reflects the chart and provides useful takeaways about a steady rise in core CPI and widening uncertainty. Minor improvements could include quantifying error-bar ranges or noting any subtle pacing changes.",
+    "duration_s": 45.6,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_112659_treemap_zh-CN_equity_markets_50925976",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "多数关键数值与图一致（美国PE=22.5、印度21.0、中国18.7、俄罗斯13.2等）。但图例下限约为13倍而非14倍；并且“市值与市盈率同向关系”的结论不被数据普遍支持（例如印度PE高但市值较小，中国市值大但PE并不最高）。",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "说明了图表类型、编码方式（面积=市值、颜色=PE）、国家数量、最大/最小PE、最大与第二大市值以及中位区间等要点。未覆盖所有国家的代表性数值（如德国17.8、澳大利亚18.4等）及色标上限接近23倍等细节。",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "有集中度、估值分布、风险和配置含义等解读，较有启发性。但存在一定泛化/不充分论证之处（如宣称市值与PE同向）。",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "分为构成、数据关系、模式特征、核心洞察与风险，结构清晰、层次合理，无明显自相矛盾。",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 3,
+        "evidence": "内容偏长，部分观点重复或可更精炼（例如对集中度与风险的多次强调）。",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.75,
+    "normalized_score": 0.75,
+    "overall_comment": "总结总体准确并具有一定分析深度，但存在小的事实偏差与过度推断。精简表述并避免未经验证的相关性判断可进一步提升质量。",
+    "duration_s": 65.58,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_032157_candlestick_indicator_zh-CN_fx_trade_c36c97a7",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Values and trends largely match the chart: start ~104 in 2021, end near 155, peak slightly above 160 around mid‑2024, sharp pullbacks to ~128 (early 2023) and ~141 (late 2024), and 2025 trading mostly 140–158. Minor issues: the ending is not a 'narrowing consolidation' but an upswing toward 155+, and calling it a K-line is questionable since it appears as a colored line chart.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers axes, time span, value range, key highs/lows, two major corrections, and 2025 range. Could add a brief note on the mid‑2023–early‑2024 advance back to the 150s and clarify that the final leg is rising rather than compressing.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 5,
+        "evidence": "Provides clear takeaways (long‑term JPY depreciation), business implications (hedging), and actionable risk thresholds (breaks below 140 or above 161).",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured sections from description to insights and risks; no internal contradictions aside from the minor end‑pattern misread.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise with structured bullets; a few generic phrases and slight redundancy but overall efficient.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.35,
+    "normalized_score": 0.87,
+    "overall_comment": "Strong and mostly accurate summary with useful, actionable insights. Minor corrections needed regarding the end-of-chart pattern and the chart type.",
+    "duration_s": 63.49,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024420_heatmap_en-US_fixed_income_22538a30",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Correctly identifies title, axes, color scale, entities, maturities, and main trends. Notes the max yield (~6.0%) at Emerging Market 30Y and the min near 0.1% for Japan JGB 1Y, both matching the heatmap. Accurately states monotonic increases across maturities and the relative ranking (EM highest, JGB lowest, BBB second-highest). Minor numerical imprecision: Japan JGB 30Y is closer to ~0.8% than 0.75%, and phrasing suggests very low values 'across all maturities', which understates the increase to the right.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers key features: extrema, per-entity trends, monotonic upward slopes, and broad cohort comparisons (sovereigns vs corporates/EM). Does not detail mid-tier differences (e.g., relative positions of US, UK, Germany, China, Corporate AAA) or highlight any specific tenor comparisons beyond EM and JGB.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides meaningful interpretation: entity type dominates level, duration extension yields predictable premium, and discusses implications (income capture, low-yield risk, high-yield default premium). Solid but not deeply quantified beyond a couple of ranges.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Clear sectioning (composition, relationships, patterns, insights) and consistent reasoning without contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally succinct with structured bullets; some repetition in emphasizing the same trends and a few ancillary statements that could be trimmed.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.15,
+    "normalized_score": 0.83,
+    "overall_comment": "A strong and largely accurate summary that captures the chart’s structure and key patterns with useful insights. Minor numerical imprecision and limited coverage of mid-tier comparisons prevent a perfect score.",
+    "duration_s": 59.95,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031652_bar_zh-CN_fiscal_policy_f480bfc9",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Summary correctly identifies chart type, title, time span (2024-01 to 2025-11), y-axis meaning, and the single series. It accurately states the peak around 2025-01 (~4.63%), the trough around 2024-09 (~3.72%), the rebound from Sep to Oct (~+0.38pp), and that end-2025 levels (~4.09%) are close to the start (~4.06%). Minor potential inaccuracy: it claims 2024-12 (4.39%) equals 2025-07 (4.39%), while the bars look slightly different (Jul 2025 appears ~4.38), so the exact equality is uncertain.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 5,
+        "evidence": "Covers chart structure, overall trend (high-level oscillation mostly >4%), key extrema, amplitude (~0.91pp), specific month-to-month move (Sep→Oct rebound), and start/end comparison. No major element of the chart is omitted.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides meaningful interpretation: market oscillation, implications for valuation and funding cost, and a risk threshold (break above 4.63%). Analysis is relevant though not deeply tied to macro drivers; still beyond mere description.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Clear, well-structured sections (构成/数据关系/模式特征/核心洞察) with a coherent flow from description to insights and no contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise with focused points; a few phrases are somewhat verbose but not excessive.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.4,
+    "normalized_score": 0.88,
+    "overall_comment": "A strong and mostly accurate summary with clear insights and structure. Minor numerical precision issue (equal values claim) prevents a perfect faithfulness score.",
+    "duration_s": 73.58,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031813_density_en-US_inflation_5325769b",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Accurately notes a KDE plot with title, axes labels, legend, and blue-gray fill. Correctly identifies a main peak around 4 with density near 0.16, a deep trough around 11–12 close to zero, and a small secondary bump near ~15. Positive skew and right tail to about 16 are reflected. Minor issues: x-axis upper bound is closer to 16 (not ~17), and exact densities (e.g., 0.162, 0.098, 0.012) are estimates not directly labeled.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 5,
+        "evidence": "Covers the chart composition, key modes, troughs, skewness, right-tail extent, and the relative mass of the main distribution vs. the small upper-tail cluster.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Goes beyond description with implications (most economies in low range), identifies an actionable threshold (>12 as potential outliers), and flags a distinct subgroup at high values. Insights are sound but somewhat generic.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-organized into clear sections (composition, relationships, patterns, insights). The flow is coherent with no contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise bullet points; slight repetition between 'Data Relationships' and 'Pattern Features'.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.4,
+    "normalized_score": 0.88,
+    "overall_comment": "A strong and largely accurate summary of the KDE chart, correctly capturing the bimodal, positively skewed distribution and offering reasonable implications. Minor numerical approximations and a small range misstatement prevent a perfect faithfulness score.",
+    "duration_s": 39.22,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024540_radar_en-US_asset_management_a508ccfe",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 2,
+        "evidence": "Several key statements contradict the chart. Private Equity is not the most volatile—the Volatility axis shows Hedge Funds at the top (~9) and Global Equities also high (~8), while Private Equity is near the inner rings (~3–4). It is also not uniquely highest in Risk; Hedge Funds appear equal or higher. The summary claims Real Estate liquidity is below 4, but the chart shows it around the mid-range (~5–6). Fixed Income volatility is underestimated (stated ~2.8 vs. chart closer to ~4–5). The claim that Global Equities have the highest volatility among low-cost assets ignores Hedge Funds, which have lower cost efficiency and higher volatility.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 3,
+        "evidence": "It correctly describes chart type, axes, legend, and highlights extremes for Cash & Equivalents and the high returns of Private Equity. However, it omits important coverage of Diversification patterns, does not clearly identify maxima/minima for Cost Efficiency, and gives little accurate discussion of Hedge Funds, Commodities, and Real Estate.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 3,
+        "evidence": "Provides business implications and risk considerations (e.g., liquidity constraints for illiquid assets, trade-off between return and accessibility). Yet some insights are built on incorrect readings (e.g., PE as most volatile) and the claimed inverse correlation across metric groups is oversimplified.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 4,
+        "evidence": "Well-structured with clear sections and generally coherent flow from description to insights. Minor inconsistency in phrasing (e.g., 'transparency and low cost efficiency') but no major contradictions in structure.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise and organized into bullets. Some redundancy and extraneous qualifiers could be trimmed.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 2.95,
+    "normalized_score": 0.59,
+    "overall_comment": "The summary has good structure and attempts meaningful insights, but multiple factual inaccuracies versus the chart (especially around volatility, risk, and liquidity) significantly reduce faithfulness. Tightening the facts and covering missing metrics like Diversification and Cost Efficiency would improve it.",
+    "duration_s": 94.28,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031729_bar_en-US_inflation_f4635746",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "The chart’s y-axis clearly extends near 275–280, not 'slightly above 250' as stated. The peak in 2022 appears around 270–275, not 'slightly above 280.' Other elements (vertical bars, title, legend, time span, major ticks) are correct, and early values near 165 and the 2008–09 drop toward ~170 are plausible.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, axes, legend, long-term uptrend, 2008–09 dip, 2011–2015 plateau, post‑2020 surge, and 2023–2024 stabilization. It misses calling out the noticeable 2015–2016 dip and the 2020 decline before the surge.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides business implications and risk framing (elevated cost baseline, threshold near 250). Insights are relevant, though somewhat generic and not tied to specific quantified changes from the chart.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured sections (composition, relationships, pattern features, insights) with a coherent flow and no internal contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise bullet points; a few repeated ideas about elevated costs and consolidation could be tightened.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.85,
+    "normalized_score": 0.77,
+    "overall_comment": "Good, structured summary with useful implications, but it overstates the peak level and misreports the y-axis range. Correcting those numerical inaccuracies and noting the mid-2010s/2020 dips would improve it.",
+    "duration_s": 62.46,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031730_candlestick_volume_zh-CN_equity_markets_5f6c7699",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "The chart indeed shows a candlestick price series with volume bars, 2000–2008, min near 2002 (~0.6) and a peak around mid-2006 slightly above 4.0. However, several numeric statements deviate: (1) Price was not confined to 0.6–1.2 until 2005H1—by 2004–2005 it was already around 1.3–1.6. (2) The surge from 2005H2 started closer to ~1.4–1.5, not 1.2, so the >230% rise is overstated. (3) Left y-axis upper bound exceeds 4.0 (peak ~4.1+). (4) Claim that high-volume days were more frequent in 2006–2008 than in the low-price period is debatable because very large spikes also appear around 2003–2004.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, axes, date range, legend, main trend phases, extrema (2002 low, 2006 high), volume distribution and notable pullback to ~2.4. It slightly misses the earlier 2004 up-move before 2005 and does not highlight that some of the largest volume spikes occurred pre-2005.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides meaningful interpretations (trend regime shift, high-level revaluation, liquidity/turnover implications) and concrete risk levels (4.0 resistance, 2.4 support, ~3.0 watch area). A few assertions (e.g., volume-price resonance patterns, '持续收敛') are somewhat speculative given the plot.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured into sections (composition, data relations, patterns, insights, risks) with a coherent flow from description to interpretation and no internal contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise, though some points are repeated across sections and could be tightened (e.g., repeated characterization of regime shifts and volume imbalance).",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.85,
+    "normalized_score": 0.77,
+    "overall_comment": "A strong and mostly accurate summary with good analytical depth, but it overstates the pre-2005 price range and the magnitude/timing of the 2005–2006 rally, and makes a questionable claim about volume frequency. Tightening these would significantly improve faithfulness.",
+    "duration_s": 79.61,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024533_radar_en-US_digital_assets_b77edb91",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 2,
+        "evidence": "Several metric values and rankings are incorrect. Examples: (1) Developer Activity — the summary says Ripple and Polkadot are near 0.6 and Cardano ~0.75; in the chart Ripple and Polkadot are near the lower bound (~0.2) and Cardano is around 0.4–0.5, while Solana is ~0.6 and Bitcoin ~0.8. (2) Liquidity — it claims Ripple and Binance Coin are ~0.7–0.75; the chart shows Ripple close to 0.9 and Binance Coin around 0.5. (3) Volatility — it states both Bitcoin and Ethereum are under 0.2; Bitcoin is low but Ethereum is closer to ~0.25–0.3. (4) It says BTC and ETH form large, non‑overlapping areas, yet their polygons overlap substantially on several axes.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, axes, scale, legend, and most key relationships (BTC dominance in market cap/volume/addresses, ETH strong developer activity, high volatility in smaller assets). However, it gives little coverage of Chainlink and mischaracterizes some metrics, which weakens coverage of extremes for developer activity and liquidity.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides meaningful insights (two‑tier structure, inverse relationship between market cap and volatility, business implications and risk thresholds). Despite factual errors in some metric readings, the analytical framing is solid.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Clear sectioning (composition, relationships, patterns, insights). Flow is coherent and free of internal contradictions in reasoning, though some facts are wrong.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise and structured; a few statements are repetitive but not excessive.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.55,
+    "normalized_score": 0.71,
+    "overall_comment": "Big-picture trends are captured well, but multiple metric-specific inaccuracies—especially for developer activity and liquidity—reduce reliability. Correcting those values would substantially improve the summary’s faithfulness.",
+    "duration_s": 84.29,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024520_renko_zh-CN_commodities_41a00f90",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "X轴确为2024-01至2026-01；Y轴0–120000，约每20000为主刻度，均与图一致。走势在2024年初约4万附近，至2025年10月前后接近顶端约12.4万，随后回落到2026年初约9万–9.5万，符合图中轮廓。错误之处：图例色块是蓝色而非总结所述的黑色；关于“两次明显阶梯式上涨”等细节为主观解读，图中并不易明确辨认。",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "总结覆盖了图表类型、坐标含义、时间范围、极值、区间波动与终点位置，并给出阶段涨跌幅。略缺：未说明Renko关键参数（砖块大小）与颜色含义差异；未指出图形极度密集导致可读性受限对解读的影响。",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "给出总体趋势（先强劲上行后高位盘整并回撤）、回撤幅度约25%、关注8万支撑等阈值，并提出资产管理与风险提示，具有一定可操作性。但未结合Renko反转规则或砖块结构作更专业的信号分析。",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 4,
+        "evidence": "结构清晰（构成-数据关系-模式-洞察），逻辑顺序合理；存在一个小矛盾（说图例颜色为黑色），但整体叙述连贯。",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "大体精炼，少量表述重复（多次强调上涨与震荡），仍保持较好的信息密度。",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.0,
+    "normalized_score": 0.8,
+    "overall_comment": "该总结总体与图表走势相符，覆盖关键时间与价格区间，并提供了有用的风险与阈值判断。主要问题是图例颜色描述错误及部分模式解读偏主观。",
+    "duration_s": 82.58,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031641_scatter_en-US_real_estate_c1df6ed1",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Correctly notes a gradual rise 2016–2020 (~178 to ~215), a sharp run-up 2020–mid 2022 (~217 to ~304), the mid‑2022 peak and pullback to ~298 by late 2022/early 2023, and a new high around 329–330 in early 2025 followed by a slight dip to ~327–328. Minor inaccuracies: the end-of-period drop is more like 2–3 points (not 1.5), and the claim of a 'persistent contraction' is questionable because the last points show a slight uptick.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, axes, legend, overall trend, key phases, local 2022 peak/dip, and the final peak with small decline. It misses noting the small rebound at the very end and does not quantify the 2023–2024 steady climb.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 3,
+        "evidence": "Provides implications and risk considerations, but thresholds are somewhat arbitrary (e.g., 325) and the statement that 2022 'resistance near 304' is a potential floor is debatable given the observed drop below 304 in late 2022.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-organized into clear sections (composition, relationships, patterns, insights). The flow is coherent despite a minor overstatement about persistent contraction.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise and structured; a few sentences are verbose or repeat ideas about phases and volatility.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.95,
+    "normalized_score": 0.79,
+    "overall_comment": "A solid and mostly accurate summary with clear structure and reasonable quantification of trends. Minor numerical imprecision and somewhat speculative risk thresholds prevent a top score.",
+    "duration_s": 82.07,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024342_bar_en-US_commodities_3c10cc49",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Gold is correctly identified as the highest (~1,930–1,950 USD) and crude oil around ~70–75 USD. Most small commodities are indeed near/below ~25 USD. However, Platinum is not 'precisely at 1000'—its bar is slightly above 1000 (~1,020), so the Gold–Platinum gap is closer to ~900–930 than the stated 935. The claim of 'seven out of ten' clustered near zero omits crude oil as a small bar, creating a minor inconsistency.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, axes, legend, extreme values (Gold highest, Platinum second), approximate levels for crude oil and the small group, and overall distribution. It does not detail the relative ordering within the small group or mention the lowest value explicitly.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Goes beyond description with dominance observations, concentration risk, and business implications. Some implications (e.g., resource allocation based solely on 1‑day prices) are somewhat speculative but still provide useful perspective.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured sections (composition, relationships, patterns, insights) with a coherent flow and no contradictions across sections.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally succinct, though a few points about dominance and clustering are repeated, making it slightly more verbose than necessary.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.15,
+    "normalized_score": 0.83,
+    "overall_comment": "A strong, mostly accurate summary that captures the key story of two dominating precious metals and a cluster of low-priced commodities. Minor numerical imprecision about Platinum and a small counting inconsistency prevent a perfect score.",
+    "duration_s": 62.43,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_032211_radar_zh-CN_fx_trade_4139130f",
+    "group": "B",
+    "status": "error",
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "chart_id": "20251204_031939_point_figure_zh-CN_equity_markets_9f7698d3",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "多数描述与图相符：最高价在2025年10月左右略高于180元（约185），最低在2024年初略低于70元；2024年上半年在70-85元区间横盘，之后在2025年快速上行并在年末回落到约150-160元。存在两处明显偏差：1) 文中称‘2025年9月首次突破140元’，而图中140元首次被突破大约在2025年4-5月；2) 把‘95-100元在2023年初是顶部压力区’不够准确，因为2023年初价格多次上穿至110-115元之上。",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 5,
+        "evidence": "涵盖了图表类型、标题与坐标轴、时间范围、极值位置、阶段性走势（下探—筑底—上冲）、波动性变化、以及回落位置等关键点，并给出区间盘整时段与大致数值比较。",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "提供了趋势分段、突破后波动增强、潜在支撑/压力（如140与约155）及业务含义与风险提示，具有一定可操作性。但个别基于错误时间点（首次破140）得出的结论略受影响。",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "结构清晰（构成-数据-模式-洞察-风险），叙述由描述到解读层层推进，无自相矛盾之处；还指出标题与实际时间跨度不一致。",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "整体精炼，但少量表述略显重复（如多次强调波动加大与价值重估），仍基本高效。",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.4,
+    "normalized_score": 0.88,
+    "overall_comment": "总结总体准确、覆盖全面并提供了有价值的分析。主要问题是对首次突破140元的时间点判断不准，以及对95-100元作为2023年初顶部区域的表述偏强。",
+    "duration_s": 65.11,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031704_radar_en-US_asset_management_20c4c136",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Accurately identifies the chart type, metrics order, scale (2,4,6,8), and color-coded asset classes. Correctly states that Cash has the highest Liquidity and Stability and that Bonds have the lowest Risk and Volatility. Minor inaccuracies: Cash’s Growth is closer to ~2 than ~1; Private Equity’s Volatility is high but not uniquely highest (Commodities are comparable); the statement about a Liquidity–Stability tradeoff is not supported by the chart (both are high for Bonds/Cash).",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers key extrema (Cash in Liquidity/Stability, PE in Return/Risk/Growth, Bonds low Risk/Volatility) and discusses diversification highs. However, it gives little specific coverage of Equities and Commodities and omits some comparative details (e.g., Stability rankings across assets).",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides meaningful interpretations such as the inverse Liquidity–Return example and portfolio implications with risk thresholds. Some analytical claims are somewhat generic or partially unsupported (e.g., Liquidity vs Stability tradeoff; strong clustering claim).",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Clear sectional structure (composition, relationships, patterns, insights). Flow is coherent with no internal contradictions in sequence.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise bullet points, though a bit verbose with repeated high-level points and extra business implications not strictly necessary for the chart.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.15,
+    "normalized_score": 0.83,
+    "overall_comment": "A strong and mostly accurate summary with solid insights. Minor numerical slips and a few overgeneralized interpretations prevent a top score.",
+    "duration_s": 125.53,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031656_line_zh-CN_growth_employment_4bec611e",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Correctly identifies the sharp 2020 drop, the early‑2020 peak (~63.3%) and trough (~60.1%), the pre‑2020 range (~62.7–63.3%), the 2023–2024 local high (~62.8%), and the latest level around 62.3–62.4. Minor issues: the x‑axis extends to 2026 yet the text says '截至2025年末'; the peak might be slightly closer to 63.4, so the 3.2pp drop could be 3.3pp.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 5,
+        "evidence": "Covers chart makeup, time span, y‑axis range, single series, key extrema, drop magnitude, pre‑ and post‑shock behavior, and the latest reading with comparison to the historic high.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 5,
+        "evidence": "Gives meaningful interpretation: identifies a structural break with a V‑shaped bottom, slower multi‑year recovery, resistance near the prior high, and proposes actionable thresholds (63.3 resistance, 62.0 support) with business implications and risks for labor supply.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 4,
+        "evidence": "Clear sectioned structure and coherent flow from description to insights. Minor internal inconsistency regarding whether the endpoint is 2025 or 2026.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise bullet points. A few lines in '核心洞察/业务含义' repeat similar ideas and could be trimmed.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.45,
+    "normalized_score": 0.89,
+    "overall_comment": "A strong and mostly accurate summary that captures the key patterns and provides useful insights. Minor timeline and small numerical precision issues prevent a perfect score.",
+    "duration_s": 70.65,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031727_pie_en-US_macro_policy_467fe95e",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "The pie chart shows shares of 28.5%, 22.0%, 14.0%, 11.5%, 8.0%, 6.5%, 5.5%, and 4.0%. Most cited numbers match, including the top-two sum (50.5%), three smallest sum (16.0%), and top four sum (76.0%). However, it incorrectly states Monetary Policy is 7.5 pp larger than Fiscal Policy; the chart shows a 6.5 pp difference (28.5% - 22.0%).",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Identifies the chart type, title, categories, largest and second-largest slices, mid-sized and smallest groups, and key aggregates (top two, top four). It omits the explicit 8.0% share for Labor Policy.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Goes beyond description with concentration comments, implications for prioritization, and risk considerations. Some thresholds (e.g., <20% for Monetary) are arbitrary and not derived from the chart.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Clear sections (composition, relationships, patterns, insights) with coherent flow and no internal contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise but somewhat verbose with business implications and hypothetical risk scenarios that extend beyond the chart.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.15,
+    "normalized_score": 0.83,
+    "overall_comment": "Strong, mostly accurate summary with useful insights and correct aggregates. One numerical error (difference between Monetary and Fiscal) and omission of the Labor Policy value prevent a top score.",
+    "duration_s": 58.01,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_032235_errorbar_zh-CN_inflation_4ffcc6d9",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 2,
+        "evidence": "Core facts like chart type, time span (1992–1997) and upward trend are correct, and start/end levels (~138 vs ~159) are plausible. However there are multiple significant inaccuracies: (1) Early error-bar width is described as 4–5 points, but the chart shows a much larger band (roughly 12–15 points from ~132 to ~145). (2) End-period error-bar width is said to be ~10 points, while the chart shows a far larger band (top near 165–166, bottom near ~134, i.e., >25 points). (3) Claim that all points lie in the lower half of the band is false; many points (1994–1997) sit around or above the midpoint. (4) Statement that the upper bound keeps moving away from the index is not evident; the gap appears roughly stable. (5) The alleged jump from 153.9 to 154.7 at 1995–1996 is overly precise and not clearly supported by the visual.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 3,
+        "evidence": "Covers chart composition, main upward trend, approximate start/end values, and mentions changing volatility. Missing or thin on other visible features: relative symmetry of error bars, absence of large drawdowns, any local plateaus/inflections, and explicit extrema of the bands. Mischaracterization of the band magnitudes also weakens coverage of a key element.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 3,
+        "evidence": "Provides business implications, risks, and a threshold (160). However, several insights rely on incorrect readings of the error bars (e.g., magnitude and position within bands), reducing analytical reliability. The implications remain somewhat generic.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured sections (构成/数据关系/模式/洞察) with a coherent flow from description to interpretation; no internal contradictions in reasoning structure.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise and organized in bullet points. Minor verbosity in the business implications and risk items, but not excessive.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.1,
+    "normalized_score": 0.62,
+    "overall_comment": "The summary captures the chart’s upward trend and structure but misreads the error bars and their relation to the line, leading to several factual errors. Correcting the magnitude and positioning of the volatility bands would substantially improve accuracy.",
+    "duration_s": 75.36,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024334_point_figure_en-US_commodities_ab7aead4",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Correctly identifies a 2002–2012 time span, start near ~45 USD, a peak a little above 300 (~305) in 2011, and an end-zone around ~225. It accurately notes a long 50–150 USD range before 2010 and the sharp 2010–2011 surge and subsequent decline. Minor inaccuracies: the Y-axis does not start at 0 (lowest grid ~50), and the claim that stability returned near 225 is debatable as prices still trend down modestly. The designation of 150 as 'historical high support' is speculative rather than evidenced by the chart.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, axes, legend/color mapping, key extrema (start, peak, late-period level), major regimes, and color-coded momentum during up/down phases. Could be improved by explicitly noting the timing of the peak (mid-2011) and the magnitude of the post-peak drawdown in percentage terms, and by acknowledging continued volatility after the peak.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides meaningful insights on regime change, volatility shift, and offers business implications and risk thresholds. However, thresholds at 150 and 200 are not directly justified by visible support/resistance on the chart, slightly weakening analytical rigor.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 4,
+        "evidence": "Clear sectioned structure from composition to data, patterns, and insights. Mostly coherent; the statement about 'stability returned near 225' conflicts slightly with the still-declining end-of-series prices.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise and organized. Minor redundancy in describing the two regimes and the rally/correction.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.0,
+    "normalized_score": 0.8,
+    "overall_comment": "A strong, mostly accurate summary that captures the main trends and provides useful implications. Minor factual imprecision and a couple of speculative assertions prevent a top score.",
+    "duration_s": 59.85,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024311_scatter_en-US_fiscal_policy_8335026b",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Accurately notes the 2008 starting level (~14.7k), the trough near mid-2009 (~14.3k), the peak around early 2015 (~18.0k), and the steady post-2009 climb crossing ~16k in 2012 and ~17k in late 2013. Minor issues: the y-axis upper bound appears closer to 19,600 rather than 19,000, and the claim of accelerating growth is only weakly supported by the chart.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart composition, extrema, overall growth from start to end, and key thresholds crossed. Could add small details such as the presence of only mild fluctuations before the 2009 trough and the lack of notable dips after 2010.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Gives a clear post-recession recovery narrative and business implications. However, the risk threshold of maintaining levels above 17,000 is somewhat arbitrary and not clearly justified by the plot.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured into labeled sections with a coherent flow from description to insights and no contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise, though a few statements are repetitive (e.g., reiterating sustained growth) and could be tightened.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.15,
+    "normalized_score": 0.83,
+    "overall_comment": "A strong and mostly accurate summary that captures the main trend and key levels, with minor precision issues and slightly speculative risk framing. Tightening the wording and aligning the y-axis range and acceleration claims with the chart would improve it.",
+    "duration_s": 64.13,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_112632_treemap_zh-CN_asset_management_6565ca2c",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "正确指出了图表类型、标题与含义；易方达收益率8.1%最高、中国平安7.8%与南方基金7.6%较高、诺德基金5.5%最低等与图中一致；低于6.0%的机构列举也正确。但存在小瑕疵：颜色刻度被描述为5.5%-8.0%，而图中最高值有8.1%；“规模最大的三个机构是易方达、中国平安、南方基金”存在不确定性（嘉实/工银瑞信的面积可能相近或更大）；“左侧收益率普遍偏高”对华夏基金(7.2%)的描述略夸。",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "覆盖了图表构成、极值、前三名、低收益组、部分中等规模机构的表现；但未提及国泰(6.9%)、广发(6.8%)、中欧(6.7%)等重要中上区间机构，覆盖略有不足。",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "提出了规模与收益率正相关的倾向、头部机构表现更优、资金流向与风险提示等业务含义，具有一定洞见。但相关性结论偏概括，未给出更具体的验证或反例讨论。",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "分段清晰（构成、数据关系、模式特征、核心洞察），由描述到结论的逻辑顺畅，无明显自相矛盾。",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "整体简洁，但个别句子重复强调“头部机构协同作用”等观点，略显冗余。",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.15,
+    "normalized_score": 0.83,
+    "overall_comment": "总结总体准确且有一定洞见，能反映树状图的主要信息与趋势。个别细节（颜色刻度上限、最大规模机构排序、相关性表述）略有夸大或不够精确。",
+    "duration_s": 83.23,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024148_ohlc_en-US_fx_trade_9399ed60",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Correctly identifies an OHLC chart for USD/JPY with dates from early 2025 to late 2025 and Y-axis roughly 5000–7000. Notes a start near ~6100, a low just below 5000 in April, and highs near 6900 in early Nov, ending around ~6850—all consistent with the plot. Minor inaccuracy: legend in the chart shows 'Close > Open' (not '>='). Some qualitative claims (e.g., 'high frequency of green bars') are somewhat subjective.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers the main trend (early-year drop then strong uptrend), identifies extrema, approximate ranges of the decline and subsequent rally, and mentions volatility increase near the highs. Slightly misses detail on the sharp mid-November pullback to ~6550 and does not quantify some mid-year consolidations.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides meaningful takeaways (resilience, momentum), actionable risk levels (6500 support, caution near 6900), and business implications. Thresholds are plausible but not clearly derived from explicit levels on the chart, so depth is good but not exceptional.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-organized with clear sections (composition, relationships, patterns, insights, risks). Flow is coherent and without contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise but somewhat wordy in the pattern/insight sections with a few repeated concepts (e.g., long-term upward slope).",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.15,
+    "normalized_score": 0.83,
+    "overall_comment": "A strong and mostly accurate summary that captures the trend, key levels, and offers actionable insights. Minor legend misstatement and a few subjective or under-detailed points prevent a perfect score.",
+    "duration_s": 62.09,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024148_candlestick_en-US_equity_markets_f2fa06a7",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Core trends match the chart: start near ~6050, deep drop to just under 5000 in April, sustained rise to ~6900 with consolidation near 6800 by late Nov. However, the stated Y-axis range (4900–7000) is narrower than the chart’s ticks (extend roughly below 4900 and above 7000), and the peak timing is described as late October whereas the chart’s highest area looks early November.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 5,
+        "evidence": "Covers time span, color legend, start/end levels, the April low, the late-Oct/early-Nov high, the drawdown and recovery magnitudes, characterization of volatility during Mar–Apr, and recent consolidation/topping behavior.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Gives meaningful insights: V-shaped recovery, business implications, and clear risk thresholds (6500, 6000). Analysis is sound but could better justify specific levels from the chart (e.g., citing exact swing lows/highs for support/resistance).",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured sections (composition, relationships, patterns, insights) with coherent flow and no contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise; a few redundant statements about the net positive trend and recovery could be trimmed.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.4,
+    "normalized_score": 0.88,
+    "overall_comment": "A strong, mostly accurate summary that captures the major moves and offers useful insights. Minor inaccuracies in axis range and peak timing prevent a perfect score.",
+    "duration_s": 73.87,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024253_scatter_zh-CN_equity_markets_92fc89df",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "最高点约在330美元附近（巴菲特旗下伯克希尔），摘要称“约在350美元”。低于100美元的公司大约为11家，而摘要写为10家。图中50美元以下仅约2家（微软印度≈30、辉瑞制药≈47），摘要称“数量较多”。其余如仅3家>200美元、微软≈210与亚马逊≈95的差距>110美元、存在>300美元的明显异常值等描述基本正确。",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "涵盖了图表类型、坐标、样本规模、极值、集中区间（50–170美元）以及>200美元公司数量等关键信息，但未点到次高点（Visa≈230）等个别具体信息。",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 3,
+        "evidence": "提出了右偏分布、异常值影响和“二元结构”等观点，并给出业务含义与风险提示。但将50美元以下描述为“较多”与图中不符，且把股价直接等同于市值水平，分析有失准确与专业度。",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 3,
+        "evidence": "结构清晰（构成-数据-模式-结论/风险），但存在内部矛盾：前述“低于100美元有10家”（若按10/21并非多数）却又说“多数实体在100美元以下”。",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "总体精炼，少量表述重复（如对分布集中度与不均衡的反复强调），但不影响阅读。",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.35,
+    "normalized_score": 0.67,
+    "overall_comment": "总结整体框架完整、主要趋势与异常点把握到位，但在极值和分组计数上有数值偏差，并出现“50美元以下数量较多”等误判，需修正。",
+    "duration_s": 102.02,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031801_box_en-US_risk_regulation_f5816b8d",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 2,
+        "evidence": "Many numbers match the plot (medians ≈60 and ≈48; IQRs ≈55–65 and ≈45–53; whiskers ≈51–72 and ≈42–58). However, the summary wrongly states that the minimum compliance score (51) is higher than the maximum operational score (58). It also claims compliance risk 'consistently exceeds' operational risk across the entire dataset, which the overlapping whisker ranges (51–72 vs 42–58) contradict. The assertion of 'distinct separation between the two distributions' is overstated because only the IQRs are separated; the full ranges overlap.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 5,
+        "evidence": "Covers chart type, axes, title, legend, medians, IQRs, whisker ranges, comparison of spreads and medians, and presence/absence of outliers.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides actionable implications (prioritization, review thresholds) and interprets dispersion and quartile separation. However, part of the insight relies on the incorrect claim of universal dominance of compliance risk.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 4,
+        "evidence": "Well-structured sections and generally coherent flow. One internal contradiction appears in claiming 51 is higher than 58, undermining logical consistency.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise, though it repeats the separation point and includes some extra commentary beyond the chart.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.65,
+    "normalized_score": 0.73,
+    "overall_comment": "Good coverage and useful interpretation, but key factual errors (range overlap and an incorrect min/max comparison) reduce reliability. Correcting those would make the summary strong.",
+    "duration_s": 54.46,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_112603_treemap_zh-CN_equity_markets_bbbd56fc",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Most numbers and comparisons match the chart: US market cap 45000 vs China 15000 (≈3x); India has the highest return 18.6% with volatility 25.3% (third highest); Russia has the lowest return 6.5% and highest volatility 30.2%; lowest vol markets are UK 13.5%, Japan 13.8%, Australia 13.9%; smallest caps Singapore 850, Mexico 900, South Africa 1100 with returns averaging ≈8.7% and volatility 14.0%–25.9%. Minor error: it says '45000亿亿美元' (unit mistake). Interpretations about color mapping to risk-adjusted return align with the legend.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, encodings, number of countries (15), key extrema (largest market, highest/lowest returns, highest/lowest volatility), and small-cap segment. Missing explicit identification of which countries have the best/worst risk-adjusted return (by color), and no mention of a few mid-large markets' positions (e.g., Germany/Japan in risk-adjusted terms).",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides meaningful insights: concentration of market cap, linkage between higher returns and higher volatility, focus on emerging markets with vol>22%, and business/risks implications. Could be stronger by quantifying top/bottom risk-adjusted returns and giving clearer actionable thresholds beyond general statements.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Clear sections (构成/数据关系/模式特征/核心洞察/风险关注). Flow is coherent, moving from description to interpretation and implications without contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise bullet points. A few statements are slightly repetitive (e.g., reiterating scale dominance and risk-return tradeoff), but overall efficient.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.15,
+    "normalized_score": 0.83,
+    "overall_comment": "A strong and mostly accurate summary with good insights. Fix the unit typo and add explicit risk-adjusted leaders/laggards to reach top quality.",
+    "duration_s": 116.6,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024521_line_band_overlay_zh-CN_macro_policy_b19450bc",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "数值与趋势基本吻合：2018年初约13,900，2022年顶部约21,700+，2023年低点约20,700，至2025年初回升至约21,400–21,500。唯一小误差是将2025年的数据称为“预测”，图中并未标注预测；另将峰值精确到“2022年4月”缺乏图中明确证据。",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 5,
+        "evidence": "覆盖了图表类型、坐标轴、图例三要素；指出起点、峰值、回落与再上行、结束点位，并提及标准差带与移动平均的关系。关键阶段（2020-2022急升、2022-2023回落、2024起回升）均有描述。",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 5,
+        "evidence": "给出扩张—收缩—再回升的解读，讨论了流动性与政策含义，并提出明确的监测阈值（跌破20,700或突破21,750）。分析具有可操作性。",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "按构成、数据关系、模式特征、核心洞察与风险的结构展开，逻辑清晰，无自相矛盾。",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "整体简洁但略有冗长表述（如多次强调趋势平缓/盘整），仍基本高效。",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.6,
+    "normalized_score": 0.92,
+    "overall_comment": "该总结与图表高度一致，覆盖全面并给出有用的分析与阈值判断。存在少量措辞性不准（将最新数据称为预测、峰值具体月份不确定），但不影响整体质量。",
+    "duration_s": 61.79,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024202_renko_en-US_equity_markets_9f0f42b0",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 5,
+        "evidence": "Correctly identifies the chart as a Renko plot for Alibaba (9988) with green up/red down bricks, Y-axis in USD (~60–180+) and X-axis labeled Brick Number with date markers. States the start near $70, low around mid-2024 near $65–66, peak near mid/late Oct 2025 around $185, and end near $155—all matching the chart. Describes three ascent phases (~85, ~140, ~185) and notes key zones around $100 and $140 that align with visible reversals.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers axes, range, major highs/lows, overall uptrend, notable pullbacks, and the late-stage consolidation. Mentions reversal levels ($100 and $140) and the post-peak decline. Could add more specificity on the large April 2025 drawdown (140→~102) and the mid-2025 oscillation, but core elements are present.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides actionable interpretation: trend strength, momentum exhaustion, and risk thresholds (support at $140, potential $120, and $160 recapture). Insights are sensible for Renko context, though somewhat high-level and not deeply quantified.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured into composition, data relationships, pattern features, and insights. Flow is coherent with no contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly tight and informative. Minor redundancy in describing uptrend and momentum, but overall efficient.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.45,
+    "normalized_score": 0.89,
+    "overall_comment": "A strong, accurate summary that reflects the chart’s structure and movements and offers reasonable risk/level insights. Minor additions on specific mid-2025 swings would make it fully comprehensive.",
+    "duration_s": 81.18,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024540_histogram_zh-CN_derivatives_0df43acc",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 5,
+        "evidence": "图表确为直方图；横轴为“合约价值（单位：元）”约从75,000到275,000；纵轴为频数，刻度0.0–3.0；图例为“合约价值分布”。柱形高度与描述一致：75–100k与125–150k两箱约为3，100–125k约为2，150–175k约为1，250–275k约为1；175–250k区间无柱。标题措辞与图中“极端值分析”略有出入但不影响数据解读。",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 5,
+        "evidence": "覆盖了图表类型、坐标含义与范围、各区间频数、零频区间、尾部极值以及总体集中区间与双峰特征，未遗漏关键信息或极端点。",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "给出了集中度、双峰分布、空缺区间与高值极端的业务含义与风险提示，提出资源配置与极值风险隔离等建议；但“存在两种核心驱动力”等推断略显主观，缺少直接证据支撑。",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "分为构成、数据关系、模式特征、核心洞察四部分，层次清晰、前后衔接顺畅，无自相矛盾。",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "总体精炼，但洞察与业务含义部分存在少量重复与修辞性表述，可进一步压缩。",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.7,
+    "normalized_score": 0.94,
+    "overall_comment": "该总结与图表高度一致，覆盖全面并提供了有用的业务解读与风险提示。少量推断偏主观，若减少修辞并以数据支撑将更佳。",
+    "duration_s": 64.75,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_032219_ichimoku_cloud_zh-CN_equity_markets_24e472c2",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "The summary states the lowest close was in April 'slightly below 9500', but the blue close line bottoms around late Apr/early May near 9700–9900, not <9500. It also sets the current close 'about 13000' while the chart shows roughly 13100–13300. It claims a Span A/B crossover around May; the plotted cloud appears mostly green through mid‑year and a clear May cross is not evident. Other trend descriptions (post‑July price and lines above the cloud, thicker green cloud, Chikou higher) are broadly consistent.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, axes, Ichimoku components, main trend shift, relative positions (price/Tenkan/Kijun vs cloud), late‑period high above 13000, cloud thickening, and risk thresholds. Missing finer details such as the precise low level and timing, early‑year swings, and clearer confirmation of any Span A/B color change periods.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides interpretations (bull trend established, consolidation at highs), business implications, and risk triggers (break of Kijun, potential cloud reversal). Analysis is solid though not exceptionally deep or scenario‑rich.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured sections (composition, relationships, patterns, insights, risks) with coherent flow and no internal contradictions affecting logic.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise bullet points; a few general statements (e.g., generic color rules) could be trimmed, but overall efficient.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.85,
+    "normalized_score": 0.77,
+    "overall_comment": "Overall a strong and well-organized summary with useful insights, but it contains a notable error on the timing/level of the lowest close and an uncertain claim about Span A/B crossing. Correcting these would raise the fidelity score.",
+    "duration_s": 86.09,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_032021_bar_line_overlay_zh-CN_commodities_42bc2ed5",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "The summary correctly identifies a dual-axis chart, timeframe (1997-01 to 1998-01), series meanings, the mid-year range (~1.8–2.5), a secondary peak around Nov (~3.5–3.6), year-end easing to just above 2.0, and daily-change extremes near +0.4 and -0.8. However, it overstates the annual high (claims ~4.7 while the chart's bars peak below 4.0, roughly 3.7–3.9) and thus exaggerates the drawdown (>60%). It also states the left axis range is “0到4以上,” which is inaccurate—the scale tops around 3.x to ~4.0, not clearly above 4.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 5,
+        "evidence": "Covers axes, units, colors, timeframe, key extrema (high, low, second peak), mid-year trading range, volatility behavior, and daily-change extremes. Also notes late-year pullback. No major elements of the chart are omitted.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides meaningful interpretation: V-shaped annual pattern, seasonality/volatility clustering, a plausible (though not proven) link between price level and daily-change magnitude, and actionable risk thresholds (±0.4). The asserted causal driver “供需冲击” is speculative beyond the chart evidence.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured into sections (构成/数据关系/模式/核心洞察/风险). Ideas flow logically from description to interpretation to implications without contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise and organized; a few statements are somewhat verbose or repetitive, but most sentences add value.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.1,
+    "normalized_score": 0.82,
+    "overall_comment": "Overall strong and structured summary with good coverage and useful insights, but the peak price and derived drawdown are overstated. Correcting the high from ~4.7 to below 4.0 would materially improve faithfulness.",
+    "duration_s": 65.32,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_032122_heatmap_en-US_equity_markets_1f6e3348",
+    "group": "B",
+    "status": "error",
+    "error": "Expecting value: line 1 column 1 (char 0)"
+  },
+  {
+    "chart_id": "20251204_031909_bar_line_overlay_zh-CN_fiscal_policy_c9a0848b",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Accurately describes a dual-axis chart with blue GDP bars and a red growth-rate point, correct title and axis labels, right axis range ~1.40–1.54%, left bar ~30000 and right bar ~30500 with ~500 increase, and a single point around 1.48% near 2025-04. Minor speculation: it assigns periods like “2024-12至2025-02/2025-03至2025-05,” which is not explicitly indicated by the chart (only two bars at specific x positions).",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 5,
+        "evidence": "Covers chart composition, axes units/ranges, legend meaning, the two GDP levels and their change, the single growth-rate point and its lack of a time series, and the overall pattern of slight increase.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides reasonable insights: stable expansion in nominal GDP, lack of continuous growth-rate data, implications for investor confidence, and risk considerations with thresholds. Analysis is solid though somewhat generic.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured into sections (构成/数据关系/模式/核心洞察) with a clear flow from description to implications and risks; no internal contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise; a few statements repeat the idea of stability/insufficient growth-rate data, but overall succinct.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.4,
+    "normalized_score": 0.88,
+    "overall_comment": "The summary closely matches the chart and draws reasonable insights, with only minor speculation about the exact period ranges. It is comprehensive, well organized, and largely concise.",
+    "duration_s": 59.99,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_032003_contour_en-US_fixed_income_7c981700",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "Several points are slightly inaccurate: the x‑axis in the chart starts at 1 year, not 0; the claim that the 3.00% contour is reached earliest by 7Y Corporate BBB is wrong—3Y Emerging Market is already ≥3% at the shortest maturity; the maximum is described as 'approaching 3.70% at 3Y Emerging Market,' while the chart’s darkest areas also appear on 20Y Corporate AA and the exact 3.70% level is not clearly reached. Some slope estimates (e.g., 20Y Corporate AA from 3.10 to 3.65) are approximations that don’t clearly match the contours.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, title, axes, legend, overall yield range, major patterns (Treasuries lowest, EM highest), and mentions several specific contour levels. It could better note other features such as the relatively flat Municipal curve and the high values on 20Y Corporate AA at long maturities.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides meaningful takeaways (credit risk vs. maturity), business implications, and risk considerations tied to observed patterns. Some assertions (e.g., steepness of BBB vs. others) are only loosely supported by the contours.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 3,
+        "evidence": "Generally structured and coherent, but there is a contradiction: it states the 3% level is reached earliest by 7Y Corporate BBB and also that 3Y Emerging Market exceeds 3% even at the shortest maturity.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise and organized in bullets, though a few points repeat ideas about relative risk/yield and the high‑yield 'ridge.'",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.55,
+    "normalized_score": 0.71,
+    "overall_comment": "A generally solid summary with useful insights, but it contains a few factual inaccuracies (notably the 3% crossing and axis range) and minor overstatements about where the maximum occurs. Tightening these points would raise both faithfulness and clarity.",
+    "duration_s": 104.32,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031935_contour_zh-CN_fixed_income_4295032f",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "The axes, categories, color scale (0.3–1.0) and overall clustering are described correctly. However: (1) The summary claims Brazil–Japan correlations are below 0.30, while the colorbar minimum is 0.30 and contours are labeled from 0.30 upward, so '<0.30' is not supported. (2) It asserts that UK–France shows the highest correlation at 0.90; the plot shows several 0.90 peaks (mainly along the diagonal and a few off-diagonal hot spots), so 'highest' and 'unique' is not clearly evidenced. (3) It generalizes that the core Europe/US group correlations exceed 0.90, which is stronger than the figure suggests (mostly 0.8–0.9).",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, axes, color legend, main clusters, and contrasts between developed vs EM bonds. Mentions several specific pairwise relations and low-correlation areas. It does not explicitly note symmetry/diagonal self-correlation and misses calling out that values top out around 1.0 mainly on the diagonal.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides business implications (diversification limits, EM bonds as diversifiers) and risk points. Some thresholds are overstated (e.g., '超过0.90'), but analysis goes beyond mere description.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Clear, well-structured sections from composition to insights, consistent internal logic without contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise bullet points; a few statements repeat the clustering message and could be trimmed.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.85,
+    "normalized_score": 0.77,
+    "overall_comment": "Good coverage and useful insights, but a few assertions overstate what the chart supports (e.g., '<0.30' and '>0.90' claims, and uniqueness of the UK–France maximum). Correcting these would raise faithfulness.",
+    "duration_s": 77.76,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031907_scatter_en-US_fixed_income_e52f39e3",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Correctly identifies a scatter time series from 1994–1998 with yields roughly 7–10%. Peak near early 1995 around 9.3–9.4% and drop to ~7.4% around early 1996 are accurate. It slightly overstates precision: states a 2.15 pp range and a low 'just above 7.25%', while the chart's minimum appears closer to ~7.3%. Characterizing the late-1997 decline as 'steep' is somewhat subjective but not clearly incorrect.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 5,
+        "evidence": "Covers chart setup, overall range, timing of the peak and trough, subsequent stabilization band (≈7.8–8.4%), and notes the final point as the lowest. Captures the multi-year downward trend and interim oscillations.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides meaningful interpretation (contracting credit risk premium, funding cost implications) and actionable thresholds (≈8.5% and ≈7.25%). Some thresholds are somewhat arbitrary and the 'disinflationary credit cycle' claim is speculative without chart support.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-organized into composition, relationships, patterns, and insights with a coherent progression and no internal contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly succinct; a few phrases are verbose or repetitive (e.g., reiterating the downward trend), but overall efficient.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.4,
+    "normalized_score": 0.88,
+    "overall_comment": "A strong, accurate summary that captures the main movements and provides useful interpretation. Minor numerical overprecision and slightly speculative risk framing prevent a perfect score.",
+    "duration_s": 55.52,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031709_histogram_zh-CN_risk_regulation_d2a5bd31",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 2,
+        "evidence": "图中有6个非零柱（45-50、50-55、55-60、60-65、65-70、70-75），而摘要称只有5个非零区间。右端70-75区间明显有一根高度约为1的柱，摘要却说“高于70频率为零”。摘要将“高于65”的行业数说成1个，但图上>65至少包含65-70与70-75两个区间，合计≥2。摘要估算的行业总数为9，与图上可见的计数求和（约3+1+2+2+1+1=10）不符。分布偏态也表述错误：图形是右偏（左侧集中，右尾延伸），但摘要称左偏。",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 3,
+        "evidence": "描述了图表类型、坐标含义、主峰所在及若干区间的高低比较，并给出总体分布特征。然而遗漏/误判了最右端70-75区间及总体样本量等关键点，对极值和尾部覆盖不完整。",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "提供了业务含义、风险关注和改进方向等延伸解读，具有一定可操作性，超出单纯读数层面。但部分分析建立在错误数据判断之上，可靠性受影响。",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 3,
+        "evidence": "结构清晰（构成/数据关系/模式/结论），但内部存在不一致：声称只有5个非零区间，同时又讨论了65-70并且否认>70出现；对偏态的判断与图形相矛盾，削弱逻辑连贯性。",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "总体表达较为紧凑，条目化呈现；少量重复性的表述（如对集中低端与风险的反复强调），但不影响整体简洁度。",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.0,
+    "normalized_score": 0.6,
+    "overall_comment": "摘要有一定深度，但多处关键读图错误（右端70-75区间、样本总量、偏态方向等）导致忠实度较低。需以实际柱形高度重新核对区间计数与偏态判断。",
+    "duration_s": 110.97,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024148_renko_zh-CN_fx_trade_e3c4db3c",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "Axes, time range (2025 full year) and the general trend (early dip then strong rise toward ~6.8–6.9k) match the chart. However, the summary says the low is 'slightly below 5000', while the chart’s trough around Apr–May appears closer to 5200–5400. It also states a >1100pt decline from ~6100 to the low and a >1900pt rebound to the high; the chart suggests roughly ~900pt down and ~1700pt up. The claim of clear high‑level consolidation is not strongly visible.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, axes, timeframe, color meaning, main trend, approximate start and end levels, and notes on extremes and sequences. Could improve by quantifying the trough more accurately and indicating the lack of long consolidations.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides interpretation (V-shape reversal, dominance of bulls), operational guidance, and risk thresholds (e.g., 6500 support, red‑brick reversal condition). Some thresholds are not directly justified by the plot and depend on slightly inaccurate levels.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured sections from composition to insights, coherent flow, and no internal contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise, though a few statements repeat the strong-uptrend point and could be trimmed.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.85,
+    "normalized_score": 0.77,
+    "overall_comment": "The summary captures the chart’s structure and broad trend, with useful insights and actionable notes. Numerical accuracy around the mid-year low and move magnitudes needs correction to improve faithfulness.",
+    "duration_s": 64.18,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024330_candlestick_volume_en-US_digital_assets_73e9f4e8",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Accurately states the timeframe (2014–early 2022), price axis up to ~70k, volume axis up to ~8e10, peak near 70k in late 2021, earlier peak near 20k in 2017/18, and heavier volume from 2020 onward. Notes a drop to the mid‑40k area by the end period, which is close to the chart (~46–50k). Minor nit: the plot appears as a line rather than true candlesticks, and the end value is slightly understated ('~45k').",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers main trend, major peaks, volume regime shift, and end‐period correction. Missing several notable intermediates: the late‑2018 bottom (~3k), the 2019 rally (~14k), the March 2020 crash, and the mid‑2021 drawdown to ~30k (double‑top context).",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides reasonable insights (liquidity/volume regime shift since 2020, volatility implications, risk management). Offers thresholds (e.g., $40k) and drawdown risk, though these are somewhat generic and not strongly justified by explicit support/resistance shown on the chart.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Clear sections from chart description to data relationships, patterns, and implications; coherent flow with no contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise; a few statements repeat the volume‑regime point and include broad business implications that add limited incremental value.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.15,
+    "normalized_score": 0.83,
+    "overall_comment": "A solid, mostly accurate summary that captures the main peaks, trends, and volume regime shift, with useful but somewhat generic insights. It would benefit from noting key intermediate moves (2018 bottom, 2019 rally, 2020 crash, mid‑2021 drawdown) and tightening some language.",
+    "duration_s": 68.16,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_032047_ichimoku_cloud_zh-CN_commodities_7df51a83",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 2,
+        "evidence": "Summary claims the latest high is ~58 USD/oz, but the chart's scale tops near 48–50 and the peak is around that level, not 58. It states the cloud has been bullish 'since 2020' continuously, while the chart shows alternating green/red clouds in 2021–2023. It labels the lagging line as dark red, whereas the legend shows a different color (cyan/blue). It also asserts the X-axis runs to '2025 year-end' which is not clearly indicated (tick shows 2024).",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers title, axes, legend components, major peaks (2011) and ranges (2012–2020 ~15–20), the recent breakout above the 2011 high, and relative positions of price vs. conversion/base lines. Minor omissions such as more precise recent value and exact low during the 2020 dip.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides actionable insights: identification of a breakout, momentum interpretation, and risk triggers (48 USD retest, Tenkan-Kijun cross). Despite some factual slips, the analysis offers clear implications and thresholds.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured with sections (composition, relationships, patterns, insights, risks). The flow from description to interpretation is coherent without internal contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise bullet points. Some repetition about strength/momentum but generally efficient.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.55,
+    "normalized_score": 0.71,
+    "overall_comment": "Good coverage and useful insights, but several factual inaccuracies (notably the 58 USD peak and the claim of continuously bullish cloud since 2020) reduce faithfulness. Correct these to strengthen reliability.",
+    "duration_s": 70.23,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024355_candlestick_indicator_en-US_fx_trade_9684dc76",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Core trends match the chart: rise from ~6.35 in early 2022, peak above 7.3, sharp drop to ~6.7 in early 2023, rebound and eventual slide to ~7.06 by late 2025. Two peaks above 7.30 are visible and the late‑2022 to early‑2023 reversal of ~0.6 is accurate. Minor inaccuracies: the primary Y‑axis top is closer to ~7.35 (not 7.3), and volume is not 'largely absent' late 2025—it appears reduced but still present.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, axes, legend, start/end values, min/max, key uptrends, big reversal, and late‑2025 decline. Missing one notable feature: the pronounced mid/late‑2024 dip toward ~7.0 and subsequent rebound into early 2025. Volume behavior is only broadly mentioned without specifics on when the largest spikes occur.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides useful interpretation (elevated valuation, 7.0 as a risk threshold, 7.35 as resistance, business implications). However, the analysis is somewhat generic and not tightly tied to identified time windows or volume-price interactions.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured into sections (composition, relationships, patterns, insights) with coherent flow and no contradictions that affect understanding.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise, but some redundancy between 'Data Relationships' and 'Pattern Features' and a few verbose phrases that could be trimmed.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.15,
+    "normalized_score": 0.83,
+    "overall_comment": "A solid, mostly accurate summary that captures the main trends and offers reasonable insights. Minor numerical and coverage gaps (notably the 2024 dip and volume characterization) prevent a top score.",
+    "duration_s": 77.29,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031814_candlestick_indicator_en-US_fx_trade_a093e6df",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "Correctly identifies a daily USD/JPY candlestick chart, the title, legend, and that the range is roughly 140–162 with a peak around mid‑2024 (~161–162) and a secondary high near early 2025 (~158). However, it states the 'latest data point is around 155 with rapid upward movement'; the chart shows price near 156–157 with a small pullback (red candle), not a fresh surge. It also refers to a 'mid‑2024 trough,' while the trough occurs after the mid‑2024 peak, closer to late 2024. The y‑axis upper bound may extend beyond 165, so '135–165' is not precise.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart structure, major extrema (mid‑2024 high, late‑2024 low), secondary peak in early 2025, and general range/volatility. Missing or underemphasized: the lengthy mid‑2025 sideways range around 142–147 and the late‑2025 rally back to ~157 that still fails to exceed the early‑2025 high.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 3,
+        "evidence": "Provides business implications and risk thresholds and notes resistance near the prior high. Some thresholds (e.g., 155) are not clearly supported by visible structural levels on the chart, and the claim of a 'breakout attempt' conflicts with the visible pullback near the end.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-organized into clear sections (composition, relationships, patterns, insights). Flow is coherent without internal contradictions in reasoning structure.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise with minimal redundancy; a few generic phrases about volatility and consolidation add minor verbosity.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.65,
+    "normalized_score": 0.73,
+    "overall_comment": "A mostly accurate and well-structured summary that captures the main highs, lows, and volatility, but it overstates the final upswing and mis-times the trough. Adding clearer support/resistance levels from the chart and correcting the end-phase description would improve it.",
+    "duration_s": 65.65,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_032237_volume_profile_zh-CN_commodities_fd00612c",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "主趋势与峰值位置描述基本吻合：成交量主要集中在约550–800美元区间，最大柱在600美元以下且约1.1e7量级，900–1100美元为低成交量区都与图相符。存在小错误：纵轴单位标注为“成交量（千）”，摘要写成“手”；且“1100美元后成交量略有回升”的说法缺乏明显支撑，图中该区间成交量整体仍低且无持续回升。",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "涵盖了图表类型、标题、轴含义、图例、主要集中区、峰值位置、右偏长尾及高价位稀疏等关键信息。略缺：未明确指出纵轴科学计数法(1e7)与标签“千”的配合含义，也未具体说明高价尾部各局部小峰。",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 5,
+        "evidence": "给出了与成交量结构相关的交易含义与可操作阈值（如550–600美元作为支撑、850美元上方稀疏区可能促成快速波动），并讨论了潜在风险与价格行为逻辑，具有实践指导性。",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "分为图表构成、数据关系、模式特征、核心洞察四部分，叙述层次清晰、前后逻辑一致，无自相矛盾之处。",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "整体较为精炼，但“模式特征”与“核心洞察”部分存在少量重复表述（如单峰右偏与高成交量价值区），可进一步压缩。",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.35,
+    "normalized_score": 0.87,
+    "overall_comment": "该摘要与图表大体一致并给出有价值的交易解读，但在纵轴单位与高价区段的细节上有小误差。整体质量较高，适合决策参考。",
+    "duration_s": 70.53,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_113646_treemap_en-US_equity_markets_2a839935",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 2,
+        "evidence": "Several inaccuracies: (1) The USA occupies about 50% of total market cap (~45,000 of ~90,700B), not 'roughly 60%'. (2) 'Eight out of the fifteen' markets at $3,500B or less is incorrect; there are 10 (France, India, Canada, South Korea, Australia, Brazil, Russia, Mexico, South Africa, Singapore). (3) India is the 7th-largest by market cap, not 6th. Most other values (e.g., USA $45,000B, highest P/B 3.80; China $12,000B with P/B 2.70; lowest P/B 1.10 South Africa) match the chart.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, encodings, legend, labels, extremes (largest market, highest and lowest P/B), and notes distribution of P/B ratios. Could mention additional notable points such as Canada’s higher P/B (2.10) and provide a clearer count or total of markets, but overall includes most key information.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Goes beyond description with observations about concentration, clustering of P/B ratios, implications for capital allocation and valuation, and risk considerations (e.g., mean reversion, low P/B markets). Some analytic claims rely on the inaccurate 60% estimate, but the analysis is generally meaningful.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-organized into clear sections (composition, relationships, patterns, insights). The flow from description to interpretation is coherent and non-contradictory aside from the factual errors.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly succinct bullet points with limited redundancy. A few phrases are verbose, but overall the summary is efficient.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.55,
+    "normalized_score": 0.71,
+    "overall_comment": "Solid structure and many correct observations, but key numerical mistakes (USA share, count of small markets, India’s rank) reduce faithfulness. Fixing those would make the summary strong.",
+    "duration_s": 80.15,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031951_line_zh-CN_macro_policy_b2cd46c8",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 2,
+        "evidence": "Several key numbers/dates are off. The peak appears around 2021-07 (slightly above 2021-06), not 2021-06. The trough is around 2023-02 (lowest point), not 2023-01. The first drop below the 100 line occurs around 2022-06, not 2022-05. The stated y-axis range (98.8–101.5) overstates the top bound; the chart top is closer to ~101.3. Overall trend description is correct.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, title, axes, legend, timeframe, general trend, extrema, crossing of the 100 threshold, endpoint value, and phase characterization. Minor omissions include not noting that 2021-06 to 2021-07 forms a short plateau with the true peak in 2021-07.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Goes beyond description with a clear core conclusion, business implications, risks, and the 100.0 threshold as an actionable signal. Claims of accelerating momentum are somewhat stronger than the gentle uptrend visible, but overall the interpretation is reasonable.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured sections (构成/数据关系/模式特征/核心洞察) and coherent progression from description to insights without contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise bullet points. Some redundancy between ‘核心结论’与‘业务含义’ but not excessive.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.55,
+    "normalized_score": 0.71,
+    "overall_comment": "The summary is well-structured and analytically useful, but several factual details (peak month, trough month, first sub-100 date, and axis range) do not match the chart. Correcting these would significantly improve accuracy.",
+    "duration_s": 57.03,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_032042_ohlc_en-US_equity_markets_74bae89c",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "The summary claims the chart is 'overlaid with volume information'; however, no volume panel or overlay is visible anywhere on the figure. It also states the Y-axis ranges from 3000 to over 7000, while the plot clearly dips to about 2300 in early 2020 (axis appears to include values below 3000). Core trend descriptions—COVID-19 crash to ~2250, consolidation in 2022–2023 around ~3500–4800, a strong rise into late 2025 near ~6900, and a sharp mid-2025 pullback—match the visual data.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, title, axes, legend purpose, major low (~2250), major high (~6900), the 2020 crash and recovery, 2022–2023 range, and the 2024–2025 advance with a notable 2025 correction. It does not acknowledge the absence of any visible volume data despite the title and omits some intermediate details (e.g., the 2021 advance specifics).",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides meaningful interpretation: long-term bullish trend, volatility regimes, identification of a V-shaped reversal, and a risk threshold (~5000) with business implications. The threshold choice is somewhat subjective and not directly marked on the chart, but the analysis extends beyond description.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 4,
+        "evidence": "Well-organized sections with a logical flow from composition to insights. Minor internal inconsistency (stating volume overlay while noting it's not visible; Y-axis minimum stated as 3000 yet citing a 2250 low) slightly weakens coherence.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise with bullet points; a few statements repeat the strong uptrend and volatility changes, but overall length is appropriate and focused on the chart.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.7,
+    "normalized_score": 0.74,
+    "overall_comment": "A solid, mostly accurate read of the chart with useful insights, but marred by the incorrect volume reference and a misstated Y-axis range. Correcting those would raise the evaluation.",
+    "duration_s": 67.76,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_032126_contour_zh-CN_fixed_income_fbc474bd",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 2,
+        "evidence": "Several statements contradict the visual. 1) The summary says the developed-market high-correlation area is in the 'upper-left' and that cross-group weak areas are at the 'lower-left and upper-right' corners; the chart shows darker areas centered around the main diagonal near the middle, while the corners are not cross-group regions and include diagonal cells (dark). 2) It claims Europe–US correlations are 'generally >0.7629'; the colors for US vs Europe look medium (around 0.64 or lower), not the darkest bins. 3) It says European bonds' linkage is 'close to 1.0000'; off-diagonals are clearly lighter than the diagonal and far from 1. 4) Asserting UK–France is the 'highest' pair and Russia–South Africa 'near 0.7629' is not verifiable from the plot and may not be uniquely darkest. Some points are correct (diagonal=1, legend range, low Japan–EM correlations), but multiple overstatements reduce accuracy.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, axes and tick labels, color scale, diagonal property, and broad clustering between developed and emerging markets. Mentions examples of higher and lower correlations. However, it misses that the strongest area concentrates along the central diagonal rather than corners and does not note the symmetry of the matrix.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides portfolio and risk implications (synchronization in developed markets, diversification limits, hedging suggestions). Though some insights rely on overstated magnitudes, the analytical layer is clear and practical.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured sections (构成/数据关系/模式特征/核心洞察/风险关注) with a coherent flow from description to interpretation and implications; no internal contradictions in logic.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise bullet points; a few claims are verbose or repetitive, but overall the length is appropriate for the scope.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.55,
+    "normalized_score": 0.71,
+    "overall_comment": "The summary is comprehensive and offers useful takeaways, but several location and magnitude claims do not match the chart. Tighten statements to what the colors clearly indicate and avoid asserting exact rankings or near-1 correlations without numeric evidence.",
+    "duration_s": 80.48,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_032224_area_zh-CN_fiscal_policy_3e9e10f9",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "整体趋势、区间(约5.3%至8.0%)、低点在1993年秋季以及1992年Q2局部峰值等描述与图形一致。小误差：最高点更接近1994年末至1995年初且接近/触及8.0%，不一定是‘1994年11月约7.9%’；结束点1995-01看起来更接近7.9%-8.0%，而非约7.8%。‘1995年初出现回落迹象’在图上不明显。",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 5,
+        "evidence": "覆盖了图表类型、标题、轴信息、图例；给出区间、起止点比较、阶段性峰谷、从低点到高点的幅度等关键要素，并总结了阶段性走势。",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 5,
+        "evidence": "提供了由数据导出的趋势反转判断、对资金成本与估值的业务含义、以及7.5%-8.0%等风险阈值和潜在市场反应，具有可操作性的洞察。",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "分为图表构成、数据关系、模式特征、核心洞察四部分，层次清晰、因果与时间线一致，无内在矛盾。",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "结构清晰但略显冗长，个别表述(如趋势反转与强劲动能)存在轻微重复。",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.6,
+    "normalized_score": 0.92,
+    "overall_comment": "总结总体准确、覆盖全面并提供了有价值的业务解读。存在少量数值和时点细节偏差，特别是最高点和1995年初走势描述。",
+    "duration_s": 40.82,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024538_candlestick_volume_en-US_equity_markets_2c070071",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Correctly identifies title, dual axes, 2021–2026 span, price range (~12k low in 2022 to >24.5k high in late 2025), and end level around 23.7k. Notes the 2022 correction and the strong 2023–2025 uptrend with a big 2025 volume spike, which are visible. Minor inaccuracy: it claims volume 'frequently' peaks above 2.0e8; on the chart, bars above 2.0e8 are rare rather than frequent.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart composition, key extrema, overall trend, notable 2022 drawdown, late‑2025 plateau, and volume behavior. Could be more specific on the end-period consolidation range and on how typical volume levels cluster (most around 0.4–1.2e8).",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Gives meaningful interpretations (post‑2022 momentum, consolidation implications) and a practical risk threshold (23,000). Analysis is reasonable, though the 23,000 level is not clearly established as a strong technical level from the image.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured with clear sections (composition, relationships, patterns, insights, risks). Flow is coherent and consistent with observations.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly succinct; a few statements repeat the uptrend point and could be trimmed, but overall economical.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.15,
+    "normalized_score": 0.83,
+    "overall_comment": "A solid, mostly accurate summary that captures the main trends and adds reasonable insights. Minor overstatement of volume extremes prevents a top score.",
+    "duration_s": 59.74,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031937_ohlc_en-US_fx_trade_71778839",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "The range (≈0.60–0.71), late-2025 close near 0.66, and mid-2025 trough around 0.60 match the chart. However, the summary mis-times key extrema: the highest peak appears around early 2024 (≈0.71), not early 2023; and a cited peak 'near the end of 2023 around 0.69' is not visible—late 2023 is closer to 0.66–0.67, while ~0.69 occurs around Sep–Oct 2024. Claims of an initial V-shaped reversal are overstated versus the chart’s more gradual decline in 2023.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, axes, legend, overall range, key low, late-period level, and broad trends (consolidation mid-2023 to mid-2024, rebound after the 2025 low). It omits the timing of the true highest spike (early 2024) and does not note the sharp late-2024 drop into early 2025 with dates precisely.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides actionable takeaways (recovery phase, watch 0.64 support and 0.68 resistance) and business/risk implications. Thresholds are plausible from the chart, though justification could be tighter.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured with clear sections (composition, relationships, patterns, insights). Flow is coherent and without contradictions internally.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly crisp; a few generalized statements (e.g., volatility characterization) add minor length without much extra value.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.85,
+    "normalized_score": 0.77,
+    "overall_comment": "Solid and well-organized summary with useful insights, but it misplaces the timing of the top and overstates a V-shaped move. Correcting the peak timing (early 2024) would significantly improve faithfulness.",
+    "duration_s": 53.65,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031749_fan_chart_en-US_equity_markets_fe3c361a",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Correctly identifies the 2020 spike (peak ~85-90), low pre-2020 levels (~11-20), post-2020 range (~15-40), a major secondary spike in early 2025 (~55-60), and a late-2025 level in the high teens. Notes the fan bands and rolling mean tracking the daily line. Minor inaccuracies: the Daily VIX line is orange (not red), and the 2020 peak is slightly understated (~83 stated).",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers the key extrema (2020 spike, 2025 spike), general trend shifts (elevated 2020-2022, decline in 2023-2024), and the fan-band behavior. Could add detail on mid-2020 elevated plateau and specific 2024 spike near the high teens/low 20s to be fully comprehensive.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides meaningful takeaways: skewness dominated by 2020 outlier, fan widening as uncertainty, practical thresholds (e.g., >50 as systemic stress, <15 as complacency), and hedging implications. Insights are sound though somewhat general and not tied to quantified frequencies.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Clear, structured sections (composition, relationships, patterns, insights) with coherent flow and no contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise bullet format; a few generic statements could be trimmed, but little redundancy.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.15,
+    "normalized_score": 0.83,
+    "overall_comment": "A solid and mostly accurate summary that captures the major features and offers useful insights. Minor color/precision issues prevent a top score, but the analysis aligns well with the chart.",
+    "duration_s": 61.09,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_032102_line_zh-CN_derivatives_044a964b",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Correctly identifies the main spike in early 2020 (>80) as the global maximum, the sharp 2025 surge (>50) and quick retreat, the mostly low 2016–2019 regime, and recent levels around 16–17. Minor inaccuracies: the y-axis is not 0–80 (bottom tick ≈10, top slightly >80), and saying the 2017 low is <10 is not clearly supported by the chart (the baseline tick is 10). The claim that values stayed >20 for ~1.5 years post-2020 is somewhat overstated but directionally right.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, time span, labeling, major extrema (2017 low, 2020 max, 2025 spike), regime changes, and recent status. It could mention intermediate notable spikes (e.g., 2018 and several in 2022–2023 around 30–35) more explicitly.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 5,
+        "evidence": "Goes beyond description with insights on regime shift, clustering, volatility persistence, and provides business implications and a clear risk threshold (e.g., >40). Actionable and relevant.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured sections from composition to insights. Flow is coherent and free of contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise and structured; a few phrases are somewhat verbose or repetitive but overall efficient.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.35,
+    "normalized_score": 0.87,
+    "overall_comment": "A strong and insightful summary that aligns well with the chart, with small numerical/axis inaccuracies and minor omissions on intermediate spikes. Overall, it provides useful interpretation and practical takeaways.",
+    "duration_s": 62.26,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_032015_area_zh-CN_equity_markets_200ba53c",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 2,
+        "evidence": "图中在2025年附近出现一次与2020年相当、明显高于40点的尖峰，但候选总结称2020年是十年内“唯一一次极端跳升”，与图像不符。另称2016年出现“触及或略高于30点”的峰值，而图上2016年的尖峰多在30点以下（约25-28点）。其余如时间跨度（约2016-2026）、总体‘低位+尖刺’形态、末端约15-20点等表述基本吻合。",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 3,
+        "evidence": "总结涵盖了图表类型、坐标含义、低点（2017-2018年低于10）、2020年极值、常态区间与末段水平等要点，但遗漏了2025年出现的>40点的极端尖峰这一关键事件，导致对高波动期的覆盖不全。",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "给出了‘低位被短期冲击打破’的结构性特征及对风险管理、对冲成本的业务含义，并提出>30点触发预案、15点以上代表风险基准抬升等可操作阈值；分析较有用，但部分判断建立在不完全准确的读图之上。",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "分为图表构成、数据关系、模式特征、核心洞察与风险关注，层次清晰、前后衔接自然，无明显自相矛盾。",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "总体精炼，但‘低位+尖刺’特征与基线描述有少量重复；仍基本保持有效信息密度。",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.3,
+    "normalized_score": 0.66,
+    "overall_comment": "总结结构清晰、洞察有用，但对图中极端峰值的识别存在重要错误，尤其忽略了2025年一处高于40点的尖峰，需更正后方可作为可靠解读。",
+    "duration_s": 94.71,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024148_fan_chart_en-US_equity_markets_4652aef1",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 2,
+        "evidence": "The summary claims the Rolling Mean peaked above 80 in 2008–2009, but in the chart the bright rolling-mean line never approaches 80 (it stays roughly in the teens to a few tens). It also states the second-highest peak was ~70–80 around 2020, while the largest visible spike in the fan (±3σ band) is around 2020 near 90, exceeding 2008. A 2024–2025 spike appears closer to ~50 in the fan, but presenting these as rolling-mean levels is inaccurate.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, axes, legend, time span, baseline range, major spikes, volatility-band behavior, and current level. It misses clarifying that the extreme values shown are band limits (or brief spikes), not the rolling mean line, and does not note that 2020 is the highest episode.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides sensible insights about regimes, skewness, and risk thresholds (e.g., 50+ indicating stress) and ties band width to uncertainty. Some thresholds are generic and partly based on misread peaks, limiting precision.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-organized with clear sections (composition, relationships, patterns, insights). Flow is coherent and free of internal contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise bullets; a few points restate similar ideas about regimes and band width but overall efficient.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.55,
+    "normalized_score": 0.71,
+    "overall_comment": "Good structure and useful insights, but key factual errors arise from confusing rolling-mean levels with extreme spikes and misidentifying the timing/magnitude of the largest peak. Correcting those would substantially improve faithfulness.",
+    "duration_s": 101.31,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024236_candlestick_volume_en-US_commodities_7c55d5ac",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Correctly identifies a dual‑axis candlestick/volume chart from early‑2023 to late‑2025, a strong uptrend from ~1,750 to a peak a little above 4,300, and an end level around 4,100–4,200. Notes intermittent large volume spikes with a max near 1e6. Minor issues: the stated left‑axis range of 1,500–4,500 is not clearly visible and may be guessed, and 'spikes usually below 0.2M' understates several mid‑range spikes (~0.2–0.6M). The claim of weak price/volume correlation is interpretive rather than evidenced.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers main trend, consolidation in 2023, breakout in late 2024/early 2025, peak slightly above 4,300, and overall price appreciation. Mentions volume behavior and the presence of volatility near the highs. Missing a mention of the notable mid‑2025 pullback and the end‑of‑chart pullback from the peak.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides useful interpretation (multi‑phase uptrend, volatility at highs) and actionable points (support risk around ~3,500, portfolio/valuation considerations). Some assertions (weak volume support) are qualitative and not strongly tied to specific evidence from the chart.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well structured with clear sections (composition, relationships, patterns, insights, risks). Flow is coherent and consistent with the described data.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise and focused. Minor repetition (e.g., reiterating the strong uptrend and valuation) but no major verbosity.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.15,
+    "normalized_score": 0.83,
+    "overall_comment": "A strong and mostly accurate summary of the chart with meaningful insights. Minor over‑specific numeric claims and a few omissions keep it from top marks.",
+    "duration_s": 57.87,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024323_bollinger_bands_en-US_equity_markets_f0ceda05",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Core trends and levels match the chart: time span 1996–2000, price range ~14k–23k JPY, peak around mid‑1996 near 22.5–22.8k, trough in late 1998 near 13k, and end near 18.9k. Correctly notes frequent lower-band touches in 1998 and a 1999 recovery. Minor issues: mid‑1997 high is described as ~21k (chart shows closer to ~20.5–20.7k), the drawdown is said to exceed 8k (closer to ~7.5–8k), and the claim that the final close is above the 20‑day MA is not clearly supported. Thresholds like 19,500 for the upper band are not evidenced by the chart.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 5,
+        "evidence": "Addresses chart type, axes, legend, band shading, extrema, overall change, major drawdown period, band interactions, late‑period positioning, volatility evolution, momentum behavior, and key inflection. No major omissions relative to what's visible.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Goes beyond description with cycle interpretation, volatility dynamics, momentum context, business implications, and risk thresholds. Some thresholds are somewhat arbitrary and not tightly tied to the displayed bands, limiting rigor.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured into sections (composition, relationships, patterns, insights) with a coherent flow and no internal contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally tight, though a few phrases are repetitive or promotional (e.g., 'value destruction' and 'resilience') and could be trimmed.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.4,
+    "normalized_score": 0.88,
+    "overall_comment": "A strong and mostly accurate summary that captures the chart’s main movements and Bollinger Band behavior with useful insights. Minor numerical overstatements and somewhat speculative thresholds prevent a perfect score.",
+    "duration_s": 99.55,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_032031_errorbar_en-US_inflation_abc62bb6",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Accurately notes a steady rise from about 96 in 2015 to roughly 111–112 by early 2022, the small dip in 2020, the sharp acceleration in 2021, and larger error bars in 2021. Minor inaccuracies: the 100 level appears crossed in late 2017/early 2018 (not mid‑2017), the final-year gain is closer to ~5.3 than 5.7, and the y-axis upper bound looks nearer 116 than 115.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, axes, series, start/end values, crossing of 100, 2020 softness, 2021 acceleration, and change in volatility. Does not explicitly mention exact local minima/maxima timing or quantify the 2020 trough more precisely.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides clear conclusions (acceleration post‑2020), business implications, and a risk threshold. The 115 threshold is somewhat arbitrary and not derived from the plot, but overall the analysis goes beyond description.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured sections (composition, relationships, patterns, insights) with coherent flow and no contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise and structured, though a few statements repeat the acceleration theme and some speculative elements add minor length.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.15,
+    "normalized_score": 0.83,
+    "overall_comment": "A strong, mostly accurate summary that captures the trend, key inflections, and volatility changes. Minor numerical timing/details are slightly off and some analysis is lightly speculative.",
+    "duration_s": 64.82,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024349_line_band_overlay_en-US_fixed_income_e02369fd",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Accurately identifies chart type, time span (2020–early 2025), lines/band, overall rise, the late‑2023 peak just above 5%, and end level near 4.7–4.8%. Notes that yields moved above ~4% in late 2022 and mostly stayed there. Minor issues: states the low was 'slightly below 1.0%' whereas the chart’s trough appears around ~1.0%, and 'support near 4.0%' slightly overstates troughs that look closer to 4.1–4.2%.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers axes/legend, start vs. end, extremes, key thresholds (4% and 5%), the strong 2022–2023 rise, and the 2024 range-bound behavior. Could be fuller by noting the timing and depth of interim dips (e.g., early 2023 sub‑4% area) and commenting on changes in volatility band width over time.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 5,
+        "evidence": "Goes beyond description with a clear conclusion about a higher-yield regime, business implications (financing costs, valuation impact), and actionable risk thresholds (>5% vs. <4%). These insights are consistent with the chart’s levels.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured into sections (composition, relationships, patterns, insights). The flow is coherent and free of contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally succinct, though a few points are repetitive (e.g., multiple references to the same trend momentum and range).",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.35,
+    "normalized_score": 0.87,
+    "overall_comment": "A strong, mostly accurate summary that captures the chart’s structure and trends and offers useful implications. Minor numerical precision issues prevent a perfect faithfulness score.",
+    "duration_s": 48.62,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024216_market_depth_zh-CN_equity_markets_186438b5",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "双峰判断正确，最高峰约在140美元附近（略高于2.1e9），第二峰在约295–300美元（约1.5–1.6e9），>400美元的柱体确实都在0.35e9以下。小误差/夸张点：称180–250美元为“成交量真空地带”不准确，该区间在240美元附近有明显柱体（约0.8e9）；最低点说在225美元且仅略高于0.05e9也偏低，图中最低柱体更接近0.08–0.1e9。",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 5,
+        "evidence": "覆盖了图表类型、标题、坐标轴、范围、图例；描述了主峰、次峰、低谷、极高价区表现，并给出关键数值与对比。未见重要遗漏。",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "给出市场含义（支撑/阻力、两大成本聚集区）与风险点（高位流动性薄弱、低成交量带的穿越风险），具有可操作性。但对‘真空地带’的判断略显过度，降低了分析的稳健性。",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "按构成—数据关系—模式特征—核心洞察—风险的结构展开，条理清晰，无内在矛盾。",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "整体精炼，少量用语重复（如多次强调‘聚集区/支撑’），但不影响阅读效率。",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.4,
+    "normalized_score": 0.88,
+    "overall_comment": "总结基本忠实且全面，抓住了双峰结构与关键峰值；但对180–250美元区间的‘成交量真空’表述偏强，建议改为‘相对低迷’更贴近图像。总体为一份可靠度较高的解读。",
+    "duration_s": 76.98,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_032013_renko_en-US_equity_markets_9a84db49",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "Core trend and extrema largely match the chart: a peak just above 4,000 in early 2021, a trough near 2,200–2,300 around early 2024, and a recovery toward ~3,000 by 2026. However, there are inaccuracies: the Y-axis tops slightly above 4,000 (not 0–4,000 exactly); the claim that 3,000 was 'strong support in 2021' turning into resistance later is not visible—2021 levels sit well above 3,000; the statement that 2022–2024 had the 'lowest volatility and price congestion' is not supported by the steady descent shown.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart composition, key dates, peak/trough levels, overall downtrend then recovery, and approximate drawdown. Misses nuance about intermittent pullbacks during the 2024–2026 rise and does not note that the trough is closer to ~2,250 than the 2,500 cited later.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides implications, risk thresholds, and an actionable takeaway about trend reversal. Some assertions (support at 3,000; lowest volatility period) are questionable, reducing analytical reliability.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 4,
+        "evidence": "Well-structured sections and coherent flow. Minor inconsistency: the text cites a trough near ~2,200 but later references 2,500 as the 'established trough support.'",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise and organized. A few points are repeated or speculative, but verbosity is limited.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.7,
+    "normalized_score": 0.74,
+    "overall_comment": "Solid high-level read of the chart’s downtrend-then-recovery, but some claims (support at 3,000, volatility characterization, axis range) are inaccurate or speculative. Tightening those points and aligning risk levels to the actual trough would improve reliability.",
+    "duration_s": 65.87,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024250_ichimoku_cloud_zh-CN_equity_markets_58e1e4f0",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "Time span (2012–2018), y-axis range (~2000–5500), 2015 mid peak (~5400) and 2016 early trough (~2850) are correct. However, the claim that from 2016 to 2018 the price 'always stayed above the rising cloud' is false—around early-to-mid 2016 the price moved into/below the cloud. The statement of 'two consecutive sharp breaks below the bearish cloud' during 2015’s drop is not clearly supported by the chart. Minor wording that y-axis goes 'below 2000' is slightly off since the axis bottom is 2000.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Summary covers chart type, axes, legend components, main phases (2012–2014 range, 2014–2015 surge, 2015–2016 crash, post-2016 recovery), extremes, and cloud thickness changes. It misses nuance that post-2016 price sometimes interacted with/entered the cloud and does not note some notable pullbacks within 2017.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides meaningful takeaways (trend transition, volatility change), business implications, and specific risk thresholds (e.g., cloud boundary near 4000). Some claims (e.g., 'long-term slow bull' and weakening momentum) are more interpretive than strictly evidenced by the chart.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured into composition, data relations, pattern features, insights, and risks. Flow is coherent without internal contradictions in logic (errors are factual rather than structural).",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise and organized in bullets. A few sentences are verbose or slightly repetitive, but overall efficient.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.85,
+    "normalized_score": 0.77,
+    "overall_comment": "A strong, structured summary that captures the main features and provides useful analysis, but it overstates the post-2016 price positioning relative to the cloud and includes a couple of unverifiable claims. Correcting those would raise faithfulness to a high level.",
+    "duration_s": 66.55,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024224_pie_en-US_banking_credit_c9994f66",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "Most figures match the chart: Credit Cards 35.7%, Personal Loans 24.3%, Mortgage Loans 18.1%, Auto Loans 9.5%, Student Loans 4.1%, Small Business Loans 3.1%. Sums such as top two = 60.0% and top three = 78.1% are correct. However, it incorrectly states 'four segments below 6%' (only three are: 5.2%, 4.1%, 3.1%). It also introduces an unsupported threshold ('if Credit Cards decline below 30%...'), which is not derivable from the chart.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 5,
+        "evidence": "Covers chart type, title, legend/colors, and all key categories with their percentages. Identifies largest/smallest segments, comparative sizes, and cumulative shares (top two and top three). Notes the concentration and the small combined share of the bottom four categories.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides meaningful interpretation about concentration, implications for risk and strategy, and comparisons (e.g., Auto Loans roughly half of Mortgage). The unsecured-lending emphasis is a reasonable inference, but the specific 30% threshold is speculative and weakens the rigor.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured into composition, relationships, patterns, and insights with a coherent flow and no internal contradictions in reasoning.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise and organized, though some speculative risk points add length beyond what is needed to reflect the chart.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.1,
+    "normalized_score": 0.82,
+    "overall_comment": "A strong and structured summary that accurately captures most chart details and provides useful insights. Minor factual error and speculative thresholds reduce faithfulness and rigor.",
+    "duration_s": 70.16,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031741_histogram_zh-CN_derivatives_0780ed41",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 2,
+        "evidence": "The chart shows more than four bins (at least five are visible), but the summary claims only four 2000-unit bins. It asserts a total of 6 items and gives exact counts per bin (e.g., 8000–10000 and 12000–14000 each have 2; 10000–12000 has 1), which are not supported by the histogram; the 10000附近区间显示至少有一个高为2的柱，不是低谷。X轴范围被描述为到14500，而图中标注到约15000。这些为多处明显不符。",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 3,
+        "evidence": "It correctly notes chart type, title, axes and general idea of distribution, but misses the actual number of bins shown, omits the rightmost区间信息（14000以上仍有柱），并未准确覆盖各柱的高度与位置。",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 3,
+        "evidence": "Provides business implications and risk notes, but they rely on incorrect bin counts (e.g.,称10000–12000为低谷并以‘下降50%’量化)，降低了分析的有效性。",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Structured into composition, data relations, patterns, insights, and risks with coherent flow and no internal contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise; minor repetition but generally efficient.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.1,
+    "normalized_score": 0.62,
+    "overall_comment": "组织清晰，但对柱数、各区间计数和轴范围的判断存在多处错误，导致关键结论（双峰、低谷及50%差异）不可靠。需基于实际柱形位置与高度重新核对数值后再做解读。",
+    "duration_s": 108.04,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031907_treemap_en-US_asset_management_e6bfc02c",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "Correctly identifies the chart as a treemap of AUM (area) and risk (color) and notes the two largest segments (US Fixed Income, Global Equity Funds) and the very high risk of Emerging Markets Equity. However, it incorrectly states that Money Market Funds have an AUM size similar to Asian Equity Funds (Asian Equity is clearly much larger). It also claims Infrastructure Funds and Commodities are the smallest AUM segments—Money Market and Hedge Funds are similarly small, and Infrastructure is not the smallest. It suggests Private Equity is comparable in size to European Equity Funds, but European Equity appears noticeably larger.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers the mapping of size and color, the risk scale, the largest categories, the highest and lowest risk categories, and comments on small segments and distribution. It omits mention of mid-sized categories like Global Balanced Funds and REITs (both moderate risk) and does not note that Asian Equity has high risk with mid-to-large AUM.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides meaningful insights: concentration in fixed income, lack of simple AUM–risk correlation, and implications for oversight of high-risk categories. The analysis is reasonable though some points are generic and rely on a few inaccurate comparisons.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-organized with clear sections (composition, relationships, patterns, insights) and a coherent flow from description to implications. No internal contradictions in logic.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise and structured. Minor redundancy in describing risk ranges and repeating the dominance of the largest categories.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.85,
+    "normalized_score": 0.77,
+    "overall_comment": "Good, structured summary with useful insights, but a few size comparisons are inaccurate (especially Money Market vs Asian Equity and the identification of the smallest segments). Correct these to improve faithfulness.",
+    "duration_s": 94.96,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024418_renko_en-US_commodities_1a6c9572",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "Main trend (drop 2015–2016 then partial recovery) and extrema magnitudes are roughly right (peak just over 600, trough just under 400, finish a little above 500). However, the summary misinterprets the plot style: it treats vertical black marks as Renko bricks and references green/red bricks that are not visible in the plotted series. It also places the trough in mid‑2016 around 360, while the chart shows the low closer to late 2016 around 370–380. Claims such as 'reversals above 550 often failed' are not clearly substantiated by the image.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers timeframe, axes, general price level range, start/end levels, key peak and trough, and describes the broad downtrend then recovery. It could note more clearly the timing of the 2016 low and the mid‑2017 spike/reversal, and it does not acknowledge that the legend colors are not reflected in the plotted data.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides business implications, risk considerations, and actionable thresholds (e.g., 450 support, 550 area). Some assertions (e.g., repeated failures above 550) are speculative, but overall the analysis goes beyond description and is reasonably tied to the chart.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well organized with clear sections moving from description to relationships, patterns, and insights. No internal contradictions in reasoning flow.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise but includes some repetitive phrasing about momentum and volatility. Could be tightened without losing content.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.85,
+    "normalized_score": 0.77,
+    "overall_comment": "A generally accurate and well-structured summary of trend and levels, but it misidentifies the chart style as showing visible Renko bricks and contains a few timing/value inaccuracies and speculative claims.",
+    "duration_s": 99.25,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024234_box_en-US_growth_employment_1845ee4a",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Correctly identifies China as highest (~6.7%) and France as lowest (~1.7%), the ~5.0 ppt range, India second (~5.9%), and the U.S. next (~3.2%). Count of seven countries below 3.5% is accurate. Minor issues: y-axis tick description is incomplete (more ticks than 4.0–6.0 appear), and calling the distribution 'distinctly bimodal' oversimplifies the presence of a lone mid-value (U.S. at 3.2%).",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, title, axes, extrema, key comparisons, clustering, and the main gap (3.2% to 5.9%). Does not enumerate or discuss individual mid-tier country values (e.g., Canada 2.8, Australia 2.6), which would add completeness.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides clear interpretation of concentration at the low end, disparity across economies, and business implications with risk thresholds. Thresholds (e.g., <1.8%, >6.0%) are plausible but speculative and not grounded in the chart alone.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured sections (composition, relationships, patterns, insights) with a coherent flow and no internal contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise; a few statements repeat the idea of disparity and clustering, but overall the content is efficient.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.15,
+    "normalized_score": 0.83,
+    "overall_comment": "A strong and mostly accurate summary that captures the chart’s key patterns and offers useful insights. Minor inaccuracies and a slightly overstated bimodality prevent a top score.",
+    "duration_s": 113.52,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031832_candlestick_volume_en-US_digital_assets_9b5c84db",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Accurately notes the time span (2021–2026), price range (late-2022 low near ~15–20k, 2025 ATH >120k) and current pullback to around 90k. The volume axis is correctly described as reaching a bit above 300,000 (labeled Millions of BTC). Minor issues: claims that 2021 had the 'highest sustained' volume are not clearly supported as 2024–2025 also show comparable or larger spikes; describing the overall shape as 'W-like' is debatable; commentary about colors being 'implied' is speculative.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, axes, legends, major peaks/troughs, general trend over time, and recent status after the 2025 peak. Mentions volume spikes and distribution. Could be more explicit about the sizable volume activity in 2024–2025 and the magnitude of the late-2025 drop relative to prior pullbacks.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides useful insights on cyclicality, volatility, profit-taking, and risk management, plus an actionable threshold (80k). Notes a price/volume relationship during the 2022 decline. Some judgments (e.g., low volume during the current decline) are not strongly evidenced from the chart and remain somewhat generic.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured into composition, data relationships, pattern features, insights, and risks. Flows logically without contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise and organized in bullets. Minor redundancy (reiterating volatility and legend color commentary) adds length without value.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.15,
+    "normalized_score": 0.83,
+    "overall_comment": "A solid and mostly accurate summary that captures the main price path and structure, with reasonable analytical takeaways. Minor overstatements about volume patterns and a debatable 'W-like' characterization prevent a top score.",
+    "duration_s": 93.42,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031651_errorbar_en-US_equity_markets_6217fc42",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Correctly notes a large spike around 2025-05 with the rolling mean near 36 and error bars reaching ~40; typical range mostly 12–22; end-2025 level near ~20–21. Minor error: states a low 'near 12' at 2025-10, but the chart shows a trough closer to 15.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, axes, legend, main range, primary peaks (2024-09/10 around ~22 and mid-2025 ~36), variability behavior, and end-period rebound. Could mention additional smaller oscillations later in 2025 but core elements are included.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 5,
+        "evidence": "Gives actionable implications (hedging cost in Q2 2025, thresholds >35 severe stress, >20 warrants reevaluation) and interprets volatility clustering and mean reversion beyond simple description.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 4,
+        "evidence": "Well-structured sections with coherent flow. Minor inconsistency where the summary first claims lows near 12 in 2025-10 but later acknowledges ~15.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise and organized; a few repetitive statements about spikes and dispersion but not overly verbose.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.2,
+    "normalized_score": 0.84,
+    "overall_comment": "A strong, mostly accurate summary that captures the chart’s key trends and provides meaningful interpretation. Minor numerical inaccuracy about the late-2025 trough prevents a top score.",
+    "duration_s": 80.04,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024505_fan_chart_en-US_growth_employment_a32b7227",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "Core trend is right: the rolling mean starts near 66.4% in early 2003, declines into 2004–early 2005, then edges back toward ~66.0% by early 2006. However, several details are inaccurate: (1) The claimed lowest rolling-mean level (~65.85% at 2005-01) appears closer to ~65.9–66.0 on the chart. (2) The statement that only one observed point exceeds the +/−1 SD band is not supported; points generally remain inside and none is clearly outside. (3) Assertions about band width—“widest in mid‑2003” and “narrowest at 2006‑01 with <0.25% span”—do not match the visual; the bands do not contract markedly at the end and look comparable or even wider around mid‑2005.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart setup (axes, series, fan bands), overall decline, rough start/end levels, and mentions a mid‑period recovery/stabilization. Notes on uncertainty bands and observed vs. mean alignment are included. Minor gaps: does not explicitly note the late‑2004/early‑2005 trough timing and the mid‑2005 rebound peak near ~66.1%.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Goes beyond description with a core conclusion, business implications, and risk thresholds. The idea of a 'structural floor' and a <65.8% trigger is somewhat speculative but reasonable. Some analysis relies on the questionable claim of shrinking uncertainty bands.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well‑organized into clear sections (composition, relationships, patterns, insights). The flow is coherent and there are no internal contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise and structured; a few sentences repeat the same idea about uncertainty narrowing and stabilization, but overall it is economical.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.85,
+    "normalized_score": 0.77,
+    "overall_comment": "Good structural summary with correct high-level trend, but it overstates changes in uncertainty bands and contains a few numeric/interpretive inaccuracies. Tightening those details would significantly improve faithfulness.",
+    "duration_s": 54.37,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_032033_ichimoku_cloud_en-US_equity_markets_3c6576e4",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Peak near 16,000 around early 2021 and trough around 8,000 in early 2024 match the plot. The 2021→2024 drawdown is roughly 50% (16k→8k). Through 2022–2023 the price is mostly below a red (bearish) cloud and Tenkan often below Kijun. By late 2025 the price is ~13,000–13,500, above Tenkan/Kijun and above a green forward cloud; Chikou is above the price level from 26 periods prior. Minor overstatements include phrases like 'well above' the cloud and 'consistently' below Kijun; there are intervals of whipsaws/inside-cloud action.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers timeframe, axes, Ichimoku components, major peak/trough, broad downtrend 2022–2023, and the late‑2025 bullish alignment (price above cloud, bullish cloud, line cross, Chikou confirmation). Missing finer details such as the choppy moves/gap-like jumps around late 2024–early 2025 and occasional periods within the cloud or brief green-cloud phases during the decline.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Gives a clear bullish takeaway, notes alignment of three Ichimoku signals, and proposes a concrete risk threshold near the Kijun (~12,000). Adds a Chikou-based risk note. Analysis is sound but somewhat generic and not tied to specific breakout dates or measured distances.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured sections (composition, relationships, patterns, insights). The reasoning flows from description to conclusions without contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise, but includes some verbose/marketing phrasing ('morphological shift', 'coordinated vertical alignment') and slight repetition of the bullish alignment.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.15,
+    "normalized_score": 0.83,
+    "overall_comment": "A strong and mostly accurate summary that reflects the chart’s key trends and current bullish Ichimoku alignment. Minor overstatements and omission of some choppy periods prevent a perfect score.",
+    "duration_s": 82.04,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_032200_bollinger_bands_zh-CN_digital_assets_92a6889c",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "The summary correctly identifies the chart type, time span (2021–2026), indicators (close, middle band, ±2σ), the early-2021 low around 500–1000, and the mid-2022 drop to ~1000 with a later rise to ~4000 in early 2024. However, it states that prices reached a second historical high near 5000 in 'mid‑2025', while the chart shows the notable later peak in late 2025 around 4400–4700, not mid‑2025 nor clearly near 5000.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 3,
+        "evidence": "It covers key structure, band behavior, early-2021 low, 2022 crash, and 2024 rally. Missing or misstated are the sharp drawdown around mid‑2025 to ~1600 and the timing/level of the late‑2025 rebound peak. It also glosses over the sub‑1000 prices at the very start.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides meaningful insights on volatility expansion/contraction, mean-reversion behavior, and gives actionable takeaways and risk thresholds (e.g., 1000 and 5000 levels). While useful, thresholds are somewhat generic and one (near 5000) is less supported by the latest peak.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured with clear sections from chart description to data relationships, patterns, insights, and risks. Flow is coherent and free of contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise bullet points; a few statements are repetitive or broad, but overall efficient.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.9,
+    "normalized_score": 0.78,
+    "overall_comment": "A solid and mostly accurate summary with good insights on volatility and mean reversion, but it mis-times the 2025 peak and omits the sharp mid‑2025 drawdown, reducing faithfulness and completeness.",
+    "duration_s": 109.25,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024232_candlestick_indicator_en-US_commodities_c32d47c0",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Trends and extrema match the chart: early-2023 peak ~685, trough around Aug–Sep 2024 near 365, end near 440, and a strong drop in mid/late 2023. Minor inaccuracies: the time span starts at 2023-01 (not late 2022), and the x‑axis ticks are roughly every four months, not bi‑monthly. Otherwise the price ranges and drawdown (~320) are consistent.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, axes, legend, key highs/lows, overall downtrend, drawdown size, sideways band 365–500, and resistance test near 500 in early 2025. Could briefly note the late-2025 rebound from the Sep 2025 low and that the initial months (early 2023) were already at elevated levels around 630–680.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 5,
+        "evidence": "Goes beyond description with implications (costs, producer revenues) and explicit risk thresholds (360–370 support, 500 breakout validation). These are reasonable and tied to visible levels on the chart.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured sections (composition, relationships, patterns, insights) with a coherent flow and no internal contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise bullet points; a few general statements are somewhat repetitive but not excessive.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.35,
+    "normalized_score": 0.87,
+    "overall_comment": "A strong, well-structured summary that accurately captures the chart’s major features and offers sensible thresholds. Minor issues include the start date and x-axis tick description.",
+    "duration_s": 62.24,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031833_radar_zh-CN_commodities_c940acff",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 2,
+        "evidence": "Several statements misread the chart: (1) 出口依赖度最高并非约0.6，天然气在该轴接近1.0，同时铜也很高；(2) 咖啡在市场份额不是约0.05，图上接近0.2左右；(3) 原油并非只在成交量和进口依赖度上突出，它在市场份额轴也达到最高值，因此“V型对比”不符；(4) 断言“黄金覆盖面积最大”与图形不符，原油等商品面积并不更小。正确点包括：原油成交量最高、进口依赖度很高；黄金在价格、库存、生产成本上最高；天然气波动率最高；多数商品价格轴低位。",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 3,
+        "evidence": "总结描述了图表类型、8个维度与8类商品，并提到若干极值（原油成交量、黄金价格/库存/成本、天然气波动率）。但遗漏了若干重要对比：如铜与天然气在出口依赖度均接近顶格、原油在市场份额极高、部分商品在库存/成本的低位情况等；对棉花、铝、小麦等几乎未涉及。",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 3,
+        "evidence": "给出了业务含义与风险提示（黄金高价值与成本壁垒、原油高流动性与高依赖、天然气高不确定性），有一定洞察。但由于多处读图错误，部分结论（如黄金面积最大、原油呈V型）建立在不准确数据上，降低了分析有效性。",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "结构清晰，分为图表构成/数据关系/模式特征/核心洞察/风险关注，叙述顺序合理，内在逻辑连贯。",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "整体较精炼，少量表述略显冗长但无明显重复。",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.1,
+    "normalized_score": 0.62,
+    "overall_comment": "结构完整并包含业务解读，但多处数值与对比和图不符（出口依赖度、市场份额、形态描述等），导致忠实度偏低。需纠正关键读数后再给出结论。",
+    "duration_s": 109.34,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024246_fan_chart_en-US_digital_assets_16ee31f1",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Core trends match the chart: start near ~$20k in early 2021, peak near ~$65k in late 2021, trough around $16–18k in late 2022, and a new high around ~$120k in late 2025 with very wide bands. Minor inaccuracies: it states the Y-axis ranges up to 'slightly above $120k' while the chart extends to ~>$130k; it also overstates the late-2025 to early-2026 decline as ~$30k (the mean falls roughly to the mid-$90k–$100k area, nearer a ~$20–25k drop).",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 5,
+        "evidence": "Covers axes, legend (30-day mean and ±1/2/3 std-dev bands), key extrema (2021 peak, 2022 low, 2025 high), band-width behavior (narrower 2022–2023, widest at 2025 peak), and the late-2025 pullback.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides meaningful insights on cyclicality, volatility expansion during rallies, and portfolio/risk implications. The $80k support threshold is somewhat arbitrary and not directly evidenced by the chart, but the overall interpretation is reasonable.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured sections (composition, relationships, patterns, insights) with a coherent flow and no internal contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise, though a few statements restate earlier points (e.g., volatility expansion) and the business implications section could be tighter.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.4,
+    "normalized_score": 0.88,
+    "overall_comment": "A strong, mostly accurate summary with good insight and structure. Minor numeric errors (axis upper bound and size of final decline) and one speculative support level prevent a top score.",
+    "duration_s": 119.91,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031924_waterfall_zh-CN_asset_management_6a995948",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 5,
+        "evidence": "数值与图中一致：期初资产10,000,000元、期末资产11,392,000元；四项收入分别为850,000/320,000/180,000/450,000元；三项支出为-125,000/-68,000/-215,000元；净增值1,392,000元。对最大收入（股票投资收益）与最大支出（税费支出）的判断正确，合计收入1,800,000元与支出408,000元也与图表一致。",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 5,
+        "evidence": "覆盖了期初/期末、各收入与支出单项数值、合计值、最大/次大项目及整体趋势；也提到了颜色/图例和坐标轴信息。没有遗漏关键数据点。",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "给出净增值来源、集中度（最大收入约占总收入47%）与支出结构（税费占总支出约53%）的解读，并提出业务含义与风险提示。若进一步提供情景/阈值或可操作建议可更佳。",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "按构成-数据-模式-洞察的结构展开，逻辑顺畅，结论与前文数据一致，无自相矛盾。",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "整体精炼，但在模式特征与业务含义处稍有赘述；仍然基本高效。",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.7,
+    "normalized_score": 0.94,
+    "overall_comment": "总结与图表高度一致，覆盖全面并提出有价值的解读与风险提示。可在建议与行动层面再具体些以提升分析深度。",
+    "duration_s": 82.05,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031728_ichimoku_cloud_en-US_equity_markets_8edf1183",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "Accurately notes a large upside gap around Oct 2024 and a peak above 3050 in late 2025. Start level near 2250 is correct. However, it claims the Kijun-sen support is 'near 2900' at the end, while the orange Kijun line is closer to ~3000 in late 2025. It also states the Chikou Span is 'substantially higher than the current price,' but the green line and price are both around 3000 with no large separation. The cloud being 'continuously bullish throughout Q4 2025' is correct but 'uniformly bullish for the majority of the latter half' slightly overstates earlier mixed sections.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart composition, time frame, main trend, the October 2024 jump, price trading above the cloud in late 2025, and mentions Tenkan/Kijun relationship. Identifies start and peak. It could better acknowledge the mixed/bearish cloud period around late 2024–early 2025 and any brief Tenkan/Kijun crossovers.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 3,
+        "evidence": "Provides implications, momentum interpretation, and risk triggers. However, the key risk threshold (Kijun near 2900) is inaccurate, and the Chikou interpretation is overstated, reducing the reliability of the insights.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured into composition, relationships, patterns, insights, and risks. The flow is coherent and consistent with minimal internal contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise and organized. A few statements repeat momentum/bullishness points, but overall the length is appropriate.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.65,
+    "normalized_score": 0.73,
+    "overall_comment": "A generally solid and well-structured summary that captures the main features and trend, but it contains a couple of notable inaccuracies (Kijun level and Chikou interpretation) and slight overstatements about the cloud, which lower faithfulness and the reliability of the analysis.",
+    "duration_s": 96.89,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031822_bar_zh-CN_esg_sustainable_6d69abe0",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "多数数值与排序正确：美国最高约82分、印度最低约54分；<60分国家为印度、俄罗斯、南非；78分及以上包括美国、加拿大、德国、澳大利亚。存在一处错误：'70-75分之间仅英国、法国和日本'不正确，日本约77分不在该区间。其余叙述如国家数量(12个)和大致刻度均与图一致。",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 5,
+        "evidence": "覆盖了图表类型、坐标轴含义、国家列表、最高/最低值、分数区间划分、高低端集群、最高与最低差距等关键要点，没有遗漏重要信息。",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "给出了高分/低分集群的结构性解读，并提出业务含义与风险阈值（<60分风险、80分以上为标杆），具有一定可操作性，但深度仍偏概括。",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "分为构成、数据关系、模式特征、核心洞察等清晰结构，论述顺序合理，除个别数值错误外无自相矛盾。",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "总体精炼，少量措辞重复（如多次强调高分集团与低分国家），但未明显冗长。",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.4,
+    "normalized_score": 0.88,
+    "overall_comment": "总结基本准确且覆盖全面，并提供了有价值的业务含义与风险提示。主要问题是区间划分中的一处数值错误（将日本误列入70-75分段）。",
+    "duration_s": 51.81,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024446_point_figure_en-US_commodities_31961711",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Correctly notes the title, axes, legend (Rising X), early peak just above 40, deep decline to the mid‑teens, long mid‑range trading, and a recent rebound to the upper‑20s. Minor issues: calls the plotting style 'Point and Figure-like' (it is a stylized scatter, not true P&F), overstates recent volatility somewhat, and says the rebound 'touches 28–29' when it appears mostly 26–28.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers extrema, the long mid-range concentration, overall downtrend then consolidation and rebound, and mentions key levels (40 ceiling, ~15 floor). Could better emphasize how extended the sub‑20 range is and that the absolute low seems closer to ~14 than 15.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides meaningful interpretation (erosion then bullish reversal) and actionable thresholds (~20 support risk, ~30 resistance). Insights are reasonable though not deeply tied to specific time segments or volume/context.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well organized into composition, relationships, patterns, insights, and risks with a coherent flow and no contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly succinct; a few phrases are descriptive flourishes (e.g., 'parabolic spike', 'columnar expansion') but not overly verbose.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.15,
+    "normalized_score": 0.83,
+    "overall_comment": "A solid and mostly faithful summary that captures the main structure, extremes, and recent rebound, with minor overstatements about style and right-end volatility. Provides useful analytic takeaways and risk levels.",
+    "duration_s": 74.66,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_032216_errorbar_zh-CN_inflation_72d1075b",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 2,
+        "evidence": "Several statements do not match the chart: (1) The time span is not explicitly to '2025年第三季度末'—the x‑axis only shows yearly ticks to 2025. (2) The line is labeled '美国CPI通胀率' but the y‑axis clearly says 'CPI指数(点数)'; calling the series '通胀率的中心值' is inaccurate. (3) Error-bar length is not from ~20 to ~38 points; early 2021 bars already span roughly mid‑240s to ~280s (~35 points) and later are only slightly larger, not a doubling. (4) The center value is at the midpoint of the error bars, not '中间偏上'. (5) In 2025 the lower bound of the error bars is around 305+, so the claim that the lower bound after 2023 remains below 300 is false.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, axes, title, overall rising trend, early fast rise, mid‑2022 to early‑2023 plateau, and approximate start/end levels. Mentions uncertainty bars and their change. Minor omissions such as not noting the steady but slower climb through 2024–2025 or local month-to-month variations.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 3,
+        "evidence": "Provides business implications and a risk threshold, but some insights (systematic linear expansion of uncertainty, lower bound staying below 300) stem from misreadings, which weakens the analytical value.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 4,
+        "evidence": "Well-structured sections and coherent flow from description to insights. Minor internal inconsistency between calling the series '通胀率' and later 'CPI指数'.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise and structured; a few points are reiterated (e.g., multi‑phase trend and uncertainty growth) but not excessively.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.2,
+    "normalized_score": 0.64,
+    "overall_comment": "The summary captures the main upward trend and structure but contains several factual inaccuracies about the error bars, timing, and metric definition. Good coverage and organization, yet the misreads reduce reliability of the conclusions.",
+    "duration_s": 91.46,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024356_fan_chart_zh-CN_commodities_33e5eaa0",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Title/axes/legend descriptions match the chart. It correctly notes the late‑1998 low (~9) and an early‑2003 level around ~31 vs ~24–25 in early 1997. However, it places the absolute peak in 'mid‑2000' while the chart shows the highest spike around late‑2000/early‑2001. It also claims the widest uncertainty band in mid‑2000, while the chart indicates the widest fan around 2001. Statements on exact divergences (e.g., >10 or <5 USD) are plausible but not clearly verifiable from the plot.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers timeframe, axes, legend, main trend (fall in 1997–1998, strong rally to 2000–2001, drop in 2001, recovery into 2003), extrema, and end values. Mentions interaction with the 60‑day MA and volatility changes. Minor omissions include the precise timing of the highest peak and not highlighting that volatility remains elevated into 2001 more than 2000.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides business implications (procurement costs, hedging difficulty), identifies a watch level (~25 USD), and links price positioning relative to MA with bullish momentum. Risk remarks about wider ±3σ bands are reasonable. Could add more quantified scenario analysis or tie thresholds to observed band levels for extra depth.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Clear sectioned structure from composition to data, patterns, insights, and risks. Flow is coherent with no contradictions beyond minor timing inaccuracies.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise and structured. A few repeated points about high volatility/high‑level trading could be trimmed.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.15,
+    "normalized_score": 0.83,
+    "overall_comment": "A strong and well‑structured summary that captures the main features and offers useful insights. Minor timing inaccuracies about the peak and volatility maximum prevent a top score.",
+    "duration_s": 76.15,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_032150_density_en-US_insurance_3979c2ba",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 2,
+        "evidence": "The chart shows a single density curve with a peak near 60 and y-axis values roughly 0.006–0.017, which the summary mostly reflects. However, it claims the density at a score of 30 is ~0.006, while the curve at 30 is clearly much higher (around 0.010–0.012). It infers a specific observed range of 22–90 (68 points) that is not explicit; the axis ticks show 20–90. It also asserts 'consistency across products,' but the chart displays only one curve, not multiple products.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, title, axes, legend, unimodal shape, central peak around 60, approximate maximum density, and tail behavior. Nothing major is omitted for this simple chart.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 3,
+        "evidence": "Provides business implications and risk notes (e.g., clustering around 60, attention to low scores). However, one key inference—consistency across products—is not supported by the chart, and several insights are generic.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 4,
+        "evidence": "Well-structured sections (composition, relationships, patterns, insights) and a coherent flow, though it includes an unsupported leap about cross-product consistency.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly succinct with clear bullet points; a few statements are repetitive or speculative but not overly verbose.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.2,
+    "normalized_score": 0.64,
+    "overall_comment": "The summary captures the main shape and features but includes notable inaccuracies (density at 30, inferred range) and an unsupported claim about cross-product consistency. Tightening numbers and avoiding unsupported inferences would improve it.",
+    "duration_s": 64.98,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024312_candlestick_indicator_zh-CN_commodities_2751876b",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 2,
+        "evidence": "图中左侧价格轴下界明显低于1000（接近900多），而总结写成1000-1350；最低价并非“2024年8月且低于950”，实际低点出现在2024年9-10月附近，约960-980；以此计算的跌幅28.6%偏大。‘底部阶段成交量大多低于10万手’也不符，底部时段（2024年秋至2025年初）存在大量>10万手的尖峰。其余如起始价较高、2025年四季度回升及成交量放大基本符合。",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "覆盖了图表类型、双轴含义、时间跨度、整体趋势（先跌后筑底再反弹）、成交量脉冲、Q4 2025反弹等关键点，也提到极值与区间。但未提到2025年中期的回落与随后再度上行等细节。",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "提供了底部构建—反弹的解读、资金活跃度判断以及具体风险位（1100、1170），具备可操作性。不过结论“长期筑底完成”偏武断，未结合更多技术确认。",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 4,
+        "evidence": "按‘构成-数据-模式-结论-风险’组织，结构清晰、层层递进。存在少量内在不一致（轴范围与最低价描述矛盾），但整体可读性良好。",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 3,
+        "evidence": "内容较长，‘业务含义’部分略泛泛，与图表直接关系不强，存在一定冗余。",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.3,
+    "normalized_score": 0.66,
+    "overall_comment": "总结把握了主要趋势与量价关系，但在轴范围、最低点位置与成交量分布上出现明显偏差。建议校准关键数值与时间点，弱化武断结论。",
+    "duration_s": 67.25,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031909_line_band_overlay_zh-CN_macro_policy_a64d1d33",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "总体趋势（1992至2002稳步上行）、突破1万的时间点（1999末至2000初）、带有4季均线与±1σ阴影的设定均与图一致。个别细节略有偏差：1）起点更接近6400而非“略高于6300”；2）纵轴刻度并非从6000起（图上可见的刻度主要在7000、8000、9000、10000、11000）；3）“蓝线绝大多数时间在均线上方”略显夸张，部分阶段两线交替上下。",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "覆盖了图表构成、时间与量纲范围、起终值与增幅、突破1万、移动平均与波动区间的关系及其随时间变化等关键信息。可补充之处：未量化季度波动幅度或给出任何具体峰谷季度。",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "指出非线性（斜率上升）、季节性、绝对波动扩大，并给出业务含义和风险提示（不确定性扩大、关注扩张极限）。分析合理但仍较宏观，缺少更具体的阈值或对波动来源的解释。",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "分区清晰（构成/数据关系/模式/洞察/风险），叙述顺序由描述到解读，未见自相矛盾。",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "内容较完整但略显冗长，个别观点（如“持续向上”“稳健扩张”）重复表述。",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.15,
+    "normalized_score": 0.83,
+    "overall_comment": "总结与图表高度一致，趋势与关键节点把握到位，并提供了有用的业务解读。少量数值与用语略显不精确，进一步量化细节可提升严谨性。",
+    "duration_s": 58.71,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031805_histogram_zh-CN_derivatives_5d9a381e",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "标题、坐标轴含义、图例和整体分布（10%–30%集中、35%–55%空档、约60%单个高值）与图一致。对各区间的数量描述基本吻合（如15%–25%合计最多、30%–35%与55%–65%各1个）。但摘要猜测了分箱宽度为“5%或10%”（图中并未标注，且宽度并非这两个值），并假定总样本为10个，图上未直接给出。",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 5,
+        "evidence": "覆盖了图表类型与构成、主要峰值区间、低密度/空白区（35%–55%）、极端高波动点、以及整体偏态等核心要点。",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "给出了集中度含义、对定价和对冲成本的启示，以及对高波动资产的风险提示，具有业务可读性；但缺少更具体的阈值或量化检验（如均值/中位数、离群点判定标准）。",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "按构成—数据关系—模式特征—结论/风险的结构展开，层次清晰，无自相矛盾之处。",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "总体精炼，但关于集中度与异常点的表述有少量重复，可进一步压缩。",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.4,
+    "normalized_score": 0.88,
+    "overall_comment": "该总结与图像高度一致，准确刻画了低位集中与高位孤立点的分布特征，并给出合理业务含义。主要瑕疵是对分箱宽度和样本总量的推断性表述。",
+    "duration_s": 66.3,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_032234_errorbar_en-US_inflation_81807068",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Trends and ranges match the chart: sharp 2008 rise then steep fall to an early‑2009 trough (~168), recovery to ~204–205 by 2011, and stabilization around 200–205 thereafter. Error bars are indeed larger in 2008–2009. Minor issues: the absolute maximum is not uniquely mid‑2008 (similar highs reappear 2011–2013), and stating the index 'held above 200' post‑2011 is slightly strong given a brief dip to about 200 around early 2012.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 5,
+        "evidence": "Covers chart type, axes, legend, timeframe, key extrema, overall V‑shaped pattern, variability behavior, stabilization band, and the ending level.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides meaningful interpretation (cyclical shock and stabilization), business implications (buyer cost relief, regained pricing power), and a risk threshold (~200). Could go deeper with quantified volatility comparisons or noting short pullbacks within the plateau.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Structured sections with a clear progression from description to relationships, patterns, and insights. No contradictions within the narrative.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally succinct with clear bullets, though a few points repeat the stabilization theme and could be trimmed.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.4,
+    "normalized_score": 0.88,
+    "overall_comment": "A strong and mostly accurate summary that reflects the chart’s key movements and adds useful business context. Minor precision issues around the exact peak timing and the strictness of the 200-point threshold prevent a perfect score.",
+    "duration_s": 79.61,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024532_heatmap_en-US_equity_markets_e52824da",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Most relationships match the heatmap: strong negative Dividend Yield with P/E and EPS Growth; strong positive cluster among Annual Return, Volatility, EPS Growth, and Beta; self-correlation red diagonal; symmetric matrix. Minor inaccuracies: Market Cap vs Annual Return looks near zero to slightly negative (not ~-0.25). The claim of a top-left area with a higher density of positive correlations is not supported—the Dividend Yield row/column is predominantly negative there. Dividend Yield also appears strongly negative with Annual Return, which the summary underplays.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, axes, legend, diagonal symmetry, main clusters, and several key pairwise relations (e.g., Beta with Volatility/EPS, P/E with P/B and EPS, Dividend Yield negatives). Missing or lightly treated items include the very strong Annual Return–Beta link and strong Price-to-Book–Annual Return correlation.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides meaningful implications (growth vs income trade-off, risk–return cluster, valuation link to growth). One risk note is somewhat arbitrary and not grounded in the chart (e.g., citing r>0.5 with Market Cap as a threshold), but overall the analysis extends beyond description.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured sections (composition, relationships, patterns, insights). Logical progression and no internal contradictions in reasoning.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise bulleting. A few generic remarks (quadrant structure) and minor repetition, but not excessively verbose.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.15,
+    "normalized_score": 0.83,
+    "overall_comment": "A strong, mostly accurate summary that captures the main clusters and relationships of the heatmap with useful business implications. Minor quantitative and pattern-description inaccuracies prevent a top score.",
+    "duration_s": 148.76,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031850_radar_en-US_fixed_income_bf67797f",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 2,
+        "evidence": "The chart has 7 axes, but the summary says eight. High Yield Bonds' liquidity is very low (~0.1–0.2), not ~0.5. Inflation Sensitivity shows Emerging Market Debt near the maximum (~1.0) and Treasuries/Municipals/Agencies closer to ~0.2–0.3, not 0.4–0.5. Duration for High Yield and Convertible is closer to ~0.3–0.4, not ~0.5+. While some points are correct (e.g., HY yield and credit spread near 1.0; Treasuries/Agencies very liquid), multiple numerical misstatements exist.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, title, legend, normalization, and discusses all metrics (yield, duration, credit spread, liquidity, volatility, inflation sensitivity, credit risk). Mentions clusters and extremes for several series. Minor omissions such as noting Investment Grade Corporates' high duration comparable to Treasuries.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides interpretation about risk–return trade-offs, clustering (HY/EMD vs Treasuries/Agencies), and business implications like liquidity and high spread thresholds. Insights are useful though partly undermined by inaccuracies.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured into sections (composition, relationships, patterns, insights) with coherent flow and no internal contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Generally concise and structured, though somewhat verbose with repeated risk–return points.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.55,
+    "normalized_score": 0.71,
+    "overall_comment": "Good structure and breadth, but several factual errors relative to the chart (number of axes, liquidity and inflation-sensitivity levels, and some duration estimates) reduce reliability. Correct the misread values to improve the assessment.",
+    "duration_s": 114.99,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024411_heatmap_zh-CN_equity_markets_b53236bd",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "Chart shows US–China correlation ~0.60, not 0.65 as stated. Claim that the European trio (Germany, UK, France) all exceed 0.64 is incorrect—UK–France is ~0.61. Other cited numbers are correct: max Germany–UK 0.70; min Japan–South Africa 0.28; China–India 0.62; China–South Africa 0.35.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, axes, color scale, diagonal=1.00, overall range (0.28–0.70), locations of high/low clusters, and key pairs (Germany–UK, Japan–South Africa). Could note that US’s top external correlation is 0.60 (with China) and mention a few mid-level links (e.g., UK–France ~0.61), but main points are included.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides implications for diversification and systemic risk, highlights Europe’s co-movement, and suggests an actionable threshold (<0.30). Analysis is sound though somewhat general and partly based on one overstated claim about Europe.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Clear sections from composition to insights, coherent flow, and no internal contradictions aside from the mis-specified numbers.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise and structured; minor redundancy in risk points but little fluff.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.85,
+    "normalized_score": 0.77,
+    "overall_comment": "A solid and well-structured summary with good insights, but it contains a few numerical inaccuracies (notably US–China and the overstated Europe block) that reduce faithfulness.",
+    "duration_s": 87.96,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031950_density_en-US_macro_policy_3f04455e",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "Overall trends (unimodal, right-skewed, peak around ~2) match the chart. However, there are notable inaccuracies: the x-axis starts closer to ~0.8, not 0.5; the peak appears a bit under 2.0 rather than between 2.0–2.5; the density at x≈3.5 looks closer to ~0.17–0.18, not 0.15; and the statement that keeping the indicator below 1.0 'reduces density by half from the peak' is incorrect (density near 1.0 is roughly 0.23–0.25 vs. a peak around ~0.32–0.33, not half).",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 5,
+        "evidence": "Covers chart type, title, axes, legend, approximate ranges, location/magnitude of the mode, tail behavior, and density levels at several points. Also notes overall shape and skewness.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides actionable interpretations (focus on 1.5–3.0 range, outliers above 4.0) and links distribution shape to mean/median relationship. The incorrect 'half' claim weakens the risk/threshold comment slightly.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured sections (composition, relationships, patterns, insights) with a coherent flow and no internal contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise with clear bulleting; minor verbosity in repeating the right-tail/outlier idea.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.1,
+    "normalized_score": 0.82,
+    "overall_comment": "A generally accurate and thorough summary with meaningful insights, but a few numerical inaccuracies (notably the 'half from peak' claim and the x-axis start) reduce faithfulness.",
+    "duration_s": 73.91,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_031715_line_en-US_fx_trade_e85ad04c",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "Core trend (rise through 2022, sharp drop early 2023, choppy range near 7.1–7.3, late-2025 decline) is captured. However, several numbers are off: the stated low near 6.31 is below the plotted y-axis floor (~6.4) and below the visible lows (~6.34–6.36); the highest value is described as ~7.35 and possibly in late 2022, but the chart’s highs appear closer to ~7.33 and not in 2022; it claims the 7.1–7.3 range spans 2023-01 to 2024-07, while early 2023 is mostly below 7.0; the end value is cited as ~7.06 while the plot ends closer to ~7.08–7.10.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Includes chart composition (title, axes, legend), main trend phases, peaks/valleys, range, and end direction. It could more explicitly note the mid-2024 plateau and the sharp rebound around mid-2023, but overall covers most key elements.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides implications (hedging needs, cost impacts) and risk thresholds (breach of ~7.35, drop below 7.0). While useful, some economic interpretation could be sensitive to the unit labeling and lacks data-backed justification for the thresholds.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 4,
+        "evidence": "Well-structured sections and generally coherent flow from description to insights. Minor internal inconsistency in timing (claiming 7.1–7.3 range from 2023-01) slightly weakens logic.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise and organized into bullets. A few repeated or generic phrases (e.g., mentioning stability around 7.2 multiple times) add minor redundancy.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.7,
+    "normalized_score": 0.74,
+    "overall_comment": "A generally solid summary with sound structure and useful insights, but accuracy is weakened by several numerical/timing misstatements and a possibly ambiguous interpretation of the exchange rate units.",
+    "duration_s": 107.21,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024351_candlestick_zh-CN_commodities_cc9c426f",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Main trends and levels match the chart: highest price near 5.8 in 2025 Q3 with sharp drop after; lowest around 3.7–3.8 in early 2024; timeframe 2024-01 to 2026-01; end-period volume spike >120k. One clear error: the right Y-axis tick interval is 20,000 (not 40,000). Other numeric statements are broadly consistent with the plot.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 5,
+        "evidence": "Covers chart composition (axes, colors, legend), timeframe, key extrema (high, low), overall phases, and notable volume behavior including the largest spike, plus magnitude of major rally and correction.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides meaningful insights (volatility rise, funds in/out), actionable thresholds (4.4 as risk, 5.5 as breakout test), and links price moves with volume. Could further justify levels with visible support/resistance zones or quantify recent consolidation.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured into description, data relations, patterns, insights, and risks. Flow is coherent and consistent with no contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise bullet points. Minor redundancy between the phase description and subsequent trend commentary.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.4,
+    "normalized_score": 0.88,
+    "overall_comment": "A strong and mostly accurate summary with solid insights and risk markers. The main issue is the incorrect volume-axis tick interval; otherwise it reflects the chart well.",
+    "duration_s": 79.02,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024335_line_band_overlay_en-US_inflation_629e4b35",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "Core trend is correct: the index rises from ~79 in 2004 to a bit over 90 in 2008, then falls to ~88 by early 2009. However, the peak is in late 2008 (not mid‑2008). The claim of a 'significant' expansion of the volatility band after 2007 is overstated—most widening occurs in 2008. Labeling the top a 'V-top centered in mid‑2008' is inaccurate. The risk threshold of 88 tied to deflation is speculative and not supported by the chart.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart components (raw series, 6‑month mean, std‑dev band), axis range, long uptrend, peak, subsequent drop, and relationship to the rolling mean. Could more precisely note timing of the peak and that the series dips below the lower band near the end.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides meaningful takeaways (trend reversal, implications for inflation expectations) and comments on volatility and deviations from the mean. The specific deflation threshold at 88 is speculative and weakens the rigor.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured sections (composition, relationships, patterns, insights) with a coherent flow from description to interpretation and no contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise; a few statements repeat the conclusion and include generic business implications that could be tighter.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.85,
+    "normalized_score": 0.77,
+    "overall_comment": "Solid, mostly accurate summary that captures the main trend and the late-2008 reversal, with useful interpretation. Minor timing errors and a speculative risk threshold reduce faithfulness.",
+    "duration_s": 168.43,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024349_heatmap_en-US_fixed_income_beae4b7a",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "The chart shows 8 yield tenors plus Credit Spread, Duration, and Convexity (11 metrics), but the summary says 12. It states Japan JGB has the longest Duration; however, the Duration cell for Municipal Bonds appears darker (longer) than JGB. It also asserts a clearly downward-sloping US Treasury curve; the colors look closer to a mild hump/flat rather than a clear inversion. Other points (HY Corporate highest yields and spreads, JGB lowest yields, negligible spreads for DM sovereigns, uniformly low convexity) align with the heatmap.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers instrument list, the extremes of yields and spreads, convexity pattern, and broad clustering. However, it omits several notable specifics visible in the chart (e.g., Municipal Bonds' very long duration, comparison of EM USD vs Latin America spreads, and where the minimum duration lies).",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides correlations (yields vs spreads, yields vs duration), strategic implications, and risk takeaways with actionable thresholds. Some claims (inverse duration–yield) are only roughly supported and not consistently validated by the chart, limiting depth.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Clear, sectioned structure from composition to relationships, patterns, and insights. Flow is coherent without contradictions in the narrative.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise and structured; a few sentences are estimative and repetitive but overall efficient.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.85,
+    "normalized_score": 0.77,
+    "overall_comment": "Good high-level reading with useful insights, but it contains factual slips (metric count, duration extrema) and overstates a few patterns. Tightening those inaccuracies would significantly improve the assessment.",
+    "duration_s": 147.23,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_032005_histogram_en-US_derivatives_f38a0586",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 3,
+        "evidence": "Several numeric inaccuracies: Exotic Derivatives are about 8,000 (not 7,000); Options are about 44,000 (not 45,000). The total is roughly 239,000, not 229,000. The max–min gap is ~36,000, not 38,000. The claim of a 'bimodal structure' is not supported by a categorical bar chart.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers chart type, axes, legend, categories, maxima/minima, notable comparisons (top three, low values), and an estimated total. It doesn’t detail mid-range categories individually but captures the main trends.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides business and risk implications (concentration in Options and Interest Rate Derivatives, resource allocation, hedging). However, part of the analysis relies on slightly incorrect numbers and an unsupported 'bimodal' characterization.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well-structured sections (composition, relationships, patterns, insights) with a coherent flow and no internal contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 4,
+        "evidence": "Mostly concise with some extra phrasing (e.g., 'bimodal structure', 'long tail') that adds little clarity.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 3.85,
+    "normalized_score": 0.77,
+    "overall_comment": "A generally solid summary with useful insights, but marred by several numerical inaccuracies and an unsupported claim about distribution shape. Correcting the figures and avoiding over-interpretation would improve fidelity.",
+    "duration_s": 53.51,
+    "status": "success"
+  },
+  {
+    "chart_id": "20251204_024520_point_figure_en-US_fx_trade_94879024",
+    "group": "B",
+    "scores": {
+      "faithfulness": {
+        "score": 4,
+        "evidence": "Accurately reflects the chart’s broad uptrend from ~40,000 to a peak slightly above 120,000, followed by a drop below 100,000 and an end around ~90,000. Colors (blue/orange) and two‑year P&F framing match the title and visuals. Minor issues: the y‑axis top looks closer to ~125,000 (not 120,000); the description of classic P&F 'vertical columns' is not clearly visible in this rendition; the exact start is a bit above 40,000; and calling the move a 'major trend reversal' is interpretive rather than strictly evidenced.",
+        "weight": 0.3
+      },
+      "completeness": {
+        "score": 4,
+        "evidence": "Covers axes, time span, main trend, peak, subsequent decline, and consolidation zones (40–70k and 90–120k). It omits precise figures for the lowest post‑peak level and the exact final reading/date, and does not note that the y‑axis likely extends to ~125k.",
+        "weight": 0.25
+      },
+      "analysis": {
+        "score": 4,
+        "evidence": "Provides actionable takeaways (reduce long exposure), clear thresholds (recapture 100k; weakness below 80k), and risk implications. Some statements (e.g., definitive reversal) are assertive without strict P&F confirmation rules but still add useful perspective.",
+        "weight": 0.2
+      },
+      "logicality": {
+        "score": 5,
+        "evidence": "Well organized into sections (composition, relationships, patterns, insights) with a coherent flow and no contradictions.",
+        "weight": 0.15
+      },
+      "conciseness": {
+        "score": 3,
+        "evidence": "The summary is somewhat verbose and repeats points about volatility and trend; could be tighter without losing meaning.",
+        "weight": 0.1
+      }
+    },
+    "weighted_score": 4.05,
+    "normalized_score": 0.81,
+    "overall_comment": "Good, mostly accurate summary that captures the chart’s key trend and offers actionable insights. Minor numerical and stylistic overstatements prevent a top score.",
+    "duration_s": 136.92,
+    "status": "success"
+  }
+]

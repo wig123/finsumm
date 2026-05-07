@@ -1,0 +1,28 @@
+[Chart Components]
+- Combination chart: Red bars represent Revenue (CNYmn), black line represents y-y growth % (RHS).
+- Title not displayed; X-axis represents years 2010–2025F.
+- Left Y-axis range 0–7,000 (CNYmn); Right Y-axis range 0%–80%.
+- Legend: Revenue (CNYmn), y-y growth % (RHS).
+
+[Data Relationships]
+- Revenue: 2010=367; 2011=426; 2012=728; 2013=948; 2014=1,196; 2015=1,534; 2017=2,279; 2018=2,522; 2019=3,089; 2020=3,647; 2021=4,386; 2022=4,437; 2023F=4,529; 2024F=5,224; 2025F=6,338.
+- High/Low Values: Lowest 2010=367, Highest 2025F=6,338, Difference=5,971.
+- Recent Comparison: 2021→2023F increase 143; 2023F→2024F increase 695; 2024F→2025F increase 1,114.
+- YoY Growth Annotation: 2010=21%; 2012=71%; 2020=23%; 2023F=1%; 2024F=2%; 2025F=15%.
+
+[Pattern Characteristics]
+- The revenue bars generally show continuous expansion, with relatively moderate growth in the early stages, significant volume increase in the mid-to-late stages, and continued amplification during the future forecast period.
+- The growth rate line formed a single peak in 2012, followed by multiple fluctuations around the mid-to-low range. It dropped to the lowest level in the chart during 2022–2023F, with a slight recovery projected for 2024F–2025F.
+- While revenue continues to expand upward during the forecast period, the growth rate forms a local trough in 2023F, contrasting with the sustained increase in revenue.
+
+[Core Insights]
+Core Conclusion: Revenue scale is expanding, but growth momentum temporarily weakened before recovering.
+
+Business Implications:
+- Revenue volume expansion is faster than in the early stages.
+- Recent growth potential contributes limited performance elasticity.
+- Recovery of the growth rate during the forecast period depends on the realization of volume increases in the later stages.
+
+Risk Concerns:
+- If YoY growth continues to fall below 5%, the revenue expansion will struggle to significantly enhance earnings elasticity.
+- If the 2025F growth rate falls below 10%, medium-to-long-term growth expectations may be downgraded.

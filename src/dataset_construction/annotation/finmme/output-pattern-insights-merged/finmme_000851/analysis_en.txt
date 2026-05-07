@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Table
+- Title: Not displayed
+- Column Headings: Years, Government parties, Chancellor
+- Color Coding: SPD (Red), Greens (Green), FDP (Yellow), CDU/CSU (Black)
+- Axes: None
+- Legend: Not listed separately; party names and colors are directly annotated.
+- Time Period Covered by Rows: 1998–02, 2002–05, 2005–09, 2009–13, 2013–18, 2018–21, 2021 to date
+
+[Data Relationships]
+- Total of 7 time periods: 1998–02, 2002–05, 2005–09, 2009–13, 2013–18, 2018–21, 2021 to date
+- Governing coalitions in each period: Sequentially SPD+Greens; SPD+Greens; CDU/CSU+SPD; CDU/CSU+FDP; CDU/CSU+SPD; CDU/CSU+SPD; SPD+Greens+FDP
+- Corresponding Chancellors: Gerhard Schröder (SPD) 1998–05; Angela Merkel (CDU) 2005–21; Olaf Scholz (SPD) since 2021
+- Party appearance frequency: SPD 6 times; CDU/CSU 4 times; Greens 3 times; FDP 2 times
+- Duration of each period: 1998–02 is 4 years, 2002–05 is 3 years, 2005–09 is 4 years, 2009–13 is 4 years, 2013–18 is 5 years, 2018–21 is 3 years; 2021 to date is undetermined
+- Cumulative duration: Schröder 7 years; Merkel 16 years
+
+[Pattern Characteristics]
+The table presents a two-stage dominant structure over time: initially led by the SPD, followed by long-term dominance by the CDU/CSU, and then returning to SPD leadership. Changes in government coalitions are limited between two-party and three-party alliances, with a three-party coalition appearing only in the most recent period. The selection of Chancellors is segmentally concentrated among three individuals, with one individual corresponding to a significantly longer time span.
+
+[Core Insights]
+Core Conclusion: Control of the government and the Chancellor position is consistently rotated between a minority of two major parties over the long term.
+
+Implications:
+- Governing power is highly concentrated in the two parties, SPD and CDU/CSU.
+- The Chancellor position exhibits a high degree of reliance on a single individual.
+- The frequency of coalition changes is limited, suggesting stronger policy continuity.
+
+Risk Considerations:
+- If a single Chancellor's tenure exceeds 16 years, internal checks and balances and renewal may be weakened.
+- If the government coalition is consistently limited to the same two parties over the long term, the influence of other parties may be restricted.

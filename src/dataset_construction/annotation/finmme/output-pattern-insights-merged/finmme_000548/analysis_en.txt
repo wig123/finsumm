@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Scatter plot, including a dashed regression line and a bold zero-scale crosshair.
+- Title: 5y Implied vs realised skew; last 3 months
+- X-axis: Implied skew (%); Scale approximately -0.15%, -0.05%, 0.05%, 0.15%
+- Y-axis: Realised skew (%); Scale approximately -0.3%, -0.2%, -0.1%, 0.0%, 0.1%, 0.2%, 0.3%
+- Legend: Blue diamond = Higher forward; Green square = Lower forward
+
+[Data Relationships]
+- Visible data range for the X-axis is approximately -0.15% to 0.15%; Y-axis is approximately -0.3% to 0.3%.
+- Farthest point on the right x≈0.10%; Farthest point on the left x≈-0.10%
+- Highest point above y≈0.25%; Lowest point below y≈-0.25%
+- Multiple data points exist near the origin (0,0).
+- The two types of markers (Higher/Lower forward) are presented concurrently within the same numerical range.
+
+[Pattern Characteristics]
+- Scatter points are mostly clustered near the origin, distributed along the diagonal direction, exhibiting an overall relatively dispersed linear structure.
+- Blue and green points are interspersed across different quadrants of the axes, but there are significant areas of numerical overlap.
+- The dashed regression line slopes slightly upward to the right. A few points are far from the regression line and the zero-scale crosshair, which can be considered outlier samples.
+
+[Core Insights]
+- Core Conclusion: There is limited consistency between implied and realized skew, and the grouping difference is not significant.
+
+Business Implications:
+- The predictive power of implied skew regarding future skew is limited.
+- The skew performance of the high and low forward groups lacks clear differentiation.
+- The effectiveness of relying on a single skew signal for directional judgment is restricted.
+
+Risk Focus:
+- When the absolute value of implied skew is >0.10%, if realized skew is close to 0%, it will lead to poor performance in expected skew trades.
+- When the absolute value of realized skew is >0.20% and deviates from the fitted relationship, it may cause hedging mismatch based on historical regression.

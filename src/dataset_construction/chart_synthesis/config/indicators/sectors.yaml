@@ -1,0 +1,52 @@
+real_estate:
+  ts_indicators:
+  - indicator: realestate.house.price.index
+    data_source: FRED
+    description_zh: Case-Shiller房价指数
+    description_en: Case-Shiller Home Price Index
+  - indicator: macro.housing.starts
+    data_source: FRED
+    description_zh: 新屋开工数
+    description_en: Housing Starts
+  - indicator: macro.housing.permits
+    data_source: FRED
+    description_zh: 建筑许可数
+    description_en: Building Permits
+  - indicator: macro.housing.sales.new
+    data_source: FRED
+    description_zh: 新屋销售
+    description_en: New Home Sales
+  - indicator: macro.housing.sales.existing
+    data_source: FRED
+    description_zh: 成屋销售
+    description_en: Existing Home Sales
+  synthetic_shapes:
+  - CS_1D
+  - CS_ND
+  synthetic_examples:
+  - 各城市房价涨幅对比
+  - 不同房型销售占比
+esg_sustainable:
+  ts_indicators:
+  # 环境相关时序指标（与ESG中的E相关）
+  - indicator: commodity.oil.wti
+    data_source: FRED
+    description_zh: 原油价格（碳排放参考）
+    description_en: WTI Crude Oil Price (Carbon Emission Reference)
+  - indicator: commodity.gas.natural
+    data_source: FRED
+    description_zh: 天然气价格（清洁能源转型）
+    description_en: Natural Gas Price (Clean Energy Transition)
+  - indicator: macro.industrial.production
+    data_source: FRED
+    description_zh: 工业生产指数（环境影响参考）
+    description_en: Industrial Production Index (Environmental Impact)
+  synthetic_shapes:
+  - CS_1D
+  - CS_ND
+  - MATRIX
+  synthetic_examples:
+  - ESG评分分布
+  - 碳排放行业对比
+  - 可持续发展目标覆盖
+  - 绿色投资占比

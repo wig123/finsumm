@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Vertical Bar Chart
+- Title: STOXX 600 Sectors: 3m change in 12m fwd EPS
+- Y-axis: Scale range -10.0 to 4.0, interval 2.0, 0 as baseline, units not labeled
+- X-axis: Sector classification and aggregate item, including Real Estate, Utilities, Staples Retail, Media, Const & Matls, Technology, Ind. Goods & Svcs, Financial Svcs, Banks, Insurance, F&B, Telecom, Retail, Health Care, Stoxx 600, Autos, Cons. Prod & Svcs, Travel & Leis, Basic Resources, Chemicals, Energy
+- Legend: No explicit legend; most bars are cyan, "Stoxx 600" is orange
+
+[Data Relationships]
+- Highest Value: Real Estate, located between 2.0 and 4.0
+- Second Highest: Utilities, also between 2.0 and 4.0
+- Multiple positive values between 0 and 2.0: Media, Const & Matls, Technology, Ind. Goods & Svcs, Financial Svcs, Banks, Insurance, F&B, Telecom, Retail
+- Negative value close to 0: Health Care (between 0 and -2.0)
+- "Stoxx 600": Negative value, between 0 and -2.0
+- Further negative: Autos (around -2.0), Cons. Prod & Svcs (between -2.0 and -4.0)
+- Larger negative values: Travel & Leis (approx. -4.0), Basic Resources (between -4.0 and -6.0), Chemicals (approx. -6.0)
+- Lowest Value: Energy, located between -8.0 and -10.0
+
+[Pattern Characteristics]
+Overall, it presents a high-to-low, single-peak distribution structure from left to right, with a minority of sectors concentrated in the positive range on the left, and multiple sectors located in the negative range on the right. The variance among positive-value sectors is relatively limited, while the negative tail is elongated, with individual sectors significantly lower than the rest. The overall benchmark item is located in the slightly negative range, positioned in the lower-middle section of the total distribution.
+
+[Core Insights]
+Core Conclusion: Earnings expectation revisions show significant divergence across sectors, with an overall slight downward bias.
+
+Business Implications:
+- Earnings expectation support is concentrated in a few defensive sectors.
+- The benchmark index's earnings expectations are being dragged down by sectors in the negative range.
+- Resource and energy-related sectors exert a prominent negative drag on the overall performance.
+
+Risk Focus:
+- If Energy continues below -8, it will further compress the overall earnings expectation resilience.
+- If Basic Resources and Chemicals both fall below -4 simultaneously, it will amplify the negative contribution of cyclical sectors to the index.

@@ -1,0 +1,33 @@
+[Chart Components]
+- Chart Type: Categorical Bar Chart
+- Title: Not displayed; Y-axis labeled as “Contribution (21‑Mar)”
+- Y-axis scale: Visible 0.00 (dashed baseline) and approximately 0.60 tick mark
+- X-axis categories: GBP_Bund corr, USDHY_JPY corr, S&P 500, USD HY, other, Reverse Goldilocks
+- Legend: Not displayed; Bar colors include green, red, black
+
+[Data Relationships]
+- GBP_Bund corr: 0.31
+- USDHY_JPY corr: 0.31
+- S&P 500: -0.17
+- USD HY: 0.08
+- other: 0.03
+- Reverse Goldilocks: 0.56
+- The first item (0.31) and the last item (0.56), difference 0.25
+- Sum of positive values 0.31+0.31+0.08+0.03=0.73; Net value after deducting -0.17 is 0.56, consistent with the last item
+- Maximum value 0.56, minimum value -0.17, range 0.73
+- USD HY is 0.05 higher than other
+
+[Pattern Characteristics]
+The bar chart exhibits a unidirectional cumulative structure, where two of the first four items have the same value, and most categories are concentrated in the medium positive range, with only one item falling into the negative range. Overall, the final higher terminal value is formed by the superposition of multiple medium contributions. Structurally, it presents a single-dominant pattern of "multiple small/medium values + one terminal value." The negative value only caused a localized pullback but did not change the final direction.
+
+[Core Insights]
+Core Conclusion: The overall result is entirely summarized into a single terminal value by the net effect of multiple factors.
+
+Business Implications:
+- The terminal value fully reflects the comprehensive performance of the preceding items
+- Two identical contribution sources are diversified, reducing reliance on a single factor
+- The negative item has a clear offsetting effect on the final result
+
+Risk Focus:
+- If the absolute value of the negative contribution exceeds 0.56, the terminal value may turn negative
+- If the largest single item exceeds 0.73, the structure may become highly concentrated, amplifying volatility impact

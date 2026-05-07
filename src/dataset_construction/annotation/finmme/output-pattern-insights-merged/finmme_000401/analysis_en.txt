@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Stacked Bar Chart
+- Title: CHINA AUTO EXPORTS TO WESTERN EUROPE — 3m AVERAGE, UNITS
+- X-axis: Time (Month), Range Dec-20 to Dec-23
+- Y-axis: Units (Vehicles), 0—90,000, Scale approximately every 10,000
+- Legend: ICE (Blue), Hybrid (Orange), BEV (Green), PHEV (Purple)
+- Other Elements: Flags of China and the EU
+
+[Data Relationships]
+- The peak total volume for the entire period was approximately Nov-22, ≈83,000 units; the lowest was approximately Dec-20, ≈8,000 units.
+- The total volume at the end of the period (Dec-23) was ≈75,000 units; the start of the period (Dec-20) was ≈8,000 units; the difference was ≈67,000 units.
+- Nov-22 Composition: BEV≈55,000, ICE≈20,000, PHEV≈7,000, Hybrid≈close to 0
+- Dec-23 Composition: BEV≈48,000, ICE≈20,000, Hybrid≈5,000, PHEV≈5,000; Total ≈75,000
+- The second-highest levels occurred in Dec-22 and Jul-23, both ≈75,000—78,000 units.
+
+[Pattern Characteristics]
+- Total volume gradually increased from the low level at the start of the period, reaching a clear peak at the end of 2022, and subsequently fluctuating within a higher range but not returning to earlier levels.
+- Structurally, BEV has long been the sole dominant factor. ICE significantly increased its volume after mid-2022. Hybrid and PHEV only began to form a visible proportion in 2023.
+- A prominent peak appeared at the end of 2022, followed by a clear decline during mid-2023, and subsequently returned to a level close to the previous peak.
+
+[Core Insights]
+Core Conclusion: Exports to Western Europe are highly dependent on electric vehicle models, with the structure gradually diversifying.
+
+Business Implications:
+- The export scale is generally in an expansion phase.
+- Revenue and bargaining power are more dependent on the performance of New Energy Vehicles (NEVs).
+- The growth of ICE and plug-in hybrid categories enhances portfolio flexibility.
+
+Risk Concerns:
+- If average monthly exports fall below 40,000 units, the scale effect will be significantly weakened.
+- If the BEV proportion falls below 50% of the total volume, it may weaken the differentiated positioning in the target market.

@@ -1,0 +1,30 @@
+[Chart Components]
+- Chart Type: Stacked Bar Chart (Percentage)
+- Title: Market share (Originations - Value)
+- X-axis: Time Categories, FY20, FY21, FY22, FY23, 1Q24
+- Y-axis: Unlabeled scale, proportions of each category indicated by percentages within the bars
+- Legend: Bank (Red), NBFCs (Grey), NBFC-MFI (White outline), SFBs (Light Orange), Others (Blue)
+
+[Data Relationships]
+- FY20: 46.1/7.4/30.5/15.4/0.6 (Bank/NBFCs/NBFC‑MFI/SFBs/Others, %)
+- FY21: 50.1/5.5/30.8/13.0/0.6
+- FY22: 43.0/6.6/33.4/16.5/0.5
+- FY23: 37.1/8.7/38.3/15.4/0.5
+- 1Q24: 32.7/9.1/39.4/18.4/0.4
+- Peak/Trough and difference (percentage points) for each category: Bank 50.1 (FY21) vs 32.7 (1Q24), difference 17.4; NBFC‑MFI 39.4 (1Q24) vs 30.5 (FY20), difference 8.9; SFBs 18.4 (1Q24) vs 13.0 (FY21), difference 5.4; NBFCs 9.1 (1Q24) vs 5.5 (FY21), difference 3.6; Others 0.6 (FY20/FY21) vs 0.4 (1Q24), difference 0.2.
+
+[Pattern Characteristics]
+- The proportion of Bank consistently remains the largest segment across all years, but has continuously shrunk since FY21. The proportions of NBFC-MFI and SFBs have gradually expanded during the same period. NBFCs have slightly increased, while Others remain minimal and largely stable.
+- The overall structure, from FY20 to 1Q24, has shifted from relative concentration around a single dominant entity to a landscape where the proportions of multiple institution types are relatively close. No sudden shifts occurred, only the Bank segment showing a noticeable, sustained decline after FY21.
+
+[Core Insights]
+Core Conclusion: The value share of credit originations is dispersing from traditional entities toward diversified institutions.
+
+Business Implications:
+- The dominance of leading institutions is weakening, resulting in a more fragmented landscape.
+- The importance of NBFC-MFI and SFBs is rising, influencing the focus of resource allocation.
+- The coexistence of multiple institutions increases demands for operational and collaborative management across different entities.
+
+Risk Concerns:
+- If the Bank proportion continues to fall below 30%, it could weaken overall stability and bargaining power.
+- If the NBFC-MFI proportion remains above 40% long-term, concentration in a single customer segment or model could amplify volatility shocks.

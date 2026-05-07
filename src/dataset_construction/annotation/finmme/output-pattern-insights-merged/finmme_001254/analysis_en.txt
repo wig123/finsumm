@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Time segmentation schematic diagram
+- Title: Not displayed
+- X-axis: Time, segmented into “Till 2010,” “2010-2023,” “2023 and beyond”
+- Y-axis: Value proposition (No scale values)
+- Segments: Left white, middle light gray, right dark gray; each segment contains a title and a list of key points
+- Legend: None
+- Markers: Red diagonal arrows located in the first two segments
+
+[Data Relationships]
+- 3 Time periods: Till 2010, 2010-2023, 2023 and beyond.
+- Till 2010 segment title “Cost,” 4 key points.
+- 2010-2023 segment title “Business Outcomes,” 4 key points.
+- 2023 and beyond segment title “Growth and Innovation,” 4 key points.
+- The text of the 4 key points in the first and third segments are identical (4/4 overlap).
+- 2 arrows, located in the first two segments respectively; no arrow is visible in the rightmost segment.
+
+[Pattern Characteristics]
+- The chart presents three continuous regions along the timeline, progressively darker from left to right. The Y-axis serves only as a conceptual axis for relative height/value, without specific scale markings.
+- The first two segments each have a red diagonal upward arrow, while the third segment lacks an arrow, highlighting a difference in visual emphasis between the segments.
+- The textual key points of the first and third segments are completely identical, while the middle segment uses a different set of text, forming an “Identical—Different—Identical again” structural arrangement.
+
+[Core Insights]
+Core Conclusion: After the value proposition undergoes a change in positioning, it returns to the early elements but points toward a higher level.
+
+Business Implications:
+- Cost-related elements are consistently viewed as foundational capabilities.
+- The medium term places greater emphasis on results orientation and professional depth.
+- The future phase emphasizes expansion and upgrading while continuing the cost elements.
+
+Risk Focus:
+- If development remains solely in the “Cost” phase, it will be unable to meet the demands of the “Business Outcomes” level.
+- If only the 4 common elements are retained in the future without enhancing new capabilities, the “Growth and Innovation” objective may be weakened.

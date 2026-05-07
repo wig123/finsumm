@@ -1,0 +1,28 @@
+**[Chart Components]**
+- Type: Line chart (red line).
+- Title: Not displayed; Legend: None.
+- X-axis: Month, range Jan-22 to Jan-24.
+- Y-axis: Percentage scale, approximately 10%—22%; End marked "20%".
+
+**[Data Relationships]**
+- Starting point: Jan-22 approximately 11%; Ending point: Jan-24 is 20%.
+- Maximum value: Jan-24 20%; Minimum value: Jan-22 approximately 11%; Range approximately 9 percentage points.
+- Key values: Aug-22 approximately 14%; Dec-22 approximately 14.7%; Jan-23 approximately 13.7%; Apr-23 approximately 17.2%; Jun-23 approximately 17.9%; Nov-23 approximately 19.7%.
+- Interval difference: Jan-23→Apr-23 increased by approximately 3.5 pct; Apr-23→Jun-23 increased by approximately 0.7 pct; Jun-23→Nov-23 increased by approximately 1.8 pct.
+
+**[Pattern Characteristics]**
+- The overall trend moves from the bottom-left to the top-right, with several brief pullbacks and consolidation phases during the period, but no long-term sideways trading range was formed.
+- A relatively clear cyclical low appeared near the beginning of 2023, followed by a relatively steep rally during the middle of 2023, and subsequently maintained a high level while continuing the upward trend.
+- Data distribution is continuous throughout the period, with no significant outliers; values in the latter half are concentrated in the higher range.
+
+**[Core Insights]**
+Core Conclusion: The indicator continuously rose and reached a new high during the observation period.
+
+Business Implications:
+- Implication 1 The indicator shows a continuously strengthening unidirectional characteristic.
+- Implication 2 The later period level is significantly higher than the initial period, showing clear phase differences.
+- Implication 3 The contribution to the result significantly increased in the mid-to-late period of 2023.
+
+Risk Focus:
+- Risk Point 1 If it exceeds 20%, it may trigger a significant amplification of related costs/exposure.
+- Risk Point 2 If it falls back below 15%, it will significantly deviate from the high levels of the past year.

@@ -1,0 +1,27 @@
+**[Chart Components]**
+- Type: Line Chart
+- Legend/Caption: STOXX 600: % of positive 3M change in 12m fwd Net Margin (Single Series)
+- X-axis: Years 2000–2024 (Approximately one tick mark every 2 years)
+- Y-axis: Percentage 0%–90% (10% increments); Reference line at approximately 50% in the middle
+- Text annotation on the right: 42%
+
+**[Data Relationships]**
+- The latest value (2024) is 42%, 8 percentage points lower than the 50% reference line.
+- The historical high point was around 2021–2022, close to the 80% mark; a difference of approximately 38 percentage points from the latest value.
+- The historical low points were near 2009 and 2020, close to the 10% mark; a difference of approximately 70 percentage points from the high point; and a difference of approximately 32 percentage points from the latest value.
+- Values for most years are distributed in the 40%–60% range.
+
+**[Pattern Characteristics]**
+The series shows significant upward and downward swings around the central reference line, with the overall distribution concentrated in the middle range. The chart contains several sharp upward and downward extreme values, with extreme low points often briefly touched before quickly returning to the middle range. The latest reading is in the lower part of the middle range, showing a significant retreat compared to the highs of recent years.
+
+**[Core Insights]**
+Core Conclusion: The current breadth of positive earnings revisions is at a relatively weak level.
+
+Business Implications:
+- The coverage (breadth) of earnings improvement is not as wide as during previous high points.
+- The support for overall earnings expectations is limited.
+- Reflects moderate stability in earnings revisions.
+
+Risk Focus:
+- If it falls below 40%, it could trigger a significant downward revision of future earnings growth.
+- If it approaches 20%, widespread downward earnings revision pressure will re-emerge.

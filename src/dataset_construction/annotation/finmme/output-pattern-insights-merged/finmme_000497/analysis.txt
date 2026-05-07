@@ -1,0 +1,26 @@
+【图表构成】
+- 类型：分组柱状图（每类含2023E灰柱、2024E红柱）
+- 标题：% change in cons. adj profit estimates since 31-Dec-2023 (current earnings season)
+- 纵轴：百分比，范围约-14.0%至2.0%
+- 横轴：ASXJ、ASEAN、India、Philippines、Singapore、Taiwan、Malaysia、Indonesia、China、ASXJ ex India、HK/CH、Thailand、Hong Kong、Korea；含“North Asia”分组标注
+- 图例：灰色=2023E，红色=2024E
+
+【数据关系】
+- 2023E：Korea -12.1%最低；Hong Kong -4.9%次低；正/零值有Singapore 0.6%、India 0.5%、Indonesia 0.1%、Taiwan 0.0%。
+- 2024E：Korea -4.0%最低；Hong Kong -3.9%、Thailand -3.2%、HK/CH -2.6%；正/零值有Singapore 0.5%、India 0.4%、Philippines 0.0%。
+- 主要对比（2024E-2023E，百分点）：Korea +8.1；Hong Kong +1.0；ASXJ +0.4；ASEAN -0.9；Philippines +1.1；Singapore -0.1；India -0.1；Taiwan -0.7；Indonesia -1.7；China -0.8；ASXJ ex India +0.5；HK/CH -0.6；Thailand -0.7。
+
+【模式特征】  
+整体上，各市场两年预估多数为负，仅个别市场接近零或略为正值。多数地区2024E柱与2023E柱高度接近，变化幅度有限，仅韩国在两年之间存在明显的水平差异。区域间分布呈现部分市场集中在轻微调整区间，极端值主要集中在个别北亚市场。
+
+【核心洞察】  
+核心结论：盈利预期整体承压，区域差异显著。  
+
+业务含义：  
+- 含义1 北亚个别市场盈利前景相对更受挑战  
+- 含义2 东盟与印度相关资产预期相对更具韧性  
+- 含义3 区域间收益预期分化加大配置选择重要性  
+
+风险关注：  
+- 风险点1 韩国2023E接近-12%区间，或放大利润波动与估值回调  
+- 风险点2 香港与泰国2024E约-3%至-4%，或拖累相关组合整体收益

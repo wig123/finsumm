@@ -1,0 +1,31 @@
+**[Chart Components]**
+- Chart Type: Waterfall Chart
+- Title: Not displayed
+- Y-axis: Index (base = 100), range 0–100, equidistant scale
+- X-axis Categories (from left to right): US manufacturing cost; Payroll, net of productivity differences; Facilities, construction and scale; Materials, components, tooling; Other costs; China manufacturing cost; Logistics costs; Other costs; Net landed cost in US
+- Legend: Not displayed
+
+**[Data Relationships]**
+- Starting Value: US manufacturing cost=100
+- Adjustment Values: Payroll=-35; Facilities=-8; Materials=-8; Other costs=-3
+- Intermediate Result: China manufacturing cost=48
+- Subsequent Items: Logistics=+10; Other costs=+5
+- Final Value: Net landed cost in US=63
+- Difference between Starting and Final Value: -37 (63-100)
+- Difference between Starting Value and China Manufacturing Cost: -52 (48-100)
+- Difference between China Manufacturing Cost and Final Value: +15 (63-48)
+
+**[Pattern Characteristics]**
+Overall, an initial benchmark value is decomposed downwards into multiple negative items, resulting in a continuous decrease, followed by the formation of a lower platform value in the middle. Subsequently, two positive items are superimposed, making the final result higher than this intermediate platform value but still lower than the initial benchmark value. Structurally, it is divided into three segments: "US Manufacturing Cost → China Manufacturing Cost → Landed Cost." The first segment involves multiple dispersed contributions, while the second segment involves a concentration of a few items driving the value up, with no obvious sudden jumps.
+
+**[Core Insights]**
+Core Conclusion: After shifting production to China, the total cost, even including landed costs, remains significantly lower than US domestic manufacturing.
+
+Business Implications:
+- Direct production costs in China are significantly lower than US domestic manufacturing levels.
+- Cross-border transportation and associated costs partially erode the overall savings.
+- Cost savings primarily stem from structural differences such as payroll and fixed facilities.
+
+Risk Focus:
+- If logistics-related costs increase by another 10 points compared to the current value, the overall savings margin will narrow significantly.
+- If the China manufacturing cost index rises from 48 to 63, the current cost difference will be completely offset.

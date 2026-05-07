@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Line chart
+- Title: Not displayed
+- X-axis: Time (Feb-23 to Feb-24), ticks labeled as Feb-23, May-23, Aug-23, Nov-23, Feb-24
+- Y-axis: Percentage, range 0%–12%
+- Legend: Green line "RTY - SPX 1m IV"
+
+[Data Relationships]
+- Initial period (Feb-23) approximately 2–3%
+- Peak value in Feb-23 approximately 11% (highest)
+- Near May-23 approximately 9%
+- Range value during Jun–Aug approximately 5–6%
+- Lowest in Sep–Oct approximately 3%
+- Mostly around 7–9% in Nov–Dec
+- Final period (Feb-24) approximately 10.5–11%
+- Difference between maximum and minimum approximately 8 percentage points
+- Final period is higher than the initial period by approximately 8 percentage points
+
+[Pattern Characteristics]
+The overall trend shows a structure of initial sharp fluctuation followed by a smoother, unidirectional change, with a large range span. Early stages showed multiple rapid spikes near lower levels, followed by a mid-stage consolidation range (platform), and then entering a late-stage step-wise elevation zone. Overall, there is no long-term symmetrical oscillation structure; the center of volatility is clearly at a higher level in the latter half.
+
+[Core Insights]
+Core Conclusion: The 1-month implied volatility premium of RTY relative to SPX has significantly increased.
+
+Business Implications:
+- The risk pricing level of RTY relative to SPX is continuously being elevated.
+- The risk exposure of related option positions is more concentrated in the RTY direction.
+- The payoff structure of cross-asset volatility spread strategies has become skewed.
+
+Risk Concerns:
+- If the spread approaches or exceeds 11%, RTY-related positions may face significant volatility losses.
+- If the spread drops back to 3% or below, previously established premium trades may experience concentrated drawdowns.

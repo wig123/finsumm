@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Line Chart
+- Title: US imports by country ($ billion)
+- X-axis: Years 2010–2023, with a vertical line annotation near 2018: “Trump tariffs implemented”
+- Y-axis: Value ($ billion), scale approximately 100 to 600, interval 100
+- Legend: Red line=Imports from China; Blue line=Imports from Canada; Green line=Imports from Mexico
+- Other: National flags corresponding to each country are marked next to the respective curves
+
+[Data Relationships]
+- China: 2018 Peak ≈ 550; 2019 Trough ≈ 430; 2023 ≈ 440; Difference between 2018 and 2019 ≈ 120; Difference between 2022 and 2023 ≈ 100.
+- Mexico: 2010 ≈ 260; 2018 ≈ 450; 2019 ≈ 340; 2023 Peak ≈ 480; Difference between 2019 and 2023 ≈ 140.
+- Canada: 2010 ≈ 300; 2014 ≈ 340; 2019 Trough ≈ 270; 2023 Peak ≈ 460; Difference between 2019 and 2023 ≈ 190.
+- 2023 Comparison: Mexico ≈ 480 > Canada ≈ 460 > China ≈ 440; Pairwise differences ≈ 20/20/40.
+- 2018 Comparison: China ≈ 550 > Mexico ≈ 450 > Canada ≈ 340; China - Mexico ≈ 100, China - Canada ≈ 210.
+
+[Pattern Characteristics]
+- Prior to 2018, the three curves generally showed a rhythmic upward trend, with the China line consistently at the highest level, forming a relatively prominent local peak in 2018.
+- After 2018, the China line experienced a significant drop and stabilized at a lower plateau, while the Mexico and Canada lines gradually extended upward after a brief pullback, converging and surpassing China during 2022–2023.
+- Before 2018, the gap between the three was large and the hierarchy was distinct. By 2023, the numerical range has significantly narrowed, and the ranking order has reversed compared to 2018.
+
+[Core Insights]
+Core Conclusion: The status of US imports from China has weakened, while neighboring North American countries have seen a relative increase.
+
+Business Implications:
+- Import source concentration shifts from a single high proportion to a more balanced structure.
+- Mexico and Canada's leverage in supplying the US has strengthened.
+- The US supply structure relies more on regional partner collaboration.
+
+Risk Focus:
+- If imports from China remain below 450 long-term, it may weaken the scope for cooperation with the Chinese supply chain.
+- If imports from either Mexico or Canada exceed 500 while the other stagnates, a new risk of regional concentration may emerge.

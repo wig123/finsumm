@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Line chart (single time series), including three horizontal reference lines.
+- Theme/Legend: Red line is "HMCL P/E premium(Discount) vs Sensex"; Gray line is "Average"; Black line is "+1SD"; Light orange line is "-1SD".
+- X-axis: Date, from Dec-08 to Dec-23, semi-annual scale (Jun/Dec).
+- Y-axis: Percentage scale, range approximately -60% to +60%, including the 0% baseline.
+
+[Data Relationships]
+- Initial period (Dec-08) approximately +20% to +25%.
+- Historical high point approximately +45% (near early 2009).
+- Historical low point approximately -55% (near mid-2022).
+- High-low spread approximately 100 percentage points (between +45% and -55%).
+- Final period (Dec-23) approximately -28% to -30%.
+- Deviation of the final period relative to the average line (approx. 0%) is about -30 percentage points.
+- The final period is approximately 3–5 percentage points higher than the -1SD reference line (approx. -33%).
+- Multiple readings between 2015–2017 are approximately in the -15% to -25% range; multiple readings between 2020–2021 are approximately in the -30% to -45% range.
+
+[Pattern Characteristics]
+- After briefly residing in a relatively high positive range early on, the series quickly retreated near the baseline and fluctuated frequently around the zero axis.
+- During the middle period, it oscillated slightly around the average line for an extended time, with the overall distribution being relatively centered, without touching the upper +1SD level.
+- After 2018, readings generally trended toward the lower range, repeatedly approaching or touching the -1SD area, forming a prolonged period of low-level operation, with only a few brief rebounds that failed to recover near the zero axis.
+
+[Core Insights]
+Core Conclusion: The relative valuation level shifted from being relatively high early on to being persistently low in the long term.
+
+Business Implications:
+- Demonstrated relatively strong valuation pricing power in the early period.
+- Subsequently remained in the discount range for a long period, indicating reduced market recognition.
+- The low-level range has persisted for an extended duration, reflecting limited momentum for valuation recovery.
+
+Risk Focus:
+- If the discount persists below -30%, or deepens to -45%, it may lead to further capital migration toward other assets.
+- If the short-term rebound remains below -15%, it may suppress the pace and magnitude of valuation mean reversion.

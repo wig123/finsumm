@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Time series line chart
+- Legend: Red line "Defense EV/EBITDA 1 Yr Fwd"; Solid black line "Post Covid 3Yr Average"; Dashed black lines "+1 SD" "-1 SD"
+- X-axis: Date, ranging from 2020/12/22 to 2023/12/22 (*Italicized notation*)
+- Y-axis: Numerical scale marked 5, 10, 15, 20, 25, 30
+- Three horizontal reference lines: Mean and ±1 SD
+
+[Data Relationships]
+- Initial period (2020/12/22) approximately 9; Final period (2023/12/22) approximately 24
+- Highest approximately 24 (2023/12/22); Lowest approximately 8.5 (around 2021)
+- Mean line approximately 12.2; +1 SD approximately 15.6; -1 SD approximately 8.8
+- Final period is approximately 11.8 higher than the mean line; approximately 8.4 higher than +1 SD; approximately 15.2 higher than -1 SD
+- Final period increased by approximately 15 compared to the initial period; Difference between highest and lowest is approximately 15.5
+- Mid-2022 approximately 12–13; Mid-2023 approximately 16–18
+
+[Pattern Characteristics]
+The red line generally fluctuated narrowly below the mean line around 2021, close to the -1 SD level. Starting in 2022, it gradually broke upward through the mean line and +1 SD, and by the end of 2023, it moved significantly away from the upper reference range. The trend does not show sharp short-term gaps, but the slope of the increase accelerated significantly in the latter half of 2023, forming a phased extreme value at the end of the period.
+
+[Core Insights]
+Core Conclusion: Valuation levels are now significantly higher than the normal range established during the three years post-pandemic.
+
+Business Implications:
+- Current valuation reflects a state of significant premium pricing.
+- Continued buying will raise entry costs and increase drawdown sensitivity.
+- Subsequent performance will rely more heavily on the degree to which expectations are met.
+
+Risk Focus:
+- If it falls back to +1 SD (approx. 15.6), a decline of approximately 8 points or more from the current level will result in a significant book drawdown.
+- If it falls back to the mean (approx. 12.2) or below, it implies a sharp compression of the valuation premium, potentially triggering a dual withdrawal of sentiment and capital.

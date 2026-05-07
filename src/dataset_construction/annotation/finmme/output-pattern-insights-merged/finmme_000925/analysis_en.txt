@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Pie chart
+- Title: FY23 Centre Cement capacity share (%)
+- Axes: No axes; Company names and percentages are labeled directly on each sector/slice.
+- Legend: No separate legend; labels are displayed with the sectors.
+- Sectors/Slices: UltraTech, Birla Corp, ACC, Prism Cement, JK Cements, Others; some sectors are separated/exploded for emphasis.
+
+[Data Relationships]
+- UltraTech: 39% (Largest)
+- Others: 25%
+- Birla Corp: 13%
+- ACC: 10%
+- Prism Cement: 8%
+- JK Cements: 5% (Smallest)
+- Total sum is 100%; the five named companies excluding "Others" total 75%.
+- Key differences: UltraTech minus Others = 14 percentage points; UltraTech minus Birla = 26 percentage points; Birla minus ACC = 3 percentage points; ACC minus Prism = 2 percentage points; Prism minus JK = 3 percentage points.
+
+[Pattern Characteristics]
+The chart displays a structure where a single large sector coexists with several small and medium sectors. The largest sector significantly exceeds all other individual sectors, while the smallest sector occupies a narrow area. Excluding the largest sector, the area gradient among the remaining named companies is relatively smooth. The "Others" sector area falls between the largest and the medium sectors. Sectors such as ACC and Prism Cement are moderately separated/exploded, making the medium-share tier easier to identify.
+
+[Core Insights]
+Core Conclusion: Capacity is concentrated among leading enterprises, while a significant tail space remains.
+
+Business Implications:
+- Leading enterprises possess significant influence/pricing power within the region.
+- Medium-sized enterprises have limited impact on the overall market structure.
+- "Others" reflects the number and dispersion of long-tail manufacturers.
+
+Risk Concerns:
+- When a single enterprise's share approaches or exceeds 40%, the risk of imbalanced bargaining power increases significantly.
+- If the "Others" share exceeds 30%, it may lead to intensified competition and the risk of profit margin erosion.

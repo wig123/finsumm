@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Bar chart
+- Title: Not displayed
+- X-axis: Company/Code (SHELL, BP, TOT, ENI, EQNR, REP, OMV, GALP, XOM, CVX)
+- Y-axis: Percentage, range 0%—3.0%, scale includes 0.5%, 1.0%, 1.5%, 2.0%, 2.5%, 3.0%
+- Legend: Not displayed
+
+[Data Relationships]
+- Values: SHELL 0.7%, BP 0.8%, TOT 1.1%, ENI 0.6%, EQNR 0.4%, REP 2.7%, OMV 2.0%, GALP 2.5%, XOM 2.0%, CVX 0.9%.
+- Maximum value REP 2.7%; Minimum value EQNR 0.4%; Range difference 2.3 percentage points.
+- GALP 2.5% is 0.5% higher than OMV/XOM (2.0%); REP 2.7% is 0.2% higher than GALP 2.5%.
+- TOT 1.1% is 0.3% higher than BP 0.8%, 0.2% higher than CVX 0.9%, and 0.5% higher than ENI 0.6%; BP 0.8% is 0.1% higher than SHELL 0.7%.
+
+[Pattern Characteristics]
+- Data for each company is discretely distributed within the 0%—3% range, mostly concentrated in two segments: below 1% and above 2%, with fewer companies in the middle segment.
+- REP and GALP form a clear high-level grouping, EQNR is at a distinct low level, and the remaining companies are arranged in a stepped sequence between 0.7%—2.0%.
+- The overall structure exhibits a multi-modal distribution, with a significant gap between the high and low levels, and no extreme outliers.
+
+[Core Insights]
+Core Conclusion: Performance differentiation of this indicator among companies is significant, showing a multi-level structure.
+
+Business Implications:
+- Leading companies demonstrate stronger performance on this indicator.
+- Mid-tier companies are positioned between the high and low ends, facing greater competitive pressure.
+- Lagging companies have a large gap compared to the leaders, which will be difficult to narrow in the short term.
+
+Risk Focus:
+- Companies below 0.5% (such as EQNR) may be at a sustained disadvantage in related business areas.
+- If companies above 2.5% (REP, GALP) see the indicator fall back toward 1%, their overall relative leading position will be significantly weakened.

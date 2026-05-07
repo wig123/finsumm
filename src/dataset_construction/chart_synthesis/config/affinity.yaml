@@ -1,0 +1,364 @@
+chart_theme_affinity:
+  line:
+    default: 1.0
+  candlestick:
+    equity_markets: 1.0
+    fx_trade: 1.0
+    commodities: 0.9
+    digital_assets: 0.8
+    derivatives: 0.7
+    default: 0.0
+  candlestick_volume:
+    equity_markets: 1.0
+    commodities: 0.8
+    fx_trade: 0.0
+    digital_assets: 0.0
+    default: 0.0
+  bar:
+    default: 0.9
+    derivatives: 0.5
+  area:
+    default: 0.8
+    corporate_finance: 0.5
+  histogram:
+    derivatives: 0.9
+    risk_regulation: 0.8
+    default: 0.0
+  scatter:
+    default: 0.7
+    inflation: 0.9
+    growth_employment: 0.9
+    macro_policy: 0.9
+  heatmap:
+    derivatives: 1.0
+    fx_trade: 0.8
+    equity_markets: 0.8
+    fixed_income: 0.7
+    default: 0.0
+  waterfall:
+    corporate_finance: 1.0
+    fiscal_policy: 0.9
+    asset_management: 0.8
+    default: 0.0
+  ohlc:
+    equity_markets: 1.0
+    fx_trade: 1.0
+    commodities: 0.9
+    default: 0.0
+  bollinger_bands:
+    equity_markets: 1.0
+    fx_trade: 1.0
+    commodities: 0.9
+    digital_assets: 0.8
+    default: 0.0
+  box:
+    growth_employment: 0.8
+    derivatives: 0.7
+    risk_regulation: 0.7
+    default: 0.0
+  pie:
+    asset_management: 1.0
+    corporate_finance: 0.9
+    insurance: 0.8
+    default: 0.4
+  treemap:
+    asset_management: 1.0
+    equity_markets: 0.9
+    corporate_finance: 0.8
+    default: 0.0
+  contour:
+    derivatives: 1.0
+    fixed_income: 0.8
+    default: 0.0
+  volume_profile:
+    equity_markets: 1.0
+    commodities: 0.8
+    fx_trade: 0.0
+    digital_assets: 0.0
+    default: 0.0
+  ichimoku_cloud:
+    equity_markets: 1.0
+    fx_trade: 1.0
+    commodities: 0.8
+    default: 0.0
+  renko:
+    equity_markets: 1.0
+    fx_trade: 0.9
+    commodities: 0.8
+    default: 0.0
+  errorbar:
+    growth_employment: 0.9
+    inflation: 0.9
+    macro_policy: 0.8
+    default: 0.5
+  radar:
+    corporate_finance: 1.0
+    asset_management: 0.9
+    esg_sustainable: 0.9
+    default: 0.5
+  fan_chart:
+    macro_policy: 1.0
+    inflation: 0.9
+    growth_employment: 0.8
+    default: 0.4
+  market_depth:
+    equity_markets: 1.0
+    commodities: 0.8
+    fx_trade: 0.0
+    digital_assets: 0.0
+    default: 0.0
+  point_figure:
+    equity_markets: 1.0
+    fx_trade: 0.9
+    commodities: 0.8
+    default: 0.0
+  candlestick_indicator:
+    equity_markets: 1.0
+    fx_trade: 1.0
+    commodities: 0.9
+    default: 0.0
+  density:
+    derivatives: 0.9
+    growth_employment: 0.8
+    inflation: 0.8
+    default: 0.5
+  heatmap_scatter:
+    derivatives: 0.9
+    equity_markets: 0.7
+    default: 0.0
+  bar_line_overlay:
+    default: 0.8
+    corporate_finance: 1.0
+    macro_policy: 0.9
+  line_band_overlay:
+    default: 0.7
+    macro_policy: 1.0
+    inflation: 0.9
+theme_shape_affinity:
+  equity_markets:
+    TS_OHLC: 1.0
+    TS_1D: 0.8
+    CS_ND: 0.6
+  fx_trade:
+    TS_OHLC: 1.0
+    TS_1D: 0.8
+  commodities:
+    TS_OHLC: 0.9
+    TS_1D: 0.9
+  digital_assets:
+    TS_OHLC: 1.0
+    TS_1D: 0.8
+  macro_policy:
+    TS_1D: 1.0
+    TS_ND: 0.9
+  inflation:
+    TS_1D: 1.0
+    TS_ND: 0.8
+    CS_ND: 0.7
+  growth_employment:
+    TS_1D: 1.0
+    CS_ND: 0.9
+  corporate_finance:
+    CS_1D: 1.0
+    CS_ND: 0.9
+    FLOW: 0.8
+  asset_management:
+    CS_1D: 1.0
+    CS_ND: 0.9
+  insurance:
+    CS_1D: 0.9
+    CS_ND: 0.8
+  derivatives:
+    MATRIX: 1.0
+    TS_1D: 0.7
+  # 补充缺失的主题 shape affinity
+  fixed_income:
+    TS_1D: 1.0
+    TS_ND: 0.9
+    MATRIX: 0.7
+  fiscal_policy:
+    TS_1D: 1.0
+    TS_ND: 0.8
+    CS_1D: 0.6
+  esg_sustainable:
+    CS_ND: 1.0
+    CS_1D: 0.9
+    TS_1D: 0.7
+  risk_regulation:
+    MATRIX: 1.0
+    TS_1D: 0.8
+    CS_ND: 0.7
+data_source_theme_affinity:
+  FRED:
+    macro_policy: 1.0
+    fiscal_policy: 0.9
+    inflation: 1.0
+    growth_employment: 0.9
+    fixed_income: 1.0
+    commodities: 0.8
+    risk_regulation: 0.9
+    equity_markets: 0.3
+    fx_trade: 0.0
+    insurance: 0.0
+    digital_assets: 0.0
+  Baostock:
+    equity_markets: 1.0
+    default: 0.0
+  yfinance:
+    equity_markets: 0.9
+    fx_trade: 1.0
+    commodities: 0.9
+    digital_assets: 1.0
+    default: 0.3
+  Synthetic:
+    default: 0.8
+    insurance: 1.0
+    esg_sustainable: 1.0
+    corporate_finance: 1.0
+    accounting_reporting: 1.0
+    ma_ipos: 1.0
+    payments_fintech: 1.0
+style_theme_affinity:
+  trading:
+    equity_markets: 1.0
+    fx_trade: 1.0
+    commodities: 0.9
+    derivatives: 1.0
+    digital_assets: 1.0
+    default: 0.3
+  quant:
+    derivatives: 1.0
+    risk_regulation: 0.9
+    inflation: 0.8
+    growth_employment: 0.8
+    macro_policy: 0.7
+    fixed_income: 0.8
+    default: 0.6
+  macro:
+    inflation: 1.0
+    growth_employment: 1.0
+    fiscal_policy: 1.0
+    macro_policy: 0.9
+    fx_trade: 0.8
+    commodities: 0.7
+    default: 0.5
+  news:
+    default: 0.8
+    equity_markets: 0.9
+    inflation: 0.9
+    growth_employment: 0.9
+    commodities: 0.8
+  corporate:
+    corporate_finance: 1.0
+    asset_management: 0.9
+    insurance: 0.8
+    banking_credit: 0.8
+    ma_ipos: 0.9
+    accounting_reporting: 0.9
+    default: 0.4
+  fintech:
+    payments_fintech: 1.0
+    digital_assets: 1.0
+    asset_management: 0.8
+    banking_credit: 0.7
+    default: 0.4
+  regulator:
+    macro_policy: 1.0
+    risk_regulation: 1.0
+    banking_credit: 0.9
+    fixed_income: 0.8
+    fiscal_policy: 0.8
+    default: 0.5
+  research:
+    default: 0.8
+    equity_markets: 1.0
+    fixed_income: 0.9
+    commodities: 0.9
+    corporate_finance: 0.9
+style_chart_affinity:
+  trading:
+    candlestick: 1.0
+    candlestick_volume: 1.0
+    ohlc: 1.0
+    bollinger_bands: 1.0
+    ichimoku_cloud: 1.0
+    renko: 1.0
+    point_figure: 1.0
+    volume_profile: 1.0
+    market_depth: 1.0
+    line: 0.8
+    default: 0.4
+  quant:
+    scatter: 1.0
+    heatmap: 1.0
+    contour: 1.0
+    density: 1.0
+    heatmap_scatter: 1.0
+    histogram: 0.9
+    box: 0.9
+    errorbar: 0.9
+    line: 0.8
+    default: 0.6
+  macro:
+    line: 1.0
+    area: 0.9
+    bar: 0.9
+    heatmap: 0.8
+    radar: 0.8
+    default: 0.6
+  news:
+    line: 1.0
+    area: 0.9
+    bar: 0.9
+    default: 0.7
+  corporate:
+    waterfall: 1.0
+    bar: 1.0
+    pie: 0.9
+    treemap: 0.9
+    bar_line_overlay: 0.9
+    default: 0.6
+  fintech:
+    line: 0.9
+    area: 0.9
+    pie: 0.8
+    default: 0.6
+  regulator:
+    line: 1.0
+    area: 0.8
+    bar: 0.8
+    heatmap: 0.7
+    default: 0.6
+  research:
+    line: 1.0
+    bar: 0.9
+    scatter: 0.8
+    candlestick: 0.8
+    default: 0.7
+language_data_source_affinity:
+  zh-CN:
+    Baostock: 0.4
+    yfinance: 0.25
+    Synthetic: 0.2
+    FRED: 0.15
+  en-US:
+    FRED: 0.35
+    yfinance: 0.35
+    Synthetic: 0.2
+    Baostock: 0.1
+language_theme_affinity:
+  zh-CN:
+    equity_markets: 1.0
+    payments_fintech: 1.0
+    real_estate: 0.9
+    macro_policy: 0.8
+    inflation: 0.8
+    default: 0.8
+  en-US:
+    macro_policy: 1.0
+    fixed_income: 1.0
+    inflation: 1.0
+    commodities: 0.9
+    fx_trade: 0.9
+    esg_sustainable: 0.9
+    default: 0.8

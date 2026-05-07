@@ -1,0 +1,26 @@
+[Chart Components]
+- Type: 100% stacked bar chart; no title observed.
+- X-axis: FY21, FY22, FY23, 1QFY24, 2QFY24, 3QFY24.
+- Y-axis: 0%–100%, 10% scale.
+- Legend: Replacement (Red), OEM (Gray), Export (Black-bordered hollow); Export proportion is marked by a white box at the top of the bar.
+
+[Data Relationships]
+- Sequence R/O/E; FY21: 72/19/9; FY22: 63/22/16; FY23: 59/26/15; 1QFY24: 64/25/11; 2QFY24: 63/25/12; 3QFY24: 63/25/12 (%).
+- Maximum/Minimum and Range for each segment: R 72(FY21)/59(FY23)/13; O 26(FY23)/19(FY21)/7; E 16(FY22)/9(FY21)/7 (percentage points).
+
+[Pattern Characteristics]
+- Among the three components, Replacement consistently holds the absolute dominant position. Its proportion initially contracted and then maintained similar levels across the quarters of FY24.
+- OEM generally remained in the middle range during the sample period, showing a structure of gradual elevation followed by horizontal continuation across the quarters of FY24.
+- Export showed a single increase in FY22, while remaining within a narrower range in other years and quarters. Overall volatility is lower than Replacement.
+
+[Core Insights]
+Core Conclusion: The revenue structure is highly dependent on Replacement, with OEM and Export serving as secondary supplements.
+
+Business Implications:
+- Revenue sources are concentrated in a single segment, leading to limited resilience against volatility.
+- The increase in OEM proportion indicates a strengthening contribution from original equipment supply.
+- The volume of Export is limited, resulting in minimal impact on the overall structure.
+
+Risk Focus:
+- If the Replacement proportion consistently exceeds 60%, a decline in this segment will amplify profit volatility.
+- If Export remains below 10% for the long term, it will limit the ability of external markets to diversify overall demand.

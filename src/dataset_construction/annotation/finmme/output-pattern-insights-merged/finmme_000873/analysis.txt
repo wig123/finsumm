@@ -1,0 +1,28 @@
+【图表构成】
+- 类型：多系列折线图；图例含 Dallas（深青实线）、Fort Worth（浅青实线）、Washington（橙色虚线点）。
+- 标题：未显示；Y轴标注“Index (base = 100)”。
+- X轴：时间，Jan-16 至 Jan-23，年刻度。
+- Y轴：范围约 90–130，网格线可见。
+
+【数据关系】
+- 期初(Jan-16)：Dallas≈100，Fort Worth≈99，Washington≈100。
+- Jan-20：Dallas≈112，Fort Worth≈110，Washington≈110；Dallas高约2。
+- 谷值(Jan-21)：Dallas≈100，Fort Worth≈98，Washington≈104；Washington分别高约4、6。
+- 期末(Jan-23)：Dallas≈127，Fort Worth≈124，Washington≈115。
+- 期末差距：Dallas比Fort Worth高≈3，比Washington高≈12；Fort Worth比Washington高≈9。
+- 全段高低幅度：Dallas≈27（127–100），Fort Worth≈26（124–98），Washington≈11（115–104）。
+
+【模式特征】  
+三条线均在 Jan-20 前大体同向变化，随后在 Jan-21 出现共同回落形成明显拐点。此后三地指数再度上行，但Dallas、Fort Worth 的增幅更大，导致与Washington 的距离逐步拉大。整体结构从初期接近、短暂交错，演变为后期的分层分化格局。  
+
+【核心洞察】  
+核心结论：三地指数中，Dallas、Fort Worth 明显领先并逐步拉开差距。  
+
+业务含义：  
+- Dallas、Fort Worth 的长期表现更具相对优势。  
+- 区域间表现差异加大，比较评估更为重要。  
+- Washington 的相对位次在样本期内有所后移。  
+
+风险关注：  
+- 若Dallas与Washington差距超过当前约12点，可能导致资源配置进一步失衡。  
+- 若Fort Worth跌回约110以下，而Dallas维持高位，可能放大内部结构差异压力。

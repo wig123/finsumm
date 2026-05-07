@@ -1,0 +1,30 @@
+【图表构成】
+- 类型：多折线图
+- 标题：未显示
+- 横轴：季度时间，从1Q21到4Q23
+- 纵轴：百分比，范围-20%至80%，刻度含0%、20%、40%、60%、80%
+- 图例与颜色：M/L-T corporate loans（深红）、Domestic household loans（橙）、Property loans（灰）、Inclusive finance (IF) loans（黄）、Green loans（浅橙）
+
+【数据关系】
+- 4Q23数值：M/L-T corporate loans为56%；Green loans为50%；Inclusive finance (IF) loans为16%；Property loans为-19%。
+- 4Q23对比：M/L-T较Green高6个百分点；较IF高40个百分点；较Property高75个百分点。
+- 4Q23对比：Green较IF高34个百分点；较Property高69个百分点。
+- 4Q23对比：IF较Property高35个百分点。
+- 横轴共覆盖12个季度（1Q21至4Q23）。
+
+【模式特征】
+- 各贷款类别在样本期内呈多条走势分化的形态，其中M/L‑T corporate loans整体位于最高区间，Property loans多数时间位于最低区间并多次落入负值区间。  
+- Green loans在中后段逐步上移并接近最高水平，Domestic household loans在中部区间内反复变化，IF loans在中低区间窄幅波动，整体分布呈明显的高低分层格局。  
+- 期间多处出现曲线交叉，特别是中段以后Green loans与Property loans位置发生明显对换，同时Property loans在后期形成持续低位的异常尾段。
+
+【核心洞察】
+核心结论：信贷结构明显向M/L‑T与绿色方向集中，房地产相关占比走弱。
+
+业务含义：
+- 中长期企业投向在整体配置中更具主导性。
+- 绿色信贷比重抬升，结构更偏向相关领域。
+- 房地产相关配置占比走低，家庭贷款影响相对温和。
+
+风险关注：
+- 若Property loans长期低于0%，或加大相关资产质量与抵押价值压力。
+- 若M/L‑T或Green loans单项持续高于60%，可能导致组合过度集中于少数领域。

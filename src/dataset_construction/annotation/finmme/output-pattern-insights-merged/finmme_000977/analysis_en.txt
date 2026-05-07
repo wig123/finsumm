@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Line chart, including shaded band (range).
+- Title: Not displayed.
+- X-axis: Monthly labels Jan–Dec.
+- Y-axis: Numerical scale -5.0 to 30.0, zero axis marked at 0.0.
+- Legend: 5Y Range (light green), 2023 (blue line), 2024 (orange line), 5Y Avg (gray dashed line).
+
+[Data Relationships]
+- 2023 Peak: September approximately 15; Second highest: February approximately 13.
+- 2023 Trough: May approximately 1; October approximately 2.
+- 2023 Beginning of year (Jan) approximately 10, End of year (Dec) approximately 7; Annual amplitude $\approx 14$ (15−1).
+- 2024 Data: January shows two points, approximately 9 and approximately 7; Difference $\approx 2$.
+- 5Y Avg Sample values: January approximately 4, September approximately 5, October approximately 3.
+- Comparison of 2023 and 5Y Avg: January difference $\approx +6$ (10−4), September difference $\approx +10$ (15−5), October difference $\approx −1$ (2−3).
+- 5Y Range reference: Upper boundary approximately 22 in May–June; Lower boundary mostly near −4 to 0; Upper boundary approximately 16 in September.
+
+[Pattern Characteristics]
+The 2023 curve showed multiple fluctuations throughout the year, frequently approaching or touching the upper boundary of the range, with individual months moving closer to the lower boundary of the range. Compared to the 5Y Avg, 2023 was generally positioned higher in the beginning of the year and the third quarter, briefly falling below it in October. The upper boundary of the 5Y Range rose significantly in May–June, while the distance between the September upper boundary and the 2023 peak was small; 2024 currently only has January data, with both points located above the 5Y Avg and situated in the upper-middle portion of the range.
+
+[Core Insights]
+Core Conclusion: The overall level of 2023 was elevated and volatility was significant, having already broken out of the historical average band.
+
+Business Implications:
+- Overall performance has been consistently higher than the average of the conventional range.
+- Approached historical highs multiple times during the year, indicating a rising baseline level.
+- The 2024 start continues the elevated structure, and short-term momentum persists.
+
+Risk Focus:
+- If a single month again approaches the upper boundary of approximately 22 seen in May–June, it may trigger pressures associated with extreme levels.
+- If the level drops near the lower boundary of the range (−4 to 0), it would create a strong contrast with most months of 2023, impacting the pace and expectations.

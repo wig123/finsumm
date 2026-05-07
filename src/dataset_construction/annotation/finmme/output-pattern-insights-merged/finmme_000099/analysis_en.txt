@@ -1,0 +1,35 @@
+[Chart Components]
+- Type: Table
+- Title: Ageing analysis of total domestic loans
+- Axes: None
+- Legend: Includes year groupings (Pre-pandemic and At present), Years: 2018, 2019, 2022, 2023
+
+[Data Relationships]
+- **Key Figures and Changes**:
+  - 1 mth to <2 mths: Declined from 2.6% in 2018 to 1.2% in 2022, slightly rebounding to 1.5% in 2023.
+  - 2 mths to <3 mths: Remained stable at 1.0% until 2019, then decreased to 0.6% in 2022, and further dropped to 0.3% in 2023.
+  - Impaired Loans: Were 0.4% in both 2018 and 2019, decreased to 0.3% in 2022, and rebounded to 0.4% in 2023.
+  - Total >1 mth: Declined from 4.0% in 2018 to 2.1% in 2022, rising to 2.2% in 2023.
+
+- **Extremum Comparison**:
+  - The maximum value occurred in 2018 (1 mth to <2 mths at 2.6%).
+  - Most items in 2022 showed a significant decrease compared to 2018.
+
+- **Key Trends**:
+  - Overall, the proportion of total outstanding loans aged over 1 month showed a downward trend from 2018 to 2022, but slightly increased in 2023.
+
+[Pattern Characteristics]
+- Data is categorized into three delinquency buckets plus a total summary, presented in two periods: "Pre-pandemic" and "At present." In all years, the proportion of 1 to <2 months is consistently higher than 2 to <3 months, with 2018 representing the overall peak.
+- 2022 was the low point, with a slight rebound observed in some items in 2023; Impaired Loans are close to early levels in the final period.
+
+[Core Insights]
+Core Conclusion: The delinquency structure leans towards the short term, and overall quality is under marginal pressure.
+
+Business Implications:
+- Short-term dominates, long-term sustainability is weaker.
+- Changes in the total proportion affect credit limit arrangements.
+- The non-performing proportion is in a sensitive range.
+
+Risk Focus:
+- Total >1 mth ≥ 2.2%: Expansion of the delinquency scale, dragging down the overall proportion.
+- Impaired Loans ≥ 0.4%: Expansion of the non-performing proportion, suppressing overall performance.

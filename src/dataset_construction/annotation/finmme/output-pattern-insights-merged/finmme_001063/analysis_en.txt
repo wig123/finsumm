@@ -1,0 +1,29 @@
+[Chart Components]
+- Type: Dual-axis line chart
+- Title: No explicit title displayed
+- X-axis: Time axis, range Jan-06 to Jan-24, marked with Jan/Sep scales
+- Left Y-axis: Numerical scale approximately -90 to 90, 0 as baseline; corresponds to the orange series "SEB survey - house price expectations"
+- Right Y-axis: Percentage scale approximately -20% to 20%; corresponds to the blue-green series "House prices YoY"
+- Legend: Two series, orange and blue-green
+
+[Data Relationships]
+- The orange series peaks at approximately 70 (2007, 2021) and bottoms out at approximately -70 (2009).
+- The orange series was approximately -30 at the end of 2018 and approximately -40 at the end of 2022.
+- The blue-green series peaks at approximately 18% (2021) and bottoms out at approximately -15% (2023).
+- Jan-24 values: Blue-green approximately 5%, Orange approximately 10.
+- Mid-2012: Blue-green approximately -8%, Orange approximately 10.
+
+[Pattern Characteristics]
+The two curves generally move in the same direction over most periods, with localized time lags or leads. The amplitude of the orange series is generally greater than that of the blue-green series, crossing the zero axis more frequently across multiple phases. Near 2009, 2020, and 2023, both lines showed a significant synchronous dip, subsequently returning to levels near or above the zero axis.
+
+[Core Insights]
+Core Conclusion: Price expectations are highly correlated with actual housing price performance, but expectations fluctuate more sharply.
+
+Business Implications:
+- Market participants are more sensitive to changes in housing prices.
+- Expectations can serve as a short-term indicator for housing price trends.
+- Periods of extreme expectations often accompany significant price adjustments.
+
+Risk Focus:
+- When YoY drops below approximately -10%, it often corresponds to concentrated pessimistic expectations, potentially leading to a cooling of transaction volume.
+- When the expectation index approaches approximately ±60, it may amplify subsequent price and credit volatility.

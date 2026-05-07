@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Time series line chart (with superimposed discrete markers).
+- Title: China Life Insurance.
+- Top Right Information: As of 26-Feb-2024; Currency = HKD.
+- X-axis: Date, tick marks labeled as 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01.
+- Y-axis: Price (HKD), range approximately 0–22.5.
+- Legend: Black line = Closing Price; Green triangle = Target Price Change; Blue dot = Recommendation Changes.
+- Source: LSEG, Nomura.
+
+[Data Relationships]
+- Coverage period approximately 2021/07–2024/02 (approx. 2.6 years).
+- Target price marker range approximately 15–22.5 HKD; highest approximately 22.5 (mid-2021), lowest approximately 15 (late 2022 to early 2024), high-low difference approximately 7.5 HKD.
+- Closing price reading range approximately 9–17 HKD; high point approximately 17 (mid-2021), low point approximately 9–10 (late 2022), difference approximately 7–8 HKD.
+- The blue dot for "Recommendation Changes" is visible 1 time, located approximately in Q2 2023.
+
+[Pattern Characteristics]
+The closing price generally shows a volatile pattern within the sample period: declining first, then rebounding, and then falling back again, with two or three relatively distinct local low and high points.
+The target price markers generally move downward, consistently maintaining a certain price difference (spread) with the closing price, but this spread narrows in the latter half of the period.
+The blue recommendation change point appears only once, coinciding with the closing price's phase-specific rebound, and does not form a high-frequency dense distribution.
+
+[Core Insights]
+Core Conclusion: Market expectations and the valuation center of gravity are generally shifting downward, with convergence of divergence in the later period.
+
+Business Implications:
+- The overall downward adjustment of the target price reflects a more conservative assessment of earnings or prospects.
+- The spread between the target price and the stock price narrows, compressing the potential for excess returns.
+- Sparse rating changes indicate that covering institutions maintain a relatively steady pace of adjustment.
+
+Risk Focus:
+- If the closing price falls below 10 HKD, it may trigger further target price reductions and position compression.
+- If the target price continues to hover around 15 HKD without upward revision, it may limit the scope for valuation re-rating.

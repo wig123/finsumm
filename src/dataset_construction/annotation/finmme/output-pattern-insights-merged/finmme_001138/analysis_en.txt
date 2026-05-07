@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Vertical Bar Chart
+- Title: Not displayed
+- Y-axis: Labeled “% change vs 2019”, range approximately -15% to 15%, scale interval 5%; includes 0% baseline
+- X-axis: Categories are various countries/regions, sequentially listed as UK, Denmark, Sweden, Finland, Netherlands, Germany, Poland, Belgium, Czech, Switzerland, EU, France, Austria, Hungary, Romania, Italy, Bulgaria, Spain, Portugal, Greece, Cyprus
+- Legend: Not displayed
+
+[Data Relationships]
+- Maximum Value: UK 7.5%; Minimum Value: Cyprus -8.3%; the difference between the two is 15.8 percentage points
+- Second Highest Values: Denmark 6.3%, Sweden 6.1%, Finland 6.0%, Netherlands 4.3%
+- Example Mid-Range Values: Germany 3.9%, Poland 3.3%, Belgium 2.9%, Czech 2.5%, EU 1.6%, France 1.4%, Austria 1.0%, Hungary 0.2%
+- Negative Value Sequence: Romania -0.4%, Italy -1.1%, Bulgaria -1.7%, Spain -3.1%, Portugal -3.3%, Greece -3.7%
+
+[Pattern Characteristics]
+- Data for each country/region exhibits a unimodal distribution around the 0% baseline, with the majority concentrated in the slightly positive range, and only a few falling into the negative range, where the absolute values are larger.
+- Bars are generally arranged from left to right in descending order of value. Within the positive value countries, there is a relatively smooth decreasing structure, while the negative value countries show more distinct gradient differences.
+- The chart shows a dense distribution area near 0%, and a single extreme value clearly extending downward near the minimum value.
+
+[Core Insights]
+Core Conclusion: Performance differentiation among regions relative to 2019 is significant, with positive regions being more concentrated.
+
+Business Implications:
+- Most countries are in a range of moderate improvement relative to 2019.
+- A few countries contribute structural drag, pulling down the overall average.
+- Cross-country resources and focus should be moderately shifted towards underperforming regions.
+
+Risk Focus:
+- Countries falling below -5% (such as those approaching -8%) may create significant negative pull on overall regional indicators.
+- Countries near 0% could transition from minor deviation to sustained underperformance if they drop below <-1%.

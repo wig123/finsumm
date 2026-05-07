@@ -1,0 +1,31 @@
+【图表构成】
+- 类型：数据表
+- 标题：未显示；首行“Total”给出汇总
+- 列：Company、Location、Target Online、Investment（美元）、Nameplate（GW）、Capex/Watt（$/W）、Component、Jobs*、per GW
+- 图例/注释：有颜色区分；脚注含“*制造业岗位（不含施工）”“**NI=不集成（仅含至少cell+module才计算）”“***1 GW module，1.5 GW cell”
+- 坐标轴：不适用
+
+【数据关系】
+- 总计：Investment $11.97 bn；Nameplate 44.3 GW；Jobs 17,310
+- 最高投资：Qcells（GA）$2.50 bn；Capex/W $0.73/W；Nameplate 3.3 GW；Jobs 2,500
+- 最低投资：Hounen Solar（SC）$0.03 bn；Nameplate 0.5 GW；Capex/W $0.03/W；Jobs 120
+- 最高Nameplate：5.0 GW（Canadian Solar-TX/IN、SEG Solar-TX、Trina Solar-TX）
+- Capex/W最低：$0.03/W（JA Solar-AZ、Hounen Solar-SC）；最高：$0.73/W（Qcells-GA）；差值$0.70/W
+- 最大Jobs：2,500（Canadian Solar-TX、Qcells-GA）；次大1,800（Maxeon-IN）
+
+【模式特征】
+- 各项目在投资额、产能与单位成本之间呈现明显离散分布，同一档产能内存在多种Capex/W水平。  
+- 产能最高的几家企业在投资和岗位数量上并非同时居于极端位置，单GW对应岗位数差异较大。  
+- 个别项目在Capex/W或岗位强度上显著偏离其他项目，形成少数极端高值与极端低值点。
+
+【核心洞察】
+核心结论：各项目投入效率与用工强度差异显著，结构较为分化。
+
+业务含义：
+- 单位成本差异反映出工艺与资产效率存在明显梯度。
+- 岗位密度差异将直接影响整体人力配置与运营费用。
+- 部分项目在投资与产能匹配上更趋集约，有利于集中资源管理。
+
+风险关注：
+- Capex/W接近或高于$0.70/W的项目，若收益不足或价格下行，或导致投资回收期显著拉长。
+- Jobs per GW高于1,000的项目，在收入不及预期时，固定人工成本压力可能放大亏损。

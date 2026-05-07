@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Stacked Bar Chart + Line Chart
+- Title: China AI market spending
+- Left Axis: USDbn, Range 0–30
+- Right Axis: Year-over-Year (YoY), Percentage, Range 0%–30%
+- X-Axis: Year/Forecast Period: 2021, 2022, 2023e, 2024e, 2025e, 2026e
+- Legend: Software (Red), Service (Light Pink), Hardware (Gray), YoY (Black Line, RHS)
+
+[Data Relationships]
+- Total Spending (USDbn): 10 in 2021; 12 in 2022; 15 in 2023e; 18 in 2024e; 22 in 2025e; 26 in 2026e.
+- Maximum value is 26 in 2026e; minimum value is 10 in 2021; difference is 16.
+- Annual Increment: 2022 increased by 2 compared to 2021; 2023e increased by 3 compared to 2022; 2024e increased by 3 compared to 2023e; 2025e increased by 4 compared to 2024e; 2026e increased by 4 compared to 2025e.
+- YoY (RHS): 2022 is in the 25%–30% range; 2023e is approximately 18%; 2024e is approximately 20%; 2025e is approximately 21%–22%; 2026e is approximately 20%.
+
+[Pattern Characteristics]
+- The stacked bars show continuous overall expansion, with the single-year increment gradually increasing. The gray segment consistently accounts for the main volume across all years, while the proportion of the red and light pink segments is relatively small and slightly increases over time.
+- The black line starts at a high level, followed by a noticeable decline. In subsequent years, it slightly increases around the medium-to-high range before slightly declining again. The overall fluctuation range is limited, and there are no extreme data points.
+
+[Core Insights]
+Core Conclusion: Total spending scale continues to expand, with the structure dominated by hardware.
+
+Business Implications:
+- The current investment structure exhibits high reliance on underlying infrastructure.
+- The proportion of software and services is small, indicating that the space for value realization has not been fully manifested.
+- Future budget planning must balance the scale of increment and structural optimization.
+
+Risk Concerns:
+- If YoY growth falls below 15%, it could lead to a significant cooling of market expectations.
+- If the hardware proportion remains above 70% long-term, it may restrict revenue growth for software and services.

@@ -1,0 +1,34 @@
+[Chart Components]
+- Type: Grouped bar chart (each currency pair contains 3 bars).
+- Title: Upper "Implied vol rich," Lower "Implied vol cheap."
+- X-axis: 7 categories—EURJPY, AUDJPY, GBPJPY, EURCHF, EURGBP, EURAUD, AUDNZD.
+- Y-axis: Numerical axis, range approximately -3 to 4, 0 as the baseline.
+- Legend: Dark green "Implied-realised," Medium green "-1w," Light green "-1m."
+
+[Data Relationships]
+- The highest bar overall is AUDJPY “-1m” ≈ 2.7; followed by GBPJPY “Implied-realised” ≈ 2.4.
+- The lowest are EURCHF “Implied-realised” ≈ -0.2; AUDNZD “Implied-realised” ≈ -0.2.
+- EURJPY: Approximately 1.3, 1.6, 1.7; “-1m” is approximately +0.4 higher than “Implied-realised.”
+- AUDJPY: Approximately 2.3, 2.5, 2.7; “-1m” is approximately +0.4 higher than “Implied-realised.”
+- GBPJPY: Approximately 2.4, 1.9, 2.0; the maximum-minimum difference in this group is ≈ 0.5.
+- EURCHF: Approximately -0.2, 0.3, 0.5; the light green increased by ≈ 0.7 compared to the dark green.
+- EURGBP: Approximately 0.2, 0.8, 1.2; “-1m” increased by ≈ 1.0 compared to “Implied-realised.”
+- EURAUD: Approximately 0.6, 0.9, 1.8; “-1m” increased by ≈ 1.2 compared to “Implied-realised.”
+- AUDNZD: Approximately -0.2, 0.2, 0.4; the range within the group is ≈ 0.6.
+
+[Pattern Characteristics]
+- Among all currency pairs, AUDJPY and GBPJPY are generally in the higher range of the chart, EURCHF and AUDNZD are close to the baseline, and EURGBP and EURAUD are in the upper-middle position.
+- Most currency pairs show a structure where the three bars sequentially rise from dark to light (green), only GBPJPY's recent level is slightly lower than the “Implied-realised.”
+- The most significant intra-group differences are seen in EURAUD and EURGBP, while the spacing between the three bars for GBPJPY is relatively small, indicating a tighter overall structure.
+
+[Core Insights]
+Core Conclusion: The implied volatility of major currency pairs is generally at a high level, with a noticeable recent increase.
+
+Business Implications:
+- Volatility expectations for JPY-related currency pairs are the most prominent.
+- The pricing sensitivity of EUR cross rates is increasing.
+- GBPJPY is relatively stable, with limited short-term adjustment space.
+
+Risk Focus:
+- The AUDJPY 1-month value is close to 2.7. Continued upward movement may increase margin and position costs.
+- The EURAUD 1-month value is around 1.8. A breakthrough above 2 could increase the P&L volatility of related option portfolios.

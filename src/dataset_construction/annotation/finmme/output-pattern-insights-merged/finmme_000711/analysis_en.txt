@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Line chart
+- Title: Not displayed
+- Y-axis: Labeled “(USD/bbl)”, range approximately 0–30
+- X-axis: Time (Monthly), Jul-22 to Jan-24
+- Legend: Gasoline (Red), Diesel (Light Gray), ATF (Black)
+
+[Data Relationships]
+- Start (Jul-22): Gasoline≈12, Diesel≈26, ATF≈12 (USD/bbl)
+- End (Jan-24): All three are ≈0
+- Gasoline: From Aug-22 to Jan-24, all values are ≈0; Peak value ≈12 (Jul-22), high-low difference ≈12
+- Diesel: Peak value ≈27 (Sep-22), multiple lows ≈0 (e.g., May-23, Jan-24), high-low difference ≈27
+- ATF: Peak value ≈18 (Sep-22), multiple lows ≈0 (e.g., Mar-23, Nov-23, Jan-24), high-low difference ≈18
+- February 2023: Diesel≈14, ATF≈12, the difference between the two ≈2
+- March 2023: Diesel≈4, Gasoline≈0, ATF≈0, the difference between Diesel and the other products ≈4
+- August–October 2023: Diesel≈10/11/9; ATF≈3/7/6 (Sep-23 difference ≈4)
+- December 2022: ATF≈10; Diesel≈25, difference ≈15
+
+[Pattern Characteristics]
+After Gasoline registered a one-time high in the first month, subsequent periods remained close to zero, showing a single, smooth structure. Diesel and ATF exhibited multiple fluctuating intervals from the second half of 2022 to early 2023, frequently dropping back to zero in between, forming several segmented waves. After mid-2023, only a small, synchronized wave for Diesel and ATF appeared in August–October; for the remaining months, the three products mostly remained jointly near zero.
+
+[Core Insights]
+Core Conclusion: Price spreads are primarily driven periodically by Diesel and ATF, while Gasoline's impact is limited.
+
+Business Implications:
+- Gasoline's contribution to the overall price spread is negligible over the long term.
+- Key periods rely mainly on Diesel and ATF to provide spread opportunities.
+- August–October 2023 was one of the few profitable windows where multi-product price spreads existed simultaneously.
+
+Risk Focus:
+- When all three approach 0 USD/bbl (e.g., Jan-24), related strategies have virtually no source of price spread.
+- When Diesel or ATF individually exceeds 20 USD/bbl, excessive concentration on a single product may amplify profit volatility.

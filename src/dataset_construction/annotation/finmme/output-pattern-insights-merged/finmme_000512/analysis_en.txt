@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Scatter plot; includes a gray dashed line and green dotted reference lines
+- Title: 3m Implied vs realised skew; last month
+- X-axis: Implied skew, range approximately -0.2% to 0.2%
+- Y-axis: Realised skew, range approximately -0.4% to 0.3%
+- Legend: Higher spot (blue diamond), Lower spot (green square)
+- Indicates x=0, y=0 axes
+
+[Data Relationships]
+- Maximum Realised value is approximately 0.23% (green, x≈0.10%), minimum is approximately -0.35% (blue, x≈0%)
+- Maximum Implied value is approximately 0.17%—0.20% (green), minimum is approximately -0.14% (blue)
+- Blue point range: Implied approximately -0.15%—0.02%; Realised approximately -0.35%—0.10%
+- Green point range: Implied approximately 0%—0.17%; Realised approximately -0.18%—0.23%
+
+[Pattern Characteristics]
+- The scatter points are generally distributed along the gray dashed line, showing a relatively distinct single linear structure, with no obvious clustering or splitting observed.
+- Blue points are primarily concentrated in the negative region of the X-axis, and the Y-axis values are mostly negative, with only a few approaching zero; green points are mostly distributed in the positive region of the X-axis, and the Y-axis values are distributed both above and below zero.
+- Among the green points, there are a few points with significantly high Y-axis values, and among the blue points, there are individual cases protruding downward on the Y-axis, which are more outlying relative to other points.
+
+[Core Insights]
+Core Conclusion: The relationship between implied and realized skew is tight, and the difference is significant depending on the price grouping.
+
+Business Implications:
+- In the Higher spot scenario, realized skew more frequently falls within the negative range.
+- In the Lower spot scenario, the distribution of realized skew is more dispersed, allowing for greater upward and downward fluctuation.
+- The level of implied skew provides a relatively stable indication of the future skew direction.
+
+Risk Concerns:
+- When realized skew is below -0.30%, negative tail volatility may be concentrated and amplified.
+- When realized skew is above 0.20% and implied skew is above 0.15%, positive tail volatility may lead to increased hedging costs.

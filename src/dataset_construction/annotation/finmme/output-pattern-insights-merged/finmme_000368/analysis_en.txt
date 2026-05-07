@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Single-series line chart (red).
+- Legend/Series Name: CET1 Capital Ratio (%).
+- Title: Not listed separately; the legend serves as the series description.
+- X-axis: Quarterly time points, from 3Q15 to 1Q24, marked at approximately half-year intervals (alternating 3Q and 1Q).
+- Y-axis: Scale 0–16, interval of 2; unit is percentage (%).
+
+[Data Relationships]
+- Initial period (3Q15) approximately 10%.
+- 1Q16 approximately 10–11%; 3Q16 approximately 13–13.5%, higher than 1Q16 by about 2–3 percentage points.
+- 3Q18 approximately 12%, one of the lower levels during the entire period.
+- All marked points from 2019 to 2023 fall within the approximate range of 12.5–13.8%.
+- Relative to 3Q18 (approx. 12%), the lower bound of the 2019–2023 range is higher by about 0.5 percentage points, and the upper bound is higher by about 1.8 percentage points.
+- The phase peak is near 3Q21–1Q22, approximately 13.8–14%.
+- Final period (1Q24) approximately 12.8–13.0%, higher than the initial period (3Q15) by about 2.5–3.0 percentage points, and lower than the peak by about 0.8–1.2 percentage points.
+
+[Pattern Characteristics]
+- The curve rapidly rises from a lower level early in the sample period, then fluctuates slightly around a medium-to-high level within a narrow range.
+- There are no sharp jumps throughout the period; local high points are concentrated near 3Q21–1Q22, and 3Q18 is one of the relative low points.
+- The latter part of the data slowly retreats from the local high point and concludes within the upper-middle range; the overall structure is continuous with no extreme outliers.
+
+[Core Insights]
+Core Conclusion: The capital adequacy level generally rose and then entered a plateau phase, with a slight recent decline.
+
+Business Implications:
+- Indicates that the capital buffer is more ample than in the initial period.
+- The capacity to withstand asset volatility and absorb losses has strengthened.
+- However, marginal improvement has been limited in the past two years, increasing the likelihood of tightening constraints.
+
+Risk Focus:
+- If the CET1 Capital Adequacy Ratio falls below 12%, the loss absorption capacity will be significantly compressed.
+- If it remains consistently in the 12%–12.5% range, future expansion and regulatory flexibility may be constrained.

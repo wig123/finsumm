@@ -1,0 +1,32 @@
+【图表构成】
+- 类型：分组柱状图（四家公司并列）。
+- 标题：未标注。
+- 图例：SBI Life（红）、HDFC Life（灰）、IPRU Life（白描边）、Max Life（蓝）。
+- 横轴：六个类别—APE Growth - 3Q24 (Y-Y)、APE Growth - 9M24 (Y-Y)、APE Growth - FY23 (Y-Y)、VNB Growth - 3Q24 (Y-Y)、VNB Growth - 9M24 (Y-Y)、VNB Growth - FY23 (Y-Y)。
+- 纵轴：百分比刻度，范围约-40%至50%，含0%基线；各柱标注具体数值。
+
+【数据关系】
+- APE 3Q24：SBI 13%、HDFC -7%、IPRU 5%、Max 19%；高低差26pp。
+- APE 9M24：SBI 17%、HDFC 9%、IPRU 0%、Max 14%；差17pp。
+- APE FY23：SBI 18%、HDFC 37%、IPRU 12%、Max 11%；差26pp。
+- VNB 3Q24：SBI 11%、HDFC -3%、IPRU -29%、Max -18%；差40pp。
+- VNB 9M24：SBI 11%、HDFC 5%、IPRU -15%、Max -2%；差26pp。
+- VNB FY23：SBI 37%、HDFC 37%、IPRU 28%、Max 28%；差9pp。
+- 全图极值：最高37%（SBI/HDFC，VNB FY23），最低-29%（IPRU，VNB 3Q24）。
+
+【模式特征】
+- 各公司在APE维度普遍处于正值区间，但HDFC在3Q24单季出现与其他公司方向相反的表现。  
+- VNB维度在FY23时四家公司数值相对接近，而到3Q24/9M24分化显著，其中IPRU和Max在多个时点落入负值区间。  
+- SBI在所有六个类别中均保持同一方向且位置较为居中，未出现极端高点或低点；IPRU在VNB 3Q24形成全图最低的单一异常值。
+
+【核心洞察】
+核心结论：近期VNB表现分化加剧，IPRU与Max承压最大。
+
+业务含义：
+- VNB弱势公司当前盈利质量承压。
+- SBI相对均衡，有利于维持整体盈利平滑。
+- HDFC由高增转弱，显示盈利动能阶段性放缓。
+
+风险关注：
+- IPRU VNB增速若持续≤-20%，或导致价值贡献快速下滑。
+- Max VNB增速若维持≤-10%，可能拖累中短期整体回报水平。

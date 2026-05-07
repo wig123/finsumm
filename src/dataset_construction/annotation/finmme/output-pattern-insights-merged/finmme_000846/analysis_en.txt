@@ -1,0 +1,33 @@
+[Chart Components]
+- Chart Type: Time series line chart (Closing Price).
+- Title: Bank of Ningbo.
+- Top right annotation: As of 23-Feb-2024; Currency = CNY.
+- X-axis: Date markers are 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01.
+- Y-axis: Price (CNY), range approximately 0–42.5.
+- Legend: Closing Price (black line), Target Price Change (green triangle), Recommendation Changes (blue dot).
+- Source: LSEG, Nomura.
+
+[Data Relationships]
+- Initial period (2021/07) closing price approximately 40 CNY; final period (2024/02) approximately 22 CNY.
+- Maximum value approximately 42 CNY (around 2021/07); minimum value approximately 20 CNY (2023/12–2024/01).
+- High-low difference approximately 22 CNY; difference from initial period to final period approximately 18 CNY.
+- There was 1 rating change marker in 2023/07, corresponding to a closing price of approximately 26–27 CNY.
+- There were 4 target price change markers between 2023/10 and 2024/01, with vertical positions approximately 40, 39, 36, 29 CNY.
+- The difference between the 2023/07 closing price (approx. 27) and the final period (approx. 22) is approximately 5 CNY.
+
+[Pattern Characteristics]
+- The price curve generally shows a step-wise decline, interspersed with multiple short-term rebounds and consolidation ranges.
+- Since mid-2023, the price has fluctuated narrowly around the mid-to-low range, showing a noticeable dip near the end of 2023 followed by a recovery.
+- From October 2023 to early 2024, the multiple target price adjustment points were generally located above the contemporaneous price, while the sole rating change point fell near a small price plateau.
+
+[Core Insights]
+Core Conclusion: The stock price has weakened long-term, and market expectations are diverging from the target price.
+
+Business Implications:
+- Valuation levels have significantly contracted compared to earlier periods.
+- The widening gap between the target price and the current price reflects inconsistency between expectations and transaction pricing.
+- Rating adjustments provide limited support for the price trend.
+
+Risk Focus:
+- If the price falls below 20 CNY again, it may trigger further sell-offs and liquidity pressure.
+- If the target price remains consistently in the 35–40 CNY range while the price stays below 25 CNY, it may erode investor confidence in research expectations.

@@ -1,0 +1,30 @@
+【图表构成】
+- 类型：双折线图
+- 纵轴：Index (base = 100)，范围约85–130，含红色虚线基准100
+- 横轴：时间刻度Jan-14至Jan-24（按月）
+- 图例：深色线“Tariff-impacted”，浅色线“Overall goods ex-food”
+- 参考标记：Jan-18竖向虚线
+
+【数据关系】
+- Jan-14：Tariff-impacted≈107；Overall goods ex-food≈109
+- Jan-18：Tariff-impacted≈100；Overall goods ex-food≈98；差≈2
+- Tariff-impacted最低≈98（2017–2018），最高≈124（2023）；高低差≈26
+- Overall goods ex-food最低≈92（2021），最高≈116（2023）；高低差≈24
+- Jan-21至Jan-23：Tariff-impacted≈108→≈123，增≈15；Overall goods ex-food≈92→≈114，增≈22
+- Jan-24：Tariff-impacted≈122；Overall goods ex-food≈113；差≈9
+
+【模式特征】  
+两条指数在Jan-14至Jan-18附近整体贴近，围绕基准线小幅上下波动。Jan-18之后，浅色线先明显走弱并跌破前期区间，而深色线保持相对平稳后再逐步抬升。自Jan-21起，两线同步向上但斜率不同，深色线在2023年前后明显高于浅色线，二者差距在Jan-24处处于相对高位但略低于峰值。
+
+【核心洞察】
+
+核心结论：关税相关品价格表现出更强的相对上行强度与粘性。
+
+业务含义：  
+- 关税相关品相对非关税品的价格压力更突出。  
+- 整体商品通胀中，关税相关品贡献度更大。  
+- 价格回落阶段，关税相关品调整弹性更弱。
+
+风险关注：  
+- 当Tariff-impacted指数>120且与另一指数差距≥8，可能造成结构性价格压力集中。  
+- 若Overall goods ex-food指数再次接近或低于95，而Tariff-impacted维持>115，或导致价格体系分化加剧，对相关品类需求产生挤出影响。

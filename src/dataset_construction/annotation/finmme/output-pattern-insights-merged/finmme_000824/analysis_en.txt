@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Bar chart, accompanied by a horizontal dashed line
+- Title: Main title not displayed
+- X-axis: Quarterly labels, ranging from 1Q19 to 3Q23
+- Y-axis: Percentage scale, ranging from 5.0% to 12.0%, major tick marks every 1.0%
+- Legend: Red bars represent “Opex as % of revenue”; Black dashed line represents “2019-2020 average”
+
+[Data Relationships]
+- Initial period 1Q19 was 7.0%; Final period 3Q23 was 8.5%; Change from initial to final period +1.5 percentage points
+- Maximum value: 4Q21 at 10.9%; Minimum value: 2Q19 and 2Q21 both at 5.9%; Range (high-low difference) 5.0 percentage points
+- 2019: 1Q 7.0%, 2Q 5.9%, 3Q 7.1%, 4Q 8.2%
+- 2020: 1Q 7.6%, 2Q 7.1%, 3Q 6.7%, 4Q 8.2%
+- 2021: 1Q 6.9%, 2Q 5.9%, 3Q 6.3%, 4Q 10.9%
+- 2022: 1Q 7.2%, 2Q 7.0%, 3Q 7.2%, 4Q 8.8%
+- 2023: 1Q 7.8%, 2Q 7.6%, 3Q 8.5%
+
+[Pattern Characteristics]
+The overall series oscillates around 7%, with several noticeable switches between peaks and troughs during the period. There was a prominent single-quarter peak at the end of 2021, after which the level was relatively elevated but still showed irregular fluctuations. The bar values are sometimes above and sometimes below the 2019-2020 average dashed line, but have continuously remained above the dashed line in recent quarters.
+
+[Core Insights]
+Core Conclusion: The proportion of operating expenses (Opex) has seen a phased increase and amplified volatility compared to the 2019-2020 period.
+
+Business Implications:
+- The expense pressure corresponding to unit revenue has generally intensified.
+- This exerts pressure on profit margins and cost efficiency.
+- Budgeting and expense control require greater refinement/precision.
+
+Risk Concerns:
+- If consecutive quarters exceed 10%, it could significantly erode profit margins.
+- If consistently above the 2019-2020 average over the long term, it may restrict reinvestment and pricing flexibility.

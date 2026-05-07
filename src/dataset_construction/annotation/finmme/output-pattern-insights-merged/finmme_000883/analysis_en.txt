@@ -1,0 +1,28 @@
+[Chart Components]
+- Chart Type: Horizontal Bar Chart
+- Title: Not displayed
+- X-axis: Percentage scale, range 0.0% to 10.0%, grid lines every 2%
+- Y-axis: Category labels include North America, Europe, China, Asia-Pacific, ROW, Total
+- Legend: Not displayed; bars are red
+
+[Data Relationships]
+- Category values (approximate): China ≈ 9.4%, North America ≈ 7.4%, Total ≈ 6.2%, Europe ≈ 5.7%, Asia-Pacific ≈ 4.8%, ROW ≈ 3.9%.
+- Difference between highest and lowest values: China (≈9.4%) is higher than ROW (≈3.9%) by ≈5.5 percentage points.
+- The difference between China and North America is ≈2.0 percentage points; North America is higher than Europe by ≈1.7 percentage points.
+- The difference between Total and Europe is ≈0.5 percentage points; Total is higher than Asia-Pacific by ≈1.4 percentage points.
+- Asia-Pacific is higher than ROW by ≈0.9 percentage points; the difference between China and Total is ≈3.2 percentage points.
+
+[Pattern Characteristics]
+The bar lengths for each region show a distinct high-low stratification structure within the overall range, without exhibiting a continuous increasing or decreasing sequence. The bars for China and North America are significantly longer than those of other individual regions, ROW is the shortest, and Total is positioned relatively high but not at the maximum. The overall distribution has no extreme outliers, but there is a significant gap between the highest and lowest categories.
+
+[Core Insights]
+Core Conclusion: China and North America exert the strongest driving effect on the overall level.
+
+Business Implications:
+- The result is primarily determined by a few high-performing regions.
+- Overall performance is relatively sensitive to changes in China's data.
+- The contribution of medium-to-low level regions to the overall result is relatively limited.
+
+Risk Focus:
+- If China's indicator falls below 7.0%, the overall level may be significantly lower than the current Total.
+- If North America's indicator falls below 5.0%, Total may approach or fall below Europe's existing level.

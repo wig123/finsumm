@@ -1,0 +1,27 @@
+【图表构成】
+- 图表类型：折线图；未见标题。
+- 横轴：时间，刻度从 Jan-16 至 Jan-24。
+- 纵轴：Index (base = 100)，范围约 90–150。
+- 图例：Dallas（深青）、Fort Worth（浅青）、Washington DC（橙色，点状）。
+
+【数据关系】
+- Jan-16：三城市指数均约为100。
+- Jan-23：Fort Worth约142，Dallas约139，Washington DC约129。
+- Jan-24：Fort Worth约145，Dallas约143，Washington DC约130。
+- Jan-24差距：Fort Worth比Dallas高约2点；比分Washington DC高约15点；Dallas比Washington DC高约13点。
+- 纵轴显示的最大刻度为150、最小刻度为90。
+
+【模式特征】
+三条线在起点重合，此后走势整体同向，但幅度逐渐分化。约在 Jan-21 前后，三条线短暂靠拢后出现相对明显的斜率变化，随即逐步拉开间距。终点处形成由高到低的固定排序，且顶部两条线彼此相近，第三条线明显偏下。
+
+【核心洞察】
+核心结论：三地指数长期同向演变，但强弱梯度已形成。
+
+业务含义：
+- Fort Worth与Dallas展现更强积累效应。
+- Washington DC相对表现逊色，影响综合排名。
+- 区域间分化加大，配置取舍空间增加。
+
+风险关注：
+- 若Washington DC指数长期滞于130附近，或拖累组合整体表现。
+- 若Fort Worth或Dallas指数接近150上限，继续追加可能面临回撤压力。

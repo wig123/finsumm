@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Time series line chart, including event markers
+- Title: SK Hynix
+- Top Right: As of 29-Feb-2024; Currency=KRW
+- X-axis: Date; Ticks are 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01
+- Y-axis: Price (KRW), Range 0–225,000, approximately every 25,000 is a tick mark
+- Legend: Black line=Closing Price; Green triangle=Target Price Change; Blue dot=Recommendation Changes
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- The closing price on 2024/02/29 was approximately 155,000 KRW.
+- The high point of the closing price for the entire period was approximately 155,000; the low point was approximately 75,000 (around 2022/10); the difference between high and low was approximately 80,000.
+- The starting closing price on the left end was approximately 140,000; the difference between the end of the period and the beginning was approximately 15,000.
+- The highest green triangle (Target Price) was approximately 220,000 (around 2022/01); the lowest was approximately 110,000 (around 2023/03); the difference between the two was approximately 110,000.
+- In 2023, the green triangles were mostly located between 110,000–150,000 (e.g., around 2023/01, 07, 09).
+- The blue dot appeared once, around 2023/01, at a position of approximately 110,000.
+
+[Pattern Characteristics]
+- The closing price during the sample period first gradually declined from a higher level near the left end, remained near the phase bottom for a relatively long time, and then returned close to the high point of the entire period. Overall, it exhibits a large-scale U-shaped structure, accompanied by multiple medium-amplitude fluctuations.
+- The number of target price markers is limited. Early points were significantly higher than mid-period points overall. Mid-period points were concentrated in a relatively low range, and later points were distributed upward again, forming a high-to-low-to-high hierarchical change.
+- The sole recommendation change point is located near the lower end of the target price median, occurring at a time when the closing price was in the relative middle range. Subsequently, there was no significant sudden change in the relative high/low relationship between the target price and the closing price.
+
+[Core Insights]
+Core Conclusion: The stock price has undergone a phase-based recovery, which is largely consistent with the renewed upward revision of institutional expectations.
+
+Business Implications:
+- Institutional valuation expectations had previously contracted significantly but were subsequently raised again.
+- The current price is close to the upper boundary of the historical range, indicating limited safety margin.
+- Recommendation adjustments are few, indicating that sell-side opinions are generally infrequent in change.
+
+Risk Focus:
+- If the stock price approaches or breaks 155,000 and then retreats, short-term momentum chasing may lead to losses.
+- If the target price revisits the vicinity of 110,000, it could trigger a valuation downgrade and emotional volatility.

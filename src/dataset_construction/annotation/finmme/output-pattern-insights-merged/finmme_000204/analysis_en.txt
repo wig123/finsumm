@@ -1,0 +1,33 @@
+[Chart Components]
+- Type: Combined Bar Chart (Capacity, Production) + Right-Axis Scatter Plot (Maximum Utilization).
+- Title: Capacity vs Maximum Production by Region, 2023E; Subtitle: m units (LHS) and utilisation (RHS).
+- X-Axis: Regional Classification—North America, Europe, Japan/Korea, Greater China, South Asia, South America, RoW.
+- Left Y-Axis: m units, Range 0–40,000, Increments of 5,000.
+- Right Y-Axis: Utilization %, Range 0%–80%.
+- Legend: Capacity (Light Bar), Production (Dark Bar), Maximum Utilization (Orange Dot, RHS).
+
+[Data Relationships]
+- Greater China: Capacity 35,000; Production ≈26,000; Difference ≈9,000; Utilization ≈65%.
+- North America: Capacity ≈21,500; Production ≈15,000; Difference ≈6,500; Utilization ≈60%.
+- Europe: Capacity ≈22,500; Production ≈17,000; Difference ≈5,500; Utilization ≈62%.
+- Japan/Korea: Capacity 15,000; Production ≈12,000; Difference ≈3,000; Utilization ≈70%.
+- South Asia: Capacity 15,000; Production 10,000; Difference 5,000; Utilization ≈65%.
+- South America: Capacity 5,000; Production 3,000; Difference 2,000; Utilization ≈52%.
+- RoW: Capacity 3,000; Production 2,000; Difference 1,000; Utilization ≈60%.
+
+[Pattern Characteristics]
+- Capacity and production across all regions are generally aligned (co-directional), showing clear stratification; Greater China has significant volume, while South America and RoW are smaller.
+- Production is generally lower than capacity; the gap (idle capacity) varies by region; Japan/Korea has the smallest gap, while Greater China and North America have larger gaps.
+- Utilization rates are concentrated in the medium-to-high range; Japan/Korea is at the upper bound, South America is at the lower bound, with no extreme outliers observed.
+
+[Core Insights]
+Core Conclusion: Significant differences in capacity utilization efficiency, with local loads approaching maximum limits.
+
+Business Implications:
+- Reflects uneven capacity utilization efficiency
+- Areas with high redundancy require optimized deployment/allocation
+- Regions with high load have limited flexibility
+
+Risk Focus:
+- When the difference is ≥9,000, redundancy expands, and production scheduling efficiency declines
+- When utilization is ≥70%, expansion capacity is constrained, limiting output growth

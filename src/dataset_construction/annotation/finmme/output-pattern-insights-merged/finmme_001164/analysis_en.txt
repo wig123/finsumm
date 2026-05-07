@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Bar chart (red bars).
+- Annotation: The chart includes the text "Average = 742" and a black dashed line indicating the average value.
+- X-axis: Time (Monthly), with tick labels from Jan-20, Jul-20, Jan-21, Jul-21, Jan-22, Jul-22, Jan-23 to Jul-23. Several bars representing unlabelled months remain on the right end.
+- Y-axis: Unit is (’000 MT), range approximately 0–1,600, with tick intervals of 200.
+- Legend: No dedicated legend.
+
+[Data Relationships]
+- Average Value: 742(’000 MT).
+- Initial Period (Jan-20): approximately 1,000.
+- Final Period (last bar on the right end): approximately 850.
+- Peak Value: approximately 1,350 (a certain month in H2 2023).
+- Trough Value: approximately 220 (a certain month in mid-2022).
+- Difference between high and low: approximately 1,130.
+- Difference between final and initial periods: approximately 150.
+- The peak value is approximately 608 higher than the average; the trough value is approximately 522 lower than the average.
+
+[Pattern Characteristics]
+Overall, the bars are distributed around the average dashed line. The early period is mostly slightly above the average, the middle section shows several months significantly below the average, and the later section is again significantly above the average. The series contains both peaks near the top scale and troughs near the bottom scale, indicating a wide fluctuation range. A period of continuously lower levels appeared in mid-2022, and a period of concentrated higher levels appeared in the mid-to-late 2023, forming two relatively prominent phase blocks.
+
+[Core Insights]
+Core Conclusion: Significant weakening in the middle term, followed by rapid recovery in the later term, exceeding initial levels.
+
+Business Implications:
+- Unstable performance in the middle term, temporarily dragging down the overall average level.
+- Later recovery raised the level above the initial period, restoring a certain capacity.
+- Coexistence of extreme high and low values reflects high sensitivity to external conditions.
+
+Risk Focus:
+- If levels fall below 400(’000 MT) for several consecutive months, it may compress profitability and capacity utilization.
+- If a single month exceeds 1,300(’000 MT), it may cause supply chain organization and inventory pressure.

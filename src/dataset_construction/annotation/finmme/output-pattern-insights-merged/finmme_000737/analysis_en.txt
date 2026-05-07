@@ -1,0 +1,31 @@
+[Chart Components]
+- Type: Time series line chart (Closing Price), including event markers.
+- Title: Hanwha Ocean; Top right annotation: "As of 21‑Feb‑2024, Currency=KRW".
+- X-axis: Date, range approximately 2021/07/01 to 2024/01/01.
+- Y-axis: Price, 0–45,000 KRW.
+- Legend: Closing Price (Black line), Target Price Change (Green triangle), Recommendation Changes (Blue dot).
+- Source: LSEG, Nomura.
+
+[Data Relationships]
+- Initial period (2021/07) closing price approximately 22,000 KRW; Final period (2024/02/21) approximately 22,000–23,000 KRW; Difference between the two <1,000 KRW.
+- Global maximum closing price approximately 43,000 KRW (mid-2023); Minimum approximately 15,000 KRW (early 2023); High-low difference approximately 28,000 KRW.
+- Blue dot 1 time: Approximately 2022/08, price approximately 17,000 KRW.
+- Green triangle approximately 6 times: Approximately 2022/08 (19,000), 2022/10 (21,000), 2023/03 (15,000), 2023/06 (23,000), 2023/07 (27,000), 2023/10 (18,000).
+- The mid-2023 peak is approximately 20,000 KRW higher than the final period price.
+
+[Pattern Characteristics]
+- Price initially experienced a high-level decline and range-bound fluctuation during the sample period, subsequently forming a distinct single-peak structure in mid-2023, and then falling back to near the initial level.
+- Green triangles are distributed near both relatively low prices and phase highs, showing multiple dispersed points rather than a single concentration; the sole blue dot is located near the price floor.
+- The overall pattern was relatively constrained before 2023. After mid-2023, the price fluctuation range significantly widened, showing a large span between the peak and the trough.
+
+[Core Insights]
+Core Conclusion: Although the stock price has returned near its starting point, it experienced extreme volatility in the interim, leading to repeated repricing of valuation expectations.
+
+Business Implications:
+- Stock price performance reflects high divergence in market views and volatile sentiment.
+- Mid-term holding faces significant market capitalization drawdown pressure.
+- Frequent adjustments to the target price indicate that analyst expectations lack a stable anchor point.
+
+Risk Concerns:
+- If the stock price approaches 15,000 KRW again, it may trigger stop-loss orders and passive selling, amplifying trading impact.
+- If it is difficult to return above 40,000 KRW in the short term, funds bought at high levels will remain in an unrealized loss state for a long time, affecting reallocation willingness.

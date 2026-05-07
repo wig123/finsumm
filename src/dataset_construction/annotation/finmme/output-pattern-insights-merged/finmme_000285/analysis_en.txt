@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Single-series line chart
+- Legend: Torrent EV/EBITDA 1 yr fwd (Red)
+- X-axis: Date, ranging from 2/2/2014 to 2/2/2024, marked by year
+- Y-axis: Numerical scale 0–30, major grid lines every 5 units
+
+[Data Relationships]
+- Initial Period (2014-02-02): Approximately 8–9
+- Historical Low: Approximately 8 (Early 2014)
+- Final Period (2024-02-02): Approximately 24; recent high approaching 24–25
+- Phased Highs: Approximately 16 (2015), approximately 20–21 (2021), approximately 24–25 (Early 2024)
+- Difference between Highest and Lowest: Approximately 16–17
+- Increase from Initial Period to Final Period: Approximately 15–16
+- Values in the 2018–2019 range were mostly between 14–16; values in the 2022–2023 range were mostly between 17–20
+
+[Pattern Characteristics]
+- The overall trend shows a gradually rising price range from left to right, accompanied by multiple distinct step-like upward shifts and volatile plateaus.
+- Several relatively prominent peak ranges formed around 2015, 2021, and early 2024, with fluctuations occurring within narrower ranges in between.
+- The value in early 2024 is near the upper boundary of the entire period, significantly higher than the fluctuation band observed during most of the preceding time.
+
+[Core Insights]
+Core Conclusion: The valuation level is already in a historically relatively high range.
+
+Business Implications:
+- Current valuation shows a significant increase compared to the long-term historical average.
+- The cost-effectiveness (value proposition) for new capital entry may decline.
+- The elasticity of book returns for existing holders is enhanced.
+
+Risk Focus:
+- If the valuation falls back below 20, it may lead to significant floating loss pressure.
+- If the valuation continues to stay near or above 25, the magnitude of subsequent adjustments may increase.

@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Time series line chart, overlaid with event markers.
+- Title: SBI Life Insurance.
+- Notes: As of 10-Mar-2024; Currency=INR.
+- X-axis: Date; Scale examples are 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01.
+- Y-axis: Price (INR), range approximately 0–1700.
+- Legend: Closing Price (black line), Target Price Change (green triangle), Recommendation Changes (blue dot).
+- Source: LSEG, Nomura.
+
+[Data Relationships]
+- Closing price at the beginning of the period (approx. 2021/07) was approximately 900–1000 INR; at the end of the period (2024/03/10) it was approximately 1450–1500 INR.
+- The lowest visible closing price was approximately 900–950 INR; the highest was approximately 1500–1550 INR; the range (difference) was approximately 550–650 INR.
+- Target price change markers totaled 9 occurrences; the lowest was approximately 1150 INR (mid-2021), the highest was approximately 1700 INR (early 2024); the difference was approximately 550 INR.
+- No blue "Recommendation Changes" dots are visible in the chart.
+
+[Pattern Characteristics]
+- The closing price generally shows a stepped upward trend, interspersed with multiple distinct pullbacks and consolidation ranges, where the price repeatedly oscillates within the range before breaking out to new high territory.
+- Target price change points are distributed throughout the entire period, showing a structure of multiple upward revisions. They consistently remain above the closing price, and the distance between the two narrows and widens at different stages.
+- No recommendation change markers appear in the chart, indicating no additional point-based events interfere with the line structure on the timeline.
+
+[Core Insights]
+Core Conclusion: The long-term performance of the closing price is generally consistent with the direction of the target price, indicating that the valuation space has been reassessed multiple times.
+
+Business Implications:
+- The overall price movement aligns with the research expectations.
+- Multiple upward revisions of the target price reflect continuous adjustments to valuation assumptions.
+- The closing price repeatedly approaches the high-end range, suggesting market sensitivity to the price band.
+
+Risk Focus:
+- When the closing price approaches or breaks through the 1700 INR target range, short-term pullback pressure may intensify.
+- If the closing price falls back to around 1200 INR or below, it may trigger a reassessment of prior valuation assumptions.

@@ -1,0 +1,29 @@
+[Chart Components]
+- Chart Type: Line Chart
+- Title: Relative performance against MSCI AeJ (LC)
+- X-axis: Time, Jan-18 to Aug-19, marked monthly
+- Y-axis: Numerical scale 80–115, step size 5
+- Legend: Red—CSI300; Green—MSCI KOREA; Gray—Hang Seng Index; Blue—MSCI TAIWAN; Black—MSCI CHINA
+
+[Data Relationships]
+- CSI300: Initial ≈99, Low ≈85 (Aug-18), Final ≈106; Range Amplitude ≈21.
+- MSCI KOREA: Initial ≈100, High ≈105 (Apr/Oct-18), Low ≈94 (May-19), Final ≈95; Variation ≈-5.
+- Hang Seng: Initial ≈100, Low ≈94 (Aug-18), High ≈101 (Mar-19), Final ≈96; Variation ≈-4.
+- MSCI TAIWAN: Initial ≈99, Low ≈98 (Apr-18), High ≈113 (Aug-19), Final ≈113; Variation ≈+14.
+- MSCI CHINA: Initial ≈99, High ≈100 (Jun-18), Low ≈87 (Sep-18), Final ≈91; Variation ≈-8.
+- Final Comparison: TAIWAN≈113＞CSI300≈106＞Hang Seng≈96≈KOREA≈95＞China≈91.
+
+[Pattern Characteristics]
+All indices were relatively close at the beginning of the period, followed by diverging trends. MSCI TAIWAN gradually established the highest level, while MSCI CHINA remained in the lowest range. CSI300 showed significant upward and downward fluctuation, whereas KOREA and Hang Seng generally operated around the middle range with relatively moderate amplitude. Around Q3 2018, multiple curves simultaneously reached their respective lows. Subsequently, only TAIWAN maintained a high position, creating a significant gap with the other indices by the end of the period.
+
+[Core Insights]
+Core Conclusion: Regional index performance is divergent, with Taiwan significantly leading and China notably lagging.
+
+Business Implications:
+- Uneven return structure within the region, widening disparity between countries
+- Relative returns are primarily contributed by Taiwan, with significant drag from China
+- Passively tracking the regional benchmark will lead to component country allocation bias
+
+Risk Focus:
+- If MSCI CHINA remains below 95 long-term, portfolio drawdown relative to the benchmark may be amplified
+- If MSCI TAIWAN exceeds other indices by more than 10 points, concentrated holdings may amplify the impact of single-market volatility

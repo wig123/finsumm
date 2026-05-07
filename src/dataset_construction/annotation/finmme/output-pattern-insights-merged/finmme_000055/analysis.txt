@@ -1,0 +1,30 @@
+【图表构成】  
+- 类型：饼图  
+- 标题：未显示单独标题，顶部为图例  
+- 图例：MCLR（红色）、Fixed（灰色）、Repo（白色）、Other EBLR linked（浅橙色，包含T-bill、MIBOR等）  
+- 标签：各扇区直接标注百分比（22%、17%、26%、35%）  
+- 坐标轴：不适用（饼图无坐标轴）  
+
+【数据关系】  
+- 各类别占比：MCLR 22%，Fixed 17%，Repo 26%，Other EBLR linked 35%，合计100%  
+- 最大与最小占比：Other EBLR linked为35%（最大），Fixed为17%（最小），差值为18个百分点  
+- 主要对比：MCLR占比比Fixed高5个百分点；Repo占比比Fixed高9个百分点；Repo占比比MCLR高4个百分点  
+- 其他对比：Other EBLR linked占比比MCLR高13个百分点；比Repo高9个百分点  
+- 组合对比：MCLR与Other EBLR linked合计占比为57%；Repo与Fixed合计占比为43%；前两大类别（Other EBLR linked和Repo）合计占比为61%
+
+【模式特征】
+- 四类占比呈阶梯式分布，两类面积明显大于另外两类。
+- 整体结构偏失衡，最大与最小之间差距清晰；前两项合并占多数。
+- 扇区连续、界限清楚，未见异常或突跳。
+
+【核心洞察】
+核心结论：以Other EBLR linked与Repo为主导
+
+业务含义：
+- 主基准集中，类别依赖度高
+- MCLR、Fixed影响力有限
+- 配置与定价更受主导权重驱动
+
+风险关注：
+- Other EBLR linked达35%，可能形成单类依赖、调整受限
+- 前两类合计61%，压缩MCLR/Fixed至43%，多样性下降

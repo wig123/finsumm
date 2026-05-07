@@ -1,0 +1,31 @@
+[Chart Components]
+- Chart Type: Dual line chart (with square markers)
+- Title: PC ASP
+- Y-axis: ASP of commercial and consumer PCs (USD), range $400–$1,000, scale $100 increments
+- X-axis: Time, Mar-18 to Sep-23 (Mar/Jun/Sep/Dec labeled)
+- Legend: Red for Desktop PC ASP; Gray for Portable PC ASP
+
+[Data Relationships]
+- Mar-18: Desktop≈$600, Portable≈$800, Difference≈$200
+- Peak: Portable in Mar-22≈$930; Desktop in Mar-22≈$740, Monthly difference≈$190
+- Trough: Desktop in Sep-18≈$580; Portable in Dec-20≈$770, Monthly difference≈$155
+- Sep-23: Desktop≈$690, Portable≈$870, Difference≈$180
+- Key Months: Sep-21 Desktop≈$710 vs Portable≈$880 (Difference≈$170); Jun-23 Desktop≈$700 vs Portable≈$850 (Difference≈$150)
+- Range: Desktop≈$580–$740 (Amplitude≈$160); Portable≈$770–$930 (Amplitude≈$160)
+
+[Pattern Characteristics]
+- The two curves generally maintain parallel movement throughout the period, with Portable consistently higher than Desktop, and the price differential fluctuating narrowly within a moderate range.
+- The Desktop curve was relatively stable in the first half, subsequently forming a distinct elevated plateau in 2021-2022, followed by a slight decline; the Portable curve, after a brief dip around 2020, formed a higher plateau in 2021-2022 and slightly moved downward towards the end of the period.
+- Both curves simultaneously reached their respective local peaks around early 2022, and their subsequent trends have been largely consistent, showing no crossover or severe divergence.
+
+[Core Insights]
+Core Conclusion: Portable PCs consistently maintain a higher price level over the long term, with the gap relative to Desktop PCs remaining relatively stable.
+
+Business Implications:
+- The product structure exhibits stable stratification, with clear price segmentation.
+- Revenue contribution relies more heavily on the ASP performance of portable products.
+- The potential for Desktop PC price increases is relatively limited, relying primarily on stable shipments.
+
+Risk Concerns:
+- If Portable ASP falls below $850 and persists, it will weaken the overall revenue ASP.
+- If Desktop ASP declines to around $620, it may compress the profit margin for this category.

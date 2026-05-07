@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Time series line chart, including event markers
+- Title: Primax
+- Top right corner: As of 21-Feb-2024; Currency = TWD
+- X-axis: Date, range approximately 2021/07—2024/02; Scale examples: 2021/07/01, 2022/01/01, 2022/07/01, 2023/01/01, 2023/07/01, 2024/01/01
+- Y-axis: Price, 0—85 (TWD)
+- Legend: Black line = Closing Price; Green triangle = Target Price Change; Blue dot = Recommendation Changes
+- Source: LSEG, Nomura
+
+[Data Relationships]
+- Initial closing price ≈ 62 (2021/07), final closing price ≈ 67 (2024/02), difference ≈ 5.
+- Highest closing price ≈ 70 (2022/07), lowest ≈ 50 (2021/12—2022/01), high-low difference ≈ 20.
+- Closing prices at key time points: 2022/11 ≈ 56; 2023/07 ≈ 66; 2023/11 ≈ 72.
+- 3 blue dots indicating recommendation changes: approx. 50 (2022/01), approx. 62 (2022/06), approx. 70 (2024/01).
+- Approximately 8 triangles indicating target prices: Highest ≈ 82 (2022/07); others approx. 65, 68, 75, 74, 76, 72, 75.
+
+[Pattern Characteristics]
+- While the closing price shows a gradual overall increase, there was a period of significant decline followed by a return to a similar range. Local volatility is frequent but remains within the central band.
+- Target prices are frequently concentrated in the range above the closing price, peaking in mid-2022, and subsequently maintaining a relatively constrained horizontal band.
+- Recommendation change points are sparse, mainly appearing near periodic lows and subsequent local highs, corresponding to local extremes in price and target price.
+
+[Core Insights]
+Core Conclusion: The stock price operates around a relatively concentrated valuation range, indicating institutional expectations are generally optimistic.
+
+Business Implications:
+- Long-term earnings expectations are relatively stable, with limited divergence in institutional views.
+- Price is often below the target price, representing potential valuation discount space.
+- Infrequent recommendation adjustments suggest a restrained attitude among covering institutions.
+
+Risk Focus:
+- If the closing price falls below 50, it may trigger a downward revision of earnings assumptions and ratings.
+- If the target price is lowered below 70 and persists, it may compress the valuation space and trading interest.

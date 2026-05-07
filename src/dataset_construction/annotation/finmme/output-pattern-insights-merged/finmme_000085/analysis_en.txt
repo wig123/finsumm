@@ -1,0 +1,40 @@
+[Chart Components]
+- Type: Line chart, with shaded area
+- Title: Not provided
+- Axes: X-axis represents week number (1 to 53), Y-axis represents percentage (0% to 100%)
+- Legend:
+  - 5yr range (shaded area)
+  - 5yr average (dashed line)
+  - 2023 (blue line)
+  - 2024 (red data points)
+
+[Data Relationships]
+- Key Values and Changes:
+  - The 2023 data declined from approximately 75% in Q1 to about 35% by Week 20, followed by a gradual rebound.
+  - Data at the beginning of 2024 is between 70% and 80%, slightly above the 5-year average line.
+
+- Extremum Comparison:
+  - The lowest value for 2023 occurred around Week 20, reaching approximately 35%.
+  - The highest value occurred in Week 50, reaching approximately 90%.
+
+- Key Trends:
+  - The 2023 data exhibited a U-shaped trend, showing higher values at the beginning and end of the year.
+  - Compared to the 5-year average, the 2023 data remained above the average level for most of the period.
+  - Data at the beginning of 2024 is higher than the 5-year average, indicating an upward trend.
+
+[Pattern Characteristics]
+- The 5-year average line and the range band follow a U-shaped trajectory; the range band is wider mid-year and narrower at the beginning and end of the year.
+- The 2023 curve remained above the average line for most of the time, hit a low point around Q2, and subsequently rose to a year-end high, approaching the upper boundary of the range.
+- The starting point for 2024 is above the average line, and the level is higher than the corresponding period in 2023.
+
+[Core Insights]
+Core Conclusion: Significant seasonality; currently positioned in a relatively high percentile.
+
+Business Implications:
+- Temporarily above the norm, with limited flexibility
+- Requires higher tolerance for position sizing and allocation ratios
+- Mid-year is the key monitoring period
+
+Risk Focus:
+- A decline to ≤70% may trigger passive de-allocation
+- Approaching 35% (2023 low) may lead to an expanded deviation from the mean and a contraction of exposure

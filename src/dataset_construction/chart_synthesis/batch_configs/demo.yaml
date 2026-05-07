@@ -1,0 +1,48 @@
+# 演示配置 - 小规模测试
+# 用法: python scripts/run_batch.py --config batch_configs/demo.yaml
+
+batch_name: "demo"
+output_base_dir: "./batch_output"
+
+# 执行配置
+execution:
+  parallel: true          # 是否并行执行
+  max_workers: 4          # 最大并发数
+  use_process_pool: false # 是否使用进程池(默认使用线程池)
+
+# 图表列表
+charts:
+  # 1. 通胀监控 - 中文折线图
+  - chart_type: line
+    language: zh-CN
+    theme: inflation
+    task: monitor
+    data_constraints: {}
+
+  # 2. 大宗商品对比 - 英文柱状图
+  - chart_type: bar
+    language: en-US
+    theme: commodities
+    task: compare
+    data_constraints: {}
+
+  # 3. 宏观政策诊断 - 中文散点图
+  - chart_type: scatter
+    language: zh-CN
+    theme: macro_policy
+    task: diagnose
+    data_constraints: {}
+
+  # 4. 增长与就业解释 - 英文折线图
+  - chart_type: line
+    language: en-US
+    theme: growth_employment
+    task: explain
+    data_constraints: {}
+
+  # 5. 房地产监控 - 中文柱状图
+  - chart_type: bar
+    language: zh-CN
+    theme: real_estate
+    task: monitor
+    data_constraints: {}

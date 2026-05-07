@@ -1,0 +1,28 @@
+[Chart Components]
+- Type: Stacked Bar Chart
+- Title: Untitled
+- Axes: Horizontal axis represents percentage (range from 0% to 100%); Vertical axis lists different political party combinations.
+- Legend: Green, red, and blue represent the proportions of different options, respectively.
+
+[Data Relationships]
+- In the CDU-CSU/SPD combination, the proportions are 40% for green, 38% for red, and 22% for blue.
+- The maximum proportion for red is 71%, appearing in the CDU-CSU/AfD combination.
+- The minimum proportion for blue is 22%, appearing in the CDU-CSU/SPD combination.
+- Red proportion ranking: CDU-CSU/AfD (71%) > SPD/Greens/FDP (67%) > CDU-CSU/Greens/FDP (64%) > CDU-CSU/Greens (58%) > SPD/CDU-CSU (51%) > CDU-CSU/SPD (38%).
+- The overall proportion of green is low, the proportion of red is generally high, and the magnitude of change in the blue proportion across different combinations is relatively small.
+
+[Pattern Characteristics]
+- The stacked bars of each combination show significant imbalance; the proportion of the red segment is generally large, the green segment is overall small, and the difference in the blue segment is limited.
+- The green segment significantly expands in CDU-CSU/SPD; the red segment is widest in CDU-CSU/AfD; the blue segments are similar across all combinations.
+
+[Core Insights]
+Core Conclusion: High structural concentration, limited space for diversified allocation.
+
+Business Implications:
+- Reflects concentrated preference and insufficient diversification
+- Reduces solution flexibility and impacts portfolio design
+- Weight of a single option is too high, alternative options have weak appeal
+
+Risk Focus:
+- Red ≥ 64%: Portfolio selection is locked, alternatives are difficult to introduce
+- Blue ≤ 22%: The influence of this option is insufficient, and it may be eliminated

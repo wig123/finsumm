@@ -1,0 +1,32 @@
+[Chart Components]
+- Type: Multi-series line chart; title not displayed.
+- X-axis: Year, range 1760–2000.
+- Y-axis: % of adoption, range 0–100.
+- Legend (9 series): Canals (US), Railways (US), Telegraphs (US), Oil pipelines (US), Roads (US), Shipping port infrastructure (US), Electric power (US), Gas for heating (UK), Central heating (US).
+
+[Data Relationships]
+- Railways (Blue): 1820 ≈ 10%, 1835 ≈ 100%, increase ≈ 90 percentage points.
+- Telegraphs (Yellow): 1900 ≈ 70%, 1940 ≈ 100%, increase ≈ 30 percentage points.
+- Electric power (Light Gray): 1950 ≈ 100%.
+- Shipping ports (Black): 1970 ≈ 10%, 1985 ≈ 90%, increase ≈ 80 percentage points.
+- Gas for heating (Pink): 2000 ≈ 95–100%.
+- Central heating (Red): 2000 ≈ 95–100%.
+- Oil pipelines (Orange): 1960 ≈ 50%, 2000 ≈ 95%.
+- By 2000, most series approached or reached 100%.
+
+[Pattern Characteristics]
+- Each series appears sequentially on the timeline, exhibiting a platform shape that is initially slow, then rapid, and finally levels off, generally approaching the saturation limit.
+- The starting times for different infrastructures vary significantly, showing a clear generational "echelon" structure, with distinct intervals between early and mid-to-late stage technologies.
+- Individual series show temporary stagnation or changes in slope during the middle phase, indicating differences in pace during the transition from low coverage to high coverage.
+
+[Core Insights]
+Core Conclusion: Infrastructure adoption exhibits a clear pattern of generational relay and gradual saturation.
+
+Business Implications:
+- Different technologies have a clear sequence of substitution and succession.
+- Market penetration shows reduced sensitivity to incremental investment during the mid-to-late stages.
+- Later-stage infrastructure demonstrates higher expansion efficiency during the popularization phase.
+
+Risk Focus:
+- When the adoption rate exceeds 90%, the marginal return on new investment may decline rapidly.
+- When the adoption rate is below 20% and remains there long-term, it may indicate stalled commercialization progress.

@@ -1,0 +1,32 @@
+[Chart Components]
+- Chart Type: Grouped Bar Chart
+- Title: Not displayed
+- X-axis: Fiscal Year Classification FY12–FY23
+- Y-axis: Percentage Scale 0%–45%
+- Legend: Red "RoE (%)", Gray "RoE ex-cash & ICDs (%)"
+- Two bars per year, with specific percentages annotated at the top of the bars
+
+[Data Relationships]
+- FY12: RoE 14.1%, ex‑cash&ICDs 23.6%.
+- FY23: RoE 15.9%, ex‑cash&ICDs 38.8%; the difference between the two is 22.9 percentage points.
+- RoE peak value 15.9% (FY23), trough value 8.3% (FY20), high-low difference 7.6 percentage points.
+- ex‑cash&ICDs peak value 38.8% (FY23), trough value 9.5% (FY14), high-low difference 29.3 percentage points.
+- Minimum gap between the two series FY14: 8.5% vs 9.5%, difference of 1.0 percentage point; Maximum gap FY19: 13.4% vs 36.2%, difference of 22.8 percentage points.
+- Comparison between FY12 and FY23: RoE difference 1.8 percentage points; ex‑cash&ICDs difference 15.2 percentage points.
+
+[Pattern Characteristics]
+- Both series show phased volatility overall; they were relatively close in the early period, but in the middle and later periods, the gray bars were significantly higher than the red bars, the gap gradually widened, and both reached their respective high points at the end of the period.
+- The fluctuation range of the red bars within the period is limited, remaining within a relatively narrow range; the gray bars showed significant increases in several years, resulting in greater overall volatility.
+- Near FY14, the heights of the two are almost coincident, while during FY19–FY23, the gray bars formed a sustained high-level "uplift band" relative to the red bars, with the gap remaining at a relatively high level.
+
+[Core Insights]
+Core Conclusion: Shareholder return is significantly amplified and sustained over a longer period after excluding cash and ICDs.
+
+Business Implications:
+- Indicates that the return level of core operating assets is significantly higher than the overall return.
+- The overall RoE is more influenced by the allocation strategy of low-yield assets.
+- Reflects a higher contribution of core business to shareholder value.
+
+Risk Concerns:
+- If RoE remains below 10% for the long term, the overall shareholder return may struggle to support the current capital deployment.
+- If the gap between RoE and the ex-cash metric consistently exceeds 20 percentage points, it may increase pressure for the disposal and reallocation of inefficient assets.

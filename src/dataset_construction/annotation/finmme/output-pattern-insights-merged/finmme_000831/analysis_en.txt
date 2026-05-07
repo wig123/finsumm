@@ -1,0 +1,27 @@
+[Chart Components]
+- Type: Time series line chart, including a red line, a green central axis, and a light green banded area.
+- Title: Not displayed.
+- X-axis: Monthly scale Apr–Mar, labeled with years 2023, 2024.
+- Y-axis: Numerical scale 80–150, with an increment of approximately 10.
+- Legend: Red “EU Real Estate,” Green “MarFA™ Macro.”
+
+[Data Relationships]
+- Start of period (April 2023) red line approximately 118; End of period (March 2024) approximately 125.
+- The red line reached its lowest point around November 2023, approximately 110; its highest point was in December 2023, approximately 135; the high-low difference is approximately 25.
+- The green line (central axis) was approximately 120 around September 2023; and approximately 138–140 between December 2023 and January 2024; the high-low difference is approximately 18–20.
+- Key point comparison: April 2023 Red ≈ 118 vs Green ≈ 130, difference ≈ 12; November 2023 Red ≈ 110 vs Green ≈ 125, difference ≈ 15; December 2023 Red ≈ 135 vs Green ≈ 136, difference ≈ 1.
+
+[Pattern Characteristics]
+The red line generally fluctuates around the green line, remaining below the green line most of the time, only approaching it at specific localized points. The red line formed a clear low point around November 2023, followed by a rapid surge in December, and subsequently oscillated slightly within a marginally elevated range. After a slight decline mid-year, the green line rose around year-end and maintained a relatively high level. The width of the light green banded area is generally balanced, showing no extreme narrowing or sharp widening.
+
+[Core Insights]
+Core Conclusion: The underlying asset’s trend is generally weaker than the MarFA™ Macro benchmark level.
+
+Business Implications:
+- Being below the benchmark most of the time indicates relative underperformance.
+- The short-term recovery at year-end was limited and did not establish a sustained trend of outperforming the benchmark.
+- There is a phased deviation in synchronization with the macro factor.
+
+Risk Focus:
+- If the asset approaches 110 again and consistently remains ≥10 points below the benchmark, it could lead to significant drag on relative returns.
+- If the benchmark remains above 138 while the asset stays around 125, the long-term tracking error may significantly widen.

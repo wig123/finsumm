@@ -1,0 +1,31 @@
+【图表构成】
+- 类型：分组柱状图（百分比）
+- 图例：Value（红）、Volume（灰）、Ticket size（白框）
+- 横轴：Personal loans、Consumer durables、Credit cards、Home loans、Auto loans
+- 纵轴：-20%至60%
+- 标题：未显示
+
+【数据关系】
+- Personal loans：Value 30%，Volume 48%，Ticket size -12%；Value与Volume差18个百分点
+- Consumer durables：22%、25%、-3%；差3个百分点
+- Credit cards：30%、18%、10%；差12个百分点
+- Home loans：15%、7%、7%；差8个百分点
+- Auto loans：20%、5%、15%；差15个百分点
+- Value最高为30%（Personal loans、Credit cards）；Volume最高48%（Personal loans）、最低5%（Auto loans）；Ticket size最高15%（Auto loans）、最低-12%（Personal loans）
+
+【模式特征】
+- 各品类中，Value与Volume的占比差异明显，Personal loans与Auto loans差距最大，Consumer durables最接近。  
+- Ticket size在Personal loans和Consumer durables为负，其余三类为正，其中Auto loans显著高于其他品类。  
+- Value、Volume并无统一排序，不同品类的三项指标组合呈现出截然不同的结构搭配。
+
+【核心洞察】
+核心结论：不同贷款品类在贡献结构和单笔额度上高度分化。
+
+业务含义：
+- Personal loans以交易数量驱动，单笔额度偏低。
+- Credit cards、Auto loans对金额贡献依赖单笔额度。
+- Home loans在金额占比和单笔额度上均较中性。
+
+风险关注：
+- Personal loans Ticket size为-12%若进一步下降，可能摊薄整体收益率。
+- Auto loans Ticket size高达15%，若Value降至10%以下，将削弱其结构性贡献。

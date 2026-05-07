@@ -1,0 +1,30 @@
+[Chart Components]
+- Type: Time series line chart
+- Title: No explicit title displayed; unit (EUR) marked in the upper left corner.
+- Y-axis: EUR, range approximately 0—45
+- X-axis: Time, Jan‑10 to Jan‑24, including Jan/Jul ticks
+- Legend: Aixtron Price (Red solid line); 0.8x (Light gray); 1.8x (Black solid line); 2.8x (Light orange); 3.7x (Black dotted line); 4.7x (Orange solid line)
+
+[Data Relationships]
+- Initial Period (Jan‑10) Aixtron Price ≈ 23 EUR; Final Period (Jan‑24) ≈ 37 EUR
+- Global high ≈ 39 EUR (Near Jan‑24); Low ≈ 3 EUR (Mid-2016); High-low difference ≈ 36 EUR
+- Local high in early 2011 ≈ 27–28 EUR
+- Jan‑24 Reference Lines: 0.8x ≈ 7, 1.8x ≈ 14, 2.8x ≈ 21, 3.7x ≈ 27, 4.7x ≈ 36 (EUR)
+- The Jan‑24 red line is higher than the respective reference lines by approximately 30, 23, 16, 10, and 1–3 EUR.
+
+[Pattern Characteristics]
+- The curve was in a higher range during 2010–2011, subsequently remained below the various multiplier lines shown in the chart for a long period, and approached the global minimum around 2016.
+- After 2017, the price gradually moved upward and crossed the middle multiplier line region. After 2020, it has fluctuated intensely around and between the upper multiplier lines, with increased local short-term volatility.
+- The price maintained a generally parallel band structure relative to multiple multiplier lines throughout the period. Extreme deviations were mainly concentrated at the early high and the low around 2016.
+
+[Core Insights]
+Core Conclusion: The valuation level of the underlying asset significantly increased after experiencing a deep decline, and is approaching the historically relative high range.
+
+Business Implications:
+- A long period of valuation compression followed the early overvaluation.
+- The center of valuation gravity has shifted upward in recent years, and pricing is becoming more aggressive.
+- The current range is close to the highest multiplier line, indicating a narrowing safety margin.
+
+Risk Focus:
+- A retreat to the 3.7x line (approx. 27 EUR) could result in an approximate 25% book drawdown.
+- A drop to the 1.8x line (approx. 14 EUR) corresponds to a decline exceeding 60%, potentially triggering stop-loss orders and divestment pressure.

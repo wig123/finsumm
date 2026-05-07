@@ -1,0 +1,27 @@
+【图表构成】
+- 类型：多折线图
+- 标题：Greenhouse gas emissions by sector (MtCO2e)
+- 横轴：年份1990—2025
+- 纵轴：排放量（MtCO2e），范围约0—1500，刻度500/1000/1500
+- 系列与图例：6条线——Transport（蓝色）、Industry、Public Electricity & Heat、Buildings、Agriculture、Waste（灰色）；系列名称置于右侧
+
+【数据关系】
+- 1990值：Public Electricity & Heat≈1500；Industry≈1200；Transport≈800；Buildings≈650；Agriculture≈400；Waste≈150
+- 2025值：Transport≈1050；Industry≈900；Public Electricity & Heat≈700；Buildings≈500；Agriculture≈350；Waste≈100
+- 1990—2025变动：Transport+≈250；Industry−≈300；Public Electricity & Heat−≈800；Buildings−≈150；Agriculture−≈50；Waste−≈50
+- 2010—2012：Transport≈1100，高于Industry≈1050与Public Electricity & Heat≈1000
+
+【模式特征】  
+整体上各部门排放在1990—2025年呈现多条走势分化的曲线，其中多数序列自高位向较低水平移动，仅有一条序列从中位水平逐步抬升。电力与热力相关序列在前期保持高位并在中段后出现明显向下的阶梯式变化，在接近2020年前后出现陡峭下挫。交通序列则在2000—2010年附近形成缓慢抬升并出现一个明显波峰，随后在2020年前后出现短暂的急剧回落后再度恢复。其他部门（建筑、农业、废弃物）走势相对平滑，长期缓慢下行且未出现剧烈拐点，废弃物序列始终保持在最低水平并呈单边收缩。
+
+【核心洞察】  
+核心结论：排放结构由电力主导转向交通相对占比更高。  
+
+业务含义：  
+- 减排成效集中在电力与工业环节。  
+- 交通成为整体排放控制的关键短板领域。  
+- 建筑、农业与废弃物贡献度小但仍具持续优化空间。  
+
+风险关注：  
+- 若交通排放持续维持在约1000 MtCO2e以上，总排放难以实现显著下降。  
+- 若电力与热力排放反弹至1000 MtCO2e以上，将削弱既有减排成果。

@@ -1,0 +1,36 @@
+[Chart Components]
+- Type: Single Line Chart
+- Title: 12M Forward Enterprise Value/EBIT - ELISA
+- X-axis: Year scale, labeled 14 to 23 (approx. 2014-2023)
+- Y-axis: Ratio scale, range 12 to 26, interval of 2
+- Legend: Bottom gray bar matches the title
+- Source: Bottom right "Source: LSEG Datastream"
+- Only one black data line
+
+[Data Relationships]
+- Initial value (2014) approx. 14.7
+- Global minimum value approx. 13.3 (2014)
+- Global maximum value approx. 25.7 (2020)
+- High-low difference approx. 12.4
+- 2015 phase high point approx. 20.6
+- 2019 phase high point approx. 22.3
+- 2020 saw a low value approx. 20.0, a difference of approx. 5.7 from the year's high point
+- 2021 phase high point approx. 23.4
+- 2022 phase high point approx. 22.6, low point approx. 18.9
+- 2023 phase high value approx. 21.3, low point approx. 15.7
+- Final value (2023) approx. 16.6, change from initial period approx. +1.9
+
+[Pattern Characteristics]
+The overall trajectory first rises then falls, maintaining a relatively high range between 2019 and 2021, and subsequently extending downward. Locally, multiple phase peaks formed in 2015 and 2019-2021, while 2022-2023 showed relatively wide fluctuations (up and down swings). Around 2020, there was a sharp short-term surge followed by a rapid retracement, representing a prominent localized anomaly.
+
+[Core Insights]
+Core Conclusion: After undergoing a round of appreciation, the valuation has returned close to the initial level.
+
+Business Implications:
+- Historical valuation premium has significantly narrowed
+- Current valuation is relatively neutral, with limited safety margin
+- The upward shift of the central tendency has not entirely disappeared, leaving some room for re-evaluation
+
+Risk Focus:
+- If the ratio falls below 14, it may signify the valuation returning to the ten-year low range, potentially triggering an accelerated sentiment-driven adjustment
+- If the ratio approaches 25 or above again, the high range may amplify future valuation correction pressure

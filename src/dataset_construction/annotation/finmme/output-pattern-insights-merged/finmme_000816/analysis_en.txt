@@ -1,0 +1,27 @@
+[Chart Components]
+Type: Line chart. Title not indicated. Y-axis is bp, range approximately -80 to +40; X-axis is days relative to the election day, range -100 to +100. Legend: Blue line "2", Green line "10". Vertical markers: Orange "Election called" around Day -45; Red "Election 1 May 1997" at Day 0.
+
+[Data Relationships]
+*   Day -100: Blue ≈ -20, Green ≈ 0
+*   Day -45: Blue ≈ -35, Green ≈ -20
+*   Day -20: Blue ≈ +20, Green ≈ +25
+*   Day 0: Both ≈ 0
+*   Day +20: Green ≈ -60, Blue ≈ -10, Difference ≈ 50bp
+*   Day +60: Blue peak ≈ +30, Green ≈ -40, Difference ≈ 70bp
+*   Day +100: Blue ≈ +20, Green ≈ -30, Difference ≈ 50bp
+*   Range: Blue approximately -40 to +30; Green approximately -60 to +25
+
+[Pattern Characteristics]
+The two curves are relatively close between Day -100 and Day -50, and gradually deviate above the zero axis around the orange vertical marker. Approaching the election day, both lines converge toward the zero axis and briefly align. After the election day, the blue line is generally above the zero axis and higher than the green line, while the green line remains below the zero axis for an extended period. The difference between the two remains large and relatively stable in the range of Day +20 to Day +100.
+
+[Core Insights]
+Core Conclusion: Brief convergence around the election, followed by a significant renewed divergence in the term structure.
+
+Business Implications:
+*   As the election approaches, the divergence in yield spreads across different maturities is significantly compressed.
+*   After the election, the maturity spread widens again, reflecting differences in duration pricing.
+*   The long-term segment spread remains consistently low, indicating higher sensitivity at the far end.
+
+Risk Focus:
+*   If the green line consistently falls below -60bp, it may imply a sharp price adjustment in the long-term segment.
+*   If the blue line is above +30bp and the green line is below -40bp, losses from maturity mismatch may significantly amplify.
