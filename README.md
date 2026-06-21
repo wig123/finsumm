@@ -151,11 +151,3 @@ finsumm-project/
 - **OpenRouter / 其他直连 OpenAI** — `annotation/finchart/.env.example`
 
 `annotation/{finchart,finmme}/.env.example` 已就位，复制为 `.env` 并填入自己的 key 即可（`.env` 已被 `.gitignore` 排除）。
-
-## 已知论文-代码差异
-
-以下是论文与本仓库实现的细节差异，以**仓库代码为准**：
-
-1. **Judge 评估维度**：本仓库 `evaluation/evaluators/judge_llm.py` 实现的是 **4 维**加权（Faithfulness 35% / Completeness 30% / Analysis 25% / Conciseness 10%）。论文方法章节描述含 Logicality 共 5 维，但 Tab.main 的实际数据是按 4 维产出的。
-2. **Judge 模型**：本仓库 `judge_llm.py` 默认使用 **`gemini-2.5-flash-lite-preview-09-2025`**。中文论文写 Gemini-2.5-Flash、英文论文写 GPT-4o，均为论文笔误，实际复现以代码默认为准。
-3. **数据源适配器**：英文论文 §4.1 列了 World Bank，但 `chart_synthesis/src/capabilities/data_fetching/adapters.py` 实际实现的是 FRED / Baostock / YFinance / Efinance / CrossSectional 五个适配器（不含 World Bank）。
