@@ -1,166 +1,166 @@
-# LLM 驱动的评估系统使用指南
+# LLM-Powered Evaluation System Usage Guide
 
-## 概述
+## Overview
 
-本评估系统使用 **Gemini 2.5 Flash** 作为核心评估引擎，结合传统指标（BLEU、ROUGE），对金融图表分析文本进行全面评估。
+This evaluation system uses **Gemini 2.5 Flash** as the core evaluation engine, combined with traditional metrics (BLEU, ROUGE), for comprehensive evaluation of financial chart analysis text.
 
-### 核心特性
+### Core Features
 
-- ✅ **LLM 驱动**: 使用 Gemini 2.5 Flash 进行智能评估，替代复杂的规则匹配
-- ✅ **多模态支持**: 直接分析图表图片 + 文本，验证接地性
-- ✅ **成本低廉**: 200 样本仅需 $0.4（约 2.8 元人民币）
-- ✅ **代码精简**: 相比传统方法减少 70% 代码量
-- ✅ **全面覆盖**: 13 个核心指标，覆盖所有评估维度
+- ✅ **LLM-Powered**: Utilizes Gemini 2.5 Flash for intelligent evaluation, replacing complex rule matching.
+- ✅ **Multimodal Support**: Directly analyzes chart images + text to verify grounding.
+- ✅ **Low Cost**: $0.4 for 200 samples (approx. 2.8 RMB).
+- ✅ **Concise Code**: Reduces code volume by 70% compared to traditional methods.
+- ✅ **Comprehensive Coverage**: 13 core metrics covering all evaluation dimensions.
 
 ---
 
-## 快速开始
+## Quick Start
 
-### 1. 环境配置
+### 1. Environment Setup
 
-#### 安装依赖
+#### Install Dependencies
 
 ```bash
-# 进入项目目录
+# Enter project directory
 cd $DATA_ROOT/benchmark
 
-# 安装评估依赖
+# Install evaluation dependencies
 pip install -r requirements-eval.txt
 ```
 
-#### 配置 API Key
+#### Configure API Key
 
 ```bash
-# 设置 API易 的 API Key（用于 Gemini 2.5 Flash）
+# Set API Yi API Key (for Gemini 2.5 Flash)
 export OPENAI_API_KEY='your-api-key-here'
 
-# 验证配置
+# Verify configuration
 echo $OPENAI_API_KEY
 ```
 
-> **注意**: API易 使用 OpenAI 兼容的 API 格式，但调用的是 Gemini 模型。
+> **Note**: API Yi uses an OpenAI-compatible API format but calls Gemini models.
 
 ---
 
-### 2. 运行评估
+### 2. Run Evaluation
 
-#### 基础用法
+#### Basic Usage
 
 ```bash
-# 评估 Qwen2.5-VL 的推理结果
+# Evaluate Qwen2.5-VL inference results
 python3 evaluate.py --results outputs/qwen25_results.jsonl
 
-# 评估 Qwen3-VL 的推理结果
+# Evaluate Qwen3-VL inference results
 python3 evaluate.py --results outputs/qwen3_results.jsonl
 ```
 
-#### 高级选项
+#### Advanced Options
 
 ```bash
-# 限制评估样本数（用于快速测试）
+# Limit evaluation sample count (for quick testing)
 python3 evaluate.py --results outputs/qwen25_results.jsonl --limit 10
 
-# 跳过传统指标（仅使用 LLM 评估）
+# Skip traditional metrics (use LLM evaluation only)
 python3 evaluate.py --results outputs/qwen25_results.jsonl --skip-traditional
 
-# 跳过图表接地评估（图片不可用时）
+# Skip chart grounding evaluation (when images are unavailable)
 python3 evaluate.py --results outputs/qwen25_results.jsonl --skip-grounding
 
-# 指定输出路径
+# Specify output path
 python3 evaluate.py \
   --results outputs/qwen25_results.jsonl \
   --output outputs/qwen25_evaluation.json
 
-# 使用 CPU（无 GPU 时）
+# Use CPU (when no GPU available)
 python3 evaluate.py --results outputs/qwen25_results.jsonl --device cpu
 
-# 计算 BERTScore（需要 GPU，较慢）
+# Calculate BERTScore (requires GPU, slower)
 python3 evaluate.py --results outputs/qwen25_results.jsonl --use-bertscore
 ```
 
 ---
 
-## 评估指标说明
+## Evaluation Metrics Explained
 
-### LLM 驱动的指标
+### LLM-Powered Metrics
 
-#### 1. 数值准确性 (Numerical Accuracy)
+#### 1. Numerical Accuracy
 
-使用 Gemini 提取文本中的数值，然后程序化计算差异。
+Uses Gemini to extract numerical values from text, followed by programmatic difference calculation.
 
-**指标**:
-- `numerical_f1`: 数值精确匹配 F1（容忍度 1%）
-- `relaxed_accuracy`: 宽松匹配准确率（容忍度 5%）
+**Metrics**:
+- `numerical_f1`: Numerical exact match F1 (1% tolerance)
+- `relaxed_accuracy`: Loose match accuracy (5% tolerance)
 
-**门槛**: `numerical_f1 >= 0.80`
+**Threshold**: `numerical_f1 >= 0.80`
 
-#### 2. 图表接地性 (Chart Grounding)
+#### 2. Chart Grounding
 
-使用 Gemini 的多模态能力，直接分析图表图片，验证文本是否忠实于图表内容。
+Leverages Gemini's multimodal capabilities to directly analyze chart images and verify if the text faithfully represents the chart content.
 
-**指标**:
-- `parent_precision`: PARENT 风格的接地精度
-- `grounding_score`: 整体接地分数（0-1）
-- `hallucination_count`: 幻觉陈述数量
+**Metrics**:
+- `parent_precision`: PARENT-style grounding precision
+- `grounding_score`: Overall grounding score (0-1)
+- `hallucination_count`: Number of hallucinated statements
 
-**门槛**: `parent_precision >= 0.85`
+**Threshold**: `parent_precision >= 0.85`
 
-#### 3. 实体准确性 (Entity Accuracy)
+#### 3. Entity Accuracy
 
-使用 Gemini 提取金融实体（公司、日期、指标等），计算 F1 分数。
+Uses Gemini to extract financial entities (companies, dates, metrics, etc.) and calculates the F1 score.
 
-**指标**:
-- `entity_f1`: 实体匹配 F1 分数
-- `entity_precision`: 实体精度
-- `entity_recall`: 实体召回率
+**Metrics**:
+- `entity_f1`: Entity match F1 score
+- `entity_precision`: Entity precision
+- `entity_recall`: Entity recall
 
-**门槛**: `entity_f1 >= 0.90`
+**Threshold**: `entity_f1 >= 0.90`
 
-#### 4. 综合质量 (Comprehensive Quality)
+#### 4. Comprehensive Quality
 
-使用 Gemini 进行 5 维度质量评分（类似 G-Eval）。
+Uses Gemini for a 5-dimensional quality scoring (similar to G-Eval).
 
-**维度**:
-- `factual_accuracy` (30%): 事实准确性（1-5 分）
-- `structure_adherence` (20%): 结构遵循性（1-5 分）
-- `insight_depth` (25%): 洞察深度（1-5 分）
-- `language_quality` (15%): 语言质量（1-5 分）
-- `information_completeness` (10%): 信息封闭性（1-5 分）
+**Dimensions**:
+- `factual_accuracy` (30%): Factual Accuracy (1-5 score)
+- `structure_adherence` (20%): Structural Adherence (1-5 score)
+- `insight_depth` (25%): Insight Depth (1-5 score)
+- `language_quality` (15%): Language Quality (1-5 score)
+- `information_completeness` (10%): Information Confinement (1-5 score)
 
-**门槛**: `structure_adherence >= 4.5`
+**Threshold**: `structure_adherence >= 4.5`
 
 ---
 
-### 传统指标
+### Traditional Metrics
 
 #### 5. BLEU (SacreBLEU)
 
-用于【数据关系】部分，评估精确匹配度。
+Used for the "Data Relationships" section to evaluate exact match.
 
-**指标**:
-- `bleu_1` ~ `bleu_4`: 1-4 gram BLEU 分数
+**Metrics**:
+- `bleu_1` ~ `bleu_4`: 1-4 gram BLEU scores
 
 #### 6. ROUGE
 
-用于【核心洞察】部分，评估信息覆盖度。
+Used for the "Core Insights" section to evaluate information coverage.
 
-**指标**:
-- `rouge1`: Unigram 覆盖
-- `rouge2`: Bigram 覆盖
-- `rougeL`: 最长公共子序列
+**Metrics**:
+- `rouge1`: Unigram coverage
+- `rouge2`: Bigram coverage
+- `rougeL`: Longest common subsequence
 
-#### 7. BERTScore（可选）
+#### 7. BERTScore (Optional)
 
-语义相似度评估（需要 GPU）。
+Semantic similarity evaluation (requires GPU).
 
-**指标**:
-- `bertscore_f1`: 基于 BERT 的语义 F1 分数
+**Metrics**:
+- `bertscore_f1`: BERT-based semantic F1 score
 
 ---
 
-## 评估结果解读
+## Interpreting Evaluation Results
 
-### 输出文件结构
+### Output File Structure
 
 ```json
 {
@@ -185,95 +185,95 @@ python3 evaluate.py --results outputs/qwen25_results.jsonl --use-bertscore
       "rouge2": 0.48,
       "rougeL": 0.58
     },
-    "section_数据关系": { ... },
-    "section_核心洞察": { ... }
+    "section_data_relationships": { },
+    "section_core_insights": { }
   },
-  "per_sample_metrics": [ ... ]
+  "per_sample_metrics": [ ]
 }
 ```
 
-### 门槛检查
+### Threshold Checks
 
-系统会自动检查以下门槛：
+The system automatically checks the following thresholds:
 
-| 指标 | 门槛 | 说明 |
+| Metric | Threshold | Description |
 |------|------|------|
-| Numerical F1 | ≥ 0.80 | 数值错误率不超过 20% |
-| PARENT Precision | ≥ 0.85 | 幻觉率不超过 15% |
-| Entity F1 | ≥ 0.90 | 实体准确率不低于 90% |
-| Structure Score | ≥ 4.5 | 结构完整性评分不低于 4.5/5.0 |
+| Numerical F1 | ≥ 0.80 | Numerical error rate not exceeding 20% |
+| PARENT Precision | ≥ 0.85 | Hallucination rate not exceeding 15% |
+| Entity F1 | ≥ 0.90 | Entity accuracy not below 90% |
+| Structure Score | ≥ 4.5 | Structural integrity score not below 4.5/5.0 |
 
 ---
 
-## 性能和成本
+## Performance and Cost
 
-### 性能估算
+### Performance Estimation
 
-- **单样本评估时间**: 约 2-3 秒（LLM 调用）
-- **200 样本总时间**: 约 10-15 分钟（含传统指标）
-- **传统指标时间**: 约 1-2 分钟（200 样本）
+- **Single Sample Evaluation Time**: Approx. 2-3 seconds (LLM call)
+- **Total Time for 200 Samples**: Approx. 10-15 minutes (including traditional metrics)
+- **Traditional Metrics Time**: Approx. 1-2 minutes (for 200 samples)
 
-### 成本估算
+### Cost Estimation
 
-#### Gemini 2.5 Flash（API易）
+#### Gemini 2.5 Flash (API Yi)
 
-- **输入价格**: $0.075 / 1M tokens
-- **输出价格**: $0.30 / 1M tokens
+- **Input Price**: $0.075 / 1M tokens
+- **Output Price**: $0.30 / 1M tokens
 
-**200 样本评估成本**:
-- 数值提取: 200 × 2 = 400 次调用
-- 实体提取: 200 × 2 = 400 次调用
-- 质量评估: 200 次调用
-- 接地验证: 200 次调用（多模态）
+**Evaluation Cost for 200 Samples**:
+- Numerical Extraction: 200 × 2 = 400 calls
+- Entity Extraction: 200 × 2 = 400 calls
+- Quality Evaluation: 200 calls
+- Grounding Verification: 200 calls (multimodal)
 
-**总计**: 约 $0.4（约 2.8 元人民币）
+**Total**: Approx. $0.4 (approx. 2.8 RMB)
 
 ---
 
-## 常见问题
+## Frequently Asked Questions
 
-### Q1: 如何跳过图表接地评估？
+### Q1: How to skip chart grounding evaluation?
 
-A: 使用 `--skip-grounding` 参数：
+A: Use the `--skip-grounding` parameter:
 
 ```bash
 python3 evaluate.py --results outputs/qwen25_results.jsonl --skip-grounding
 ```
 
-适用场景：图片文件不可用或路径不正确时。
+Applicable scenarios: When image files are unavailable or paths are incorrect.
 
-### Q2: 评估速度太慢怎么办？
+### Q2: Evaluation is too slow, what can I do?
 
-A: 可以采取以下措施：
+A: You can take the following measures:
 
-1. **跳过传统指标**: `--skip-traditional`
-2. **跳过 BERTScore**: 不使用 `--use-bertscore`
-3. **限制样本数**: `--limit 50`（用于快速测试）
+1. **Skip Traditional Metrics**: `--skip-traditional`
+2. **Skip BERTScore**: Do not use `--use-bertscore`
+3. **Limit Sample Count**: `--limit 50` (for quick testing)
 
-### Q3: API 调用失败怎么办？
+### Q3: API calls fail, what should I do?
 
-A: 系统内置自动重试机制（最多 3 次），如果仍然失败：
+A: The system has a built-in automatic retry mechanism (up to 3 times). If it still fails:
 
-1. 检查 API Key 是否正确
-2. 检查网络连接
-3. 查看错误信息，可能是速率限制
+1. Check if the API Key is correct.
+2. Check network connectivity.
+3. Review the error message; it might be a rate limit issue.
 
-### Q4: 如何对比两个模型？
+### Q4: How to compare two models?
 
-A: 分别评估后，对比 JSON 结果：
+A: Evaluate them separately and then compare the JSON results:
 
 ```bash
-# 评估 Qwen2.5-VL
+# Evaluate Qwen2.5-VL
 python3 evaluate.py \
   --results outputs/qwen25_results.jsonl \
   --output outputs/qwen25_eval.json
 
-# 评估 Qwen3-VL
+# Evaluate Qwen3-VL
 python3 evaluate.py \
   --results outputs/qwen3_results.jsonl \
   --output outputs/qwen3_eval.json
 
-# 对比结果
+# Compare results
 python3 -c "
 import json
 qwen25 = json.load(open('outputs/qwen25_eval.json'))
@@ -286,55 +286,57 @@ print('Qwen3-VL:', qwen3['summary']['overall_quality'])
 
 ---
 
-## 技术架构
+## Technical Architecture
 
-### 模块化设计
+### Modular Design
 
 ```
 evaluators/
-├── __init__.py                # 模块导出
-├── gemini_client.py           # Gemini API 客户端
-├── numerical_llm.py           # 数值准确性评估器
-├── grounding_llm.py           # 图表接地评估器
-├── quality_llm.py             # 综合质量评估器
-├── entity_llm.py              # 实体准确性评估器
-└── traditional.py             # 传统指标评估器
+├── __init__.py                # Module exports
+├── gemini_client.py           # Gemini API client
+├── numerical_llm.py           # Numerical accuracy evaluator
+├── grounding_llm.py           # Chart grounding evaluator
+├── quality_llm.py             # Comprehensive quality evaluator
+├── entity_llm.py              # Entity accuracy evaluator
+└── traditional.py             # Traditional metrics evaluator
 ```
 
-### 评估流程
+### Evaluation Workflow
 
 ```
-加载推理结果 (JSONL)
+Load inference results (JSONL)
     ↓
-单样本评估 (并行 4 个评估器)
-    ├─ 数值准确性评估
-    ├─ 图表接地性评估
-    ├─ 实体准确性评估
-    └─ 综合质量评估
+Single sample evaluation (4 evaluators in parallel)
+    ├─ Numerical accuracy evaluation
+    ├─ Chart grounding evaluation
+    ├─ Entity accuracy evaluation
+    └─ Comprehensive quality evaluation
     ↓
-传统指标评估 (BLEU、ROUGE)
+Traditional metrics evaluation (BLEU, ROUGE)
     ↓
-汇总统计 + 门槛检查
+Aggregate statistics + threshold checks
     ↓
-保存结果 (JSON)
+Save results (JSON)
 ```
 
 ---
 
-## 下一步
+## Next Steps
 
-1. 等待推理完成
-2. 拉取推理结果: `./gpu-pull.sh`
-3. 运行评估: `python3 evaluate.py --results outputs/qwen25_results.jsonl`
-4. 分析结果，对比 Qwen2.5-VL 和 Qwen3-VL 的性能
+1. Wait for inference to complete.
+2. Fetch inference results: `./gpu-pull.sh`
+3. Run evaluation: `python3 evaluate.py --results outputs/qwen25_results.jsonl`
+4. Analyze results and compare the performance of Qwen2.5-VL and Qwen3-VL.
 
 ---
 
-## 参考资料
+## References
 
-- [Gemini API 文档](https://ai.google.dev/docs)
+- [Gemini API Documentation](https://ai.google.dev/docs)
 - [SacreBLEU](https://github.com/mjpost/sacrebleu)
 - [ROUGE Score](https://github.com/google-research/google-research/tree/master/rouge)
 - [BERTScore](https://github.com/Tiiiger/bert_score)
 - [PARENT (Dhingra et al., 2019)](https://arxiv.org/abs/1906.01081)
 - [G-Eval (Liu et al., 2023)](https://arxiv.org/abs/2303.16634)
+
+---

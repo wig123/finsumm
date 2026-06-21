@@ -1,168 +1,168 @@
-# 金融图表标注系统
+# Financial Chart Annotation System
 
-基于 FinChart-Bench 数据集的图表总结标注工具。
+A chart summarization annotation tool based on the FinChart-Bench dataset.
 
-## 项目背景
+## Project Background
 
-- **数据集**: FinChart-Bench 金融图表数据集（7020 张）
-- **任务**: 为每张图表生成和审核总结文本
-- **协作**: 多标注员通过 Git 同步工作进度
+- **Dataset**: FinChart-Bench financial chart dataset (7020 charts)
+- **Task**: Generate and review summary texts for each chart
+- **Collaboration**: Multiple annotators synchronize work progress via Git
 
-## 快速开始
+## Quick Start
 
 ```bash
-# 克隆项目
+# Clone the project
 git clone <repository-url>
 cd annotation-system
 
-# 安装依赖
+# Install dependencies
 npm install
 
-# 初始化数据库
+# Initialize database
 npm run init
 
-# 启动服务
+# Start the service
 npm start
 
-# 访问 http://localhost:3000
+# Visit http://localhost:3000
 
-# 导出标注数据
+# Export annotation data
 npm run export
 ```
 
-## 默认账号
+## Default Accounts
 
-- 管理员: `admin` / `admin123`
-- 标注员: `annotator` / `anno123`
+- Admin: `admin` / `admin123`
+- Annotator: `annotator` / `anno123`
 
-## 标注规范
+## Annotation Guidelines
 
-### 总结要求
-1. **简洁准确**: 100-200 字
-2. **必须包含**: 图表类型、主要趋势、关键数据点
-3. **客观描述**: 不做主观判断和预测
+### Summary Requirements
+1. **Concise and Accurate**: 100-200 words
+2. **Must Include**: Chart type, main trends, key data points
+3. **Objective Description**: No subjective judgments or predictions
 
-### 标注流程
-1. 查看图表，阅读 AI 生成的初稿
-2. 手动编辑或使用 AI 优化
-3. 确认无误后点击「接受」
-4. 系统自动跳转到下一张
+### Annotation Process
+1. View the chart, read the AI-generated draft
+2. Manually edit or use AI for optimization
+3. Click 'Accept' after confirming accuracy
+4. The system automatically navigates to the next chart
 
-### 质量标准
-- ✅ 正确识别图表类型（柱状图、折线图、饼图等）
-- ✅ 准确描述数据趋势和关键指标
-- ✅ 语句通顺，无明显错误
-- ❌ 避免冗余和废话
-- ❌ 避免主观臆测
+### Quality Standards
+- ✅ Correctly identify chart types (bar charts, line charts, pie charts, etc.)
+- ✅ Accurately describe data trends and key metrics
+- ✅ Fluent sentences, no obvious errors
+- ❌ Avoid redundancy and filler words
+- ❌ Avoid subjective speculation
 
-## 工作流程
+## Workflow
 
-### 标注
+### Annotation
 ```bash
-npm start                        # 启动服务
-# 浏览器登录并标注
+npm start                        # Start the service
+# Log in via browser and annotate
 ```
 
-### 同步
+### Synchronization
 ```bash
-git pull                         # 拉取最新数据
-# 继续标注
-git add database.db              # 暂存标注数据
-git commit -m "标注: 张三 50张"  # 提交
-git push                         # 推送
+git pull                         # Pull latest data
+# Continue annotation
+git add database.db              # Stage annotation data
+git commit -m "Annotation: John 50 charts"  # Commit
+git push                         # Push
 ```
 
-### 冲突解决
-多人同时标注可能产生冲突，解决方法：
+### Conflict Resolution
+Conflicts may arise when multiple people annotate simultaneously. Solutions:
 ```bash
-git pull                         # 拉取时提示冲突
-# 使用 database.db 的 merge 策略（稍后说明）
+git pull                         # Conflict prompt when pulling
+# Use merge strategy for database.db (explained later)
 git add database.db
-git commit -m "合并标注"
+git commit -m "Merge annotations"
 git push
 ```
 
-## 项目结构
+## Project Structure
 
 ```
 annotation-system/
-├── src/                   # 源代码
-│   ├── server.js          # Express 后端服务
-│   └── init-db.js         # 数据库初始化脚本
-├── public/                # 前端静态文件
-│   ├── index.html         # 登录页
-│   ├── annotate.html      # 标注页
-│   ├── manage.html        # 管理页
-│   ├── api.js             # API 封装层
-│   ├── annotate.js        # 标注页逻辑
-│   ├── manage.js          # 管理页逻辑
-│   └── styles.css         # 样式文件
-├── images/                # 图表数据（7020 张）
-├── database.db            # SQLite 数据库
-├── package.json           # 项目配置
-└── README.md              # 说明文档
+├── src/                   # Source code
+│   ├── server.js          # Express backend service
+│   └── init-db.js         # Database initialization script
+├── public/                # Frontend static files
+│   ├── index.html         # Login page
+│   ├── annotate.html      # Annotation page
+│   ├── manage.html        # Management page
+│   ├── api.js             # API wrapper layer
+│   ├── annotate.js        # Annotation page logic
+│   ├── manage.js          # Management page logic
+│   └── styles.css         # Stylesheet
+├── images/                # Chart data (7020 images)
+├── database.db            # SQLite database
+├── package.json           # Project configuration
+└── README.md              # Documentation
 ```
 
-## API 接口
+## API Endpoints
 
 ```
-POST   /api/auth/login              登录
-GET    /api/images                  获取图片列表
-GET    /api/annotations             获取标注数据
-POST   /api/annotations             保存标注
-PUT    /api/annotations/:id         更新标注
-GET    /api/stats                   统计信息
-POST   /api/ai/generate             AI 生成总结
-POST   /api/ai/modify               AI 修改总结
+POST   /api/auth/login              Login
+GET    /api/images                  Get image list
+GET    /api/annotations             Get annotation data
+POST   /api/annotations             Save annotation
+PUT    /api/annotations/:id         Update annotation
+GET    /api/stats                   Statistics
+POST   /api/ai/generate             AI generate summary
+POST   /api/ai/modify               AI modify summary
 ```
 
-## 数据导出
+## Data Export
 
-导出所有标注数据为 JSON 格式：
+Export all annotation data in JSON format:
 
 ```bash
 npm run export
 ```
 
-导出文件包含：
-- 所有标注数据（summary、modification_note、status、annotator 等）
-- 关联的图片信息（filename、path）
-- 标注历史记录（每次修改的版本）
-- 统计信息（按状态、按标注员分组）
+The exported file includes:
+- All annotation data (summary, modification_note, status, annotator, etc.)
+- Associated image information (filename, path)
+- Annotation history (version of each modification)
+- Statistical information (grouped by status, grouped by annotator)
 
-导出文件命名格式：`annotations_export_YYYY-MM-DDTHH-MM-SS.json`
+Exported file naming format: `annotations_export_YYYY-MM-DDTHH-MM-SS.json`
 
-## 注意事项
+## Important Notes
 
-1. **定期提交**: 每完成 50-100 张标注后提交一次
-2. **及时同步**: 每次开始标注前先 `git pull`
-3. **数据备份**: 定期备份 `database.db` 或使用 `npm run export` 导出
-4. **图片只读**: 不要修改 `images/` 目录
-5. **冲突处理**: 遇到冲突及时沟通解决
+1. **Regular Commits**: Commit after completing every 50-100 annotations
+2. **Timely Synchronization**: Before starting annotation, first `git pull`
+3. **Data Backup**: Regularly back up `database.db` or use `npm run export` to export
+4. **Images Read-Only**: Do not modify the `images/` directory
+5. **Conflict Handling**: Communicate and resolve conflicts promptly
 
-## 故障排查
+## Troubleshooting
 
-**端口占用**
+**Port Occupied**
 ```bash
 lsof -ti:3000 | xargs kill
 ```
 
-**数据库损坏**
+**Database Corruption**
 ```bash
 rm database.db
 npm run init
 ```
 
-**图片加载失败**
-- 检查 `images/` 目录是否完整
-- 确认图片路径正确
+**Image Loading Failure**
+- Check if the `images/` directory is complete
+- Confirm the image path is correct
 
-## 技术栈
+## Tech Stack
 
-- 前端: HTML + CSS + Vanilla JS
-- 后端: Node.js + Express
-- 数据库: SQLite
-- 认证: JWT
+- Frontend: HTML + CSS + Vanilla JS
+- Backend: Node.js + Express
+- Database: SQLite
+- Authentication: JWT
 
 ## License
 

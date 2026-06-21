@@ -1,224 +1,221 @@
-# 金融图表标注系统
+# Financial Chart Annotation System
 
-基于 Finmme 数据集的图表总结标注工具。AI 已生成初稿，人工审核并确认。
+A chart summarization annotation tool based on the Finmme dataset. AI has generated initial drafts, which are to be manually reviewed and confirmed.
 
-## 📌 你的标注任务
+## 📌 Your Annotation Task
 
-- **标注账号**: `annotator`
-- **负责范围**: 第 1-1000 张图片
-- **对应文件**: `finmme_000000.png` ~ `finmme_001254.png`
-- **工作量**: 共 1000 张图片
-
+- **Annotation Account**: `annotator`
+- **Assigned Range**: Images 1-1000
+- **Corresponding Files**: `finmme_000000.png` ~ `finmme_001254.png`
+- **Workload**: Total 1000 images
 
 ---
 
-## 快速开始
+## Quick Start
 
-### 前置要求
+### Prerequisites
 
-- **Node.js** 版本 >= 14.0
-- **npm** (随 Node.js 自动安装)
+- **Node.js** version >= 14.0
+- **npm** (automatically installed with Node.js)
 
-### 安装 Node.js
+### Install Node.js
 
-#### Windows 用户
+#### Windows Users
 
-1. 访问 [nodejs.org](https://nodejs.org/)
-2. 下载 **LTS 版本**（推荐）或 Current 版本
-3. 双击下载的 `.msi` 文件
-4. 按照安装向导完成安装（一路"下一步"即可）
-5. 验证安装：
+1. Visit [nodejs.org](https://nodejs.org/)
+2. Download the **LTS version** (recommended) or Current version
+3. Double-click the downloaded `.msi` file
+4. Follow the installation wizard to complete the installation (just click "Next" all the way through)
+5. Verify Installation:
    ```bash
-   # 打开命令提示符（CMD）或 PowerShell
+   # Open Command Prompt (CMD) or PowerShell
    node --version
    npm --version
    ```
 
-#### macOS 用户
+#### macOS Users
 
-**方法一：官网下载（推荐新手）**
-1. 访问 [nodejs.org](https://nodejs.org/)
-2. 下载 **LTS 版本** 的 `.pkg` 文件
-3. 双击安装包，按照提示完成安装
-4. 验证安装：
+**Method 1: Official Website Download (Recommended for Beginners)**
+1. Visit [nodejs.org](https://nodejs.org/)
+2. Download the **LTS version** of the `.pkg` file
+3. Double-click the installer package and follow the prompts to complete the installation
+4. Verify Installation:
    ```bash
-   # 打开终端（Terminal）
+   # Open Terminal
    node --version
    npm --version
    ```
 
-**方法二：使用 Homebrew（推荐开发者）**
+**Method 2: Using Homebrew (Recommended for Developers)**
 ```bash
-# 安装 Homebrew（如果未安装）
+# Install Homebrew (if not installed)
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-# 安装 Node.js
+# Install Node.js
 brew install node
 
-# 验证安装
+# Verify installation
 node --version
 npm --version
 ```
 
-
-
-### 1. 克隆项目并安装
+### 1. Clone Project and Install
 
 ```bash
-# 克隆项目
+# Clone project
 git clone <repository-url>
 cd annotation-finmme
 
-# 安装依赖
+# Install dependencies
 npm install
 
-# 启动服务（首次启动会自动初始化数据库）
+# Start service (database will be automatically initialized on first run)
 npm start
 ```
 
-### 2. 登录系统
+### 2. Log in to the System
 
-访问 **http://localhost:3000**，使用你的标注账号登录：
+Visit **http://localhost:3000** and log in using your annotation account:
 
-- **账号**: `annotator`
-- **密码**: `anno123`
+- **Account**: `annotator`
+- **Password**: `anno123`
 
-### 3. 开始标注
+### 3. Start Annotating
 
-- 在侧边栏中找到你负责的图片（`finmme_000000.png` ~ `finmme_001254.png`）
-- 点击进入标注页面
-- 按照下方流程操作
-
----
-
-## 标注流程
-
-### 总结规范
-
-AI 生成的总结包含两个部分：
-- **【图表构成】**: 图表类型、标题、坐标轴、图例等基础信息
-- **【数据关系】**: 关键数值、量化关系、数据对比（**主要审核这部分**）
-
-### 📖 详细标注标准
-
-**完整的标注规范和示例请查看飞书文档：**
-
-👉 [金融图表标注详细标准](https://jtafr5ebk9.feishu.cn/wiki/MDvCwZUsMiejtdksJlHcD0ebnve?wiki_all_space_view_source=space_sidebar&table=tblsavw6Bqc8FGFE&view=vewluJy8YA)
-
-**重要提示**：开始标注前，请务必先阅读飞书文档中的详细标准和示例！
-
-### 操作流程
-
-#### 情况一：无需修改
-1. 查看 AI 生成的总结，重点检查 **【数据关系】** 部分的数值准确性
-2. 确认无误后，直接点击 **「接受」** 按钮
-3. 系统自动跳转到下一张图片
-
-#### 情况二：需要修改
-1. 点击 **「编辑」** 按钮
-2. 在编辑框中修改总结内容（重点修正数值错误）
-3. 点击 **「保存修改」** 按钮
-4. 确认修改后，点击 **「接受」** 按钮
-
-#### 情况三：图表有问题
-- 图表错误过多、太复杂、或图片本身有问题
-- 直接点击 **「删除」** 按钮
-
-### 侧边栏快速切换
-
-左侧边栏显示所有图片列表：
-- **绿色点**: 已标注
-- **黄色点**: 待标注（AI 已生成，待审核）
-- **灰色点**: 未标注
-
-点击侧边栏任意图片可快速跳转。
+- Find your assigned images (`finmme_000000.png` ~ `finmme_001254.png`) in the sidebar
+- Click to enter the annotation page
+- Follow the process below
 
 ---
 
-## Git 同步流程
+## Annotation Process
 
-### 📝 工作流程
+### Summarization Guidelines
 
-#### 1. 每次标注前：拉取最新数据
+The AI-generated summary consists of two parts:
+- **[Chart Composition]**: Basic information such as chart type, title, axes, legend, etc.
+- **[Data Relationships]**: Key values, quantitative relationships, data comparisons (**primarily review this part**)
+
+### 📖 Detailed Annotation Standards
+
+**For complete annotation guidelines and examples, please refer to the Feishu document:**
+
+👉 [Detailed Financial Chart Annotation Standards](https://jtafr5ebk9.feishu.cn/wiki/MDvCwZUsMiejtdksJlHcD0ebnve?wiki_all_space_view_source=space_sidebar&table=tblsavw6Bqc8FGFE&view=vewluJy8YA)
+
+**Important Note**: Before starting annotation, please make sure to read the detailed standards and examples in the Feishu document!
+
+### Operation Process
+
+#### Scenario 1: No Modification Needed
+1. Review the AI-generated summary, focusing on the numerical accuracy of the **[Data Relationships]** section
+2. If confirmed correct, directly click the **"Accept"** button
+3. The system will automatically jump to the next image
+
+#### Scenario 2: Modification Required
+1. Click the **"Edit"** button
+2. Modify the summary content in the edit box (focus on correcting numerical errors)
+3. Click the **"Save Changes"** button
+4. After confirming the changes, click the **"Accept"** button
+
+#### Scenario 3: Chart Issues
+- Too many chart errors, overly complex, or issues with the image itself
+- Directly click the **"Delete"** button
+
+### Sidebar Quick Switching
+
+The left sidebar displays a list of all images:
+- **Green dot**: Annotated
+- **Yellow dot**: Pending Annotation (AI generated, awaiting review)
+- **Gray dot**: Not Annotated
+
+Click any image in the sidebar to quickly navigate.
+
+---
+
+## Git Synchronization Process
+
+### 📝 Workflow
+
+#### 1. Before Each Annotation Session: Pull Latest Data
 
 ```bash
 git pull
 ```
 
-这会同步其他人的标注进度。
+This will synchronize the annotation progress of others.
 
-#### 2. 标注你负责的图片
+#### 2. Annotate Your Assigned Images
 
-- **只标注**: `finmme_000000.png` ~ `finmme_001254.png`
-- **不要标注**: 其他范围的图片（避免冲突）
+- **Only annotate**: `finmme_000000.png` ~ `finmme_001254.png`
+- **Do not annotate**: images outside your range (to avoid conflicts)
 
-#### 3. 每完成 100 张：提交并推送
+#### 3. After Every 100 Images: Commit and Push
 
 ```bash
-# 暂存数据库文件
+# Stage database file
 git add database.db
 
-# 提交（注明进度）
-git commit -m "标注: 已完成 0-99 共100张"
+# Commit (note progress)
+git commit -m "Annotation: Completed 0-99, total 100 images"
 
-# 推送到远程
+# Push to remote
 git push
 ```
 
-### 💡 重要提示
+### 💡 Important Tips
 
-- ✅ **标注前先 `git pull`**，获取最新进度
-- ✅ **只标注你负责的 1000 张图片**（`finmme_000000` ~ `finmme_001254`）
-- ✅ **每完成 100 张推送一次**，避免数据丢失
+- ✅ **Before annotating, first `git pull`** to get the latest progress
+- ✅ **Only annotate your assigned 1000 images** (`finmme_000000` ~ `finmme_001254`)
+- ✅ **Push once every 100 images completed** to prevent data loss
 
 ---
 
-## 常见问题
+## Frequently Asked Questions
 
-### 端口 3000 被占用
+### Port 3000 is Occupied
 
 ```bash
-# 查看占用进程
+# Check process occupying port
 lsof -i:3000
 
-# 杀死进程（替换 PID 为实际进程 ID）
+# Kill process (replace PID with actual process ID)
 kill <PID>
 
-# 或修改 .env 文件中的 PORT 为 3001
+# Or modify PORT in .env file to 3001
 ```
 
-### 首次运行提示数据库不存在
+### Database Not Found on First Run
 
 ```bash
-# 手动初始化数据库
+# Manually initialize database
 npm run init
 ```
 
-### 服务启动失败
+### Service Startup Failed
 
 ```bash
-# 1. 检查 Node.js 版本
-node --version  # 应该 >= 14.0
+# 1. Check Node.js version
+node --version  # Should be >= 14.0
 
-# 2. 重新安装依赖
+# 2. Reinstall dependencies
 rm -rf node_modules
 npm install
 
-# 3. 重启服务
+# 3. Restart service
 npm start
 ```
 
 ---
 
-## 项目结构
+## Project Structure
 
 ```
 annotation-finmme/
 ├── src/
-│   ├── server.js          # 后端服务
-│   └── init-db.js         # 数据库初始化
-├── public/                # 前端页面
-├── images/                # 图表数据（2046 张）
-├── database.db            # SQLite 数据库（需同步）
+│   ├── server.js          # Backend service
+│   └── init-db.js         # Database initialization
+├── public/                # Frontend pages
+├── images/                # Chart data (2046 images)
+├── database.db            # SQLite database (needs synchronization)
 └── package.json
 ```

@@ -1,93 +1,93 @@
-# DPO V4 实验项目
+# DPO V4 Experiment Project
 
-## 项目定位
+## Project Positioning
 
-基于 V2/V3 FCPO 实验的教训，探索能够真正利用源数据可验证性的方法，为 ACMM 2026 论文提供实验支撑。
+Based on lessons learned from V2/V3 FCPO experiments, explore methods that can truly leverage source data verifiability to provide experimental support for the ACMM 2026 paper.
 
-**你的第一步**：读完本文件后，依次读取：
-1. `00-FCPO实验复盘.md` — V2/V3 完整教训
-2. `01-实验计划.md` — V4 方案与优先级
-3. `02-服务器资源.md` — SSH 连接、路径、GPU 状态
-4. `03-API配置.md` — 所有 API key
+**Your first step**: After reading this file, read in sequence:
+1. `00-fcpo-experiment-review.md` — Complete lessons from V2/V3
+2. `01-experiment-plan.md` — V4 approach and priorities
+3. `02-server-resources.md` — SSH connection, paths, GPU status
+4. `03-api-configuration.md` — All API keys
 
-然后检查当前状态（哪些任务已完成、服务器上什么在跑），确定下一步行动。
+Then check current status (which tasks are completed, what's running on the server) and determine next actions.
 
 ---
 
-## 核心上下文
+## Core Context
 
-### 已确认事实
+### Confirmed Facts
 
-| 事实 | 数据 |
+| Fact | Data |
 |------|------|
 | SFT baseline (exp-012/ckpt-640) | L2=0.744 |
-| 标准 DPO best (LF-2, β=0.1, rank=256) | L2=0.755 |
-| FCPO 全部无效 | Shuffle ≈ FCPO，LF-FCPO < SFT |
-| r_fact SNR=0.03 | 97% 噪声 |
-| ms-swift 推理不可靠 | mode collapse |
-| LlamaFactory 推理可靠 | ✅ |
+| Standard DPO best (LF-2, β=0.1, rank=256) | L2=0.755 |
+| All FCPO ineffective | Shuffle ≈ FCPO, LF-FCPO < SFT |
+| r_fact SNR=0.03 | 97% noise |
+| ms-swift inference unreliable | mode collapse |
+| LlamaFactory inference reliable | ✅ |
 
-### 基础模型与数据
+### Base Model and Data
 
-- **基础模型**: Qwen3-VL-8B-Instruct (`/share4/yzy/models/qwen3-vl-8b-instruct`)
+- **Base model**: Qwen3-VL-8B-Instruct (`/share4/yzy/models/qwen3-vl-8b-instruct`)
 - **SFT checkpoint**: exp-012/checkpoint-640 (LoRA rank=256)
-- **DPO 数据**: 1700 偏好对 (pku-246: `/home/ww/qwen3vl-dpo$DATA_ROOT/dpo/`)
-- **图片**: 7677 张 (pku-246: `/home/ww/qwen3vl-dpo/data/images/`)
-- **训练框架**: **LlamaFactory 0.9.5**（统一，不用 ms-swift）
-- **评估**: FinMME-1000, Judge=gemini-2.5-flash-lite
+- **DPO data**: 1700 preference pairs (pku-246: `/home/ww/qwen3vl-dpo$DATA_ROOT/dpo/`)
+- **Images**: 7677 images (pku-246: `/home/ww/qwen3vl-dpo/data/images/`)
+- **Training framework**: **LlamaFactory 0.9.5** (unified, no ms-swift)
+- **Evaluation**: FinMME-1000, Judge=gemini-2.5-flash-lite
 
-### 前序项目
+### Previous Projects
 
-| 项目 | 路径 | 内容 |
+| Project | Path | Content |
 |------|------|------|
-| V1 (DPO 原始) | `../qwen3vl-dpo/` | 原始 DPO 实验 |
-| V2 (FCPO ms-swift) | `../qwen3vl-dpo-v2/` | FCPO pipeline + ms-swift 实验 |
-| V3 (FCPO LF) | `../qwen3vl-dpo-v3/` | LlamaFactory FCPO 17 实验 |
-| SFT | `../qwen3vl-sft/` | SFT 训练 |
-| 评估框架 | `../finmme-benchmark/` | FinMME 评估 |
+| V1 (DPO original) | `../qwen3vl-dpo/` | Original DPO experiments |
+| V2 (FCPO ms-swift) | `../qwen3vl-dpo-v2/` | FCPO pipeline + ms-swift experiments |
+| V3 (FCPO LF) | `../qwen3vl-dpo-v3/` | LlamaFactory FCPO 17 experiments |
+| SFT | `../qwen3vl-sft/` | SFT training |
+| Evaluation framework | `../finmme-benchmark/` | FinMME evaluation |
 
 ---
 
-## 行为准则
+## Behavioral Guidelines
 
-### 1. 统一使用 LlamaFactory
+### 1. Unified Use of LlamaFactory
 
-不再使用 ms-swift 做 DPO 训练和推理。所有实验统一 LlamaFactory 0.9.5。
+No longer use ms-swift for DPO training and inference. All experiments unified on LlamaFactory 0.9.5.
 
-### 2. 评估标准升级
+### 2. Upgraded Evaluation Standards
 
-- 关键实验必须跑 **L3 (1000 样本)**，不仅仅是 L2 (200)
-- 写入论文的实验必须 **3 seed + paired bootstrap**
-- Top-3 实验用 **GPT-5 交叉 Judge**
+- Critical experiments must run **L3 (1000 samples)**, not just L2 (200)
+- Experiments for paper must use **3 seeds + paired bootstrap**
+- Top-3 experiments use **GPT-5 cross Judge**
 
-### 3. 完整记录
+### 3. Complete Documentation
 
-- 每个实验在 `experiments/` 下建 MD
-- 维护 `experiments/STATUS.md` 全局进度
-- 训练配置放 `configs/`
+- Create MD for each experiment under `experiments/`
+- Maintain `experiments/STATUS.md` global progress
+- Place training configs in `configs/`
 
-### 4. 继承 V2 通用规则
+### 4. Inherit V2 General Rules
 
-- 不修改 V1/V2/V3 项目的文件
-- 共享机先查 GPU 占用
-- API 大批量前先测 10 条
-- SSH 命令先小规模验证
+- Do not modify files from V1/V2/V3 projects
+- Check GPU usage first on shared machines
+- Test 10 samples before large-scale API calls
+- Validate SSH commands on small scale first
 
 ---
 
-## 目录结构
+## Directory Structure
 
 ```
 qwen3vl-dpo-v4/
-├── CLAUDE.md              # 本文件
-├── 00-FCPO实验复盘.md     # V2/V3 完整教训
-├── 01-实验计划.md          # V4 方案
-├── 02-服务器资源.md        # 服务器配置
-├── 03-API配置.md           # API keys
-├── experiments/            # 实验记录
-│   └── STATUS.md           # 全局进度
-├── configs/                # 训练配置
-├── scripts/                # 脚本
-├── data/                   # 数据
-└── results/                # 评估结果
+├── CLAUDE.md              # This file
+├── 00-fcpo-experiment-review.md     # Complete lessons from V2/V3
+├── 01-experiment-plan.md          # V4 approach
+├── 02-server-resources.md        # Server configuration
+├── 03-api-configuration.md           # API keys
+├── experiments/            # Experiment records
+│   └── STATUS.md           # Global progress
+├── configs/                # Training configurations
+├── scripts/                # Scripts
+├── data/                   # Data
+└── results/                # Evaluation results
 ```

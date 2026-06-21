@@ -1,84 +1,84 @@
 # FinSumm
 
-面向金融图表理解与摘要的视觉语言模型项目。包含数据合成 / 标注流水线、SFT + DPO + FCPO 三阶段训练、推理与 Benchmark 评估的完整代码与配置。
+A visual language model project for financial chart understanding and summarization. Includes complete code and configurations for data synthesis/annotation pipelines, three-stage training (SFT + DPO + FCPO), inference, and benchmark evaluation.
 
-## 仓库结构
+## Repository Structure
 
 ```
 finsumm-project/
 ├── README.md
-├── data/                                # FinChartSum 样例数据（50 条）
-│   ├── charts/                          #   样例图
+├── data/                                # FinChartSum sample data (50 entries)
+│   ├── charts/                          #   Sample charts
 │   ├── finchartsum_sample.json
 │   └── README.md
-├── docs/                                # 顶层索引文档
+├── docs/                                # Top-level index documents
 └── src/
-    ├── dataset_construction/            # 一、数据集构建
-    │   ├── chart_synthesis/             #   合成图表 pipeline（v3/v4 合并版）
+    ├── dataset_construction/            # 1. Dataset Construction
+    │   ├── chart_synthesis/             #   Chart synthesis pipeline (v3/v4 merged)
     │   │   ├── src/                     #     planning / fetching / rendering / orchestration
-    │   │   ├── prompts/                 #     planner / coder / frontend prompt 模板
-    │   │   ├── config/                  #     图表-库映射、数据源映射、指标定义
-    │   │   ├── batch_configs/           #     批量生产配置（20 套）
+    │   │   ├── prompts/                 #     planner / coder / frontend prompt templates
+    │   │   ├── config/                  #     chart-library mapping, data source mapping, metric definitions
+    │   │   ├── batch_configs/           #     batch production configs (20 sets)
     │   │   ├── scripts/                 #     run.py / generate_summary.py / data_processors
     │   │   └── docs/
-    │   ├── ab_experiment/               #   A/B 参考信息验证
+    │   ├── ab_experiment/               #   A/B reference information validation
     │   │   ├── ab_experiment.py
     │   │   ├── evaluate_ab.py
     │   │   └── README.md
     │   └── annotation/
-    │       ├── finchart/                #   FinChart 标注系统（Node.js 源码 + 一份导出）
-    │       └── finmme/                  #   FinMME 标注系统（含 1000 条最终标注产物，剔除图片）
+    │       ├── finchart/                #   FinChart annotation system (Node.js source + one export)
+    │       └── finmme/                  #   FinMME annotation system (contains 1000 final annotations, images excluded)
     │
-    ├── training/                        # 二、训练
+    ├── training/                        # 2. Training
     │   ├── sft/                         #   (a) SFT  —  LLaMA-Factory + Qwen3-VL-8B LoRA
     │   │   ├── configs/                 #     qwen3vl_lora_sft.yaml / ds_zero2.json
     │   │   ├── scripts/                 #     train_full.sh / convert_all_data.py
     │   │   ├── docker/                  #     Dockerfile / docker-compose.yml
-    │   │   ├── data/                    #     训练数据（all_train/val.json + dataset_info）
+    │   │   ├── data/                    #     training data (all_train/val.json + dataset_info)
     │   │   └── CLAUDE.md
-    │   ├── dpo/                         #   (b) DPO  —  偏好对学习
+    │   ├── dpo/                         #   (b) DPO  —  preference pair learning
     │   │   ├── configs/                 #     dpo_exp001.yaml / qwen3vl_lora_dpo.yaml
-    │   │   ├── scripts/                 #     候选生成 / 偏好对选择 / 推理
-    │   │   ├── data/                    #     dpo_train_1700.json (8MB) 等
+    │   │   ├── scripts/                 #     candidate generation / preference pair selection / inference
+    │   │   ├── data/                    #     dpo_train_1700.json (8MB) etc.
     │   │   └── CLAUDE.md
     │   └── fcpo/                        #   (c) FCPO  —  Fact-Calibrated Preference Optimization
     │       ├── configs/
     │       ├── scripts/                 #     h20_fcpo_*.sh / ablation/
     │       ├── data_pipeline/           #     compute_r_fact_llm.py / build_fcpo_data.py / score_candidates.py
-    │       ├── data/                    #     fcpo_merged_*.json 等
-    │       └── docs/                    #     00-FCPO实验复盘 / 04-数据构建Pipeline / 06-训练配置教训 等
+    │       ├── data/                    #     fcpo_merged_*.json etc.
+    │       └── docs/                    #     00-FCPO Experiment Review / 04-Data Construction Pipeline / 06-Training Configuration Lessons etc.
     │
-    ├── inference/                       # 三-1 推理脚本
-    │   ├── lora_inference_8gpu.py       #     自研 LoRA 推理（8 卡）
-    │   ├── dpo_inference_bilingual.py   #     DPO/FCPO 中英双语推理
-    │   ├── api_inference_*.py           #     闭源 API 推理（GPT-5.4 / Gemini / Kimi 等）
-    │   ├── base_inference_8gpu.py       #     基线模型推理
+    ├── inference/                       # 3-1 Inference Scripts
+    │   ├── lora_inference_8gpu.py       #     Custom LoRA inference (8 GPUs)
+    │   ├── dpo_inference_bilingual.py   #     DPO/FCPO bilingual inference
+    │   ├── api_inference_*.py           #     Closed-source API inference (GPT-5.4 / Gemini / Kimi etc.)
+    │   ├── base_inference_8gpu.py       #     Baseline model inference
     │   └── INFERENCE_PARAMS.md
     │
-    └── evaluation/                      # 三-2 Benchmark 评估
+    └── evaluation/                      # 3-2 Benchmark Evaluation
         ├── evaluators/
-        │   ├── factscore_v2.py / v3.py  #     FactScore（自定义事实一致性指标）
-        │   ├── judge_llm.py             #     LLM-as-Judge（Gemini-2.5-Flash）
+        │   ├── factscore_v2.py / v3.py  #     FactScore (custom factual consistency metric)
+        │   ├── judge_llm.py             #     LLM-as-Judge (Gemini-2.5-Flash)
         │   ├── traditional.py           #     BLEU / ROUGE / METEOR / CIDEr
         │   └── gemini_client.py
-        ├── benchmark_full_1000.py       #     全量评估入口
-        ├── benchmark_7checkpoints.py    #     多 checkpoint 对比
+        ├── benchmark_full_1000.py       #     Full evaluation entry point
+        ├── benchmark_7checkpoints.py    #     Multi-checkpoint comparison
         ├── batch_eval_7ckpt.sh
-        ├── dataset_index_*.json         #     评估集索引
+        ├── dataset_index_*.json         #     Evaluation set index
         └── EVALUATION.md
 ```
 
-## 完整训练流程
+## Full Training Workflow
 
 ```
-原始公开数据（FRED/yfinance/...）
+Raw public data (FRED/yfinance/...)
         │
         ▼
 ┌──────────────────────────────────────┐
 │ 1. dataset_construction/             │
-│   chart_synthesis  → 合成 ~9K 图表    │
-│   ab_experiment    → 验证参考信息有效 │
-│   annotation       → 人工标注 ~6.4K   │
+│   chart_synthesis  → synthesize ~9K charts │
+│   ab_experiment    → validate reference info effectiveness │
+│   annotation       → manual annotation ~6.4K │
 └──────────────────────────────────────┘
         │
         ▼
@@ -91,14 +91,14 @@ finsumm-project/
         ▼
 ┌──────────────────────────────────────┐
 │ 2(b). training/dpo/                  │
-│   候选生成 → 偏好对选择              │
+│   candidate generation → preference pair selection │
 │   ~1.7K pairs / 1 epoch              │
 └──────────────────────────────────────┘
         │
         ▼
 ┌──────────────────────────────────────┐
 │ 2(c). training/fcpo/                 │
-│   Fact-Calibrated 偏好优化           │
+│   Fact-Calibrated preference optimization │
 │   per-sample margin (γ=4.0)          │
 │   1.7K pairs / 1 epoch / β=0.1       │
 └──────────────────────────────────────┘
@@ -107,47 +107,47 @@ finsumm-project/
 ┌──────────────────────────────────────┐
 │ 3. inference/  +  evaluation/        │
 │   FinChartSum 1000-sample benchmark  │
-│   LLM-Score + 6 个传统 NLG 指标       │
+│   LLM-Score + 6 traditional NLG metrics │
 └──────────────────────────────────────┘
 ```
 
-## 环境
+## Environment
 
-- 训练：8×H20 (FCPO) / 8×RTX4090 (SFT)
-- 框架：LLaMA-Factory + DeepSpeed ZeRO-2 + transformers
+- Training: 8×H20 (FCPO) / 8×RTX4090 (SFT)
+- Framework: LLaMA-Factory + DeepSpeed ZeRO-2 + transformers
 - Python 3.10 + flash-attn
 
-具体环境配置见各阶段 `Dockerfile`、`CLAUDE.md` 和 `06-训练配置教训.md`。
+Specific environment configurations can be found in `Dockerfile`, `CLAUDE.md`, and `06-training-configuration-lessons.md` for each stage.
 
-## 数据与模型
+## Data and Models
 
-- 仓库内已含小体积训练 / 偏好对 / 评估索引 JSON（< 15 MB 单文件）
-- 大体积候选集、源 facts、训练图片仅在 GPU 服务器保留；各 `data/README.md` 列出对应路径
-- GPU 服务器路径前缀：`$DATA_ROOT/{sft,dpo,dpo-v4}/`、`$DATA_ROOT/benchmark/`
+- The repository already includes small-volume training / preference pair / evaluation index JSON files (< 15 MB single file).
+- Large-volume candidate sets, source facts, and training images are only kept on the GPU server; corresponding paths are listed in each `data/README.md`.
+- GPU server path prefixes: `$DATA_ROOT/{sft,dpo,dpo-v4}/`, `$DATA_ROOT/benchmark/`
 
-## 关键文档
+## Key Documents
 
-| 文档 | 说明 |
+| Document | Description |
 |------|------|
-| `src/training/sft/CLAUDE.md` | SFT 阶段说明 |
-| `src/training/dpo/CLAUDE.md` | DPO 阶段说明 |
-| `src/training/fcpo/docs/00-FCPO实验复盘.md` | FCPO 实验全过程复盘 |
-| `src/training/fcpo/docs/04-数据构建Pipeline.md` | FCPO 数据构建详细流程 |
-| `src/training/fcpo/docs/05-Fact评分Pipeline对比.md` | FactScore 各版本对比 |
-| `src/training/fcpo/docs/06-训练配置教训.md` | 调参 / 显存 / 配置坑点 |
-| `src/training/fcpo/docs/02-服务器资源.md` | H20 服务器资源说明 |
-| `src/training/fcpo/docs/03-API配置.md` | 评估 / 标注 API key 与配置 |
-| `src/training/fcpo/docs/08-评估结果STATUS.md` | FCPO R2 评估对比表 |
-| `src/evaluation/EVALUATION.md` | 评估方法说明 |
-| `src/inference/INFERENCE_PARAMS.md` | 推理参数对照 |
+| `src/training/sft/CLAUDE.md` | SFT Stage Description |
+| `src/training/dpo/CLAUDE.md` | DPO Stage Description |
+| `src/training/fcpo/docs/00-fcpo-experiment-review.md` | FCPO Experiment Full Retrospective |
+| `src/training/fcpo/docs/04-data-construction-pipeline.md` | FCPO Data Construction Detailed Workflow |
+| `src/training/fcpo/docs/05-fact-scoring-pipeline-comparison.md` | FactScore Version Comparison |
+| `src/training/fcpo/docs/06-training-configuration-lessons.md` | Parameter Tuning / VRAM / Configuration Pitfalls |
+| `src/training/fcpo/docs/02-server-resources.md` | H20 Server Resource Description |
+| `src/training/fcpo/docs/03-api-configuration.md` | Evaluation / Annotation API Key and Configuration |
+| `src/training/fcpo/docs/08-evaluation-results-status.md` | FCPO R2 Evaluation Comparison Table |
+| `src/evaluation/EVALUATION.md` | Evaluation Method Description |
+| `src/inference/INFERENCE_PARAMS.md` | Inference Parameter Reference |
 
-## API Key 与环境变量
+## API Keys and Environment Variables
 
-仓库中所有出现 `<YOUR_API_KEY>` 占位符的地方都需在使用前替换为真实 key。涉及的服务：
+All occurrences of the `<YOUR_API_KEY>` placeholder in the repository must be replaced with a real key before use. Services involved:
 
-- **apiyi (主用)** — `compute_r_fact_llm*.py` / `score_candidates.py` / `evaluate_ab.py` / `ab_experiment.py` / `generate_summary.py` / `api_inference_parallel.py` / 标注系统 `translate-analysis.js` / `generate-full-analysis-continue.js` 等
-- **<YOUR_LLM_PROXY>** — `annotation/finchart` 早期标注脚本
+- **apiyi (primary)** — `compute_r_fact_llm*.py` / `score_candidates.py` / `evaluate_ab.py` / `ab_experiment.py` / `generate_summary.py` / `api_inference_parallel.py` / annotation system `translate-analysis.js` / `generate-full-analysis-continue.js`, etc.
+- **<YOUR_LLM_PROXY>** — `annotation/finchart` early annotation scripts
 - **<YOUR_LLM_PROXY>** — `annotation/finmme` / `chart_synthesis/config/llm_config.yaml`
-- **OpenRouter / 其他直连 OpenAI** — `annotation/finchart/.env.example`
+- **OpenRouter / Other direct OpenAI connections** — `annotation/finchart/.env.example`
 
-`annotation/{finchart,finmme}/.env.example` 已就位，复制为 `.env` 并填入自己的 key 即可（`.env` 已被 `.gitignore` 排除）。
+`annotation/{finchart,finmme}/.env.example` is already in place. Copy it to `.env` and fill in your own key (`.env` has been excluded by `.gitignore`).

@@ -1,92 +1,92 @@
 # Coder User Prompt Template v2
-# 增强版：程序化数据选择 + LLM 生成 question/labels/code
+# Enhanced Version: Programmatic Data Selection + LLM Generation of Question/Labels/Code
 
-你是一位专业的金融数据可视化工程师。你的目标是：
-1. 根据数据生成一个专业的**业务问题** (question)
-2. 设计图表的**标题和轴标签** (labels)
-3. 生成**符合专业金融机构标准**的图表代码
+You are a professional financial data visualization engineer. Your goal is to:
+1. Generate a professional **business question** (question) based on the data.
+2. Design the chart **title and axis labels** (labels).
+3. Generate chart code that **meets the standards of professional financial institutions**.
 
-## 任务
-使用 `{library}` 生成 `{chart_type}` 图表
+## Task
+Use `{library}` to generate a `{chart_type}` chart.
 
-## 数据信息
-- **数据指标**: `{indicator}`
-- **指标描述**: `{indicator_description}`
-- **数据源**: `{data_source}`
-- **主题领域**: `{theme}`
-- **语言**: `{locale}`
+## Data Information
+- **Data Metrics**: `{indicator}`
+- **Metric Description**: `{indicator_description}`
+- **Data Source**: `{data_source}`
+- **Topic Area**: `{theme}`
+- **Language**: `{locale}`
 
-## 数据预览 (df变量已准备好)
+## Data Preview (df variable is ready)
 ```
 {dataframe_preview}
 ```
 
-## 数据统计
-- 行数: `{row_count}`
-- 列名: `{column_names}`
-- 索引: `{index_name}`
-- **时间范围**: `{time_start}` ~ `{time_end}` (共 `{time_span_days}` 天)
-- 统计: min=`{min_value}`, max=`{max_value}`, mean=`{mean_value}`, std=`{std_value}`
-- 分位数: q01=`{q01_value}`, q99=`{q99_value}`
+## Data Statistics
+- Row Count: `{row_count}`
+- Column Names: `{column_names}`
+- Index: `{index_name}`
+- **Time Range**: `{time_start}` ~ `{time_end}` (Total `{time_span_days}` days)
+- Statistics: min=`{min_value}`, max=`{max_value}`, mean=`{mean_value}`, std=`{std_value}`
+- Quantiles: q01=`{q01_value}`, q99=`{q99_value}`
 {transform_hint}
 
-## 输出要求 (JSON 格式)
+## Output Requirements (JSON Format)
 
-你必须输出一个**有效的 JSON 对象**，包含以下三个字段：
+You must output a **valid JSON object** containing the following three fields:
 
 ```json
 {{
-  "question": "基于数据的业务问题（使用{locale}语言，像金融分析师会问的问题）",
+  "question": "Business question based on the data (use {locale} language, like a financial analyst would ask)",
   "labels": {{
-    "title": "图表标题（{locale}语言，简洁明了）",
-    "x_label": "X轴标签",
-    "y_label": "Y轴标签"
+    "title": "Chart title ({locale} language, concise and clear)",
+    "x_label": "X-axis label",
+    "y_label": "Y-axis label"
   }},
-  "code": "完整的Python绘图代码（字符串形式，换行用\\n）"
+  "code": "Complete Python plotting code (as a string, use \\n for line breaks)"
 }}
 ```
 
-### question 要求
-- 使用 `{locale}` 语言
-- 像金融分析师/研究员会提出的专业问题
-- 与数据内容相关，体现分析价值
-- 示例 (中文): "过去5年美国核心通胀率的走势如何？是否出现明显的趋势性变化？"
-- 示例 (英文): "How has the S&P 500 performed relative to its 200-day moving average over the past year?"
+### Question Requirements
+- Use `{locale}` language.
+- Pose professional questions as a financial analyst/researcher would.
+- Be relevant to the data content and demonstrate analytical value.
+- Example (Chinese locale): "How has the U.S. core inflation rate changed over the past five years? Has there been a clear trend shift?"
+- Example (English): "How has the S&P 500 performed relative to its 200-day moving average over the past year?"
 
-### labels 要求
-- 使用 `{locale}` 语言
-- title: 简洁描述图表内容，可以是结论型或描述型
-- x_label/y_label: 准确描述轴含义，包含单位（如适用）
+### Labels Requirements
+- Use `{locale}` language.
+- title: A concise description of the chart content, which can be conclusive or descriptive.
+- x_label/y_label: Accurately describe the meaning of the axes, including units (if applicable).
 
-### code 要求
-1. 必须定义函数签名: `def plot_chart(df: pd.DataFrame):`
-2. 函数必须返回可视化对象（matplotlib.Figure / plotly.Figure / altair.Chart）
-3. 使用你生成的 title、x_label、y_label
-4. 不要自己获取数据，只使用传入的 df 参数
-5. **语义一致性 (CRITICAL)**: 标题、轴标签、图例必须与实际数据内容匹配
-6. **字体配置 (CRITICAL)**: 必须在函数开头、所有绑图代码之前添加：
+### Code Requirements
+1. Must define the function signature: `def plot_chart(df: pd.DataFrame):`
+2. The function must return a visualization object (matplotlib.Figure / plotly.Figure / altair.Chart).
+3. Use your generated title, x_label, and y_label.
+4. Do not fetch data yourself; only use the provided df parameter.
+5. **Semantic Consistency (CRITICAL)**: Titles, axis labels, and legends must match the actual data content.
+6. **Font Configuration (CRITICAL)**: Add the following at the beginning of the function, before all plotting code:
 ```python
 {font_config_code}
 ```
 
 {library_specific_notes}
 
-### Pandas 常见陷阱 (CRITICAL)
-- ❌ 禁止: `if df['col']:` 或 `if series:` — Series 不能直接当布尔值
-- ✅ 正确: `if df['col'].any():` 或 `if not df['col'].empty:`
-- ❌ 禁止: `df['A'] and df['B']` — 不能用 and/or 连接 Series
-- ✅ 正确: `(df['A'] > 0) & (df['B'] > 0)` — 用 &/| 并加括号
+### Common Pandas Pitfalls (CRITICAL)
+- ❌ Forbidden: `if df['col']:` or `if series:` — Series cannot be directly used as boolean values.
+- ✅ Correct: `if df['col'].any():` or `if not df['col'].empty:`
+- ❌ Forbidden: `df['A'] and df['B']` — Cannot connect Series with and/or.
+- ✅ Correct: `(df['A'] > 0) & (df['B'] > 0)` — Use &/| and enclose in parentheses.
 
-### 时序数据X轴标签处理 (CRITICAL)
-**适用于**: matplotlib / seaborn / mplfinance
+### Time Series X-axis Label Handling (CRITICAL)
+**Applicable to**: matplotlib / seaborn / mplfinance
 
-**必须**根据数据时间跨度（见上方 `time_span_days`）自动选择合适的刻度：
-- **< 14天**: `DayLocator(interval=1)` + `DateFormatter('%m-%d')`
-- **14-90天**: `WeekdayLocator(byweekday=MO)` 或 `DayLocator(interval=7)` + `DateFormatter('%m-%d')`
-- **90-730天**: `MonthLocator()` + `DateFormatter('%Y-%m')`
-- **> 730天**: `YearLocator()` 或 `MonthLocator(interval=3)` + `DateFormatter('%Y')`
+**Must** automatically select appropriate ticks based on the data's time span (see `time_span_days` above):
+- **< 14 days**: `DayLocator(interval=1)` + `DateFormatter('%m-%d')`
+- **14-90 days**: `WeekdayLocator(byweekday=MO)` or `DayLocator(interval=7)` + `DateFormatter('%m-%d')`
+- **90-730 days**: `MonthLocator()` + `DateFormatter('%Y-%m')`
+- **> 730 days**: `YearLocator()` or `MonthLocator(interval=3)` + `DateFormatter('%Y')`
 
-**最佳实践**：使用 `AutoDateLocator()` + `ConciseDateFormatter()` 自动适配：
+**Best Practice**: Use `AutoDateLocator()` + `ConciseDateFormatter()` for automatic adaptation:
 ```python
 from matplotlib.dates import AutoDateLocator, ConciseDateFormatter
 locator = AutoDateLocator()
@@ -95,16 +95,15 @@ ax.xaxis.set_major_formatter(ConciseDateFormatter(locator))
 plt.xticks(rotation=45, ha='right')
 ```
 
-❌ **禁止**：对长时间序列使用固定间隔如 `DayLocator(interval=2)`，会导致标签堆叠
+❌ **Forbidden**: Using fixed intervals like `DayLocator(interval=2)` for long time series, which can lead to label stacking.
 
-**Plotly/Altair**: 这些库会自动处理日期轴，无需手动配置 Locator
+**Plotly/Altair**: These libraries automatically handle date axes, so manual Locator configuration is not required.
 
-## 视觉风格指南: {visual_style_title}
+## Visual Style Guide: {visual_style_title}
 
 {visual_style_notes}
 {chart_constraints}
-## 重要提醒
-1. 输出**有效 JSON**，不要添加 markdown 代码块标记
-2. code 中换行用 `\n`（单反斜杠），引号用 `\"`
-3. 直接输出 JSON 对象：
-
+## Important Reminders
+1. Output **valid JSON**, do not add markdown code block markers.
+2. Use `\n` (single backslash) for line breaks in code, and `\"` for quotes.
+3. Output the JSON object directly:

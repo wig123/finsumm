@@ -1,99 +1,99 @@
-# Python库安装清单
+# Python Library Installation Guide
 
-## 当前环境状态
+## Current Environment Status
 
-**虚拟环境**: `.venv`
-**Python版本**: 3.13.6
-**更新时间**: 2025-01-17
-
----
-
-## 已安装核心库
-
-### 绘图核心（6个）
-
-| 库名 | 版本 | 用途 |
-|-----|------|------|
-| **matplotlib** | 3.10.7 | 基础图表（line/bar/area/histogram/scatter/contour/errorbar） |
-| **seaborn** | 0.13.2 | 统计图表（heatmap/box/density） |
-| **plotly** | 6.3.1 | 交互图表（waterfall/treemap/overlay/gantt/depth） |
-| **mplfinance** | 0.12.10b0 | 金融图表（candlestick/OHLC/volume/Bollinger/Ichimoku/Renko） |
-| **networkx** | 3.5 | 网络图布局 |
-| **squarify** | 0.4.4 | treemap布局算法 |
-
-### 数据处理（3个）
-
-| 库名 | 版本 | 用途 |
-|-----|------|------|
-| **pandas** | 2.3.3 | 数据操作 |
-| **numpy** | 2.2.6 | 数值计算 |
-| **scipy** | 1.16.2 | 科学计算（contour/density） |
-
-### 技术指标（2个）
-
-| 库名 | 版本 | 用途 |
-|-----|------|------|
-| **pandas-ta** | 0.4.71b0 | 技术指标计算（Bollinger/MACD/RSI等） |
-| **statsmodels** | 0.14.5 | 统计建模（时序分析/回归） |
-
-### 导出支持（1个）
-
-| 库名 | 版本 | 用途 |
-|-----|------|------|
-| **kaleido** | 1.2.0 | plotly静态图导出（PNG/SVG/PDF） |
+**Virtual Environment**: `.venv`
+**Python Version**: 3.13.6
+**Last Updated**: 2025-01-17
 
 ---
 
-## 安装命令
+## Installed Core Libraries
 
-### 完整安装（推荐）
+### Plotting Core (6 libraries)
+
+| Library Name | Version | Purpose |
+|--------------|---------|---------|
+| **matplotlib** | 3.10.7 | Basic charts (line/bar/area/histogram/scatter/contour/errorbar) |
+| **seaborn** | 0.13.2 | Statistical charts (heatmap/box/density) |
+| **plotly** | 6.3.1 | Interactive charts (waterfall/treemap/overlay/gantt/depth) |
+| **mplfinance** | 0.12.10b0 | Financial charts (candlestick/OHLC/volume/Bollinger/Ichimoku/Renko) |
+| **networkx** | 3.5 | Network graph layout |
+| **squarify** | 0.4.4 | Treemap layout algorithm |
+
+### Data Processing (3 libraries)
+
+| Library Name | Version | Purpose |
+|--------------|---------|---------|
+| **pandas** | 2.3.3 | Data manipulation |
+| **numpy** | 2.2.6 | Numerical computation |
+| **scipy** | 1.16.2 | Scientific computation (contour/density) |
+
+### Technical Indicators (2 libraries)
+
+| Library Name | Version | Purpose |
+|--------------|---------|---------|
+| **pandas-ta** | 0.4.71b0 | Technical indicator calculation (Bollinger/MACD/RSI, etc.) |
+| **statsmodels** | 0.14.5 | Statistical modeling (time series analysis/regression) |
+
+### Export Support (1 library)
+
+| Library Name | Version | Purpose |
+|--------------|---------|---------|
+| **kaleido** | 1.2.0 | Plotly static image export (PNG/SVG/PDF) |
+
+---
+
+## Installation Commands
+
+### Full Installation (Recommended)
 ```bash
-# 激活虚拟环境
+# Activate virtual environment
 source .venv/bin/activate
 
-# 核心绘图库
+# Core plotting libraries
 pip install matplotlib seaborn plotly mplfinance networkx squarify
 
-# 数据处理
+# Data processing
 pip install pandas numpy scipy
 
-# 技术指标
+# Technical indicators
 pip install pandas-ta statsmodels
 
-# 导出支持
+# Export support
 pip install kaleido
 ```
 
-### 分层安装（按需）
+### Tiered Installation (On Demand)
 
-**阶段1: 核心绘图（Tier 1必需）**
+**Tier 1: Core Plotting (Tier 1 Essential)**
 ```bash
 pip install matplotlib mplfinance pandas numpy
 ```
 
-**阶段2: 统计分析（Tier 2必需）**
+**Tier 2: Statistical Analysis (Tier 2 Essential)**
 ```bash
 pip install seaborn plotly scipy
 ```
 
-**阶段3: 技术指标（Tier 3必需）**
+**Tier 3: Technical Indicators (Tier 3 Essential)**
 ```bash
 pip install pandas-ta statsmodels
 ```
 
-**阶段4: 高级功能（可选）**
+**Tier 4: Advanced Features (Optional)**
 ```bash
 pip install networkx squarify kaleido
 ```
 
 ---
 
-## 图表类型覆盖矩阵
+## Chart Type Coverage Matrix
 
-### Tier 1核心（8种）✅ 全部支持
+### Tier 1 Core (8 types) ✅ Fully Supported
 
-| 图表类型 | 主库 | 辅助库 |
-|---------|------|--------|
+| Chart Type | Primary Library | Supporting Library |
+|------------|-----------------|--------------------|
 | line | matplotlib | - |
 | candlestick | mplfinance | - |
 | bar | matplotlib | - |
@@ -103,10 +103,10 @@ pip install networkx squarify kaleido
 | histogram | matplotlib | - |
 | scatter | matplotlib | - |
 
-### Tier 2高频（9种）✅ 全部支持
+### Tier 2 High Frequency (9 types) ✅ Fully Supported
 
-| 图表类型 | 主库 | 辅助库 |
-|---------|------|--------|
+| Chart Type | Primary Library | Supporting Library |
+|------------|-----------------|--------------------|
 | heatmap | seaborn | matplotlib |
 | waterfall | plotly | - |
 | OHLC | mplfinance | - |
@@ -117,10 +117,10 @@ pip install networkx squarify kaleido
 | line + band overlay | matplotlib | - |
 | treemap | plotly | squarify |
 
-### Tier 3专业（8种）✅ 全部支持
+### Tier 3 Professional (8 types) ✅ Fully Supported
 
-| 图表类型 | 主库 | 辅助库 |
-|---------|------|--------|
+| Chart Type | Primary Library | Supporting Library |
+|------------|-----------------|--------------------|
 | contour | matplotlib | scipy |
 | Fan Chart | matplotlib | - |
 | Volume Profile | matplotlib | pandas |
@@ -130,10 +130,10 @@ pip install networkx squarify kaleido
 | errorbar | matplotlib | - |
 | radar | plotly | - |
 
-### Tier 4特殊（7种）✅ 全部支持
+### Tier 4 Special (7 types) ✅ Fully Supported
 
-| 图表类型 | 主库 | 辅助库 |
-|---------|------|--------|
+| Chart Type | Primary Library | Supporting Library |
+|------------|-----------------|--------------------|
 | node | networkx | matplotlib |
 | Gantt | plotly | - |
 | Point & Figure | mplfinance | - |
@@ -142,14 +142,14 @@ pip install networkx squarify kaleido
 | density | seaborn | scipy |
 | heatmap + scatter | seaborn | matplotlib |
 
-**总计**: 28种图表类型 100%覆盖 ✅
+**Total**: 28 Chart Types 100% Coverage ✅
 
 ---
 
-## 验证安装
+## Verify Installation
 
 ```python
-# 运行此脚本验证所有库可用
+# Run this script to verify all libraries are available
 import matplotlib
 import seaborn
 import plotly
@@ -162,7 +162,7 @@ import statsmodels
 import squarify
 import kaleido
 
-print("✅ 所有核心库安装成功！")
+print("✅ All core libraries installed successfully!")
 print(f"matplotlib: {matplotlib.__version__}")
 print(f"mplfinance: {mplfinance.__version__}")
 print(f"plotly: {plotly.__version__}")
@@ -172,44 +172,44 @@ print(f"pandas-ta: {import pandas_ta; pandas_ta.__version__}")
 
 ---
 
-## 库版本兼容性
+## Library Version Compatibility
 
-| Python版本 | 推荐库版本 | 备注 |
-|-----------|-----------|------|
-| 3.13.x | 当前版本 | ✅ 已验证 |
-| 3.12.x | 当前版本 | ✅ 兼容 |
-| 3.11.x | matplotlib>=3.8 | ⚠️ 需降级mplfinance |
-| 3.10.x | matplotlib>=3.7 | ⚠️ 需调整依赖 |
+| Python Version | Recommended Library Version | Notes |
+|----------------|-----------------------------|-------|
+| 3.13.x | Current Version | ✅ Verified |
+| 3.12.x | Current Version | ✅ Compatible |
+| 3.11.x | matplotlib>=3.8 | ⚠️ mplfinance downgrade required |
+| 3.10.x | matplotlib>=3.7 | ⚠️ Dependency adjustment needed |
 
 ---
 
-## 常见问题
+## Frequently Asked Questions
 
-### Q1: mplfinance版本显示beta?
-**A**: `0.12.10b0`是稳定的beta版，功能完整，金融图表推荐使用
+### Q1: mplfinance version shows beta?
+**A**: `0.12.10b0` is a stable beta version with full functionality. Recommended for financial charts.
 
-### Q2: kaleido安装失败?
-**A**: 主要用于plotly静态导出，非必需。可跳过或使用`orca`替代
+### Q2: kaleido installation failed?
+**A**: Primarily used for Plotly static export, not essential. Can be skipped or replaced with `orca`.
 
-### Q3: pandas-ta未安装成功?
-**A**: 可用TA-Lib替代，但pandas-ta更易安装（纯Python实现）
+### Q3: pandas-ta installation failed?
+**A**: TA-Lib can be used as an alternative, but pandas-ta is easier to install (pure Python implementation).
 
-### Q4: 如何减小环境体积?
+### Q4: How to reduce environment size?
 **A**:
-- 仅Tier 1: ~200MB（matplotlib + mplfinance）
-- Tier 1-2: ~350MB（+ seaborn + plotly）
-- 完整安装: ~500MB
+- Tier 1 Only: ~200MB (matplotlib + mplfinance)
+- Tier 1-2: ~350MB (+ seaborn + plotly)
+- Full Installation: ~500MB
 
 ---
 
-## 导出requirements.txt
+## Export requirements.txt
 
 ```bash
 source .venv/bin/activate
 pip freeze > requirements.txt
 ```
 
-当前核心依赖（精简版）:
+Current Core Dependencies (Minimal):
 ```
 matplotlib>=3.10.0
 seaborn>=0.13.0
@@ -227,4 +227,4 @@ kaleido>=1.2.0
 
 ---
 
-*维护: finchart项目组 | 最后更新: 2025-01-17*
+*Maintainers: finchart project group | Last Updated: 2025-01-17*

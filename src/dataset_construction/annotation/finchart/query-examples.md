@@ -1,61 +1,61 @@
-# SQLite 数据库查询指南
+# SQLite Database Query Guide
 
-## 基本命令
+## Basic Commands
 
-### 进入数据库
+### Enter Database
 ```bash
 sqlite3 database.db
 ```
 
-### 查看所有表
+### View All Tables
 ```sql
 .tables
 ```
 
-### 查看表结构
+### View Table Structure
 ```sql
 .schema images
 .schema annotations
 .schema users
 ```
 
-### 设置显示模式（更易读）
+### Set Display Mode (for better readability)
 ```sql
 .mode column
 .headers on
 ```
 
-### 退出
+### Exit
 ```sql
 .quit
 ```
 
 ---
 
-## 常用查询 SQL
+## Common SQL Queries
 
-### 1. 统计信息
+### 1. Statistics
 ```sql
--- 查看所有表的数据量
+-- View data count for all tables
 SELECT 'images' as table_name, COUNT(*) as count FROM images
 UNION ALL
 SELECT 'annotations', COUNT(*) FROM annotations
 UNION ALL
 SELECT 'users', COUNT(*) FROM users;
 
--- 按状态统计图片
+-- Count images by status
 SELECT status, COUNT(*) as count FROM images GROUP BY status;
 ```
 
-### 2. 查看用户信息
+### 2. View User Information
 ```sql
 SELECT id, username, role, datetime(created_at/1000, 'unixepoch', 'localtime') as created_at 
 FROM users;
 ```
 
-### 3. 查看标注进度
+### 3. View Annotation Progress
 ```sql
--- 查看最新的10条标注
+-- View the latest 10 annotations
 SELECT 
     a.image_id,
     i.filename,
@@ -69,16 +69,16 @@ ORDER BY a.annotated_at DESC
 LIMIT 10;
 ```
 
-### 4. 查看待标注图片
+### 4. View Images Pending Annotation
 ```sql
--- 前10张待标注的图片
+-- First 10 images pending annotation
 SELECT id, filename, status 
 FROM images 
 WHERE status = 'pending' 
 LIMIT 10;
 ```
 
-### 5. 查看某个标注员的工作量
+### 5. View an Annotator's Workload
 ```sql
 SELECT 
     annotator,
@@ -88,7 +88,7 @@ FROM annotations
 GROUP BY annotator;
 ```
 
-### 6. 查看标注历史（版本记录）
+### 6. View Annotation History (Version History)
 ```sql
 SELECT 
     image_id,
@@ -99,72 +99,70 @@ FROM annotation_history
 ORDER BY image_id, version;
 ```
 
-### 7. 查看 AI Prompt 配置
+### 7. View AI Prompt Configuration
 ```sql
 SELECT * FROM config;
 ```
 
 ---
 
-## 一行命令查询（不进入交互模式）
+## One-liner Queries (without entering interactive mode)
 
-### 统计数据
+### Get Statistics
 ```bash
 sqlite3 database.db "SELECT status, COUNT(*) FROM images GROUP BY status;"
 ```
 
-### 导出为 CSV
+### Export to CSV
 ```bash
 sqlite3 -header -csv database.db "SELECT * FROM annotations;" > annotations.csv
 ```
 
-### 格式化输出
+### Formatted Output
 ```bash
 sqlite3 -column -header database.db "SELECT * FROM users;"
 ```
 
 ---
 
-## 高级操作
+## Advanced Operations
 
-### 备份数据库
+### Backup Database
 ```bash
 sqlite3 database.db ".backup backup_$(date +%Y%m%d).db"
 ```
 
-### 导出整个数据库为 SQL
+### Export Entire Database as SQL
 ```bash
 sqlite3 database.db .dump > database_backup.sql
 ```
 
-### 恢复数据库
+### Restore Database
 ```bash
 sqlite3 new_database.db < database_backup.sql
 ```
 
-### 检查数据库完整性
+### Check Database Integrity
 ```bash
 sqlite3 database.db "PRAGMA integrity_check;"
 ```
 
 ---
 
-## 实用脚本
+## Utility Scripts
 
-### 查看当前标注进度
+### View Current Annotation Progress
 ```bash
 sqlite3 database.db << EOF
 .mode column
 .headers on
 SELECT 
-    '总图片数' as metric, COUNT(*) as value FROM images
+    'Total Images' as metric, COUNT(*) as value FROM images
 UNION ALL
-SELECT '已标注', COUNT(*) FROM images WHERE status = 'annotated'
+SELECT 'Annotated', COUNT(*) FROM images WHERE status = 'annotated'
 UNION ALL
-SELECT '待标注', COUNT(*) FROM images WHERE status = 'pending'
+SELECT 'Pending', COUNT(*) FROM images WHERE status = 'pending'
 UNION ALL
-SELECT '已删除', COUNT(*) FROM images WHERE status = 'deleted';
+SELECT 'Deleted', COUNT(*) FROM images WHERE status = 'deleted';
 EOF
 ```
-
-

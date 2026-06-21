@@ -35,10 +35,10 @@ Each summary follows a semantic model with four levels. English samples use brac
 
 | English Header | Chinese Header | Description |
 |:---------------|:---------------|:------------|
-| [Chart Components] | 【图表构成】 | Chart type, axes, legend, visual encoding |
-| [Data Relationships] | 【数据关系】 | Core numerical values, extrema, comparisons |
-| [Pattern Characteristics] | 【模式特征】 | Overall trajectory, phase characteristics, anomalies |
-| [Core Insights] | 【核心洞察】 | Business interpretation, risk assessment |
+| [Chart Components] | 【Chart Components】 | Chart type, axes, legend, visual encoding |
+| [Data Relationships] | 【Data Relationships】 | Core numerical values, extrema, comparisons |
+| [Pattern Characteristics] | 【Pattern Characteristics】 | Overall trajectory, phase characteristics, anomalies |
+| [Core Insights] | 【Core Insights】 | Business interpretation, risk assessment |
 
 ## Chart Type Distribution
 

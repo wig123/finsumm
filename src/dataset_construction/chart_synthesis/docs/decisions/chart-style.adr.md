@@ -1,4 +1,4 @@
-# ADR-002: 专业金融图表风格
+# ADR-002: Professional Financial Chart Style
 
 **Date**: 2025-11-26
 **Status**: Accepted
@@ -6,43 +6,43 @@
 
 ## Context
 
-LLM生成的图表倾向于"教学演示风格"：
-- 自动标注"2008金融危机"等历史事件
-- 极值点标注（"历史最高X%"）
-- 彩色区域高亮
-- 大量解释性文本框
+LLM-generated charts tend to adopt a "teaching presentation style":
+- Automatically annotate historical events like "2008 Financial Crisis"
+- Annotate extreme points ("Historical high X%")
+- Colored area highlights
+- Numerous explanatory text boxes
 
-这与真实金融图表（Bloomberg/FRED）风格差异很大。需要决定是否约束。
+This differs significantly from the style of real financial charts (Bloomberg/FRED). A decision is needed on whether to impose constraints.
 
 ## Decision
 
-追求**专业金融风格**，在提示词中明确约束：
-- 禁止装饰性标注（极值点标签、彩色高亮、解释文本框）
-- 允许功能性标注（Y=0参考线、衰退阴影、曲线末端小字体数值）
-- 设定"标注预算"（最多1-2项额外标注）
+Pursue a **professional financial style**, with explicit constraints in the prompts:
+- Prohibit decorative annotations (extreme point labels, colored highlights, explanatory text boxes)
+- Allow functional annotations (Y=0 reference lines, recession shadows, small-font values at the end of curves)
+- Set an "annotation budget" (maximum 1-2 additional annotations)
 
 ## Rationale
 
-**选择此方案**:
-- 训练数据应接近真实分布
-- 极简风格让数据说话，模型更难"作弊"
-- 专业风格更适合金融应用场景
+**Reasons for this decision**:
+- Training data should approximate real-world distributions
+- A minimalist style lets the data speak for itself, making it harder for the model to "cheat"
+- A professional style is more suitable for financial application scenarios
 
-**放弃的替代方案**:
-- 完全不约束：LLM过度装饰，数据湮没在标注中
-- 完全禁止所有标注：可能过于简陋（用户反馈担忧）
+**Rejected alternatives**:
+- No constraints at all: LLMs over-decorate, data gets lost in annotations
+- Completely prohibit all annotations: might be too simplistic (user feedback concerns)
 
-**平衡点**:
-- 默认极简
-- 有限的功能性标注可选项
-- 通用原则而非特定规则（避免过拟合到具体业务例子）
+**Balance point**:
+- Minimalist by default
+- Limited functional annotation options
+- General principles rather than specific rules (to avoid overfitting to specific business examples)
 
 ## Consequences
 
-### 正面
-- 图表更专业，接近真实金融机构产出
-- 模型需要真正理解数据，而非依赖标注
+### Positive
+- Charts are more professional, closer to the output of real financial institutions
+- The model needs to truly understand the data, rather than relying on annotations
 
-### 负面/代价
-- 部分复杂图表可能"看起来简单"
-- 需要在提示词中精心平衡约束强度
+### Negative/Costs
+- Some complex charts might "appear simple"
+- Requires careful balancing of constraint intensity in prompts

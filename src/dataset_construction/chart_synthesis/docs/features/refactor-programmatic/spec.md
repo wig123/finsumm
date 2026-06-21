@@ -1,18 +1,18 @@
 # Feature: refactor-programmatic
 
-将 `scripts/run_programmatic.py` (2002行 79KB) 解耦到 `src/capabilities_v2/` 模块化结构。
+Decouple `scripts/run_programmatic.py` (2002 lines, 79KB) into a modular structure in `src/capabilities_v2/`.
 
 ## Goal
 
-- 将单体脚本拆分为可复用的模块
-- 保持与现有 `src/capabilities/` 的分离（v1 vs v2）
-- 入口脚本瘦身为 CLI 层
+- Split monolithic script into reusable modules.
+- Maintain separation from existing `src/capabilities/` (v1 vs v2).
+- Slim down entry script to a CLI layer.
 
 ## Structure
 
 ```
 src/capabilities_v2/
-├── __init__.py                    # 统一导出
+├── __init__.py                    # Unified exports
 ├── models/
 │   ├── __init__.py
 │   └── task_models.py             # TaskDefinitionV2, TaskResult
@@ -30,32 +30,32 @@ src/capabilities_v2/
 
 ## Changes
 
-| 原位置 | 新位置 | 说明 |
+| Original Location | New Location | Description |
 |--------|--------|------|
-| TaskDefinitionV2, TaskResult | models/task_models.py | 数据类 |
-| QuotaLoaderV2 | task_generation/quota_loader.py | 配额加载 |
-| TaskGeneratorV2 | task_generation/task_generator.py | 程序化任务生成 |
-| ManifestManagerV2 | task_generation/manifest_manager.py | 清单管理 |
-| SimplifiedPipeline | programmatic_pipeline/simplified_pipeline.py | 执行流水线 |
-| ProgressManager | programmatic_pipeline/progress_manager.py | 进度跟踪 |
-| TaskExecutorV2 | programmatic_pipeline/task_executor.py | 并发执行器 |
+| TaskDefinitionV2, TaskResult | models/task_models.py | Data classes |
+| QuotaLoaderV2 | task_generation/quota_loader.py | Quota loading |
+| TaskGeneratorV2 | task_generation/task_generator.py | Programmatic task generation |
+| ManifestManagerV2 | task_generation/manifest_manager.py | Manifest management |
+| SimplifiedPipeline | programmatic_pipeline/simplified_pipeline.py | Execution pipeline |
+| ProgressManager | programmatic_pipeline/progress_manager.py | Progress tracking |
+| TaskExecutorV2 | programmatic_pipeline/task_executor.py | Concurrent executor |
 
 ## Scripts Cleanup
 
-已删除的废弃脚本：
-- `run_batch_summary.py` - 批量总结（已集成到 TaskExecutorV2）
-- `run_batch.py` - 旧批量生成（使用 Planner LLM）
-- `test_data_fetching.py` - 测试脚本
-- `visualize_summary.py` - 可视化
-- `补生成_summaries.py` - 补生成
+Deprecated scripts removed:
+- `run_batch_summary.py` - Batch summarization (integrated into TaskExecutorV2)
+- `run_batch.py` - Old batch generation (uses Planner LLM)
+- `test_data_fetching.py` - Test scripts
+- `visualize_summary.py` - Visualization
+- `regenerate_summaries.py` - Re-generation
 
 ## Non-goals
 
-- 不移动 `production_4000_v2/` 目录
-- 不删除 `src/capabilities/`（v1 pipeline 保留）
+- Do not move the `production_4000_v2/` directory.
+- Do not remove `src/capabilities/` (v1 pipeline retained).
 
 ## Learned
 
-- 入口脚本应仅包含 CLI 解析和命令分发
-- 模块间依赖通过相对导入 (`from ..models import ...`)
-- 保持 v1/v2 并行存在，便于对比和回退
+- Entry scripts should only contain CLI parsing and command dispatch.
+- Inter-module dependencies via relative imports (`from ..models import ...`).
+- Keep v1/v2 coexisting for comparison and rollback.

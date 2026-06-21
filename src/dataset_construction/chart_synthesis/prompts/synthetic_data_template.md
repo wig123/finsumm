@@ -1,97 +1,97 @@
 # Synthetic Data Generator Prompt
 
-你是一位金融数据专家。根据业务问题生成符合真实世界特征的模拟数据。
+You are a financial data expert. Generate simulated data with real-world characteristics based on a business problem.
 
-## 业务问题
+## Business Problem
 {question}
 
-## 数据需求
-- 数据形态: {shape}
-- 图表类型: {chart_type}
-- 主题领域: {theme}
-- 语言: {language}
+## Data Requirements
+- Data Shape: {shape}
+- Chart Type: {chart_type}
+- Theme Domain: {theme}
+- Language: {language}
 
-## 数据规模参考
-- **饼图/瀑布图**: **4-10** 个类别
-- **雷达图**: **5-8** 个维度
-- **散点图/气泡图**: **8-30** 个数据点
-- **箱线图**: 每组 **15-30** 个数据点（需包含异常值）
-- **热力图/矩阵**: **5x5** 到 **12x12** 的矩阵
-- **树状图**: **8-20** 个节点
-- **时间序列**: **12-90** 个时间点（月度12点/年，日度~60点/季度）
-- **桑基图/流向**: 源和目标各 **3-8** 个
-- **柱状图/条形图**: **5-15** 个类别
+## Data Scale Reference
+- **Pie Chart/Waterfall Chart**: **4-10** categories
+- **Radar Chart**: **5-8** dimensions
+- **Scatter Plot/Bubble Chart**: **8-30** data points
+- **Box Plot**: **15-30** data points per group (outliers should be included)
+- **Heatmap/Matrix**: **5x5** to **12x12** matrix
+- **Treemap**: **8-20** nodes
+- **Time Series**: **12-90** time points (12 points/year for monthly, ~60 points/quarter for daily)
+- **Sankey Diagram/Flow Diagram**: **3-8** sources and **3-8** targets
+- **Bar Chart/Column Chart**: **5-15** categories
 
-## 输出格式（重要！根据数据形态选择正确格式）
+## Output Format (Important! Choose the correct format based on the data shape)
 
-### 如果 shape 是 TS_1D（时间序列单变量）:
+### If shape is TS_1D (Time Series 1D):
 ```json
-{{
+{
   "data": [
-    {{"date": "2024-01-01", "value": 数值}},
-    {{"date": "2024-02-01", "value": 数值}},
+    {"date": "2024-01-01", "value": numeric_value},
+    {"date": "2024-02-01", "value": numeric_value},
     ...
   ],
-  "metadata": {{
-    "unit": "数据单位",
-    "source": "模拟数据"
-  }}
-}}
+  "metadata": {
+    "unit": "data unit",
+    "source": "simulated data"
+  }
+}
 ```
 
-### 如果 shape 是 CS_1D（横截面单变量）:
+### If shape is CS_1D (Cross-Sectional 1D):
 ```json
-{{
+{
   "data": [
-    {{"entity": "实体名称", "value": 数值}},
-    {{"entity": "实体名称", "value": 数值}},
+    {"entity": "entity name", "value": numeric_value},
+    {"entity": "entity name", "value": numeric_value},
     ...
   ],
-  "metadata": {{
-    "unit": "数据单位",
-    "source": "模拟数据"
-  }}
-}}
+  "metadata": {
+    "unit": "data unit",
+    "source": "simulated data"
+  }
+}
 ```
 
-### 如果 shape 是 CS_ND（横截面多变量）或 MATRIX:
+### If shape is CS_ND (Cross-Sectional ND) or MATRIX:
 ```json
-{{
+{
   "data": [
-    {{"entity": "实体名称", "var1": 数值, "var2": 数值, ...}},
+    {"entity": "entity name", "var1": numeric_value, "var2": numeric_value, ...},
     ...
   ],
-  "metadata": {{
-    "unit": "数据单位",
-    "source": "模拟数据"
-  }}
-}}
+  "metadata": {
+    "unit": "data unit",
+    "source": "simulated data"
+  }
+}
 ```
 
-### 如果 shape 是 FLOW（流向数据，如桑基图）:
+### If shape is FLOW (Flow data, e.g., Sankey Diagram):
 ```json
-{{
+{
   "data": [
-    {{"source": "来源", "target": "目标", "value": 数值}},
+    {"source": "source", "target": "target", "value": numeric_value},
     ...
   ],
-  "metadata": {{
-    "unit": "数据单位",
-    "source": "模拟数据"
-  }}
-}}
+  "metadata": {
+    "unit": "data unit",
+    "source": "simulated data"
+  }
+}
 ```
 
-## 生成要求
-1. **真实性**: 数值范围和分布应符合真实世界特征
-2. **差异性**: 不同实体间应有合理差异（如：发达国家 vs 新兴市场、大公司 vs 小公司）
-3. **相关性**: 变量间应有合理的相关性（如：高增长通常伴随高估值）
-4. **噪声**: 不要生成完美的教科书数据，应有现实世界的随机波动
-5. **一致性**: 数据应与业务问题的描述一致
-6. **数据量**: 参考上述建议，根据图表类型自行决定合适的数据量
+## Generation Requirements
+1. **Realism**: Numerical ranges and distributions should align with real-world characteristics.
+2. **Diversity**: There should be reasonable differences between entities (e.g., developed countries vs. emerging markets, large companies vs. small companies).
+3. **Correlation**: Variables should have reasonable correlations (e.g., high growth is often accompanied by high valuation).
+4. **Noise**: Do not generate perfect textbook data; include realistic random fluctuations.
+5. **Consistency**: The data should be consistent with the description of the business problem.
+6. **Data Volume**: Refer to the suggestions above and determine an appropriate data volume based on the chart type.
 
-## 语言要求
-- 如果 language 为 zh-CN，实体名称使用中文（如：中国、美国、苹果公司）
-- 如果 language 为 en-US，实体名称使用英文（如：China, USA, Apple Inc.）
+## Language Requirements
+- If language is zh-CN, use Chinese for entity names (e.g., China, USA, Apple Inc.).
+- If language is en-US, use English for entity names (e.g., China, USA, Apple Inc.).
 
-请直接输出 JSON，不要包含 markdown 标记。
+Please output JSON directly, without including markdown formatting.

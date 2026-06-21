@@ -1,38 +1,38 @@
-# 推理参数配置说明
+# Inference Parameter Configuration Guide
 
-## 当前配置（选项C：纯贪婪解码）
+## Current Configuration (Option C: Pure Greedy Decoding)
 
-### 脚本参数
+### Script Parameters
 ```python
 outputs = model.generate(
     **inputs,
     max_new_tokens=2048,
-    do_sample=False  # 贪婪解码，确定性输出
+    do_sample=False  # Greedy decoding, deterministic output
 )
 ```
 
-### 配置原因
+### Configuration Rationale
 
-1. **任务需求**: 构建benchmark评估数据集
-2. **可重现性**: 需要确定性输出，便于多次运行对比
-3. **公平对比**: Qwen2.5-VL 和 Qwen3-VL 在相同条件下比较
-4. **符合Ground Truth**: GPT-5生成的参考答案可能也使用确定性参数
+1.  **Task Requirement**: To build a benchmark evaluation dataset.
+2.  **Reproducibility**: Deterministic output is required for comparative analysis across multiple runs.
+3.  **Fair Comparison**: Qwen2.5-VL and Qwen3-VL are compared under identical conditions.
+4.  **Alignment with Ground Truth**: GPT-5 generated reference answers may also use deterministic parameters.
 
 ---
 
-## Qwen-VL官方推荐参数
+## Qwen-VL Official Recommended Parameters
 
-### 方案对比
+### Scheme Comparison
 
-| 方案 | do_sample | temperature | top_p | top_k | 适用场景 |
-|------|-----------|-------------|-------|-------|---------|
-| **选项A: 官方推荐（采样模式）** | True | 0.7 | 0.8 | 20 | 生产环境、多样化输出 |
-| **选项B: 低温采样** | True | 0.1 | 0.9 | 50 | 平衡确定性和多样性 |
-| **选项C: 贪婪解码（当前）** | False | - | - | - | Benchmark、确定性评估 |
+| Scheme                               | do_sample | temperature | top_p | top_k | Applicable Scenarios              |
+| :----------------------------------- | :-------- | :---------- | :---- | :---- | :-------------------------------- |
+| **Option A: Official Recommendation (Sampling Mode)** | True      | 0.7         | 0.8   | 20    | Production environments, diverse outputs |
+| **Option B: Low Temperature Sampling** | True      | 0.1         | 0.9   | 50    | Balance determinism and diversity |
+| **Option C: Greedy Decoding (Current)** | False     | -           | -     | -     | Benchmarking, deterministic evaluation |
 
-### 官方推荐配置
+### Official Recommended Configurations
 
-#### Instruct 模型（Qwen3-VL-8B-Instruct）
+#### Instruct Model (Qwen3-VL-8B-Instruct)
 ```python
 outputs = model.generate(
     **inputs,
@@ -46,7 +46,7 @@ outputs = model.generate(
 )
 ```
 
-#### Thinking 模型（推理增强）
+#### Thinking Model (Inference Enhancement)
 ```python
 outputs = model.generate(
     **inputs,
@@ -62,90 +62,90 @@ outputs = model.generate(
 
 ---
 
-## 参数详解
+## Parameter Details
 
-### 核心参数
+### Core Parameters
 
-| 参数 | 类型 | 默认值 | 说明 |
-|------|------|--------|------|
-| **max_new_tokens** | int | 2048 | 最大生成token数 |
-| **do_sample** | bool | False | 是否启用采样（False=贪婪解码） |
-| **temperature** | float | 1.0 | 控制随机性（仅do_sample=True时有效） |
-| **top_p** | float | 1.0 | 核采样阈值（累积概率） |
-| **top_k** | int | 50 | Top-K采样（保留概率最高的K个token） |
+| Parameter           | Type | Default | Description                                      |
+| :------------------ | :--- | :------ | :----------------------------------------------- |
+| **max_new_tokens**  | int  | 2048    | Maximum number of new tokens to generate.        |
+| **do_sample**       | bool | False   | Whether to use sampling (False = greedy decoding). |
+| **temperature**     | float| 1.0     | Controls randomness (effective only when `do_sample=True`). |
+| **top_p**           | float| 1.0     | Nucleus sampling threshold (cumulative probability). |
+| **top_k**           | int  | 50      | Top-K sampling (keeps the K tokens with the highest probability). |
 
-### 高级参数
+### Advanced Parameters
 
-| 参数 | 类型 | 默认值 | 说明 |
-|------|------|--------|------|
-| **repetition_penalty** | float | 1.0 | 重复惩罚（>1.0减少重复） |
-| **presence_penalty** | float | 0.0 | 存在惩罚（鼓励新token） |
-| **num_beams** | int | 1 | Beam search宽度（>1启用束搜索） |
-| **early_stopping** | bool | False | 束搜索是否提前停止 |
-
----
-
-## 参数影响分析
-
-### temperature（温度）
-
-```
-temperature = 0.1  →  输出非常确定，接近贪婪解码
-temperature = 0.7  →  平衡创造性和准确性（官方推荐）
-temperature = 1.0  →  标准采样
-temperature = 1.5  →  高度随机，可能产生不合理输出
-```
-
-**金融图表分析建议**: 0.6-0.8
-
-### top_p（核采样）
-
-```
-top_p = 0.5   →  只考虑累积概率前50%的token
-top_p = 0.8   →  官方推荐
-top_p = 0.95  →  Thinking模型推荐
-top_p = 1.0   →  考虑所有token
-```
-
-### top_k（Top-K采样）
-
-```
-top_k = 1     →  等同于贪婪解码
-top_k = 20    →  官方推荐
-top_k = 50    →  更多样化
-top_k = 0     →  禁用Top-K
-```
+| Parameter            | Type | Default | Description                                      |
+| :------------------- | :--- | :------ | :----------------------------------------------- |
+| **repetition_penalty** | float| 1.0     | Penalty for repeating tokens (>1.0 reduces repetition). |
+| **presence_penalty** | float| 0.0     | Penalty for token presence (encourages new tokens). |
+| **num_beams**        | int  | 1       | Beam search width (>1 enables beam search).      |
+| **early_stopping**   | bool | False   | Whether to stop beam search early.               |
 
 ---
 
-## 警告信息说明
+## Parameter Impact Analysis
 
-### 常见警告
+### temperature
+
+```
+temperature = 0.1  →  Very deterministic output, close to greedy decoding
+temperature = 0.7  →  Balances creativity and accuracy (official recommendation)
+temperature = 1.0  →  Standard sampling
+temperature = 1.5  →  Highly random, may produce unreasonable output
+```
+
+**Financial Chart Analysis Recommendation**: 0.6-0.8
+
+### top_p (Nucleus Sampling)
+
+```
+top_p = 0.5   →  Only considers tokens in the top 50% cumulative probability
+top_p = 0.8   →  Official recommendation
+top_p = 0.95  →  Thinking model recommendation
+top_p = 1.0   →  Considers all tokens
+```
+
+### top_k (Top-K Sampling)
+
+```
+top_k = 1     →  Equivalent to greedy decoding
+top_k = 20    →  Official recommendation
+top_k = 50    →  More diverse
+top_k = 0     →  Disable Top-K
+```
+
+---
+
+## Warning Message Explanation
+
+### Common Warnings
 
 ```
 The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']
 ```
 
-**原因**: Qwen3-VL的processor内部实现会默认添加这些参数，但当`do_sample=False`时这些参数无效。
+**Reason**: The internal implementation of Qwen3-VL's processor defaults to adding these parameters. However, these parameters are ineffective when `do_sample=False`.
 
-**影响**: ✅ **无影响**。实际执行的是贪婪解码（`do_sample=False`优先级更高）。
+**Impact**: ✅ **No Impact**. Greedy decoding is actually performed (`do_sample=False` has higher priority).
 
-**解决方案**:
-1. 忽略警告（推荐）
-2. 设置环境变量：`export TRANSFORMERS_VERBOSITY=error`
+**Solution**:
+1. Ignore the warning (Recommended).
+2. Set environment variable: `export TRANSFORMERS_VERBOSITY=error`
 
 ---
 
-## 不同场景推荐配置
+## Recommended Configurations for Different Scenarios
 
-### Benchmark评估（当前使用）
+### Benchmark Evaluation (Current Usage)
 ```python
 max_new_tokens=2048,
 do_sample=False
 ```
-✅ 确定性、可重现
+✅ Deterministic, Reproducible
 
-### 生产环境
+### Production Environment
 ```python
 max_new_tokens=2048,
 do_sample=True,
@@ -153,9 +153,9 @@ temperature=0.7,
 top_p=0.8,
 top_k=20
 ```
-✅ 平衡准确性和多样性
+✅ Balances accuracy and diversity
 
-### 创意生成
+### Creative Generation
 ```python
 max_new_tokens=4096,
 do_sample=True,
@@ -163,9 +163,9 @@ temperature=1.0,
 top_p=0.95,
 top_k=50
 ```
-✅ 更多样化的输出
+✅ More diverse outputs
 
-### 极度保守
+### Extremely Conservative
 ```python
 max_new_tokens=2048,
 do_sample=True,
@@ -173,21 +173,23 @@ temperature=0.1,
 top_p=0.9,
 top_k=10
 ```
-✅ 接近确定性但保留采样
+✅ Close to deterministic while retaining sampling
 
 ---
 
-## 参考资料
+## References
 
-- [Qwen3-VL官方文档](https://github.com/QwenLM/Qwen3-VL)
-- [Transformers Generation参数](https://huggingface.co/docs/transformers/main_classes/text_generation)
-- [Context7 Qwen3-VL文档](https://context7.com/qwenlm/qwen3-vl)
+- [Qwen3-VL Official Documentation](https://github.com/QwenLM/Qwen3-VL)
+- [Transformers Generation Parameters](https://huggingface.co/docs/transformers/main_classes/text_generation)
+- [Context7 Qwen3-VL Documentation](https://context7.com/qwenlm/qwen3-vl)
 
 ---
 
-## 修改历史
+## Modification History
 
-- **2025-11-17**: 初始配置（选项C：纯贪婪解码）
-  - 移除 `temperature=0.7`（与`do_sample=False`冲突）
-  - 仅保留 `max_new_tokens=2048, do_sample=False`
-  - 理由：构建benchmark数据集，需要确定性输出
+- **2025-11-17**: Initial Configuration (Option C: Pure Greedy Decoding)
+  - Removed `temperature=0.7` (conflicts with `do_sample=False`).
+  - Only kept `max_new_tokens=2048, do_sample=False`.
+  - Reason: To build a benchmark dataset requiring deterministic output.
+
+---

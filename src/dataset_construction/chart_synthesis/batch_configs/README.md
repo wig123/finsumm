@@ -1,121 +1,121 @@
-# 批量配置文件说明
+# Batch Configuration Files Guide
 
-本目录包含预定义的批量生成配置文件,用于演示和快速开始。
+This directory contains predefined batch generation configuration files for demonstration and quick start.
 
-## 配置文件列表
+## Configuration File List
 
-### 1. `demo.yaml` - 快速演示
-- **用途**: 小规模测试,验证系统功能
-- **图表数量**: 5个
-- **特点**: 覆盖基本图表类型和主题,适合首次运行
-- **执行时间**: ~2-3分钟 (并发)
+### 1. `demo.yaml` - Quick Demo
+- **Purpose**: Small-scale testing, verify system functionality
+- **Number of Charts**: 5
+- **Features**: Covers basic chart types and themes, suitable for first-time runs
+- **Execution Time**: ~2-3 minutes (concurrent)
 
 ```bash
-# 预览
+# Preview
 python scripts/run_batch.py --config batch_configs/demo.yaml --dry-run
 
-# 执行
+# Execute
 python scripts/run_batch.py --config batch_configs/demo.yaml
 ```
 
-### 2. `inflation_analysis.yaml` - 通胀主题深度分析
-- **用途**: 单一主题多维度可视化
-- **图表数量**: 8个
-- **特点**: 覆盖4种可视化任务 (monitor/compare/explain/diagnose)
-- **执行时间**: ~3-5分钟 (并发)
+### 2. `inflation_analysis.yaml` - Inflation Theme Deep Dive
+- **Purpose**: Multi-dimensional visualization of a single theme
+- **Number of Charts**: 8
+- **Features**: Covers 4 types of visualization tasks (monitor/compare/explain/diagnose)
+- **Execution Time**: ~3-5 minutes (concurrent)
 
 ```bash
 python scripts/run_batch.py --config batch_configs/inflation_analysis.yaml
 ```
 
-### 3. `cross_sectional_demo.yaml` - 横截面数据示例
-- **用途**: 演示跨实体对比分析 (省份、国家)
-- **图表数量**: 7个
-- **特点**: 使用真实横截面数据源 (国家统计局、IMF、世界银行、FAO)
-- **执行时间**: ~3-4分钟 (并发)
+### 3. `cross_sectional_demo.yaml` - Cross-sectional Data Example
+- **Purpose**: Demonstrates cross-entity comparative analysis (provinces, countries)
+- **Number of Charts**: 7
+- **Features**: Uses real cross-sectional data sources (National Bureau of Statistics, IMF, World Bank, FAO)
+- **Execution Time**: ~3-4 minutes (concurrent)
 
 ```bash
 python scripts/run_batch.py --config batch_configs/cross_sectional_demo.yaml
 ```
 
-### 4. `multi_theme_balanced.yaml` - 多主题均衡分布
-- **用途**: 大规模批量生成,覆盖所有主要主题
-- **图表数量**: 20个
-- **特点**: 10个主题 × 2个任务,均衡分布
-- **执行时间**: ~8-12分钟 (并发)
+### 4. `multi_theme_balanced.yaml` - Multi-theme Balanced Distribution
+- **Purpose**: Large-scale batch generation, covering all major themes
+- **Number of Charts**: 20
+- **Features**: 10 themes × 2 tasks, balanced distribution
+- **Execution Time**: ~8-12 minutes (concurrent)
 
 ```bash
 python scripts/run_batch.py --config batch_configs/multi_theme_balanced.yaml
 ```
 
-## 配置文件结构
+## Configuration File Structure
 
 ```yaml
-# 批量名称 (用于输出目录命名)
+# Batch name (used for output directory naming)
 batch_name: "your_batch_name"
 
-# 输出根目录
+# Output root directory
 output_base_dir: "./batch_output"
 
-# 执行配置
+# Execution configuration
 execution:
-  parallel: true           # 是否并行执行
-  max_workers: 4           # 最大并发数 (建议2-8)
-  use_process_pool: false  # 是否使用进程池 (默认线程池)
+  parallel: true           # Whether to execute in parallel
+  max_workers: 4           # Maximum concurrency (recommended 2-8)
+  use_process_pool: false  # Whether to use process pool (default thread pool)
 
-# 图表列表
+# Chart list
 charts:
-  - chart_type: line       # 图表类型 (line/bar/scatter等)
-    language: zh-CN        # 语言 (zh-CN/en-US)
-    theme: inflation       # 主题 (见下方主题列表)
-    task: monitor          # 任务 (monitor/compare/explain/diagnose)
-    data_constraints: {}   # 数据约束 (可选)
+  - chart_type: line       # Chart type (line/bar/scatter, etc.)
+    language: zh-CN        # Language (zh-CN/en-US)
+    theme: inflation       # Theme (see theme list below)
+    task: monitor          # Task (monitor/compare/explain/diagnose)
+    data_constraints: {}   # Data constraints (optional)
 ```
 
-## 支持的主题 (Theme)
+## Supported Themes (Theme)
 
-1. `macro_policy` - 宏观政策
-2. `inflation` - 通胀与价格
-3. `growth_employment` - 增长与就业
-4. `fx_trade` - 外汇与贸易
-5. `equity_markets` - 权益市场
-6. `fixed_income` - 固定收益
-7. `commodities` - 大宗商品
-8. `banking_credit` - 银行与信贷
-9. `corporate_finance` - 企业财务
-10. `real_estate` - 房地产
+1. `macro_policy` - Macro Policy
+2. `inflation` - Inflation and Prices
+3. `growth_employment` - Growth and Employment
+4. `fx_trade` - Foreign Exchange and Trade
+5. `equity_markets` - Equity Markets
+6. `fixed_income` - Fixed Income
+7. `commodities` - Commodities
+8. `banking_credit` - Banking and Credit
+9. `corporate_finance` - Corporate Finance
+10. `real_estate` - Real Estate
 
-## 支持的任务 (Task)
+## Supported Tasks (Task)
 
-1. `monitor` - 监控趋势
-2. `compare` - 对比分析
-3. `explain` - 解释关系
-4. `diagnose` - 诊断异常
+1. `monitor` - Monitor Trends
+2. `compare` - Comparative Analysis
+3. `explain` - Explain Relationships
+4. `diagnose` - Diagnose Anomalies
 
-## 支持的图表类型
+## Supported Chart Types
 
-- `line` - 折线图
-- `bar` - 柱状图
-- `scatter` - 散点图
-- `area` - 面积图
-- `pie` - 饼图
-- 等 (参考 `config/chart_library_mapping.yaml`)
+- `line` - Line Chart
+- `bar` - Bar Chart
+- `scatter` - Scatter Plot
+- `area` - Area Chart
+- `pie` - Pie Chart
+- etc. (refer to `config/chart_library_mapping.yaml`)
 
-## 输出目录结构
+## Output Directory Structure
 
-执行后会在 `output_base_dir/batch_name/` 目录下生成:
+After execution, the following will be generated in the `output_base_dir/batch_name/` directory:
 
 ```
 batch_output/
 └── demo/
-    ├── batch_summary.json              # 批量运行总结
-    ├── line_zh-CN_inflation_20250117_120000/  # 单个图表目录
+    ├── batch_summary.json              # Batch run summary
+    ├── line_zh-CN_inflation_20250117_120000/  # Individual chart directory
     │   ├── artifacts/
-    │   │   ├── chart.png               # 生成的图表
-    │   │   └── code.py                 # 生成的代码
+    │   │   ├── chart.png               # Generated chart
+    │   │   └── code.py                 # Generated code
     │   ├── data/
-    │   │   ├── raw.csv                 # 原始数据
-    │   │   └── llm_payload.json        # LLM数据策略
+    │   │   ├── raw.csv                 # Raw data
+    │   │   └── llm_payload.json        # LLM data strategy
     │   ├── prompts/
     │   │   ├── planner_input.json
     │   │   ├── planner_output.json
@@ -123,13 +123,13 @@ batch_output/
     │   │   └── coder_output.json
     │   ├── logs/
     │   │   └── retry_history.json
-    │   └── metadata.json               # 图表元数据
+    │   └── metadata.json               # Chart metadata
     └── ...
 ```
 
-## 高级用法
+## Advanced Usage
 
-### 自定义数据约束
+### Custom Data Constraints
 
 ```yaml
 charts:
@@ -143,49 +143,49 @@ charts:
       time_range_hint: "recent_2y"
 ```
 
-### 调整并发配置
+### Adjust Concurrency Configuration
 
 ```yaml
 execution:
   parallel: true
-  max_workers: 8              # 增加并发数
-  use_process_pool: true      # 使用进程池(适合CPU密集任务)
+  max_workers: 8              # Increase concurrency
+  use_process_pool: true      # Use process pool (suitable for CPU-intensive tasks)
 ```
 
-## 常见问题
+## FAQ
 
-### Q: 如何选择 `max_workers`?
-A: 建议根据CPU核心数和网络带宽设置:
-- 本地运行: 2-4个worker
-- 高性能服务器: 4-8个worker
-- 网络限制较多: 降低到2-3个
+### Q: How to choose `max_workers`?
+A: It is recommended to set based on CPU core count and network bandwidth:
+- Local run: 2-4 workers
+- High-performance server: 4-8 workers
+- Network-limited environments: reduce to 2-3
 
-### Q: 线程池 vs 进程池?
+### Q: Thread Pool vs. Process Pool?
 A:
-- **线程池** (默认): 适合I/O密集任务 (API调用、LLM请求)
-- **进程池**: 适合CPU密集任务 (大量数据处理、复杂计算)
+- **Thread Pool** (default): Suitable for I/O-bound tasks (API calls, LLM requests)
+- **Process Pool**: Suitable for CPU-bound tasks (large-scale data processing, complex computations)
 
-### Q: 如何处理失败的图表?
-A: 查看 `batch_summary.json` 中的 `results` 数组,失败项包含错误信息。可以提取失败项重新生成。
+### Q: How to handle failed charts?
+A: Check the `results` array in `batch_summary.json`. Failed items contain error messages. You can extract failed items and regenerate them.
 
-## 示例工作流
+## Example Workflow
 
 ```bash
-# 1. 预览配置
+# 1. Preview configuration
 python scripts/run_batch.py --config batch_configs/demo.yaml --dry-run
 
-# 2. 查看预览输出,确认无误后执行
+# 2. Review preview output, execute after confirmation
 python scripts/run_batch.py --config batch_configs/demo.yaml
 
-# 3. 查看批量总结
+# 3. View batch summary
 cat batch_output/demo/batch_summary.json | jq .
 
-# 4. 查看生成的图表
+# 4. View generated charts
 ls batch_output/demo/*/artifacts/chart.png
 ```
 
-## 参考文档
+## Reference Documentation
 
-- Pipeline原理: `../docs/chart-synthesis-pipeline.md`
-- 项目状态: `../PROJECT_STATUS.md`
-- 快速开始: `../QUICKSTART.md`
+- Pipeline Principles: `../docs/chart-synthesis-pipeline.md`
+- Project Status: `../PROJECT_STATUS.md`
+- Quick Start: `../QUICKSTART.md`

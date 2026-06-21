@@ -1,99 +1,99 @@
-# Qwen3-VL DPO 项目
+# Qwen3-VL DPO Project
 
-基于 SFT 微调模型 (exp-012) 进行 DPO (Direct Preference Optimization) 训练。
+DPO (Direct Preference Optimization) training based on the SFT fine-tuned model (exp-012).
 
-## 当前状态 (2024-12-19)
+## Current Status (2024-12-19)
 
-**DPO-EXP-001**: 训练完成，评估中
-- 训练指标: loss=0.488, accuracies=86.5%, margins=4.47
+**DPO-EXP-001**: Training complete, evaluating
+- Training Metrics: loss=0.488, accuracies=86.5%, margins=4.47
 - Checkpoints: checkpoint-50/100/150
-- 评估: 正在进行 FinMME-160 推理
+- Evaluation: FinMME-160 inference in progress
 
-## AutoDL 环境
+## AutoDL Environment
 
 - **SSH**: `ssh -p <port> <user>@<REMOTE_HOST>`
-- **密码**: `<SSH_PASSWORD>`
+- **Password**: `<SSH_PASSWORD>`
 - **GPU**: 5×RTX 4090
-- **模型**: `<REMOTE_DATA_ROOT>/models/qwen3-vl-8b-instruct`
-- **DPO输出**: `<REMOTE_DATA_ROOT>/qwen3vl-dpo/outputs/dpo-exp001/`
-- **评估目录**: `<REMOTE_DATA_ROOT>/finmme-benchmark/`
+- **Model**: `<REMOTE_DATA_ROOT>/models/qwen3-vl-8b-instruct`
+- **DPO Output**: `<REMOTE_DATA_ROOT>/qwen3vl-dpo/outputs/dpo-exp001/`
+- **Evaluation Directory**: `<REMOTE_DATA_ROOT>/finmme-benchmark/`
 
-## 项目目标
+## Project Goals
 
-通过 DPO 进一步优化金融图表分析能力，学习人类偏好。
+Further optimize financial chart analysis capabilities through DPO, learning human preferences.
 
-## 环境依赖
+## Environment Dependencies
 
-- **基座模型**: Qwen3-VL-8B-Instruct
-- **SFT 模型**: exp-012-ckpt640 (来自 qwen3vl-sft 项目)
-- **GPU 服务器**: AutoDL 5×RTX 4090
-- **训练框架**: LLaMA-Factory 0.9.4.dev0
+- **Base Model**: Qwen3-VL-8B-Instruct
+- **SFT Model**: exp-012-ckpt640 (from qwen3vl-sft project)
+- **GPU Server**: AutoDL 5×RTX 4090
+- **Training Framework**: LLaMA-Factory 0.9.4.dev0
 
-## 目录结构
+## Directory Structure
 
 ```
 qwen3vl-dpo/
-├── CLAUDE.md              # 本文件
-├── scripts/               # DPO 相关脚本
-│   ├── build_dpo_data.py              # 抽样脚本
-│   ├── generate_candidates_single_gpu.py  # 单卡候选生成
-│   ├── launch_8gpu_parallel.sh        # 8卡并行启动
-│   └── merge_candidates.py            # 结果合并
+├── CLAUDE.md              # This file
+├── scripts/               # DPO related scripts
+│   ├── build_dpo_data.py              # Sampling script
+│   ├── generate_candidates_single_gpu.py  # Single GPU candidate generation
+│   ├── launch_8gpu_parallel.sh        # 8-GPU parallel launch
+│   └── merge_candidates.py            # Result merging
 ├── data/
-│   ├── sampled/           # 抽样数据
-│   │   └── sampled_2000.json          # 2000条抽样样本
-│   └── candidates/        # 候选结果
-│       └── candidates_2000.json       # 12000个候选 (6/样本)
-├── experiments/           # 实验记录
-└── configs/               # DPO 训练配置
+│   ├── sampled/           # Sampled data
+│   │   └── sampled_2000.json          # 2000 sampled examples
+│   └── candidates/        # Candidate results
+│       └── candidates_2000.json       # 12000 candidates (6 per sample)
+├── experiments/           # Experiment logs
+└── configs/               # DPO training configs
 ```
 
-## 数据来源
+## Data Sources
 
-从 `qwen3vl-sft/data/all_train.json` (5099条) 按比例抽样 2000 条：
+2000 samples proportionally sampled from `qwen3vl-sft/data/all_train.json` (5099 samples):
 
-| 数据源 | 数量 | 比例 | 说明 |
-|--------|------|------|------|
-| v3_synthesis | 900 | 45.0% | 合成图表 v3 (syn_v2_, syn_, prog_) |
-| v4_synthesis | 534 | 26.7% | 合成图表 v4 (syn_v4_, syn_v4f_) |
-| fin-chart | 312 | 15.6% | 真实财报图表 (mc_) |
+| Data Source | Count | Proportion | Description |
+|---|---|---|---|
+| v3_synthesis | 900 | 45.0% | Synthetic charts v3 (syn_v2_, syn_, prog_) |
+| v4_synthesis | 534 | 26.7% | Synthetic charts v4 (syn_v4_, syn_v4f_) |
+| fin-chart | 312 | 15.6% | Real financial report charts (mc_) |
 | finmme | 254 | 12.7% | FinMME benchmark (finmme_) |
 
-## 候选生成配置
+## Candidate Generation Configuration
 
-- **模型**: exp-012-ckpt640 (LoRA merged)
-- **每样本候选数**: 6 (1 greedy + 5 sample)
-- **采样参数**: temperature=0.9, top_p=0.95, top_k=50
+- **Model**: exp-012-ckpt640 (LoRA merged)
+- **Candidates per sample**: 6 (1 greedy + 5 sample)
+- **Sampling parameters**: temperature=0.9, top_p=0.95, top_k=50
 - **max_new_tokens**: 2048
 - **attention**: SDPA (PyTorch 2.x)
 
-## 实验计划
+## Experiment Plan
 
-### 实验 A: top vs bottom (B1)
-- chosen: 最高分候选
-- rejected: 最低分候选
-- 特点: 差异大，易学习
+### Experiment A: top vs bottom (B1)
+- chosen: Highest scoring candidate
+- rejected: Lowest scoring candidate
+- Characteristics: Large difference, easy to learn
 
-### 实验 B: top vs hard-negative (B2)
-- chosen: 最高分候选
-- rejected: 次高分候选
-- 特点: 差异小，更精细
+### Experiment B: top vs hard-negative (B2)
+- chosen: Highest scoring candidate
+- rejected: Second highest scoring candidate
+- Characteristics: Small difference, more refined
 
-## DPO 训练 (测试版)
+## DPO Training (Beta)
 
-### 快速测试配置 (dpo-001)
-- **样本数**: 100 (从 2000 样本中随机抽取)
-- **偏好对构建**: greedy 作为 chosen，随机 sample 作为 rejected
-- **基座**: exp-012-ckpt640 继续训练
+### Quick Test Configuration (dpo-001)
+- **Number of samples**: 100 (randomly sampled from 2000 samples)
+- **Preference pair construction**: greedy as chosen, random sample as rejected
+- **Base model**: Continue training exp-012-ckpt640
 
-### 启动训练
+### Start Training
 ```bash
-# 1. 同步数据到 GPU 服务器
+# 1. Sync data to GPU server
 scp $DATA_ROOT/sft/data/dpo_train_100.json gpu:$DATA_ROOT/sft/data/
 scp $DATA_ROOT/sft/data/dataset_info.json gpu:$DATA_ROOT/sft/data/
 scp $DATA_ROOT/sft/configs/qwen3vl_lora_dpo.yaml gpu:$DATA_ROOT/sft/configs/
 
-# 2. 启动 DPO 训练 (8卡)
+# 2. Launch DPO training (8 GPUs)
 ssh gpu "docker run -d --name qwen3vl-dpo \
   --gpus all --ipc=host --network=host \
   --env-file $DATA_ROOT/sft/.env \
@@ -105,54 +105,54 @@ ssh gpu "docker run -d --name qwen3vl-dpo \
   qwen3vl-sft:cu124-lf \
   llamafactory-cli train /app/configs/qwen3vl_lora_dpo.yaml"
 
-# 3. 查看日志
+# 3. View logs
 ssh gpu "docker logs -f qwen3vl-dpo"
 ```
 
-### 关键配置
-| 参数 | 值 | 说明 |
-|------|-----|------|
-| stage | dpo | DPO 训练 |
-| pref_beta | 0.1 | DPO beta 参数 |
-| pref_loss | sigmoid | 标准 DPO loss |
-| learning_rate | 5e-5 | 较低学习率 |
-| num_train_epochs | 3 | 3 轮 |
+### Key Configurations
+| Parameter | Value | Description |
+|---|---|---|
+| stage | dpo | DPO training |
+| pref_beta | 0.1 | DPO beta parameter |
+| pref_loss | sigmoid | Standard DPO loss |
+| learning_rate | 5e-5 | Low learning rate |
+| num_train_epochs | 3 | 3 epochs |
 
-## 实验进度
+## Experiment Progress
 
-### DPO-EXP-001: Baseline (已完成训练)
-- **数据**: 999 偏好对, A1+B2+C1 策略
-- **配置**: β=0.1, sigmoid loss, lr=5e-6
-- **结果**: accuracies=86.5%, margins=4.47
-- **详情**: `experiments/dpo-exp001_baseline.md`
+### DPO-EXP-001: Baseline (Training Completed)
+- **Data**: 999 preference pairs, A1+B2+C1 strategy
+- **Configuration**: β=0.1, sigmoid loss, lr=5e-6
+- **Results**: accuracies=86.5%, margins=4.47
+- **Details**: `experiments/dpo-exp001_baseline.md`
 
-### 待运行实验
-| ID | 名称 | 变更 |
+### Experiments to Run
+| ID | Name | Changes |
 |----|------|------|
-| 002 | 扩大数据 | 1700 train + 299 val |
+| 002 | Scale Data | 1700 train + 299 val |
 | 003 | hinge_loss | pref_loss=hinge |
 | 004 | lower_beta | β=0.05 |
 | 005 | higher_lr | lr=1e-5 |
 
-## 快速命令
+## Quick Commands
 
 ```bash
-# 连接 AutoDL
+# Connect to AutoDL
 
-# 查看训练日志
+# View training logs
 tail -f <REMOTE_DATA_ROOT>/qwen3vl-dpo/outputs/dpo-exp001/trainer_log.jsonl
 
-# 5卡推理
+# 5-GPU inference
 cd <REMOTE_DATA_ROOT>/finmme-benchmark && /root/miniconda3/bin/python dpo_inference_5gpu.py \
   --model-name dpo-exp001-ckpt150 \
   --lora-path <REMOTE_DATA_ROOT>/qwen3vl-dpo/outputs/dpo-exp001/checkpoint-150
 
-# GPU 状态
+# GPU status
 nvidia-smi --query-gpu=index,memory.used --format=csv
 ```
 
-## 相关项目
+## Related Projects
 
-- SFT 训练: `$DATA_ROOT/sft`
-- 评估基准: `$DATA_ROOT/benchmark`
-- 实验记录: `experiments/README.md`
+- SFT Training: `$DATA_ROOT/sft`
+- Evaluation Benchmarks: `$DATA_ROOT/benchmark`
+- Experiment Logs: `experiments/README.md`

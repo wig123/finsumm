@@ -1,16 +1,16 @@
-# 图表类型技术栈映射
+# Chart Type Tech Stack Mapping
 
-## 映射原则
+## Mapping Principles
 
-- **Python库**: 每种图表类型选择最成熟/最简洁的实现库
-- **前端库**: 优先选择金融领域广泛使用的可视化库
-- **标准**: 优先选择原生支持、API稳定、文档完善的库
+- **Python Libraries**: Select the most mature/concise implementation library for each chart type.
+- **Frontend Libraries**: Prioritize visualization libraries widely used in the financial domain.
+- **Standards**: Prioritize libraries with native support, stable APIs, and comprehensive documentation.
 
 ---
 
-## Tier 1: 核心类型（60%, 6000张）
+## Tier 1: Core Types (60%, 6000 Charts)
 
-| 图表类型 | Python库 | 前端/JS库 |
+| Chart Type | Python Library | Frontend/JS Library |
 |---------|---------|----------|
 | line | **matplotlib** | **ECharts** |
 | candlestick | **mplfinance** | **Highstock** |
@@ -23,9 +23,9 @@
 
 ---
 
-## Tier 2: 高频分析（25%, 2500张）
+## Tier 2: High-Frequency Analysis (25%, 2500 Charts)
 
-| 图表类型 | Python库 | 前端/JS库 |
+| Chart Type | Python Library | Frontend/JS Library |
 |---------|---------|----------|
 | heatmap | **seaborn** | **ECharts** |
 | waterfall | **plotly** | **Highcharts** |
@@ -39,9 +39,9 @@
 
 ---
 
-## Tier 3: 专业工具（10%, 1000张）
+## Tier 3: Specialized Tools (10%, 1000 Charts)
 
-| 图表类型 | Python库 | 前端/JS库 |
+| Chart Type | Python Library | Frontend/JS Library |
 |---------|---------|----------|
 | contour | **matplotlib** | **Plotly.js** |
 | Fan Chart | **matplotlib** | **Highcharts** |
@@ -54,9 +54,9 @@
 
 ---
 
-## Tier 4: 特殊场景（5%, 500张）
+## Tier 4: Special Scenarios (5%, 500 Charts)
 
-| 图表类型 | Python库 | 前端/JS库 |
+| Chart Type | Python Library | Frontend/JS Library |
 |---------|---------|----------|
 | node | **networkx + matplotlib** | **D3.js** |
 | Gantt | **plotly** | **Highcharts Gantt** |
@@ -68,73 +68,73 @@
 
 ---
 
-## 库选择理由
+## Library Selection Rationale
 
-### Python核心库
+### Python Core Libraries
 
-| 库名 | 适用场景 | 优势 |
+| Library Name | Applicable Scenarios | Advantages |
 |-----|---------|------|
-| **matplotlib** | 基础图表、科学绘图 | 生态最成熟、文档完善、高度可定制 |
-| **mplfinance** | 金融K线、技术指标 | 专为金融设计、一行代码生成K线+量柱 |
-| **plotly** | 交互图表、复杂组合 | 原生支持双轴、子图布局、WebGL渲染 |
-| **seaborn** | 统计可视化 | 高级API、美观默认样式、统计功能强 |
-| **networkx** | 网络图布局 | 图论算法标准库 |
+| **matplotlib** | Basic charts, scientific plotting | Most mature ecosystem, comprehensive documentation, highly customizable |
+| **mplfinance** | Financial candlestick charts, technical indicators | Designed for finance, one line of code generates candlestick + volume bars |
+| **plotly** | Interactive charts, complex combinations | Native support for dual axes, subplot layouts, WebGL rendering |
+| **seaborn** | Statistical visualization | High-level API, aesthetic default styles, strong statistical capabilities |
+| **networkx** | Network graph layout | Standard library for graph theory algorithms |
 
-### 前端核心库
+### Frontend Core Libraries
 
-| 库名 | 适用场景 | 优势 |
+| Library Name | Applicable Scenarios | Advantages |
 |-----|---------|------|
-| **ECharts** | 通用商业图表 | 中文文档、配置灵活、性能优秀、金融支持好 |
-| **Highstock** | 金融时序图表 | K线图行业标准、缩放导航、实时更新 |
-| **Highcharts** | 高级商业图表 | 瀑布图/甘特图原生支持、配置完善 |
-| **TradingView** | 专业技术分析 | 金融行业标配、技术指标最全、实时行情 |
-| **Plotly.js** | 科学/交互图表 | 与Python plotly同API、3D支持 |
-| **D3.js** | 自定义复杂图表 | 底层控制力最强、网络图标准 |
+| **ECharts** | General business charts | Chinese documentation, flexible configuration, excellent performance, good financial support |
+| **Highstock** | Financial time series charts | Industry standard for candlestick charts, zoom navigation, real-time updates |
+| **Highcharts** | Advanced business charts | Native support for waterfall/Gantt charts, comprehensive configuration |
+| **TradingView** | Professional technical analysis | Financial industry standard, most comprehensive technical indicators, real-time market data |
+| **Plotly.js** | Scientific/interactive charts | Same API as Python Plotly, 3D support |
+| **D3.js** | Custom complex charts | Strongest low-level control, network graph standard |
 
 ---
 
-## 技术栈组合建议
+## Tech Stack Combination Suggestions
 
-### 方案1: 开源优先
+### Solution 1: Open Source First
 ```
-Python: matplotlib + mplfinance + seaborn + plotly
-前端:   ECharts + Plotly.js + D3.js
-成本:   免费
-适合:   学术研究、开源项目
-```
-
-### 方案2: 金融专业 ⭐ 推荐
-```
-Python: mplfinance + matplotlib + plotly
-前端:   Highstock + TradingView + ECharts
-成本:   TradingView需商业授权
-适合:   金融产品、量化平台
+Python:   matplotlib + mplfinance + seaborn + plotly
+Frontend: ECharts + Plotly.js + D3.js
+Cost:     Free
+Suitable: Academic research, open source projects
 ```
 
-### 方案3: 全栈统一
+### Solution 2: Financial Professional ⭐ Recommended
 ```
-Python: plotly
-前端:   Plotly.js
-成本:   免费（企业版收费）
-适合:   快速原型、Python-JS一致性需求
+Python:   mplfinance + matplotlib + plotly
+Frontend: Highstock + TradingView + ECharts
+Cost:     TradingView requires commercial license
+Suitable: Financial products, quantitative platforms
+```
+
+### Solution 3: Full-Stack Unification
+```
+Python:   plotly
+Frontend: Plotly.js
+Cost:     Free (enterprise version paid)
+Suitable: Rapid prototyping, Python-JS consistency requirements
 ```
 
 ---
 
-## 实现优先级
+## Implementation Priority
 
-### 第一阶段（核心8种）
+### Phase 1 (8 Core Types)
 matplotlib (line/bar/area/histogram/scatter) + mplfinance (candlestick/volume)
 
-### 第二阶段（高频9种）
+### Phase 2 (9 High-Frequency Types)
 seaborn (heatmap/box) + plotly (waterfall/treemap/overlay)
 
-### 第三阶段（专业8种）
+### Phase 3 (8 Specialized Types)
 mplfinance (OHLC/Bollinger/Ichimoku/Renko) + matplotlib (contour/fan/errorbar)
 
-### 第四阶段（特殊3种）
+### Phase 4 (3 Special Types)
 plotly (gantt/depth) + networkx (node)
 
 ---
 
-*更新时间: 2025-01*
+*Last Updated: 2025-01*

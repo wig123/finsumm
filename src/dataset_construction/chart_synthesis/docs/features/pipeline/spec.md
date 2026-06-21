@@ -1,24 +1,24 @@
-# Feature: Pipeline - 五层图表合成流水线
+# Feature: Pipeline - Five-Layer Chart Synthesis Pipeline
 
 ## Goal
 
-- 实现从业务需求到图表+总结的端到端自动合成
-- 保存完整LLM trace用于调试和可重现性
+- Achieve end-to-end automatic synthesis from business requirements to charts + summaries.
+- Save complete LLM traces for debugging and reproducibility.
 
 ## Architecture
 
 ```
-L1 Planner → L2 DataSpec编译 → L3 数据获取 → L4 Coder → L5 编排
-   (GPT-5)      (规则)           (API)      (Claude)    (规则)
+L1 Planner → L2 DataSpec Compilation → L3 Data Fetching → L4 Coder → L5 Orchestration
+   (GPT-5)      (Rules)                  (API)             (Claude)    (Rules)
 ```
 
-| 层级 | 职责 |
+| Layer | Responsibility |
 |------|------|
-| L1 | 理解需求，选择图表类型/主题/语言 |
-| L2 | 将Planner输出编译为完整DataSpec |
-| L3 | 根据DataSpec从真实API拉取数据 |
-| L4 | 生成绘图代码并执行 |
-| L5 | 编排输出目录，保存完整trace |
+| L1 | Understand requirements, select chart type/theme/language |
+| L2 | Compile Planner output into a complete DataSpec |
+| L3 | Fetch data from real APIs based on DataSpec |
+| L4 | Generate plotting code and execute |
+| L5 | Orchestrate output directory, save complete trace |
 
 ## Inputs / Outputs
 
@@ -29,31 +29,31 @@ L1 Planner → L2 DataSpec编译 → L3 数据获取 → L4 Coder → L5 编排
 output_dir/
 ├── artifacts/chart.png, code.py
 ├── data/raw.csv, llm_payload.json
-├── prompts/*_llm_trace.json  # 完整LLM调用记录
+├── prompts/*_llm_trace.json  # Complete LLM call records
 └── metadata.json, dataspec.json
 ```
 
 ## Constraints
 
-- Planner/Coder提示词禁止具体业务值
-- 数据获取/LLM解析/代码执行各3次重试
+- Planner/Coder prompts are forbidden from containing specific business values.
+- Data fetching/LLM parsing/code execution are limited to 3 retries each.
 
 ## Edge Cases
 
-- 数据源不可用 → 切换备选（fallback_allowed）
-- 图表类型与数据形态不匹配 → L2编译层拦截
+- Data source unavailable → Switch to alternative (fallback_allowed).
+- Chart type does not match data format → Intercepted by L2 compilation layer.
 
 ## Non-goals
 
-- Narrator层（L6总结生成）暂未实现
-- 前端库批量支持（当前主要matplotlib）
+- Narrator layer (L6 summary generation) is not yet implemented.
+- Batch support for frontend libraries (currently primarily matplotlib).
 
 ## Learned
 
-- 完整LLM trace对调试至关重要
-- style_intent比硬编码规则更灵活
+- Complete LLM traces are crucial for debugging.
+- `style_intent` is more flexible than hardcoded rules.
 
 ## Links
 
-- 代码: `src/capabilities/pipeline_orchestration/`
+- Code: `src/capabilities/pipeline_orchestration/`
 - ADR: [[three-stage-llm]]

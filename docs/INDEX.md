@@ -1,33 +1,33 @@
-# 文档索引
+# Document Index
 
-## 阶段说明
-- [SFT 阶段](../src/training/sft/CLAUDE.md)
-- [DPO 阶段](../src/training/dpo/CLAUDE.md)
-- [FCPO 阶段](../src/training/fcpo/docs/CLAUDE.md)
-- [评估方法](../src/evaluation/EVALUATION.md)
-- [推理参数](../src/inference/INFERENCE_PARAMS.md)
+## Phase Descriptions
+- [SFT Phase](../src/training/sft/CLAUDE.md)
+- [DPO Phase](../src/training/dpo/CLAUDE.md)
+- [FCPO Phase](../src/training/fcpo/docs/CLAUDE.md)
+- [Evaluation Methods](../src/evaluation/EVALUATION.md)
+- [Inference Parameters](../src/inference/INFERENCE_PARAMS.md)
 
-## FCPO 专项文档
-| 文档 | 内容 |
-|------|------|
-| [00-FCPO实验复盘](../src/training/fcpo/docs/00-FCPO实验复盘.md) | 全过程复盘、关键决策与最终方案 |
-| [01-实验计划](../src/training/fcpo/docs/01-实验计划.md) | 实验设计与对照组 |
-| [02-服务器资源](../src/training/fcpo/docs/02-服务器资源.md) | H20 服务器、Docker、显存分配 |
-| [03-API配置](../src/training/fcpo/docs/03-API配置.md) | 评估 / 标注用 API key 与端点 |
-| [04-数据构建Pipeline](../src/training/fcpo/docs/04-数据构建Pipeline.md) | 候选生成 → Fact 评分 → 偏好对构建 |
-| [05-Fact评分Pipeline对比](../src/training/fcpo/docs/05-Fact评分Pipeline对比.md) | FactScore v1/v2/v3 对比与选型 |
-| [06-训练配置教训](../src/training/fcpo/docs/06-训练配置教训.md) | 学习率 / batch / 梯度累计 / OOM 经验 |
-| [07-实验方案](../src/training/fcpo/docs/07-实验方案.md) | 最终训练超参与命令 |
+## FCPO Specific Documentation
+| Document | Content |
+|---|---|
+| [00-FCPO Experiment Review](../src/training/fcpo/docs/00-fcpo-experiment-review.md) | Full process review, key decisions, and final solution |
+| [01-Experiment Plan](../src/training/fcpo/docs/01-experiment-plan.md) | Experiment design and control groups |
+| [02-Server Resources](../src/training/fcpo/docs/02-server-resources.md) | H20 Servers, Docker, VRAM allocation |
+| [03-API Configuration](../src/training/fcpo/docs/03-api-configuration.md) | API keys and endpoints for evaluation / annotation |
+| [04-Data Construction Pipeline](../src/training/fcpo/docs/04-data-construction-pipeline.md) | Candidate generation → Fact scoring → Preference pair construction |
+| [05-Fact Scoring Pipeline Comparison](../src/training/fcpo/docs/05-fact-scoring-pipeline-comparison.md) | FactScore v1/v2/v3 comparison and selection |
+| [06-Training Configuration Lessons](../src/training/fcpo/docs/06-training-configuration-lessons.md) | Learning rate / batch / gradient accumulation / OOM lessons |
+| [07-Experiment Protocol](../src/training/fcpo/docs/07-experiment-protocol.md) | Final training hyperparameters and commands |
 
-## 数据说明
-- [SFT 数据](../src/training/sft/data/) — 直接见 `dataset_info.json`
-- [DPO 数据](../src/training/dpo/data/README.md) — 仓内文件清单 + GPU 大文件路径
-- [FCPO 数据](../src/training/fcpo/data/README.md) — 同上
-- [Benchmark 样例](../data/README.md) — 50 条 FinChartSum 样例
+## Data Overview
+- [SFT Data](../src/training/sft/data/) — Refer to `dataset_info.json`
+- [DPO Data](../src/training/dpo/data/README.md) — In-repo file list + GPU large file paths
+- [FCPO Data](../src/training/fcpo/data/README.md) — Same as above
+- [Benchmark Examples](../data/README.md) — 50 FinChartSum examples
 
-## 数据集构建
-- [合成图表 README](../src/dataset_construction/chart_synthesis/README.md)
-- [合成图表 CLAUDE.md](../src/dataset_construction/chart_synthesis/CLAUDE.md)
-- [A/B 实验 README](../src/dataset_construction/ab_experiment/README.md)
-- [FinChart 标注系统 README](../src/dataset_construction/annotation/finchart/README.md)
-- [FinMME 标注系统 README](../src/dataset_construction/annotation/finmme/README.md)
+## Dataset Construction
+- [Synthetic Chart README](../src/dataset_construction/chart_synthesis/README.md)
+- [Synthetic Chart CLAUDE.md](../src/dataset_construction/chart_synthesis/CLAUDE.md)
+- [A/B Experiment README](../src/dataset_construction/ab_experiment/README.md)
+- [FinChart Annotation System README](../src/dataset_construction/annotation/finchart/README.md)
+- [FinMME Annotation System README](../src/dataset_construction/annotation/finmme/README.md)

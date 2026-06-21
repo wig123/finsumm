@@ -1,127 +1,127 @@
-# A/B 对比实验：内部参考信息对图表总结质量的影响
+# A/B Experiment: Impact of Internal Reference Information on Chart Summarization Quality
 
-**实验日期**: 2024-12-04
+**Experiment Date**: 2024-12-04
 
-## 实验目标
+## Experiment Objective
 
-验证在图表总结生成任务中，提供内部参考信息（元数据+数据摘要）是否能提升生成质量。
+Validate whether providing internal reference information (metadata + data summary) can improve generation quality in chart summarization tasks.
 
-## 实验设计
+## Experiment Design
 
-### 实验组别
+### Experiment Groups
 
-| 组别 | 条件 | 描述 |
-|------|------|------|
-| **A组** | 仅系统提示词 | 纯视觉分析，模型只能依靠图表图像 |
-| **B组** | 系统提示词 + 内部参考信息 | 额外提供图表元数据和数据摘要 |
+| Group | Condition | Description |
+|-------|-----------|-------------|
+| **Group A** | System Prompt Only | Pure visual analysis, model relies solely on chart images |
+| **Group B** | System Prompt + Internal Reference Information | Additionally provides chart metadata and data summary |
 
-### 内部参考信息模板
+### Internal Reference Information Template
 
 ```
-【内部参考信息】
-以下信息仅供验证你的视觉分析准确性，请勿在输出中提及这些参考信息的存在。
+[Internal Reference Information]
+The following information is provided solely to verify the accuracy of your visual analysis. Do not mention the existence of this reference information in your output.
 
-[元数据]
-图表类型: {chart_type}
-数据来源: {data_source}
-时间范围: {time_range}
-数据点数: {data_points}
+[Metadata]
+Chart Type: {chart_type}
+Data Source: {data_source}
+Time Range: {time_range}
+Data Points: {data_points}
 
-[数据摘要]
+[Data Summary]
 {data_summary}
 ```
 
-### 实验参数
+### Experiment Parameters
 
-- **生成模型**: `gemini-2.5-flash-preview-09-2025`
-- **评估模型**: `gpt-5` (Judge)
-- **样本量**: 100 个图表（随机抽样自 batch_004）
-- **随机种子**: 42
-- **并发数**: 生成 20，评估 10
+- **Generation Model**: `gemini-2.5-flash-preview-09-2025`
+- **Evaluation Model**: `gpt-5` (Judge)
+- **Sample Size**: 100 charts (randomly sampled from batch_004)
+- **Random Seed**: 42
+- **Concurrency**: Generation 20, Evaluation 10
 
-## 实验结果
+## Experiment Results
 
-### 生成阶段统计
+### Generation Phase Statistics
 
-| 指标 | A组（纯视觉） | B组（+参考信息） | 差异 |
-|------|-------------|----------------|------|
-| 成功率 | 100/100 | 100/100 | - |
-| 平均 Token | 3,890 | 4,489 | +15% |
-| 平均耗时 | 13.03s | 10.73s | -18% |
-| 平均分析长度 | 1,791 字符 | 1,828 字符 | +2% |
+| Metric | Group A (Pure Visual) | Group B (+ Reference Information) | Difference |
+|--------|-----------------------|-----------------------------------|------------|
+| Success Rate | 100/100 | 100/100 | - |
+| Average Tokens | 3,890 | 4,489 | +15% |
+| Average Time | 13.03s | 10.73s | -18% |
+| Average Analysis Length | 1,791 characters | 1,828 characters | +2% |
 
-### 评估结果（GPT-5 Judge）
+### Evaluation Results (GPT-5 Judge)
 
-| 评估维度 | A组 | B组 | 差异 | 权重 |
-|----------|-----|-----|------|------|
-| **加权总分** | **3.725** | **3.980** | **+0.255 (+6.85%)** | - |
-| Faithfulness（忠实度） | 2.990 | 3.418 | **+0.428** | 30% |
-| Completeness（覆盖度） | 3.910 | 4.163 | +0.253 | 25% |
-| Analysis（分析深度） | 3.730 | 3.980 | +0.250 | 20% |
-| Logicality（逻辑性） | 4.720 | 4.806 | +0.086 | 15% |
-| Conciseness（简洁性） | 3.960 | 3.969 | +0.009 | 10% |
+| Evaluation Dimension | Group A | Group B | Difference | Weight |
+|----------------------|---------|---------|------------|--------|
+| **Weighted Total Score** | **3.725** | **3.980** | **+0.255 (+6.85%)** | - |
+| Faithfulness | 2.990 | 3.418 | **+0.428** | 30% |
+| Completeness | 3.910 | 4.163 | +0.253 | 25% |
+| Analysis | 3.730 | 3.980 | +0.250 | 20% |
+| Logicality | 4.720 | 4.806 | +0.086 | 15% |
+| Conciseness | 3.960 | 3.969 | +0.009 | 10% |
 
-### 分数分布
+### Score Distribution
 
-**A组**:
-- 加权总分: min=1.0, max=4.7, std=0.521
+**Group A**:
+- Weighted Total Score: min=1.0, max=4.7, std=0.521
 
-**B组**:
-- 加权总分: min=2.95, max=4.7, std=0.398
+**Group B**:
+- Weighted Total Score: min=2.95, max=4.7, std=0.398
 
-## 关键发现
+## Key Findings
 
-1. **B组整体优于A组**: 加权总分提升 6.85%，具有统计意义
+1.  **Group B generally outperforms Group A**: Weighted total score increased by 6.85%, which is statistically significant.
 
-2. **忠实度提升最显著**: +0.428（14.3%提升）
-   - 提供参考数据后，数值准确性明显提高
-   - A组平均忠实度仅 2.99，说明纯视觉识别数值存在较大误差
+2.  **Faithfulness improved most significantly**: +0.428 (14.3% improvement)
+    -   After providing reference data, numerical accuracy significantly improved.
+    -   Group A's average faithfulness was only 2.99, indicating significant errors in numerical recognition based purely on visual input.
 
-3. **覆盖度和分析深度中等提升**: 约 +0.25
-   - 有参考信息时，模型能覆盖更多关键数据点
-   - 分析深度也相应提高
+3.  **Moderate improvement in completeness and analysis depth**: approximately +0.25
+    -   With reference information, the model can cover more key data points.
+    -   Analysis depth also increased accordingly.
 
-4. **逻辑性和简洁性差异较小**:
-   - 结构质量主要由系统提示词决定
-   - 参考信息对输出格式影响有限
+4.  **Smaller difference in logicality and conciseness**:
+    -   Structural quality is primarily determined by the system prompt.
+    -   Reference information has limited impact on output format.
 
-5. **B组结果更稳定**:
-   - 标准差从 0.521 降至 0.398
-   - 最低分从 1.0 提升至 2.95
+5.  **Group B results are more stable**:
+    -   Standard deviation decreased from 0.521 to 0.398.
+    -   Minimum score increased from 1.0 to 2.95.
 
-## 结论
+## Conclusion
 
-提供内部参考信息能够显著提升图表总结的质量，尤其是在**数值准确性（忠实度）**方面。这验证了在 VLM 图表理解任务中，结合结构化数据作为辅助信息是有效的策略。
+Providing internal reference information can significantly improve the quality of chart summarization, especially in terms of **numerical accuracy (faithfulness)**. This validates that combining structured data as auxiliary information is an effective strategy in VLM chart understanding tasks.
 
-## 文件结构
+## File Structure
 
 ```
 ab_experiment_20241204/
-├── README.md                    # 本文档
-├── ab_experiment.py             # 生成实验脚本（异步并发）
-├── evaluate_ab.py               # 评估脚本（GPT-5 Judge）
-├── ab_experiment_results/       # 生成结果
-│   ├── sample_list.json         # 抽样列表
-│   ├── results_group_a.json     # A组原始结果
-│   ├── results_group_b.json     # B组原始结果
-│   ├── results_combined.json    # 配对对比结果
-│   └── experiment_summary.json  # 生成统计摘要
-└── ab_evaluation_results/       # 评估结果
-    ├── eval_group_a.json        # A组评估详情
-    ├── eval_group_b.json        # B组评估详情
-    └── evaluation_summary.json  # 评估统计摘要
+├── README.md                    # This document
+├── ab_experiment.py             # Generation experiment script (async concurrent)
+├── evaluate_ab.py               # Evaluation script (GPT-5 Judge)
+├── ab_experiment_results/       # Generation results
+│   ├── sample_list.json         # Sample list
+│   ├── results_group_a.json     # Group A raw results
+│   ├── results_group_b.json     # Group B raw results
+│   ├── results_combined.json    # Paired comparison results
+│   └── experiment_summary.json  # Generation statistics summary
+└── ab_evaluation_results/       # Evaluation results
+    ├── eval_group_a.json        # Group A evaluation details
+    ├── eval_group_b.json        # Group B evaluation details
+    └── evaluation_summary.json  # Evaluation statistics summary
 ```
 
-## 复现说明
+## Reproduction Instructions
 
 ```bash
-# 1. 运行生成实验
+# 1. Run generation experiment
 python ab_experiment.py
 
-# 2. 运行评估
+# 2. Run evaluation
 python evaluate_ab.py
 ```
 
-**依赖**:
+**Dependencies**:
 - openai (AsyncOpenAI)
-- 数据处理模块: `chart-synthesis-v3/scripts/data_processors/`
+- Data processing module: `chart-synthesis-v3/scripts/data_processors/`

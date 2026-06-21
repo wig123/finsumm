@@ -1,54 +1,54 @@
-# Feature: Evaluation - 图表总结质量评估
+# Feature: Evaluation - Chart Summarization Quality Evaluation
 
 ## Goal
 
-- 评估模型生成总结的准确性和完整性
-- 区分数值准确、语义相似、数据接地三个维度
+- Evaluate the accuracy and completeness of model-generated summaries.
+- Differentiate between three dimensions: numerical accuracy, semantic similarity, and data grounding.
 
-## 评估层级
+## Evaluation Levels
 
-| 层级 | 指标 | 优先级 |
+| Level | Metric | Priority |
 |------|------|--------|
-| P0 | Numerical F1 (数值准确) | 必须 |
-| P0 | PARENT (数据接地) | 必须 |
-| P1 | CIDEr (关键信息覆盖) | 推荐 |
-| P1 | Entity F1 (实体准确) | 推荐 |
-| P1 | BLEURT (整体质量) | 推荐 |
-| P2 | FactScore v2 | 可选 |
+| P0 | Numerical F1 (Numerical Accuracy) | Must |
+| P0 | PARENT (Data Grounding) | Must |
+| P1 | CIDEr (Key Information Coverage) | Recommended |
+| P1 | Entity F1 (Entity Accuracy) | Recommended |
+| P1 | BLEURT (Overall Quality) | Recommended |
+| P2 | FactScore v2 | Optional |
 
 ## Inputs / Outputs
 
 **Inputs**:
-- 模型生成的总结（prediction）
-- 参考总结（reference）
-- 图表图片（chart.png）
+- Model-generated summary (prediction)
+- Reference summary (reference)
+- Chart image (chart.png)
 
-**Outputs**: 评估分数 + 事实级别诊断
+**Outputs**: Evaluation scores + Fact-level diagnostics
 
-## FactScore v2 设计
+## FactScore v2 Design
 
 ```
-pred_facts → 与 ref_facts 对比
-          → 匹配: Ref Match
-          → 不匹配: 由GPT-4判断是否图表支持
-                  → 支持: Chart Support
-                  → 不支持: 错误
+pred_facts → Compare with ref_facts
+          → Match: Ref Match
+          → No match: GPT-4 judges whether chart supports it
+                  → Supported: Chart Support
+                  → Not supported: Error
 ```
 
-**关键决策**:
-- 数值比对用规则计算（避免模型误差）
-- 区分"参考匹配"和"图表支持"两种正确类型
+**Key Decisions**:
+- Use rule-based calculations for numerical comparison (to avoid model errors).
+- Differentiate between two types of correctness: "reference match" and "chart supported".
 
 ## Constraints
 
-- 数值容差: 精确值1%, 推导值5%
-- 不使用reason字段（太长）
+- Numerical tolerance: 1% for exact values, 5% for derived values.
+- Do not use the "reason" field (too verbose).
 
 ## Non-goals
 
-- MAPE/RMSE（不适合提取任务）
-- MoverScore（与BERTScore高度相关，边际收益低）
+- MAPE/RMSE (not suitable for extraction tasks).
+- MoverScore (highly correlated with BERTScore, low marginal gain).
 
 ## Links
 
-- 实验目录: `docs/ab_experiment_*/`
+- Experiment directory: `docs/ab_experiment_*/`
